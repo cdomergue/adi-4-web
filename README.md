@@ -9,6 +9,9 @@ npm --prefix web run dev
 ```
 
 Ouvrir **<http://127.0.0.1:4173/#game/wgob3>** pour Goblins 3 (WGOB3).
+**Mr. Matt I** est disponible à **<http://127.0.0.1:4173/#game/mrmatt1>** :
+25 niveaux, quatre décors, sons originaux et sauvegarde locale. Ses ressources
+sont fournies dans `web/public/game/mrmatt1/` sans préparation supplémentaire.
 La chambre, la ludothèque et Sokoban sont aussi inclus. Le moteur WebAssembly,
 les données du jeu et les licences sont suivis dans Git : aucun téléchargement
 supplémentaire, `npm install`, setup, extraction ou compilation n’est nécessaire.
@@ -18,6 +21,7 @@ supplémentaire, `npm install`, setup, extraction ou compilation n’est nécess
 Les médias Sciences restent locaux et doivent être extraits séparément ; cette
 livraison rend WGOB3 jouable après clone, pas toute la station Sciences.
 Voir [l’analyse Ghidra et le portage WGOB3](reports/wgob3-portage.md).
+Voir aussi [le portage Mr. Matt I et ses vérifications](reports/mrmatt1-portage.md).
 
 ## Historique de l’extraction Sciences
 

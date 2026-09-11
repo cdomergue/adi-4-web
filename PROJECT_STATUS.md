@@ -23,6 +23,16 @@ le fonctionnement. Il ne s’agit pas d’une réécriture JS intégrale. Voir l
 Le moteur compilé, les données WGOB3 et les ressources chambre/ludothèque/Sokoban
 sont inclus dans Git : un clone suffit, puis `npm --prefix web run dev` avec Node.js 22+.
 
+## MRMATT1 — reconstruction web
+
+Mr. Matt I est accessible à `#game/mrmatt1` depuis la ludothèque. Le moteur
+JavaScript reprend les règles décompilées avec Ghidra dans l’exécutable PE32 1.5.
+Les 25 niveaux des cinq fichiers MAT sont jouables, avec les quatre décors et
+les sons originaux, annulation, clichés, reprise locale et démonstrations.
+Les 25 solutions SOX passent, soit 11 698 déplacements, avec ou sans la protection
+« Déplacements réfléchis ». Ressources web incluses, sans extraction au lancement.
+Voir [le rapport de portage](reports/mrmatt1-portage.md).
+
 ## Station à reprendre
 
 - 347 exercices : blocs de texte extraits, interactions encore à porter.

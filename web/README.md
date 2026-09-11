@@ -63,3 +63,16 @@ Les extractions d’origine sont nécessaires uniquement pour régénérer les d
 Le déploiement statique doit servir `.wasm` avec `application/wasm`.
 Les sauvegardes sont propres à l’origine du navigateur (adresse et port) ;
 l’export/import permet de les transférer lors d’un futur déploiement.
+
+## Mr. Matt I / MRMATT1
+
+`#game/mrmatt1` ouvre les 25 niveaux des cinq jeux MAT du disque. Moteur
+JavaScript recréé depuis l’analyse Ghidra, quatre décors et sons originaux.
+Flèches, clic sur une case alignée et boutons tactiles ; annulation, clichés,
+démonstrations SOX et sauvegarde automatique dans le navigateur. Les ressources
+de `public/game/mrmatt1/` sont incluses dans la distribution, sans Python ni Wine
+pour jouer. `npm test` rejoue les 25 solutions originales et vérifie les fichiers.
+Régénération facultative : `python3 scripts/prepare_mrmatt1.py` depuis la racine,
+avec les extractions originales, Pillow et 7z. Les deux tests Python de l’extracteur
+demandent ces sources ; les tests web s’exécutent sans elles.
+Voir [l’analyse, les captures et les limites](../reports/mrmatt1-portage.md).

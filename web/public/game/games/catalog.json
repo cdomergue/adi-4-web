@@ -191,12 +191,13 @@
   },
   {
     "id": "mrmatt1",
-    "title": "MRMATT1",
+    "title": "Mr. Matt I",
     "source": "extracted/discs/Adi421EnvCol2/Games/MrMatt1/MRMATT1.EXE",
     "format": "Win32 PE",
     "sha256": "596b17f8f9aeeba3e5cb9d26e083c9318cd0d9c6d4cbbbd444edbb3c20bbfcda",
     "image": "/game/games/MRMATT1.webp",
-    "image_source": "extracted/resources/Adi421EnvCol1/INTRO.ITK/MRMATT1.VMD"
+    "image_source": "extracted/resources/Adi421EnvCol1/INTRO.ITK/MRMATT1.VMD",
+    "route": "#game/mrmatt1"
   },
   {
     "id": "mrmatt2",

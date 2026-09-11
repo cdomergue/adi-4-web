@@ -1,0 +1,237 @@
+{
+  "source": "extracted/discs/Adi421EnvCol2/Games/MrMatt1",
+  "sources": [
+    {
+      "name": "MRMATT1.EXE",
+      "size": 815616,
+      "sha256": "596b17f8f9aeeba3e5cb9d26e083c9318cd0d9c6d4cbbbd444edbb3c20bbfcda"
+    },
+    {
+      "name": "MRMATT.SOX",
+      "size": 27642,
+      "sha256": "9bbceac00c53d32f372a514772170e5f2e860b8192a458df8795e1acad323f19"
+    },
+    {
+      "name": "APLECITY.MAT",
+      "size": 3120,
+      "sha256": "5fde6041e770166ff3b6d560c6a7d6d60016fb14dd9874b163b44526bc4051b5"
+    },
+    {
+      "name": "EASY_ONE.MAT",
+      "size": 2501,
+      "sha256": "fb24ce764f7fd2317d89b5004edd34988f15645b9c2240f97761b553cdad3a0b"
+    },
+    {
+      "name": "HAMPSHIR.MAT",
+      "size": 3731,
+      "sha256": "655f69a2fde2bd19cad37f9962b596a52d08cf41b1262e0cc683a6a2e2862f2b"
+    },
+    {
+      "name": "STEPPOUT.MAT",
+      "size": 3135,
+      "sha256": "016ee8ed68239c029cbb2a52063743a2b36e31efb31efbd35584ba6e51679050"
+    },
+    {
+      "name": "STONES.MAT",
+      "size": 3132,
+      "sha256": "7de783719e9fc3cca0c2117eda0123eee79f3bf5789650690db874bd8795ccdf"
+    },
+    {
+      "name": "MM_ALL.WAV",
+      "size": 56858,
+      "sha256": "88e71d32a714224de724ee4cc3f8ca17436acff29f974f87264a0620568495d0"
+    },
+    {
+      "name": "MM_ERROR.WAV",
+      "size": 26668,
+      "sha256": "5d2418fceb39f88303a07cf2d8fa189667791cbbc7ef6e04139fdabc143c6fde"
+    },
+    {
+      "name": "MM_INP.WAV",
+      "size": 4668,
+      "sha256": "8d5f0671e2e9b3f1b4677cddd44ad2f8c04838cb65ed81fc9b68cb9e3b99e61f"
+    },
+    {
+      "name": "MM_KILL.WAV",
+      "size": 51784,
+      "sha256": "01e700092813fa1be16aeb2c698aaa83ecd378b5e2e270096bad68bfd6ace951"
+    },
+    {
+      "name": "MM_NULL.WAV",
+      "size": 1356,
+      "sha256": "11f4cbfd60eceafaa0b4ef4b6d5952883080dabc95fbfee244cbf29f74cd6fb2"
+    },
+    {
+      "name": "MM_PICK.WAV",
+      "size": 1188,
+      "sha256": "bcc026242644c40db99db942d52ced808ba9efc35aa42decba16547e51d88483"
+    },
+    {
+      "name": "MM_REST.WAV",
+      "size": 8576,
+      "sha256": "33059b4ee890ab2e3c2e2217baa0b9b93f953dcba94489b0b7d99939fc7632bf"
+    },
+    {
+      "name": "MM_SNAP.WAV",
+      "size": 8578,
+      "sha256": "eb32700bb8a3cc0582db23edba1b1fbb28b4e00c840f76ca5274bae50a1b7240"
+    },
+    {
+      "name": "MM_STON.WAV",
+      "size": 472,
+      "sha256": "ecce45c64c0d902698e438a4ef5b68acd16985171d991dae770d9366425a6bb8"
+    },
+    {
+      "name": "MM_STUP.WAV",
+      "size": 5374,
+      "sha256": "328121c91203f9239a93b91ccf17175ee0cb81b56748458e668dd1b6d0afff01"
+    },
+    {
+      "name": "MM_TADA.WAV",
+      "size": 37066,
+      "sha256": "2358316b9bb2d75161bec09d4bc7997879929a6cfb4c634b92573229d48cd02c"
+    },
+    {
+      "name": "MM_WIN.WAV",
+      "size": 27364,
+      "sha256": "9e7f590647bbbc3b6c7d15942fb1f5236a249b02b3adeacfc8087b1bbaa5ad96"
+    }
+  ],
+  "files": [
+    {
+      "name": "audio/MM_ALL.wav",
+      "size": 56858,
+      "sha256": "88e71d32a714224de724ee4cc3f8ca17436acff29f974f87264a0620568495d0"
+    },
+    {
+      "name": "audio/MM_ERROR.wav",
+      "size": 26668,
+      "sha256": "5d2418fceb39f88303a07cf2d8fa189667791cbbc7ef6e04139fdabc143c6fde"
+    },
+    {
+      "name": "audio/MM_INP.wav",
+      "size": 4668,
+      "sha256": "8d5f0671e2e9b3f1b4677cddd44ad2f8c04838cb65ed81fc9b68cb9e3b99e61f"
+    },
+    {
+      "name": "audio/MM_KILL.wav",
+      "size": 51784,
+      "sha256": "01e700092813fa1be16aeb2c698aaa83ecd378b5e2e270096bad68bfd6ace951"
+    },
+    {
+      "name": "audio/MM_NULL.wav",
+      "size": 1356,
+      "sha256": "11f4cbfd60eceafaa0b4ef4b6d5952883080dabc95fbfee244cbf29f74cd6fb2"
+    },
+    {
+      "name": "audio/MM_PICK.wav",
+      "size": 1188,
+      "sha256": "bcc026242644c40db99db942d52ced808ba9efc35aa42decba16547e51d88483"
+    },
+    {
+      "name": "audio/MM_REST.wav",
+      "size": 8576,
+      "sha256": "33059b4ee890ab2e3c2e2217baa0b9b93f953dcba94489b0b7d99939fc7632bf"
+    },
+    {
+      "name": "audio/MM_SNAP.wav",
+      "size": 8578,
+      "sha256": "eb32700bb8a3cc0582db23edba1b1fbb28b4e00c840f76ca5274bae50a1b7240"
+    },
+    {
+      "name": "audio/MM_STON.wav",
+      "size": 472,
+      "sha256": "ecce45c64c0d902698e438a4ef5b68acd16985171d991dae770d9366425a6bb8"
+    },
+    {
+      "name": "audio/MM_STUP.wav",
+      "size": 5374,
+      "sha256": "328121c91203f9239a93b91ccf17175ee0cb81b56748458e668dd1b6d0afff01"
+    },
+    {
+      "name": "audio/MM_TADA.wav",
+      "size": 37066,
+      "sha256": "2358316b9bb2d75161bec09d4bc7997879929a6cfb4c634b92573229d48cd02c"
+    },
+    {
+      "name": "audio/MM_WIN.wav",
+      "size": 27364,
+      "sha256": "9e7f590647bbbc3b6c7d15942fb1f5236a249b02b3adeacfc8087b1bbaa5ad96"
+    },
+    {
+      "name": "levels.json",
+      "size": 228189,
+      "sha256": "f6d4da5339ab7ad1d80bfb693627da48d46c7108a97400f0aa6b05e5bdf65a0f"
+    },
+    {
+      "name": "tiles.webp",
+      "size": 2032,
+      "sha256": "d8e11d85dc48342e5f76be9db931089127c20d5ce88f038b73f5bc9963abaea3"
+    }
+  ],
+  "graphics": {
+    "resource": "RCDATA/TMAIN",
+    "offsets": [
+      [
+        310539,
+        310859,
+        311179,
+        311499,
+        311819,
+        312140,
+        312461,
+        312781,
+        313101,
+        313422
+      ],
+      [
+        307224,
+        307544,
+        307864,
+        308184,
+        308504,
+        308825,
+        309145,
+        309466,
+        309786,
+        310107
+      ],
+      [
+        313854,
+        314174,
+        314494,
+        314814,
+        315134,
+        315455,
+        315776,
+        316096,
+        316416,
+        316737
+      ],
+      [
+        317169,
+        317489,
+        317809,
+        318129,
+        318449,
+        318770,
+        319091,
+        319411,
+        319731,
+        320052
+      ]
+    ],
+    "columns": [
+      0,
+      1,
+      3,
+      2,
+      4,
+      9,
+      10,
+      5,
+      6,
+      7
+    ]
+  }
+}
