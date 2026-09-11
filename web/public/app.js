@@ -2,6 +2,9 @@ import {scenes, renderScene} from './scenes.js';
 import {renderGreenhouse} from './greenhouse.js';
 import {renderSimulations,renderSimulation} from './simulations.js';
 import {renderEncyclopedia,showOriginalMedia} from './encyclopedia.js';
+import {renderRoom} from './room.js';
+import {renderGames} from './games.js';
+import {renderSokoban} from './sokoban.js';
 const main = document.querySelector('#main');
 const dialog = document.querySelector('#info-dialog');
 const $ = (selector) => document.querySelector(selector);
@@ -45,7 +48,7 @@ function info(title, html) {
 }
 $('#dialog-close').onclick = () => dialog.close();
 dialog.addEventListener('close',()=>dialog.querySelectorAll('audio,video').forEach(media=>media.pause()));
-$('#about-button').onclick = () => info('Une nouvelle vie pour Adi 4', `<p>Cette première base utilise les images et les textes extraits de ton jeu original.</p><p><strong>Déjà accessible :</strong> les décors originaux de la station, 14 simulations avec leurs calculs, animations et voix, l’encyclopédie illustrée et ses films, les cours des quatre niveaux, le dictionnaire et un carnet enregistré sur cet appareil.</p><p><strong>À venir :</strong> la chambre interactive, les séquences complètes d’Adi, les exercices et les jeux. L’accueil est provisoire ; ce n’est pas encore la chambre jouable.</p><p>Les textes sont ceux de l’édition originale de 1998–1999. Leur contenu n’a pas été actualisé. Les illustrations et médias liés aux cours ne sont pas encore tous disponibles.</p><p>Le carnet web est indépendant des sauvegardes du jeu d’origine. ${storageWorks ? 'Il est enregistré dans ce navigateur.' : 'Le stockage du navigateur est actuellement indisponible.'}</p>`);
+$('#about-button').onclick = () => info('Une nouvelle vie pour Adi 4', `<p>Cette version utilise les images et les textes de ton jeu original.</p><p><strong>Déjà accessible :</strong> une première chambre avec sa barre animée, Sokoban et ses 15 niveaux, les décors originaux de la station, 14 simulations avec leurs calculs, animations et voix, l’encyclopédie illustrée et ses films, les cours des quatre niveaux, le dictionnaire et un carnet enregistré sur cet appareil.</p><p><strong>À venir :</strong> les objets et surprises de la chambre, les séquences complètes d’Adi, les exercices et les autres jeux. La chambre utilise encore une capture de référence avec Adi immobile.</p><p>Les textes sont ceux de l’édition originale de 1998–1999. Leur contenu n’a pas été actualisé. Les illustrations et médias liés aux cours ne sont pas encore tous disponibles.</p><p>Le carnet web est indépendant des sauvegardes du jeu d’origine. ${storageWorks ? 'Il est enregistré dans ce navigateur.' : 'Le stockage du navigateur est actuellement indisponible.'}</p>`);
 
 function home() {
   document.title = 'Chez Adi · ADI 4';
@@ -161,7 +164,10 @@ function route() {
   else if (hash.startsWith('scene/') && scenes[hash.slice(6)]) { renderScene(main,hash.slice(6)); active='science'; }
   else if (hash === 'science') science();
   else if (hash === 'notebook') notebook();
-  else { home(); active = 'room'; }
+  else if (hash === 'games') {renderGames(main,info);active='room';}
+  else if (hash === 'game/sokoban') {renderSokoban(main);active='room';}
+  else if (hash === 'welcome') {home();active='room';}
+  else { renderRoom(main,info); active = 'room'; }
   document.querySelectorAll('[data-nav]').forEach(link => {
     link.classList.toggle('active', link.dataset.nav === active);
     if (link.dataset.nav === active) link.setAttribute('aria-current','page'); else link.removeAttribute('aria-current');
