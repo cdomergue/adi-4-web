@@ -1,0 +1,13 @@
+{
+  "name": "adi4-sciences-web",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node server.mjs",
+    "build": "node build.mjs",
+    "preview": "node server.mjs --dist",
+    "check": "node --check public/app.js && node --check public/scenes.js && node --check server.mjs && node --check build.mjs && node --check public/greenhouse.js && node --check public/greenhouse-rules.js && node --check public/simulations.js && node --check public/simulation-engine.js && node --check public/original-calculations.js && node --check public/encyclopedia.js",
+    "test": "node --test tests/*.test.mjs"
+  }
+}

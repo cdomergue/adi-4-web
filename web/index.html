@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#111c29">
+  <meta name="description" content="Retrouver l’univers d’Adi 4 et explorer ses cours de Sciences. Une reconstruction web personnelle, en cours de réalisation.">
+  <title>ADI 4 · Sciences</title>
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <a class="skip" href="#main">Aller au contenu</a>
+  <header class="topbar">
+    <a class="brand" href="#room" aria-label="Adi 4, accueil"><span class="logo">ADI<span>4</span></span><span class="brand-caption">LE PLAISIR DE DÉCOUVRIR</span></a>
+    <nav aria-label="Navigation principale">
+      <a href="#room" data-nav="room">La chambre</a>
+      <a href="#scene/station" data-nav="science">Sciences</a>
+      <a href="#notebook" data-nav="notebook">Mon carnet <span id="saved-count">0</span></a>
+    </nav>
+    <span class="version"><i></i> VERSION WEB · 0.1</span>
+  </header>
+  <main id="main" tabindex="-1"><p class="loading">On ouvre les livres d’Adi…</p></main>
+  <footer><span>ADI 4 · Sciences, de la 6e à la 3e</span><span>Une aventure que l’on reconstruit, un écran à la fois.</span><button id="about-button">À propos de cette version</button></footer>
+  <dialog id="info-dialog" aria-labelledby="dialog-title"><div class="dialog-heading"><h2 id="dialog-title"></h2><button id="dialog-close" aria-label="Fermer">×</button></div><div id="dialog-content"></div></dialog>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <script type="module" src="/app.js"></script>
+</body>
+</html>
