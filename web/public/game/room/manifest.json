@@ -1,0 +1,202 @@
+[
+  {
+    "file": "image-*.webp",
+    "source": "extracted/resources/Adi421EnvCol1/ENVIR.STK/IMAGE.EXT",
+    "kind": "38 native RGB555 backgrounds",
+    "sha256": "9904fe83017242b59a543529634ac0db7d1f03fbf99de5be5d9ee72e0ff2fa41"
+  },
+  {
+    "file": "ADIPZD12-motion.webp",
+    "source": "extracted/resources/Adi421EnvCol1/ADIANI.ITK/ADIPZD12.VMD",
+    "width": 102,
+    "height": 218,
+    "stored_width": 102,
+    "origin": [
+      257,
+      188
+    ],
+    "frames": 49,
+    "parts_per_frame": 1,
+    "version": 13,
+    "flags": 16513,
+    "bytes_per_pixel": 2,
+    "blit_mode": 2,
+    "sample_rate": 0,
+    "sound_flags": 0,
+    "slice_size": 0,
+    "fps": 12,
+    "sha256": "85a309429c56ce86ec15b4dce46051f358c4d91de7f6cdddb059e9129ee5fb16"
+  },
+  {
+    "file": "XOURSA-motion.webp",
+    "source": "extracted/resources/Adi421EnvCol1/ADIANI.ITK/XOURSA.VMD",
+    "width": 147,
+    "height": 124,
+    "stored_width": 147,
+    "origin": [
+      42,
+      274
+    ],
+    "frames": 38,
+    "parts_per_frame": 2,
+    "version": 13,
+    "flags": 20609,
+    "bytes_per_pixel": 2,
+    "blit_mode": 2,
+    "sample_rate": 22050,
+    "sound_flags": 17,
+    "slice_size": -1837,
+    "fps": 12.003266194882961,
+    "sha256": "5c8d30f801c3cf3359603e7ffbaf3432a72fbe377847e60a2a27d5dde176d141"
+  },
+  {
+    "file": "XTELESKA-motion.webp",
+    "source": "extracted/resources/Adi421EnvCol1/ADIANI.ITK/XTELESKA.VMD",
+    "width": 154,
+    "height": 233,
+    "stored_width": 154,
+    "origin": [
+      465,
+      186
+    ],
+    "frames": 74,
+    "parts_per_frame": 2,
+    "version": 13,
+    "flags": 20609,
+    "bytes_per_pixel": 2,
+    "blit_mode": 2,
+    "sample_rate": 22050,
+    "sound_flags": 17,
+    "slice_size": -1837,
+    "fps": 12.003266194882961,
+    "sha256": "6d2b766254b93122618ff5264d180e6733666a639ca512af72679814a808a342"
+  },
+  {
+    "file": "XJEUXH-motion.webp",
+    "source": "extracted/resources/Adi421EnvCol1/ADIANI.ITK/XJEUXH.VMD",
+    "width": 265,
+    "height": 313,
+    "stored_width": 265,
+    "origin": [
+      375,
+      118
+    ],
+    "frames": 100,
+    "parts_per_frame": 2,
+    "version": 13,
+    "flags": 20609,
+    "bytes_per_pixel": 2,
+    "blit_mode": 2,
+    "sample_rate": 22050,
+    "sound_flags": 17,
+    "slice_size": -1837,
+    "fps": 12.003266194882961,
+    "sha256": "5d52eb535759d2d347ad1583257eaf21c98fd9f46908b68f83a83c7fea09b09b"
+  },
+  {
+    "file": "XMALLA-motion.webp",
+    "source": "extracted/resources/Adi421EnvCol1/ADIANI.ITK/XMALLA.VMD",
+    "width": 351,
+    "height": 202,
+    "stored_width": 351,
+    "origin": [
+      0,
+      278
+    ],
+    "frames": 156,
+    "parts_per_frame": 2,
+    "version": 13,
+    "flags": 20609,
+    "bytes_per_pixel": 2,
+    "blit_mode": 2,
+    "sample_rate": 22050,
+    "sound_flags": 17,
+    "slice_size": -1837,
+    "fps": 12.003266194882961,
+    "sha256": "711024350ddc28dc3989145a0989402cdd065d26512ca51ac4d50c601e09cf92"
+  },
+  {
+    "file": "XFAUTA-motion.webp",
+    "source": "extracted/resources/Adi421EnvCol1/ADIANI.ITK/XFAUTA.VMD",
+    "width": 188,
+    "height": 163,
+    "stored_width": 188,
+    "origin": [
+      126,
+      152
+    ],
+    "frames": 99,
+    "parts_per_frame": 2,
+    "version": 13,
+    "flags": 20609,
+    "bytes_per_pixel": 2,
+    "blit_mode": 2,
+    "sample_rate": 22050,
+    "sound_flags": 17,
+    "slice_size": -1837,
+    "fps": 12.003266194882961,
+    "sha256": "73ccca5889241d6dfd1e3414f4459bd769dc66938c298535976ddecf6fb50d4f"
+  },
+  {
+    "file": "XPLAND-motion.webp",
+    "source": "extracted/resources/Adi421EnvCol1/ADIANI.ITK/XPLAND.VMD",
+    "width": 276,
+    "height": 241,
+    "stored_width": 276,
+    "origin": [
+      0,
+      33
+    ],
+    "frames": 99,
+    "parts_per_frame": 2,
+    "version": 13,
+    "flags": 20609,
+    "bytes_per_pixel": 2,
+    "blit_mode": 2,
+    "sample_rate": 22050,
+    "sound_flags": 17,
+    "slice_size": -1837,
+    "fps": 12.003266194882961,
+    "sha256": "724893a531b7da4b77f3c2ae6ee3333bed8ff586b35e5576c8cf7c621aead885"
+  },
+  {
+    "file": "BARINTER.webp",
+    "source": "extracted/resources/Adi421EnvCol1/INTRO.ITK/BARINTER.VMD",
+    "sha256": "239fa2c57c827f57b57c469a80ddf507bb5ece1c0c22a11effc226c82e143c68"
+  },
+  {
+    "file": "BARAPPLI.webp",
+    "source": "extracted/resources/Adi421EnvCol1/INTRO.ITK/BARAPPLI.VMD",
+    "sha256": "629c84e3ca8eeeae9c9cd246daed55b898df17307b59af06477b580a089a735b"
+  },
+  {
+    "file": "BARJEUX.webp",
+    "source": "extracted/resources/Adi421EnvCol1/INTRO.ITK/BARJEUX.VMD",
+    "sha256": "9763222b4896421240abceb4c9472c01a30e10aa2d47512a479e6f5dbc9963c2"
+  },
+  {
+    "file": "BAROUTIL.webp",
+    "source": "extracted/resources/Adi421EnvCol1/INTRO.ITK/BAROUTIL.VMD",
+    "sha256": "ad589e1203dca567d47bf7624e67f5f2784ca1e3b31ccab11e376ad989df9b9a"
+  },
+  {
+    "file": "BARDOCS.webp",
+    "source": "extracted/resources/Adi421EnvCol1/INTRO.ITK/BARDOCS.VMD",
+    "sha256": "d91f6f1388ddea8f68f06573de62010141cfbd922a78b50410359db4fd56083e"
+  },
+  {
+    "file": "BARANIM.webp",
+    "source": "extracted/resources/Adi421EnvCol1/INTRO.ITK/BARANIM.VMD",
+    "sha256": "471d0c0fc75269509591b6a3a057d68ee3bbfb65ee7acfb67be61bd5cb421f0d"
+  },
+  {
+    "file": "BARAIDE.webp",
+    "source": "extracted/resources/Adi421EnvCol1/INTRO.ITK/BARAIDE.VMD",
+    "sha256": "8e43902062d0d87ab99c4cb5121305a1a0fa311fa794bea67af88b8cc1149b86"
+  },
+  {
+    "file": "BARPORTE.webp",
+    "source": "extracted/resources/Adi421EnvCol1/INTRO.ITK/BARPORTE.VMD",
+    "sha256": "abf04da1971570bbc359ab6ddaa486159bdb5d0fe6cd745d3e0d0df7667fecd9"
+  }
+]

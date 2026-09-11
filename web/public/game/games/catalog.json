@@ -1,0 +1,364 @@
+[
+  {
+    "id": "aztec",
+    "title": "Aztec Curse",
+    "source": "extracted/discs/Adi421EnvCol2/Games/Aztec/AZTEC.EXE",
+    "format": "Win16 NE",
+    "sha256": "9ef1946d98590baa7f5b7905c28b74554403ab7e634a9c482ab6ae1ddba8180d",
+    "image": "/game/games/AZTEC.webp",
+    "image_source": "extracted/resources/Adi421EnvCol1/INTRO.ITK/AZTEC.VMD"
+  },
+  {
+    "id": "backgfr",
+    "title": "BACKGFR",
+    "source": "extracted/discs/Adi421EnvCol2/Games/Backgfr/BACKGFR.EXE",
+    "format": "Win16 NE",
+    "sha256": "2002169cf4cf03bf13ffb78e9641b796b445c1594c7d3f573c47eaefaa52f4c6",
+    "image": "/game/games/BACKGFR.webp",
+    "image_source": "extracted/resources/Adi421EnvCol1/INTRO.ITK/BACKGAM.VMD"
+  },
+  {
+    "id": "beebop1",
+    "title": "BeeBop I",
+    "source": "extracted/discs/Adi421EnvCol2/Games/Beebop1/BEEBOP1.EXE",
+    "format": "Win16 NE",
+    "sha256": "6246d4e24e9f301c0cb0bba5e8f1e357e227194fde4f210d6a0df063db142ebc",
+    "image": "/game/games/BEEBOP1.webp",
+    "image_source": "extracted/resources/Adi421EnvCol1/INTRO.ITK/BEEBOP1.VMD"
+  },
+  {
+    "id": "beebop2",
+    "title": "BeeBop II",
+    "source": "extracted/discs/Adi421EnvCol2/Games/Beebop2/BEEBOP2.EXE",
+    "format": "Win16 NE",
+    "sha256": "948ed1705fc585a7f9583619ffe34365f657207c7de1827c17c4b9471ff737ad",
+    "image": "/game/games/BEEBOP2.webp",
+    "image_source": "extracted/resources/Adi421EnvCol1/INTRO.ITK/BEEBOP2.VMD"
+  },
+  {
+    "id": "billfra",
+    "title": "BILLFRA",
+    "source": "extracted/discs/Adi421EnvCol2/Games/BillFra/BILLFRA.EXE",
+    "format": "Win16 NE",
+    "sha256": "c8b4bd35ee7d9327f7d0c0e3e6f46ab3c59e4fe7d45dc9727ececde6f2405004",
+    "image": "/game/games/BILLFRA.webp",
+    "image_source": "extracted/resources/Adi421EnvCol1/INTRO.ITK/BILLFRA.VMD"
+  },
+  {
+    "id": "bt3d_1",
+    "title": "Bad Toys 3D I",
+    "source": "extracted/discs/Adi421EnvCol2/Games/Bt3D/BT3D_1.EXE",
+    "format": "Win16 NE",
+    "sha256": "4e5c3d2dec3b5cb1c0db14f0c0b004a15a4a5ab138e6b8e13b651ccf73b2aafb",
+    "image": "/game/games/BT3D_1.webp",
+    "image_source": "extracted/resources/Adi421EnvCol1/INTRO.ITK/BT3D_1.VMD"
+  },
+  {
+    "id": "bt3d_2",
+    "title": "BT3D_2",
+    "source": "extracted/discs/Adi421EnvCol2/Games/Bt3D/BT3D_2.EXE",
+    "format": "Win16 NE",
+    "sha256": "1da41db69a9fca7b770bdddd8a65a8219c59b67d7c96ae509938a743050b60ca",
+    "image": "/game/games/BT3D_2.webp",
+    "image_source": "extracted/resources/Adi421EnvCol1/INTRO.ITK/BT3D_2.VMD"
+  },
+  {
+    "id": "bt3d_3",
+    "title": "BT3D_3",
+    "source": "extracted/discs/Adi421EnvCol2/Games/Bt3D/BT3D_3.EXE",
+    "format": "Win16 NE",
+    "sha256": "1a49cb3e1685d2abf9cd5664b3aea410d83efb9e1da72041dc69efe417befbc2",
+    "image": "/game/games/BT3D_3.webp",
+    "image_source": "extracted/resources/Adi421EnvCol1/INTRO.ITK/BT3D_3.VMD"
+  },
+  {
+    "id": "bt3d_4",
+    "title": "BT3D_4",
+    "source": "extracted/discs/Adi421EnvCol2/Games/Bt3D/BT3D_4.EXE",
+    "format": "Win16 NE",
+    "sha256": "3fb4a677d3bab936c44f7d757804101d12b74e33202a28b6e0527728b9e54d7a",
+    "image": "/game/games/BT3D_4.webp",
+    "image_source": "extracted/resources/Adi421EnvCol1/INTRO.ITK/BT3D_4.VMD"
+  },
+  {
+    "id": "cellulfr",
+    "title": "CELLULFR",
+    "source": "extracted/discs/Adi421EnvCol2/Games/CellulFr/CELLULFR.EXE",
+    "format": "Win16 NE",
+    "sha256": "3f60d119ab9c8c193b60fb492e9d122129125e30b4a0760bea8df4ac8b106ffd",
+    "image": "/game/games/CELLULFR.webp",
+    "image_source": "extracted/resources/Adi421EnvCol1/INTRO.ITK/CELLUL.VMD"
+  },
+  {
+    "id": "chessfr",
+    "title": "CHESSFR",
+    "source": "extracted/discs/Adi421EnvCol2/Games/Chessfr/CHESSFR.EXE",
+    "format": "Win16 NE",
+    "sha256": "c9c7109cf11e87e3ca017733cbd3252221e74f44ca1580d6840e3e2eb64bff3b",
+    "image": "/game/games/CHESSFR.webp",
+    "image_source": "extracted/resources/Adi421EnvCol1/INTRO.ITK/CHESS.VMD"
+  },
+  {
+    "id": "pinball2",
+    "title": "Creep Night",
+    "source": "extracted/discs/Adi421EnvCol2/Games/Creepfr/PINBALL2.EXE",
+    "format": "Win32 PE",
+    "sha256": "86d1a8fdf7104d8bff6520f66c4a9ab1971883e817cedbdc3eabe9aad9594448",
+    "image": "/game/games/PINBALL2.webp",
+    "image_source": "extracted/resources/Adi421EnvCol1/INTRO.ITK/CREEP.VMD"
+  },
+  {
+    "id": "frustr",
+    "title": "FRUSTR",
+    "source": "extracted/discs/Adi421EnvCol2/Games/Frustr/FRUSTR.EXE",
+    "format": "Win16 NE",
+    "sha256": "f0677a09f2e03d6b8f0cd8e0af101f319de840eaeab159779329f8877abad028",
+    "image": "/game/games/FRUSTR.webp",
+    "image_source": "extracted/resources/Adi421EnvCol1/INTRO.ITK/FRUSTR.VMD"
+  },
+  {
+    "id": "wgob1",
+    "title": "WGOB1",
+    "source": "extracted/discs/Adi421EnvCol2/Games/Gob1/WGOB1.EXE",
+    "format": "Win16 NE",
+    "sha256": "ad2da1e88abd06581f4d300908ca0c110ff80e386abc633127b63689c44c78a3",
+    "image": "/game/games/WGOB1.webp",
+    "image_source": "extracted/resources/Adi421EnvCol1/INTRO.ITK/GOB1.VMD"
+  },
+  {
+    "id": "wgob2",
+    "title": "WGOB2",
+    "source": "extracted/discs/Adi421EnvCol2/Games/Gob2/WGOB2.EXE",
+    "format": "Win16 NE",
+    "sha256": "9f848754159ed29abff705bf57a7d0caa91b815b10d4de1d18553586488a1c4d",
+    "image": "/game/games/WGOB2.webp",
+    "image_source": "extracted/resources/Adi421EnvCol1/INTRO.ITK/GOB2.VMD"
+  },
+  {
+    "id": "wgob3",
+    "title": "Goblins 3",
+    "source": "extracted/discs/Adi421EnvCol2/Games/Gob3/WGOB3.EXE",
+    "format": "Win16 NE",
+    "sha256": "88eae709653fa785ee97505b2c511437faecc6d185a92dfa7cf11f37360a37af",
+    "route": "#game/wgob3",
+    "image": "/game/games/WGOB3.webp",
+    "image_source": "extracted/resources/Adi421EnvCol1/INTRO.ITK/GOB3.VMD"
+  },
+  {
+    "id": "hexanfr",
+    "title": "HEXANFR",
+    "source": "extracted/discs/Adi421EnvCol2/Games/Hexanfr/HEXANFR.EXE",
+    "format": "Win16 NE",
+    "sha256": "1e0927b7458f28a4d3985decc7ea7535f995c1dbfd35234a3a1e39384ad36965",
+    "image": "/game/games/HEXANFR.webp",
+    "image_source": "extracted/resources/Adi421EnvCol1/INTRO.ITK/HEXAN.VMD"
+  },
+  {
+    "id": "invade",
+    "title": "Retro Vaders",
+    "source": "extracted/discs/Adi421EnvCol2/Games/Invade/INVADE.EXE",
+    "format": "Win16 NE",
+    "sha256": "dc3a54c8f588251bb3a33d2a6734b7721d71f0b3344deaa775585d5345224144",
+    "image": "/game/games/INVADE.webp",
+    "image_source": "extracted/resources/Adi421EnvCol1/INTRO.ITK/INVADE.VMD"
+  },
+  {
+    "id": "jupiter",
+    "title": "JUPITER",
+    "source": "extracted/discs/Adi421EnvCol2/Games/Jupiter/JUPITER.EXE",
+    "format": "Win32 PE",
+    "sha256": "4ad742f27f347d68d5eed451559de393ba4836f9c32fac714dd2f63f95b5a48d",
+    "image": "/game/games/JUPITER.webp",
+    "image_source": "extracted/resources/Adi421EnvCol1/INTRO.ITK/JUPITER.VMD"
+  },
+  {
+    "id": "lasblo",
+    "title": "Laser Blocks",
+    "source": "extracted/discs/Adi421EnvCol2/Games/LasBlo/LASBLO.EXE",
+    "format": "Win32 PE",
+    "sha256": "fae8b583baf106b66329bac7c3753c0284cc33b2ab6b9c5b9544c7aaee54b367",
+    "image": "/game/games/LASBLO.webp",
+    "image_source": "extracted/resources/Adi421EnvCol1/INTRO.ITK/LASBLO.VMD"
+  },
+  {
+    "id": "lastadi",
+    "title": "LASTADI",
+    "source": "extracted/discs/Adi421EnvCol2/Games/LastAdi/LASTADI.EXE",
+    "format": "Win16 NE",
+    "sha256": "db1c4ef77e72c90e8eadf448813b5b24f75520f863c20c6bd1c0ef40c07d40a5",
+    "image": "/game/games/LASTADI.webp",
+    "image_source": "extracted/resources/Adi421EnvCol1/INTRO.ITK/LAST1.VMD"
+  },
+  {
+    "id": "mrmatt1",
+    "title": "MRMATT1",
+    "source": "extracted/discs/Adi421EnvCol2/Games/MrMatt1/MRMATT1.EXE",
+    "format": "Win32 PE",
+    "sha256": "596b17f8f9aeeba3e5cb9d26e083c9318cd0d9c6d4cbbbd444edbb3c20bbfcda",
+    "image": "/game/games/MRMATT1.webp",
+    "image_source": "extracted/resources/Adi421EnvCol1/INTRO.ITK/MRMATT1.VMD"
+  },
+  {
+    "id": "mrmatt2",
+    "title": "MRMATT2",
+    "source": "extracted/discs/Adi421EnvCol2/Games/MrMatt2/MRMATT2.EXE",
+    "format": "Win32 PE",
+    "sha256": "596b17f8f9aeeba3e5cb9d26e083c9318cd0d9c6d4cbbbd444edbb3c20bbfcda",
+    "image": "/game/games/MRMATT2.webp",
+    "image_source": "extracted/resources/Adi421EnvCol1/INTRO.ITK/MRMATT2.VMD"
+  },
+  {
+    "id": "neuro1fr",
+    "title": "NEURO1FR",
+    "source": "extracted/discs/Adi421EnvCol2/Games/Neuro1fr/NEURO1FR.EXE",
+    "format": "Win16 NE",
+    "sha256": "fc30d0c9e715e8ca5432d452088372da0e9eaab51b6a17af296ab2e7675d3367",
+    "image": "/game/games/NEURO1FR.webp",
+    "image_source": "extracted/resources/Adi421EnvCol1/INTRO.ITK/NEURO1.VMD"
+  },
+  {
+    "id": "neuro2fr",
+    "title": "NEURO2FR",
+    "source": "extracted/discs/Adi421EnvCol2/Games/Neuro2fr/NEURO2FR.EXE",
+    "format": "Win16 NE",
+    "sha256": "5b972d7f5be9a0664a2f30ecd5893c2373667c1628612712cc711e41612434a5",
+    "image": "/game/games/NEURO2FR.webp",
+    "image_source": "extracted/resources/Adi421EnvCol1/INTRO.ITK/NEURO2.VMD"
+  },
+  {
+    "id": "neuro3fr",
+    "title": "NEURO3FR",
+    "source": "extracted/discs/Adi421EnvCol2/Games/Neuro3fr/NEURO3FR.EXE",
+    "format": "Win16 NE",
+    "sha256": "cec964e6fc4da170132b6ccdeb82e7a0ef6361822737ed976d4bc3cd77cb54dc",
+    "image": "/game/games/NEURO3FR.webp",
+    "image_source": "extracted/resources/Adi421EnvCol1/INTRO.ITK/NEURO3.VMD"
+  },
+  {
+    "id": "nucleofr",
+    "title": "NUCLEOFR",
+    "source": "extracted/discs/Adi421EnvCol2/Games/Nucleofr/NUCLEOFR.EXE",
+    "format": "Win16 NE",
+    "sha256": "232c23e7437c4388a1b8657af374f75761a2678c0f846c648aff599733c77a09",
+    "image": "/game/games/NUCLEOFR.webp",
+    "image_source": "extracted/resources/Adi421EnvCol1/INTRO.ITK/NUCLEON.VMD"
+  },
+  {
+    "id": "paragfr",
+    "title": "PARAGFR",
+    "source": "extracted/discs/Adi421EnvCol2/Games/Paragfr/PARAGFR.EXE",
+    "format": "Win16 NE",
+    "sha256": "a7422e21481063ce62e5acf2070417dca01c1063e792c2b19b4f8c4d3cc596f9",
+    "image": "/game/games/PARAGFR.webp",
+    "image_source": "extracted/resources/Adi421EnvCol1/INTRO.ITK/PARAGON.VMD"
+  },
+  {
+    "id": "placebfr",
+    "title": "PLACEBFR",
+    "source": "extracted/discs/Adi421EnvCol2/Games/PlaceBfr/PLACEBFR.EXE",
+    "format": "Win16 NE",
+    "sha256": "1b322a9ea1fa876d3636c2a3858ac85f2ef5bbf3284c34b458fee3bb66cc65c6",
+    "image": "/game/games/PLACEBFR.webp",
+    "image_source": "extracted/resources/Adi421EnvCol1/INTRO.ITK/PLACE.VMD"
+  },
+  {
+    "id": "quadstfr",
+    "title": "QUADSTFR",
+    "source": "extracted/discs/Adi421EnvCol2/Games/QuadStfr/QUADSTFR.EXE",
+    "format": "Win16 NE",
+    "sha256": "a80dcd24a681e905a33bbf6fd273d308076a79fe1101401dbb24e40029e225d6",
+    "image": "/game/games/QUADSTFR.webp",
+    "image_source": "extracted/resources/Adi421EnvCol1/INTRO.ITK/QUADRAT.VMD"
+  },
+  {
+    "id": "relixfr",
+    "title": "RELIXFR",
+    "source": "extracted/discs/Adi421EnvCol2/Games/Relixfr/RELIXFR.EXE",
+    "format": "Win16 NE",
+    "sha256": "cb5465a84c206904cc8aa2444370313712503ae22fbd7e113513d30247001af8",
+    "image": "/game/games/RELIXFR.webp",
+    "image_source": "extracted/resources/Adi421EnvCol1/INTRO.ITK/RELIX.VMD"
+  },
+  {
+    "id": "revolut",
+    "title": "REVOLUT",
+    "source": "extracted/discs/Adi421EnvCol2/Games/Revolut/REVOLUT.EXE",
+    "format": "Win32 PE",
+    "sha256": "346eeb2015d30d7d8f100bd088d37697f95d0cbc2ca34533f3f578f189ae3dc8",
+    "image": "/game/games/REVOLUT.webp",
+    "image_source": "extracted/resources/Adi421EnvCol1/INTRO.ITK/REVOLU.VMD"
+  },
+  {
+    "id": "scram",
+    "title": "SCRAM",
+    "source": "extracted/discs/Adi421EnvCol2/Games/Scram/SCRAM.EXE",
+    "format": "Win16 NE",
+    "sha256": "aa05b011b8bf47d40aac6dab70d6bdb52d04cf43751d89b9977725950ecc3d1f",
+    "image": "/game/games/SCRAM.webp",
+    "image_source": "extracted/resources/Adi421EnvCol1/INTRO.ITK/SCRAM.VMD"
+  },
+  {
+    "id": "shihdao",
+    "title": "SHIHDAO",
+    "source": "extracted/discs/Adi421EnvCol2/Games/ShihDao/SHIHDAO.EXE",
+    "format": "Win16 NE",
+    "sha256": "2c044825dc702dc2eee18158f1270542224ca3e122ca0a0eeab745cf1c7495ba",
+    "image": "/game/games/SHIHDAO.webp",
+    "image_source": "extracted/resources/Adi421EnvCol1/INTRO.ITK/SHIHDAO.VMD"
+  },
+  {
+    "id": "sokobfr",
+    "title": "Sokoban",
+    "source": "extracted/discs/Adi421EnvCol2/Games/Sokobfr/SOKOBFR.EXE",
+    "format": "Win16 NE",
+    "sha256": "a2fd2d46cf51dcab2fee09a577507a1e8de7a50fa591980693ab0c1a7ebb6b22",
+    "route": "#game/sokoban",
+    "image": "/game/games/SOKOBFR.webp",
+    "image_source": "extracted/resources/Adi421EnvCol1/INTRO.ITK/SOKOBAN.VMD"
+  },
+  {
+    "id": "solitair",
+    "title": "SOLITAIR",
+    "source": "extracted/discs/Adi421EnvCol2/Games/Solitfr/SOLITAIR.EXE",
+    "format": "Win16 NE",
+    "sha256": "9fe05d08a81bcde376ae5414fdb6b3a0141cd127f3d2135cf84e7c971daf1a28",
+    "image": "/game/games/SOLITAIR.webp",
+    "image_source": "extracted/resources/Adi421EnvCol1/INTRO.ITK/SOLIT.VMD"
+  },
+  {
+    "id": "solitfr",
+    "title": "SOLITFR",
+    "source": "extracted/discs/Adi421EnvCol2/Games/Solitfr/SOLITFR.EXE",
+    "format": "Win16 NE",
+    "sha256": "eae6603ac8cec16d8c92d3e58a389ecf4eccbad9213d3b9ed53ac3eb5a540141",
+    "image": "/game/games/SOLITFR.webp",
+    "image_source": "extracted/resources/Adi421EnvCol1/INTRO.ITK/SOLIT.VMD"
+  },
+  {
+    "id": "t4",
+    "title": "T4",
+    "source": "extracted/discs/Adi421EnvCol2/Games/T4/T4.EXE",
+    "format": "Win32 PE",
+    "sha256": "8368ca3aeeb2a8e9c9af8e8a96874b1f90881b51e3e6ba062f93f8d87e692fe5",
+    "image": "/game/games/T4.webp",
+    "image_source": "extracted/resources/Adi421EnvCol1/INTRO.ITK/T4.VMD"
+  },
+  {
+    "id": "volutare",
+    "title": "VOLUTARE",
+    "source": "extracted/discs/Adi421EnvCol2/Games/Volutare/VOLUTARE.EXE",
+    "format": "Win16 NE",
+    "sha256": "a2f23898e05d9cd7cf16a06f35002da65cd4614f5d61cf37e596183b04ddfb4b",
+    "image": "/game/games/VOLUTARE.webp",
+    "image_source": "extracted/resources/Adi421EnvCol1/INTRO.ITK/VOLUTARE.VMD"
+  },
+  {
+    "id": "filler",
+    "title": "FILLER",
+    "source": "extracted/discs/Adi421EnvCol2/Games/filler/FILLER.EXE",
+    "format": "Win32 PE",
+    "sha256": "e83fb4fe3eaf41b78e0ee87d44d3bb6944b5fed5097625d37e047fa3ad0c0040",
+    "image": "/game/games/FILLER.webp",
+    "image_source": "extracted/resources/Adi421EnvCol1/INTRO.ITK/FILLER.VMD"
+  }
+]

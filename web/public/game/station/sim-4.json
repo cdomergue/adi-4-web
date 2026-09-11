@@ -1,0 +1,3396 @@
+{
+  "id": "4",
+  "title": "Génétique d'une fleur",
+  "background": "04I1",
+  "objects": [
+    {
+      "id": "1",
+      "label": "Gènes \"Hauteur de la tige\"",
+      "type": 2,
+      "function": 0,
+      "plan": 101,
+      "box": [
+        103,
+        55,
+        90,
+        71
+      ],
+      "options": [
+        {
+          "id": 1,
+          "value": 0,
+          "label": "Aucune sélection",
+          "visual": "VIDE_DF",
+          "audio": null
+        },
+        {
+          "id": 2,
+          "value": 1,
+          "label": "\"Grande\" et \"Grande\"",
+          "visual": "04D10002",
+          "audio": null
+        },
+        {
+          "id": 3,
+          "value": 2,
+          "label": "\"Grande\" et \"Petite\"",
+          "visual": "04D10003",
+          "audio": null
+        },
+        {
+          "id": 4,
+          "value": 3,
+          "label": "\"Petite\" et \"Petite\"",
+          "visual": "04D10004",
+          "audio": null
+        }
+      ],
+      "hints": {
+        "0": "Les gènes \"Hauteur de la tige\" : ils sont  responsables de la hauteur de la tige-fille, tous deux codominants. Sur la touche du haut, on a \"Grande tige\" et \"Grande tige\" ; sur la touche du milieu, on a \"Grande Tige\" et \"Petite Tige\" ; sur la touche du bas,  on a \"Petite Tige\" et \"Petite Tige\".",
+        "1": "Les caractères \"Grande Tige\" et \"Petite Tige\" sont codominants, une seule combinaison des gènes paternels et maternels permet d'obtenir une \"Grande Tige\".",
+        "2": "La plante doit être de taille moyenne. Or les gènes existants sont \"Grande tige\" et \"Petite Tige\". Seul leur caractère de codominance permet d'exprimer une taille intermédiaire.",
+        "3": "Les caractères \"Grande Tige\" et \"Petite Tige\" sont codominants, une seule combinaison des gènes paternels et maternels permet d'obtenir une \"Petite Tige\"."
+      }
+    },
+    {
+      "id": "2",
+      "label": "Gènes \"Nombre de feuilles\"",
+      "type": 2,
+      "function": 0,
+      "plan": 101,
+      "box": [
+        106,
+        163,
+        86,
+        71
+      ],
+      "options": [
+        {
+          "id": 1,
+          "value": 0,
+          "label": "Aucune sélection",
+          "visual": "VIDE_DF",
+          "audio": null
+        },
+        {
+          "id": 2,
+          "value": 1,
+          "label": "\"nombreuses\" et \"nombreuses\"",
+          "visual": "04D20002",
+          "audio": null
+        },
+        {
+          "id": 3,
+          "value": 2,
+          "label": "\"nombreuses et \"Rares\"",
+          "visual": "04D20003",
+          "audio": null
+        },
+        {
+          "id": 4,
+          "value": 3,
+          "label": "\"Rares\" et \"Rares\"",
+          "visual": "04D20004",
+          "audio": null
+        }
+      ],
+      "hints": {
+        "0": "Les gènes \"Nombre de feuilles\" : ce sont les gènes parentaux responsables du nombre de feuilles  de la fleur-fille. Le gène \"Feuilles nombreuses\" est récessif, le gène \"Feuilles Rares\" est dominant.  Sur la touche du haut on a \"Feuilles nombreuses\" et \"Feuilles nombreuses\"; sur la touche du milieu, on a \"Feuilles nombreuses\" et \"Feuilles Rares\" ; sur la touche du bas,  on a \"Feuilles Rares\" et \"Feuilles Rares\".",
+        "1": "Les feuilles doivent être nombreuses. Le gène \"Feuilles nombreuses\" étant récessif, pour que ce gène s'exprime, il doit être présent simultanément chez les deux parents.",
+        "2": "On doit obtenir peu de feuilles. Le gène \"Feuilles Rares\" étant dominant, il suffit qu'il soit présent chez l'un des deux parents pour s'exprimer. N'oublie pas que la fleur doit être hétérozygote pour ce caractère, c'est-à-dire que les allèles doivent être différents sur chacun des chromosomes : par exemple la combinaison \"Feuilles Rares\" et \"Feuilles Rares\" ne convient pas.",
+        "3": "On doit obtenir peu de feuilles. Le gène \"Feuilles Rares\" étant dominant, il suffit qu'il soit présent chez l'un des deux parents pour s'exprimer. N'oublie pas que la fleur doit être hétérozygote pour ce caractère, c'est-à-dire que les allèles doivent être différents sur chacun des chromosomes : par exemple la combinaison \"Feuilles Rares\" et \"Feuilles Rares\" ne convient pas."
+      }
+    },
+    {
+      "id": "3",
+      "label": "Gènes \"Forme des feuilles\"",
+      "type": 2,
+      "function": 0,
+      "plan": 101,
+      "box": [
+        104,
+        272,
+        90,
+        75
+      ],
+      "options": [
+        {
+          "id": 1,
+          "value": 0,
+          "label": "Aucune sélection",
+          "visual": "VIDE_DF",
+          "audio": null
+        },
+        {
+          "id": 2,
+          "value": 1,
+          "label": "\"Dentées\" et \"Dentées\"",
+          "visual": "04D30002",
+          "audio": null
+        },
+        {
+          "id": 3,
+          "value": 2,
+          "label": "\"Dentées\" et \"lisses\"",
+          "visual": "04D30003",
+          "audio": null
+        },
+        {
+          "id": 4,
+          "value": 3,
+          "label": "\"lisses\" et \"lisses\"",
+          "visual": "04D30004",
+          "audio": null
+        }
+      ],
+      "hints": {
+        "0": "Les gènes \"Forme des feuilles\" : ce sont les gènes parentaux responsables de la forme des feuilles. Le gène \"Feuilles Dentées\" est dominant, le gène \"Feuilles lisses\" est récessif. Sur la touche du haut, on a \"Feuilles Dentées\" et \"Feuilles Dentées\" ; sur la touche du milieu, on a \"Feuilles Dentées\"  et \"Feuilles lisses\"; sur la touche du bas, on a \"Feuilles lisses\" et \"Feuilles lisses\".",
+        "1": "Les feuilles doivent être dentées. Le gène \"Feuilles Dentées\" étant dominant, il suffit qu'il soit présent chez l'un des deux parents pour s'exprimer. N'oublie pas que la fleur doit être hétérozygote pour ce caractère, c'est-à-dire que les allèles doivent être différents sur chacun des chromosomes : par exemple la combinaison \"Feuilles Dentées\" et \"Feuilles Dentées\" ne convient pas.",
+        "2": "Les feuilles doivent être dentées. Le gène \"Feuilles Dentées\" étant dominant, il suffit qu'il soit présent chez l'un des deux parents pour s'exprimer. N'oublie pas que la fleur doit être hétérozygote pour ce caractère, c'est-à-dire que les allèles doivent être différents sur chacun des chromosomes : par exemple la combinaison \"Feuilles Dentées\" et \"Feuilles Dentées\" ne convient pas.",
+        "3": "Les feuilles doivent être lisses. Le gène \"Feuilles lisses\" étant récessif, pour que ce gène s'exprime, il doit être présent simultanément chez les deux parents."
+      }
+    },
+    {
+      "id": "4",
+      "label": "Gènes \"Couleur de la fleur\"",
+      "type": 2,
+      "function": 0,
+      "plan": 101,
+      "box": [
+        448,
+        50,
+        89,
+        77
+      ],
+      "options": [
+        {
+          "id": 1,
+          "value": 0,
+          "label": "Aucune sélection",
+          "visual": "VIDE_DF",
+          "audio": null
+        },
+        {
+          "id": 2,
+          "value": 1,
+          "label": "Fleur Blanche et Fleur Blanche",
+          "visual": "04D40002",
+          "audio": null
+        },
+        {
+          "id": 3,
+          "value": 2,
+          "label": "Fleur Blanche et Fleur Rouge",
+          "visual": "04D40003",
+          "audio": null
+        },
+        {
+          "id": 4,
+          "value": 3,
+          "label": "Fleur Rouge et Fleur Rouge",
+          "visual": "04D40004",
+          "audio": null
+        }
+      ],
+      "hints": {
+        "0": "Les gènes \"Couleur de la fleur\" : ce sont les gènes parentaux qui déterminent la couleur de la fleur-fille ; ils sont codominants. Sur la touche du haut, on a \"Fleur Rouge\" et \"Fleur Rouge\" ; sur la touche du milieu, on a \"Fleur Blanche\" et \"Fleur Rouge\"; sur la touche du bas,  on a \"Fleur Blanche\" et \"Fleur Blanche\".",
+        "1": "Les caractères \"Fleur Rouge\" et \"Fleur Blanche\" sont codominants, une seule combinaison des gènes paternels et maternels permet d'obtenir une \"Fleur Rouge\".",
+        "2": "Les caractères \"Fleur Rouge\" et \"Fleur Blanche\" sont codominants, une seule combinaison des gènes paternels et maternels permet d'obtenir une \"Fleur Blanche\".",
+        "3": "La fleur doit être rose. Or, les gènes existants sont \"Fleur Rouge\" et \"Fleur blanche\". Seul leur caractère de codominance permet d'exprimer une couleur intermédiaire."
+      }
+    },
+    {
+      "id": "5",
+      "label": "Gènes de la \"Bichromie\"",
+      "type": 2,
+      "function": 0,
+      "plan": 101,
+      "box": [
+        449,
+        163,
+        88,
+        74
+      ],
+      "options": [
+        {
+          "id": 1,
+          "value": 0,
+          "label": "Aucune sélection",
+          "visual": "VIDE_DF",
+          "audio": null
+        },
+        {
+          "id": 2,
+          "value": 1,
+          "label": "\"bichrome\"et \"bichrome\"",
+          "visual": "04D50002",
+          "audio": null
+        },
+        {
+          "id": 3,
+          "value": 2,
+          "label": "\"Monochrome\" et \"bichrome\"",
+          "visual": "04D50003",
+          "audio": null
+        },
+        {
+          "id": 4,
+          "value": 3,
+          "label": "\"Monochrome\" et \"Monochrome\"",
+          "visual": "04D50004",
+          "audio": null
+        }
+      ],
+      "hints": {
+        "0": "Les gènes de la \"Bichromie\" : ce sont les gènes parentaux qui déterminent si les fleurs sont composées d'une ou deux couleurs. Le gène \"Monochrome\" est dominant, le gène \"bichrome\" est récessif. Sur la touche du haut on a \"bichrome\" et \"bichrome\" ; sur la touche du milieu, on a \"Monochrome\" et \"bichrome\" ; sur la touche du bas,  on a \"Monochrome\"et \"Monochrome\".",
+        "1": "La fleur doit être monochrome. La monochromie étant à caractère dominant, il suffit qu'il soit présent chez l'un des deux parents pour s'exprimer. N'oublie pas que la fleur doit être hétérozygote pour ce caractère, c'est-à-dire que les allèles doivent être différents sur chacun des chromosomes : par exemple la combinaison \"Monochrome\" et \"Monochrome\" ne convient pas.",
+        "2": "La fleur doit être bicolore. La bichromie étant un caractère récessif, pour que ce gène s'exprime, il doit être présent simultanément chez les deux parents.",
+        "3": "La fleur doit être monochrome. La monochromie étant à caractère dominant, il suffit qu'il soit présent chez l'un des deux parents pour s'exprimer. N'oublie pas que la fleur doit être hétérozygote pour ce caractère, c'est-à-dire que les allèles doivent être différents sur chacun des chromosomes : par exemple la combinaison \"Monochrome\" et \"Monochrome\" ne convient pas."
+      }
+    },
+    {
+      "id": "6",
+      "label": "Gènes \"Forme des pétales\"",
+      "type": 2,
+      "function": 0,
+      "plan": 101,
+      "box": [
+        449,
+        273,
+        88,
+        75
+      ],
+      "options": [
+        {
+          "id": 1,
+          "value": 0,
+          "label": "Aucune sélection",
+          "visual": "VIDE_DF",
+          "audio": null
+        },
+        {
+          "id": 2,
+          "value": 1,
+          "label": "\"Pointus\" et \"Pointus\"",
+          "visual": "04D60002",
+          "audio": null
+        },
+        {
+          "id": 3,
+          "value": 2,
+          "label": "\"ovales\" et \"Pointus\"",
+          "visual": "04D60003",
+          "audio": null
+        },
+        {
+          "id": 4,
+          "value": 3,
+          "label": "\"ovales\" et \"ovales\"",
+          "visual": "04D60004",
+          "audio": null
+        }
+      ],
+      "hints": {
+        "0": "Les gènes \"Forme des pétales\" : ce sont les gènes parentaux qui déterminent la forme des pétales d'une fleur. Le gène : \"Pétales Pointus\" est dominant, le gène \"Pétales ovales\" est récessif. Sur la touche du haut, on a \"Pétales Pointus\" et \"Pétales Pointus\" ; sur la touche du milieu, on a \"Pétales ovales\" et \"Pétales Pointus\" et sur la touche du bas, on a \"Pétales ovales\" et \"Pétales ovales\" .",
+        "1": "Les pétales doivent être pointus. Le gène \"Pétales Pointus\" étant dominant, il suffit qu'il soit présent chez l'un des deux parents pour s'exprimer. N'oublie pas que la fleur doit être hétérozygote pour ce caractère, c'est-à-dire que les allèles doivent être différents sur chacun des chromosomes : par exemple la combinaison \"Pétales Pointus\" et \"Pétales Pointus\" ne convient pas.",
+        "2": "Les pétales doivent être pointus. Le gène \"Pétales Pointus\" étant dominant, il suffit qu'il soit présent chez l'un des deux parents pour s'exprimer. N'oublie pas que la fleur doit être hétérozygote pour ce caractère, c'est-à-dire que les allèles doivent être différents sur chacun des chromosomes : par exemple la combinaison \"Pétales Pointus\" et \"Pétales Pointus\" ne convient pas.",
+        "3": "Les pétales doivent être ovales. Le gène \"Pétales ovales\" étant récessif, pour que ce gène s'exprime, il doit être présent simultanément chez les deux parents."
+      }
+    },
+    {
+      "id": "7",
+      "label": "Tige",
+      "type": 1,
+      "function": 2,
+      "plan": 101,
+      "box": [
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "options": [
+        {
+          "id": 1,
+          "value": 1,
+          "label": "intitulé état",
+          "visual": null,
+          "audio": null
+        },
+        {
+          "id": 2,
+          "value": 2,
+          "label": "intitulé état",
+          "visual": null,
+          "audio": null
+        },
+        {
+          "id": 3,
+          "value": 3,
+          "label": "intitulé état",
+          "visual": null,
+          "audio": null
+        },
+        {
+          "id": 4,
+          "value": 4,
+          "label": "intitulé état",
+          "visual": null,
+          "audio": null
+        }
+      ],
+      "hints": {
+        "0": "",
+        "1": "",
+        "2": "",
+        "3": ""
+      }
+    },
+    {
+      "id": "8",
+      "label": "Feuille",
+      "type": 1,
+      "function": 2,
+      "plan": 101,
+      "box": [
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "options": [
+        {
+          "id": 1,
+          "value": 1,
+          "label": "intitulé état",
+          "visual": null,
+          "audio": null
+        },
+        {
+          "id": 2,
+          "value": 2,
+          "label": "intitulé état",
+          "visual": null,
+          "audio": null
+        },
+        {
+          "id": 3,
+          "value": 3,
+          "label": "intitulé état",
+          "visual": null,
+          "audio": null
+        },
+        {
+          "id": 4,
+          "value": 4,
+          "label": "intitulé état",
+          "visual": null,
+          "audio": null
+        },
+        {
+          "id": 5,
+          "value": 5,
+          "label": "intitulé état",
+          "visual": null,
+          "audio": null
+        }
+      ],
+      "hints": {
+        "0": "",
+        "1": "",
+        "2": "",
+        "3": ""
+      }
+    },
+    {
+      "id": "9",
+      "label": "Fleur",
+      "type": 1,
+      "function": 2,
+      "plan": 101,
+      "box": [
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "options": [
+        {
+          "id": 1,
+          "value": 1,
+          "label": "intitulé état",
+          "visual": null,
+          "audio": null
+        },
+        {
+          "id": 2,
+          "value": 2,
+          "label": "intitulé état",
+          "visual": null,
+          "audio": null
+        },
+        {
+          "id": 3,
+          "value": 3,
+          "label": "intitulé état",
+          "visual": null,
+          "audio": null
+        },
+        {
+          "id": 4,
+          "value": 4,
+          "label": "intitulé état",
+          "visual": null,
+          "audio": null
+        },
+        {
+          "id": 5,
+          "value": 5,
+          "label": "intitulé état",
+          "visual": null,
+          "audio": null
+        },
+        {
+          "id": 6,
+          "value": 6,
+          "label": "intitulé état",
+          "visual": null,
+          "audio": null
+        },
+        {
+          "id": 7,
+          "value": 7,
+          "label": "intitulé état",
+          "visual": null,
+          "audio": null
+        },
+        {
+          "id": 8,
+          "value": 8,
+          "label": "intitulé état",
+          "visual": null,
+          "audio": null
+        },
+        {
+          "id": 9,
+          "value": 9,
+          "label": "intitulé état",
+          "visual": null,
+          "audio": null
+        },
+        {
+          "id": 10,
+          "value": 10,
+          "label": "intitulé état",
+          "visual": null,
+          "audio": null
+        },
+        {
+          "id": 11,
+          "value": 11,
+          "label": "intitulé état",
+          "visual": null,
+          "audio": null
+        },
+        {
+          "id": 12,
+          "value": 12,
+          "label": "intitulé état",
+          "visual": null,
+          "audio": null
+        },
+        {
+          "id": 13,
+          "value": 13,
+          "label": "intitulé état",
+          "visual": null,
+          "audio": null
+        }
+      ],
+      "hints": {
+        "0": "",
+        "1": "",
+        "2": "",
+        "3": ""
+      }
+    },
+    {
+      "id": "10",
+      "label": "Aspect final",
+      "type": 1,
+      "function": 2,
+      "plan": 101,
+      "box": [
+        253,
+        76,
+        123,
+        277
+      ],
+      "options": [
+        {
+          "id": 1,
+          "value": 1,
+          "label": "Blanche Bichrome Pétales Ovales Grande tige Feuilles nombreuses Dentées",
+          "visual": "04DA0001",
+          "audio": null
+        },
+        {
+          "id": 2,
+          "value": 2,
+          "label": "Blanche Bichrome Pétales Pointus Grande tige Feuilles nombreuses Dentées",
+          "visual": "04DA0002",
+          "audio": null
+        },
+        {
+          "id": 3,
+          "value": 3,
+          "label": "Blanche Monochrome Pétales Ovales Grande tige Feuilles nombreuses Dentées",
+          "visual": "04DA0003",
+          "audio": null
+        },
+        {
+          "id": 4,
+          "value": 4,
+          "label": "Blanche Monochrome Pétales Pointus Grande tige Feuilles nombreuses Dentées",
+          "visual": "04DA0004",
+          "audio": null
+        },
+        {
+          "id": 5,
+          "value": 5,
+          "label": "Rose Bichrome Pétales Ovales Grande tige Feuilles nombreuses Dentées",
+          "visual": "04DA0005",
+          "audio": null
+        },
+        {
+          "id": 6,
+          "value": 6,
+          "label": "Rose Bichrome Pétales Pointus Grande tige Feuilles nombreuses Dentées",
+          "visual": "04DA0006",
+          "audio": null
+        },
+        {
+          "id": 7,
+          "value": 7,
+          "label": "Rose Monochrome Pétales Ovales Grande tige Feuilles nombreuses Dentées",
+          "visual": "04DA0007",
+          "audio": null
+        },
+        {
+          "id": 8,
+          "value": 8,
+          "label": "Rose Monochrome Pétales Pointus Grande tige Feuilles nombreuses Dentées",
+          "visual": "04DA0008",
+          "audio": null
+        },
+        {
+          "id": 9,
+          "value": 9,
+          "label": "Rouge Bichrome Pétales Ovales Grande tige Feuilles nombreuses Dentées",
+          "visual": "04DA0009",
+          "audio": null
+        },
+        {
+          "id": 10,
+          "value": 10,
+          "label": "Rouge Bichrome Pétales Pointus Grande tige Feuilles nombreuses Dentées",
+          "visual": "04DA0010",
+          "audio": null
+        },
+        {
+          "id": 11,
+          "value": 11,
+          "label": "Rouge Monochrome Pétales Ovales Grande tige Feuilles nombreuses Dentées",
+          "visual": "04DA0011",
+          "audio": null
+        },
+        {
+          "id": 12,
+          "value": 12,
+          "label": "Rouge Monochrome Pétales Pointus Grande tige Feuilles nombreuses Dentées",
+          "visual": "04DA0012",
+          "audio": null
+        },
+        {
+          "id": 13,
+          "value": 13,
+          "label": "Blanche Bichrome Pétales Ovales Grande tige Feuilles nombreuses Lisses",
+          "visual": "04DA0013",
+          "audio": null
+        },
+        {
+          "id": 14,
+          "value": 14,
+          "label": "Blanche Bichrome Pétales Pointus Grande tige Feuilles nombreuses Lisses",
+          "visual": "04DA0014",
+          "audio": null
+        },
+        {
+          "id": 15,
+          "value": 15,
+          "label": "Blanche Monochrome Pétales Ovales Grande tige Feuilles nombreuses Lisses",
+          "visual": "04DA0015",
+          "audio": null
+        },
+        {
+          "id": 16,
+          "value": 16,
+          "label": "Blanche Monochrome Pétales Pointus Grande tige Feuilles nombreuses Lisses",
+          "visual": "04DA0016",
+          "audio": null
+        },
+        {
+          "id": 17,
+          "value": 17,
+          "label": "Rose Bichrome Pétales Ovales Grande tige Feuilles nombreuses Lisses",
+          "visual": "04DA0017",
+          "audio": null
+        },
+        {
+          "id": 18,
+          "value": 18,
+          "label": "Rose Bichrome Pétales Pointus Grande tige Feuilles nombreuses Lisses",
+          "visual": "04DA0018",
+          "audio": null
+        },
+        {
+          "id": 19,
+          "value": 19,
+          "label": "Rose Monochrome Pétales Ovales Grande tige Feuilles nombreuses Lisses",
+          "visual": "04DA0019",
+          "audio": null
+        },
+        {
+          "id": 20,
+          "value": 20,
+          "label": "Rose Monochrome Pétales Pointus Grande tige Feuilles nombreuses Lisses",
+          "visual": "04DA0020",
+          "audio": null
+        },
+        {
+          "id": 21,
+          "value": 21,
+          "label": "Rouge Bichrome Pétales Ovales Grande tige Feuilles nombreuses Lisses",
+          "visual": "04DA0021",
+          "audio": null
+        },
+        {
+          "id": 22,
+          "value": 22,
+          "label": "Rouge Bichrome Pétales Pointus Grande tige Feuilles nombreuses Lisses",
+          "visual": "04DA0022",
+          "audio": null
+        },
+        {
+          "id": 23,
+          "value": 23,
+          "label": "Rouge Monochrome Pétales Ovales Grande tige Feuilles nombreuses Lisses",
+          "visual": "04DA0023",
+          "audio": null
+        },
+        {
+          "id": 24,
+          "value": 24,
+          "label": "Rouge Monochrome Pétales Pointus Grande tige Feuilles nombreuses Lisses",
+          "visual": "04DA0024",
+          "audio": null
+        },
+        {
+          "id": 25,
+          "value": 25,
+          "label": "Blanche Bichrome Pétales Ovales Grande tige Feuilles Rares Dentées",
+          "visual": "04DA0025",
+          "audio": null
+        },
+        {
+          "id": 26,
+          "value": 26,
+          "label": "Blanche Bichrome Pétales Pointus Grande tige Feuilles Rares Dentées",
+          "visual": "04DA0026",
+          "audio": null
+        },
+        {
+          "id": 27,
+          "value": 27,
+          "label": "Blanche Monochrome Pétales Ovales Grande tige Feuilles Rares Dentées",
+          "visual": "04DA0027",
+          "audio": null
+        },
+        {
+          "id": 28,
+          "value": 28,
+          "label": "Blanche Monochrome Pétales Pointus Grande tige Feuilles Rares Dentées",
+          "visual": "04DA0028",
+          "audio": null
+        },
+        {
+          "id": 29,
+          "value": 29,
+          "label": "Rose Bichrome Pétales Ovales Grande tige Feuilles Rares Dentées",
+          "visual": "04DA0029",
+          "audio": null
+        },
+        {
+          "id": 30,
+          "value": 30,
+          "label": "Rose Bichrome Pétales Pointus Grande tige Feuilles Rares Dentées",
+          "visual": "04DA0030",
+          "audio": null
+        },
+        {
+          "id": 31,
+          "value": 31,
+          "label": "Rose Monochrome Pétales Ovales Grande tige Feuilles Rares Dentées",
+          "visual": "04DA0031",
+          "audio": null
+        },
+        {
+          "id": 32,
+          "value": 32,
+          "label": "Rose Monochrome Pétales Pointus Grande tige Feuilles Rares Dentées",
+          "visual": "04DA0032",
+          "audio": null
+        },
+        {
+          "id": 33,
+          "value": 33,
+          "label": "Rouge Bichrome Pétales Ovales Grande tige Feuilles Rares Dentées",
+          "visual": "04DA0033",
+          "audio": null
+        },
+        {
+          "id": 34,
+          "value": 34,
+          "label": "Rouge Bichrome Pétales Pointus Grande tige Feuilles Rares Dentées",
+          "visual": "04DA0034",
+          "audio": null
+        },
+        {
+          "id": 35,
+          "value": 35,
+          "label": "Rouge Monochrome Pétales Ovales Grande tige Feuilles Rares Dentées",
+          "visual": "04DA0035",
+          "audio": null
+        },
+        {
+          "id": 36,
+          "value": 36,
+          "label": "Rouge Monochrome Pétales Pointus Grande tige Feuilles Rares Dentées",
+          "visual": "04DA0036",
+          "audio": null
+        },
+        {
+          "id": 37,
+          "value": 37,
+          "label": "Blanche Bichrome Pétales Ovales Grande tige Feuilles Rares Lisses",
+          "visual": "04DA0037",
+          "audio": null
+        },
+        {
+          "id": 38,
+          "value": 38,
+          "label": "Blanche Bichrome Pétales Pointus Grande tige Feuilles Rares Lisses",
+          "visual": "04DA0038",
+          "audio": null
+        },
+        {
+          "id": 39,
+          "value": 39,
+          "label": "Blanche Monochrome Pétales Ovales Grande tige Feuilles Rares Lisses",
+          "visual": "04DA0039",
+          "audio": null
+        },
+        {
+          "id": 40,
+          "value": 40,
+          "label": "Blanche Monochrome Pétales Pointus Grande tige Feuilles Rares Lisses",
+          "visual": "04DA0040",
+          "audio": null
+        },
+        {
+          "id": 41,
+          "value": 41,
+          "label": "Rose Bichrome Pétales Ovales Grande tige Feuilles Rares Lisses",
+          "visual": "04DA0041",
+          "audio": null
+        },
+        {
+          "id": 42,
+          "value": 42,
+          "label": "Rose Bichrome Pétales Pointus Grande tige Feuilles Rares Lisses",
+          "visual": "04DA0042",
+          "audio": null
+        },
+        {
+          "id": 43,
+          "value": 43,
+          "label": "Rose Monochrome Pétales Ovales Grande tige Feuilles Rares Lisses",
+          "visual": "04DA0043",
+          "audio": null
+        },
+        {
+          "id": 44,
+          "value": 44,
+          "label": "Rose Monochrome Pétales Pointus Grande tige Feuilles Rares Lisses",
+          "visual": "04DA0044",
+          "audio": null
+        },
+        {
+          "id": 45,
+          "value": 45,
+          "label": "Rouge Bichrome Pétales Ovales Grande tige Feuilles Rares Lisses",
+          "visual": "04DA0045",
+          "audio": null
+        },
+        {
+          "id": 46,
+          "value": 46,
+          "label": "Rouge Bichrome Pétales Pointus Grande tige Feuilles Rares Lisses",
+          "visual": "04DA0046",
+          "audio": null
+        },
+        {
+          "id": 47,
+          "value": 47,
+          "label": "Rouge Monochrome Pétales Ovales Grande tige Feuilles Rares Lisses",
+          "visual": "04DA0047",
+          "audio": null
+        },
+        {
+          "id": 48,
+          "value": 48,
+          "label": "Rouge Monochrome Pétales Pointus Grande tige Feuilles Rares Lisses",
+          "visual": "04DA0048",
+          "audio": null
+        },
+        {
+          "id": 49,
+          "value": 49,
+          "label": "Blanche Bichrome Pétales Ovales Tige moyenne Feuilles nombreuses Dentées",
+          "visual": "04DA0049",
+          "audio": null
+        },
+        {
+          "id": 50,
+          "value": 50,
+          "label": "Blanche Bichrome Pétales Pointus Tige moyenne Feuilles nombreuses Dentées",
+          "visual": "04DA0050",
+          "audio": null
+        },
+        {
+          "id": 51,
+          "value": 51,
+          "label": "Blanche Monochrome Pétales Ovales Tige moyenne Feuilles nombreuses Dentées",
+          "visual": "04DA0051",
+          "audio": null
+        },
+        {
+          "id": 52,
+          "value": 52,
+          "label": "Blanche Monochrome Pétales Pointus Tige moyenne Feuilles nombreuses Dentées",
+          "visual": "04DA0052",
+          "audio": null
+        },
+        {
+          "id": 53,
+          "value": 53,
+          "label": "Rose Bichrome Pétales Ovales Tige moyenne Feuilles nombreuses Dentées",
+          "visual": "04DA0053",
+          "audio": null
+        },
+        {
+          "id": 54,
+          "value": 54,
+          "label": "Rose Bichrome Pétales Pointus Tige moyenne Feuilles nombreuses Dentées",
+          "visual": "04DA0054",
+          "audio": null
+        },
+        {
+          "id": 55,
+          "value": 55,
+          "label": "Rose Monochrome Pétales Ovales Tige moyenne Feuilles nombreuses Dentées",
+          "visual": "04DA0055",
+          "audio": null
+        },
+        {
+          "id": 56,
+          "value": 56,
+          "label": "Rose Monochrome Pétales Pointus Tige moyenne Feuilles nombreuses Dentées",
+          "visual": "04DA0056",
+          "audio": null
+        },
+        {
+          "id": 57,
+          "value": 57,
+          "label": "Rouge Bichrome Pétales Ovales Tige moyenne Feuilles nombreuses Dentées",
+          "visual": "04DA0057",
+          "audio": null
+        },
+        {
+          "id": 58,
+          "value": 58,
+          "label": "Rouge Bichrome Pétales Pointus Tige moyenne Feuilles nombreuses Dentées",
+          "visual": "04DA0058",
+          "audio": null
+        },
+        {
+          "id": 59,
+          "value": 59,
+          "label": "Rouge Monochrome Pétales Ovales Tige moyenne Feuilles nombreuses Dentées",
+          "visual": "04DA0059",
+          "audio": null
+        },
+        {
+          "id": 60,
+          "value": 60,
+          "label": "Rouge Monochrome Pétales Pointus Tige moyenne Feuilles nombreuses Dentées",
+          "visual": "04DA0060",
+          "audio": null
+        },
+        {
+          "id": 61,
+          "value": 61,
+          "label": "Blanche Bichrome Pétales Ovales Tige moyenne Feuilles nombreuses Lisses",
+          "visual": "04DA0061",
+          "audio": null
+        },
+        {
+          "id": 62,
+          "value": 62,
+          "label": "Blanche Bichrome Pétales Pointus Tige moyenne Feuilles nombreuses Lisses",
+          "visual": "04DA0062",
+          "audio": null
+        },
+        {
+          "id": 63,
+          "value": 63,
+          "label": "Blanche Monochrome Pétales Ovales Tige moyenne Feuilles nombreuses Lisses",
+          "visual": "04DA0063",
+          "audio": null
+        },
+        {
+          "id": 64,
+          "value": 64,
+          "label": "Blanche Monochrome Pétales Pointus Tige moyenne Feuilles nombreuses Lisses",
+          "visual": "04DA0064",
+          "audio": null
+        },
+        {
+          "id": 65,
+          "value": 65,
+          "label": "Rose Bichrome Pétales Ovales Tige moyenne Feuilles nombreuses Lisses",
+          "visual": "04DA0065",
+          "audio": null
+        },
+        {
+          "id": 66,
+          "value": 66,
+          "label": "Rose Bichrome Pétales Pointus Tige moyenne Feuilles nombreuses Lisses",
+          "visual": "04DA0066",
+          "audio": null
+        },
+        {
+          "id": 67,
+          "value": 67,
+          "label": "Rose Monochrome Pétales Ovales Tige moyenne Feuilles nombreuses Lisses",
+          "visual": "04DA0067",
+          "audio": null
+        },
+        {
+          "id": 68,
+          "value": 68,
+          "label": "Rose Monochrome Pétales Pointus Tige moyenne Feuilles nombreuses Lisses",
+          "visual": "04DA0068",
+          "audio": null
+        },
+        {
+          "id": 69,
+          "value": 69,
+          "label": "Rouge Bichrome Pétales Ovales Tige moyenne Feuilles nombreuses Lisses",
+          "visual": "04DA0069",
+          "audio": null
+        },
+        {
+          "id": 70,
+          "value": 70,
+          "label": "Rouge Bichrome Pétales Pointus Tige moyenne Feuilles nombreuses Lisses",
+          "visual": "04DA0070",
+          "audio": null
+        },
+        {
+          "id": 71,
+          "value": 71,
+          "label": "Rouge Monochrome Pétales Ovales Tige moyenne Feuilles nombreuses Lisses",
+          "visual": "04DA0071",
+          "audio": null
+        },
+        {
+          "id": 72,
+          "value": 72,
+          "label": "Rouge Monochrome Pétales Pointus Tige moyenne Feuilles nombreuses Lisses",
+          "visual": "04DA0072",
+          "audio": null
+        },
+        {
+          "id": 73,
+          "value": 73,
+          "label": "Blanche Bichrome Pétales Ovales Tige moyenne Feuilles Rares Dentées",
+          "visual": "04DA0073",
+          "audio": null
+        },
+        {
+          "id": 74,
+          "value": 74,
+          "label": "Blanche Bichrome Pétales Pointus Tige moyenne Feuilles Rares Dentées",
+          "visual": "04DA0074",
+          "audio": null
+        },
+        {
+          "id": 75,
+          "value": 75,
+          "label": "Blanche Monochrome Pétales Ovales Tige moyenne Feuilles Rares Dentées",
+          "visual": "04DA0075",
+          "audio": null
+        },
+        {
+          "id": 76,
+          "value": 76,
+          "label": "Blanche Monochrome Pétales Pointus Tige moyenne Feuilles Rares Dentées",
+          "visual": "04DA0076",
+          "audio": null
+        },
+        {
+          "id": 77,
+          "value": 77,
+          "label": "Rose Bichrome Pétales Ovales Tige moyenne Feuilles Rares Dentées",
+          "visual": "04DA0077",
+          "audio": null
+        },
+        {
+          "id": 78,
+          "value": 78,
+          "label": "Rose Bichrome Pétales Pointus Tige moyenne Feuilles Rares Dentées",
+          "visual": "04DA0078",
+          "audio": null
+        },
+        {
+          "id": 79,
+          "value": 79,
+          "label": "Rose Monochrome Pétales Ovales Tige moyenne Feuilles Rares Dentées",
+          "visual": "04DA0079",
+          "audio": null
+        },
+        {
+          "id": 80,
+          "value": 80,
+          "label": "Rose Monochrome Pétales Pointus Tige moyenne Feuilles Rares Dentées",
+          "visual": "04DA0080",
+          "audio": null
+        },
+        {
+          "id": 81,
+          "value": 81,
+          "label": "Rouge Bichrome Pétales Ovales Tige moyenne Feuilles Rares Dentées",
+          "visual": "04DA0081",
+          "audio": null
+        },
+        {
+          "id": 82,
+          "value": 82,
+          "label": "Rouge Bichrome Pétales Pointus Tige moyenne Feuilles Rares Dentées",
+          "visual": "04DA0082",
+          "audio": null
+        },
+        {
+          "id": 83,
+          "value": 83,
+          "label": "Rouge Monochrome Pétales Ovales Tige moyenne Feuilles Rares Dentées",
+          "visual": "04DA0083",
+          "audio": null
+        },
+        {
+          "id": 84,
+          "value": 84,
+          "label": "Rouge Monochrome Pétales Pointus Tige moyenne Feuilles Rares Dentées",
+          "visual": "04DA0084",
+          "audio": null
+        },
+        {
+          "id": 85,
+          "value": 85,
+          "label": "Blanche Bichrome Pétales Ovales Tige moyenne Feuilles Rares Lisses",
+          "visual": "04DA0085",
+          "audio": null
+        },
+        {
+          "id": 86,
+          "value": 86,
+          "label": "Blanche Bichrome Pétales Pointus Tige moyenne Feuilles Rares Lisses",
+          "visual": "04DA0086",
+          "audio": null
+        },
+        {
+          "id": 87,
+          "value": 87,
+          "label": "Blanche Monochrome Pétales Ovales Tige moyenne Feuilles Rares Lisses",
+          "visual": "04DA0087",
+          "audio": null
+        },
+        {
+          "id": 88,
+          "value": 88,
+          "label": "Blanche Monochrome Pétales Pointus Tige moyenne Feuilles Rares Lisses",
+          "visual": "04DA0088",
+          "audio": null
+        },
+        {
+          "id": 89,
+          "value": 89,
+          "label": "Rose Bichrome Pétales Ovales Tige moyenne Feuilles Rares Lisses",
+          "visual": "04DA0089",
+          "audio": null
+        },
+        {
+          "id": 90,
+          "value": 90,
+          "label": "Rose Bichrome Pétales Pointus Tige moyenne Feuilles Rares Lisses",
+          "visual": "04DA0090",
+          "audio": null
+        },
+        {
+          "id": 91,
+          "value": 91,
+          "label": "Rose Monochrome Pétales Ovales Tige moyenne Feuilles Rares Lisses",
+          "visual": "04DA0091",
+          "audio": null
+        },
+        {
+          "id": 92,
+          "value": 92,
+          "label": "Rose Monochrome Pétales Pointus Tige moyenne Feuilles Rares Lisses",
+          "visual": "04DA0092",
+          "audio": null
+        },
+        {
+          "id": 93,
+          "value": 93,
+          "label": "Rouge Bichrome Pétales Ovales Tige moyenne Feuilles Rares Lisses",
+          "visual": "04DA0093",
+          "audio": null
+        },
+        {
+          "id": 94,
+          "value": 94,
+          "label": "Rouge Bichrome Pétales Pointus Tige moyenne Feuilles Rares Lisses",
+          "visual": "04DA0094",
+          "audio": null
+        },
+        {
+          "id": 95,
+          "value": 95,
+          "label": "Rouge Monochrome Pétales Ovales Tige moyenne Feuilles Rares Lisses",
+          "visual": "04DA0095",
+          "audio": null
+        },
+        {
+          "id": 96,
+          "value": 96,
+          "label": "Rouge Monochrome Pétales Pointus Tige moyenne Feuilles Rares Lisses",
+          "visual": "04DA0096",
+          "audio": null
+        },
+        {
+          "id": 97,
+          "value": 97,
+          "label": "Blanche Bichrome Pétales Ovales Courte tige Feuilles nombreuses Dentées",
+          "visual": "04DA0097",
+          "audio": null
+        },
+        {
+          "id": 98,
+          "value": 98,
+          "label": "Blanche Bichrome Pétales Pointus Courte tige Feuilles nombreuses Dentées",
+          "visual": "04DA0098",
+          "audio": null
+        },
+        {
+          "id": 99,
+          "value": 99,
+          "label": "Blanche Monochrome Pétales Ovales Courte tige Feuilles nombreuses Dentées",
+          "visual": "04DA0099",
+          "audio": null
+        },
+        {
+          "id": 100,
+          "value": 100,
+          "label": "Blanche Monochrome Pétales Pointus Courte tige Feuilles nombreuses Dentées",
+          "visual": "04DA0100",
+          "audio": null
+        },
+        {
+          "id": 101,
+          "value": 101,
+          "label": "Rose Bichrome Pétales Ovales Courte tige Feuilles nombreuses Dentées",
+          "visual": "04DA0101",
+          "audio": null
+        },
+        {
+          "id": 102,
+          "value": 102,
+          "label": "Rose Bichrome Pétales Pointus Courte tige Feuilles nombreuses Dentées",
+          "visual": "04DA0102",
+          "audio": null
+        },
+        {
+          "id": 103,
+          "value": 103,
+          "label": "Rose Monochrome Pétales Ovales Courte tige Feuilles nombreuses Dentées",
+          "visual": "04DA0103",
+          "audio": null
+        },
+        {
+          "id": 104,
+          "value": 104,
+          "label": "Rose Monochrome Pétales Pointus Courte tige Feuilles nombreuses Dentées",
+          "visual": "04DA0104",
+          "audio": null
+        },
+        {
+          "id": 105,
+          "value": 105,
+          "label": "Rouge Bichrome Pétales Ovales Courte tige Feuilles nombreuses Dentées",
+          "visual": "04DA0105",
+          "audio": null
+        },
+        {
+          "id": 106,
+          "value": 106,
+          "label": "Rouge Bichrome Pétales Pointus Courte tige Feuilles nombreuses Dentées",
+          "visual": "04DA0106",
+          "audio": null
+        },
+        {
+          "id": 107,
+          "value": 107,
+          "label": "Rouge Monochrome Pétales Ovales Courte tige Feuilles nombreuses Dentées",
+          "visual": "04DA0107",
+          "audio": null
+        },
+        {
+          "id": 108,
+          "value": 108,
+          "label": "Rouge Monochrome Pétales Pointus Courte tige Feuilles nombreuses Dentées",
+          "visual": "04DA0108",
+          "audio": null
+        },
+        {
+          "id": 109,
+          "value": 109,
+          "label": "Blanche Bichrome Pétales Ovales Courte tige Feuilles nombreuses Lisses",
+          "visual": "04DA0109",
+          "audio": null
+        },
+        {
+          "id": 110,
+          "value": 110,
+          "label": "Blanche Bichrome Pétales Pointus Courte tige Feuilles nombreuses Lisses",
+          "visual": "04DA0110",
+          "audio": null
+        },
+        {
+          "id": 111,
+          "value": 111,
+          "label": "Blanche Monochrome Pétales Ovales Courte tige Feuilles nombreuses Lisses",
+          "visual": "04DA0111",
+          "audio": null
+        },
+        {
+          "id": 112,
+          "value": 112,
+          "label": "Blanche Monochrome Pétales Pointus Courte tige Feuilles nombreuses Lisses",
+          "visual": "04DA0112",
+          "audio": null
+        },
+        {
+          "id": 113,
+          "value": 113,
+          "label": "Rose Bichrome Pétales Ovales Courte tige Feuilles nombreuses Lisses",
+          "visual": "04DA0113",
+          "audio": null
+        },
+        {
+          "id": 114,
+          "value": 114,
+          "label": "Rose Bichrome Pétales Pointus Courte tige Feuilles nombreuses Lisses",
+          "visual": "04DA0114",
+          "audio": null
+        },
+        {
+          "id": 115,
+          "value": 115,
+          "label": "Rose Monochrome Pétales Ovales Courte tige Feuilles nombreuses Lisses",
+          "visual": "04DA0115",
+          "audio": null
+        },
+        {
+          "id": 116,
+          "value": 116,
+          "label": "Rose Monochrome Pétales Pointus Courte tige Feuilles nombreuses Lisses",
+          "visual": "04DA0116",
+          "audio": null
+        },
+        {
+          "id": 117,
+          "value": 117,
+          "label": "Rouge Bichrome Pétales Ovales Courte tige Feuilles nombreuses Lisses",
+          "visual": "04DA0117",
+          "audio": null
+        },
+        {
+          "id": 118,
+          "value": 118,
+          "label": "Rouge Bichrome Pétales Pointus Courte tige Feuilles nombreuses Lisses",
+          "visual": "04DA0118",
+          "audio": null
+        },
+        {
+          "id": 119,
+          "value": 119,
+          "label": "Rouge Monochrome Pétales Ovales Courte tige Feuilles nombreuses Lisses",
+          "visual": "04DA0119",
+          "audio": null
+        },
+        {
+          "id": 120,
+          "value": 120,
+          "label": "Rouge Monochrome Pétales Pointus Courte tige Feuilles nombreuses Lisses",
+          "visual": "04DA0120",
+          "audio": null
+        },
+        {
+          "id": 121,
+          "value": 121,
+          "label": "Blanche Bichrome Pétales Ovales Courte tige Feuilles Rares Dentées",
+          "visual": "04DA0121",
+          "audio": null
+        },
+        {
+          "id": 122,
+          "value": 122,
+          "label": "Blanche Bichrome Pétales Pointus Courte tige Feuilles Rares Dentées",
+          "visual": "04DA0122",
+          "audio": null
+        },
+        {
+          "id": 123,
+          "value": 123,
+          "label": "Blanche Monochrome Pétales Ovales Courte tige Feuilles Rares Dentées",
+          "visual": "04DA0123",
+          "audio": null
+        },
+        {
+          "id": 124,
+          "value": 124,
+          "label": "Blanche Monochrome Pétales Pointus Courte tige Feuilles Rares Dentées",
+          "visual": "04DA0124",
+          "audio": null
+        },
+        {
+          "id": 125,
+          "value": 125,
+          "label": "Rose Bichrome Pétales Ovales Courte tige Feuilles Rares Dentées",
+          "visual": "04DA0125",
+          "audio": null
+        },
+        {
+          "id": 126,
+          "value": 126,
+          "label": "Rose Bichrome Pétales Pointus Courte tige Feuilles Rares Dentées",
+          "visual": "04DA0126",
+          "audio": null
+        },
+        {
+          "id": 127,
+          "value": 127,
+          "label": "Rose Monochrome Pétales Ovales Courte tige Feuilles Rares Dentées",
+          "visual": "04DA0127",
+          "audio": null
+        },
+        {
+          "id": 128,
+          "value": 128,
+          "label": "Rose Monochrome Pétales Pointus Courte tige Feuilles Rares Dentées",
+          "visual": "04DA0128",
+          "audio": null
+        },
+        {
+          "id": 129,
+          "value": 129,
+          "label": "Rouge Bichrome Pétales Ovales Courte tige Feuilles Rares Dentées",
+          "visual": "04DA0129",
+          "audio": null
+        },
+        {
+          "id": 130,
+          "value": 130,
+          "label": "Rouge Bichrome Pétales Pointus Courte tige Feuilles Rares Dentées",
+          "visual": "04DA0130",
+          "audio": null
+        },
+        {
+          "id": 131,
+          "value": 131,
+          "label": "Rouge Monochrome Pétales Ovales Courte tige Feuilles Rares Dentées",
+          "visual": "04DA0131",
+          "audio": null
+        },
+        {
+          "id": 132,
+          "value": 132,
+          "label": "Rouge Monochrome Pétales Pointus Courte tige Feuilles Rares Dentées",
+          "visual": "04DA0132",
+          "audio": null
+        },
+        {
+          "id": 133,
+          "value": 133,
+          "label": "Blanche Bichrome Pétales Ovales Courte tige Feuilles Rares Lisses",
+          "visual": "04DA0133",
+          "audio": null
+        },
+        {
+          "id": 134,
+          "value": 134,
+          "label": "Blanche Bichrome Pétales Pointus Courte tige Feuilles Rares Lisses",
+          "visual": "04DA0134",
+          "audio": null
+        },
+        {
+          "id": 135,
+          "value": 135,
+          "label": "Blanche Monochrome Pétales Ovales Courte tige Feuilles Rares Lisses",
+          "visual": "04DA0135",
+          "audio": null
+        },
+        {
+          "id": 136,
+          "value": 136,
+          "label": "Blanche Monochrome Pétales Pointus Courte tige Feuilles Rares Lisses",
+          "visual": "04DA0136",
+          "audio": null
+        },
+        {
+          "id": 137,
+          "value": 137,
+          "label": "Rose Bichrome Pétales Ovales Courte tige Feuilles Rares Lisses",
+          "visual": "04DA0137",
+          "audio": null
+        },
+        {
+          "id": 138,
+          "value": 138,
+          "label": "Rose Bichrome Pétales Pointus Courte tige Feuilles Rares Lisses",
+          "visual": "04DA0138",
+          "audio": null
+        },
+        {
+          "id": 139,
+          "value": 139,
+          "label": "Rose Monochrome Pétales Ovales Courte tige Feuilles Rares Lisses",
+          "visual": "04DA0139",
+          "audio": null
+        },
+        {
+          "id": 140,
+          "value": 140,
+          "label": "Rose Monochrome Pétales Pointus Courte tige Feuilles Rares Lisses",
+          "visual": "04DA0140",
+          "audio": null
+        },
+        {
+          "id": 141,
+          "value": 141,
+          "label": "Rouge Bichrome Pétales Ovales Courte tige Feuilles Rares Lisses",
+          "visual": "04DA0141",
+          "audio": null
+        },
+        {
+          "id": 142,
+          "value": 142,
+          "label": "Rouge Bichrome Pétales Pointus Courte tige Feuilles Rares Lisses",
+          "visual": "04DA0142",
+          "audio": null
+        },
+        {
+          "id": 143,
+          "value": 143,
+          "label": "Rouge Monochrome Pétales Ovales Courte tige Feuilles Rares Lisses",
+          "visual": "04DA0143",
+          "audio": null
+        },
+        {
+          "id": 144,
+          "value": 144,
+          "label": "Rouge Monochrome Pétales Pointus Courte tige Feuilles Rares Lisses",
+          "visual": "04DA0144",
+          "audio": null
+        },
+        {
+          "id": 145,
+          "value": 145,
+          "label": "Tous les gènes n'ont pas été sélectionnés, aucune fleur ne peut être obtenue",
+          "visual": "VIDE_DF",
+          "audio": null
+        }
+      ],
+      "hints": {
+        "0": "Aspect de la fleur : La tige peut être grande, moyenne ou petite, les feuilles plus ou moins nombreuses et d'aspect lisse ou denté. La fleur peut être blanche, rouge ou rose, avec des pétales ovales ou pointus ; elle peut être unicolore ou bicolore (présenter une seconde couleur).",
+        "1": "La fleur obtenue doit être uniformément rouge avec des pétales pointus, et posséder une grande tige avec beaucoup de feuilles dentées.",
+        "2": "La fleur doit être bicolore,  blanche, avec des pétales pointus ; elle doit posséder une tige de taille moyenne et peu de feuilles dentées.",
+        "3": "La fleur doit être uniformément rose avec des pétales ovales, et posséder une tige courte et peu de feuilles lisses."
+      }
+    },
+    {
+      "id": "11",
+      "label": "Cache montant",
+      "type": 1,
+      "function": 1,
+      "plan": 102,
+      "box": [
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "options": [
+        {
+          "id": 1,
+          "value": 0,
+          "label": "intitulé état",
+          "visual": "VIDE_DF",
+          "audio": null
+        },
+        {
+          "id": 2,
+          "value": 1,
+          "label": "intitulé état",
+          "visual": "04DB0002",
+          "audio": "/game/station/04WB0002.wav"
+        }
+      ],
+      "hints": {
+        "0": "",
+        "1": "",
+        "2": "",
+        "3": ""
+      }
+    },
+    {
+      "id": "12",
+      "label": "Cache descendant",
+      "type": 1,
+      "function": 1,
+      "plan": 102,
+      "box": [
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "options": [
+        {
+          "id": 1,
+          "value": 0,
+          "label": "intitulé état",
+          "visual": "VIDE_DF",
+          "audio": null
+        },
+        {
+          "id": 2,
+          "value": 1,
+          "label": "intitulé état",
+          "visual": "04DC0002",
+          "audio": "/game/station/04WC0002.wav"
+        }
+      ],
+      "hints": {
+        "0": "",
+        "1": "",
+        "2": "",
+        "3": ""
+      }
+    }
+  ],
+  "cases": [
+    {
+      "id": "0",
+      "label": "Mode libre",
+      "solutions": [
+        {
+          "1": 1,
+          "2": 1,
+          "3": 1,
+          "4": 1,
+          "5": 1,
+          "6": 1,
+          "7": 1,
+          "8": 1,
+          "9": 1,
+          "10": 1,
+          "11": 1,
+          "12": 1
+        }
+      ],
+      "initial": {
+        "1": 1,
+        "2": 1,
+        "3": 1,
+        "4": 1,
+        "5": 1,
+        "6": 1,
+        "7": 4,
+        "8": 5,
+        "9": 13,
+        "10": 145,
+        "11": 1,
+        "12": 1
+      }
+    },
+    {
+      "id": "1",
+      "label": "Pour la décoration",
+      "solutions": [
+        {
+          "1": 2,
+          "2": 2,
+          "3": 3,
+          "4": 4,
+          "5": 3,
+          "6": 3,
+          "7": 1,
+          "8": 1,
+          "9": 1,
+          "10": 1,
+          "11": 1,
+          "12": 1
+        }
+      ],
+      "initial": {
+        "1": 1,
+        "2": 1,
+        "3": 1,
+        "4": 1,
+        "5": 1,
+        "6": 1,
+        "7": 4,
+        "8": 5,
+        "9": 13,
+        "10": 145,
+        "11": 1,
+        "12": 1
+      }
+    },
+    {
+      "id": "2",
+      "label": "L'emblème de la mission",
+      "solutions": [
+        {
+          "1": 3,
+          "2": 3,
+          "3": 3,
+          "4": 2,
+          "5": 2,
+          "6": 3,
+          "7": 1,
+          "8": 1,
+          "9": 1,
+          "10": 1,
+          "11": 1,
+          "12": 1
+        }
+      ],
+      "initial": {
+        "1": 1,
+        "2": 1,
+        "3": 1,
+        "4": 1,
+        "5": 1,
+        "6": 1,
+        "7": 4,
+        "8": 5,
+        "9": 13,
+        "10": 145,
+        "11": 1,
+        "12": 1
+      }
+    },
+    {
+      "id": "3",
+      "label": "Un bouquet d'anniversaire",
+      "solutions": [
+        {
+          "1": 4,
+          "2": 3,
+          "3": 4,
+          "4": 3,
+          "5": 3,
+          "6": 4,
+          "7": 1,
+          "8": 1,
+          "9": 1,
+          "10": 1,
+          "11": 1,
+          "12": 1
+        }
+      ],
+      "initial": {
+        "1": 1,
+        "2": 1,
+        "3": 1,
+        "4": 1,
+        "5": 1,
+        "6": 1,
+        "7": 4,
+        "8": 5,
+        "9": 13,
+        "10": 145,
+        "11": 1,
+        "12": 1
+      }
+    }
+  ],
+  "lookup": [
+    {
+      "object": "7",
+      "value": 1,
+      "conditions": {
+        "1": 1
+      }
+    },
+    {
+      "object": "7",
+      "value": 2,
+      "conditions": {
+        "1": 2
+      }
+    },
+    {
+      "object": "7",
+      "value": 3,
+      "conditions": {
+        "1": 3
+      }
+    },
+    {
+      "object": "8",
+      "value": 1,
+      "conditions": {
+        "2": 1,
+        "3": 1
+      }
+    },
+    {
+      "object": "8",
+      "value": 1,
+      "conditions": {
+        "2": 1,
+        "3": 2
+      }
+    },
+    {
+      "object": "8",
+      "value": 2,
+      "conditions": {
+        "2": 1,
+        "3": 3
+      }
+    },
+    {
+      "object": "8",
+      "value": 3,
+      "conditions": {
+        "2": 2,
+        "3": 1
+      }
+    },
+    {
+      "object": "8",
+      "value": 3,
+      "conditions": {
+        "2": 2,
+        "3": 2
+      }
+    },
+    {
+      "object": "8",
+      "value": 4,
+      "conditions": {
+        "2": 2,
+        "3": 3
+      }
+    },
+    {
+      "object": "8",
+      "value": 3,
+      "conditions": {
+        "2": 3,
+        "3": 1
+      }
+    },
+    {
+      "object": "8",
+      "value": 3,
+      "conditions": {
+        "2": 3,
+        "3": 2
+      }
+    },
+    {
+      "object": "8",
+      "value": 4,
+      "conditions": {
+        "2": 3,
+        "3": 3
+      }
+    },
+    {
+      "object": "9",
+      "value": 2,
+      "conditions": {
+        "4": 1,
+        "5": 1,
+        "6": 1
+      }
+    },
+    {
+      "object": "9",
+      "value": 2,
+      "conditions": {
+        "4": 1,
+        "5": 1,
+        "6": 2
+      }
+    },
+    {
+      "object": "9",
+      "value": 1,
+      "conditions": {
+        "4": 1,
+        "5": 1,
+        "6": 3
+      }
+    },
+    {
+      "object": "9",
+      "value": 4,
+      "conditions": {
+        "4": 1,
+        "5": 2,
+        "6": 1
+      }
+    },
+    {
+      "object": "9",
+      "value": 4,
+      "conditions": {
+        "4": 1,
+        "5": 2,
+        "6": 2
+      }
+    },
+    {
+      "object": "9",
+      "value": 3,
+      "conditions": {
+        "4": 1,
+        "5": 2,
+        "6": 3
+      }
+    },
+    {
+      "object": "9",
+      "value": 4,
+      "conditions": {
+        "4": 1,
+        "5": 3,
+        "6": 1
+      }
+    },
+    {
+      "object": "9",
+      "value": 4,
+      "conditions": {
+        "4": 1,
+        "5": 3,
+        "6": 2
+      }
+    },
+    {
+      "object": "9",
+      "value": 3,
+      "conditions": {
+        "4": 1,
+        "5": 3,
+        "6": 3
+      }
+    },
+    {
+      "object": "9",
+      "value": 6,
+      "conditions": {
+        "4": 2,
+        "5": 1,
+        "6": 1
+      }
+    },
+    {
+      "object": "9",
+      "value": 6,
+      "conditions": {
+        "4": 2,
+        "5": 1,
+        "6": 2
+      }
+    },
+    {
+      "object": "9",
+      "value": 5,
+      "conditions": {
+        "4": 2,
+        "5": 1,
+        "6": 3
+      }
+    },
+    {
+      "object": "9",
+      "value": 8,
+      "conditions": {
+        "4": 2,
+        "5": 2,
+        "6": 1
+      }
+    },
+    {
+      "object": "9",
+      "value": 8,
+      "conditions": {
+        "4": 2,
+        "5": 2,
+        "6": 2
+      }
+    },
+    {
+      "object": "9",
+      "value": 7,
+      "conditions": {
+        "4": 2,
+        "5": 2,
+        "6": 3
+      }
+    },
+    {
+      "object": "9",
+      "value": 8,
+      "conditions": {
+        "4": 2,
+        "5": 3,
+        "6": 1
+      }
+    },
+    {
+      "object": "9",
+      "value": 8,
+      "conditions": {
+        "4": 2,
+        "5": 3,
+        "6": 2
+      }
+    },
+    {
+      "object": "9",
+      "value": 7,
+      "conditions": {
+        "4": 2,
+        "5": 3,
+        "6": 3
+      }
+    },
+    {
+      "object": "9",
+      "value": 10,
+      "conditions": {
+        "4": 3,
+        "5": 1,
+        "6": 1
+      }
+    },
+    {
+      "object": "9",
+      "value": 10,
+      "conditions": {
+        "4": 3,
+        "5": 1,
+        "6": 2
+      }
+    },
+    {
+      "object": "9",
+      "value": 9,
+      "conditions": {
+        "4": 3,
+        "5": 1,
+        "6": 3
+      }
+    },
+    {
+      "object": "9",
+      "value": 12,
+      "conditions": {
+        "4": 3,
+        "5": 2,
+        "6": 1
+      }
+    },
+    {
+      "object": "9",
+      "value": 12,
+      "conditions": {
+        "4": 3,
+        "5": 2,
+        "6": 2
+      }
+    },
+    {
+      "object": "9",
+      "value": 11,
+      "conditions": {
+        "4": 3,
+        "5": 2,
+        "6": 3
+      }
+    },
+    {
+      "object": "9",
+      "value": 12,
+      "conditions": {
+        "4": 3,
+        "5": 3,
+        "6": 1
+      }
+    },
+    {
+      "object": "9",
+      "value": 12,
+      "conditions": {
+        "4": 3,
+        "5": 3,
+        "6": 2
+      }
+    },
+    {
+      "object": "9",
+      "value": 11,
+      "conditions": {
+        "4": 3,
+        "5": 3,
+        "6": 3
+      }
+    },
+    {
+      "object": "10",
+      "value": 1,
+      "conditions": {
+        "7": 1,
+        "8": 1,
+        "9": 1
+      }
+    },
+    {
+      "object": "10",
+      "value": 2,
+      "conditions": {
+        "7": 1,
+        "8": 1,
+        "9": 2
+      }
+    },
+    {
+      "object": "10",
+      "value": 3,
+      "conditions": {
+        "7": 1,
+        "8": 1,
+        "9": 3
+      }
+    },
+    {
+      "object": "10",
+      "value": 4,
+      "conditions": {
+        "7": 1,
+        "8": 1,
+        "9": 4
+      }
+    },
+    {
+      "object": "10",
+      "value": 5,
+      "conditions": {
+        "7": 1,
+        "8": 1,
+        "9": 5
+      }
+    },
+    {
+      "object": "10",
+      "value": 6,
+      "conditions": {
+        "7": 1,
+        "8": 1,
+        "9": 6
+      }
+    },
+    {
+      "object": "10",
+      "value": 7,
+      "conditions": {
+        "7": 1,
+        "8": 1,
+        "9": 7
+      }
+    },
+    {
+      "object": "10",
+      "value": 8,
+      "conditions": {
+        "7": 1,
+        "8": 1,
+        "9": 8
+      }
+    },
+    {
+      "object": "10",
+      "value": 9,
+      "conditions": {
+        "7": 1,
+        "8": 1,
+        "9": 9
+      }
+    },
+    {
+      "object": "10",
+      "value": 10,
+      "conditions": {
+        "7": 1,
+        "8": 1,
+        "9": 10
+      }
+    },
+    {
+      "object": "10",
+      "value": 11,
+      "conditions": {
+        "7": 1,
+        "8": 1,
+        "9": 11
+      }
+    },
+    {
+      "object": "10",
+      "value": 12,
+      "conditions": {
+        "7": 1,
+        "8": 1,
+        "9": 12
+      }
+    },
+    {
+      "object": "10",
+      "value": 13,
+      "conditions": {
+        "7": 1,
+        "8": 2,
+        "9": 1
+      }
+    },
+    {
+      "object": "10",
+      "value": 14,
+      "conditions": {
+        "7": 1,
+        "8": 2,
+        "9": 2
+      }
+    },
+    {
+      "object": "10",
+      "value": 15,
+      "conditions": {
+        "7": 1,
+        "8": 2,
+        "9": 3
+      }
+    },
+    {
+      "object": "10",
+      "value": 16,
+      "conditions": {
+        "7": 1,
+        "8": 2,
+        "9": 4
+      }
+    },
+    {
+      "object": "10",
+      "value": 17,
+      "conditions": {
+        "7": 1,
+        "8": 2,
+        "9": 5
+      }
+    },
+    {
+      "object": "10",
+      "value": 18,
+      "conditions": {
+        "7": 1,
+        "8": 2,
+        "9": 6
+      }
+    },
+    {
+      "object": "10",
+      "value": 19,
+      "conditions": {
+        "7": 1,
+        "8": 2,
+        "9": 7
+      }
+    },
+    {
+      "object": "10",
+      "value": 20,
+      "conditions": {
+        "7": 1,
+        "8": 2,
+        "9": 8
+      }
+    },
+    {
+      "object": "10",
+      "value": 21,
+      "conditions": {
+        "7": 1,
+        "8": 2,
+        "9": 9
+      }
+    },
+    {
+      "object": "10",
+      "value": 22,
+      "conditions": {
+        "7": 1,
+        "8": 2,
+        "9": 10
+      }
+    },
+    {
+      "object": "10",
+      "value": 23,
+      "conditions": {
+        "7": 1,
+        "8": 2,
+        "9": 11
+      }
+    },
+    {
+      "object": "10",
+      "value": 24,
+      "conditions": {
+        "7": 1,
+        "8": 2,
+        "9": 12
+      }
+    },
+    {
+      "object": "10",
+      "value": 25,
+      "conditions": {
+        "7": 1,
+        "8": 3,
+        "9": 1
+      }
+    },
+    {
+      "object": "10",
+      "value": 26,
+      "conditions": {
+        "7": 1,
+        "8": 3,
+        "9": 2
+      }
+    },
+    {
+      "object": "10",
+      "value": 27,
+      "conditions": {
+        "7": 1,
+        "8": 3,
+        "9": 3
+      }
+    },
+    {
+      "object": "10",
+      "value": 28,
+      "conditions": {
+        "7": 1,
+        "8": 3,
+        "9": 4
+      }
+    },
+    {
+      "object": "10",
+      "value": 29,
+      "conditions": {
+        "7": 1,
+        "8": 3,
+        "9": 5
+      }
+    },
+    {
+      "object": "10",
+      "value": 30,
+      "conditions": {
+        "7": 1,
+        "8": 3,
+        "9": 6
+      }
+    },
+    {
+      "object": "10",
+      "value": 31,
+      "conditions": {
+        "7": 1,
+        "8": 3,
+        "9": 7
+      }
+    },
+    {
+      "object": "10",
+      "value": 32,
+      "conditions": {
+        "7": 1,
+        "8": 3,
+        "9": 8
+      }
+    },
+    {
+      "object": "10",
+      "value": 33,
+      "conditions": {
+        "7": 1,
+        "8": 3,
+        "9": 9
+      }
+    },
+    {
+      "object": "10",
+      "value": 34,
+      "conditions": {
+        "7": 1,
+        "8": 3,
+        "9": 10
+      }
+    },
+    {
+      "object": "10",
+      "value": 35,
+      "conditions": {
+        "7": 1,
+        "8": 3,
+        "9": 11
+      }
+    },
+    {
+      "object": "10",
+      "value": 36,
+      "conditions": {
+        "7": 1,
+        "8": 3,
+        "9": 12
+      }
+    },
+    {
+      "object": "10",
+      "value": 37,
+      "conditions": {
+        "7": 1,
+        "8": 4,
+        "9": 1
+      }
+    },
+    {
+      "object": "10",
+      "value": 38,
+      "conditions": {
+        "7": 1,
+        "8": 4,
+        "9": 2
+      }
+    },
+    {
+      "object": "10",
+      "value": 39,
+      "conditions": {
+        "7": 1,
+        "8": 4,
+        "9": 3
+      }
+    },
+    {
+      "object": "10",
+      "value": 40,
+      "conditions": {
+        "7": 1,
+        "8": 4,
+        "9": 4
+      }
+    },
+    {
+      "object": "10",
+      "value": 41,
+      "conditions": {
+        "7": 1,
+        "8": 4,
+        "9": 5
+      }
+    },
+    {
+      "object": "10",
+      "value": 42,
+      "conditions": {
+        "7": 1,
+        "8": 4,
+        "9": 6
+      }
+    },
+    {
+      "object": "10",
+      "value": 43,
+      "conditions": {
+        "7": 1,
+        "8": 4,
+        "9": 7
+      }
+    },
+    {
+      "object": "10",
+      "value": 44,
+      "conditions": {
+        "7": 1,
+        "8": 4,
+        "9": 8
+      }
+    },
+    {
+      "object": "10",
+      "value": 45,
+      "conditions": {
+        "7": 1,
+        "8": 4,
+        "9": 9
+      }
+    },
+    {
+      "object": "10",
+      "value": 46,
+      "conditions": {
+        "7": 1,
+        "8": 4,
+        "9": 10
+      }
+    },
+    {
+      "object": "10",
+      "value": 47,
+      "conditions": {
+        "7": 1,
+        "8": 4,
+        "9": 11
+      }
+    },
+    {
+      "object": "10",
+      "value": 48,
+      "conditions": {
+        "7": 1,
+        "8": 4,
+        "9": 12
+      }
+    },
+    {
+      "object": "10",
+      "value": 49,
+      "conditions": {
+        "7": 2,
+        "8": 1,
+        "9": 1
+      }
+    },
+    {
+      "object": "10",
+      "value": 50,
+      "conditions": {
+        "7": 2,
+        "8": 1,
+        "9": 2
+      }
+    },
+    {
+      "object": "10",
+      "value": 51,
+      "conditions": {
+        "7": 2,
+        "8": 1,
+        "9": 3
+      }
+    },
+    {
+      "object": "10",
+      "value": 52,
+      "conditions": {
+        "7": 2,
+        "8": 1,
+        "9": 4
+      }
+    },
+    {
+      "object": "10",
+      "value": 53,
+      "conditions": {
+        "7": 2,
+        "8": 1,
+        "9": 5
+      }
+    },
+    {
+      "object": "10",
+      "value": 54,
+      "conditions": {
+        "7": 2,
+        "8": 1,
+        "9": 6
+      }
+    },
+    {
+      "object": "10",
+      "value": 55,
+      "conditions": {
+        "7": 2,
+        "8": 1,
+        "9": 7
+      }
+    },
+    {
+      "object": "10",
+      "value": 56,
+      "conditions": {
+        "7": 2,
+        "8": 1,
+        "9": 8
+      }
+    },
+    {
+      "object": "10",
+      "value": 57,
+      "conditions": {
+        "7": 2,
+        "8": 1,
+        "9": 9
+      }
+    },
+    {
+      "object": "10",
+      "value": 58,
+      "conditions": {
+        "7": 2,
+        "8": 1,
+        "9": 10
+      }
+    },
+    {
+      "object": "10",
+      "value": 59,
+      "conditions": {
+        "7": 2,
+        "8": 1,
+        "9": 11
+      }
+    },
+    {
+      "object": "10",
+      "value": 60,
+      "conditions": {
+        "7": 2,
+        "8": 1,
+        "9": 12
+      }
+    },
+    {
+      "object": "10",
+      "value": 61,
+      "conditions": {
+        "7": 2,
+        "8": 2,
+        "9": 1
+      }
+    },
+    {
+      "object": "10",
+      "value": 62,
+      "conditions": {
+        "7": 2,
+        "8": 2,
+        "9": 2
+      }
+    },
+    {
+      "object": "10",
+      "value": 63,
+      "conditions": {
+        "7": 2,
+        "8": 2,
+        "9": 3
+      }
+    },
+    {
+      "object": "10",
+      "value": 64,
+      "conditions": {
+        "7": 2,
+        "8": 2,
+        "9": 4
+      }
+    },
+    {
+      "object": "10",
+      "value": 65,
+      "conditions": {
+        "7": 2,
+        "8": 2,
+        "9": 5
+      }
+    },
+    {
+      "object": "10",
+      "value": 66,
+      "conditions": {
+        "7": 2,
+        "8": 2,
+        "9": 6
+      }
+    },
+    {
+      "object": "10",
+      "value": 67,
+      "conditions": {
+        "7": 2,
+        "8": 2,
+        "9": 7
+      }
+    },
+    {
+      "object": "10",
+      "value": 68,
+      "conditions": {
+        "7": 2,
+        "8": 2,
+        "9": 8
+      }
+    },
+    {
+      "object": "10",
+      "value": 69,
+      "conditions": {
+        "7": 2,
+        "8": 2,
+        "9": 9
+      }
+    },
+    {
+      "object": "10",
+      "value": 70,
+      "conditions": {
+        "7": 2,
+        "8": 2,
+        "9": 10
+      }
+    },
+    {
+      "object": "10",
+      "value": 71,
+      "conditions": {
+        "7": 2,
+        "8": 2,
+        "9": 11
+      }
+    },
+    {
+      "object": "10",
+      "value": 72,
+      "conditions": {
+        "7": 2,
+        "8": 2,
+        "9": 12
+      }
+    },
+    {
+      "object": "10",
+      "value": 73,
+      "conditions": {
+        "7": 2,
+        "8": 3,
+        "9": 1
+      }
+    },
+    {
+      "object": "10",
+      "value": 74,
+      "conditions": {
+        "7": 2,
+        "8": 3,
+        "9": 2
+      }
+    },
+    {
+      "object": "10",
+      "value": 75,
+      "conditions": {
+        "7": 2,
+        "8": 3,
+        "9": 3
+      }
+    },
+    {
+      "object": "10",
+      "value": 76,
+      "conditions": {
+        "7": 2,
+        "8": 3,
+        "9": 4
+      }
+    },
+    {
+      "object": "10",
+      "value": 77,
+      "conditions": {
+        "7": 2,
+        "8": 3,
+        "9": 5
+      }
+    },
+    {
+      "object": "10",
+      "value": 78,
+      "conditions": {
+        "7": 2,
+        "8": 3,
+        "9": 6
+      }
+    },
+    {
+      "object": "10",
+      "value": 79,
+      "conditions": {
+        "7": 2,
+        "8": 3,
+        "9": 7
+      }
+    },
+    {
+      "object": "10",
+      "value": 80,
+      "conditions": {
+        "7": 2,
+        "8": 3,
+        "9": 8
+      }
+    },
+    {
+      "object": "10",
+      "value": 81,
+      "conditions": {
+        "7": 2,
+        "8": 3,
+        "9": 9
+      }
+    },
+    {
+      "object": "10",
+      "value": 82,
+      "conditions": {
+        "7": 2,
+        "8": 3,
+        "9": 10
+      }
+    },
+    {
+      "object": "10",
+      "value": 83,
+      "conditions": {
+        "7": 2,
+        "8": 3,
+        "9": 11
+      }
+    },
+    {
+      "object": "10",
+      "value": 84,
+      "conditions": {
+        "7": 2,
+        "8": 3,
+        "9": 12
+      }
+    },
+    {
+      "object": "10",
+      "value": 85,
+      "conditions": {
+        "7": 2,
+        "8": 4,
+        "9": 1
+      }
+    },
+    {
+      "object": "10",
+      "value": 86,
+      "conditions": {
+        "7": 2,
+        "8": 4,
+        "9": 2
+      }
+    },
+    {
+      "object": "10",
+      "value": 87,
+      "conditions": {
+        "7": 2,
+        "8": 4,
+        "9": 3
+      }
+    },
+    {
+      "object": "10",
+      "value": 88,
+      "conditions": {
+        "7": 2,
+        "8": 4,
+        "9": 4
+      }
+    },
+    {
+      "object": "10",
+      "value": 89,
+      "conditions": {
+        "7": 2,
+        "8": 4,
+        "9": 5
+      }
+    },
+    {
+      "object": "10",
+      "value": 90,
+      "conditions": {
+        "7": 2,
+        "8": 4,
+        "9": 6
+      }
+    },
+    {
+      "object": "10",
+      "value": 91,
+      "conditions": {
+        "7": 2,
+        "8": 4,
+        "9": 7
+      }
+    },
+    {
+      "object": "10",
+      "value": 92,
+      "conditions": {
+        "7": 2,
+        "8": 4,
+        "9": 8
+      }
+    },
+    {
+      "object": "10",
+      "value": 93,
+      "conditions": {
+        "7": 2,
+        "8": 4,
+        "9": 9
+      }
+    },
+    {
+      "object": "10",
+      "value": 94,
+      "conditions": {
+        "7": 2,
+        "8": 4,
+        "9": 10
+      }
+    },
+    {
+      "object": "10",
+      "value": 95,
+      "conditions": {
+        "7": 2,
+        "8": 4,
+        "9": 11
+      }
+    },
+    {
+      "object": "10",
+      "value": 96,
+      "conditions": {
+        "7": 2,
+        "8": 4,
+        "9": 12
+      }
+    },
+    {
+      "object": "10",
+      "value": 97,
+      "conditions": {
+        "7": 3,
+        "8": 1,
+        "9": 1
+      }
+    },
+    {
+      "object": "10",
+      "value": 98,
+      "conditions": {
+        "7": 3,
+        "8": 1,
+        "9": 2
+      }
+    },
+    {
+      "object": "10",
+      "value": 99,
+      "conditions": {
+        "7": 3,
+        "8": 1,
+        "9": 3
+      }
+    },
+    {
+      "object": "10",
+      "value": 100,
+      "conditions": {
+        "7": 3,
+        "8": 1,
+        "9": 4
+      }
+    },
+    {
+      "object": "10",
+      "value": 101,
+      "conditions": {
+        "7": 3,
+        "8": 1,
+        "9": 5
+      }
+    },
+    {
+      "object": "10",
+      "value": 102,
+      "conditions": {
+        "7": 3,
+        "8": 1,
+        "9": 6
+      }
+    },
+    {
+      "object": "10",
+      "value": 103,
+      "conditions": {
+        "7": 3,
+        "8": 1,
+        "9": 7
+      }
+    },
+    {
+      "object": "10",
+      "value": 104,
+      "conditions": {
+        "7": 3,
+        "8": 1,
+        "9": 8
+      }
+    },
+    {
+      "object": "10",
+      "value": 105,
+      "conditions": {
+        "7": 3,
+        "8": 1,
+        "9": 9
+      }
+    },
+    {
+      "object": "10",
+      "value": 106,
+      "conditions": {
+        "7": 3,
+        "8": 1,
+        "9": 10
+      }
+    },
+    {
+      "object": "10",
+      "value": 107,
+      "conditions": {
+        "7": 3,
+        "8": 1,
+        "9": 11
+      }
+    },
+    {
+      "object": "10",
+      "value": 108,
+      "conditions": {
+        "7": 3,
+        "8": 1,
+        "9": 12
+      }
+    },
+    {
+      "object": "10",
+      "value": 109,
+      "conditions": {
+        "7": 3,
+        "8": 2,
+        "9": 1
+      }
+    },
+    {
+      "object": "10",
+      "value": 110,
+      "conditions": {
+        "7": 3,
+        "8": 2,
+        "9": 2
+      }
+    },
+    {
+      "object": "10",
+      "value": 111,
+      "conditions": {
+        "7": 3,
+        "8": 2,
+        "9": 3
+      }
+    },
+    {
+      "object": "10",
+      "value": 112,
+      "conditions": {
+        "7": 3,
+        "8": 2,
+        "9": 4
+      }
+    },
+    {
+      "object": "10",
+      "value": 113,
+      "conditions": {
+        "7": 3,
+        "8": 2,
+        "9": 5
+      }
+    },
+    {
+      "object": "10",
+      "value": 114,
+      "conditions": {
+        "7": 3,
+        "8": 2,
+        "9": 6
+      }
+    },
+    {
+      "object": "10",
+      "value": 115,
+      "conditions": {
+        "7": 3,
+        "8": 2,
+        "9": 7
+      }
+    },
+    {
+      "object": "10",
+      "value": 116,
+      "conditions": {
+        "7": 3,
+        "8": 2,
+        "9": 8
+      }
+    },
+    {
+      "object": "10",
+      "value": 117,
+      "conditions": {
+        "7": 3,
+        "8": 2,
+        "9": 9
+      }
+    },
+    {
+      "object": "10",
+      "value": 118,
+      "conditions": {
+        "7": 3,
+        "8": 2,
+        "9": 10
+      }
+    },
+    {
+      "object": "10",
+      "value": 119,
+      "conditions": {
+        "7": 3,
+        "8": 2,
+        "9": 11
+      }
+    },
+    {
+      "object": "10",
+      "value": 120,
+      "conditions": {
+        "7": 3,
+        "8": 2,
+        "9": 12
+      }
+    },
+    {
+      "object": "10",
+      "value": 121,
+      "conditions": {
+        "7": 3,
+        "8": 3,
+        "9": 1
+      }
+    },
+    {
+      "object": "10",
+      "value": 122,
+      "conditions": {
+        "7": 3,
+        "8": 3,
+        "9": 2
+      }
+    },
+    {
+      "object": "10",
+      "value": 123,
+      "conditions": {
+        "7": 3,
+        "8": 3,
+        "9": 3
+      }
+    },
+    {
+      "object": "10",
+      "value": 124,
+      "conditions": {
+        "7": 3,
+        "8": 3,
+        "9": 4
+      }
+    },
+    {
+      "object": "10",
+      "value": 125,
+      "conditions": {
+        "7": 3,
+        "8": 3,
+        "9": 5
+      }
+    },
+    {
+      "object": "10",
+      "value": 126,
+      "conditions": {
+        "7": 3,
+        "8": 3,
+        "9": 6
+      }
+    },
+    {
+      "object": "10",
+      "value": 127,
+      "conditions": {
+        "7": 3,
+        "8": 3,
+        "9": 7
+      }
+    },
+    {
+      "object": "10",
+      "value": 128,
+      "conditions": {
+        "7": 3,
+        "8": 3,
+        "9": 8
+      }
+    },
+    {
+      "object": "10",
+      "value": 129,
+      "conditions": {
+        "7": 3,
+        "8": 3,
+        "9": 9
+      }
+    },
+    {
+      "object": "10",
+      "value": 130,
+      "conditions": {
+        "7": 3,
+        "8": 3,
+        "9": 10
+      }
+    },
+    {
+      "object": "10",
+      "value": 131,
+      "conditions": {
+        "7": 3,
+        "8": 3,
+        "9": 11
+      }
+    },
+    {
+      "object": "10",
+      "value": 132,
+      "conditions": {
+        "7": 3,
+        "8": 3,
+        "9": 12
+      }
+    },
+    {
+      "object": "10",
+      "value": 133,
+      "conditions": {
+        "7": 3,
+        "8": 4,
+        "9": 1
+      }
+    },
+    {
+      "object": "10",
+      "value": 134,
+      "conditions": {
+        "7": 3,
+        "8": 4,
+        "9": 2
+      }
+    },
+    {
+      "object": "10",
+      "value": 135,
+      "conditions": {
+        "7": 3,
+        "8": 4,
+        "9": 3
+      }
+    },
+    {
+      "object": "10",
+      "value": 136,
+      "conditions": {
+        "7": 3,
+        "8": 4,
+        "9": 4
+      }
+    },
+    {
+      "object": "10",
+      "value": 137,
+      "conditions": {
+        "7": 3,
+        "8": 4,
+        "9": 5
+      }
+    },
+    {
+      "object": "10",
+      "value": 138,
+      "conditions": {
+        "7": 3,
+        "8": 4,
+        "9": 6
+      }
+    },
+    {
+      "object": "10",
+      "value": 139,
+      "conditions": {
+        "7": 3,
+        "8": 4,
+        "9": 7
+      }
+    },
+    {
+      "object": "10",
+      "value": 140,
+      "conditions": {
+        "7": 3,
+        "8": 4,
+        "9": 8
+      }
+    },
+    {
+      "object": "10",
+      "value": 141,
+      "conditions": {
+        "7": 3,
+        "8": 4,
+        "9": 9
+      }
+    },
+    {
+      "object": "10",
+      "value": 142,
+      "conditions": {
+        "7": 3,
+        "8": 4,
+        "9": 10
+      }
+    },
+    {
+      "object": "10",
+      "value": 143,
+      "conditions": {
+        "7": 3,
+        "8": 4,
+        "9": 11
+      }
+    },
+    {
+      "object": "10",
+      "value": 144,
+      "conditions": {
+        "7": 3,
+        "8": 4,
+        "9": 12
+      }
+    }
+  ]
+}

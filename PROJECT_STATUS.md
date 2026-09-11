@@ -11,6 +11,18 @@ Préserver les graphismes originaux. Fonctionnement local, architecture déploya
 ultérieurement. Utiliser les ressources, règles et niveaux originaux ; distinguer
 les comportements vérifiés des hypothèses. Tenir des rapports avec captures.
 
+## WGOB3 — 12 septembre 2026
+
+Goblins 3 est maintenant accessible depuis la ludothèque à `#game/wgob3`.
+Exécutable NE analysé avec Ghidra ; édition française Windows identifiée par
+empreintes. Le portage utilise le moteur Gob de ScummVM compilé en WebAssembly
+avec les archives originales, des sauvegardes IndexedDB et leur import/export.
+Démarrage, bateau, déplacement et prise du club vérifiés ; l’utilisateur confirme
+le fonctionnement. Il ne s’agit pas d’une réécriture JS intégrale. Voir le
+[rapport et les limites des vérifications](reports/wgob3-portage.md).
+Le moteur compilé, les données WGOB3 et les ressources chambre/ludothèque/Sokoban
+sont inclus dans Git : un clone suffit, puis `npm --prefix web run dev` avec Node.js 22+.
+
 ## Station à reprendre
 
 - 347 exercices : blocs de texte extraits, interactions encore à porter.

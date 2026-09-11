@@ -8,9 +8,16 @@ Depuis ce dossier : `npm run dev`, puis ouvrir `http://127.0.0.1:4173`.
 Le serveur écoute uniquement sur l'interface locale.
 `PORT=4174 npm run dev` permet de changer le port si nécessaire.
 
+**Après un clone :** Node.js 22 ou plus récent suffit, sans `npm install`.
+La chambre, la ludothèque, Sokoban et **WGOB3** disposent de leurs ressources
+dans Git. Accès direct : <http://127.0.0.1:4173/#game/wgob3>.
+WGOB3 fonctionne aussi seul à <http://127.0.0.1:4173/wgob3/player.html>.
+Aucun setup, Wine, Ghidra, Python ou Emscripten n’est nécessaire pour jouer.
+Les médias de la station Sciences restent à préparer séparément.
+
 Depuis la racine, après extraction : `python3 scripts/prepare_web.py` génère
 `web/public/game/`. Pillow est nécessaire pour les images. Les ISO et le dossier
-`extracted/` ne sont pas servis. Les ressources générées sont ignorées par Git.
+`extracted/` ne sont pas servis. Les médias Sciences générés sont ignorés par Git.
 
 Validation : `npm run check` puis `npm run build`.
 Prévisualisation du build : `npm run preview`.
@@ -42,4 +49,17 @@ La première activité de la serre est accessible à `#scene/greenhouse`. Géné
 
 ## Chambre et premier jeu Win16
 
-`#room` ouvre la chambre avec sa barre animée ; `#games` ouvre la ludothèque et `#game/sokoban` le premier jeu recréé (15 niveaux originaux). Préparer ces ressources depuis la racine avec `python3 scripts/prepare_room.py`, `python3 scripts/prepare_games.py` et `python3 scripts/prepare_sokoban.py`. La chambre utilise encore une capture de référence contenant Adi immobile. Les autres jeux sont inventoriés mais pas encore jouables. Voir [le rapport chambre et jeux](../reports/chambre-et-jeux.md).
+`#room` ouvre la chambre avec son décor natif et six objets animés ; `#games` ouvre la ludothèque. Sokoban (15 niveaux originaux) et WGOB3 sont jouables. Ces ressources sont incluses dans le dépôt ; leur régénération depuis les extractions est facultative. Les autres jeux sont inventoriés mais restent à porter. Voir [la reconstruction de la chambre](../reports/chambre-native.md) et [le rapport chambre et jeux](../reports/chambre-et-jeux.md).
+
+## Goblins 3 / WGOB3
+
+`#game/wgob3` lance l’édition française Windows fournie avec ADI, dans le moteur
+Gob de ScummVM 2.9.0 compilé en WebAssembly. L’analyse Ghidra, les versions de
+compilation et les limites sont dans [le rapport WGOB3](../reports/wgob3-portage.md).
+Le moteur compilé, ses licences et les données sont inclus dans Git : le jeu
+est jouable dès le clone. Pour **recompiler volontairement** le moteur, installer
+les sources et le SDK épinglés puis lancer `bash scripts/build_wgob3.sh`.
+Les extractions d’origine sont nécessaires uniquement pour régénérer les données.
+Le déploiement statique doit servir `.wasm` avec `application/wasm`.
+Les sauvegardes sont propres à l’origine du navigateur (adresse et port) ;
+l’export/import permet de les transférer lors d’un futur déploiement.

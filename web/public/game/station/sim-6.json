@@ -1,0 +1,1326 @@
+{
+  "id": "6",
+  "title": "Erosion des paysages",
+  "background": "06I1",
+  "objects": [
+    {
+      "id": "1",
+      "label": "Mer",
+      "type": 4,
+      "function": 0,
+      "plan": 101,
+      "box": [
+        91,
+        276,
+        131,
+        77
+      ],
+      "options": [
+        {
+          "id": 1,
+          "value": 1,
+          "label": "Mer calme",
+          "visual": "06D10001",
+          "audio": null
+        },
+        {
+          "id": 2,
+          "value": 2,
+          "label": "Mer assez forte",
+          "visual": "06D10002",
+          "audio": null
+        },
+        {
+          "id": 3,
+          "value": 3,
+          "label": "Mer déchaînée",
+          "visual": "06D10003",
+          "audio": null
+        }
+      ],
+      "hints": {
+        "0": "La mer : plus ou moins agitée, elle exerce son action mécanique sur le littoral.",
+        "1": "La mer : pour détruire les falaises, il faut une mer très agitée.",
+        "2": "La mer : pour conserver les hautes falaises, il faut une mer calme.",
+        "3": "La mer : plus elle est agitée, plus la falaise est érodée."
+      }
+    },
+    {
+      "id": "2",
+      "label": "Vallée fluviale",
+      "type": 4,
+      "function": 0,
+      "plan": 101,
+      "box": [
+        454,
+        290,
+        91,
+        86
+      ],
+      "options": [
+        {
+          "id": 1,
+          "value": 1,
+          "label": "Pente de la vallée fluviale forte",
+          "visual": "06D20001",
+          "audio": null
+        },
+        {
+          "id": 2,
+          "value": 2,
+          "label": "Pente de la vallée fluviale moyenne",
+          "visual": "06D20002",
+          "audio": null
+        },
+        {
+          "id": 3,
+          "value": 3,
+          "label": "Pente de la vallée fluviale faible",
+          "visual": "06D20003",
+          "audio": null
+        }
+      ],
+      "hints": {
+        "0": "La vallée fluviale : la pente de la vallée fluviale peut être faible ou forte suivant qu'il y ait un grand dénivelé entre la source du fleuve et son arrivée à la mer.",
+        "1": "La pente de la vallée fluviale : elle ne doit pas être faible si tu veux obtenir un relief fortement influencé par l'eau.",
+        "2": "La pente de la vallée fluviale : plus la pente est faible, moins le relief est érodé par le fleuve.",
+        "3": "La pente de la vallée fluviale : plus la pente est forte, plus le relief est érodé."
+      }
+    },
+    {
+      "id": "3",
+      "label": "Vent",
+      "type": 4,
+      "function": 0,
+      "plan": 101,
+      "box": [
+        546,
+        313,
+        89,
+        81
+      ],
+      "options": [
+        {
+          "id": 1,
+          "value": 1,
+          "label": "Vent faible",
+          "visual": "06D30001",
+          "audio": null
+        },
+        {
+          "id": 2,
+          "value": 2,
+          "label": "Vent modéré",
+          "visual": "06D30002",
+          "audio": null
+        },
+        {
+          "id": 3,
+          "value": 3,
+          "label": "Vent fort",
+          "visual": "06D30003",
+          "audio": null
+        }
+      ],
+      "hints": {
+        "0": "Le vent : ce facteur d'érosion, responsable du transport des matériaux les plus légers, comme le sable, et les poussières, exerce une action mécanique sur les roches.",
+        "1": "Le vent : ce facteur d'érosion, responsable du transport des matériaux les plus légers, comme le sable, et les poussières, exerce une action mécanique sur les roches.",
+        "2": "Le vent : pour préserver les reliefs et limiter l'érosion, le vent doit être faible.",
+        "3": "Le vent : sans vent, pas de cerf-volant dans le ciel. Il doit donc souffler avec force."
+      }
+    },
+    {
+      "id": "4",
+      "label": "Précipitations",
+      "type": 4,
+      "function": 0,
+      "plan": 101,
+      "box": [
+        9,
+        334,
+        175,
+        94
+      ],
+      "options": [
+        {
+          "id": 1,
+          "value": 1,
+          "label": "Faibles précipitations",
+          "visual": "06D40001",
+          "audio": null
+        },
+        {
+          "id": 2,
+          "value": 2,
+          "label": "Précipitations modérées",
+          "visual": "06D40002",
+          "audio": null
+        },
+        {
+          "id": 3,
+          "value": 3,
+          "label": "Précipitations importantes",
+          "visual": "06D40003",
+          "audio": null
+        }
+      ],
+      "hints": {
+        "0": "Les précipitations : l'eau qui tombe sous forme de précipitations a plusieurs modes d'action. D'une part, elle dissout les minéraux, les désagrège et les transporte. D'autre part, elle s'infiltre dans les roches et les fait éclater pendant les périodes de gel.  Après un parcours plus ou moins complexe, les eaux de précipitations viennent alimenter les fleuves ; elles influencent donc leur débit.",
+        "1": "Les précipitations : lorsqu'elles sont nombreuses, le débit des cours d'eau est important ; c'est idéal pour le kayak.",
+        "2": "Les précipitations : elles doivent être faibles pour limiter l'érosion.",
+        "3": "Les précipitations : pour obtenir une érosion importante, il faut beaucoup de précipitations."
+      }
+    },
+    {
+      "id": "5",
+      "label": "Déforestation",
+      "type": 4,
+      "function": 0,
+      "plan": 101,
+      "box": [
+        241,
+        329,
+        204,
+        132
+      ],
+      "options": [
+        {
+          "id": 1,
+          "value": 1,
+          "label": "Aucune déforestation",
+          "visual": "06D50001",
+          "audio": null
+        },
+        {
+          "id": 2,
+          "value": 2,
+          "label": "Déforestation faible",
+          "visual": "06D50002",
+          "audio": null
+        },
+        {
+          "id": 3,
+          "value": 3,
+          "label": "Déforestation importante",
+          "visual": "06D50003",
+          "audio": null
+        }
+      ],
+      "hints": {
+        "0": "La déforestation : bien souvent, l'homme exploite la nature en fonction des ses besoins, sans réfléchir aux conséquences sur l'environnement. Une déforestation massive, par exemple, rend le sol beaucoup plus vulnérable au phénomène d'érosion.",
+        "1": "La déforestation : avec la disparition des forêts, le sol n'est plus protégé contre l'érosion.",
+        "2": "La déforestation : sans déforestation, le relief est préservé.",
+        "3": "La déforestation : cette action de l'homme augmente l'érosion d'un paysage."
+      }
+    },
+    {
+      "id": "6",
+      "label": "Falaise",
+      "type": 1,
+      "function": 1,
+      "plan": 102,
+      "box": [
+        87,
+        185,
+        227,
+        90
+      ],
+      "options": [
+        {
+          "id": 1,
+          "value": 1,
+          "label": "Falaise peu érodée",
+          "visual": "06S60001",
+          "audio": null
+        },
+        {
+          "id": 2,
+          "value": 2,
+          "label": "Falaise moyennement érodée",
+          "visual": "06S60002",
+          "audio": "/game/station/06W60002.wav"
+        },
+        {
+          "id": 3,
+          "value": 3,
+          "label": "Falaise très érodée",
+          "visual": "06S60003",
+          "audio": "/game/station/06W60003.wav"
+        }
+      ],
+      "hints": {
+        "0": "La falaise : c'est un des éléments visibles d'un paysage ; son aspect est fortement influencé par l'action mécanique de la mer sur ses surfaces immergée et émergée.",
+        "1": "La falaise : c'est un des éléments visibles d'un paysage ; son aspect est fortement influencé par l'action mécanique de la mer sur ses surfaces immergée et émergée.",
+        "2": "La falaise : c'est un des éléments visibles d'un paysage ; son aspect est fortement influencé par l'action mécanique de la mer sur ses surfaces immergée et émergée.",
+        "3": "La falaise : c'est un des éléments visibles d'un paysage ; son aspect est fortement influencé par l'action mécanique de la mer sur ses surfaces immergée et émergée."
+      }
+    },
+    {
+      "id": "7",
+      "label": "Collines",
+      "type": 1,
+      "function": 2,
+      "plan": 101,
+      "box": [
+        113,
+        108,
+        122,
+        75
+      ],
+      "options": [
+        {
+          "id": 1,
+          "value": 1,
+          "label": "Colline très élevée avec forêt",
+          "visual": "06D70001",
+          "audio": "/game/station/06W70001.wav"
+        },
+        {
+          "id": 2,
+          "value": 10,
+          "label": "Colline très élevée avec forêt",
+          "visual": "06D70002",
+          "audio": "/game/station/06W70002.wav"
+        },
+        {
+          "id": 3,
+          "value": 2,
+          "label": "Colline élevée avec forêt",
+          "visual": "06D70003",
+          "audio": "/game/station/06W70003.wav"
+        },
+        {
+          "id": 4,
+          "value": 20,
+          "label": "Colline élevée avec forêt",
+          "visual": "06D70004",
+          "audio": "/game/station/06W70004.wav"
+        },
+        {
+          "id": 5,
+          "value": 200,
+          "label": "Colline élevée avec forêt",
+          "visual": "06D70005",
+          "audio": "/game/station/06W70005.wav"
+        },
+        {
+          "id": 6,
+          "value": 300,
+          "label": "Colline moyenne avec forêt",
+          "visual": "06D70006",
+          "audio": "/game/station/06W70006.wav"
+        },
+        {
+          "id": 7,
+          "value": 4,
+          "label": "Colline élevée avec forêt clairsemée",
+          "visual": "06D70007",
+          "audio": "/game/station/06W70007.wav"
+        },
+        {
+          "id": 8,
+          "value": 5,
+          "label": "Colline moyenne avec forêt clairsemée",
+          "visual": "06D70008",
+          "audio": "/game/station/06W70008.wav"
+        },
+        {
+          "id": 9,
+          "value": 50,
+          "label": "Colline moyenne avec forêt clairsemée",
+          "visual": "06D70009",
+          "audio": "/game/station/06W70009.wav"
+        },
+        {
+          "id": 10,
+          "value": 500,
+          "label": "Colline moyenne avec forêt clairsemée",
+          "visual": "06D70010",
+          "audio": "/game/station/06W70010.wav"
+        },
+        {
+          "id": 11,
+          "value": 60,
+          "label": "Colline douce avec forêt clairsemée",
+          "visual": "06D70011",
+          "audio": "/game/station/06W70011.wav"
+        },
+        {
+          "id": 12,
+          "value": 600,
+          "label": "Colline douce avec forêt clairsemée",
+          "visual": "06D70012",
+          "audio": "/game/station/06W70012.wav"
+        },
+        {
+          "id": 13,
+          "value": 7,
+          "label": "Colline moyenne avec arbres isolés",
+          "visual": "06D70013",
+          "audio": "/game/station/06W70013.wav"
+        },
+        {
+          "id": 14,
+          "value": 70,
+          "label": "Colline moyenne avec arbres isolés",
+          "visual": "06D70014",
+          "audio": "/game/station/06W70014.wav"
+        },
+        {
+          "id": 15,
+          "value": 8,
+          "label": "Colline douce avec arbres isolés",
+          "visual": "06D70015",
+          "audio": "/game/station/06W70015.wav"
+        },
+        {
+          "id": 16,
+          "value": 80,
+          "label": "Colline douce avec arbres isolés",
+          "visual": "06D70016",
+          "audio": "/game/station/06W70016.wav"
+        },
+        {
+          "id": 17,
+          "value": 800,
+          "label": "Colline douce avec arbres isolés",
+          "visual": "06D70017",
+          "audio": "/game/station/06W70017.wav"
+        },
+        {
+          "id": 18,
+          "value": 900,
+          "label": "Colline très douce avec arbres isolés",
+          "visual": "06D70018",
+          "audio": "/game/station/06W70018.wav"
+        }
+      ],
+      "hints": {
+        "0": "Les collines : font partie du relief, c'est-à-dire des éléments les plus visibles d'un paysage.  Elles peuvent être plus ou moins hautes et plus ou moins boisées.",
+        "1": "Les collines : font partie du relief, c'est-à-dire des éléments les plus visibles d'un paysage.  Elles peuvent être plus ou moins hautes et plus ou moins boisées.",
+        "2": "Les collines : font partie du relief, c'est-à-dire des éléments les plus visibles d'un paysage.  Elles peuvent être plus ou moins hautes et plus ou moins boisées.",
+        "3": "Les collines : font partie du relief, c'est-à-dire des éléments les plus visibles d'un paysage.  Elles peuvent être plus ou moins hautes et plus ou moins boisées."
+      }
+    },
+    {
+      "id": "8",
+      "label": "Fleuve très encaissé",
+      "type": 1,
+      "function": 2,
+      "plan": 102,
+      "box": [
+        304,
+        126,
+        51,
+        110
+      ],
+      "options": [
+        {
+          "id": 1,
+          "value": 4,
+          "label": "",
+          "visual": "VIDE_DF",
+          "audio": null
+        },
+        {
+          "id": 2,
+          "value": 1,
+          "label": "Très peu de méandres et fleuve étroit",
+          "visual": "06D80002",
+          "audio": "/game/station/06W80002.wav"
+        },
+        {
+          "id": 3,
+          "value": 2,
+          "label": "Très peu de méandres et fleuve de largeur moyenne",
+          "visual": "06D80003",
+          "audio": "/game/station/06W80003.wav"
+        },
+        {
+          "id": 4,
+          "value": 3,
+          "label": "Très peu de méandres et fleuve large",
+          "visual": "06D80004",
+          "audio": "/game/station/06W80004.wav"
+        }
+      ],
+      "hints": {
+        "0": "Le fleuve : cet occupant de la vallée peut présenter des aspects très variés. Il peut être plus ou moins large et posséder plus ou moins de méandres.",
+        "1": "Le fleuve : cet occupant de la vallée peut présenter des aspects très variés. Il peut être plus ou moins large et posséder plus ou moins de méandres.",
+        "2": "Le fleuve : cet occupant de la vallée peut présenter des aspects très variés. Il peut être plus ou moins large et posséder plus ou moins de méandres.",
+        "3": "Le fleuve : cet occupant de la vallée peut présenter des aspects très variés. Il peut être plus ou moins large et posséder plus ou moins de méandres."
+      }
+    },
+    {
+      "id": "9",
+      "label": "Fleuve moyennement encaissé",
+      "type": 1,
+      "function": 2,
+      "plan": 102,
+      "box": [
+        341,
+        187,
+        102,
+        40
+      ],
+      "options": [
+        {
+          "id": 1,
+          "value": 4,
+          "label": "",
+          "visual": "VIDE_DF",
+          "audio": null
+        },
+        {
+          "id": 2,
+          "value": 1,
+          "label": "Peu de méandres et fleuve de étroit",
+          "visual": "06D90002",
+          "audio": "/game/station/06W90002.wav"
+        },
+        {
+          "id": 3,
+          "value": 2,
+          "label": "Peu de méandres et fleuve de  largeur moyenne",
+          "visual": "06D90003",
+          "audio": "/game/station/06W90003.wav"
+        },
+        {
+          "id": 4,
+          "value": 3,
+          "label": "Peu de méandres et fleuve de grande largeur",
+          "visual": "06D90004",
+          "audio": "/game/station/06W90004.wav"
+        }
+      ],
+      "hints": {
+        "0": "Le fleuve : cet occupant de la vallée peut présenter des aspects très variés. Il peut être plus ou moins large et posséder plus ou moins de méandres.",
+        "1": "Le fleuve : cet occupant de la vallée peut présenter des aspects très variés. Il peut être plus ou moins large et posséder plus ou moins de méandres.",
+        "2": "Le fleuve : cet occupant de la vallée peut présenter des aspects très variés. Il peut être plus ou moins large et posséder plus ou moins de méandres.",
+        "3": "Le fleuve : cet occupant de la vallée peut présenter des aspects très variés. Il peut être plus ou moins large et posséder plus ou moins de méandres."
+      }
+    },
+    {
+      "id": "10",
+      "label": "Fleuve peu encaissé",
+      "type": 1,
+      "function": 2,
+      "plan": 101,
+      "box": [
+        464,
+        165,
+        47,
+        79
+      ],
+      "options": [
+        {
+          "id": 1,
+          "value": 4,
+          "label": "",
+          "visual": "VIDE_DF",
+          "audio": null
+        },
+        {
+          "id": 2,
+          "value": 1,
+          "label": "Beaucoup de méandres et fleuve étroit",
+          "visual": "06DA0002",
+          "audio": "/game/station/06WA0002.wav"
+        },
+        {
+          "id": 3,
+          "value": 2,
+          "label": "Beaucoup de méandres et fleuve de largeur moyenne",
+          "visual": "06DA0003",
+          "audio": "/game/station/06WA0003.wav"
+        },
+        {
+          "id": 4,
+          "value": 3,
+          "label": "Beaucoup de méandres et fleuve large",
+          "visual": "06DA0004",
+          "audio": "/game/station/06WA0004.wav"
+        }
+      ],
+      "hints": {
+        "0": "Le fleuve : cet occupant de la vallée peut présenter des aspects très variés. Il peut être plus ou moins large et posséder plus ou moins de méandres.",
+        "1": "Le fleuve : cet occupant de la vallée peut présenter des aspects très variés. Il peut être plus ou moins large et posséder plus ou moins de méandres.",
+        "2": "Le fleuve : cet occupant de la vallée peut présenter des aspects très variés. Il peut être plus ou moins large et posséder plus ou moins de méandres.",
+        "3": "Le fleuve : cet occupant de la vallée peut présenter des aspects très variés. Il peut être plus ou moins large et posséder plus ou moins de méandres."
+      }
+    },
+    {
+      "id": "11",
+      "label": "Reliefs de montagne",
+      "type": 1,
+      "function": 2,
+      "plan": 101,
+      "box": [
+        242,
+        33,
+        126,
+        75
+      ],
+      "options": [
+        {
+          "id": 1,
+          "value": 1,
+          "label": "Sommet pointu",
+          "visual": "06SB0001",
+          "audio": null
+        },
+        {
+          "id": 2,
+          "value": 2,
+          "label": "Sommet arrondi",
+          "visual": "06SB0002",
+          "audio": "/game/station/06WB0002.wav"
+        },
+        {
+          "id": 3,
+          "value": 3,
+          "label": "Sommet très arrondi",
+          "visual": "06SB0003",
+          "audio": "/game/station/06WB0003.wav"
+        }
+      ],
+      "hints": {
+        "0": "Le sommet : les montagnes font partie du relief, c'est-à-dire des éléments les plus visibles d'un paysage. Leurs  sommets peuvent être pointus comme dans les Alpes ou très émoussés comme dans le Jura.",
+        "1": "Le sommet : les montagnes font partie du relief, c'est-à-dire des éléments les plus visibles d'un paysage. Leurs  sommets peuvent être pointus comme dans les Alpes ou très émoussés comme dans le Jura.",
+        "2": "Le sommet : les montagnes font partie du relief, c'est-à-dire des éléments les plus visibles d'un paysage. Leurs  sommets peuvent être pointus comme dans les Alpes ou très émoussés comme dans le Jura.",
+        "3": "Le sommet : les montagnes font partie du relief, c'est-à-dire des éléments les plus visibles d'un paysage. Leurs  sommets peuvent être pointus comme dans les Alpes ou très émoussés comme dans le Jura."
+      }
+    },
+    {
+      "id": "12",
+      "label": "Pluies",
+      "type": 1,
+      "function": 1,
+      "plan": 101,
+      "box": [
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "options": [
+        {
+          "id": 1,
+          "value": 1,
+          "label": "",
+          "visual": "06DC0001",
+          "audio": "/game/station/06WC0001.wav"
+        },
+        {
+          "id": 2,
+          "value": 2,
+          "label": "",
+          "visual": "06DC0002",
+          "audio": "/game/station/06WC0002.wav"
+        },
+        {
+          "id": 3,
+          "value": 3,
+          "label": "",
+          "visual": "06DC0003",
+          "audio": "/game/station/06WC0003.wav"
+        }
+      ],
+      "hints": {
+        "0": "",
+        "1": "",
+        "2": "",
+        "3": ""
+      }
+    },
+    {
+      "id": "13",
+      "label": "Vent",
+      "type": 1,
+      "function": 1,
+      "plan": 103,
+      "box": [
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "options": [
+        {
+          "id": 1,
+          "value": 1,
+          "label": "",
+          "visual": "06DD0001",
+          "audio": "/game/station/06WD0001.wav"
+        },
+        {
+          "id": 2,
+          "value": 2,
+          "label": "",
+          "visual": "06DD0002",
+          "audio": "/game/station/06WD0002.wav"
+        },
+        {
+          "id": 3,
+          "value": 3,
+          "label": "",
+          "visual": "06DD0003",
+          "audio": "/game/station/06WD0003.wav"
+        }
+      ],
+      "hints": {
+        "0": "",
+        "1": "",
+        "2": "",
+        "3": ""
+      }
+    }
+  ],
+  "cases": [
+    {
+      "id": "0",
+      "label": "Mode libre",
+      "solutions": [
+        {
+          "1": 1,
+          "2": 1,
+          "3": 1,
+          "4": 1,
+          "5": 1
+        }
+      ],
+      "initial": {
+        "1": 2,
+        "2": 2,
+        "3": 2,
+        "4": 2,
+        "5": 2,
+        "6": 2,
+        "7": 9,
+        "8": 1,
+        "9": 3,
+        "10": 1,
+        "11": 2,
+        "12": 2,
+        "13": 2
+      }
+    },
+    {
+      "id": "1",
+      "label": "Une région idéale pour les sports nautiques !",
+      "solutions": [
+        {
+          "1": 3,
+          "2": 2,
+          "3": 1,
+          "4": 3,
+          "5": 1
+        }
+      ],
+      "initial": {
+        "1": 2,
+        "2": 2,
+        "3": 2,
+        "4": 2,
+        "5": 2,
+        "6": 2,
+        "7": 9,
+        "8": 1,
+        "9": 3,
+        "10": 1,
+        "11": 2,
+        "12": 2,
+        "13": 2
+      }
+    },
+    {
+      "id": "2",
+      "label": "Que vive le relief !",
+      "solutions": [
+        {
+          "1": 1,
+          "2": 3,
+          "3": 1,
+          "4": 1,
+          "5": 1
+        }
+      ],
+      "initial": {
+        "1": 2,
+        "2": 2,
+        "3": 2,
+        "4": 2,
+        "5": 2,
+        "6": 2,
+        "7": 9,
+        "8": 1,
+        "9": 3,
+        "10": 1,
+        "11": 2,
+        "12": 2,
+        "13": 2
+      }
+    },
+    {
+      "id": "3",
+      "label": "Le plat pays",
+      "solutions": [
+        {
+          "1": 3,
+          "2": 1,
+          "3": 3,
+          "4": 3,
+          "5": 3
+        }
+      ],
+      "initial": {
+        "1": 2,
+        "2": 2,
+        "3": 2,
+        "4": 2,
+        "5": 2,
+        "6": 2,
+        "7": 9,
+        "8": 1,
+        "9": 3,
+        "10": 1,
+        "11": 2,
+        "12": 2,
+        "13": 2
+      }
+    }
+  ],
+  "lookup": [
+    {
+      "object": "7",
+      "value": 1,
+      "conditions": {
+        "3": 1,
+        "4": 1,
+        "5": 1
+      }
+    },
+    {
+      "object": "7",
+      "value": 4,
+      "conditions": {
+        "3": 1,
+        "4": 1,
+        "5": 2
+      }
+    },
+    {
+      "object": "7",
+      "value": 7,
+      "conditions": {
+        "3": 1,
+        "4": 1,
+        "5": 3
+      }
+    },
+    {
+      "object": "7",
+      "value": 1,
+      "conditions": {
+        "3": 1,
+        "4": 2,
+        "5": 1
+      }
+    },
+    {
+      "object": "7",
+      "value": 5,
+      "conditions": {
+        "3": 1,
+        "4": 2,
+        "5": 2
+      }
+    },
+    {
+      "object": "7",
+      "value": 7,
+      "conditions": {
+        "3": 1,
+        "4": 2,
+        "5": 3
+      }
+    },
+    {
+      "object": "7",
+      "value": 2,
+      "conditions": {
+        "3": 1,
+        "4": 3,
+        "5": 1
+      }
+    },
+    {
+      "object": "7",
+      "value": 5,
+      "conditions": {
+        "3": 1,
+        "4": 3,
+        "5": 2
+      }
+    },
+    {
+      "object": "7",
+      "value": 8,
+      "conditions": {
+        "3": 1,
+        "4": 3,
+        "5": 3
+      }
+    },
+    {
+      "object": "7",
+      "value": 10,
+      "conditions": {
+        "3": 2,
+        "4": 1,
+        "5": 1
+      }
+    },
+    {
+      "object": "7",
+      "value": 50,
+      "conditions": {
+        "3": 2,
+        "4": 1,
+        "5": 2
+      }
+    },
+    {
+      "object": "7",
+      "value": 70,
+      "conditions": {
+        "3": 2,
+        "4": 1,
+        "5": 3
+      }
+    },
+    {
+      "object": "7",
+      "value": 20,
+      "conditions": {
+        "3": 2,
+        "4": 2,
+        "5": 1
+      }
+    },
+    {
+      "object": "7",
+      "value": 50,
+      "conditions": {
+        "3": 2,
+        "4": 2,
+        "5": 2
+      }
+    },
+    {
+      "object": "7",
+      "value": 80,
+      "conditions": {
+        "3": 2,
+        "4": 2,
+        "5": 3
+      }
+    },
+    {
+      "object": "7",
+      "value": 20,
+      "conditions": {
+        "3": 2,
+        "4": 3,
+        "5": 1
+      }
+    },
+    {
+      "object": "7",
+      "value": 60,
+      "conditions": {
+        "3": 2,
+        "4": 3,
+        "5": 2
+      }
+    },
+    {
+      "object": "7",
+      "value": 80,
+      "conditions": {
+        "3": 2,
+        "4": 3,
+        "5": 3
+      }
+    },
+    {
+      "object": "7",
+      "value": 200,
+      "conditions": {
+        "3": 3,
+        "4": 1,
+        "5": 1
+      }
+    },
+    {
+      "object": "7",
+      "value": 500,
+      "conditions": {
+        "3": 3,
+        "4": 1,
+        "5": 2
+      }
+    },
+    {
+      "object": "7",
+      "value": 800,
+      "conditions": {
+        "3": 3,
+        "4": 1,
+        "5": 3
+      }
+    },
+    {
+      "object": "7",
+      "value": 200,
+      "conditions": {
+        "3": 3,
+        "4": 2,
+        "5": 1
+      }
+    },
+    {
+      "object": "7",
+      "value": 600,
+      "conditions": {
+        "3": 3,
+        "4": 2,
+        "5": 2
+      }
+    },
+    {
+      "object": "7",
+      "value": 800,
+      "conditions": {
+        "3": 3,
+        "4": 2,
+        "5": 3
+      }
+    },
+    {
+      "object": "7",
+      "value": 300,
+      "conditions": {
+        "3": 3,
+        "4": 3,
+        "5": 1
+      }
+    },
+    {
+      "object": "7",
+      "value": 600,
+      "conditions": {
+        "3": 3,
+        "4": 3,
+        "5": 2
+      }
+    },
+    {
+      "object": "7",
+      "value": 900,
+      "conditions": {
+        "3": 3,
+        "4": 3,
+        "5": 3
+      }
+    },
+    {
+      "object": "8",
+      "value": 1,
+      "conditions": {
+        "2": 1,
+        "4": 1
+      }
+    },
+    {
+      "object": "8",
+      "value": 2,
+      "conditions": {
+        "2": 1,
+        "4": 2
+      }
+    },
+    {
+      "object": "8",
+      "value": 3,
+      "conditions": {
+        "2": 1,
+        "4": 3
+      }
+    },
+    {
+      "object": "8",
+      "value": 4,
+      "conditions": {
+        "2": 2,
+        "4": 1
+      }
+    },
+    {
+      "object": "8",
+      "value": 4,
+      "conditions": {
+        "2": 2,
+        "4": 2
+      }
+    },
+    {
+      "object": "8",
+      "value": 4,
+      "conditions": {
+        "2": 2,
+        "4": 3
+      }
+    },
+    {
+      "object": "8",
+      "value": 4,
+      "conditions": {
+        "2": 3,
+        "4": 1
+      }
+    },
+    {
+      "object": "8",
+      "value": 4,
+      "conditions": {
+        "2": 3,
+        "4": 2
+      }
+    },
+    {
+      "object": "8",
+      "value": 4,
+      "conditions": {
+        "2": 3,
+        "4": 3
+      }
+    },
+    {
+      "object": "9",
+      "value": 4,
+      "conditions": {
+        "2": 1,
+        "4": 1
+      }
+    },
+    {
+      "object": "9",
+      "value": 4,
+      "conditions": {
+        "2": 1,
+        "4": 2
+      }
+    },
+    {
+      "object": "9",
+      "value": 4,
+      "conditions": {
+        "2": 1,
+        "4": 3
+      }
+    },
+    {
+      "object": "9",
+      "value": 1,
+      "conditions": {
+        "2": 2,
+        "4": 1
+      }
+    },
+    {
+      "object": "9",
+      "value": 2,
+      "conditions": {
+        "2": 2,
+        "4": 2
+      }
+    },
+    {
+      "object": "9",
+      "value": 3,
+      "conditions": {
+        "2": 2,
+        "4": 3
+      }
+    },
+    {
+      "object": "9",
+      "value": 4,
+      "conditions": {
+        "2": 3,
+        "4": 1
+      }
+    },
+    {
+      "object": "9",
+      "value": 4,
+      "conditions": {
+        "2": 3,
+        "4": 2
+      }
+    },
+    {
+      "object": "9",
+      "value": 4,
+      "conditions": {
+        "2": 3,
+        "4": 3
+      }
+    },
+    {
+      "object": "10",
+      "value": 4,
+      "conditions": {
+        "2": 1,
+        "4": 1
+      }
+    },
+    {
+      "object": "10",
+      "value": 4,
+      "conditions": {
+        "2": 1,
+        "4": 2
+      }
+    },
+    {
+      "object": "10",
+      "value": 4,
+      "conditions": {
+        "2": 1,
+        "4": 3
+      }
+    },
+    {
+      "object": "10",
+      "value": 4,
+      "conditions": {
+        "2": 2,
+        "4": 1
+      }
+    },
+    {
+      "object": "10",
+      "value": 4,
+      "conditions": {
+        "2": 2,
+        "4": 2
+      }
+    },
+    {
+      "object": "10",
+      "value": 4,
+      "conditions": {
+        "2": 2,
+        "4": 3
+      }
+    },
+    {
+      "object": "10",
+      "value": 1,
+      "conditions": {
+        "2": 3,
+        "4": 1
+      }
+    },
+    {
+      "object": "10",
+      "value": 2,
+      "conditions": {
+        "2": 3,
+        "4": 2
+      }
+    },
+    {
+      "object": "10",
+      "value": 3,
+      "conditions": {
+        "2": 3,
+        "4": 3
+      }
+    },
+    {
+      "object": "11",
+      "value": 1,
+      "conditions": {
+        "3": 1,
+        "4": 1
+      }
+    },
+    {
+      "object": "11",
+      "value": 1,
+      "conditions": {
+        "3": 1,
+        "4": 2
+      }
+    },
+    {
+      "object": "11",
+      "value": 2,
+      "conditions": {
+        "3": 1,
+        "4": 3
+      }
+    },
+    {
+      "object": "11",
+      "value": 1,
+      "conditions": {
+        "3": 2,
+        "4": 1
+      }
+    },
+    {
+      "object": "11",
+      "value": 2,
+      "conditions": {
+        "3": 2,
+        "4": 2
+      }
+    },
+    {
+      "object": "11",
+      "value": 2,
+      "conditions": {
+        "3": 2,
+        "4": 3
+      }
+    },
+    {
+      "object": "11",
+      "value": 2,
+      "conditions": {
+        "3": 3,
+        "4": 1
+      }
+    },
+    {
+      "object": "11",
+      "value": 2,
+      "conditions": {
+        "3": 3,
+        "4": 2
+      }
+    },
+    {
+      "object": "11",
+      "value": 3,
+      "conditions": {
+        "3": 3,
+        "4": 3
+      }
+    }
+  ]
+}

@@ -1,0 +1,3706 @@
+{
+  "id": "5",
+  "title": "Choix de matériaux d'emballage",
+  "background": "05I1",
+  "objects": [
+    {
+      "id": "1",
+      "label": "Elément à emballer",
+      "type": 4,
+      "function": 0,
+      "plan": 101,
+      "box": [
+        58,
+        5,
+        56,
+        191
+      ],
+      "options": [
+        {
+          "id": 1,
+          "value": 1,
+          "label": "Disque laser",
+          "visual": "05D10001",
+          "audio": null
+        },
+        {
+          "id": 2,
+          "value": 2,
+          "label": "Pizza",
+          "visual": "05D10002",
+          "audio": null
+        },
+        {
+          "id": 3,
+          "value": 3,
+          "label": "Moutarde",
+          "visual": "05D10003",
+          "audio": null
+        },
+        {
+          "id": 4,
+          "value": 4,
+          "label": "Parfum",
+          "visual": "05D10004",
+          "audio": null
+        },
+        {
+          "id": 5,
+          "value": 5,
+          "label": "Crème de soins",
+          "visual": "05D10005",
+          "audio": null
+        },
+        {
+          "id": 6,
+          "value": 6,
+          "label": "Biscuits secs",
+          "visual": "05D10006",
+          "audio": null
+        },
+        {
+          "id": 7,
+          "value": 7,
+          "label": "Peinture liquide",
+          "visual": "05D10007",
+          "audio": null
+        }
+      ],
+      "hints": {
+        "0": "Elément à emballer : sur cette étagère tu pourras choisir, parmi ces éléments d'usage courant (aliments, cosmétiques, peinture, etc.), le produit qu'il te plaît d'emballer.",
+        "1": "Elément à emballer : Il s'agit d'emballer des biscuits secs dans un emballage imperméable, ignifuge et léger, ceci sans limite de coût.",
+        "2": "Elément à emballer : Il s'agit d'emballer un parfum dans un flacon mystérieux, résistant au feu et à l'acide et dont le coût reste raisonnable.",
+        "3": "Elément à emballer : Il s'agit d'obtenir un emballage de disque laser recyclable et bon marché."
+      }
+    },
+    {
+      "id": "2",
+      "label": "Résistance à l'eau",
+      "type": 4,
+      "function": 0,
+      "plan": 102,
+      "box": [
+        168,
+        193,
+        34,
+        34
+      ],
+      "options": [
+        {
+          "id": 1,
+          "value": 1,
+          "label": "Résistance à l'eau",
+          "visual": "05D20001",
+          "audio": null
+        },
+        {
+          "id": 2,
+          "value": 0,
+          "label": "Résistance à l'eau",
+          "visual": "05D20002",
+          "audio": null
+        }
+      ],
+      "hints": {
+        "0": "Résistance à l'eau : Active ce robot si tu souhaites que la machine teste la résistance à l'eau de ton emballage.",
+        "1": "Résistance à l'eau : Puisque l'emballage des biscuits doit être imperméable, la résistance à l'eau est un critère impératif .",
+        "2": "Résistance à l'eau : La résistance à l'eau n'est pas un critère impératif pour l'emballage de ce parfum.",
+        "3": "Résistance à l'eau : le critère d'imperméabilité n'est pas n'est pas impératif compte-tenu de l'objectif demandé."
+      }
+    },
+    {
+      "id": "3",
+      "label": "Résistance aux chocs",
+      "type": 4,
+      "function": 0,
+      "plan": 102,
+      "box": [
+        231,
+        191,
+        37,
+        35
+      ],
+      "options": [
+        {
+          "id": 1,
+          "value": 1,
+          "label": "Résistance aux chocs",
+          "visual": "05D30001",
+          "audio": null
+        },
+        {
+          "id": 2,
+          "value": 0,
+          "label": "Résistance aux chocs",
+          "visual": "05D30002",
+          "audio": null
+        }
+      ],
+      "hints": {
+        "0": "Résistance aux chocs : Active ce robot si tu souhaites que la machine teste la résistance aux chocs de ton emballage.",
+        "1": "Résistance aux chocs : La résistance aux chocs n'est pas un critère impératif pour l'emballage de ces biscuits.",
+        "2": "Résistance aux chocs : La résistance aux chocs n'est pas un critère impératif pour l'emballage de ce parfum.",
+        "3": "Résistance aux chocs : le critère de résistance aux chocs n'est pas impératif compte-tenu de l'objectif demandé."
+      }
+    },
+    {
+      "id": "4",
+      "label": "Résistance à l'acide",
+      "type": 4,
+      "function": 0,
+      "plan": 102,
+      "box": [
+        297,
+        187,
+        39,
+        42
+      ],
+      "options": [
+        {
+          "id": 1,
+          "value": 1,
+          "label": "Résistance à l'acide",
+          "visual": "05D40001",
+          "audio": null
+        },
+        {
+          "id": 2,
+          "value": 0,
+          "label": "Résistance à l'acide",
+          "visual": "05D40002",
+          "audio": null
+        }
+      ],
+      "hints": {
+        "0": "Résistance à l'acide : Active ce robot si tu souhaites que la machine teste la résistance de l'emballage à l'acide.",
+        "1": "Résistance à l'acide : La résistance à l'acide n'est pas un critère impératif pour l'emballage de ces biscuits.",
+        "2": "Résistance à l'acide : La résistance à l'acide de l'emballage de ce parfum est un critère impératif puisqu'il est demandé dans l'objectif.",
+        "3": "Résistance à l'acide : le critère de résistance à l'acide n'est pas impératif compte-tenu de l'objectif demandé."
+      }
+    },
+    {
+      "id": "5",
+      "label": "Résistance au feu",
+      "type": 4,
+      "function": 0,
+      "plan": 102,
+      "box": [
+        366,
+        192,
+        37,
+        36
+      ],
+      "options": [
+        {
+          "id": 1,
+          "value": 1,
+          "label": "Résistance au feu",
+          "visual": "05D50001",
+          "audio": null
+        },
+        {
+          "id": 2,
+          "value": 0,
+          "label": "Résistance au feu",
+          "visual": "05D50002",
+          "audio": null
+        }
+      ],
+      "hints": {
+        "0": "Résistance au feu : Active ce robot si tu souhaites que la machine teste la résistance de l'emballage au feu.",
+        "1": "Résistance au feu : Puisque l'emballage des biscuits doit être ignifuge, la résistance au feu est un critère impératif.",
+        "2": "Résistance au feu : La résistance au feu de l'emballage de ce parfum est un critère impératif puisqu'il est demandé dans l'objectif.",
+        "3": "Résistance au feu : le critère de résistance au feu n'est pas impératif compte-tenu de l'objectif demandé."
+      }
+    },
+    {
+      "id": "6",
+      "label": "Résistance à la lumière",
+      "type": 4,
+      "function": 0,
+      "plan": 102,
+      "box": [
+        430,
+        191,
+        41,
+        37
+      ],
+      "options": [
+        {
+          "id": 1,
+          "value": 1,
+          "label": "Résistance à la lumière",
+          "visual": "05D60001",
+          "audio": null
+        },
+        {
+          "id": 2,
+          "value": 0,
+          "label": "Résistance à la lumière",
+          "visual": "05D60002",
+          "audio": null
+        }
+      ],
+      "hints": {
+        "0": "Résistance à la lumière : Active ce robot si tu souhaites que la machine teste la résistance de l'emballage à la lumière.",
+        "1": "Résistance à la lumière : Que l'emballage de ces biscuits soit opaque n'est pas un critère impératif.",
+        "2": "Résistance à la lumière : Pour que ce parfum garde tout son mystère, il vaudrait mieux que son flacon soit opaque.",
+        "3": "Résistance à la lumière : le critère d'opacité n'est pas n'est pas impératif compte-tenu de l'objectif demandé."
+      }
+    },
+    {
+      "id": "7",
+      "label": "Légèreté",
+      "type": 4,
+      "function": 0,
+      "plan": 102,
+      "box": [
+        497,
+        192,
+        39,
+        35
+      ],
+      "options": [
+        {
+          "id": 1,
+          "value": 1,
+          "label": "Légèreté",
+          "visual": "05D70001",
+          "audio": null
+        },
+        {
+          "id": 2,
+          "value": 0,
+          "label": "Légèreté",
+          "visual": "05D70002",
+          "audio": null
+        }
+      ],
+      "hints": {
+        "0": "Légèreté : Active ce robot si tu souhaites que la machine teste la légèreté de l'emballage.",
+        "1": "Légèreté : Puisque l'emballage des biscuits doit être léger, le critère de légèreté s'impose.",
+        "2": "Légèreté : Compte-tenu des autres critères, ce flacon doit être le plus léger possible.",
+        "3": "Légèreté : Le seul critère qui puisse à la fois satisfaire la simplicité et le faible coût est la légèreté du matériau."
+      }
+    },
+    {
+      "id": "8",
+      "label": "Matériau",
+      "type": 1,
+      "function": 2,
+      "plan": 101,
+      "box": [
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "options": [
+        {
+          "id": 1,
+          "value": 1,
+          "label": "intitulé état",
+          "visual": null,
+          "audio": null
+        },
+        {
+          "id": 2,
+          "value": 2,
+          "label": "intitulé état",
+          "visual": null,
+          "audio": null
+        },
+        {
+          "id": 3,
+          "value": 3,
+          "label": "intitulé état",
+          "visual": null,
+          "audio": null
+        },
+        {
+          "id": 4,
+          "value": 4,
+          "label": "intitulé état",
+          "visual": null,
+          "audio": null
+        },
+        {
+          "id": 5,
+          "value": 5,
+          "label": "intitulé état",
+          "visual": null,
+          "audio": null
+        },
+        {
+          "id": 6,
+          "value": 6,
+          "label": "intitulé état",
+          "visual": null,
+          "audio": null
+        },
+        {
+          "id": 7,
+          "value": 7,
+          "label": "intitulé état",
+          "visual": null,
+          "audio": null
+        },
+        {
+          "id": 8,
+          "value": 8,
+          "label": "intitulé état",
+          "visual": null,
+          "audio": null
+        },
+        {
+          "id": 9,
+          "value": 9,
+          "label": "intitulé état",
+          "visual": null,
+          "audio": null
+        },
+        {
+          "id": 10,
+          "value": 10,
+          "label": "intitulé état",
+          "visual": null,
+          "audio": null
+        },
+        {
+          "id": 11,
+          "value": 11,
+          "label": "intitulé état",
+          "visual": null,
+          "audio": null
+        },
+        {
+          "id": 12,
+          "value": 12,
+          "label": "intitulé état",
+          "visual": null,
+          "audio": null
+        }
+      ],
+      "hints": {
+        "0": "",
+        "1": "",
+        "2": "",
+        "3": ""
+      }
+    },
+    {
+      "id": "9",
+      "label": "Aspect",
+      "type": 1,
+      "function": 2,
+      "plan": 101,
+      "box": [
+        259,
+        331,
+        112,
+        53
+      ],
+      "options": [
+        {
+          "id": 1,
+          "value": 1,
+          "label": "carton",
+          "visual": "05D90001",
+          "audio": "/game/station/05W90001.wav"
+        },
+        {
+          "id": 2,
+          "value": 2,
+          "label": "plastique fin",
+          "visual": "05D90002",
+          "audio": "/game/station/05W90002.wav"
+        },
+        {
+          "id": 3,
+          "value": 3,
+          "label": "plastique épais",
+          "visual": "05D90003",
+          "audio": "/game/station/05W90003.wav"
+        },
+        {
+          "id": 4,
+          "value": 4,
+          "label": "plastique fin",
+          "visual": "05D90004",
+          "audio": "/game/station/05W90004.wav"
+        },
+        {
+          "id": 5,
+          "value": 5,
+          "label": "plastique épais",
+          "visual": "05D90005",
+          "audio": "/game/station/05W90005.wav"
+        },
+        {
+          "id": 6,
+          "value": 6,
+          "label": "verre",
+          "visual": "05D90006",
+          "audio": "/game/station/05W90006.wav"
+        },
+        {
+          "id": 7,
+          "value": 7,
+          "label": "verre",
+          "visual": "05D90007",
+          "audio": "/game/station/05W90007.wav"
+        },
+        {
+          "id": 8,
+          "value": 8,
+          "label": "céramique",
+          "visual": "05D90008",
+          "audio": "/game/station/05W90008.wav"
+        },
+        {
+          "id": 9,
+          "value": 9,
+          "label": "métal léger",
+          "visual": "05D90009",
+          "audio": "/game/station/05W90009.wav"
+        },
+        {
+          "id": 10,
+          "value": 10,
+          "label": "métal lourd",
+          "visual": "05D90010",
+          "audio": "/game/station/05W90010.wav"
+        },
+        {
+          "id": 11,
+          "value": 11,
+          "label": "carton",
+          "visual": "05D90011",
+          "audio": "/game/station/05W90011.wav"
+        },
+        {
+          "id": 12,
+          "value": 12,
+          "label": "plastique fin",
+          "visual": "05D90012",
+          "audio": "/game/station/05W90012.wav"
+        },
+        {
+          "id": 13,
+          "value": 13,
+          "label": "plastique épais",
+          "visual": "05D90013",
+          "audio": "/game/station/05W90013.wav"
+        },
+        {
+          "id": 14,
+          "value": 14,
+          "label": "plastique fin",
+          "visual": "05D90014",
+          "audio": "/game/station/05W90014.wav"
+        },
+        {
+          "id": 15,
+          "value": 15,
+          "label": "plastique épais",
+          "visual": "05D90015",
+          "audio": "/game/station/05W90015.wav"
+        },
+        {
+          "id": 16,
+          "value": 16,
+          "label": "verre",
+          "visual": "05D90016",
+          "audio": "/game/station/05W90016.wav"
+        },
+        {
+          "id": 17,
+          "value": 17,
+          "label": "verre",
+          "visual": "05D90017",
+          "audio": "/game/station/05W90017.wav"
+        },
+        {
+          "id": 18,
+          "value": 18,
+          "label": "céramique",
+          "visual": "05D90018",
+          "audio": "/game/station/05W90018.wav"
+        },
+        {
+          "id": 19,
+          "value": 19,
+          "label": "métal léger",
+          "visual": "05D90019",
+          "audio": "/game/station/05W90019.wav"
+        },
+        {
+          "id": 20,
+          "value": 20,
+          "label": "métal lourd",
+          "visual": "05D90020",
+          "audio": "/game/station/05W90020.wav"
+        },
+        {
+          "id": 21,
+          "value": 21,
+          "label": "carton",
+          "visual": "05D90021",
+          "audio": "/game/station/05W90021.wav"
+        },
+        {
+          "id": 22,
+          "value": 22,
+          "label": "plastique fin",
+          "visual": "05D90022",
+          "audio": "/game/station/05W90022.wav"
+        },
+        {
+          "id": 23,
+          "value": 23,
+          "label": "plastique épais",
+          "visual": "05D90023",
+          "audio": "/game/station/05W90023.wav"
+        },
+        {
+          "id": 24,
+          "value": 24,
+          "label": "plastique fin",
+          "visual": "05D90024",
+          "audio": "/game/station/05W90024.wav"
+        },
+        {
+          "id": 25,
+          "value": 25,
+          "label": "plastique épais",
+          "visual": "05D90025",
+          "audio": "/game/station/05W90025.wav"
+        },
+        {
+          "id": 26,
+          "value": 26,
+          "label": "verre",
+          "visual": "05D90026",
+          "audio": "/game/station/05W90026.wav"
+        },
+        {
+          "id": 27,
+          "value": 27,
+          "label": "verre",
+          "visual": "05D90027",
+          "audio": "/game/station/05W90027.wav"
+        },
+        {
+          "id": 28,
+          "value": 28,
+          "label": "céramique",
+          "visual": "05D90028",
+          "audio": "/game/station/05W90028.wav"
+        },
+        {
+          "id": 29,
+          "value": 29,
+          "label": "métal léger",
+          "visual": "05D90029",
+          "audio": "/game/station/05W90029.wav"
+        },
+        {
+          "id": 30,
+          "value": 30,
+          "label": "métal lourd",
+          "visual": "05D90030",
+          "audio": "/game/station/05W90030.wav"
+        },
+        {
+          "id": 31,
+          "value": 31,
+          "label": "carton",
+          "visual": "05D90031",
+          "audio": "/game/station/05W90031.wav"
+        },
+        {
+          "id": 32,
+          "value": 32,
+          "label": "plastique fin",
+          "visual": "05D90032",
+          "audio": "/game/station/05W90032.wav"
+        },
+        {
+          "id": 33,
+          "value": 33,
+          "label": "plastique épais",
+          "visual": "05D90033",
+          "audio": "/game/station/05W90033.wav"
+        },
+        {
+          "id": 34,
+          "value": 34,
+          "label": "plastique fin",
+          "visual": "05D90034",
+          "audio": "/game/station/05W90034.wav"
+        },
+        {
+          "id": 35,
+          "value": 35,
+          "label": "plastique épais",
+          "visual": "05D90035",
+          "audio": "/game/station/05W90035.wav"
+        },
+        {
+          "id": 36,
+          "value": 36,
+          "label": "verre",
+          "visual": "05D90036",
+          "audio": "/game/station/05W90036.wav"
+        },
+        {
+          "id": 37,
+          "value": 37,
+          "label": "verre",
+          "visual": "05D90037",
+          "audio": "/game/station/05W90037.wav"
+        },
+        {
+          "id": 38,
+          "value": 38,
+          "label": "céramique",
+          "visual": "05D90038",
+          "audio": "/game/station/05W90038.wav"
+        },
+        {
+          "id": 39,
+          "value": 39,
+          "label": "métal léger",
+          "visual": "05D90039",
+          "audio": "/game/station/05W90039.wav"
+        },
+        {
+          "id": 40,
+          "value": 40,
+          "label": "métal lourd",
+          "visual": "05D90040",
+          "audio": "/game/station/05W90040.wav"
+        },
+        {
+          "id": 41,
+          "value": 41,
+          "label": "carton",
+          "visual": "05D90041",
+          "audio": "/game/station/05W90041.wav"
+        },
+        {
+          "id": 42,
+          "value": 42,
+          "label": "plastique fin",
+          "visual": "05D90042",
+          "audio": "/game/station/05W90042.wav"
+        },
+        {
+          "id": 43,
+          "value": 43,
+          "label": "plastique épais",
+          "visual": "05D90043",
+          "audio": "/game/station/05W90043.wav"
+        },
+        {
+          "id": 44,
+          "value": 44,
+          "label": "plastique fin",
+          "visual": "05D90044",
+          "audio": "/game/station/05W90044.wav"
+        },
+        {
+          "id": 45,
+          "value": 45,
+          "label": "plastique épais",
+          "visual": "05D90045",
+          "audio": "/game/station/05W90045.wav"
+        },
+        {
+          "id": 46,
+          "value": 46,
+          "label": "verre",
+          "visual": "05D90046",
+          "audio": "/game/station/05W90046.wav"
+        },
+        {
+          "id": 47,
+          "value": 47,
+          "label": "verre",
+          "visual": "05D90047",
+          "audio": "/game/station/05W90047.wav"
+        },
+        {
+          "id": 48,
+          "value": 48,
+          "label": "céramique",
+          "visual": "05D90048",
+          "audio": "/game/station/05W90048.wav"
+        },
+        {
+          "id": 49,
+          "value": 49,
+          "label": "métal léger",
+          "visual": "05D90049",
+          "audio": "/game/station/05W90049.wav"
+        },
+        {
+          "id": 50,
+          "value": 50,
+          "label": "métal lourd",
+          "visual": "05D90050",
+          "audio": "/game/station/05W90050.wav"
+        },
+        {
+          "id": 51,
+          "value": 51,
+          "label": "carton",
+          "visual": "05D90051",
+          "audio": "/game/station/05W90051.wav"
+        },
+        {
+          "id": 52,
+          "value": 52,
+          "label": "plastique fin",
+          "visual": "05D90052",
+          "audio": "/game/station/05W90052.wav"
+        },
+        {
+          "id": 53,
+          "value": 53,
+          "label": "plastique épais",
+          "visual": "05D90053",
+          "audio": "/game/station/05W90053.wav"
+        },
+        {
+          "id": 54,
+          "value": 54,
+          "label": "plastique fin",
+          "visual": "05D90054",
+          "audio": "/game/station/05W90054.wav"
+        },
+        {
+          "id": 55,
+          "value": 55,
+          "label": "plastique épais",
+          "visual": "05D90055",
+          "audio": "/game/station/05W90055.wav"
+        },
+        {
+          "id": 56,
+          "value": 56,
+          "label": "verre",
+          "visual": "05D90056",
+          "audio": "/game/station/05W90056.wav"
+        },
+        {
+          "id": 57,
+          "value": 57,
+          "label": "verre",
+          "visual": "05D90057",
+          "audio": "/game/station/05W90057.wav"
+        },
+        {
+          "id": 58,
+          "value": 58,
+          "label": "céramique",
+          "visual": "05D90058",
+          "audio": "/game/station/05W90058.wav"
+        },
+        {
+          "id": 59,
+          "value": 59,
+          "label": "métal léger",
+          "visual": "05D90059",
+          "audio": "/game/station/05W90059.wav"
+        },
+        {
+          "id": 60,
+          "value": 60,
+          "label": "métal lourd",
+          "visual": "05D90060",
+          "audio": "/game/station/05W90060.wav"
+        },
+        {
+          "id": 61,
+          "value": 61,
+          "label": "carton",
+          "visual": "05D90061",
+          "audio": "/game/station/05W90061.wav"
+        },
+        {
+          "id": 62,
+          "value": 62,
+          "label": "plastique fin",
+          "visual": "05D90062",
+          "audio": "/game/station/05W90062.wav"
+        },
+        {
+          "id": 63,
+          "value": 63,
+          "label": "plastique épais",
+          "visual": "05D90063",
+          "audio": "/game/station/05W90063.wav"
+        },
+        {
+          "id": 64,
+          "value": 64,
+          "label": "plastique fin",
+          "visual": "05D90064",
+          "audio": "/game/station/05W90064.wav"
+        },
+        {
+          "id": 65,
+          "value": 65,
+          "label": "plastique épais",
+          "visual": "05D90065",
+          "audio": "/game/station/05W90065.wav"
+        },
+        {
+          "id": 66,
+          "value": 66,
+          "label": "verre",
+          "visual": "05D90066",
+          "audio": "/game/station/05W90066.wav"
+        },
+        {
+          "id": 67,
+          "value": 67,
+          "label": "verre",
+          "visual": "05D90067",
+          "audio": "/game/station/05W90067.wav"
+        },
+        {
+          "id": 68,
+          "value": 68,
+          "label": "céramique",
+          "visual": "05D90068",
+          "audio": "/game/station/05W90068.wav"
+        },
+        {
+          "id": 69,
+          "value": 69,
+          "label": "métal léger",
+          "visual": "05D90069",
+          "audio": "/game/station/05W90069.wav"
+        },
+        {
+          "id": 70,
+          "value": 70,
+          "label": "métal lourd",
+          "visual": "05D90070",
+          "audio": "/game/station/05W90070.wav"
+        },
+        {
+          "id": 71,
+          "value": 71,
+          "label": "Trop de matériaux possibles, pas assez de critères",
+          "visual": "05D90071",
+          "audio": "/game/station/05W90071.wav"
+        },
+        {
+          "id": 72,
+          "value": 72,
+          "label": "Pas de choix possible, trop de critères",
+          "visual": "05D90071",
+          "audio": "/game/station/05W90071.wav"
+        }
+      ],
+      "hints": {
+        "0": "Matériau : Les matériaux généralement utilisés pour les emballages sont principalement le carton, le plastique, le verre ou l'aluminium. C'est le plastique qui est le plus utilisé à cause de son coût relativement faible et de ses propriétés très avantageuses.",
+        "1": "Matériau : Les matériaux généralement utilisés pour les emballages sont principalement le carton, le plastique, le verre ou l'aluminium. C'est le plastique qui est le plus utilisé à cause de son coût relativement faible et de ses propriétés très avantageuses.",
+        "2": "Matériau : Les matériaux généralement utilisés pour les emballages sont principalement le carton, le plastique, le verre ou l'aluminium.",
+        "3": "Matériau : Les matériaux généralement utilisés pour les emballages sont principalement le carton, le plastique, le verre ou l'aluminium."
+      }
+    },
+    {
+      "id": "10",
+      "label": "Succès",
+      "type": 1,
+      "function": 2,
+      "plan": 102,
+      "box": [
+        416,
+        333,
+        84,
+        48
+      ],
+      "options": [
+        {
+          "id": 1,
+          "value": 0,
+          "label": "",
+          "visual": "05DA0001",
+          "audio": "/game/station/05WA0001.wav"
+        },
+        {
+          "id": 2,
+          "value": 10,
+          "label": "",
+          "visual": "05DA0002",
+          "audio": "/game/station/05WA0002.wav"
+        },
+        {
+          "id": 3,
+          "value": 20,
+          "label": "",
+          "visual": "05DA0003",
+          "audio": "/game/station/05WA0003.wav"
+        },
+        {
+          "id": 4,
+          "value": 30,
+          "label": "",
+          "visual": "05DA0004",
+          "audio": "/game/station/05WA0004.wav"
+        },
+        {
+          "id": 5,
+          "value": 40,
+          "label": "",
+          "visual": "05DA0005",
+          "audio": "/game/station/05WA0005.wav"
+        },
+        {
+          "id": 6,
+          "value": 50,
+          "label": "",
+          "visual": "05DA0006",
+          "audio": "/game/station/05WA0006.wav"
+        },
+        {
+          "id": 7,
+          "value": 60,
+          "label": "",
+          "visual": "05DA0007",
+          "audio": "/game/station/05WA0007.wav"
+        },
+        {
+          "id": 8,
+          "value": 70,
+          "label": "",
+          "visual": "05DA0008",
+          "audio": "/game/station/05WA0008.wav"
+        },
+        {
+          "id": 9,
+          "value": 80,
+          "label": "",
+          "visual": "05DA0009",
+          "audio": "/game/station/05WA0009.wav"
+        },
+        {
+          "id": 10,
+          "value": 90,
+          "label": "",
+          "visual": "05DA0010",
+          "audio": "/game/station/05WA0010.wav"
+        },
+        {
+          "id": 11,
+          "value": 100,
+          "label": "",
+          "visual": "05DA0011",
+          "audio": "/game/station/05WA0011.wav"
+        },
+        {
+          "id": 12,
+          "value": 101,
+          "label": "",
+          "visual": "05DA0012",
+          "audio": null
+        }
+      ],
+      "hints": {
+        "0": "Succès : Ici, la machine évalue l'emballage déterminé par les tests et donne un pourcentage de satisfaction suivant qu'il réalise ou pas une bonne adéquation avec le produit. Tu dois afficher 100 pour réussir.",
+        "1": "Succès : Ici, la machine évalue l'emballage déterminé par les tests et donne un pourcentage de satisfaction suivant qu'il réalise ou pas une bonne adéquation avec le produit. Tu dois afficher 100 pour réussir.",
+        "2": "Succès : Ici, la machine évalue l'emballage déterminé par les tests et donne un pourcentage de satisfaction suivant qu'il réalise ou pas une bonne adéquation avec le produit. Tu dois afficher 100 pour réussir..",
+        "3": "Succès : Ici, la machine évalue l'emballage déterminé par les tests et donne un pourcentage de satisfaction suivant qu'il réalise ou pas une bonne adéquation avec le produit. Tu dois afficher 100 pour réussir."
+      }
+    },
+    {
+      "id": "11",
+      "label": "Coût",
+      "type": 1,
+      "function": 2,
+      "plan": 102,
+      "box": [
+        135,
+        296,
+        90,
+        64
+      ],
+      "options": [
+        {
+          "id": 1,
+          "value": 1,
+          "label": "Très bon marché",
+          "visual": "05DB0001",
+          "audio": "/game/station/05WB0001.wav"
+        },
+        {
+          "id": 2,
+          "value": 2,
+          "label": "Bon marché",
+          "visual": "05DB0002",
+          "audio": "/game/station/05WB0002.wav"
+        },
+        {
+          "id": 3,
+          "value": 3,
+          "label": "Un peu cher",
+          "visual": "05DB0003",
+          "audio": "/game/station/05WB0003.wav"
+        },
+        {
+          "id": 4,
+          "value": 4,
+          "label": "Cher",
+          "visual": "05DB0004",
+          "audio": "/game/station/05WB0004.wav"
+        },
+        {
+          "id": 5,
+          "value": 5,
+          "label": "Très cher",
+          "visual": "05DB0005",
+          "audio": "/game/station/05WB0005.wav"
+        },
+        {
+          "id": 6,
+          "value": 0,
+          "label": "Indéterminé",
+          "visual": "VIDE_DF",
+          "audio": null
+        }
+      ],
+      "hints": {
+        "0": "Coût :  Le coût de l'emballage est fonction du matériau utilisé. Si l'acier et le verre demandent des procédés de fabrication et de façonnage longs et coûteux, il n'en est pas de même pour le carton et le plastique, dont le coût de revient est relativement bas.",
+        "1": "Coût :  Pour l'emballage des biscuits secs, tu n'as pas de limite de coût.",
+        "2": "Coût :  Le coût de l'emballage est fonction du matériau utilisé. Si l'acier et le verre demandent des procédés de fabrication et de façonnage longs et coûteux, il n'en est pas de même pour le carton et le plastique, dont le coût de revient est relativement bas.",
+        "3": "Coût :  Le coût de l'emballage est fonction du matériau utilisé. Si l'acier et le verre demandent des procédés de fabrication et de façonnage longs et coûteux, il n'en est pas de même pour le carton et le plastique, dont le coût de revient est relativement bas."
+      }
+    },
+    {
+      "id": "12",
+      "label": "Test de l'eau",
+      "type": 1,
+      "function": 1,
+      "plan": 101,
+      "box": [
+        126,
+        8,
+        88,
+        155
+      ],
+      "options": [
+        {
+          "id": 1,
+          "value": 1,
+          "label": "Résistance à l'eau",
+          "visual": "05DC0001",
+          "audio": "/game/station/05WC0001.wav"
+        },
+        {
+          "id": 2,
+          "value": 0,
+          "label": "Résistance à l'eau",
+          "visual": "05DC0002",
+          "audio": "/game/station/05WC0002.wav"
+        }
+      ],
+      "hints": {
+        "0": "Test de l'eau : La machine teste ici la résistance de l'emballage à l'eau.",
+        "1": "Test de l'eau : La machine teste ici la résistance de l'emballage à l'eau.",
+        "2": "Test de l'eau : La machine teste ici la résistance de l'emballage à l'eau.",
+        "3": "Test de l'eau : La machine teste ici la résistance de l'emballage à l'eau."
+      }
+    },
+    {
+      "id": "13",
+      "label": "Test chocs",
+      "type": 1,
+      "function": 1,
+      "plan": 101,
+      "box": [
+        212,
+        71,
+        43,
+        94
+      ],
+      "options": [
+        {
+          "id": 1,
+          "value": 1,
+          "label": "Résistance aux chocs",
+          "visual": "05DD0001",
+          "audio": "/game/station/05WD0001.wav"
+        },
+        {
+          "id": 2,
+          "value": 0,
+          "label": "Résistance aux chocs",
+          "visual": "05DD0002",
+          "audio": "/game/station/05WD0002.wav"
+        }
+      ],
+      "hints": {
+        "0": "Test  chocs : La machine teste ici la résistance de l'emballage aux chocs.",
+        "1": "Test  chocs : La machine teste ici la résistance de l'emballage aux chocs.",
+        "2": "Test  chocs : La machine teste ici la résistance de l'emballage aux chocs.",
+        "3": "Test  chocs : La machine teste ici la résistance de l'emballage aux chocs."
+      }
+    },
+    {
+      "id": "14",
+      "label": "Test acide",
+      "type": 1,
+      "function": 1,
+      "plan": 101,
+      "box": [
+        288,
+        78,
+        57,
+        87
+      ],
+      "options": [
+        {
+          "id": 1,
+          "value": 1,
+          "label": "Résistance à l'acide",
+          "visual": "05DE0001",
+          "audio": "/game/station/05WE0001.wav"
+        },
+        {
+          "id": 2,
+          "value": 0,
+          "label": "Résistance à l'acide",
+          "visual": "05DE0002",
+          "audio": "/game/station/05WE0002.wav"
+        }
+      ],
+      "hints": {
+        "0": "Test acide : Ici la machine teste la résistance à l'acide de ton emballage.",
+        "1": "Test acide : Ici la machine teste la résistance à l'acide de ton emballage.",
+        "2": "Test acide : Ici la machine teste la résistance à l'acide de ton emballage.",
+        "3": "Test acide : Ici la machine teste la résistance à l'acide de ton emballage."
+      }
+    },
+    {
+      "id": "15",
+      "label": "Test feu",
+      "type": 1,
+      "function": 1,
+      "plan": 101,
+      "box": [
+        353,
+        9,
+        56,
+        155
+      ],
+      "options": [
+        {
+          "id": 1,
+          "value": 1,
+          "label": "Résistance au feu",
+          "visual": "05DF0001",
+          "audio": "/game/station/05WF0001.wav"
+        },
+        {
+          "id": 2,
+          "value": 0,
+          "label": "Résistance au feu",
+          "visual": "05DF0002",
+          "audio": "/game/station/05WF0002.wav"
+        }
+      ],
+      "hints": {
+        "0": "Test feu : Ici la machine teste la résistance au feu de ton emballage.",
+        "1": "Test feu : Ici la machine teste la résistance au feu de ton emballage.",
+        "2": "Test feu : Ici la machine teste la résistance au feu de ton emballage.",
+        "3": "Test feu : Ici la machine teste la résistance au feu de ton emballage."
+      }
+    },
+    {
+      "id": "16",
+      "label": "Test lumière",
+      "type": 1,
+      "function": 1,
+      "plan": 101,
+      "box": [
+        417,
+        8,
+        55,
+        125
+      ],
+      "options": [
+        {
+          "id": 1,
+          "value": 1,
+          "label": "Résistance à la lumière",
+          "visual": "05DG0001",
+          "audio": "/game/station/05WG0001.wav"
+        },
+        {
+          "id": 2,
+          "value": 0,
+          "label": "Résistance à la lumière",
+          "visual": "05DG0002",
+          "audio": "/game/station/05WG0002.wav"
+        }
+      ],
+      "hints": {
+        "0": "Test lumière : Ici la machine teste la résistance à la lumière de ton emballage.",
+        "1": "Test lumière : Ici la machine teste la résistance à la lumière de ton emballage.",
+        "2": "Test lumière : Ici la machine teste la résistance à la lumière de ton emballage.",
+        "3": "Test lumière : Ici la machine teste la résistance à la lumière de ton emballage."
+      }
+    },
+    {
+      "id": "17",
+      "label": "Pesée",
+      "type": 1,
+      "function": 1,
+      "plan": 101,
+      "box": [
+        481,
+        105,
+        73,
+        60
+      ],
+      "options": [
+        {
+          "id": 1,
+          "value": 1,
+          "label": "Légèreté",
+          "visual": "05DH0001",
+          "audio": "/game/station/05WH0001.wav"
+        },
+        {
+          "id": 2,
+          "value": 0,
+          "label": "Légèreté",
+          "visual": "05DH0002",
+          "audio": "/game/station/05WH0002.wav"
+        }
+      ],
+      "hints": {
+        "0": "Pesée : Ici la machine teste la légèreté de ton emballage.",
+        "1": "Pesée : Ici la machine teste la légèreté de ton emballage.",
+        "2": "Pesée : Ici la machine teste la légèreté de ton emballage.",
+        "3": "Pesée : Ici la machine teste la légèreté de ton emballage."
+      }
+    },
+    {
+      "id": "18",
+      "label": "Touche 'Go'",
+      "type": 3,
+      "function": 0,
+      "plan": 101,
+      "box": [
+        75,
+        274,
+        37,
+        35
+      ],
+      "options": [
+        {
+          "id": 1,
+          "value": 1,
+          "label": "Mise-en-marche",
+          "visual": "05DI0001",
+          "audio": "/game/station/05WI0001.wav"
+        },
+        {
+          "id": 2,
+          "value": 2,
+          "label": "Mise-en-marche",
+          "visual": "05DI0002",
+          "audio": "/game/station/05WI0002.wav"
+        }
+      ],
+      "hints": {
+        "0": "Touche de mise sous tension : C'est le bouton de mise en marche de la machine. Tu peux changer de produit à emballer et modifier les tests à réaliser avant de l'activer.",
+        "1": "Touche de mise sous tension : C'est le bouton de mise en marche de la machine. Tu peux changer de produit à emballer et modifier les tests à réaliser avant de l'activer.",
+        "2": "Touche de mise sous tension : C'est le bouton de mise en marche de la machine. Tu peux changer de produit à emballer et modifier les tests à réaliser avant de l'activer.",
+        "3": "Touche de mise sous tension : C'est le bouton de mise en marche de la machine. Tu peux changer de produit à emballer et modifier les tests à réaliser avant de l'activer."
+      }
+    }
+  ],
+  "cases": [
+    {
+      "id": "0",
+      "label": "Mode libre",
+      "solutions": [
+        {
+          "1": 1,
+          "2": 1,
+          "3": 1,
+          "4": 1,
+          "5": 1,
+          "6": 1,
+          "7": 1
+        }
+      ],
+      "initial": {
+        "1": 7,
+        "2": 2,
+        "3": 2,
+        "4": 2,
+        "5": 2,
+        "6": 2,
+        "7": 2,
+        "8": 12,
+        "9": 72,
+        "10": 12,
+        "11": 6,
+        "12": 2,
+        "13": 2,
+        "14": 2,
+        "15": 2,
+        "16": 2,
+        "17": 2,
+        "18": 1
+      }
+    },
+    {
+      "id": "1",
+      "label": "Les biscuits de l'espace",
+      "solutions": [
+        {
+          "1": 6,
+          "2": 2,
+          "3": 2,
+          "4": 2,
+          "5": 1,
+          "6": 1,
+          "7": 1
+        },
+        {
+          "1": 6,
+          "2": 1,
+          "3": 2,
+          "4": 2,
+          "5": 1,
+          "6": 2,
+          "7": 1
+        },
+        {
+          "1": 6,
+          "2": 1,
+          "3": 2,
+          "4": 2,
+          "5": 1,
+          "6": 2,
+          "7": 1
+        }
+      ],
+      "initial": {
+        "1": 6,
+        "2": 2,
+        "3": 2,
+        "4": 2,
+        "5": 2,
+        "6": 2,
+        "7": 2,
+        "8": 12,
+        "9": 72,
+        "10": 12,
+        "11": 6,
+        "12": 2,
+        "13": 2,
+        "14": 2,
+        "15": 2,
+        "16": 2,
+        "17": 2,
+        "18": 1
+      }
+    },
+    {
+      "id": "2",
+      "label": "Un parfum galactique",
+      "solutions": [
+        {
+          "2": 2,
+          "3": 2,
+          "4": 1,
+          "5": 1,
+          "6": 1,
+          "7": 1,
+          "1": 4
+        },
+        {
+          "1": 4,
+          "2": 1,
+          "3": 2,
+          "4": 1,
+          "5": 1,
+          "6": 1,
+          "7": 1
+        }
+      ],
+      "initial": {
+        "1": 4,
+        "2": 2,
+        "3": 2,
+        "4": 2,
+        "5": 2,
+        "6": 2,
+        "7": 2,
+        "8": 12,
+        "9": 72,
+        "10": 12,
+        "11": 6,
+        "12": 2,
+        "13": 2,
+        "14": 2,
+        "15": 2,
+        "16": 2,
+        "17": 2,
+        "18": 1
+      }
+    },
+    {
+      "id": "3",
+      "label": "Le top 50 des étoiles",
+      "solutions": [
+        {
+          "1": 1,
+          "2": 2,
+          "3": 2,
+          "4": 2,
+          "5": 2,
+          "6": 2,
+          "7": 1
+        },
+        {
+          "1": 1,
+          "2": 2,
+          "3": 2,
+          "4": 2,
+          "5": 2,
+          "6": 1,
+          "7": 1
+        }
+      ],
+      "initial": {
+        "1": 1,
+        "2": 2,
+        "3": 2,
+        "4": 2,
+        "5": 2,
+        "6": 2,
+        "7": 2,
+        "8": 12,
+        "9": 72,
+        "10": 12,
+        "11": 6,
+        "12": 2,
+        "13": 2,
+        "14": 2,
+        "15": 2,
+        "16": 2,
+        "17": 2,
+        "18": 1
+      }
+    }
+  ],
+  "lookup": [
+    {
+      "object": "8",
+      "value": 12,
+      "conditions": {
+        "2": 0,
+        "6": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "7": 0
+      }
+    },
+    {
+      "object": "8",
+      "value": 1,
+      "conditions": {
+        "2": 0,
+        "6": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "7": 1
+      }
+    },
+    {
+      "object": "8",
+      "value": 11,
+      "conditions": {
+        "2": 0,
+        "6": 0,
+        "3": 0,
+        "4": 0,
+        "5": 1,
+        "7": 0
+      }
+    },
+    {
+      "object": "8",
+      "value": 9,
+      "conditions": {
+        "2": 0,
+        "6": 0,
+        "3": 0,
+        "4": 0,
+        "5": 1,
+        "7": 1
+      }
+    },
+    {
+      "object": "8",
+      "value": 11,
+      "conditions": {
+        "2": 0,
+        "6": 0,
+        "3": 0,
+        "4": 1,
+        "5": 0,
+        "7": 0
+      }
+    },
+    {
+      "object": "8",
+      "value": 2,
+      "conditions": {
+        "2": 0,
+        "6": 0,
+        "3": 0,
+        "4": 1,
+        "5": 0,
+        "7": 1
+      }
+    },
+    {
+      "object": "8",
+      "value": 8,
+      "conditions": {
+        "2": 0,
+        "6": 0,
+        "3": 0,
+        "4": 1,
+        "5": 1,
+        "7": 0
+      }
+    },
+    {
+      "object": "8",
+      "value": 6,
+      "conditions": {
+        "2": 0,
+        "6": 0,
+        "3": 0,
+        "4": 1,
+        "5": 1,
+        "7": 1
+      }
+    },
+    {
+      "object": "8",
+      "value": 10,
+      "conditions": {
+        "2": 0,
+        "6": 0,
+        "3": 1,
+        "4": 0,
+        "5": 0,
+        "7": 0
+      }
+    },
+    {
+      "object": "8",
+      "value": 12,
+      "conditions": {
+        "2": 0,
+        "6": 0,
+        "3": 1,
+        "4": 0,
+        "5": 0,
+        "7": 1
+      }
+    },
+    {
+      "object": "8",
+      "value": 10,
+      "conditions": {
+        "2": 0,
+        "6": 0,
+        "3": 1,
+        "4": 0,
+        "5": 1,
+        "7": 0
+      }
+    },
+    {
+      "object": "8",
+      "value": 12,
+      "conditions": {
+        "2": 0,
+        "6": 0,
+        "3": 1,
+        "4": 0,
+        "5": 1,
+        "7": 1
+      }
+    },
+    {
+      "object": "8",
+      "value": 3,
+      "conditions": {
+        "2": 0,
+        "6": 0,
+        "3": 1,
+        "4": 1,
+        "5": 0,
+        "7": 0
+      }
+    },
+    {
+      "object": "8",
+      "value": 2,
+      "conditions": {
+        "2": 0,
+        "6": 0,
+        "3": 1,
+        "4": 1,
+        "5": 0,
+        "7": 1
+      }
+    },
+    {
+      "object": "8",
+      "value": 12,
+      "conditions": {
+        "2": 0,
+        "6": 0,
+        "3": 1,
+        "4": 1,
+        "5": 1,
+        "7": 0
+      }
+    },
+    {
+      "object": "8",
+      "value": 12,
+      "conditions": {
+        "2": 0,
+        "6": 0,
+        "3": 1,
+        "4": 1,
+        "5": 1,
+        "7": 1
+      }
+    },
+    {
+      "object": "8",
+      "value": 11,
+      "conditions": {
+        "2": 0,
+        "6": 1,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "7": 0
+      }
+    },
+    {
+      "object": "8",
+      "value": 1,
+      "conditions": {
+        "2": 0,
+        "6": 1,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "7": 1
+      }
+    },
+    {
+      "object": "8",
+      "value": 8,
+      "conditions": {
+        "2": 0,
+        "6": 1,
+        "3": 0,
+        "4": 0,
+        "5": 1,
+        "7": 0
+      }
+    },
+    {
+      "object": "8",
+      "value": 9,
+      "conditions": {
+        "2": 0,
+        "6": 1,
+        "3": 0,
+        "4": 0,
+        "5": 1,
+        "7": 1
+      }
+    },
+    {
+      "object": "8",
+      "value": 8,
+      "conditions": {
+        "2": 0,
+        "6": 1,
+        "3": 0,
+        "4": 1,
+        "5": 0,
+        "7": 0
+      }
+    },
+    {
+      "object": "8",
+      "value": 7,
+      "conditions": {
+        "2": 0,
+        "6": 1,
+        "3": 0,
+        "4": 1,
+        "5": 0,
+        "7": 1
+      }
+    },
+    {
+      "object": "8",
+      "value": 8,
+      "conditions": {
+        "2": 0,
+        "6": 1,
+        "3": 0,
+        "4": 1,
+        "5": 1,
+        "7": 0
+      }
+    },
+    {
+      "object": "8",
+      "value": 7,
+      "conditions": {
+        "2": 0,
+        "6": 1,
+        "3": 0,
+        "4": 1,
+        "5": 1,
+        "7": 1
+      }
+    },
+    {
+      "object": "8",
+      "value": 10,
+      "conditions": {
+        "2": 0,
+        "6": 1,
+        "3": 1,
+        "4": 0,
+        "5": 0,
+        "7": 0
+      }
+    },
+    {
+      "object": "8",
+      "value": 12,
+      "conditions": {
+        "2": 0,
+        "6": 1,
+        "3": 1,
+        "4": 0,
+        "5": 0,
+        "7": 1
+      }
+    },
+    {
+      "object": "8",
+      "value": 10,
+      "conditions": {
+        "2": 0,
+        "6": 1,
+        "3": 1,
+        "4": 0,
+        "5": 1,
+        "7": 0
+      }
+    },
+    {
+      "object": "8",
+      "value": 12,
+      "conditions": {
+        "2": 0,
+        "6": 1,
+        "3": 1,
+        "4": 0,
+        "5": 1,
+        "7": 1
+      }
+    },
+    {
+      "object": "8",
+      "value": 5,
+      "conditions": {
+        "2": 0,
+        "6": 1,
+        "3": 1,
+        "4": 1,
+        "5": 0,
+        "7": 0
+      }
+    },
+    {
+      "object": "8",
+      "value": 4,
+      "conditions": {
+        "2": 0,
+        "6": 1,
+        "3": 1,
+        "4": 1,
+        "5": 0,
+        "7": 1
+      }
+    },
+    {
+      "object": "8",
+      "value": 12,
+      "conditions": {
+        "2": 0,
+        "6": 1,
+        "3": 1,
+        "4": 1,
+        "5": 1,
+        "7": 0
+      }
+    },
+    {
+      "object": "8",
+      "value": 12,
+      "conditions": {
+        "2": 0,
+        "6": 1,
+        "3": 1,
+        "4": 1,
+        "5": 1,
+        "7": 1
+      }
+    },
+    {
+      "object": "8",
+      "value": 11,
+      "conditions": {
+        "2": 1,
+        "6": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "7": 0
+      }
+    },
+    {
+      "object": "8",
+      "value": 2,
+      "conditions": {
+        "2": 1,
+        "6": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "7": 1
+      }
+    },
+    {
+      "object": "8",
+      "value": 11,
+      "conditions": {
+        "2": 1,
+        "6": 0,
+        "3": 0,
+        "4": 0,
+        "5": 1,
+        "7": 0
+      }
+    },
+    {
+      "object": "8",
+      "value": 9,
+      "conditions": {
+        "2": 1,
+        "6": 0,
+        "3": 0,
+        "4": 0,
+        "5": 1,
+        "7": 1
+      }
+    },
+    {
+      "object": "8",
+      "value": 11,
+      "conditions": {
+        "2": 1,
+        "6": 0,
+        "3": 0,
+        "4": 1,
+        "5": 0,
+        "7": 0
+      }
+    },
+    {
+      "object": "8",
+      "value": 2,
+      "conditions": {
+        "2": 1,
+        "6": 0,
+        "3": 0,
+        "4": 1,
+        "5": 0,
+        "7": 1
+      }
+    },
+    {
+      "object": "8",
+      "value": 8,
+      "conditions": {
+        "2": 1,
+        "6": 0,
+        "3": 0,
+        "4": 1,
+        "5": 1,
+        "7": 0
+      }
+    },
+    {
+      "object": "8",
+      "value": 6,
+      "conditions": {
+        "2": 1,
+        "6": 0,
+        "3": 0,
+        "4": 1,
+        "5": 1,
+        "7": 1
+      }
+    },
+    {
+      "object": "8",
+      "value": 10,
+      "conditions": {
+        "2": 1,
+        "6": 0,
+        "3": 1,
+        "4": 0,
+        "5": 0,
+        "7": 0
+      }
+    },
+    {
+      "object": "8",
+      "value": 12,
+      "conditions": {
+        "2": 1,
+        "6": 0,
+        "3": 1,
+        "4": 0,
+        "5": 0,
+        "7": 1
+      }
+    },
+    {
+      "object": "8",
+      "value": 10,
+      "conditions": {
+        "2": 1,
+        "6": 0,
+        "3": 1,
+        "4": 0,
+        "5": 1,
+        "7": 0
+      }
+    },
+    {
+      "object": "8",
+      "value": 12,
+      "conditions": {
+        "2": 1,
+        "6": 0,
+        "3": 1,
+        "4": 0,
+        "5": 1,
+        "7": 1
+      }
+    },
+    {
+      "object": "8",
+      "value": 3,
+      "conditions": {
+        "2": 1,
+        "6": 0,
+        "3": 1,
+        "4": 1,
+        "5": 0,
+        "7": 0
+      }
+    },
+    {
+      "object": "8",
+      "value": 2,
+      "conditions": {
+        "2": 1,
+        "6": 0,
+        "3": 1,
+        "4": 1,
+        "5": 0,
+        "7": 1
+      }
+    },
+    {
+      "object": "8",
+      "value": 12,
+      "conditions": {
+        "2": 1,
+        "6": 0,
+        "3": 1,
+        "4": 1,
+        "5": 1,
+        "7": 0
+      }
+    },
+    {
+      "object": "8",
+      "value": 12,
+      "conditions": {
+        "2": 1,
+        "6": 0,
+        "3": 1,
+        "4": 1,
+        "5": 1,
+        "7": 1
+      }
+    },
+    {
+      "object": "8",
+      "value": 11,
+      "conditions": {
+        "2": 1,
+        "6": 1,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "7": 0
+      }
+    },
+    {
+      "object": "8",
+      "value": 4,
+      "conditions": {
+        "2": 1,
+        "6": 1,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "7": 1
+      }
+    },
+    {
+      "object": "8",
+      "value": 8,
+      "conditions": {
+        "2": 1,
+        "6": 1,
+        "3": 0,
+        "4": 0,
+        "5": 1,
+        "7": 0
+      }
+    },
+    {
+      "object": "8",
+      "value": 9,
+      "conditions": {
+        "2": 1,
+        "6": 1,
+        "3": 0,
+        "4": 0,
+        "5": 1,
+        "7": 1
+      }
+    },
+    {
+      "object": "8",
+      "value": 8,
+      "conditions": {
+        "2": 1,
+        "6": 1,
+        "3": 0,
+        "4": 1,
+        "5": 0,
+        "7": 0
+      }
+    },
+    {
+      "object": "8",
+      "value": 7,
+      "conditions": {
+        "2": 1,
+        "6": 1,
+        "3": 0,
+        "4": 1,
+        "5": 0,
+        "7": 1
+      }
+    },
+    {
+      "object": "8",
+      "value": 8,
+      "conditions": {
+        "2": 1,
+        "6": 1,
+        "3": 0,
+        "4": 1,
+        "5": 1,
+        "7": 0
+      }
+    },
+    {
+      "object": "8",
+      "value": 7,
+      "conditions": {
+        "2": 1,
+        "6": 1,
+        "3": 0,
+        "4": 1,
+        "5": 1,
+        "7": 1
+      }
+    },
+    {
+      "object": "8",
+      "value": 10,
+      "conditions": {
+        "2": 1,
+        "6": 1,
+        "3": 1,
+        "4": 0,
+        "5": 0,
+        "7": 0
+      }
+    },
+    {
+      "object": "8",
+      "value": 12,
+      "conditions": {
+        "2": 1,
+        "6": 1,
+        "3": 1,
+        "4": 0,
+        "5": 0,
+        "7": 1
+      }
+    },
+    {
+      "object": "8",
+      "value": 10,
+      "conditions": {
+        "2": 1,
+        "6": 1,
+        "3": 1,
+        "4": 0,
+        "5": 1,
+        "7": 0
+      }
+    },
+    {
+      "object": "8",
+      "value": 12,
+      "conditions": {
+        "2": 1,
+        "6": 1,
+        "3": 1,
+        "4": 0,
+        "5": 1,
+        "7": 1
+      }
+    },
+    {
+      "object": "8",
+      "value": 5,
+      "conditions": {
+        "2": 1,
+        "6": 1,
+        "3": 1,
+        "4": 1,
+        "5": 0,
+        "7": 0
+      }
+    },
+    {
+      "object": "8",
+      "value": 4,
+      "conditions": {
+        "2": 1,
+        "6": 1,
+        "3": 1,
+        "4": 1,
+        "5": 0,
+        "7": 1
+      }
+    },
+    {
+      "object": "8",
+      "value": 12,
+      "conditions": {
+        "2": 1,
+        "6": 1,
+        "3": 1,
+        "4": 1,
+        "5": 1,
+        "7": 0
+      }
+    },
+    {
+      "object": "8",
+      "value": 12,
+      "conditions": {
+        "2": 1,
+        "6": 1,
+        "3": 1,
+        "4": 1,
+        "5": 1,
+        "7": 1
+      }
+    },
+    {
+      "object": "9",
+      "value": 1,
+      "conditions": {
+        "8": 1,
+        "1": 1
+      }
+    },
+    {
+      "object": "9",
+      "value": 11,
+      "conditions": {
+        "8": 1,
+        "1": 2
+      }
+    },
+    {
+      "object": "9",
+      "value": 21,
+      "conditions": {
+        "8": 1,
+        "1": 3
+      }
+    },
+    {
+      "object": "9",
+      "value": 31,
+      "conditions": {
+        "8": 1,
+        "1": 4
+      }
+    },
+    {
+      "object": "9",
+      "value": 41,
+      "conditions": {
+        "8": 1,
+        "1": 5
+      }
+    },
+    {
+      "object": "9",
+      "value": 51,
+      "conditions": {
+        "8": 1,
+        "1": 6
+      }
+    },
+    {
+      "object": "9",
+      "value": 61,
+      "conditions": {
+        "8": 1,
+        "1": 7
+      }
+    },
+    {
+      "object": "9",
+      "value": 2,
+      "conditions": {
+        "8": 2,
+        "1": 1
+      }
+    },
+    {
+      "object": "9",
+      "value": 12,
+      "conditions": {
+        "8": 2,
+        "1": 2
+      }
+    },
+    {
+      "object": "9",
+      "value": 22,
+      "conditions": {
+        "8": 2,
+        "1": 3
+      }
+    },
+    {
+      "object": "9",
+      "value": 32,
+      "conditions": {
+        "8": 2,
+        "1": 4
+      }
+    },
+    {
+      "object": "9",
+      "value": 42,
+      "conditions": {
+        "8": 2,
+        "1": 5
+      }
+    },
+    {
+      "object": "9",
+      "value": 52,
+      "conditions": {
+        "8": 2,
+        "1": 6
+      }
+    },
+    {
+      "object": "9",
+      "value": 62,
+      "conditions": {
+        "8": 2,
+        "1": 7
+      }
+    },
+    {
+      "object": "9",
+      "value": 3,
+      "conditions": {
+        "8": 3,
+        "1": 1
+      }
+    },
+    {
+      "object": "9",
+      "value": 13,
+      "conditions": {
+        "8": 3,
+        "1": 2
+      }
+    },
+    {
+      "object": "9",
+      "value": 23,
+      "conditions": {
+        "8": 3,
+        "1": 3
+      }
+    },
+    {
+      "object": "9",
+      "value": 33,
+      "conditions": {
+        "8": 3,
+        "1": 4
+      }
+    },
+    {
+      "object": "9",
+      "value": 43,
+      "conditions": {
+        "8": 3,
+        "1": 5
+      }
+    },
+    {
+      "object": "9",
+      "value": 53,
+      "conditions": {
+        "8": 3,
+        "1": 6
+      }
+    },
+    {
+      "object": "9",
+      "value": 63,
+      "conditions": {
+        "8": 3,
+        "1": 7
+      }
+    },
+    {
+      "object": "9",
+      "value": 4,
+      "conditions": {
+        "8": 4,
+        "1": 1
+      }
+    },
+    {
+      "object": "9",
+      "value": 14,
+      "conditions": {
+        "8": 4,
+        "1": 2
+      }
+    },
+    {
+      "object": "9",
+      "value": 24,
+      "conditions": {
+        "8": 4,
+        "1": 3
+      }
+    },
+    {
+      "object": "9",
+      "value": 34,
+      "conditions": {
+        "8": 4,
+        "1": 4
+      }
+    },
+    {
+      "object": "9",
+      "value": 44,
+      "conditions": {
+        "8": 4,
+        "1": 5
+      }
+    },
+    {
+      "object": "9",
+      "value": 54,
+      "conditions": {
+        "8": 4,
+        "1": 6
+      }
+    },
+    {
+      "object": "9",
+      "value": 64,
+      "conditions": {
+        "8": 4,
+        "1": 7
+      }
+    },
+    {
+      "object": "9",
+      "value": 5,
+      "conditions": {
+        "8": 5,
+        "1": 1
+      }
+    },
+    {
+      "object": "9",
+      "value": 15,
+      "conditions": {
+        "8": 5,
+        "1": 2
+      }
+    },
+    {
+      "object": "9",
+      "value": 25,
+      "conditions": {
+        "8": 5,
+        "1": 3
+      }
+    },
+    {
+      "object": "9",
+      "value": 35,
+      "conditions": {
+        "8": 5,
+        "1": 4
+      }
+    },
+    {
+      "object": "9",
+      "value": 45,
+      "conditions": {
+        "8": 5,
+        "1": 5
+      }
+    },
+    {
+      "object": "9",
+      "value": 55,
+      "conditions": {
+        "8": 5,
+        "1": 6
+      }
+    },
+    {
+      "object": "9",
+      "value": 65,
+      "conditions": {
+        "8": 5,
+        "1": 7
+      }
+    },
+    {
+      "object": "9",
+      "value": 6,
+      "conditions": {
+        "8": 6,
+        "1": 1
+      }
+    },
+    {
+      "object": "9",
+      "value": 16,
+      "conditions": {
+        "8": 6,
+        "1": 2
+      }
+    },
+    {
+      "object": "9",
+      "value": 26,
+      "conditions": {
+        "8": 6,
+        "1": 3
+      }
+    },
+    {
+      "object": "9",
+      "value": 36,
+      "conditions": {
+        "8": 6,
+        "1": 4
+      }
+    },
+    {
+      "object": "9",
+      "value": 46,
+      "conditions": {
+        "8": 6,
+        "1": 5
+      }
+    },
+    {
+      "object": "9",
+      "value": 56,
+      "conditions": {
+        "8": 6,
+        "1": 6
+      }
+    },
+    {
+      "object": "9",
+      "value": 66,
+      "conditions": {
+        "8": 6,
+        "1": 7
+      }
+    },
+    {
+      "object": "9",
+      "value": 7,
+      "conditions": {
+        "8": 7,
+        "1": 1
+      }
+    },
+    {
+      "object": "9",
+      "value": 17,
+      "conditions": {
+        "8": 7,
+        "1": 2
+      }
+    },
+    {
+      "object": "9",
+      "value": 27,
+      "conditions": {
+        "8": 7,
+        "1": 3
+      }
+    },
+    {
+      "object": "9",
+      "value": 37,
+      "conditions": {
+        "8": 7,
+        "1": 4
+      }
+    },
+    {
+      "object": "9",
+      "value": 47,
+      "conditions": {
+        "8": 7,
+        "1": 5
+      }
+    },
+    {
+      "object": "9",
+      "value": 57,
+      "conditions": {
+        "8": 7,
+        "1": 6
+      }
+    },
+    {
+      "object": "9",
+      "value": 67,
+      "conditions": {
+        "8": 7,
+        "1": 7
+      }
+    },
+    {
+      "object": "9",
+      "value": 8,
+      "conditions": {
+        "8": 8,
+        "1": 1
+      }
+    },
+    {
+      "object": "9",
+      "value": 18,
+      "conditions": {
+        "8": 8,
+        "1": 2
+      }
+    },
+    {
+      "object": "9",
+      "value": 28,
+      "conditions": {
+        "8": 8,
+        "1": 3
+      }
+    },
+    {
+      "object": "9",
+      "value": 38,
+      "conditions": {
+        "8": 8,
+        "1": 4
+      }
+    },
+    {
+      "object": "9",
+      "value": 48,
+      "conditions": {
+        "8": 8,
+        "1": 5
+      }
+    },
+    {
+      "object": "9",
+      "value": 58,
+      "conditions": {
+        "8": 8,
+        "1": 6
+      }
+    },
+    {
+      "object": "9",
+      "value": 68,
+      "conditions": {
+        "8": 8,
+        "1": 7
+      }
+    },
+    {
+      "object": "9",
+      "value": 9,
+      "conditions": {
+        "8": 9,
+        "1": 1
+      }
+    },
+    {
+      "object": "9",
+      "value": 19,
+      "conditions": {
+        "8": 9,
+        "1": 2
+      }
+    },
+    {
+      "object": "9",
+      "value": 29,
+      "conditions": {
+        "8": 9,
+        "1": 3
+      }
+    },
+    {
+      "object": "9",
+      "value": 39,
+      "conditions": {
+        "8": 9,
+        "1": 4
+      }
+    },
+    {
+      "object": "9",
+      "value": 49,
+      "conditions": {
+        "8": 9,
+        "1": 5
+      }
+    },
+    {
+      "object": "9",
+      "value": 59,
+      "conditions": {
+        "8": 9,
+        "1": 6
+      }
+    },
+    {
+      "object": "9",
+      "value": 69,
+      "conditions": {
+        "8": 9,
+        "1": 7
+      }
+    },
+    {
+      "object": "9",
+      "value": 10,
+      "conditions": {
+        "8": 10,
+        "1": 1
+      }
+    },
+    {
+      "object": "9",
+      "value": 20,
+      "conditions": {
+        "8": 10,
+        "1": 2
+      }
+    },
+    {
+      "object": "9",
+      "value": 30,
+      "conditions": {
+        "8": 10,
+        "1": 3
+      }
+    },
+    {
+      "object": "9",
+      "value": 40,
+      "conditions": {
+        "8": 10,
+        "1": 4
+      }
+    },
+    {
+      "object": "9",
+      "value": 50,
+      "conditions": {
+        "8": 10,
+        "1": 5
+      }
+    },
+    {
+      "object": "9",
+      "value": 60,
+      "conditions": {
+        "8": 10,
+        "1": 6
+      }
+    },
+    {
+      "object": "9",
+      "value": 70,
+      "conditions": {
+        "8": 10,
+        "1": 7
+      }
+    },
+    {
+      "object": "9",
+      "value": 71,
+      "conditions": {
+        "8": 11,
+        "1": 1
+      }
+    },
+    {
+      "object": "9",
+      "value": 71,
+      "conditions": {
+        "8": 11,
+        "1": 2
+      }
+    },
+    {
+      "object": "9",
+      "value": 71,
+      "conditions": {
+        "8": 11,
+        "1": 3
+      }
+    },
+    {
+      "object": "9",
+      "value": 71,
+      "conditions": {
+        "8": 11,
+        "1": 4
+      }
+    },
+    {
+      "object": "9",
+      "value": 71,
+      "conditions": {
+        "8": 11,
+        "1": 5
+      }
+    },
+    {
+      "object": "9",
+      "value": 71,
+      "conditions": {
+        "8": 11,
+        "1": 6
+      }
+    },
+    {
+      "object": "9",
+      "value": 71,
+      "conditions": {
+        "8": 11,
+        "1": 7
+      }
+    },
+    {
+      "object": "9",
+      "value": 72,
+      "conditions": {
+        "8": 12,
+        "1": 1
+      }
+    },
+    {
+      "object": "9",
+      "value": 72,
+      "conditions": {
+        "8": 12,
+        "1": 2
+      }
+    },
+    {
+      "object": "9",
+      "value": 72,
+      "conditions": {
+        "8": 12,
+        "1": 3
+      }
+    },
+    {
+      "object": "9",
+      "value": 72,
+      "conditions": {
+        "8": 12,
+        "1": 4
+      }
+    },
+    {
+      "object": "9",
+      "value": 72,
+      "conditions": {
+        "8": 12,
+        "1": 5
+      }
+    },
+    {
+      "object": "9",
+      "value": 72,
+      "conditions": {
+        "8": 12,
+        "1": 6
+      }
+    },
+    {
+      "object": "9",
+      "value": 72,
+      "conditions": {
+        "8": 12,
+        "1": 7
+      }
+    },
+    {
+      "object": "10",
+      "value": 100,
+      "conditions": {
+        "8": 1,
+        "1": 1
+      }
+    },
+    {
+      "object": "10",
+      "value": 50,
+      "conditions": {
+        "8": 1,
+        "1": 2
+      }
+    },
+    {
+      "object": "10",
+      "value": 10,
+      "conditions": {
+        "8": 1,
+        "1": 3
+      }
+    },
+    {
+      "object": "10",
+      "value": 0,
+      "conditions": {
+        "8": 1,
+        "1": 4
+      }
+    },
+    {
+      "object": "10",
+      "value": 0,
+      "conditions": {
+        "8": 1,
+        "1": 5
+      }
+    },
+    {
+      "object": "10",
+      "value": 60,
+      "conditions": {
+        "8": 1,
+        "1": 6
+      }
+    },
+    {
+      "object": "10",
+      "value": 0,
+      "conditions": {
+        "8": 1,
+        "1": 7
+      }
+    },
+    {
+      "object": "10",
+      "value": 60,
+      "conditions": {
+        "8": 2,
+        "1": 1
+      }
+    },
+    {
+      "object": "10",
+      "value": 100,
+      "conditions": {
+        "8": 2,
+        "1": 2
+      }
+    },
+    {
+      "object": "10",
+      "value": 80,
+      "conditions": {
+        "8": 2,
+        "1": 3
+      }
+    },
+    {
+      "object": "10",
+      "value": 20,
+      "conditions": {
+        "8": 2,
+        "1": 4
+      }
+    },
+    {
+      "object": "10",
+      "value": 30,
+      "conditions": {
+        "8": 2,
+        "1": 5
+      }
+    },
+    {
+      "object": "10",
+      "value": 80,
+      "conditions": {
+        "8": 2,
+        "1": 6
+      }
+    },
+    {
+      "object": "10",
+      "value": 30,
+      "conditions": {
+        "8": 2,
+        "1": 7
+      }
+    },
+    {
+      "object": "10",
+      "value": 80,
+      "conditions": {
+        "8": 3,
+        "1": 1
+      }
+    },
+    {
+      "object": "10",
+      "value": 90,
+      "conditions": {
+        "8": 3,
+        "1": 2
+      }
+    },
+    {
+      "object": "10",
+      "value": 90,
+      "conditions": {
+        "8": 3,
+        "1": 3
+      }
+    },
+    {
+      "object": "10",
+      "value": 40,
+      "conditions": {
+        "8": 3,
+        "1": 4
+      }
+    },
+    {
+      "object": "10",
+      "value": 40,
+      "conditions": {
+        "8": 3,
+        "1": 5
+      }
+    },
+    {
+      "object": "10",
+      "value": 80,
+      "conditions": {
+        "8": 3,
+        "1": 6
+      }
+    },
+    {
+      "object": "10",
+      "value": 70,
+      "conditions": {
+        "8": 3,
+        "1": 7
+      }
+    },
+    {
+      "object": "10",
+      "value": 60,
+      "conditions": {
+        "8": 4,
+        "1": 1
+      }
+    },
+    {
+      "object": "10",
+      "value": 90,
+      "conditions": {
+        "8": 4,
+        "1": 2
+      }
+    },
+    {
+      "object": "10",
+      "value": 90,
+      "conditions": {
+        "8": 4,
+        "1": 3
+      }
+    },
+    {
+      "object": "10",
+      "value": 30,
+      "conditions": {
+        "8": 4,
+        "1": 4
+      }
+    },
+    {
+      "object": "10",
+      "value": 30,
+      "conditions": {
+        "8": 4,
+        "1": 5
+      }
+    },
+    {
+      "object": "10",
+      "value": 80,
+      "conditions": {
+        "8": 4,
+        "1": 6
+      }
+    },
+    {
+      "object": "10",
+      "value": 30,
+      "conditions": {
+        "8": 4,
+        "1": 7
+      }
+    },
+    {
+      "object": "10",
+      "value": 90,
+      "conditions": {
+        "8": 5,
+        "1": 1
+      }
+    },
+    {
+      "object": "10",
+      "value": 80,
+      "conditions": {
+        "8": 5,
+        "1": 2
+      }
+    },
+    {
+      "object": "10",
+      "value": 100,
+      "conditions": {
+        "8": 5,
+        "1": 3
+      }
+    },
+    {
+      "object": "10",
+      "value": 40,
+      "conditions": {
+        "8": 5,
+        "1": 4
+      }
+    },
+    {
+      "object": "10",
+      "value": 70,
+      "conditions": {
+        "8": 5,
+        "1": 5
+      }
+    },
+    {
+      "object": "10",
+      "value": 80,
+      "conditions": {
+        "8": 5,
+        "1": 6
+      }
+    },
+    {
+      "object": "10",
+      "value": 70,
+      "conditions": {
+        "8": 5,
+        "1": 7
+      }
+    },
+    {
+      "object": "10",
+      "value": 10,
+      "conditions": {
+        "8": 6,
+        "1": 1
+      }
+    },
+    {
+      "object": "10",
+      "value": 30,
+      "conditions": {
+        "8": 6,
+        "1": 2
+      }
+    },
+    {
+      "object": "10",
+      "value": 70,
+      "conditions": {
+        "8": 6,
+        "1": 3
+      }
+    },
+    {
+      "object": "10",
+      "value": 90,
+      "conditions": {
+        "8": 6,
+        "1": 4
+      }
+    },
+    {
+      "object": "10",
+      "value": 60,
+      "conditions": {
+        "8": 6,
+        "1": 5
+      }
+    },
+    {
+      "object": "10",
+      "value": 50,
+      "conditions": {
+        "8": 6,
+        "1": 6
+      }
+    },
+    {
+      "object": "10",
+      "value": 20,
+      "conditions": {
+        "8": 6,
+        "1": 7
+      }
+    },
+    {
+      "object": "10",
+      "value": 10,
+      "conditions": {
+        "8": 7,
+        "1": 1
+      }
+    },
+    {
+      "object": "10",
+      "value": 30,
+      "conditions": {
+        "8": 7,
+        "1": 2
+      }
+    },
+    {
+      "object": "10",
+      "value": 70,
+      "conditions": {
+        "8": 7,
+        "1": 3
+      }
+    },
+    {
+      "object": "10",
+      "value": 100,
+      "conditions": {
+        "8": 7,
+        "1": 4
+      }
+    },
+    {
+      "object": "10",
+      "value": 60,
+      "conditions": {
+        "8": 7,
+        "1": 5
+      }
+    },
+    {
+      "object": "10",
+      "value": 50,
+      "conditions": {
+        "8": 7,
+        "1": 6
+      }
+    },
+    {
+      "object": "10",
+      "value": 20,
+      "conditions": {
+        "8": 7,
+        "1": 7
+      }
+    },
+    {
+      "object": "10",
+      "value": 0,
+      "conditions": {
+        "8": 8,
+        "1": 1
+      }
+    },
+    {
+      "object": "10",
+      "value": 10,
+      "conditions": {
+        "8": 8,
+        "1": 2
+      }
+    },
+    {
+      "object": "10",
+      "value": 60,
+      "conditions": {
+        "8": 8,
+        "1": 3
+      }
+    },
+    {
+      "object": "10",
+      "value": 60,
+      "conditions": {
+        "8": 8,
+        "1": 4
+      }
+    },
+    {
+      "object": "10",
+      "value": 100,
+      "conditions": {
+        "8": 8,
+        "1": 5
+      }
+    },
+    {
+      "object": "10",
+      "value": 40,
+      "conditions": {
+        "8": 8,
+        "1": 6
+      }
+    },
+    {
+      "object": "10",
+      "value": 40,
+      "conditions": {
+        "8": 8,
+        "1": 7
+      }
+    },
+    {
+      "object": "10",
+      "value": 20,
+      "conditions": {
+        "8": 9,
+        "1": 1
+      }
+    },
+    {
+      "object": "10",
+      "value": 0,
+      "conditions": {
+        "8": 9,
+        "1": 2
+      }
+    },
+    {
+      "object": "10",
+      "value": 30,
+      "conditions": {
+        "8": 9,
+        "1": 3
+      }
+    },
+    {
+      "object": "10",
+      "value": 80,
+      "conditions": {
+        "8": 9,
+        "1": 4
+      }
+    },
+    {
+      "object": "10",
+      "value": 80,
+      "conditions": {
+        "8": 9,
+        "1": 5
+      }
+    },
+    {
+      "object": "10",
+      "value": 100,
+      "conditions": {
+        "8": 9,
+        "1": 6
+      }
+    },
+    {
+      "object": "10",
+      "value": 90,
+      "conditions": {
+        "8": 9,
+        "1": 7
+      }
+    },
+    {
+      "object": "10",
+      "value": 20,
+      "conditions": {
+        "8": 10,
+        "1": 1
+      }
+    },
+    {
+      "object": "10",
+      "value": 0,
+      "conditions": {
+        "8": 10,
+        "1": 2
+      }
+    },
+    {
+      "object": "10",
+      "value": 30,
+      "conditions": {
+        "8": 10,
+        "1": 3
+      }
+    },
+    {
+      "object": "10",
+      "value": 80,
+      "conditions": {
+        "8": 10,
+        "1": 4
+      }
+    },
+    {
+      "object": "10",
+      "value": 50,
+      "conditions": {
+        "8": 10,
+        "1": 5
+      }
+    },
+    {
+      "object": "10",
+      "value": 90,
+      "conditions": {
+        "8": 10,
+        "1": 6
+      }
+    },
+    {
+      "object": "10",
+      "value": 100,
+      "conditions": {
+        "8": 10,
+        "1": 7
+      }
+    },
+    {
+      "object": "10",
+      "value": 101,
+      "conditions": {
+        "8": 11,
+        "1": 1
+      }
+    },
+    {
+      "object": "10",
+      "value": 101,
+      "conditions": {
+        "8": 11,
+        "1": 2
+      }
+    },
+    {
+      "object": "10",
+      "value": 101,
+      "conditions": {
+        "8": 11,
+        "1": 3
+      }
+    },
+    {
+      "object": "10",
+      "value": 101,
+      "conditions": {
+        "8": 11,
+        "1": 4
+      }
+    },
+    {
+      "object": "10",
+      "value": 101,
+      "conditions": {
+        "8": 11,
+        "1": 5
+      }
+    },
+    {
+      "object": "10",
+      "value": 101,
+      "conditions": {
+        "8": 11,
+        "1": 6
+      }
+    },
+    {
+      "object": "10",
+      "value": 101,
+      "conditions": {
+        "8": 11,
+        "1": 7
+      }
+    },
+    {
+      "object": "10",
+      "value": 101,
+      "conditions": {
+        "8": 12,
+        "1": 1
+      }
+    },
+    {
+      "object": "10",
+      "value": 101,
+      "conditions": {
+        "8": 12,
+        "1": 2
+      }
+    },
+    {
+      "object": "10",
+      "value": 101,
+      "conditions": {
+        "8": 12,
+        "1": 3
+      }
+    },
+    {
+      "object": "10",
+      "value": 101,
+      "conditions": {
+        "8": 12,
+        "1": 4
+      }
+    },
+    {
+      "object": "10",
+      "value": 101,
+      "conditions": {
+        "8": 12,
+        "1": 5
+      }
+    },
+    {
+      "object": "10",
+      "value": 101,
+      "conditions": {
+        "8": 12,
+        "1": 6
+      }
+    },
+    {
+      "object": "10",
+      "value": 101,
+      "conditions": {
+        "8": 12,
+        "1": 7
+      }
+    },
+    {
+      "object": "11",
+      "value": 2,
+      "conditions": {
+        "8": 1
+      }
+    },
+    {
+      "object": "11",
+      "value": 1,
+      "conditions": {
+        "8": 2
+      }
+    },
+    {
+      "object": "11",
+      "value": 1,
+      "conditions": {
+        "8": 3
+      }
+    },
+    {
+      "object": "11",
+      "value": 1,
+      "conditions": {
+        "8": 4
+      }
+    },
+    {
+      "object": "11",
+      "value": 1,
+      "conditions": {
+        "8": 5
+      }
+    },
+    {
+      "object": "11",
+      "value": 3,
+      "conditions": {
+        "8": 6
+      }
+    },
+    {
+      "object": "11",
+      "value": 3,
+      "conditions": {
+        "8": 7
+      }
+    },
+    {
+      "object": "11",
+      "value": 4,
+      "conditions": {
+        "8": 8
+      }
+    },
+    {
+      "object": "11",
+      "value": 5,
+      "conditions": {
+        "8": 9
+      }
+    },
+    {
+      "object": "11",
+      "value": 5,
+      "conditions": {
+        "8": 10
+      }
+    },
+    {
+      "object": "11",
+      "value": 0,
+      "conditions": {
+        "8": 11
+      }
+    },
+    {
+      "object": "11",
+      "value": 0,
+      "conditions": {
+        "8": 12
+      }
+    }
+  ]
+}

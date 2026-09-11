@@ -8,7 +8,16 @@
 /reports/installer-files.txt
 __pycache__/
 /web/dist/
-/web/public/game/
+/web/public/game/*
+!/web/public/game/catalog.json
+!/web/public/game/*.webp
+!/web/public/game/wgob3/
+!/web/public/game/room/
+!/web/public/game/games/
+!/web/public/game/sokoban/
+!/web/public/game/station/
+/web/public/game/station/*
+!/web/public/game/station/sim-*.json
 /web/public/remasters/
 /web/node_modules/
 /runtime/

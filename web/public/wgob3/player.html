@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Goblins 3</title>
+  <link rel="stylesheet" href="/wgob3/player.css">
+</head>
+<body>
+  <div id="stage">
+    <canvas id="canvas" width="640" height="480" tabindex="0" aria-label="Goblins 3, jeu à la souris"></canvas>
+    <div id="loading"><img src="/game/games/WGOB3.webp" alt="Goblins 3">
+      <p id="status" role="status">Chargement de l’aventure…</p>
+      <button id="start" disabled>Jouer</button>
+    </div>
+  </div>
+  <nav aria-label="Commandes du jeu">
+    <button id="menu" disabled>Tableau de bord</button>
+    <button id="skip" disabled>Passer · Échap</button>
+    <button id="right-click" disabled>Clic droit</button>
+    <button id="fullscreen">Plein écran</button>
+    <button id="export" disabled>Exporter les sauvegardes</button>
+    <label class="import">Importer <input id="import" type="file" accept="application/json,.json" disabled></label>
+  </nav>
+  <p id="save-status" role="status">Préparation des sauvegardes locales…</p>
+  <script src="/wgob3/player.js"></script>
+</body>
+</html>

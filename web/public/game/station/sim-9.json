@@ -1,0 +1,1947 @@
+{
+  "id": "9",
+  "title": "Bilans de santé",
+  "background": "09I1",
+  "objects": [
+    {
+      "id": "1",
+      "label": "Alimentation",
+      "type": 2,
+      "function": 0,
+      "plan": 103,
+      "box": [
+        391,
+        314,
+        100,
+        43
+      ],
+      "options": [
+        {
+          "id": 1,
+          "value": 1,
+          "label": "Equilibrée",
+          "visual": "09D10001",
+          "audio": null
+        },
+        {
+          "id": 2,
+          "value": 2,
+          "label": "Riche en graisse",
+          "visual": "09D10002",
+          "audio": null
+        },
+        {
+          "id": 3,
+          "value": 3,
+          "label": "Riche en sel",
+          "visual": "09D10003",
+          "audio": null
+        }
+      ],
+      "hints": {
+        "0": "Les catastrophes possibles : Des catastrophes sont parfois inévitables ; Dame Nature a toujours son mot à dire. En cas de problème, la production diminue. Rentabilité oblige, il faut trouver la parade adaptée à chaque situation. La canicule est l'une des catastrophes possibles que peut connaître un pisciculteur. Elle a des conséquences directes sur la qualité des eaux des bassins.",
+        "1": "Le médecin de la station pense que l'alimentation de ce mécanicien est beaucoup trop riche en graisse. ",
+        "2": "Une alimentation trop riche en sel favorise l'hypertension.",
+        "3": "L'informaticien ne semble pas savoir que : manger trop de frites bien grasses, n'est ni bon pour la silhouette, ni pour les artères."
+      }
+    },
+    {
+      "id": "2",
+      "label": "Mode de vie",
+      "type": 2,
+      "function": 0,
+      "plan": 101,
+      "box": [
+        379,
+        61,
+        116,
+        93
+      ],
+      "options": [
+        {
+          "id": 1,
+          "value": 1,
+          "label": "Harmonieux",
+          "visual": "VIDE_DF",
+          "audio": null
+        },
+        {
+          "id": 2,
+          "value": 2,
+          "label": "Stressant",
+          "visual": "VIDE_DF",
+          "audio": null
+        }
+      ],
+      "hints": {
+        "0": "Le mode de vie : Notre mode de vie influence très directement notre santé, même s'il le fait de manière très discrète. Une vie stressante qui use notre corps et notre esprit, finit toujours par favoriser l'apparition d'une maladie, organique comme l'ulcère ou plus psychologique comme l'anxiété.",
+        "1": "D'après son dossier médical, il ne semble pas que ce mécanicien ait une vie trop stressante.",
+        "2": "La vie de cet ingénieur est très stressante. Ce n'est pas étonnant, qu'il soit sujet à l'anxiété.",
+        "3": "L'informaticien a compris qu'il faut une vie harmonieuse pour ne pas être victime du stress."
+      }
+    },
+    {
+      "id": "3",
+      "label": "Pratique sportive",
+      "type": 2,
+      "function": 0,
+      "plan": 101,
+      "box": [
+        27,
+        266,
+        131,
+        168
+      ],
+      "options": [
+        {
+          "id": 1,
+          "value": 1,
+          "label": "Aucune",
+          "visual": "VIDE_DF",
+          "audio": null
+        },
+        {
+          "id": 2,
+          "value": 2,
+          "label": "Régulière",
+          "visual": "VIDE_DF",
+          "audio": null
+        }
+      ],
+      "hints": {
+        "0": "La pratique sportive : Le sport est bon pour la santé et ce vieil adage n'a jamais été démenti. L'effort physique fait travailler le coeur et le rend plus résistant. De plus, une pratique sportive régulière empêche l'installation des kilos superflus.",
+        "1": "Une pratique sportive inexistante a favorisé l'obésité de ce mécanicien.",
+        "2": "Cet ingénieur pratique un sport régulièrement, ce qui lui permet d'éviter des problèmes cardiaques, et de préserver sa silhouette.",
+        "3": "Cet informaticien s'adonne à la pratique régulière d'un sport."
+      }
+    },
+    {
+      "id": "4",
+      "label": "Environnement",
+      "type": 2,
+      "function": 0,
+      "plan": 102,
+      "box": [
+        279,
+        40,
+        69,
+        139
+      ],
+      "options": [
+        {
+          "id": 1,
+          "value": 1,
+          "label": "Naturel",
+          "visual": "09D40001",
+          "audio": null
+        },
+        {
+          "id": 2,
+          "value": 2,
+          "label": "Pollué",
+          "visual": "09D40002",
+          "audio": null
+        }
+      ],
+      "hints": {
+        "0": "L'environnement : Si le développement technologique de la civilisation a permis de réaliser des grands progrès sur le plan médical, ses effets néfastes sur l'environnement commencent à se faire sentir. L'atmosphère polluée des villes favorise l'apparition des maladies respiratoires et les aggravent.",
+        "1": "Selon son dossier médical, l'environnement du mécanicien ne semble pas pollué.",
+        "2": "L'environnement professionnel de cet ingénieur est pollué : il s'expose sans doute sans protection et doit respirer des émanations chimiques.",
+        "3": "L'environnement de cet informaticien est très sain."
+      }
+    },
+    {
+      "id": "5",
+      "label": "Prédispositions liées à l'hérédité",
+      "type": 2,
+      "function": 0,
+      "plan": 102,
+      "box": [
+        26,
+        41,
+        164,
+        172
+      ],
+      "options": [
+        {
+          "id": 1,
+          "value": 1,
+          "label": "Aucune",
+          "visual": "09D50001",
+          "audio": null
+        },
+        {
+          "id": 2,
+          "value": 2,
+          "label": "Obésité",
+          "visual": "09D50002",
+          "audio": null
+        },
+        {
+          "id": 3,
+          "value": 3,
+          "label": "Hypertension",
+          "visual": "09D50003",
+          "audio": null
+        }
+      ],
+      "hints": {
+        "0": "Les prédispositions : Héritage de nos parents et de nos grands-parents, nous sommes tous prédisposés à développer certaines maladies, petites ou grandes. Cette vulnérabilité de notre organisme, inscrite dans nos gènes, ne peut être totalement éliminée. Il faut donc y être attentif et adapter sa façon de vivre, son alimentation pour en limiter les effets.",
+        "1": "Le dossier médical indique que ce mécanicien a une prédisposition héréditaire pour l'obésité.",
+        "2": "Ce patient ne semble pas avoir de prédispositions héréditaires. ",
+        "3": "Il n'est pas prédisposé à développer certaines maladies héréditaires. Cela lui évite beaucoup de désagréments."
+      }
+    },
+    {
+      "id": "6",
+      "label": "Dépendances",
+      "type": 2,
+      "function": 0,
+      "plan": 101,
+      "box": [
+        337,
+        353,
+        62,
+        72
+      ],
+      "options": [
+        {
+          "id": 1,
+          "value": 1,
+          "label": "Aucune",
+          "visual": "VIDE_DF",
+          "audio": null
+        },
+        {
+          "id": 2,
+          "value": 2,
+          "label": "Tabac",
+          "visual": "VIDE_DF",
+          "audio": null
+        },
+        {
+          "id": 3,
+          "value": 3,
+          "label": "Alcool",
+          "visual": "VIDE_DF",
+          "audio": null
+        }
+      ],
+      "hints": {
+        "0": "La dépendance :  Notre société encourage parfois des comportements qui vont totalement à l'encontre d'une bonne hygiène de vie. Si boire un petit peu d'alcool ne fait aucun mal, une consommation excessive devient très dangereuse pour le foie et la santé d'une manière générale. De même, la cigarette est devenue un véritable fléau pour nos poumons.",
+        "1": "Ce mécanicien a un sérieux penchant pour l'alcool. Pourtant, il devrait savoir que l'alcool est très toxique pour le foie et le cerveau.",
+        "2": "Cet ingénieur a compris qu'une vie sans alcool ni tabac évite bien des problèmes de santé.",
+        "3": "Cet informaticien devrait arrêter de fumer, le tabac est un fléau redoutable pour les poumons."
+      }
+    },
+    {
+      "id": "7",
+      "label": "Cerveau",
+      "type": 1,
+      "function": 1,
+      "plan": 102,
+      "box": [
+        547,
+        22,
+        87,
+        86
+      ],
+      "options": [
+        {
+          "id": 1,
+          "value": 0,
+          "label": "Cerveau intact",
+          "visual": "09D70001",
+          "audio": null
+        },
+        {
+          "id": 2,
+          "value": 1,
+          "label": "Risque d'hémorragie cérébrale",
+          "visual": "09D70002",
+          "audio": null
+        },
+        {
+          "id": 3,
+          "value": 10,
+          "label": "Anxiété",
+          "visual": "09D70001",
+          "audio": null
+        },
+        {
+          "id": 4,
+          "value": 11,
+          "label": "Risque d'hémorragie cérébrale et anxiété",
+          "visual": "09D70002",
+          "audio": null
+        },
+        {
+          "id": 5,
+          "value": 100,
+          "label": "Lésions cérébrales",
+          "visual": "09D70003",
+          "audio": null
+        },
+        {
+          "id": 6,
+          "value": 101,
+          "label": "Lésions cérébrales et risque d'hémorragie",
+          "visual": "09D70004",
+          "audio": null
+        },
+        {
+          "id": 7,
+          "value": 110,
+          "label": "Lésions cérébrales et anxiété",
+          "visual": "09D70003",
+          "audio": null
+        },
+        {
+          "id": 8,
+          "value": 111,
+          "label": "Lésions cérébrales, anxiété et hémorragie cérébrale",
+          "visual": "09D70004",
+          "audio": null
+        }
+      ],
+      "hints": {
+        "0": "Le système nerveux : Notre système nerveux, composé du cerveau, de la moelle épinière et tous les nerfs, est d'une extrême complexité. Comme tous les autres organes, il peut tomber malade. L'anxiété peut affecter notre moral et des pathologies plus sérieuses peuvent provoquer des lésions ou des hémorragies cérébrales.",
+        "1": "Son cerveau présente des lésions cérébrales, l'alcool probablement...",
+        "2": "Le médecin de la station a noté que ce grand gaillard présentait les signes évidents d'une grande anxiété.",
+        "3": "Le cerveau de ce patient n'est pas touché."
+      }
+    },
+    {
+      "id": "8",
+      "label": "Coeur et vaisseaux",
+      "type": 1,
+      "function": 1,
+      "plan": 102,
+      "box": [
+        544,
+        252,
+        91,
+        93
+      ],
+      "options": [
+        {
+          "id": 1,
+          "value": 0,
+          "label": "Coeur et vaisseaux intacts",
+          "visual": "09D80001",
+          "audio": null
+        },
+        {
+          "id": 2,
+          "value": 1,
+          "label": "Risque d'artériosclérose",
+          "visual": "09D80002",
+          "audio": null
+        },
+        {
+          "id": 3,
+          "value": 2,
+          "label": "Hypertension",
+          "visual": "09D80001",
+          "audio": null
+        },
+        {
+          "id": 4,
+          "value": 10,
+          "label": "Risque d'infarctus",
+          "visual": "09D80004",
+          "audio": null
+        },
+        {
+          "id": 5,
+          "value": 11,
+          "label": "Artériosclérose et risque d'infarctus",
+          "visual": "09D80005",
+          "audio": null
+        },
+        {
+          "id": 6,
+          "value": 12,
+          "label": "Hypertension et risque d'infarctus",
+          "visual": "09D80004",
+          "audio": null
+        },
+        {
+          "id": 7,
+          "value": 100,
+          "label": "Hypertension",
+          "visual": "09D80001",
+          "audio": null
+        },
+        {
+          "id": 8,
+          "value": 101,
+          "label": "Hypertension et risque d'artériosclérose",
+          "visual": "09D80002",
+          "audio": null
+        },
+        {
+          "id": 9,
+          "value": 102,
+          "label": "Hypertension",
+          "visual": "09D80001",
+          "audio": null
+        },
+        {
+          "id": 10,
+          "value": 110,
+          "label": "Hypertension et risque d'infarctus",
+          "visual": "09D80004",
+          "audio": null
+        },
+        {
+          "id": 11,
+          "value": 111,
+          "label": "Hypertension, artériosclérose et risque d'infarctus",
+          "visual": "09D80005",
+          "audio": null
+        },
+        {
+          "id": 12,
+          "value": 112,
+          "label": "Hypertension et risque d'infarctus",
+          "visual": "09D80004",
+          "audio": null
+        }
+      ],
+      "hints": {
+        "0": "Le coeur et les vaisseaux : Le coeur est la pompe qui fait circuler le sang dans les vaisseaux. Il peut être victime d'un infarctus (lorsqu'une artère coronaire, qui alimente le coeur en dioxygène, se bouche ) et de troubles du rythme, à cause d'une alimentation trop riche en graisse ou à cause de la cigarette. Les vaisseaux sanguins peuvent être bouchés par l'artériosclérose.",
+        "1": "Selon le médecin de la station, ce patient a des symptômes d'artériosclérose.",
+        "2": "Des examens récents ont montré que l'ingénieur était victime d'hypertension.",
+        "3": "A cause de son penchant pour les frites, cet informaticien est sujet à l'artériosclérose."
+      }
+    },
+    {
+      "id": "9",
+      "label": "Poumons",
+      "type": 1,
+      "function": 1,
+      "plan": 102,
+      "box": [
+        545,
+        136,
+        91,
+        92
+      ],
+      "options": [
+        {
+          "id": 1,
+          "value": 0,
+          "label": "Poumons intacts",
+          "visual": "09D90001",
+          "audio": null
+        },
+        {
+          "id": 2,
+          "value": 1,
+          "label": "Troubles respiratoires",
+          "visual": "09D90002",
+          "audio": null
+        },
+        {
+          "id": 3,
+          "value": 10,
+          "label": "Risque de cancer du poumon",
+          "visual": "09D90003",
+          "audio": null
+        },
+        {
+          "id": 4,
+          "value": 11,
+          "label": "Troubles respiratoires et risque de cancer du poumon",
+          "visual": "09D90004",
+          "audio": null
+        }
+      ],
+      "hints": {
+        "0": "Les poumons : Les poumons prélèvent notre oxygène vital dans l'environnement. Si nous respirons un air pollué ou toxique, ils sont les premiers à en subir les conséquences. L'atmosphère de plus en plus polluée des villes est responsable de bien des problèmes respiratoires. Les poumons peuvent être aussi victimes d'un terrible ennemi intérieur : le cancer.",
+        "1": "Ses poumons ne sont pas touchés.",
+        "2": "A cause de son environnement professionnel pollué, l'ingénieur chimiste a une toux persistante. Il souffre de problèmes respiratoires.",
+        "3": "C'est à cause de ses mauvaises habitudes tabagiques que l'informaticien risque un cancer des poumons."
+      }
+    },
+    {
+      "id": "10",
+      "label": "Appareil digestif",
+      "type": 1,
+      "function": 1,
+      "plan": 102,
+      "box": [
+        543,
+        368,
+        92,
+        93
+      ],
+      "options": [
+        {
+          "id": 1,
+          "value": 0,
+          "label": "Appareil digestif intact",
+          "visual": "09DA0001",
+          "audio": null
+        },
+        {
+          "id": 2,
+          "value": 1,
+          "label": "Ulcère à l'estomac",
+          "visual": "09DA0002",
+          "audio": null
+        },
+        {
+          "id": 3,
+          "value": 10,
+          "label": "Cirrhose du foie",
+          "visual": "09DA0003",
+          "audio": null
+        },
+        {
+          "id": 4,
+          "value": 11,
+          "label": "Ulcère à l'estomac et cirrhose du foie",
+          "visual": "09DA0004",
+          "audio": null
+        }
+      ],
+      "hints": {
+        "0": "L'appareil digestif : L'appareil digestif, composé du tube digestif (intestin et estomac), du foie et du pancréas, nous permet de digérer tous les aliments dont nous avons besoin. Il peut être confronté à plusieurs maladies : l'ulcère, lié au stress, la cirrhose du foie associée à une consommation d'alcool importante et le cancer du tube digestif.",
+        "1": "A cause de l'abus l'alcool, ce mécanicien a développé une cirrhose du foie.",
+        "2": "Cet ingénieur se plaint de maux d'estomac.",
+        "3": "Cet informaticien n'a ni ulcère, ni cirrhose du foie."
+      }
+    },
+    {
+      "id": "11",
+      "label": "Silhouette",
+      "type": 1,
+      "function": 1,
+      "plan": 101,
+      "box": [
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "options": [
+        {
+          "id": 1,
+          "value": -1,
+          "label": "",
+          "visual": "VIDE_DF",
+          "audio": null
+        },
+        {
+          "id": 2,
+          "value": 0,
+          "label": "",
+          "visual": "VIDE_DF",
+          "audio": null
+        },
+        {
+          "id": 3,
+          "value": 1,
+          "label": "",
+          "visual": "VIDE_DF",
+          "audio": null
+        },
+        {
+          "id": 4,
+          "value": 2,
+          "label": "",
+          "visual": "VIDE_DF",
+          "audio": null
+        }
+      ],
+      "hints": {
+        "0": "La silhouette : Avoir un peu d'embonpoint n'est certainement pas une maladie même si la société d'aujourd'hui s'acharne à faire de nous des personnes minces et sveltes. Toutefois, si notre poids dépasse un peu trop la moyenne, des problèmes articulaires ou cardiaques risquent de se poser. Dans ce cas, mieux vaut rester dans des limites raisonnables.",
+        "1": "Ce mécanicien souffre d'un excès de poids.",
+        "2": "Cet ingénieur chimiste est grand et mince.",
+        "3": "Cet informaticien est un individu mince."
+      }
+    },
+    {
+      "id": "12",
+      "label": "Aspect du personnage",
+      "type": 1,
+      "function": 1,
+      "plan": 105,
+      "box": [
+        240,
+        235,
+        98,
+        165
+      ],
+      "options": [
+        {
+          "id": 1,
+          "value": 0,
+          "label": "Individu mince",
+          "visual": "09DC0001",
+          "audio": null
+        },
+        {
+          "id": 2,
+          "value": 10,
+          "label": "Individu mince et alcoolique",
+          "visual": "09DC0002",
+          "audio": null
+        },
+        {
+          "id": 3,
+          "value": 11,
+          "label": "Individu corpulent et alcoolique",
+          "visual": "09DC0003",
+          "audio": null
+        },
+        {
+          "id": 4,
+          "value": 12,
+          "label": "Individu obèse et alcoolique",
+          "visual": "09DC0004",
+          "audio": null
+        },
+        {
+          "id": 5,
+          "value": 100,
+          "label": "Individu mince et anxieux",
+          "visual": "09DC0005",
+          "audio": null
+        },
+        {
+          "id": 6,
+          "value": 101,
+          "label": "Individu corpulent et anxieux",
+          "visual": "09DC0006",
+          "audio": null
+        },
+        {
+          "id": 7,
+          "value": 102,
+          "label": "Individu obèse et anxieux",
+          "visual": "09DC0007",
+          "audio": null
+        },
+        {
+          "id": 8,
+          "value": 110,
+          "label": "Individu mince, anxieux et alcoolique",
+          "visual": "09DC0008",
+          "audio": null
+        },
+        {
+          "id": 9,
+          "value": 111,
+          "label": "Individu corpulent, anxieux et alcoolique",
+          "visual": "09DC0009",
+          "audio": null
+        },
+        {
+          "id": 10,
+          "value": 112,
+          "label": "Individu obèse, anxieux et alcoolique",
+          "visual": "09DC0010",
+          "audio": null
+        },
+        {
+          "id": 11,
+          "value": 200,
+          "label": "Individu corpulent",
+          "visual": "09DC0011",
+          "audio": null
+        },
+        {
+          "id": 12,
+          "value": 201,
+          "label": "Individu obèse",
+          "visual": "09DC0012",
+          "audio": null
+        }
+      ],
+      "hints": {
+        "0": "La silhouette : Avoir un peu d'embonpoint n'est certainement pas une maladie même si la société d'aujourd'hui s'acharne à faire de nous des personnes minces et sveltes. Toutefois, si notre poids dépasse un peu trop la moyenne, des problèmes articulaires ou cardiaques risquent de se poser. Dans ce cas, mieux vaut rester dans des limites raisonnables.",
+        "1": "La silhouette : Avoir un peu d'embonpoint n'est certainement pas une maladie même si la société d'aujourd'hui s'acharne à faire de nous des personnes minces et sveltes. Toutefois, si notre poids dépasse un peu trop la moyenne, des problèmes articulaires ou cardiaques risquent de se poser. Dans ce cas, mieux vaut rester dans des limites raisonnables.",
+        "2": "La silhouette : Avoir un peu d'embonpoint n'est certainement pas une maladie même si la société d'aujourd'hui s'acharne à faire de nous des personnes minces et sveltes. Toutefois, si notre poids dépasse un peu trop la moyenne, des problèmes articulaires ou cardiaques risquent de se poser. Dans ce cas, mieux vaut rester dans des limites raisonnables.",
+        "3": "La silhouette : Avoir un peu d'embonpoint n'est certainement pas une maladie même si la société d'aujourd'hui s'acharne à faire de nous des personnes minces et sveltes. Toutefois, si notre poids dépasse un peu trop la moyenne, des problèmes articulaires ou cardiaques risquent de se poser. Dans ce cas, mieux vaut rester dans des limites raisonnables."
+      }
+    },
+    {
+      "id": "13",
+      "label": "Brassard hypertension",
+      "type": 1,
+      "function": 1,
+      "plan": 107,
+      "box": [
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "options": [
+        {
+          "id": 1,
+          "value": 0,
+          "label": "intitulé état",
+          "visual": "VIDE_DF",
+          "audio": null
+        },
+        {
+          "id": 2,
+          "value": 1,
+          "label": "intitulé état",
+          "visual": "09DD0002",
+          "audio": "/game/station/09WD0002.wav"
+        },
+        {
+          "id": 3,
+          "value": 2,
+          "label": "intitulé état",
+          "visual": "09DD0003",
+          "audio": "/game/station/09WD0003.wav"
+        },
+        {
+          "id": 4,
+          "value": 3,
+          "label": "intitulé état",
+          "visual": "09DD0004",
+          "audio": "/game/station/09WD0004.wav"
+        }
+      ],
+      "hints": {
+        "0": "",
+        "1": "",
+        "2": "",
+        "3": ""
+      }
+    },
+    {
+      "id": "14",
+      "label": "Anim. anxiété",
+      "type": 1,
+      "function": 2,
+      "plan": 106,
+      "box": [
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "options": [
+        {
+          "id": 1,
+          "value": 0,
+          "label": "intitulé état",
+          "visual": "VIDE_DF",
+          "audio": null
+        },
+        {
+          "id": 2,
+          "value": 100,
+          "label": "intitulé état",
+          "visual": "VIDE_DF",
+          "audio": null
+        },
+        {
+          "id": 3,
+          "value": 110,
+          "label": "intitulé état",
+          "visual": "VIDE_DF",
+          "audio": null
+        },
+        {
+          "id": 4,
+          "value": 101,
+          "label": "intitulé état",
+          "visual": "VIDE_DF",
+          "audio": null
+        },
+        {
+          "id": 5,
+          "value": 111,
+          "label": "intitulé état",
+          "visual": "VIDE_DF",
+          "audio": null
+        },
+        {
+          "id": 6,
+          "value": 102,
+          "label": "intitulé état",
+          "visual": "VIDE_DF",
+          "audio": null
+        },
+        {
+          "id": 7,
+          "value": 112,
+          "label": "intitulé état",
+          "visual": "VIDE_DF",
+          "audio": null
+        }
+      ],
+      "hints": {
+        "0": "",
+        "1": "",
+        "2": "",
+        "3": ""
+      }
+    },
+    {
+      "id": "15",
+      "label": "Anim. toux",
+      "type": 1,
+      "function": 2,
+      "plan": 105,
+      "box": [
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "options": [
+        {
+          "id": 1,
+          "value": 0,
+          "label": "intitulé état",
+          "visual": "VIDE_DF",
+          "audio": null
+        },
+        {
+          "id": 2,
+          "value": 100,
+          "label": "intitulé état",
+          "visual": "09DF0002",
+          "audio": "/game/station/09WF0002.wav"
+        },
+        {
+          "id": 3,
+          "value": 110,
+          "label": "intitulé état",
+          "visual": "09DF0003",
+          "audio": "/game/station/09WF0003.wav"
+        },
+        {
+          "id": 4,
+          "value": 101,
+          "label": "intitulé état",
+          "visual": "09DF0004",
+          "audio": "/game/station/09WF0004.wav"
+        },
+        {
+          "id": 5,
+          "value": 111,
+          "label": "intitulé état",
+          "visual": "09DF0005",
+          "audio": "/game/station/09WF0005.wav"
+        },
+        {
+          "id": 6,
+          "value": 102,
+          "label": "intitulé état",
+          "visual": "09DF0006",
+          "audio": "/game/station/09WF0006.wav"
+        },
+        {
+          "id": 7,
+          "value": 112,
+          "label": "intitulé état",
+          "visual": "09DF0007",
+          "audio": "/game/station/09WF0007.wav"
+        },
+        {
+          "id": 8,
+          "value": 200,
+          "label": "intitulé état",
+          "visual": "09DF0008",
+          "audio": "/game/station/09WF0008.wav"
+        },
+        {
+          "id": 9,
+          "value": 210,
+          "label": "intitulé état",
+          "visual": "09DF0009",
+          "audio": "/game/station/09WF0009.wav"
+        },
+        {
+          "id": 10,
+          "value": 201,
+          "label": "intitulé état",
+          "visual": "09DF0010",
+          "audio": "/game/station/09WF0010.wav"
+        },
+        {
+          "id": 11,
+          "value": 211,
+          "label": "intitulé état",
+          "visual": "09DF0011",
+          "audio": "/game/station/09WF0011.wav"
+        },
+        {
+          "id": 12,
+          "value": 202,
+          "label": "intitulé état",
+          "visual": "09DF0012",
+          "audio": "/game/station/09WF0012.wav"
+        },
+        {
+          "id": 13,
+          "value": 212,
+          "label": "intitulé état",
+          "visual": "09DF0013",
+          "audio": "/game/station/09WF0013.wav"
+        }
+      ],
+      "hints": {
+        "0": "",
+        "1": "",
+        "2": "",
+        "3": ""
+      }
+    },
+    {
+      "id": "16",
+      "label": "Anim. ulcère",
+      "type": 1,
+      "function": 1,
+      "plan": 104,
+      "box": [
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "options": [
+        {
+          "id": 1,
+          "value": 0,
+          "label": "intitulé état",
+          "visual": "VIDE_DF",
+          "audio": null
+        },
+        {
+          "id": 2,
+          "value": 10,
+          "label": "intitulé état",
+          "visual": "VIDE_DF",
+          "audio": null
+        },
+        {
+          "id": 3,
+          "value": 11,
+          "label": "intitulé état",
+          "visual": "VIDE_DF",
+          "audio": null
+        },
+        {
+          "id": 4,
+          "value": 12,
+          "label": "intitulé état",
+          "visual": "VIDE_DF",
+          "audio": null
+        }
+      ],
+      "hints": {
+        "0": "",
+        "1": "",
+        "2": "",
+        "3": ""
+      }
+    },
+    {
+      "id": "17",
+      "label": "Papier peint / moquette",
+      "type": 1,
+      "function": 2,
+      "plan": 101,
+      "box": [
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "options": [
+        {
+          "id": 1,
+          "value": 10,
+          "label": "intitulé état",
+          "visual": "09DH0001",
+          "audio": null
+        },
+        {
+          "id": 2,
+          "value": 20,
+          "label": "intitulé état",
+          "visual": "09DH0002",
+          "audio": null
+        },
+        {
+          "id": 3,
+          "value": 11,
+          "label": "intitulé état",
+          "visual": "09DH0003",
+          "audio": null
+        },
+        {
+          "id": 4,
+          "value": 21,
+          "label": "intitulé état",
+          "visual": "09DH0004",
+          "audio": null
+        }
+      ],
+      "hints": {
+        "0": "",
+        "1": "",
+        "2": "",
+        "3": ""
+      }
+    },
+    {
+      "id": "18",
+      "label": "Mobilier",
+      "type": 1,
+      "function": 2,
+      "plan": 102,
+      "box": [
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "options": [
+        {
+          "id": 1,
+          "value": 10,
+          "label": "intitulé état",
+          "visual": "09DI0001",
+          "audio": null
+        },
+        {
+          "id": 2,
+          "value": 20,
+          "label": "intitulé état",
+          "visual": "09DI0002",
+          "audio": null
+        },
+        {
+          "id": 3,
+          "value": 11,
+          "label": "intitulé état",
+          "visual": "09DI0003",
+          "audio": null
+        },
+        {
+          "id": 4,
+          "value": 21,
+          "label": "intitulé état",
+          "visual": "09DI0004",
+          "audio": null
+        }
+      ],
+      "hints": {
+        "0": "",
+        "1": "",
+        "2": "",
+        "3": ""
+      }
+    },
+    {
+      "id": "19",
+      "label": "Environnement dépendance",
+      "type": 1,
+      "function": 2,
+      "plan": 104,
+      "box": [
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "options": [
+        {
+          "id": 1,
+          "value": 0,
+          "label": "intitulé état",
+          "visual": "VIDE_DF",
+          "audio": null
+        },
+        {
+          "id": 2,
+          "value": 1,
+          "label": "intitulé état",
+          "visual": "09DJ0002",
+          "audio": null
+        },
+        {
+          "id": 3,
+          "value": 2,
+          "label": "intitulé état",
+          "visual": "09DJ0003",
+          "audio": null
+        },
+        {
+          "id": 4,
+          "value": 3,
+          "label": "intitulé état",
+          "visual": "09DJ0004",
+          "audio": null
+        },
+        {
+          "id": 5,
+          "value": 4,
+          "label": "intitulé état",
+          "visual": "09DJ0005",
+          "audio": null
+        },
+        {
+          "id": 6,
+          "value": 5,
+          "label": "intitulé état",
+          "visual": "09DJ0006",
+          "audio": null
+        }
+      ],
+      "hints": {
+        "0": "",
+        "1": "",
+        "2": "",
+        "3": ""
+      }
+    },
+    {
+      "id": "20",
+      "label": "Vélo",
+      "type": 1,
+      "function": 2,
+      "plan": 103,
+      "box": [
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "options": [
+        {
+          "id": 1,
+          "value": 0,
+          "label": "intitulé état",
+          "visual": "09DK0001",
+          "audio": null
+        },
+        {
+          "id": 2,
+          "value": 1,
+          "label": "intitulé état",
+          "visual": "09DK0002",
+          "audio": null
+        },
+        {
+          "id": 3,
+          "value": 2,
+          "label": "intitulé état",
+          "visual": "09DK0003",
+          "audio": null
+        },
+        {
+          "id": 4,
+          "value": 3,
+          "label": "intitulé état",
+          "visual": "09DK0004",
+          "audio": null
+        },
+        {
+          "id": 5,
+          "value": 4,
+          "label": "intitulé état",
+          "visual": "09DK0005",
+          "audio": null
+        }
+      ],
+      "hints": {
+        "0": "",
+        "1": "",
+        "2": "",
+        "3": ""
+      }
+    }
+  ],
+  "cases": [
+    {
+      "id": "0",
+      "label": "Mode libre",
+      "solutions": [
+        {
+          "1": 1,
+          "2": 1,
+          "3": 1,
+          "4": 1,
+          "5": 1,
+          "6": 1,
+          "7": 1,
+          "8": 1,
+          "9": 1,
+          "10": 1,
+          "11": 1,
+          "12": 1,
+          "13": 1,
+          "14": 1,
+          "15": 1,
+          "16": 1,
+          "17": 1,
+          "18": 1,
+          "19": 1,
+          "20": 1
+        }
+      ],
+      "initial": {
+        "1": 1,
+        "2": 1,
+        "3": 1,
+        "4": 1,
+        "5": 1,
+        "6": 1,
+        "7": 1,
+        "8": 1,
+        "9": 1,
+        "10": 1,
+        "11": 1,
+        "12": 1,
+        "13": 1,
+        "14": 1,
+        "15": 1,
+        "16": 1,
+        "17": 1,
+        "18": 1,
+        "19": 1,
+        "20": 1
+      }
+    },
+    {
+      "id": "1",
+      "label": "Dossier médical d'un patient obèse",
+      "solutions": [
+        {
+          "1": 2,
+          "2": 1,
+          "3": 1,
+          "4": 1,
+          "5": 2,
+          "6": 3
+        },
+        {
+          "1": 2,
+          "2": 1,
+          "3": 2,
+          "4": 1,
+          "5": 2,
+          "6": 3
+        }
+      ],
+      "initial": {
+        "1": 1,
+        "2": 1,
+        "3": 1,
+        "4": 1,
+        "5": 1,
+        "6": 1,
+        "7": 1,
+        "8": 1,
+        "9": 1,
+        "10": 1,
+        "11": 1,
+        "12": 1,
+        "13": 1,
+        "14": 1,
+        "15": 1,
+        "16": 1,
+        "17": 1,
+        "18": 1,
+        "19": 1,
+        "20": 1
+      }
+    },
+    {
+      "id": "2",
+      "label": "Le stress de l'ingénieur",
+      "solutions": [
+        {
+          "1": 3,
+          "2": 2,
+          "3": 2,
+          "4": 2,
+          "5": 1,
+          "6": 1
+        }
+      ],
+      "initial": {
+        "1": 1,
+        "2": 1,
+        "3": 1,
+        "4": 1,
+        "5": 1,
+        "6": 1,
+        "7": 1,
+        "8": 1,
+        "9": 1,
+        "10": 1,
+        "11": 1,
+        "12": 1,
+        "13": 1,
+        "14": 1,
+        "15": 1,
+        "16": 1,
+        "17": 1,
+        "18": 1,
+        "19": 1,
+        "20": 1
+      }
+    },
+    {
+      "id": "3",
+      "label": "L'informaticien, victime de mauvaises habitudes",
+      "solutions": [
+        {
+          "1": 2,
+          "2": 1,
+          "3": 2,
+          "4": 1,
+          "5": 1,
+          "6": 2
+        }
+      ],
+      "initial": {
+        "1": 1,
+        "2": 1,
+        "3": 1,
+        "4": 1,
+        "5": 1,
+        "6": 1,
+        "7": 1,
+        "8": 1,
+        "9": 1,
+        "10": 1,
+        "11": 1,
+        "12": 1,
+        "13": 1,
+        "14": 1,
+        "15": 1,
+        "16": 1,
+        "17": 1,
+        "18": 1,
+        "19": 1,
+        "20": 1
+      }
+    }
+  ],
+  "lookup": [
+    {
+      "object": "14",
+      "value": 100,
+      "conditions": {
+        "10": 0,
+        "11": -1
+      }
+    },
+    {
+      "object": "14",
+      "value": 100,
+      "conditions": {
+        "10": 1,
+        "11": -1
+      }
+    },
+    {
+      "object": "14",
+      "value": 100,
+      "conditions": {
+        "10": 0,
+        "11": 0
+      }
+    },
+    {
+      "object": "14",
+      "value": 100,
+      "conditions": {
+        "10": 1,
+        "11": 0
+      }
+    },
+    {
+      "object": "14",
+      "value": 101,
+      "conditions": {
+        "10": 0,
+        "11": 1
+      }
+    },
+    {
+      "object": "14",
+      "value": 101,
+      "conditions": {
+        "10": 1,
+        "11": 1
+      }
+    },
+    {
+      "object": "14",
+      "value": 102,
+      "conditions": {
+        "10": 0,
+        "11": 2
+      }
+    },
+    {
+      "object": "14",
+      "value": 102,
+      "conditions": {
+        "10": 1,
+        "11": 2
+      }
+    },
+    {
+      "object": "14",
+      "value": 110,
+      "conditions": {
+        "10": 10,
+        "11": -1
+      }
+    },
+    {
+      "object": "14",
+      "value": 110,
+      "conditions": {
+        "10": 10,
+        "11": 0
+      }
+    },
+    {
+      "object": "14",
+      "value": 110,
+      "conditions": {
+        "10": 11,
+        "11": -1
+      }
+    },
+    {
+      "object": "14",
+      "value": 110,
+      "conditions": {
+        "10": 11,
+        "11": 0
+      }
+    },
+    {
+      "object": "14",
+      "value": 111,
+      "conditions": {
+        "10": 10,
+        "11": 1
+      }
+    },
+    {
+      "object": "14",
+      "value": 111,
+      "conditions": {
+        "10": 11,
+        "11": 1
+      }
+    },
+    {
+      "object": "14",
+      "value": 112,
+      "conditions": {
+        "10": 10,
+        "11": 2
+      }
+    },
+    {
+      "object": "14",
+      "value": 112,
+      "conditions": {
+        "10": 11,
+        "11": 2
+      }
+    },
+    {
+      "object": "15",
+      "value": 100,
+      "conditions": {
+        "9": 10,
+        "10": 0,
+        "11": -1
+      }
+    },
+    {
+      "object": "15",
+      "value": 100,
+      "conditions": {
+        "9": 10,
+        "10": 1,
+        "11": -1
+      }
+    },
+    {
+      "object": "15",
+      "value": 100,
+      "conditions": {
+        "9": 10,
+        "10": 0,
+        "11": 0
+      }
+    },
+    {
+      "object": "15",
+      "value": 100,
+      "conditions": {
+        "9": 10,
+        "10": 1,
+        "11": 0
+      }
+    },
+    {
+      "object": "15",
+      "value": 101,
+      "conditions": {
+        "9": 10,
+        "10": 0,
+        "11": 1
+      }
+    },
+    {
+      "object": "15",
+      "value": 101,
+      "conditions": {
+        "9": 10,
+        "10": 1,
+        "11": 1
+      }
+    },
+    {
+      "object": "15",
+      "value": 102,
+      "conditions": {
+        "9": 10,
+        "10": 0,
+        "11": 2
+      }
+    },
+    {
+      "object": "15",
+      "value": 102,
+      "conditions": {
+        "9": 10,
+        "10": 1,
+        "11": 2
+      }
+    },
+    {
+      "object": "15",
+      "value": 110,
+      "conditions": {
+        "9": 10,
+        "10": 10,
+        "11": -1
+      }
+    },
+    {
+      "object": "15",
+      "value": 110,
+      "conditions": {
+        "9": 10,
+        "10": 10,
+        "11": 0
+      }
+    },
+    {
+      "object": "15",
+      "value": 111,
+      "conditions": {
+        "9": 10,
+        "10": 10,
+        "11": 1
+      }
+    },
+    {
+      "object": "15",
+      "value": 112,
+      "conditions": {
+        "9": 10,
+        "10": 10,
+        "11": 2
+      }
+    },
+    {
+      "object": "15",
+      "value": 110,
+      "conditions": {
+        "9": 10,
+        "10": 11,
+        "11": -1
+      }
+    },
+    {
+      "object": "15",
+      "value": 110,
+      "conditions": {
+        "9": 10,
+        "10": 11,
+        "11": 0
+      }
+    },
+    {
+      "object": "15",
+      "value": 111,
+      "conditions": {
+        "9": 10,
+        "10": 11,
+        "11": 1
+      }
+    },
+    {
+      "object": "15",
+      "value": 112,
+      "conditions": {
+        "9": 10,
+        "10": 11,
+        "11": 2
+      }
+    },
+    {
+      "object": "15",
+      "value": 200,
+      "conditions": {
+        "9": 11,
+        "10": 0,
+        "11": -1
+      }
+    },
+    {
+      "object": "15",
+      "value": 200,
+      "conditions": {
+        "9": 11,
+        "10": 1,
+        "11": -1
+      }
+    },
+    {
+      "object": "15",
+      "value": 200,
+      "conditions": {
+        "9": 11,
+        "10": 0,
+        "11": 0
+      }
+    },
+    {
+      "object": "15",
+      "value": 200,
+      "conditions": {
+        "9": 11,
+        "10": 1,
+        "11": 0
+      }
+    },
+    {
+      "object": "15",
+      "value": 201,
+      "conditions": {
+        "9": 11,
+        "10": 0,
+        "11": 1
+      }
+    },
+    {
+      "object": "15",
+      "value": 201,
+      "conditions": {
+        "9": 11,
+        "10": 1,
+        "11": 1
+      }
+    },
+    {
+      "object": "15",
+      "value": 202,
+      "conditions": {
+        "9": 11,
+        "10": 0,
+        "11": 2
+      }
+    },
+    {
+      "object": "15",
+      "value": 202,
+      "conditions": {
+        "9": 11,
+        "10": 1,
+        "11": 2
+      }
+    },
+    {
+      "object": "15",
+      "value": 210,
+      "conditions": {
+        "9": 11,
+        "10": 10,
+        "11": -1
+      }
+    },
+    {
+      "object": "15",
+      "value": 210,
+      "conditions": {
+        "9": 11,
+        "10": 10,
+        "11": 0
+      }
+    },
+    {
+      "object": "15",
+      "value": 211,
+      "conditions": {
+        "9": 11,
+        "10": 10,
+        "11": 1
+      }
+    },
+    {
+      "object": "15",
+      "value": 212,
+      "conditions": {
+        "9": 11,
+        "10": 10,
+        "11": 2
+      }
+    },
+    {
+      "object": "15",
+      "value": 210,
+      "conditions": {
+        "9": 11,
+        "10": 11,
+        "11": -1
+      }
+    },
+    {
+      "object": "15",
+      "value": 210,
+      "conditions": {
+        "9": 11,
+        "10": 11,
+        "11": 0
+      }
+    },
+    {
+      "object": "15",
+      "value": 211,
+      "conditions": {
+        "9": 11,
+        "10": 11,
+        "11": 1
+      }
+    },
+    {
+      "object": "15",
+      "value": 212,
+      "conditions": {
+        "9": 11,
+        "10": 11,
+        "11": 2
+      }
+    },
+    {
+      "object": "17",
+      "value": 10,
+      "conditions": {
+        "2": 1,
+        "4": 1
+      }
+    },
+    {
+      "object": "17",
+      "value": 11,
+      "conditions": {
+        "2": 1,
+        "4": 2
+      }
+    },
+    {
+      "object": "17",
+      "value": 20,
+      "conditions": {
+        "2": 2,
+        "4": 1
+      }
+    },
+    {
+      "object": "17",
+      "value": 21,
+      "conditions": {
+        "2": 2,
+        "4": 2
+      }
+    },
+    {
+      "object": "18",
+      "value": 10,
+      "conditions": {
+        "2": 1,
+        "4": 1
+      }
+    },
+    {
+      "object": "18",
+      "value": 11,
+      "conditions": {
+        "2": 1,
+        "4": 2
+      }
+    },
+    {
+      "object": "18",
+      "value": 20,
+      "conditions": {
+        "2": 2,
+        "4": 1
+      }
+    },
+    {
+      "object": "18",
+      "value": 21,
+      "conditions": {
+        "2": 2,
+        "4": 2
+      }
+    },
+    {
+      "object": "19",
+      "value": 1,
+      "conditions": {
+        "6": 2,
+        "18": 10
+      }
+    },
+    {
+      "object": "19",
+      "value": 1,
+      "conditions": {
+        "6": 2,
+        "18": 20
+      }
+    },
+    {
+      "object": "19",
+      "value": 1,
+      "conditions": {
+        "6": 2,
+        "18": 11
+      }
+    },
+    {
+      "object": "19",
+      "value": 1,
+      "conditions": {
+        "6": 2,
+        "18": 21
+      }
+    },
+    {
+      "object": "19",
+      "value": 2,
+      "conditions": {
+        "6": 3,
+        "18": 10
+      }
+    },
+    {
+      "object": "19",
+      "value": 3,
+      "conditions": {
+        "6": 3,
+        "18": 20
+      }
+    },
+    {
+      "object": "19",
+      "value": 4,
+      "conditions": {
+        "6": 3,
+        "18": 11
+      }
+    },
+    {
+      "object": "19",
+      "value": 5,
+      "conditions": {
+        "6": 3,
+        "18": 21
+      }
+    },
+    {
+      "object": "20",
+      "value": 0,
+      "conditions": {
+        "3": 1,
+        "18": 10
+      }
+    },
+    {
+      "object": "20",
+      "value": 0,
+      "conditions": {
+        "3": 1,
+        "18": 20
+      }
+    },
+    {
+      "object": "20",
+      "value": 0,
+      "conditions": {
+        "3": 1,
+        "18": 11
+      }
+    },
+    {
+      "object": "20",
+      "value": 0,
+      "conditions": {
+        "3": 1,
+        "18": 21
+      }
+    },
+    {
+      "object": "20",
+      "value": 1,
+      "conditions": {
+        "3": 2,
+        "18": 10
+      }
+    },
+    {
+      "object": "20",
+      "value": 2,
+      "conditions": {
+        "3": 2,
+        "18": 20
+      }
+    },
+    {
+      "object": "20",
+      "value": 3,
+      "conditions": {
+        "3": 2,
+        "18": 11
+      }
+    },
+    {
+      "object": "20",
+      "value": 4,
+      "conditions": {
+        "3": 2,
+        "18": 21
+      }
+    }
+  ]
+}

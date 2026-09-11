@@ -1,0 +1,104 @@
+{
+  "engine": "ScummVM Gob",
+  "version": "2.9.0",
+  "emscripten": "4.0.10",
+  "source": "https://github.com/scummvm/scummvm/tree/v2.9.0",
+  "buildScript": "scripts/build_wgob3.sh",
+  "files": [
+    {
+      "name": "COPYING",
+      "size": 35149,
+      "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
+    },
+    {
+      "name": "COPYRIGHT",
+      "size": 15302,
+      "sha256": "a04b83bb6f510e8c9cdbcdeefd617b5a8de8a4ad4aa8887118aa4c2d719cc81d"
+    },
+    {
+      "name": "LICENSES/COPYING.Apache",
+      "size": 11488,
+      "sha256": "314ca6233f2849131fc87c24cdf112aa204605051d8f17fbf5982945e34dbb67"
+    },
+    {
+      "name": "LICENSES/COPYING.BSD",
+      "size": 6300,
+      "sha256": "cf2ca41b6be3f3087167cd7a2300d3bf8dac19b85ec8eec3751f35b613b07896"
+    },
+    {
+      "name": "LICENSES/COPYING.BSL",
+      "size": 1429,
+      "sha256": "58afb430442855628fa2509cddd905ad61c12fe564731466f56554edd5344ae5"
+    },
+    {
+      "name": "LICENSES/COPYING.FREEFONT",
+      "size": 35947,
+      "sha256": "496669d6d5bd751acdc7bfaa0720bc5dbd211c791dc1d4e406a32e281a17a701"
+    },
+    {
+      "name": "LICENSES/COPYING.GLAD",
+      "size": 3122,
+      "sha256": "d74397819a7776231c638e73b9197a45faad8347278bdfec30a041d1cb808313"
+    },
+    {
+      "name": "LICENSES/COPYING.ISC",
+      "size": 967,
+      "sha256": "4bdb0a32d3ba3070ed77dc48efb5348ce647bac3a1716992fa4cc080b99a3af7"
+    },
+    {
+      "name": "LICENSES/COPYING.LGPL",
+      "size": 26721,
+      "sha256": "f2c0f033c76185c3c981ad458ea433ca2787ab9b6f4623cab500fc8024db0e05"
+    },
+    {
+      "name": "LICENSES/COPYING.LUA",
+      "size": 2035,
+      "sha256": "8e0272ae02203977f9d0312bd82fe2498f37741b51c52731b9af0d66dbde7b6a"
+    },
+    {
+      "name": "LICENSES/COPYING.MIT",
+      "size": 3822,
+      "sha256": "3fb31efc5f997733dd4a86e215f12e8ff5d11c52e5ede6c9951e4e13f61e1350"
+    },
+    {
+      "name": "LICENSES/COPYING.MKV",
+      "size": 1600,
+      "sha256": "cfac47baf5d584bc5458c90b33116087dd1bda638adf751f123e7d176e4ac67f"
+    },
+    {
+      "name": "LICENSES/COPYING.MPL",
+      "size": 16842,
+      "sha256": "c92198047ac07252eada8d895a9cbe9473504d54b28e7646b5fb053f876b9fc2"
+    },
+    {
+      "name": "LICENSES/COPYING.OFL",
+      "size": 4834,
+      "sha256": "129380eb2a0b9cad8bcfabab8d4085f09542c73a28f2bb8dca2c60c81e4f3cbf"
+    },
+    {
+      "name": "LICENSES/COPYING.TINYGL",
+      "size": 1324,
+      "sha256": "f62a84ca5a9a1a6f36d63336c461b6d21902fdfa84a50969b0d9ec6c6f0b90d3"
+    },
+    {
+      "name": "LICENSES/CatharonLicense.txt",
+      "size": 5359,
+      "sha256": "372251a3ce2ecdb74e076dede2c7d0d1e16a5003c548177e9908627192dd064c"
+    },
+    {
+      "name": "scummvm.js",
+      "size": 205458,
+      "sha256": "b23039bf02a15ca31bed60f732f004895da501a3543fae9b09fa16505a9dc48b"
+    },
+    {
+      "name": "scummvm.wasm",
+      "size": 7775093,
+      "sha256": "8e99f9cbf3c8f99b01959a15680e10d4732ad8d4a6b8ca6132445b1c36311fec"
+    },
+    {
+      "name": "translations.dat",
+      "size": 3191299,
+      "sha256": "9ea73892112d4ddf6123c2f8d53b4cce8a7130c4c6655f37527231f37eb371d0"
+    }
+  ]
+}

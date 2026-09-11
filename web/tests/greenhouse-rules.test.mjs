@@ -7,7 +7,7 @@ import assert from 'node:assert/strict';
 import {greenhouseGrowth, matchSolution} from '../public/greenhouse-rules.js';
 
 const here = dirname(fileURLToPath(import.meta.url));
-const mcasPath = resolve(here, '../../extracted/tables/Adi410Sci65/TABLES/MCAS.json');
+const mcasPath = resolve(here, 'fixtures/greenhouse-mcas.json');
 const mcas = JSON.parse(readFileSync(mcasPath, 'utf8'));
 
 const number = (value) => Number(String(value).trim());

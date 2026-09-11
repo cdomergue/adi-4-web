@@ -1,0 +1,3249 @@
+{
+  "id": "15",
+  "title": "Immunologie",
+  "background": "15I1",
+  "objects": [
+    {
+      "id": "1",
+      "label": "Corps étrangers à l'organisme",
+      "type": 4,
+      "function": 0,
+      "plan": 101,
+      "box": [
+        33,
+        10,
+        142,
+        450
+      ],
+      "options": [
+        {
+          "id": 1,
+          "value": 0,
+          "label": "",
+          "visual": "15D10001",
+          "audio": null
+        },
+        {
+          "id": 2,
+          "value": 1,
+          "label": "virus",
+          "visual": "15D10002",
+          "audio": null
+        },
+        {
+          "id": 3,
+          "value": 2,
+          "label": "bactéries",
+          "visual": "15D10003",
+          "audio": null
+        },
+        {
+          "id": 4,
+          "value": 3,
+          "label": "peau non compatible",
+          "visual": "15D10004",
+          "audio": null
+        },
+        {
+          "id": 5,
+          "value": 4,
+          "label": "sang non compatible",
+          "visual": "15D10005",
+          "audio": null
+        },
+        {
+          "id": 6,
+          "value": 5,
+          "label": "allergènes",
+          "visual": "15D10006",
+          "audio": null
+        }
+      ],
+      "hints": {
+        "0": "Corps étrangers à l'organisme : Le système immunitaire est chargé d'assurer la protection de notre organisme des éléments extérieurs et en particulier de cette myriade de bactéries, virus et parasites qui font partie de notre environnement quotidien. Parfois, afin de soigner un patient, on introduit volontairement des greffons (de peau par exemple) ou du sang. S'il y a incompatibilité, ils vont être également reconnus comme étranger à l'organisme par notre système immunitaire. D'autres fois, il s'agit simplement d'allergènes, éléments inoffensifs contre lesquels notre corps se défend exagérément.",
+        "1": "Corps étrangers à l'organisme : La grippe est une maladie d'origine virale.",
+        "2": "Corps étrangers à l'organisme : L'agent responsable du tétanos est le bacille de Koch. C'est une bactérie.",
+        "3": "Corps étrangers à l'organisme : Les agents responsables de la rhinite allergique sont souvent les pollens des graminées (c'est pour cela qu'on parle souvent de \"rhume des foins\") et ceux des grands arbres."
+      }
+    },
+    {
+      "id": "2",
+      "label": "Porte d'entrée dans l'organisme",
+      "type": 4,
+      "function": 0,
+      "plan": 101,
+      "box": [
+        196,
+        41,
+        73,
+        137
+      ],
+      "options": [
+        {
+          "id": 1,
+          "value": 0,
+          "label": "",
+          "visual": "15D20001",
+          "audio": null
+        },
+        {
+          "id": 2,
+          "value": 1,
+          "label": "muqueuse respiratoire",
+          "visual": "15D20002",
+          "audio": null
+        },
+        {
+          "id": 3,
+          "value": 2,
+          "label": "peau",
+          "visual": "15D20003",
+          "audio": null
+        },
+        {
+          "id": 4,
+          "value": 3,
+          "label": "muqueuse sexuelle",
+          "visual": "15D20004",
+          "audio": null
+        }
+      ],
+      "hints": {
+        "0": "Portes d'entrée dans l'organisme : Les corps étrangers utilisent de nombreuses portes pour pénétrer dans l'organisme. Par exemple, les muqueuses, respiratoires et sexuelles, mais aussi la peau, sont des zones idéales pour l'entrée d'éléments pathogènes. Les maladies peuvent alors se développer !",
+        "1": "Porte d'entrée dans l'organisme : L'agent responsable de la grippe est présent dans l'air ambiant.",
+        "2": "Porte d'entrée dans l'organisme : L'agent responsable du tétanos pénètre dans le corps au niveau de plaies, surtout quand elles sont en contact avec la terre, car l'agent responsable du tétanos est surtout présent dans le sol.",
+        "3": "Porte d'entrée dans l'organisme : Les cas de rhinite sont causés par des allergènes s'introduisant dans les voies respiratoires."
+      }
+    },
+    {
+      "id": "3",
+      "label": "Traitements (préventifs et curratifs)",
+      "type": 4,
+      "function": 0,
+      "plan": 101,
+      "box": [
+        511,
+        10,
+        84,
+        450
+      ],
+      "options": [
+        {
+          "id": 1,
+          "value": 0,
+          "label": "",
+          "visual": "15D30001",
+          "audio": null
+        },
+        {
+          "id": 2,
+          "value": 1,
+          "label": "",
+          "visual": "15D30002",
+          "audio": null
+        },
+        {
+          "id": 3,
+          "value": 2,
+          "label": "",
+          "visual": "15D30003",
+          "audio": null
+        },
+        {
+          "id": 4,
+          "value": 3,
+          "label": "",
+          "visual": "15D30004",
+          "audio": null
+        },
+        {
+          "id": 5,
+          "value": 4,
+          "label": "",
+          "visual": "15D30005",
+          "audio": null
+        },
+        {
+          "id": 6,
+          "value": 5,
+          "label": "",
+          "visual": "15D30006",
+          "audio": null
+        },
+        {
+          "id": 7,
+          "value": 6,
+          "label": "",
+          "visual": "15D30007",
+          "audio": null
+        },
+        {
+          "id": 8,
+          "value": 7,
+          "label": "",
+          "visual": "15D30008",
+          "audio": null
+        }
+      ],
+      "hints": {
+        "0": "",
+        "1": "Traitements  : Il existe des vaccins antigrippaux, qui sont administrés avant l'intrusion de l'agent responsable de la grippe, afin de le détruire avant qu'il ne puisse déclencher la maladie. ",
+        "2": "Traitement préventif : C'est le vaccin antitétanique qui protège contre le bacille du tétanos, car lorsque celle-ci pénètre dans l'organisme, notre système immunitaire se défend plus efficacement. \r\nTraitement curatif : Le sérum antibactérien doit être administré, si l'on n'est pas vacciné (ou si l'on n'est pas sûr d'être protégé). Il est inutile d'attendre l'apparition des premiers symptômes ! \r\nRemarque : Les antibiotiques ne font pas du tout intervenir le système immunitaire : ils agissent directement sur l'élément pathogène, ils tuent les bactéries.",
+        "3": "Traitement préventif : L'individu allergique peut être désensibilisé : il s'agit de créer une tolérance à l'allergène en l'introduisant à petites doses répétitives dans l'organisme. D'autres cas d'intolérance peuvent être prévenus : dans le cas des greffes, on utilise des immunosuppresseurs qui produisent un affaiblissement du système immunitaire afin qu'il tolère un greffon non compatible.\r\nTraitement curatif : Face à une crise allergique, le traitement préconisé est l'injection d'antihistaminiques qui neutralisent les substances irritantes (histamines) sécrétées par les mastocystes (cellules de notre système de défense)."
+      }
+    },
+    {
+      "id": "4",
+      "label": "Touche 'Go'",
+      "type": 3,
+      "function": 0,
+      "plan": 101,
+      "box": [
+        408,
+        77,
+        50,
+        44
+      ],
+      "options": [
+        {
+          "id": 1,
+          "value": 0,
+          "label": "Pour démarrer le processus",
+          "visual": "15D40001",
+          "audio": null
+        },
+        {
+          "id": 2,
+          "value": 1,
+          "label": "",
+          "visual": "15D40002",
+          "audio": null
+        }
+      ],
+      "hints": {
+        "0": "Choisir un corps étranger et une porte d'entrée, puis cliquer ici pour démarrer le processus.",
+        "1": "Choisir un corps étranger et une porte d'entrée, puis cliquer ici pour démarrer le processus.",
+        "2": "Choisir un corps étranger et une porte d'entrée, puis cliquer ici pour démarrer le processus.",
+        "3": "Choisir un corps étranger et une porte d'entrée, puis cliquer ici pour démarrer le processus."
+      }
+    },
+    {
+      "id": "5",
+      "label": "Noms des maladies",
+      "type": 1,
+      "function": 2,
+      "plan": 102,
+      "box": [
+        411,
+        9,
+        44,
+        46
+      ],
+      "options": [
+        {
+          "id": 1,
+          "value": 0,
+          "label": "Pas de maladie",
+          "visual": "VIDE_DF",
+          "audio": null
+        },
+        {
+          "id": 2,
+          "value": 1,
+          "label": "Grippe",
+          "visual": "15D50002",
+          "audio": null
+        },
+        {
+          "id": 3,
+          "value": 2,
+          "label": "Tuberculose",
+          "visual": "VIDE_DF",
+          "audio": null
+        },
+        {
+          "id": 4,
+          "value": 3,
+          "label": "Rage",
+          "visual": "VIDE_DF",
+          "audio": null
+        },
+        {
+          "id": 5,
+          "value": 4,
+          "label": "Tétanos",
+          "visual": "VIDE_DF",
+          "audio": null
+        },
+        {
+          "id": 6,
+          "value": 5,
+          "label": "Herpès  génital",
+          "visual": "15D50006",
+          "audio": null
+        },
+        {
+          "id": 7,
+          "value": 6,
+          "label": "Chlamydiae",
+          "visual": "15D50007",
+          "audio": null
+        },
+        {
+          "id": 8,
+          "value": 7,
+          "label": "Rhinite allergique",
+          "visual": "VIDE_DF",
+          "audio": null
+        },
+        {
+          "id": 9,
+          "value": 8,
+          "label": "Crise d'urticaire",
+          "visual": "15D50009",
+          "audio": null
+        },
+        {
+          "id": 10,
+          "value": 9,
+          "label": "Greffe de peau",
+          "visual": "VIDE_DF",
+          "audio": null
+        },
+        {
+          "id": 11,
+          "value": 10,
+          "label": "Transfusion de sang non compatible",
+          "visual": "VIDE_DF",
+          "audio": null
+        }
+      ],
+      "hints": {
+        "0": "Maladies : Le patient peut développer différentes maladies. Certaines sont d'origine virale, comme la rage, ou d'origine bactérienne, comme la tuberculose, et d'autres peuvent être dues à un allergène : c'est le cas de la rhinite. \r\nUn greffon de peau incompatible ou  une transfusion de sang incompatible peuvent aussi avoir de graves conséquences : nécrose ou accident hémolytique.",
+        "1": "Maladie : La grippe est due à l'inhalation d'un virus présent dans l'air ambiant. Les symptômes sont de la fièvre, de l'asthénie (fatigue) et des manifestations respiratoires : toux, pharyngite et parfois bronchite.",
+        "2": "Maladie : Le tétanos, malgré l'existence d'un vaccin, est une maladie très répandue dans les pays en voie de développement. Les symptômes sont des contractions involontaires des muscles très violentes et, sans traitement, la mort survient rapidement par asphyxie après paralysie des muscles respiratoires.",
+        "3": "Maladie : La réaction allergique est une réaction exagérée de notre système immunitaire face à des éléments étrangers, habituellement inoffensifs pour l'organisme. Certaines cellules, appelées mastocystes, émettent au contact de l'allergène des substances irritantes appelées histamines, responsables des symptômes tels que larmoiements, éternuements, écoulement nasal (rhume des foins). \r\nDans les cas d'allergie aux venins de certains insectes ou d'intolérance alimentaire, il peut y avoir éruptions cutanées ou oedèmes, qui dans certains cas peuvent entraîner la mort par choc anaphylactique."
+      }
+    },
+    {
+      "id": "6",
+      "label": "Etat du patient",
+      "type": 1,
+      "function": 2,
+      "plan": 101,
+      "box": [
+        251,
+        371,
+        85,
+        75
+      ],
+      "options": [
+        {
+          "id": 1,
+          "value": 0,
+          "label": "Pas de maladie",
+          "visual": "VIDE_DF",
+          "audio": null
+        },
+        {
+          "id": 2,
+          "value": 11,
+          "label": "Guérison spontanée de la grippe",
+          "visual": "15D60002",
+          "audio": null
+        },
+        {
+          "id": 3,
+          "value": 12,
+          "label": "Protection contre la grippe",
+          "visual": "15D60002",
+          "audio": null
+        },
+        {
+          "id": 4,
+          "value": 21,
+          "label": "Mort par tuberculose",
+          "visual": "15D60004",
+          "audio": null
+        },
+        {
+          "id": 5,
+          "value": 22,
+          "label": "Protection contre la tuberculose",
+          "visual": "15D60002",
+          "audio": null
+        },
+        {
+          "id": 6,
+          "value": 23,
+          "label": "Guérison de la tuberculose",
+          "visual": "15D60002",
+          "audio": null
+        },
+        {
+          "id": 7,
+          "value": 31,
+          "label": "Mort par rage",
+          "visual": "15D60004",
+          "audio": null
+        },
+        {
+          "id": 8,
+          "value": 32,
+          "label": "Protection contre la rage",
+          "visual": "15D60002",
+          "audio": null
+        },
+        {
+          "id": 9,
+          "value": 33,
+          "label": "Guérison de la rage",
+          "visual": "15D60002",
+          "audio": null
+        },
+        {
+          "id": 10,
+          "value": 41,
+          "label": "Mort par tétanos",
+          "visual": "15D60004",
+          "audio": null
+        },
+        {
+          "id": 11,
+          "value": 42,
+          "label": "Protection contre le tétanos",
+          "visual": "15D60002",
+          "audio": null
+        },
+        {
+          "id": 12,
+          "value": 43,
+          "label": "Guérison du tétanos",
+          "visual": "15D60002",
+          "audio": null
+        },
+        {
+          "id": 13,
+          "value": 51,
+          "label": "Herpès à l'état latent",
+          "visual": "15D60013",
+          "audio": null
+        },
+        {
+          "id": 14,
+          "value": 52,
+          "label": "Arrêt crise herpès",
+          "visual": "15D60014",
+          "audio": null
+        },
+        {
+          "id": 15,
+          "value": 61,
+          "label": "Risque de stérilité",
+          "visual": "15D60013",
+          "audio": null
+        },
+        {
+          "id": 16,
+          "value": 62,
+          "label": "Guérison chlamydiase",
+          "visual": "15D60002",
+          "audio": null
+        },
+        {
+          "id": 17,
+          "value": 71,
+          "label": "Risque de sinusite chronique",
+          "visual": "15D60013",
+          "audio": null
+        },
+        {
+          "id": 18,
+          "value": 72,
+          "label": "Désensibilisation rhinite",
+          "visual": "15D60002",
+          "audio": null
+        },
+        {
+          "id": 19,
+          "value": 73,
+          "label": "Arrêt crise rhinite",
+          "visual": "15D60014",
+          "audio": null
+        },
+        {
+          "id": 20,
+          "value": 81,
+          "label": "Choc anaphylactique",
+          "visual": "15D60004",
+          "audio": null
+        },
+        {
+          "id": 21,
+          "value": 82,
+          "label": "Arrêt crise urticaire",
+          "visual": "15D60014",
+          "audio": null
+        },
+        {
+          "id": 22,
+          "value": 91,
+          "label": "Rejet de tissus",
+          "visual": "15D60013",
+          "audio": null
+        },
+        {
+          "id": 23,
+          "value": 92,
+          "label": "Tolérance greffe",
+          "visual": null,
+          "audio": null
+        },
+        {
+          "id": 24,
+          "value": 100,
+          "label": "Choc hémolytique",
+          "visual": "15D60004",
+          "audio": null
+        }
+      ],
+      "hints": {
+        "0": "Etat du patient : Le système immunitaire du patient essaie de lutter contre la maladie. Il est possible qu'il arrive à l'évincer, dans ce cas, le malade est guéri. L'état peut également être stationnaire : la maladie est toujours là. Malheureusement, il arrive aussi que les défenses du corps ne soient pas assez puissantes et que le patient meure.",
+        "1": "Etat du patient : L'état du patient grippé dépend de sa résistance à la maladie (grâce à son système immunitaire) et aux traitements préventifs ou curatifs administrés. Généralement la grippe guérit spontanément en quelques jours surtout lorsque l'organisme a déjà été confronté à cette maladie. Mais attention, certaines personnes sont naturellement plus sensibles à cette maladie : les personnes âgées, les jeunes enfants et les personnes immunodéficientes. Malheureusement, la grippe est toujours la 2ème cause de mortalité au monde (après la tuberculose).",
+        "2": "Etat du patient : Si le vaccin du patient est à jour, alors il n'a rien à craindre du tétanos. Mais s'il n'est plus protégé, son état va dépendre de la rapidité des soins.",
+        "3": "Etat du patient : L'organisme du patient allergique réagit chaque fois qu'il est en présence des allergènes. C'est le cas, par exemple, des allergies au pollen : des rhinites chroniques se produisent annuellement à chaque floraison."
+      }
+    },
+    {
+      "id": "7",
+      "label": "Evolution",
+      "type": 1,
+      "function": 2,
+      "plan": 103,
+      "box": [
+        272,
+        12,
+        135,
+        305
+      ],
+      "options": [
+        {
+          "id": 1,
+          "value": 0,
+          "label": "",
+          "visual": "VIDE_DF",
+          "audio": "/game/station/15W70001.wav"
+        },
+        {
+          "id": 2,
+          "value": 11,
+          "label": "",
+          "visual": "15D70002",
+          "audio": null
+        },
+        {
+          "id": 3,
+          "value": 12,
+          "label": "",
+          "visual": "15D70003",
+          "audio": null
+        },
+        {
+          "id": 4,
+          "value": 21,
+          "label": "",
+          "visual": "15D70004",
+          "audio": null
+        },
+        {
+          "id": 5,
+          "value": 22,
+          "label": "",
+          "visual": "15D70005",
+          "audio": null
+        },
+        {
+          "id": 6,
+          "value": 23,
+          "label": "",
+          "visual": "15D70006",
+          "audio": null
+        },
+        {
+          "id": 7,
+          "value": 31,
+          "label": "",
+          "visual": "15D70007",
+          "audio": null
+        },
+        {
+          "id": 8,
+          "value": 32,
+          "label": "",
+          "visual": "15D70008",
+          "audio": null
+        },
+        {
+          "id": 9,
+          "value": 33,
+          "label": "",
+          "visual": "15D70009",
+          "audio": null
+        },
+        {
+          "id": 10,
+          "value": 41,
+          "label": "",
+          "visual": "15D70010",
+          "audio": null
+        },
+        {
+          "id": 11,
+          "value": 42,
+          "label": "",
+          "visual": "15D70011",
+          "audio": null
+        },
+        {
+          "id": 12,
+          "value": 43,
+          "label": "",
+          "visual": "15D70012",
+          "audio": null
+        },
+        {
+          "id": 13,
+          "value": 51,
+          "label": "",
+          "visual": "15D70013",
+          "audio": null
+        },
+        {
+          "id": 14,
+          "value": 52,
+          "label": "",
+          "visual": "15D70014",
+          "audio": null
+        },
+        {
+          "id": 15,
+          "value": 61,
+          "label": "",
+          "visual": "15D70015",
+          "audio": null
+        },
+        {
+          "id": 16,
+          "value": 62,
+          "label": "",
+          "visual": "15D70016",
+          "audio": null
+        },
+        {
+          "id": 17,
+          "value": 71,
+          "label": "",
+          "visual": "15D70017",
+          "audio": null
+        },
+        {
+          "id": 18,
+          "value": 72,
+          "label": "",
+          "visual": "15D70018",
+          "audio": null
+        },
+        {
+          "id": 19,
+          "value": 73,
+          "label": "",
+          "visual": "15D70019",
+          "audio": null
+        },
+        {
+          "id": 20,
+          "value": 81,
+          "label": "",
+          "visual": "15D70020",
+          "audio": null
+        },
+        {
+          "id": 21,
+          "value": 82,
+          "label": "",
+          "visual": "15D70021",
+          "audio": null
+        },
+        {
+          "id": 22,
+          "value": 91,
+          "label": "",
+          "visual": "15D70022",
+          "audio": null
+        },
+        {
+          "id": 23,
+          "value": 92,
+          "label": "",
+          "visual": "15D70023",
+          "audio": null
+        },
+        {
+          "id": 24,
+          "value": 100,
+          "label": "",
+          "visual": "15D70024",
+          "audio": null
+        }
+      ],
+      "hints": {
+        "0": "Maladies : Le patient peut développer différentes maladies. Certaines sont d'origine virale, comme la rage, ou d'origine bactérienne, comme la tuberculose, et d'autres peuvent être dues à un allergène : c'est le cas de la rhinite. \r\nUn greffon de peau incompatible ou  une transfusion de sang incompatible peuvent aussi avoir de graves conséquences : nécrose ou accident hémolytique.",
+        "1": "Maladie : La grippe est due à l'inhalation d'un virus présent dans l'air ambiant. Les symptômes sont de la fièvre, de l'asthénie (fatigue) et des manifestations respiratoires : toux, pharyngite et parfois bronchite.",
+        "2": "Maladie : Le tétanos, malgré l'existence d'un vaccin, est une maladie très répandue dans les pays en voie de développement. Les symptômes sont des contractions involontaires des muscles très violentes et, sans traitement, la mort survient rapidement par asphyxie après paralysie des muscles respiratoires.",
+        "3": "Maladie : La réaction allergique est une réaction exagérée de notre système immunitaire face à des éléments étrangers, habituellement inoffensifs pour l'organisme. Certaines cellules, appelées mastocystes, émettent au contact de l'allergène des substances irritantes appelées histamines, responsables des symptômes tels que larmoiements, éternuements, écoulement nasal (rhume des foins). \r\nDans les cas d'allergie aux venins de certains insectes ou d'intolérance alimentaire, il peut y avoir éruptions cutanées ou oedèmes, qui dans certains cas peuvent entraîner la mort par choc anaphylactique."
+      }
+    },
+    {
+      "id": "8",
+      "label": "Effet du traitement",
+      "type": 1,
+      "function": 2,
+      "plan": 101,
+      "box": [
+        357,
+        389,
+        56,
+        59
+      ],
+      "options": [
+        {
+          "id": 1,
+          "value": 0,
+          "label": "",
+          "visual": "15D80002",
+          "audio": null
+        },
+        {
+          "id": 2,
+          "value": 1,
+          "label": "",
+          "visual": "15D80002",
+          "audio": null
+        },
+        {
+          "id": 3,
+          "value": 2,
+          "label": "",
+          "visual": "15D80002",
+          "audio": null
+        },
+        {
+          "id": 4,
+          "value": 3,
+          "label": "",
+          "visual": "15D80002",
+          "audio": null
+        },
+        {
+          "id": 5,
+          "value": 4,
+          "label": "",
+          "visual": "15D80002",
+          "audio": null
+        },
+        {
+          "id": 6,
+          "value": 5,
+          "label": "",
+          "visual": "15D80002",
+          "audio": null
+        },
+        {
+          "id": 7,
+          "value": 6,
+          "label": "",
+          "visual": "15D80002",
+          "audio": null
+        },
+        {
+          "id": 8,
+          "value": 7,
+          "label": "",
+          "visual": "15D80002",
+          "audio": null
+        },
+        {
+          "id": 9,
+          "value": 8,
+          "label": "",
+          "visual": "15D80002",
+          "audio": null
+        },
+        {
+          "id": 10,
+          "value": 9,
+          "label": "",
+          "visual": "15D80002",
+          "audio": null
+        },
+        {
+          "id": 11,
+          "value": 10,
+          "label": "",
+          "visual": "15D80002",
+          "audio": null
+        },
+        {
+          "id": 12,
+          "value": 11,
+          "label": "",
+          "visual": "15D80002",
+          "audio": null
+        },
+        {
+          "id": 13,
+          "value": 12,
+          "label": "",
+          "visual": "15D80013",
+          "audio": null
+        },
+        {
+          "id": 14,
+          "value": 13,
+          "label": "",
+          "visual": "15D80013",
+          "audio": null
+        },
+        {
+          "id": 15,
+          "value": 14,
+          "label": "",
+          "visual": "15D80013",
+          "audio": null
+        },
+        {
+          "id": 16,
+          "value": 15,
+          "label": "",
+          "visual": "15D80013",
+          "audio": null
+        },
+        {
+          "id": 17,
+          "value": 16,
+          "label": "",
+          "visual": "15D80013",
+          "audio": null
+        },
+        {
+          "id": 18,
+          "value": 17,
+          "label": "",
+          "visual": "15D80013",
+          "audio": null
+        },
+        {
+          "id": 19,
+          "value": 18,
+          "label": "",
+          "visual": "15D80013",
+          "audio": null
+        },
+        {
+          "id": 20,
+          "value": 19,
+          "label": "",
+          "visual": "15D80013",
+          "audio": null
+        }
+      ],
+      "hints": {
+        "0": "",
+        "1": "Effet du traitement : Le traitement administré aide le malade à lutter contre la maladie. Le plus souvent, le traitement est efficace et le patient guérit de la grippe. Malheureusement, il peut également être sans effet, dans ce cas, l'état du patient peut être stationnaire (une guérison ultérieure est tout à fait envisageable), mais il arrive aussi que le malade décède. Aujourd'hui, la grippe est tout de même la 2ème cause de mortalité au monde, après la tuberculose.",
+        "2": "Effet du traitement : Le traitement administré, s'il est préventif, est efficace (à condition que l'on fasse régulièrement des rappels). S'il est curatif et administré rapidement (inutile d'attendre l'apparition des symptômes), on peut espérer avoir une bonne guérison.",
+        "3": "Effet du traitement : La technique de désensibilisation qui habitue le corps aux allergènes est long mais souvent efficace pour ce qui concerne la tolérance aux pollens et aux graminées. L'organisme tolère désormais l'allergène et n'a plus de crises périodiques.\r\nL'injection d'antihistaminiques est très efficace en cas de crise grave, dans le cas de piqûres d'insectes par exemple, mais ne guérit en aucun cas l'allergie."
+      }
+    },
+    {
+      "id": "9",
+      "label": "Masquage : Portes d'entrée",
+      "type": 1,
+      "function": 1,
+      "plan": 102,
+      "box": [
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "options": [
+        {
+          "id": 1,
+          "value": 0,
+          "label": "",
+          "visual": "VIDE_DF",
+          "audio": null
+        },
+        {
+          "id": 2,
+          "value": 1,
+          "label": "",
+          "visual": "VIDE_DF",
+          "audio": null
+        },
+        {
+          "id": 3,
+          "value": 2,
+          "label": "",
+          "visual": "VIDE_DF",
+          "audio": null
+        },
+        {
+          "id": 4,
+          "value": 3,
+          "label": "",
+          "visual": "15D90004",
+          "audio": null
+        },
+        {
+          "id": 5,
+          "value": 4,
+          "label": "",
+          "visual": "15D90004",
+          "audio": null
+        },
+        {
+          "id": 6,
+          "value": 5,
+          "label": "",
+          "visual": "15D90006",
+          "audio": null
+        }
+      ],
+      "hints": {
+        "0": "",
+        "1": "",
+        "2": "",
+        "3": ""
+      }
+    },
+    {
+      "id": "10",
+      "label": "Masquage : Corps étrangers",
+      "type": 1,
+      "function": 1,
+      "plan": 102,
+      "box": [
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "options": [
+        {
+          "id": 1,
+          "value": 0,
+          "label": "",
+          "visual": "VIDE_DF",
+          "audio": null
+        },
+        {
+          "id": 2,
+          "value": 1,
+          "label": "",
+          "visual": "15DA0002",
+          "audio": null
+        },
+        {
+          "id": 3,
+          "value": 2,
+          "label": "",
+          "visual": "VIDE_DF",
+          "audio": null
+        },
+        {
+          "id": 4,
+          "value": 3,
+          "label": "",
+          "visual": "15DA0004",
+          "audio": null
+        }
+      ],
+      "hints": {
+        "0": "",
+        "1": "",
+        "2": "",
+        "3": ""
+      }
+    }
+  ],
+  "cases": [
+    {
+      "id": "0",
+      "label": "Mode libre",
+      "solutions": [
+        {
+          "1": 1,
+          "2": 1,
+          "3": 1,
+          "4": 1,
+          "5": 1,
+          "6": 1,
+          "7": 1,
+          "8": 1
+        }
+      ],
+      "initial": {
+        "1": 1,
+        "2": 1,
+        "3": 1,
+        "4": 1,
+        "5": 1,
+        "6": 1,
+        "7": 1,
+        "8": 1,
+        "9": 1,
+        "10": 1
+      }
+    },
+    {
+      "id": "1",
+      "label": "Un vaccin contre la grippe",
+      "solutions": [
+        {
+          "1": 2,
+          "2": 2,
+          "3": 2
+        }
+      ],
+      "initial": {
+        "1": 1,
+        "2": 1,
+        "3": 1,
+        "4": 1,
+        "5": 1,
+        "6": 1,
+        "7": 1,
+        "8": 1,
+        "9": 1,
+        "10": 1
+      }
+    },
+    {
+      "id": "2",
+      "label": "Guérir du tétanos",
+      "solutions": [
+        {
+          "1": 3,
+          "2": 3,
+          "3": 7
+        }
+      ],
+      "initial": {
+        "1": 1,
+        "2": 1,
+        "3": 1,
+        "4": 1,
+        "5": 1,
+        "6": 1,
+        "7": 1,
+        "8": 1,
+        "9": 1,
+        "10": 1
+      }
+    },
+    {
+      "id": "3",
+      "label": "Prévenir les crises de rhinite allergique",
+      "solutions": [
+        {
+          "1": 6,
+          "2": 2,
+          "3": 4
+        }
+      ],
+      "initial": {
+        "1": 1,
+        "2": 1,
+        "3": 1,
+        "4": 1,
+        "5": 1,
+        "6": 1,
+        "7": 1,
+        "8": 1,
+        "9": 1,
+        "10": 1
+      }
+    }
+  ],
+  "lookup": [
+    {
+      "object": "5",
+      "value": 0,
+      "conditions": {
+        "1": 0,
+        "2": 0
+      }
+    },
+    {
+      "object": "5",
+      "value": 0,
+      "conditions": {
+        "1": 1,
+        "2": 0
+      }
+    },
+    {
+      "object": "5",
+      "value": 0,
+      "conditions": {
+        "1": 2,
+        "2": 0
+      }
+    },
+    {
+      "object": "5",
+      "value": 0,
+      "conditions": {
+        "1": 3,
+        "2": 0
+      }
+    },
+    {
+      "object": "5",
+      "value": 0,
+      "conditions": {
+        "1": 4,
+        "2": 0
+      }
+    },
+    {
+      "object": "5",
+      "value": 0,
+      "conditions": {
+        "1": 5,
+        "2": 0
+      }
+    },
+    {
+      "object": "5",
+      "value": 0,
+      "conditions": {
+        "1": 0,
+        "2": 1
+      }
+    },
+    {
+      "object": "5",
+      "value": 1,
+      "conditions": {
+        "1": 1,
+        "2": 1
+      }
+    },
+    {
+      "object": "5",
+      "value": 2,
+      "conditions": {
+        "1": 2,
+        "2": 1
+      }
+    },
+    {
+      "object": "5",
+      "value": 7,
+      "conditions": {
+        "1": 5,
+        "2": 1
+      }
+    },
+    {
+      "object": "5",
+      "value": 0,
+      "conditions": {
+        "1": 0,
+        "2": 2
+      }
+    },
+    {
+      "object": "5",
+      "value": 3,
+      "conditions": {
+        "1": 1,
+        "2": 2
+      }
+    },
+    {
+      "object": "5",
+      "value": 4,
+      "conditions": {
+        "1": 2,
+        "2": 2
+      }
+    },
+    {
+      "object": "5",
+      "value": 9,
+      "conditions": {
+        "1": 3,
+        "2": 2
+      }
+    },
+    {
+      "object": "5",
+      "value": 10,
+      "conditions": {
+        "1": 4,
+        "2": 2
+      }
+    },
+    {
+      "object": "5",
+      "value": 8,
+      "conditions": {
+        "1": 5,
+        "2": 2
+      }
+    },
+    {
+      "object": "5",
+      "value": 0,
+      "conditions": {
+        "1": 0,
+        "2": 3
+      }
+    },
+    {
+      "object": "5",
+      "value": 5,
+      "conditions": {
+        "1": 1,
+        "2": 3
+      }
+    },
+    {
+      "object": "5",
+      "value": 6,
+      "conditions": {
+        "1": 2,
+        "2": 3
+      }
+    },
+    {
+      "object": "7",
+      "value": 0,
+      "conditions": {
+        "3": 0,
+        "5": 0
+      }
+    },
+    {
+      "object": "7",
+      "value": 0,
+      "conditions": {
+        "3": 1,
+        "5": 0
+      }
+    },
+    {
+      "object": "7",
+      "value": 0,
+      "conditions": {
+        "3": 2,
+        "5": 0
+      }
+    },
+    {
+      "object": "7",
+      "value": 0,
+      "conditions": {
+        "3": 3,
+        "5": 0
+      }
+    },
+    {
+      "object": "7",
+      "value": 0,
+      "conditions": {
+        "3": 4,
+        "5": 0
+      }
+    },
+    {
+      "object": "7",
+      "value": 0,
+      "conditions": {
+        "3": 5,
+        "5": 0
+      }
+    },
+    {
+      "object": "7",
+      "value": 0,
+      "conditions": {
+        "3": 6,
+        "5": 0
+      }
+    },
+    {
+      "object": "7",
+      "value": 0,
+      "conditions": {
+        "3": 7,
+        "5": 0
+      }
+    },
+    {
+      "object": "7",
+      "value": 11,
+      "conditions": {
+        "3": 0,
+        "5": 1
+      }
+    },
+    {
+      "object": "7",
+      "value": 12,
+      "conditions": {
+        "3": 1,
+        "5": 1
+      }
+    },
+    {
+      "object": "7",
+      "value": 11,
+      "conditions": {
+        "3": 2,
+        "5": 1
+      }
+    },
+    {
+      "object": "7",
+      "value": 11,
+      "conditions": {
+        "3": 3,
+        "5": 1
+      }
+    },
+    {
+      "object": "7",
+      "value": 11,
+      "conditions": {
+        "3": 4,
+        "5": 1
+      }
+    },
+    {
+      "object": "7",
+      "value": 11,
+      "conditions": {
+        "3": 6,
+        "5": 1
+      }
+    },
+    {
+      "object": "7",
+      "value": 11,
+      "conditions": {
+        "3": 7,
+        "5": 1
+      }
+    },
+    {
+      "object": "7",
+      "value": 21,
+      "conditions": {
+        "3": 0,
+        "5": 2
+      }
+    },
+    {
+      "object": "7",
+      "value": 21,
+      "conditions": {
+        "3": 1,
+        "5": 2
+      }
+    },
+    {
+      "object": "7",
+      "value": 22,
+      "conditions": {
+        "3": 2,
+        "5": 2
+      }
+    },
+    {
+      "object": "7",
+      "value": 21,
+      "conditions": {
+        "3": 3,
+        "5": 2
+      }
+    },
+    {
+      "object": "7",
+      "value": 21,
+      "conditions": {
+        "3": 4,
+        "5": 2
+      }
+    },
+    {
+      "object": "7",
+      "value": 21,
+      "conditions": {
+        "3": 5,
+        "5": 2
+      }
+    },
+    {
+      "object": "7",
+      "value": 23,
+      "conditions": {
+        "3": 6,
+        "5": 2
+      }
+    },
+    {
+      "object": "7",
+      "value": 21,
+      "conditions": {
+        "3": 7,
+        "5": 2
+      }
+    },
+    {
+      "object": "7",
+      "value": 31,
+      "conditions": {
+        "3": 0,
+        "5": 3
+      }
+    },
+    {
+      "object": "7",
+      "value": 32,
+      "conditions": {
+        "3": 1,
+        "5": 3
+      }
+    },
+    {
+      "object": "7",
+      "value": 31,
+      "conditions": {
+        "3": 2,
+        "5": 3
+      }
+    },
+    {
+      "object": "7",
+      "value": 31,
+      "conditions": {
+        "3": 3,
+        "5": 3
+      }
+    },
+    {
+      "object": "7",
+      "value": 31,
+      "conditions": {
+        "3": 4,
+        "5": 3
+      }
+    },
+    {
+      "object": "7",
+      "value": 33,
+      "conditions": {
+        "3": 5,
+        "5": 3
+      }
+    },
+    {
+      "object": "7",
+      "value": 31,
+      "conditions": {
+        "3": 6,
+        "5": 3
+      }
+    },
+    {
+      "object": "7",
+      "value": 31,
+      "conditions": {
+        "3": 7,
+        "5": 3
+      }
+    },
+    {
+      "object": "7",
+      "value": 41,
+      "conditions": {
+        "3": 0,
+        "5": 4
+      }
+    },
+    {
+      "object": "7",
+      "value": 41,
+      "conditions": {
+        "3": 1,
+        "5": 4
+      }
+    },
+    {
+      "object": "7",
+      "value": 42,
+      "conditions": {
+        "3": 2,
+        "5": 4
+      }
+    },
+    {
+      "object": "7",
+      "value": 41,
+      "conditions": {
+        "3": 3,
+        "5": 4
+      }
+    },
+    {
+      "object": "7",
+      "value": 41,
+      "conditions": {
+        "3": 4,
+        "5": 4
+      }
+    },
+    {
+      "object": "7",
+      "value": 41,
+      "conditions": {
+        "3": 5,
+        "5": 4
+      }
+    },
+    {
+      "object": "7",
+      "value": 43,
+      "conditions": {
+        "3": 6,
+        "5": 4
+      }
+    },
+    {
+      "object": "7",
+      "value": 41,
+      "conditions": {
+        "3": 7,
+        "5": 4
+      }
+    },
+    {
+      "object": "7",
+      "value": 51,
+      "conditions": {
+        "3": 0,
+        "5": 5
+      }
+    },
+    {
+      "object": "7",
+      "value": 51,
+      "conditions": {
+        "3": 2,
+        "5": 5
+      }
+    },
+    {
+      "object": "7",
+      "value": 51,
+      "conditions": {
+        "3": 3,
+        "5": 5
+      }
+    },
+    {
+      "object": "7",
+      "value": 51,
+      "conditions": {
+        "3": 4,
+        "5": 5
+      }
+    },
+    {
+      "object": "7",
+      "value": 52,
+      "conditions": {
+        "3": 5,
+        "5": 5
+      }
+    },
+    {
+      "object": "7",
+      "value": 51,
+      "conditions": {
+        "3": 6,
+        "5": 5
+      }
+    },
+    {
+      "object": "7",
+      "value": 51,
+      "conditions": {
+        "3": 7,
+        "5": 5
+      }
+    },
+    {
+      "object": "7",
+      "value": 61,
+      "conditions": {
+        "3": 0,
+        "5": 6
+      }
+    },
+    {
+      "object": "7",
+      "value": 61,
+      "conditions": {
+        "3": 1,
+        "5": 6
+      }
+    },
+    {
+      "object": "7",
+      "value": 61,
+      "conditions": {
+        "3": 3,
+        "5": 6
+      }
+    },
+    {
+      "object": "7",
+      "value": 61,
+      "conditions": {
+        "3": 4,
+        "5": 6
+      }
+    },
+    {
+      "object": "7",
+      "value": 61,
+      "conditions": {
+        "3": 5,
+        "5": 6
+      }
+    },
+    {
+      "object": "7",
+      "value": 62,
+      "conditions": {
+        "3": 6,
+        "5": 6
+      }
+    },
+    {
+      "object": "7",
+      "value": 61,
+      "conditions": {
+        "3": 7,
+        "5": 6
+      }
+    },
+    {
+      "object": "7",
+      "value": 71,
+      "conditions": {
+        "3": 0,
+        "5": 7
+      }
+    },
+    {
+      "object": "7",
+      "value": 71,
+      "conditions": {
+        "3": 1,
+        "5": 7
+      }
+    },
+    {
+      "object": "7",
+      "value": 71,
+      "conditions": {
+        "3": 2,
+        "5": 7
+      }
+    },
+    {
+      "object": "7",
+      "value": 72,
+      "conditions": {
+        "3": 3,
+        "5": 7
+      }
+    },
+    {
+      "object": "7",
+      "value": 71,
+      "conditions": {
+        "3": 4,
+        "5": 7
+      }
+    },
+    {
+      "object": "7",
+      "value": 71,
+      "conditions": {
+        "3": 5,
+        "5": 7
+      }
+    },
+    {
+      "object": "7",
+      "value": 71,
+      "conditions": {
+        "3": 6,
+        "5": 7
+      }
+    },
+    {
+      "object": "7",
+      "value": 73,
+      "conditions": {
+        "3": 7,
+        "5": 7
+      }
+    },
+    {
+      "object": "7",
+      "value": 81,
+      "conditions": {
+        "3": 0,
+        "5": 8
+      }
+    },
+    {
+      "object": "7",
+      "value": 81,
+      "conditions": {
+        "3": 1,
+        "5": 8
+      }
+    },
+    {
+      "object": "7",
+      "value": 81,
+      "conditions": {
+        "3": 2,
+        "5": 8
+      }
+    },
+    {
+      "object": "7",
+      "value": 81,
+      "conditions": {
+        "3": 4,
+        "5": 8
+      }
+    },
+    {
+      "object": "7",
+      "value": 81,
+      "conditions": {
+        "3": 5,
+        "5": 8
+      }
+    },
+    {
+      "object": "7",
+      "value": 81,
+      "conditions": {
+        "3": 6,
+        "5": 8
+      }
+    },
+    {
+      "object": "7",
+      "value": 82,
+      "conditions": {
+        "3": 7,
+        "5": 8
+      }
+    },
+    {
+      "object": "7",
+      "value": 91,
+      "conditions": {
+        "3": 0,
+        "5": 9
+      }
+    },
+    {
+      "object": "7",
+      "value": 91,
+      "conditions": {
+        "3": 1,
+        "5": 9
+      }
+    },
+    {
+      "object": "7",
+      "value": 91,
+      "conditions": {
+        "3": 2,
+        "5": 9
+      }
+    },
+    {
+      "object": "7",
+      "value": 91,
+      "conditions": {
+        "3": 3,
+        "5": 9
+      }
+    },
+    {
+      "object": "7",
+      "value": 92,
+      "conditions": {
+        "3": 4,
+        "5": 9
+      }
+    },
+    {
+      "object": "7",
+      "value": 91,
+      "conditions": {
+        "3": 5,
+        "5": 9
+      }
+    },
+    {
+      "object": "7",
+      "value": 91,
+      "conditions": {
+        "3": 6,
+        "5": 9
+      }
+    },
+    {
+      "object": "7",
+      "value": 91,
+      "conditions": {
+        "3": 7,
+        "5": 9
+      }
+    },
+    {
+      "object": "7",
+      "value": 100,
+      "conditions": {
+        "3": 0,
+        "5": 10
+      }
+    },
+    {
+      "object": "7",
+      "value": 100,
+      "conditions": {
+        "3": 1,
+        "5": 10
+      }
+    },
+    {
+      "object": "7",
+      "value": 100,
+      "conditions": {
+        "3": 2,
+        "5": 10
+      }
+    },
+    {
+      "object": "7",
+      "value": 100,
+      "conditions": {
+        "3": 3,
+        "5": 10
+      }
+    },
+    {
+      "object": "7",
+      "value": 100,
+      "conditions": {
+        "3": 4,
+        "5": 10
+      }
+    },
+    {
+      "object": "7",
+      "value": 100,
+      "conditions": {
+        "3": 5,
+        "5": 10
+      }
+    },
+    {
+      "object": "7",
+      "value": 100,
+      "conditions": {
+        "3": 6,
+        "5": 10
+      }
+    },
+    {
+      "object": "7",
+      "value": 100,
+      "conditions": {
+        "3": 7,
+        "5": 10
+      }
+    },
+    {
+      "object": "6",
+      "value": 0,
+      "conditions": {
+        "3": 0,
+        "5": 0
+      }
+    },
+    {
+      "object": "6",
+      "value": 0,
+      "conditions": {
+        "3": 1,
+        "5": 0
+      }
+    },
+    {
+      "object": "6",
+      "value": 0,
+      "conditions": {
+        "3": 2,
+        "5": 0
+      }
+    },
+    {
+      "object": "6",
+      "value": 0,
+      "conditions": {
+        "3": 3,
+        "5": 0
+      }
+    },
+    {
+      "object": "6",
+      "value": 0,
+      "conditions": {
+        "3": 4,
+        "5": 0
+      }
+    },
+    {
+      "object": "6",
+      "value": 0,
+      "conditions": {
+        "3": 5,
+        "5": 0
+      }
+    },
+    {
+      "object": "6",
+      "value": 0,
+      "conditions": {
+        "3": 6,
+        "5": 0
+      }
+    },
+    {
+      "object": "6",
+      "value": 0,
+      "conditions": {
+        "3": 7,
+        "5": 0
+      }
+    },
+    {
+      "object": "6",
+      "value": 11,
+      "conditions": {
+        "3": 0,
+        "5": 1
+      }
+    },
+    {
+      "object": "6",
+      "value": 12,
+      "conditions": {
+        "3": 1,
+        "5": 1
+      }
+    },
+    {
+      "object": "6",
+      "value": 11,
+      "conditions": {
+        "3": 2,
+        "5": 1
+      }
+    },
+    {
+      "object": "6",
+      "value": 11,
+      "conditions": {
+        "3": 3,
+        "5": 1
+      }
+    },
+    {
+      "object": "6",
+      "value": 11,
+      "conditions": {
+        "3": 4,
+        "5": 1
+      }
+    },
+    {
+      "object": "6",
+      "value": 11,
+      "conditions": {
+        "3": 6,
+        "5": 1
+      }
+    },
+    {
+      "object": "6",
+      "value": 11,
+      "conditions": {
+        "3": 7,
+        "5": 1
+      }
+    },
+    {
+      "object": "6",
+      "value": 21,
+      "conditions": {
+        "3": 0,
+        "5": 2
+      }
+    },
+    {
+      "object": "6",
+      "value": 21,
+      "conditions": {
+        "3": 1,
+        "5": 2
+      }
+    },
+    {
+      "object": "6",
+      "value": 22,
+      "conditions": {
+        "3": 2,
+        "5": 2
+      }
+    },
+    {
+      "object": "6",
+      "value": 21,
+      "conditions": {
+        "3": 3,
+        "5": 2
+      }
+    },
+    {
+      "object": "6",
+      "value": 21,
+      "conditions": {
+        "3": 4,
+        "5": 2
+      }
+    },
+    {
+      "object": "6",
+      "value": 21,
+      "conditions": {
+        "3": 5,
+        "5": 2
+      }
+    },
+    {
+      "object": "6",
+      "value": 23,
+      "conditions": {
+        "3": 6,
+        "5": 2
+      }
+    },
+    {
+      "object": "6",
+      "value": 21,
+      "conditions": {
+        "3": 7,
+        "5": 2
+      }
+    },
+    {
+      "object": "6",
+      "value": 31,
+      "conditions": {
+        "3": 0,
+        "5": 3
+      }
+    },
+    {
+      "object": "6",
+      "value": 32,
+      "conditions": {
+        "3": 1,
+        "5": 3
+      }
+    },
+    {
+      "object": "6",
+      "value": 31,
+      "conditions": {
+        "3": 2,
+        "5": 3
+      }
+    },
+    {
+      "object": "6",
+      "value": 31,
+      "conditions": {
+        "3": 3,
+        "5": 3
+      }
+    },
+    {
+      "object": "6",
+      "value": 31,
+      "conditions": {
+        "3": 4,
+        "5": 3
+      }
+    },
+    {
+      "object": "6",
+      "value": 33,
+      "conditions": {
+        "3": 5,
+        "5": 3
+      }
+    },
+    {
+      "object": "6",
+      "value": 31,
+      "conditions": {
+        "3": 6,
+        "5": 3
+      }
+    },
+    {
+      "object": "6",
+      "value": 31,
+      "conditions": {
+        "3": 7,
+        "5": 3
+      }
+    },
+    {
+      "object": "6",
+      "value": 41,
+      "conditions": {
+        "3": 0,
+        "5": 4
+      }
+    },
+    {
+      "object": "6",
+      "value": 41,
+      "conditions": {
+        "3": 1,
+        "5": 4
+      }
+    },
+    {
+      "object": "6",
+      "value": 42,
+      "conditions": {
+        "3": 2,
+        "5": 4
+      }
+    },
+    {
+      "object": "6",
+      "value": 41,
+      "conditions": {
+        "3": 3,
+        "5": 4
+      }
+    },
+    {
+      "object": "6",
+      "value": 41,
+      "conditions": {
+        "3": 4,
+        "5": 4
+      }
+    },
+    {
+      "object": "6",
+      "value": 41,
+      "conditions": {
+        "3": 5,
+        "5": 4
+      }
+    },
+    {
+      "object": "6",
+      "value": 43,
+      "conditions": {
+        "3": 6,
+        "5": 4
+      }
+    },
+    {
+      "object": "6",
+      "value": 41,
+      "conditions": {
+        "3": 7,
+        "5": 4
+      }
+    },
+    {
+      "object": "6",
+      "value": 51,
+      "conditions": {
+        "3": 0,
+        "5": 5
+      }
+    },
+    {
+      "object": "6",
+      "value": 51,
+      "conditions": {
+        "3": 2,
+        "5": 5
+      }
+    },
+    {
+      "object": "6",
+      "value": 51,
+      "conditions": {
+        "3": 3,
+        "5": 5
+      }
+    },
+    {
+      "object": "6",
+      "value": 51,
+      "conditions": {
+        "3": 4,
+        "5": 5
+      }
+    },
+    {
+      "object": "6",
+      "value": 52,
+      "conditions": {
+        "3": 5,
+        "5": 5
+      }
+    },
+    {
+      "object": "6",
+      "value": 51,
+      "conditions": {
+        "3": 6,
+        "5": 5
+      }
+    },
+    {
+      "object": "6",
+      "value": 51,
+      "conditions": {
+        "3": 7,
+        "5": 5
+      }
+    },
+    {
+      "object": "6",
+      "value": 61,
+      "conditions": {
+        "3": 0,
+        "5": 6
+      }
+    },
+    {
+      "object": "6",
+      "value": 61,
+      "conditions": {
+        "3": 1,
+        "5": 6
+      }
+    },
+    {
+      "object": "6",
+      "value": 61,
+      "conditions": {
+        "3": 3,
+        "5": 6
+      }
+    },
+    {
+      "object": "6",
+      "value": 61,
+      "conditions": {
+        "3": 4,
+        "5": 6
+      }
+    },
+    {
+      "object": "6",
+      "value": 61,
+      "conditions": {
+        "3": 5,
+        "5": 6
+      }
+    },
+    {
+      "object": "6",
+      "value": 62,
+      "conditions": {
+        "3": 6,
+        "5": 6
+      }
+    },
+    {
+      "object": "6",
+      "value": 61,
+      "conditions": {
+        "3": 7,
+        "5": 6
+      }
+    },
+    {
+      "object": "6",
+      "value": 71,
+      "conditions": {
+        "3": 0,
+        "5": 7
+      }
+    },
+    {
+      "object": "6",
+      "value": 71,
+      "conditions": {
+        "3": 1,
+        "5": 7
+      }
+    },
+    {
+      "object": "6",
+      "value": 71,
+      "conditions": {
+        "3": 2,
+        "5": 7
+      }
+    },
+    {
+      "object": "6",
+      "value": 72,
+      "conditions": {
+        "3": 3,
+        "5": 7
+      }
+    },
+    {
+      "object": "6",
+      "value": 71,
+      "conditions": {
+        "3": 4,
+        "5": 7
+      }
+    },
+    {
+      "object": "6",
+      "value": 71,
+      "conditions": {
+        "3": 5,
+        "5": 7
+      }
+    },
+    {
+      "object": "6",
+      "value": 71,
+      "conditions": {
+        "3": 6,
+        "5": 7
+      }
+    },
+    {
+      "object": "6",
+      "value": 73,
+      "conditions": {
+        "3": 7,
+        "5": 7
+      }
+    },
+    {
+      "object": "6",
+      "value": 81,
+      "conditions": {
+        "3": 0,
+        "5": 8
+      }
+    },
+    {
+      "object": "6",
+      "value": 81,
+      "conditions": {
+        "3": 1,
+        "5": 8
+      }
+    },
+    {
+      "object": "6",
+      "value": 81,
+      "conditions": {
+        "3": 2,
+        "5": 8
+      }
+    },
+    {
+      "object": "6",
+      "value": 81,
+      "conditions": {
+        "3": 4,
+        "5": 8
+      }
+    },
+    {
+      "object": "6",
+      "value": 81,
+      "conditions": {
+        "3": 5,
+        "5": 8
+      }
+    },
+    {
+      "object": "6",
+      "value": 81,
+      "conditions": {
+        "3": 6,
+        "5": 8
+      }
+    },
+    {
+      "object": "6",
+      "value": 82,
+      "conditions": {
+        "3": 7,
+        "5": 8
+      }
+    },
+    {
+      "object": "6",
+      "value": 91,
+      "conditions": {
+        "3": 0,
+        "5": 9
+      }
+    },
+    {
+      "object": "6",
+      "value": 91,
+      "conditions": {
+        "3": 1,
+        "5": 9
+      }
+    },
+    {
+      "object": "6",
+      "value": 91,
+      "conditions": {
+        "3": 2,
+        "5": 9
+      }
+    },
+    {
+      "object": "6",
+      "value": 91,
+      "conditions": {
+        "3": 3,
+        "5": 9
+      }
+    },
+    {
+      "object": "6",
+      "value": 92,
+      "conditions": {
+        "3": 4,
+        "5": 9
+      }
+    },
+    {
+      "object": "6",
+      "value": 91,
+      "conditions": {
+        "3": 5,
+        "5": 9
+      }
+    },
+    {
+      "object": "6",
+      "value": 91,
+      "conditions": {
+        "3": 6,
+        "5": 9
+      }
+    },
+    {
+      "object": "6",
+      "value": 91,
+      "conditions": {
+        "3": 7,
+        "5": 9
+      }
+    },
+    {
+      "object": "6",
+      "value": 100,
+      "conditions": {
+        "3": 0,
+        "5": 10
+      }
+    },
+    {
+      "object": "6",
+      "value": 100,
+      "conditions": {
+        "3": 1,
+        "5": 10
+      }
+    },
+    {
+      "object": "6",
+      "value": 100,
+      "conditions": {
+        "3": 2,
+        "5": 10
+      }
+    },
+    {
+      "object": "6",
+      "value": 100,
+      "conditions": {
+        "3": 3,
+        "5": 10
+      }
+    },
+    {
+      "object": "6",
+      "value": 100,
+      "conditions": {
+        "3": 4,
+        "5": 10
+      }
+    },
+    {
+      "object": "6",
+      "value": 100,
+      "conditions": {
+        "3": 5,
+        "5": 10
+      }
+    },
+    {
+      "object": "6",
+      "value": 100,
+      "conditions": {
+        "3": 6,
+        "5": 10
+      }
+    },
+    {
+      "object": "6",
+      "value": 100,
+      "conditions": {
+        "3": 7,
+        "5": 10
+      }
+    },
+    {
+      "object": "8",
+      "value": 0,
+      "conditions": {
+        "3": 0,
+        "5": 0
+      }
+    },
+    {
+      "object": "8",
+      "value": 0,
+      "conditions": {
+        "3": 1,
+        "5": 0
+      }
+    },
+    {
+      "object": "8",
+      "value": 0,
+      "conditions": {
+        "3": 2,
+        "5": 0
+      }
+    },
+    {
+      "object": "8",
+      "value": 0,
+      "conditions": {
+        "3": 3,
+        "5": 0
+      }
+    },
+    {
+      "object": "8",
+      "value": 0,
+      "conditions": {
+        "3": 4,
+        "5": 0
+      }
+    },
+    {
+      "object": "8",
+      "value": 0,
+      "conditions": {
+        "3": 5,
+        "5": 0
+      }
+    },
+    {
+      "object": "8",
+      "value": 0,
+      "conditions": {
+        "3": 6,
+        "5": 0
+      }
+    },
+    {
+      "object": "8",
+      "value": 0,
+      "conditions": {
+        "3": 7,
+        "5": 0
+      }
+    },
+    {
+      "object": "8",
+      "value": 0,
+      "conditions": {
+        "3": 0,
+        "5": 1
+      }
+    },
+    {
+      "object": "8",
+      "value": 1,
+      "conditions": {
+        "3": 1,
+        "5": 1
+      }
+    },
+    {
+      "object": "8",
+      "value": 14,
+      "conditions": {
+        "3": 2,
+        "5": 1
+      }
+    },
+    {
+      "object": "8",
+      "value": 15,
+      "conditions": {
+        "3": 3,
+        "5": 1
+      }
+    },
+    {
+      "object": "8",
+      "value": 16,
+      "conditions": {
+        "3": 4,
+        "5": 1
+      }
+    },
+    {
+      "object": "8",
+      "value": 18,
+      "conditions": {
+        "3": 6,
+        "5": 1
+      }
+    },
+    {
+      "object": "8",
+      "value": 19,
+      "conditions": {
+        "3": 7,
+        "5": 1
+      }
+    },
+    {
+      "object": "8",
+      "value": 0,
+      "conditions": {
+        "3": 0,
+        "5": 2
+      }
+    },
+    {
+      "object": "8",
+      "value": 13,
+      "conditions": {
+        "3": 1,
+        "5": 2
+      }
+    },
+    {
+      "object": "8",
+      "value": 2,
+      "conditions": {
+        "3": 2,
+        "5": 2
+      }
+    },
+    {
+      "object": "8",
+      "value": 15,
+      "conditions": {
+        "3": 3,
+        "5": 2
+      }
+    },
+    {
+      "object": "8",
+      "value": 16,
+      "conditions": {
+        "3": 4,
+        "5": 2
+      }
+    },
+    {
+      "object": "8",
+      "value": 17,
+      "conditions": {
+        "3": 5,
+        "5": 2
+      }
+    },
+    {
+      "object": "8",
+      "value": 3,
+      "conditions": {
+        "3": 6,
+        "5": 2
+      }
+    },
+    {
+      "object": "8",
+      "value": 19,
+      "conditions": {
+        "3": 7,
+        "5": 2
+      }
+    },
+    {
+      "object": "8",
+      "value": 0,
+      "conditions": {
+        "3": 0,
+        "5": 3
+      }
+    },
+    {
+      "object": "8",
+      "value": 4,
+      "conditions": {
+        "3": 1,
+        "5": 3
+      }
+    },
+    {
+      "object": "8",
+      "value": 14,
+      "conditions": {
+        "3": 2,
+        "5": 3
+      }
+    },
+    {
+      "object": "8",
+      "value": 15,
+      "conditions": {
+        "3": 3,
+        "5": 3
+      }
+    },
+    {
+      "object": "8",
+      "value": 16,
+      "conditions": {
+        "3": 4,
+        "5": 3
+      }
+    },
+    {
+      "object": "8",
+      "value": 5,
+      "conditions": {
+        "3": 5,
+        "5": 3
+      }
+    },
+    {
+      "object": "8",
+      "value": 18,
+      "conditions": {
+        "3": 6,
+        "5": 3
+      }
+    },
+    {
+      "object": "8",
+      "value": 19,
+      "conditions": {
+        "3": 7,
+        "5": 3
+      }
+    },
+    {
+      "object": "8",
+      "value": 0,
+      "conditions": {
+        "3": 0,
+        "5": 4
+      }
+    },
+    {
+      "object": "8",
+      "value": 13,
+      "conditions": {
+        "3": 1,
+        "5": 4
+      }
+    },
+    {
+      "object": "8",
+      "value": 6,
+      "conditions": {
+        "3": 2,
+        "5": 4
+      }
+    },
+    {
+      "object": "8",
+      "value": 15,
+      "conditions": {
+        "3": 3,
+        "5": 4
+      }
+    },
+    {
+      "object": "8",
+      "value": 16,
+      "conditions": {
+        "3": 4,
+        "5": 4
+      }
+    },
+    {
+      "object": "8",
+      "value": 17,
+      "conditions": {
+        "3": 5,
+        "5": 4
+      }
+    },
+    {
+      "object": "8",
+      "value": 7,
+      "conditions": {
+        "3": 6,
+        "5": 4
+      }
+    },
+    {
+      "object": "8",
+      "value": 19,
+      "conditions": {
+        "3": 7,
+        "5": 4
+      }
+    },
+    {
+      "object": "8",
+      "value": 0,
+      "conditions": {
+        "3": 0,
+        "5": 5
+      }
+    },
+    {
+      "object": "8",
+      "value": 14,
+      "conditions": {
+        "3": 2,
+        "5": 5
+      }
+    },
+    {
+      "object": "8",
+      "value": 15,
+      "conditions": {
+        "3": 3,
+        "5": 5
+      }
+    },
+    {
+      "object": "8",
+      "value": 16,
+      "conditions": {
+        "3": 4,
+        "5": 5
+      }
+    },
+    {
+      "object": "8",
+      "value": 8,
+      "conditions": {
+        "3": 5,
+        "5": 5
+      }
+    },
+    {
+      "object": "8",
+      "value": 18,
+      "conditions": {
+        "3": 6,
+        "5": 5
+      }
+    },
+    {
+      "object": "8",
+      "value": 19,
+      "conditions": {
+        "3": 7,
+        "5": 5
+      }
+    },
+    {
+      "object": "8",
+      "value": 0,
+      "conditions": {
+        "3": 0,
+        "5": 6
+      }
+    },
+    {
+      "object": "8",
+      "value": 13,
+      "conditions": {
+        "3": 1,
+        "5": 6
+      }
+    },
+    {
+      "object": "8",
+      "value": 15,
+      "conditions": {
+        "3": 3,
+        "5": 6
+      }
+    },
+    {
+      "object": "8",
+      "value": 16,
+      "conditions": {
+        "3": 4,
+        "5": 6
+      }
+    },
+    {
+      "object": "8",
+      "value": 17,
+      "conditions": {
+        "3": 5,
+        "5": 6
+      }
+    },
+    {
+      "object": "8",
+      "value": 9,
+      "conditions": {
+        "3": 6,
+        "5": 6
+      }
+    },
+    {
+      "object": "8",
+      "value": 19,
+      "conditions": {
+        "3": 7,
+        "5": 6
+      }
+    },
+    {
+      "object": "8",
+      "value": 0,
+      "conditions": {
+        "3": 0,
+        "5": 7
+      }
+    },
+    {
+      "object": "8",
+      "value": 13,
+      "conditions": {
+        "3": 1,
+        "5": 7
+      }
+    },
+    {
+      "object": "8",
+      "value": 14,
+      "conditions": {
+        "3": 2,
+        "5": 7
+      }
+    },
+    {
+      "object": "8",
+      "value": 10,
+      "conditions": {
+        "3": 3,
+        "5": 7
+      }
+    },
+    {
+      "object": "8",
+      "value": 16,
+      "conditions": {
+        "3": 4,
+        "5": 7
+      }
+    },
+    {
+      "object": "8",
+      "value": 17,
+      "conditions": {
+        "3": 5,
+        "5": 7
+      }
+    },
+    {
+      "object": "8",
+      "value": 18,
+      "conditions": {
+        "3": 6,
+        "5": 7
+      }
+    },
+    {
+      "object": "8",
+      "value": 11,
+      "conditions": {
+        "3": 7,
+        "5": 7
+      }
+    },
+    {
+      "object": "8",
+      "value": 0,
+      "conditions": {
+        "3": 0,
+        "5": 8
+      }
+    },
+    {
+      "object": "8",
+      "value": 13,
+      "conditions": {
+        "3": 1,
+        "5": 8
+      }
+    },
+    {
+      "object": "8",
+      "value": 14,
+      "conditions": {
+        "3": 2,
+        "5": 8
+      }
+    },
+    {
+      "object": "8",
+      "value": 16,
+      "conditions": {
+        "3": 4,
+        "5": 8
+      }
+    },
+    {
+      "object": "8",
+      "value": 17,
+      "conditions": {
+        "3": 5,
+        "5": 8
+      }
+    },
+    {
+      "object": "8",
+      "value": 18,
+      "conditions": {
+        "3": 6,
+        "5": 8
+      }
+    },
+    {
+      "object": "8",
+      "value": 11,
+      "conditions": {
+        "3": 7,
+        "5": 8
+      }
+    },
+    {
+      "object": "8",
+      "value": 0,
+      "conditions": {
+        "3": 0,
+        "5": 9
+      }
+    },
+    {
+      "object": "8",
+      "value": 13,
+      "conditions": {
+        "3": 1,
+        "5": 9
+      }
+    },
+    {
+      "object": "8",
+      "value": 14,
+      "conditions": {
+        "3": 2,
+        "5": 9
+      }
+    },
+    {
+      "object": "8",
+      "value": 15,
+      "conditions": {
+        "3": 3,
+        "5": 9
+      }
+    },
+    {
+      "object": "8",
+      "value": 12,
+      "conditions": {
+        "3": 4,
+        "5": 9
+      }
+    },
+    {
+      "object": "8",
+      "value": 17,
+      "conditions": {
+        "3": 5,
+        "5": 9
+      }
+    },
+    {
+      "object": "8",
+      "value": 18,
+      "conditions": {
+        "3": 6,
+        "5": 9
+      }
+    },
+    {
+      "object": "8",
+      "value": 19,
+      "conditions": {
+        "3": 7,
+        "5": 9
+      }
+    },
+    {
+      "object": "8",
+      "value": 0,
+      "conditions": {
+        "3": 0,
+        "5": 10
+      }
+    },
+    {
+      "object": "8",
+      "value": 13,
+      "conditions": {
+        "3": 1,
+        "5": 10
+      }
+    },
+    {
+      "object": "8",
+      "value": 14,
+      "conditions": {
+        "3": 2,
+        "5": 10
+      }
+    },
+    {
+      "object": "8",
+      "value": 15,
+      "conditions": {
+        "3": 3,
+        "5": 10
+      }
+    },
+    {
+      "object": "8",
+      "value": 16,
+      "conditions": {
+        "3": 4,
+        "5": 10
+      }
+    },
+    {
+      "object": "8",
+      "value": 17,
+      "conditions": {
+        "3": 5,
+        "5": 10
+      }
+    },
+    {
+      "object": "8",
+      "value": 18,
+      "conditions": {
+        "3": 6,
+        "5": 10
+      }
+    },
+    {
+      "object": "8",
+      "value": 19,
+      "conditions": {
+        "3": 7,
+        "5": 10
+      }
+    }
+  ]
+}

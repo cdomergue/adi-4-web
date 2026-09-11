@@ -1,0 +1,864 @@
+{
+  "id": "11",
+  "title": "Dinosaures",
+  "background": "11I1",
+  "objects": [
+    {
+      "id": "1",
+      "label": "Lieu",
+      "type": 4,
+      "function": 0,
+      "plan": 100,
+      "box": [
+        247,
+        375,
+        153,
+        105
+      ],
+      "options": [
+        {
+          "id": 1,
+          "value": 1,
+          "label": "Forêt",
+          "visual": "11D10001",
+          "audio": null
+        },
+        {
+          "id": 2,
+          "value": 2,
+          "label": "Bord de l'eau",
+          "visual": "11D10002",
+          "audio": null
+        },
+        {
+          "id": 3,
+          "value": 3,
+          "label": "Prairie",
+          "visual": "11D10003",
+          "audio": null
+        }
+      ],
+      "hints": {
+        "0": "Lieu : Dans le simulateur sont proposés 3 paysages où tu peux rencontrer différentes espèces : au coeur de la forêt, dans la prairie et au bord de l'eau. A cette lointaine époque, les dinosaures occupaient tous les milieux : l'air, la terre ou l'eau. La faune et la flore n'étaient pas très variées : plantes à fleurs et petits mammifères, commençaient seulement à apparaître.",
+        "1": "Lieu : Au Jurassique et au Crétacé, les dinosaures occupaient des milieux différents selon leur mode de vie. Le tyrannosaure du simulateur a horreur de l'eau ; il préfère se dissimuler dans la forêt où il peut fondre sur ses proies par surprise.",
+        "2": "Lieu : Au Jurassique et au Crétacé, les dinosaures se sont énormément multipliés et ont colonisé tous les milieux. Le tricératops du simulateur ne craint pas de se promener en forêt, mais il préfère les abords des marécages. Il se déplace en troupeaux.",
+        "3": "Lieu : Parasaurolophus était un herbivore de grande taille et pouvait donc se nourrir de plantes en hauteur ; mais celui du simulateur, plutôt craintif, n'aime pas la forêt qui peut dissimuler de puissants carnivores à l'affût. Il préfère la prairie qui permet de voir venir les prédateurs."
+      }
+    },
+    {
+      "id": "2",
+      "label": "Horaire",
+      "type": 4,
+      "function": 0,
+      "plan": 100,
+      "box": [
+        87,
+        355,
+        123,
+        97
+      ],
+      "options": [
+        {
+          "id": 1,
+          "value": 1,
+          "label": "Matin",
+          "visual": "11D20001",
+          "audio": null
+        },
+        {
+          "id": 2,
+          "value": 2,
+          "label": "Midi",
+          "visual": "11D20002",
+          "audio": null
+        },
+        {
+          "id": 3,
+          "value": 3,
+          "label": "Soir",
+          "visual": "11D20003",
+          "audio": null
+        }
+      ],
+      "hints": {
+        "0": "Horaire :  Le simulateur permet d'explorer le paysage à différentes heures de la journée : au lever et à la fin du jour, ou plutôt en milieu de journée.",
+        "1": "Horaire :  Dans le simulateur, on a imaginé que les différents dinosaures avaient des moments de la journée préférés pour se nourrir. Le tyrannosaure du simulateur, lui, aime bien faire la grasse matinée car c'est un chasseur nocturne.",
+        "2": "Horaire : Dans le simulateur, on a imaginé que les différents dinosaures avaient des moments de la journée préférés pour se nourrir. Le tricératops de notre simulateur aime manger de bonne heure et dormir après un bon repas.",
+        "3": "Horaire : Le parasaurolophus de notre simulateur est plutôt craintif. Le soir, il fuit toute activité par peur des mauvaises rencontres."
+      }
+    },
+    {
+      "id": "3",
+      "label": "Appât",
+      "type": 4,
+      "function": 0,
+      "plan": 100,
+      "box": [
+        408,
+        354,
+        191,
+        95
+      ],
+      "options": [
+        {
+          "id": 1,
+          "value": 1,
+          "label": "Appât : viande",
+          "visual": "11D30001",
+          "audio": null
+        },
+        {
+          "id": 2,
+          "value": 2,
+          "label": "Appât : fougère",
+          "visual": "11D30002",
+          "audio": null
+        },
+        {
+          "id": 3,
+          "value": 3,
+          "label": "Cri d'un parasaurolofus mâle",
+          "visual": "11D30003",
+          "audio": null
+        }
+      ],
+      "hints": {
+        "0": "Appât : Le simulateur te propose d'attirer les dinosaures à l'aide d'un appât. Ainsi, les carnivores sont intéressés par la viande et les herbivores sont toujours à la recherche de végétation. Mais la nourriture n'est pas le seul appât possible... En effet, mâles et femelles d'une même espèce se séduisent pendant les périodes amoureuses et le cri d'un congénère peut être un véritable attrait.",
+        "1": "Appât : Si tu veux que Tyrannosaurus s'approche de l'appareil de prélèvement, il faut l'attirer avec le mets qu'il préfère. Souviens-toi que les tyrannosaures aimaient les gros herbivores dont ils suivaient les troupeaux à la trace.",
+        "2": "Appât : Si tu veux que Tricératops s'approche de l'appareil de prélèvement, il faut que quelque chose  l'attire. Souviens-toi que les tricératops étaient de gros herbivores.",
+        "3": "Appât : Le parasaurolophus femelle de notre simulateur, bien qu'herbivore, est trop craintif pour se précipiter sur la fougère. Il faudra quelque chose de plus attractif. Souviens-toi que les parasaurolophus mâles avaient des attitudes de séduction particulières lors des parades nuptiales."
+      }
+    },
+    {
+      "id": "4",
+      "label": "Paysage",
+      "type": 1,
+      "function": 2,
+      "plan": 100,
+      "box": [
+        138,
+        48,
+        411,
+        302
+      ],
+      "options": [
+        {
+          "id": 1,
+          "value": 1,
+          "label": "La forêt, le matin",
+          "visual": "11D40001",
+          "audio": null
+        },
+        {
+          "id": 2,
+          "value": 2,
+          "label": "La forêt, à midi",
+          "visual": "11D40002",
+          "audio": null
+        },
+        {
+          "id": 3,
+          "value": 3,
+          "label": "La forêt, le soir",
+          "visual": "11D40003",
+          "audio": null
+        },
+        {
+          "id": 4,
+          "value": 4,
+          "label": "Le bord de l'eau, le matin",
+          "visual": "11D40004",
+          "audio": null
+        },
+        {
+          "id": 5,
+          "value": 5,
+          "label": "Le bord de l'eau, à midi",
+          "visual": "11D40005",
+          "audio": null
+        },
+        {
+          "id": 6,
+          "value": 6,
+          "label": "Le bord de l'eau, le soir",
+          "visual": "11D40006",
+          "audio": null
+        },
+        {
+          "id": 7,
+          "value": 7,
+          "label": "La prairie, le matin",
+          "visual": "11D40007",
+          "audio": null
+        },
+        {
+          "id": 8,
+          "value": 8,
+          "label": "La prairie, à midi",
+          "visual": "11D40008",
+          "audio": null
+        },
+        {
+          "id": 9,
+          "value": 9,
+          "label": "La prairie, le soir",
+          "visual": "11D40009",
+          "audio": null
+        }
+      ],
+      "hints": {
+        "0": "Activités : C'est dans la fenêtre du simulateur que l'on peut observer l'activité des dinosaures. Pour un lieu, un horaire et un appât donné, on peut observer une scène.  ",
+        "1": "Activités : Tyrannosaurus ou \"lézard tyran\" est le plus puissant carnassier qui ait jamais vécu sur Terre. Il mesurait une dizaine de mètres et était doté de puissantes mâchoires. C'était un bipède et ses pieds étaient pourvus de redoutables griffes. Il avait aussi de minuscules pattes avant dont le rôle est un mystère et une lourde queue servant de contrepoids. Ce prédateur se nourrissait de gros dinosaures herbivores.",
+        "2": "Activités : Le tricératops ou \"tête à 3 cornes\" était un énorme dinosaure herbivore et quadrupède. Il se caractérisait par la présence de 3 cornes sur la tête : une au-dessus des narines, et les deux autres sur le front. Il était également pourvu d'une collerette osseuse qui protégeait le cou et les épaules, mais on pense qu'elle pouvait aussi avoir un rôle thermorégulateur. Il vivait dans les prairies, pour manger des plantes au ras du sol, mais gagnait parfois les points d'eau afin de se désaltérer.",
+        "3": "Activités : Parasaurolophus était un herbivore bipède-quadrupède à \"bec de canard\". Il était doté d'une crête sur le sommet de sa tête ; on suppose que les crêtes des mâles changeaient de couleur à la saison des amours pour attirer la femelle. Le mâle avait une autre caractéristique intervenant dans la parade nuptiale : on pense qu'il était capable d'émettre un son assimilable à un cri, en expulsant de l'air par ses narines, après l'avoir fait résonner dans les cavités de sa crête."
+      }
+    },
+    {
+      "id": "5",
+      "label": "Résultat de l'observation",
+      "type": 1,
+      "function": 2,
+      "plan": 100,
+      "box": [
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "options": [
+        {
+          "id": 1,
+          "value": 1,
+          "label": "",
+          "visual": "11D50001",
+          "audio": null
+        },
+        {
+          "id": 2,
+          "value": 2,
+          "label": "",
+          "visual": "11D50002",
+          "audio": null
+        },
+        {
+          "id": 3,
+          "value": 3,
+          "label": "",
+          "visual": "11D50003",
+          "audio": null
+        },
+        {
+          "id": 4,
+          "value": 4,
+          "label": "",
+          "visual": "11D50004",
+          "audio": null
+        },
+        {
+          "id": 5,
+          "value": 5,
+          "label": "",
+          "visual": "11D50005",
+          "audio": null
+        },
+        {
+          "id": 6,
+          "value": 6,
+          "label": "",
+          "visual": "11D50006",
+          "audio": null
+        },
+        {
+          "id": 7,
+          "value": 7,
+          "label": "",
+          "visual": "11D50007",
+          "audio": null
+        },
+        {
+          "id": 8,
+          "value": 8,
+          "label": "",
+          "visual": "11D50008",
+          "audio": null
+        },
+        {
+          "id": 9,
+          "value": 9,
+          "label": "",
+          "visual": "11D50009",
+          "audio": null
+        },
+        {
+          "id": 10,
+          "value": 10,
+          "label": "",
+          "visual": "11D50010",
+          "audio": null
+        },
+        {
+          "id": 11,
+          "value": 11,
+          "label": "",
+          "visual": "11D50011",
+          "audio": null
+        },
+        {
+          "id": 12,
+          "value": 12,
+          "label": "",
+          "visual": "11D50012",
+          "audio": null
+        },
+        {
+          "id": 13,
+          "value": 13,
+          "label": "",
+          "visual": "11D50013",
+          "audio": null
+        },
+        {
+          "id": 14,
+          "value": 14,
+          "label": "",
+          "visual": "11D50014",
+          "audio": null
+        },
+        {
+          "id": 15,
+          "value": 15,
+          "label": "",
+          "visual": "11D50015",
+          "audio": null
+        },
+        {
+          "id": 16,
+          "value": 16,
+          "label": "",
+          "visual": "11D50016",
+          "audio": null
+        },
+        {
+          "id": 17,
+          "value": 17,
+          "label": "",
+          "visual": "11D50017",
+          "audio": null
+        },
+        {
+          "id": 18,
+          "value": 18,
+          "label": "",
+          "visual": "11D50018",
+          "audio": null
+        },
+        {
+          "id": 19,
+          "value": 19,
+          "label": "",
+          "visual": "11D50019",
+          "audio": null
+        },
+        {
+          "id": 20,
+          "value": 20,
+          "label": "",
+          "visual": "11D50020",
+          "audio": null
+        },
+        {
+          "id": 21,
+          "value": 21,
+          "label": "",
+          "visual": "11D50021",
+          "audio": null
+        },
+        {
+          "id": 22,
+          "value": 22,
+          "label": "",
+          "visual": "11D50022",
+          "audio": null
+        },
+        {
+          "id": 23,
+          "value": 23,
+          "label": "",
+          "visual": "11D50023",
+          "audio": null
+        },
+        {
+          "id": 24,
+          "value": 24,
+          "label": "",
+          "visual": "11D50024",
+          "audio": null
+        },
+        {
+          "id": 25,
+          "value": 25,
+          "label": "",
+          "visual": "11D50025",
+          "audio": null
+        },
+        {
+          "id": 26,
+          "value": 26,
+          "label": "",
+          "visual": "11D50026",
+          "audio": null
+        },
+        {
+          "id": 27,
+          "value": 27,
+          "label": "",
+          "visual": "11D50027",
+          "audio": null
+        },
+        {
+          "id": 28,
+          "value": 28,
+          "label": "",
+          "visual": "VIDE_DF",
+          "audio": null
+        }
+      ],
+      "hints": {
+        "0": "",
+        "1": "",
+        "2": "Activités : Le tricératops ou \"tête à 3 cornes\" était un énorme dinosaure herbivore et quadrupède. Il se caractérisait par la présence de 3 cornes sur la tête : une au-dessus des narines, et les deux autres sur le front. Il était également pourvu d'une collerette osseuse qui protégeait le cou et les épaules, mais on pense qu'elle pouvait aussi avoir un rôle thermorégulateur. Il vivait dans les prairies, pour manger des plantes au ras du sol, mais gagnait parfois les points d'eau afin de se désaltérer.",
+        "3": "Activités : Parasaurolophus était un herbivore bipède-quadrupède à \"bec de canard\". Il était doté d'une crête sur le sommet de sa tête ; on suppose que les crêtes des mâles changeaient de couleur à la saison des amours pour attirer la femelle. Le mâle avait une autre caractéristique intervenant dans la parade nuptiale : on pense qu'il était capable d'émettre un son assimilable à un cri, en expulsant de l'air par ses narines, après l'avoir fait résonner dans les cavités de sa crête."
+      }
+    },
+    {
+      "id": "6",
+      "label": "Bouton 'Go'",
+      "type": 3,
+      "function": 0,
+      "plan": 100,
+      "box": [
+        53,
+        146,
+        46,
+        51
+      ],
+      "options": [
+        {
+          "id": 1,
+          "value": 0,
+          "label": "Appuyer ici pour lancer l'appât et démarrer l'observation",
+          "visual": null,
+          "audio": null
+        },
+        {
+          "id": 2,
+          "value": 1,
+          "label": "",
+          "visual": "11D60002",
+          "audio": null
+        }
+      ],
+      "hints": {
+        "0": "Départ : pour un lieu et un horaire donnés, ce bouton déclenche l'utilisation de l'appât.",
+        "1": "Départ : pour un lieu et un horaire donnés, ce bouton déclenche l'utilisation de l'appât.",
+        "2": "Départ : pour un lieu et un horaire donnés, ce bouton déclenche l'utilisation de l'appât.",
+        "3": "Départ : pour un lieu et un horaire donnés, ce bouton déclenche l'utilisation de l'appât."
+      }
+    }
+  ],
+  "cases": [
+    {
+      "id": "0",
+      "label": "Mode libre",
+      "solutions": [
+        {
+          "1": 1,
+          "2": 1,
+          "3": 1
+        }
+      ],
+      "initial": {
+        "1": 1,
+        "2": 1,
+        "3": 1,
+        "4": 1,
+        "5": 16,
+        "6": 1
+      }
+    },
+    {
+      "id": "1",
+      "label": "Tyrannosaurus, un terrible prédateur.",
+      "solutions": [
+        {
+          "1": 1,
+          "2": 3,
+          "3": 1
+        }
+      ],
+      "initial": {
+        "1": 2,
+        "2": 2,
+        "3": 2,
+        "4": 5,
+        "5": 23,
+        "6": 1
+      }
+    },
+    {
+      "id": "2",
+      "label": "Tricératops, un drôle de rhinocéros",
+      "solutions": [
+        {
+          "1": 2,
+          "2": 1,
+          "3": 2
+        }
+      ],
+      "initial": {
+        "1": 3,
+        "2": 3,
+        "3": 3,
+        "4": 9,
+        "5": 26,
+        "6": 1
+      }
+    },
+    {
+      "id": "3",
+      "label": "Parasaurolophus, ce bruyant séducteur.",
+      "solutions": [
+        {
+          "1": 3,
+          "2": 2,
+          "3": 3
+        }
+      ],
+      "initial": {
+        "1": 1,
+        "2": 1,
+        "3": 1,
+        "4": 1,
+        "5": 16,
+        "6": 1
+      }
+    }
+  ],
+  "lookup": [
+    {
+      "object": "4",
+      "value": 1,
+      "conditions": {
+        "1": 1,
+        "2": 1
+      }
+    },
+    {
+      "object": "4",
+      "value": 2,
+      "conditions": {
+        "1": 1,
+        "2": 2
+      }
+    },
+    {
+      "object": "4",
+      "value": 3,
+      "conditions": {
+        "1": 1,
+        "2": 3
+      }
+    },
+    {
+      "object": "4",
+      "value": 4,
+      "conditions": {
+        "1": 2,
+        "2": 1
+      }
+    },
+    {
+      "object": "4",
+      "value": 5,
+      "conditions": {
+        "1": 2,
+        "2": 2
+      }
+    },
+    {
+      "object": "4",
+      "value": 6,
+      "conditions": {
+        "1": 2,
+        "2": 3
+      }
+    },
+    {
+      "object": "4",
+      "value": 7,
+      "conditions": {
+        "1": 3,
+        "2": 1
+      }
+    },
+    {
+      "object": "4",
+      "value": 8,
+      "conditions": {
+        "1": 3,
+        "2": 2
+      }
+    },
+    {
+      "object": "4",
+      "value": 9,
+      "conditions": {
+        "1": 3,
+        "2": 3
+      }
+    },
+    {
+      "object": "5",
+      "value": 16,
+      "conditions": {
+        "1": 1,
+        "2": 1,
+        "3": 1
+      }
+    },
+    {
+      "object": "5",
+      "value": 17,
+      "conditions": {
+        "1": 1,
+        "2": 2,
+        "3": 1
+      }
+    },
+    {
+      "object": "5",
+      "value": 1,
+      "conditions": {
+        "1": 1,
+        "2": 3,
+        "3": 1
+      }
+    },
+    {
+      "object": "5",
+      "value": 6,
+      "conditions": {
+        "1": 2,
+        "2": 1,
+        "3": 1
+      }
+    },
+    {
+      "object": "5",
+      "value": 18,
+      "conditions": {
+        "1": 2,
+        "2": 2,
+        "3": 1
+      }
+    },
+    {
+      "object": "5",
+      "value": 19,
+      "conditions": {
+        "1": 2,
+        "2": 3,
+        "3": 1
+      }
+    },
+    {
+      "object": "5",
+      "value": 20,
+      "conditions": {
+        "1": 3,
+        "2": 1,
+        "3": 1
+      }
+    },
+    {
+      "object": "5",
+      "value": 13,
+      "conditions": {
+        "1": 3,
+        "2": 2,
+        "3": 1
+      }
+    },
+    {
+      "object": "5",
+      "value": 11,
+      "conditions": {
+        "1": 3,
+        "2": 3,
+        "3": 1
+      }
+    },
+    {
+      "object": "5",
+      "value": 21,
+      "conditions": {
+        "1": 1,
+        "2": 1,
+        "3": 2
+      }
+    },
+    {
+      "object": "5",
+      "value": 2,
+      "conditions": {
+        "1": 1,
+        "2": 2,
+        "3": 2
+      }
+    },
+    {
+      "object": "5",
+      "value": 4,
+      "conditions": {
+        "1": 1,
+        "2": 3,
+        "3": 2
+      }
+    },
+    {
+      "object": "5",
+      "value": 10,
+      "conditions": {
+        "1": 2,
+        "2": 1,
+        "3": 2
+      }
+    },
+    {
+      "object": "5",
+      "value": 23,
+      "conditions": {
+        "1": 2,
+        "2": 2,
+        "3": 2
+      }
+    },
+    {
+      "object": "5",
+      "value": 24,
+      "conditions": {
+        "1": 2,
+        "2": 3,
+        "3": 2
+      }
+    },
+    {
+      "object": "5",
+      "value": 22,
+      "conditions": {
+        "1": 3,
+        "2": 1,
+        "3": 2
+      }
+    },
+    {
+      "object": "5",
+      "value": 12,
+      "conditions": {
+        "1": 3,
+        "2": 2,
+        "3": 2
+      }
+    },
+    {
+      "object": "5",
+      "value": 15,
+      "conditions": {
+        "1": 3,
+        "2": 3,
+        "3": 2
+      }
+    },
+    {
+      "object": "5",
+      "value": 5,
+      "conditions": {
+        "1": 1,
+        "2": 1,
+        "3": 3
+      }
+    },
+    {
+      "object": "5",
+      "value": 27,
+      "conditions": {
+        "1": 1,
+        "2": 2,
+        "3": 3
+      }
+    },
+    {
+      "object": "5",
+      "value": 3,
+      "conditions": {
+        "1": 1,
+        "2": 3,
+        "3": 3
+      }
+    },
+    {
+      "object": "5",
+      "value": 7,
+      "conditions": {
+        "1": 2,
+        "2": 1,
+        "3": 3
+      }
+    },
+    {
+      "object": "5",
+      "value": 9,
+      "conditions": {
+        "1": 2,
+        "2": 2,
+        "3": 3
+      }
+    },
+    {
+      "object": "5",
+      "value": 8,
+      "conditions": {
+        "1": 2,
+        "2": 3,
+        "3": 3
+      }
+    },
+    {
+      "object": "5",
+      "value": 25,
+      "conditions": {
+        "1": 3,
+        "2": 1,
+        "3": 3
+      }
+    },
+    {
+      "object": "5",
+      "value": 14,
+      "conditions": {
+        "1": 3,
+        "2": 2,
+        "3": 3
+      }
+    },
+    {
+      "object": "5",
+      "value": 26,
+      "conditions": {
+        "1": 3,
+        "2": 3,
+        "3": 3
+      }
+    }
+  ]
+}

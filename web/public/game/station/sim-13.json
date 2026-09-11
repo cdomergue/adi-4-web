@@ -1,0 +1,1926 @@
+{
+  "id": "13",
+  "title": "Eclipse de Soleil du 11 août 1999",
+  "background": "13I1",
+  "objects": [
+    {
+      "id": "1",
+      "label": "Heure",
+      "type": 4,
+      "function": 0,
+      "plan": 101,
+      "box": [
+        24,
+        308,
+        155,
+        150
+      ],
+      "options": [
+        {
+          "id": 1,
+          "value": 1,
+          "label": "10h00 TU (GMT)",
+          "visual": "13S10001",
+          "audio": null
+        },
+        {
+          "id": 2,
+          "value": 2,
+          "label": "10h05 TU (GMT)",
+          "visual": "13S10002",
+          "audio": null
+        },
+        {
+          "id": 3,
+          "value": 3,
+          "label": "10h10 TU (GMT)",
+          "visual": "13S10003",
+          "audio": null
+        },
+        {
+          "id": 4,
+          "value": 4,
+          "label": "10h15 TU (GMT)",
+          "visual": "13S10004",
+          "audio": null
+        },
+        {
+          "id": 5,
+          "value": 5,
+          "label": "10h20 TU (GMT)",
+          "visual": "13S10005",
+          "audio": null
+        },
+        {
+          "id": 6,
+          "value": 6,
+          "label": "10h25 TU (GMT)",
+          "visual": "13S10006",
+          "audio": null
+        },
+        {
+          "id": 7,
+          "value": 7,
+          "label": "10h30 TU (GMT)",
+          "visual": "13S10007",
+          "audio": null
+        },
+        {
+          "id": 8,
+          "value": 8,
+          "label": "10h35 TU (GMT)",
+          "visual": "13S10008",
+          "audio": null
+        },
+        {
+          "id": 9,
+          "value": 9,
+          "label": "10h40 TU (GMT)",
+          "visual": "13S10009",
+          "audio": null
+        },
+        {
+          "id": 10,
+          "value": 10,
+          "label": "10h45 TU (GMT)",
+          "visual": "13S10010",
+          "audio": null
+        },
+        {
+          "id": 11,
+          "value": 11,
+          "label": "10h50 TU (GMT)",
+          "visual": "13S10011",
+          "audio": null
+        },
+        {
+          "id": 12,
+          "value": 12,
+          "label": "10h55 TU (GMT)",
+          "visual": "13S10012",
+          "audio": null
+        },
+        {
+          "id": 13,
+          "value": 13,
+          "label": "11h00 TU (GMT)",
+          "visual": "13S10013",
+          "audio": null
+        }
+      ],
+      "hints": {
+        "0": "Heure TU : c'est la tranche horaire 10h-11h exprimée en Temps Universel (UT en anglais) ou heure du méridien de Greenwich (GMT). Le Temps Universel est l'heure de référence de toute la planète qui permet de dater un événement, indépendamment des fuseaux horaires locaux. En France, en été, on a deux heures d'avance par rapport au TU, c'est-à-dire que l'éclipse pourra être observée un peu après 12h, heure de Paris.",
+        "1": "Heure TU : c'est la tranche horaire 10h-11h exprimée en Temps Universel (UT en anglais) ou heure du méridien de Greenwich (GMT). Le Temps Universel est l'heure de référence de toute la planète qui permet de dater un événement, indépendamment des fuseaux horaires locaux.",
+        "2": "Heure TU : c'est la tranche horaire 10h-11h exprimée en Temps Universel (UT en anglais) ou heure du méridien de Greenwich (GMT). Le Temps Universel est l'heure de référence de toute la planète qui permet de dater un événement, indépendamment des fuseaux horaires locaux. En Angleterre, en été, on a une heure d'avance par rapport au TU, c'est-à-dire que l'éclipse pourra être observée un peu après 11h, heure de Londres.",
+        "3": "Heure TU : c'est la tranche horaire 10h-11h exprimée en Temps Universel (UT en anglais) ou heure du méridien de Greenwich (GMT). Le Temps Universel est l'heure de référence de toute la planète qui permet de dater un événement, indépendamment des fuseaux horaires locaux."
+      }
+    },
+    {
+      "id": "2",
+      "label": "Point de vue sur terre",
+      "type": 4,
+      "function": 0,
+      "plan": 101,
+      "box": [
+        459,
+        315,
+        174,
+        151
+      ],
+      "options": [
+        {
+          "id": 1,
+          "value": 1,
+          "label": "Londres",
+          "visual": "13D20001",
+          "audio": null
+        },
+        {
+          "id": 2,
+          "value": 2,
+          "label": "Paris",
+          "visual": "13D20002",
+          "audio": null
+        },
+        {
+          "id": 3,
+          "value": 3,
+          "label": "Strasbourg",
+          "visual": "13D20003",
+          "audio": null
+        },
+        {
+          "id": 4,
+          "value": 4,
+          "label": "Munich",
+          "visual": "13D20004",
+          "audio": null
+        },
+        {
+          "id": 5,
+          "value": 5,
+          "label": "Madrid",
+          "visual": "13D20005",
+          "audio": null
+        },
+        {
+          "id": 6,
+          "value": 6,
+          "label": "Rome",
+          "visual": "13D20006",
+          "audio": null
+        }
+      ],
+      "hints": {
+        "0": "Point de vue sur Terre : cette carte permet de choisir un point d'observation parmi quelques villes d'Europe, pour une heure donnée.",
+        "1": "Point de vue sur Terre : cette carte permet de choisir un point d'observation parmi quelques villes d'Europe, pour une heure donnée.",
+        "2": "Point de vue sur Terre : cette carte permet de choisir un point d'observation parmi quelques villes d'Europe, pour une heure donnée.",
+        "3": "Point de vue sur Terre : cette carte permet de choisir un point d'observation parmi quelques villes d'Europe. La latitude est la distance mesurée en degré à partir du méridien de référence, 0°, situé à Greenwich en Angleterre. Par exemple, la latitude de Rome est proche de 12° Est."
+      }
+    },
+    {
+      "id": "3",
+      "label": "Ville",
+      "type": 1,
+      "function": 1,
+      "plan": 101,
+      "box": [
+        252,
+        1,
+        135,
+        35
+      ],
+      "options": [
+        {
+          "id": 1,
+          "value": 1,
+          "label": "Ville d'observation de l'éclipse",
+          "visual": "13D30001",
+          "audio": null
+        },
+        {
+          "id": 2,
+          "value": 2,
+          "label": "Ville d'observation de l'éclipse",
+          "visual": "13D30002",
+          "audio": null
+        },
+        {
+          "id": 3,
+          "value": 3,
+          "label": "Ville d'observation de l'éclipse",
+          "visual": "13D30003",
+          "audio": null
+        },
+        {
+          "id": 4,
+          "value": 4,
+          "label": "Ville d'observation de l'éclipse",
+          "visual": "13D30004",
+          "audio": null
+        },
+        {
+          "id": 5,
+          "value": 5,
+          "label": "Ville d'observation de l'éclipse",
+          "visual": "13D30005",
+          "audio": null
+        },
+        {
+          "id": 6,
+          "value": 6,
+          "label": "Ville d'observation de l'éclipse",
+          "visual": "13D30006",
+          "audio": null
+        }
+      ],
+      "hints": {
+        "0": "Ville d'observation : Ici, s'affiche le nom de la ville d'observation choisie sur la carte de l'Europe.",
+        "1": "Ville d'observation : Ici, s'affiche le nom de la ville d'observation choisie sur la carte de l'Europe.",
+        "2": "Ville d'observation : Ici, s'affiche le nom de la ville d'observation choisie sur la carte de l'Europe.",
+        "3": "Ville d'observation : Ici, s'affiche le nom de la ville d'observation choisie sur la carte de l'Europe."
+      }
+    },
+    {
+      "id": "4",
+      "label": "Vue du ciel depuis la terre. (mm lieu)",
+      "type": 1,
+      "function": 1,
+      "plan": 101,
+      "box": [
+        9,
+        51,
+        304,
+        215
+      ],
+      "options": [
+        {
+          "id": 1,
+          "value": 1,
+          "label": "Vue du ciel depuis la Terre",
+          "visual": "13S40001",
+          "audio": null
+        },
+        {
+          "id": 2,
+          "value": 2,
+          "label": "Vue du ciel depuis la Terre",
+          "visual": "13S40002",
+          "audio": null
+        },
+        {
+          "id": 3,
+          "value": 3,
+          "label": "Vue du ciel depuis la Terre",
+          "visual": "13S40003",
+          "audio": null
+        },
+        {
+          "id": 4,
+          "value": 4,
+          "label": "Vue du ciel depuis la Terre",
+          "visual": "13S40004",
+          "audio": null
+        },
+        {
+          "id": 5,
+          "value": 5,
+          "label": "Vue du ciel depuis la Terre",
+          "visual": "13S40005",
+          "audio": null
+        },
+        {
+          "id": 6,
+          "value": 6,
+          "label": "Vue du ciel depuis la Terre",
+          "visual": "13S40006",
+          "audio": null
+        },
+        {
+          "id": 7,
+          "value": 7,
+          "label": "Vue du ciel depuis la Terre",
+          "visual": "13S40007",
+          "audio": null
+        },
+        {
+          "id": 8,
+          "value": 8,
+          "label": "Vue du ciel depuis la Terre",
+          "visual": "13S40008",
+          "audio": null
+        },
+        {
+          "id": 9,
+          "value": 9,
+          "label": "Vue du ciel depuis la Terre",
+          "visual": "13S40009",
+          "audio": null
+        },
+        {
+          "id": 10,
+          "value": 10,
+          "label": "Vue du ciel depuis la Terre",
+          "visual": "13S40010",
+          "audio": null
+        },
+        {
+          "id": 11,
+          "value": 11,
+          "label": "Vue du ciel depuis la Terre",
+          "visual": "13S40011",
+          "audio": null
+        },
+        {
+          "id": 12,
+          "value": 12,
+          "label": "Vue du ciel depuis la Terre",
+          "visual": "13S40012",
+          "audio": null
+        },
+        {
+          "id": 13,
+          "value": 13,
+          "label": "Vue du ciel depuis la Terre",
+          "visual": "13S40013",
+          "audio": null
+        },
+        {
+          "id": 14,
+          "value": 14,
+          "label": "Vue du ciel depuis la Terre",
+          "visual": "13S40014",
+          "audio": null
+        },
+        {
+          "id": 15,
+          "value": 15,
+          "label": "Vue du ciel depuis la Terre",
+          "visual": "13S40015",
+          "audio": null
+        },
+        {
+          "id": 16,
+          "value": 16,
+          "label": "Vue du ciel depuis la Terre",
+          "visual": "13S40016",
+          "audio": null
+        },
+        {
+          "id": 17,
+          "value": 17,
+          "label": "Vue du ciel depuis la Terre",
+          "visual": "13S40017",
+          "audio": null
+        },
+        {
+          "id": 18,
+          "value": 18,
+          "label": "Vue du ciel depuis la Terre",
+          "visual": "13S40018",
+          "audio": null
+        },
+        {
+          "id": 19,
+          "value": 19,
+          "label": "Vue du ciel depuis la Terre",
+          "visual": "13S40019",
+          "audio": null
+        },
+        {
+          "id": 20,
+          "value": 20,
+          "label": "Vue du ciel depuis la Terre",
+          "visual": "13S40020",
+          "audio": null
+        },
+        {
+          "id": 21,
+          "value": 21,
+          "label": "Vue du ciel depuis la Terre",
+          "visual": "13S40021",
+          "audio": null
+        },
+        {
+          "id": 22,
+          "value": 22,
+          "label": "Vue du ciel depuis la Terre",
+          "visual": "13S40022",
+          "audio": null
+        },
+        {
+          "id": 23,
+          "value": 23,
+          "label": "Vue du ciel depuis la Terre",
+          "visual": "13S40023",
+          "audio": null
+        },
+        {
+          "id": 24,
+          "value": 24,
+          "label": "Vue du ciel depuis la Terre",
+          "visual": "13S40024",
+          "audio": null
+        },
+        {
+          "id": 25,
+          "value": 25,
+          "label": "Vue du ciel depuis la Terre",
+          "visual": "13S40025",
+          "audio": null
+        },
+        {
+          "id": 26,
+          "value": 26,
+          "label": "Vue du ciel depuis la Terre",
+          "visual": "13S40026",
+          "audio": null
+        },
+        {
+          "id": 27,
+          "value": 27,
+          "label": "Vue du ciel depuis la Terre",
+          "visual": "13S40027",
+          "audio": null
+        },
+        {
+          "id": 28,
+          "value": 28,
+          "label": "Vue du ciel depuis la Terre",
+          "visual": "13S40028",
+          "audio": null
+        },
+        {
+          "id": 29,
+          "value": 29,
+          "label": "Vue du ciel depuis la Terre",
+          "visual": "13S40029",
+          "audio": null
+        },
+        {
+          "id": 30,
+          "value": 30,
+          "label": "Vue du ciel depuis la Terre",
+          "visual": "13S40030",
+          "audio": null
+        },
+        {
+          "id": 31,
+          "value": 31,
+          "label": "Vue du ciel depuis la Terre",
+          "visual": "13S40031",
+          "audio": null
+        },
+        {
+          "id": 32,
+          "value": 32,
+          "label": "Vue du ciel depuis la Terre",
+          "visual": "13S40032",
+          "audio": null
+        },
+        {
+          "id": 33,
+          "value": 33,
+          "label": "Vue du ciel depuis la Terre",
+          "visual": "13S40033",
+          "audio": null
+        },
+        {
+          "id": 34,
+          "value": 34,
+          "label": "Vue du ciel depuis la Terre",
+          "visual": "13S40034",
+          "audio": null
+        },
+        {
+          "id": 35,
+          "value": 35,
+          "label": "Vue du ciel depuis la Terre",
+          "visual": "13S40035",
+          "audio": null
+        },
+        {
+          "id": 36,
+          "value": 36,
+          "label": "Vue du ciel depuis la Terre",
+          "visual": "13S40036",
+          "audio": null
+        },
+        {
+          "id": 37,
+          "value": 37,
+          "label": "Vue du ciel depuis la Terre",
+          "visual": "13S40037",
+          "audio": null
+        },
+        {
+          "id": 38,
+          "value": 38,
+          "label": "Vue du ciel depuis la Terre",
+          "visual": "13S40038",
+          "audio": null
+        },
+        {
+          "id": 39,
+          "value": 39,
+          "label": "Vue du ciel depuis la Terre",
+          "visual": "13S40039",
+          "audio": null
+        },
+        {
+          "id": 40,
+          "value": 40,
+          "label": "Vue du ciel depuis la Terre",
+          "visual": "13S40040",
+          "audio": null
+        },
+        {
+          "id": 41,
+          "value": 41,
+          "label": "Vue du ciel depuis la Terre",
+          "visual": "13S40041",
+          "audio": null
+        },
+        {
+          "id": 42,
+          "value": 42,
+          "label": "Vue du ciel depuis la Terre",
+          "visual": "13S40042",
+          "audio": null
+        },
+        {
+          "id": 43,
+          "value": 43,
+          "label": "Vue du ciel depuis la Terre",
+          "visual": "13S40043",
+          "audio": null
+        },
+        {
+          "id": 44,
+          "value": 44,
+          "label": "Vue du ciel depuis la Terre",
+          "visual": "13S40044",
+          "audio": null
+        },
+        {
+          "id": 45,
+          "value": 45,
+          "label": "Vue du ciel depuis la Terre",
+          "visual": "13S40045",
+          "audio": null
+        },
+        {
+          "id": 46,
+          "value": 46,
+          "label": "Vue du ciel depuis la Terre",
+          "visual": "13S40046",
+          "audio": null
+        },
+        {
+          "id": 47,
+          "value": 47,
+          "label": "Vue du ciel depuis la Terre",
+          "visual": "13S40047",
+          "audio": null
+        },
+        {
+          "id": 48,
+          "value": 48,
+          "label": "Vue du ciel depuis la Terre",
+          "visual": "13S40048",
+          "audio": null
+        },
+        {
+          "id": 49,
+          "value": 49,
+          "label": "Vue du ciel depuis la Terre",
+          "visual": "13S40049",
+          "audio": null
+        },
+        {
+          "id": 50,
+          "value": 50,
+          "label": "Vue du ciel depuis la Terre",
+          "visual": "13S40050",
+          "audio": null
+        },
+        {
+          "id": 51,
+          "value": 51,
+          "label": "Vue du ciel depuis la Terre",
+          "visual": "13S40051",
+          "audio": null
+        },
+        {
+          "id": 52,
+          "value": 52,
+          "label": "Vue du ciel depuis la Terre",
+          "visual": "13S40052",
+          "audio": null
+        },
+        {
+          "id": 53,
+          "value": 53,
+          "label": "Vue du ciel depuis la Terre",
+          "visual": "13S40053",
+          "audio": null
+        },
+        {
+          "id": 54,
+          "value": 54,
+          "label": "Vue du ciel depuis la Terre",
+          "visual": "13S40054",
+          "audio": null
+        },
+        {
+          "id": 55,
+          "value": 55,
+          "label": "Vue du ciel depuis la Terre",
+          "visual": "13S40055",
+          "audio": null
+        },
+        {
+          "id": 56,
+          "value": 56,
+          "label": "Vue du ciel depuis la Terre",
+          "visual": "13S40056",
+          "audio": null
+        },
+        {
+          "id": 57,
+          "value": 57,
+          "label": "Vue du ciel depuis la Terre",
+          "visual": "13S40057",
+          "audio": null
+        },
+        {
+          "id": 58,
+          "value": 58,
+          "label": "Vue du ciel depuis la Terre",
+          "visual": "13S40058",
+          "audio": null
+        },
+        {
+          "id": 59,
+          "value": 59,
+          "label": "Vue du ciel depuis la Terre",
+          "visual": "13S40059",
+          "audio": null
+        },
+        {
+          "id": 60,
+          "value": 60,
+          "label": "Vue du ciel depuis la Terre",
+          "visual": "13S40060",
+          "audio": null
+        },
+        {
+          "id": 61,
+          "value": 61,
+          "label": "Vue du ciel depuis la Terre",
+          "visual": "13S40061",
+          "audio": null
+        },
+        {
+          "id": 62,
+          "value": 62,
+          "label": "Vue du ciel depuis la Terre",
+          "visual": "13S40062",
+          "audio": null
+        },
+        {
+          "id": 63,
+          "value": 63,
+          "label": "Vue du ciel depuis la Terre",
+          "visual": "13S40063",
+          "audio": null
+        },
+        {
+          "id": 64,
+          "value": 64,
+          "label": "Vue du ciel depuis la Terre",
+          "visual": "13S40064",
+          "audio": null
+        },
+        {
+          "id": 65,
+          "value": 65,
+          "label": "Vue du ciel depuis la Terre",
+          "visual": "13S40065",
+          "audio": null
+        },
+        {
+          "id": 66,
+          "value": 66,
+          "label": "Vue du ciel depuis la Terre",
+          "visual": "13S40066",
+          "audio": null
+        },
+        {
+          "id": 67,
+          "value": 67,
+          "label": "Vue du ciel depuis la Terre",
+          "visual": "13S40067",
+          "audio": null
+        },
+        {
+          "id": 68,
+          "value": 68,
+          "label": "Vue du ciel depuis la Terre",
+          "visual": "13S40068",
+          "audio": null
+        },
+        {
+          "id": 69,
+          "value": 69,
+          "label": "Vue du ciel depuis la Terre",
+          "visual": "13S40069",
+          "audio": null
+        },
+        {
+          "id": 70,
+          "value": 70,
+          "label": "Vue du ciel depuis la Terre",
+          "visual": "13S40070",
+          "audio": null
+        },
+        {
+          "id": 71,
+          "value": 71,
+          "label": "Vue du ciel depuis la Terre",
+          "visual": "13S40071",
+          "audio": null
+        },
+        {
+          "id": 72,
+          "value": 72,
+          "label": "Vue du ciel depuis la Terre",
+          "visual": "13S40072",
+          "audio": null
+        },
+        {
+          "id": 73,
+          "value": 73,
+          "label": "Vue du ciel depuis la Terre",
+          "visual": "13S40073",
+          "audio": null
+        },
+        {
+          "id": 74,
+          "value": 74,
+          "label": "Vue du ciel depuis la Terre",
+          "visual": "13S40074",
+          "audio": null
+        },
+        {
+          "id": 75,
+          "value": 75,
+          "label": "Vue du ciel depuis la Terre",
+          "visual": "13S40075",
+          "audio": null
+        },
+        {
+          "id": 76,
+          "value": 76,
+          "label": "Vue du ciel depuis la Terre",
+          "visual": "13S40076",
+          "audio": null
+        },
+        {
+          "id": 77,
+          "value": 77,
+          "label": "Vue du ciel depuis la Terre",
+          "visual": "13S40077",
+          "audio": null
+        },
+        {
+          "id": 78,
+          "value": 78,
+          "label": "Vue du ciel depuis la Terre",
+          "visual": "13S40078",
+          "audio": null
+        }
+      ],
+      "hints": {
+        "0": "Vue du ciel depuis la Terre : cette vue présente la position de l'éclipse dans le ciel d'un lieu pris sur Terre. A cet endroit, l'éclipse peut être partielle ou totale. L'heure indiquée est l'heure légale dans la ville choisie, elle diffère de l'heure en temps universel. (TU)",
+        "1": "Vue du ciel depuis la Terre : cette vue présente la position de l'éclipse dans le ciel d'un lieu pris sur Terre. A cet endroit, l'éclipse peut être partielle ou totale. L'heure indiquée est l'heure légale dans la ville choisie, elle diffère de l'heure en temps universel. (TU)",
+        "2": "Vue du ciel depuis la Terre : cette vue présente la position de l'éclipse dans le ciel d'un lieu pris sur Terre. A cet endroit, l'éclipse peut être partielle ou totale. L'heure indiquée est l'heure légale dans la ville choisie, elle diffère de l'heure en temps universel. (TU)",
+        "3": "Vue du ciel depuis la Terre : cette vue présente la position de l'éclipse dans le ciel d'un lieu pris sur Terre. A cet endroit, l'éclipse peut être partielle ou totale. L'heure indiquée est l'heure légale dans la ville choisie, elle diffère de l'heure en temps universel. (TU)"
+      }
+    },
+    {
+      "id": "5",
+      "label": "Vue du ciel depuis la terre. (mm instant)",
+      "type": 1,
+      "function": 1,
+      "plan": 101,
+      "box": [
+        9,
+        51,
+        304,
+        215
+      ],
+      "options": [
+        {
+          "id": 1,
+          "value": 1,
+          "label": "Vue du ciel depuis la Terre",
+          "visual": "13D50001",
+          "audio": null
+        },
+        {
+          "id": 2,
+          "value": 2,
+          "label": "Vue du ciel depuis la Terre",
+          "visual": "13D50002",
+          "audio": null
+        },
+        {
+          "id": 3,
+          "value": 3,
+          "label": "Vue du ciel depuis la Terre",
+          "visual": "13D50003",
+          "audio": null
+        },
+        {
+          "id": 4,
+          "value": 4,
+          "label": "Vue du ciel depuis la Terre",
+          "visual": "13D50004",
+          "audio": null
+        },
+        {
+          "id": 5,
+          "value": 5,
+          "label": "Vue du ciel depuis la Terre",
+          "visual": "13D50005",
+          "audio": null
+        },
+        {
+          "id": 6,
+          "value": 6,
+          "label": "Vue du ciel depuis la Terre",
+          "visual": "13D50006",
+          "audio": null
+        },
+        {
+          "id": 7,
+          "value": 7,
+          "label": "Vue du ciel depuis la Terre",
+          "visual": "13D50007",
+          "audio": null
+        },
+        {
+          "id": 8,
+          "value": 8,
+          "label": "Vue du ciel depuis la Terre",
+          "visual": "13D50008",
+          "audio": null
+        },
+        {
+          "id": 9,
+          "value": 9,
+          "label": "Vue du ciel depuis la Terre",
+          "visual": "13D50009",
+          "audio": null
+        },
+        {
+          "id": 10,
+          "value": 10,
+          "label": "Vue du ciel depuis la Terre",
+          "visual": "13D50010",
+          "audio": null
+        },
+        {
+          "id": 11,
+          "value": 11,
+          "label": "Vue du ciel depuis la Terre",
+          "visual": "13D50011",
+          "audio": null
+        },
+        {
+          "id": 12,
+          "value": 12,
+          "label": "Vue du ciel depuis la Terre",
+          "visual": "13D50012",
+          "audio": null
+        },
+        {
+          "id": 13,
+          "value": 13,
+          "label": "Vue du ciel depuis la Terre",
+          "visual": "13D50013",
+          "audio": null
+        },
+        {
+          "id": 14,
+          "value": 14,
+          "label": "Vue du ciel depuis la Terre",
+          "visual": "13D50014",
+          "audio": null
+        },
+        {
+          "id": 15,
+          "value": 15,
+          "label": "Vue du ciel depuis la Terre",
+          "visual": "13D50015",
+          "audio": null
+        },
+        {
+          "id": 16,
+          "value": 16,
+          "label": "Vue du ciel depuis la Terre",
+          "visual": "13D50016",
+          "audio": null
+        },
+        {
+          "id": 17,
+          "value": 17,
+          "label": "Vue du ciel depuis la Terre",
+          "visual": "13D50017",
+          "audio": null
+        },
+        {
+          "id": 18,
+          "value": 18,
+          "label": "Vue du ciel depuis la Terre",
+          "visual": "13D50018",
+          "audio": null
+        },
+        {
+          "id": 19,
+          "value": 19,
+          "label": "Vue du ciel depuis la Terre",
+          "visual": "13D50019",
+          "audio": null
+        },
+        {
+          "id": 20,
+          "value": 20,
+          "label": "Vue du ciel depuis la Terre",
+          "visual": "13D50020",
+          "audio": null
+        },
+        {
+          "id": 21,
+          "value": 21,
+          "label": "Vue du ciel depuis la Terre",
+          "visual": "13D50021",
+          "audio": null
+        },
+        {
+          "id": 22,
+          "value": 22,
+          "label": "Vue du ciel depuis la Terre",
+          "visual": "13D50022",
+          "audio": null
+        },
+        {
+          "id": 23,
+          "value": 23,
+          "label": "Vue du ciel depuis la Terre",
+          "visual": "13D50023",
+          "audio": null
+        },
+        {
+          "id": 24,
+          "value": 24,
+          "label": "Vue du ciel depuis la Terre",
+          "visual": "13D50024",
+          "audio": null
+        },
+        {
+          "id": 25,
+          "value": 25,
+          "label": "Vue du ciel depuis la Terre",
+          "visual": "13D50025",
+          "audio": null
+        },
+        {
+          "id": 26,
+          "value": 26,
+          "label": "Vue du ciel depuis la Terre",
+          "visual": "13D50026",
+          "audio": null
+        },
+        {
+          "id": 27,
+          "value": 27,
+          "label": "Vue du ciel depuis la Terre",
+          "visual": "13D50027",
+          "audio": null
+        },
+        {
+          "id": 28,
+          "value": 28,
+          "label": "Vue du ciel depuis la Terre",
+          "visual": "13D50028",
+          "audio": null
+        },
+        {
+          "id": 29,
+          "value": 29,
+          "label": "Vue du ciel depuis la Terre",
+          "visual": "13D50029",
+          "audio": null
+        },
+        {
+          "id": 30,
+          "value": 30,
+          "label": "Vue du ciel depuis la Terre",
+          "visual": "13D50030",
+          "audio": null
+        },
+        {
+          "id": 31,
+          "value": 31,
+          "label": "Vue du ciel depuis la Terre",
+          "visual": "13D50031",
+          "audio": null
+        },
+        {
+          "id": 32,
+          "value": 32,
+          "label": "Vue du ciel depuis la Terre",
+          "visual": "13D50032",
+          "audio": null
+        },
+        {
+          "id": 33,
+          "value": 33,
+          "label": "Vue du ciel depuis la Terre",
+          "visual": "13D50033",
+          "audio": null
+        },
+        {
+          "id": 34,
+          "value": 34,
+          "label": "Vue du ciel depuis la Terre",
+          "visual": "13D50034",
+          "audio": null
+        },
+        {
+          "id": 35,
+          "value": 35,
+          "label": "Vue du ciel depuis la Terre",
+          "visual": "13D50035",
+          "audio": null
+        },
+        {
+          "id": 36,
+          "value": 36,
+          "label": "Vue du ciel depuis la Terre",
+          "visual": "13D50036",
+          "audio": null
+        },
+        {
+          "id": 37,
+          "value": 37,
+          "label": "Vue du ciel depuis la Terre",
+          "visual": "13D50037",
+          "audio": null
+        },
+        {
+          "id": 38,
+          "value": 38,
+          "label": "Vue du ciel depuis la Terre",
+          "visual": "13D50038",
+          "audio": null
+        },
+        {
+          "id": 39,
+          "value": 39,
+          "label": "Vue du ciel depuis la Terre",
+          "visual": "13D50039",
+          "audio": null
+        },
+        {
+          "id": 40,
+          "value": 40,
+          "label": "Vue du ciel depuis la Terre",
+          "visual": "13D50040",
+          "audio": null
+        },
+        {
+          "id": 41,
+          "value": 41,
+          "label": "Vue du ciel depuis la Terre",
+          "visual": "13D50041",
+          "audio": null
+        },
+        {
+          "id": 42,
+          "value": 42,
+          "label": "Vue du ciel depuis la Terre",
+          "visual": "13D50042",
+          "audio": null
+        },
+        {
+          "id": 43,
+          "value": 43,
+          "label": "Vue du ciel depuis la Terre",
+          "visual": "13D50043",
+          "audio": null
+        },
+        {
+          "id": 44,
+          "value": 44,
+          "label": "Vue du ciel depuis la Terre",
+          "visual": "13D50044",
+          "audio": null
+        },
+        {
+          "id": 45,
+          "value": 45,
+          "label": "Vue du ciel depuis la Terre",
+          "visual": "13D50045",
+          "audio": null
+        },
+        {
+          "id": 46,
+          "value": 46,
+          "label": "Vue du ciel depuis la Terre",
+          "visual": "13D50046",
+          "audio": null
+        },
+        {
+          "id": 47,
+          "value": 47,
+          "label": "Vue du ciel depuis la Terre",
+          "visual": "13D50047",
+          "audio": null
+        },
+        {
+          "id": 48,
+          "value": 48,
+          "label": "Vue du ciel depuis la Terre",
+          "visual": "13D50048",
+          "audio": null
+        },
+        {
+          "id": 49,
+          "value": 49,
+          "label": "Vue du ciel depuis la Terre",
+          "visual": "13D50049",
+          "audio": null
+        },
+        {
+          "id": 50,
+          "value": 50,
+          "label": "Vue du ciel depuis la Terre",
+          "visual": "13D50050",
+          "audio": null
+        },
+        {
+          "id": 51,
+          "value": 51,
+          "label": "Vue du ciel depuis la Terre",
+          "visual": "13D50051",
+          "audio": null
+        },
+        {
+          "id": 52,
+          "value": 52,
+          "label": "Vue du ciel depuis la Terre",
+          "visual": "13D50052",
+          "audio": null
+        },
+        {
+          "id": 53,
+          "value": 53,
+          "label": "Vue du ciel depuis la Terre",
+          "visual": "13D50053",
+          "audio": null
+        },
+        {
+          "id": 54,
+          "value": 54,
+          "label": "Vue du ciel depuis la Terre",
+          "visual": "13D50054",
+          "audio": null
+        },
+        {
+          "id": 55,
+          "value": 55,
+          "label": "Vue du ciel depuis la Terre",
+          "visual": "13D50055",
+          "audio": null
+        },
+        {
+          "id": 56,
+          "value": 56,
+          "label": "Vue du ciel depuis la Terre",
+          "visual": "13D50056",
+          "audio": null
+        },
+        {
+          "id": 57,
+          "value": 57,
+          "label": "Vue du ciel depuis la Terre",
+          "visual": "13D50057",
+          "audio": null
+        },
+        {
+          "id": 58,
+          "value": 58,
+          "label": "Vue du ciel depuis la Terre",
+          "visual": "13D50058",
+          "audio": null
+        },
+        {
+          "id": 59,
+          "value": 59,
+          "label": "Vue du ciel depuis la Terre",
+          "visual": "13D50059",
+          "audio": null
+        },
+        {
+          "id": 60,
+          "value": 60,
+          "label": "Vue du ciel depuis la Terre",
+          "visual": "13D50060",
+          "audio": null
+        },
+        {
+          "id": 61,
+          "value": 61,
+          "label": "Vue du ciel depuis la Terre",
+          "visual": "13D50061",
+          "audio": null
+        },
+        {
+          "id": 62,
+          "value": 62,
+          "label": "Vue du ciel depuis la Terre",
+          "visual": "13D50062",
+          "audio": null
+        },
+        {
+          "id": 63,
+          "value": 63,
+          "label": "Vue du ciel depuis la Terre",
+          "visual": "13D50063",
+          "audio": null
+        },
+        {
+          "id": 64,
+          "value": 64,
+          "label": "Vue du ciel depuis la Terre",
+          "visual": "13D50064",
+          "audio": null
+        },
+        {
+          "id": 65,
+          "value": 65,
+          "label": "Vue du ciel depuis la Terre",
+          "visual": "13D50065",
+          "audio": null
+        },
+        {
+          "id": 66,
+          "value": 66,
+          "label": "Vue du ciel depuis la Terre",
+          "visual": "13D50066",
+          "audio": null
+        },
+        {
+          "id": 67,
+          "value": 67,
+          "label": "Vue du ciel depuis la Terre",
+          "visual": "13D50067",
+          "audio": null
+        },
+        {
+          "id": 68,
+          "value": 68,
+          "label": "Vue du ciel depuis la Terre",
+          "visual": "13D50068",
+          "audio": null
+        },
+        {
+          "id": 69,
+          "value": 69,
+          "label": "Vue du ciel depuis la Terre",
+          "visual": "13D50069",
+          "audio": null
+        },
+        {
+          "id": 70,
+          "value": 70,
+          "label": "Vue du ciel depuis la Terre",
+          "visual": "13D50070",
+          "audio": null
+        },
+        {
+          "id": 71,
+          "value": 71,
+          "label": "Vue du ciel depuis la Terre",
+          "visual": "13D50071",
+          "audio": null
+        },
+        {
+          "id": 72,
+          "value": 72,
+          "label": "Vue du ciel depuis la Terre",
+          "visual": "13D50072",
+          "audio": null
+        },
+        {
+          "id": 73,
+          "value": 73,
+          "label": "Vue du ciel depuis la Terre",
+          "visual": "13D50073",
+          "audio": null
+        },
+        {
+          "id": 74,
+          "value": 74,
+          "label": "Vue du ciel depuis la Terre",
+          "visual": "13D50074",
+          "audio": null
+        },
+        {
+          "id": 75,
+          "value": 75,
+          "label": "Vue du ciel depuis la Terre",
+          "visual": "13D50075",
+          "audio": null
+        },
+        {
+          "id": 76,
+          "value": 76,
+          "label": "Vue du ciel depuis la Terre",
+          "visual": "13D50076",
+          "audio": null
+        },
+        {
+          "id": 77,
+          "value": 77,
+          "label": "Vue du ciel depuis la Terre",
+          "visual": "13D50077",
+          "audio": null
+        },
+        {
+          "id": 78,
+          "value": 78,
+          "label": "Vue du ciel depuis la Terre",
+          "visual": "13D50078",
+          "audio": null
+        }
+      ],
+      "hints": {
+        "0": "Vue du ciel depuis la Terre : cette vue présente la position de l'éclipse dans le ciel d'un lieu pris sur Terre. A cet endroit, l'éclipse peut être partielle ou totale. L'heure indiquée est l'heure légale dans la ville choisie, elle diffère de l'heure en temps universel. (TU)",
+        "1": "Vue du ciel depuis la Terre : cette vue présente la position de l'éclipse dans le ciel d'un lieu pris sur Terre. A cet endroit, l'éclipse peut être partielle ou totale. L'heure indiquée est l'heure légale dans la ville choisie, elle diffère de l'heure en temps universel. (TU)",
+        "2": "Vue du ciel depuis la Terre : cette vue présente la position de l'éclipse dans le ciel d'un lieu pris sur Terre. A cet endroit, l'éclipse peut être partielle ou totale. L'heure indiquée est l'heure légale dans la ville choisie, elle diffère de l'heure en temps universel. (TU)",
+        "3": "Vue du ciel depuis la Terre : cette vue présente la position de l'éclipse dans le ciel d'un lieu pris sur Terre. A cet endroit, l'éclipse peut être partielle ou totale. L'heure indiquée est l'heure légale dans la ville choisie, elle diffère de l'heure en temps universel. (TU)"
+      }
+    },
+    {
+      "id": "6",
+      "label": "Vue de la terre depuis la lune.",
+      "type": 1,
+      "function": 1,
+      "plan": 101,
+      "box": [
+        327,
+        51,
+        305,
+        216
+      ],
+      "options": [
+        {
+          "id": 1,
+          "value": 1,
+          "label": "Vue de la Terre depuis un point proche de la Lune",
+          "visual": "13S60001",
+          "audio": null
+        },
+        {
+          "id": 2,
+          "value": 2,
+          "label": "Vue de la Terre depuis un point proche de la Lune",
+          "visual": "13S60002",
+          "audio": null
+        },
+        {
+          "id": 3,
+          "value": 3,
+          "label": "Vue de la Terre depuis un point proche de la Lune",
+          "visual": "13S60003",
+          "audio": null
+        },
+        {
+          "id": 4,
+          "value": 4,
+          "label": "Vue de la Terre depuis un point proche de la Lune",
+          "visual": "13S60004",
+          "audio": null
+        },
+        {
+          "id": 5,
+          "value": 5,
+          "label": "Vue de la Terre depuis un point proche de la Lune",
+          "visual": "13S60005",
+          "audio": null
+        },
+        {
+          "id": 6,
+          "value": 6,
+          "label": "Vue de la Terre depuis un point proche de la Lune",
+          "visual": "13S60006",
+          "audio": null
+        },
+        {
+          "id": 7,
+          "value": 7,
+          "label": "Vue de la Terre depuis un point proche de la Lune",
+          "visual": "13S60007",
+          "audio": null
+        },
+        {
+          "id": 8,
+          "value": 8,
+          "label": "Vue de la Terre depuis un point proche de la Lune",
+          "visual": "13S60008",
+          "audio": null
+        },
+        {
+          "id": 9,
+          "value": 9,
+          "label": "Vue de la Terre depuis un point proche de la Lune",
+          "visual": "13S60009",
+          "audio": null
+        },
+        {
+          "id": 10,
+          "value": 10,
+          "label": "Vue de la Terre depuis un point proche de la Lune",
+          "visual": "13S60010",
+          "audio": null
+        },
+        {
+          "id": 11,
+          "value": 11,
+          "label": "Vue de la Terre depuis un point proche de la Lune",
+          "visual": "13S60011",
+          "audio": null
+        },
+        {
+          "id": 12,
+          "value": 12,
+          "label": "Vue de la Terre depuis un point proche de la Lune",
+          "visual": "13S60012",
+          "audio": null
+        },
+        {
+          "id": 13,
+          "value": 13,
+          "label": "Vue de la Terre depuis un point proche de la Lune",
+          "visual": "13S60013",
+          "audio": null
+        }
+      ],
+      "hints": {
+        "0": "Vue de la Terre depuis un point proche de la Lune : cette vue montre la position de l'ombre de la Lune sur la Terre pour une heure donnée. Le point central représente la zone de totalité de l'éclipse, et les cercles concentriques montrent la zone de luminosité croissante dans laquelle le Soleil est partiellement éclipsé.",
+        "1": "Vue de la Terre depuis un point proche de la Lune : cette vue montre la position de l'ombre de la Lune sur la Terre pour une heure donnée. Le point central représente la zone de totalité de l'éclipse, et les cercles concentriques montrent la zone de luminosité croissante dans laquelle le Soleil est partiellement éclipsé.",
+        "2": "Vue de la Terre depuis un point proche de la Lune : cette vue montre la position de l'ombre de la Lune sur la Terre pour une heure donnée. Le point central représente la zone de totalité de l'éclipse, et les cercles concentriques montrent la zone de luminosité croissante dans laquelle le Soleil est partiellement éclipsé.",
+        "3": "Vue de la Terre depuis un point proche de la Lune : cette vue montre la position de l'ombre de la Lune sur la Terre pour une heure donnée. Le point central représente la zone de totalité de l'éclipse, et les cercles concentriques montrent la zone de luminosité croissante dans laquelle le Soleil est partiellement éclipsé."
+      }
+    },
+    {
+      "id": "7",
+      "label": "Vue des trois planètes alignées",
+      "type": 1,
+      "function": 1,
+      "plan": 101,
+      "box": [
+        195,
+        307,
+        251,
+        166
+      ],
+      "options": [
+        {
+          "id": 1,
+          "value": 1,
+          "label": "Alignement Soleil-Lune-Terre",
+          "visual": "13S70001",
+          "audio": null
+        },
+        {
+          "id": 2,
+          "value": 2,
+          "label": "Alignement Soleil-Lune-Terre",
+          "visual": "13S70002",
+          "audio": null
+        },
+        {
+          "id": 3,
+          "value": 3,
+          "label": "Alignement Soleil-Lune-Terre",
+          "visual": "13S70003",
+          "audio": null
+        },
+        {
+          "id": 4,
+          "value": 4,
+          "label": "Alignement Soleil-Lune-Terre",
+          "visual": "13S70004",
+          "audio": null
+        },
+        {
+          "id": 5,
+          "value": 5,
+          "label": "Alignement Soleil-Lune-Terre",
+          "visual": "13S70005",
+          "audio": null
+        },
+        {
+          "id": 6,
+          "value": 6,
+          "label": "Alignement Soleil-Lune-Terre",
+          "visual": "13S70006",
+          "audio": null
+        },
+        {
+          "id": 7,
+          "value": 7,
+          "label": "Alignement Soleil-Lune-Terre",
+          "visual": "13S70007",
+          "audio": null
+        },
+        {
+          "id": 8,
+          "value": 8,
+          "label": "Alignement Soleil-Lune-Terre",
+          "visual": "13S70008",
+          "audio": null
+        },
+        {
+          "id": 9,
+          "value": 9,
+          "label": "Alignement Soleil-Lune-Terre",
+          "visual": "13S70009",
+          "audio": null
+        },
+        {
+          "id": 10,
+          "value": 10,
+          "label": "Alignement Soleil-Lune-Terre",
+          "visual": "13S70010",
+          "audio": null
+        },
+        {
+          "id": 11,
+          "value": 11,
+          "label": "Alignement Soleil-Lune-Terre",
+          "visual": "13S70011",
+          "audio": null
+        },
+        {
+          "id": 12,
+          "value": 12,
+          "label": "Alignement Soleil-Lune-Terre",
+          "visual": "13S70012",
+          "audio": null
+        },
+        {
+          "id": 13,
+          "value": 13,
+          "label": "Alignement Soleil-Lune-Terre",
+          "visual": "13S70013",
+          "audio": null
+        }
+      ],
+      "hints": {
+        "0": "Vue des trois astres : cette vue, qui présente l'alignement des trois astres Soleil-Lune-Terre pour une heure donnée, permet de comprendre le phénomène d'éclipse. La Terre est momentanément occultée par l'ombre de la Lune qui s'interpose entre elle et le Soleil.",
+        "1": "Vue des trois astres : cette vue, qui présente l'alignement des trois astres Soleil-Lune-Terre pour une heure donnée, permet de comprendre le phénomène d'éclipse. La Terre est momentanément occultée par l'ombre de la Lune qui s'interpose entre elle et le Soleil.",
+        "2": "Vue des trois astres : cette vue, qui présente l'alignement des trois astres Soleil-Lune-Terre pour une heure donnée, permet de comprendre le phénomène d'éclipse. La Terre est momentanément occultée par l'ombre de la Lune qui s'interpose entre elle et le Soleil.",
+        "3": "Vue des trois astres : cette vue, qui présente l'alignement des trois astres Soleil-Lune-Terre pour une heure donnée, permet de comprendre le phénomène d'éclipse. La Terre est momentanément occultée par l'ombre de la Lune qui s'interpose entre elle et le Soleil."
+      }
+    },
+    {
+      "id": "8",
+      "label": "Touche 'Cinéma' 1",
+      "type": 3,
+      "function": 0,
+      "plan": 101,
+      "box": [
+        106,
+        1,
+        52,
+        36
+      ],
+      "options": [
+        {
+          "id": 1,
+          "value": 0,
+          "label": "Clique ici pour lancer la séquence du ciel vu de la Terre de 10h à 11h TU",
+          "visual": null,
+          "audio": null
+        },
+        {
+          "id": 2,
+          "value": 1,
+          "label": "intitulé état",
+          "visual": "13D80002",
+          "audio": null
+        }
+      ],
+      "hints": {
+        "0": "Vidéo 1 : lance le passage de l'éclipse entre 10h00 et 11h 00 TU dans le ciel de la ville sélectionnée. Au-dessus des villes qui  se trouvent sur la bande de totalité, l'éclipse dure à peu près 2 minutes.",
+        "1": "",
+        "2": "",
+        "3": ""
+      }
+    },
+    {
+      "id": "9",
+      "label": "Touche 'Cinéma' 2",
+      "type": 3,
+      "function": 0,
+      "plan": 101,
+      "box": [
+        480,
+        1,
+        53,
+        36
+      ],
+      "options": [
+        {
+          "id": 1,
+          "value": 0,
+          "label": "Clique ici pour lancer la séquence de la Terre vue d'un point proche de la Lune",
+          "visual": null,
+          "audio": null
+        },
+        {
+          "id": 2,
+          "value": 1,
+          "label": "Clique ici pour lancer la séquence de la Terre vue d'un point proche de la Lune",
+          "visual": "13D90002",
+          "audio": null
+        }
+      ],
+      "hints": {
+        "0": "Vidéo 2 : lance le passage de l'ombre de la Lune sur la Terre de 10h00 à 11h 00 TU.",
+        "1": "",
+        "2": "",
+        "3": ""
+      }
+    },
+    {
+      "id": "10",
+      "label": "Nom de la ville (cinéma)",
+      "type": 1,
+      "function": 0,
+      "plan": 101,
+      "box": [
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "options": [
+        {
+          "id": 1,
+          "value": 1,
+          "label": "intitulé état",
+          "visual": null,
+          "audio": null
+        },
+        {
+          "id": 2,
+          "value": 2,
+          "label": "intitulé état",
+          "visual": null,
+          "audio": null
+        },
+        {
+          "id": 3,
+          "value": 3,
+          "label": "intitulé état",
+          "visual": null,
+          "audio": null
+        },
+        {
+          "id": 4,
+          "value": 4,
+          "label": "intitulé état",
+          "visual": null,
+          "audio": null
+        },
+        {
+          "id": 5,
+          "value": 5,
+          "label": "intitulé état",
+          "visual": null,
+          "audio": null
+        },
+        {
+          "id": 6,
+          "value": 6,
+          "label": "intitulé état",
+          "visual": null,
+          "audio": null
+        }
+      ],
+      "hints": {
+        "0": "",
+        "1": "",
+        "2": "",
+        "3": ""
+      }
+    },
+    {
+      "id": "11",
+      "label": "(ciné 1) Vue du ciel depuis la terre",
+      "type": 1,
+      "function": 1,
+      "plan": 101,
+      "box": [
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "options": [
+        {
+          "id": 1,
+          "value": 1,
+          "label": "intitulé état",
+          "visual": "13DB0001",
+          "audio": null
+        },
+        {
+          "id": 2,
+          "value": 2,
+          "label": "intitulé état",
+          "visual": "13DB0002",
+          "audio": null
+        },
+        {
+          "id": 3,
+          "value": 3,
+          "label": "intitulé état",
+          "visual": "13DB0003",
+          "audio": null
+        },
+        {
+          "id": 4,
+          "value": 4,
+          "label": "intitulé état",
+          "visual": "13DB0004",
+          "audio": null
+        },
+        {
+          "id": 5,
+          "value": 5,
+          "label": "intitulé état",
+          "visual": "13DB0005",
+          "audio": null
+        },
+        {
+          "id": 6,
+          "value": 6,
+          "label": "intitulé état",
+          "visual": "13DB0006",
+          "audio": null
+        }
+      ],
+      "hints": {
+        "0": "",
+        "1": "",
+        "2": "",
+        "3": ""
+      }
+    },
+    {
+      "id": "12",
+      "label": "(ciné 2) Vue de la terre depuis la lune",
+      "type": 1,
+      "function": 1,
+      "plan": 101,
+      "box": [
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "options": [
+        {
+          "id": 1,
+          "value": 1,
+          "label": "intitulé état",
+          "visual": "13DC0001",
+          "audio": null
+        }
+      ],
+      "hints": {
+        "0": "",
+        "1": "",
+        "2": "",
+        "3": ""
+      }
+    }
+  ],
+  "cases": [
+    {
+      "id": "0",
+      "label": "Mode libre",
+      "solutions": [
+        {
+          "1": 1,
+          "2": 1
+        }
+      ],
+      "initial": {
+        "1": 1,
+        "2": 1,
+        "3": 1,
+        "4": 1,
+        "5": 1,
+        "6": 1,
+        "7": 1,
+        "8": 1,
+        "9": 1,
+        "10": 1,
+        "11": 1,
+        "12": 1
+      }
+    },
+    {
+      "id": "1",
+      "label": "Eclipse totale à 10 h 34 TU",
+      "solutions": [
+        {
+          "1": 8,
+          "2": 3
+        }
+      ],
+      "initial": {
+        "1": 1,
+        "2": 1,
+        "3": 1,
+        "4": 1,
+        "5": 1,
+        "6": 1,
+        "7": 1,
+        "8": 1,
+        "9": 1,
+        "10": 1,
+        "11": 1,
+        "12": 1
+      }
+    },
+    {
+      "id": "2",
+      "label": "Maximum de l'éclipse à Londres",
+      "solutions": [
+        {
+          "1": 5,
+          "2": 1
+        }
+      ],
+      "initial": {
+        "1": 1,
+        "2": 1,
+        "3": 1,
+        "4": 1,
+        "5": 1,
+        "6": 1,
+        "7": 1,
+        "8": 1,
+        "9": 1,
+        "10": 1,
+        "11": 1,
+        "12": 1
+      }
+    },
+    {
+      "id": "3",
+      "label": "Eclipse totale hors de France",
+      "solutions": [
+        {
+          "1": 9,
+          "2": 4
+        }
+      ],
+      "initial": {
+        "1": 1,
+        "2": 1,
+        "3": 1,
+        "4": 1,
+        "5": 1,
+        "6": 1,
+        "7": 1,
+        "8": 1,
+        "9": 1,
+        "10": 1,
+        "11": 1,
+        "12": 1
+      }
+    }
+  ],
+  "lookup": []
+}

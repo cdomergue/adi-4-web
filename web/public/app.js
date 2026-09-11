@@ -5,6 +5,7 @@ import {renderEncyclopedia,showOriginalMedia} from './encyclopedia.js';
 import {renderRoom} from './room.js';
 import {renderGames} from './games.js';
 import {renderSokoban} from './sokoban.js';
+import {renderWGob3} from './wgob3.js';
 const main = document.querySelector('#main');
 const dialog = document.querySelector('#info-dialog');
 const $ = (selector) => document.querySelector(selector);
@@ -166,6 +167,7 @@ function route() {
   else if (hash === 'notebook') notebook();
   else if (hash === 'games') {renderGames(main,info);active='room';}
   else if (hash === 'game/sokoban') {renderSokoban(main);active='room';}
+  else if (hash === 'game/wgob3') {renderWGob3(main);active='room';}
   else if (hash === 'welcome') {home();active='room';}
   else { renderRoom(main,info); active = 'room'; }
   document.querySelectorAll('[data-nav]').forEach(link => {

@@ -1,0 +1,1349 @@
+{
+  "id": "7",
+  "title": "Observation d'une fourmilière",
+  "background": "07I1",
+  "objects": [
+    {
+      "id": "1",
+      "label": "Saison",
+      "type": 4,
+      "function": 0,
+      "plan": 101,
+      "box": [
+        9,
+        8,
+        261,
+        43
+      ],
+      "options": [
+        {
+          "id": 1,
+          "value": 0,
+          "label": "Hiver",
+          "visual": "07D10001",
+          "audio": null
+        },
+        {
+          "id": 2,
+          "value": 1,
+          "label": "Printemps",
+          "visual": "07D10002",
+          "audio": null
+        },
+        {
+          "id": 3,
+          "value": 2,
+          "label": "Eté",
+          "visual": "07D10003",
+          "audio": null
+        },
+        {
+          "id": 4,
+          "value": 3,
+          "label": "Automne",
+          "visual": "07D10004",
+          "audio": null
+        }
+      ],
+      "hints": {
+        "0": "Saison : Les saisons rythment la vie de la fourmilière. Aux saisons chaudes, la reine pond, les ouvrières récoltent la nourriture et s'occupent des oeufs. C'est aussi à cette époque qu'a lieu le vol nuptial. A la saison fraîche, l'activité se ralentit, l'entrée de la fourmilière est bouchée et tout le monde hiberne.",
+        "1": "Saison : Au printemps, la chaleur réchauffe peu à peu les animaux de la forêt. Tous partent alors en quête de nourriture. Un lézard en chasse espère profiter de l'engourdissement des fourmis qui sortent tout juste de leur sommeil hivernal.",
+        "2": "Saison : C'est en été, par une journée orageuse qu'a lieu le vol nuptial. Les individus sexués,  nés ailés au printemps, ont grandi et sont désormais fins prêts à quitter le nid.",
+        "3": "Saison : En automne, la nourriture se fait rare. Les fourmis commencent à être engourdies par le froid, elles n'osent pas s'éloigner du nid pour trouver de la nourriture, ni s'attaquer à de grosses proies. C'est pourquoi ce trognon de pomme tombé à côté de la fourmilière est une véritable aubaine !"
+      }
+    },
+    {
+      "id": "2",
+      "label": "Lieu",
+      "type": 4,
+      "function": 0,
+      "plan": 101,
+      "box": [
+        170,
+        52,
+        351,
+        410
+      ],
+      "options": [
+        {
+          "id": 1,
+          "value": 0,
+          "label": "aucun lieu",
+          "visual": "VIDE_DF",
+          "audio": null
+        },
+        {
+          "id": 2,
+          "value": 1,
+          "label": "chez la Reine",
+          "visual": "VIDE_DF",
+          "audio": null
+        },
+        {
+          "id": 3,
+          "value": 2,
+          "label": "du côté des oeufs",
+          "visual": "VIDE_DF",
+          "audio": null
+        },
+        {
+          "id": 4,
+          "value": 3,
+          "label": "du côté des larves",
+          "visual": "VIDE_DF",
+          "audio": null
+        },
+        {
+          "id": 5,
+          "value": 4,
+          "label": "du côté des nymphes",
+          "visual": "VIDE_DF",
+          "audio": null
+        },
+        {
+          "id": 6,
+          "value": 5,
+          "label": "entrée du nid",
+          "visual": "VIDE_DF",
+          "audio": null
+        },
+        {
+          "id": 7,
+          "value": 6,
+          "label": "salle des échanges",
+          "visual": "VIDE_DF",
+          "audio": null
+        },
+        {
+          "id": 8,
+          "value": 7,
+          "label": "extérieur",
+          "visual": "VIDE_DF",
+          "audio": null
+        }
+      ],
+      "hints": {
+        "0": "Lieu : Les fourmis des bois vivent dans nos régions tempérées. La fourmilière est faite de galeries et de chambres souterraines souvent creusées, à l'origine, dans une souche d'arbre. Chaque compartiment du nid a une fonction particulière et des ouvrières spécialisées y travaillent. Par exemple, les loges destinées aux oeufs sont profondément enfouies dans le sol, tandis que les chambres des larves et des nymphes sont plus proches de la surface.",
+        "1": "Lieu : Lors d'une attaque venue de l'extérieur, l'information est aussitôt transmise à l'ensemble du nid. Les nourrices se dépêchent alors de mettre les nymphes à l'abri au fond de la fourmilière tandis que les ouvrières-soldats se mobilisent pour combattre l'ennemi.",
+        "2": "Lieu : Lors du vol nuptial, des ouvrières viennent chercher les individus ailés nés au printemps et les poussent hors du nid afin qu'ils prennent leur envol et s'accouplent dans les airs.",
+        "3": "Lieu : Si de la nourriture est repérée à l'extérieur da fourmilière, des récolteuses ou des chasseuses en ramènent des fragments et informent leurs congénères de l'endroit où se trouve le reste."
+      }
+    },
+    {
+      "id": "3",
+      "label": "Touche \"Cinéma\"",
+      "type": 3,
+      "function": 0,
+      "plan": 101,
+      "box": [
+        579,
+        5,
+        56,
+        51
+      ],
+      "options": [
+        {
+          "id": 1,
+          "value": 0,
+          "label": "Pour lancer une séquence complète",
+          "visual": "07D30001",
+          "audio": null
+        },
+        {
+          "id": 2,
+          "value": 1,
+          "label": "Pour lancer une séquence complète",
+          "visual": "07D30002",
+          "audio": null
+        }
+      ],
+      "hints": {
+        "0": "Cette touche te permet de visionner ce qui se passe dans l'ensemble de la fourmilière en fonction de la saison sélectionnée.",
+        "1": "",
+        "2": "",
+        "3": ""
+      }
+    },
+    {
+      "id": "4",
+      "label": "Décor saison",
+      "type": 1,
+      "function": 1,
+      "plan": 101,
+      "box": [
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "options": [
+        {
+          "id": 1,
+          "value": 1,
+          "label": "hiver",
+          "visual": "VIDE_DF",
+          "audio": null
+        },
+        {
+          "id": 2,
+          "value": 2,
+          "label": "printemps",
+          "visual": "VIDE_DF",
+          "audio": null
+        },
+        {
+          "id": 3,
+          "value": 3,
+          "label": "été",
+          "visual": "VIDE_DF",
+          "audio": null
+        },
+        {
+          "id": 4,
+          "value": 4,
+          "label": "automne",
+          "visual": "VIDE_DF",
+          "audio": null
+        }
+      ],
+      "hints": {
+        "0": "",
+        "1": "",
+        "2": "",
+        "3": ""
+      }
+    },
+    {
+      "id": "5",
+      "label": "Activités (ML)",
+      "type": 1,
+      "function": 2,
+      "plan": 100,
+      "box": [
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "options": [
+        {
+          "id": 1,
+          "value": 1,
+          "label": "chez Reine vide",
+          "visual": "07DX0001",
+          "audio": null
+        },
+        {
+          "id": 2,
+          "value": 2,
+          "label": "ponte printemps",
+          "visual": "07DX0002",
+          "audio": null
+        },
+        {
+          "id": 3,
+          "value": 3,
+          "label": "ponte été",
+          "visual": "07DX0003",
+          "audio": null
+        },
+        {
+          "id": 4,
+          "value": 4,
+          "label": "plus de ponte",
+          "visual": "07DX0004",
+          "audio": null
+        },
+        {
+          "id": 5,
+          "value": 5,
+          "label": "Reine hiberne",
+          "visual": "07DX0005",
+          "audio": null
+        },
+        {
+          "id": 6,
+          "value": 6,
+          "label": "côté oeufs printemps",
+          "visual": "07DX0006",
+          "audio": null
+        },
+        {
+          "id": 7,
+          "value": 7,
+          "label": "côté oeufs été",
+          "visual": "07DX0007",
+          "audio": null
+        },
+        {
+          "id": 8,
+          "value": 8,
+          "label": "côté oeufs automne",
+          "visual": "07DX0008",
+          "audio": null
+        },
+        {
+          "id": 9,
+          "value": 9,
+          "label": "côté larves fourmis hibernent",
+          "visual": "07DX0009",
+          "audio": null
+        },
+        {
+          "id": 10,
+          "value": 10,
+          "label": "côté larves printemps",
+          "visual": "07DX0010",
+          "audio": null
+        },
+        {
+          "id": 11,
+          "value": 11,
+          "label": "côté larves été",
+          "visual": "07DX0011",
+          "audio": null
+        },
+        {
+          "id": 12,
+          "value": 12,
+          "label": "plus de larves automne",
+          "visual": "07DX0012",
+          "audio": null
+        },
+        {
+          "id": 13,
+          "value": 13,
+          "label": "côté nymphes vide",
+          "visual": "07DX0013",
+          "audio": null
+        },
+        {
+          "id": 14,
+          "value": 14,
+          "label": "croissance et mues succ. de sexuées",
+          "visual": "07D50014",
+          "audio": null
+        },
+        {
+          "id": 15,
+          "value": 15,
+          "label": "naissances sexuées",
+          "visual": "07D50015",
+          "audio": null
+        },
+        {
+          "id": 16,
+          "value": 16,
+          "label": "naissances ouvrières",
+          "visual": "07DX0016",
+          "audio": null
+        },
+        {
+          "id": 17,
+          "value": 17,
+          "label": "entrée du nid bouchée",
+          "visual": "07DX0017",
+          "audio": null
+        },
+        {
+          "id": 18,
+          "value": 18,
+          "label": "chasse et récolte printemps",
+          "visual": "07D50018",
+          "audio": null
+        },
+        {
+          "id": 19,
+          "value": 19,
+          "label": "chasse et récolte été",
+          "visual": "07D50019",
+          "audio": null
+        },
+        {
+          "id": 20,
+          "value": 20,
+          "label": "chasse ralentie automne",
+          "visual": "07D50020",
+          "audio": null
+        },
+        {
+          "id": 21,
+          "value": 21,
+          "label": "pas d'échanges en hiver",
+          "visual": "07DX0021",
+          "audio": null
+        },
+        {
+          "id": 22,
+          "value": 22,
+          "label": "boullie chenille",
+          "visual": "07D50022",
+          "audio": null
+        },
+        {
+          "id": 23,
+          "value": 23,
+          "label": "boullie scarabée",
+          "visual": "07DX0023",
+          "audio": null
+        },
+        {
+          "id": 24,
+          "value": 24,
+          "label": "boullie guêpe",
+          "visual": "07D50024",
+          "audio": null
+        },
+        {
+          "id": 25,
+          "value": 25,
+          "label": "ext vide en hiver",
+          "visual": "07DX0025",
+          "audio": null
+        },
+        {
+          "id": 26,
+          "value": 26,
+          "label": "attaque chenille",
+          "visual": "07DX0026",
+          "audio": null
+        },
+        {
+          "id": 27,
+          "value": 27,
+          "label": "traite des pucerons et attaque scarabée",
+          "visual": "07D50027",
+          "audio": null
+        },
+        {
+          "id": 28,
+          "value": 28,
+          "label": "attaque guêpe",
+          "visual": "07D50028",
+          "audio": null
+        },
+        {
+          "id": 29,
+          "value": 29,
+          "label": "pas d'activité",
+          "visual": "VIDE_DF",
+          "audio": null
+        }
+      ],
+      "hints": {
+        "0": "",
+        "1": "",
+        "2": "",
+        "3": ""
+      }
+    },
+    {
+      "id": "6",
+      "label": "Cinéma (ML)",
+      "type": 1,
+      "function": 2,
+      "plan": 100,
+      "box": [
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "options": [
+        {
+          "id": 1,
+          "value": 29,
+          "label": "scénario printemps",
+          "visual": "07D60001",
+          "audio": null
+        },
+        {
+          "id": 2,
+          "value": 30,
+          "label": "scénario été",
+          "visual": "07D60002",
+          "audio": null
+        },
+        {
+          "id": 3,
+          "value": 31,
+          "label": "scénario automne",
+          "visual": "07D60003",
+          "audio": null
+        },
+        {
+          "id": 4,
+          "value": 32,
+          "label": "scénario hiver",
+          "visual": "07D60004",
+          "audio": null
+        },
+        {
+          "id": 5,
+          "value": 0,
+          "label": "aucun scénario",
+          "visual": "VIDE_DF",
+          "audio": null
+        }
+      ],
+      "hints": {
+        "0": "",
+        "1": "",
+        "2": "",
+        "3": ""
+      }
+    },
+    {
+      "id": "7",
+      "label": "Activités (MO)",
+      "type": 1,
+      "function": 2,
+      "plan": 100,
+      "box": [
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "options": [
+        {
+          "id": 1,
+          "value": 1,
+          "label": "intitulé état",
+          "visual": "07DX0001",
+          "audio": null
+        },
+        {
+          "id": 2,
+          "value": 2,
+          "label": "intitulé état",
+          "visual": "07DX0002",
+          "audio": null
+        },
+        {
+          "id": 3,
+          "value": 3,
+          "label": "intitulé état",
+          "visual": "07DX0003",
+          "audio": null
+        },
+        {
+          "id": 4,
+          "value": 4,
+          "label": "intitulé état",
+          "visual": "07DX0004",
+          "audio": null
+        },
+        {
+          "id": 5,
+          "value": 5,
+          "label": "intitulé état",
+          "visual": "07DX0005",
+          "audio": null
+        },
+        {
+          "id": 6,
+          "value": 6,
+          "label": "intitulé état",
+          "visual": "07DX0006",
+          "audio": null
+        },
+        {
+          "id": 7,
+          "value": 7,
+          "label": "intitulé état",
+          "visual": "07DX0007",
+          "audio": null
+        },
+        {
+          "id": 8,
+          "value": 8,
+          "label": "intitulé état",
+          "visual": "07DX0008",
+          "audio": null
+        },
+        {
+          "id": 9,
+          "value": 9,
+          "label": "intitulé état",
+          "visual": "07DX0009",
+          "audio": null
+        },
+        {
+          "id": 10,
+          "value": 10,
+          "label": "intitulé état",
+          "visual": "07DX0010",
+          "audio": null
+        },
+        {
+          "id": 11,
+          "value": 11,
+          "label": "intitulé état",
+          "visual": "07DX0011",
+          "audio": null
+        },
+        {
+          "id": 12,
+          "value": 12,
+          "label": "intitulé état",
+          "visual": "07DX0012",
+          "audio": null
+        },
+        {
+          "id": 13,
+          "value": 13,
+          "label": "intitulé état",
+          "visual": "07DX0013",
+          "audio": null
+        },
+        {
+          "id": 14,
+          "value": 33,
+          "label": "intitulé état",
+          "visual": "07D70014",
+          "audio": null
+        },
+        {
+          "id": 15,
+          "value": 36,
+          "label": "intitulé état",
+          "visual": "07D70015",
+          "audio": null
+        },
+        {
+          "id": 16,
+          "value": 16,
+          "label": "intitulé état",
+          "visual": "07DX0016",
+          "audio": null
+        },
+        {
+          "id": 17,
+          "value": 17,
+          "label": "intitulé état",
+          "visual": "07DX0017",
+          "audio": null
+        },
+        {
+          "id": 18,
+          "value": 34,
+          "label": "intitulé état",
+          "visual": "07D70018",
+          "audio": null
+        },
+        {
+          "id": 19,
+          "value": 37,
+          "label": "intitulé état",
+          "visual": "07D70019",
+          "audio": null
+        },
+        {
+          "id": 20,
+          "value": 39,
+          "label": "intitulé état",
+          "visual": "07D70020",
+          "audio": null
+        },
+        {
+          "id": 21,
+          "value": 21,
+          "label": "intitulé état",
+          "visual": "07DX0021",
+          "audio": null
+        },
+        {
+          "id": 22,
+          "value": 35,
+          "label": "intitulé état",
+          "visual": "07D70022",
+          "audio": null
+        },
+        {
+          "id": 23,
+          "value": 23,
+          "label": "intitulé état",
+          "visual": "07DX0023",
+          "audio": null
+        },
+        {
+          "id": 24,
+          "value": 40,
+          "label": "intitulé état",
+          "visual": "07D70024",
+          "audio": null
+        },
+        {
+          "id": 25,
+          "value": 25,
+          "label": "intitulé état",
+          "visual": "07DX0025",
+          "audio": null
+        },
+        {
+          "id": 26,
+          "value": 26,
+          "label": "intitulé état",
+          "visual": "07DX0026",
+          "audio": null
+        },
+        {
+          "id": 27,
+          "value": 38,
+          "label": "intitulé état",
+          "visual": "07D70027",
+          "audio": null
+        },
+        {
+          "id": 28,
+          "value": 41,
+          "label": "intitulé état",
+          "visual": "07D70028",
+          "audio": null
+        },
+        {
+          "id": 29,
+          "value": 29,
+          "label": "intitulé état",
+          "visual": "VIDE_DF",
+          "audio": null
+        }
+      ],
+      "hints": {
+        "0": "",
+        "1": "",
+        "2": "",
+        "3": ""
+      }
+    }
+  ],
+  "cases": [
+    {
+      "id": "0",
+      "label": "Mode libre",
+      "solutions": [
+        {
+          "1": 1,
+          "2": 1,
+          "3": 1,
+          "4": 1,
+          "5": 1,
+          "6": 1,
+          "7": 1
+        }
+      ],
+      "initial": {
+        "1": 1,
+        "2": 1,
+        "3": 1,
+        "4": 1,
+        "5": 29,
+        "6": 5,
+        "7": 1
+      }
+    },
+    {
+      "id": "1",
+      "label": "Attaque d'un lézard !",
+      "solutions": [
+        {
+          "1": 2,
+          "2": -1,
+          "3": 1
+        }
+      ],
+      "initial": {
+        "1": 2,
+        "2": 1,
+        "3": 1,
+        "4": 1,
+        "5": 29,
+        "6": 5,
+        "7": 29
+      }
+    },
+    {
+      "id": "2",
+      "label": "Le vol nuptial",
+      "solutions": [
+        {
+          "1": 3,
+          "2": -1,
+          "3": 1
+        }
+      ],
+      "initial": {
+        "1": 3,
+        "2": 1,
+        "3": 1,
+        "4": 1,
+        "5": 29,
+        "6": 5,
+        "7": 29
+      }
+    },
+    {
+      "id": "3",
+      "label": "Un don du ciel",
+      "solutions": [
+        {
+          "1": 4,
+          "2": -1,
+          "3": 1
+        }
+      ],
+      "initial": {
+        "1": 4,
+        "2": 1,
+        "3": 1,
+        "4": 1,
+        "5": 29,
+        "6": 5,
+        "7": 29
+      }
+    }
+  ],
+  "lookup": [
+    {
+      "object": "5",
+      "value": 1,
+      "conditions": {
+        "1": 0,
+        "2": 1
+      }
+    },
+    {
+      "object": "5",
+      "value": 2,
+      "conditions": {
+        "1": 1,
+        "2": 1
+      }
+    },
+    {
+      "object": "5",
+      "value": 3,
+      "conditions": {
+        "1": 2,
+        "2": 1
+      }
+    },
+    {
+      "object": "5",
+      "value": 4,
+      "conditions": {
+        "1": 3,
+        "2": 1
+      }
+    },
+    {
+      "object": "5",
+      "value": 5,
+      "conditions": {
+        "1": 0,
+        "2": 2
+      }
+    },
+    {
+      "object": "5",
+      "value": 6,
+      "conditions": {
+        "1": 1,
+        "2": 2
+      }
+    },
+    {
+      "object": "5",
+      "value": 7,
+      "conditions": {
+        "1": 2,
+        "2": 2
+      }
+    },
+    {
+      "object": "5",
+      "value": 8,
+      "conditions": {
+        "1": 3,
+        "2": 2
+      }
+    },
+    {
+      "object": "5",
+      "value": 9,
+      "conditions": {
+        "1": 0,
+        "2": 3
+      }
+    },
+    {
+      "object": "5",
+      "value": 10,
+      "conditions": {
+        "1": 1,
+        "2": 3
+      }
+    },
+    {
+      "object": "5",
+      "value": 11,
+      "conditions": {
+        "1": 2,
+        "2": 3
+      }
+    },
+    {
+      "object": "5",
+      "value": 12,
+      "conditions": {
+        "1": 3,
+        "2": 3
+      }
+    },
+    {
+      "object": "5",
+      "value": 13,
+      "conditions": {
+        "1": 0,
+        "2": 4
+      }
+    },
+    {
+      "object": "5",
+      "value": 14,
+      "conditions": {
+        "1": 1,
+        "2": 4
+      }
+    },
+    {
+      "object": "5",
+      "value": 15,
+      "conditions": {
+        "1": 2,
+        "2": 4
+      }
+    },
+    {
+      "object": "5",
+      "value": 16,
+      "conditions": {
+        "1": 3,
+        "2": 4
+      }
+    },
+    {
+      "object": "5",
+      "value": 17,
+      "conditions": {
+        "1": 0,
+        "2": 5
+      }
+    },
+    {
+      "object": "5",
+      "value": 18,
+      "conditions": {
+        "1": 1,
+        "2": 5
+      }
+    },
+    {
+      "object": "5",
+      "value": 19,
+      "conditions": {
+        "1": 2,
+        "2": 5
+      }
+    },
+    {
+      "object": "5",
+      "value": 20,
+      "conditions": {
+        "1": 3,
+        "2": 5
+      }
+    },
+    {
+      "object": "5",
+      "value": 21,
+      "conditions": {
+        "1": 0,
+        "2": 6
+      }
+    },
+    {
+      "object": "5",
+      "value": 22,
+      "conditions": {
+        "1": 1,
+        "2": 6
+      }
+    },
+    {
+      "object": "5",
+      "value": 23,
+      "conditions": {
+        "1": 2,
+        "2": 6
+      }
+    },
+    {
+      "object": "5",
+      "value": 24,
+      "conditions": {
+        "1": 3,
+        "2": 6
+      }
+    },
+    {
+      "object": "5",
+      "value": 25,
+      "conditions": {
+        "1": 0,
+        "2": 7
+      }
+    },
+    {
+      "object": "5",
+      "value": 26,
+      "conditions": {
+        "1": 1,
+        "2": 7
+      }
+    },
+    {
+      "object": "5",
+      "value": 27,
+      "conditions": {
+        "1": 2,
+        "2": 7
+      }
+    },
+    {
+      "object": "5",
+      "value": 28,
+      "conditions": {
+        "1": 3,
+        "2": 7
+      }
+    },
+    {
+      "object": "5",
+      "value": 29,
+      "conditions": {
+        "1": 0,
+        "2": 0
+      }
+    },
+    {
+      "object": "5",
+      "value": 29,
+      "conditions": {
+        "1": 1,
+        "2": 0
+      }
+    },
+    {
+      "object": "5",
+      "value": 29,
+      "conditions": {
+        "1": 2,
+        "2": 0
+      }
+    },
+    {
+      "object": "5",
+      "value": 29,
+      "conditions": {
+        "1": 3,
+        "2": 0
+      }
+    },
+    {
+      "object": "6",
+      "value": 29,
+      "conditions": {
+        "1": 0
+      }
+    },
+    {
+      "object": "6",
+      "value": 30,
+      "conditions": {
+        "1": 1
+      }
+    },
+    {
+      "object": "6",
+      "value": 31,
+      "conditions": {
+        "1": 2
+      }
+    },
+    {
+      "object": "6",
+      "value": 32,
+      "conditions": {
+        "1": 3
+      }
+    },
+    {
+      "object": "7",
+      "value": 29,
+      "conditions": {
+        "1": 1,
+        "2": 0
+      }
+    },
+    {
+      "object": "7",
+      "value": 29,
+      "conditions": {
+        "1": 2,
+        "2": 0
+      }
+    },
+    {
+      "object": "7",
+      "value": 29,
+      "conditions": {
+        "1": 3,
+        "2": 0
+      }
+    },
+    {
+      "object": "7",
+      "value": 2,
+      "conditions": {
+        "1": 1,
+        "2": 1
+      }
+    },
+    {
+      "object": "7",
+      "value": 3,
+      "conditions": {
+        "1": 2,
+        "2": 1
+      }
+    },
+    {
+      "object": "7",
+      "value": 4,
+      "conditions": {
+        "1": 3,
+        "2": 1
+      }
+    },
+    {
+      "object": "7",
+      "value": 6,
+      "conditions": {
+        "1": 1,
+        "2": 2
+      }
+    },
+    {
+      "object": "7",
+      "value": 7,
+      "conditions": {
+        "1": 2,
+        "2": 2
+      }
+    },
+    {
+      "object": "7",
+      "value": 8,
+      "conditions": {
+        "1": 3,
+        "2": 2
+      }
+    },
+    {
+      "object": "7",
+      "value": 10,
+      "conditions": {
+        "1": 1,
+        "2": 3
+      }
+    },
+    {
+      "object": "7",
+      "value": 11,
+      "conditions": {
+        "1": 2,
+        "2": 3
+      }
+    },
+    {
+      "object": "7",
+      "value": 12,
+      "conditions": {
+        "1": 3,
+        "2": 3
+      }
+    },
+    {
+      "object": "7",
+      "value": 33,
+      "conditions": {
+        "1": 1,
+        "2": 4
+      }
+    },
+    {
+      "object": "7",
+      "value": 36,
+      "conditions": {
+        "1": 2,
+        "2": 4
+      }
+    },
+    {
+      "object": "7",
+      "value": 16,
+      "conditions": {
+        "1": 3,
+        "2": 4
+      }
+    },
+    {
+      "object": "7",
+      "value": 34,
+      "conditions": {
+        "1": 1,
+        "2": 5
+      }
+    },
+    {
+      "object": "7",
+      "value": 37,
+      "conditions": {
+        "1": 2,
+        "2": 5
+      }
+    },
+    {
+      "object": "7",
+      "value": 39,
+      "conditions": {
+        "1": 3,
+        "2": 5
+      }
+    },
+    {
+      "object": "7",
+      "value": 35,
+      "conditions": {
+        "1": 1,
+        "2": 6
+      }
+    },
+    {
+      "object": "7",
+      "value": 23,
+      "conditions": {
+        "1": 2,
+        "2": 6
+      }
+    },
+    {
+      "object": "7",
+      "value": 40,
+      "conditions": {
+        "1": 3,
+        "2": 6
+      }
+    },
+    {
+      "object": "7",
+      "value": 26,
+      "conditions": {
+        "1": 1,
+        "2": 7
+      }
+    },
+    {
+      "object": "7",
+      "value": 38,
+      "conditions": {
+        "1": 2,
+        "2": 7
+      }
+    },
+    {
+      "object": "7",
+      "value": 41,
+      "conditions": {
+        "1": 3,
+        "2": 7
+      }
+    },
+    {
+      "object": "7",
+      "value": 29,
+      "conditions": {
+        "1": 0,
+        "2": 0
+      }
+    },
+    {
+      "object": "7",
+      "value": 1,
+      "conditions": {
+        "1": 0,
+        "2": 1
+      }
+    },
+    {
+      "object": "7",
+      "value": 5,
+      "conditions": {
+        "1": 0,
+        "2": 2
+      }
+    },
+    {
+      "object": "7",
+      "value": 9,
+      "conditions": {
+        "1": 0,
+        "2": 3
+      }
+    },
+    {
+      "object": "7",
+      "value": 13,
+      "conditions": {
+        "1": 0,
+        "2": 4
+      }
+    },
+    {
+      "object": "7",
+      "value": 17,
+      "conditions": {
+        "1": 0,
+        "2": 5
+      }
+    },
+    {
+      "object": "7",
+      "value": 21,
+      "conditions": {
+        "1": 0,
+        "2": 6
+      }
+    },
+    {
+      "object": "7",
+      "value": 25,
+      "conditions": {
+        "1": 0,
+        "2": 7
+      }
+    }
+  ]
+}

@@ -1,0 +1,1349 @@
+{
+  "id": "1",
+  "title": "Fabrication des laitages",
+  "background": "01I1",
+  "objects": [
+    {
+      "id": "1",
+      "label": "Le caillage",
+      "type": 2,
+      "function": 0,
+      "plan": 100,
+      "box": [
+        158,
+        35,
+        109,
+        93
+      ],
+      "options": [
+        {
+          "id": 1,
+          "value": 1,
+          "label": "bactéries lactiques",
+          "visual": "01D10001",
+          "audio": null
+        },
+        {
+          "id": 2,
+          "value": 2,
+          "label": "présure",
+          "visual": "01D10002",
+          "audio": null
+        }
+      ],
+      "hints": {
+        "0": "Le caillage : la présure, extraite de la caillette de veau, et les ferments lactiques assurent la coagulation du lait. Pratiquement tous les fromages, sont fabriqués avec la présure. Pour un fromage blanc ou un simple yaourt, il faut utiliser des bactéries lactiques.",
+        "1": "Le caillage : le yaourt appartient à la famille des fromages frais.",
+        "2": "Le caillage : seuls les fromages frais sont caillés avec des ferments lactiques.",
+        "3": "Le caillage : seuls les fromages frais sont caillés avec des ferments lactiques."
+      }
+    },
+    {
+      "id": "2",
+      "label": "L'égouttage",
+      "type": 2,
+      "function": 0,
+      "plan": 100,
+      "box": [
+        353,
+        47,
+        126,
+        113
+      ],
+      "options": [
+        {
+          "id": 1,
+          "value": 1,
+          "label": "par filtration",
+          "visual": "01D20001",
+          "audio": null
+        },
+        {
+          "id": 2,
+          "value": 2,
+          "label": "lent",
+          "visual": "01D20002",
+          "audio": null
+        },
+        {
+          "id": 3,
+          "value": 3,
+          "label": "accéléré",
+          "visual": "01D20003",
+          "audio": null
+        },
+        {
+          "id": 4,
+          "value": 4,
+          "label": "accéléré+broyage",
+          "visual": "01D20004",
+          "audio": null
+        },
+        {
+          "id": 5,
+          "value": 5,
+          "label": "accéléré+cuisson",
+          "visual": "01D20005",
+          "audio": null
+        },
+        {
+          "id": 6,
+          "value": 6,
+          "label": "aucun",
+          "visual": "01D20006",
+          "audio": null
+        }
+      ],
+      "hints": {
+        "0": "L'égouttage : c'est lui qui va déterminer le type de pâte obtenu. Il doit être lent pour les pâtes molles et accéléré pour les pâtes fermes. L'utilisation de présure nécessite forcément un égouttage, mais pas n'importe lequel : l'égouttage par filtration, par exemple, ne donne pas de résultats !",
+        "1": "L'égouttage : celui du yaourt  n'est ni lent, ni accéléré.",
+        "2": "L'égouttage : l'emmental appartient à la catégorie des pâtes fermes et cuites.",
+        "3": "L'égouttage : les bleus appartiennent à la catégorie des pâtes molles."
+      }
+    },
+    {
+      "id": "3",
+      "label": "L'affinage",
+      "type": 2,
+      "function": 0,
+      "plan": 100,
+      "box": [
+        151,
+        203,
+        133,
+        99
+      ],
+      "options": [
+        {
+          "id": 1,
+          "value": 1,
+          "label": "aucun",
+          "visual": "01D30001",
+          "audio": null
+        },
+        {
+          "id": 2,
+          "value": 2,
+          "label": "croûte moisie",
+          "visual": "01D30002",
+          "audio": null
+        },
+        {
+          "id": 3,
+          "value": 3,
+          "label": "croûte lavée",
+          "visual": "01D30003",
+          "audio": null
+        },
+        {
+          "id": 4,
+          "value": 4,
+          "label": "trous",
+          "visual": "01D30004",
+          "audio": null
+        },
+        {
+          "id": 5,
+          "value": 5,
+          "label": "moisissure interne",
+          "visual": "01D30005",
+          "audio": null
+        }
+      ],
+      "hints": {
+        "0": "L'affinage : c'est la dernière étape de fabrication du fromage. C'est aussi la plus lente ; certains affinages peuvent durer plusieurs mois, voire plusieurs années. Au cours de cette lente transformation par les agents microscopiques, le fromage va acquérir son aspect définitif et sa saveur incomparable. Si tu utilises des bactéries lactiques pour cailler le lait, sache que l'affinage est inutile.",
+        "1": "L'affinage : aucun affinage n'est nécessaire pour les fromages frais.",
+        "2": "L'affinage : celui de l'emmental donne une croûte sèche.",
+        "3": "L'affinage : les bleus, comme le Roquefort, comportent des moisissures internes."
+      }
+    },
+    {
+      "id": "4",
+      "label": "Caillage (obs)",
+      "type": 1,
+      "function": 1,
+      "plan": 100,
+      "box": [
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "options": [
+        {
+          "id": 1,
+          "value": 1,
+          "label": "bactéries lactiques",
+          "visual": "01D40001",
+          "audio": "/game/station/01W40001.wav"
+        },
+        {
+          "id": 2,
+          "value": 2,
+          "label": "présure",
+          "visual": "01D40002",
+          "audio": "/game/station/01W40002.wav"
+        }
+      ],
+      "hints": {
+        "0": "",
+        "1": "",
+        "2": "",
+        "3": ""
+      }
+    },
+    {
+      "id": "5",
+      "label": "Egoutage (obs)",
+      "type": 1,
+      "function": 1,
+      "plan": 100,
+      "box": [
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "options": [
+        {
+          "id": 1,
+          "value": 1,
+          "label": "par filtration",
+          "visual": "01D50001",
+          "audio": "/game/station/01W50001.wav"
+        },
+        {
+          "id": 2,
+          "value": 2,
+          "label": "lent",
+          "visual": "01D50002",
+          "audio": "/game/station/01W50002.wav"
+        },
+        {
+          "id": 3,
+          "value": 3,
+          "label": "accéléré",
+          "visual": "01D50003",
+          "audio": "/game/station/01W50003.wav"
+        },
+        {
+          "id": 4,
+          "value": 4,
+          "label": "accéléré+broyage",
+          "visual": "01D50004",
+          "audio": "/game/station/01W50004.wav"
+        },
+        {
+          "id": 5,
+          "value": 5,
+          "label": "accéléré+cuisson",
+          "visual": "01D50005",
+          "audio": "/game/station/01W50005.wav"
+        },
+        {
+          "id": 6,
+          "value": 6,
+          "label": "aucun",
+          "visual": "VIDE_DF",
+          "audio": null
+        }
+      ],
+      "hints": {
+        "0": "",
+        "1": "",
+        "2": "",
+        "3": ""
+      }
+    },
+    {
+      "id": "7",
+      "label": "Nom du laitage",
+      "type": 1,
+      "function": 2,
+      "plan": 100,
+      "box": [
+        488,
+        349,
+        63,
+        47
+      ],
+      "options": [
+        {
+          "id": 1,
+          "value": 1,
+          "label": "Fromage blanc",
+          "visual": "01D70001",
+          "audio": "/game/station/01W70001.wav"
+        },
+        {
+          "id": 2,
+          "value": 2,
+          "label": "Camembert",
+          "visual": "01D70002",
+          "audio": "/game/station/01W70002.wav"
+        },
+        {
+          "id": 3,
+          "value": 3,
+          "label": "Munster",
+          "visual": "01D70003",
+          "audio": "/game/station/01W70003.wav"
+        },
+        {
+          "id": 4,
+          "value": 4,
+          "label": "Roquefort",
+          "visual": "01D70004",
+          "audio": "/game/station/01W70004.wav"
+        },
+        {
+          "id": 5,
+          "value": 5,
+          "label": "Tomme de Savoie",
+          "visual": "01D70005",
+          "audio": "/game/station/01W70005.wav"
+        },
+        {
+          "id": 6,
+          "value": 6,
+          "label": "Reblochon",
+          "visual": "01D70006",
+          "audio": "/game/station/01W70006.wav"
+        },
+        {
+          "id": 7,
+          "value": 7,
+          "label": "Cantal",
+          "visual": "01D70007",
+          "audio": "/game/station/01W70007.wav"
+        },
+        {
+          "id": 8,
+          "value": 8,
+          "label": "Gruyère",
+          "visual": "01D70008",
+          "audio": "/game/station/01W70008.wav"
+        },
+        {
+          "id": 9,
+          "value": 9,
+          "label": "Fromage raté",
+          "visual": "01D70009",
+          "audio": "/game/station/01W70009.wav"
+        },
+        {
+          "id": 10,
+          "value": 10,
+          "label": "Fromage raté",
+          "visual": "01D7000A",
+          "audio": "/game/station/01W7000A.wav"
+        },
+        {
+          "id": 11,
+          "value": 11,
+          "label": "Fromage raté",
+          "visual": "01D7000B",
+          "audio": "/game/station/01W7000B.wav"
+        },
+        {
+          "id": 12,
+          "value": 12,
+          "label": "Fromage raté",
+          "visual": "01D7000C",
+          "audio": "/game/station/01W7000C.wav"
+        },
+        {
+          "id": 13,
+          "value": 13,
+          "label": "Yaourt",
+          "visual": "01D70001",
+          "audio": "/game/station/01W70001.wav"
+        }
+      ],
+      "hints": {
+        "0": "Le type de fromage : il existe des fromages de toutes formes et de toutes saveurs. On les classe volontiers en fonction de leur type de pâte. Le Camembert, le Munster et le Brie sont des pâtes molles tandis que celle du Gruyère est cuite. Celle du Cantal est ferme, celle de la Tomme de Savoie est pressée et celle du yaourt est fraîche.",
+        "1": "Le type de fromage : il existe des fromages de toutes formes et de toutes saveurs. On les classe volontiers en fonction de leur type de pâte. Le Camembert, le Munster et le Brie sont des pâtes molles tandis que celle du Gruyère est cuite. Celle du Cantal est ferme, celle de la Tomme de Savoie est pressée et celle du yaourt est fraîche.",
+        "2": "Le type de fromage : il existe des fromages de toutes formes et de toutes saveurs. On les classe volontiers en fonction de leur type de pâte. Le Camembert, le Munster et le Brie sont des pâtes molles tandis que celle du Gruyère est cuite. Celle du Cantal est ferme, celle de la Tomme de Savoie est pressée et celle du yaourt est fraîche.",
+        "3": "Le type de fromage : il existe des fromages de toutes formes et de toutes saveurs. On les classe volontiers en fonction de leur type de pâte. Le Camembert, le Munster et le Brie sont des pâtes molles tandis que celle du Gruyère est cuite. Celle du Cantal est ferme, celle de la Tomme de Savoie est pressée et celle du yaourt est fraîche."
+      }
+    },
+    {
+      "id": "8",
+      "label": "Type de pâte",
+      "type": 1,
+      "function": 2,
+      "plan": 100,
+      "box": [
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "options": [
+        {
+          "id": 1,
+          "value": 1,
+          "label": "Pâte fraîche",
+          "visual": "01D8000X",
+          "audio": "/game/station/01W80001.wav"
+        },
+        {
+          "id": 2,
+          "value": 2,
+          "label": "Pâte molle",
+          "visual": "01D8000X",
+          "audio": "/game/station/01W80002.wav"
+        },
+        {
+          "id": 3,
+          "value": 3,
+          "label": "Pâte pressée",
+          "visual": "01D8000X",
+          "audio": "/game/station/01W80003.wav"
+        },
+        {
+          "id": 4,
+          "value": 4,
+          "label": "Pâte ferme non cuite",
+          "visual": "01D8000X",
+          "audio": "/game/station/01W80004.wav"
+        },
+        {
+          "id": 5,
+          "value": 5,
+          "label": "Pâte ferme cuite",
+          "visual": "01D8000X",
+          "audio": "/game/station/01W80005.wav"
+        },
+        {
+          "id": 6,
+          "value": 6,
+          "label": "Pâte ratée",
+          "visual": "01D80006",
+          "audio": "/game/station/01W80006.wav"
+        }
+      ],
+      "hints": {
+        "0": "",
+        "1": "",
+        "2": "",
+        "3": ""
+      }
+    },
+    {
+      "id": "9",
+      "label": "Mise-sous-tension",
+      "type": 3,
+      "function": 0,
+      "plan": 100,
+      "box": [
+        297,
+        346,
+        51,
+        116
+      ],
+      "options": [
+        {
+          "id": 1,
+          "value": 0,
+          "label": "Arrêt",
+          "visual": "01D90001",
+          "audio": "/game/station/01W90001.wav"
+        },
+        {
+          "id": 2,
+          "value": 1,
+          "label": "Marche",
+          "visual": "01D90002",
+          "audio": "/game/station/01W90002.wav"
+        }
+      ],
+      "hints": {
+        "0": "Mise sous tension : ce levier te permet de lancer la fabrication d'un nouveau fromage.",
+        "1": "Mise sous tension : ce levier te permet de lancer la fabrication d'un nouveau fromage.",
+        "2": "Mise sous tension : ce levier te permet de lancer la fabrication d'un nouveau fromage.",
+        "3": "Mise sous tension : ce levier te permet de lancer la fabrication d'un nouveau fromage."
+      }
+    },
+    {
+      "id": "6",
+      "label": "Affinage (obs)",
+      "type": 1,
+      "function": 2,
+      "plan": 100,
+      "box": [
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "options": [
+        {
+          "id": 1,
+          "value": 1,
+          "label": "Aucun",
+          "visual": "VIDE_DF",
+          "audio": null
+        },
+        {
+          "id": 2,
+          "value": 2,
+          "label": "Croûte moisie",
+          "visual": "01D60002",
+          "audio": "/game/station/01W60002.wav"
+        },
+        {
+          "id": 3,
+          "value": 3,
+          "label": "Croûte lavée",
+          "visual": "01D60003",
+          "audio": "/game/station/01W60003.wav"
+        },
+        {
+          "id": 4,
+          "value": 4,
+          "label": "Pâte à trous",
+          "visual": "01D60004",
+          "audio": "/game/station/01W60004.wav"
+        },
+        {
+          "id": 5,
+          "value": 5,
+          "label": "Moisissure interne",
+          "visual": "01D60005",
+          "audio": "/game/station/01W60005.wav"
+        },
+        {
+          "id": 6,
+          "value": 6,
+          "label": "",
+          "visual": "01D60006",
+          "audio": "/game/station/01W60006.wav"
+        },
+        {
+          "id": 7,
+          "value": 7,
+          "label": "",
+          "visual": "01D60007",
+          "audio": "/game/station/01W60007.wav"
+        },
+        {
+          "id": 8,
+          "value": 8,
+          "label": "",
+          "visual": "01D60008",
+          "audio": "/game/station/01W60008.wav"
+        },
+        {
+          "id": 9,
+          "value": 9,
+          "label": "",
+          "visual": "01D60009",
+          "audio": "/game/station/01W60009.wav"
+        },
+        {
+          "id": 10,
+          "value": 10,
+          "label": "",
+          "visual": "01D60010",
+          "audio": "/game/station/01W60010.wav"
+        },
+        {
+          "id": 11,
+          "value": 11,
+          "label": "",
+          "visual": "01D60011",
+          "audio": "/game/station/01W60011.wav"
+        },
+        {
+          "id": 12,
+          "value": 12,
+          "label": "",
+          "visual": "01D60012",
+          "audio": "/game/station/01W60012.wav"
+        },
+        {
+          "id": 13,
+          "value": 13,
+          "label": "",
+          "visual": "01D60013",
+          "audio": "/game/station/01W60013.wav"
+        }
+      ],
+      "hints": {
+        "0": "",
+        "1": "",
+        "2": "",
+        "3": ""
+      }
+    }
+  ],
+  "cases": [
+    {
+      "id": "0",
+      "label": "Mode libre",
+      "solutions": [
+        {
+          "1": 2,
+          "2": 2,
+          "3": 4
+        }
+      ],
+      "initial": {
+        "1": 2,
+        "2": 2,
+        "3": 4,
+        "4": 2,
+        "5": 2,
+        "7": 10,
+        "8": 6,
+        "9": 1,
+        "6": 10
+      }
+    },
+    {
+      "id": "1",
+      "label": "Un yaourt remarquable",
+      "solutions": [
+        {
+          "1": 1,
+          "2": 6,
+          "3": 1
+        }
+      ],
+      "initial": {
+        "1": 2,
+        "2": 2,
+        "3": 4,
+        "4": 2,
+        "5": 2,
+        "7": 10,
+        "8": 6,
+        "9": 1,
+        "6": 10
+      }
+    },
+    {
+      "id": "2",
+      "label": "De l'emmenthal dans les pâtes",
+      "solutions": [
+        {
+          "1": 2,
+          "2": 5,
+          "3": 4
+        }
+      ],
+      "initial": {
+        "1": 1,
+        "2": 2,
+        "3": 1,
+        "4": 1,
+        "5": 2,
+        "7": 9,
+        "8": 6,
+        "9": 1,
+        "6": 1
+      }
+    },
+    {
+      "id": "3",
+      "label": "Les délices du bleu",
+      "solutions": [
+        {
+          "1": 2,
+          "2": 2,
+          "3": 5
+        }
+      ],
+      "initial": {
+        "1": 1,
+        "2": 4,
+        "3": 1,
+        "4": 1,
+        "5": 4,
+        "7": 11,
+        "8": 6,
+        "9": 1,
+        "6": 1
+      }
+    }
+  ],
+  "lookup": [
+    {
+      "object": "7",
+      "value": 1,
+      "conditions": {
+        "1": 1,
+        "2": 1,
+        "3": 1
+      }
+    },
+    {
+      "object": "7",
+      "value": 9,
+      "conditions": {
+        "1": 1,
+        "2": 2,
+        "3": 1
+      }
+    },
+    {
+      "object": "7",
+      "value": 10,
+      "conditions": {
+        "1": 1,
+        "2": 3,
+        "3": 1
+      }
+    },
+    {
+      "object": "7",
+      "value": 11,
+      "conditions": {
+        "1": 1,
+        "2": 4,
+        "3": 1
+      }
+    },
+    {
+      "object": "7",
+      "value": 12,
+      "conditions": {
+        "1": 1,
+        "2": 5,
+        "3": 1
+      }
+    },
+    {
+      "object": "7",
+      "value": 13,
+      "conditions": {
+        "1": 1,
+        "2": 6,
+        "3": 1
+      }
+    },
+    {
+      "object": "7",
+      "value": 9,
+      "conditions": {
+        "1": 2,
+        "2": 2,
+        "3": 1
+      }
+    },
+    {
+      "object": "7",
+      "value": 2,
+      "conditions": {
+        "1": 2,
+        "2": 2,
+        "3": 2
+      }
+    },
+    {
+      "object": "7",
+      "value": 3,
+      "conditions": {
+        "1": 2,
+        "2": 2,
+        "3": 3
+      }
+    },
+    {
+      "object": "7",
+      "value": 10,
+      "conditions": {
+        "1": 2,
+        "2": 2,
+        "3": 4
+      }
+    },
+    {
+      "object": "7",
+      "value": 4,
+      "conditions": {
+        "1": 2,
+        "2": 2,
+        "3": 5
+      }
+    },
+    {
+      "object": "7",
+      "value": 11,
+      "conditions": {
+        "1": 2,
+        "2": 3,
+        "3": 1
+      }
+    },
+    {
+      "object": "7",
+      "value": 5,
+      "conditions": {
+        "1": 2,
+        "2": 3,
+        "3": 2
+      }
+    },
+    {
+      "object": "7",
+      "value": 6,
+      "conditions": {
+        "1": 2,
+        "2": 3,
+        "3": 3
+      }
+    },
+    {
+      "object": "7",
+      "value": 12,
+      "conditions": {
+        "1": 2,
+        "2": 3,
+        "3": 4
+      }
+    },
+    {
+      "object": "7",
+      "value": 9,
+      "conditions": {
+        "1": 2,
+        "2": 3,
+        "3": 5
+      }
+    },
+    {
+      "object": "7",
+      "value": 10,
+      "conditions": {
+        "1": 2,
+        "2": 4,
+        "3": 1
+      }
+    },
+    {
+      "object": "7",
+      "value": 11,
+      "conditions": {
+        "1": 2,
+        "2": 4,
+        "3": 2
+      }
+    },
+    {
+      "object": "7",
+      "value": 7,
+      "conditions": {
+        "1": 2,
+        "2": 4,
+        "3": 3
+      }
+    },
+    {
+      "object": "7",
+      "value": 12,
+      "conditions": {
+        "1": 2,
+        "2": 4,
+        "3": 4
+      }
+    },
+    {
+      "object": "7",
+      "value": 9,
+      "conditions": {
+        "1": 2,
+        "2": 4,
+        "3": 5
+      }
+    },
+    {
+      "object": "7",
+      "value": 10,
+      "conditions": {
+        "1": 2,
+        "2": 5,
+        "3": 1
+      }
+    },
+    {
+      "object": "7",
+      "value": 11,
+      "conditions": {
+        "1": 2,
+        "2": 5,
+        "3": 2
+      }
+    },
+    {
+      "object": "7",
+      "value": 12,
+      "conditions": {
+        "1": 2,
+        "2": 5,
+        "3": 3
+      }
+    },
+    {
+      "object": "7",
+      "value": 8,
+      "conditions": {
+        "1": 2,
+        "2": 5,
+        "3": 4
+      }
+    },
+    {
+      "object": "7",
+      "value": 9,
+      "conditions": {
+        "1": 2,
+        "2": 5,
+        "3": 5
+      }
+    },
+    {
+      "object": "8",
+      "value": 1,
+      "conditions": {
+        "1": 1,
+        "2": 1,
+        "3": 1
+      }
+    },
+    {
+      "object": "8",
+      "value": 6,
+      "conditions": {
+        "1": 1,
+        "2": 2,
+        "3": 1
+      }
+    },
+    {
+      "object": "8",
+      "value": 6,
+      "conditions": {
+        "1": 1,
+        "2": 3,
+        "3": 1
+      }
+    },
+    {
+      "object": "8",
+      "value": 6,
+      "conditions": {
+        "1": 1,
+        "2": 4,
+        "3": 1
+      }
+    },
+    {
+      "object": "8",
+      "value": 6,
+      "conditions": {
+        "1": 1,
+        "2": 5,
+        "3": 1
+      }
+    },
+    {
+      "object": "8",
+      "value": 1,
+      "conditions": {
+        "1": 1,
+        "2": 6,
+        "3": 1
+      }
+    },
+    {
+      "object": "8",
+      "value": 6,
+      "conditions": {
+        "1": 2,
+        "2": 2,
+        "3": 1
+      }
+    },
+    {
+      "object": "8",
+      "value": 2,
+      "conditions": {
+        "1": 2,
+        "2": 2,
+        "3": 2
+      }
+    },
+    {
+      "object": "8",
+      "value": 2,
+      "conditions": {
+        "1": 2,
+        "2": 2,
+        "3": 3
+      }
+    },
+    {
+      "object": "8",
+      "value": 6,
+      "conditions": {
+        "1": 2,
+        "2": 2,
+        "3": 4
+      }
+    },
+    {
+      "object": "8",
+      "value": 2,
+      "conditions": {
+        "1": 2,
+        "2": 2,
+        "3": 5
+      }
+    },
+    {
+      "object": "8",
+      "value": 6,
+      "conditions": {
+        "1": 2,
+        "2": 3,
+        "3": 1
+      }
+    },
+    {
+      "object": "8",
+      "value": 3,
+      "conditions": {
+        "1": 2,
+        "2": 3,
+        "3": 2
+      }
+    },
+    {
+      "object": "8",
+      "value": 3,
+      "conditions": {
+        "1": 2,
+        "2": 3,
+        "3": 3
+      }
+    },
+    {
+      "object": "8",
+      "value": 6,
+      "conditions": {
+        "1": 2,
+        "2": 3,
+        "3": 4
+      }
+    },
+    {
+      "object": "8",
+      "value": 6,
+      "conditions": {
+        "1": 2,
+        "2": 3,
+        "3": 5
+      }
+    },
+    {
+      "object": "8",
+      "value": 6,
+      "conditions": {
+        "1": 2,
+        "2": 4,
+        "3": 1
+      }
+    },
+    {
+      "object": "8",
+      "value": 6,
+      "conditions": {
+        "1": 2,
+        "2": 4,
+        "3": 2
+      }
+    },
+    {
+      "object": "8",
+      "value": 4,
+      "conditions": {
+        "1": 2,
+        "2": 4,
+        "3": 3
+      }
+    },
+    {
+      "object": "8",
+      "value": 6,
+      "conditions": {
+        "1": 2,
+        "2": 4,
+        "3": 4
+      }
+    },
+    {
+      "object": "8",
+      "value": 6,
+      "conditions": {
+        "1": 2,
+        "2": 4,
+        "3": 5
+      }
+    },
+    {
+      "object": "8",
+      "value": 6,
+      "conditions": {
+        "1": 2,
+        "2": 5,
+        "3": 1
+      }
+    },
+    {
+      "object": "8",
+      "value": 6,
+      "conditions": {
+        "1": 2,
+        "2": 5,
+        "3": 2
+      }
+    },
+    {
+      "object": "8",
+      "value": 6,
+      "conditions": {
+        "1": 2,
+        "2": 5,
+        "3": 3
+      }
+    },
+    {
+      "object": "8",
+      "value": 5,
+      "conditions": {
+        "1": 2,
+        "2": 5,
+        "3": 4
+      }
+    },
+    {
+      "object": "8",
+      "value": 6,
+      "conditions": {
+        "1": 2,
+        "2": 5,
+        "3": 5
+      }
+    },
+    {
+      "object": "6",
+      "value": 1,
+      "conditions": {
+        "2": 1,
+        "3": 1
+      }
+    },
+    {
+      "object": "6",
+      "value": 1,
+      "conditions": {
+        "2": 2,
+        "3": 1
+      }
+    },
+    {
+      "object": "6",
+      "value": 1,
+      "conditions": {
+        "2": 3,
+        "3": 1
+      }
+    },
+    {
+      "object": "6",
+      "value": 1,
+      "conditions": {
+        "2": 4,
+        "3": 1
+      }
+    },
+    {
+      "object": "6",
+      "value": 1,
+      "conditions": {
+        "2": 5,
+        "3": 1
+      }
+    },
+    {
+      "object": "6",
+      "value": 1,
+      "conditions": {
+        "2": 6,
+        "3": 1
+      }
+    },
+    {
+      "object": "6",
+      "value": 1,
+      "conditions": {
+        "2": 2,
+        "3": 1
+      }
+    },
+    {
+      "object": "6",
+      "value": 2,
+      "conditions": {
+        "2": 2,
+        "3": 2
+      }
+    },
+    {
+      "object": "6",
+      "value": 3,
+      "conditions": {
+        "2": 2,
+        "3": 3
+      }
+    },
+    {
+      "object": "6",
+      "value": 10,
+      "conditions": {
+        "2": 2,
+        "3": 4
+      }
+    },
+    {
+      "object": "6",
+      "value": 5,
+      "conditions": {
+        "2": 2,
+        "3": 5
+      }
+    },
+    {
+      "object": "6",
+      "value": 1,
+      "conditions": {
+        "2": 3,
+        "3": 1
+      }
+    },
+    {
+      "object": "6",
+      "value": 2,
+      "conditions": {
+        "2": 3,
+        "3": 2
+      }
+    },
+    {
+      "object": "6",
+      "value": 3,
+      "conditions": {
+        "2": 3,
+        "3": 3
+      }
+    },
+    {
+      "object": "6",
+      "value": 10,
+      "conditions": {
+        "2": 3,
+        "3": 4
+      }
+    },
+    {
+      "object": "6",
+      "value": 5,
+      "conditions": {
+        "2": 3,
+        "3": 5
+      }
+    },
+    {
+      "object": "6",
+      "value": 1,
+      "conditions": {
+        "2": 4,
+        "3": 1
+      }
+    },
+    {
+      "object": "6",
+      "value": 6,
+      "conditions": {
+        "2": 4,
+        "3": 2
+      }
+    },
+    {
+      "object": "6",
+      "value": 8,
+      "conditions": {
+        "2": 4,
+        "3": 3
+      }
+    },
+    {
+      "object": "6",
+      "value": 11,
+      "conditions": {
+        "2": 4,
+        "3": 4
+      }
+    },
+    {
+      "object": "6",
+      "value": 12,
+      "conditions": {
+        "2": 4,
+        "3": 5
+      }
+    },
+    {
+      "object": "6",
+      "value": 1,
+      "conditions": {
+        "2": 5,
+        "3": 1
+      }
+    },
+    {
+      "object": "6",
+      "value": 7,
+      "conditions": {
+        "2": 5,
+        "3": 2
+      }
+    },
+    {
+      "object": "6",
+      "value": 9,
+      "conditions": {
+        "2": 5,
+        "3": 3
+      }
+    },
+    {
+      "object": "6",
+      "value": 4,
+      "conditions": {
+        "2": 5,
+        "3": 4
+      }
+    },
+    {
+      "object": "6",
+      "value": 13,
+      "conditions": {
+        "2": 5,
+        "3": 5
+      }
+    }
+  ]
+}

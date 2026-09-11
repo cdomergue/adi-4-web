@@ -1,0 +1,2512 @@
+{
+  "id": "3",
+  "title": "Conditions d'apparition de la foudre",
+  "background": "03I1",
+  "objects": [
+    {
+      "id": "1",
+      "label": "Température/hygrométrie",
+      "type": 4,
+      "function": 0,
+      "plan": 102,
+      "box": [
+        145,
+        294,
+        131,
+        162
+      ],
+      "options": [
+        {
+          "id": 1,
+          "value": 1,
+          "label": "Froid et humide",
+          "visual": "03D10001",
+          "audio": null
+        },
+        {
+          "id": 2,
+          "value": 2,
+          "label": "Froid et sec",
+          "visual": "03D10002",
+          "audio": null
+        },
+        {
+          "id": 3,
+          "value": 3,
+          "label": "Chaud et humide",
+          "visual": "03D10003",
+          "audio": null
+        },
+        {
+          "id": 4,
+          "value": 4,
+          "label": "Chaud et sec",
+          "visual": "03D10004",
+          "audio": null
+        }
+      ],
+      "hints": {
+        "0": "Température/humidité de l'air : un temps froid et humide n'est pas favorable à l'apparition de la foudre. Les orages d'été sur Terre se produisent le plus souvent quand l'air est sec et chaud.",
+        "1": "Température/humidité de l'air : un temps froid et sec n'est pas favorable à la foudre",
+        "2": "Température/humidité de l'air : quand il fait sec le risque d'orage est moins important que quand il fait humide.",
+        "3": "Température/humidité de l'air : dans cet objectif, des conditions  favorables à l'obtention de la foudre sont imposées ; il fait donc chaud et humide."
+      }
+    },
+    {
+      "id": "2",
+      "label": "Taille du nuage",
+      "type": 4,
+      "function": 0,
+      "plan": 102,
+      "box": [
+        8,
+        258,
+        137,
+        121
+      ],
+      "options": [
+        {
+          "id": 1,
+          "value": 1,
+          "label": "Nuage de faible taille",
+          "visual": "03D20001",
+          "audio": null
+        },
+        {
+          "id": 2,
+          "value": 2,
+          "label": "Nuages de taille moyenne",
+          "visual": "03D20002",
+          "audio": null
+        },
+        {
+          "id": 3,
+          "value": 3,
+          "label": "Nuages de grande taille",
+          "visual": "03D20003",
+          "audio": null
+        }
+      ],
+      "hints": {
+        "0": "Taille des nuages : Plus les nuages sont grands, plus ils sont chargés d'électricité et plus le risque de foudre est important. ",
+        "1": "Taille des nuages : plus le nuage est gros et plus le danger est grand.",
+        "2": "Taille des nuages : moins le nuage est grand et plus le danger est réduit.",
+        "3": "Taille des nuages : Dans cet objectif, une taille de nuages moyenne t'est imposée."
+      }
+    },
+    {
+      "id": "3",
+      "label": "Constructions humaines",
+      "type": 4,
+      "function": 0,
+      "plan": 102,
+      "box": [
+        495,
+        234,
+        140,
+        243
+      ],
+      "options": [
+        {
+          "id": 1,
+          "value": 0,
+          "label": "Pas de constructions",
+          "visual": "03D30001",
+          "audio": null
+        },
+        {
+          "id": 2,
+          "value": 1,
+          "label": "Constructions basses",
+          "visual": "03D30002",
+          "audio": null
+        },
+        {
+          "id": 3,
+          "value": 2,
+          "label": "Constructions de hauteur moyenne",
+          "visual": "03D30003",
+          "audio": null
+        },
+        {
+          "id": 4,
+          "value": 3,
+          "label": "Constructions hautes",
+          "visual": "03D30004",
+          "audio": null
+        }
+      ],
+      "hints": {
+        "0": "Constructions : un homme isolé en montagne court plus de risques que s'il était en ville entouré d'immeubles.",
+        "1": "Constructions : Dans cet objectif, on se place dans la nature, il n'y a donc pas de constructions.",
+        "2": "Constructions : Pour étudier ce cas, la présence de maisons est nécessaire.",
+        "3": "Constructions : C'est sur les constructions hautes que la foudre est la plus forte."
+      }
+    },
+    {
+      "id": "4",
+      "label": "Présence d'humains",
+      "type": 4,
+      "function": 0,
+      "plan": 102,
+      "box": [
+        407,
+        333,
+        86,
+        124
+      ],
+      "options": [
+        {
+          "id": 1,
+          "value": 0,
+          "label": "Sans présence humaine",
+          "visual": "03D40001",
+          "audio": null
+        },
+        {
+          "id": 2,
+          "value": 1,
+          "label": "Présence humaine",
+          "visual": "03D40002",
+          "audio": null
+        }
+      ],
+      "hints": {
+        "0": "Présence de personnages : attention au coup de foudre ! Au lieu de tomber sur le paysage, la foudre pourrait bien préférer un personnage surtout s'il est isolé.",
+        "1": "Présence de personnages : Pour étudier ce cas, la présence d'humains isolés dans la nature est nécessaire.",
+        "2": "Présence de personnages isolés : Pour étudier ce cas, la présence de personnages en ville est nécessaire.",
+        "3": "Présence de personnages isolés : Pour étudier ce cas, la présence de l'homme est nécessaire."
+      }
+    },
+    {
+      "id": "5",
+      "label": "Présence de paratonnerre",
+      "type": 4,
+      "function": 0,
+      "plan": 102,
+      "box": [
+        280,
+        401,
+        124,
+        79
+      ],
+      "options": [
+        {
+          "id": 1,
+          "value": 0,
+          "label": "Pas de paratonnerre",
+          "visual": "03D50001",
+          "audio": null
+        },
+        {
+          "id": 2,
+          "value": 1,
+          "label": "Paratonnerre en montagne",
+          "visual": "03D50002",
+          "audio": null
+        },
+        {
+          "id": 3,
+          "value": 2,
+          "label": "Paratonnerre en plaine",
+          "visual": "03D50003",
+          "audio": null
+        },
+        {
+          "id": 4,
+          "value": 3,
+          "label": "Paratonnerre en bord de mer",
+          "visual": "03D50004",
+          "audio": null
+        }
+      ],
+      "hints": {
+        "0": "",
+        "1": "Présence d'un paratonnerre : il s'agit de protéger les personnes ; le lieu le plus approprié est celui où la foudre est la plus forte.",
+        "2": "Présence de paratonnerre : il s'agit de protéger les personnes ; le lieu le plus approprié est celui où la foudre est la plus forte.",
+        "3": "Présence de paratonnerre : il s'agit de protéger les humains tout en limitant les dégâts sur les constructions ; le lieu le plus approprié n'est pas en montagne..."
+      }
+    },
+    {
+      "id": "6",
+      "label": "Etat des nuages",
+      "type": 1,
+      "function": 2,
+      "plan": 101,
+      "box": [
+        64,
+        9,
+        494,
+        59
+      ],
+      "options": [
+        {
+          "id": 1,
+          "value": 1,
+          "label": "",
+          "visual": "03D60001",
+          "audio": null
+        },
+        {
+          "id": 2,
+          "value": 2,
+          "label": "",
+          "visual": "03D60002",
+          "audio": null
+        },
+        {
+          "id": 3,
+          "value": 3,
+          "label": "",
+          "visual": "03D60003",
+          "audio": null
+        },
+        {
+          "id": 4,
+          "value": 4,
+          "label": "",
+          "visual": "03D60004",
+          "audio": null
+        },
+        {
+          "id": 5,
+          "value": 5,
+          "label": "",
+          "visual": "03D60005",
+          "audio": null
+        },
+        {
+          "id": 6,
+          "value": 6,
+          "label": "",
+          "visual": "03D60006",
+          "audio": null
+        },
+        {
+          "id": 7,
+          "value": 7,
+          "label": "",
+          "visual": "03D60007",
+          "audio": null
+        },
+        {
+          "id": 8,
+          "value": 8,
+          "label": "",
+          "visual": "03D60008",
+          "audio": null
+        },
+        {
+          "id": 9,
+          "value": 9,
+          "label": "",
+          "visual": "03D60009",
+          "audio": null
+        }
+      ],
+      "hints": {
+        "0": "Etat d'électrisation des nuages : la taille et la couleur des nuages sont de bons indicateurs du risque d'orage. Un gros nuage bien noir est un mauvais signe pour la météo. A l'inverse, quelques petits nuages blancs ne sont pas bien inquiétants.",
+        "1": "Etat d'électrisation des nuages : la taille et la couleur des nuages sont de bons indicateurs du risque d'orage. Un gros nuage bien noir est un mauvais signe pour la météo. A l'inverse, quelques petits nuages blancs ne sont pas bien inquiétants.",
+        "2": "Etat d'électrisation des nuages : la taille et la couleur des nuages sont de bons indicateurs du risque d'orage. Un gros nuage bien noir est un mauvais signe pour la météo. A l'inverse, quelques petits nuages blancs ne sont pas bien inquiétants.",
+        "3": "Etat d'électrisation des nuages : la taille et la couleur des nuages sont de bons indicateurs du risque d'orage. Un gros nuage bien noir est un mauvais signe pour la météo. A l'inverse, quelques petits nuages blancs ne sont pas bien inquiétants."
+      }
+    },
+    {
+      "id": "7",
+      "label": "Paysage de montagne",
+      "type": 1,
+      "function": 2,
+      "plan": 102,
+      "box": [
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "options": [
+        {
+          "id": 1,
+          "value": 1,
+          "label": "",
+          "visual": "RIEN_DF",
+          "audio": null
+        },
+        {
+          "id": 2,
+          "value": 2,
+          "label": "",
+          "visual": "RIEN_DF",
+          "audio": null
+        },
+        {
+          "id": 3,
+          "value": 3,
+          "label": "",
+          "visual": "03D70003",
+          "audio": null
+        },
+        {
+          "id": 4,
+          "value": 4,
+          "label": "",
+          "visual": "03D70003",
+          "audio": null
+        },
+        {
+          "id": 5,
+          "value": 5,
+          "label": "",
+          "visual": "03D70005",
+          "audio": null
+        },
+        {
+          "id": 6,
+          "value": 6,
+          "label": "",
+          "visual": "03D70005",
+          "audio": null
+        },
+        {
+          "id": 7,
+          "value": 7,
+          "label": "",
+          "visual": "03D70007",
+          "audio": null
+        },
+        {
+          "id": 8,
+          "value": 8,
+          "label": "",
+          "visual": "03D70007",
+          "audio": null
+        }
+      ],
+      "hints": {
+        "0": "",
+        "1": "",
+        "2": "",
+        "3": ""
+      }
+    },
+    {
+      "id": "8",
+      "label": "Paysage de plaine",
+      "type": 1,
+      "function": 2,
+      "plan": 102,
+      "box": [
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "options": [
+        {
+          "id": 1,
+          "value": 1,
+          "label": "",
+          "visual": "RIEN_DF",
+          "audio": null
+        },
+        {
+          "id": 2,
+          "value": 2,
+          "label": "",
+          "visual": "RIEN_DF",
+          "audio": null
+        },
+        {
+          "id": 3,
+          "value": 3,
+          "label": "",
+          "visual": "03D80003",
+          "audio": null
+        },
+        {
+          "id": 4,
+          "value": 4,
+          "label": "",
+          "visual": "03D80003",
+          "audio": null
+        },
+        {
+          "id": 5,
+          "value": 5,
+          "label": "",
+          "visual": "03D80005",
+          "audio": null
+        },
+        {
+          "id": 6,
+          "value": 6,
+          "label": "",
+          "visual": "03D80005",
+          "audio": null
+        },
+        {
+          "id": 7,
+          "value": 7,
+          "label": "",
+          "visual": "03D80007",
+          "audio": null
+        },
+        {
+          "id": 8,
+          "value": 8,
+          "label": "",
+          "visual": "03D80007",
+          "audio": null
+        }
+      ],
+      "hints": {
+        "0": "",
+        "1": "",
+        "2": "",
+        "3": ""
+      }
+    },
+    {
+      "id": "9",
+      "label": "Paysage de mer",
+      "type": 1,
+      "function": 2,
+      "plan": 102,
+      "box": [
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "options": [
+        {
+          "id": 1,
+          "value": 1,
+          "label": "",
+          "visual": "RIEN_DF",
+          "audio": null
+        },
+        {
+          "id": 2,
+          "value": 2,
+          "label": "",
+          "visual": "RIEN_DF",
+          "audio": null
+        },
+        {
+          "id": 3,
+          "value": 3,
+          "label": "",
+          "visual": "03D90003",
+          "audio": null
+        },
+        {
+          "id": 4,
+          "value": 4,
+          "label": "",
+          "visual": "03D90003",
+          "audio": null
+        },
+        {
+          "id": 5,
+          "value": 5,
+          "label": "",
+          "visual": "03D90005",
+          "audio": null
+        },
+        {
+          "id": 6,
+          "value": 6,
+          "label": "",
+          "visual": "03D90005",
+          "audio": null
+        },
+        {
+          "id": 7,
+          "value": 7,
+          "label": "",
+          "visual": "03D90007",
+          "audio": null
+        },
+        {
+          "id": 8,
+          "value": 8,
+          "label": "",
+          "visual": "03D90007",
+          "audio": null
+        }
+      ],
+      "hints": {
+        "0": "",
+        "1": "",
+        "2": "",
+        "3": ""
+      }
+    },
+    {
+      "id": "10",
+      "label": "Foudre sur paysage de montagne",
+      "type": 1,
+      "function": 1,
+      "plan": 102,
+      "box": [
+        234,
+        88,
+        27,
+        67
+      ],
+      "options": [
+        {
+          "id": 1,
+          "value": 0,
+          "label": "",
+          "visual": "VIDE_DF",
+          "audio": null
+        },
+        {
+          "id": 2,
+          "value": 1,
+          "label": "foudre force 1 sur montagne",
+          "visual": "03DA0002",
+          "audio": "/game/station/03WA0002.wav"
+        },
+        {
+          "id": 3,
+          "value": 2,
+          "label": "foudre force 3 sur montagne",
+          "visual": "03DA0003",
+          "audio": "/game/station/03WA0003.wav"
+        },
+        {
+          "id": 4,
+          "value": 3,
+          "label": "foudre force 5 sur montagne",
+          "visual": "03DA0004",
+          "audio": "/game/station/03WA0004.wav"
+        }
+      ],
+      "hints": {
+        "0": "Foudre sur paysage de montagne : suivant les conditions atmosphériques, la force de la foudre est plus ou moins importante. Tu peux en juger par les dégâts produits sur le paysage ! En montagne, la foudre peut être extrêmement violente car les sommets sont proches de la base des nuages.",
+        "1": "Foudre sur paysage de montagne : suivant les conditions atmosphériques, la force de la foudre est plus ou moins importante. Tu peux en juger par les dégâts produits sur le paysage ! En montagne, la foudre peut être extrêmement violente car les sommets sont proches de la base des nuages.",
+        "2": "Foudre sur paysage de montagne : suivant les conditions atmosphériques, la force de la foudre est plus ou moins importante. Tu peux en juger par les dégâts produits sur le paysage ! En montagne, la foudre peut être extrêmement violente car les sommets sont proches de la base des nuages.",
+        "3": "Foudre sur paysage de montagne : suivant les conditions atmosphériques, la force de la foudre est plus ou moins importante. Tu peux en juger par les dégâts produits sur le paysage ! En montagne, la foudre peut être extrêmement violente car les sommets sont proches de la base des nuages."
+      }
+    },
+    {
+      "id": "11",
+      "label": "Foudre sur paysage de plaine",
+      "type": 1,
+      "function": 1,
+      "plan": 102,
+      "box": [
+        312,
+        254,
+        38,
+        60
+      ],
+      "options": [
+        {
+          "id": 1,
+          "value": 0,
+          "label": "",
+          "visual": "VIDE_DF",
+          "audio": null
+        },
+        {
+          "id": 2,
+          "value": 2,
+          "label": "foudre force 2 sur plaine",
+          "visual": "03DB0002",
+          "audio": "/game/station/03WB0002.wav"
+        },
+        {
+          "id": 3,
+          "value": 3,
+          "label": "foudre force 4 sur plaine",
+          "visual": "03DB0003",
+          "audio": "/game/station/03WB0003.wav"
+        }
+      ],
+      "hints": {
+        "0": "Foudre sur paysage de plaine : suivant les conditions atmosphériques, la force de la foudre est plus ou moins importante. Tu peux en juger par les dégâts produits sur le paysage ! En plaine, la foudre peut être violente, une seule décharge de foudre peut décimer un troupeau.",
+        "1": "Foudre sur paysage de plaine : suivant les conditions atmosphériques, la force de la foudre est plus ou moins importante. Tu peux en juger par les dégâts produits sur le paysage ! En plaine, la foudre peut être violente, une seule décharge de foudre peut décimer un troupeau.",
+        "2": "Foudre sur paysage de plaine : suivant les conditions atmosphériques, la force de la foudre est plus ou moins importante. Tu peux en juger par les dégâts produits sur le paysage ! En plaine, la foudre peut être violente, une seule décharge de foudre peut décimer un troupeau.",
+        "3": "Foudre sur paysage de plaine : suivant les conditions atmosphériques, la force de la foudre est plus ou moins importante. Tu peux en juger par les dégâts produits sur le paysage ! En plaine, la foudre peut être violente, une seule décharge de foudre peut décimer un troupeau."
+      }
+    },
+    {
+      "id": "12",
+      "label": "Foudre sur paysage de mer",
+      "type": 1,
+      "function": 1,
+      "plan": 102,
+      "box": [
+        503,
+        183,
+        33,
+        40
+      ],
+      "options": [
+        {
+          "id": 1,
+          "value": 0,
+          "label": "",
+          "visual": "VIDE_DF",
+          "audio": null
+        },
+        {
+          "id": 2,
+          "value": 3,
+          "label": "foudre force 3 sur mer",
+          "visual": "03DC0002",
+          "audio": "/game/station/03WC0002.wav"
+        }
+      ],
+      "hints": {
+        "0": "Foudre sur paysage de bord de mer : suivant les conditions atmosphériques, la force de la foudre est plus ou moins importante. Tu peux en juger par les dégâts produits sur le paysage ! En mer, la foudre est moins violente, mais toujours dangereuse bien sûr !",
+        "1": "Foudre sur paysage de bord de mer : suivant les conditions atmosphériques, la force de la foudre est plus ou moins importante. Tu peux en juger par les dégâts produits sur le paysage ! En mer, la foudre est moins violente, mais toujours dangereuse bien sûr !",
+        "2": "Foudre sur paysage de bord de mer : suivant les conditions atmosphériques, la force de la foudre est plus ou moins importante. Tu peux en juger par les dégâts produits sur le paysage ! En mer, la foudre est moins violente, mais toujours dangereuse bien sûr !",
+        "3": "Foudre sur paysage de bord de mer : suivant les conditions atmosphériques, la force de la foudre est plus ou moins importante. Tu peux en juger par les dégâts produits sur le paysage ! En mer, la foudre est moins violente, mais toujours dangereuse bien sûr !"
+      }
+    },
+    {
+      "id": "13",
+      "label": "Foudre sur constructions de montagne",
+      "type": 1,
+      "function": 1,
+      "plan": 102,
+      "box": [
+        168,
+        93,
+        45,
+        59
+      ],
+      "options": [
+        {
+          "id": 1,
+          "value": 0,
+          "label": "",
+          "visual": "VIDE_DF",
+          "audio": null
+        },
+        {
+          "id": 2,
+          "value": 1,
+          "label": "foudre force 1 sur cabane en montagne",
+          "visual": "03DD0002",
+          "audio": "/game/station/03WD0002.wav"
+        },
+        {
+          "id": 3,
+          "value": 2,
+          "label": "foudre force 2 sur cabane en montagne",
+          "visual": "03DD0003",
+          "audio": "/game/station/03WD0003.wav"
+        },
+        {
+          "id": 4,
+          "value": 3,
+          "label": "foudre force 3 sur cabane en montagne",
+          "visual": "03DD0004",
+          "audio": "/game/station/03WD0004.wav"
+        },
+        {
+          "id": 5,
+          "value": 4,
+          "label": "foudre force 2 sur maison en montagne",
+          "visual": "03DD0005",
+          "audio": "/game/station/03WD0005.wav"
+        },
+        {
+          "id": 6,
+          "value": 5,
+          "label": "foudre force 3 sur maison en montagne",
+          "visual": "03DD0006",
+          "audio": "/game/station/03WD0006.wav"
+        },
+        {
+          "id": 7,
+          "value": 6,
+          "label": "foudre force 4 sur maison en montagne",
+          "visual": "03DD0007",
+          "audio": "/game/station/03WD0007.wav"
+        },
+        {
+          "id": 8,
+          "value": 7,
+          "label": "foudre force 3 sur immeuble en montagne",
+          "visual": "03DD0008",
+          "audio": "/game/station/03WD0008.wav"
+        },
+        {
+          "id": 9,
+          "value": 8,
+          "label": "foudre force 4 sur immeuble en montagne",
+          "visual": "03DD0009",
+          "audio": "/game/station/03WD0009.wav"
+        },
+        {
+          "id": 10,
+          "value": 9,
+          "label": "foudre force 5 sur immeuble en montagne",
+          "visual": "03DD0010",
+          "audio": "/game/station/03WD0010.wav"
+        },
+        {
+          "id": 11,
+          "value": 100,
+          "label": "constructions de montagne protégées",
+          "visual": "VIDE_DF",
+          "audio": null
+        }
+      ],
+      "hints": {
+        "0": "Foudre sur constructions de montagne : suivant les conditions atmosphériques et la taille des nuages, la force de la foudre est plus ou moins importante. Les dégâts produits sur ces constructions en montagne dépendent aussi de la hauteur des habitations !",
+        "1": "Foudre sur constructions de montagne : suivant les conditions atmosphériques et la taille des nuages, la force de la foudre est plus ou moins importante. Les dégâts produits sur ces constructions en montagne dépendent aussi de la hauteur des habitations !",
+        "2": "Foudre sur constructions de montagne : suivant les conditions atmosphériques et la taille des nuages, la force de la foudre est plus ou moins importante. Les dégâts produits sur ces constructions en montagne dépendent aussi de la hauteur des habitations !",
+        "3": "Foudre sur constructions de montagne : suivant les conditions atmosphériques et la taille des nuages, la force de la foudre est plus ou moins importante. Les dégâts produits sur ces constructions en montagne dépendent aussi de la hauteur des habitations !"
+      }
+    },
+    {
+      "id": "14",
+      "label": "Foudre sur constructions de plaine",
+      "type": 1,
+      "function": 1,
+      "plan": 102,
+      "box": [
+        191,
+        196,
+        45,
+        52
+      ],
+      "options": [
+        {
+          "id": 1,
+          "value": 0,
+          "label": "",
+          "visual": "VIDE_DF",
+          "audio": null
+        },
+        {
+          "id": 2,
+          "value": 2,
+          "label": "foudre force 1 sur cabane en plaine",
+          "visual": "03DE0002",
+          "audio": "/game/station/03WE0002.wav"
+        },
+        {
+          "id": 3,
+          "value": 3,
+          "label": "foudre force 2 sur cabane en plaine",
+          "visual": "03DE0003",
+          "audio": "/game/station/03WE0003.wav"
+        },
+        {
+          "id": 4,
+          "value": 5,
+          "label": "foudre force 2 sur maison en plaine",
+          "visual": "03DE0004",
+          "audio": "/game/station/03WE0004.wav"
+        },
+        {
+          "id": 5,
+          "value": 6,
+          "label": "foudre force 3 sur maison en plaine",
+          "visual": "03DE0005",
+          "audio": "/game/station/03WE0005.wav"
+        },
+        {
+          "id": 6,
+          "value": 8,
+          "label": "foudre force 3 sur immeuble en plaine",
+          "visual": "03DE0006",
+          "audio": "/game/station/03WE0006.wav"
+        },
+        {
+          "id": 7,
+          "value": 9,
+          "label": "foudre force 4 sur immeuble en plaine",
+          "visual": "03DE0007",
+          "audio": "/game/station/03WE0007.wav"
+        },
+        {
+          "id": 8,
+          "value": 100,
+          "label": "constructions de plaine protégées",
+          "visual": "VIDE_DF",
+          "audio": null
+        }
+      ],
+      "hints": {
+        "0": "Foudre sur constructions de plaine : suivant les conditions atmosphériques et la taille des nuages, la force de la foudre est plus ou moins importante. Les dégâts produits sur ces constructions en plaine dépendent aussi de la hauteur des habitations !",
+        "1": "Foudre sur constructions de plaine : suivant les conditions atmosphériques et la taille des nuages, la force de la foudre est plus ou moins importante. Les dégâts produits sur ces constructions en plaine dépendent aussi de la hauteur des habitations !",
+        "2": "Foudre sur constructions de plaine : suivant les conditions atmosphériques et la taille des nuages, la force de la foudre est plus ou moins importante. Les dégâts produits sur ces constructions en plaine dépendent aussi de la hauteur des habitations !",
+        "3": "Foudre sur constructions de plaine : suivant les conditions atmosphériques et la taille des nuages, la force de la foudre est plus ou moins importante. Les dégâts produits sur ces constructions en plaine dépendent aussi de la hauteur des habitations !"
+      }
+    },
+    {
+      "id": "15",
+      "label": "Foudre sur constructions de mer",
+      "type": 1,
+      "function": 1,
+      "plan": 102,
+      "box": [
+        464,
+        115,
+        46,
+        55
+      ],
+      "options": [
+        {
+          "id": 1,
+          "value": 0,
+          "label": "",
+          "visual": "VIDE_DF",
+          "audio": null
+        },
+        {
+          "id": 2,
+          "value": 3,
+          "label": "foudre force 1 sur cabane en bord de mer",
+          "visual": "03DF0002",
+          "audio": "/game/station/03WF0002.wav"
+        },
+        {
+          "id": 3,
+          "value": 6,
+          "label": "foudre force 2 sur maison en bord de mer",
+          "visual": "03DF0003",
+          "audio": "/game/station/03WF0003.wav"
+        },
+        {
+          "id": 4,
+          "value": 9,
+          "label": "foudre force 3 sur immeuble en bord de mer",
+          "visual": "03DF0004",
+          "audio": "/game/station/03WF0004.wav"
+        },
+        {
+          "id": 5,
+          "value": 100,
+          "label": "constructions de bord de mer protégées",
+          "visual": "VIDE_DF",
+          "audio": null
+        }
+      ],
+      "hints": {
+        "0": "Foudre sur constructions de bord de mer : suivant les conditions atmosphériques et la taille des nuages, la force de la foudre est plus ou moins importante. Les dégâts produits sur ces constructions en bord de mer dépendent aussi de la hauteur des habitations !",
+        "1": "Foudre sur constructions de bord de mer : suivant les conditions atmosphériques et la taille des nuages, la force de la foudre est plus ou moins importante. Les dégâts produits sur ces constructions en bord de mer dépendent aussi de la hauteur des habitations !",
+        "2": "Foudre sur constructions de bord de mer : suivant les conditions atmosphériques et la taille des nuages, la force de la foudre est plus ou moins importante. Les dégâts produits sur ces constructions en bord de mer dépendent aussi de la hauteur des habitations !",
+        "3": "Foudre sur constructions de bord de mer : suivant les conditions atmosphériques et la taille des nuages, la force de la foudre est plus ou moins importante. Les dégâts produits sur ces constructions en bord de mer dépendent aussi de la hauteur des habitations !"
+      }
+    },
+    {
+      "id": "16",
+      "label": "Foudre sur humains de montagne",
+      "type": 1,
+      "function": 1,
+      "plan": 102,
+      "box": [
+        115,
+        99,
+        50,
+        64
+      ],
+      "options": [
+        {
+          "id": 1,
+          "value": 0,
+          "label": "",
+          "visual": "VIDE_DF",
+          "audio": null
+        },
+        {
+          "id": 2,
+          "value": 4,
+          "label": "foudre force 4 sur personnage seul",
+          "visual": "03DG0002",
+          "audio": "/game/station/03WG0002.wav"
+        },
+        {
+          "id": 3,
+          "value": 3,
+          "label": "foudre force 3 sur citadin près d'une cabane",
+          "visual": "03DG0003",
+          "audio": "/game/station/03WG0003.wav"
+        },
+        {
+          "id": 4,
+          "value": 2,
+          "label": "foudre force 2 sur citadin près d'une maison",
+          "visual": "03DG0004",
+          "audio": "/game/station/03WG0004.wav"
+        },
+        {
+          "id": 5,
+          "value": 0,
+          "label": "pas de foudre sur citadin près d'un immeuble",
+          "visual": "VIDE_DF",
+          "audio": null
+        },
+        {
+          "id": 6,
+          "value": 100,
+          "label": "citadin de montagne protégé",
+          "visual": "VIDE_DF",
+          "audio": null
+        }
+      ],
+      "hints": {
+        "0": "Foudre sur personnages de montagne : En montagne, la taille des constructions est un facteur important de protection des personnages. Par contre, un alpiniste isolé est en danger en cas d'orage. Le citadin avec son parapluie, lui, est moins exposé grâce aux constructions.",
+        "1": "Foudre sur personnages de montagne : En montagne, la taille des constructions est un facteur important de protection des personnages. Par contre, un alpiniste isolé est en danger en cas d'orage. Le citadin avec son parapluie, lui, est moins exposé grâce aux constructions.",
+        "2": "Foudre sur personnages de montagne : En montagne, la taille des constructions est un facteur important de protection des personnages. Par contre, un alpiniste isolé est en danger en cas d'orage. Le citadin avec son parapluie, lui, est moins exposé grâce aux constructions.",
+        "3": "Foudre sur personnages de montagne : En montagne, la taille des constructions est un facteur important de protection des personnages. Par contre, un alpiniste isolé est en danger en cas d'orage. Le citadin avec son parapluie, lui, est moins exposé grâce aux constructions."
+      }
+    },
+    {
+      "id": "17",
+      "label": "Foudre sur humains de plaine",
+      "type": 1,
+      "function": 1,
+      "plan": 102,
+      "box": [
+        264,
+        174,
+        44,
+        114
+      ],
+      "options": [
+        {
+          "id": 1,
+          "value": 0,
+          "label": "",
+          "visual": "VIDE_DF",
+          "audio": null
+        },
+        {
+          "id": 2,
+          "value": 2,
+          "label": "foudre force 2 sur personnage seul",
+          "visual": "03DH0002",
+          "audio": "/game/station/03WH0002.wav"
+        },
+        {
+          "id": 3,
+          "value": 1,
+          "label": "foudre force 1 sur citadin près d'une cabane",
+          "visual": "03DH0003",
+          "audio": "/game/station/03WH0003.wav"
+        },
+        {
+          "id": 4,
+          "value": 0,
+          "label": "pas de foudre sur citadin près d'une maison",
+          "visual": "VIDE_DF",
+          "audio": null
+        },
+        {
+          "id": 5,
+          "value": 0,
+          "label": "pas de foudre sur citadin près d'un immeuble",
+          "visual": "VIDE_DF",
+          "audio": null
+        },
+        {
+          "id": 6,
+          "value": 100,
+          "label": "citadin de plaine protégé",
+          "visual": "VIDE_DF",
+          "audio": null
+        }
+      ],
+      "hints": {
+        "0": "Foudre sur personnages de plaine : En plaine, les constructions hautes permettent de protéger les personnages. Par contre, un cycliste isolé est en danger en cas d'orage. Le citadin avec sa bêche, lui, est moins exposé grâce aux constructions.",
+        "1": "Foudre sur personnages de plaine : En plaine, les constructions hautes permettent de protéger les personnages. Par contre, un cycliste isolé est en danger en cas d'orage. Le citadin avec sa bêche, lui, est moins exposé grâce aux constructions.",
+        "2": "Foudre sur personnages de plaine : En plaine, les constructions hautes permettent de protéger les personnages. Par contre, un cycliste isolé est en danger en cas d'orage. Le citadin avec sa bêche, lui, est moins exposé grâce aux constructions.",
+        "3": "Foudre sur personnages de plaine : En plaine, les constructions hautes permettent de protéger les personnages. Par contre, un cycliste isolé est en danger en cas d'orage. Le citadin avec sa bêche, lui, est moins exposé grâce aux constructions."
+      }
+    },
+    {
+      "id": "18",
+      "label": "Foudre sur humains de mer",
+      "type": 1,
+      "function": 1,
+      "plan": 102,
+      "box": [
+        393,
+        170,
+        85,
+        118
+      ],
+      "options": [
+        {
+          "id": 1,
+          "value": 0,
+          "label": "",
+          "visual": "VIDE_DF",
+          "audio": null
+        },
+        {
+          "id": 2,
+          "value": 3,
+          "label": "foudre force 3 sur personnage seul",
+          "visual": "03DI0002",
+          "audio": "/game/station/03WI0002.wav"
+        },
+        {
+          "id": 3,
+          "value": 2,
+          "label": "foudre force 2 sur citadin près d'une cabane",
+          "visual": "03DI0003",
+          "audio": "/game/station/03WI0003.wav"
+        },
+        {
+          "id": 4,
+          "value": 1,
+          "label": "foudre force 1 sur citadin près d'une maison",
+          "visual": "03DI0004",
+          "audio": "/game/station/03WI0004.wav"
+        },
+        {
+          "id": 5,
+          "value": 0,
+          "label": "pas de foudre sur citadin près d'un immeuble",
+          "visual": "VIDE_DF",
+          "audio": null
+        },
+        {
+          "id": 6,
+          "value": 100,
+          "label": "citadin de mer protégé",
+          "visual": "VIDE_DF",
+          "audio": null
+        }
+      ],
+      "hints": {
+        "0": "Foudre sur personnages de bord de mer : En bord de mer, plus les constructions sont hautes plus elles permettent de protéger les personnages. Par contre, un véliplanchiste isolé en mer est en danger en cas d'orage.  Le citadin avec sa canne à pêche, lui, est moins exposé grâce aux constructions.",
+        "1": "Foudre sur personnages de bord de mer : En bord de mer, plus les constructions sont hautes plus elles permettent de protéger les personnages. Par contre, un véliplanchiste isolé en mer est en danger en cas d'orage.  Le citadin avec sa canne à pêche, lui, est moins exposé grâce aux constructions.",
+        "2": "Foudre sur personnages de bord de mer : En bord de mer, plus les constructions sont hautes plus elles permettent de protéger les personnages. Par contre, un véliplanchiste isolé en mer est en danger en cas d'orage.  Le citadin avec sa canne à pêche, lui, est moins exposé grâce aux constructions.",
+        "3": "Foudre sur personnages de bord de mer : En bord de mer, plus les constructions sont hautes plus elles permettent de protéger les personnages. Par contre, un véliplanchiste isolé en mer est en danger en cas d'orage.  Le citadin avec sa canne à pêche, lui, est moins exposé grâce aux constructions."
+      }
+    },
+    {
+      "id": "19",
+      "label": "Foudre sur paratonnerre montagne",
+      "type": 1,
+      "function": 2,
+      "plan": 102,
+      "box": [
+        215,
+        53,
+        16,
+        95
+      ],
+      "options": [
+        {
+          "id": 1,
+          "value": 0,
+          "label": "",
+          "visual": "VIDE_DF",
+          "audio": null
+        },
+        {
+          "id": 2,
+          "value": 1,
+          "label": "foudre force 1",
+          "visual": "03DJ0002",
+          "audio": "/game/station/03WJ0003.wav"
+        },
+        {
+          "id": 3,
+          "value": 2,
+          "label": "foudre force 2",
+          "visual": "03DJ0003",
+          "audio": "/game/station/03WJ0003.wav"
+        },
+        {
+          "id": 4,
+          "value": 3,
+          "label": "foudre force 3",
+          "visual": "03DJ0004",
+          "audio": "/game/station/03WJ0004.wav"
+        },
+        {
+          "id": 5,
+          "value": 4,
+          "label": "foudre force 4",
+          "visual": "03DJ0005",
+          "audio": "/game/station/03WJ0005.wav"
+        },
+        {
+          "id": 6,
+          "value": 5,
+          "label": "foudre force 5",
+          "visual": "03DJ0006",
+          "audio": "/game/station/03WJ0006.wav"
+        },
+        {
+          "id": 7,
+          "value": 6,
+          "label": "foudre force 6",
+          "visual": "03DJ0007",
+          "audio": "/game/station/03WJ0007.wav"
+        },
+        {
+          "id": 8,
+          "value": -1,
+          "label": "foudre force 7",
+          "visual": "03DJ0008",
+          "audio": "/game/station/03WJ0008.wav"
+        }
+      ],
+      "hints": {
+        "0": "",
+        "1": "Foudre sur paratonnerre en montagne : suivant les conditions atmosphériques, la force de la foudre qui s'abat sur le paratonnerre est plus ou moins importante. Tu peux en juger pas les dégâts produits.",
+        "2": "Foudre sur paratonnerre en montagne : suivant les conditions atmosphériques, la force de la foudre qui s'abat sur le paratonnerre est plus ou moins importante. Tu peux en juger pas les dégâts produits.",
+        "3": "Foudre sur paratonnerre en montagne : suivant les conditions atmosphériques, la force de la foudre qui s'abat sur le paratonnerre est plus ou moins importante. Tu peux en juger pas les dégâts produits."
+      }
+    },
+    {
+      "id": "20",
+      "label": "Foudre sur paratonnerre plaine",
+      "type": 1,
+      "function": 2,
+      "plan": 102,
+      "box": [
+        172,
+        196,
+        14,
+        57
+      ],
+      "options": [
+        {
+          "id": 1,
+          "value": 0,
+          "label": "",
+          "visual": "VIDE_DF",
+          "audio": null
+        },
+        {
+          "id": 2,
+          "value": 1,
+          "label": "foudre force 1",
+          "visual": "03DK0002",
+          "audio": "/game/station/03WK0002.wav"
+        },
+        {
+          "id": 3,
+          "value": 2,
+          "label": "foudre force 2",
+          "visual": "03DK0003",
+          "audio": "/game/station/03WK0003.wav"
+        },
+        {
+          "id": 4,
+          "value": 3,
+          "label": "foudre force 3",
+          "visual": "03DK0004",
+          "audio": "/game/station/03WK0004.wav"
+        },
+        {
+          "id": 5,
+          "value": 4,
+          "label": "foudre force 4",
+          "visual": "03DK0005",
+          "audio": "/game/station/03WK0005.wav"
+        },
+        {
+          "id": 6,
+          "value": 5,
+          "label": "foudre force 5",
+          "visual": "03DK0006",
+          "audio": "/game/station/03WK0006.wav"
+        }
+      ],
+      "hints": {
+        "0": "",
+        "1": "Foudre sur paratonnerre en plaine : suivant les conditions atmosphériques, la force de la foudre qui s'abat sur le paratonnerre est plus ou moins importante. Tu peux en juger pas les dégâts produits.",
+        "2": "Foudre sur paratonnerre en plaine : suivant les conditions atmosphériques, la force de la foudre qui s'abat sur le paratonnerre est plus ou moins importante. Tu peux en juger pas les dégâts produits.",
+        "3": "Foudre sur paratonnerre en plaine : suivant les conditions atmosphériques, la force de la foudre qui s'abat sur le paratonnerre est plus ou moins importante. Tu peux en juger pas les dégâts produits."
+      }
+    },
+    {
+      "id": "21",
+      "label": "Foudre sur paratonnerre mer",
+      "type": 1,
+      "function": 2,
+      "plan": 102,
+      "box": [
+        517,
+        126,
+        18,
+        49
+      ],
+      "options": [
+        {
+          "id": 1,
+          "value": 0,
+          "label": "",
+          "visual": "VIDE_DF",
+          "audio": null
+        },
+        {
+          "id": 2,
+          "value": 1,
+          "label": "foudre force 1",
+          "visual": "03DL0002",
+          "audio": "/game/station/03WL0002.wav"
+        },
+        {
+          "id": 3,
+          "value": 2,
+          "label": "foudre force 2",
+          "visual": "03DL0003",
+          "audio": "/game/station/03WL0003.wav"
+        },
+        {
+          "id": 4,
+          "value": 3,
+          "label": "foudre force 3",
+          "visual": "03DL0004",
+          "audio": "/game/station/03WL0004.wav"
+        }
+      ],
+      "hints": {
+        "0": "",
+        "1": "Foudre sur paratonnerre en bord de mer : suivant les conditions atmosphériques, la force de la foudre qui s'abat sur le paratonnerre est plus ou moins importante. Tu peux en juger pas les dégâts produits.",
+        "2": "Foudre sur paratonnerre en bord de mer : suivant les conditions atmosphériques, la force de la foudre qui s'abat sur le paratonnerre est plus ou moins importante. Tu peux en juger pas les dégâts produits.",
+        "3": "Foudre sur paratonnerre en bord de mer : suivant les conditions atmosphériques, la force de la foudre qui s'abat sur le paratonnerre est plus ou moins importante. Tu peux en juger pas les dégâts produits."
+      }
+    },
+    {
+      "id": "22",
+      "label": "Paratonnere dans paysage",
+      "type": 1,
+      "function": 1,
+      "plan": 102,
+      "box": [
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "options": [
+        {
+          "id": 1,
+          "value": 0,
+          "label": "",
+          "visual": "VIDE_DF",
+          "audio": null
+        },
+        {
+          "id": 2,
+          "value": 1,
+          "label": "",
+          "visual": "03DM0002",
+          "audio": null
+        },
+        {
+          "id": 3,
+          "value": 2,
+          "label": "",
+          "visual": "03DM0003",
+          "audio": null
+        },
+        {
+          "id": 4,
+          "value": 3,
+          "label": "",
+          "visual": "03DM0004",
+          "audio": null
+        }
+      ],
+      "hints": {
+        "0": "",
+        "1": "",
+        "2": "",
+        "3": ""
+      }
+    },
+    {
+      "id": "23",
+      "label": "Humains de montagne",
+      "type": 1,
+      "function": 2,
+      "plan": 102,
+      "box": [
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "options": [
+        {
+          "id": 1,
+          "value": 1,
+          "label": "",
+          "visual": "RIEN_DF",
+          "audio": null
+        },
+        {
+          "id": 2,
+          "value": 2,
+          "label": "",
+          "visual": "03DN0002",
+          "audio": null
+        },
+        {
+          "id": 3,
+          "value": 3,
+          "label": "",
+          "visual": "RIEN_DF",
+          "audio": null
+        },
+        {
+          "id": 4,
+          "value": 4,
+          "label": "",
+          "visual": "03DN0004",
+          "audio": null
+        },
+        {
+          "id": 5,
+          "value": 5,
+          "label": "",
+          "visual": "RIEN_DF",
+          "audio": null
+        },
+        {
+          "id": 6,
+          "value": 6,
+          "label": "",
+          "visual": "03DN0004",
+          "audio": null
+        },
+        {
+          "id": 7,
+          "value": 7,
+          "label": "",
+          "visual": "RIEN_DF",
+          "audio": null
+        },
+        {
+          "id": 8,
+          "value": 8,
+          "label": "",
+          "visual": "03DN0004",
+          "audio": null
+        }
+      ],
+      "hints": {
+        "0": "",
+        "1": "",
+        "2": "",
+        "3": ""
+      }
+    },
+    {
+      "id": "24",
+      "label": "Humains de plaine",
+      "type": 1,
+      "function": 2,
+      "plan": 102,
+      "box": [
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "options": [
+        {
+          "id": 1,
+          "value": 1,
+          "label": "",
+          "visual": "RIEN_DF",
+          "audio": null
+        },
+        {
+          "id": 2,
+          "value": 2,
+          "label": "",
+          "visual": "03DO0002",
+          "audio": null
+        },
+        {
+          "id": 3,
+          "value": 3,
+          "label": "",
+          "visual": "RIEN_DF",
+          "audio": null
+        },
+        {
+          "id": 4,
+          "value": 4,
+          "label": "",
+          "visual": "03DO0004",
+          "audio": null
+        },
+        {
+          "id": 5,
+          "value": 5,
+          "label": "",
+          "visual": "RIEN_DF",
+          "audio": null
+        },
+        {
+          "id": 6,
+          "value": 6,
+          "label": "",
+          "visual": "03DO0004",
+          "audio": null
+        },
+        {
+          "id": 7,
+          "value": 7,
+          "label": "",
+          "visual": "RIEN_DF",
+          "audio": null
+        },
+        {
+          "id": 8,
+          "value": 8,
+          "label": "",
+          "visual": "03DO0004",
+          "audio": null
+        }
+      ],
+      "hints": {
+        "0": "",
+        "1": "",
+        "2": "",
+        "3": ""
+      }
+    },
+    {
+      "id": "25",
+      "label": "Humains de mer",
+      "type": 1,
+      "function": 2,
+      "plan": 102,
+      "box": [
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "options": [
+        {
+          "id": 1,
+          "value": 1,
+          "label": "",
+          "visual": "RIEN_DF",
+          "audio": null
+        },
+        {
+          "id": 2,
+          "value": 2,
+          "label": "",
+          "visual": "03DP0002",
+          "audio": null
+        },
+        {
+          "id": 3,
+          "value": 3,
+          "label": "",
+          "visual": "RIEN_DF",
+          "audio": null
+        },
+        {
+          "id": 4,
+          "value": 4,
+          "label": "",
+          "visual": "03DP0004",
+          "audio": null
+        },
+        {
+          "id": 5,
+          "value": 5,
+          "label": "",
+          "visual": "RIEN_DF",
+          "audio": null
+        },
+        {
+          "id": 6,
+          "value": 6,
+          "label": "",
+          "visual": "03DP0004",
+          "audio": null
+        },
+        {
+          "id": 7,
+          "value": 7,
+          "label": "",
+          "visual": "RIEN_DF",
+          "audio": null
+        },
+        {
+          "id": 8,
+          "value": 8,
+          "label": "",
+          "visual": "03DP0004",
+          "audio": null
+        }
+      ],
+      "hints": {
+        "0": "",
+        "1": "",
+        "2": "",
+        "3": ""
+      }
+    }
+  ],
+  "cases": [
+    {
+      "id": "0",
+      "label": "Mode libre",
+      "solutions": [
+        {
+          "1": 1,
+          "2": 1,
+          "3": 1,
+          "4": 1,
+          "5": 1
+        }
+      ],
+      "initial": {
+        "1": 1,
+        "2": 1,
+        "3": 1,
+        "4": 1,
+        "5": 1,
+        "6": 1,
+        "7": 1,
+        "8": 1,
+        "9": 1,
+        "10": 1,
+        "11": 1,
+        "12": 1,
+        "13": 1,
+        "14": 1,
+        "15": 1,
+        "16": 1,
+        "17": 1,
+        "18": 1,
+        "19": 1,
+        "20": 1,
+        "21": 1,
+        "22": 1,
+        "23": 1,
+        "24": 1,
+        "25": 1
+      }
+    },
+    {
+      "id": "1",
+      "label": "Les risques dans la nature",
+      "solutions": [
+        {
+          "1": 2,
+          "2": 1,
+          "3": 1,
+          "4": 2,
+          "5": 2
+        },
+        {
+          "3": 0
+        }
+      ],
+      "initial": {
+        "1": 4,
+        "2": 3,
+        "3": 1,
+        "4": 2,
+        "5": 1,
+        "6": 9,
+        "7": 2,
+        "8": 2,
+        "9": 2,
+        "10": 4,
+        "11": 3,
+        "12": 2,
+        "13": 1,
+        "14": 1,
+        "15": 1,
+        "16": 2,
+        "17": 2,
+        "18": 2,
+        "19": 1,
+        "20": 1,
+        "21": 1,
+        "22": 1,
+        "25": 2,
+        "24": 2,
+        "23": 2
+      }
+    },
+    {
+      "id": "2",
+      "label": "Protection des personnes dans la ville",
+      "solutions": [
+        {
+          "1": 3,
+          "2": 2,
+          "3": 2,
+          "4": 2,
+          "5": 4
+        }
+      ],
+      "initial": {
+        "1": 4,
+        "2": 3,
+        "3": 2,
+        "4": 2,
+        "5": 1,
+        "6": 9,
+        "7": 3,
+        "8": 3,
+        "9": 3,
+        "10": 4,
+        "11": 3,
+        "12": 2,
+        "13": 4,
+        "14": 3,
+        "15": 2,
+        "16": 4,
+        "17": 1,
+        "18": 1,
+        "19": 1,
+        "20": 1,
+        "21": 1,
+        "22": 1,
+        "23": 6,
+        "24": 6,
+        "25": 6
+      }
+    },
+    {
+      "id": "3",
+      "label": "Protection des bâtiments",
+      "solutions": [
+        {
+          "1": 3,
+          "2": 2,
+          "3": 2,
+          "4": 2,
+          "5": 4
+        }
+      ],
+      "initial": {
+        "1": 3,
+        "2": 2,
+        "3": 4,
+        "4": 2,
+        "5": 1,
+        "6": 6,
+        "7": 8,
+        "8": 8,
+        "9": 8,
+        "10": 3,
+        "11": 2,
+        "12": 1,
+        "13": 9,
+        "14": 6,
+        "15": 4,
+        "16": 1,
+        "17": 1,
+        "18": 1,
+        "19": 1,
+        "20": 1,
+        "21": 1,
+        "22": 1,
+        "23": 8,
+        "24": 8,
+        "25": 8
+      }
+    }
+  ],
+  "lookup": [
+    {
+      "object": "6",
+      "value": 1,
+      "conditions": {
+        "1": 1,
+        "2": 1
+      }
+    },
+    {
+      "object": "6",
+      "value": 2,
+      "conditions": {
+        "1": 1,
+        "2": 2
+      }
+    },
+    {
+      "object": "6",
+      "value": 3,
+      "conditions": {
+        "1": 1,
+        "2": 3
+      }
+    },
+    {
+      "object": "6",
+      "value": 1,
+      "conditions": {
+        "1": 2,
+        "2": 1
+      }
+    },
+    {
+      "object": "6",
+      "value": 5,
+      "conditions": {
+        "1": 2,
+        "2": 2
+      }
+    },
+    {
+      "object": "6",
+      "value": 6,
+      "conditions": {
+        "1": 2,
+        "2": 3
+      }
+    },
+    {
+      "object": "6",
+      "value": 4,
+      "conditions": {
+        "1": 3,
+        "2": 1
+      }
+    },
+    {
+      "object": "6",
+      "value": 6,
+      "conditions": {
+        "1": 3,
+        "2": 2
+      }
+    },
+    {
+      "object": "6",
+      "value": 9,
+      "conditions": {
+        "1": 3,
+        "2": 3
+      }
+    },
+    {
+      "object": "6",
+      "value": 7,
+      "conditions": {
+        "1": 4,
+        "2": 1
+      }
+    },
+    {
+      "object": "6",
+      "value": 8,
+      "conditions": {
+        "1": 4,
+        "2": 2
+      }
+    },
+    {
+      "object": "6",
+      "value": 9,
+      "conditions": {
+        "1": 4,
+        "2": 3
+      }
+    },
+    {
+      "object": "7",
+      "value": 1,
+      "conditions": {
+        "3": 0,
+        "4": 0
+      }
+    },
+    {
+      "object": "7",
+      "value": 2,
+      "conditions": {
+        "3": 0,
+        "4": 1
+      }
+    },
+    {
+      "object": "7",
+      "value": 3,
+      "conditions": {
+        "3": 1,
+        "4": 0
+      }
+    },
+    {
+      "object": "7",
+      "value": 4,
+      "conditions": {
+        "3": 1,
+        "4": 1
+      }
+    },
+    {
+      "object": "7",
+      "value": 5,
+      "conditions": {
+        "3": 2,
+        "4": 0
+      }
+    },
+    {
+      "object": "7",
+      "value": 6,
+      "conditions": {
+        "3": 2,
+        "4": 1
+      }
+    },
+    {
+      "object": "7",
+      "value": 7,
+      "conditions": {
+        "3": 3,
+        "4": 0
+      }
+    },
+    {
+      "object": "7",
+      "value": 8,
+      "conditions": {
+        "3": 3,
+        "4": 1
+      }
+    },
+    {
+      "object": "8",
+      "value": 1,
+      "conditions": {
+        "3": 0,
+        "4": 0
+      }
+    },
+    {
+      "object": "8",
+      "value": 2,
+      "conditions": {
+        "3": 0,
+        "4": 1
+      }
+    },
+    {
+      "object": "8",
+      "value": 3,
+      "conditions": {
+        "3": 1,
+        "4": 0
+      }
+    },
+    {
+      "object": "8",
+      "value": 4,
+      "conditions": {
+        "3": 1,
+        "4": 1
+      }
+    },
+    {
+      "object": "8",
+      "value": 5,
+      "conditions": {
+        "3": 2,
+        "4": 0
+      }
+    },
+    {
+      "object": "8",
+      "value": 6,
+      "conditions": {
+        "3": 2,
+        "4": 1
+      }
+    },
+    {
+      "object": "8",
+      "value": 7,
+      "conditions": {
+        "3": 3,
+        "4": 0
+      }
+    },
+    {
+      "object": "8",
+      "value": 8,
+      "conditions": {
+        "3": 3,
+        "4": 1
+      }
+    },
+    {
+      "object": "9",
+      "value": 1,
+      "conditions": {
+        "3": 0,
+        "4": 0
+      }
+    },
+    {
+      "object": "9",
+      "value": 2,
+      "conditions": {
+        "3": 0,
+        "4": 1
+      }
+    },
+    {
+      "object": "9",
+      "value": 3,
+      "conditions": {
+        "3": 1,
+        "4": 0
+      }
+    },
+    {
+      "object": "9",
+      "value": 4,
+      "conditions": {
+        "3": 1,
+        "4": 1
+      }
+    },
+    {
+      "object": "9",
+      "value": 5,
+      "conditions": {
+        "3": 2,
+        "4": 0
+      }
+    },
+    {
+      "object": "9",
+      "value": 6,
+      "conditions": {
+        "3": 2,
+        "4": 1
+      }
+    },
+    {
+      "object": "9",
+      "value": 7,
+      "conditions": {
+        "3": 3,
+        "4": 0
+      }
+    },
+    {
+      "object": "9",
+      "value": 8,
+      "conditions": {
+        "3": 3,
+        "4": 1
+      }
+    },
+    {
+      "object": "23",
+      "value": 1,
+      "conditions": {
+        "3": 0,
+        "4": 0
+      }
+    },
+    {
+      "object": "23",
+      "value": 2,
+      "conditions": {
+        "3": 0,
+        "4": 1
+      }
+    },
+    {
+      "object": "23",
+      "value": 3,
+      "conditions": {
+        "3": 1,
+        "4": 0
+      }
+    },
+    {
+      "object": "23",
+      "value": 4,
+      "conditions": {
+        "3": 1,
+        "4": 1
+      }
+    },
+    {
+      "object": "23",
+      "value": 5,
+      "conditions": {
+        "3": 2,
+        "4": 0
+      }
+    },
+    {
+      "object": "23",
+      "value": 6,
+      "conditions": {
+        "3": 2,
+        "4": 1
+      }
+    },
+    {
+      "object": "23",
+      "value": 7,
+      "conditions": {
+        "3": 3,
+        "4": 0
+      }
+    },
+    {
+      "object": "23",
+      "value": 8,
+      "conditions": {
+        "3": 3,
+        "4": 1
+      }
+    },
+    {
+      "object": "24",
+      "value": 1,
+      "conditions": {
+        "3": 0,
+        "4": 0
+      }
+    },
+    {
+      "object": "24",
+      "value": 2,
+      "conditions": {
+        "3": 0,
+        "4": 1
+      }
+    },
+    {
+      "object": "24",
+      "value": 3,
+      "conditions": {
+        "3": 1,
+        "4": 0
+      }
+    },
+    {
+      "object": "24",
+      "value": 4,
+      "conditions": {
+        "3": 1,
+        "4": 1
+      }
+    },
+    {
+      "object": "24",
+      "value": 5,
+      "conditions": {
+        "3": 2,
+        "4": 0
+      }
+    },
+    {
+      "object": "24",
+      "value": 6,
+      "conditions": {
+        "3": 2,
+        "4": 1
+      }
+    },
+    {
+      "object": "24",
+      "value": 7,
+      "conditions": {
+        "3": 3,
+        "4": 0
+      }
+    },
+    {
+      "object": "24",
+      "value": 8,
+      "conditions": {
+        "3": 3,
+        "4": 1
+      }
+    },
+    {
+      "object": "25",
+      "value": 1,
+      "conditions": {
+        "3": 0,
+        "4": 0
+      }
+    },
+    {
+      "object": "25",
+      "value": 2,
+      "conditions": {
+        "3": 0,
+        "4": 1
+      }
+    },
+    {
+      "object": "25",
+      "value": 3,
+      "conditions": {
+        "3": 1,
+        "4": 0
+      }
+    },
+    {
+      "object": "25",
+      "value": 4,
+      "conditions": {
+        "3": 1,
+        "4": 1
+      }
+    },
+    {
+      "object": "25",
+      "value": 5,
+      "conditions": {
+        "3": 2,
+        "4": 0
+      }
+    },
+    {
+      "object": "25",
+      "value": 6,
+      "conditions": {
+        "3": 2,
+        "4": 1
+      }
+    },
+    {
+      "object": "25",
+      "value": 7,
+      "conditions": {
+        "3": 3,
+        "4": 0
+      }
+    },
+    {
+      "object": "25",
+      "value": 8,
+      "conditions": {
+        "3": 3,
+        "4": 1
+      }
+    },
+    {
+      "object": "19",
+      "value": 0,
+      "conditions": {
+        "13": 0,
+        "16": 0
+      }
+    },
+    {
+      "object": "19",
+      "value": 4,
+      "conditions": {
+        "13": 0,
+        "16": 4
+      }
+    },
+    {
+      "object": "19",
+      "value": 1,
+      "conditions": {
+        "13": 1,
+        "16": 0
+      }
+    },
+    {
+      "object": "19",
+      "value": 2,
+      "conditions": {
+        "13": 2,
+        "16": 0
+      }
+    },
+    {
+      "object": "19",
+      "value": 3,
+      "conditions": {
+        "13": 3,
+        "16": 0
+      }
+    },
+    {
+      "object": "19",
+      "value": 3,
+      "conditions": {
+        "13": 0,
+        "16": 3
+      }
+    },
+    {
+      "object": "19",
+      "value": 4,
+      "conditions": {
+        "13": 1,
+        "16": 3
+      }
+    },
+    {
+      "object": "19",
+      "value": 5,
+      "conditions": {
+        "13": 2,
+        "16": 3
+      }
+    },
+    {
+      "object": "19",
+      "value": 6,
+      "conditions": {
+        "13": 3,
+        "16": 3
+      }
+    },
+    {
+      "object": "19",
+      "value": 2,
+      "conditions": {
+        "13": 4,
+        "16": 0
+      }
+    },
+    {
+      "object": "19",
+      "value": 3,
+      "conditions": {
+        "13": 5,
+        "16": 0
+      }
+    },
+    {
+      "object": "19",
+      "value": 4,
+      "conditions": {
+        "13": 6,
+        "16": 0
+      }
+    },
+    {
+      "object": "19",
+      "value": 2,
+      "conditions": {
+        "13": 0,
+        "16": 2
+      }
+    },
+    {
+      "object": "19",
+      "value": 4,
+      "conditions": {
+        "13": 4,
+        "16": 2
+      }
+    },
+    {
+      "object": "19",
+      "value": 5,
+      "conditions": {
+        "13": 5,
+        "16": 2
+      }
+    },
+    {
+      "object": "19",
+      "value": 6,
+      "conditions": {
+        "13": 6,
+        "16": 2
+      }
+    },
+    {
+      "object": "19",
+      "value": 3,
+      "conditions": {
+        "13": 7,
+        "16": 0
+      }
+    },
+    {
+      "object": "19",
+      "value": 4,
+      "conditions": {
+        "13": 8,
+        "16": 0
+      }
+    },
+    {
+      "object": "19",
+      "value": 5,
+      "conditions": {
+        "13": 9,
+        "16": 0
+      }
+    },
+    {
+      "object": "20",
+      "value": 0,
+      "conditions": {
+        "14": 0,
+        "17": 0
+      }
+    },
+    {
+      "object": "20",
+      "value": 1,
+      "conditions": {
+        "14": 2,
+        "17": 0
+      }
+    },
+    {
+      "object": "20",
+      "value": 2,
+      "conditions": {
+        "14": 3,
+        "17": 0
+      }
+    },
+    {
+      "object": "20",
+      "value": 5,
+      "conditions": {
+        "14": 0,
+        "17": 1
+      }
+    },
+    {
+      "object": "20",
+      "value": 2,
+      "conditions": {
+        "14": 2,
+        "17": 1
+      }
+    },
+    {
+      "object": "20",
+      "value": 3,
+      "conditions": {
+        "14": 3,
+        "17": 1
+      }
+    },
+    {
+      "object": "20",
+      "value": 2,
+      "conditions": {
+        "14": 5,
+        "17": 0
+      }
+    },
+    {
+      "object": "20",
+      "value": 3,
+      "conditions": {
+        "14": 6,
+        "17": 0
+      }
+    },
+    {
+      "object": "20",
+      "value": 3,
+      "conditions": {
+        "14": 8,
+        "17": 0
+      }
+    },
+    {
+      "object": "20",
+      "value": 4,
+      "conditions": {
+        "14": 9,
+        "17": 0
+      }
+    },
+    {
+      "object": "21",
+      "value": 0,
+      "conditions": {
+        "15": 0,
+        "18": 0
+      }
+    },
+    {
+      "object": "21",
+      "value": 3,
+      "conditions": {
+        "15": 0,
+        "18": 3
+      }
+    },
+    {
+      "object": "21",
+      "value": 2,
+      "conditions": {
+        "15": 0,
+        "18": 2
+      }
+    },
+    {
+      "object": "21",
+      "value": 1,
+      "conditions": {
+        "15": 3,
+        "18": 0
+      }
+    },
+    {
+      "object": "21",
+      "value": 3,
+      "conditions": {
+        "15": 3,
+        "18": 2
+      }
+    },
+    {
+      "object": "21",
+      "value": 1,
+      "conditions": {
+        "15": 0,
+        "18": 1
+      }
+    },
+    {
+      "object": "21",
+      "value": 2,
+      "conditions": {
+        "15": 6,
+        "18": 0
+      }
+    },
+    {
+      "object": "21",
+      "value": 3,
+      "conditions": {
+        "15": 6,
+        "18": 1
+      }
+    },
+    {
+      "object": "21",
+      "value": 3,
+      "conditions": {
+        "15": 9,
+        "18": 0
+      }
+    }
+  ]
+}

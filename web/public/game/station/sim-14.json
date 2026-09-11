@@ -1,0 +1,2475 @@
+{
+  "id": "14",
+  "title": "Transmettre la vie",
+  "background": "14I1",
+  "objects": [
+    {
+      "id": "1",
+      "label": "Durée du cycle",
+      "type": 4,
+      "function": 1,
+      "plan": 101,
+      "box": [
+        285,
+        437,
+        223,
+        35
+      ],
+      "options": [
+        {
+          "id": 1,
+          "value": 1,
+          "label": "Cycle de 24 jours",
+          "visual": "14D10001",
+          "audio": null
+        },
+        {
+          "id": 2,
+          "value": 2,
+          "label": "Cycle de 26 jours",
+          "visual": "14D10002",
+          "audio": null
+        },
+        {
+          "id": 3,
+          "value": 3,
+          "label": "Cycle de 28 jours",
+          "visual": "14D10003",
+          "audio": null
+        },
+        {
+          "id": 4,
+          "value": 4,
+          "label": "Cycle de 30 jours",
+          "visual": "14D10004",
+          "audio": null
+        },
+        {
+          "id": 5,
+          "value": 5,
+          "label": "Cycle de 32 jours",
+          "visual": "14D10005",
+          "audio": null
+        }
+      ],
+      "hints": {
+        "0": "Durée du cycle : Chez la plupart des femmes, le cycle menstruel est de 28 jours (le 1er jour des règles correspond au début du cycle), il varie de 24 à 32 jours et parfois d'un mois à l'autre. Tous les mois, un ovule mûrit dans l'un des 2 ovaires sous l'action des hormones. Celles-ci induisent aussi un épaississement de l'endomètre (paroi utérine) afin d'accueillir l'éventuel oeuf. 14 jours avant la fin du cycle menstruel, l'ovaire libère l'ovule mûr : c'est l'ovulation. S'il y a fécondation, l'ovule fécondé va se nicher dans l'utérus et commence à se développer. S'il n'y a pas fécondation, l'endomètre dégénère et s'évacue : ce sont les règles qui ponctuent le cycle.",
+        "1": "Durée du cycle : Cette patiente a un cycle plus long que la moyenne, 32 jours.",
+        "2": "Durée du cycle : La prise de la pilule établit un cycle \"fictif \"de 28 jours. Lorsqu'on arrête de la prendre, on retrouve un cycle normal avec ovulation et règles. Avant la pilule, cette patiente avait un cycle de 30 jours.",
+        "3": "Durée du cycle : Cette patiente a un cycle plus court que la moyenne, 26 jours."
+      }
+    },
+    {
+      "id": "2",
+      "label": "Date du rapport",
+      "type": 4,
+      "function": 1,
+      "plan": 101,
+      "box": [
+        31,
+        369,
+        371,
+        58
+      ],
+      "options": [
+        {
+          "id": 1,
+          "value": 1,
+          "label": "Date du rapport : 1er jour du cycle",
+          "visual": "14D20001",
+          "audio": null
+        },
+        {
+          "id": 2,
+          "value": 3,
+          "label": "Date du rapport : 3ème jour du cycle",
+          "visual": "14D20002",
+          "audio": null
+        },
+        {
+          "id": 3,
+          "value": 5,
+          "label": "Date du rapport : 5ème jour du cycle",
+          "visual": "14D20003",
+          "audio": null
+        },
+        {
+          "id": 4,
+          "value": 7,
+          "label": "Date du rapport : 7ème jour du cycle",
+          "visual": "14D20004",
+          "audio": null
+        },
+        {
+          "id": 5,
+          "value": 9,
+          "label": "Date du rapport : 9ème jour du cycle",
+          "visual": "14D20005",
+          "audio": null
+        },
+        {
+          "id": 6,
+          "value": 11,
+          "label": "Date du rapport : 11ème jour du cycle",
+          "visual": "14D20006",
+          "audio": null
+        },
+        {
+          "id": 7,
+          "value": 13,
+          "label": "Date du rapport : 13ème jour du cycle",
+          "visual": "14D20007",
+          "audio": null
+        },
+        {
+          "id": 8,
+          "value": 15,
+          "label": "Date du rapport : 15ème jour du cycle",
+          "visual": "14D20008",
+          "audio": null
+        },
+        {
+          "id": 9,
+          "value": 17,
+          "label": "Date du rapport : 17ème jour du cycle",
+          "visual": "14D20009",
+          "audio": null
+        },
+        {
+          "id": 10,
+          "value": 19,
+          "label": "Date du rapport : 19ème jour du cycle",
+          "visual": "14D20010",
+          "audio": null
+        },
+        {
+          "id": 11,
+          "value": 21,
+          "label": "Date du rapport : 21ème jour du cycle",
+          "visual": "14D20011",
+          "audio": null
+        },
+        {
+          "id": 12,
+          "value": 23,
+          "label": "Date du rapport : 23ème jour du cycle",
+          "visual": "14D20012",
+          "audio": null
+        },
+        {
+          "id": 13,
+          "value": 25,
+          "label": "Date du rapport : 25ème jour du cycle",
+          "visual": "14D20013",
+          "audio": null
+        },
+        {
+          "id": 14,
+          "value": 27,
+          "label": "Date du rapport : 27ème jour du cycle",
+          "visual": "14D20014",
+          "audio": null
+        },
+        {
+          "id": 15,
+          "value": 29,
+          "label": "Date du rapport : 29ème jour du cycle",
+          "visual": "14D20015",
+          "audio": null
+        },
+        {
+          "id": 16,
+          "value": 31,
+          "label": "Date du rapport : 31ème jour du cycle",
+          "visual": "14D20016",
+          "audio": null
+        }
+      ],
+      "hints": {
+        "0": "Date du rapport :  Pour qu'il y ait fécondation, il faut bien sûr qu'il y ait eu ovulation. C'est pourquoi la date du rapport sexuel est très importante ; mais attention, l'ovulation varie selon le cycle. Avant l'ovulation, le spermatozoïde ne peut rencontrer l'ovule, donc la fécondation est impossible. Cependant, si le rapport a lieu moins de 4 jours avant l'ovulation, une fécondation est possible car les spermatozoïdes peuvent survivre jusqu'à 4 jours dans les voies génitales femelles. L'ovule, lui a une durée de survie n'excédant pas 48 h, donc au-delà, la fécondation n'est plus possible.",
+        "1": "Date du rapport : Sachant que l'ovulation a lieu 14 jours avant la fin du cycle (32 jours), elle doit se situer, dans notre cas, aux environs du 18ème jour. La période de fertilité s'étend de 4 jours avant à 2 jours après l'ovulation. Pour être fécondant, le rapport devrait donc avoir lieu entre le 14ème et le 20ème jour.",
+        "2": "Date du rapport : Sachant que l'ovulation a lieu 14 jours avant la fin du cycle (qui est ici de 30 jours), elle doit se situer, dans notre cas, aux environs du 16ème jour. La période de fertilité s'étend de 4 jours avant à 2 jours après l'ovulation. Pour être fécondant, le rapport devrait donc avoir lieu entre le 12ème et le 18ème jour.",
+        "3": "Date du rapport : Si cette patiente ne veut pas d'enfant, même protégée elle devrait éviter d'avoir des rapports pendant sa période de fertilité. La période de fertilité s'étend de 4 jours avant à 2 jours après l'ovulation. Sachant que l'ovulation a lieu 14 jours avant la fin du cycle (qui est ici de 26 jours), elle doit se situer, dans notre cas, aux environs du 12ème jour. Les rapports, protégés pour plus de sûreté, doivent donc avoir lieu  hors de la période qui va du 8ème au 14ème jour."
+      }
+    },
+    {
+      "id": "3",
+      "label": "Etat de l'appareil génital féminin",
+      "type": 4,
+      "function": 0,
+      "plan": 101,
+      "box": [
+        9,
+        193,
+        88,
+        158
+      ],
+      "options": [
+        {
+          "id": 1,
+          "value": 1,
+          "label": "",
+          "visual": "14D30001",
+          "audio": null
+        },
+        {
+          "id": 2,
+          "value": 2,
+          "label": "",
+          "visual": "14D30002",
+          "audio": null
+        }
+      ],
+      "hints": {
+        "0": "",
+        "1": "Etat de l'appareil génital féminin : Si l'appareil génital féminin présente des malformations, la grossesse peut être rendue soit difficile, soit impossible. Par exemple, si les trompes sont bouchées, l'ovule ne peut plus descendre jusqu'à l'utérus. Mais on peut heureusement remédier à cette anomalie par la chirurgie ou par traitement hormonal. En dernier lieu, on peut recourir à la fécondation in vitro : l'ovule est fécondé en dehors du corps de la mère et l'oeuf, au stade 8 cellules, est réimplanté dans l'utérus.",
+        "2": "Etat de l'appareil génital féminin : Si l'appareil génital féminin présente des malformations, la grossesse peut être rendue soit difficile, soit impossible. Par exemple, si les trompes sont bouchées, l'ovule ne peut plus descendre jusqu'à l'utérus et la fécondation est donc impossible. Mais on peut heureusement remédier à cette anomalie par la chirurgie ou par traitement hormonal. En dernier lieu, on peut recourir à la fécondation in vitro : l'ovule est fécondé en dehors du corps de la mère et l'oeuf, au stade 8 cellules, est réimplanté dans l'utérus.",
+        "3": "Etat de l'appareil génital féminin : Cette patiente a un appareil génital en bon état."
+      }
+    },
+    {
+      "id": "4",
+      "label": "Etat de l'appareil génital masculin",
+      "type": 4,
+      "function": 0,
+      "plan": 101,
+      "box": [
+        9,
+        15,
+        95,
+        168
+      ],
+      "options": [
+        {
+          "id": 1,
+          "value": 1,
+          "label": "",
+          "visual": "14D40001",
+          "audio": null
+        },
+        {
+          "id": 2,
+          "value": 2,
+          "label": "",
+          "visual": "14D40002",
+          "audio": null
+        }
+      ],
+      "hints": {
+        "0": "",
+        "1": "Etat de l'appareil génital masculin : Des malformations peuvent exister eu niveau de l'appareil génital masculin. On rencontre souvent des anomalies dans le nombre, la mobilité ou la forme même des spermatozoïdes. Par exemple, s'il n'y a pas assez de spermatozoïdes émis, il y a peu de chances qu'il en arrive un à l'ovule, car 1% d'entre eux seulement franchissent le col de l'utérus. Pour remédier à ces problèmes, on peut pratiquer l'insémination artificielle, c'est-à-dire l'introduction contrôlée dans l'utérus du bon nombre de spermatozoïdes de bonne qualité.",
+        "2": "Etat de l'appareil génital masculin : Des malformations peuvent exister au niveau de l'appareil génital masculin. On rencontre souvent des anomalies dans le nombre, la mobilité ou la forme même des spermatozoïdes. Pour remédier à une pauvreté en spermatozoïdes on peut procéder à une insémination artificielle, c'est-à-dire qu'on introduit directement dans l'utérus la quantité de spermatozoïdes nécessaire.",
+        "3": "Etat de l'appareil génital masculin : Le partenaire n'est pas en cause ici puisque la jeune femme ne souhaite pas d'enfant."
+      }
+    },
+    {
+      "id": "5",
+      "label": "Contraception",
+      "type": 4,
+      "function": 0,
+      "plan": 101,
+      "box": [
+        514,
+        199,
+        123,
+        155
+      ],
+      "options": [
+        {
+          "id": 1,
+          "value": 1,
+          "label": "Pas de contraception",
+          "visual": "14D50001",
+          "audio": null
+        },
+        {
+          "id": 2,
+          "value": 2,
+          "label": "Préservatif",
+          "visual": "14D50002",
+          "audio": null
+        },
+        {
+          "id": 3,
+          "value": 3,
+          "label": "Pilule (impose un cycle de 28 jours)",
+          "visual": "14D50003",
+          "audio": null
+        },
+        {
+          "id": 4,
+          "value": 4,
+          "label": "Diaphragme",
+          "visual": "14D50004",
+          "audio": null
+        },
+        {
+          "id": 5,
+          "value": 5,
+          "label": "Stérilet",
+          "visual": "14D50005",
+          "audio": null
+        }
+      ],
+      "hints": {
+        "0": "Contraception :  Il existe plusieurs sortes de contraceptifs qui agissent de différentes manières. Certains empêchent la fécondation en retenant les spermatozoïdes : ce sont le diaphragme et le préservatif (qui, de plus, protège des MST). Le stérilet, lui, n'empêche pas la fécondation mais la nidation de l'oeuf fécondé dans l'utérus. La pilule, quant à elle, bloque l'ovulation, la fécondation devient donc impossible.",
+        "1": "Contraception :  Dans le cas qui ne préoccupe, il n'est pas question de contraceptifs car il y a un désir de maternité.",
+        "2": "Contraception : Dans la cas qui nous préoccupe, la patiente prend la pilule. C'est le moyen contraceptif possédant la plus grande efficacité à l'heure actuelle. Elle consiste en l'ingestion régulière d'hormones sur une durée de 21 jours, destinées à bloquer l'ovulation. Après un repos de 7 jours pendant lesquels surgissent des règles dites 'de privation' on recommence un nouveau cycle. Maintenant que cette patiente souhaite avoir un bébé, elle peut arrêter toute contraception.",
+        "3": "Contraception : Cette jeune fille qui ne souhaite pas avoir d'enfant peut choisir entre plusieurs moyens contraceptifs. La prise de la pilule lui est déconseillée à cause de ses problèmes de circulation. Elle devrait d'ailleurs arrêter l'alcool. Le stérilet n'est pas conseillé aux femmes qui n'ont pas encore eu d'enfants. En fait, le préservatif est le contraceptif le mieux indiqué car il protège des MST (maladies sexuelles transmissibles) comme le SIDA, risque accru avec des partenaires multiples."
+      }
+    },
+    {
+      "id": "6",
+      "label": "Etat organisme de la mère",
+      "type": 4,
+      "function": 0,
+      "plan": 101,
+      "box": [
+        538,
+        16,
+        95,
+        179
+      ],
+      "options": [
+        {
+          "id": 1,
+          "value": 1,
+          "label": "Bon état général de l'organisme de la mère",
+          "visual": "14D60001",
+          "audio": null
+        },
+        {
+          "id": 2,
+          "value": 2,
+          "label": "Consommation de drogues (alcool, tabac, ...)",
+          "visual": "14D60002",
+          "audio": null
+        }
+      ],
+      "hints": {
+        "0": "Etat de l'organisme de la mère : L'état de santé de la mère influence directement celui de son bébé. Elle doit avoir une hygiène de vie très saine afin d'assurer au foetus le meilleur développement possible. La consommation de certains produits est donc à proscrire : la cigarette, l'alcool ou autres drogues. En effet, ces substances nocives passent directement dans le sang du foetus par le placenta.",
+        "1": "Etat de l'organisme de la mère : L'état de santé de la mère influence directement celui de son bébé. Elle doit avoir une hygiène de vie très saine afin d'assurer au foetus le meilleur développement possible. La consommation de certains produits est donc à proscrire : la cigarette, l'alcool ou autres drogues. En effet, ces substances nocives passent directement dans le sang du foetus par le placenta.",
+        "2": "Etat de l'organisme de la mère : La patiente dont nous étudions le cas actuellement consomme du tabac. Si elle veut assurer un bon développement du foetus au cours de sa future grossesse, elle devrait arrêter de fumer ; en effet, les substances nocives de la cigarette passent directement dans le sang du foetus par le placenta. ",
+        "3": "Etat de l'organisme de la mère : Pour des questions d'hygiène, la jeune femme devrait limiter sa consommation d'alcool surtout si elle a déjà des problèmes cardio-vasculaires. Et puis c'est une mauvaise habitude à perdre en prévision d'une grossesse future."
+      }
+    },
+    {
+      "id": "7",
+      "label": "Bouton 'GO'",
+      "type": 3,
+      "function": 0,
+      "plan": 101,
+      "box": [
+        527,
+        378,
+        107,
+        91
+      ],
+      "options": [
+        {
+          "id": 1,
+          "value": 0,
+          "label": "Pour vérifier si le rapport sexuel est fécondant ou non",
+          "visual": null,
+          "audio": null
+        },
+        {
+          "id": 2,
+          "value": 1,
+          "label": "",
+          "visual": "14D70002",
+          "audio": null
+        }
+      ],
+      "hints": {
+        "0": "Démarrage du processus : Une fois actionnée, cette touche permet d'observer l'activité de l'utérus en fonction des paramètres choisis. Pour un cycle donné, on peut par exemple faire varier la date des rapports ou observer les divers modes d'action des contraceptifs.",
+        "1": "Démarrage du processus : Une fois actionnée, cette touche permet de vérifier si les paramètres choisis permettent d'atteindre l'objectif demandé. Une phrase indique alors si l'on est proche ou pas de la solution. Lorsque le but est atteint l'animation 'Bravo' apparaît avec les félicitations d'ADI.",
+        "2": "Démarrage du processus : Une fois actionnée, cette touche permet de vérifier si les paramètres choisis permettent d'atteindre l'objectif demandé. Une phrase indique alors si l'on est proche ou pas de la solution. Lorsque le but est atteint l'animation 'Bravo' apparaît avec les félicitations d'ADI.",
+        "3": "Démarrage du processus : Une fois actionnée, cette touche permet de vérifier si les paramètres choisis permettent d'atteindre l'objectif demandé. Une phrase indique alors si l'on est proche ou pas de la solution. Lorsque le but est atteint l'animation 'Bravo' apparaît avec les félicitations d'ADI."
+      }
+    },
+    {
+      "id": "8",
+      "label": "Affiche période fertile",
+      "type": 1,
+      "function": 2,
+      "plan": 101,
+      "box": [
+        34,
+        437,
+        241,
+        34
+      ],
+      "options": [
+        {
+          "id": 1,
+          "value": 1,
+          "label": "Période fertile",
+          "visual": "14D80001",
+          "audio": null
+        },
+        {
+          "id": 2,
+          "value": 2,
+          "label": "Période fertile",
+          "visual": "14D80002",
+          "audio": null
+        },
+        {
+          "id": 3,
+          "value": 3,
+          "label": "Période fertile",
+          "visual": "14D80003",
+          "audio": null
+        },
+        {
+          "id": 4,
+          "value": 4,
+          "label": "Période fertile",
+          "visual": "14D80004",
+          "audio": null
+        },
+        {
+          "id": 5,
+          "value": 5,
+          "label": "Période fertile",
+          "visual": "14D80005",
+          "audio": null
+        },
+        {
+          "id": 6,
+          "value": 6,
+          "label": "Pour modifier la durée du cycle, il faut changer de contraception",
+          "visual": null,
+          "audio": null
+        }
+      ],
+      "hints": {
+        "0": "",
+        "1": "",
+        "2": "",
+        "3": ""
+      }
+    },
+    {
+      "id": "9",
+      "label": "Présence de contraceptifd",
+      "type": 1,
+      "function": 2,
+      "plan": 103,
+      "box": [
+        372,
+        241,
+        33,
+        49
+      ],
+      "options": [
+        {
+          "id": 1,
+          "value": 1,
+          "label": "",
+          "visual": "VIDE_DF",
+          "audio": null
+        },
+        {
+          "id": 2,
+          "value": 2,
+          "label": "stérilet",
+          "visual": "14D90002",
+          "audio": null
+        },
+        {
+          "id": 3,
+          "value": 3,
+          "label": "",
+          "visual": "VIDE_DF",
+          "audio": null
+        }
+      ],
+      "hints": {
+        "0": "",
+        "1": "",
+        "2": "",
+        "3": ""
+      }
+    },
+    {
+      "id": "10",
+      "label": "Développement de l'embryon",
+      "type": 1,
+      "function": 2,
+      "plan": 102,
+      "box": [
+        346,
+        143,
+        44,
+        70
+      ],
+      "options": [
+        {
+          "id": 1,
+          "value": 1,
+          "label": "",
+          "visual": "14DA0001",
+          "audio": null
+        },
+        {
+          "id": 2,
+          "value": 2,
+          "label": "",
+          "visual": "14DA0002",
+          "audio": null
+        },
+        {
+          "id": 3,
+          "value": 3,
+          "label": "",
+          "visual": "14DA0003",
+          "audio": null
+        },
+        {
+          "id": 4,
+          "value": 4,
+          "label": "",
+          "visual": "14DA0004",
+          "audio": null
+        },
+        {
+          "id": 5,
+          "value": 5,
+          "label": "",
+          "visual": "14DA0005",
+          "audio": null
+        },
+        {
+          "id": 6,
+          "value": 6,
+          "label": "",
+          "visual": "14DA0006",
+          "audio": null
+        },
+        {
+          "id": 7,
+          "value": 7,
+          "label": "",
+          "visual": "14DA0007",
+          "audio": null
+        },
+        {
+          "id": 8,
+          "value": 8,
+          "label": "",
+          "visual": "14DA0008",
+          "audio": null
+        },
+        {
+          "id": 9,
+          "value": 9,
+          "label": "",
+          "visual": "14DA0009",
+          "audio": null
+        },
+        {
+          "id": 10,
+          "value": 10,
+          "label": "",
+          "visual": "14DA0010",
+          "audio": null
+        },
+        {
+          "id": 11,
+          "value": 11,
+          "label": "",
+          "visual": "14DA0011",
+          "audio": null
+        },
+        {
+          "id": 12,
+          "value": 12,
+          "label": "",
+          "visual": "14DA0012",
+          "audio": null
+        },
+        {
+          "id": 13,
+          "value": 13,
+          "label": "",
+          "visual": "14DA0013",
+          "audio": null
+        },
+        {
+          "id": 14,
+          "value": 14,
+          "label": "",
+          "visual": "14DA0014",
+          "audio": null
+        },
+        {
+          "id": 15,
+          "value": 15,
+          "label": "",
+          "visual": "14DA0015",
+          "audio": null
+        },
+        {
+          "id": 16,
+          "value": 16,
+          "label": "",
+          "visual": "14DA0016",
+          "audio": null
+        },
+        {
+          "id": 17,
+          "value": 17,
+          "label": "",
+          "visual": "14DA0017",
+          "audio": null
+        },
+        {
+          "id": 18,
+          "value": 18,
+          "label": "",
+          "visual": "14DA0018",
+          "audio": null
+        },
+        {
+          "id": 19,
+          "value": 19,
+          "label": "",
+          "visual": "14DA0019",
+          "audio": null
+        },
+        {
+          "id": 20,
+          "value": 20,
+          "label": "",
+          "visual": "14DA0020",
+          "audio": null
+        },
+        {
+          "id": 21,
+          "value": 21,
+          "label": "",
+          "visual": "14DA0021",
+          "audio": null
+        },
+        {
+          "id": 22,
+          "value": 22,
+          "label": "",
+          "visual": "14DA0022",
+          "audio": null
+        },
+        {
+          "id": 23,
+          "value": 23,
+          "label": "",
+          "visual": "14DA0023",
+          "audio": null
+        },
+        {
+          "id": 24,
+          "value": 24,
+          "label": "",
+          "visual": "14DA0024",
+          "audio": null
+        },
+        {
+          "id": 25,
+          "value": 25,
+          "label": "",
+          "visual": "14DA0025",
+          "audio": null
+        },
+        {
+          "id": 26,
+          "value": 26,
+          "label": "",
+          "visual": "14DA0026",
+          "audio": null
+        },
+        {
+          "id": 27,
+          "value": 27,
+          "label": "",
+          "visual": "14DA0027",
+          "audio": null
+        },
+        {
+          "id": 28,
+          "value": 28,
+          "label": "",
+          "visual": "14DA0028",
+          "audio": null
+        },
+        {
+          "id": 29,
+          "value": 29,
+          "label": "",
+          "visual": "14DA0029",
+          "audio": null
+        },
+        {
+          "id": 30,
+          "value": 30,
+          "label": "",
+          "visual": "14DA0030",
+          "audio": null
+        },
+        {
+          "id": 31,
+          "value": 31,
+          "label": "",
+          "visual": "14DA0031",
+          "audio": null
+        },
+        {
+          "id": 32,
+          "value": 32,
+          "label": "",
+          "visual": "14DA0032",
+          "audio": null
+        },
+        {
+          "id": 33,
+          "value": 33,
+          "label": "",
+          "visual": "14DA0033",
+          "audio": null
+        },
+        {
+          "id": 34,
+          "value": 34,
+          "label": "",
+          "visual": "14DA0034",
+          "audio": null
+        },
+        {
+          "id": 35,
+          "value": 35,
+          "label": "",
+          "visual": "14DA0035",
+          "audio": null
+        },
+        {
+          "id": 36,
+          "value": 36,
+          "label": "",
+          "visual": "14DA0036",
+          "audio": null
+        },
+        {
+          "id": 37,
+          "value": 37,
+          "label": "",
+          "visual": "14DA0037",
+          "audio": null
+        },
+        {
+          "id": 38,
+          "value": 38,
+          "label": "",
+          "visual": "14DA0038",
+          "audio": null
+        },
+        {
+          "id": 39,
+          "value": 39,
+          "label": "",
+          "visual": "14DA0039",
+          "audio": null
+        },
+        {
+          "id": 40,
+          "value": 40,
+          "label": "",
+          "visual": "14DA0040",
+          "audio": null
+        },
+        {
+          "id": 41,
+          "value": 41,
+          "label": "",
+          "visual": "14DA0041",
+          "audio": null
+        },
+        {
+          "id": 42,
+          "value": 42,
+          "label": "",
+          "visual": "14DA0042",
+          "audio": null
+        },
+        {
+          "id": 43,
+          "value": 43,
+          "label": "",
+          "visual": "14DA0043",
+          "audio": null
+        },
+        {
+          "id": 44,
+          "value": 44,
+          "label": "",
+          "visual": "14DA0044",
+          "audio": null
+        },
+        {
+          "id": 45,
+          "value": 45,
+          "label": "",
+          "visual": "14DA0045",
+          "audio": null
+        },
+        {
+          "id": 46,
+          "value": 46,
+          "label": "",
+          "visual": "14DA0046",
+          "audio": null
+        },
+        {
+          "id": 47,
+          "value": 47,
+          "label": "",
+          "visual": "14DA0047",
+          "audio": null
+        },
+        {
+          "id": 48,
+          "value": 48,
+          "label": "",
+          "visual": "14DA0048",
+          "audio": null
+        },
+        {
+          "id": 49,
+          "value": 49,
+          "label": "",
+          "visual": "14DA0049",
+          "audio": null
+        },
+        {
+          "id": 50,
+          "value": 50,
+          "label": "",
+          "visual": "14DA0050",
+          "audio": null
+        },
+        {
+          "id": 51,
+          "value": 51,
+          "label": "",
+          "visual": "14DA0051",
+          "audio": null
+        },
+        {
+          "id": 52,
+          "value": 52,
+          "label": "",
+          "visual": "14DA0052",
+          "audio": null
+        },
+        {
+          "id": 53,
+          "value": 53,
+          "label": "",
+          "visual": "14DA0053",
+          "audio": null
+        },
+        {
+          "id": 54,
+          "value": 54,
+          "label": "",
+          "visual": "14DA0054",
+          "audio": null
+        },
+        {
+          "id": 55,
+          "value": 55,
+          "label": "",
+          "visual": "14DA0055",
+          "audio": null
+        },
+        {
+          "id": 56,
+          "value": 56,
+          "label": "",
+          "visual": "14DA0056",
+          "audio": null
+        },
+        {
+          "id": 57,
+          "value": 57,
+          "label": "",
+          "visual": "14DA0057",
+          "audio": null
+        },
+        {
+          "id": 58,
+          "value": 58,
+          "label": "",
+          "visual": "14DA0058",
+          "audio": null
+        },
+        {
+          "id": 59,
+          "value": 59,
+          "label": "",
+          "visual": "14DA0059",
+          "audio": null
+        },
+        {
+          "id": 60,
+          "value": 60,
+          "label": "",
+          "visual": "14DA0060",
+          "audio": null
+        },
+        {
+          "id": 61,
+          "value": 61,
+          "label": "",
+          "visual": "14DA0061",
+          "audio": null
+        },
+        {
+          "id": 62,
+          "value": 62,
+          "label": "",
+          "visual": "14DA0062",
+          "audio": null
+        },
+        {
+          "id": 63,
+          "value": 63,
+          "label": "",
+          "visual": "14DA0063",
+          "audio": null
+        },
+        {
+          "id": 64,
+          "value": 64,
+          "label": "",
+          "visual": "14DA0064",
+          "audio": null
+        },
+        {
+          "id": 65,
+          "value": 65,
+          "label": "",
+          "visual": "14DA0065",
+          "audio": null
+        },
+        {
+          "id": 66,
+          "value": 66,
+          "label": "",
+          "visual": "14DA0066",
+          "audio": null
+        },
+        {
+          "id": 67,
+          "value": 67,
+          "label": "",
+          "visual": "14DA0067",
+          "audio": null
+        },
+        {
+          "id": 68,
+          "value": 68,
+          "label": "",
+          "visual": "14DA0068",
+          "audio": null
+        },
+        {
+          "id": 69,
+          "value": 69,
+          "label": "",
+          "visual": null,
+          "audio": null
+        }
+      ],
+      "hints": {
+        "0": "Fécondation et développement de l'embryon : Lorsque un ovule et un spermatozoïde se rencontrent à la faveur d'un rapport sexuel, exempt de contraceptifs, il y a fécondation et formation d'un embryon qui se niche dans la paroi utérine. Si la rencontre n'a pas lieu, les règles surviennent à la fin du cycle.",
+        "1": "Fécondation et développement de l'embryon  : Lorsque un ovule et un spermatozoïde se rencontrent à la faveur d'un rapport sexuel, exempt de contraceptifs, il y a fécondation et formation d'un embryon qui se niche et se développe dans la paroi utérine. Si des obstacles s'opposent à cette rencontre, comme une obstruction des trompes qui empêche l'ovule d'accéder à l'utérus, alors la fécondation est impossible. Elle peut être rendue seulement difficile s'il y a peu de spermatozoïdes car les chances de rencontre sont amoindries. Si la rencontre n'a pas lieu, les règles surviennent à la fin du cycle.",
+        "2": "Fécondation et développement de l'embryon  : Lorsque un ovule et un spermatozoïde se rencontrent à la faveur d'un rapport sexuel, exempt de contraceptifs, il y a fécondation et formation d'un embryon qui se niche et se développe dans la paroi utérine. Si des obstacles s'opposent à cette rencontre, comme une obstruction des trompes qui empêche l'ovule d'accéder à l'utérus, alors la fécondation est impossible. Elle peut être rendue seulement difficile s'il y a peu de spermatozoïdes car les chances de rencontre sont amoindries. Si la rencontre n'a pas lieu, les règles surviennent à la fin du cycle.",
+        "3": "Fécondation et développement de l'embryon  : Lorsque un ovule et un spermatozoïde se rencontrent à la faveur d'un rapport sexuel, exempt de contraceptifs, il y a fécondation et formation d'un embryon qui se niche et se développe dans la paroi utérine. Si des obstacles s'opposent à cette rencontre, comme une obstruction des trompes qui empêche l'ovule d'accéder à l'utérus, alors la fécondation est impossible. Elle peut être rendue seulement difficile s'il y a peu de spermatozoïdes car les chances de rencontre sont amoindries. Si la rencontre n'a pas lieu, les règles surviennent à la fin du cycle."
+      }
+    },
+    {
+      "id": "11",
+      "label": "Etat du bébé",
+      "type": 1,
+      "function": 1,
+      "plan": 104,
+      "box": [
+        165,
+        254,
+        129,
+        91
+      ],
+      "options": [
+        {
+          "id": 1,
+          "value": 1,
+          "label": "Pas de bébé",
+          "visual": "14DB0001",
+          "audio": null
+        },
+        {
+          "id": 2,
+          "value": 2,
+          "label": "Bébé sain",
+          "visual": "14DB0002",
+          "audio": null
+        },
+        {
+          "id": 3,
+          "value": 3,
+          "label": "Risques de malformations ou de prématurité",
+          "visual": "14DB0003",
+          "audio": null
+        }
+      ],
+      "hints": {
+        "0": "Etat du bébé : Le bébé se développe grâce au placenta qui lui apporte les substances nécessaires.... Toutes les substances nocives ingérées par la mère passent directement dans le sang du foetus par le placenta et peuvent altérer son développement. Il y a des risques de malformation ou de prématurité.",
+        "1": "Etat du bébé : Le bébé se développe grâce au placenta qui lui apporte les substances nécessaires.... Toutes les substances nocives ingérées par la mère passent directement dans le sang du foetus par le placenta et peuvent altérer son développement. Il y a des risques de malformation ou de prématurité.",
+        "2": "Etat du bébé : Le bébé se développe grâce au placenta qui lui apporte les substances nécessaires.... Toutes les substances nocives ingérées par la mère passent directement dans le sang du foetus par le placenta et peuvent altérer son développement. Il y a des risques de malformation ou de prématurité.",
+        "3": "Etat du bébé : Le bébé se développe grâce au placenta qui lui apporte les substances nécessaires.... Toutes les substances nocives ingérées par la mère passent directement dans le sang du foetus par le placenta et peuvent altérer son développement. Il y a des risques de malformation ou de prématurité."
+      }
+    },
+    {
+      "id": "12",
+      "label": "Période de fertilité",
+      "type": 1,
+      "function": 1,
+      "plan": 101,
+      "box": [
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "options": [
+        {
+          "id": 1,
+          "value": 1,
+          "label": "",
+          "visual": null,
+          "audio": null
+        },
+        {
+          "id": 2,
+          "value": 2,
+          "label": "",
+          "visual": null,
+          "audio": null
+        },
+        {
+          "id": 3,
+          "value": 3,
+          "label": "",
+          "visual": null,
+          "audio": null
+        },
+        {
+          "id": 4,
+          "value": 4,
+          "label": "",
+          "visual": null,
+          "audio": null
+        }
+      ],
+      "hints": {
+        "0": "",
+        "1": "",
+        "2": "",
+        "3": ""
+      }
+    }
+  ],
+  "cases": [
+    {
+      "id": "0",
+      "label": "Mode libre",
+      "solutions": [
+        {
+          "1": 1,
+          "2": 1,
+          "3": 1,
+          "4": 1,
+          "5": 1,
+          "6": 1
+        }
+      ],
+      "initial": {
+        "1": 1,
+        "2": 1,
+        "3": 1,
+        "4": 1,
+        "5": 1,
+        "6": 1,
+        "7": 1,
+        "8": 1,
+        "9": 3,
+        "10": 1,
+        "11": 1,
+        "12": 1
+      }
+    },
+    {
+      "id": "1",
+      "label": "Désir d'enfant",
+      "solutions": [
+        {
+          "2": 8,
+          "3": 1,
+          "4": 1,
+          "5": 1,
+          "1": 5,
+          "6": 1
+        },
+        {
+          "1": 5,
+          "2": 9,
+          "3": 1,
+          "4": 1,
+          "5": 1,
+          "6": 1
+        },
+        {
+          "1": 5,
+          "2": 10,
+          "3": 1,
+          "4": 1,
+          "5": 1,
+          "6": 1
+        }
+      ],
+      "initial": {
+        "1": 5,
+        "2": 1,
+        "3": 2,
+        "4": 1,
+        "5": 1,
+        "6": 1,
+        "7": 1,
+        "8": 5,
+        "9": 3,
+        "10": 3,
+        "11": 1,
+        "12": 1
+      }
+    },
+    {
+      "id": "2",
+      "label": "Hygiène de vie et grossesse",
+      "solutions": [
+        {
+          "1": 4,
+          "2": 7,
+          "3": 1,
+          "4": 1,
+          "5": 1,
+          "6": 1
+        },
+        {
+          "1": 4,
+          "2": 8,
+          "3": 1,
+          "4": 1,
+          "5": 1,
+          "6": 1
+        },
+        {
+          "1": 4,
+          "2": 9,
+          "3": 1,
+          "4": 1,
+          "5": 1,
+          "6": 1
+        }
+      ],
+      "initial": {
+        "1": 3,
+        "2": 1,
+        "3": 1,
+        "4": 2,
+        "5": 3,
+        "6": 2,
+        "7": 1,
+        "8": 6,
+        "9": 3,
+        "10": 10,
+        "11": 1,
+        "12": 1
+      }
+    },
+    {
+      "id": "3",
+      "label": "Un contraceptif adapté à chaque cas",
+      "solutions": [
+        {
+          "1": 2,
+          "2": 1,
+          "3": 1,
+          "4": 1,
+          "5": 2,
+          "6": 1
+        },
+        {
+          "1": 2,
+          "2": 13,
+          "3": 1,
+          "4": 1,
+          "5": 2,
+          "6": 1
+        },
+        {
+          "1": 2,
+          "2": 14,
+          "3": 1,
+          "4": 1,
+          "5": 2,
+          "6": 1
+        },
+        {
+          "1": 2,
+          "2": 15,
+          "3": 1,
+          "4": 1,
+          "5": 2,
+          "6": 1
+        },
+        {
+          "1": 2,
+          "2": 16,
+          "3": 1,
+          "4": 1,
+          "5": 2,
+          "6": 1
+        },
+        {
+          "1": 2,
+          "2": 1,
+          "3": 1,
+          "4": 2,
+          "5": 2,
+          "6": 1
+        },
+        {
+          "1": 2,
+          "2": 2,
+          "3": 1,
+          "4": 2,
+          "5": 2,
+          "6": 1
+        },
+        {
+          "1": 2,
+          "2": 3,
+          "3": 1,
+          "4": 2,
+          "5": 2,
+          "6": 1
+        },
+        {
+          "1": 2,
+          "2": 4,
+          "3": 1,
+          "4": 2,
+          "5": 2,
+          "6": 1
+        },
+        {
+          "1": 2,
+          "2": 8,
+          "3": 1,
+          "4": 2,
+          "5": 2,
+          "6": 1
+        },
+        {
+          "1": 2,
+          "2": 9,
+          "3": 1,
+          "4": 2,
+          "5": 2,
+          "6": 1
+        },
+        {
+          "1": 2,
+          "2": 2,
+          "3": 1,
+          "4": 1,
+          "5": 2,
+          "6": 1
+        },
+        {
+          "1": 2,
+          "2": 10,
+          "3": 1,
+          "4": 2,
+          "5": 2,
+          "6": 1
+        },
+        {
+          "1": 2,
+          "2": 11,
+          "3": 1,
+          "4": 2,
+          "5": 2,
+          "6": 1
+        },
+        {
+          "1": 2,
+          "2": 12,
+          "3": 1,
+          "4": 2,
+          "5": 2,
+          "6": 1
+        },
+        {
+          "1": 2,
+          "2": 13,
+          "3": 1,
+          "4": 2,
+          "5": 2,
+          "6": 1
+        },
+        {
+          "1": 2,
+          "2": 14,
+          "3": 1,
+          "4": 2,
+          "5": 2,
+          "6": 1
+        },
+        {
+          "1": 2,
+          "2": 15,
+          "3": 1,
+          "4": 2,
+          "5": 2,
+          "6": 1
+        },
+        {
+          "1": 2,
+          "2": 16,
+          "3": 1,
+          "4": 2,
+          "5": 2,
+          "6": 1
+        },
+        {
+          "1": 2,
+          "2": 3,
+          "3": 1,
+          "4": 1,
+          "5": 2,
+          "6": 1
+        },
+        {
+          "1": 2,
+          "2": 4,
+          "3": 1,
+          "4": 1,
+          "5": 2,
+          "6": 1
+        },
+        {
+          "1": 2,
+          "2": 8,
+          "3": 1,
+          "4": 1,
+          "5": 2,
+          "6": 1
+        },
+        {
+          "1": 2,
+          "2": 9,
+          "3": 1,
+          "4": 1,
+          "5": 2,
+          "6": 1
+        },
+        {
+          "1": 2,
+          "2": 10,
+          "3": 1,
+          "4": 1,
+          "5": 2,
+          "6": 1
+        },
+        {
+          "1": 2,
+          "2": 11,
+          "3": 1,
+          "4": 1,
+          "5": 2,
+          "6": 1
+        },
+        {
+          "1": 2,
+          "2": 12,
+          "3": 1,
+          "4": 1,
+          "5": 2,
+          "6": 1
+        }
+      ],
+      "initial": {
+        "1": 2,
+        "2": 1,
+        "3": 1,
+        "4": 1,
+        "5": 1,
+        "6": 2,
+        "7": 1,
+        "8": 2,
+        "9": 3,
+        "10": 3,
+        "11": 1,
+        "12": 1
+      }
+    }
+  ],
+  "lookup": [
+    {
+      "object": "8",
+      "value": 1,
+      "conditions": {
+        "5": 1,
+        "1": 1
+      }
+    },
+    {
+      "object": "8",
+      "value": 1,
+      "conditions": {
+        "5": 2,
+        "1": 1
+      }
+    },
+    {
+      "object": "8",
+      "value": 6,
+      "conditions": {
+        "5": 3,
+        "1": 1
+      }
+    },
+    {
+      "object": "8",
+      "value": 1,
+      "conditions": {
+        "5": 4,
+        "1": 1
+      }
+    },
+    {
+      "object": "8",
+      "value": 1,
+      "conditions": {
+        "5": 5,
+        "1": 1
+      }
+    },
+    {
+      "object": "8",
+      "value": 2,
+      "conditions": {
+        "5": 1,
+        "1": 2
+      }
+    },
+    {
+      "object": "8",
+      "value": 2,
+      "conditions": {
+        "5": 2,
+        "1": 2
+      }
+    },
+    {
+      "object": "8",
+      "value": 6,
+      "conditions": {
+        "5": 3,
+        "1": 2
+      }
+    },
+    {
+      "object": "8",
+      "value": 2,
+      "conditions": {
+        "5": 4,
+        "1": 2
+      }
+    },
+    {
+      "object": "8",
+      "value": 2,
+      "conditions": {
+        "5": 5,
+        "1": 2
+      }
+    },
+    {
+      "object": "8",
+      "value": 3,
+      "conditions": {
+        "5": 1,
+        "1": 3
+      }
+    },
+    {
+      "object": "8",
+      "value": 3,
+      "conditions": {
+        "5": 2,
+        "1": 3
+      }
+    },
+    {
+      "object": "8",
+      "value": 6,
+      "conditions": {
+        "5": 3,
+        "1": 3
+      }
+    },
+    {
+      "object": "8",
+      "value": 3,
+      "conditions": {
+        "5": 4,
+        "1": 3
+      }
+    },
+    {
+      "object": "8",
+      "value": 3,
+      "conditions": {
+        "5": 5,
+        "1": 3
+      }
+    },
+    {
+      "object": "8",
+      "value": 4,
+      "conditions": {
+        "5": 1,
+        "1": 4
+      }
+    },
+    {
+      "object": "8",
+      "value": 4,
+      "conditions": {
+        "5": 2,
+        "1": 4
+      }
+    },
+    {
+      "object": "8",
+      "value": 6,
+      "conditions": {
+        "5": 3,
+        "1": 4
+      }
+    },
+    {
+      "object": "8",
+      "value": 4,
+      "conditions": {
+        "5": 4,
+        "1": 4
+      }
+    },
+    {
+      "object": "8",
+      "value": 4,
+      "conditions": {
+        "5": 5,
+        "1": 4
+      }
+    },
+    {
+      "object": "8",
+      "value": 5,
+      "conditions": {
+        "5": 1,
+        "1": 5
+      }
+    },
+    {
+      "object": "8",
+      "value": 5,
+      "conditions": {
+        "5": 2,
+        "1": 5
+      }
+    },
+    {
+      "object": "8",
+      "value": 6,
+      "conditions": {
+        "5": 3,
+        "1": 5
+      }
+    },
+    {
+      "object": "8",
+      "value": 5,
+      "conditions": {
+        "5": 4,
+        "1": 5
+      }
+    },
+    {
+      "object": "8",
+      "value": 5,
+      "conditions": {
+        "5": 5,
+        "1": 5
+      }
+    },
+    {
+      "object": "9",
+      "value": 3,
+      "conditions": {
+        "5": 1
+      }
+    },
+    {
+      "object": "9",
+      "value": 3,
+      "conditions": {
+        "5": 2
+      }
+    },
+    {
+      "object": "9",
+      "value": 3,
+      "conditions": {
+        "5": 3
+      }
+    },
+    {
+      "object": "9",
+      "value": 1,
+      "conditions": {
+        "5": 4
+      }
+    },
+    {
+      "object": "9",
+      "value": 2,
+      "conditions": {
+        "5": 5
+      }
+    },
+    {
+      "object": "10",
+      "value": 1,
+      "conditions": {
+        "5": 1,
+        "3": 1,
+        "4": 1,
+        "12": 1
+      }
+    },
+    {
+      "object": "10",
+      "value": 2,
+      "conditions": {
+        "5": 1,
+        "3": 1,
+        "4": 2,
+        "12": 1
+      }
+    },
+    {
+      "object": "10",
+      "value": 3,
+      "conditions": {
+        "5": 1,
+        "3": 2,
+        "4": 1,
+        "12": 1
+      }
+    },
+    {
+      "object": "10",
+      "value": 4,
+      "conditions": {
+        "5": 1,
+        "3": 2,
+        "4": 2,
+        "12": 1
+      }
+    },
+    {
+      "object": "10",
+      "value": 5,
+      "conditions": {
+        "5": 5,
+        "3": 1,
+        "4": 1,
+        "12": 1
+      }
+    },
+    {
+      "object": "10",
+      "value": 6,
+      "conditions": {
+        "5": 5,
+        "3": 1,
+        "4": 2,
+        "12": 1
+      }
+    },
+    {
+      "object": "10",
+      "value": 7,
+      "conditions": {
+        "5": 5,
+        "3": 2,
+        "4": 1,
+        "12": 1
+      }
+    },
+    {
+      "object": "10",
+      "value": 8,
+      "conditions": {
+        "5": 5,
+        "3": 2,
+        "4": 2,
+        "12": 1
+      }
+    },
+    {
+      "object": "10",
+      "value": 9,
+      "conditions": {
+        "5": 3,
+        "3": 1,
+        "4": 1,
+        "12": 1
+      }
+    },
+    {
+      "object": "10",
+      "value": 10,
+      "conditions": {
+        "5": 3,
+        "3": 1,
+        "4": 2,
+        "12": 1
+      }
+    },
+    {
+      "object": "10",
+      "value": 11,
+      "conditions": {
+        "5": 3,
+        "3": 2,
+        "4": 1,
+        "12": 1
+      }
+    },
+    {
+      "object": "10",
+      "value": 12,
+      "conditions": {
+        "5": 3,
+        "3": 2,
+        "4": 2,
+        "12": 1
+      }
+    },
+    {
+      "object": "10",
+      "value": 13,
+      "conditions": {
+        "5": 2,
+        "3": 1,
+        "4": 1,
+        "12": 1
+      }
+    },
+    {
+      "object": "10",
+      "value": 14,
+      "conditions": {
+        "5": 2,
+        "3": 1,
+        "4": 2,
+        "12": 1
+      }
+    },
+    {
+      "object": "10",
+      "value": 15,
+      "conditions": {
+        "5": 2,
+        "3": 2,
+        "4": 1,
+        "12": 1
+      }
+    },
+    {
+      "object": "10",
+      "value": 16,
+      "conditions": {
+        "5": 2,
+        "3": 2,
+        "4": 2,
+        "12": 1
+      }
+    },
+    {
+      "object": "10",
+      "value": 17,
+      "conditions": {
+        "5": 4,
+        "3": 1,
+        "4": 1,
+        "12": 1
+      }
+    },
+    {
+      "object": "10",
+      "value": 18,
+      "conditions": {
+        "5": 4,
+        "3": 1,
+        "4": 2,
+        "12": 1
+      }
+    },
+    {
+      "object": "10",
+      "value": 19,
+      "conditions": {
+        "5": 4,
+        "3": 2,
+        "4": 1,
+        "12": 1
+      }
+    },
+    {
+      "object": "10",
+      "value": 20,
+      "conditions": {
+        "5": 4,
+        "3": 2,
+        "4": 2,
+        "12": 1
+      }
+    },
+    {
+      "object": "10",
+      "value": 21,
+      "conditions": {
+        "5": 1,
+        "3": 1,
+        "4": 1,
+        "12": 2
+      }
+    },
+    {
+      "object": "10",
+      "value": 22,
+      "conditions": {
+        "5": 1,
+        "3": 1,
+        "4": 2,
+        "12": 2
+      }
+    },
+    {
+      "object": "10",
+      "value": 23,
+      "conditions": {
+        "5": 1,
+        "3": 2,
+        "4": 1,
+        "12": 2
+      }
+    },
+    {
+      "object": "10",
+      "value": 24,
+      "conditions": {
+        "5": 1,
+        "3": 2,
+        "4": 2,
+        "12": 2
+      }
+    },
+    {
+      "object": "10",
+      "value": 25,
+      "conditions": {
+        "5": 5,
+        "3": 1,
+        "4": 1,
+        "12": 2
+      }
+    },
+    {
+      "object": "10",
+      "value": 26,
+      "conditions": {
+        "5": 5,
+        "3": 1,
+        "4": 2,
+        "12": 2
+      }
+    },
+    {
+      "object": "10",
+      "value": 27,
+      "conditions": {
+        "5": 5,
+        "3": 2,
+        "4": 1,
+        "12": 2
+      }
+    },
+    {
+      "object": "10",
+      "value": 28,
+      "conditions": {
+        "5": 5,
+        "3": 2,
+        "4": 2,
+        "12": 2
+      }
+    },
+    {
+      "object": "10",
+      "value": 9,
+      "conditions": {
+        "5": 3,
+        "3": 1,
+        "4": 1,
+        "12": 2
+      }
+    },
+    {
+      "object": "10",
+      "value": 10,
+      "conditions": {
+        "5": 3,
+        "3": 1,
+        "4": 2,
+        "12": 2
+      }
+    },
+    {
+      "object": "10",
+      "value": 11,
+      "conditions": {
+        "5": 3,
+        "3": 2,
+        "4": 1,
+        "12": 2
+      }
+    },
+    {
+      "object": "10",
+      "value": 12,
+      "conditions": {
+        "5": 3,
+        "3": 2,
+        "4": 2,
+        "12": 2
+      }
+    },
+    {
+      "object": "10",
+      "value": 29,
+      "conditions": {
+        "5": 2,
+        "3": 1,
+        "4": 1,
+        "12": 2
+      }
+    },
+    {
+      "object": "10",
+      "value": 30,
+      "conditions": {
+        "5": 2,
+        "3": 1,
+        "4": 2,
+        "12": 2
+      }
+    },
+    {
+      "object": "10",
+      "value": 31,
+      "conditions": {
+        "5": 2,
+        "3": 2,
+        "4": 1,
+        "12": 2
+      }
+    },
+    {
+      "object": "10",
+      "value": 32,
+      "conditions": {
+        "5": 2,
+        "3": 2,
+        "4": 2,
+        "12": 2
+      }
+    },
+    {
+      "object": "10",
+      "value": 33,
+      "conditions": {
+        "5": 4,
+        "3": 1,
+        "4": 1,
+        "12": 2
+      }
+    },
+    {
+      "object": "10",
+      "value": 34,
+      "conditions": {
+        "5": 4,
+        "3": 1,
+        "4": 2,
+        "12": 2
+      }
+    },
+    {
+      "object": "10",
+      "value": 35,
+      "conditions": {
+        "5": 4,
+        "3": 2,
+        "4": 1,
+        "12": 2
+      }
+    },
+    {
+      "object": "10",
+      "value": 36,
+      "conditions": {
+        "5": 4,
+        "3": 2,
+        "4": 2,
+        "12": 2
+      }
+    },
+    {
+      "object": "10",
+      "value": 37,
+      "conditions": {
+        "5": 1,
+        "3": 1,
+        "4": 1,
+        "12": 3
+      }
+    },
+    {
+      "object": "10",
+      "value": 38,
+      "conditions": {
+        "5": 1,
+        "3": 1,
+        "4": 2,
+        "12": 3
+      }
+    },
+    {
+      "object": "10",
+      "value": 39,
+      "conditions": {
+        "5": 1,
+        "3": 2,
+        "4": 1,
+        "12": 3
+      }
+    },
+    {
+      "object": "10",
+      "value": 40,
+      "conditions": {
+        "5": 1,
+        "3": 2,
+        "4": 2,
+        "12": 3
+      }
+    },
+    {
+      "object": "10",
+      "value": 41,
+      "conditions": {
+        "5": 5,
+        "3": 1,
+        "4": 1,
+        "12": 3
+      }
+    },
+    {
+      "object": "10",
+      "value": 42,
+      "conditions": {
+        "5": 5,
+        "3": 1,
+        "4": 2,
+        "12": 3
+      }
+    },
+    {
+      "object": "10",
+      "value": 43,
+      "conditions": {
+        "5": 5,
+        "3": 2,
+        "4": 1,
+        "12": 3
+      }
+    },
+    {
+      "object": "10",
+      "value": 44,
+      "conditions": {
+        "5": 5,
+        "3": 2,
+        "4": 2,
+        "12": 3
+      }
+    },
+    {
+      "object": "10",
+      "value": 9,
+      "conditions": {
+        "5": 3,
+        "3": 1,
+        "4": 1,
+        "12": 3
+      }
+    },
+    {
+      "object": "10",
+      "value": 10,
+      "conditions": {
+        "5": 3,
+        "3": 1,
+        "4": 2,
+        "12": 3
+      }
+    },
+    {
+      "object": "10",
+      "value": 11,
+      "conditions": {
+        "5": 3,
+        "3": 2,
+        "4": 1,
+        "12": 3
+      }
+    },
+    {
+      "object": "10",
+      "value": 12,
+      "conditions": {
+        "5": 3,
+        "3": 2,
+        "4": 2,
+        "12": 3
+      }
+    },
+    {
+      "object": "10",
+      "value": 45,
+      "conditions": {
+        "5": 2,
+        "3": 1,
+        "4": 1,
+        "12": 3
+      }
+    },
+    {
+      "object": "10",
+      "value": 46,
+      "conditions": {
+        "5": 2,
+        "3": 1,
+        "4": 2,
+        "12": 3
+      }
+    },
+    {
+      "object": "10",
+      "value": 47,
+      "conditions": {
+        "5": 2,
+        "3": 2,
+        "4": 1,
+        "12": 3
+      }
+    },
+    {
+      "object": "10",
+      "value": 48,
+      "conditions": {
+        "5": 2,
+        "3": 2,
+        "4": 2,
+        "12": 3
+      }
+    },
+    {
+      "object": "10",
+      "value": 49,
+      "conditions": {
+        "5": 4,
+        "3": 1,
+        "4": 1,
+        "12": 3
+      }
+    },
+    {
+      "object": "10",
+      "value": 50,
+      "conditions": {
+        "5": 4,
+        "3": 1,
+        "4": 2,
+        "12": 3
+      }
+    },
+    {
+      "object": "10",
+      "value": 51,
+      "conditions": {
+        "5": 4,
+        "3": 2,
+        "4": 1,
+        "12": 3
+      }
+    },
+    {
+      "object": "10",
+      "value": 52,
+      "conditions": {
+        "5": 4,
+        "3": 2,
+        "4": 2,
+        "12": 3
+      }
+    },
+    {
+      "object": "10",
+      "value": 53,
+      "conditions": {
+        "5": 1,
+        "3": 1,
+        "4": 1,
+        "12": 4
+      }
+    },
+    {
+      "object": "10",
+      "value": 54,
+      "conditions": {
+        "5": 1,
+        "3": 1,
+        "4": 2,
+        "12": 4
+      }
+    },
+    {
+      "object": "10",
+      "value": 55,
+      "conditions": {
+        "5": 1,
+        "3": 2,
+        "4": 1,
+        "12": 4
+      }
+    },
+    {
+      "object": "10",
+      "value": 56,
+      "conditions": {
+        "5": 1,
+        "3": 2,
+        "4": 2,
+        "12": 4
+      }
+    },
+    {
+      "object": "10",
+      "value": 57,
+      "conditions": {
+        "5": 5,
+        "3": 1,
+        "4": 1,
+        "12": 4
+      }
+    },
+    {
+      "object": "10",
+      "value": 58,
+      "conditions": {
+        "5": 5,
+        "3": 1,
+        "4": 2,
+        "12": 4
+      }
+    },
+    {
+      "object": "10",
+      "value": 59,
+      "conditions": {
+        "5": 5,
+        "3": 2,
+        "4": 1,
+        "12": 4
+      }
+    },
+    {
+      "object": "10",
+      "value": 60,
+      "conditions": {
+        "5": 5,
+        "3": 2,
+        "4": 2,
+        "12": 4
+      }
+    },
+    {
+      "object": "10",
+      "value": 9,
+      "conditions": {
+        "5": 3,
+        "3": 1,
+        "4": 1,
+        "12": 4
+      }
+    },
+    {
+      "object": "10",
+      "value": 10,
+      "conditions": {
+        "5": 3,
+        "3": 1,
+        "4": 2,
+        "12": 4
+      }
+    },
+    {
+      "object": "10",
+      "value": 11,
+      "conditions": {
+        "5": 3,
+        "3": 2,
+        "4": 1,
+        "12": 4
+      }
+    },
+    {
+      "object": "10",
+      "value": 12,
+      "conditions": {
+        "5": 3,
+        "3": 2,
+        "4": 2,
+        "12": 4
+      }
+    },
+    {
+      "object": "10",
+      "value": 61,
+      "conditions": {
+        "5": 2,
+        "3": 1,
+        "4": 1,
+        "12": 4
+      }
+    },
+    {
+      "object": "10",
+      "value": 62,
+      "conditions": {
+        "5": 2,
+        "3": 1,
+        "4": 2,
+        "12": 4
+      }
+    },
+    {
+      "object": "10",
+      "value": 63,
+      "conditions": {
+        "5": 2,
+        "3": 2,
+        "4": 1,
+        "12": 4
+      }
+    },
+    {
+      "object": "10",
+      "value": 64,
+      "conditions": {
+        "5": 2,
+        "3": 2,
+        "4": 2,
+        "12": 4
+      }
+    },
+    {
+      "object": "10",
+      "value": 65,
+      "conditions": {
+        "5": 4,
+        "3": 1,
+        "4": 1,
+        "12": 4
+      }
+    },
+    {
+      "object": "10",
+      "value": 66,
+      "conditions": {
+        "5": 4,
+        "3": 1,
+        "4": 2,
+        "12": 4
+      }
+    },
+    {
+      "object": "10",
+      "value": 67,
+      "conditions": {
+        "5": 4,
+        "3": 2,
+        "4": 1,
+        "12": 4
+      }
+    },
+    {
+      "object": "10",
+      "value": 68,
+      "conditions": {
+        "5": 4,
+        "3": 2,
+        "4": 2,
+        "12": 4
+      }
+    }
+  ]
+}

@@ -1,0 +1,1319 @@
+{
+  "id": "12",
+  "title": "Atmosphère d'une planète",
+  "background": "12I1",
+  "objects": [
+    {
+      "id": "1",
+      "label": "Taux d'ozone naturel",
+      "type": 4,
+      "function": 0,
+      "plan": 101,
+      "box": [
+        401,
+        403,
+        103,
+        62
+      ],
+      "options": [
+        {
+          "id": 1,
+          "value": -1,
+          "label": "Quantité d'ozone plus élevée que la Terre",
+          "visual": "12D10001",
+          "audio": null
+        },
+        {
+          "id": 2,
+          "value": 1,
+          "label": "Quantité d'ozone identique à la Terre",
+          "visual": "12D10002",
+          "audio": null
+        },
+        {
+          "id": 3,
+          "value": 0,
+          "label": "Quantité d'ozone plus faible que la Terre",
+          "visual": "12D10003",
+          "audio": null
+        }
+      ],
+      "hints": {
+        "0": "L'ozone est un gaz composé de molécules triatomiques (O3). Il absorbe les rayons ultraviolets et dans les rayonnements visibles, le rouge.  Il protège les êtres vivants des rayons nocifs du Soleil.",
+        "1": "",
+        "2": "",
+        "3": ""
+      }
+    },
+    {
+      "id": "2",
+      "label": "Taux d'O¿ naturel",
+      "type": 4,
+      "function": 0,
+      "plan": 101,
+      "box": [
+        468,
+        351,
+        91,
+        57
+      ],
+      "options": [
+        {
+          "id": 1,
+          "value": 3,
+          "label": "Quantité de dioxygène plus élevée que la Terre",
+          "visual": "12D20001",
+          "audio": null
+        },
+        {
+          "id": 2,
+          "value": 2,
+          "label": "Quantité de dioxygène identique à la Terre",
+          "visual": "12D20002",
+          "audio": null
+        },
+        {
+          "id": 3,
+          "value": 0,
+          "label": "Quantité de dioxygène plus faible que la Terre",
+          "visual": "12D20003",
+          "audio": null
+        }
+      ],
+      "hints": {
+        "0": "Le dioxygène est un gaz composé de molécules diatomiques (O¿). Il est présent à environ 20% dans l'atmosphère. Si ce pourcentage descendait en dessous de 14%, les êtres vivants auraient du mal à respirer.",
+        "1": "",
+        "2": "",
+        "3": ""
+      }
+    },
+    {
+      "id": "3",
+      "label": "Taux de CO₂ naturel",
+      "type": 4,
+      "function": 0,
+      "plan": 101,
+      "box": [
+        555,
+        286,
+        71,
+        39
+      ],
+      "options": [
+        {
+          "id": 1,
+          "value": 6,
+          "label": "Quantité de dioxyde carbone plus élevée que la Terre",
+          "visual": "12D30001",
+          "audio": null
+        },
+        {
+          "id": 2,
+          "value": 4,
+          "label": "Quantité de dioxyde carbone identique à la Terre",
+          "visual": "12D30002",
+          "audio": null
+        },
+        {
+          "id": 3,
+          "value": 2,
+          "label": "Quantité de dioxyde carbone plus faible que la Terre",
+          "visual": "12D30003",
+          "audio": null
+        }
+      ],
+      "hints": {
+        "0": "Le dioxyde de carbone est un gaz composé de molécules triatomiques (CO₂). Plus lourd que l'air, il n'entretient pas les combustions. C'est un gaz à effet de serre c'est-à-dire qu'il provoque une augmentation de la température de l'atmosphère lorsqu'il est présent en trop grande quantité.",
+        "1": "",
+        "2": "",
+        "3": ""
+      }
+    },
+    {
+      "id": "4",
+      "label": "Taux de H2O",
+      "type": 4,
+      "function": 0,
+      "plan": 101,
+      "box": [
+        517,
+        321,
+        110,
+        42
+      ],
+      "options": [
+        {
+          "id": 1,
+          "value": 3,
+          "label": "Quantité d'eau plus élevée que la Terre",
+          "visual": "12D40001",
+          "audio": null
+        },
+        {
+          "id": 2,
+          "value": 2,
+          "label": "Quantité d'eau identique à la Terre",
+          "visual": "12D40002",
+          "audio": null
+        },
+        {
+          "id": 3,
+          "value": 1,
+          "label": "Quantité d'eau plus faible que la Terre",
+          "visual": "12D40003",
+          "audio": null
+        }
+      ],
+      "hints": {
+        "0": "L'eau est une molécule diatomique (H¿O). Elle est présente sur Terre sous les trois états (solide, liquide et gazeux) ce qui a permis, entre autres, l'apparition de la vie. C'est un élément essentiel à l'émergence et au maintien de la vie.",
+        "1": "",
+        "2": "",
+        "3": ""
+      }
+    },
+    {
+      "id": "5",
+      "label": "Taille de la planète",
+      "type": 4,
+      "function": 0,
+      "plan": 101,
+      "box": [
+        52,
+        321,
+        115,
+        84
+      ],
+      "options": [
+        {
+          "id": 1,
+          "value": 10,
+          "label": "Planète plus grosse que la Terre",
+          "visual": "12D50001",
+          "audio": null
+        },
+        {
+          "id": 2,
+          "value": 5,
+          "label": "Planète de taille identique à la Terre",
+          "visual": "12D50002",
+          "audio": null
+        },
+        {
+          "id": 3,
+          "value": 0,
+          "label": "Planète plus petite que la Terre",
+          "visual": "12D50003",
+          "audio": null
+        }
+      ],
+      "hints": {
+        "0": "La taille de la planète : Les quatre planètes les plus proches du Soleil (Mercure, Vénus, Terre, Mars) sont appelées planètes telluriques (sur le modèle de la Terre)  car elles sont constituées de matière solide.  Elles sont plus petites que les planètes dites joviennes (sur le modèle de Jupiter) ou géantes. ",
+        "1": "Avec ses 12 100 kilomètres de diamètre, Vénus est à peine plus petite que la Terre.",
+        "2": "Avec ses 6790 kilomètres de diamètre, Mars est presque 2 fois plus petite que la Terre.",
+        "3": "La Terre a un diamètre  équatorial de 12 756 kilomètres et un diamètre polaire de 12 714 kilomètres."
+      }
+    },
+    {
+      "id": "6",
+      "label": "Distance par rapport au soleil",
+      "type": 4,
+      "function": 0,
+      "plan": 101,
+      "box": [
+        168,
+        364,
+        173,
+        95
+      ],
+      "options": [
+        {
+          "id": 1,
+          "value": 10,
+          "label": "Planète plus éloignée du  Soleil que la Terre",
+          "visual": "12D60001",
+          "audio": null
+        },
+        {
+          "id": 2,
+          "value": 20,
+          "label": "Planète située à la même distance du Soleil que la Terre",
+          "visual": "12D60002",
+          "audio": null
+        },
+        {
+          "id": 3,
+          "value": 25,
+          "label": "Planète plus proche du Soleil que la Terre",
+          "visual": "12D60003",
+          "audio": null
+        }
+      ],
+      "hints": {
+        "0": "La distance de la planète par rapport au Soleil joue un rôle déterminant sur la température de surface. En effet, plus une planète est éloignée d'une source de chaleur (le Soleil pour nous) et plus l'énergie reçue est faible ; elle diminue proportionnellement à l'inverse du carré de la distance (si la distance est multipliée par 3, l'énergie reçue est diminuée par 9 ! ). Pluton qui est la planète la plus éloignée du Soleil reçoit très peu d'énergie par rapport à Mercure.",
+        "1": "Vénus est a la deuxième planète du système solaire. Située à plus de 108 millions de kilomètres du Soleil, elle se trouve plus près de lui que la Terre.",
+        "2": "Mars est  la quatrième planète du système solaire, elle se trouve à près de 228 millions de kilomètre du Soleil, plus loin de lui que la Terre.",
+        "3": "La Terre est  la  troisième planète du système solaire, elle se trouve à plus de 149 millions de kilomètre du Soleil."
+      }
+    },
+    {
+      "id": "7",
+      "label": "Présence d'atmosphère",
+      "type": 1,
+      "function": 1,
+      "plan": 101,
+      "box": [
+        126,
+        9,
+        282,
+        76
+      ],
+      "options": [
+        {
+          "id": 1,
+          "value": 0,
+          "label": "atmosphère très ténue",
+          "visual": "12S70001",
+          "audio": null
+        },
+        {
+          "id": 2,
+          "value": 1,
+          "label": "atmosphère faible",
+          "visual": "12S70002",
+          "audio": "/game/station/12W70002.wav"
+        },
+        {
+          "id": 3,
+          "value": 2,
+          "label": "atmosphère moyenne",
+          "visual": "12S70003",
+          "audio": "/game/station/12W70003.wav"
+        },
+        {
+          "id": 4,
+          "value": 3,
+          "label": "atmosphère dense",
+          "visual": "12S70004",
+          "audio": "/game/station/12W70004.wav"
+        }
+      ],
+      "hints": {
+        "0": "L'atmosphère est d'autant plus dense qu'elle est constituée d'une grande quantité de gaz. Une grande densité s'accompagne d'une température de surface importante ; c'est ce que l'on nomme l'effet de serre. Les principaux gaz qui composent notre atmosphère sont : le diazote (N¿), le dioxygène (O¿), le dioxyde de carbone (CO₂), la vapeur d'eau (H¿O), l'ozone (O3), etc.",
+        "1": "L'atmosphère de Vénus est très dense. Il faudrait la diminuer pour y établir la vie.",
+        "2": "Mars n'a pas d'atmosphère. Il s'agit d'en créer une suffisamment dense pour installer la vie.",
+        "3": "Une industrialisation excessive a créé une augmentation de dioxyde de carbone dans l'atmosphère. La conséquence est une atmosphère plus dense et une augmentation de l'effet de serre, néfaste à la vie. Il faudrait réduire cette quantité."
+      }
+    },
+    {
+      "id": "8",
+      "label": "Présence de la vie",
+      "type": 1,
+      "function": 2,
+      "plan": 102,
+      "box": [
+        91,
+        121,
+        186,
+        93
+      ],
+      "options": [
+        {
+          "id": 1,
+          "value": 0,
+          "label": "pas de vie",
+          "visual": null,
+          "audio": null
+        },
+        {
+          "id": 2,
+          "value": 1,
+          "label": "vie précaire",
+          "visual": "12D80002",
+          "audio": null
+        },
+        {
+          "id": 3,
+          "value": 2,
+          "label": "vie développée",
+          "visual": "12D80003",
+          "audio": null
+        },
+        {
+          "id": 4,
+          "value": 3,
+          "label": "vie très développée",
+          "visual": "12D80004",
+          "audio": null
+        }
+      ],
+      "hints": {
+        "0": "La présence de vie : La température, l'eau et l'ozone sont les critères déterminants pour la présence de vie sur la planète. La température parce que s'il fait trop chaud ou trop froid, la vie telle que nous la connaissons ne peut se développer. L'eau parce qu'elle est à l'origine de l'apparition de la vie ; n'oublions pas que la vie a commencé à se développer dans des marais. L'ozone parce que sans sa présence, les rayons du Soleil sont trop puissants ; ils cassent les molécules complexes (protéines, A.D.N,) qui sont censées donner naissance à la vie.",
+        "1": "Il n'y a pas de vie sur la planète Vénus. Ton objectif, dans ce cas précis, est de créer les conditions d'une vie très développée.",
+        "2": "Il n'y a pas de vie sur la planète Mars. Ton objectif, dans ce cas précis, est de créer les conditions d'une vie très développée.",
+        "3": "La vie est précaire sur cette Terre menacée, il faudrait rétablir les conditions d'une vie plus développée."
+      }
+    },
+    {
+      "id": "9",
+      "label": "Température de la planète",
+      "type": 1,
+      "function": 1,
+      "plan": 103,
+      "box": [
+        52,
+        12,
+        35,
+        101
+      ],
+      "options": [
+        {
+          "id": 1,
+          "value": 0,
+          "label": "Ecarts énormes de température",
+          "visual": "12D90001",
+          "audio": null
+        },
+        {
+          "id": 2,
+          "value": 1,
+          "label": "Températures glaciales",
+          "visual": "12D90002",
+          "audio": null
+        },
+        {
+          "id": 3,
+          "value": 2,
+          "label": "Températures moyennes",
+          "visual": "12D90003",
+          "audio": null
+        },
+        {
+          "id": 4,
+          "value": 3,
+          "label": "Températures très chaudes",
+          "visual": "12D90004",
+          "audio": null
+        }
+      ],
+      "hints": {
+        "0": "La température sur une planète dépend de la quantité des différents gaz présents dans l'atmosphère. S'il y a trop de gaz (O¿, CO₂ et O3), il y a un effet de serre. Les rayons du Soleil, très chauds, pénètrent l'atmosphère, mais ne peuvent plus ressortir ; la conséquence est l'élévation de température. Vénus est l'exemple le plus frappant de ce phénomène ; planète de la taille de la Terre possédant une atmosphère très dense, elle a un effet de serre très important. De plus, une planète très proche du Soleil reçoit une très grande quantité de chaleur. ",
+        "1": "La température dépasse 400 °C sur Vénus. Il s'agit de la diminuer pour rendre la vie possible.",
+        "2": "Les températures de Mars sont extrêmes car il n'y a pas d'atmosphère, il faudrait les ramener à des moyennes supportables pour l'établissement de la vie.",
+        "3": "L'effet de serre d'une atmosphère plus dense a créé une augmentation de la température défavorable à la vie. Il faudrait ramener cette température à des valeurs plus raisonnables."
+      }
+    },
+    {
+      "id": "10",
+      "label": "Mise en place du cycle de l'eau",
+      "type": 1,
+      "function": 1,
+      "plan": 101,
+      "box": [
+        146,
+        216,
+        186,
+        41
+      ],
+      "options": [
+        {
+          "id": 1,
+          "value": 0,
+          "label": "pas d'eau",
+          "visual": null,
+          "audio": null
+        },
+        {
+          "id": 2,
+          "value": 1,
+          "label": "eau rare",
+          "visual": "12DA0002",
+          "audio": null
+        },
+        {
+          "id": 3,
+          "value": 2,
+          "label": "eau en abondance",
+          "visual": "12DA0003",
+          "audio": null
+        },
+        {
+          "id": 4,
+          "value": 3,
+          "label": "eau à profusion",
+          "visual": "12DA0004",
+          "audio": null
+        }
+      ],
+      "hints": {
+        "0": "Le cycle de l'eau est fondamental pour l'apparition de la vie. Sans eau liquide, pas de vie ! ! En effet, la vie a commencé a se développer dans l'eau (plus précisément dans les marais). De plus, l'eau est un élément essentiel au maintien de la vie ; l'eau est un bien précieux au même titre que l'air que nous respirons.",
+        "1": "Il n'y a naturellement pas d'eau liquide sur Vénus. Ton objectif, dans cette simulation, est de créer artificiellement les conditions de son apparition.",
+        "2": "Il n'y a pas d'eau liquide sur Mars mais il semble qu'il y en ait sous forme de glace dans le sous-sol. Si l'on parvenait à l'extraire en quantité abondante, on créerait des conditions favorables pour l'émergence de la vie.",
+        "3": "L'eau, encore en abondance sur cette Terre modifiée, pourrait être augmentée pour améliorer les chances de survie."
+      }
+    },
+    {
+      "id": "15",
+      "label": "Action de l'homme sur le taux d'ozone",
+      "type": 4,
+      "function": 0,
+      "plan": 101,
+      "box": [
+        401,
+        403,
+        103,
+        62
+      ],
+      "options": [
+        {
+          "id": 1,
+          "value": 10,
+          "label": "",
+          "visual": "12DF0001",
+          "audio": null
+        },
+        {
+          "id": 2,
+          "value": 0,
+          "label": "",
+          "visual": "12DF0002",
+          "audio": null
+        },
+        {
+          "id": 3,
+          "value": -10,
+          "label": "",
+          "visual": "12DF0003",
+          "audio": null
+        }
+      ],
+      "hints": {
+        "0": "",
+        "1": "Sur Vénus le taux d'ozone est trop important pour que la vie soit préservée.",
+        "2": "Sur la planète Mars, la quantité d'ozone étant proche de zéro, aucune vie ne peut être préservée des rayons nocifs du Soleil.",
+        "3": "Sur cette Terre modifiée, il y a un trou dans la couche d'ozone. Pour que la vie soit protégée, il faudrait la rétablir. "
+      }
+    },
+    {
+      "id": "16",
+      "label": "Action de l'homme sur le taux d'O¿",
+      "type": 4,
+      "function": 0,
+      "plan": 101,
+      "box": [
+        468,
+        351,
+        91,
+        57
+      ],
+      "options": [
+        {
+          "id": 1,
+          "value": 50,
+          "label": "",
+          "visual": "12DG0001",
+          "audio": null
+        },
+        {
+          "id": 2,
+          "value": 0,
+          "label": "",
+          "visual": "12DG0002",
+          "audio": null
+        },
+        {
+          "id": 3,
+          "value": -30,
+          "label": "",
+          "visual": "12DG0003",
+          "audio": null
+        }
+      ],
+      "hints": {
+        "0": "",
+        "1": "Sur Vénus, il y a trop peu de dioxygène pour que la vie puisse se développer.",
+        "2": "Sur la planète Mars, la quantité de dioxygène est proche de zéro, or c'est un gaz indispensable à la vie.",
+        "3": "Sur cette Terre modifiée, la déforestation a créé la raréfaction du dioxygène. Pour que la vie soit préservée, il faudrait plus de dioxygène dans l'atmosphère."
+      }
+    },
+    {
+      "id": "17",
+      "label": "Action de l'homme sur le taux de CO₂",
+      "type": 4,
+      "function": 0,
+      "plan": 101,
+      "box": [
+        555,
+        286,
+        71,
+        39
+      ],
+      "options": [
+        {
+          "id": 1,
+          "value": 50,
+          "label": "",
+          "visual": "12DH0001",
+          "audio": null
+        },
+        {
+          "id": 2,
+          "value": 0,
+          "label": "",
+          "visual": "12DH0002",
+          "audio": null
+        },
+        {
+          "id": 3,
+          "value": -70,
+          "label": "",
+          "visual": "12DH0003",
+          "audio": null
+        }
+      ],
+      "hints": {
+        "0": "",
+        "1": "Vénus contient trop de dioxyde de carbone dans son atmosphère, pour que la vie s'y installe.",
+        "2": "Sur la planète Mars, la quantité de dioxyde de carbone est nulle, or ce gaz est indispensable à l'établissement d'une atmosphère protectrice.",
+        "3": "Sur cette Terre modifiée, une industrialisation excessive a créé une augmentation du dioxyde de carbone dans l'atmosphère. Pour que les conditions de vie soient meilleures, il est nécessaire de réduire la pollution atmosphérique."
+      }
+    },
+    {
+      "id": "18",
+      "label": "Action de l'homme sur le taux de H¿O",
+      "type": 4,
+      "function": 0,
+      "plan": 101,
+      "box": [
+        517,
+        321,
+        110,
+        42
+      ],
+      "options": [
+        {
+          "id": 1,
+          "value": 40,
+          "label": "",
+          "visual": "12DI0001",
+          "audio": null
+        },
+        {
+          "id": 2,
+          "value": 0,
+          "label": "",
+          "visual": "12DI0002",
+          "audio": null
+        },
+        {
+          "id": 3,
+          "value": -30,
+          "label": "",
+          "visual": "12DI0003",
+          "audio": null
+        }
+      ],
+      "hints": {
+        "0": "",
+        "1": "Il n'y a pas d'eau sur Vénus, or sans eau liquide, point de vie.",
+        "2": "Sur Mars, il n'y a pas d'eau liquide ; elle est cependant indispensable pour l'établissement de la vie.",
+        "3": "On peut augmenter les chances de survie de la Terre en créant de l'eau à profusion."
+      }
+    },
+    {
+      "id": "11",
+      "label": "Action de l'homme sur le taux de 0®",
+      "type": 1,
+      "function": 1,
+      "plan": 104,
+      "box": [
+        283,
+        260,
+        62,
+        46
+      ],
+      "options": [
+        {
+          "id": 1,
+          "value": 1,
+          "label": "",
+          "visual": "12DB0001",
+          "audio": "/game/station/12WB0001.wav"
+        },
+        {
+          "id": 2,
+          "value": 2,
+          "label": "",
+          "visual": "12DB0002",
+          "audio": null
+        },
+        {
+          "id": 3,
+          "value": 3,
+          "label": "",
+          "visual": "12DB0003",
+          "audio": "/game/station/12WB0003.wav"
+        },
+        {
+          "id": 4,
+          "value": 4,
+          "label": "",
+          "visual": "12DB0004",
+          "audio": null
+        },
+        {
+          "id": 5,
+          "value": 5,
+          "label": "",
+          "visual": "12DB0003",
+          "audio": null
+        }
+      ],
+      "hints": {
+        "0": "",
+        "1": "Action de l'homme sur la quantité d'ozone : Ici, on imagine qu'on sache augmenter la quantité d'ozone présente dans l'atmosphère. A l'inverse, la diminution d'ozone est symbolisée par la production de gaz CFC présents dans les aérosols (utilisation maintenant réglementée) qui détruisent l'ozone.",
+        "2": "Action de l'homme sur la quantité d'ozone : Ici, on imagine qu'on sache augmenter la quantité d'ozone présente dans l'atmosphère. A l'inverse, la diminution d'ozone est symbolisée par la production de gaz CFC présents dans les aérosols (utilisation maintenant réglementée) qui détruisent l'ozone.",
+        "3": "Action de l'homme sur la quantité d'ozone : Ici, on imagine qu'on sache augmenter la quantité d'ozone présente dans l'atmosphère. A l'inverse, la diminution d'ozone est symbolisée par la production de gaz CFC présents dans les aérosols (utilisation maintenant réglementée) qui détruisent l'ozone."
+      }
+    },
+    {
+      "id": "12",
+      "label": "Action de l'homme sur le taux d'0¿",
+      "type": 1,
+      "function": 1,
+      "plan": 103,
+      "box": [
+        346,
+        226,
+        62,
+        39
+      ],
+      "options": [
+        {
+          "id": 1,
+          "value": 1,
+          "label": "",
+          "visual": "12DC0001",
+          "audio": "/game/station/12WC0001.wav"
+        },
+        {
+          "id": 2,
+          "value": 2,
+          "label": "",
+          "visual": "12DC0002",
+          "audio": null
+        },
+        {
+          "id": 3,
+          "value": 3,
+          "label": "",
+          "visual": "12DC0003",
+          "audio": "/game/station/12WC0003.wav"
+        },
+        {
+          "id": 4,
+          "value": 4,
+          "label": "",
+          "visual": "12DC0004",
+          "audio": "/game/station/12WC0004.wav"
+        },
+        {
+          "id": 5,
+          "value": 5,
+          "label": "",
+          "visual": "12DC0005",
+          "audio": "/game/station/12WC0005.wav"
+        },
+        {
+          "id": 6,
+          "value": 6,
+          "label": "",
+          "visual": "12DC0002",
+          "audio": null
+        },
+        {
+          "id": 7,
+          "value": 7,
+          "label": "",
+          "visual": "12DC0007",
+          "audio": "/game/station/12WC0007.wav"
+        }
+      ],
+      "hints": {
+        "0": "",
+        "1": "Action de l'homme sur la quantité de dioxygène : Ici, il s'agit d'actions symboliques. On imagine que des réactions chimiques permettent de créer du dioxygène à grande échelle. Et à l'inverse, on imagine aussi que l'on peut absorber massivement le dioxygène de l'air pour le transformer, et ainsi diminuer sa quantité.",
+        "2": "Action de l'homme sur la quantité de dioxygène : Ici, on imagine que des réactions chimiques sur les glaces extraites du sous sol permettent de créer du dioxygène. On imagine aussi qu'on puisse absorber le dioxygène de l'air pour en diminuer la quantité.",
+        "3": "Action de l'homme sur la quantité de dioxygène : Ici, l'augmentation de la quantité de dioxygène dans l'atmosphère est symbolisée par la reforestation. A l'inverse, la diminution du taux de dioxygène de l'air est symbolisée par la destruction des forêts."
+      }
+    },
+    {
+      "id": "13",
+      "label": "Action de l'homme sur le taux de C0¿",
+      "type": 1,
+      "function": 1,
+      "plan": 101,
+      "box": [
+        381,
+        141,
+        62,
+        59
+      ],
+      "options": [
+        {
+          "id": 1,
+          "value": 1,
+          "label": "intitulé état",
+          "visual": "12DD0001",
+          "audio": "/game/station/12WD0001.wav"
+        },
+        {
+          "id": 2,
+          "value": 2,
+          "label": "intitulé état",
+          "visual": "12DD0002",
+          "audio": null
+        },
+        {
+          "id": 3,
+          "value": 3,
+          "label": "intitulé état",
+          "visual": "12DD0003",
+          "audio": "/game/station/12WD0003.wav"
+        },
+        {
+          "id": 4,
+          "value": 4,
+          "label": "intitulé état",
+          "visual": "12DD0004",
+          "audio": "/game/station/12WD0004.wav"
+        },
+        {
+          "id": 5,
+          "value": 5,
+          "label": "intitulé état",
+          "visual": "12DD0005",
+          "audio": null
+        },
+        {
+          "id": 6,
+          "value": 6,
+          "label": "intitulé état",
+          "visual": "12DD0006",
+          "audio": "/game/station/12WD0006.wav"
+        },
+        {
+          "id": 7,
+          "value": 7,
+          "label": "intitulé état",
+          "visual": "12DD0007",
+          "audio": "/game/station/12WD0007.wav"
+        },
+        {
+          "id": 8,
+          "value": 8,
+          "label": "intitulé état",
+          "visual": "12DD0008",
+          "audio": "/game/station/12WD0008.wav"
+        },
+        {
+          "id": 9,
+          "value": 9,
+          "label": "intitulé état",
+          "visual": "12DD0009",
+          "audio": "/game/station/12WD0009.wav"
+        }
+      ],
+      "hints": {
+        "0": "",
+        "1": "Action de l'homme sur le taux de dioxyde carbone : L'activité volcanique dégage généralement une grande quantité de gaz carbonique dans l'atmosphère. On a symbolisé la modification de la quantité de dioxyde de carbone par une activation ou une diminution à grande échelle de l'activité des volcans.",
+        "2": "Action de l'homme sur la quantité de dioxyde de carbone : Ici, on imagine qu'on puisse réchauffer de la neige carbonique pour augmenter la quantité de dioxyde de carbone dans l'atmosphère. On imagine aussi qu'on puisse absorber le dioxyde de carbone de l'air pour en diminuer la quantité.",
+        "3": "Action de l'homme sur la quantité de dioxyde carbone : on symbolise par une industrialisation modérée, excessive ou abusive la modification de la quantité de dioxyde de carbone présente dans l'atmosphère."
+      }
+    },
+    {
+      "id": "14",
+      "label": "Action de l'homme sur le taux de H¿0",
+      "type": 1,
+      "function": 1,
+      "plan": 102,
+      "box": [
+        384,
+        200,
+        64,
+        32
+      ],
+      "options": [
+        {
+          "id": 1,
+          "value": 1,
+          "label": "",
+          "visual": "12DE0001",
+          "audio": "/game/station/12WE0001.wav"
+        },
+        {
+          "id": 2,
+          "value": 2,
+          "label": "",
+          "visual": "12DE0002",
+          "audio": null
+        },
+        {
+          "id": 3,
+          "value": 3,
+          "label": "",
+          "visual": "12DE0003",
+          "audio": "/game/station/12WE0003.wav"
+        },
+        {
+          "id": 4,
+          "value": 4,
+          "label": "",
+          "visual": "12DE0004",
+          "audio": "/game/station/12WE0004.wav"
+        },
+        {
+          "id": 5,
+          "value": 5,
+          "label": "",
+          "visual": "12DE0005",
+          "audio": "/game/station/12WE0005.wav"
+        },
+        {
+          "id": 6,
+          "value": 6,
+          "label": "",
+          "visual": "12DE0006",
+          "audio": "/game/station/12WE0006.wav"
+        },
+        {
+          "id": 7,
+          "value": 7,
+          "label": "",
+          "visual": "12DE0007",
+          "audio": "/game/station/12WE0007.wav"
+        }
+      ],
+      "hints": {
+        "0": "",
+        "1": "Action de l'homme sur l'eau : Ici, il s'agit d'actions symboliques. On peut imaginer que des réactions chimiques permettent de créer ou absorber l'eau à grande échelle.",
+        "2": "Action de l'homme sur l'eau : Ici, on imagine qu'on puisse réchauffer les glaces du sous-sol de Mars pour obtenir de l'eau liquide. A l'inverse, on imagine qu'on puisse faire disparaître toute eau de la planète.",
+        "3": "Action de l'homme sur l'eau : Ici, il s'agit d'actions symboliques. On peut imaginer que des réactions chimiques permettent de créer ou absorber l'eau à grande échelle."
+      }
+    }
+  ],
+  "cases": [
+    {
+      "id": "0",
+      "label": "Mode libre",
+      "solutions": [
+        {
+          "1": 1,
+          "2": 1,
+          "3": 1,
+          "4": 1,
+          "5": 1,
+          "6": 1,
+          "7": 1,
+          "8": 1,
+          "9": 1,
+          "10": 1,
+          "11": 1,
+          "12": 1,
+          "13": 1,
+          "14": 1,
+          "15": 1,
+          "16": 1,
+          "17": 1,
+          "18": 1
+        }
+      ],
+      "initial": {
+        "1": 2,
+        "2": 2,
+        "3": 2,
+        "4": 2,
+        "5": 2,
+        "6": 2,
+        "7": 3,
+        "8": 3,
+        "9": 3,
+        "10": 3,
+        "15": 1,
+        "16": 1,
+        "17": 1,
+        "18": 1,
+        "11": 1,
+        "12": 1,
+        "13": 1,
+        "14": 1
+      }
+    },
+    {
+      "id": "1",
+      "label": "De la vie sur Vénus",
+      "solutions": [
+        {
+          "1": 1,
+          "2": 3,
+          "3": 1,
+          "4": 3,
+          "5": 2,
+          "6": 3,
+          "15": 3,
+          "16": 1,
+          "17": 3,
+          "18": 1
+        }
+      ],
+      "initial": {
+        "1": 1,
+        "2": 3,
+        "3": 1,
+        "4": 3,
+        "5": 2,
+        "6": 3,
+        "7": 4,
+        "8": 1,
+        "9": 4,
+        "10": 1,
+        "15": 2,
+        "16": 2,
+        "17": 2,
+        "18": 2,
+        "11": 4,
+        "12": 2,
+        "13": 2,
+        "14": 2
+      }
+    },
+    {
+      "id": "2",
+      "label": "De la vie sur Mars",
+      "solutions": [
+        {
+          "1": 3,
+          "2": 3,
+          "3": 3,
+          "4": 3,
+          "5": 3,
+          "6": 1,
+          "15": 1,
+          "16": 1,
+          "17": 1,
+          "18": 1
+        }
+      ],
+      "initial": {
+        "1": 3,
+        "2": 3,
+        "3": 3,
+        "4": 3,
+        "5": 3,
+        "6": 1,
+        "7": 1,
+        "8": 1,
+        "9": 1,
+        "10": 1,
+        "15": 2,
+        "16": 2,
+        "17": 2,
+        "18": 2,
+        "11": 4,
+        "12": 2,
+        "13": 5,
+        "14": 2
+      }
+    },
+    {
+      "id": "3",
+      "label": "Sauver la Terre",
+      "solutions": [
+        {
+          "1": 3,
+          "2": 2,
+          "3": 1,
+          "4": 2,
+          "5": 2,
+          "6": 2,
+          "15": 1,
+          "16": 1,
+          "17": 3,
+          "18": 1
+        }
+      ],
+      "initial": {
+        "1": 3,
+        "2": 2,
+        "3": 1,
+        "4": 2,
+        "5": 2,
+        "6": 2,
+        "7": 4,
+        "8": 2,
+        "9": 3,
+        "10": 3,
+        "15": 2,
+        "16": 2,
+        "17": 2,
+        "18": 2,
+        "11": 2,
+        "12": 6,
+        "13": 8,
+        "14": 2
+      }
+    }
+  ],
+  "lookup": [
+    {
+      "object": "8",
+      "value": 3,
+      "conditions": {
+        "6": 60,
+        "5": 10,
+        "15": 10,
+        "16": 50,
+        "18": 40,
+        "17": -70
+      }
+    },
+    {
+      "object": "8",
+      "value": 2,
+      "conditions": {
+        "6": 60,
+        "5": 10,
+        "15": 10,
+        "16": 0,
+        "18": 40,
+        "17": -70
+      }
+    },
+    {
+      "object": "8",
+      "value": 2,
+      "conditions": {
+        "6": 60,
+        "5": 10,
+        "15": 0,
+        "16": 50,
+        "18": 0,
+        "17": -70
+      }
+    },
+    {
+      "object": "8",
+      "value": 2,
+      "conditions": {
+        "6": 60,
+        "5": 10,
+        "15": 0,
+        "16": 0,
+        "18": 40,
+        "17": -70
+      }
+    },
+    {
+      "object": "8",
+      "value": 1,
+      "conditions": {
+        "6": 60,
+        "5": 10,
+        "15": 10,
+        "16": 0,
+        "18": 0,
+        "17": -50
+      }
+    },
+    {
+      "object": "8",
+      "value": 1,
+      "conditions": {
+        "6": 60,
+        "5": 10,
+        "15": 0,
+        "16": 50,
+        "18": 0,
+        "17": -50
+      }
+    },
+    {
+      "object": "8",
+      "value": 1,
+      "conditions": {
+        "6": 60,
+        "5": 10,
+        "15": 0,
+        "16": 0,
+        "18": 40,
+        "17": -50
+      }
+    },
+    {
+      "object": "8",
+      "value": 1,
+      "conditions": {
+        "6": 60,
+        "5": 10,
+        "15": 0,
+        "16": 0,
+        "18": 0,
+        "17": -50
+      }
+    },
+    {
+      "object": "8",
+      "value": 1,
+      "conditions": {
+        "6": 90,
+        "5": 10,
+        "15": 10,
+        "16": 50,
+        "18": 40,
+        "17": -70
+      }
+    },
+    {
+      "object": "8",
+      "value": 2,
+      "conditions": {
+        "6": 90,
+        "5": 10,
+        "15": 0,
+        "16": 50,
+        "18": 40,
+        "17": -70
+      }
+    },
+    {
+      "object": "8",
+      "value": 3,
+      "conditions": {
+        "6": 90,
+        "5": 10,
+        "15": -10,
+        "16": 50,
+        "18": 40,
+        "17": -70
+      }
+    },
+    {
+      "object": "8",
+      "value": 1,
+      "conditions": {
+        "6": 60,
+        "5": 10,
+        "15": 10,
+        "16": 0,
+        "18": 40,
+        "17": 0
+      }
+    },
+    {
+      "object": "8",
+      "value": 2,
+      "conditions": {
+        "6": 60,
+        "5": 10,
+        "15": 10,
+        "16": 50,
+        "18": 40,
+        "17": 0
+      }
+    },
+    {
+      "object": "8",
+      "value": 2,
+      "conditions": {
+        "6": 60,
+        "5": 10,
+        "15": 0,
+        "16": 50,
+        "18": 40,
+        "17": -70
+      }
+    },
+    {
+      "object": "8",
+      "value": 1,
+      "conditions": {
+        "6": 60,
+        "5": 10,
+        "15": 0,
+        "16": 0,
+        "18": 0,
+        "17": -70
+      }
+    },
+    {
+      "object": "8",
+      "value": 3,
+      "conditions": {
+        "6": 45,
+        "5": 0,
+        "15": 10,
+        "16": 50,
+        "18": 40,
+        "17": 50
+      }
+    },
+    {
+      "object": "8",
+      "value": 1,
+      "conditions": {
+        "6": 45,
+        "5": 0,
+        "15": -10,
+        "16": 50,
+        "18": 40,
+        "17": 50
+      }
+    },
+    {
+      "object": "8",
+      "value": 2,
+      "conditions": {
+        "6": 45,
+        "5": 0,
+        "15": 0,
+        "16": 50,
+        "18": 40,
+        "17": 50
+      }
+    },
+    {
+      "object": "8",
+      "value": 1,
+      "conditions": {
+        "6": 90,
+        "5": 10,
+        "15": 10,
+        "16": 0,
+        "18": 40,
+        "17": -70
+      }
+    },
+    {
+      "object": "8",
+      "value": 1,
+      "conditions": {
+        "6": 90,
+        "5": 10,
+        "15": 0,
+        "16": 0,
+        "18": 40,
+        "17": -70
+      }
+    },
+    {
+      "object": "8",
+      "value": 1,
+      "conditions": {
+        "6": 90,
+        "5": 10,
+        "15": -10,
+        "16": 0,
+        "18": 40,
+        "17": -70
+      }
+    }
+  ]
+}

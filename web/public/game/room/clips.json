@@ -1,0 +1,58 @@
+{
+  "ADIPZD12": {
+    "x": 257,
+    "y": 188,
+    "width": 102,
+    "height": 218,
+    "duration": 4067,
+    "audio": false
+  },
+  "XOURSA": {
+    "x": 42,
+    "y": 274,
+    "width": 147,
+    "height": 124,
+    "duration": 3154,
+    "audio": true
+  },
+  "XTELESKA": {
+    "x": 465,
+    "y": 186,
+    "width": 154,
+    "height": 233,
+    "duration": 6142,
+    "audio": true
+  },
+  "XJEUXH": {
+    "x": 375,
+    "y": 118,
+    "width": 265,
+    "height": 313,
+    "duration": 8300,
+    "audio": true
+  },
+  "XMALLA": {
+    "x": 0,
+    "y": 278,
+    "width": 351,
+    "height": 202,
+    "duration": 12948,
+    "audio": true
+  },
+  "XFAUTA": {
+    "x": 126,
+    "y": 152,
+    "width": 188,
+    "height": 163,
+    "duration": 8217,
+    "audio": true
+  },
+  "XPLAND": {
+    "x": 0,
+    "y": 33,
+    "width": 276,
+    "height": 241,
+    "duration": 8217,
+    "audio": true
+  }
+}

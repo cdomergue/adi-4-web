@@ -1,0 +1,684 @@
+{
+  "id": "2",
+  "title": "Culture des plantes alimentaires",
+  "background": "02I1",
+  "objects": [
+    {
+      "id": "1",
+      "label": "L'arrosage",
+      "type": 4,
+      "function": 0,
+      "plan": 102,
+      "box": [
+        30,
+        54,
+        65,
+        86
+      ],
+      "options": [
+        {
+          "id": 1,
+          "value": 1,
+          "label": "Pas arrosage",
+          "visual": "02D10001",
+          "audio": null
+        },
+        {
+          "id": 2,
+          "value": 2,
+          "label": "Arrosage faible",
+          "visual": "02D10002",
+          "audio": "/game/station/02W10002.wav"
+        },
+        {
+          "id": 3,
+          "value": 3,
+          "label": "Arrosage moyen",
+          "visual": "02D10003",
+          "audio": "/game/station/02W10003.wav"
+        },
+        {
+          "id": 4,
+          "value": 4,
+          "label": "Arrosage important",
+          "visual": "02D10004",
+          "audio": "/game/station/02W10004.wav"
+        }
+      ],
+      "hints": {
+        "0": "L'arrosage : les plantes ont des besoins en eau plus ou moins importants selon les espèces. L'arrosage doit donc être adapté pour chacune d'elles. En cas de déficit comme en cas de surabondance, leur croissance sera moins importante. L'eau est absorbée par les racines.",
+        "1": "L'arrosage : un arrosage trop important peut nuire à la croissance de la tomate. Une quantité d'eau moyenne suffit.",
+        "2": "L'arrosage : les champignons aiment une humidité moyenne.",
+        "3": "L'arrosage : la fraise de Cassiopée vit dans des zones très humides."
+      }
+    },
+    {
+      "id": "2",
+      "label": "La température",
+      "type": 4,
+      "function": 0,
+      "plan": 102,
+      "box": [
+        52,
+        349,
+        53,
+        104
+      ],
+      "options": [
+        {
+          "id": 1,
+          "value": 1,
+          "label": "5 ° Celsius",
+          "visual": "02S20001",
+          "audio": null
+        },
+        {
+          "id": 2,
+          "value": 2,
+          "label": "10 ° Celsius",
+          "visual": "02S20002",
+          "audio": "/game/station/02W20002.wav"
+        },
+        {
+          "id": 3,
+          "value": 3,
+          "label": "15 ° Celsius",
+          "visual": "02S20003",
+          "audio": "/game/station/02W20003.wav"
+        },
+        {
+          "id": 4,
+          "value": 4,
+          "label": "20 ° Celsius",
+          "visual": "02S20004",
+          "audio": "/game/station/02W20004.wav"
+        },
+        {
+          "id": 5,
+          "value": 5,
+          "label": "25 ° Celsius",
+          "visual": "02S20005",
+          "audio": "/game/station/02W20005.wav"
+        }
+      ],
+      "hints": {
+        "0": "La température : les plantes aiment plus ou moins la chaleur mais dans tous les cas, celle-ci ne doit pas être inférieure à une certaine valeur. Aucune plante ne peut pousser si la température est trop basse.",
+        "1": "La température : la tomate peut pousser dans les pays tempérés, un vingtaine de degrés lui suffisent.",
+        "2": "La température : les champignons aiment beaucoup la chaleur.",
+        "3": "La température : la fraise de Cassiopée aime beaucoup la chaleur."
+      }
+    },
+    {
+      "id": "3",
+      "label": "La lumière",
+      "type": 4,
+      "function": 0,
+      "plan": 102,
+      "box": [
+        562,
+        23,
+        50,
+        95
+      ],
+      "options": [
+        {
+          "id": 1,
+          "value": 1,
+          "label": "Pas de lumière",
+          "visual": "02D30001",
+          "audio": "/game/station/02W3000X.wav"
+        },
+        {
+          "id": 2,
+          "value": 2,
+          "label": "5000 lux",
+          "visual": "02D30002",
+          "audio": "/game/station/02W3000X.wav"
+        },
+        {
+          "id": 3,
+          "value": 3,
+          "label": "10000 lux",
+          "visual": "02D30003",
+          "audio": "/game/station/02W3000X.wav"
+        },
+        {
+          "id": 4,
+          "value": 4,
+          "label": "100000 lux",
+          "visual": "02D30004",
+          "audio": "/game/station/02W3000X.wav"
+        }
+      ],
+      "hints": {
+        "0": "La lumière : elle est indispensable à la croissance des plantes chlorophylliennes alors que les champignons y sont indifférents. Les espèces de pleine lumière ont des besoins plus importants que les plantes d'ombre. L'unité d'intensité de la lumière est le lux.",
+        "1": "La lumière : la tomate est une plante qui aime un maximum de lumière.",
+        "2": "La lumière : la lumière n'est pas nécessaire pour cultiver des champignons, mais elle ne gêne pas leur croissance. ",
+        "3": "La lumière : la fraise de Cassiopée est une plante de mi-ombre. Très peu de lumière lui suffit."
+      }
+    },
+    {
+      "id": "4",
+      "label": "Le dioxyde de carbone",
+      "type": 4,
+      "function": 0,
+      "plan": 102,
+      "box": [
+        465,
+        157,
+        63,
+        65
+      ],
+      "options": [
+        {
+          "id": 1,
+          "value": 1,
+          "label": "Pas de CO₂",
+          "visual": "02D40001",
+          "audio": null
+        },
+        {
+          "id": 2,
+          "value": 2,
+          "label": "Teneur en CO₂ faible",
+          "visual": "02D40002",
+          "audio": "/game/station/02W40002.wav"
+        },
+        {
+          "id": 3,
+          "value": 3,
+          "label": "Teneur en CO₂ moyenne",
+          "visual": "02D40003",
+          "audio": "/game/station/02W40003.wav"
+        },
+        {
+          "id": 4,
+          "value": 4,
+          "label": "Teneur en CO₂ forte",
+          "visual": "02D40004",
+          "audio": "/game/station/02W40004.wav"
+        }
+      ],
+      "hints": {
+        "0": "Le dioxyde de carbone : ce gaz , de formule CO₂,  est indispensable à la croissance des plantes chlorophylliennes alors que les champignons y sont indifférents. Il est absorbé au niveau des feuilles.",
+        "1": "Le dioxyde de carbone : la tomate a besoin de dioxyde de carbone. Ni trop, ni trop peu.",
+        "2": "Le dioxyde de carbone : le dioxyde de carbone n'est pas nécessaire à la croissance des champignons.",
+        "3": "Le dioxyde de carbone : la fraise de Cassiopée préfère une teneur moyenne en dioxyde de carbone."
+      }
+    },
+    {
+      "id": "5",
+      "label": "Les sels minéraux",
+      "type": 4,
+      "function": 0,
+      "plan": 102,
+      "box": [
+        455,
+        357,
+        89,
+        113
+      ],
+      "options": [
+        {
+          "id": 1,
+          "value": 1,
+          "label": "Très peu de sels minéraux",
+          "visual": "02D50001",
+          "audio": "/game/station/02W50001.wav"
+        },
+        {
+          "id": 2,
+          "value": 2,
+          "label": "Concentration en sels minéraux moyenne",
+          "visual": "02D50002",
+          "audio": "/game/station/02W50002.wav"
+        },
+        {
+          "id": 3,
+          "value": 3,
+          "label": "Concentration en sels minéraux forte",
+          "visual": "02D50003",
+          "audio": "/game/station/02W50003.wav"
+        }
+      ],
+      "hints": {
+        "0": "Les sels minéraux : les minéraux tels que le calcium, le potassium ou le magnésium, sont indispensables à toutes les espèces de végétaux, mais leurs besoins sont généralement modestes. Une concentration trop forte peut même se révéler toxique. Dans la station, ils sont fournis sous forme de solutions nutritives ou d'engrais.",
+        "1": "Les sels minéraux : une quantité raisonnable de sels minéraux est nécessaire à la tomate.",
+        "2": "Les sels minéraux : une quantité raisonnable de sels minéraux est nécessaire aux champignons.",
+        "3": "Les sels minéraux : une quantité raisonnable de sels minéraux est nécessaire à la fraise de Cassiopée."
+      }
+    },
+    {
+      "id": "6",
+      "label": "La lumière",
+      "type": 1,
+      "function": 1,
+      "plan": 101,
+      "box": [
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "options": [
+        {
+          "id": 1,
+          "value": 1,
+          "label": "",
+          "visual": "02D60001",
+          "audio": null
+        },
+        {
+          "id": 2,
+          "value": 2,
+          "label": "",
+          "visual": "02D60002",
+          "audio": null
+        },
+        {
+          "id": 3,
+          "value": 3,
+          "label": "",
+          "visual": "02D60003",
+          "audio": null
+        },
+        {
+          "id": 4,
+          "value": 4,
+          "label": "",
+          "visual": "02D60004",
+          "audio": null
+        }
+      ],
+      "hints": {
+        "0": "",
+        "1": "",
+        "2": "",
+        "3": ""
+      }
+    },
+    {
+      "id": "7",
+      "label": "La croissance des tomates",
+      "type": 1,
+      "function": 1,
+      "plan": 102,
+      "box": [
+        221,
+        144,
+        201,
+        136
+      ],
+      "options": [
+        {
+          "id": 1,
+          "value": 0,
+          "label": "Développement nul des tomates",
+          "visual": "02S70001",
+          "audio": null
+        },
+        {
+          "id": 2,
+          "value": 1,
+          "label": "Développement minimum des tomates",
+          "visual": "02S70002",
+          "audio": "/game/station/02W70002.wav"
+        },
+        {
+          "id": 3,
+          "value": 2,
+          "label": "Faible développement des tomates",
+          "visual": "02S70003",
+          "audio": "/game/station/02W70003.wav"
+        },
+        {
+          "id": 4,
+          "value": 3,
+          "label": "Développement moyen des tomates",
+          "visual": "02S70004",
+          "audio": "/game/station/02W70004.wav"
+        },
+        {
+          "id": 5,
+          "value": 4,
+          "label": "Bon développement des tomates",
+          "visual": "02S70005",
+          "audio": "/game/station/02W70005.wav"
+        },
+        {
+          "id": 6,
+          "value": 5,
+          "label": "Très bon développement des tomates",
+          "visual": "02S70006",
+          "audio": "/game/station/02W70006.wav"
+        },
+        {
+          "id": 7,
+          "value": 6,
+          "label": "Développement maximum des tomates",
+          "visual": "02S70007",
+          "audio": "/game/station/02W70007.wav"
+        }
+      ],
+      "hints": {
+        "0": "La croissance des tomates : la croissance d'une plante se juge à la hauteur de sa tige, à son nombre de feuilles et à la présence plus ou moins abondante de fruits.",
+        "1": "La croissance des tomates : la croissance des plants de tomates se juge à la hauteur de leurs tiges, au nombre de leurs feuilles et à la présence plus ou moins abondante de leurs fruits rouges et charnus.",
+        "2": "La croissance des tomates : la croissance des plants de tomates se juge à la hauteur de leurs tiges, au nombre de leurs feuilles et à la présence plus ou moins abondante de leurs fruits rouges et charnus.",
+        "3": "La croissance des tomates : la croissance des plants de tomates se juge à la hauteur de leurs tiges, au nombre de leurs feuilles et à la présence plus ou moins abondante de leurs fruits rouges et charnus."
+      }
+    },
+    {
+      "id": "8",
+      "label": "La croissance de la fraise",
+      "type": 1,
+      "function": 1,
+      "plan": 102,
+      "box": [
+        8,
+        278,
+        195,
+        62
+      ],
+      "options": [
+        {
+          "id": 1,
+          "value": 0,
+          "label": "Développement nul des fraises",
+          "visual": "02S81001",
+          "audio": null
+        },
+        {
+          "id": 2,
+          "value": 1,
+          "label": "Développement très faible des fraises",
+          "visual": "02S81002",
+          "audio": "/game/station/02W80002.wav"
+        },
+        {
+          "id": 3,
+          "value": 2,
+          "label": "Faible développement des fraises",
+          "visual": "02S81003",
+          "audio": "/game/station/02W80003.wav"
+        },
+        {
+          "id": 4,
+          "value": 3,
+          "label": "Développement moyen des fraises",
+          "visual": "02S81004",
+          "audio": "/game/station/02W80004.wav"
+        },
+        {
+          "id": 5,
+          "value": 4,
+          "label": "Bon développement des fraises",
+          "visual": "02S81005",
+          "audio": "/game/station/02W80005.wav"
+        },
+        {
+          "id": 6,
+          "value": 5,
+          "label": "Très bon développement des fraises",
+          "visual": "02S81006",
+          "audio": "/game/station/02W80006.wav"
+        },
+        {
+          "id": 7,
+          "value": 6,
+          "label": "Excellent développement des fraises",
+          "visual": "02S81007",
+          "audio": "/game/station/02W80007.wav"
+        },
+        {
+          "id": 8,
+          "value": 7,
+          "label": "Développement maximum des fraises",
+          "visual": "02S81008",
+          "audio": "/game/station/02W80008.wav"
+        }
+      ],
+      "hints": {
+        "0": "",
+        "1": "La croissance des fraises de Cassiopée : comme le fraisier terrestre, c'est une plante basse qui se propage par des tiges grêles et rampantes qu'on appelle stolons.  Sa croissance se juge au nombre de ses feuilles et à la présence plus ou moins abondante de ses fruits charnus qui portent de petites graines qu'on appelle akène. Par contre, à la différence de son homologue terrien, le fraisier de Cassiopée est une plante de mi-ombre et de chaleur humide.",
+        "2": "La croissance des fraises de Cassiopée : comme le fraisier terrestre, c'est une plante basse qui se propage par des tiges grêles et rampantes qu'on appelle stolons.  Sa croissance se juge au nombre de ses feuilles et à la présence plus ou moins abondante de ses fruits charnus qui portent de petites graines qu'on appelle akène. Par contre, à la différence de son homologue terrien, le fraisier de Cassiopée est une plante de mi-ombre et de chaleur humide.",
+        "3": "La croissance des fraises de Cassiopée : comme le fraisier terrestre, c'est une plante basse qui se propage par des tiges grêles et rampantes qu'on appelle stolons.  Sa croissance se juge au nombre de ses feuilles et à la présence plus ou moins abondante de ses fruits charnus qui portent de petites graines qu'on appelle akène. Par contre, à la différence de son homologue terrien, le fraisier de Cassiopée est une plante de mi-ombre et de chaleur humide."
+      }
+    },
+    {
+      "id": "9",
+      "label": "La croissance des champignons",
+      "type": 1,
+      "function": 1,
+      "plan": 104,
+      "box": [
+        487,
+        282,
+        153,
+        72
+      ],
+      "options": [
+        {
+          "id": 1,
+          "value": 0,
+          "label": "Développement nul des champignons",
+          "visual": "02S91001",
+          "audio": null
+        },
+        {
+          "id": 2,
+          "value": 1,
+          "label": "Développement minimum des champignons",
+          "visual": "02S91002",
+          "audio": "/game/station/02W90002.wav"
+        },
+        {
+          "id": 3,
+          "value": 2,
+          "label": "Faible développement des champignons",
+          "visual": "02S91003",
+          "audio": "/game/station/02W90003.wav"
+        },
+        {
+          "id": 4,
+          "value": 3,
+          "label": "Bon développement des champignons",
+          "visual": "02S91004",
+          "audio": "/game/station/02W90004.wav"
+        },
+        {
+          "id": 5,
+          "value": 4,
+          "label": "Développement maximum des champignons",
+          "visual": "02S91005",
+          "audio": "/game/station/02W90005.wav"
+        }
+      ],
+      "hints": {
+        "0": "",
+        "1": "La croissance des champignons géants : le champignon est une plante sans chlorophylle, sans feuilles et sans fleurs.  Sa chair qui peut être comestible ou vénéneuse, se compose généralement d'un pied et d'un chapeau.",
+        "2": "La croissance des champignons géants : le champignon est une plante sans chlorophylle, sans feuilles et sans fleurs.  Sa chair qui peut être comestible ou vénéneuse, se compose généralement d'un pied et d'un chapeau.",
+        "3": "La croissance des champignons géants : le champignon est une plante sans chlorophylle, sans feuilles et sans fleurs.  Sa chair qui peut être comestible ou vénéneuse, se compose généralement d'un pied et d'un chapeau."
+      }
+    },
+    {
+      "id": "10",
+      "label": "Logo",
+      "type": 1,
+      "function": 0,
+      "plan": 103,
+      "box": [
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "options": [
+        {
+          "id": 1,
+          "value": 1,
+          "label": "",
+          "visual": "02DA0001",
+          "audio": null
+        },
+        {
+          "id": 2,
+          "value": 2,
+          "label": "",
+          "visual": "02DA0002",
+          "audio": null
+        },
+        {
+          "id": 3,
+          "value": 3,
+          "label": "",
+          "visual": "02DA0003",
+          "audio": null
+        }
+      ],
+      "hints": {
+        "0": "",
+        "1": "",
+        "2": "",
+        "3": ""
+      }
+    }
+  ],
+  "cases": [
+    {
+      "id": "0",
+      "label": "Mode libre",
+      "solutions": [
+        {
+          "1": 1,
+          "2": 1,
+          "3": 1,
+          "4": 1,
+          "5": 1
+        }
+      ],
+      "initial": {
+        "1": 1,
+        "2": 1,
+        "3": 1,
+        "4": 1,
+        "5": 1,
+        "6": 1,
+        "7": 1,
+        "8": 1,
+        "9": 1,
+        "10": 1
+      }
+    },
+    {
+      "id": "1",
+      "label": "De belles tomates",
+      "solutions": [
+        {
+          "1": 3,
+          "2": 4,
+          "3": 4,
+          "4": 3,
+          "5": 2
+        },
+        {
+          "1": 3,
+          "2": 4,
+          "3": 3,
+          "4": 3,
+          "5": 2
+        },
+        {
+          "1": 3,
+          "2": 4,
+          "3": 4,
+          "4": 4,
+          "5": 2
+        },
+        {
+          "1": 3,
+          "2": 4,
+          "3": 3,
+          "4": 4,
+          "5": 2
+        }
+      ],
+      "initial": {
+        "1": 1,
+        "2": 1,
+        "3": 1,
+        "4": 1,
+        "5": 1,
+        "6": 1,
+        "7": 1,
+        "8": 1,
+        "9": 1,
+        "10": 1
+      }
+    },
+    {
+      "id": "2",
+      "label": "Des champignons délicieux",
+      "solutions": [
+        {
+          "1": 3,
+          "2": 5,
+          "3": 1,
+          "4": 1,
+          "5": 2
+        },
+        {
+          "1": 4,
+          "2": 5,
+          "3": 1,
+          "4": 1,
+          "5": 2
+        }
+      ],
+      "initial": {
+        "1": 1,
+        "2": 1,
+        "3": 1,
+        "4": 1,
+        "5": 1,
+        "6": 1,
+        "7": 1,
+        "8": 1,
+        "9": 1,
+        "10": 2
+      }
+    },
+    {
+      "id": "3",
+      "label": "La fraise de Cassiopée",
+      "solutions": [
+        {
+          "1": 4,
+          "2": 5,
+          "3": 2,
+          "4": 3,
+          "5": 2
+        },
+        {
+          "1": 4,
+          "2": 4,
+          "3": 2,
+          "4": 4,
+          "5": 2
+        }
+      ],
+      "initial": {
+        "1": 1,
+        "2": 1,
+        "3": 1,
+        "4": 1,
+        "5": 1,
+        "6": 1,
+        "7": 1,
+        "8": 1,
+        "9": 1,
+        "10": 3
+      }
+    }
+  ],
+  "lookup": []
+}

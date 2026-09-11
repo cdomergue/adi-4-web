@@ -1,0 +1,54 @@
+{
+  "game": "gob3",
+  "target": "wgob3",
+  "language": "fr",
+  "platform": "windows",
+  "edition": "WGOB3 French Windows v1.00 from ADI4",
+  "files": [
+    {
+      "name": "INTRO.STK",
+      "size": 209534,
+      "sha256": "5936fea52bb62a6fa25ed9e20e992411196b43b6dd4424966878e4087846a362"
+    },
+    {
+      "name": "EXT.STK",
+      "size": 3922524,
+      "sha256": "0b240226e62544358cf05f491dd0a96b330448bf4e23a0e00c0e1feda37aae6f"
+    },
+    {
+      "name": "TOT.STK",
+      "size": 447200,
+      "sha256": "f00cd9b354cefdb5c8bf6cfb428935c9417dc00291681a732d2b3f2328de353b"
+    },
+    {
+      "name": "IMD.ITK",
+      "size": 3006464,
+      "sha256": "bcab40d74c6b7cbc7f18b7b9da09121e8cb361264016304d2c19648fd609b723"
+    },
+    {
+      "name": "MUSMAC1.MID",
+      "size": 6404,
+      "sha256": "367d6bcb43a6064df89c928a228efe09253241c78b9e6f04714a013c81e2e257"
+    },
+    {
+      "name": "MUSMAC2.MID",
+      "size": 6896,
+      "sha256": "a6264019e013b0ada3a4cd3eadbade136c371dacbfe8eb019ba3458e3f640357"
+    },
+    {
+      "name": "MUSMAC3.MID",
+      "size": 13120,
+      "sha256": "73859fc76d8d4f27ba5da99a98208ddfa4fda8da2ac1dbeb929fa98fcf769fa2"
+    },
+    {
+      "name": "MUSMAC4.MID",
+      "size": 9243,
+      "sha256": "d844f31c71f4e40c76aa63eafdaedae8c0456179a30ff3006a5bdc8510392dbd"
+    },
+    {
+      "name": "MUSMAC5.MID",
+      "size": 9888,
+      "sha256": "fb29b2c3d54ab3161ced35943fbde0866db77ed0c68de6135fbd6ff09493211e"
+    }
+  ]
+}

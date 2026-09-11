@@ -1,0 +1,731 @@
+{
+  "id": "8",
+  "title": "Elevage de truites",
+  "background": "08I1",
+  "objects": [
+    {
+      "id": "1",
+      "label": "Bassin",
+      "type": 4,
+      "function": 0,
+      "plan": 101,
+      "box": [
+        8,
+        9,
+        104,
+        167
+      ],
+      "options": [
+        {
+          "id": 1,
+          "value": 1,
+          "label": "Bassin rudimentaire",
+          "visual": "08D10001",
+          "audio": null
+        },
+        {
+          "id": 2,
+          "value": 2,
+          "label": "Bassin sophistiqué",
+          "visual": "08D10002",
+          "audio": null
+        },
+        {
+          "id": 3,
+          "value": 3,
+          "label": "Bassin spacieux",
+          "visual": "08D10003",
+          "audio": null
+        }
+      ],
+      "hints": {
+        "0": "Le bassin d'élevage : Les bassins peuvent être plus ou moins grands et comporter un système d'alimentation en eau plus ou moins bien adapté. Ainsi, une entrée et une sortie d'eau situées à l'opposé l'une de l'autre assurera une meilleure oxygénation de l'ensemble du bassin. De même, un bassin aux formes accidentées comportera des recoins insuffisamment brassés.",
+        "1": "Le bassin d'élevage : Le bassin doit être suffisamment spacieux pour assurer une production maximale.",
+        "2": "Le bassin d'élevage : Un bassin rudimentaire ne permet pas de filtrer l'eau correctement. A cause de cela, des maladies peuvent apparaître, et menacer la vie des poissons.",
+        "3": "Le bassin d'élevage : Les bassins les plus grands assurent la plus grande production."
+      }
+    },
+    {
+      "id": "2",
+      "label": "Oxygène",
+      "type": 4,
+      "function": 0,
+      "plan": 101,
+      "box": [
+        21,
+        187,
+        94,
+        94
+      ],
+      "options": [
+        {
+          "id": 1,
+          "value": 1,
+          "label": "Oxygénation de l'eau faible",
+          "visual": "08D20001",
+          "audio": null
+        },
+        {
+          "id": 2,
+          "value": 2,
+          "label": "Oxygénation de l'eau moyenne",
+          "visual": "08D20002",
+          "audio": null
+        },
+        {
+          "id": 3,
+          "value": 3,
+          "label": "Oxygénation de l'eau importante",
+          "visual": "08D20003",
+          "audio": null
+        }
+      ],
+      "hints": {
+        "0": "L'oxygénation : Pour que les poissons puissent respirer, il faut que l'eau soit parfaitement oxygénée. Des systèmes simples mais astucieux, basés sur une bonne circulation de l'eau et son arrivée en cascade, permettent d'apporter cet élément vital.",
+        "1": "L'oxygénation : Le débit de l'eau et l'oxygénation du bassin doivent être bien dosés. Ni trop, ni trop peu.",
+        "2": "L'oxygénation : Le débit de l'eau et l'oxygénation doivent être bien dosés. Ni trop, ni trop peu.",
+        "3": "L'oxygénation : Le débit de l'eau et l'oxygène doivent être bien dosés. Ni trop, ni trop peu."
+      }
+    },
+    {
+      "id": "3",
+      "label": "Alimentation",
+      "type": 4,
+      "function": 0,
+      "plan": 101,
+      "box": [
+        443,
+        423,
+        154,
+        56
+      ],
+      "options": [
+        {
+          "id": 1,
+          "value": 1,
+          "label": "Une dose d'aliments",
+          "visual": "08D30001",
+          "audio": null
+        },
+        {
+          "id": 2,
+          "value": 2,
+          "label": "Deux doses d'aliments",
+          "visual": "08D30002",
+          "audio": null
+        },
+        {
+          "id": 3,
+          "value": 3,
+          "label": "Trois doses d'aliments",
+          "visual": "08D30003",
+          "audio": null
+        },
+        {
+          "id": 4,
+          "value": 4,
+          "label": "Quatre doses d'aliments",
+          "visual": "08D30004",
+          "audio": null
+        }
+      ],
+      "hints": {
+        "0": "L'alimentation : Pour que les poissons se développent normalement, il faut les nourrir. Ni trop, ni trop peu. Exactement comme pour un poisson rouge élevé dans un aquarium. Il faut notamment faire attention à l'apparition des algues qui signale une alimentation trop généreuse.",
+        "1": "L'alimentation : Plus les poissons sont nombreux, plus il faut de nourriture. Mais, attention au surdosage !",
+        "2": "L'alimentation : L'alimentation fournie doit être proportionnelle au nombre de poissons présents dans le bassin. Mais, attention au surdosage !",
+        "3": "L'alimentation : L'alimentation fournie doit être proportionnelle au nombre de poissons présents dans le bassin. Mais, attention au surdosage !"
+      }
+    },
+    {
+      "id": "4",
+      "label": "Soins",
+      "type": 4,
+      "function": 0,
+      "plan": 101,
+      "box": [
+        136,
+        427,
+        160,
+        51
+      ],
+      "options": [
+        {
+          "id": 1,
+          "value": 1,
+          "label": "",
+          "visual": "08D40001",
+          "audio": null
+        },
+        {
+          "id": 2,
+          "value": 2,
+          "label": "",
+          "visual": "08D40002",
+          "audio": null
+        },
+        {
+          "id": 3,
+          "value": 3,
+          "label": "",
+          "visual": "08D40003",
+          "audio": null
+        }
+      ],
+      "hints": {
+        "0": "",
+        "1": "Les soins particuliers : L'élevage des poissons est délicat et nécessite des soins attentifs. Il faut prendre garde au développement de certaines maladies et à la qualité de l'eau. Des produits spécifiques permettent de répondre à chaque besoin. Dans ce cas, il paraît nécessaire d'utiliser les soins antibiotiques.",
+        "2": "Les soins particuliers : L'élevage des poissons est délicat et nécessite des soins attentifs. Il faut prendre garde au développement de certaines maladies et à la qualité de l'eau. Des produits spécifiques permettent de répondre à chaque besoin. Contre la pollution, il faut en éliminer les causes ou tout au moins limiter les dégâts.",
+        "3": "Les soins particuliers : L'élevage des poissons est délicat et nécessite des soins attentifs. Il faut prendre garde au développement de certaines maladies et à la qualité de l'eau. Des produits spécifiques permettent de répondre à chaque besoin. Il faut limiter les dégâts de la canicule, par exemple la prolifération des algues ; il existe des produits qui permettent de les éliminer."
+      }
+    },
+    {
+      "id": "5",
+      "label": "Catastrophes",
+      "type": 4,
+      "function": 0,
+      "plan": 101,
+      "box": [
+        8,
+        315,
+        98,
+        160
+      ],
+      "options": [
+        {
+          "id": 1,
+          "value": 1,
+          "label": "",
+          "visual": null,
+          "audio": null
+        },
+        {
+          "id": 2,
+          "value": 2,
+          "label": "",
+          "visual": "08D50002",
+          "audio": null
+        },
+        {
+          "id": 3,
+          "value": 3,
+          "label": "",
+          "visual": "08D50003",
+          "audio": null
+        },
+        {
+          "id": 4,
+          "value": 4,
+          "label": "",
+          "visual": "08D50004",
+          "audio": null
+        }
+      ],
+      "hints": {
+        "0": "",
+        "1": "Les catastrophes possibles : Des catastrophes sont parfois inévitables ; Dame Nature a toujours son mot à dire. En cas de problème, la production diminue. Rentabilité oblige, il faut trouver la parade adaptée à chaque situation. La prolifération des parasites est l'un des problèmes possibles que peut connaître un pisciculteur. Elle a des conséquences directes sur l'état de santé des poissons.",
+        "2": "Les catastrophes possibles : Des catastrophes sont parfois inévitables ; Dame Nature a toujours son mot à dire. En cas de problème, la production diminue. Rentabilité oblige, il faut trouver la parade adaptée à chaque situation. Une pollution accidentelle est l'une des catastrophes possibles que peut connaître un pisciculteur. Elle a des conséquences directes sur la qualité des eaux des bassins.",
+        "3": "Les catastrophes possibles : Des catastrophes sont parfois inévitables ; Dame Nature a toujours son mot à dire. En cas de problème, la production diminue. Rentabilité oblige, il faut trouver la parade adaptée à chaque situation. La canicule est l'une des catastrophes possibles que peut connaître un pisciculteur. Elle a des conséquences directes sur la qualité des eaux des bassins."
+      }
+    },
+    {
+      "id": "6",
+      "label": "Production de truites",
+      "type": 1,
+      "function": 1,
+      "plan": 103,
+      "box": [
+        607,
+        289,
+        36,
+        63
+      ],
+      "options": [
+        {
+          "id": 1,
+          "value": 1,
+          "label": "Très peu de poissons",
+          "visual": "VIDE_DF",
+          "audio": null
+        },
+        {
+          "id": 2,
+          "value": 2,
+          "label": "Peu de poissons",
+          "visual": "VIDE_DF",
+          "audio": null
+        },
+        {
+          "id": 3,
+          "value": 3,
+          "label": "Quantité moyenne de poissons",
+          "visual": "VIDE_DF",
+          "audio": null
+        },
+        {
+          "id": 4,
+          "value": 4,
+          "label": "Beaucoup de poissons",
+          "visual": "VIDE_DF",
+          "audio": null
+        },
+        {
+          "id": 5,
+          "value": 5,
+          "label": "Quantité maximum de poissons",
+          "visual": "VIDE_DF",
+          "audio": null
+        }
+      ],
+      "hints": {
+        "0": "La production (quantité de poissons) : La rentabilité d'un élevage dépend de nombreux paramètres qu'il faut choisir avec soin. Une erreur peut avoir des conséquences importantes sur le nombre de poissons produits. L'état de santé de ces derniers est un élément essentiel pour parvenir à une bonne production.",
+        "1": "La production : La rentabilité d'un élevage dépend de nombreux paramètres qu'il faut choisir avec soin. Sans  compter avec les catastrophes écologiques qui peuvent se produire à tout moment et qui peuvent avoir des conséquences importantes sur le nombre de poissons produits. L'état de santé des poissons est un élément essentiel pour parvenir à une bonne production.",
+        "2": "La production : La rentabilité d'un élevage dépend de nombreux paramètres qu'il faut choisir avec soin. Sans  compter avec les catastrophes écologiques qui peuvent se produire à tout moment et qui peuvent avoir des conséquences importantes sur le nombre de poissons produits. L'état de santé des poissons est un élément essentiel pour parvenir à une bonne production.",
+        "3": "La production : La rentabilité d'un élevage dépend de nombreux paramètres qu'il faut choisir avec soin. Sans  compter avec les catastrophes écologiques qui peuvent se produire à tout moment et qui peuvent avoir des conséquences importantes sur le nombre de poissons produits. L'état de santé des poissons est un élément essentiel pour parvenir à une bonne production."
+      }
+    },
+    {
+      "id": "7",
+      "label": "Etats des truites",
+      "type": 1,
+      "function": 1,
+      "plan": 105,
+      "box": [
+        134,
+        13,
+        469,
+        390
+      ],
+      "options": [
+        {
+          "id": 1,
+          "value": 1,
+          "label": "Poissons de petite taille",
+          "visual": "08D70001",
+          "audio": null
+        },
+        {
+          "id": 2,
+          "value": 2,
+          "label": "Poissons de taille moyenne",
+          "visual": "08D70002",
+          "audio": null
+        },
+        {
+          "id": 3,
+          "value": 3,
+          "label": "Gros poissons en bonne santé",
+          "visual": "08D70003",
+          "audio": null
+        },
+        {
+          "id": 4,
+          "value": 4,
+          "label": "Poissons petits et malades",
+          "visual": "08D70004",
+          "audio": null
+        },
+        {
+          "id": 5,
+          "value": 5,
+          "label": "Poissons de taille moyenne malades",
+          "visual": "08D70005",
+          "audio": null
+        },
+        {
+          "id": 6,
+          "value": 6,
+          "label": "Gros poissons malades",
+          "visual": "08D70006",
+          "audio": null
+        },
+        {
+          "id": 7,
+          "value": 7,
+          "label": "Poissons petits et très malades",
+          "visual": "08D70007",
+          "audio": null
+        },
+        {
+          "id": 8,
+          "value": 8,
+          "label": "Poissons de taille moyenne très malades",
+          "visual": "08D70008",
+          "audio": null
+        },
+        {
+          "id": 9,
+          "value": 9,
+          "label": "Gros poissons très malades",
+          "visual": "08D70009",
+          "audio": null
+        }
+      ],
+      "hints": {
+        "0": "L'état des poissons : Un élevage bien géré permet d'obtenir des poissons de taille suffisante pour être commercialisés. Leur état de santé est un élément important car ils peuvent être victimes de maladies parasitaires.",
+        "1": "L'état des poissons : Un élevage bien géré permet d'obtenir des poissons de taille suffisante pour être commercialisés. Leur état de santé est un élément important car ils peuvent être victimes de maladies parasitaires.",
+        "2": "L'état des poissons : Un élevage bien géré permet d'obtenir des poissons de taille suffisante pour être commercialisés. Leur état de santé est un élément important car ils peuvent être victimes de maladies parasitaires.",
+        "3": "L'état des poissons : Un élevage bien géré permet d'obtenir des poissons de taille suffisante pour être commercialisés. Leur état de santé est un élément important car ils peuvent être victimes de maladies parasitaires."
+      }
+    },
+    {
+      "id": "8",
+      "label": "Présence d'algues",
+      "type": 1,
+      "function": 1,
+      "plan": 104,
+      "box": [
+        608,
+        222,
+        31,
+        60
+      ],
+      "options": [
+        {
+          "id": 1,
+          "value": 1,
+          "label": "Eau sans algues",
+          "visual": "VIDE_DF",
+          "audio": null
+        },
+        {
+          "id": 2,
+          "value": 2,
+          "label": "Eau infestée par les algues",
+          "visual": "08S80002",
+          "audio": null
+        }
+      ],
+      "hints": {
+        "0": "La propreté de l'eau : Il faut régulièrement contrôler la qualité des eaux des bassins. Cette démarche prudente est indispensable si l'on veut détecter à temps les problèmes qui peuvent survenir, tels que la prolifération des algues.",
+        "1": "La propreté de l'eau : Il faut régulièrement contrôler la qualité des eaux des bassins. Cette démarche prudente est indispensable si l'on veut détecter à temps les problèmes qui peuvent survenir, tels que la prolifération des algues ou une pollution accidentelle.",
+        "2": "La propreté de l'eau : Il faut régulièrement contrôler la qualité des eaux des bassins. Cette démarche prudente est indispensable si l'on veut détecter à temps les problèmes qui peuvent survenir, tels que la prolifération des algues ou une pollution accidentelle.",
+        "3": "La propreté de l'eau : Il faut régulièrement contrôler la qualité des eaux des bassins. Cette démarche prudente est indispensable si l'on veut détecter à temps les problèmes qui peuvent survenir, tels que la prolifération des algues ou une pollution accidentelle."
+      }
+    },
+    {
+      "id": "9",
+      "label": "Présence de pollution",
+      "type": 1,
+      "function": 1,
+      "plan": 102,
+      "box": [
+        606,
+        152,
+        34,
+        62
+      ],
+      "options": [
+        {
+          "id": 1,
+          "value": 1,
+          "label": "",
+          "visual": "VIDE_DF",
+          "audio": null
+        },
+        {
+          "id": 2,
+          "value": 2,
+          "label": "",
+          "visual": "VIDE_DF",
+          "audio": null
+        }
+      ],
+      "hints": {
+        "0": "",
+        "1": "La propreté de l'eau : Il faut régulièrement contrôler la qualité des eaux des bassins. Cette démarche prudente est indispensable si l'on veut détecter à temps les problèmes qui peuvent survenir, tels que la prolifération des algues.",
+        "2": "La propreté de l'eau : Il faut régulièrement contrôler la qualité des eaux des bassins. Cette démarche prudente est indispensable si l'on veut détecter à temps les problèmes qui peuvent survenir, tels que la prolifération des algues.",
+        "3": "La propreté de l'eau : Il faut régulièrement contrôler la qualité des eaux des bassins. Cette démarche prudente est indispensable si l'on veut détecter à temps les problèmes qui peuvent survenir, tels que la prolifération des algues."
+      }
+    },
+    {
+      "id": "10",
+      "label": "Profondeur du bassin",
+      "type": 1,
+      "function": 1,
+      "plan": 102,
+      "box": [
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "options": [
+        {
+          "id": 1,
+          "value": 1,
+          "label": "",
+          "visual": "08DA0001",
+          "audio": "/game/station/08WA000X.wav"
+        },
+        {
+          "id": 2,
+          "value": 2,
+          "label": "",
+          "visual": "08DA0002",
+          "audio": "/game/station/08WA000X.wav"
+        },
+        {
+          "id": 3,
+          "value": 3,
+          "label": "",
+          "visual": "08DA0003",
+          "audio": "/game/station/08WA000X.wav"
+        }
+      ],
+      "hints": {
+        "0": "",
+        "1": "",
+        "2": "",
+        "3": ""
+      }
+    },
+    {
+      "id": "11",
+      "label": "Débit de l'eau",
+      "type": 1,
+      "function": 1,
+      "plan": 102,
+      "box": [
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "options": [
+        {
+          "id": 1,
+          "value": 1,
+          "label": "",
+          "visual": "08DB0001",
+          "audio": "/game/station/08WB000X.wav"
+        },
+        {
+          "id": 2,
+          "value": 2,
+          "label": "",
+          "visual": "08DB0002",
+          "audio": "/game/station/08WB000X.wav"
+        },
+        {
+          "id": 3,
+          "value": 3,
+          "label": "",
+          "visual": "08DB0003",
+          "audio": "/game/station/08WB000X.wav"
+        }
+      ],
+      "hints": {
+        "0": "",
+        "1": "",
+        "2": "",
+        "3": ""
+      }
+    },
+    {
+      "id": "12",
+      "label": "Arrivée de l'alimentation",
+      "type": 1,
+      "function": 1,
+      "plan": 102,
+      "box": [
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "options": [
+        {
+          "id": 1,
+          "value": 1,
+          "label": "",
+          "visual": "08DC0001",
+          "audio": "/game/station/08WC000X.wav"
+        },
+        {
+          "id": 2,
+          "value": 2,
+          "label": "",
+          "visual": "08DC0002",
+          "audio": "/game/station/08WC000X.wav"
+        },
+        {
+          "id": 3,
+          "value": 3,
+          "label": "",
+          "visual": "08DC0003",
+          "audio": "/game/station/08WC000X.wav"
+        },
+        {
+          "id": 4,
+          "value": 4,
+          "label": "",
+          "visual": "08DC0004",
+          "audio": "/game/station/08WC000X.wav"
+        }
+      ],
+      "hints": {
+        "0": "",
+        "1": "",
+        "2": "",
+        "3": ""
+      }
+    },
+    {
+      "id": "13",
+      "label": "Arrivée des soins",
+      "type": 1,
+      "function": 1,
+      "plan": 102,
+      "box": [
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "options": [
+        {
+          "id": 1,
+          "value": 1,
+          "label": "",
+          "visual": "VIDE_DF",
+          "audio": null
+        },
+        {
+          "id": 2,
+          "value": 2,
+          "label": "",
+          "visual": "08DD0002",
+          "audio": "/game/station/08WD000X.wav"
+        },
+        {
+          "id": 3,
+          "value": 3,
+          "label": "",
+          "visual": "08DD0003",
+          "audio": "/game/station/08WD000X.wav"
+        }
+      ],
+      "hints": {
+        "0": "",
+        "1": "",
+        "2": "",
+        "3": ""
+      }
+    }
+  ],
+  "cases": [
+    {
+      "id": "0",
+      "label": "Mode libre",
+      "solutions": [
+        {
+          "1": 1,
+          "2": 1,
+          "3": 1,
+          "4": 1,
+          "5": 1
+        }
+      ],
+      "initial": {
+        "1": 1,
+        "2": 1,
+        "3": 1,
+        "4": 1,
+        "5": 1,
+        "6": 1,
+        "7": 1,
+        "8": 1,
+        "9": 1,
+        "10": 1,
+        "11": 1,
+        "12": 1,
+        "13": 1
+      }
+    },
+    {
+      "id": "1",
+      "label": "Combattre les parasites",
+      "solutions": [
+        {
+          "1": 3,
+          "2": 3,
+          "3": 3,
+          "4": 2,
+          "5": 3
+        }
+      ],
+      "initial": {
+        "1": 1,
+        "2": 1,
+        "3": 1,
+        "4": 1,
+        "5": 3,
+        "6": 1,
+        "7": 4,
+        "8": 1,
+        "9": 1,
+        "10": 1,
+        "11": 1,
+        "12": 1,
+        "13": 1
+      }
+    },
+    {
+      "id": "2",
+      "label": "Eliminer une pollution accidentelle",
+      "solutions": [
+        {
+          "1": 3,
+          "2": 3,
+          "3": 3,
+          "4": 3,
+          "5": 4
+        }
+      ],
+      "initial": {
+        "1": 1,
+        "2": 1,
+        "3": 1,
+        "4": 1,
+        "5": 4,
+        "6": 1,
+        "7": 4,
+        "8": 1,
+        "9": 2,
+        "10": 1,
+        "11": 1,
+        "12": 1,
+        "13": 1
+      }
+    },
+    {
+      "id": "3",
+      "label": "Lutter contre la canicule",
+      "solutions": [
+        {
+          "1": 3,
+          "2": 3,
+          "3": 3,
+          "4": 3,
+          "5": 2
+        }
+      ],
+      "initial": {
+        "1": 1,
+        "2": 1,
+        "3": 1,
+        "4": 1,
+        "5": 2,
+        "6": 1,
+        "7": 4,
+        "8": 2,
+        "9": 1,
+        "10": 1,
+        "11": 1,
+        "12": 1,
+        "13": 1
+      }
+    }
+  ],
+  "lookup": []
+}
