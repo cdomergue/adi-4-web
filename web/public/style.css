@@ -33,3 +33,37 @@
 .games-group { margin: 32px 0 48px; }
 .games-group>h2 { font-size: 26px; }
 .games-group .encyclopedia-card h3 { font-size: 18px; padding: 15px 12px 0; }
+
+@font-face{font-family:AdiMenu;src:url('/game/room/activities/menu.ttf') format('truetype');font-display:swap}
+.activity-frame{container-type:inline-size;max-width:960px}
+.activity-frame>img.activity-layer{position:absolute;object-fit:fill;pointer-events:none}
+.activity-title{position:absolute;margin:0;text-align:center;color:#071719;font-family:AdiMenu,Arial,sans-serif;font-size:3.2cqw;font-weight:400;line-height:1.2;pointer-events:none}
+.crate-activity .activity-title{left:38%;top:26%;width:50%}
+.radio-activity .activity-title{left:36%;top:7%;width:49%}
+.activity-items{position:absolute;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));grid-template-rows:repeat(2,minmax(0,1fr));gap:2% 4%}
+.crate-activity .activity-items{left:40%;top:38.8%;width:47%;height:28%}
+.radio-activity .activity-items{left:38.4%;top:18%;width:47%;height:28%}
+.radio-activity .category-items{left:39.3%;top:23.8%;width:47.5%;height:18%;grid-template-columns:repeat(2,minmax(0,1fr));grid-template-rows:1fr;gap:13%}
+.activity-choice{position:relative;display:flex;align-items:center;justify-content:center;min-width:0;padding:0;border:0;border-radius:50%;background:transparent;cursor:pointer;color:#071719}
+.activity-choice>img{width:100%;height:100%;object-fit:contain;display:block}
+.activity-choice:hover,.activity-choice:focus-visible{outline:2px solid #fff6a2;outline-offset:-2px;z-index:4}
+.activity-choice[aria-pressed=true]{box-shadow:0 0 0 2px #fff6a2}
+.activity-tooltip{display:none;position:absolute;left:50%;top:85%;transform:translateX(-50%);white-space:nowrap;background:#f0ce91;border:1px solid #895124;box-shadow:2px 2px #5a331677;padding:3px 6px;font-family:AdiMenu,Arial,sans-serif;font-size:2.1cqw;z-index:8;pointer-events:none}
+.activity-choice:hover .activity-tooltip,.activity-choice:focus-visible .activity-tooltip{display:block}
+.activity-missing{border:1px solid #18677c;background:#9dc9d0;border-radius:50%;font-size:1.7cqw;padding:8%;width:100%;overflow:hidden}
+.activity-arrow{position:absolute;width:4.5%;height:5.5%;padding:0;border:0;background:transparent;cursor:pointer;border-radius:50%;z-index:2}
+.activity-arrow:focus-visible{outline:2px solid white}
+.activity-arrow:disabled{cursor:default}
+.crate-activity .activity-arrow{left:94.2%}.crate-activity .activity-up{top:35.5%}.crate-activity .activity-down{top:55.5%}
+.radio-activity .activity-arrow{left:93.2%}.radio-activity .activity-up{top:17.4%}.radio-activity .activity-down{top:37.6%}
+.activity-scroll{position:absolute;writing-mode:vertical-lr;direction:ltr;appearance:none;background:transparent;width:3.75%;height:17%;padding:0;margin:0;cursor:pointer;border:0;z-index:2}
+.crate-activity .activity-scroll{left:94.6%;top:40.3%}.radio-activity .activity-scroll{left:93.8%;top:22.2%}
+.activity-scroll::-webkit-slider-runnable-track{background:transparent}.activity-scroll::-moz-range-track{background:transparent}
+.activity-scroll::-webkit-slider-thumb{appearance:none;width:3.75cqw;height:3.28cqw;background:url('/game/room/activities/scroll-thumb.webp') center/contain no-repeat;border:0}
+.activity-scroll::-moz-range-thumb{width:3.75cqw;height:3.28cqw;background:url('/game/room/activities/scroll-thumb.webp') center/contain no-repeat;border:0}
+.activity-scroll:disabled{visibility:hidden}.activity-scroll:focus-visible{outline:2px solid white}
+.activity-frame .room-toolbar a,.activity-frame .room-toolbar>span{display:block;background:#0b525d;min-width:0}.activity-frame .room-toolbar a:focus-visible{outline:2px solid white;outline-offset:-3px}
+.activity-frame .room-toolbar{grid-template-columns:repeat(8,minmax(0,1fr))}.activity-frame .room-toolbar a img{width:100%;height:100%;object-fit:fill}
+.room-activity audio{vertical-align:middle;width:min(100%,480px);margin:0 12px 12px 0}.activity-status{margin:16px 0 8px}.radio-stop{vertical-align:middle;margin-bottom:12px}
+.activity-opening .activity-items,.activity-opening .activity-title,.activity-opening .activity-arrow,.activity-opening .activity-scroll{visibility:hidden}
+.activity-frame .room-toolbar button:disabled{filter:brightness(.7);cursor:default}

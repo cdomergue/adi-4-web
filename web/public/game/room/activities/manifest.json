@@ -1,0 +1,812 @@
+[
+  {
+    "source": "extracted/resources/Adi421EnvCol1/INTRO.ITK/BEEBOP1.VMD",
+    "file": "icon-BEEBOP1.webp",
+    "source_sha256": "91968ac71a77db2217b698d03fae8565a968e30f8bf84f2da6630df24d55c571",
+    "sha256": "68ee65ac8d3eb6cb9518922cef8fc34a8063a0c89cb60a2af204512b24d610b1"
+  },
+  {
+    "source": "extracted/resources/Adi421EnvCol1/INTRO.ITK/AZTEC.VMD",
+    "file": "icon-AZTEC.webp",
+    "source_sha256": "d0998f01ca8938d5ed272ae6248e1748a5cfc471d17c235d105af1172b6e7390",
+    "sha256": "d2027bbdf6256a6eab24d1a017c30fea3457e30e905160e610044853f724ce61"
+  },
+  {
+    "source": "extracted/resources/Adi421EnvCol1/INTRO.ITK/SOKOBAN.VMD",
+    "file": "icon-SOKOBAN.webp",
+    "source_sha256": "9a5b9010caa4e6f0c6177906e59e7ca68077754ea3e23c1136013dc154b937ba",
+    "sha256": "0df36dc8c47e8a22fd06e3e7b9e3d455018a9128ea90368effa01deb9144e1d9"
+  },
+  {
+    "source": "extracted/resources/Adi421EnvCol1/INTRO.ITK/CREEP.VMD",
+    "file": "icon-CREEP.webp",
+    "source_sha256": "f467bc6497f74e053424a4522f2087f00d9dc9a173f0c74dba99495d540217dc",
+    "sha256": "14e97838aac59ce38deb89618d7b15a128817379ae22ed93a4e07a96e1411579"
+  },
+  {
+    "source": "extracted/resources/Adi421EnvCol1/INTRO.ITK/BT3D_1.VMD",
+    "file": "icon-BT3D_1.webp",
+    "source_sha256": "1a77b77c821c6b958b4d677afeedc68a9b18b6550ea54ec497804e07e6968c4a",
+    "sha256": "a7782a90639513a0d1e8b8faf64d5b9cbdc4c637c26bd1d466cb80323c3683e3"
+  },
+  {
+    "source": "extracted/resources/Adi421EnvCol1/INTRO.ITK/LASBLO.VMD",
+    "file": "icon-LASBLO.webp",
+    "source_sha256": "41e13abb900302e618f384b8a8f5cdfdf9fea4260794aa626fad526ac85956fa",
+    "sha256": "b595bd0e67007a4fab0e3420544ab62060ffcd0754f2abfa26d0edb0e2d767d3"
+  },
+  {
+    "source": "extracted/resources/Adi421EnvCol1/INTRO.ITK/INVADE.VMD",
+    "file": "icon-INVADE.webp",
+    "source_sha256": "1d284b0a5a1a3e412c691ec8c4be5417fe244a797bb2377544b4b6a2b3788d4f",
+    "sha256": "6279a73febbb2388ad1eb4f07720026c9d1202cf25c7ac01ac6283b649594a78"
+  },
+  {
+    "source": "extracted/resources/Adi421EnvCol1/INTRO.ITK/GOB2.VMD",
+    "file": "icon-GOB2.webp",
+    "source_sha256": "63e4006f035d3cd26720368c2734e559261e64458175a281ba2383f400ecfd1e",
+    "sha256": "1e07108cd608fb5e58734ab779bc3de9e38e1fd6fa371244c75340effdee3848"
+  },
+  {
+    "source": "extracted/resources/Adi421EnvCol1/INTRO.ITK/SHIHDAO.VMD",
+    "file": "icon-SHIHDAO.webp",
+    "source_sha256": "292cb3bb758b77fe51213742c843231bb4223c5c71624bd36a6195e30f9dc3dd",
+    "sha256": "5d587c39b4fae0b4e3a85baa95e34ce10359381d8ee9380598d646b7377dc164"
+  },
+  {
+    "source": "extracted/resources/Adi421EnvCol1/INTRO.ITK/PLACE.VMD",
+    "file": "icon-PLACE.webp",
+    "source_sha256": "17e06cc28ebf54649c34f31446e674603fe4878c7083e14985eb93804b4eee76",
+    "sha256": "37e08afadfadad3ab0af1d45fd993550bbcde8aad4fa02238f4ac3264444d2ca"
+  },
+  {
+    "source": "extracted/resources/Adi421EnvCol1/INTRO.ITK/BACKGAM.VMD",
+    "file": "icon-BACKGAM.webp",
+    "source_sha256": "942361f354eb7a8af4ac4d6dca46181e24f0d62d76658e03b8a1295bd20d5364",
+    "sha256": "7febe257fab8f29c24aedd6f67f59fcc1cf9636b9db660128723168e0434398b"
+  },
+  {
+    "source": "extracted/resources/Adi421EnvCol1/INTRO.ITK/JUPITER.VMD",
+    "file": "icon-JUPITER.webp",
+    "source_sha256": "6e1b0cfe654d3a8fcd380adb3e87a933a2dd41232e510ffeb19b8796707181cd",
+    "sha256": "19398feb56aef4bc883a981500f0a6b75ba967e9ed575596cf7e93b6ee5a0905"
+  },
+  {
+    "source": "extracted/resources/Adi421EnvCol1/INTRO.ITK/SCRAM.VMD",
+    "file": "icon-SCRAM.webp",
+    "source_sha256": "59219c562c2cd4004e2012cb874e44b1e92f57d6b6f06ca3a5e3c08ca5eb6ccc",
+    "sha256": "09f746f6198ccc9eac848effbcd0b062e25440e6015b4f96d319d037044fabde"
+  },
+  {
+    "source": "extracted/resources/Adi421EnvCol1/INTRO.ITK/REVOLU.VMD",
+    "file": "icon-REVOLU.webp",
+    "source_sha256": "164e6f5cb37c1e08f81b0a4d3a67cc56501bdea19675e6224d220e9b3e53e086",
+    "sha256": "feb9dce8d1e63f1ac89e2915138b8eb4a738d5cf1d8a1dce2628a447d89117df"
+  },
+  {
+    "source": "extracted/resources/Adi421EnvCol1/INTRO.ITK/GOB3.VMD",
+    "file": "icon-GOB3.webp",
+    "source_sha256": "cfd134777ecbfe2879f3be035422f9dd79328810fb63e81d0b71f282ab9ec810",
+    "sha256": "d0a0ce1421e88a31213f60ecb06a4098bf4f29621b6015366449827f23b20ebf"
+  },
+  {
+    "source": "extracted/resources/Adi421EnvCol1/INTRO.ITK/BILLFRA.VMD",
+    "file": "icon-BILLFRA.webp",
+    "source_sha256": "b49e7a924133892e18dd877fed8ad0302d41f064656817ef66974b2668aa3498",
+    "sha256": "d8f51e2c02e75038a51b2209f0c221d66f8109974152e28032e823d6e6ff18e9"
+  },
+  {
+    "source": "extracted/resources/Adi421EnvCol1/INTRO.ITK/FILLER.VMD",
+    "file": "icon-FILLER.webp",
+    "source_sha256": "09c61bee163a73db28806d498e3c62d6a53386968d7e6be1570660b1f0cb829b",
+    "sha256": "adcf1dd87c10078980e5fcbc32b1b984102af2144816face4cfd01827f20f638"
+  },
+  {
+    "source": "extracted/resources/Adi421EnvCol1/INTRO.ITK/BT3D_2.VMD",
+    "file": "icon-BT3D_2.webp",
+    "source_sha256": "bc89afc9a0d483a216a91a69f9135f3307e1ed439bcaa893abec6a85170b090a",
+    "sha256": "a7b3224bfb611003f99d0bca54454574cbc2892261b3516d19f65f78621d0319"
+  },
+  {
+    "source": "extracted/resources/Adi421EnvCol1/INTRO.ITK/LAST3.VMD",
+    "file": "icon-LAST3.webp",
+    "source_sha256": "1ff7a0de18ecea214d5ad4ff8d13daf54db7542a13c90c41cfa8962d21c535d1",
+    "sha256": "4890c3b47df10cfc6df66d8a2c61b8fe2f5b2d0e4250af2a4bf262cfea80c882"
+  },
+  {
+    "source": "extracted/resources/Adi421EnvCol1/INTRO.ITK/MRMATT2.VMD",
+    "file": "icon-MRMATT2.webp",
+    "source_sha256": "f29a8c0f85c2b3fbb1a1a46fddaa50edd7b689569252998926add23a9f24f9ea",
+    "sha256": "5a0a01eabc548d486ec46cc7715f82a320187db745b9224bf8eb9613689d6c0b"
+  },
+  {
+    "source": "extracted/resources/Adi421EnvCol1/INTRO.ITK/CHESS.VMD",
+    "file": "icon-CHESS.webp",
+    "source_sha256": "33221aae7a1727e22ee76a8aad2b210435a7fe0296460d370f8be6b796ce9247",
+    "sha256": "b2794dbbfd056a0c160debd3a54e3942c3c5d5dd4464ed83f361dc0422f40105"
+  },
+  {
+    "source": "extracted/resources/Adi421EnvCol1/INTRO.ITK/NUCLEON.VMD",
+    "file": "icon-NUCLEON.webp",
+    "source_sha256": "e2e8d3760b918e234216e15f427229088b88c09d8204dba2585d2c4dda63aec6",
+    "sha256": "2160b7a1171e729092d49c144890ec0417926b81977eaa60c00f4b8f6d03cabb"
+  },
+  {
+    "source": "extracted/resources/Adi421EnvCol1/INTRO.ITK/BEEBOP2.VMD",
+    "file": "icon-BEEBOP2.webp",
+    "source_sha256": "b0b592e64c9f67252cec9103f40dc4963ed4fb814fa7fae344513e7b13b037bf",
+    "sha256": "f712d5e8391051007590eb34c0fe7efd2859afaf8e54abdb3c319bd2afb61c7f"
+  },
+  {
+    "source": "extracted/resources/Adi421EnvCol1/INTRO.ITK/BT3D_3.VMD",
+    "file": "icon-BT3D_3.webp",
+    "source_sha256": "2d4a11fb57389c614e6da70fc3c331627f4e2430d8544dc52b4d9c2955475721",
+    "sha256": "0739b8ebbee998462df61d4f223f6bece860c43ef852b304a22b2cc9453a3126"
+  },
+  {
+    "source": "extracted/resources/Adi421EnvCol1/INTRO.ITK/FRUSTR.VMD",
+    "file": "icon-FRUSTR.webp",
+    "source_sha256": "be58b70eb43193bf018be368b2b823099ba5925bdcd399bca840e15318398f77",
+    "sha256": "9c56247035275a5773dcb8a5d4145037af03f2d974ef4393781b2839b8cc6868"
+  },
+  {
+    "source": "extracted/resources/Adi421EnvCol1/INTRO.ITK/MRMATT1.VMD",
+    "file": "icon-MRMATT1.webp",
+    "source_sha256": "6efc5eb1f46788a0d9e9a8922bc4fd09ea144ab119610d3906d5123ee81f9c30",
+    "sha256": "592ce7e19b4e7ec7fe1380859cf652ed4773179e69951d2527714526418664f5"
+  },
+  {
+    "source": "extracted/resources/Adi421EnvCol1/INTRO.ITK/GOB1.VMD",
+    "file": "icon-GOB1.webp",
+    "source_sha256": "090f2d1befc0cbb7846e25da6acbba6df1c5097a90eec6b38a3cc08967e8887a",
+    "sha256": "68a6835ed665ace98ff478f1640aa6873dd5a5a147068f1447751e3fd002b784"
+  },
+  {
+    "source": "extracted/resources/Adi421EnvCol1/INTRO.ITK/SOLIT.VMD",
+    "file": "icon-SOLIT.webp",
+    "source_sha256": "59dd28c039a75c9772d55eecd240f2c05f74cdf5a528f7173e132a89f099f12c",
+    "sha256": "73d1c49b10884e8b2a9fef7147e943cebaaa0206715a0374eb064e62d2cd23d8"
+  },
+  {
+    "source": "extracted/resources/Adi421EnvCol1/INTRO.ITK/T4.VMD",
+    "file": "icon-T4.webp",
+    "source_sha256": "b490ab8cdf41b31840cd9df8d4b167d7f0fab402ec0236159b1b65808cac7cef",
+    "sha256": "a4ff5e788ea75035390ab5e0430212116c40e37e6f98b91ff368eedcd0568a21"
+  },
+  {
+    "source": "extracted/resources/Adi421EnvCol1/INTRO.ITK/BT3D_4.VMD",
+    "file": "icon-BT3D_4.webp",
+    "source_sha256": "43e1eb3d3df52c1ae653ba8cac18848e5cee03cfddd4f196132c2439aac7f18e",
+    "sha256": "6c713cf60b53f6a2717a0c59b8e83f391b9eef461bb914e5ec11645ac69d073a"
+  },
+  {
+    "source": "extracted/resources/Adi421EnvCol1/INTRO.ITK/LAST4.VMD",
+    "file": "icon-LAST4.webp",
+    "source_sha256": "bd6fd439cf9014bb537ef3d3a7b7b7ee63154fcf604792d62e0cdf6631f2f8e3",
+    "sha256": "7bc8169d04a91eb371499b33322e89e3e4e3e207f3860525b2360236a5d03659"
+  },
+  {
+    "source": "extracted/resources/Adi421EnvCol1/INTRO.ITK/QUAD.VMD",
+    "file": "icon-QUAD.webp",
+    "source_sha256": "93c35d6468e6f575a0eb4c33021ea9d937bbd3179880bba9ce84ba41260a1dae",
+    "sha256": "302d7bf40e49ad935d13432a2dd746d4a938c47d6e23db114329064adb878bc8"
+  },
+  {
+    "source": "extracted/resources/Adi421EnvCol1/INTRO.ITK/_ORROR.VMD",
+    "file": "icon-_ORROR.webp",
+    "source_sha256": "a52766107b807c473b3cde6acaa0cdf21eea78849d698af22619d58258018d17",
+    "sha256": "cbb190447c5fcda25ab5ea988fbd143fd8b1170073d692c2333490d267d19a85"
+  },
+  {
+    "source": "extracted/resources/Adi421EnvCol1/ADIANI.ITK/HORROR.VMD",
+    "file": "horror.flac",
+    "source_sha256": "3ce79556d2ecfb3ae7b839b6a34dcdae3fa1b519e71f55d887515e6a6d177685",
+    "sha256": "46e55b4113b74416811a1559a2ae81dbe2fe7ad09647ce923dba1f8fca5bfde2"
+  },
+  {
+    "source": "extracted/resources/Adi421EnvCol1/INTRO.ITK/_UNKGROV.VMD",
+    "file": "icon-_UNKGROV.webp",
+    "source_sha256": "397d75c134db42799aee22481ed4758c159a95ba40440c9fb6df9c6a7bd69b7d",
+    "sha256": "6f36cd409baff67ecb4360398cfc9cbd2fb979be4f5419b7721354a9bc4c46a1"
+  },
+  {
+    "source": "extracted/resources/Adi421EnvCol1/ADIANI.ITK/FUNKGROV.VMD",
+    "file": "funkgrov.flac",
+    "source_sha256": "a3bdbe55155331600f106459bd5821879b464c6f598bbb5e9100a5e49b13cde8",
+    "sha256": "93cc9d15fe6a660e32c6e68b2c6f4a908fabc0327b599f415a1ad49e61d9cd51"
+  },
+  {
+    "source": "extracted/resources/Adi421EnvCol1/INTRO.ITK/_AIVJAZY.VMD",
+    "file": "icon-_AIVJAZY.webp",
+    "source_sha256": "9151fa31f2052da682d2af75bd82a7e62d9bc6ed4c596944e0a70d45a3de4387",
+    "sha256": "3837bfb0fe771006855cf74a8b1220480f93c2c8a1968c704f887a418411ae8a"
+  },
+  {
+    "source": "extracted/resources/Adi421EnvCol1/ADIANI.ITK/NAIVJAZY.VMD",
+    "file": "naivjazy.flac",
+    "source_sha256": "c49a9f9188ab5e48b92b82fed12929726db51938b4b67d1cf800de11a123ea6d",
+    "sha256": "683d6d7ce0fccb5f0af8233de4c7359ca3690ef16eb9908827b45dd76320a3c2"
+  },
+  {
+    "source": "extracted/resources/Adi421EnvCol1/INTRO.ITK/_ALSAFUN.VMD",
+    "file": "icon-_ALSAFUN.webp",
+    "source_sha256": "a0302b949d1f60bb8d611cf35ce5c18b5c12ecc780827dee653aa804712d51db",
+    "sha256": "7332272892f9b472404b9aa5511e39391d2f806ef193c739186749610061223a"
+  },
+  {
+    "source": "extracted/resources/Adi421EnvCol1/ADIANI.ITK/SALSAFUN.VMD",
+    "file": "salsafun.flac",
+    "source_sha256": "6f8a328cce0c8ad2dceed93f910283109266f840d6f5199a73b4d45e6220a989",
+    "sha256": "bc7b5e5387bc634e497e85fa72dae589c993ad0ab0aae34d484901d60a78f7f9"
+  },
+  {
+    "source": "extracted/resources/Adi421EnvCol1/INTRO.ITK/_APSCRAT.VMD",
+    "file": "icon-_APSCRAT.webp",
+    "source_sha256": "2d501ca252846948478914df7426d93d5d736f2cb56cc9e25a34045a4f9f5fff",
+    "sha256": "0bc84985b3409fe39ada6c61c866594aae9e21a0532294ad6cd48f9aa70da119"
+  },
+  {
+    "source": "extracted/resources/Adi421EnvCol1/ADIANI.ITK/RAPSCRAT.VMD",
+    "file": "rapscrat.flac",
+    "source_sha256": "54f0da0fe3027e079b073ba3bf6e43d966d6a4e983933172319c347de1820552",
+    "sha256": "3f3fd02dcafa00a04206663d89523d2e6257bed59cc557a1ecf4efc5c2dd877b"
+  },
+  {
+    "source": "extracted/resources/Adi421EnvCol1/INTRO.ITK/_ENERIK.VMD",
+    "file": "icon-_ENERIK.webp",
+    "source_sha256": "62148fe9475f8b0756497310f4be82e286bad2fa163e0c6e80f5970b26e232b3",
+    "sha256": "dc7365aaf481a9c0b4b7cfee59607c9509118ecdbdf3c15c1015cdec2d309052"
+  },
+  {
+    "source": "extracted/resources/Adi421EnvCol1/ADIANI.ITK/GENERIK.VMD",
+    "file": "generik.flac",
+    "source_sha256": "5a01225a8cba14ea5661d630e2880be19b12f0dea578dc38b47f8a3e3bfecc1c",
+    "sha256": "31eb6c92989587347e8e6f0d7c28697890c95d7c2e55ef6de12eb975add0f951"
+  },
+  {
+    "source": "extracted/resources/Adi421EnvCol1/INTRO.ITK/_ARTOON.VMD",
+    "file": "icon-_ARTOON.webp",
+    "source_sha256": "6fa7fa3d2b4f452216fc19b0485a7a4eaa272170fbc5eaabfeae4e6ad42df5bb",
+    "sha256": "904658f45797fb57a3650eee0b004d8fbbe22732fc9fdb4b54f890d53fa5d269"
+  },
+  {
+    "source": "extracted/resources/Adi421EnvCol1/ADIANI.ITK/CARTOON.VMD",
+    "file": "cartoon.flac",
+    "source_sha256": "df88933ccc1094b5353d7001b1f0d5e72d3898c8de1fb360644e218d50917a19",
+    "sha256": "03959d48c517120a17b4d12cb31f22feb565637d5c6c4a9bddde6594bc32a8b8"
+  },
+  {
+    "source": "extracted/resources/Adi421EnvCol1/INTRO.ITK/_ECHNO2.VMD",
+    "file": "icon-_ECHNO2.webp",
+    "source_sha256": "a6105ec170d7b6cccec156942a25e96743f52b39d2c354dba173d622b426f3b0",
+    "sha256": "248e0937b0c98fd869946b83324f3b37cb070c5399c192a6f01ad4cb17cb0751"
+  },
+  {
+    "source": "extracted/resources/Adi421EnvCol1/ADIANI.ITK/TECHNO2.VMD",
+    "file": "techno2.flac",
+    "source_sha256": "b5b540dc07413e5ecefa4b0865d2ef6e3fe04ce4235c6994c24887a0643140b7",
+    "sha256": "65f7a61d9575b3c409bf331cc1535bda5d9942587533b282668d97bb2dd0aa6a"
+  },
+  {
+    "source": "extracted/resources/Adi421EnvCol1/INTRO.ITK/_ECHRIGO.VMD",
+    "file": "icon-_ECHRIGO.webp",
+    "source_sha256": "3072987f7d322454d7eb47ef5901d3acdf6deeb33cf70508b34e3c101ddf5db3",
+    "sha256": "4a676e888ab32bb308a819fde79ef2e68faab88df1c89efa178a824b17deaa03"
+  },
+  {
+    "source": "extracted/resources/Adi421EnvCol1/ADIANI.ITK/TECHRIGO.VMD",
+    "file": "techrigo.flac",
+    "source_sha256": "e8d522ad8ce8c999f6b300d388796de725edde5c107c5540e01b43f95f99ef44",
+    "sha256": "921e6111e4e2387a70a700b900430ce7eae2af672d0c9f7f780a63f5f2ad1447"
+  },
+  {
+    "source": "extracted/resources/Adi421EnvCol1/INTRO.ITK/_EGFUNK.VMD",
+    "file": "icon-_EGFUNK.webp",
+    "source_sha256": "b0d0bb0d05b0d7b964df8afe14ff34271ee38aa1dc3655ecc17297ef6dff899a",
+    "sha256": "3c6cba94bb789221455fb5d655751c8648e62a7a93acc4fa3586b9204c0fe5ee"
+  },
+  {
+    "source": "extracted/resources/Adi421EnvCol1/ADIANI.ITK/REGFUNK.VMD",
+    "file": "regfunk.flac",
+    "source_sha256": "84715a00cf67e53c293c94add13e397aab9dc6b1218ae794df18eff966fdaab3",
+    "sha256": "5dea9643138044f0486b332a743e7a37054e1de17378d5d12dc31798e0ec26bb"
+  },
+  {
+    "source": "extracted/resources/Adi421EnvCol1/INTRO.ITK/_EGGAE.VMD",
+    "file": "icon-_EGGAE.webp",
+    "source_sha256": "6504bf236136c67a9dfe5def86a6af7b3c1fa65182f52e003f195679150ed217",
+    "sha256": "0cea33c392cf5de2017d5f4a397cef457fe1bd8427272eada779af562b8342fb"
+  },
+  {
+    "source": "extracted/resources/Adi421EnvCol1/ADIANI.ITK/REGGAE.VMD",
+    "file": "reggae.flac",
+    "source_sha256": "724f73f3749c921468a04931458136dfb65bbb6a8eeecf781b98ff3878dd998b",
+    "sha256": "08d313b1ad4bc3b98c1d710a9aa8e059004a4799900d57b9b11ff7e2789532bf"
+  },
+  {
+    "source": "extracted/resources/Adi421EnvCol1/INTRO.ITK/_FRO.VMD",
+    "file": "icon-_FRO.webp",
+    "source_sha256": "a5c9247318db38f29d7f5635c8bf608d9d5162f463f4f31b90e7d57d780ce2a0",
+    "sha256": "5e116591921fac7f344b3fc70c90d75299d8a06d51bd13f13342318194075849"
+  },
+  {
+    "source": "extracted/resources/Adi421EnvCol1/ADIANI.ITK/AFRO.VMD",
+    "file": "afro.flac",
+    "source_sha256": "736d2a77d9f6cfc70feff2e3592a6ce3d9e24f4fc74b3bce74188576d3f0eb8d",
+    "sha256": "de850fc161f8e8df37dd72e7b1ff27c19e836920d9d68b423ca21d5bed514aaa"
+  },
+  {
+    "source": "extracted/resources/Adi421EnvCol1/INTRO.ITK/_LAMENCO.VMD",
+    "file": "icon-_LAMENCO.webp",
+    "source_sha256": "7ca116f55018b71fec4d0e5120d69dcb0c93ff82b223a36ecb23609c007907b5",
+    "sha256": "68a0f33caa785a496053e9ba5127b547d6b9686135630cb402e5130a7b136a15"
+  },
+  {
+    "source": "extracted/resources/Adi421EnvCol1/ADIANI.ITK/FLAMENCO.VMD",
+    "file": "flamenco.flac",
+    "source_sha256": "55ff5e0fae91d812b7ba6eabe64e509dc52fb7dd750f6658822ad6c69eb2b8c3",
+    "sha256": "9809e31eb6de0c2b14799bb299e55c0d772a9df01bf680a94c8bf3a83023e495"
+  },
+  {
+    "source": "extracted/resources/Adi421EnvCol1/INTRO.ITK/_LUES.VMD",
+    "file": "icon-_LUES.webp",
+    "source_sha256": "a69abdd9edc5e3b11ec7fa223a57264a63d0971a4437dc15a632566c16292744",
+    "sha256": "2cb98d9617982fc88e6d8dd8a778d57dea112af9484049615d43e901794f15fe"
+  },
+  {
+    "source": "extracted/resources/Adi421EnvCol1/ADIANI.ITK/BLUES.VMD",
+    "file": "blues.flac",
+    "source_sha256": "edd68f07411a39c19984c7b328d9c5aa2d7d1f5af0311f7262350f379e450670",
+    "sha256": "0e415bc43957cfcde96e276d2f105103e36fed9ec0d9a032d883b673cad29636"
+  },
+  {
+    "source": "extracted/resources/Adi421EnvCol1/INTRO.ITK/_OCKBLUE.VMD",
+    "file": "icon-_OCKBLUE.webp",
+    "source_sha256": "3bb2b2c6516784b4a7098692e03a213e644b0f458cb5866f88ffccf0758cf094",
+    "sha256": "d821405596c0aaddeaa561a250141713b03844aab46cf50647e9aa9b9899aa15"
+  },
+  {
+    "source": "extracted/resources/Adi421EnvCol1/ADIANI.ITK/ROCKBLUE.VMD",
+    "file": "rockblue.flac",
+    "source_sha256": "60605b3c026df5a62475735b7f50d9ca4a856b528feddb4bfe87a479b4252533",
+    "sha256": "2090cac0c60988ff98b7648e36f6cc12dd407486b6974e263a9c2c30dbceacf9"
+  },
+  {
+    "source": "extracted/resources/Adi421EnvCol1/INTRO.ITK/_OCKCAR.VMD",
+    "file": "icon-_OCKCAR.webp",
+    "source_sha256": "c67782741a08abd2187316e31e6d9f9776c6335bab8f9b26c047136a51aded67",
+    "sha256": "c93aaf4145e049f67ea64d25fd4bdffeb0cd39f85b5fc810789d9de9c9ca8478"
+  },
+  {
+    "source": "extracted/resources/Adi421EnvCol1/ADIANI.ITK/ROCKCAR.VMD",
+    "file": "rockcar.flac",
+    "source_sha256": "d58234acd8ba6c734dea28ed23900b041bbf07835ef77b35a644b34eeffb274e",
+    "sha256": "79a27e85223fbfb11744d2e9c6d6bcc8217b031ec7e9dc57855033a0776e85ea"
+  },
+  {
+    "source": "extracted/resources/Adi421EnvCol1/INTRO.ITK/_OCKGRUN.VMD",
+    "file": "icon-_OCKGRUN.webp",
+    "source_sha256": "0f0b4bff99de8362b332db1f28aa285bc3971724634f35c31d3755939143420b",
+    "sha256": "07a4e16cc393286812c7962b75f0e6575d4b0643b72eafcb9a9b6df79374a8b0"
+  },
+  {
+    "source": "extracted/resources/Adi421EnvCol1/ADIANI.ITK/ROCKGRUN.VMD",
+    "file": "rockgrun.flac",
+    "source_sha256": "2e8629e95cd91efb7d4960d13f0bd152f33a881dce5d14d479d183e0d5cf6e6f",
+    "sha256": "168595d0b498f4814590f8d13f7db86d96a9d001a0328d83407c24b065e2e92e"
+  },
+  {
+    "source": "extracted/resources/Adi421EnvCol1/INTRO.ITK/A_VENT.VMD",
+    "file": "icon-A_VENT.webp",
+    "source_sha256": "d3e4b8733abc84cabfda13f53d18a5b30cb7de078dd228448297430d136173f6",
+    "sha256": "82139879d733df4e5836b7802ce236252ed56b4f0bb0e003de62cf7dda93b0d4"
+  },
+  {
+    "source": "extracted/resources/Adi421EnvCol1/ADIANI.ITK/VENT1.VMD",
+    "file": "vent1.flac",
+    "source_sha256": "ade45706a40bdad2f6061f7089821e5a2e1a324e371aaf435316e8ece735efdd",
+    "sha256": "1b22f39add54afada42886753ce0eccd53cf019f1b0f40c107d28e619d417106"
+  },
+  {
+    "source": "extracted/resources/Adi421EnvCol1/INTRO.ITK/A_MER.VMD",
+    "file": "icon-A_MER.webp",
+    "source_sha256": "517be76f7694fae7404581aba03b8216af220b38aa6a7ef1809e0a21ef82deb3",
+    "sha256": "a7804c5de15ce5872f23577873873465b037f9749532edb9538dd62c3c9a71aa"
+  },
+  {
+    "source": "extracted/resources/Adi421EnvCol1/ADIANI.ITK/MER22.VMD",
+    "file": "mer22.flac",
+    "source_sha256": "060523ea95c4ca279b9f3bfc15bd6d607cae9f1b3eb061c5e5fff591e9c10707",
+    "sha256": "2cad125fc028daa044963ce8b80776f0661418fc4b77749101840098463f909c"
+  },
+  {
+    "source": "extracted/resources/Adi421EnvCol1/INTRO.ITK/A_JUNGLE.VMD",
+    "file": "icon-A_JUNGLE.webp",
+    "source_sha256": "e6ca1c7fd9e66d93686211cb8345d75bad1328e0ac5eed00e80cb2e0301769d6",
+    "sha256": "7df3747289d4bba41c97c29b63eaa4e8d89d521e0831b543cd1ab3b8ff076218"
+  },
+  {
+    "source": "extracted/resources/Adi421EnvCol1/ADIANI.ITK/JUNGLE1.VMD",
+    "file": "jungle1.flac",
+    "source_sha256": "14ce5f7d01a6138f2ff6787b33eb18e9adc14d17088b2c83e9796ccef56b3e86",
+    "sha256": "6958f8a59090c82a092f9af5d4db17ff5a1461da6a6b25e9a7f9c08b8bb263a0"
+  },
+  {
+    "source": "extracted/resources/Adi421EnvCol1/INTRO.ITK/A_PRAIRI.VMD",
+    "file": "icon-A_PRAIRI.webp",
+    "source_sha256": "d869765bda60ab9d6c06666af8162d9e2a687b4febf2cdf8c9965416ca62a701",
+    "sha256": "374bf8b5d6468dda36861f7eb28e8c3ac5c90941fef78072601b22a5c1c6e3cb"
+  },
+  {
+    "source": "extracted/resources/Adi421EnvCol1/ADIANI.ITK/PRAIRIE2.VMD",
+    "file": "prairie2.flac",
+    "source_sha256": "b9421187a53db77482118220574fc7296858011d7f68cda37254487e9b698d46",
+    "sha256": "d0fc08eaf5646a579bc2e4f2811c14bdca7aeb42e0b94b077b7a8b3ff010cf76"
+  },
+  {
+    "source": "extracted/resources/Adi421EnvCol1/INTRO.ITK/A_NUIT.VMD",
+    "file": "icon-A_NUIT.webp",
+    "source_sha256": "d19cd74b23c5970dd0cf2e62c6a449de3677907600181fe7cfc71742e5135ecc",
+    "sha256": "3526816831ad21b5f69aae19d60e567b7cdcf75605f637f52ce47eb9d12b2b73"
+  },
+  {
+    "source": "extracted/resources/Adi421EnvCol1/ADIANI.ITK/NUIT22.VMD",
+    "file": "nuit22.flac",
+    "source_sha256": "146ff08294db696c377ec682d346fcab0872162f800fbfc0dccd95d3fe09a401",
+    "sha256": "86a04b0bb798c5e1bb7b7e4ec55f8cdf34c6d82e19210d6a30ac704376b76228"
+  },
+  {
+    "source": "extracted/resources/Adi421EnvCol1/INTRO.ITK/A_MONTA.VMD",
+    "file": "icon-A_MONTA.webp",
+    "source_sha256": "b8fac760a9d07b8c79237c46ddd689d079f0a5b2e3d7289da5803adff3cbb88c",
+    "sha256": "99dc115da9be9f7c9ff6c6ca7bb5168bd6e4f7070d68c00ed5d2e85c1fdd57a4"
+  },
+  {
+    "source": "extracted/resources/Adi421EnvCol1/ADIANI.ITK/MONTAGNE.VMD",
+    "file": "montagne.flac",
+    "source_sha256": "37ffc375af4fd5d134eec351c4a466690ee10006cfa0326ad52ea7e302e03f40",
+    "sha256": "f6068acde597171aa93334c3e8a49ab38f47f2dcd47fdc1df4bd35dfb6e7adc6"
+  },
+  {
+    "source": "extracted/resources/Adi421EnvCol1/INTRO.ITK/A_FORET.VMD",
+    "file": "icon-A_FORET.webp",
+    "source_sha256": "bb88a96dd5c8e24efc044aef54726535c4b08880cf460933c9f6a496a70b5abc",
+    "sha256": "f615489affdc1757b2a4c4de28d0f6d312c380cecb5664f1242115764023162a"
+  },
+  {
+    "source": "extracted/resources/Adi421EnvCol1/ADIANI.ITK/FOREST2.VMD",
+    "file": "forest2.flac",
+    "source_sha256": "63ceae35482127600a0ff88f3219c3e7fbad1c843cb381ab2c77be7ea41545b0",
+    "sha256": "1f9a3a7311341f1854feb960ac2e70abb284d335793aa87fd1f0a0dcb046eeec"
+  },
+  {
+    "source": "extracted/resources/Adi421EnvCol1/INTRO.ITK/A_PLUIE.VMD",
+    "file": "icon-A_PLUIE.webp",
+    "source_sha256": "4e20b25ef6c7f2a1fb73621f3f5188e66dcd205619b40be5749c42e7f26cd765",
+    "sha256": "73b243cc904408791d1eebed94ccf5b3908396a5be92b001f431fe2bb19d693f"
+  },
+  {
+    "source": "extracted/resources/Adi421EnvCol1/ADIANI.ITK/PLUIE.VMD",
+    "file": "pluie.flac",
+    "source_sha256": "71fac20a074c8f22e9911bd57dd5eb01f8263cc2fbf82e9f14ae64cbe514c147",
+    "sha256": "f09a8aacb3e5a3797dd45ad02b623444d22739d7418af9a894e5704789e92b9e"
+  },
+  {
+    "source": "extracted/resources/Adi421EnvCol1/INTRO.ITK/A_FERME.VMD",
+    "file": "icon-A_FERME.webp",
+    "source_sha256": "83933d657729b3ffd818f3658752100985cf1d6c01fbb7d75f0ebcafc0784036",
+    "sha256": "29b663c4f5c342ca7f273ce761b2c729565cfc3e5cad598a728cc8cd8b5182bf"
+  },
+  {
+    "source": "extracted/resources/Adi421EnvCol1/ADIANI.ITK/FERME.VMD",
+    "file": "ferme.flac",
+    "source_sha256": "791a8112611cc8776381bd0a8a6f8d63642c1a2fe4baf6bed431280132b35489",
+    "sha256": "96c0ac036332029e4accaa35053c89477c2bc0d6f18e730c7104ca2c12ac0120"
+  },
+  {
+    "source": "extracted/resources/Adi421EnvCol1/INTRO.ITK/A_VILLE.VMD",
+    "file": "icon-A_VILLE.webp",
+    "source_sha256": "0f83fe5f6132e2b3f1969df748be6889f0f1bba465315c8a5dfaed64d8852147",
+    "sha256": "0247570bf35a6b2c375cba1ee5218a6beef6704e7a0da5874e7702106456523c"
+  },
+  {
+    "source": "extracted/resources/Adi421EnvCol1/ADIANI.ITK/VILLE.VMD",
+    "file": "ville.flac",
+    "source_sha256": "95104668b97af6886f2692877629f78166e7295cb3a68bec798e75ea3aff60de",
+    "sha256": "64304b3edf955c203fa050a9c21edc9c11a2dab59ddf93a50e70085859c59b7a"
+  },
+  {
+    "source": "extracted/resources/Adi421EnvCol1/INTRO.ITK/A_RIEN.VMD",
+    "file": "icon-A_RIEN.webp",
+    "source_sha256": "0fdc9331e6afb8bfb11d7ea64c3d427885da5e96e66790307fea4f043b7349ec",
+    "sha256": "eca072ac329b1cdf2a600fd16e1b157419b65c2d495233a32525f0e60abd374b"
+  },
+  {
+    "source": "extracted/resources/Adi421EnvCol1/ADIANI.ITK/CMENUJEU.VMD",
+    "file": "crate-panel.webp",
+    "source_sha256": "1a1b42244e520dbbb02eb16071543a80026af7aeeffdcdd973f3a7f77de18293",
+    "sha256": "a032f822128db1eb45f96aa5d70924834e1401c6fd55168f1f5a63ffceda2cd2"
+  },
+  {
+    "source": "extracted/resources/Adi421EnvCol1/ADIANI.ITK/CMENUJEU.VMD",
+    "file": "crate-opening.webp",
+    "source_sha256": "1a1b42244e520dbbb02eb16071543a80026af7aeeffdcdd973f3a7f77de18293",
+    "sha256": "7639eb0d7bb07f050d1e6267967659d29a1a6d953ac6c552f5366b08ba4f27dd"
+  },
+  {
+    "source": "extracted/resources/Adi421EnvCol1/ADIANI.ITK/CMENUJUK.VMD",
+    "file": "radio-panel.webp",
+    "source_sha256": "add245a87c2ed6bb69634ab5ab374d4e606db1f839c8ca679a2d3e9b532ef2dc",
+    "sha256": "f822a88617eb86e3b1fff087ae1fea48bca4b721299df04cc2d903d6c0f7d052"
+  },
+  {
+    "source": "extracted/resources/Adi421EnvCol1/ADIANI.ITK/CMENUJUK.VMD",
+    "file": "radio-opening.webp",
+    "source_sha256": "add245a87c2ed6bb69634ab5ab374d4e606db1f839c8ca679a2d3e9b532ef2dc",
+    "sha256": "3cab277b04260fc809f1af1f7dd96f17706a71cc0651afd1ae6f2a9db14521e8"
+  },
+  {
+    "source": "extracted/resources/Adi421EnvCol1/ENVIR.STK/LIBADI.EXT",
+    "file": "music.webp",
+    "source_sha256": "bf58853b359c9a7f9e39ba4c6edccc52a5ec3b5161f4e221dd3c7e12c96e5e66",
+    "sha256": "fb736835c90d6c3d113ee83cc9446096cd65a86e77eddabd66d0313469b87bd8"
+  },
+  {
+    "source": "extracted/resources/Adi421EnvCol1/ENVIR.STK/LIBADI.EXT",
+    "file": "ambience.webp",
+    "source_sha256": "bf58853b359c9a7f9e39ba4c6edccc52a5ec3b5161f4e221dd3c7e12c96e5e66",
+    "sha256": "4bf88ceb7c6e877cb08cc1102f7b6f297a5d8072b168ca38768f1d3d55306e03"
+  },
+  {
+    "source": "extracted/resources/Adi421EnvCol1/ENVIR.STK/LIBADI.EXT",
+    "file": "scroll-thumb.webp",
+    "source_sha256": "bf58853b359c9a7f9e39ba4c6edccc52a5ec3b5161f4e221dd3c7e12c96e5e66",
+    "sha256": "0b2d0f77e6ff283f661cca35037bb28854e05d7107c194f7e5dd63dd4c3c9dd2"
+  },
+  {
+    "source": "extracted/discs/Adi421EnvCol1/ADI1.TTF",
+    "file": "menu.ttf",
+    "source_sha256": "eb655c72f6629840988e391d49acd7c8631835718ebf135b26dce9a34d6fc01b",
+    "sha256": "eb655c72f6629840988e391d49acd7c8631835718ebf135b26dce9a34d6fc01b"
+  },
+  {
+    "file": "crate-adi.webp",
+    "sha256": "665e43b799426ca364aff636eb31af22a31c4d4947cb66c773872e065ae9f489",
+    "sources": [
+      {
+        "source": "extracted/resources/Adi421EnvCol1/ADIANI.ITK/ADIPZD24.VMD",
+        "sha256": "0d1d3047caf2b5739091f3b2c3e165e87e2473faa2429a46e47adc6d78c73c61"
+      }
+    ]
+  },
+  {
+    "file": "crate-idle-01.webp",
+    "sha256": "575d25d36b7726bbc5ff5e8a354e077aa62230f01d2aeacbdbc33985cc6c549a",
+    "sources": [
+      {
+        "source": "extracted/resources/Adi421EnvCol1/ADIANI.ITK/ADIPZD24.VMD",
+        "sha256": "0d1d3047caf2b5739091f3b2c3e165e87e2473faa2429a46e47adc6d78c73c61"
+      },
+      {
+        "source": "extracted/resources/Adi421EnvCol1/INTRO.ITK/ADIPZD01.VMD",
+        "sha256": "7e4d7b4d7d6134e32eb63445869c2af21d45dfa66b0377e21c1c8dba8c88254d"
+      }
+    ]
+  },
+  {
+    "file": "crate-idle-02.webp",
+    "sha256": "5e79d4c3840c8c02958d8a7a9f777eb64f8eb98d80c2594dcf0ba735ef94f612",
+    "sources": [
+      {
+        "source": "extracted/resources/Adi421EnvCol1/ADIANI.ITK/ADIPZD24.VMD",
+        "sha256": "0d1d3047caf2b5739091f3b2c3e165e87e2473faa2429a46e47adc6d78c73c61"
+      },
+      {
+        "source": "extracted/resources/Adi421EnvCol1/INTRO.ITK/ADIPZD02.VMD",
+        "sha256": "d27f404728e3898557b23f91ea0c700efeb02f5038d7e4800402bef54bd16a90"
+      }
+    ]
+  },
+  {
+    "file": "crate-idle-03.webp",
+    "sha256": "a438ce17b648080400fb4047a054bd16c8126825726aed9486ae3eb613707a47",
+    "sources": [
+      {
+        "source": "extracted/resources/Adi421EnvCol1/ADIANI.ITK/ADIPZD24.VMD",
+        "sha256": "0d1d3047caf2b5739091f3b2c3e165e87e2473faa2429a46e47adc6d78c73c61"
+      },
+      {
+        "source": "extracted/resources/Adi421EnvCol1/INTRO.ITK/ADIPZD03.VMD",
+        "sha256": "ec630132bccfcc9fb69a597c67b0813d6f3f12ce1c10e62f540817d1d8e5eddf"
+      }
+    ]
+  },
+  {
+    "file": "crate-idle-07.webp",
+    "sha256": "9e4adc9545baf63e2044ca0f5dbd50edd9b5ca6973021c71a53ac87152f81680",
+    "sources": [
+      {
+        "source": "extracted/resources/Adi421EnvCol1/ADIANI.ITK/ADIPZD24.VMD",
+        "sha256": "0d1d3047caf2b5739091f3b2c3e165e87e2473faa2429a46e47adc6d78c73c61"
+      },
+      {
+        "source": "extracted/resources/Adi421EnvCol1/INTRO.ITK/ADIPZD07.VMD",
+        "sha256": "96df9aeaa119b9f55efb2f495c9115b59ce3f78f40641a714104c74974a9529d"
+      }
+    ]
+  },
+  {
+    "file": "crate-idle-08.webp",
+    "sha256": "2bc97084bd920c314844cfce71251f5ca896f3e24336187d49c5559bb384f281",
+    "sources": [
+      {
+        "source": "extracted/resources/Adi421EnvCol1/ADIANI.ITK/ADIPZD24.VMD",
+        "sha256": "0d1d3047caf2b5739091f3b2c3e165e87e2473faa2429a46e47adc6d78c73c61"
+      },
+      {
+        "source": "extracted/resources/Adi421EnvCol1/INTRO.ITK/ADIPZD08.VMD",
+        "sha256": "48c67d997e2d06764ec780bc0f64da58ba948e484f2de1ae6a910dc36dd3f86e"
+      }
+    ]
+  },
+  {
+    "file": "crate-idle-15.webp",
+    "sha256": "fb399271ad1b0ba703dc1cabe6ff9a4f99c536e6a1e14692eaf1672873047092",
+    "sources": [
+      {
+        "source": "extracted/resources/Adi421EnvCol1/ADIANI.ITK/ADIPZD24.VMD",
+        "sha256": "0d1d3047caf2b5739091f3b2c3e165e87e2473faa2429a46e47adc6d78c73c61"
+      },
+      {
+        "source": "extracted/resources/Adi421EnvCol1/ADIANI.ITK/ADIPZD15.VMD",
+        "sha256": "6a72de1ac47ea206968605e84be023d69294980deda1c38a4e991660b836c0f4"
+      }
+    ]
+  },
+  {
+    "file": "crate-idle-17.webp",
+    "sha256": "1309868b14dc124127cb27ab7d2efe267da74d694f3dcec398eb45fc67e5eb42",
+    "sources": [
+      {
+        "source": "extracted/resources/Adi421EnvCol1/ADIANI.ITK/ADIPZD24.VMD",
+        "sha256": "0d1d3047caf2b5739091f3b2c3e165e87e2473faa2429a46e47adc6d78c73c61"
+      },
+      {
+        "source": "extracted/resources/Adi421EnvCol1/ADIANI.ITK/ADIPZD17.VMD",
+        "sha256": "4879cfbd93678de1e3909b0737c2c37ff6e4081579217d44ca04875cf07d7358"
+      }
+    ]
+  },
+  {
+    "file": "crate-idle-24-25-26.webp",
+    "sha256": "5da9444961ea4c23155cc89e0da1330318344cb53db5dd1a683ca82ada57bb3e",
+    "sources": [
+      {
+        "source": "extracted/resources/Adi421EnvCol1/ADIANI.ITK/ADIPZD24.VMD",
+        "sha256": "0d1d3047caf2b5739091f3b2c3e165e87e2473faa2429a46e47adc6d78c73c61"
+      },
+      {
+        "source": "extracted/resources/Adi421EnvCol1/ADIANI.ITK/ADIPZD24.VMD",
+        "sha256": "0d1d3047caf2b5739091f3b2c3e165e87e2473faa2429a46e47adc6d78c73c61"
+      },
+      {
+        "source": "extracted/resources/Adi421EnvCol1/ADIANI.ITK/ADIPZD25.VMD",
+        "sha256": "dd1fa3fc961c38ca86eb2b31d9199a2fbb921244f84a44b673f11588b40043f2"
+      },
+      {
+        "source": "extracted/resources/Adi421EnvCol1/ADIANI.ITK/ADIPZD26.VMD",
+        "sha256": "5f217fe97d1a53cec893d0af2e6ca2aa624eb2a1468d5cfc9dfa60d2bdb71f6c"
+      }
+    ]
+  },
+  {
+    "file": "crate-idle-27-28-29.webp",
+    "sha256": "f466896656d465f6a72cfcd26e6e50e3c3d406745fd3de3dc301e3df13b8bb46",
+    "sources": [
+      {
+        "source": "extracted/resources/Adi421EnvCol1/ADIANI.ITK/ADIPZD24.VMD",
+        "sha256": "0d1d3047caf2b5739091f3b2c3e165e87e2473faa2429a46e47adc6d78c73c61"
+      },
+      {
+        "source": "extracted/resources/Adi421EnvCol1/ADIANI.ITK/ADIPZD27.VMD",
+        "sha256": "9fdb543a890b0daff729cb68f49a7b5ddd49f7b898adbe1960f7493301fd0e48"
+      },
+      {
+        "source": "extracted/resources/Adi421EnvCol1/ADIANI.ITK/ADIPZD28.VMD",
+        "sha256": "146e85fb9d19b8dd66981e0f4f26813acd766a8474deb458b97d937c0e6af27c"
+      },
+      {
+        "source": "extracted/resources/Adi421EnvCol1/ADIANI.ITK/ADIPZD29.VMD",
+        "sha256": "eba57b28c72ab282eb3033c295afc64f0284176cee92ccd8c6efa55a3ad60588"
+      }
+    ]
+  },
+  {
+    "file": "radio-adi.webp",
+    "sha256": "6250581e6ab8ed80af06ce0cb8d7301bfc63d1b9d5e2541b0b5667657cc038cc",
+    "sources": [
+      {
+        "source": "extracted/resources/Adi421EnvCol1/INTRO.ITK/ADIPZD56.VMD",
+        "sha256": "bd8ca5b75ae44abe1003ff00add06b26d2d16cf198e119aa98b3c78445723e1d"
+      }
+    ]
+  },
+  {
+    "file": "radio-idle-50.webp",
+    "sha256": "b9f0240088b4b56de5c88db36cd9dc8b27566f6129a08c9ae4d23d1648f504d6",
+    "sources": [
+      {
+        "source": "extracted/resources/Adi421EnvCol1/INTRO.ITK/ADIPZD56.VMD",
+        "sha256": "bd8ca5b75ae44abe1003ff00add06b26d2d16cf198e119aa98b3c78445723e1d"
+      },
+      {
+        "source": "extracted/resources/Adi421EnvCol1/INTRO.ITK/ADIPZD50.VMD",
+        "sha256": "2e825449d19433c09e7501eccf777f262330d1dc8ae0a7b0c8d05b55a42139dd"
+      }
+    ]
+  },
+  {
+    "file": "radio-idle-52.webp",
+    "sha256": "807aa3d14a6c86d5a4aae9ab693351bb5786225a1f17983745da641fe0f4e754",
+    "sources": [
+      {
+        "source": "extracted/resources/Adi421EnvCol1/INTRO.ITK/ADIPZD56.VMD",
+        "sha256": "bd8ca5b75ae44abe1003ff00add06b26d2d16cf198e119aa98b3c78445723e1d"
+      },
+      {
+        "source": "extracted/resources/Adi421EnvCol1/INTRO.ITK/ADIPZD52.VMD",
+        "sha256": "798cb2a468367d1e3e20823ed4c72e2180546f37b95a9a62626113d6c381679c"
+      }
+    ]
+  },
+  {
+    "file": "radio-idle-53.webp",
+    "sha256": "b7c51892ebdc6cf90f520d374e373bb8707ddbc36afd397dffb1066674d72814",
+    "sources": [
+      {
+        "source": "extracted/resources/Adi421EnvCol1/INTRO.ITK/ADIPZD56.VMD",
+        "sha256": "bd8ca5b75ae44abe1003ff00add06b26d2d16cf198e119aa98b3c78445723e1d"
+      },
+      {
+        "source": "extracted/resources/Adi421EnvCol1/INTRO.ITK/ADIPZD53.VMD",
+        "sha256": "4a64c4671d45985eef6b9e33f912c6a7a89464be8168a642aa1f4d3ccea887a3"
+      }
+    ]
+  },
+  {
+    "file": "radio-idle-54.webp",
+    "sha256": "f6af8767a5bbb1f2fe1a1f5e31c81329b6e1a129fdd0fc8aee7a1e1e8b87c69e",
+    "sources": [
+      {
+        "source": "extracted/resources/Adi421EnvCol1/INTRO.ITK/ADIPZD56.VMD",
+        "sha256": "bd8ca5b75ae44abe1003ff00add06b26d2d16cf198e119aa98b3c78445723e1d"
+      },
+      {
+        "source": "extracted/resources/Adi421EnvCol1/INTRO.ITK/ADIPZD54.VMD",
+        "sha256": "36151f2b283ca0f248acce8889121c5ae747920e893a9fd604f802e741c0ad55"
+      }
+    ]
+  },
+  {
+    "file": "radio-idle-56-57-58.webp",
+    "sha256": "36b45450e3fdbcb3ebe7e07a7e56adc4d284100aca01a9cc330b767f7ce48505",
+    "sources": [
+      {
+        "source": "extracted/resources/Adi421EnvCol1/INTRO.ITK/ADIPZD56.VMD",
+        "sha256": "bd8ca5b75ae44abe1003ff00add06b26d2d16cf198e119aa98b3c78445723e1d"
+      },
+      {
+        "source": "extracted/resources/Adi421EnvCol1/INTRO.ITK/ADIPZD56.VMD",
+        "sha256": "bd8ca5b75ae44abe1003ff00add06b26d2d16cf198e119aa98b3c78445723e1d"
+      },
+      {
+        "source": "extracted/resources/Adi421EnvCol1/INTRO.ITK/ADIPZD57.VMD",
+        "sha256": "23eb05e8cbc5ccc5a0eda6f595af0fa2c1fb1ce68d8af903f20f1da13c3e841f"
+      },
+      {
+        "source": "extracted/resources/Adi421EnvCol1/INTRO.ITK/ADIPZD58.VMD",
+        "sha256": "b44593520074499655cc4ba7833f74484772f020a5bb9e2ff2b554f46e57a3ce"
+      }
+    ]
+  }
+]

@@ -1,3 +1,4 @@
+import {startRoomIdle} from './room-idle.js';
 const actions=[
   ['internet','Internet','BARINTER','Les classes virtuelles et les services Internet d’époque ne sont pas disponibles dans cette version locale.'],
   ['science','Les matières','BARAPPLI','Ouvre l’application Sciences et sa station spatiale.'],
@@ -13,7 +14,8 @@ const actions=[
 const objects=[
   {id:'bear',label:'L’ours',rect:[96,297,66,71],clip:'XOURSA',view:24},
   {id:'telescope',label:'Le télescope',rect:[503,188,82,118],clip:'XTELESKA',view:22},
-  {id:'toys',label:'La boîte à jeux',rect:[393,302,108,68],clip:'XJEUXH',view:26},
+  {id:'toys',label:'La caisse de jeux',rect:[393,302,108,68],route:'games'},
+  {id:'radio',label:'La radio',rect:[76,232,50,35],route:'radio'},
   {id:'chest',label:'La malle',rect:[0,366,83,54],clip:'XMALLA',view:7},
   {id:'chair',label:'Le fauteuil',rect:[145,238,73,53],clip:'XFAUTA',view:11},
   {id:'planets',label:'Les planètes',rect:[139,82,140,82],clip:'XPLAND',view:13},
@@ -35,11 +37,14 @@ export async function renderRoom(main,info){
   const root=main.firstElementChild,frame=root.querySelector('.room-frame'),hint=root.querySelector('#room-hint');let help=false;
   const base=frame.querySelector('img'),actor=root.querySelector('.room-actor'),animation=root.querySelector('.room-animation'),regions=root.querySelector('.room-objects');
   const audio=root.querySelector('audio'),back=root.querySelector('#room-back'),detail=root.querySelector('#room-detail'),stop=root.querySelector('#room-stop');
-  let clips={},timer,serial=0,selected=null;
+  let clips={},timer,serial=0,selected=null,idleActor,stopIdle=()=>{};
   const position=(image,clip)=>{image.style.left=`${clip.x/6.4}%`;image.style.top=`${clip.y/4.8}%`;image.style.width=`${clip.width/6.4}%`;image.style.height=`${clip.height/4.8}%`;};
-  const reset=()=>{serial++;clearTimeout(timer);audio.pause();audio.removeAttribute('src');animation.hidden=true;stop.hidden=true;if(clips.ADIPZD12)actor.src='/game/room/ADIPZD12.webp';};
+  const idleBase='/game/room/activities/crate-adi.webp';
+  const resumeIdle=()=>{stopIdle();if(idleActor&&!actor.hidden)stopIdle=startRoomIdle(actor,idleActor,idleBase);};
+  const reset=()=>{serial++;clearTimeout(timer);stopIdle();actor.onload=null;actor.onerror=null;audio.pause();audio.removeAttribute('src');animation.hidden=true;stop.hidden=true;
+    if(clips.ADIPZD12){position(actor,idleActor||clips.ADIPZD12);actor.src=idleActor?idleBase:'/game/room/ADIPZD12.webp';}resumeIdle();};
   const play=(name)=>{
-    reset();const clip=clips[name];if(!clip){hint.textContent='Les animations ne sont pas encore disponibles.';return;}
+    reset();const clip=clips[name];if(!clip){hint.textContent='Les animations ne sont pas encore disponibles.';return;}stopIdle();
     const target=name==='ADIPZD12'?actor:animation,token=serial;position(target,clip);
     target.onload=()=>{if(token!==serial||!root.isConnected)return;target.onload=null;target.hidden=false;stop.hidden=false;
       if(clip.audio){audio.src=`/game/room/${name}.wav`;audio.play().catch(()=>{hint.textContent='Le son n’a pas pu démarrer.';});}
@@ -50,11 +55,12 @@ export async function renderRoom(main,info){
   };
   stop.onclick=reset;
   root.querySelector('#room-outline').onchange=e=>frame.classList.toggle('room-outlines',e.target.checked);
-  back.onclick=()=>{reset();base.src='/game/room/bedroom.webp';base.alt='La chambre originale d’Adi';actor.hidden=!clips.ADIPZD12;regions.hidden=false;back.hidden=true;detail.hidden=!selected;hint.textContent='Choisis un objet ou une activité dans le menu du bas.';};
-  detail.onclick=()=>{if(!selected)return;reset();base.src=`/game/room/image-${selected.view}.webp`;base.alt=selected.label+' — gros plan original';actor.hidden=true;regions.hidden=true;detail.hidden=true;back.hidden=false;hint.textContent=selected.label;};
+  back.onclick=()=>{reset();base.src='/game/room/bedroom.webp';base.alt='La chambre originale d’Adi';actor.hidden=!clips.ADIPZD12;resumeIdle();regions.hidden=false;back.hidden=true;detail.hidden=!selected;hint.textContent='Choisis un objet ou une activité dans le menu du bas.';};
+  detail.onclick=()=>{if(!selected)return;reset();stopIdle();base.src=`/game/room/image-${selected.view}.webp`;base.alt=selected.label+' — gros plan original';actor.hidden=true;regions.hidden=true;detail.hidden=true;back.hidden=false;hint.textContent=selected.label;};
   root.querySelectorAll('[data-room-object]').forEach(button=>button.onclick=()=>{
     const object=objects.find(o=>o.id===button.dataset.roomObject);
-    if(help){hint.textContent=object?`${object.label} : clique pour lancer une animation, puis « Voir de près » pour explorer son décor.`:'Clique sur Adi pour le voir s’animer.';return;}
+    if(help){hint.textContent=object?.route?`${object.label} : clique pour ouvrir son menu.`:object?`${object.label} : clique pour lancer une animation, puis « Voir de près » pour explorer son décor.`:'Clique sur Adi pour le voir s’animer.';return;}
+    if(object?.route){reset();location.hash=object.route;return;}
     selected=object||null;detail.hidden=!selected;hint.textContent=object?object.label:'Adi';play(object?.clip||'ADIPZD12');
   });
   const toggle=root.querySelector('#room-show-toolbar');toggle.onclick=()=>{const open=frame.classList.toggle('toolbar-pinned');toggle.setAttribute('aria-expanded',String(open));toggle.textContent=open?'Masquer les boutons':'Afficher les boutons';};
@@ -74,8 +80,12 @@ export async function renderRoom(main,info){
     };
   });
   try{
-    const response=await fetch('/game/room/clips.json');if(!response.ok)throw new Error('Room assets unavailable');
+    const [response,idleResponse]=await Promise.all([fetch('/game/room/clips.json'),fetch('/game/room/activities/catalog.json')]);if(!response.ok)throw new Error('Room assets unavailable');
     clips=await response.json();if(!root.isConnected)return;
-    position(actor,clips.ADIPZD12);actor.src='/game/room/ADIPZD12.webp';actor.hidden=false;
+    if(idleResponse.ok){const catalog=await idleResponse.json();const standing=catalog.artwork.crateActor;
+      // Same standing VMD coordinates as the crate; remove its close-up offset.
+      idleActor={...standing,x:standing.x+228,y:standing.y+6};}
+    if(!root.isConnected)return;
+    actor.hidden=false;reset();
   }catch{if(root.isConnected)hint.textContent='Le décor est disponible, mais les animations n’ont pas pu être chargées.';}
 }

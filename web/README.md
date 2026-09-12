@@ -1,5 +1,7 @@
 # Base web locale
 
+Déploiement AWS sur `private-deployment` : [commande réutilisable et configuration](../deploy/README.md).
+
 Application statique sans dépendances npm, avec un serveur Node.js local.
 Le téléchargement du squelette Sites n'a pas abouti dans cette session ; aucun
 projet Sites ou service cloud n'a été créé.
@@ -49,7 +51,11 @@ La première activité de la serre est accessible à `#scene/greenhouse`. Géné
 
 ## Chambre et premier jeu Win16
 
-`#room` ouvre la chambre avec son décor natif et six objets animés ; `#games` ouvre la ludothèque. Sokoban (15 niveaux originaux) et WGOB3 sont jouables. Ces ressources sont incluses dans le dépôt ; leur régénération depuis les extractions est facultative. Les autres jeux sont inventoriés mais restent à porter. Voir [la reconstruction de la chambre](../reports/chambre-native.md) et [le rapport chambre et jeux](../reports/chambre-et-jeux.md).
+`#room` ouvre la chambre avec son décor natif. La caisse mène à `#games` : menu original à six vignettes, animation d’ouverture, défilement et filtres Disponibles / À venir / Tous. Sokoban (15 niveaux), WGOB3 et Mr. Matt I sont jouables. Les autres jeux restent à porter. Voir [la reconstruction de la chambre](../reports/chambre-native.md) et [le rapport chambre et jeux](../reports/chambre-et-jeux.md).
+
+La radio de la chambre mène à `#radio` : 17 musiques et 10 ambiances originales, plus le choix du silence. Les sons sont extraits sans perte en FLAC et téléchargés à la sélection. Adi joue neuf séquences d’attente dans la chambre et la caisse, et cinq dans la radio, avec les transitions de posture originales. Dans la chambre, les gestes sont suspendus pendant les animations au clic et les gros plans, puis reprennent au retour. La préférence système de réduction des animations est respectée.
+
+Les ressources de ces menus sont livrées dans `public/game/room/activities/` pour fonctionner sans extraction après clone. Régénération facultative depuis la racine : `/usr/bin/python3 scripts/prepare_room_activities.py` (extractions originales, NumPy, Pillow, FFmpeg). Pour régénérer seulement les gestes : `/usr/bin/python3 scripts/prepare_room_idle.py`. Le serveur statique doit servir `.flac` avec `audio/flac`. Les sources, captures, résultats de décompilation et limites sont dans [le rapport radio et caisse](../reports/radio-et-caisse.md).
 
 ## Goblins 3 / WGOB3
 

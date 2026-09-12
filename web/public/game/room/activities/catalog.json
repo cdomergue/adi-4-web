@@ -1,0 +1,1026 @@
+{
+  "source": "extracted/resources/Adi421EnvCol1/INTRO.STK/MENUEVCO.PFR",
+  "source_sha256": "0d27cb4d3739ddc116baf524da6bffced186186be9ddf2e6e7b8f11e09cc74b2",
+  "music": [
+    {
+      "record": 64,
+      "offset": 19772,
+      "category": 4,
+      "icon": "_ORROR",
+      "title": "Film d'horreur",
+      "target": "HORROR.VMD",
+      "image": "/game/room/activities/icon-_ORROR.webp",
+      "id": "horror",
+      "audio": "/game/room/activities/horror.flac",
+      "duration": 36.61659863945578,
+      "pcm_sha256": "8c2bddf19d1df0478b63046208d004e49e554c46100657a590b1b5fd62776667",
+      "sample_rate": 22050
+    },
+    {
+      "record": 65,
+      "offset": 20080,
+      "category": 4,
+      "icon": "_UNKGROV",
+      "title": "Funk groove",
+      "target": "FUNKGROV.VMD",
+      "image": "/game/room/activities/icon-_UNKGROV.webp",
+      "id": "funkgrov",
+      "audio": "/game/room/activities/funkgrov.flac",
+      "duration": 52.62385487528345,
+      "pcm_sha256": "0bfc041a2272b2c2cf6e963b9838c5ed614fcda863bf8a413b741ed584dc6e53",
+      "sample_rate": 22050
+    },
+    {
+      "record": 66,
+      "offset": 20388,
+      "category": 4,
+      "icon": "_AIVJAZY",
+      "title": "Jazz",
+      "target": "NAIVJAZY.VMD",
+      "image": "/game/room/activities/icon-_AIVJAZY.webp",
+      "id": "naivjazy",
+      "audio": "/game/room/activities/naivjazy.flac",
+      "duration": 56.52548752834467,
+      "pcm_sha256": "070063df9bf9fbab6d9500d75680e828f52b6f6d502509261a9b8b4bf8f13fa6",
+      "sample_rate": 22050
+    },
+    {
+      "record": 67,
+      "offset": 20696,
+      "category": 4,
+      "icon": "_ALSAFUN",
+      "title": "Salsa",
+      "target": "SALSAFUN.VMD",
+      "image": "/game/room/activities/icon-_ALSAFUN.webp",
+      "id": "salsafun",
+      "audio": "/game/room/activities/salsafun.flac",
+      "duration": 49.022222222222226,
+      "pcm_sha256": "d7d962c2b8be69b460f3b0d874270be2a56953d0895d333af4b9923afb0794bb",
+      "sample_rate": 22050
+    },
+    {
+      "record": 68,
+      "offset": 21004,
+      "category": 4,
+      "icon": "_APSCRAT",
+      "title": "Rap",
+      "target": "RAPSCRAT.VMD",
+      "image": "/game/room/activities/icon-_APSCRAT.webp",
+      "id": "rapscrat",
+      "audio": "/game/room/activities/rapscrat.flac",
+      "duration": 54.02448979591837,
+      "pcm_sha256": "baee805f059dc05e744c89f08cd3b15c85b0b8912d201915bf1057720625bedc",
+      "sample_rate": 22050
+    },
+    {
+      "record": 69,
+      "offset": 21312,
+      "category": 4,
+      "icon": "_ENERIK",
+      "title": "Générique",
+      "target": "GENERIK.VMD",
+      "image": "/game/room/activities/icon-_ENERIK.webp",
+      "id": "generik",
+      "audio": "/game/room/activities/generik.flac",
+      "duration": 26.712108843537415,
+      "pcm_sha256": "327ae7db959cbc7841ac7cc48633cfde7319f5ec61b446428e14825c755d5490",
+      "sample_rate": 22050
+    },
+    {
+      "record": 70,
+      "offset": 21620,
+      "category": 4,
+      "icon": "_ARTOON",
+      "title": "Dessin animé",
+      "target": "CARTOON.VMD",
+      "image": "/game/room/activities/icon-_ARTOON.webp",
+      "id": "cartoon",
+      "audio": "/game/room/activities/cartoon.flac",
+      "duration": 39.51791383219955,
+      "pcm_sha256": "6eab9392237176834b19e20c7010f9e5ff1f2334243c522d3582eb06dfcfa85a",
+      "sample_rate": 22050
+    },
+    {
+      "record": 71,
+      "offset": 21928,
+      "category": 4,
+      "icon": "_ECHNO2",
+      "title": "House",
+      "target": "TECHNO2.VMD",
+      "image": "/game/room/activities/icon-_ECHNO2.webp",
+      "id": "techno2",
+      "audio": "/game/room/activities/techno2.flac",
+      "duration": 50.2227664399093,
+      "pcm_sha256": "bc452974af6ae5f17f1b05866000dadb785c166d45ed64d6c0918a856a23b52b",
+      "sample_rate": 22050
+    },
+    {
+      "record": 72,
+      "offset": 22236,
+      "category": 4,
+      "icon": "_ECHRIGO",
+      "title": "Techno rigolo",
+      "target": "TECHRIGO.VMD",
+      "image": "/game/room/activities/icon-_ECHRIGO.webp",
+      "id": "techrigo",
+      "audio": "/game/room/activities/techrigo.flac",
+      "duration": 44.620226757369615,
+      "pcm_sha256": "ee8c009edcec44dfcab053db308c5582f8fc480fa38263c906f6d97f816b12a9",
+      "sample_rate": 22050
+    },
+    {
+      "record": 73,
+      "offset": 22544,
+      "category": 4,
+      "icon": "_EGFUNK",
+      "title": "Funk",
+      "target": "REGFUNK.VMD",
+      "image": "/game/room/activities/icon-_EGFUNK.webp",
+      "id": "regfunk",
+      "audio": "/game/room/activities/regfunk.flac",
+      "duration": 59.82707482993197,
+      "pcm_sha256": "31ba9824bd8a86132e0a4994347cf54daa035f5248cd892252469c999828bdf3",
+      "sample_rate": 22050
+    },
+    {
+      "record": 74,
+      "offset": 22852,
+      "category": 4,
+      "icon": "_EGGAE",
+      "title": "Rasta Reggae",
+      "target": "REGGAE.VMD",
+      "image": "/game/room/activities/icon-_EGGAE.webp",
+      "id": "reggae",
+      "audio": "/game/room/activities/reggae.flac",
+      "duration": 50.42285714285714,
+      "pcm_sha256": "37eef21ccd2edfab27f62ac433c3c88e3c06b5931553408a40322a8afc86fffc",
+      "sample_rate": 22050
+    },
+    {
+      "record": 75,
+      "offset": 23160,
+      "category": 4,
+      "icon": "_FRO",
+      "title": "Musique d'Afrique",
+      "target": "AFRO.VMD",
+      "image": "/game/room/activities/icon-_FRO.webp",
+      "id": "afro",
+      "audio": "/game/room/activities/afro.flac",
+      "duration": 39.91800453514739,
+      "pcm_sha256": "4f155cdea9f247dbcfbac948c09d50b0d29561ffa4876a0896df70b99808af29",
+      "sample_rate": 22050
+    },
+    {
+      "record": 76,
+      "offset": 23468,
+      "category": 4,
+      "icon": "_LAMENCO",
+      "title": "Flamenco",
+      "target": "FLAMENCO.VMD",
+      "image": "/game/room/activities/icon-_LAMENCO.webp",
+      "id": "flamenco",
+      "audio": "/game/room/activities/flamenco.flac",
+      "duration": 42.61927437641723,
+      "pcm_sha256": "e3d01024886b9de975131c7f6579cfda018002b64dd628007947ecf84085a062",
+      "sample_rate": 22050
+    },
+    {
+      "record": 77,
+      "offset": 23776,
+      "category": 4,
+      "icon": "_LUES",
+      "title": "Blues",
+      "target": "BLUES.VMD",
+      "image": "/game/room/activities/icon-_LUES.webp",
+      "id": "blues",
+      "audio": "/game/room/activities/blues.flac",
+      "duration": 56.425396825396824,
+      "pcm_sha256": "42e159b095a7ff45015cae4732cfecb6663652cb9a1180fec948e55ec22bedcb",
+      "sample_rate": 22050
+    },
+    {
+      "record": 78,
+      "offset": 24084,
+      "category": 4,
+      "icon": "_OCKBLUE",
+      "title": "Rock blues",
+      "target": "ROCKBLUE.VMD",
+      "image": "/game/room/activities/icon-_OCKBLUE.webp",
+      "id": "rockblue",
+      "audio": "/game/room/activities/rockblue.flac",
+      "duration": 41.21868480725624,
+      "pcm_sha256": "04e276495c739aab02eba0fd8dde2d969380bcbcb6b27130bbfaf47c969a6339",
+      "sample_rate": 22050
+    },
+    {
+      "record": 79,
+      "offset": 24392,
+      "category": 4,
+      "icon": "_OCKCAR",
+      "title": "Rock rebelle",
+      "target": "ROCKCAR.VMD",
+      "image": "/game/room/activities/icon-_OCKCAR.webp",
+      "id": "rockcar",
+      "audio": "/game/room/activities/rockcar.flac",
+      "duration": 43.21959183673469,
+      "pcm_sha256": "42033124fa288ef8bac010c22f675481114a285167fdf608f7836b7394bf947b",
+      "sample_rate": 22050
+    },
+    {
+      "record": 80,
+      "offset": 24700,
+      "category": 4,
+      "icon": "_OCKGRUN",
+      "title": "Rock Grunge",
+      "target": "ROCKGRUN.VMD",
+      "image": "/game/room/activities/icon-_OCKGRUN.webp",
+      "id": "rockgrun",
+      "audio": "/game/room/activities/rockgrun.flac",
+      "duration": 58.5265306122449,
+      "pcm_sha256": "dd2dbafa7b6c0b049f96b992c444770a2cb0f87de3f90ca891d43f32df2505f5",
+      "sample_rate": 22050
+    }
+  ],
+  "ambience": [
+    {
+      "record": 81,
+      "offset": 25008,
+      "category": 5,
+      "icon": "A_VENT",
+      "title": "Le vent",
+      "target": "VENT1.VMD",
+      "image": "/game/room/activities/icon-A_VENT.webp",
+      "id": "vent1",
+      "audio": "/game/room/activities/vent1.flac",
+      "duration": 35.01587301587302,
+      "pcm_sha256": "df048f1b72cad653bf90479e49a5b86942aa8ba0ed9be10e19d6135027fc2309",
+      "sample_rate": 22050
+    },
+    {
+      "record": 82,
+      "offset": 25316,
+      "category": 5,
+      "icon": "A_MER",
+      "title": "La mer",
+      "target": "MER22.VMD",
+      "image": "/game/room/activities/icon-A_MER.webp",
+      "id": "mer22",
+      "audio": "/game/room/activities/mer22.flac",
+      "duration": 34.11546485260771,
+      "pcm_sha256": "f1b1ace0a33fac3af32977d6ae83143d1a48c243d30a8575769f9d929d7d0238",
+      "sample_rate": 22050
+    },
+    {
+      "record": 83,
+      "offset": 25624,
+      "category": 5,
+      "icon": "A_JUNGLE",
+      "title": "La jungle",
+      "target": "JUNGLE1.VMD",
+      "image": "/game/room/activities/icon-A_JUNGLE.webp",
+      "id": "jungle1",
+      "audio": "/game/room/activities/jungle1.flac",
+      "duration": 31.214149659863946,
+      "pcm_sha256": "2954be94b8b0bbf73b42928991498b66a191b4899531a5a28277a5e7e15929e7",
+      "sample_rate": 22050
+    },
+    {
+      "record": 84,
+      "offset": 25932,
+      "category": 5,
+      "icon": "A_PRAIRI",
+      "title": "La prairie",
+      "target": "PRAIRIE2.VMD",
+      "image": "/game/room/activities/icon-A_PRAIRI.webp",
+      "id": "prairie2",
+      "audio": "/game/room/activities/prairie2.flac",
+      "duration": 31.31419501133787,
+      "pcm_sha256": "8133ec3212ac8ce5b5d8737e6ea8f554e1b97696d86fea90bb995ec238bde95c",
+      "sample_rate": 22050
+    },
+    {
+      "record": 85,
+      "offset": 26240,
+      "category": 5,
+      "icon": "A_NUIT",
+      "title": "La nuit",
+      "target": "NUIT22.VMD",
+      "image": "/game/room/activities/icon-A_NUIT.webp",
+      "id": "nuit22",
+      "audio": "/game/room/activities/nuit22.flac",
+      "duration": 31.114104308390022,
+      "pcm_sha256": "ace6be3712eceda83c7850a072161b150851ec902780f05211be5c35acf19bb7",
+      "sample_rate": 22050
+    },
+    {
+      "record": 86,
+      "offset": 26548,
+      "category": 5,
+      "icon": "A_MONTA",
+      "title": "La montagne",
+      "target": "MONTAGNE.VMD",
+      "image": "/game/room/activities/icon-A_MONTA.webp",
+      "id": "montagne",
+      "audio": "/game/room/activities/montagne.flac",
+      "duration": 31.814421768707483,
+      "pcm_sha256": "e61df70a2c255317a24fef4501eb4f11305288eaf7b64adc90f22a0bc4bb2f58",
+      "sample_rate": 22050
+    },
+    {
+      "record": 87,
+      "offset": 26856,
+      "category": 5,
+      "icon": "A_FORET",
+      "title": "La forêt",
+      "target": "FOREST2.VMD",
+      "image": "/game/room/activities/icon-A_FORET.webp",
+      "id": "forest2",
+      "audio": "/game/room/activities/forest2.flac",
+      "duration": 35.21596371882086,
+      "pcm_sha256": "e320b2424e760451d502200db90298b140904c9b71b017b72481e51ea45422cd",
+      "sample_rate": 22050
+    },
+    {
+      "record": 88,
+      "offset": 27164,
+      "category": 5,
+      "icon": "A_PLUIE",
+      "title": "La pluie",
+      "target": "PLUIE.VMD",
+      "image": "/game/room/activities/icon-A_PLUIE.webp",
+      "id": "pluie",
+      "audio": "/game/room/activities/pluie.flac",
+      "duration": 31.31419501133787,
+      "pcm_sha256": "5e5df7d264278343798d54651c82165488ea72222ceadeba4a616a1b77b56b76",
+      "sample_rate": 22050
+    },
+    {
+      "record": 89,
+      "offset": 27472,
+      "category": 5,
+      "icon": "A_FERME",
+      "title": "La ferme",
+      "target": "FERME.VMD",
+      "image": "/game/room/activities/icon-A_FERME.webp",
+      "id": "ferme",
+      "audio": "/game/room/activities/ferme.flac",
+      "duration": 36.01632653061225,
+      "pcm_sha256": "b5d5d53af08d53a5271d6e7e4c26f3311bc2397731630a6c9cb93da98947837c",
+      "sample_rate": 22050
+    },
+    {
+      "record": 90,
+      "offset": 27780,
+      "category": 5,
+      "icon": "A_VILLE",
+      "title": "La ville",
+      "target": "VILLE.VMD",
+      "image": "/game/room/activities/icon-A_VILLE.webp",
+      "id": "ville",
+      "audio": "/game/room/activities/ville.flac",
+      "duration": 35.8162358276644,
+      "pcm_sha256": "d81f835b1951c4cf372c819db54bd947d225004394ee6b28ff95e275c4103bae",
+      "sample_rate": 22050
+    },
+    {
+      "record": 91,
+      "offset": 28088,
+      "category": 5,
+      "icon": "A_RIEN",
+      "title": "Aucune ambiance",
+      "target": "RIEN.VMD",
+      "image": "/game/room/activities/icon-A_RIEN.webp",
+      "id": "rien"
+    }
+  ],
+  "games": [
+    {
+      "record": 16,
+      "offset": 4988,
+      "category": 3,
+      "icon": "BEEBOP1",
+      "title": "BeeBop I",
+      "target": "<CD>GAMES\\BEEBOP1\\BEEBOP1.EXE 290869 <ME>",
+      "image": "/game/room/activities/icon-BEEBOP1.webp",
+      "id": "beebop1"
+    },
+    {
+      "record": 17,
+      "offset": 5296,
+      "category": 3,
+      "icon": "AZTEC",
+      "title": "Aztec Curse",
+      "target": "<CD>GAMES\\AZTEC\\AZTEC.EXE 290869 <ME>",
+      "image": "/game/room/activities/icon-AZTEC.webp",
+      "id": "aztec"
+    },
+    {
+      "record": 18,
+      "offset": 5604,
+      "category": 3,
+      "icon": "SOKOBAN",
+      "title": "Sokoban",
+      "target": "<CD>GAMES\\SOKOBFR\\SOKOBFR.EXE 290869 <ME>\\SAVEGAME\\SOKOBAN SOKOBFR.HLP",
+      "image": "/game/room/activities/icon-SOKOBAN.webp",
+      "id": "sokobfr"
+    },
+    {
+      "record": 19,
+      "offset": 5912,
+      "category": 3,
+      "icon": "CREEP",
+      "title": "Creep Night",
+      "target": "<CD>GAMES\\CREEPFR\\PINBALL2.EXE 420JOUE08AVEC70ADI964233",
+      "image": "/game/room/activities/icon-CREEP.webp",
+      "id": "pinball2"
+    },
+    {
+      "record": 20,
+      "offset": 6220,
+      "category": 3,
+      "icon": "BT3D_1",
+      "title": "Bad Toys 3D I",
+      "target": "<CD>GAMES\\BT3D\\BT3D_1.EXE 290869 <ME>",
+      "image": "/game/room/activities/icon-BT3D_1.webp",
+      "id": "bt3d_1"
+    },
+    {
+      "record": 21,
+      "offset": 6528,
+      "category": 3,
+      "icon": "LASBLO",
+      "title": "Laser Blocks",
+      "target": "<CD>GAMES\\LASBLO\\LASBLO.EXE 290869 <ME>",
+      "image": "/game/room/activities/icon-LASBLO.webp",
+      "id": "lasblo"
+    },
+    {
+      "record": 22,
+      "offset": 6836,
+      "category": 3,
+      "icon": "INVADE",
+      "title": "Retro Vaders",
+      "target": "<CD>GAMES\\INVADE\\INVADE.EXE 290869 <ME>",
+      "image": "/game/room/activities/icon-INVADE.webp",
+      "id": "invade"
+    },
+    {
+      "record": 23,
+      "offset": 7144,
+      "category": 3,
+      "icon": "GOB2",
+      "title": "Goblins II",
+      "target": "<CD>GAMES\\GOB2\\WGOB2.EXE 290869 <ME>",
+      "image": "/game/room/activities/icon-GOB2.webp",
+      "id": "wgob2"
+    },
+    {
+      "record": 24,
+      "offset": 7452,
+      "category": 3,
+      "icon": "SHIHDAO",
+      "title": "Shih dao",
+      "target": "<CD>GAMES\\SHIHDAO\\SHIHDAO.EXE 290869 <ME>",
+      "image": "/game/room/activities/icon-SHIHDAO.webp",
+      "id": "shihdao"
+    },
+    {
+      "record": 25,
+      "offset": 7760,
+      "category": 3,
+      "icon": "PLACE",
+      "title": "Place Ball",
+      "target": "<CD>GAMES\\PLACEBFR\\PLACEBFR.EXE 290869 <ME>\\SAVEGAME\\PLACEBAL PLACEBFR.HLP",
+      "image": "/game/room/activities/icon-PLACE.webp",
+      "id": "placebfr"
+    },
+    {
+      "record": 26,
+      "offset": 8068,
+      "category": 3,
+      "icon": "BACKGAM",
+      "title": "Backgammon",
+      "target": "<CD>GAMES\\BACKGFR\\BACKGFR.EXE 290869 <ME>\\SAVEGAME\\BACKGAM BACKGFR.HLP",
+      "image": "/game/room/activities/icon-BACKGAM.webp",
+      "id": "backgfr"
+    },
+    {
+      "record": 27,
+      "offset": 8376,
+      "category": 3,
+      "icon": "JUPITER",
+      "title": "Jupiter en danger",
+      "target": "<CD>GAMES\\JUPITER\\JUPITER.EXE",
+      "image": "/game/room/activities/icon-JUPITER.webp",
+      "id": "jupiter"
+    },
+    {
+      "record": 28,
+      "offset": 8684,
+      "category": 3,
+      "icon": "SCRAM",
+      "title": "Rocket Scrambler",
+      "target": "<CD>GAMES\\SCRAM\\SCRAM.EXE 290869 <ME>\\",
+      "image": "/game/room/activities/icon-SCRAM.webp",
+      "id": "scram"
+    },
+    {
+      "record": 29,
+      "offset": 8992,
+      "category": 3,
+      "icon": "SHIHDAO",
+      "title": "Shih dao",
+      "target": "<CD>GAMES\\SHIHDAO\\SHIHDAO.EXE 290869 <ME>",
+      "image": "/game/room/activities/icon-SHIHDAO.webp",
+      "id": "shihdao"
+    },
+    {
+      "record": 30,
+      "offset": 9300,
+      "category": 3,
+      "icon": "REVOLU",
+      "title": "Révolution",
+      "target": "<CD>GAMES\\REVOLUT\\REVOLUT.EXE 290869 <ME>",
+      "image": "/game/room/activities/icon-REVOLU.webp",
+      "id": "revolut"
+    },
+    {
+      "record": 31,
+      "offset": 9608,
+      "category": 3,
+      "icon": "GOB3",
+      "title": "Goblins III",
+      "target": "<CD>GAMES\\GOB3\\WGOB3.EXE 290869 <ME>",
+      "image": "/game/room/activities/icon-GOB3.webp",
+      "id": "wgob3"
+    },
+    {
+      "record": 32,
+      "offset": 9916,
+      "category": 3,
+      "icon": "BILLFRA",
+      "title": "Billard français",
+      "target": "<CD>GAMES\\BILLFRA\\BILLFRA.EXE 420JOUE08AVEC70ADI964233 1",
+      "image": "/game/room/activities/icon-BILLFRA.webp",
+      "id": "billfra"
+    },
+    {
+      "record": 33,
+      "offset": 10224,
+      "category": 3,
+      "icon": "FILLER",
+      "title": "Filler",
+      "target": "<CD>GAMES\\FILLER\\FILLER.EXE 290869 <ME>",
+      "image": "/game/room/activities/icon-FILLER.webp",
+      "id": "filler"
+    },
+    {
+      "record": 34,
+      "offset": 10532,
+      "category": 3,
+      "icon": "BT3D_2",
+      "title": "Bad Toys 3D II",
+      "target": "<CD>GAMES\\BT3D\\BT3D_2.EXE 290869 <ME>",
+      "image": "/game/room/activities/icon-BT3D_2.webp",
+      "id": "bt3d_2"
+    },
+    {
+      "record": 35,
+      "offset": 10840,
+      "category": 3,
+      "icon": "LAST3",
+      "title": "Last III",
+      "target": "<CD>GAMES\\LASTADI\\LASTADI.EXE 290869 <ME> 2",
+      "image": "/game/room/activities/icon-LAST3.webp",
+      "id": "lastadi"
+    },
+    {
+      "record": 36,
+      "offset": 11148,
+      "category": 3,
+      "icon": "MRMATT2",
+      "title": "Mr Matt2",
+      "target": "<CD>GAMES\\MRMATT2\\MRMATT2.EXE 290869 <ME>",
+      "image": "/game/room/activities/icon-MRMATT2.webp",
+      "id": "mrmatt2"
+    },
+    {
+      "record": 37,
+      "offset": 11456,
+      "category": 3,
+      "icon": "CHESS",
+      "title": "Chess",
+      "target": "<CD>GAMES\\CHESSFR\\CHESSFR.EXE 290869 <ME>\\SAVEGAME\\CHESS CHESSFR.HLP",
+      "image": "/game/room/activities/icon-CHESS.webp",
+      "id": "chessfr"
+    },
+    {
+      "record": 38,
+      "offset": 11764,
+      "category": 3,
+      "icon": "NUCLEON",
+      "title": "Nucléon",
+      "target": "<CD>GAMES\\NUCLEOFR\\NUCLEOFR.EXE 290869 <ME>\\SAVEGAME\\NUCLEON NUCLEOFR.HLP",
+      "image": "/game/room/activities/icon-NUCLEON.webp",
+      "id": "nucleofr"
+    },
+    {
+      "record": 39,
+      "offset": 12072,
+      "category": 3,
+      "icon": "BEEBOP2",
+      "title": "Beebop II partie 1",
+      "target": "<CD>GAMES\\BEEBOP2\\BEEBOP2.EXE 290869 <ME>",
+      "image": "/game/room/activities/icon-BEEBOP2.webp",
+      "id": "beebop2"
+    },
+    {
+      "record": 40,
+      "offset": 12380,
+      "category": 3,
+      "icon": "BEEBOP2",
+      "title": "Beebop II partie 2",
+      "target": "<CD>GAMES\\BEEBOP2\\BEEBOP2.EXE 290869 <ME> D",
+      "image": "/game/room/activities/icon-BEEBOP2.webp",
+      "id": "beebop2"
+    },
+    {
+      "record": 41,
+      "offset": 12688,
+      "category": 3,
+      "icon": "PLACE",
+      "title": "Place Ball",
+      "target": "<CD>GAMES\\PLACEBFR\\PLACEBFR.EXE 290869 <ME>\\SAVEGAME\\PLACEBAL PLACEBFR.HLP",
+      "image": "/game/room/activities/icon-PLACE.webp",
+      "id": "placebfr"
+    },
+    {
+      "record": 42,
+      "offset": 12996,
+      "category": 3,
+      "icon": "BT3D_3",
+      "title": "Bad Toys 3D III",
+      "target": "<CD>GAMES\\BT3D\\BT3D_3.EXE 290869 <ME>",
+      "image": "/game/room/activities/icon-BT3D_3.webp",
+      "id": "bt3d_3"
+    },
+    {
+      "record": 43,
+      "offset": 13304,
+      "category": 3,
+      "icon": "CREEP",
+      "title": "Creep Night",
+      "target": "<CD>GAMES\\CREEPFR\\PINBALL2.EXE 420JOUE08AVEC70ADI964233",
+      "image": "/game/room/activities/icon-CREEP.webp",
+      "id": "pinball2"
+    },
+    {
+      "record": 44,
+      "offset": 13612,
+      "category": 3,
+      "icon": "LASBLO",
+      "title": "Laser Blocks",
+      "target": "<CD>GAMES\\LASBLO\\LASBLO.EXE 290869 <ME>",
+      "image": "/game/room/activities/icon-LASBLO.webp",
+      "id": "lasblo"
+    },
+    {
+      "record": 45,
+      "offset": 13920,
+      "category": 3,
+      "icon": "FRUSTR",
+      "title": "Frustration",
+      "target": "<CD>GAMES\\FRUSTR\\FRUSTR.EXE 290869 <ME>",
+      "image": "/game/room/activities/icon-FRUSTR.webp",
+      "id": "frustr"
+    },
+    {
+      "record": 46,
+      "offset": 14228,
+      "category": 3,
+      "icon": "MRMATT1",
+      "title": "Mr Matt 1",
+      "target": "<CD>GAMES\\MRMATT1\\MRMATT1.EXE 290869 <ME>",
+      "image": "/game/room/activities/icon-MRMATT1.webp",
+      "id": "mrmatt1"
+    },
+    {
+      "record": 47,
+      "offset": 14536,
+      "category": 3,
+      "icon": "GOB1",
+      "title": "Goblins I",
+      "target": "<CD>GAMES\\GOB1\\WGOB1.EXE 290869 <ME>",
+      "image": "/game/room/activities/icon-GOB1.webp",
+      "id": "wgob1"
+    },
+    {
+      "record": 48,
+      "offset": 14844,
+      "category": 3,
+      "icon": "SOLIT",
+      "title": "Solitaire",
+      "target": "<CD>GAMES\\SOLITFR\\SOLITFR.EXE 290869 <ME>\\SAVEGAME\\SOLITAIR SOLITFR.HLP",
+      "image": "/game/room/activities/icon-SOLIT.webp",
+      "id": "solitfr"
+    },
+    {
+      "record": 49,
+      "offset": 15152,
+      "category": 3,
+      "icon": "SCRAM",
+      "title": "Rocket Scrambler",
+      "target": "<CD>GAMES\\SCRAM\\SCRAM.EXE 290869 <ME>\\",
+      "image": "/game/room/activities/icon-SCRAM.webp",
+      "id": "scram"
+    },
+    {
+      "record": 50,
+      "offset": 15460,
+      "category": 3,
+      "icon": "JUPITER",
+      "title": "Jupiter en danger",
+      "target": "<CD>GAMES\\JUPITER\\JUPITER.EXE",
+      "image": "/game/room/activities/icon-JUPITER.webp",
+      "id": "jupiter"
+    },
+    {
+      "record": 51,
+      "offset": 15768,
+      "category": 3,
+      "icon": "T4",
+      "title": "T4",
+      "target": "<CD>GAMES\\T4\\T4.EXE 290869 <ME>",
+      "image": "/game/room/activities/icon-T4.webp",
+      "id": "t4"
+    },
+    {
+      "record": 52,
+      "offset": 16076,
+      "category": 3,
+      "icon": "BEEBOP2",
+      "title": "Beebop II partie 2",
+      "target": "<CD>GAMES\\BEEBOP2\\BEEBOP2.EXE 290869 <ME> D",
+      "image": "/game/room/activities/icon-BEEBOP2.webp",
+      "id": "beebop2"
+    },
+    {
+      "record": 53,
+      "offset": 16384,
+      "category": 3,
+      "icon": "BILLFRA",
+      "title": "Billard français",
+      "target": "<CD>GAMES\\BILLFRA\\BILLFRA.EXE 420JOUE08AVEC70ADI964233 1",
+      "image": "/game/room/activities/icon-BILLFRA.webp",
+      "id": "billfra"
+    },
+    {
+      "record": 54,
+      "offset": 16692,
+      "category": 3,
+      "icon": "AZTEC",
+      "title": "Aztec Curse",
+      "target": "<CD>GAMES\\AZTEC\\AZTEC.EXE 290869 <ME>",
+      "image": "/game/room/activities/icon-AZTEC.webp",
+      "id": "aztec"
+    },
+    {
+      "record": 55,
+      "offset": 17000,
+      "category": 3,
+      "icon": "GOB3",
+      "title": "Goblins 3",
+      "target": "<CD>GAMES\\GOB3\\WGOB3.EXE 290869 <ME>",
+      "image": "/game/room/activities/icon-GOB3.webp",
+      "id": "wgob3"
+    },
+    {
+      "record": 56,
+      "offset": 17308,
+      "category": 3,
+      "icon": "BT3D_4",
+      "title": "Bad Toys 3D IV",
+      "target": "<CD>GAMES\\BT3D\\BT3D_4.EXE 290869 <ME>",
+      "image": "/game/room/activities/icon-BT3D_4.webp",
+      "id": "bt3d_4"
+    },
+    {
+      "record": 57,
+      "offset": 17616,
+      "category": 3,
+      "icon": "MRMATT2",
+      "title": "Mr Matt2",
+      "target": "<CD>GAMES\\MRMATT2\\MRMATT2.EXE 290869 <ME>",
+      "image": "/game/room/activities/icon-MRMATT2.webp",
+      "id": "mrmatt2"
+    },
+    {
+      "record": 58,
+      "offset": 17924,
+      "category": 3,
+      "icon": "SOKOBAN",
+      "title": "Sokoban",
+      "target": "<CD>GAMES\\SOKOBFR\\SOKOBFR.EXE 290869 <ME>\\SAVEGAME\\SOKOBAN SOKOBFR.HLP",
+      "image": "/game/room/activities/icon-SOKOBAN.webp",
+      "id": "sokobfr"
+    },
+    {
+      "record": 59,
+      "offset": 18232,
+      "category": 3,
+      "icon": "LAST4",
+      "title": "Last IV",
+      "target": "<CD>GAMES\\LASTADI\\LASTADI.EXE 290869 <ME> 3",
+      "image": "/game/room/activities/icon-LAST4.webp",
+      "id": "lastadi"
+    },
+    {
+      "record": 60,
+      "offset": 18540,
+      "category": 3,
+      "icon": "REVOLU",
+      "title": "Révolution",
+      "target": "<CD>GAMES\\REVOLUT\\REVOLUT.EXE 290869 <ME>",
+      "image": "/game/room/activities/icon-REVOLU.webp",
+      "id": "revolut"
+    },
+    {
+      "record": 61,
+      "offset": 18848,
+      "category": 3,
+      "icon": "QUAD",
+      "title": "Quad Stones",
+      "target": "<CD>GAMES\\QUADSTFR\\QUADSTFR.EXE 290869 <ME>\\SAVEGAME\\QUADSTON QUADSTFR.HLP",
+      "image": "/game/room/activities/icon-QUAD.webp",
+      "id": "quadstfr"
+    },
+    {
+      "record": 62,
+      "offset": 19156,
+      "category": 3,
+      "icon": "INVADE",
+      "title": "Retro Vaders",
+      "target": "<CD>GAMES\\INVADE\\INVADE.EXE 290869 <ME>",
+      "image": "/game/room/activities/icon-INVADE.webp",
+      "id": "invade"
+    },
+    {
+      "record": 63,
+      "offset": 19464,
+      "category": 3,
+      "icon": "CHESS",
+      "title": "Chess",
+      "target": "<CD>GAMES\\CHESSFR\\CHESSFR.EXE 290869 <ME>\\SAVEGAME\\CHESS CHESSFR.HLP",
+      "image": "/game/room/activities/icon-CHESS.webp",
+      "id": "chessfr"
+    }
+  ],
+  "artwork": {
+    "crate": {
+      "x": 209,
+      "y": 22,
+      "width": 431,
+      "height": 356
+    },
+    "crateActor": {
+      "x": 10,
+      "y": 180,
+      "width": 124,
+      "height": 222,
+      "idle": [
+        {
+          "file": "crate-idle-01.webp",
+          "duration": 913,
+          "frames": 11,
+          "clips": [
+            "ADIPZD01"
+          ]
+        },
+        {
+          "file": "crate-idle-02.webp",
+          "duration": 1992,
+          "frames": 24,
+          "clips": [
+            "ADIPZD02"
+          ]
+        },
+        {
+          "file": "crate-idle-03.webp",
+          "duration": 2573,
+          "frames": 31,
+          "clips": [
+            "ADIPZD03"
+          ]
+        },
+        {
+          "file": "crate-idle-07.webp",
+          "duration": 2822,
+          "frames": 34,
+          "clips": [
+            "ADIPZD07"
+          ]
+        },
+        {
+          "file": "crate-idle-08.webp",
+          "duration": 1743,
+          "frames": 21,
+          "clips": [
+            "ADIPZD08"
+          ]
+        },
+        {
+          "file": "crate-idle-15.webp",
+          "duration": 6059,
+          "frames": 73,
+          "clips": [
+            "ADIPZD15"
+          ]
+        },
+        {
+          "file": "crate-idle-17.webp",
+          "duration": 3984,
+          "frames": 48,
+          "clips": [
+            "ADIPZD17"
+          ]
+        },
+        {
+          "file": "crate-idle-24-25-26.webp",
+          "duration": 6806,
+          "frames": 82,
+          "clips": [
+            "ADIPZD24",
+            "ADIPZD25",
+            "ADIPZD26"
+          ]
+        },
+        {
+          "file": "crate-idle-27-28-29.webp",
+          "duration": 5478,
+          "frames": 66,
+          "clips": [
+            "ADIPZD27",
+            "ADIPZD28",
+            "ADIPZD29"
+          ]
+        }
+      ]
+    },
+    "radio": {
+      "x": 189,
+      "y": 0,
+      "width": 447,
+      "height": 353
+    },
+    "radioActor": {
+      "x": 96,
+      "y": 308,
+      "width": 103,
+      "height": 142,
+      "idle": [
+        {
+          "file": "radio-idle-50.webp",
+          "duration": 1743,
+          "frames": 21,
+          "clips": [
+            "ADIPZD50"
+          ]
+        },
+        {
+          "file": "radio-idle-52.webp",
+          "duration": 1577,
+          "frames": 19,
+          "clips": [
+            "ADIPZD52"
+          ]
+        },
+        {
+          "file": "radio-idle-53.webp",
+          "duration": 1992,
+          "frames": 24,
+          "clips": [
+            "ADIPZD53"
+          ]
+        },
+        {
+          "file": "radio-idle-54.webp",
+          "duration": 1743,
+          "frames": 21,
+          "clips": [
+            "ADIPZD54"
+          ]
+        },
+        {
+          "file": "radio-idle-56-57-58.webp",
+          "duration": 3818,
+          "frames": 46,
+          "clips": [
+            "ADIPZD56",
+            "ADIPZD57",
+            "ADIPZD58"
+          ]
+        }
+      ]
+    }
+  }
+}

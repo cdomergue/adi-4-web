@@ -2,8 +2,10 @@ import {scenes, renderScene} from './scenes.js';
 import {renderGreenhouse} from './greenhouse.js';
 import {renderSimulations,renderSimulation} from './simulations.js';
 import {renderEncyclopedia,showOriginalMedia} from './encyclopedia.js';
+import {parseOriginalLink,findOriginalDefinition} from './course-links.js';
 import {renderRoom} from './room.js';
 import {renderGames} from './games.js';
+import {renderRoomActivity} from './room-activities.js';
 import {renderSokoban} from './sokoban.js';
 import {renderWGob3} from './wgob3.js';
 import {renderMrMatt} from './mrmatt1.js';
@@ -122,7 +124,15 @@ function reader(course, pageKey = course.page, anchor = '') {
       if (target !== pageKey) pageHistory.push(pageKey);
       reader(course, target, link.dataset.anchor);
     } else if (link.dataset.media) {
-      showOriginalMedia(link.dataset.media,pageKey.split('/')[0],info,(target,anchor)=>{
+      const reference=parseOriginalLink(link.dataset.media);
+      if(reference.type===7){
+        const definition=findOriginalDefinition(catalog.dictionary,reference.id);
+        info(link.textContent.trim()||'Le dictionnaire d’Adi',definition===null
+          ? '<p>Cette définition originale n’a pas encore été retrouvée.</p>'
+          : `<p>${escape(definition)}</p>`);
+        return;
+      }
+      showOriginalMedia(reference.id,pageKey.split('/')[0],info,(target,anchor)=>{
         if(!catalog.pages[target]){info('Complément','<p>Cette page est introuvable.</p>');return;}
         pageHistory.push(pageKey);reader(course,target,anchor);
       }).catch(()=>info('Complément multimédia','<p>Le média est indisponible.</p>'));
@@ -167,6 +177,7 @@ function route() {
   else if (hash === 'science') science();
   else if (hash === 'notebook') notebook();
   else if (hash === 'games') {renderGames(main,info);active='room';}
+  else if (hash === 'radio') {renderRoomActivity(main,'radio',info);active='room';}
   else if (hash === 'game/sokoban') {renderSokoban(main);active='room';}
   else if (hash === 'game/wgob3') {renderWGob3(main);active='room';}
   else if (hash === 'game/mrmatt1') {renderMrMatt(main);active='room';}

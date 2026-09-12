@@ -1,9 +1,10 @@
+import {parseOriginalLink} from './course-links.js';
 const esc=value=>String(value??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const normalize=s=>s.normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase();
 let cached;
 async function entries(){if(!cached)cached=fetch('/game/encyclopedia/index.json').then(r=>{if(!r.ok)throw new Error('Missing encyclopedia');return r.json();}).catch(e=>{cached=null;throw e;});return cached;}
 export async function showOriginalMedia(id,disc,info,openPage) {
-  const index=await entries();const code=id.toUpperCase();const entry=index[`${disc}/${code}`]||Object.values(index).find(e=>e.id===code);
+  const index=await entries();const {id:code}=parseOriginalLink(id);const entry=index[`${disc}/${code}`];
   if(!entry){info('Complément multimédia','<p>Ce média original n’a pas encore été identifié.</p>');return;}
   if(entry.page){document.querySelector('#info-dialog')?.close();openPage(entry.page,entry.anchor);return;}
   if(entry.route){document.querySelector('#info-dialog')?.close();location.hash=entry.route;return;}
