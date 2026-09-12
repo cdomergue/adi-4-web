@@ -29,9 +29,11 @@ web/
         ambient.js                ancien prototype, remplacé dans la chambre
       science/
         scenes.js                 décors et zones cliquables
-        simulations.js            interfaces des simulations
+        simulations.js            catalogue et entrée commune des 14 expériences
+        simulations/*.js          commandes et particularités de chaque expérience
+        simulation-view.js        scènes, panneaux, voix, réglages et défis partagés
+        interaction-model.js      rectangles natifs, visibilité et réglages par cas
         simulation-engine.js      adaptation des calculs aux objets extraits
-        greenhouse.js             interface de la serre
         greenhouse-rules.js       règles et validation de la serre
         generated/                calculs issus des scripts originaux
       games/

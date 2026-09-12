@@ -80,7 +80,8 @@
     padding: 4px;
   }
 }
-.greenhouse-toolbar {
+.greenhouse-toolbar,
+.simulation-toolbar {
   display: flex;
   gap: 20px;
   align-items: center;
@@ -88,71 +89,23 @@
   margin: 20px 0;
 }
 .greenhouse-toolbar label,
-.greenhouse-controls label {
+.simulation-toolbar label,
+.simulation-controls label {
   display: flex;
   gap: 8px;
   align-items: center;
 }
-.greenhouse-controls {
+.simulation-controls {
   display: flex;
   flex-wrap: wrap;
   gap: 16px;
   margin: 24px 0;
   align-items: end;
 }
-.greenhouse-controls label {
+.simulation-controls label {
   flex-direction: column;
   align-items: stretch;
   flex: 1 1 170px;
-}
-#greenhouse select {
-  padding: 10px;
-  background: #12292e;
-  color: #fff;
-  border: 1px solid #67969b;
-  border-radius: 8px;
-  max-width: 100%;
-}
-.greenhouse-frame .scene-hotspot {
-  padding: 0;
-  background: transparent;
-  cursor: pointer;
-  border-radius: 5px;
-}
-.greenhouse-frame .scene-hotspot[aria-pressed='true'] {
-  border-color: #b8eee0;
-  box-shadow: 0 0 6px #b8eee0;
-}
-.greenhouse-frame .scene-hotspot span {
-  position: absolute;
-  bottom: 100%;
-  white-space: nowrap;
-  pointer-events: none;
-}
-.greenhouse-frame .scene-hotspot:hover,
-.greenhouse-frame .scene-hotspot:focus-visible {
-  z-index: 2;
-}
-#greenhouse-result {
-  padding: 16px;
-  background: #12292e;
-  border-left: 3px solid #b8eee0;
-}
-#greenhouse summary {
-  cursor: pointer;
-  padding: 12px 0;
-}
-.scene-frame > img.greenhouse-layer {
-  position: absolute;
-  object-fit: fill;
-  pointer-events: none;
-}
-.greenhouse-frame .scene-hotspot {
-  z-index: 10;
-}
-.greenhouse-frame .scene-hotspot:hover,
-.greenhouse-frame .scene-hotspot:focus-visible {
-  z-index: 11;
 }
 .simulation-grid {
   display: grid;
@@ -189,6 +142,103 @@
 .simulation-frame .scene-hotspot {
   background: transparent;
   cursor: pointer;
+}
+.simulation-targets {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+}
+.simulation-frame .simulation-target {
+  pointer-events: auto;
+  padding: 0;
+  min-width: 0;
+  min-height: 0;
+  box-sizing: border-box;
+  border: 1px solid transparent;
+  border-radius: 0;
+  touch-action: manipulation;
+}
+.simulation-target[aria-pressed='true'] {
+  box-shadow: inset 0 0 0 1px #b8eee0a8;
+}
+.simulation-frame .simulation-target:hover,
+.simulation-frame .simulation-target:focus-visible {
+  border-color: #d8fff5;
+  background: #c7fff225;
+  outline: 2px solid #081525;
+  outline-offset: 1px;
+  z-index: 2;
+}
+.show-targets .simulation-target {
+  border-color: #b8eee0;
+  background: #c7fff222;
+}
+.simulation-pointer {
+  min-height: 2.8em;
+  padding: 10px 12px;
+  background: #12292e;
+  border-left: 3px solid #b8eee0;
+}
+.simulation-extra {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+.simulation-panel {
+  position: absolute;
+  z-index: 10;
+  width: 42%;
+  max-height: 50%;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  padding: 12px;
+  box-sizing: border-box;
+  background: #0b202bf5;
+  border: 2px solid #b8eee0;
+  border-radius: 8px;
+  box-shadow: 0 8px 24px #000c;
+}
+.simulation-panel[hidden] { display: none; }
+.simulation-panel-heading {
+  display: flex;
+  align-items: start;
+  gap: 8px;
+  justify-content: space-between;
+  margin-bottom: 12px;
+}
+.simulation-panel h2 {
+  font-size: clamp(14px, 2vw, 19px);
+  margin: 0;
+}
+.simulation-options {
+  display: grid;
+  gap: 8px;
+}
+.simulation-panel button {
+  font: inherit;
+  color: #fff;
+  background: #163b47;
+  border: 1px solid #67969b;
+  border-radius: 5px;
+  padding: 9px;
+  cursor: pointer;
+  text-align: left;
+}
+.simulation-panel button[aria-pressed='true'],
+.simulation-panel button:hover,
+.simulation-panel button:focus-visible {
+  background: #26545e;
+  border-color: #d8fff5;
+}
+.simulation-settings { margin-bottom: 16px; }
+@media (max-width: 550px) {
+  .simulation-panel {
+    left: 2% !important;
+    top: 4% !important;
+    width: 96%;
+    max-height: 92%;
+  }
+  .simulation-panel button { padding: 10px; }
 }
 .simulation-observations {
   display: grid;

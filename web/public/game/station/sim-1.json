@@ -21,14 +21,16 @@
           "value": 1,
           "label": "bactéries lactiques",
           "visual": "01D10001",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 2,
           "value": 2,
           "label": "présure",
           "visual": "01D10002",
-          "audio": null
+          "audio": null,
+          "zones": []
         }
       ],
       "hints": {
@@ -56,42 +58,48 @@
           "value": 1,
           "label": "par filtration",
           "visual": "01D20001",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 2,
           "value": 2,
           "label": "lent",
           "visual": "01D20002",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 3,
           "value": 3,
           "label": "accéléré",
           "visual": "01D20003",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 4,
           "value": 4,
           "label": "accéléré+broyage",
           "visual": "01D20004",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 5,
           "value": 5,
           "label": "accéléré+cuisson",
           "visual": "01D20005",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 6,
           "value": 6,
           "label": "aucun",
           "visual": "01D20006",
-          "audio": null
+          "audio": null,
+          "zones": []
         }
       ],
       "hints": {
@@ -119,35 +127,40 @@
           "value": 1,
           "label": "aucun",
           "visual": "01D30001",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 2,
           "value": 2,
           "label": "croûte moisie",
           "visual": "01D30002",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 3,
           "value": 3,
           "label": "croûte lavée",
           "visual": "01D30003",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 4,
           "value": 4,
           "label": "trous",
           "visual": "01D30004",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 5,
           "value": 5,
           "label": "moisissure interne",
           "visual": "01D30005",
-          "audio": null
+          "audio": null,
+          "zones": []
         }
       ],
       "hints": {
@@ -175,14 +188,16 @@
           "value": 1,
           "label": "bactéries lactiques",
           "visual": "01D40001",
-          "audio": "/game/station/01W40001.wav"
+          "audio": "/game/station/01W40001.wav",
+          "zones": []
         },
         {
           "id": 2,
           "value": 2,
           "label": "présure",
           "visual": "01D40002",
-          "audio": "/game/station/01W40002.wav"
+          "audio": "/game/station/01W40002.wav",
+          "zones": []
         }
       ],
       "hints": {
@@ -210,42 +225,48 @@
           "value": 1,
           "label": "par filtration",
           "visual": "01D50001",
-          "audio": "/game/station/01W50001.wav"
+          "audio": "/game/station/01W50001.wav",
+          "zones": []
         },
         {
           "id": 2,
           "value": 2,
           "label": "lent",
           "visual": "01D50002",
-          "audio": "/game/station/01W50002.wav"
+          "audio": "/game/station/01W50002.wav",
+          "zones": []
         },
         {
           "id": 3,
           "value": 3,
           "label": "accéléré",
           "visual": "01D50003",
-          "audio": "/game/station/01W50003.wav"
+          "audio": "/game/station/01W50003.wav",
+          "zones": []
         },
         {
           "id": 4,
           "value": 4,
           "label": "accéléré+broyage",
           "visual": "01D50004",
-          "audio": "/game/station/01W50004.wav"
+          "audio": "/game/station/01W50004.wav",
+          "zones": []
         },
         {
           "id": 5,
           "value": 5,
           "label": "accéléré+cuisson",
           "visual": "01D50005",
-          "audio": "/game/station/01W50005.wav"
+          "audio": "/game/station/01W50005.wav",
+          "zones": []
         },
         {
           "id": 6,
           "value": 6,
           "label": "aucun",
           "visual": "VIDE_DF",
-          "audio": null
+          "audio": null,
+          "zones": []
         }
       ],
       "hints": {
@@ -273,91 +294,104 @@
           "value": 1,
           "label": "Fromage blanc",
           "visual": "01D70001",
-          "audio": "/game/station/01W70001.wav"
+          "audio": "/game/station/01W70001.wav",
+          "zones": []
         },
         {
           "id": 2,
           "value": 2,
           "label": "Camembert",
           "visual": "01D70002",
-          "audio": "/game/station/01W70002.wav"
+          "audio": "/game/station/01W70002.wav",
+          "zones": []
         },
         {
           "id": 3,
           "value": 3,
           "label": "Munster",
           "visual": "01D70003",
-          "audio": "/game/station/01W70003.wav"
+          "audio": "/game/station/01W70003.wav",
+          "zones": []
         },
         {
           "id": 4,
           "value": 4,
           "label": "Roquefort",
           "visual": "01D70004",
-          "audio": "/game/station/01W70004.wav"
+          "audio": "/game/station/01W70004.wav",
+          "zones": []
         },
         {
           "id": 5,
           "value": 5,
           "label": "Tomme de Savoie",
           "visual": "01D70005",
-          "audio": "/game/station/01W70005.wav"
+          "audio": "/game/station/01W70005.wav",
+          "zones": []
         },
         {
           "id": 6,
           "value": 6,
           "label": "Reblochon",
           "visual": "01D70006",
-          "audio": "/game/station/01W70006.wav"
+          "audio": "/game/station/01W70006.wav",
+          "zones": []
         },
         {
           "id": 7,
           "value": 7,
           "label": "Cantal",
           "visual": "01D70007",
-          "audio": "/game/station/01W70007.wav"
+          "audio": "/game/station/01W70007.wav",
+          "zones": []
         },
         {
           "id": 8,
           "value": 8,
           "label": "Gruyère",
           "visual": "01D70008",
-          "audio": "/game/station/01W70008.wav"
+          "audio": "/game/station/01W70008.wav",
+          "zones": []
         },
         {
           "id": 9,
           "value": 9,
           "label": "Fromage raté",
           "visual": "01D70009",
-          "audio": "/game/station/01W70009.wav"
+          "audio": "/game/station/01W70009.wav",
+          "zones": []
         },
         {
           "id": 10,
           "value": 10,
           "label": "Fromage raté",
           "visual": "01D7000A",
-          "audio": "/game/station/01W7000A.wav"
+          "audio": "/game/station/01W7000A.wav",
+          "zones": []
         },
         {
           "id": 11,
           "value": 11,
           "label": "Fromage raté",
           "visual": "01D7000B",
-          "audio": "/game/station/01W7000B.wav"
+          "audio": "/game/station/01W7000B.wav",
+          "zones": []
         },
         {
           "id": 12,
           "value": 12,
           "label": "Fromage raté",
           "visual": "01D7000C",
-          "audio": "/game/station/01W7000C.wav"
+          "audio": "/game/station/01W7000C.wav",
+          "zones": []
         },
         {
           "id": 13,
           "value": 13,
           "label": "Yaourt",
           "visual": "01D70001",
-          "audio": "/game/station/01W70001.wav"
+          "audio": "/game/station/01W70001.wav",
+          "zones": []
         }
       ],
       "hints": {
@@ -385,42 +419,48 @@
           "value": 1,
           "label": "Pâte fraîche",
           "visual": "01D8000X",
-          "audio": "/game/station/01W80001.wav"
+          "audio": "/game/station/01W80001.wav",
+          "zones": []
         },
         {
           "id": 2,
           "value": 2,
           "label": "Pâte molle",
           "visual": "01D8000X",
-          "audio": "/game/station/01W80002.wav"
+          "audio": "/game/station/01W80002.wav",
+          "zones": []
         },
         {
           "id": 3,
           "value": 3,
           "label": "Pâte pressée",
           "visual": "01D8000X",
-          "audio": "/game/station/01W80003.wav"
+          "audio": "/game/station/01W80003.wav",
+          "zones": []
         },
         {
           "id": 4,
           "value": 4,
           "label": "Pâte ferme non cuite",
           "visual": "01D8000X",
-          "audio": "/game/station/01W80004.wav"
+          "audio": "/game/station/01W80004.wav",
+          "zones": []
         },
         {
           "id": 5,
           "value": 5,
           "label": "Pâte ferme cuite",
           "visual": "01D8000X",
-          "audio": "/game/station/01W80005.wav"
+          "audio": "/game/station/01W80005.wav",
+          "zones": []
         },
         {
           "id": 6,
           "value": 6,
           "label": "Pâte ratée",
           "visual": "01D80006",
-          "audio": "/game/station/01W80006.wav"
+          "audio": "/game/station/01W80006.wav",
+          "zones": []
         }
       ],
       "hints": {
@@ -448,14 +488,16 @@
           "value": 0,
           "label": "Arrêt",
           "visual": "01D90001",
-          "audio": "/game/station/01W90001.wav"
+          "audio": "/game/station/01W90001.wav",
+          "zones": []
         },
         {
           "id": 2,
           "value": 1,
           "label": "Marche",
           "visual": "01D90002",
-          "audio": "/game/station/01W90002.wav"
+          "audio": "/game/station/01W90002.wav",
+          "zones": []
         }
       ],
       "hints": {
@@ -483,91 +525,104 @@
           "value": 1,
           "label": "Aucun",
           "visual": "VIDE_DF",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 2,
           "value": 2,
           "label": "Croûte moisie",
           "visual": "01D60002",
-          "audio": "/game/station/01W60002.wav"
+          "audio": "/game/station/01W60002.wav",
+          "zones": []
         },
         {
           "id": 3,
           "value": 3,
           "label": "Croûte lavée",
           "visual": "01D60003",
-          "audio": "/game/station/01W60003.wav"
+          "audio": "/game/station/01W60003.wav",
+          "zones": []
         },
         {
           "id": 4,
           "value": 4,
           "label": "Pâte à trous",
           "visual": "01D60004",
-          "audio": "/game/station/01W60004.wav"
+          "audio": "/game/station/01W60004.wav",
+          "zones": []
         },
         {
           "id": 5,
           "value": 5,
           "label": "Moisissure interne",
           "visual": "01D60005",
-          "audio": "/game/station/01W60005.wav"
+          "audio": "/game/station/01W60005.wav",
+          "zones": []
         },
         {
           "id": 6,
           "value": 6,
           "label": "",
           "visual": "01D60006",
-          "audio": "/game/station/01W60006.wav"
+          "audio": "/game/station/01W60006.wav",
+          "zones": []
         },
         {
           "id": 7,
           "value": 7,
           "label": "",
           "visual": "01D60007",
-          "audio": "/game/station/01W60007.wav"
+          "audio": "/game/station/01W60007.wav",
+          "zones": []
         },
         {
           "id": 8,
           "value": 8,
           "label": "",
           "visual": "01D60008",
-          "audio": "/game/station/01W60008.wav"
+          "audio": "/game/station/01W60008.wav",
+          "zones": []
         },
         {
           "id": 9,
           "value": 9,
           "label": "",
           "visual": "01D60009",
-          "audio": "/game/station/01W60009.wav"
+          "audio": "/game/station/01W60009.wav",
+          "zones": []
         },
         {
           "id": 10,
           "value": 10,
           "label": "",
           "visual": "01D60010",
-          "audio": "/game/station/01W60010.wav"
+          "audio": "/game/station/01W60010.wav",
+          "zones": []
         },
         {
           "id": 11,
           "value": 11,
           "label": "",
           "visual": "01D60011",
-          "audio": "/game/station/01W60011.wav"
+          "audio": "/game/station/01W60011.wav",
+          "zones": []
         },
         {
           "id": 12,
           "value": 12,
           "label": "",
           "visual": "01D60012",
-          "audio": "/game/station/01W60012.wav"
+          "audio": "/game/station/01W60012.wav",
+          "zones": []
         },
         {
           "id": 13,
           "value": 13,
           "label": "",
           "visual": "01D60013",
-          "audio": "/game/station/01W60013.wav"
+          "audio": "/game/station/01W60013.wav",
+          "zones": []
         }
       ],
       "hints": {
@@ -599,7 +654,9 @@
         "8": 6,
         "9": 1,
         "6": 10
-      }
+      },
+      "hidden": [],
+      "options": {}
     },
     {
       "id": "1",
@@ -621,6 +678,20 @@
         "8": 6,
         "9": 1,
         "6": 10
+      },
+      "hidden": [],
+      "options": {
+        "7": {
+          "2": {
+            "label": "Brie"
+          },
+          "4": {
+            "label": "Bleu"
+          },
+          "8": {
+            "label": "Emmenthal"
+          }
+        }
       }
     },
     {
@@ -643,6 +714,20 @@
         "8": 6,
         "9": 1,
         "6": 1
+      },
+      "hidden": [],
+      "options": {
+        "7": {
+          "2": {
+            "label": "Brie"
+          },
+          "4": {
+            "label": "Bleu"
+          },
+          "8": {
+            "label": "Emmenthal"
+          }
+        }
       }
     },
     {
@@ -665,6 +750,20 @@
         "8": 6,
         "9": 1,
         "6": 1
+      },
+      "hidden": [],
+      "options": {
+        "7": {
+          "2": {
+            "label": "Brie"
+          },
+          "4": {
+            "label": "Bleu"
+          },
+          "8": {
+            "label": "Emmenthal"
+          }
+        }
       }
     }
   ],
@@ -1345,5 +1444,11 @@
         "3": 5
       }
     }
+  ],
+  "interactionSources": [
+    "OBJS.DBF",
+    "OBJSZONE.DBF",
+    "ETATZONE.DBF",
+    "ETATINI.DBF"
   ]
 }

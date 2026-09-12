@@ -21,42 +21,90 @@
           "value": 0,
           "label": "",
           "visual": "15D10001",
-          "audio": null
+          "audio": null,
+          "zones": [
+            [
+              -1,
+              -1,
+              -1,
+              -1
+            ]
+          ]
         },
         {
           "id": 2,
           "value": 1,
           "label": "virus",
           "visual": "15D10002",
-          "audio": null
+          "audio": null,
+          "zones": [
+            [
+              61,
+              23,
+              69,
+              74
+            ]
+          ]
         },
         {
           "id": 3,
           "value": 2,
           "label": "bactéries",
           "visual": "15D10003",
-          "audio": null
+          "audio": null,
+          "zones": [
+            [
+              66,
+              113,
+              62,
+              64
+            ]
+          ]
         },
         {
           "id": 4,
           "value": 3,
           "label": "peau non compatible",
           "visual": "15D10004",
-          "audio": null
+          "audio": null,
+          "zones": [
+            [
+              58,
+              203,
+              75,
+              59
+            ]
+          ]
         },
         {
           "id": 5,
           "value": 4,
           "label": "sang non compatible",
           "visual": "15D10005",
-          "audio": null
+          "audio": null,
+          "zones": [
+            [
+              61,
+              378,
+              68,
+              61
+            ]
+          ]
         },
         {
           "id": 6,
           "value": 5,
           "label": "allergènes",
           "visual": "15D10006",
-          "audio": null
+          "audio": null,
+          "zones": [
+            [
+              56,
+              280,
+              67,
+              73
+            ]
+          ]
         }
       ],
       "hints": {
@@ -84,28 +132,60 @@
           "value": 0,
           "label": "",
           "visual": "15D20001",
-          "audio": null
+          "audio": null,
+          "zones": [
+            [
+              -1,
+              -1,
+              -1,
+              -1
+            ]
+          ]
         },
         {
           "id": 2,
           "value": 1,
           "label": "muqueuse respiratoire",
           "visual": "15D20002",
-          "audio": null
+          "audio": null,
+          "zones": [
+            [
+              215,
+              50,
+              46,
+              42
+            ]
+          ]
         },
         {
           "id": 3,
           "value": 2,
           "label": "peau",
           "visual": "15D20003",
-          "audio": null
+          "audio": null,
+          "zones": [
+            [
+              199,
+              131,
+              48,
+              41
+            ]
+          ]
         },
         {
           "id": 4,
           "value": 3,
           "label": "muqueuse sexuelle",
           "visual": "15D20004",
-          "audio": null
+          "audio": null,
+          "zones": [
+            [
+              279,
+              313,
+              45,
+              41
+            ]
+          ]
         }
       ],
       "hints": {
@@ -133,56 +213,120 @@
           "value": 0,
           "label": "",
           "visual": "15D30001",
-          "audio": null
+          "audio": null,
+          "zones": [
+            [
+              511,
+              417,
+              84,
+              37
+            ]
+          ]
         },
         {
           "id": 2,
           "value": 1,
           "label": "",
           "visual": "15D30002",
-          "audio": null
+          "audio": null,
+          "zones": [
+            [
+              513,
+              11,
+              83,
+              52
+            ]
+          ]
         },
         {
           "id": 3,
           "value": 2,
           "label": "",
           "visual": "15D30003",
-          "audio": null
+          "audio": null,
+          "zones": [
+            [
+              511,
+              66,
+              84,
+              54
+            ]
+          ]
         },
         {
           "id": 4,
           "value": 3,
           "label": "",
           "visual": "15D30004",
-          "audio": null
+          "audio": null,
+          "zones": [
+            [
+              511,
+              175,
+              85,
+              56
+            ]
+          ]
         },
         {
           "id": 5,
           "value": 4,
           "label": "",
           "visual": "15D30005",
-          "audio": null
+          "audio": null,
+          "zones": [
+            [
+              510,
+              124,
+              85,
+              50
+            ]
+          ]
         },
         {
           "id": 6,
           "value": 5,
           "label": "",
           "visual": "15D30006",
-          "audio": null
+          "audio": null,
+          "zones": [
+            [
+              512,
+              240,
+              83,
+              54
+            ]
+          ]
         },
         {
           "id": 7,
           "value": 6,
           "label": "",
           "visual": "15D30007",
-          "audio": null
+          "audio": null,
+          "zones": [
+            [
+              511,
+              295,
+              83,
+              53
+            ]
+          ]
         },
         {
           "id": 8,
           "value": 7,
           "label": "",
           "visual": "15D30008",
-          "audio": null
+          "audio": null,
+          "zones": [
+            [
+              512,
+              349,
+              82,
+              54
+            ]
+          ]
         }
       ],
       "hints": {
@@ -210,14 +354,16 @@
           "value": 0,
           "label": "Pour démarrer le processus",
           "visual": "15D40001",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 2,
           "value": 1,
           "label": "",
           "visual": "15D40002",
-          "audio": null
+          "audio": null,
+          "zones": []
         }
       ],
       "hints": {
@@ -245,77 +391,88 @@
           "value": 0,
           "label": "Pas de maladie",
           "visual": "VIDE_DF",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 2,
           "value": 1,
           "label": "Grippe",
           "visual": "15D50002",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 3,
           "value": 2,
           "label": "Tuberculose",
           "visual": "VIDE_DF",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 4,
           "value": 3,
           "label": "Rage",
           "visual": "VIDE_DF",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 5,
           "value": 4,
           "label": "Tétanos",
           "visual": "VIDE_DF",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 6,
           "value": 5,
           "label": "Herpès  génital",
           "visual": "15D50006",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 7,
           "value": 6,
           "label": "Chlamydiae",
           "visual": "15D50007",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 8,
           "value": 7,
           "label": "Rhinite allergique",
           "visual": "VIDE_DF",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 9,
           "value": 8,
           "label": "Crise d'urticaire",
           "visual": "15D50009",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 10,
           "value": 9,
           "label": "Greffe de peau",
           "visual": "VIDE_DF",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 11,
           "value": 10,
           "label": "Transfusion de sang non compatible",
           "visual": "VIDE_DF",
-          "audio": null
+          "audio": null,
+          "zones": []
         }
       ],
       "hints": {
@@ -343,168 +500,192 @@
           "value": 0,
           "label": "Pas de maladie",
           "visual": "VIDE_DF",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 2,
           "value": 11,
           "label": "Guérison spontanée de la grippe",
           "visual": "15D60002",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 3,
           "value": 12,
           "label": "Protection contre la grippe",
           "visual": "15D60002",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 4,
           "value": 21,
           "label": "Mort par tuberculose",
           "visual": "15D60004",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 5,
           "value": 22,
           "label": "Protection contre la tuberculose",
           "visual": "15D60002",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 6,
           "value": 23,
           "label": "Guérison de la tuberculose",
           "visual": "15D60002",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 7,
           "value": 31,
           "label": "Mort par rage",
           "visual": "15D60004",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 8,
           "value": 32,
           "label": "Protection contre la rage",
           "visual": "15D60002",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 9,
           "value": 33,
           "label": "Guérison de la rage",
           "visual": "15D60002",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 10,
           "value": 41,
           "label": "Mort par tétanos",
           "visual": "15D60004",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 11,
           "value": 42,
           "label": "Protection contre le tétanos",
           "visual": "15D60002",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 12,
           "value": 43,
           "label": "Guérison du tétanos",
           "visual": "15D60002",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 13,
           "value": 51,
           "label": "Herpès à l'état latent",
           "visual": "15D60013",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 14,
           "value": 52,
           "label": "Arrêt crise herpès",
           "visual": "15D60014",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 15,
           "value": 61,
           "label": "Risque de stérilité",
           "visual": "15D60013",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 16,
           "value": 62,
           "label": "Guérison chlamydiase",
           "visual": "15D60002",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 17,
           "value": 71,
           "label": "Risque de sinusite chronique",
           "visual": "15D60013",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 18,
           "value": 72,
           "label": "Désensibilisation rhinite",
           "visual": "15D60002",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 19,
           "value": 73,
           "label": "Arrêt crise rhinite",
           "visual": "15D60014",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 20,
           "value": 81,
           "label": "Choc anaphylactique",
           "visual": "15D60004",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 21,
           "value": 82,
           "label": "Arrêt crise urticaire",
           "visual": "15D60014",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 22,
           "value": 91,
           "label": "Rejet de tissus",
           "visual": "15D60013",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 23,
           "value": 92,
           "label": "Tolérance greffe",
           "visual": null,
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 24,
           "value": 100,
           "label": "Choc hémolytique",
           "visual": "15D60004",
-          "audio": null
+          "audio": null,
+          "zones": []
         }
       ],
       "hints": {
@@ -532,168 +713,192 @@
           "value": 0,
           "label": "",
           "visual": "VIDE_DF",
-          "audio": "/game/station/15W70001.wav"
+          "audio": "/game/station/15W70001.wav",
+          "zones": []
         },
         {
           "id": 2,
           "value": 11,
           "label": "",
           "visual": "15D70002",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 3,
           "value": 12,
           "label": "",
           "visual": "15D70003",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 4,
           "value": 21,
           "label": "",
           "visual": "15D70004",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 5,
           "value": 22,
           "label": "",
           "visual": "15D70005",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 6,
           "value": 23,
           "label": "",
           "visual": "15D70006",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 7,
           "value": 31,
           "label": "",
           "visual": "15D70007",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 8,
           "value": 32,
           "label": "",
           "visual": "15D70008",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 9,
           "value": 33,
           "label": "",
           "visual": "15D70009",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 10,
           "value": 41,
           "label": "",
           "visual": "15D70010",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 11,
           "value": 42,
           "label": "",
           "visual": "15D70011",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 12,
           "value": 43,
           "label": "",
           "visual": "15D70012",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 13,
           "value": 51,
           "label": "",
           "visual": "15D70013",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 14,
           "value": 52,
           "label": "",
           "visual": "15D70014",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 15,
           "value": 61,
           "label": "",
           "visual": "15D70015",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 16,
           "value": 62,
           "label": "",
           "visual": "15D70016",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 17,
           "value": 71,
           "label": "",
           "visual": "15D70017",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 18,
           "value": 72,
           "label": "",
           "visual": "15D70018",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 19,
           "value": 73,
           "label": "",
           "visual": "15D70019",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 20,
           "value": 81,
           "label": "",
           "visual": "15D70020",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 21,
           "value": 82,
           "label": "",
           "visual": "15D70021",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 22,
           "value": 91,
           "label": "",
           "visual": "15D70022",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 23,
           "value": 92,
           "label": "",
           "visual": "15D70023",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 24,
           "value": 100,
           "label": "",
           "visual": "15D70024",
-          "audio": null
+          "audio": null,
+          "zones": []
         }
       ],
       "hints": {
@@ -721,140 +926,160 @@
           "value": 0,
           "label": "",
           "visual": "15D80002",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 2,
           "value": 1,
           "label": "",
           "visual": "15D80002",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 3,
           "value": 2,
           "label": "",
           "visual": "15D80002",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 4,
           "value": 3,
           "label": "",
           "visual": "15D80002",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 5,
           "value": 4,
           "label": "",
           "visual": "15D80002",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 6,
           "value": 5,
           "label": "",
           "visual": "15D80002",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 7,
           "value": 6,
           "label": "",
           "visual": "15D80002",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 8,
           "value": 7,
           "label": "",
           "visual": "15D80002",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 9,
           "value": 8,
           "label": "",
           "visual": "15D80002",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 10,
           "value": 9,
           "label": "",
           "visual": "15D80002",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 11,
           "value": 10,
           "label": "",
           "visual": "15D80002",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 12,
           "value": 11,
           "label": "",
           "visual": "15D80002",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 13,
           "value": 12,
           "label": "",
           "visual": "15D80013",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 14,
           "value": 13,
           "label": "",
           "visual": "15D80013",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 15,
           "value": 14,
           "label": "",
           "visual": "15D80013",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 16,
           "value": 15,
           "label": "",
           "visual": "15D80013",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 17,
           "value": 16,
           "label": "",
           "visual": "15D80013",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 18,
           "value": 17,
           "label": "",
           "visual": "15D80013",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 19,
           "value": 18,
           "label": "",
           "visual": "15D80013",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 20,
           "value": 19,
           "label": "",
           "visual": "15D80013",
-          "audio": null
+          "audio": null,
+          "zones": []
         }
       ],
       "hints": {
@@ -882,42 +1107,48 @@
           "value": 0,
           "label": "",
           "visual": "VIDE_DF",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 2,
           "value": 1,
           "label": "",
           "visual": "VIDE_DF",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 3,
           "value": 2,
           "label": "",
           "visual": "VIDE_DF",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 4,
           "value": 3,
           "label": "",
           "visual": "15D90004",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 5,
           "value": 4,
           "label": "",
           "visual": "15D90004",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 6,
           "value": 5,
           "label": "",
           "visual": "15D90006",
-          "audio": null
+          "audio": null,
+          "zones": []
         }
       ],
       "hints": {
@@ -945,28 +1176,32 @@
           "value": 0,
           "label": "",
           "visual": "VIDE_DF",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 2,
           "value": 1,
           "label": "",
           "visual": "15DA0002",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 3,
           "value": 2,
           "label": "",
           "visual": "VIDE_DF",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 4,
           "value": 3,
           "label": "",
           "visual": "15DA0004",
-          "audio": null
+          "audio": null,
+          "zones": []
         }
       ],
       "hints": {
@@ -1004,7 +1239,12 @@
         "8": 1,
         "9": 1,
         "10": 1
-      }
+      },
+      "hidden": [
+        "3",
+        "8"
+      ],
+      "options": {}
     },
     {
       "id": "1",
@@ -1027,6 +1267,97 @@
         "8": 1,
         "9": 1,
         "10": 1
+      },
+      "hidden": [],
+      "options": {
+        "3": {
+          "1": {
+            "label": "Pas de traitement"
+          },
+          "2": {
+            "label": "vaccin antiviral"
+          },
+          "3": {
+            "label": "Vaccin antibactérien"
+          },
+          "4": {
+            "label": "désensibilisation"
+          },
+          "5": {
+            "label": "immunosuppresseurs"
+          },
+          "6": {
+            "label": "sérum antiviral"
+          },
+          "7": {
+            "label": "Antibiotiques ou sérum antibactérien"
+          },
+          "8": {
+            "label": "antihistaminiques"
+          }
+        },
+        "8": {
+          "1": {
+            "label": "Pas de traitement"
+          },
+          "2": {
+            "label": "Vaccin anti-grippe"
+          },
+          "3": {
+            "label": "Vaccin  contre la tuberculose (BCG)"
+          },
+          "4": {
+            "label": "Sérum contre la tuberculose"
+          },
+          "5": {
+            "label": "Vaccin antirabique"
+          },
+          "6": {
+            "label": "Sérum antirabique"
+          },
+          "7": {
+            "label": "Vaccin antitétanique"
+          },
+          "8": {
+            "label": "Sérum antitétanique"
+          },
+          "9": {
+            "label": "Antiviral contre l'herpès"
+          },
+          "10": {
+            "label": "Antibiotiques contre les chlamydiae"
+          },
+          "11": {
+            "label": "Désensibilisation"
+          },
+          "12": {
+            "label": "Antihistaminiques"
+          },
+          "13": {
+            "label": "Immunosuppresseurs"
+          },
+          "14": {
+            "label": "Vaccin antiviral sans effet"
+          },
+          "15": {
+            "label": "Vaccin antibactérien sans effet"
+          },
+          "16": {
+            "label": "Désensibilisation sans effet"
+          },
+          "17": {
+            "label": "Immunosuppresseurs sans effet"
+          },
+          "18": {
+            "label": "Sérum antiviral sans effet"
+          },
+          "19": {
+            "label": "Sérum antibactérien sans effet"
+          },
+          "20": {
+            "label": "Antishistaminiques sans effet"
+          }
+        }
       }
     },
     {
@@ -1050,6 +1381,97 @@
         "8": 1,
         "9": 1,
         "10": 1
+      },
+      "hidden": [],
+      "options": {
+        "3": {
+          "1": {
+            "label": "Pas de traitement"
+          },
+          "2": {
+            "label": "vaccin antiviral"
+          },
+          "3": {
+            "label": "Vaccin antibactérien"
+          },
+          "4": {
+            "label": "désensibilisation"
+          },
+          "5": {
+            "label": "immunosuppresseurs"
+          },
+          "6": {
+            "label": "sérum antiviral"
+          },
+          "7": {
+            "label": "Antibiotiques ou sérum antibactérien"
+          },
+          "8": {
+            "label": "antihistaminiques"
+          }
+        },
+        "8": {
+          "1": {
+            "label": "Pas de traitement"
+          },
+          "2": {
+            "label": "Vaccin anti-grippe"
+          },
+          "3": {
+            "label": "Vaccin  contre la tuberculose (BCG)"
+          },
+          "4": {
+            "label": "Sérum contre la tuberculose"
+          },
+          "5": {
+            "label": "Vaccin antirabique"
+          },
+          "6": {
+            "label": "Sérum antirabique"
+          },
+          "7": {
+            "label": "Vaccin antitétanique"
+          },
+          "8": {
+            "label": "Sérum antitétanique"
+          },
+          "9": {
+            "label": "Antiviral contre l'herpès"
+          },
+          "10": {
+            "label": "Antibiotiques contre les chlamydiae"
+          },
+          "11": {
+            "label": "Désensibilisation"
+          },
+          "12": {
+            "label": "Antihistaminiques"
+          },
+          "13": {
+            "label": "Immunosuppresseurs"
+          },
+          "14": {
+            "label": "Vaccin antiviral sans effet"
+          },
+          "15": {
+            "label": "Vaccin antibactérien sans effet"
+          },
+          "16": {
+            "label": "Désensibilisation sans effet"
+          },
+          "17": {
+            "label": "Immunosuppresseurs sans effet"
+          },
+          "18": {
+            "label": "Sérum antiviral sans effet"
+          },
+          "19": {
+            "label": "Sérum antibactérien sans effet"
+          },
+          "20": {
+            "label": "Antishistaminiques sans effet"
+          }
+        }
       }
     },
     {
@@ -1073,6 +1495,97 @@
         "8": 1,
         "9": 1,
         "10": 1
+      },
+      "hidden": [],
+      "options": {
+        "3": {
+          "1": {
+            "label": "Pas de traitement"
+          },
+          "2": {
+            "label": "vaccin antiviral"
+          },
+          "3": {
+            "label": "Vaccin antibactérien"
+          },
+          "4": {
+            "label": "désensibilisation"
+          },
+          "5": {
+            "label": "immunosuppresseurs"
+          },
+          "6": {
+            "label": "sérum antiviral"
+          },
+          "7": {
+            "label": "Antibiotiques ou sérum antibactérien"
+          },
+          "8": {
+            "label": "antihistaminiques"
+          }
+        },
+        "8": {
+          "1": {
+            "label": "Pas de traitement"
+          },
+          "2": {
+            "label": "Vaccin anti-grippe"
+          },
+          "3": {
+            "label": "Vaccin  contre la tuberculose (BCG)"
+          },
+          "4": {
+            "label": "Sérum contre la tuberculose"
+          },
+          "5": {
+            "label": "Vaccin antirabique"
+          },
+          "6": {
+            "label": "Sérum antirabique"
+          },
+          "7": {
+            "label": "Vaccin antitétanique"
+          },
+          "8": {
+            "label": "Sérum antitétanique"
+          },
+          "9": {
+            "label": "Antiviral contre l'herpès"
+          },
+          "10": {
+            "label": "Antibiotiques contre les chlamydiae"
+          },
+          "11": {
+            "label": "Désensibilisation"
+          },
+          "12": {
+            "label": "Antihistaminiques"
+          },
+          "13": {
+            "label": "Immunosuppresseurs"
+          },
+          "14": {
+            "label": "Vaccin antiviral sans effet"
+          },
+          "15": {
+            "label": "Vaccin antibactérien sans effet"
+          },
+          "16": {
+            "label": "Désensibilisation sans effet"
+          },
+          "17": {
+            "label": "Immunosuppresseurs sans effet"
+          },
+          "18": {
+            "label": "Sérum antiviral sans effet"
+          },
+          "19": {
+            "label": "Sérum antibactérien sans effet"
+          },
+          "20": {
+            "label": "Antishistaminiques sans effet"
+          }
+        }
       }
     }
   ],
@@ -3245,5 +3758,11 @@
         "5": 10
       }
     }
+  ],
+  "interactionSources": [
+    "OBJS.DBF",
+    "OBJSZONE.DBF",
+    "ETATZONE.DBF",
+    "ETATINI.DBF"
   ]
 }

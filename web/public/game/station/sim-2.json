@@ -21,28 +21,60 @@
           "value": 1,
           "label": "Pas arrosage",
           "visual": "02D10001",
-          "audio": null
+          "audio": null,
+          "zones": [
+            [
+              56,
+              83,
+              17,
+              13
+            ]
+          ]
         },
         {
           "id": 2,
           "value": 2,
           "label": "Arrosage faible",
           "visual": "02D10002",
-          "audio": "/game/station/02W10002.wav"
+          "audio": "/game/station/02W10002.wav",
+          "zones": [
+            [
+              69,
+              95,
+              18,
+              14
+            ]
+          ]
         },
         {
           "id": 3,
           "value": 3,
           "label": "Arrosage moyen",
           "visual": "02D10003",
-          "audio": "/game/station/02W10003.wav"
+          "audio": "/game/station/02W10003.wav",
+          "zones": [
+            [
+              55,
+              107,
+              19,
+              17
+            ]
+          ]
         },
         {
           "id": 4,
           "value": 4,
           "label": "Arrosage important",
           "visual": "02D10004",
-          "audio": "/game/station/02W10004.wav"
+          "audio": "/game/station/02W10004.wav",
+          "zones": [
+            [
+              33,
+              95,
+              22,
+              15
+            ]
+          ]
         }
       ],
       "hints": {
@@ -70,35 +102,75 @@
           "value": 1,
           "label": "5 ° Celsius",
           "visual": "02S20001",
-          "audio": null
+          "audio": null,
+          "zones": [
+            [
+              67,
+              428,
+              26,
+              15
+            ]
+          ]
         },
         {
           "id": 2,
           "value": 2,
           "label": "10 ° Celsius",
           "visual": "02S20002",
-          "audio": "/game/station/02W20002.wav"
+          "audio": "/game/station/02W20002.wav",
+          "zones": [
+            [
+              66,
+              408,
+              25,
+              13
+            ]
+          ]
         },
         {
           "id": 3,
           "value": 3,
           "label": "15 ° Celsius",
           "visual": "02S20003",
-          "audio": "/game/station/02W20003.wav"
+          "audio": "/game/station/02W20003.wav",
+          "zones": [
+            [
+              65,
+              392,
+              25,
+              12
+            ]
+          ]
         },
         {
           "id": 4,
           "value": 4,
           "label": "20 ° Celsius",
           "visual": "02S20004",
-          "audio": "/game/station/02W20004.wav"
+          "audio": "/game/station/02W20004.wav",
+          "zones": [
+            [
+              63,
+              375,
+              25,
+              12
+            ]
+          ]
         },
         {
           "id": 5,
           "value": 5,
           "label": "25 ° Celsius",
           "visual": "02S20005",
-          "audio": "/game/station/02W20005.wav"
+          "audio": "/game/station/02W20005.wav",
+          "zones": [
+            [
+              63,
+              357,
+              25,
+              12
+            ]
+          ]
         }
       ],
       "hints": {
@@ -126,28 +198,60 @@
           "value": 1,
           "label": "Pas de lumière",
           "visual": "02D30001",
-          "audio": "/game/station/02W3000X.wav"
+          "audio": "/game/station/02W3000X.wav",
+          "zones": [
+            [
+              578,
+              85,
+              21,
+              17
+            ]
+          ]
         },
         {
           "id": 2,
           "value": 2,
           "label": "5000 lux",
           "visual": "02D30002",
-          "audio": "/game/station/02W3000X.wav"
+          "audio": "/game/station/02W3000X.wav",
+          "zones": [
+            [
+              578,
+              69,
+              24,
+              15
+            ]
+          ]
         },
         {
           "id": 3,
           "value": 3,
           "label": "10000 lux",
           "visual": "02D30003",
-          "audio": "/game/station/02W3000X.wav"
+          "audio": "/game/station/02W3000X.wav",
+          "zones": [
+            [
+              580,
+              53,
+              21,
+              16
+            ]
+          ]
         },
         {
           "id": 4,
           "value": 4,
           "label": "100000 lux",
           "visual": "02D30004",
-          "audio": "/game/station/02W3000X.wav"
+          "audio": "/game/station/02W3000X.wav",
+          "zones": [
+            [
+              582,
+              35,
+              21,
+              18
+            ]
+          ]
         }
       ],
       "hints": {
@@ -175,28 +279,60 @@
           "value": 1,
           "label": "Pas de CO₂",
           "visual": "02D40001",
-          "audio": null
+          "audio": null,
+          "zones": [
+            [
+              492,
+              175,
+              13,
+              14
+            ]
+          ]
         },
         {
           "id": 2,
           "value": 2,
           "label": "Teneur en CO₂ faible",
           "visual": "02D40002",
-          "audio": "/game/station/02W40002.wav"
+          "audio": "/game/station/02W40002.wav",
+          "zones": [
+            [
+              505,
+              186,
+              13,
+              16
+            ]
+          ]
         },
         {
           "id": 3,
           "value": 3,
           "label": "Teneur en CO₂ moyenne",
           "visual": "02D40003",
-          "audio": "/game/station/02W40003.wav"
+          "audio": "/game/station/02W40003.wav",
+          "zones": [
+            [
+              490,
+              198,
+              15,
+              15
+            ]
+          ]
         },
         {
           "id": 4,
           "value": 4,
           "label": "Teneur en CO₂ forte",
           "visual": "02D40004",
-          "audio": "/game/station/02W40004.wav"
+          "audio": "/game/station/02W40004.wav",
+          "zones": [
+            [
+              480,
+              187,
+              12,
+              14
+            ]
+          ]
         }
       ],
       "hints": {
@@ -224,21 +360,45 @@
           "value": 1,
           "label": "Très peu de sels minéraux",
           "visual": "02D50001",
-          "audio": "/game/station/02W50001.wav"
+          "audio": "/game/station/02W50001.wav",
+          "zones": [
+            [
+              512,
+              422,
+              22,
+              41
+            ]
+          ]
         },
         {
           "id": 2,
           "value": 2,
           "label": "Concentration en sels minéraux moyenne",
           "visual": "02D50002",
-          "audio": "/game/station/02W50002.wav"
+          "audio": "/game/station/02W50002.wav",
+          "zones": [
+            [
+              484,
+              389,
+              26,
+              52
+            ]
+          ]
         },
         {
           "id": 3,
           "value": 3,
           "label": "Concentration en sels minéraux forte",
           "visual": "02D50003",
-          "audio": "/game/station/02W50003.wav"
+          "audio": "/game/station/02W50003.wav",
+          "zones": [
+            [
+              452,
+              357,
+              30,
+              68
+            ]
+          ]
         }
       ],
       "hints": {
@@ -266,28 +426,32 @@
           "value": 1,
           "label": "",
           "visual": "02D60001",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 2,
           "value": 2,
           "label": "",
           "visual": "02D60002",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 3,
           "value": 3,
           "label": "",
           "visual": "02D60003",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 4,
           "value": 4,
           "label": "",
           "visual": "02D60004",
-          "audio": null
+          "audio": null,
+          "zones": []
         }
       ],
       "hints": {
@@ -315,49 +479,56 @@
           "value": 0,
           "label": "Développement nul des tomates",
           "visual": "02S70001",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 2,
           "value": 1,
           "label": "Développement minimum des tomates",
           "visual": "02S70002",
-          "audio": "/game/station/02W70002.wav"
+          "audio": "/game/station/02W70002.wav",
+          "zones": []
         },
         {
           "id": 3,
           "value": 2,
           "label": "Faible développement des tomates",
           "visual": "02S70003",
-          "audio": "/game/station/02W70003.wav"
+          "audio": "/game/station/02W70003.wav",
+          "zones": []
         },
         {
           "id": 4,
           "value": 3,
           "label": "Développement moyen des tomates",
           "visual": "02S70004",
-          "audio": "/game/station/02W70004.wav"
+          "audio": "/game/station/02W70004.wav",
+          "zones": []
         },
         {
           "id": 5,
           "value": 4,
           "label": "Bon développement des tomates",
           "visual": "02S70005",
-          "audio": "/game/station/02W70005.wav"
+          "audio": "/game/station/02W70005.wav",
+          "zones": []
         },
         {
           "id": 6,
           "value": 5,
           "label": "Très bon développement des tomates",
           "visual": "02S70006",
-          "audio": "/game/station/02W70006.wav"
+          "audio": "/game/station/02W70006.wav",
+          "zones": []
         },
         {
           "id": 7,
           "value": 6,
           "label": "Développement maximum des tomates",
           "visual": "02S70007",
-          "audio": "/game/station/02W70007.wav"
+          "audio": "/game/station/02W70007.wav",
+          "zones": []
         }
       ],
       "hints": {
@@ -385,56 +556,64 @@
           "value": 0,
           "label": "Développement nul des fraises",
           "visual": "02S81001",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 2,
           "value": 1,
           "label": "Développement très faible des fraises",
           "visual": "02S81002",
-          "audio": "/game/station/02W80002.wav"
+          "audio": "/game/station/02W80002.wav",
+          "zones": []
         },
         {
           "id": 3,
           "value": 2,
           "label": "Faible développement des fraises",
           "visual": "02S81003",
-          "audio": "/game/station/02W80003.wav"
+          "audio": "/game/station/02W80003.wav",
+          "zones": []
         },
         {
           "id": 4,
           "value": 3,
           "label": "Développement moyen des fraises",
           "visual": "02S81004",
-          "audio": "/game/station/02W80004.wav"
+          "audio": "/game/station/02W80004.wav",
+          "zones": []
         },
         {
           "id": 5,
           "value": 4,
           "label": "Bon développement des fraises",
           "visual": "02S81005",
-          "audio": "/game/station/02W80005.wav"
+          "audio": "/game/station/02W80005.wav",
+          "zones": []
         },
         {
           "id": 6,
           "value": 5,
           "label": "Très bon développement des fraises",
           "visual": "02S81006",
-          "audio": "/game/station/02W80006.wav"
+          "audio": "/game/station/02W80006.wav",
+          "zones": []
         },
         {
           "id": 7,
           "value": 6,
           "label": "Excellent développement des fraises",
           "visual": "02S81007",
-          "audio": "/game/station/02W80007.wav"
+          "audio": "/game/station/02W80007.wav",
+          "zones": []
         },
         {
           "id": 8,
           "value": 7,
           "label": "Développement maximum des fraises",
           "visual": "02S81008",
-          "audio": "/game/station/02W80008.wav"
+          "audio": "/game/station/02W80008.wav",
+          "zones": []
         }
       ],
       "hints": {
@@ -462,35 +641,40 @@
           "value": 0,
           "label": "Développement nul des champignons",
           "visual": "02S91001",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 2,
           "value": 1,
           "label": "Développement minimum des champignons",
           "visual": "02S91002",
-          "audio": "/game/station/02W90002.wav"
+          "audio": "/game/station/02W90002.wav",
+          "zones": []
         },
         {
           "id": 3,
           "value": 2,
           "label": "Faible développement des champignons",
           "visual": "02S91003",
-          "audio": "/game/station/02W90003.wav"
+          "audio": "/game/station/02W90003.wav",
+          "zones": []
         },
         {
           "id": 4,
           "value": 3,
           "label": "Bon développement des champignons",
           "visual": "02S91004",
-          "audio": "/game/station/02W90004.wav"
+          "audio": "/game/station/02W90004.wav",
+          "zones": []
         },
         {
           "id": 5,
           "value": 4,
           "label": "Développement maximum des champignons",
           "visual": "02S91005",
-          "audio": "/game/station/02W90005.wav"
+          "audio": "/game/station/02W90005.wav",
+          "zones": []
         }
       ],
       "hints": {
@@ -518,21 +702,24 @@
           "value": 1,
           "label": "",
           "visual": "02DA0001",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 2,
           "value": 2,
           "label": "",
           "visual": "02DA0002",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 3,
           "value": 3,
           "label": "",
           "visual": "02DA0003",
-          "audio": null
+          "audio": null,
+          "zones": []
         }
       ],
       "hints": {
@@ -567,6 +754,26 @@
         "8": 1,
         "9": 1,
         "10": 1
+      },
+      "hidden": [
+        "8",
+        "9"
+      ],
+      "options": {
+        "4": {
+          "1": {
+            "label": "Pas de CO₂"
+          },
+          "2": {
+            "label": "Teneur en CO₂ faible"
+          },
+          "3": {
+            "label": "Teneur en CO₂ moyenne"
+          },
+          "4": {
+            "label": "Teneur en CO₂ forte"
+          }
+        }
       }
     },
     {
@@ -613,6 +820,26 @@
         "8": 1,
         "9": 1,
         "10": 1
+      },
+      "hidden": [
+        "8",
+        "9"
+      ],
+      "options": {
+        "4": {
+          "1": {
+            "label": "Pas de CO₂"
+          },
+          "2": {
+            "label": "Teneur en CO₂ faible"
+          },
+          "3": {
+            "label": "Teneur en CO₂ moyenne"
+          },
+          "4": {
+            "label": "Teneur en CO₂ forte"
+          }
+        }
       }
     },
     {
@@ -645,6 +872,26 @@
         "8": 1,
         "9": 1,
         "10": 2
+      },
+      "hidden": [
+        "7",
+        "8"
+      ],
+      "options": {
+        "4": {
+          "1": {
+            "label": "Pas de CO₂"
+          },
+          "2": {
+            "label": "Teneur en CO₂ faible"
+          },
+          "3": {
+            "label": "Teneur en CO₂ moyenne"
+          },
+          "4": {
+            "label": "Teneur en CO₂ forte"
+          }
+        }
       }
     },
     {
@@ -677,8 +924,34 @@
         "8": 1,
         "9": 1,
         "10": 3
+      },
+      "hidden": [
+        "7",
+        "9"
+      ],
+      "options": {
+        "4": {
+          "1": {
+            "label": "Pas de CO₂"
+          },
+          "2": {
+            "label": "Teneur en CO₂ faible"
+          },
+          "3": {
+            "label": "Teneur en CO₂ moyenne"
+          },
+          "4": {
+            "label": "Teneur en CO₂ forte"
+          }
+        }
       }
     }
   ],
-  "lookup": []
+  "lookup": [],
+  "interactionSources": [
+    "OBJS.DBF",
+    "OBJSZONE.DBF",
+    "ETATZONE.DBF",
+    "ETATINI.DBF"
+  ]
 }

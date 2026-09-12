@@ -21,28 +21,60 @@
           "value": 1,
           "label": "Froid et humide",
           "visual": "03D10001",
-          "audio": null
+          "audio": null,
+          "zones": [
+            [
+              240,
+              325,
+              39,
+              138
+            ]
+          ]
         },
         {
           "id": 2,
           "value": 2,
           "label": "Froid et sec",
           "visual": "03D10002",
-          "audio": null
+          "audio": null,
+          "zones": [
+            [
+              175,
+              300,
+              32,
+              120
+            ]
+          ]
         },
         {
           "id": 3,
           "value": 3,
           "label": "Chaud et humide",
           "visual": "03D10003",
-          "audio": null
+          "audio": null,
+          "zones": [
+            [
+              207,
+              314,
+              33,
+              124
+            ]
+          ]
         },
         {
           "id": 4,
           "value": 4,
           "label": "Chaud et sec",
           "visual": "03D10004",
-          "audio": null
+          "audio": null,
+          "zones": [
+            [
+              146,
+              288,
+              29,
+              114
+            ]
+          ]
         }
       ],
       "hints": {
@@ -70,21 +102,45 @@
           "value": 1,
           "label": "Nuage de faible taille",
           "visual": "03D20001",
-          "audio": null
+          "audio": null,
+          "zones": [
+            [
+              115,
+              342,
+              32,
+              36
+            ]
+          ]
         },
         {
           "id": 2,
           "value": 2,
           "label": "Nuages de taille moyenne",
           "visual": "03D20002",
-          "audio": null
+          "audio": null,
+          "zones": [
+            [
+              74,
+              313,
+              43,
+              44
+            ]
+          ]
         },
         {
           "id": 3,
           "value": 3,
           "label": "Nuages de grande taille",
           "visual": "03D20003",
-          "audio": null
+          "audio": null,
+          "zones": [
+            [
+              8,
+              260,
+              79,
+              73
+            ]
+          ]
         }
       ],
       "hints": {
@@ -112,28 +168,60 @@
           "value": 0,
           "label": "Pas de constructions",
           "visual": "03D30001",
-          "audio": null
+          "audio": null,
+          "zones": [
+            [
+              565,
+              407,
+              59,
+              64
+            ]
+          ]
         },
         {
           "id": 2,
           "value": 1,
           "label": "Constructions basses",
           "visual": "03D30002",
-          "audio": null
+          "audio": null,
+          "zones": [
+            [
+              497,
+              336,
+              47,
+              46
+            ]
+          ]
         },
         {
           "id": 3,
           "value": 2,
           "label": "Constructions de hauteur moyenne",
           "visual": "03D30003",
-          "audio": null
+          "audio": null,
+          "zones": [
+            [
+              522,
+              303,
+              71,
+              51
+            ]
+          ]
         },
         {
           "id": 4,
           "value": 3,
           "label": "Constructions hautes",
           "visual": "03D30004",
-          "audio": null
+          "audio": null,
+          "zones": [
+            [
+              552,
+              240,
+              80,
+              68
+            ]
+          ]
         }
       ],
       "hints": {
@@ -161,14 +249,30 @@
           "value": 0,
           "label": "Sans présence humaine",
           "visual": "03D40001",
-          "audio": null
+          "audio": null,
+          "zones": [
+            [
+              443,
+              332,
+              51,
+              94
+            ]
+          ]
         },
         {
           "id": 2,
           "value": 1,
           "label": "Présence humaine",
           "visual": "03D40002",
-          "audio": null
+          "audio": null,
+          "zones": [
+            [
+              403,
+              364,
+              39,
+              91
+            ]
+          ]
         }
       ],
       "hints": {
@@ -196,28 +300,60 @@
           "value": 0,
           "label": "Pas de paratonnerre",
           "visual": "03D50001",
-          "audio": null
+          "audio": null,
+          "zones": [
+            [
+              280,
+              404,
+              31,
+              67
+            ]
+          ]
         },
         {
           "id": 2,
           "value": 1,
           "label": "Paratonnerre en montagne",
           "visual": "03D50002",
-          "audio": null
+          "audio": null,
+          "zones": [
+            [
+              312,
+              404,
+              28,
+              78
+            ]
+          ]
         },
         {
           "id": 3,
           "value": 2,
           "label": "Paratonnerre en plaine",
           "visual": "03D50003",
-          "audio": null
+          "audio": null,
+          "zones": [
+            [
+              341,
+              403,
+              34,
+              77
+            ]
+          ]
         },
         {
           "id": 4,
           "value": 3,
           "label": "Paratonnerre en bord de mer",
           "visual": "03D50004",
-          "audio": null
+          "audio": null,
+          "zones": [
+            [
+              375,
+              401,
+              28,
+              79
+            ]
+          ]
         }
       ],
       "hints": {
@@ -245,63 +381,72 @@
           "value": 1,
           "label": "",
           "visual": "03D60001",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 2,
           "value": 2,
           "label": "",
           "visual": "03D60002",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 3,
           "value": 3,
           "label": "",
           "visual": "03D60003",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 4,
           "value": 4,
           "label": "",
           "visual": "03D60004",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 5,
           "value": 5,
           "label": "",
           "visual": "03D60005",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 6,
           "value": 6,
           "label": "",
           "visual": "03D60006",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 7,
           "value": 7,
           "label": "",
           "visual": "03D60007",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 8,
           "value": 8,
           "label": "",
           "visual": "03D60008",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 9,
           "value": 9,
           "label": "",
           "visual": "03D60009",
-          "audio": null
+          "audio": null,
+          "zones": []
         }
       ],
       "hints": {
@@ -329,56 +474,64 @@
           "value": 1,
           "label": "",
           "visual": "RIEN_DF",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 2,
           "value": 2,
           "label": "",
           "visual": "RIEN_DF",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 3,
           "value": 3,
           "label": "",
           "visual": "03D70003",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 4,
           "value": 4,
           "label": "",
           "visual": "03D70003",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 5,
           "value": 5,
           "label": "",
           "visual": "03D70005",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 6,
           "value": 6,
           "label": "",
           "visual": "03D70005",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 7,
           "value": 7,
           "label": "",
           "visual": "03D70007",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 8,
           "value": 8,
           "label": "",
           "visual": "03D70007",
-          "audio": null
+          "audio": null,
+          "zones": []
         }
       ],
       "hints": {
@@ -406,56 +559,64 @@
           "value": 1,
           "label": "",
           "visual": "RIEN_DF",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 2,
           "value": 2,
           "label": "",
           "visual": "RIEN_DF",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 3,
           "value": 3,
           "label": "",
           "visual": "03D80003",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 4,
           "value": 4,
           "label": "",
           "visual": "03D80003",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 5,
           "value": 5,
           "label": "",
           "visual": "03D80005",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 6,
           "value": 6,
           "label": "",
           "visual": "03D80005",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 7,
           "value": 7,
           "label": "",
           "visual": "03D80007",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 8,
           "value": 8,
           "label": "",
           "visual": "03D80007",
-          "audio": null
+          "audio": null,
+          "zones": []
         }
       ],
       "hints": {
@@ -483,56 +644,64 @@
           "value": 1,
           "label": "",
           "visual": "RIEN_DF",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 2,
           "value": 2,
           "label": "",
           "visual": "RIEN_DF",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 3,
           "value": 3,
           "label": "",
           "visual": "03D90003",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 4,
           "value": 4,
           "label": "",
           "visual": "03D90003",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 5,
           "value": 5,
           "label": "",
           "visual": "03D90005",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 6,
           "value": 6,
           "label": "",
           "visual": "03D90005",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 7,
           "value": 7,
           "label": "",
           "visual": "03D90007",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 8,
           "value": 8,
           "label": "",
           "visual": "03D90007",
-          "audio": null
+          "audio": null,
+          "zones": []
         }
       ],
       "hints": {
@@ -560,28 +729,32 @@
           "value": 0,
           "label": "",
           "visual": "VIDE_DF",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 2,
           "value": 1,
           "label": "foudre force 1 sur montagne",
           "visual": "03DA0002",
-          "audio": "/game/station/03WA0002.wav"
+          "audio": "/game/station/03WA0002.wav",
+          "zones": []
         },
         {
           "id": 3,
           "value": 2,
           "label": "foudre force 3 sur montagne",
           "visual": "03DA0003",
-          "audio": "/game/station/03WA0003.wav"
+          "audio": "/game/station/03WA0003.wav",
+          "zones": []
         },
         {
           "id": 4,
           "value": 3,
           "label": "foudre force 5 sur montagne",
           "visual": "03DA0004",
-          "audio": "/game/station/03WA0004.wav"
+          "audio": "/game/station/03WA0004.wav",
+          "zones": []
         }
       ],
       "hints": {
@@ -609,21 +782,24 @@
           "value": 0,
           "label": "",
           "visual": "VIDE_DF",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 2,
           "value": 2,
           "label": "foudre force 2 sur plaine",
           "visual": "03DB0002",
-          "audio": "/game/station/03WB0002.wav"
+          "audio": "/game/station/03WB0002.wav",
+          "zones": []
         },
         {
           "id": 3,
           "value": 3,
           "label": "foudre force 4 sur plaine",
           "visual": "03DB0003",
-          "audio": "/game/station/03WB0003.wav"
+          "audio": "/game/station/03WB0003.wav",
+          "zones": []
         }
       ],
       "hints": {
@@ -651,14 +827,16 @@
           "value": 0,
           "label": "",
           "visual": "VIDE_DF",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 2,
           "value": 3,
           "label": "foudre force 3 sur mer",
           "visual": "03DC0002",
-          "audio": "/game/station/03WC0002.wav"
+          "audio": "/game/station/03WC0002.wav",
+          "zones": []
         }
       ],
       "hints": {
@@ -686,77 +864,88 @@
           "value": 0,
           "label": "",
           "visual": "VIDE_DF",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 2,
           "value": 1,
           "label": "foudre force 1 sur cabane en montagne",
           "visual": "03DD0002",
-          "audio": "/game/station/03WD0002.wav"
+          "audio": "/game/station/03WD0002.wav",
+          "zones": []
         },
         {
           "id": 3,
           "value": 2,
           "label": "foudre force 2 sur cabane en montagne",
           "visual": "03DD0003",
-          "audio": "/game/station/03WD0003.wav"
+          "audio": "/game/station/03WD0003.wav",
+          "zones": []
         },
         {
           "id": 4,
           "value": 3,
           "label": "foudre force 3 sur cabane en montagne",
           "visual": "03DD0004",
-          "audio": "/game/station/03WD0004.wav"
+          "audio": "/game/station/03WD0004.wav",
+          "zones": []
         },
         {
           "id": 5,
           "value": 4,
           "label": "foudre force 2 sur maison en montagne",
           "visual": "03DD0005",
-          "audio": "/game/station/03WD0005.wav"
+          "audio": "/game/station/03WD0005.wav",
+          "zones": []
         },
         {
           "id": 6,
           "value": 5,
           "label": "foudre force 3 sur maison en montagne",
           "visual": "03DD0006",
-          "audio": "/game/station/03WD0006.wav"
+          "audio": "/game/station/03WD0006.wav",
+          "zones": []
         },
         {
           "id": 7,
           "value": 6,
           "label": "foudre force 4 sur maison en montagne",
           "visual": "03DD0007",
-          "audio": "/game/station/03WD0007.wav"
+          "audio": "/game/station/03WD0007.wav",
+          "zones": []
         },
         {
           "id": 8,
           "value": 7,
           "label": "foudre force 3 sur immeuble en montagne",
           "visual": "03DD0008",
-          "audio": "/game/station/03WD0008.wav"
+          "audio": "/game/station/03WD0008.wav",
+          "zones": []
         },
         {
           "id": 9,
           "value": 8,
           "label": "foudre force 4 sur immeuble en montagne",
           "visual": "03DD0009",
-          "audio": "/game/station/03WD0009.wav"
+          "audio": "/game/station/03WD0009.wav",
+          "zones": []
         },
         {
           "id": 10,
           "value": 9,
           "label": "foudre force 5 sur immeuble en montagne",
           "visual": "03DD0010",
-          "audio": "/game/station/03WD0010.wav"
+          "audio": "/game/station/03WD0010.wav",
+          "zones": []
         },
         {
           "id": 11,
           "value": 100,
           "label": "constructions de montagne protégées",
           "visual": "VIDE_DF",
-          "audio": null
+          "audio": null,
+          "zones": []
         }
       ],
       "hints": {
@@ -784,56 +973,64 @@
           "value": 0,
           "label": "",
           "visual": "VIDE_DF",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 2,
           "value": 2,
           "label": "foudre force 1 sur cabane en plaine",
           "visual": "03DE0002",
-          "audio": "/game/station/03WE0002.wav"
+          "audio": "/game/station/03WE0002.wav",
+          "zones": []
         },
         {
           "id": 3,
           "value": 3,
           "label": "foudre force 2 sur cabane en plaine",
           "visual": "03DE0003",
-          "audio": "/game/station/03WE0003.wav"
+          "audio": "/game/station/03WE0003.wav",
+          "zones": []
         },
         {
           "id": 4,
           "value": 5,
           "label": "foudre force 2 sur maison en plaine",
           "visual": "03DE0004",
-          "audio": "/game/station/03WE0004.wav"
+          "audio": "/game/station/03WE0004.wav",
+          "zones": []
         },
         {
           "id": 5,
           "value": 6,
           "label": "foudre force 3 sur maison en plaine",
           "visual": "03DE0005",
-          "audio": "/game/station/03WE0005.wav"
+          "audio": "/game/station/03WE0005.wav",
+          "zones": []
         },
         {
           "id": 6,
           "value": 8,
           "label": "foudre force 3 sur immeuble en plaine",
           "visual": "03DE0006",
-          "audio": "/game/station/03WE0006.wav"
+          "audio": "/game/station/03WE0006.wav",
+          "zones": []
         },
         {
           "id": 7,
           "value": 9,
           "label": "foudre force 4 sur immeuble en plaine",
           "visual": "03DE0007",
-          "audio": "/game/station/03WE0007.wav"
+          "audio": "/game/station/03WE0007.wav",
+          "zones": []
         },
         {
           "id": 8,
           "value": 100,
           "label": "constructions de plaine protégées",
           "visual": "VIDE_DF",
-          "audio": null
+          "audio": null,
+          "zones": []
         }
       ],
       "hints": {
@@ -861,35 +1058,40 @@
           "value": 0,
           "label": "",
           "visual": "VIDE_DF",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 2,
           "value": 3,
           "label": "foudre force 1 sur cabane en bord de mer",
           "visual": "03DF0002",
-          "audio": "/game/station/03WF0002.wav"
+          "audio": "/game/station/03WF0002.wav",
+          "zones": []
         },
         {
           "id": 3,
           "value": 6,
           "label": "foudre force 2 sur maison en bord de mer",
           "visual": "03DF0003",
-          "audio": "/game/station/03WF0003.wav"
+          "audio": "/game/station/03WF0003.wav",
+          "zones": []
         },
         {
           "id": 4,
           "value": 9,
           "label": "foudre force 3 sur immeuble en bord de mer",
           "visual": "03DF0004",
-          "audio": "/game/station/03WF0004.wav"
+          "audio": "/game/station/03WF0004.wav",
+          "zones": []
         },
         {
           "id": 5,
           "value": 100,
           "label": "constructions de bord de mer protégées",
           "visual": "VIDE_DF",
-          "audio": null
+          "audio": null,
+          "zones": []
         }
       ],
       "hints": {
@@ -917,42 +1119,48 @@
           "value": 0,
           "label": "",
           "visual": "VIDE_DF",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 2,
           "value": 4,
           "label": "foudre force 4 sur personnage seul",
           "visual": "03DG0002",
-          "audio": "/game/station/03WG0002.wav"
+          "audio": "/game/station/03WG0002.wav",
+          "zones": []
         },
         {
           "id": 3,
           "value": 3,
           "label": "foudre force 3 sur citadin près d'une cabane",
           "visual": "03DG0003",
-          "audio": "/game/station/03WG0003.wav"
+          "audio": "/game/station/03WG0003.wav",
+          "zones": []
         },
         {
           "id": 4,
           "value": 2,
           "label": "foudre force 2 sur citadin près d'une maison",
           "visual": "03DG0004",
-          "audio": "/game/station/03WG0004.wav"
+          "audio": "/game/station/03WG0004.wav",
+          "zones": []
         },
         {
           "id": 5,
           "value": 0,
           "label": "pas de foudre sur citadin près d'un immeuble",
           "visual": "VIDE_DF",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 6,
           "value": 100,
           "label": "citadin de montagne protégé",
           "visual": "VIDE_DF",
-          "audio": null
+          "audio": null,
+          "zones": []
         }
       ],
       "hints": {
@@ -980,42 +1188,48 @@
           "value": 0,
           "label": "",
           "visual": "VIDE_DF",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 2,
           "value": 2,
           "label": "foudre force 2 sur personnage seul",
           "visual": "03DH0002",
-          "audio": "/game/station/03WH0002.wav"
+          "audio": "/game/station/03WH0002.wav",
+          "zones": []
         },
         {
           "id": 3,
           "value": 1,
           "label": "foudre force 1 sur citadin près d'une cabane",
           "visual": "03DH0003",
-          "audio": "/game/station/03WH0003.wav"
+          "audio": "/game/station/03WH0003.wav",
+          "zones": []
         },
         {
           "id": 4,
           "value": 0,
           "label": "pas de foudre sur citadin près d'une maison",
           "visual": "VIDE_DF",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 5,
           "value": 0,
           "label": "pas de foudre sur citadin près d'un immeuble",
           "visual": "VIDE_DF",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 6,
           "value": 100,
           "label": "citadin de plaine protégé",
           "visual": "VIDE_DF",
-          "audio": null
+          "audio": null,
+          "zones": []
         }
       ],
       "hints": {
@@ -1043,42 +1257,48 @@
           "value": 0,
           "label": "",
           "visual": "VIDE_DF",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 2,
           "value": 3,
           "label": "foudre force 3 sur personnage seul",
           "visual": "03DI0002",
-          "audio": "/game/station/03WI0002.wav"
+          "audio": "/game/station/03WI0002.wav",
+          "zones": []
         },
         {
           "id": 3,
           "value": 2,
           "label": "foudre force 2 sur citadin près d'une cabane",
           "visual": "03DI0003",
-          "audio": "/game/station/03WI0003.wav"
+          "audio": "/game/station/03WI0003.wav",
+          "zones": []
         },
         {
           "id": 4,
           "value": 1,
           "label": "foudre force 1 sur citadin près d'une maison",
           "visual": "03DI0004",
-          "audio": "/game/station/03WI0004.wav"
+          "audio": "/game/station/03WI0004.wav",
+          "zones": []
         },
         {
           "id": 5,
           "value": 0,
           "label": "pas de foudre sur citadin près d'un immeuble",
           "visual": "VIDE_DF",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 6,
           "value": 100,
           "label": "citadin de mer protégé",
           "visual": "VIDE_DF",
-          "audio": null
+          "audio": null,
+          "zones": []
         }
       ],
       "hints": {
@@ -1106,56 +1326,64 @@
           "value": 0,
           "label": "",
           "visual": "VIDE_DF",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 2,
           "value": 1,
           "label": "foudre force 1",
           "visual": "03DJ0002",
-          "audio": "/game/station/03WJ0003.wav"
+          "audio": "/game/station/03WJ0003.wav",
+          "zones": []
         },
         {
           "id": 3,
           "value": 2,
           "label": "foudre force 2",
           "visual": "03DJ0003",
-          "audio": "/game/station/03WJ0003.wav"
+          "audio": "/game/station/03WJ0003.wav",
+          "zones": []
         },
         {
           "id": 4,
           "value": 3,
           "label": "foudre force 3",
           "visual": "03DJ0004",
-          "audio": "/game/station/03WJ0004.wav"
+          "audio": "/game/station/03WJ0004.wav",
+          "zones": []
         },
         {
           "id": 5,
           "value": 4,
           "label": "foudre force 4",
           "visual": "03DJ0005",
-          "audio": "/game/station/03WJ0005.wav"
+          "audio": "/game/station/03WJ0005.wav",
+          "zones": []
         },
         {
           "id": 6,
           "value": 5,
           "label": "foudre force 5",
           "visual": "03DJ0006",
-          "audio": "/game/station/03WJ0006.wav"
+          "audio": "/game/station/03WJ0006.wav",
+          "zones": []
         },
         {
           "id": 7,
           "value": 6,
           "label": "foudre force 6",
           "visual": "03DJ0007",
-          "audio": "/game/station/03WJ0007.wav"
+          "audio": "/game/station/03WJ0007.wav",
+          "zones": []
         },
         {
           "id": 8,
           "value": -1,
           "label": "foudre force 7",
           "visual": "03DJ0008",
-          "audio": "/game/station/03WJ0008.wav"
+          "audio": "/game/station/03WJ0008.wav",
+          "zones": []
         }
       ],
       "hints": {
@@ -1183,42 +1411,48 @@
           "value": 0,
           "label": "",
           "visual": "VIDE_DF",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 2,
           "value": 1,
           "label": "foudre force 1",
           "visual": "03DK0002",
-          "audio": "/game/station/03WK0002.wav"
+          "audio": "/game/station/03WK0002.wav",
+          "zones": []
         },
         {
           "id": 3,
           "value": 2,
           "label": "foudre force 2",
           "visual": "03DK0003",
-          "audio": "/game/station/03WK0003.wav"
+          "audio": "/game/station/03WK0003.wav",
+          "zones": []
         },
         {
           "id": 4,
           "value": 3,
           "label": "foudre force 3",
           "visual": "03DK0004",
-          "audio": "/game/station/03WK0004.wav"
+          "audio": "/game/station/03WK0004.wav",
+          "zones": []
         },
         {
           "id": 5,
           "value": 4,
           "label": "foudre force 4",
           "visual": "03DK0005",
-          "audio": "/game/station/03WK0005.wav"
+          "audio": "/game/station/03WK0005.wav",
+          "zones": []
         },
         {
           "id": 6,
           "value": 5,
           "label": "foudre force 5",
           "visual": "03DK0006",
-          "audio": "/game/station/03WK0006.wav"
+          "audio": "/game/station/03WK0006.wav",
+          "zones": []
         }
       ],
       "hints": {
@@ -1246,28 +1480,32 @@
           "value": 0,
           "label": "",
           "visual": "VIDE_DF",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 2,
           "value": 1,
           "label": "foudre force 1",
           "visual": "03DL0002",
-          "audio": "/game/station/03WL0002.wav"
+          "audio": "/game/station/03WL0002.wav",
+          "zones": []
         },
         {
           "id": 3,
           "value": 2,
           "label": "foudre force 2",
           "visual": "03DL0003",
-          "audio": "/game/station/03WL0003.wav"
+          "audio": "/game/station/03WL0003.wav",
+          "zones": []
         },
         {
           "id": 4,
           "value": 3,
           "label": "foudre force 3",
           "visual": "03DL0004",
-          "audio": "/game/station/03WL0004.wav"
+          "audio": "/game/station/03WL0004.wav",
+          "zones": []
         }
       ],
       "hints": {
@@ -1295,28 +1533,32 @@
           "value": 0,
           "label": "",
           "visual": "VIDE_DF",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 2,
           "value": 1,
           "label": "",
           "visual": "03DM0002",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 3,
           "value": 2,
           "label": "",
           "visual": "03DM0003",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 4,
           "value": 3,
           "label": "",
           "visual": "03DM0004",
-          "audio": null
+          "audio": null,
+          "zones": []
         }
       ],
       "hints": {
@@ -1344,56 +1586,64 @@
           "value": 1,
           "label": "",
           "visual": "RIEN_DF",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 2,
           "value": 2,
           "label": "",
           "visual": "03DN0002",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 3,
           "value": 3,
           "label": "",
           "visual": "RIEN_DF",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 4,
           "value": 4,
           "label": "",
           "visual": "03DN0004",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 5,
           "value": 5,
           "label": "",
           "visual": "RIEN_DF",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 6,
           "value": 6,
           "label": "",
           "visual": "03DN0004",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 7,
           "value": 7,
           "label": "",
           "visual": "RIEN_DF",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 8,
           "value": 8,
           "label": "",
           "visual": "03DN0004",
-          "audio": null
+          "audio": null,
+          "zones": []
         }
       ],
       "hints": {
@@ -1421,56 +1671,64 @@
           "value": 1,
           "label": "",
           "visual": "RIEN_DF",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 2,
           "value": 2,
           "label": "",
           "visual": "03DO0002",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 3,
           "value": 3,
           "label": "",
           "visual": "RIEN_DF",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 4,
           "value": 4,
           "label": "",
           "visual": "03DO0004",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 5,
           "value": 5,
           "label": "",
           "visual": "RIEN_DF",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 6,
           "value": 6,
           "label": "",
           "visual": "03DO0004",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 7,
           "value": 7,
           "label": "",
           "visual": "RIEN_DF",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 8,
           "value": 8,
           "label": "",
           "visual": "03DO0004",
-          "audio": null
+          "audio": null,
+          "zones": []
         }
       ],
       "hints": {
@@ -1498,56 +1756,64 @@
           "value": 1,
           "label": "",
           "visual": "RIEN_DF",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 2,
           "value": 2,
           "label": "",
           "visual": "03DP0002",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 3,
           "value": 3,
           "label": "",
           "visual": "RIEN_DF",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 4,
           "value": 4,
           "label": "",
           "visual": "03DP0004",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 5,
           "value": 5,
           "label": "",
           "visual": "RIEN_DF",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 6,
           "value": 6,
           "label": "",
           "visual": "03DP0004",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 7,
           "value": 7,
           "label": "",
           "visual": "RIEN_DF",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 8,
           "value": 8,
           "label": "",
           "visual": "03DP0004",
-          "audio": null
+          "audio": null,
+          "zones": []
         }
       ],
       "hints": {
@@ -1597,7 +1863,14 @@
         "23": 1,
         "24": 1,
         "25": 1
-      }
+      },
+      "hidden": [
+        "5",
+        "19",
+        "20",
+        "21"
+      ],
+      "options": {}
     },
     {
       "id": "1",
@@ -1640,6 +1913,126 @@
         "25": 2,
         "24": 2,
         "23": 2
+      },
+      "hidden": [],
+      "options": {
+        "13": {
+          "3": {
+            "label": "foudre force 1 sur cabane en montagne"
+          },
+          "4": {
+            "label": "foudre force 2 sur cabane en montagne"
+          },
+          "5": {
+            "label": "foudre force 1 sur maison en montagne"
+          },
+          "6": {
+            "label": "foudre force 2 sur maison en montagne"
+          },
+          "7": {
+            "label": "foudre force 3 sur maison en montagne"
+          },
+          "8": {
+            "label": "foudre force 2 sur immeuble en montagne"
+          },
+          "9": {
+            "label": "foudre force 3 sur immeuble en montagne"
+          },
+          "10": {
+            "label": "foudre force 4 sur immeuble en montagne"
+          }
+        },
+        "14": {
+          "3": {
+            "label": "foudre force 1 sur cabane en plaine"
+          },
+          "4": {
+            "label": "foudre force 1 sur maison en plaine"
+          },
+          "5": {
+            "label": "foudre force 2 sur maison en plaine"
+          },
+          "6": {
+            "label": "foudre force 2 sur immeuble en plaine"
+          },
+          "7": {
+            "label": "foudre force 3 sur immeuble en plaine"
+          }
+        },
+        "15": {
+          "3": {
+            "label": "foudre force 1 sur maison en bord de mer"
+          },
+          "4": {
+            "label": "foudre force 2 sur immeuble en bord de mer"
+          }
+        },
+        "16": {
+          "2": {
+            "label": "foudre force 3 sur personnage seul"
+          },
+          "3": {
+            "label": "foudre force 2 sur citadin près d'une cabane"
+          },
+          "4": {
+            "label": "foudre force 1 sur citadin près d'une maison"
+          }
+        },
+        "17": {
+          "2": {
+            "label": "foudre force 1 sur personnage seul"
+          }
+        },
+        "18": {
+          "2": {
+            "label": "foudre force 2 sur personnage seul"
+          },
+          "3": {
+            "label": "foudre force 1 sur citadin près d'une cabane"
+          }
+        },
+        "19": {
+          "3": {
+            "label": "foudre force 1"
+          },
+          "4": {
+            "label": "foudre force 2"
+          },
+          "5": {
+            "label": "foudre force 3"
+          },
+          "6": {
+            "label": "foudre force 4"
+          },
+          "7": {
+            "label": "foudre force 5"
+          },
+          "8": {
+            "label": "foudre force 6"
+          }
+        },
+        "20": {
+          "3": {
+            "label": "foudre force 1"
+          },
+          "4": {
+            "label": "foudre force 2"
+          },
+          "5": {
+            "label": "foudre force 3"
+          },
+          "6": {
+            "label": "foudre force 4"
+          }
+        },
+        "21": {
+          "3": {
+            "label": "foudre force 1"
+          },
+          "4": {
+            "label": "foudre force 2"
+          }
+        }
       }
     },
     {
@@ -1680,6 +2073,48 @@
         "23": 6,
         "24": 6,
         "25": 6
+      },
+      "hidden": [],
+      "options": {
+        "13": {
+          "2": {
+            "label": "foudre force 1 sur construction basse en montagne"
+          },
+          "3": {
+            "label": "foudre force 2 sur construction basse en montagne"
+          },
+          "4": {
+            "label": "foudre force 3 sur construction basse en montagne"
+          }
+        },
+        "14": {
+          "2": {
+            "label": "foudre force 1 sur construction basse en plaine"
+          },
+          "3": {
+            "label": "foudre force 2 sur construction basse en plaine"
+          }
+        },
+        "15": {
+          "2": {
+            "label": "foudre force 1 sur construction basse en bord de mer"
+          }
+        },
+        "16": {
+          "3": {
+            "label": "foudre force 3 sur citadin près d'une construction basse"
+          }
+        },
+        "17": {
+          "3": {
+            "label": "foudre force 1 sur citadin près d'une construction basse"
+          }
+        },
+        "18": {
+          "3": {
+            "label": "foudre force 2 sur citadin près d'une construction basse"
+          }
+        }
       }
     },
     {
@@ -1720,6 +2155,14 @@
         "23": 8,
         "24": 8,
         "25": 8
+      },
+      "hidden": [],
+      "options": {
+        "19": {
+          "8": {
+            "value": 1
+          }
+        }
       }
     }
   ],
@@ -2508,5 +2951,11 @@
         "18": 0
       }
     }
+  ],
+  "interactionSources": [
+    "OBJS.DBF",
+    "OBJSZONE.DBF",
+    "ETATZONE.DBF",
+    "ETATINI.DBF"
   ]
 }

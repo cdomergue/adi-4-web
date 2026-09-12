@@ -21,28 +21,60 @@
           "value": 0,
           "label": "Hiver",
           "visual": "07D10001",
-          "audio": null
+          "audio": null,
+          "zones": [
+            [
+              216,
+              9,
+              53,
+              39
+            ]
+          ]
         },
         {
           "id": 2,
           "value": 1,
           "label": "Printemps",
           "visual": "07D10002",
-          "audio": null
+          "audio": null,
+          "zones": [
+            [
+              10,
+              9,
+              54,
+              39
+            ]
+          ]
         },
         {
           "id": 3,
           "value": 2,
           "label": "Eté",
           "visual": "07D10003",
-          "audio": null
+          "audio": null,
+          "zones": [
+            [
+              78,
+              8,
+              55,
+              41
+            ]
+          ]
         },
         {
           "id": 4,
           "value": 3,
           "label": "Automne",
           "visual": "07D10004",
-          "audio": null
+          "audio": null,
+          "zones": [
+            [
+              146,
+              8,
+              54,
+              43
+            ]
+          ]
         }
       ],
       "hints": {
@@ -70,56 +102,120 @@
           "value": 0,
           "label": "aucun lieu",
           "visual": "VIDE_DF",
-          "audio": null
+          "audio": null,
+          "zones": [
+            [
+              -1,
+              -1,
+              -1,
+              -1
+            ]
+          ]
         },
         {
           "id": 2,
           "value": 1,
           "label": "chez la Reine",
           "visual": "VIDE_DF",
-          "audio": null
+          "audio": null,
+          "zones": [
+            [
+              336,
+              267,
+              74,
+              69
+            ]
+          ]
         },
         {
           "id": 3,
           "value": 2,
           "label": "du côté des oeufs",
           "visual": "VIDE_DF",
-          "audio": null
+          "audio": null,
+          "zones": [
+            [
+              301,
+              374,
+              75,
+              61
+            ]
+          ]
         },
         {
           "id": 4,
           "value": 3,
           "label": "du côté des larves",
           "visual": "VIDE_DF",
-          "audio": null
+          "audio": null,
+          "zones": [
+            [
+              147,
+              276,
+              111,
+              73
+            ]
+          ]
         },
         {
           "id": 5,
           "value": 4,
           "label": "du côté des nymphes",
           "visual": "VIDE_DF",
-          "audio": null
+          "audio": null,
+          "zones": [
+            [
+              235,
+              179,
+              59,
+              68
+            ]
+          ]
         },
         {
           "id": 6,
           "value": 5,
           "label": "entrée du nid",
           "visual": "VIDE_DF",
-          "audio": null
+          "audio": null,
+          "zones": [
+            [
+              329,
+              8,
+              47,
+              99
+            ]
+          ]
         },
         {
           "id": 7,
           "value": 6,
           "label": "salle des échanges",
           "visual": "VIDE_DF",
-          "audio": null
+          "audio": null,
+          "zones": [
+            [
+              312,
+              115,
+              85,
+              71
+            ]
+          ]
         },
         {
           "id": 8,
           "value": 7,
           "label": "extérieur",
           "visual": "VIDE_DF",
-          "audio": null
+          "audio": null,
+          "zones": [
+            [
+              24,
+              123,
+              134,
+              142
+            ]
+          ]
         }
       ],
       "hints": {
@@ -147,14 +243,30 @@
           "value": 0,
           "label": "Pour lancer une séquence complète",
           "visual": "07D30001",
-          "audio": null
+          "audio": null,
+          "zones": [
+            [
+              -1,
+              -1,
+              -1,
+              -1
+            ]
+          ]
         },
         {
           "id": 2,
           "value": 1,
           "label": "Pour lancer une séquence complète",
           "visual": "07D30002",
-          "audio": null
+          "audio": null,
+          "zones": [
+            [
+              576,
+              8,
+              59,
+              52
+            ]
+          ]
         }
       ],
       "hints": {
@@ -182,28 +294,32 @@
           "value": 1,
           "label": "hiver",
           "visual": "VIDE_DF",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 2,
           "value": 2,
           "label": "printemps",
           "visual": "VIDE_DF",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 3,
           "value": 3,
           "label": "été",
           "visual": "VIDE_DF",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 4,
           "value": 4,
           "label": "automne",
           "visual": "VIDE_DF",
-          "audio": null
+          "audio": null,
+          "zones": []
         }
       ],
       "hints": {
@@ -231,203 +347,232 @@
           "value": 1,
           "label": "chez Reine vide",
           "visual": "07DX0001",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 2,
           "value": 2,
           "label": "ponte printemps",
           "visual": "07DX0002",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 3,
           "value": 3,
           "label": "ponte été",
           "visual": "07DX0003",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 4,
           "value": 4,
           "label": "plus de ponte",
           "visual": "07DX0004",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 5,
           "value": 5,
           "label": "Reine hiberne",
           "visual": "07DX0005",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 6,
           "value": 6,
           "label": "côté oeufs printemps",
           "visual": "07DX0006",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 7,
           "value": 7,
           "label": "côté oeufs été",
           "visual": "07DX0007",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 8,
           "value": 8,
           "label": "côté oeufs automne",
           "visual": "07DX0008",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 9,
           "value": 9,
           "label": "côté larves fourmis hibernent",
           "visual": "07DX0009",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 10,
           "value": 10,
           "label": "côté larves printemps",
           "visual": "07DX0010",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 11,
           "value": 11,
           "label": "côté larves été",
           "visual": "07DX0011",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 12,
           "value": 12,
           "label": "plus de larves automne",
           "visual": "07DX0012",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 13,
           "value": 13,
           "label": "côté nymphes vide",
           "visual": "07DX0013",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 14,
           "value": 14,
           "label": "croissance et mues succ. de sexuées",
           "visual": "07D50014",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 15,
           "value": 15,
           "label": "naissances sexuées",
           "visual": "07D50015",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 16,
           "value": 16,
           "label": "naissances ouvrières",
           "visual": "07DX0016",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 17,
           "value": 17,
           "label": "entrée du nid bouchée",
           "visual": "07DX0017",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 18,
           "value": 18,
           "label": "chasse et récolte printemps",
           "visual": "07D50018",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 19,
           "value": 19,
           "label": "chasse et récolte été",
           "visual": "07D50019",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 20,
           "value": 20,
           "label": "chasse ralentie automne",
           "visual": "07D50020",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 21,
           "value": 21,
           "label": "pas d'échanges en hiver",
           "visual": "07DX0021",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 22,
           "value": 22,
           "label": "boullie chenille",
           "visual": "07D50022",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 23,
           "value": 23,
           "label": "boullie scarabée",
           "visual": "07DX0023",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 24,
           "value": 24,
           "label": "boullie guêpe",
           "visual": "07D50024",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 25,
           "value": 25,
           "label": "ext vide en hiver",
           "visual": "07DX0025",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 26,
           "value": 26,
           "label": "attaque chenille",
           "visual": "07DX0026",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 27,
           "value": 27,
           "label": "traite des pucerons et attaque scarabée",
           "visual": "07D50027",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 28,
           "value": 28,
           "label": "attaque guêpe",
           "visual": "07D50028",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 29,
           "value": 29,
           "label": "pas d'activité",
           "visual": "VIDE_DF",
-          "audio": null
+          "audio": null,
+          "zones": []
         }
       ],
       "hints": {
@@ -455,35 +600,40 @@
           "value": 29,
           "label": "scénario printemps",
           "visual": "07D60001",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 2,
           "value": 30,
           "label": "scénario été",
           "visual": "07D60002",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 3,
           "value": 31,
           "label": "scénario automne",
           "visual": "07D60003",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 4,
           "value": 32,
           "label": "scénario hiver",
           "visual": "07D60004",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 5,
           "value": 0,
           "label": "aucun scénario",
           "visual": "VIDE_DF",
-          "audio": null
+          "audio": null,
+          "zones": []
         }
       ],
       "hints": {
@@ -511,203 +661,232 @@
           "value": 1,
           "label": "intitulé état",
           "visual": "07DX0001",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 2,
           "value": 2,
           "label": "intitulé état",
           "visual": "07DX0002",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 3,
           "value": 3,
           "label": "intitulé état",
           "visual": "07DX0003",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 4,
           "value": 4,
           "label": "intitulé état",
           "visual": "07DX0004",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 5,
           "value": 5,
           "label": "intitulé état",
           "visual": "07DX0005",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 6,
           "value": 6,
           "label": "intitulé état",
           "visual": "07DX0006",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 7,
           "value": 7,
           "label": "intitulé état",
           "visual": "07DX0007",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 8,
           "value": 8,
           "label": "intitulé état",
           "visual": "07DX0008",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 9,
           "value": 9,
           "label": "intitulé état",
           "visual": "07DX0009",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 10,
           "value": 10,
           "label": "intitulé état",
           "visual": "07DX0010",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 11,
           "value": 11,
           "label": "intitulé état",
           "visual": "07DX0011",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 12,
           "value": 12,
           "label": "intitulé état",
           "visual": "07DX0012",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 13,
           "value": 13,
           "label": "intitulé état",
           "visual": "07DX0013",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 14,
           "value": 33,
           "label": "intitulé état",
           "visual": "07D70014",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 15,
           "value": 36,
           "label": "intitulé état",
           "visual": "07D70015",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 16,
           "value": 16,
           "label": "intitulé état",
           "visual": "07DX0016",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 17,
           "value": 17,
           "label": "intitulé état",
           "visual": "07DX0017",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 18,
           "value": 34,
           "label": "intitulé état",
           "visual": "07D70018",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 19,
           "value": 37,
           "label": "intitulé état",
           "visual": "07D70019",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 20,
           "value": 39,
           "label": "intitulé état",
           "visual": "07D70020",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 21,
           "value": 21,
           "label": "intitulé état",
           "visual": "07DX0021",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 22,
           "value": 35,
           "label": "intitulé état",
           "visual": "07D70022",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 23,
           "value": 23,
           "label": "intitulé état",
           "visual": "07DX0023",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 24,
           "value": 40,
           "label": "intitulé état",
           "visual": "07D70024",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 25,
           "value": 25,
           "label": "intitulé état",
           "visual": "07DX0025",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 26,
           "value": 26,
           "label": "intitulé état",
           "visual": "07DX0026",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 27,
           "value": 38,
           "label": "intitulé état",
           "visual": "07D70027",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 28,
           "value": 41,
           "label": "intitulé état",
           "visual": "07D70028",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 29,
           "value": 29,
           "label": "intitulé état",
           "visual": "VIDE_DF",
-          "audio": null
+          "audio": null,
+          "zones": []
         }
       ],
       "hints": {
@@ -741,7 +920,11 @@
         "5": 29,
         "6": 5,
         "7": 1
-      }
+      },
+      "hidden": [
+        "7"
+      ],
+      "options": {}
     },
     {
       "id": "1",
@@ -761,6 +944,119 @@
         "5": 29,
         "6": 5,
         "7": 29
+      },
+      "hidden": [
+        "3",
+        "5",
+        "6"
+      ],
+      "options": {
+        "5": {
+          "1": {
+            "label": "intitulé état"
+          },
+          "2": {
+            "label": "intitulé état"
+          },
+          "3": {
+            "label": "intitulé état"
+          },
+          "4": {
+            "label": "intitulé état"
+          },
+          "5": {
+            "label": "intitulé état"
+          },
+          "6": {
+            "label": "intitulé état"
+          },
+          "7": {
+            "label": "intitulé état"
+          },
+          "8": {
+            "label": "intitulé état"
+          },
+          "9": {
+            "label": "intitulé état"
+          },
+          "10": {
+            "label": "intitulé état"
+          },
+          "11": {
+            "label": "intitulé état"
+          },
+          "12": {
+            "label": "intitulé état"
+          },
+          "13": {
+            "label": "intitulé état"
+          },
+          "14": {
+            "label": "intitulé état"
+          },
+          "15": {
+            "label": "intitulé état"
+          },
+          "16": {
+            "label": "intitulé état"
+          },
+          "17": {
+            "label": "intitulé état"
+          },
+          "18": {
+            "label": "intitulé état"
+          },
+          "19": {
+            "label": "intitulé état"
+          },
+          "20": {
+            "label": "intitulé état"
+          },
+          "21": {
+            "label": "intitulé état"
+          },
+          "22": {
+            "label": "intitulé état"
+          },
+          "23": {
+            "label": "intitulé état"
+          },
+          "24": {
+            "label": "intitulé état"
+          },
+          "25": {
+            "label": "intitulé état"
+          },
+          "26": {
+            "label": "intitulé état"
+          },
+          "27": {
+            "label": "intitulé état"
+          },
+          "28": {
+            "label": "intitulé état"
+          },
+          "29": {
+            "label": "intitulé état"
+          }
+        },
+        "6": {
+          "1": {
+            "label": "intitulé état"
+          },
+          "2": {
+            "label": "intitulé état"
+          },
+          "3": {
+            "label": "intitulé état"
+          },
+          "4": {
+            "label": "intitulé état"
+          },
+          "5": {
+            "label": "intitulé état"
+          }
+        }
       }
     },
     {
@@ -781,6 +1077,119 @@
         "5": 29,
         "6": 5,
         "7": 29
+      },
+      "hidden": [
+        "3",
+        "5",
+        "6"
+      ],
+      "options": {
+        "5": {
+          "1": {
+            "label": "intitulé état"
+          },
+          "2": {
+            "label": "intitulé état"
+          },
+          "3": {
+            "label": "intitulé état"
+          },
+          "4": {
+            "label": "intitulé état"
+          },
+          "5": {
+            "label": "intitulé état"
+          },
+          "6": {
+            "label": "intitulé état"
+          },
+          "7": {
+            "label": "intitulé état"
+          },
+          "8": {
+            "label": "intitulé état"
+          },
+          "9": {
+            "label": "intitulé état"
+          },
+          "10": {
+            "label": "intitulé état"
+          },
+          "11": {
+            "label": "intitulé état"
+          },
+          "12": {
+            "label": "intitulé état"
+          },
+          "13": {
+            "label": "intitulé état"
+          },
+          "14": {
+            "label": "intitulé état"
+          },
+          "15": {
+            "label": "intitulé état"
+          },
+          "16": {
+            "label": "intitulé état"
+          },
+          "17": {
+            "label": "intitulé état"
+          },
+          "18": {
+            "label": "intitulé état"
+          },
+          "19": {
+            "label": "intitulé état"
+          },
+          "20": {
+            "label": "intitulé état"
+          },
+          "21": {
+            "label": "intitulé état"
+          },
+          "22": {
+            "label": "intitulé état"
+          },
+          "23": {
+            "label": "intitulé état"
+          },
+          "24": {
+            "label": "intitulé état"
+          },
+          "25": {
+            "label": "intitulé état"
+          },
+          "26": {
+            "label": "intitulé état"
+          },
+          "27": {
+            "label": "intitulé état"
+          },
+          "28": {
+            "label": "intitulé état"
+          },
+          "29": {
+            "label": "intitulé état"
+          }
+        },
+        "6": {
+          "1": {
+            "label": "intitulé état"
+          },
+          "2": {
+            "label": "intitulé état"
+          },
+          "3": {
+            "label": "intitulé état"
+          },
+          "4": {
+            "label": "intitulé état"
+          },
+          "5": {
+            "label": "intitulé état"
+          }
+        }
       }
     },
     {
@@ -801,6 +1210,119 @@
         "5": 29,
         "6": 5,
         "7": 29
+      },
+      "hidden": [
+        "3",
+        "5",
+        "6"
+      ],
+      "options": {
+        "5": {
+          "1": {
+            "label": "intitulé état"
+          },
+          "2": {
+            "label": "intitulé état"
+          },
+          "3": {
+            "label": "intitulé état"
+          },
+          "4": {
+            "label": "intitulé état"
+          },
+          "5": {
+            "label": "intitulé état"
+          },
+          "6": {
+            "label": "intitulé état"
+          },
+          "7": {
+            "label": "intitulé état"
+          },
+          "8": {
+            "label": "intitulé état"
+          },
+          "9": {
+            "label": "intitulé état"
+          },
+          "10": {
+            "label": "intitulé état"
+          },
+          "11": {
+            "label": "intitulé état"
+          },
+          "12": {
+            "label": "intitulé état"
+          },
+          "13": {
+            "label": "intitulé état"
+          },
+          "14": {
+            "label": "intitulé état"
+          },
+          "15": {
+            "label": "intitulé état"
+          },
+          "16": {
+            "label": "intitulé état"
+          },
+          "17": {
+            "label": "intitulé état"
+          },
+          "18": {
+            "label": "intitulé état"
+          },
+          "19": {
+            "label": "intitulé état"
+          },
+          "20": {
+            "label": "intitulé état"
+          },
+          "21": {
+            "label": "intitulé état"
+          },
+          "22": {
+            "label": "intitulé état"
+          },
+          "23": {
+            "label": "intitulé état"
+          },
+          "24": {
+            "label": "intitulé état"
+          },
+          "25": {
+            "label": "intitulé état"
+          },
+          "26": {
+            "label": "intitulé état"
+          },
+          "27": {
+            "label": "intitulé état"
+          },
+          "28": {
+            "label": "intitulé état"
+          },
+          "29": {
+            "label": "intitulé état"
+          }
+        },
+        "6": {
+          "1": {
+            "label": "intitulé état"
+          },
+          "2": {
+            "label": "intitulé état"
+          },
+          "3": {
+            "label": "intitulé état"
+          },
+          "4": {
+            "label": "intitulé état"
+          },
+          "5": {
+            "label": "intitulé état"
+          }
+        }
       }
     }
   ],
@@ -1345,5 +1867,11 @@
         "2": 7
       }
     }
+  ],
+  "interactionSources": [
+    "OBJS.DBF",
+    "OBJSZONE.DBF",
+    "ETATZONE.DBF",
+    "ETATINI.DBF"
   ]
 }

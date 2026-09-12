@@ -21,21 +21,45 @@
           "value": 1,
           "label": "Forêt",
           "visual": "11D10001",
-          "audio": null
+          "audio": null,
+          "zones": [
+            [
+              353,
+              399,
+              49,
+              44
+            ]
+          ]
         },
         {
           "id": 2,
           "value": 2,
           "label": "Bord de l'eau",
           "visual": "11D10002",
-          "audio": null
+          "audio": null,
+          "zones": [
+            [
+              290,
+              429,
+              64,
+              51
+            ]
+          ]
         },
         {
           "id": 3,
           "value": 3,
           "label": "Prairie",
           "visual": "11D10003",
-          "audio": null
+          "audio": null,
+          "zones": [
+            [
+              252,
+              399,
+              92,
+              38
+            ]
+          ]
         }
       ],
       "hints": {
@@ -63,21 +87,45 @@
           "value": 1,
           "label": "Matin",
           "visual": "11D20001",
-          "audio": null
+          "audio": null,
+          "zones": [
+            [
+              170,
+              381,
+              34,
+              37
+            ]
+          ]
         },
         {
           "id": 2,
           "value": 2,
           "label": "Midi",
           "visual": "11D20002",
-          "audio": null
+          "audio": null,
+          "zones": [
+            [
+              132,
+              362,
+              34,
+              35
+            ]
+          ]
         },
         {
           "id": 3,
           "value": 3,
           "label": "Soir",
           "visual": "11D20003",
-          "audio": null
+          "audio": null,
+          "zones": [
+            [
+              88,
+              379,
+              36,
+              38
+            ]
+          ]
         }
       ],
       "hints": {
@@ -105,21 +153,45 @@
           "value": 1,
           "label": "Appât : viande",
           "visual": "11D30001",
-          "audio": null
+          "audio": null,
+          "zones": [
+            [
+              473,
+              365,
+              51,
+              43
+            ]
+          ]
         },
         {
           "id": 2,
           "value": 2,
           "label": "Appât : fougère",
           "visual": "11D30002",
-          "audio": null
+          "audio": null,
+          "zones": [
+            [
+              415,
+              370,
+              50,
+              38
+            ]
+          ]
         },
         {
           "id": 3,
           "value": 3,
           "label": "Cri d'un parasaurolofus mâle",
           "visual": "11D30003",
-          "audio": null
+          "audio": null,
+          "zones": [
+            [
+              531,
+              368,
+              48,
+              39
+            ]
+          ]
         }
       ],
       "hints": {
@@ -147,63 +219,72 @@
           "value": 1,
           "label": "La forêt, le matin",
           "visual": "11D40001",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 2,
           "value": 2,
           "label": "La forêt, à midi",
           "visual": "11D40002",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 3,
           "value": 3,
           "label": "La forêt, le soir",
           "visual": "11D40003",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 4,
           "value": 4,
           "label": "Le bord de l'eau, le matin",
           "visual": "11D40004",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 5,
           "value": 5,
           "label": "Le bord de l'eau, à midi",
           "visual": "11D40005",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 6,
           "value": 6,
           "label": "Le bord de l'eau, le soir",
           "visual": "11D40006",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 7,
           "value": 7,
           "label": "La prairie, le matin",
           "visual": "11D40007",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 8,
           "value": 8,
           "label": "La prairie, à midi",
           "visual": "11D40008",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 9,
           "value": 9,
           "label": "La prairie, le soir",
           "visual": "11D40009",
-          "audio": null
+          "audio": null,
+          "zones": []
         }
       ],
       "hints": {
@@ -231,196 +312,224 @@
           "value": 1,
           "label": "",
           "visual": "11D50001",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 2,
           "value": 2,
           "label": "",
           "visual": "11D50002",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 3,
           "value": 3,
           "label": "",
           "visual": "11D50003",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 4,
           "value": 4,
           "label": "",
           "visual": "11D50004",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 5,
           "value": 5,
           "label": "",
           "visual": "11D50005",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 6,
           "value": 6,
           "label": "",
           "visual": "11D50006",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 7,
           "value": 7,
           "label": "",
           "visual": "11D50007",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 8,
           "value": 8,
           "label": "",
           "visual": "11D50008",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 9,
           "value": 9,
           "label": "",
           "visual": "11D50009",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 10,
           "value": 10,
           "label": "",
           "visual": "11D50010",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 11,
           "value": 11,
           "label": "",
           "visual": "11D50011",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 12,
           "value": 12,
           "label": "",
           "visual": "11D50012",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 13,
           "value": 13,
           "label": "",
           "visual": "11D50013",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 14,
           "value": 14,
           "label": "",
           "visual": "11D50014",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 15,
           "value": 15,
           "label": "",
           "visual": "11D50015",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 16,
           "value": 16,
           "label": "",
           "visual": "11D50016",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 17,
           "value": 17,
           "label": "",
           "visual": "11D50017",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 18,
           "value": 18,
           "label": "",
           "visual": "11D50018",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 19,
           "value": 19,
           "label": "",
           "visual": "11D50019",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 20,
           "value": 20,
           "label": "",
           "visual": "11D50020",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 21,
           "value": 21,
           "label": "",
           "visual": "11D50021",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 22,
           "value": 22,
           "label": "",
           "visual": "11D50022",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 23,
           "value": 23,
           "label": "",
           "visual": "11D50023",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 24,
           "value": 24,
           "label": "",
           "visual": "11D50024",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 25,
           "value": 25,
           "label": "",
           "visual": "11D50025",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 26,
           "value": 26,
           "label": "",
           "visual": "11D50026",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 27,
           "value": 27,
           "label": "",
           "visual": "11D50027",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 28,
           "value": 28,
           "label": "",
           "visual": "VIDE_DF",
-          "audio": null
+          "audio": null,
+          "zones": []
         }
       ],
       "hints": {
@@ -448,14 +557,16 @@
           "value": 0,
           "label": "Appuyer ici pour lancer l'appât et démarrer l'observation",
           "visual": null,
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 2,
           "value": 1,
           "label": "",
           "visual": "11D60002",
-          "audio": null
+          "audio": null,
+          "zones": []
         }
       ],
       "hints": {
@@ -484,7 +595,9 @@
         "4": 1,
         "5": 16,
         "6": 1
-      }
+      },
+      "hidden": [],
+      "options": {}
     },
     {
       "id": "1",
@@ -503,7 +616,9 @@
         "4": 5,
         "5": 23,
         "6": 1
-      }
+      },
+      "hidden": [],
+      "options": {}
     },
     {
       "id": "2",
@@ -522,7 +637,9 @@
         "4": 9,
         "5": 26,
         "6": 1
-      }
+      },
+      "hidden": [],
+      "options": {}
     },
     {
       "id": "3",
@@ -541,7 +658,9 @@
         "4": 1,
         "5": 16,
         "6": 1
-      }
+      },
+      "hidden": [],
+      "options": {}
     }
   ],
   "lookup": [
@@ -860,5 +979,11 @@
         "3": 3
       }
     }
+  ],
+  "interactionSources": [
+    "OBJS.DBF",
+    "OBJSZONE.DBF",
+    "ETATZONE.DBF",
+    "ETATINI.DBF"
   ]
 }

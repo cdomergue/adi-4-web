@@ -21,28 +21,32 @@
           "value": 0,
           "label": "Aucune sélection",
           "visual": "VIDE_DF",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 2,
           "value": 1,
           "label": "\"Grande\" et \"Grande\"",
           "visual": "04D10002",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 3,
           "value": 2,
           "label": "\"Grande\" et \"Petite\"",
           "visual": "04D10003",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 4,
           "value": 3,
           "label": "\"Petite\" et \"Petite\"",
           "visual": "04D10004",
-          "audio": null
+          "audio": null,
+          "zones": []
         }
       ],
       "hints": {
@@ -70,28 +74,32 @@
           "value": 0,
           "label": "Aucune sélection",
           "visual": "VIDE_DF",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 2,
           "value": 1,
           "label": "\"nombreuses\" et \"nombreuses\"",
           "visual": "04D20002",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 3,
           "value": 2,
           "label": "\"nombreuses et \"Rares\"",
           "visual": "04D20003",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 4,
           "value": 3,
           "label": "\"Rares\" et \"Rares\"",
           "visual": "04D20004",
-          "audio": null
+          "audio": null,
+          "zones": []
         }
       ],
       "hints": {
@@ -119,28 +127,32 @@
           "value": 0,
           "label": "Aucune sélection",
           "visual": "VIDE_DF",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 2,
           "value": 1,
           "label": "\"Dentées\" et \"Dentées\"",
           "visual": "04D30002",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 3,
           "value": 2,
           "label": "\"Dentées\" et \"lisses\"",
           "visual": "04D30003",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 4,
           "value": 3,
           "label": "\"lisses\" et \"lisses\"",
           "visual": "04D30004",
-          "audio": null
+          "audio": null,
+          "zones": []
         }
       ],
       "hints": {
@@ -168,28 +180,32 @@
           "value": 0,
           "label": "Aucune sélection",
           "visual": "VIDE_DF",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 2,
           "value": 1,
           "label": "Fleur Blanche et Fleur Blanche",
           "visual": "04D40002",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 3,
           "value": 2,
           "label": "Fleur Blanche et Fleur Rouge",
           "visual": "04D40003",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 4,
           "value": 3,
           "label": "Fleur Rouge et Fleur Rouge",
           "visual": "04D40004",
-          "audio": null
+          "audio": null,
+          "zones": []
         }
       ],
       "hints": {
@@ -217,28 +233,32 @@
           "value": 0,
           "label": "Aucune sélection",
           "visual": "VIDE_DF",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 2,
           "value": 1,
           "label": "\"bichrome\"et \"bichrome\"",
           "visual": "04D50002",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 3,
           "value": 2,
           "label": "\"Monochrome\" et \"bichrome\"",
           "visual": "04D50003",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 4,
           "value": 3,
           "label": "\"Monochrome\" et \"Monochrome\"",
           "visual": "04D50004",
-          "audio": null
+          "audio": null,
+          "zones": []
         }
       ],
       "hints": {
@@ -266,28 +286,32 @@
           "value": 0,
           "label": "Aucune sélection",
           "visual": "VIDE_DF",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 2,
           "value": 1,
           "label": "\"Pointus\" et \"Pointus\"",
           "visual": "04D60002",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 3,
           "value": 2,
           "label": "\"ovales\" et \"Pointus\"",
           "visual": "04D60003",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 4,
           "value": 3,
           "label": "\"ovales\" et \"ovales\"",
           "visual": "04D60004",
-          "audio": null
+          "audio": null,
+          "zones": []
         }
       ],
       "hints": {
@@ -315,28 +339,32 @@
           "value": 1,
           "label": "intitulé état",
           "visual": null,
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 2,
           "value": 2,
           "label": "intitulé état",
           "visual": null,
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 3,
           "value": 3,
           "label": "intitulé état",
           "visual": null,
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 4,
           "value": 4,
           "label": "intitulé état",
           "visual": null,
-          "audio": null
+          "audio": null,
+          "zones": []
         }
       ],
       "hints": {
@@ -364,35 +392,40 @@
           "value": 1,
           "label": "intitulé état",
           "visual": null,
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 2,
           "value": 2,
           "label": "intitulé état",
           "visual": null,
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 3,
           "value": 3,
           "label": "intitulé état",
           "visual": null,
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 4,
           "value": 4,
           "label": "intitulé état",
           "visual": null,
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 5,
           "value": 5,
           "label": "intitulé état",
           "visual": null,
-          "audio": null
+          "audio": null,
+          "zones": []
         }
       ],
       "hints": {
@@ -420,91 +453,104 @@
           "value": 1,
           "label": "intitulé état",
           "visual": null,
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 2,
           "value": 2,
           "label": "intitulé état",
           "visual": null,
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 3,
           "value": 3,
           "label": "intitulé état",
           "visual": null,
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 4,
           "value": 4,
           "label": "intitulé état",
           "visual": null,
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 5,
           "value": 5,
           "label": "intitulé état",
           "visual": null,
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 6,
           "value": 6,
           "label": "intitulé état",
           "visual": null,
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 7,
           "value": 7,
           "label": "intitulé état",
           "visual": null,
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 8,
           "value": 8,
           "label": "intitulé état",
           "visual": null,
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 9,
           "value": 9,
           "label": "intitulé état",
           "visual": null,
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 10,
           "value": 10,
           "label": "intitulé état",
           "visual": null,
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 11,
           "value": 11,
           "label": "intitulé état",
           "visual": null,
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 12,
           "value": 12,
           "label": "intitulé état",
           "visual": null,
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 13,
           "value": 13,
           "label": "intitulé état",
           "visual": null,
-          "audio": null
+          "audio": null,
+          "zones": []
         }
       ],
       "hints": {
@@ -532,1015 +578,1160 @@
           "value": 1,
           "label": "Blanche Bichrome Pétales Ovales Grande tige Feuilles nombreuses Dentées",
           "visual": "04DA0001",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 2,
           "value": 2,
           "label": "Blanche Bichrome Pétales Pointus Grande tige Feuilles nombreuses Dentées",
           "visual": "04DA0002",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 3,
           "value": 3,
           "label": "Blanche Monochrome Pétales Ovales Grande tige Feuilles nombreuses Dentées",
           "visual": "04DA0003",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 4,
           "value": 4,
           "label": "Blanche Monochrome Pétales Pointus Grande tige Feuilles nombreuses Dentées",
           "visual": "04DA0004",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 5,
           "value": 5,
           "label": "Rose Bichrome Pétales Ovales Grande tige Feuilles nombreuses Dentées",
           "visual": "04DA0005",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 6,
           "value": 6,
           "label": "Rose Bichrome Pétales Pointus Grande tige Feuilles nombreuses Dentées",
           "visual": "04DA0006",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 7,
           "value": 7,
           "label": "Rose Monochrome Pétales Ovales Grande tige Feuilles nombreuses Dentées",
           "visual": "04DA0007",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 8,
           "value": 8,
           "label": "Rose Monochrome Pétales Pointus Grande tige Feuilles nombreuses Dentées",
           "visual": "04DA0008",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 9,
           "value": 9,
           "label": "Rouge Bichrome Pétales Ovales Grande tige Feuilles nombreuses Dentées",
           "visual": "04DA0009",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 10,
           "value": 10,
           "label": "Rouge Bichrome Pétales Pointus Grande tige Feuilles nombreuses Dentées",
           "visual": "04DA0010",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 11,
           "value": 11,
           "label": "Rouge Monochrome Pétales Ovales Grande tige Feuilles nombreuses Dentées",
           "visual": "04DA0011",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 12,
           "value": 12,
           "label": "Rouge Monochrome Pétales Pointus Grande tige Feuilles nombreuses Dentées",
           "visual": "04DA0012",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 13,
           "value": 13,
           "label": "Blanche Bichrome Pétales Ovales Grande tige Feuilles nombreuses Lisses",
           "visual": "04DA0013",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 14,
           "value": 14,
           "label": "Blanche Bichrome Pétales Pointus Grande tige Feuilles nombreuses Lisses",
           "visual": "04DA0014",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 15,
           "value": 15,
           "label": "Blanche Monochrome Pétales Ovales Grande tige Feuilles nombreuses Lisses",
           "visual": "04DA0015",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 16,
           "value": 16,
           "label": "Blanche Monochrome Pétales Pointus Grande tige Feuilles nombreuses Lisses",
           "visual": "04DA0016",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 17,
           "value": 17,
           "label": "Rose Bichrome Pétales Ovales Grande tige Feuilles nombreuses Lisses",
           "visual": "04DA0017",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 18,
           "value": 18,
           "label": "Rose Bichrome Pétales Pointus Grande tige Feuilles nombreuses Lisses",
           "visual": "04DA0018",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 19,
           "value": 19,
           "label": "Rose Monochrome Pétales Ovales Grande tige Feuilles nombreuses Lisses",
           "visual": "04DA0019",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 20,
           "value": 20,
           "label": "Rose Monochrome Pétales Pointus Grande tige Feuilles nombreuses Lisses",
           "visual": "04DA0020",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 21,
           "value": 21,
           "label": "Rouge Bichrome Pétales Ovales Grande tige Feuilles nombreuses Lisses",
           "visual": "04DA0021",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 22,
           "value": 22,
           "label": "Rouge Bichrome Pétales Pointus Grande tige Feuilles nombreuses Lisses",
           "visual": "04DA0022",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 23,
           "value": 23,
           "label": "Rouge Monochrome Pétales Ovales Grande tige Feuilles nombreuses Lisses",
           "visual": "04DA0023",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 24,
           "value": 24,
           "label": "Rouge Monochrome Pétales Pointus Grande tige Feuilles nombreuses Lisses",
           "visual": "04DA0024",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 25,
           "value": 25,
           "label": "Blanche Bichrome Pétales Ovales Grande tige Feuilles Rares Dentées",
           "visual": "04DA0025",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 26,
           "value": 26,
           "label": "Blanche Bichrome Pétales Pointus Grande tige Feuilles Rares Dentées",
           "visual": "04DA0026",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 27,
           "value": 27,
           "label": "Blanche Monochrome Pétales Ovales Grande tige Feuilles Rares Dentées",
           "visual": "04DA0027",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 28,
           "value": 28,
           "label": "Blanche Monochrome Pétales Pointus Grande tige Feuilles Rares Dentées",
           "visual": "04DA0028",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 29,
           "value": 29,
           "label": "Rose Bichrome Pétales Ovales Grande tige Feuilles Rares Dentées",
           "visual": "04DA0029",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 30,
           "value": 30,
           "label": "Rose Bichrome Pétales Pointus Grande tige Feuilles Rares Dentées",
           "visual": "04DA0030",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 31,
           "value": 31,
           "label": "Rose Monochrome Pétales Ovales Grande tige Feuilles Rares Dentées",
           "visual": "04DA0031",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 32,
           "value": 32,
           "label": "Rose Monochrome Pétales Pointus Grande tige Feuilles Rares Dentées",
           "visual": "04DA0032",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 33,
           "value": 33,
           "label": "Rouge Bichrome Pétales Ovales Grande tige Feuilles Rares Dentées",
           "visual": "04DA0033",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 34,
           "value": 34,
           "label": "Rouge Bichrome Pétales Pointus Grande tige Feuilles Rares Dentées",
           "visual": "04DA0034",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 35,
           "value": 35,
           "label": "Rouge Monochrome Pétales Ovales Grande tige Feuilles Rares Dentées",
           "visual": "04DA0035",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 36,
           "value": 36,
           "label": "Rouge Monochrome Pétales Pointus Grande tige Feuilles Rares Dentées",
           "visual": "04DA0036",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 37,
           "value": 37,
           "label": "Blanche Bichrome Pétales Ovales Grande tige Feuilles Rares Lisses",
           "visual": "04DA0037",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 38,
           "value": 38,
           "label": "Blanche Bichrome Pétales Pointus Grande tige Feuilles Rares Lisses",
           "visual": "04DA0038",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 39,
           "value": 39,
           "label": "Blanche Monochrome Pétales Ovales Grande tige Feuilles Rares Lisses",
           "visual": "04DA0039",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 40,
           "value": 40,
           "label": "Blanche Monochrome Pétales Pointus Grande tige Feuilles Rares Lisses",
           "visual": "04DA0040",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 41,
           "value": 41,
           "label": "Rose Bichrome Pétales Ovales Grande tige Feuilles Rares Lisses",
           "visual": "04DA0041",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 42,
           "value": 42,
           "label": "Rose Bichrome Pétales Pointus Grande tige Feuilles Rares Lisses",
           "visual": "04DA0042",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 43,
           "value": 43,
           "label": "Rose Monochrome Pétales Ovales Grande tige Feuilles Rares Lisses",
           "visual": "04DA0043",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 44,
           "value": 44,
           "label": "Rose Monochrome Pétales Pointus Grande tige Feuilles Rares Lisses",
           "visual": "04DA0044",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 45,
           "value": 45,
           "label": "Rouge Bichrome Pétales Ovales Grande tige Feuilles Rares Lisses",
           "visual": "04DA0045",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 46,
           "value": 46,
           "label": "Rouge Bichrome Pétales Pointus Grande tige Feuilles Rares Lisses",
           "visual": "04DA0046",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 47,
           "value": 47,
           "label": "Rouge Monochrome Pétales Ovales Grande tige Feuilles Rares Lisses",
           "visual": "04DA0047",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 48,
           "value": 48,
           "label": "Rouge Monochrome Pétales Pointus Grande tige Feuilles Rares Lisses",
           "visual": "04DA0048",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 49,
           "value": 49,
           "label": "Blanche Bichrome Pétales Ovales Tige moyenne Feuilles nombreuses Dentées",
           "visual": "04DA0049",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 50,
           "value": 50,
           "label": "Blanche Bichrome Pétales Pointus Tige moyenne Feuilles nombreuses Dentées",
           "visual": "04DA0050",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 51,
           "value": 51,
           "label": "Blanche Monochrome Pétales Ovales Tige moyenne Feuilles nombreuses Dentées",
           "visual": "04DA0051",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 52,
           "value": 52,
           "label": "Blanche Monochrome Pétales Pointus Tige moyenne Feuilles nombreuses Dentées",
           "visual": "04DA0052",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 53,
           "value": 53,
           "label": "Rose Bichrome Pétales Ovales Tige moyenne Feuilles nombreuses Dentées",
           "visual": "04DA0053",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 54,
           "value": 54,
           "label": "Rose Bichrome Pétales Pointus Tige moyenne Feuilles nombreuses Dentées",
           "visual": "04DA0054",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 55,
           "value": 55,
           "label": "Rose Monochrome Pétales Ovales Tige moyenne Feuilles nombreuses Dentées",
           "visual": "04DA0055",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 56,
           "value": 56,
           "label": "Rose Monochrome Pétales Pointus Tige moyenne Feuilles nombreuses Dentées",
           "visual": "04DA0056",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 57,
           "value": 57,
           "label": "Rouge Bichrome Pétales Ovales Tige moyenne Feuilles nombreuses Dentées",
           "visual": "04DA0057",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 58,
           "value": 58,
           "label": "Rouge Bichrome Pétales Pointus Tige moyenne Feuilles nombreuses Dentées",
           "visual": "04DA0058",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 59,
           "value": 59,
           "label": "Rouge Monochrome Pétales Ovales Tige moyenne Feuilles nombreuses Dentées",
           "visual": "04DA0059",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 60,
           "value": 60,
           "label": "Rouge Monochrome Pétales Pointus Tige moyenne Feuilles nombreuses Dentées",
           "visual": "04DA0060",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 61,
           "value": 61,
           "label": "Blanche Bichrome Pétales Ovales Tige moyenne Feuilles nombreuses Lisses",
           "visual": "04DA0061",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 62,
           "value": 62,
           "label": "Blanche Bichrome Pétales Pointus Tige moyenne Feuilles nombreuses Lisses",
           "visual": "04DA0062",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 63,
           "value": 63,
           "label": "Blanche Monochrome Pétales Ovales Tige moyenne Feuilles nombreuses Lisses",
           "visual": "04DA0063",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 64,
           "value": 64,
           "label": "Blanche Monochrome Pétales Pointus Tige moyenne Feuilles nombreuses Lisses",
           "visual": "04DA0064",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 65,
           "value": 65,
           "label": "Rose Bichrome Pétales Ovales Tige moyenne Feuilles nombreuses Lisses",
           "visual": "04DA0065",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 66,
           "value": 66,
           "label": "Rose Bichrome Pétales Pointus Tige moyenne Feuilles nombreuses Lisses",
           "visual": "04DA0066",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 67,
           "value": 67,
           "label": "Rose Monochrome Pétales Ovales Tige moyenne Feuilles nombreuses Lisses",
           "visual": "04DA0067",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 68,
           "value": 68,
           "label": "Rose Monochrome Pétales Pointus Tige moyenne Feuilles nombreuses Lisses",
           "visual": "04DA0068",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 69,
           "value": 69,
           "label": "Rouge Bichrome Pétales Ovales Tige moyenne Feuilles nombreuses Lisses",
           "visual": "04DA0069",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 70,
           "value": 70,
           "label": "Rouge Bichrome Pétales Pointus Tige moyenne Feuilles nombreuses Lisses",
           "visual": "04DA0070",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 71,
           "value": 71,
           "label": "Rouge Monochrome Pétales Ovales Tige moyenne Feuilles nombreuses Lisses",
           "visual": "04DA0071",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 72,
           "value": 72,
           "label": "Rouge Monochrome Pétales Pointus Tige moyenne Feuilles nombreuses Lisses",
           "visual": "04DA0072",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 73,
           "value": 73,
           "label": "Blanche Bichrome Pétales Ovales Tige moyenne Feuilles Rares Dentées",
           "visual": "04DA0073",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 74,
           "value": 74,
           "label": "Blanche Bichrome Pétales Pointus Tige moyenne Feuilles Rares Dentées",
           "visual": "04DA0074",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 75,
           "value": 75,
           "label": "Blanche Monochrome Pétales Ovales Tige moyenne Feuilles Rares Dentées",
           "visual": "04DA0075",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 76,
           "value": 76,
           "label": "Blanche Monochrome Pétales Pointus Tige moyenne Feuilles Rares Dentées",
           "visual": "04DA0076",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 77,
           "value": 77,
           "label": "Rose Bichrome Pétales Ovales Tige moyenne Feuilles Rares Dentées",
           "visual": "04DA0077",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 78,
           "value": 78,
           "label": "Rose Bichrome Pétales Pointus Tige moyenne Feuilles Rares Dentées",
           "visual": "04DA0078",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 79,
           "value": 79,
           "label": "Rose Monochrome Pétales Ovales Tige moyenne Feuilles Rares Dentées",
           "visual": "04DA0079",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 80,
           "value": 80,
           "label": "Rose Monochrome Pétales Pointus Tige moyenne Feuilles Rares Dentées",
           "visual": "04DA0080",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 81,
           "value": 81,
           "label": "Rouge Bichrome Pétales Ovales Tige moyenne Feuilles Rares Dentées",
           "visual": "04DA0081",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 82,
           "value": 82,
           "label": "Rouge Bichrome Pétales Pointus Tige moyenne Feuilles Rares Dentées",
           "visual": "04DA0082",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 83,
           "value": 83,
           "label": "Rouge Monochrome Pétales Ovales Tige moyenne Feuilles Rares Dentées",
           "visual": "04DA0083",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 84,
           "value": 84,
           "label": "Rouge Monochrome Pétales Pointus Tige moyenne Feuilles Rares Dentées",
           "visual": "04DA0084",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 85,
           "value": 85,
           "label": "Blanche Bichrome Pétales Ovales Tige moyenne Feuilles Rares Lisses",
           "visual": "04DA0085",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 86,
           "value": 86,
           "label": "Blanche Bichrome Pétales Pointus Tige moyenne Feuilles Rares Lisses",
           "visual": "04DA0086",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 87,
           "value": 87,
           "label": "Blanche Monochrome Pétales Ovales Tige moyenne Feuilles Rares Lisses",
           "visual": "04DA0087",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 88,
           "value": 88,
           "label": "Blanche Monochrome Pétales Pointus Tige moyenne Feuilles Rares Lisses",
           "visual": "04DA0088",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 89,
           "value": 89,
           "label": "Rose Bichrome Pétales Ovales Tige moyenne Feuilles Rares Lisses",
           "visual": "04DA0089",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 90,
           "value": 90,
           "label": "Rose Bichrome Pétales Pointus Tige moyenne Feuilles Rares Lisses",
           "visual": "04DA0090",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 91,
           "value": 91,
           "label": "Rose Monochrome Pétales Ovales Tige moyenne Feuilles Rares Lisses",
           "visual": "04DA0091",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 92,
           "value": 92,
           "label": "Rose Monochrome Pétales Pointus Tige moyenne Feuilles Rares Lisses",
           "visual": "04DA0092",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 93,
           "value": 93,
           "label": "Rouge Bichrome Pétales Ovales Tige moyenne Feuilles Rares Lisses",
           "visual": "04DA0093",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 94,
           "value": 94,
           "label": "Rouge Bichrome Pétales Pointus Tige moyenne Feuilles Rares Lisses",
           "visual": "04DA0094",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 95,
           "value": 95,
           "label": "Rouge Monochrome Pétales Ovales Tige moyenne Feuilles Rares Lisses",
           "visual": "04DA0095",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 96,
           "value": 96,
           "label": "Rouge Monochrome Pétales Pointus Tige moyenne Feuilles Rares Lisses",
           "visual": "04DA0096",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 97,
           "value": 97,
           "label": "Blanche Bichrome Pétales Ovales Courte tige Feuilles nombreuses Dentées",
           "visual": "04DA0097",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 98,
           "value": 98,
           "label": "Blanche Bichrome Pétales Pointus Courte tige Feuilles nombreuses Dentées",
           "visual": "04DA0098",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 99,
           "value": 99,
           "label": "Blanche Monochrome Pétales Ovales Courte tige Feuilles nombreuses Dentées",
           "visual": "04DA0099",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 100,
           "value": 100,
           "label": "Blanche Monochrome Pétales Pointus Courte tige Feuilles nombreuses Dentées",
           "visual": "04DA0100",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 101,
           "value": 101,
           "label": "Rose Bichrome Pétales Ovales Courte tige Feuilles nombreuses Dentées",
           "visual": "04DA0101",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 102,
           "value": 102,
           "label": "Rose Bichrome Pétales Pointus Courte tige Feuilles nombreuses Dentées",
           "visual": "04DA0102",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 103,
           "value": 103,
           "label": "Rose Monochrome Pétales Ovales Courte tige Feuilles nombreuses Dentées",
           "visual": "04DA0103",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 104,
           "value": 104,
           "label": "Rose Monochrome Pétales Pointus Courte tige Feuilles nombreuses Dentées",
           "visual": "04DA0104",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 105,
           "value": 105,
           "label": "Rouge Bichrome Pétales Ovales Courte tige Feuilles nombreuses Dentées",
           "visual": "04DA0105",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 106,
           "value": 106,
           "label": "Rouge Bichrome Pétales Pointus Courte tige Feuilles nombreuses Dentées",
           "visual": "04DA0106",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 107,
           "value": 107,
           "label": "Rouge Monochrome Pétales Ovales Courte tige Feuilles nombreuses Dentées",
           "visual": "04DA0107",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 108,
           "value": 108,
           "label": "Rouge Monochrome Pétales Pointus Courte tige Feuilles nombreuses Dentées",
           "visual": "04DA0108",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 109,
           "value": 109,
           "label": "Blanche Bichrome Pétales Ovales Courte tige Feuilles nombreuses Lisses",
           "visual": "04DA0109",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 110,
           "value": 110,
           "label": "Blanche Bichrome Pétales Pointus Courte tige Feuilles nombreuses Lisses",
           "visual": "04DA0110",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 111,
           "value": 111,
           "label": "Blanche Monochrome Pétales Ovales Courte tige Feuilles nombreuses Lisses",
           "visual": "04DA0111",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 112,
           "value": 112,
           "label": "Blanche Monochrome Pétales Pointus Courte tige Feuilles nombreuses Lisses",
           "visual": "04DA0112",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 113,
           "value": 113,
           "label": "Rose Bichrome Pétales Ovales Courte tige Feuilles nombreuses Lisses",
           "visual": "04DA0113",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 114,
           "value": 114,
           "label": "Rose Bichrome Pétales Pointus Courte tige Feuilles nombreuses Lisses",
           "visual": "04DA0114",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 115,
           "value": 115,
           "label": "Rose Monochrome Pétales Ovales Courte tige Feuilles nombreuses Lisses",
           "visual": "04DA0115",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 116,
           "value": 116,
           "label": "Rose Monochrome Pétales Pointus Courte tige Feuilles nombreuses Lisses",
           "visual": "04DA0116",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 117,
           "value": 117,
           "label": "Rouge Bichrome Pétales Ovales Courte tige Feuilles nombreuses Lisses",
           "visual": "04DA0117",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 118,
           "value": 118,
           "label": "Rouge Bichrome Pétales Pointus Courte tige Feuilles nombreuses Lisses",
           "visual": "04DA0118",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 119,
           "value": 119,
           "label": "Rouge Monochrome Pétales Ovales Courte tige Feuilles nombreuses Lisses",
           "visual": "04DA0119",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 120,
           "value": 120,
           "label": "Rouge Monochrome Pétales Pointus Courte tige Feuilles nombreuses Lisses",
           "visual": "04DA0120",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 121,
           "value": 121,
           "label": "Blanche Bichrome Pétales Ovales Courte tige Feuilles Rares Dentées",
           "visual": "04DA0121",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 122,
           "value": 122,
           "label": "Blanche Bichrome Pétales Pointus Courte tige Feuilles Rares Dentées",
           "visual": "04DA0122",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 123,
           "value": 123,
           "label": "Blanche Monochrome Pétales Ovales Courte tige Feuilles Rares Dentées",
           "visual": "04DA0123",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 124,
           "value": 124,
           "label": "Blanche Monochrome Pétales Pointus Courte tige Feuilles Rares Dentées",
           "visual": "04DA0124",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 125,
           "value": 125,
           "label": "Rose Bichrome Pétales Ovales Courte tige Feuilles Rares Dentées",
           "visual": "04DA0125",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 126,
           "value": 126,
           "label": "Rose Bichrome Pétales Pointus Courte tige Feuilles Rares Dentées",
           "visual": "04DA0126",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 127,
           "value": 127,
           "label": "Rose Monochrome Pétales Ovales Courte tige Feuilles Rares Dentées",
           "visual": "04DA0127",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 128,
           "value": 128,
           "label": "Rose Monochrome Pétales Pointus Courte tige Feuilles Rares Dentées",
           "visual": "04DA0128",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 129,
           "value": 129,
           "label": "Rouge Bichrome Pétales Ovales Courte tige Feuilles Rares Dentées",
           "visual": "04DA0129",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 130,
           "value": 130,
           "label": "Rouge Bichrome Pétales Pointus Courte tige Feuilles Rares Dentées",
           "visual": "04DA0130",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 131,
           "value": 131,
           "label": "Rouge Monochrome Pétales Ovales Courte tige Feuilles Rares Dentées",
           "visual": "04DA0131",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 132,
           "value": 132,
           "label": "Rouge Monochrome Pétales Pointus Courte tige Feuilles Rares Dentées",
           "visual": "04DA0132",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 133,
           "value": 133,
           "label": "Blanche Bichrome Pétales Ovales Courte tige Feuilles Rares Lisses",
           "visual": "04DA0133",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 134,
           "value": 134,
           "label": "Blanche Bichrome Pétales Pointus Courte tige Feuilles Rares Lisses",
           "visual": "04DA0134",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 135,
           "value": 135,
           "label": "Blanche Monochrome Pétales Ovales Courte tige Feuilles Rares Lisses",
           "visual": "04DA0135",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 136,
           "value": 136,
           "label": "Blanche Monochrome Pétales Pointus Courte tige Feuilles Rares Lisses",
           "visual": "04DA0136",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 137,
           "value": 137,
           "label": "Rose Bichrome Pétales Ovales Courte tige Feuilles Rares Lisses",
           "visual": "04DA0137",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 138,
           "value": 138,
           "label": "Rose Bichrome Pétales Pointus Courte tige Feuilles Rares Lisses",
           "visual": "04DA0138",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 139,
           "value": 139,
           "label": "Rose Monochrome Pétales Ovales Courte tige Feuilles Rares Lisses",
           "visual": "04DA0139",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 140,
           "value": 140,
           "label": "Rose Monochrome Pétales Pointus Courte tige Feuilles Rares Lisses",
           "visual": "04DA0140",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 141,
           "value": 141,
           "label": "Rouge Bichrome Pétales Ovales Courte tige Feuilles Rares Lisses",
           "visual": "04DA0141",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 142,
           "value": 142,
           "label": "Rouge Bichrome Pétales Pointus Courte tige Feuilles Rares Lisses",
           "visual": "04DA0142",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 143,
           "value": 143,
           "label": "Rouge Monochrome Pétales Ovales Courte tige Feuilles Rares Lisses",
           "visual": "04DA0143",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 144,
           "value": 144,
           "label": "Rouge Monochrome Pétales Pointus Courte tige Feuilles Rares Lisses",
           "visual": "04DA0144",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 145,
           "value": 145,
           "label": "Tous les gènes n'ont pas été sélectionnés, aucune fleur ne peut être obtenue",
           "visual": "VIDE_DF",
-          "audio": null
+          "audio": null,
+          "zones": []
         }
       ],
       "hints": {
@@ -1568,14 +1759,16 @@
           "value": 0,
           "label": "intitulé état",
           "visual": "VIDE_DF",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 2,
           "value": 1,
           "label": "intitulé état",
           "visual": "04DB0002",
-          "audio": "/game/station/04WB0002.wav"
+          "audio": "/game/station/04WB0002.wav",
+          "zones": []
         }
       ],
       "hints": {
@@ -1603,14 +1796,16 @@
           "value": 0,
           "label": "intitulé état",
           "visual": "VIDE_DF",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 2,
           "value": 1,
           "label": "intitulé état",
           "visual": "04DC0002",
-          "audio": "/game/station/04WC0002.wav"
+          "audio": "/game/station/04WC0002.wav",
+          "zones": []
         }
       ],
       "hints": {
@@ -1654,7 +1849,13 @@
         "10": 145,
         "11": 1,
         "12": 1
-      }
+      },
+      "hidden": [
+        "7",
+        "8",
+        "9"
+      ],
+      "options": {}
     },
     {
       "id": "1",
@@ -1688,7 +1889,13 @@
         "10": 145,
         "11": 1,
         "12": 1
-      }
+      },
+      "hidden": [
+        "7",
+        "8",
+        "9"
+      ],
+      "options": {}
     },
     {
       "id": "2",
@@ -1722,7 +1929,13 @@
         "10": 145,
         "11": 1,
         "12": 1
-      }
+      },
+      "hidden": [
+        "7",
+        "8",
+        "9"
+      ],
+      "options": {}
     },
     {
       "id": "3",
@@ -1756,7 +1969,13 @@
         "10": 145,
         "11": 1,
         "12": 1
-      }
+      },
+      "hidden": [
+        "7",
+        "8",
+        "9"
+      ],
+      "options": {}
     }
   ],
   "lookup": [
@@ -3392,5 +3611,11 @@
         "9": 12
       }
     }
+  ],
+  "interactionSources": [
+    "OBJS.DBF",
+    "OBJSZONE.DBF",
+    "ETATZONE.DBF",
+    "ETATINI.DBF"
   ]
 }

@@ -21,21 +21,24 @@
           "value": 1,
           "label": "Equilibrée",
           "visual": "09D10001",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 2,
           "value": 2,
           "label": "Riche en graisse",
           "visual": "09D10002",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 3,
           "value": 3,
           "label": "Riche en sel",
           "visual": "09D10003",
-          "audio": null
+          "audio": null,
+          "zones": []
         }
       ],
       "hints": {
@@ -63,14 +66,16 @@
           "value": 1,
           "label": "Harmonieux",
           "visual": "VIDE_DF",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 2,
           "value": 2,
           "label": "Stressant",
           "visual": "VIDE_DF",
-          "audio": null
+          "audio": null,
+          "zones": []
         }
       ],
       "hints": {
@@ -98,14 +103,16 @@
           "value": 1,
           "label": "Aucune",
           "visual": "VIDE_DF",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 2,
           "value": 2,
           "label": "Régulière",
           "visual": "VIDE_DF",
-          "audio": null
+          "audio": null,
+          "zones": []
         }
       ],
       "hints": {
@@ -133,14 +140,16 @@
           "value": 1,
           "label": "Naturel",
           "visual": "09D40001",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 2,
           "value": 2,
           "label": "Pollué",
           "visual": "09D40002",
-          "audio": null
+          "audio": null,
+          "zones": []
         }
       ],
       "hints": {
@@ -168,21 +177,24 @@
           "value": 1,
           "label": "Aucune",
           "visual": "09D50001",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 2,
           "value": 2,
           "label": "Obésité",
           "visual": "09D50002",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 3,
           "value": 3,
           "label": "Hypertension",
           "visual": "09D50003",
-          "audio": null
+          "audio": null,
+          "zones": []
         }
       ],
       "hints": {
@@ -210,21 +222,24 @@
           "value": 1,
           "label": "Aucune",
           "visual": "VIDE_DF",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 2,
           "value": 2,
           "label": "Tabac",
           "visual": "VIDE_DF",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 3,
           "value": 3,
           "label": "Alcool",
           "visual": "VIDE_DF",
-          "audio": null
+          "audio": null,
+          "zones": []
         }
       ],
       "hints": {
@@ -252,56 +267,64 @@
           "value": 0,
           "label": "Cerveau intact",
           "visual": "09D70001",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 2,
           "value": 1,
           "label": "Risque d'hémorragie cérébrale",
           "visual": "09D70002",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 3,
           "value": 10,
           "label": "Anxiété",
           "visual": "09D70001",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 4,
           "value": 11,
           "label": "Risque d'hémorragie cérébrale et anxiété",
           "visual": "09D70002",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 5,
           "value": 100,
           "label": "Lésions cérébrales",
           "visual": "09D70003",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 6,
           "value": 101,
           "label": "Lésions cérébrales et risque d'hémorragie",
           "visual": "09D70004",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 7,
           "value": 110,
           "label": "Lésions cérébrales et anxiété",
           "visual": "09D70003",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 8,
           "value": 111,
           "label": "Lésions cérébrales, anxiété et hémorragie cérébrale",
           "visual": "09D70004",
-          "audio": null
+          "audio": null,
+          "zones": []
         }
       ],
       "hints": {
@@ -329,84 +352,96 @@
           "value": 0,
           "label": "Coeur et vaisseaux intacts",
           "visual": "09D80001",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 2,
           "value": 1,
           "label": "Risque d'artériosclérose",
           "visual": "09D80002",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 3,
           "value": 2,
           "label": "Hypertension",
           "visual": "09D80001",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 4,
           "value": 10,
           "label": "Risque d'infarctus",
           "visual": "09D80004",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 5,
           "value": 11,
           "label": "Artériosclérose et risque d'infarctus",
           "visual": "09D80005",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 6,
           "value": 12,
           "label": "Hypertension et risque d'infarctus",
           "visual": "09D80004",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 7,
           "value": 100,
           "label": "Hypertension",
           "visual": "09D80001",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 8,
           "value": 101,
           "label": "Hypertension et risque d'artériosclérose",
           "visual": "09D80002",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 9,
           "value": 102,
           "label": "Hypertension",
           "visual": "09D80001",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 10,
           "value": 110,
           "label": "Hypertension et risque d'infarctus",
           "visual": "09D80004",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 11,
           "value": 111,
           "label": "Hypertension, artériosclérose et risque d'infarctus",
           "visual": "09D80005",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 12,
           "value": 112,
           "label": "Hypertension et risque d'infarctus",
           "visual": "09D80004",
-          "audio": null
+          "audio": null,
+          "zones": []
         }
       ],
       "hints": {
@@ -434,28 +469,32 @@
           "value": 0,
           "label": "Poumons intacts",
           "visual": "09D90001",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 2,
           "value": 1,
           "label": "Troubles respiratoires",
           "visual": "09D90002",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 3,
           "value": 10,
           "label": "Risque de cancer du poumon",
           "visual": "09D90003",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 4,
           "value": 11,
           "label": "Troubles respiratoires et risque de cancer du poumon",
           "visual": "09D90004",
-          "audio": null
+          "audio": null,
+          "zones": []
         }
       ],
       "hints": {
@@ -483,28 +522,32 @@
           "value": 0,
           "label": "Appareil digestif intact",
           "visual": "09DA0001",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 2,
           "value": 1,
           "label": "Ulcère à l'estomac",
           "visual": "09DA0002",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 3,
           "value": 10,
           "label": "Cirrhose du foie",
           "visual": "09DA0003",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 4,
           "value": 11,
           "label": "Ulcère à l'estomac et cirrhose du foie",
           "visual": "09DA0004",
-          "audio": null
+          "audio": null,
+          "zones": []
         }
       ],
       "hints": {
@@ -532,28 +575,32 @@
           "value": -1,
           "label": "",
           "visual": "VIDE_DF",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 2,
           "value": 0,
           "label": "",
           "visual": "VIDE_DF",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 3,
           "value": 1,
           "label": "",
           "visual": "VIDE_DF",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 4,
           "value": 2,
           "label": "",
           "visual": "VIDE_DF",
-          "audio": null
+          "audio": null,
+          "zones": []
         }
       ],
       "hints": {
@@ -581,84 +628,96 @@
           "value": 0,
           "label": "Individu mince",
           "visual": "09DC0001",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 2,
           "value": 10,
           "label": "Individu mince et alcoolique",
           "visual": "09DC0002",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 3,
           "value": 11,
           "label": "Individu corpulent et alcoolique",
           "visual": "09DC0003",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 4,
           "value": 12,
           "label": "Individu obèse et alcoolique",
           "visual": "09DC0004",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 5,
           "value": 100,
           "label": "Individu mince et anxieux",
           "visual": "09DC0005",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 6,
           "value": 101,
           "label": "Individu corpulent et anxieux",
           "visual": "09DC0006",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 7,
           "value": 102,
           "label": "Individu obèse et anxieux",
           "visual": "09DC0007",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 8,
           "value": 110,
           "label": "Individu mince, anxieux et alcoolique",
           "visual": "09DC0008",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 9,
           "value": 111,
           "label": "Individu corpulent, anxieux et alcoolique",
           "visual": "09DC0009",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 10,
           "value": 112,
           "label": "Individu obèse, anxieux et alcoolique",
           "visual": "09DC0010",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 11,
           "value": 200,
           "label": "Individu corpulent",
           "visual": "09DC0011",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 12,
           "value": 201,
           "label": "Individu obèse",
           "visual": "09DC0012",
-          "audio": null
+          "audio": null,
+          "zones": []
         }
       ],
       "hints": {
@@ -686,28 +745,32 @@
           "value": 0,
           "label": "intitulé état",
           "visual": "VIDE_DF",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 2,
           "value": 1,
           "label": "intitulé état",
           "visual": "09DD0002",
-          "audio": "/game/station/09WD0002.wav"
+          "audio": "/game/station/09WD0002.wav",
+          "zones": []
         },
         {
           "id": 3,
           "value": 2,
           "label": "intitulé état",
           "visual": "09DD0003",
-          "audio": "/game/station/09WD0003.wav"
+          "audio": "/game/station/09WD0003.wav",
+          "zones": []
         },
         {
           "id": 4,
           "value": 3,
           "label": "intitulé état",
           "visual": "09DD0004",
-          "audio": "/game/station/09WD0004.wav"
+          "audio": "/game/station/09WD0004.wav",
+          "zones": []
         }
       ],
       "hints": {
@@ -735,49 +798,56 @@
           "value": 0,
           "label": "intitulé état",
           "visual": "VIDE_DF",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 2,
           "value": 100,
           "label": "intitulé état",
           "visual": "VIDE_DF",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 3,
           "value": 110,
           "label": "intitulé état",
           "visual": "VIDE_DF",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 4,
           "value": 101,
           "label": "intitulé état",
           "visual": "VIDE_DF",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 5,
           "value": 111,
           "label": "intitulé état",
           "visual": "VIDE_DF",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 6,
           "value": 102,
           "label": "intitulé état",
           "visual": "VIDE_DF",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 7,
           "value": 112,
           "label": "intitulé état",
           "visual": "VIDE_DF",
-          "audio": null
+          "audio": null,
+          "zones": []
         }
       ],
       "hints": {
@@ -805,91 +875,104 @@
           "value": 0,
           "label": "intitulé état",
           "visual": "VIDE_DF",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 2,
           "value": 100,
           "label": "intitulé état",
           "visual": "09DF0002",
-          "audio": "/game/station/09WF0002.wav"
+          "audio": "/game/station/09WF0002.wav",
+          "zones": []
         },
         {
           "id": 3,
           "value": 110,
           "label": "intitulé état",
           "visual": "09DF0003",
-          "audio": "/game/station/09WF0003.wav"
+          "audio": "/game/station/09WF0003.wav",
+          "zones": []
         },
         {
           "id": 4,
           "value": 101,
           "label": "intitulé état",
           "visual": "09DF0004",
-          "audio": "/game/station/09WF0004.wav"
+          "audio": "/game/station/09WF0004.wav",
+          "zones": []
         },
         {
           "id": 5,
           "value": 111,
           "label": "intitulé état",
           "visual": "09DF0005",
-          "audio": "/game/station/09WF0005.wav"
+          "audio": "/game/station/09WF0005.wav",
+          "zones": []
         },
         {
           "id": 6,
           "value": 102,
           "label": "intitulé état",
           "visual": "09DF0006",
-          "audio": "/game/station/09WF0006.wav"
+          "audio": "/game/station/09WF0006.wav",
+          "zones": []
         },
         {
           "id": 7,
           "value": 112,
           "label": "intitulé état",
           "visual": "09DF0007",
-          "audio": "/game/station/09WF0007.wav"
+          "audio": "/game/station/09WF0007.wav",
+          "zones": []
         },
         {
           "id": 8,
           "value": 200,
           "label": "intitulé état",
           "visual": "09DF0008",
-          "audio": "/game/station/09WF0008.wav"
+          "audio": "/game/station/09WF0008.wav",
+          "zones": []
         },
         {
           "id": 9,
           "value": 210,
           "label": "intitulé état",
           "visual": "09DF0009",
-          "audio": "/game/station/09WF0009.wav"
+          "audio": "/game/station/09WF0009.wav",
+          "zones": []
         },
         {
           "id": 10,
           "value": 201,
           "label": "intitulé état",
           "visual": "09DF0010",
-          "audio": "/game/station/09WF0010.wav"
+          "audio": "/game/station/09WF0010.wav",
+          "zones": []
         },
         {
           "id": 11,
           "value": 211,
           "label": "intitulé état",
           "visual": "09DF0011",
-          "audio": "/game/station/09WF0011.wav"
+          "audio": "/game/station/09WF0011.wav",
+          "zones": []
         },
         {
           "id": 12,
           "value": 202,
           "label": "intitulé état",
           "visual": "09DF0012",
-          "audio": "/game/station/09WF0012.wav"
+          "audio": "/game/station/09WF0012.wav",
+          "zones": []
         },
         {
           "id": 13,
           "value": 212,
           "label": "intitulé état",
           "visual": "09DF0013",
-          "audio": "/game/station/09WF0013.wav"
+          "audio": "/game/station/09WF0013.wav",
+          "zones": []
         }
       ],
       "hints": {
@@ -917,28 +1000,32 @@
           "value": 0,
           "label": "intitulé état",
           "visual": "VIDE_DF",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 2,
           "value": 10,
           "label": "intitulé état",
           "visual": "VIDE_DF",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 3,
           "value": 11,
           "label": "intitulé état",
           "visual": "VIDE_DF",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 4,
           "value": 12,
           "label": "intitulé état",
           "visual": "VIDE_DF",
-          "audio": null
+          "audio": null,
+          "zones": []
         }
       ],
       "hints": {
@@ -966,28 +1053,32 @@
           "value": 10,
           "label": "intitulé état",
           "visual": "09DH0001",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 2,
           "value": 20,
           "label": "intitulé état",
           "visual": "09DH0002",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 3,
           "value": 11,
           "label": "intitulé état",
           "visual": "09DH0003",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 4,
           "value": 21,
           "label": "intitulé état",
           "visual": "09DH0004",
-          "audio": null
+          "audio": null,
+          "zones": []
         }
       ],
       "hints": {
@@ -1015,28 +1106,32 @@
           "value": 10,
           "label": "intitulé état",
           "visual": "09DI0001",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 2,
           "value": 20,
           "label": "intitulé état",
           "visual": "09DI0002",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 3,
           "value": 11,
           "label": "intitulé état",
           "visual": "09DI0003",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 4,
           "value": 21,
           "label": "intitulé état",
           "visual": "09DI0004",
-          "audio": null
+          "audio": null,
+          "zones": []
         }
       ],
       "hints": {
@@ -1064,42 +1159,48 @@
           "value": 0,
           "label": "intitulé état",
           "visual": "VIDE_DF",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 2,
           "value": 1,
           "label": "intitulé état",
           "visual": "09DJ0002",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 3,
           "value": 2,
           "label": "intitulé état",
           "visual": "09DJ0003",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 4,
           "value": 3,
           "label": "intitulé état",
           "visual": "09DJ0004",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 5,
           "value": 4,
           "label": "intitulé état",
           "visual": "09DJ0005",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 6,
           "value": 5,
           "label": "intitulé état",
           "visual": "09DJ0006",
-          "audio": null
+          "audio": null,
+          "zones": []
         }
       ],
       "hints": {
@@ -1127,35 +1228,40 @@
           "value": 0,
           "label": "intitulé état",
           "visual": "09DK0001",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 2,
           "value": 1,
           "label": "intitulé état",
           "visual": "09DK0002",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 3,
           "value": 2,
           "label": "intitulé état",
           "visual": "09DK0003",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 4,
           "value": 3,
           "label": "intitulé état",
           "visual": "09DK0004",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 5,
           "value": 4,
           "label": "intitulé état",
           "visual": "09DK0005",
-          "audio": null
+          "audio": null,
+          "zones": []
         }
       ],
       "hints": {
@@ -1215,7 +1321,11 @@
         "18": 1,
         "19": 1,
         "20": 1
-      }
+      },
+      "hidden": [
+        "11"
+      ],
+      "options": {}
     },
     {
       "id": "1",
@@ -1259,7 +1369,11 @@
         "18": 1,
         "19": 1,
         "20": 1
-      }
+      },
+      "hidden": [
+        "11"
+      ],
+      "options": {}
     },
     {
       "id": "2",
@@ -1295,7 +1409,11 @@
         "18": 1,
         "19": 1,
         "20": 1
-      }
+      },
+      "hidden": [
+        "11"
+      ],
+      "options": {}
     },
     {
       "id": "3",
@@ -1331,7 +1449,11 @@
         "18": 1,
         "19": 1,
         "20": 1
-      }
+      },
+      "hidden": [
+        "11"
+      ],
+      "options": {}
     }
   ],
   "lookup": [
@@ -1943,5 +2065,11 @@
         "18": 21
       }
     }
+  ],
+  "interactionSources": [
+    "OBJS.DBF",
+    "OBJSZONE.DBF",
+    "ETATZONE.DBF",
+    "ETATINI.DBF"
   ]
 }

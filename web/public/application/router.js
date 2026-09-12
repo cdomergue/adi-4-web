@@ -1,5 +1,4 @@
 import { scenes, renderScene } from '../features/science/scenes.js';
-import { renderGreenhouse } from '../features/science/greenhouse.js';
 import { renderSimulations, renderSimulation } from '../features/science/simulations.js';
 import { renderEncyclopedia } from '../features/courses/encyclopedia.js';
 import { renderRoom } from '../features/room/room.js';
@@ -55,7 +54,7 @@ export function createRouter({ main, info, toast, catalog, library }) {
       renderSimulation(main, hash.slice(11));
       active = 'science';
     } else if (hash === 'scene/greenhouse') {
-      renderGreenhouse(main);
+      renderSimulation(main, '2');
       active = 'science';
     } else if (hash.startsWith('scene/') && scenes[hash.slice(6)]) {
       renderScene(main, hash.slice(6));

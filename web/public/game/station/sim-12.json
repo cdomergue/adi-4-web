@@ -21,21 +21,45 @@
           "value": -1,
           "label": "Quantité d'ozone plus élevée que la Terre",
           "visual": "12D10001",
-          "audio": null
+          "audio": null,
+          "zones": [
+            [
+              385,
+              392,
+              37,
+              39
+            ]
+          ]
         },
         {
           "id": 2,
           "value": 1,
           "label": "Quantité d'ozone identique à la Terre",
           "visual": "12D10002",
-          "audio": null
+          "audio": null,
+          "zones": [
+            [
+              428,
+              403,
+              39,
+              52
+            ]
+          ]
         },
         {
           "id": 3,
           "value": 0,
           "label": "Quantité d'ozone plus faible que la Terre",
           "visual": "12D10003",
-          "audio": null
+          "audio": null,
+          "zones": [
+            [
+              476,
+              429,
+              40,
+              50
+            ]
+          ]
         }
       ],
       "hints": {
@@ -63,21 +87,45 @@
           "value": 3,
           "label": "Quantité de dioxygène plus élevée que la Terre",
           "visual": "12D20001",
-          "audio": null
+          "audio": null,
+          "zones": [
+            [
+              442,
+              345,
+              34,
+              36
+            ]
+          ]
         },
         {
           "id": 2,
           "value": 2,
           "label": "Quantité de dioxygène identique à la Terre",
           "visual": "12D20002",
-          "audio": null
+          "audio": null,
+          "zones": [
+            [
+              486,
+              354,
+              32,
+              47
+            ]
+          ]
         },
         {
           "id": 3,
           "value": 0,
           "label": "Quantité de dioxygène plus faible que la Terre",
           "visual": "12D20003",
-          "audio": null
+          "audio": null,
+          "zones": [
+            [
+              532,
+              378,
+              31,
+              41
+            ]
+          ]
         }
       ],
       "hints": {
@@ -105,21 +153,45 @@
           "value": 6,
           "label": "Quantité de dioxyde carbone plus élevée que la Terre",
           "visual": "12D30001",
-          "audio": null
+          "audio": null,
+          "zones": [
+            [
+              534,
+              278,
+              27,
+              31
+            ]
+          ]
         },
         {
           "id": 2,
           "value": 4,
           "label": "Quantité de dioxyde carbone identique à la Terre",
           "visual": "12D30002",
-          "audio": null
+          "audio": null,
+          "zones": [
+            [
+              570,
+              283,
+              28,
+              39
+            ]
+          ]
         },
         {
           "id": 3,
           "value": 2,
           "label": "Quantité de dioxyde carbone plus faible que la Terre",
           "visual": "12D30003",
-          "audio": null
+          "audio": null,
+          "zones": [
+            [
+              610,
+              299,
+              27,
+              35
+            ]
+          ]
         }
       ],
       "hints": {
@@ -147,21 +219,45 @@
           "value": 3,
           "label": "Quantité d'eau plus élevée que la Terre",
           "visual": "12D40001",
-          "audio": null
+          "audio": null,
+          "zones": [
+            [
+              489,
+              307,
+              33,
+              35
+            ]
+          ]
         },
         {
           "id": 2,
           "value": 2,
           "label": "Quantité d'eau identique à la Terre",
           "visual": "12D40002",
-          "audio": null
+          "audio": null,
+          "zones": [
+            [
+              532,
+              316,
+              31,
+              39
+            ]
+          ]
         },
         {
           "id": 3,
           "value": 1,
           "label": "Quantité d'eau plus faible que la Terre",
           "visual": "12D40003",
-          "audio": null
+          "audio": null,
+          "zones": [
+            [
+              577,
+              338,
+              28,
+              34
+            ]
+          ]
         }
       ],
       "hints": {
@@ -189,21 +285,45 @@
           "value": 10,
           "label": "Planète plus grosse que la Terre",
           "visual": "12D50001",
-          "audio": null
+          "audio": null,
+          "zones": [
+            [
+              148,
+              345,
+              38,
+              32
+            ]
+          ]
         },
         {
           "id": 2,
           "value": 5,
           "label": "Planète de taille identique à la Terre",
           "visual": "12D50002",
-          "audio": null
+          "audio": null,
+          "zones": [
+            [
+              107,
+              358,
+              40,
+              38
+            ]
+          ]
         },
         {
           "id": 3,
           "value": 0,
           "label": "Planète plus petite que la Terre",
           "visual": "12D50003",
-          "audio": null
+          "audio": null,
+          "zones": [
+            [
+              66,
+              382,
+              41,
+              30
+            ]
+          ]
         }
       ],
       "hints": {
@@ -231,21 +351,45 @@
           "value": 10,
           "label": "Planète plus éloignée du  Soleil que la Terre",
           "visual": "12D60001",
-          "audio": null
+          "audio": null,
+          "zones": [
+            [
+              139,
+              403,
+              32,
+              50
+            ]
+          ]
         },
         {
           "id": 2,
           "value": 20,
           "label": "Planète située à la même distance du Soleil que la Terre",
           "visual": "12D60002",
-          "audio": null
+          "audio": null,
+          "zones": [
+            [
+              179,
+              400,
+              34,
+              54
+            ]
+          ]
         },
         {
           "id": 3,
           "value": 25,
           "label": "Planète plus proche du Soleil que la Terre",
           "visual": "12D60003",
-          "audio": null
+          "audio": null,
+          "zones": [
+            [
+              224,
+              401,
+              30,
+              52
+            ]
+          ]
         }
       ],
       "hints": {
@@ -273,28 +417,32 @@
           "value": 0,
           "label": "atmosphère très ténue",
           "visual": "12S70001",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 2,
           "value": 1,
           "label": "atmosphère faible",
           "visual": "12S70002",
-          "audio": "/game/station/12W70002.wav"
+          "audio": "/game/station/12W70002.wav",
+          "zones": []
         },
         {
           "id": 3,
           "value": 2,
           "label": "atmosphère moyenne",
           "visual": "12S70003",
-          "audio": "/game/station/12W70003.wav"
+          "audio": "/game/station/12W70003.wav",
+          "zones": []
         },
         {
           "id": 4,
           "value": 3,
           "label": "atmosphère dense",
           "visual": "12S70004",
-          "audio": "/game/station/12W70004.wav"
+          "audio": "/game/station/12W70004.wav",
+          "zones": []
         }
       ],
       "hints": {
@@ -322,28 +470,32 @@
           "value": 0,
           "label": "pas de vie",
           "visual": null,
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 2,
           "value": 1,
           "label": "vie précaire",
           "visual": "12D80002",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 3,
           "value": 2,
           "label": "vie développée",
           "visual": "12D80003",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 4,
           "value": 3,
           "label": "vie très développée",
           "visual": "12D80004",
-          "audio": null
+          "audio": null,
+          "zones": []
         }
       ],
       "hints": {
@@ -371,28 +523,32 @@
           "value": 0,
           "label": "Ecarts énormes de température",
           "visual": "12D90001",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 2,
           "value": 1,
           "label": "Températures glaciales",
           "visual": "12D90002",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 3,
           "value": 2,
           "label": "Températures moyennes",
           "visual": "12D90003",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 4,
           "value": 3,
           "label": "Températures très chaudes",
           "visual": "12D90004",
-          "audio": null
+          "audio": null,
+          "zones": []
         }
       ],
       "hints": {
@@ -420,28 +576,32 @@
           "value": 0,
           "label": "pas d'eau",
           "visual": null,
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 2,
           "value": 1,
           "label": "eau rare",
           "visual": "12DA0002",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 3,
           "value": 2,
           "label": "eau en abondance",
           "visual": "12DA0003",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 4,
           "value": 3,
           "label": "eau à profusion",
           "visual": "12DA0004",
-          "audio": null
+          "audio": null,
+          "zones": []
         }
       ],
       "hints": {
@@ -469,21 +629,45 @@
           "value": 10,
           "label": "",
           "visual": "12DF0001",
-          "audio": null
+          "audio": null,
+          "zones": [
+            [
+              385,
+              392,
+              37,
+              39
+            ]
+          ]
         },
         {
           "id": 2,
           "value": 0,
           "label": "",
           "visual": "12DF0002",
-          "audio": null
+          "audio": null,
+          "zones": [
+            [
+              428,
+              403,
+              39,
+              52
+            ]
+          ]
         },
         {
           "id": 3,
           "value": -10,
           "label": "",
           "visual": "12DF0003",
-          "audio": null
+          "audio": null,
+          "zones": [
+            [
+              476,
+              429,
+              40,
+              50
+            ]
+          ]
         }
       ],
       "hints": {
@@ -511,21 +695,45 @@
           "value": 50,
           "label": "",
           "visual": "12DG0001",
-          "audio": null
+          "audio": null,
+          "zones": [
+            [
+              442,
+              345,
+              34,
+              36
+            ]
+          ]
         },
         {
           "id": 2,
           "value": 0,
           "label": "",
           "visual": "12DG0002",
-          "audio": null
+          "audio": null,
+          "zones": [
+            [
+              486,
+              354,
+              32,
+              47
+            ]
+          ]
         },
         {
           "id": 3,
           "value": -30,
           "label": "",
           "visual": "12DG0003",
-          "audio": null
+          "audio": null,
+          "zones": [
+            [
+              532,
+              378,
+              31,
+              41
+            ]
+          ]
         }
       ],
       "hints": {
@@ -553,21 +761,45 @@
           "value": 50,
           "label": "",
           "visual": "12DH0001",
-          "audio": null
+          "audio": null,
+          "zones": [
+            [
+              534,
+              278,
+              27,
+              31
+            ]
+          ]
         },
         {
           "id": 2,
           "value": 0,
           "label": "",
           "visual": "12DH0002",
-          "audio": null
+          "audio": null,
+          "zones": [
+            [
+              570,
+              283,
+              28,
+              39
+            ]
+          ]
         },
         {
           "id": 3,
           "value": -70,
           "label": "",
           "visual": "12DH0003",
-          "audio": null
+          "audio": null,
+          "zones": [
+            [
+              610,
+              299,
+              27,
+              35
+            ]
+          ]
         }
       ],
       "hints": {
@@ -595,21 +827,45 @@
           "value": 40,
           "label": "",
           "visual": "12DI0001",
-          "audio": null
+          "audio": null,
+          "zones": [
+            [
+              489,
+              307,
+              33,
+              35
+            ]
+          ]
         },
         {
           "id": 2,
           "value": 0,
           "label": "",
           "visual": "12DI0002",
-          "audio": null
+          "audio": null,
+          "zones": [
+            [
+              532,
+              316,
+              31,
+              39
+            ]
+          ]
         },
         {
           "id": 3,
           "value": -30,
           "label": "",
           "visual": "12DI0003",
-          "audio": null
+          "audio": null,
+          "zones": [
+            [
+              577,
+              338,
+              28,
+              34
+            ]
+          ]
         }
       ],
       "hints": {
@@ -637,35 +893,40 @@
           "value": 1,
           "label": "",
           "visual": "12DB0001",
-          "audio": "/game/station/12WB0001.wav"
+          "audio": "/game/station/12WB0001.wav",
+          "zones": []
         },
         {
           "id": 2,
           "value": 2,
           "label": "",
           "visual": "12DB0002",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 3,
           "value": 3,
           "label": "",
           "visual": "12DB0003",
-          "audio": "/game/station/12WB0003.wav"
+          "audio": "/game/station/12WB0003.wav",
+          "zones": []
         },
         {
           "id": 4,
           "value": 4,
           "label": "",
           "visual": "12DB0004",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 5,
           "value": 5,
           "label": "",
           "visual": "12DB0003",
-          "audio": null
+          "audio": null,
+          "zones": []
         }
       ],
       "hints": {
@@ -693,49 +954,56 @@
           "value": 1,
           "label": "",
           "visual": "12DC0001",
-          "audio": "/game/station/12WC0001.wav"
+          "audio": "/game/station/12WC0001.wav",
+          "zones": []
         },
         {
           "id": 2,
           "value": 2,
           "label": "",
           "visual": "12DC0002",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 3,
           "value": 3,
           "label": "",
           "visual": "12DC0003",
-          "audio": "/game/station/12WC0003.wav"
+          "audio": "/game/station/12WC0003.wav",
+          "zones": []
         },
         {
           "id": 4,
           "value": 4,
           "label": "",
           "visual": "12DC0004",
-          "audio": "/game/station/12WC0004.wav"
+          "audio": "/game/station/12WC0004.wav",
+          "zones": []
         },
         {
           "id": 5,
           "value": 5,
           "label": "",
           "visual": "12DC0005",
-          "audio": "/game/station/12WC0005.wav"
+          "audio": "/game/station/12WC0005.wav",
+          "zones": []
         },
         {
           "id": 6,
           "value": 6,
           "label": "",
           "visual": "12DC0002",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 7,
           "value": 7,
           "label": "",
           "visual": "12DC0007",
-          "audio": "/game/station/12WC0007.wav"
+          "audio": "/game/station/12WC0007.wav",
+          "zones": []
         }
       ],
       "hints": {
@@ -763,63 +1031,72 @@
           "value": 1,
           "label": "intitulé état",
           "visual": "12DD0001",
-          "audio": "/game/station/12WD0001.wav"
+          "audio": "/game/station/12WD0001.wav",
+          "zones": []
         },
         {
           "id": 2,
           "value": 2,
           "label": "intitulé état",
           "visual": "12DD0002",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 3,
           "value": 3,
           "label": "intitulé état",
           "visual": "12DD0003",
-          "audio": "/game/station/12WD0003.wav"
+          "audio": "/game/station/12WD0003.wav",
+          "zones": []
         },
         {
           "id": 4,
           "value": 4,
           "label": "intitulé état",
           "visual": "12DD0004",
-          "audio": "/game/station/12WD0004.wav"
+          "audio": "/game/station/12WD0004.wav",
+          "zones": []
         },
         {
           "id": 5,
           "value": 5,
           "label": "intitulé état",
           "visual": "12DD0005",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 6,
           "value": 6,
           "label": "intitulé état",
           "visual": "12DD0006",
-          "audio": "/game/station/12WD0006.wav"
+          "audio": "/game/station/12WD0006.wav",
+          "zones": []
         },
         {
           "id": 7,
           "value": 7,
           "label": "intitulé état",
           "visual": "12DD0007",
-          "audio": "/game/station/12WD0007.wav"
+          "audio": "/game/station/12WD0007.wav",
+          "zones": []
         },
         {
           "id": 8,
           "value": 8,
           "label": "intitulé état",
           "visual": "12DD0008",
-          "audio": "/game/station/12WD0008.wav"
+          "audio": "/game/station/12WD0008.wav",
+          "zones": []
         },
         {
           "id": 9,
           "value": 9,
           "label": "intitulé état",
           "visual": "12DD0009",
-          "audio": "/game/station/12WD0009.wav"
+          "audio": "/game/station/12WD0009.wav",
+          "zones": []
         }
       ],
       "hints": {
@@ -847,49 +1124,56 @@
           "value": 1,
           "label": "",
           "visual": "12DE0001",
-          "audio": "/game/station/12WE0001.wav"
+          "audio": "/game/station/12WE0001.wav",
+          "zones": []
         },
         {
           "id": 2,
           "value": 2,
           "label": "",
           "visual": "12DE0002",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 3,
           "value": 3,
           "label": "",
           "visual": "12DE0003",
-          "audio": "/game/station/12WE0003.wav"
+          "audio": "/game/station/12WE0003.wav",
+          "zones": []
         },
         {
           "id": 4,
           "value": 4,
           "label": "",
           "visual": "12DE0004",
-          "audio": "/game/station/12WE0004.wav"
+          "audio": "/game/station/12WE0004.wav",
+          "zones": []
         },
         {
           "id": 5,
           "value": 5,
           "label": "",
           "visual": "12DE0005",
-          "audio": "/game/station/12WE0005.wav"
+          "audio": "/game/station/12WE0005.wav",
+          "zones": []
         },
         {
           "id": 6,
           "value": 6,
           "label": "",
           "visual": "12DE0006",
-          "audio": "/game/station/12WE0006.wav"
+          "audio": "/game/station/12WE0006.wav",
+          "zones": []
         },
         {
           "id": 7,
           "value": 7,
           "label": "",
           "visual": "12DE0007",
-          "audio": "/game/station/12WE0007.wav"
+          "audio": "/game/station/12WE0007.wav",
+          "zones": []
         }
       ],
       "hints": {
@@ -945,7 +1229,18 @@
         "12": 1,
         "13": 1,
         "14": 1
-      }
+      },
+      "hidden": [
+        "15",
+        "16",
+        "17",
+        "18",
+        "11",
+        "12",
+        "13",
+        "14"
+      ],
+      "options": {}
     },
     {
       "id": "1",
@@ -983,6 +1278,210 @@
         "12": 2,
         "13": 2,
         "14": 2
+      },
+      "hidden": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "options": {
+        "1": {
+          "1": {
+            "value": 30
+          },
+          "2": {
+            "value": 20
+          },
+          "3": {
+            "value": 10
+          }
+        },
+        "3": {
+          "1": {
+            "value": 100
+          },
+          "2": {
+            "value": 60
+          },
+          "3": {
+            "value": 10
+          }
+        },
+        "4": {
+          "1": {
+            "value": 70
+          },
+          "2": {
+            "value": 40
+          },
+          "3": {
+            "value": 0
+          }
+        },
+        "5": {
+          "1": {
+            "value": 20,
+            "label": "Taille de Vénus"
+          },
+          "2": {
+            "value": 10,
+            "label": "Taille de Vénus"
+          },
+          "3": {
+            "label": "Taille de Vénus"
+          }
+        },
+        "6": {
+          "1": {
+            "value": 45,
+            "label": "Distance de Vénus par rapport au Soleil"
+          },
+          "2": {
+            "value": 60,
+            "label": "Distance de Vénus par rapport au Soleil"
+          },
+          "3": {
+            "value": 90,
+            "label": "Distance de Vénus par rapport au Soleil"
+          }
+        },
+        "15": {
+          "1": {
+            "label": "Augmenter la quantité d'ozone dans l'atmosphère de Vénus"
+          },
+          "2": {
+            "label": "Maintenir l'importante quantité d'ozone naturelle de Vénus"
+          },
+          "3": {
+            "label": "Diminuer la quantité d'ozone dans l'atmosphère de Vénus"
+          }
+        },
+        "16": {
+          "1": {
+            "label": "Augmenter la quantité de dioxygène dans l'atmosphère de Vénus"
+          },
+          "2": {
+            "label": "Maintenir la faible quantité de dioxygène naturelle de Vénus"
+          },
+          "3": {
+            "label": "Diminuer la quantité de dioxygène dans l'atmosphère de Vénus"
+          }
+        },
+        "17": {
+          "1": {
+            "label": "Augmenter la quantité de dioxyde de carbone dans l'atmosphère de Vénus"
+          },
+          "2": {
+            "label": "Maintenir l'importante quantité de dioxyde carbone naturelle de Vénus"
+          },
+          "3": {
+            "label": "Diminuer la quantité de dioxyde de carbone dans l'atmosphère de Vénus"
+          }
+        },
+        "18": {
+          "1": {
+            "label": "Augmenter la quantité d'eau sur Vénus"
+          },
+          "2": {
+            "label": "Maintenir l'absence d'eau sur Vénus"
+          },
+          "3": {
+            "label": "Diminuer la quantité d'eau sur Vénus"
+          }
+        },
+        "11": {
+          "1": {
+            "label": "Quantité d'ozone dans l'atmosphère de Vénus augmentée"
+          },
+          "2": {
+            "label": "Quantité d'ozone dans l'atmosphère de la Terre maintenue"
+          },
+          "3": {
+            "label": "Quantité d'ozone dans l'atmosphère de la Terre diminuée"
+          },
+          "4": {
+            "label": "Quantité d'ozone dans l'atmosphère de Vénus maintenue"
+          },
+          "5": {
+            "label": "Quantité  d'ozone dans l'atmosphère de Vénus diminuée"
+          }
+        },
+        "12": {
+          "1": {
+            "label": "Quantité de dioxygène dans l'atmosphère de Vénus augmentée"
+          },
+          "2": {
+            "label": "Quantité de dioxygène dans l'atmosphère de Vénus maintenue"
+          },
+          "3": {
+            "label": "Quantité de dioxygène dans l'atmosphère de Vénus diminuée"
+          },
+          "4": {
+            "label": "Quantité de dioxygène dans l'atmosphère de Mars augmentée"
+          },
+          "5": {
+            "label": "Quantité de dioxygène dans l'atmosphère de la Terre augmentée"
+          },
+          "6": {
+            "label": "Quantité de dioxygène dans l'atmosphère de la Terre maintenue"
+          },
+          "7": {
+            "label": "Quantité de dioxygène dans l'atmosphère de la Terre diminuée"
+          }
+        },
+        "13": {
+          "1": {
+            "label": "Quantité de dioxyde de carbone augmentée"
+          },
+          "2": {
+            "label": "Quantité de dioxyde de carbone maintenue"
+          },
+          "3": {
+            "label": "Quantité de dioxyde de carbone diminuée"
+          },
+          "4": {
+            "label": "Quantité de dioxyde de carbone augmentée"
+          },
+          "5": {
+            "label": "Quantité de dioxyde de carbone maintenue"
+          },
+          "6": {
+            "label": "Quantité de dioxyde de carbone diminuée"
+          },
+          "7": {
+            "label": "Quantité de dioxyde de carbone augmentée"
+          },
+          "8": {
+            "label": "Quantité de dioxyde de carbone maintenue"
+          },
+          "9": {
+            "label": "Quantité de dioxyde de carbone diminuée"
+          }
+        },
+        "14": {
+          "1": {
+            "label": "Quantité d'eau sur Vénus augmentée"
+          },
+          "2": {
+            "label": "Quantité d'eau sur Vénus maintenue"
+          },
+          "3": {
+            "label": "Quantité d'eau sur Mars augmentée"
+          },
+          "4": {
+            "label": "Quantité d'eau sur Mars diminuée"
+          },
+          "5": {
+            "label": "Quantité d'eau sur Terre augmentée"
+          },
+          "6": {
+            "label": "Quantité d'eau sur Terre diminuée"
+          },
+          "7": {
+            "label": "Quantité d'eau sur Vénus diminuée"
+          }
+        }
       }
     },
     {
@@ -1021,6 +1520,210 @@
         "12": 2,
         "13": 5,
         "14": 2
+      },
+      "hidden": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "options": {
+        "1": {
+          "1": {
+            "value": 30
+          },
+          "2": {
+            "value": 20
+          },
+          "3": {
+            "value": 10
+          }
+        },
+        "3": {
+          "1": {
+            "value": 100
+          },
+          "2": {
+            "value": 60
+          },
+          "3": {
+            "value": 10
+          }
+        },
+        "4": {
+          "1": {
+            "value": 70
+          },
+          "2": {
+            "value": 40
+          },
+          "3": {
+            "value": 0
+          }
+        },
+        "5": {
+          "1": {
+            "value": 20,
+            "label": "Taille de Mars"
+          },
+          "2": {
+            "value": 10,
+            "label": "Taille de Mars"
+          },
+          "3": {
+            "label": "Taille de Mars"
+          }
+        },
+        "6": {
+          "1": {
+            "value": 45,
+            "label": "Distance de Mars par rapport au Soleil"
+          },
+          "2": {
+            "value": 60,
+            "label": "Distance de Mars par rapport au Soleil"
+          },
+          "3": {
+            "value": 90,
+            "label": "Distance de Mars par rapport au Soleil"
+          }
+        },
+        "15": {
+          "1": {
+            "label": "Augmenter la quantité d'ozone dans l'atmosphère de Mars"
+          },
+          "2": {
+            "label": "Maintenir la faible quantité naturelle d'ozone de Mars"
+          },
+          "3": {
+            "label": "Diminuer la quantité d'ozone dans l'atmosphère de Mars"
+          }
+        },
+        "16": {
+          "1": {
+            "label": "Augmenter la quantité de dioxygène dans l'atmosphère de Mars"
+          },
+          "2": {
+            "label": "Maintenir la faible quantité naturelle de dioxygène de Mars"
+          },
+          "3": {
+            "label": "Diminuer la quantité de dioxygène dans l'atmosphère de Mars"
+          }
+        },
+        "17": {
+          "1": {
+            "label": "Augmenter la quantité de dioxyde de carbone dans l'atmosphère de Mars"
+          },
+          "2": {
+            "label": "Maintenir la faible quantité de dioxyde de carbone de Mars"
+          },
+          "3": {
+            "label": "Diminuer la quantité de dioxyde de carbone de l'atmosphère de Mars"
+          }
+        },
+        "18": {
+          "1": {
+            "label": "Augmenter la quantité d'eau sur Mars"
+          },
+          "2": {
+            "label": "Maintenir la quantité naturelle d'eau sur Mars"
+          },
+          "3": {
+            "label": "Diminution de la quantité d'eau sur Mars"
+          }
+        },
+        "11": {
+          "1": {
+            "label": "Quantité d'ozone dans l'atmosphère de Mars augmentée"
+          },
+          "2": {
+            "label": "Quantité d'ozone dans l'atmosphère de la Terre maintenue"
+          },
+          "3": {
+            "label": "Quantité d'ozone dans l'atmosphère de la Terre diminuée"
+          },
+          "4": {
+            "label": "Quantité d'ozone dans l'atmosphère de Mars maintenue"
+          },
+          "5": {
+            "label": "Quantité  d'ozone dans l'atmosphère de Mars diminuée"
+          }
+        },
+        "12": {
+          "1": {
+            "label": "Quantité de dioxygène dans l'atmosphère de Vénus augmentée"
+          },
+          "2": {
+            "label": "Quantité de dioxygène dans l'atmosphère de Mars maintenue"
+          },
+          "3": {
+            "label": "Quantité de dioxygène dans l'atmosphère de Mars diminuée"
+          },
+          "4": {
+            "label": "Quantité de dioxygène dans l'atmosphère de Mars augmentée"
+          },
+          "5": {
+            "label": "Quantité de dioxygène dans l'atmosphère de la Terre augmentée"
+          },
+          "6": {
+            "label": "Quantité de dioxygène dans l'atmosphère de la Terre maintenue"
+          },
+          "7": {
+            "label": "Quantité de dioxygène dans l'atmosphère de la Terre diminuée"
+          }
+        },
+        "13": {
+          "1": {
+            "label": "Quantité de dioxyde de carbone augmentée"
+          },
+          "2": {
+            "label": "Quantité de dioxyde de carbone maintenue"
+          },
+          "3": {
+            "label": "Quantité de dioxyde de carbone diminuée"
+          },
+          "4": {
+            "label": "Quantité de dioxyde de carbone augmentée"
+          },
+          "5": {
+            "label": "Quantité de dioxyde de carbone maintenue"
+          },
+          "6": {
+            "label": "Quantité de dioxyde de carbone diminuée"
+          },
+          "7": {
+            "label": "Quantité de dioxyde de carbone augmentée"
+          },
+          "8": {
+            "label": "Quantité de dioxyde de carbone maintenue"
+          },
+          "9": {
+            "label": "Quantité de dioxyde de carbone diminuée"
+          }
+        },
+        "14": {
+          "1": {
+            "label": "Quantité d'eau sur Vénus augmentée"
+          },
+          "2": {
+            "label": "Quantité d'eau sur Mars maintenue"
+          },
+          "3": {
+            "label": "Quantité d'eau sur Mars augmentée"
+          },
+          "4": {
+            "label": "Quantité d'eau sur Mars diminuée"
+          },
+          "5": {
+            "label": "Quantité d'eau sur Terre augmentée"
+          },
+          "6": {
+            "label": "Quantité d'eau sur Terre diminuée"
+          },
+          "7": {
+            "label": "Quantité d'eau sur Vénus diminuée"
+          }
+        }
       }
     },
     {
@@ -1059,6 +1762,212 @@
         "12": 6,
         "13": 8,
         "14": 2
+      },
+      "hidden": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "options": {
+        "1": {
+          "1": {
+            "value": 30
+          },
+          "2": {
+            "value": 20
+          },
+          "3": {
+            "value": 10
+          }
+        },
+        "3": {
+          "1": {
+            "value": 100
+          },
+          "2": {
+            "value": 60
+          },
+          "3": {
+            "value": 10
+          }
+        },
+        "4": {
+          "1": {
+            "value": 70
+          },
+          "2": {
+            "value": 40
+          },
+          "3": {
+            "value": 0
+          }
+        },
+        "5": {
+          "1": {
+            "value": 20,
+            "label": "Taille de la Terre"
+          },
+          "2": {
+            "value": 10,
+            "label": "Taille de la Terre"
+          },
+          "3": {
+            "label": "Taille de la Terre"
+          }
+        },
+        "6": {
+          "1": {
+            "value": 45,
+            "label": "Distance de la Terre par rapport au Soleil"
+          },
+          "2": {
+            "value": 60,
+            "label": "Distance de la Terre par rapport au Soleil"
+          },
+          "3": {
+            "value": 90,
+            "label": "Distance de la Terre par rapport au Soleil"
+          }
+        },
+        "15": {
+          "1": {
+            "label": "Augmenter la quantité d'ozone dans l'atmosphère"
+          },
+          "2": {
+            "label": "Maintenir le trou dans la couche d'ozone"
+          },
+          "3": {
+            "label": "Diminuer la quantité d'ozone dans l'atmosphère"
+          }
+        },
+        "16": {
+          "1": {
+            "label": "Augmenter la quantité de dioxygène dans l'atmosphère"
+          },
+          "2": {
+            "label": "Maintenir la quantité de dioxygène dans l'atmosphère"
+          },
+          "3": {
+            "label": "Diminuer la quantité de dioxygène dans l'atmosphère"
+          }
+        },
+        "17": {
+          "1": {
+            "value": -30,
+            "label": "Augmenter la quantité de dioxyde de carbone dans l'atmosphère"
+          },
+          "2": {
+            "value": -50,
+            "label": "Maintenir une grande quantité de dioxyde de carbone dans l'atmosphère"
+          },
+          "3": {
+            "label": "Diminuer la quantité de dioxyde de carbone dans l'atmosphère"
+          }
+        },
+        "18": {
+          "1": {
+            "label": "Augmenter la quantité d'eau"
+          },
+          "2": {
+            "label": "Maintenir une quantité d'eau abondante"
+          },
+          "3": {
+            "label": "Diminuer la quantité d'eau"
+          }
+        },
+        "11": {
+          "1": {
+            "label": "Quantité d'ozone dans l'atmosphère de la Terre augmentée"
+          },
+          "2": {
+            "label": "Quantité d'ozone dans l'atmosphère de la Terre maintenue"
+          },
+          "3": {
+            "label": "Quantité d'ozone dans l'atmosphère de la Terre diminuée"
+          },
+          "4": {
+            "label": "Quantité d'ozone dans l'atmosphère de Vénus maintenue"
+          },
+          "5": {
+            "label": "Quantité  d'ozone dans l'atmosphère de Vénus diminuée"
+          }
+        },
+        "12": {
+          "1": {
+            "label": "Quantité de dioxygène dans l'atmosphère de Vénus augmentée"
+          },
+          "2": {
+            "label": "Quantité de dioxygène dans l'atmosphère de Vénus maintenue"
+          },
+          "3": {
+            "label": "Quantité de dioxygène dans l'atmosphère de Vénus diminuée"
+          },
+          "4": {
+            "label": "Quantité de dioxygène dans l'atmosphère de Mars augmentée"
+          },
+          "5": {
+            "label": "Quantité de dioxygène dans l'atmosphère de la Terre augmentée"
+          },
+          "6": {
+            "label": "Quantité de dioxygène dans l'atmosphère de la Terre maintenue"
+          },
+          "7": {
+            "label": "Quantité de dioxygène dans l'atmosphère de la Terre diminuée"
+          }
+        },
+        "13": {
+          "1": {
+            "label": "Quantité de dioxyde de carbone dans l'atmosphère de Vénus augmentée"
+          },
+          "2": {
+            "label": "Quantité de dioxyde de carbone dans l'atmosphère de Vénus maintenue"
+          },
+          "3": {
+            "label": "Quantité de dioxyde de carbone dans l'atmosphère de Vénus diminuée"
+          },
+          "4": {
+            "label": "Quantité de dioxyde de carbone dans l'atmosphère de Mars augmentée"
+          },
+          "5": {
+            "label": "Quantité de dioxyde de carbone dans l'atmosphère de Mars maintenue"
+          },
+          "6": {
+            "label": "Quantité de dioxyde de carbone dans l'atmosphère de Mars diminuée"
+          },
+          "7": {
+            "label": "Quantité de dioxyde de carbone dans l'atmosphère de la Terre augmentée"
+          },
+          "8": {
+            "label": "Quantité de dioxyde de carbone dans l'atmosphère de la Terre maintenue"
+          },
+          "9": {
+            "label": "Quantité de dioxyde de carbone dans l'atmosphère de la Terre diminuée"
+          }
+        },
+        "14": {
+          "1": {
+            "label": "Quantité d'eau sur Vénus augmentée"
+          },
+          "2": {
+            "label": "Quantité d'eau sur la Terre maintenue"
+          },
+          "3": {
+            "label": "Quantité d'eau sur Mars augmentée"
+          },
+          "4": {
+            "label": "Quantité d'eau sur Mars diminuée"
+          },
+          "5": {
+            "label": "Quantité d'eau sur Terre augmentée"
+          },
+          "6": {
+            "label": "Quantité d'eau sur Terre diminuée"
+          },
+          "7": {
+            "label": "Quantité d'eau sur Vénus diminuée"
+          }
+        }
       }
     }
   ],
@@ -1315,5 +2224,11 @@
         "17": -70
       }
     }
+  ],
+  "interactionSources": [
+    "OBJS.DBF",
+    "OBJSZONE.DBF",
+    "ETATZONE.DBF",
+    "ETATINI.DBF"
   ]
 }

@@ -21,91 +21,195 @@
           "value": 1,
           "label": "10h00 TU (GMT)",
           "visual": "13S10001",
-          "audio": null
+          "audio": null,
+          "zones": [
+            [
+              92,
+              300,
+              14,
+              21
+            ]
+          ]
         },
         {
           "id": 2,
           "value": 2,
           "label": "10h05 TU (GMT)",
           "visual": "13S10002",
-          "audio": null
+          "audio": null,
+          "zones": [
+            [
+              129,
+              310,
+              11,
+              19
+            ]
+          ]
         },
         {
           "id": 3,
           "value": 3,
           "label": "10h10 TU (GMT)",
           "visual": "13S10003",
-          "audio": null
+          "audio": null,
+          "zones": [
+            [
+              150,
+              339,
+              18,
+              14
+            ]
+          ]
         },
         {
           "id": 4,
           "value": 4,
           "label": "10h15 TU (GMT)",
           "visual": "13S10004",
-          "audio": null
+          "audio": null,
+          "zones": [
+            [
+              157,
+              375,
+              21,
+              12
+            ]
+          ]
         },
         {
           "id": 5,
           "value": 5,
           "label": "10h20 TU (GMT)",
           "visual": "13S10005",
-          "audio": null
+          "audio": null,
+          "zones": [
+            [
+              149,
+              407,
+              19,
+              16
+            ]
+          ]
         },
         {
           "id": 6,
           "value": 6,
           "label": "10h25 TU (GMT)",
           "visual": "13S10006",
-          "audio": null
+          "audio": null,
+          "zones": [
+            [
+              126,
+              431,
+              15,
+              17
+            ]
+          ]
         },
         {
           "id": 7,
           "value": 7,
           "label": "10h30 TU (GMT)",
           "visual": "13S10007",
-          "audio": null
+          "audio": null,
+          "zones": [
+            [
+              93,
+              437,
+              12,
+              21
+            ]
+          ]
         },
         {
           "id": 8,
           "value": 8,
           "label": "10h35 TU (GMT)",
           "visual": "13S10008",
-          "audio": null
+          "audio": null,
+          "zones": [
+            [
+              59,
+              430,
+              13,
+              20
+            ]
+          ]
         },
         {
           "id": 9,
           "value": 9,
           "label": "10h40 TU (GMT)",
           "visual": "13S10009",
-          "audio": null
+          "audio": null,
+          "zones": [
+            [
+              32,
+              406,
+              19,
+              15
+            ]
+          ]
         },
         {
           "id": 10,
           "value": 10,
           "label": "10h45 TU (GMT)",
           "visual": "13S10010",
-          "audio": null
+          "audio": null,
+          "zones": [
+            [
+              23,
+              373,
+              20,
+              13
+            ]
+          ]
         },
         {
           "id": 11,
           "value": 11,
           "label": "10h50 TU (GMT)",
           "visual": "13S10011",
-          "audio": null
+          "audio": null,
+          "zones": [
+            [
+              31,
+              336,
+              20,
+              19
+            ]
+          ]
         },
         {
           "id": 12,
           "value": 12,
           "label": "10h55 TU (GMT)",
           "visual": "13S10012",
-          "audio": null
+          "audio": null,
+          "zones": [
+            [
+              55,
+              312,
+              20,
+              22
+            ]
+          ]
         },
         {
           "id": 13,
           "value": 13,
           "label": "11h00 TU (GMT)",
           "visual": "13S10013",
-          "audio": null
+          "audio": null,
+          "zones": [
+            [
+              -1,
+              -1,
+              -1,
+              -1
+            ]
+          ]
         }
       ],
       "hints": {
@@ -133,42 +237,90 @@
           "value": 1,
           "label": "Londres",
           "visual": "13D20001",
-          "audio": null
+          "audio": null,
+          "zones": [
+            [
+              526,
+              349,
+              17,
+              18
+            ]
+          ]
         },
         {
           "id": 2,
           "value": 2,
           "label": "Paris",
           "visual": "13D20002",
-          "audio": null
+          "audio": null,
+          "zones": [
+            [
+              532,
+              371,
+              17,
+              20
+            ]
+          ]
         },
         {
           "id": 3,
           "value": 3,
           "label": "Strasbourg",
           "visual": "13D20003",
-          "audio": null
+          "audio": null,
+          "zones": [
+            [
+              554,
+              377,
+              16,
+              20
+            ]
+          ]
         },
         {
           "id": 4,
           "value": 4,
           "label": "Munich",
           "visual": "13D20004",
-          "audio": null
+          "audio": null,
+          "zones": [
+            [
+              577,
+              379,
+              18,
+              21
+            ]
+          ]
         },
         {
           "id": 5,
           "value": 5,
           "label": "Madrid",
           "visual": "13D20005",
-          "audio": null
+          "audio": null,
+          "zones": [
+            [
+              483,
+              424,
+              17,
+              19
+            ]
+          ]
         },
         {
           "id": 6,
           "value": 6,
           "label": "Rome",
           "visual": "13D20006",
-          "audio": null
+          "audio": null,
+          "zones": [
+            [
+              576,
+              432,
+              16,
+              18
+            ]
+          ]
         }
       ],
       "hints": {
@@ -196,42 +348,48 @@
           "value": 1,
           "label": "Ville d'observation de l'éclipse",
           "visual": "13D30001",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 2,
           "value": 2,
           "label": "Ville d'observation de l'éclipse",
           "visual": "13D30002",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 3,
           "value": 3,
           "label": "Ville d'observation de l'éclipse",
           "visual": "13D30003",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 4,
           "value": 4,
           "label": "Ville d'observation de l'éclipse",
           "visual": "13D30004",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 5,
           "value": 5,
           "label": "Ville d'observation de l'éclipse",
           "visual": "13D30005",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 6,
           "value": 6,
           "label": "Ville d'observation de l'éclipse",
           "visual": "13D30006",
-          "audio": null
+          "audio": null,
+          "zones": []
         }
       ],
       "hints": {
@@ -259,546 +417,624 @@
           "value": 1,
           "label": "Vue du ciel depuis la Terre",
           "visual": "13S40001",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 2,
           "value": 2,
           "label": "Vue du ciel depuis la Terre",
           "visual": "13S40002",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 3,
           "value": 3,
           "label": "Vue du ciel depuis la Terre",
           "visual": "13S40003",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 4,
           "value": 4,
           "label": "Vue du ciel depuis la Terre",
           "visual": "13S40004",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 5,
           "value": 5,
           "label": "Vue du ciel depuis la Terre",
           "visual": "13S40005",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 6,
           "value": 6,
           "label": "Vue du ciel depuis la Terre",
           "visual": "13S40006",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 7,
           "value": 7,
           "label": "Vue du ciel depuis la Terre",
           "visual": "13S40007",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 8,
           "value": 8,
           "label": "Vue du ciel depuis la Terre",
           "visual": "13S40008",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 9,
           "value": 9,
           "label": "Vue du ciel depuis la Terre",
           "visual": "13S40009",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 10,
           "value": 10,
           "label": "Vue du ciel depuis la Terre",
           "visual": "13S40010",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 11,
           "value": 11,
           "label": "Vue du ciel depuis la Terre",
           "visual": "13S40011",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 12,
           "value": 12,
           "label": "Vue du ciel depuis la Terre",
           "visual": "13S40012",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 13,
           "value": 13,
           "label": "Vue du ciel depuis la Terre",
           "visual": "13S40013",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 14,
           "value": 14,
           "label": "Vue du ciel depuis la Terre",
           "visual": "13S40014",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 15,
           "value": 15,
           "label": "Vue du ciel depuis la Terre",
           "visual": "13S40015",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 16,
           "value": 16,
           "label": "Vue du ciel depuis la Terre",
           "visual": "13S40016",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 17,
           "value": 17,
           "label": "Vue du ciel depuis la Terre",
           "visual": "13S40017",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 18,
           "value": 18,
           "label": "Vue du ciel depuis la Terre",
           "visual": "13S40018",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 19,
           "value": 19,
           "label": "Vue du ciel depuis la Terre",
           "visual": "13S40019",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 20,
           "value": 20,
           "label": "Vue du ciel depuis la Terre",
           "visual": "13S40020",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 21,
           "value": 21,
           "label": "Vue du ciel depuis la Terre",
           "visual": "13S40021",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 22,
           "value": 22,
           "label": "Vue du ciel depuis la Terre",
           "visual": "13S40022",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 23,
           "value": 23,
           "label": "Vue du ciel depuis la Terre",
           "visual": "13S40023",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 24,
           "value": 24,
           "label": "Vue du ciel depuis la Terre",
           "visual": "13S40024",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 25,
           "value": 25,
           "label": "Vue du ciel depuis la Terre",
           "visual": "13S40025",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 26,
           "value": 26,
           "label": "Vue du ciel depuis la Terre",
           "visual": "13S40026",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 27,
           "value": 27,
           "label": "Vue du ciel depuis la Terre",
           "visual": "13S40027",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 28,
           "value": 28,
           "label": "Vue du ciel depuis la Terre",
           "visual": "13S40028",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 29,
           "value": 29,
           "label": "Vue du ciel depuis la Terre",
           "visual": "13S40029",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 30,
           "value": 30,
           "label": "Vue du ciel depuis la Terre",
           "visual": "13S40030",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 31,
           "value": 31,
           "label": "Vue du ciel depuis la Terre",
           "visual": "13S40031",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 32,
           "value": 32,
           "label": "Vue du ciel depuis la Terre",
           "visual": "13S40032",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 33,
           "value": 33,
           "label": "Vue du ciel depuis la Terre",
           "visual": "13S40033",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 34,
           "value": 34,
           "label": "Vue du ciel depuis la Terre",
           "visual": "13S40034",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 35,
           "value": 35,
           "label": "Vue du ciel depuis la Terre",
           "visual": "13S40035",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 36,
           "value": 36,
           "label": "Vue du ciel depuis la Terre",
           "visual": "13S40036",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 37,
           "value": 37,
           "label": "Vue du ciel depuis la Terre",
           "visual": "13S40037",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 38,
           "value": 38,
           "label": "Vue du ciel depuis la Terre",
           "visual": "13S40038",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 39,
           "value": 39,
           "label": "Vue du ciel depuis la Terre",
           "visual": "13S40039",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 40,
           "value": 40,
           "label": "Vue du ciel depuis la Terre",
           "visual": "13S40040",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 41,
           "value": 41,
           "label": "Vue du ciel depuis la Terre",
           "visual": "13S40041",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 42,
           "value": 42,
           "label": "Vue du ciel depuis la Terre",
           "visual": "13S40042",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 43,
           "value": 43,
           "label": "Vue du ciel depuis la Terre",
           "visual": "13S40043",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 44,
           "value": 44,
           "label": "Vue du ciel depuis la Terre",
           "visual": "13S40044",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 45,
           "value": 45,
           "label": "Vue du ciel depuis la Terre",
           "visual": "13S40045",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 46,
           "value": 46,
           "label": "Vue du ciel depuis la Terre",
           "visual": "13S40046",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 47,
           "value": 47,
           "label": "Vue du ciel depuis la Terre",
           "visual": "13S40047",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 48,
           "value": 48,
           "label": "Vue du ciel depuis la Terre",
           "visual": "13S40048",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 49,
           "value": 49,
           "label": "Vue du ciel depuis la Terre",
           "visual": "13S40049",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 50,
           "value": 50,
           "label": "Vue du ciel depuis la Terre",
           "visual": "13S40050",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 51,
           "value": 51,
           "label": "Vue du ciel depuis la Terre",
           "visual": "13S40051",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 52,
           "value": 52,
           "label": "Vue du ciel depuis la Terre",
           "visual": "13S40052",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 53,
           "value": 53,
           "label": "Vue du ciel depuis la Terre",
           "visual": "13S40053",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 54,
           "value": 54,
           "label": "Vue du ciel depuis la Terre",
           "visual": "13S40054",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 55,
           "value": 55,
           "label": "Vue du ciel depuis la Terre",
           "visual": "13S40055",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 56,
           "value": 56,
           "label": "Vue du ciel depuis la Terre",
           "visual": "13S40056",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 57,
           "value": 57,
           "label": "Vue du ciel depuis la Terre",
           "visual": "13S40057",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 58,
           "value": 58,
           "label": "Vue du ciel depuis la Terre",
           "visual": "13S40058",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 59,
           "value": 59,
           "label": "Vue du ciel depuis la Terre",
           "visual": "13S40059",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 60,
           "value": 60,
           "label": "Vue du ciel depuis la Terre",
           "visual": "13S40060",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 61,
           "value": 61,
           "label": "Vue du ciel depuis la Terre",
           "visual": "13S40061",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 62,
           "value": 62,
           "label": "Vue du ciel depuis la Terre",
           "visual": "13S40062",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 63,
           "value": 63,
           "label": "Vue du ciel depuis la Terre",
           "visual": "13S40063",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 64,
           "value": 64,
           "label": "Vue du ciel depuis la Terre",
           "visual": "13S40064",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 65,
           "value": 65,
           "label": "Vue du ciel depuis la Terre",
           "visual": "13S40065",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 66,
           "value": 66,
           "label": "Vue du ciel depuis la Terre",
           "visual": "13S40066",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 67,
           "value": 67,
           "label": "Vue du ciel depuis la Terre",
           "visual": "13S40067",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 68,
           "value": 68,
           "label": "Vue du ciel depuis la Terre",
           "visual": "13S40068",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 69,
           "value": 69,
           "label": "Vue du ciel depuis la Terre",
           "visual": "13S40069",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 70,
           "value": 70,
           "label": "Vue du ciel depuis la Terre",
           "visual": "13S40070",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 71,
           "value": 71,
           "label": "Vue du ciel depuis la Terre",
           "visual": "13S40071",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 72,
           "value": 72,
           "label": "Vue du ciel depuis la Terre",
           "visual": "13S40072",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 73,
           "value": 73,
           "label": "Vue du ciel depuis la Terre",
           "visual": "13S40073",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 74,
           "value": 74,
           "label": "Vue du ciel depuis la Terre",
           "visual": "13S40074",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 75,
           "value": 75,
           "label": "Vue du ciel depuis la Terre",
           "visual": "13S40075",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 76,
           "value": 76,
           "label": "Vue du ciel depuis la Terre",
           "visual": "13S40076",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 77,
           "value": 77,
           "label": "Vue du ciel depuis la Terre",
           "visual": "13S40077",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 78,
           "value": 78,
           "label": "Vue du ciel depuis la Terre",
           "visual": "13S40078",
-          "audio": null
+          "audio": null,
+          "zones": []
         }
       ],
       "hints": {
@@ -826,546 +1062,624 @@
           "value": 1,
           "label": "Vue du ciel depuis la Terre",
           "visual": "13D50001",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 2,
           "value": 2,
           "label": "Vue du ciel depuis la Terre",
           "visual": "13D50002",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 3,
           "value": 3,
           "label": "Vue du ciel depuis la Terre",
           "visual": "13D50003",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 4,
           "value": 4,
           "label": "Vue du ciel depuis la Terre",
           "visual": "13D50004",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 5,
           "value": 5,
           "label": "Vue du ciel depuis la Terre",
           "visual": "13D50005",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 6,
           "value": 6,
           "label": "Vue du ciel depuis la Terre",
           "visual": "13D50006",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 7,
           "value": 7,
           "label": "Vue du ciel depuis la Terre",
           "visual": "13D50007",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 8,
           "value": 8,
           "label": "Vue du ciel depuis la Terre",
           "visual": "13D50008",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 9,
           "value": 9,
           "label": "Vue du ciel depuis la Terre",
           "visual": "13D50009",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 10,
           "value": 10,
           "label": "Vue du ciel depuis la Terre",
           "visual": "13D50010",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 11,
           "value": 11,
           "label": "Vue du ciel depuis la Terre",
           "visual": "13D50011",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 12,
           "value": 12,
           "label": "Vue du ciel depuis la Terre",
           "visual": "13D50012",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 13,
           "value": 13,
           "label": "Vue du ciel depuis la Terre",
           "visual": "13D50013",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 14,
           "value": 14,
           "label": "Vue du ciel depuis la Terre",
           "visual": "13D50014",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 15,
           "value": 15,
           "label": "Vue du ciel depuis la Terre",
           "visual": "13D50015",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 16,
           "value": 16,
           "label": "Vue du ciel depuis la Terre",
           "visual": "13D50016",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 17,
           "value": 17,
           "label": "Vue du ciel depuis la Terre",
           "visual": "13D50017",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 18,
           "value": 18,
           "label": "Vue du ciel depuis la Terre",
           "visual": "13D50018",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 19,
           "value": 19,
           "label": "Vue du ciel depuis la Terre",
           "visual": "13D50019",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 20,
           "value": 20,
           "label": "Vue du ciel depuis la Terre",
           "visual": "13D50020",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 21,
           "value": 21,
           "label": "Vue du ciel depuis la Terre",
           "visual": "13D50021",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 22,
           "value": 22,
           "label": "Vue du ciel depuis la Terre",
           "visual": "13D50022",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 23,
           "value": 23,
           "label": "Vue du ciel depuis la Terre",
           "visual": "13D50023",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 24,
           "value": 24,
           "label": "Vue du ciel depuis la Terre",
           "visual": "13D50024",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 25,
           "value": 25,
           "label": "Vue du ciel depuis la Terre",
           "visual": "13D50025",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 26,
           "value": 26,
           "label": "Vue du ciel depuis la Terre",
           "visual": "13D50026",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 27,
           "value": 27,
           "label": "Vue du ciel depuis la Terre",
           "visual": "13D50027",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 28,
           "value": 28,
           "label": "Vue du ciel depuis la Terre",
           "visual": "13D50028",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 29,
           "value": 29,
           "label": "Vue du ciel depuis la Terre",
           "visual": "13D50029",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 30,
           "value": 30,
           "label": "Vue du ciel depuis la Terre",
           "visual": "13D50030",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 31,
           "value": 31,
           "label": "Vue du ciel depuis la Terre",
           "visual": "13D50031",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 32,
           "value": 32,
           "label": "Vue du ciel depuis la Terre",
           "visual": "13D50032",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 33,
           "value": 33,
           "label": "Vue du ciel depuis la Terre",
           "visual": "13D50033",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 34,
           "value": 34,
           "label": "Vue du ciel depuis la Terre",
           "visual": "13D50034",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 35,
           "value": 35,
           "label": "Vue du ciel depuis la Terre",
           "visual": "13D50035",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 36,
           "value": 36,
           "label": "Vue du ciel depuis la Terre",
           "visual": "13D50036",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 37,
           "value": 37,
           "label": "Vue du ciel depuis la Terre",
           "visual": "13D50037",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 38,
           "value": 38,
           "label": "Vue du ciel depuis la Terre",
           "visual": "13D50038",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 39,
           "value": 39,
           "label": "Vue du ciel depuis la Terre",
           "visual": "13D50039",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 40,
           "value": 40,
           "label": "Vue du ciel depuis la Terre",
           "visual": "13D50040",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 41,
           "value": 41,
           "label": "Vue du ciel depuis la Terre",
           "visual": "13D50041",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 42,
           "value": 42,
           "label": "Vue du ciel depuis la Terre",
           "visual": "13D50042",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 43,
           "value": 43,
           "label": "Vue du ciel depuis la Terre",
           "visual": "13D50043",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 44,
           "value": 44,
           "label": "Vue du ciel depuis la Terre",
           "visual": "13D50044",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 45,
           "value": 45,
           "label": "Vue du ciel depuis la Terre",
           "visual": "13D50045",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 46,
           "value": 46,
           "label": "Vue du ciel depuis la Terre",
           "visual": "13D50046",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 47,
           "value": 47,
           "label": "Vue du ciel depuis la Terre",
           "visual": "13D50047",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 48,
           "value": 48,
           "label": "Vue du ciel depuis la Terre",
           "visual": "13D50048",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 49,
           "value": 49,
           "label": "Vue du ciel depuis la Terre",
           "visual": "13D50049",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 50,
           "value": 50,
           "label": "Vue du ciel depuis la Terre",
           "visual": "13D50050",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 51,
           "value": 51,
           "label": "Vue du ciel depuis la Terre",
           "visual": "13D50051",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 52,
           "value": 52,
           "label": "Vue du ciel depuis la Terre",
           "visual": "13D50052",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 53,
           "value": 53,
           "label": "Vue du ciel depuis la Terre",
           "visual": "13D50053",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 54,
           "value": 54,
           "label": "Vue du ciel depuis la Terre",
           "visual": "13D50054",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 55,
           "value": 55,
           "label": "Vue du ciel depuis la Terre",
           "visual": "13D50055",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 56,
           "value": 56,
           "label": "Vue du ciel depuis la Terre",
           "visual": "13D50056",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 57,
           "value": 57,
           "label": "Vue du ciel depuis la Terre",
           "visual": "13D50057",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 58,
           "value": 58,
           "label": "Vue du ciel depuis la Terre",
           "visual": "13D50058",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 59,
           "value": 59,
           "label": "Vue du ciel depuis la Terre",
           "visual": "13D50059",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 60,
           "value": 60,
           "label": "Vue du ciel depuis la Terre",
           "visual": "13D50060",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 61,
           "value": 61,
           "label": "Vue du ciel depuis la Terre",
           "visual": "13D50061",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 62,
           "value": 62,
           "label": "Vue du ciel depuis la Terre",
           "visual": "13D50062",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 63,
           "value": 63,
           "label": "Vue du ciel depuis la Terre",
           "visual": "13D50063",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 64,
           "value": 64,
           "label": "Vue du ciel depuis la Terre",
           "visual": "13D50064",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 65,
           "value": 65,
           "label": "Vue du ciel depuis la Terre",
           "visual": "13D50065",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 66,
           "value": 66,
           "label": "Vue du ciel depuis la Terre",
           "visual": "13D50066",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 67,
           "value": 67,
           "label": "Vue du ciel depuis la Terre",
           "visual": "13D50067",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 68,
           "value": 68,
           "label": "Vue du ciel depuis la Terre",
           "visual": "13D50068",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 69,
           "value": 69,
           "label": "Vue du ciel depuis la Terre",
           "visual": "13D50069",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 70,
           "value": 70,
           "label": "Vue du ciel depuis la Terre",
           "visual": "13D50070",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 71,
           "value": 71,
           "label": "Vue du ciel depuis la Terre",
           "visual": "13D50071",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 72,
           "value": 72,
           "label": "Vue du ciel depuis la Terre",
           "visual": "13D50072",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 73,
           "value": 73,
           "label": "Vue du ciel depuis la Terre",
           "visual": "13D50073",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 74,
           "value": 74,
           "label": "Vue du ciel depuis la Terre",
           "visual": "13D50074",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 75,
           "value": 75,
           "label": "Vue du ciel depuis la Terre",
           "visual": "13D50075",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 76,
           "value": 76,
           "label": "Vue du ciel depuis la Terre",
           "visual": "13D50076",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 77,
           "value": 77,
           "label": "Vue du ciel depuis la Terre",
           "visual": "13D50077",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 78,
           "value": 78,
           "label": "Vue du ciel depuis la Terre",
           "visual": "13D50078",
-          "audio": null
+          "audio": null,
+          "zones": []
         }
       ],
       "hints": {
@@ -1393,91 +1707,104 @@
           "value": 1,
           "label": "Vue de la Terre depuis un point proche de la Lune",
           "visual": "13S60001",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 2,
           "value": 2,
           "label": "Vue de la Terre depuis un point proche de la Lune",
           "visual": "13S60002",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 3,
           "value": 3,
           "label": "Vue de la Terre depuis un point proche de la Lune",
           "visual": "13S60003",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 4,
           "value": 4,
           "label": "Vue de la Terre depuis un point proche de la Lune",
           "visual": "13S60004",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 5,
           "value": 5,
           "label": "Vue de la Terre depuis un point proche de la Lune",
           "visual": "13S60005",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 6,
           "value": 6,
           "label": "Vue de la Terre depuis un point proche de la Lune",
           "visual": "13S60006",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 7,
           "value": 7,
           "label": "Vue de la Terre depuis un point proche de la Lune",
           "visual": "13S60007",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 8,
           "value": 8,
           "label": "Vue de la Terre depuis un point proche de la Lune",
           "visual": "13S60008",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 9,
           "value": 9,
           "label": "Vue de la Terre depuis un point proche de la Lune",
           "visual": "13S60009",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 10,
           "value": 10,
           "label": "Vue de la Terre depuis un point proche de la Lune",
           "visual": "13S60010",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 11,
           "value": 11,
           "label": "Vue de la Terre depuis un point proche de la Lune",
           "visual": "13S60011",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 12,
           "value": 12,
           "label": "Vue de la Terre depuis un point proche de la Lune",
           "visual": "13S60012",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 13,
           "value": 13,
           "label": "Vue de la Terre depuis un point proche de la Lune",
           "visual": "13S60013",
-          "audio": null
+          "audio": null,
+          "zones": []
         }
       ],
       "hints": {
@@ -1505,91 +1832,104 @@
           "value": 1,
           "label": "Alignement Soleil-Lune-Terre",
           "visual": "13S70001",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 2,
           "value": 2,
           "label": "Alignement Soleil-Lune-Terre",
           "visual": "13S70002",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 3,
           "value": 3,
           "label": "Alignement Soleil-Lune-Terre",
           "visual": "13S70003",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 4,
           "value": 4,
           "label": "Alignement Soleil-Lune-Terre",
           "visual": "13S70004",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 5,
           "value": 5,
           "label": "Alignement Soleil-Lune-Terre",
           "visual": "13S70005",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 6,
           "value": 6,
           "label": "Alignement Soleil-Lune-Terre",
           "visual": "13S70006",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 7,
           "value": 7,
           "label": "Alignement Soleil-Lune-Terre",
           "visual": "13S70007",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 8,
           "value": 8,
           "label": "Alignement Soleil-Lune-Terre",
           "visual": "13S70008",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 9,
           "value": 9,
           "label": "Alignement Soleil-Lune-Terre",
           "visual": "13S70009",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 10,
           "value": 10,
           "label": "Alignement Soleil-Lune-Terre",
           "visual": "13S70010",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 11,
           "value": 11,
           "label": "Alignement Soleil-Lune-Terre",
           "visual": "13S70011",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 12,
           "value": 12,
           "label": "Alignement Soleil-Lune-Terre",
           "visual": "13S70012",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 13,
           "value": 13,
           "label": "Alignement Soleil-Lune-Terre",
           "visual": "13S70013",
-          "audio": null
+          "audio": null,
+          "zones": []
         }
       ],
       "hints": {
@@ -1617,14 +1957,16 @@
           "value": 0,
           "label": "Clique ici pour lancer la séquence du ciel vu de la Terre de 10h à 11h TU",
           "visual": null,
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 2,
           "value": 1,
           "label": "intitulé état",
           "visual": "13D80002",
-          "audio": null
+          "audio": null,
+          "zones": []
         }
       ],
       "hints": {
@@ -1652,14 +1994,16 @@
           "value": 0,
           "label": "Clique ici pour lancer la séquence de la Terre vue d'un point proche de la Lune",
           "visual": null,
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 2,
           "value": 1,
           "label": "Clique ici pour lancer la séquence de la Terre vue d'un point proche de la Lune",
           "visual": "13D90002",
-          "audio": null
+          "audio": null,
+          "zones": []
         }
       ],
       "hints": {
@@ -1687,42 +2031,48 @@
           "value": 1,
           "label": "intitulé état",
           "visual": null,
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 2,
           "value": 2,
           "label": "intitulé état",
           "visual": null,
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 3,
           "value": 3,
           "label": "intitulé état",
           "visual": null,
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 4,
           "value": 4,
           "label": "intitulé état",
           "visual": null,
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 5,
           "value": 5,
           "label": "intitulé état",
           "visual": null,
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 6,
           "value": 6,
           "label": "intitulé état",
           "visual": null,
-          "audio": null
+          "audio": null,
+          "zones": []
         }
       ],
       "hints": {
@@ -1750,42 +2100,48 @@
           "value": 1,
           "label": "intitulé état",
           "visual": "13DB0001",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 2,
           "value": 2,
           "label": "intitulé état",
           "visual": "13DB0002",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 3,
           "value": 3,
           "label": "intitulé état",
           "visual": "13DB0003",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 4,
           "value": 4,
           "label": "intitulé état",
           "visual": "13DB0004",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 5,
           "value": 5,
           "label": "intitulé état",
           "visual": "13DB0005",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 6,
           "value": 6,
           "label": "intitulé état",
           "visual": "13DB0006",
-          "audio": null
+          "audio": null,
+          "zones": []
         }
       ],
       "hints": {
@@ -1813,7 +2169,8 @@
           "value": 1,
           "label": "intitulé état",
           "visual": "13DC0001",
-          "audio": null
+          "audio": null,
+          "zones": []
         }
       ],
       "hints": {
@@ -1847,7 +2204,11 @@
         "10": 1,
         "11": 1,
         "12": 1
-      }
+      },
+      "hidden": [
+        "10"
+      ],
+      "options": {}
     },
     {
       "id": "1",
@@ -1871,7 +2232,13 @@
         "10": 1,
         "11": 1,
         "12": 1
-      }
+      },
+      "hidden": [
+        "8",
+        "9",
+        "10"
+      ],
+      "options": {}
     },
     {
       "id": "2",
@@ -1895,7 +2262,13 @@
         "10": 1,
         "11": 1,
         "12": 1
-      }
+      },
+      "hidden": [
+        "8",
+        "9",
+        "10"
+      ],
+      "options": {}
     },
     {
       "id": "3",
@@ -1919,8 +2292,20 @@
         "10": 1,
         "11": 1,
         "12": 1
-      }
+      },
+      "hidden": [
+        "8",
+        "9",
+        "10"
+      ],
+      "options": {}
     }
   ],
-  "lookup": []
+  "lookup": [],
+  "interactionSources": [
+    "OBJS.DBF",
+    "OBJSZONE.DBF",
+    "ETATZONE.DBF",
+    "ETATINI.DBF"
+  ]
 }

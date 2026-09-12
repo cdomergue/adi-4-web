@@ -21,49 +21,105 @@
           "value": 1,
           "label": "Disque laser",
           "visual": "05D10001",
-          "audio": null
+          "audio": null,
+          "zones": [
+            [
+              60,
+              63,
+              47,
+              26
+            ]
+          ]
         },
         {
           "id": 2,
           "value": 2,
           "label": "Pizza",
           "visual": "05D10002",
-          "audio": null
+          "audio": null,
+          "zones": [
+            [
+              59,
+              5,
+              48,
+              29
+            ]
+          ]
         },
         {
           "id": 3,
           "value": 3,
           "label": "Moutarde",
           "visual": "05D10003",
-          "audio": null
+          "audio": null,
+          "zones": [
+            [
+              60,
+              36,
+              47,
+              28
+            ]
+          ]
         },
         {
           "id": 4,
           "value": 4,
           "label": "Parfum",
           "visual": "05D10004",
-          "audio": null
+          "audio": null,
+          "zones": [
+            [
+              64,
+              169,
+              47,
+              27
+            ]
+          ]
         },
         {
           "id": 5,
           "value": 5,
           "label": "Crème de soins",
           "visual": "05D10005",
-          "audio": null
+          "audio": null,
+          "zones": [
+            [
+              63,
+              143,
+              47,
+              26
+            ]
+          ]
         },
         {
           "id": 6,
           "value": 6,
           "label": "Biscuits secs",
           "visual": "05D10006",
-          "audio": null
+          "audio": null,
+          "zones": [
+            [
+              62,
+              116,
+              47,
+              28
+            ]
+          ]
         },
         {
           "id": 7,
           "value": 7,
           "label": "Peinture liquide",
           "visual": "05D10007",
-          "audio": null
+          "audio": null,
+          "zones": [
+            [
+              61,
+              90,
+              48,
+              26
+            ]
+          ]
         }
       ],
       "hints": {
@@ -91,14 +147,30 @@
           "value": 1,
           "label": "Résistance à l'eau",
           "visual": "05D20001",
-          "audio": null
+          "audio": null,
+          "zones": [
+            [
+              170,
+              209,
+              29,
+              15
+            ]
+          ]
         },
         {
           "id": 2,
           "value": 0,
           "label": "Résistance à l'eau",
           "visual": "05D20002",
-          "audio": null
+          "audio": null,
+          "zones": [
+            [
+              170,
+              195,
+              29,
+              15
+            ]
+          ]
         }
       ],
       "hints": {
@@ -126,14 +198,30 @@
           "value": 1,
           "label": "Résistance aux chocs",
           "visual": "05D30001",
-          "audio": null
+          "audio": null,
+          "zones": [
+            [
+              235,
+              209,
+              29,
+              15
+            ]
+          ]
         },
         {
           "id": 2,
           "value": 0,
           "label": "Résistance aux chocs",
           "visual": "05D30002",
-          "audio": null
+          "audio": null,
+          "zones": [
+            [
+              235,
+              195,
+              29,
+              15
+            ]
+          ]
         }
       ],
       "hints": {
@@ -161,14 +249,30 @@
           "value": 1,
           "label": "Résistance à l'acide",
           "visual": "05D40001",
-          "audio": null
+          "audio": null,
+          "zones": [
+            [
+              302,
+              209,
+              29,
+              15
+            ]
+          ]
         },
         {
           "id": 2,
           "value": 0,
           "label": "Résistance à l'acide",
           "visual": "05D40002",
-          "audio": null
+          "audio": null,
+          "zones": [
+            [
+              302,
+              195,
+              29,
+              15
+            ]
+          ]
         }
       ],
       "hints": {
@@ -196,14 +300,30 @@
           "value": 1,
           "label": "Résistance au feu",
           "visual": "05D50001",
-          "audio": null
+          "audio": null,
+          "zones": [
+            [
+              370,
+              209,
+              29,
+              15
+            ]
+          ]
         },
         {
           "id": 2,
           "value": 0,
           "label": "Résistance au feu",
           "visual": "05D50002",
-          "audio": null
+          "audio": null,
+          "zones": [
+            [
+              370,
+              195,
+              29,
+              15
+            ]
+          ]
         }
       ],
       "hints": {
@@ -231,14 +351,30 @@
           "value": 1,
           "label": "Résistance à la lumière",
           "visual": "05D60001",
-          "audio": null
+          "audio": null,
+          "zones": [
+            [
+              436,
+              209,
+              29,
+              15
+            ]
+          ]
         },
         {
           "id": 2,
           "value": 0,
           "label": "Résistance à la lumière",
           "visual": "05D60002",
-          "audio": null
+          "audio": null,
+          "zones": [
+            [
+              436,
+              195,
+              29,
+              15
+            ]
+          ]
         }
       ],
       "hints": {
@@ -266,14 +402,30 @@
           "value": 1,
           "label": "Légèreté",
           "visual": "05D70001",
-          "audio": null
+          "audio": null,
+          "zones": [
+            [
+              501,
+              209,
+              29,
+              15
+            ]
+          ]
         },
         {
           "id": 2,
           "value": 0,
           "label": "Légèreté",
           "visual": "05D70002",
-          "audio": null
+          "audio": null,
+          "zones": [
+            [
+              501,
+              195,
+              29,
+              15
+            ]
+          ]
         }
       ],
       "hints": {
@@ -301,84 +453,96 @@
           "value": 1,
           "label": "intitulé état",
           "visual": null,
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 2,
           "value": 2,
           "label": "intitulé état",
           "visual": null,
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 3,
           "value": 3,
           "label": "intitulé état",
           "visual": null,
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 4,
           "value": 4,
           "label": "intitulé état",
           "visual": null,
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 5,
           "value": 5,
           "label": "intitulé état",
           "visual": null,
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 6,
           "value": 6,
           "label": "intitulé état",
           "visual": null,
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 7,
           "value": 7,
           "label": "intitulé état",
           "visual": null,
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 8,
           "value": 8,
           "label": "intitulé état",
           "visual": null,
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 9,
           "value": 9,
           "label": "intitulé état",
           "visual": null,
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 10,
           "value": 10,
           "label": "intitulé état",
           "visual": null,
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 11,
           "value": 11,
           "label": "intitulé état",
           "visual": null,
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 12,
           "value": 12,
           "label": "intitulé état",
           "visual": null,
-          "audio": null
+          "audio": null,
+          "zones": []
         }
       ],
       "hints": {
@@ -406,504 +570,576 @@
           "value": 1,
           "label": "carton",
           "visual": "05D90001",
-          "audio": "/game/station/05W90001.wav"
+          "audio": "/game/station/05W90001.wav",
+          "zones": []
         },
         {
           "id": 2,
           "value": 2,
           "label": "plastique fin",
           "visual": "05D90002",
-          "audio": "/game/station/05W90002.wav"
+          "audio": "/game/station/05W90002.wav",
+          "zones": []
         },
         {
           "id": 3,
           "value": 3,
           "label": "plastique épais",
           "visual": "05D90003",
-          "audio": "/game/station/05W90003.wav"
+          "audio": "/game/station/05W90003.wav",
+          "zones": []
         },
         {
           "id": 4,
           "value": 4,
           "label": "plastique fin",
           "visual": "05D90004",
-          "audio": "/game/station/05W90004.wav"
+          "audio": "/game/station/05W90004.wav",
+          "zones": []
         },
         {
           "id": 5,
           "value": 5,
           "label": "plastique épais",
           "visual": "05D90005",
-          "audio": "/game/station/05W90005.wav"
+          "audio": "/game/station/05W90005.wav",
+          "zones": []
         },
         {
           "id": 6,
           "value": 6,
           "label": "verre",
           "visual": "05D90006",
-          "audio": "/game/station/05W90006.wav"
+          "audio": "/game/station/05W90006.wav",
+          "zones": []
         },
         {
           "id": 7,
           "value": 7,
           "label": "verre",
           "visual": "05D90007",
-          "audio": "/game/station/05W90007.wav"
+          "audio": "/game/station/05W90007.wav",
+          "zones": []
         },
         {
           "id": 8,
           "value": 8,
           "label": "céramique",
           "visual": "05D90008",
-          "audio": "/game/station/05W90008.wav"
+          "audio": "/game/station/05W90008.wav",
+          "zones": []
         },
         {
           "id": 9,
           "value": 9,
           "label": "métal léger",
           "visual": "05D90009",
-          "audio": "/game/station/05W90009.wav"
+          "audio": "/game/station/05W90009.wav",
+          "zones": []
         },
         {
           "id": 10,
           "value": 10,
           "label": "métal lourd",
           "visual": "05D90010",
-          "audio": "/game/station/05W90010.wav"
+          "audio": "/game/station/05W90010.wav",
+          "zones": []
         },
         {
           "id": 11,
           "value": 11,
           "label": "carton",
           "visual": "05D90011",
-          "audio": "/game/station/05W90011.wav"
+          "audio": "/game/station/05W90011.wav",
+          "zones": []
         },
         {
           "id": 12,
           "value": 12,
           "label": "plastique fin",
           "visual": "05D90012",
-          "audio": "/game/station/05W90012.wav"
+          "audio": "/game/station/05W90012.wav",
+          "zones": []
         },
         {
           "id": 13,
           "value": 13,
           "label": "plastique épais",
           "visual": "05D90013",
-          "audio": "/game/station/05W90013.wav"
+          "audio": "/game/station/05W90013.wav",
+          "zones": []
         },
         {
           "id": 14,
           "value": 14,
           "label": "plastique fin",
           "visual": "05D90014",
-          "audio": "/game/station/05W90014.wav"
+          "audio": "/game/station/05W90014.wav",
+          "zones": []
         },
         {
           "id": 15,
           "value": 15,
           "label": "plastique épais",
           "visual": "05D90015",
-          "audio": "/game/station/05W90015.wav"
+          "audio": "/game/station/05W90015.wav",
+          "zones": []
         },
         {
           "id": 16,
           "value": 16,
           "label": "verre",
           "visual": "05D90016",
-          "audio": "/game/station/05W90016.wav"
+          "audio": "/game/station/05W90016.wav",
+          "zones": []
         },
         {
           "id": 17,
           "value": 17,
           "label": "verre",
           "visual": "05D90017",
-          "audio": "/game/station/05W90017.wav"
+          "audio": "/game/station/05W90017.wav",
+          "zones": []
         },
         {
           "id": 18,
           "value": 18,
           "label": "céramique",
           "visual": "05D90018",
-          "audio": "/game/station/05W90018.wav"
+          "audio": "/game/station/05W90018.wav",
+          "zones": []
         },
         {
           "id": 19,
           "value": 19,
           "label": "métal léger",
           "visual": "05D90019",
-          "audio": "/game/station/05W90019.wav"
+          "audio": "/game/station/05W90019.wav",
+          "zones": []
         },
         {
           "id": 20,
           "value": 20,
           "label": "métal lourd",
           "visual": "05D90020",
-          "audio": "/game/station/05W90020.wav"
+          "audio": "/game/station/05W90020.wav",
+          "zones": []
         },
         {
           "id": 21,
           "value": 21,
           "label": "carton",
           "visual": "05D90021",
-          "audio": "/game/station/05W90021.wav"
+          "audio": "/game/station/05W90021.wav",
+          "zones": []
         },
         {
           "id": 22,
           "value": 22,
           "label": "plastique fin",
           "visual": "05D90022",
-          "audio": "/game/station/05W90022.wav"
+          "audio": "/game/station/05W90022.wav",
+          "zones": []
         },
         {
           "id": 23,
           "value": 23,
           "label": "plastique épais",
           "visual": "05D90023",
-          "audio": "/game/station/05W90023.wav"
+          "audio": "/game/station/05W90023.wav",
+          "zones": []
         },
         {
           "id": 24,
           "value": 24,
           "label": "plastique fin",
           "visual": "05D90024",
-          "audio": "/game/station/05W90024.wav"
+          "audio": "/game/station/05W90024.wav",
+          "zones": []
         },
         {
           "id": 25,
           "value": 25,
           "label": "plastique épais",
           "visual": "05D90025",
-          "audio": "/game/station/05W90025.wav"
+          "audio": "/game/station/05W90025.wav",
+          "zones": []
         },
         {
           "id": 26,
           "value": 26,
           "label": "verre",
           "visual": "05D90026",
-          "audio": "/game/station/05W90026.wav"
+          "audio": "/game/station/05W90026.wav",
+          "zones": []
         },
         {
           "id": 27,
           "value": 27,
           "label": "verre",
           "visual": "05D90027",
-          "audio": "/game/station/05W90027.wav"
+          "audio": "/game/station/05W90027.wav",
+          "zones": []
         },
         {
           "id": 28,
           "value": 28,
           "label": "céramique",
           "visual": "05D90028",
-          "audio": "/game/station/05W90028.wav"
+          "audio": "/game/station/05W90028.wav",
+          "zones": []
         },
         {
           "id": 29,
           "value": 29,
           "label": "métal léger",
           "visual": "05D90029",
-          "audio": "/game/station/05W90029.wav"
+          "audio": "/game/station/05W90029.wav",
+          "zones": []
         },
         {
           "id": 30,
           "value": 30,
           "label": "métal lourd",
           "visual": "05D90030",
-          "audio": "/game/station/05W90030.wav"
+          "audio": "/game/station/05W90030.wav",
+          "zones": []
         },
         {
           "id": 31,
           "value": 31,
           "label": "carton",
           "visual": "05D90031",
-          "audio": "/game/station/05W90031.wav"
+          "audio": "/game/station/05W90031.wav",
+          "zones": []
         },
         {
           "id": 32,
           "value": 32,
           "label": "plastique fin",
           "visual": "05D90032",
-          "audio": "/game/station/05W90032.wav"
+          "audio": "/game/station/05W90032.wav",
+          "zones": []
         },
         {
           "id": 33,
           "value": 33,
           "label": "plastique épais",
           "visual": "05D90033",
-          "audio": "/game/station/05W90033.wav"
+          "audio": "/game/station/05W90033.wav",
+          "zones": []
         },
         {
           "id": 34,
           "value": 34,
           "label": "plastique fin",
           "visual": "05D90034",
-          "audio": "/game/station/05W90034.wav"
+          "audio": "/game/station/05W90034.wav",
+          "zones": []
         },
         {
           "id": 35,
           "value": 35,
           "label": "plastique épais",
           "visual": "05D90035",
-          "audio": "/game/station/05W90035.wav"
+          "audio": "/game/station/05W90035.wav",
+          "zones": []
         },
         {
           "id": 36,
           "value": 36,
           "label": "verre",
           "visual": "05D90036",
-          "audio": "/game/station/05W90036.wav"
+          "audio": "/game/station/05W90036.wav",
+          "zones": []
         },
         {
           "id": 37,
           "value": 37,
           "label": "verre",
           "visual": "05D90037",
-          "audio": "/game/station/05W90037.wav"
+          "audio": "/game/station/05W90037.wav",
+          "zones": []
         },
         {
           "id": 38,
           "value": 38,
           "label": "céramique",
           "visual": "05D90038",
-          "audio": "/game/station/05W90038.wav"
+          "audio": "/game/station/05W90038.wav",
+          "zones": []
         },
         {
           "id": 39,
           "value": 39,
           "label": "métal léger",
           "visual": "05D90039",
-          "audio": "/game/station/05W90039.wav"
+          "audio": "/game/station/05W90039.wav",
+          "zones": []
         },
         {
           "id": 40,
           "value": 40,
           "label": "métal lourd",
           "visual": "05D90040",
-          "audio": "/game/station/05W90040.wav"
+          "audio": "/game/station/05W90040.wav",
+          "zones": []
         },
         {
           "id": 41,
           "value": 41,
           "label": "carton",
           "visual": "05D90041",
-          "audio": "/game/station/05W90041.wav"
+          "audio": "/game/station/05W90041.wav",
+          "zones": []
         },
         {
           "id": 42,
           "value": 42,
           "label": "plastique fin",
           "visual": "05D90042",
-          "audio": "/game/station/05W90042.wav"
+          "audio": "/game/station/05W90042.wav",
+          "zones": []
         },
         {
           "id": 43,
           "value": 43,
           "label": "plastique épais",
           "visual": "05D90043",
-          "audio": "/game/station/05W90043.wav"
+          "audio": "/game/station/05W90043.wav",
+          "zones": []
         },
         {
           "id": 44,
           "value": 44,
           "label": "plastique fin",
           "visual": "05D90044",
-          "audio": "/game/station/05W90044.wav"
+          "audio": "/game/station/05W90044.wav",
+          "zones": []
         },
         {
           "id": 45,
           "value": 45,
           "label": "plastique épais",
           "visual": "05D90045",
-          "audio": "/game/station/05W90045.wav"
+          "audio": "/game/station/05W90045.wav",
+          "zones": []
         },
         {
           "id": 46,
           "value": 46,
           "label": "verre",
           "visual": "05D90046",
-          "audio": "/game/station/05W90046.wav"
+          "audio": "/game/station/05W90046.wav",
+          "zones": []
         },
         {
           "id": 47,
           "value": 47,
           "label": "verre",
           "visual": "05D90047",
-          "audio": "/game/station/05W90047.wav"
+          "audio": "/game/station/05W90047.wav",
+          "zones": []
         },
         {
           "id": 48,
           "value": 48,
           "label": "céramique",
           "visual": "05D90048",
-          "audio": "/game/station/05W90048.wav"
+          "audio": "/game/station/05W90048.wav",
+          "zones": []
         },
         {
           "id": 49,
           "value": 49,
           "label": "métal léger",
           "visual": "05D90049",
-          "audio": "/game/station/05W90049.wav"
+          "audio": "/game/station/05W90049.wav",
+          "zones": []
         },
         {
           "id": 50,
           "value": 50,
           "label": "métal lourd",
           "visual": "05D90050",
-          "audio": "/game/station/05W90050.wav"
+          "audio": "/game/station/05W90050.wav",
+          "zones": []
         },
         {
           "id": 51,
           "value": 51,
           "label": "carton",
           "visual": "05D90051",
-          "audio": "/game/station/05W90051.wav"
+          "audio": "/game/station/05W90051.wav",
+          "zones": []
         },
         {
           "id": 52,
           "value": 52,
           "label": "plastique fin",
           "visual": "05D90052",
-          "audio": "/game/station/05W90052.wav"
+          "audio": "/game/station/05W90052.wav",
+          "zones": []
         },
         {
           "id": 53,
           "value": 53,
           "label": "plastique épais",
           "visual": "05D90053",
-          "audio": "/game/station/05W90053.wav"
+          "audio": "/game/station/05W90053.wav",
+          "zones": []
         },
         {
           "id": 54,
           "value": 54,
           "label": "plastique fin",
           "visual": "05D90054",
-          "audio": "/game/station/05W90054.wav"
+          "audio": "/game/station/05W90054.wav",
+          "zones": []
         },
         {
           "id": 55,
           "value": 55,
           "label": "plastique épais",
           "visual": "05D90055",
-          "audio": "/game/station/05W90055.wav"
+          "audio": "/game/station/05W90055.wav",
+          "zones": []
         },
         {
           "id": 56,
           "value": 56,
           "label": "verre",
           "visual": "05D90056",
-          "audio": "/game/station/05W90056.wav"
+          "audio": "/game/station/05W90056.wav",
+          "zones": []
         },
         {
           "id": 57,
           "value": 57,
           "label": "verre",
           "visual": "05D90057",
-          "audio": "/game/station/05W90057.wav"
+          "audio": "/game/station/05W90057.wav",
+          "zones": []
         },
         {
           "id": 58,
           "value": 58,
           "label": "céramique",
           "visual": "05D90058",
-          "audio": "/game/station/05W90058.wav"
+          "audio": "/game/station/05W90058.wav",
+          "zones": []
         },
         {
           "id": 59,
           "value": 59,
           "label": "métal léger",
           "visual": "05D90059",
-          "audio": "/game/station/05W90059.wav"
+          "audio": "/game/station/05W90059.wav",
+          "zones": []
         },
         {
           "id": 60,
           "value": 60,
           "label": "métal lourd",
           "visual": "05D90060",
-          "audio": "/game/station/05W90060.wav"
+          "audio": "/game/station/05W90060.wav",
+          "zones": []
         },
         {
           "id": 61,
           "value": 61,
           "label": "carton",
           "visual": "05D90061",
-          "audio": "/game/station/05W90061.wav"
+          "audio": "/game/station/05W90061.wav",
+          "zones": []
         },
         {
           "id": 62,
           "value": 62,
           "label": "plastique fin",
           "visual": "05D90062",
-          "audio": "/game/station/05W90062.wav"
+          "audio": "/game/station/05W90062.wav",
+          "zones": []
         },
         {
           "id": 63,
           "value": 63,
           "label": "plastique épais",
           "visual": "05D90063",
-          "audio": "/game/station/05W90063.wav"
+          "audio": "/game/station/05W90063.wav",
+          "zones": []
         },
         {
           "id": 64,
           "value": 64,
           "label": "plastique fin",
           "visual": "05D90064",
-          "audio": "/game/station/05W90064.wav"
+          "audio": "/game/station/05W90064.wav",
+          "zones": []
         },
         {
           "id": 65,
           "value": 65,
           "label": "plastique épais",
           "visual": "05D90065",
-          "audio": "/game/station/05W90065.wav"
+          "audio": "/game/station/05W90065.wav",
+          "zones": []
         },
         {
           "id": 66,
           "value": 66,
           "label": "verre",
           "visual": "05D90066",
-          "audio": "/game/station/05W90066.wav"
+          "audio": "/game/station/05W90066.wav",
+          "zones": []
         },
         {
           "id": 67,
           "value": 67,
           "label": "verre",
           "visual": "05D90067",
-          "audio": "/game/station/05W90067.wav"
+          "audio": "/game/station/05W90067.wav",
+          "zones": []
         },
         {
           "id": 68,
           "value": 68,
           "label": "céramique",
           "visual": "05D90068",
-          "audio": "/game/station/05W90068.wav"
+          "audio": "/game/station/05W90068.wav",
+          "zones": []
         },
         {
           "id": 69,
           "value": 69,
           "label": "métal léger",
           "visual": "05D90069",
-          "audio": "/game/station/05W90069.wav"
+          "audio": "/game/station/05W90069.wav",
+          "zones": []
         },
         {
           "id": 70,
           "value": 70,
           "label": "métal lourd",
           "visual": "05D90070",
-          "audio": "/game/station/05W90070.wav"
+          "audio": "/game/station/05W90070.wav",
+          "zones": []
         },
         {
           "id": 71,
           "value": 71,
           "label": "Trop de matériaux possibles, pas assez de critères",
           "visual": "05D90071",
-          "audio": "/game/station/05W90071.wav"
+          "audio": "/game/station/05W90071.wav",
+          "zones": []
         },
         {
           "id": 72,
           "value": 72,
           "label": "Pas de choix possible, trop de critères",
           "visual": "05D90071",
-          "audio": "/game/station/05W90071.wav"
+          "audio": "/game/station/05W90071.wav",
+          "zones": []
         }
       ],
       "hints": {
@@ -931,84 +1167,96 @@
           "value": 0,
           "label": "",
           "visual": "05DA0001",
-          "audio": "/game/station/05WA0001.wav"
+          "audio": "/game/station/05WA0001.wav",
+          "zones": []
         },
         {
           "id": 2,
           "value": 10,
           "label": "",
           "visual": "05DA0002",
-          "audio": "/game/station/05WA0002.wav"
+          "audio": "/game/station/05WA0002.wav",
+          "zones": []
         },
         {
           "id": 3,
           "value": 20,
           "label": "",
           "visual": "05DA0003",
-          "audio": "/game/station/05WA0003.wav"
+          "audio": "/game/station/05WA0003.wav",
+          "zones": []
         },
         {
           "id": 4,
           "value": 30,
           "label": "",
           "visual": "05DA0004",
-          "audio": "/game/station/05WA0004.wav"
+          "audio": "/game/station/05WA0004.wav",
+          "zones": []
         },
         {
           "id": 5,
           "value": 40,
           "label": "",
           "visual": "05DA0005",
-          "audio": "/game/station/05WA0005.wav"
+          "audio": "/game/station/05WA0005.wav",
+          "zones": []
         },
         {
           "id": 6,
           "value": 50,
           "label": "",
           "visual": "05DA0006",
-          "audio": "/game/station/05WA0006.wav"
+          "audio": "/game/station/05WA0006.wav",
+          "zones": []
         },
         {
           "id": 7,
           "value": 60,
           "label": "",
           "visual": "05DA0007",
-          "audio": "/game/station/05WA0007.wav"
+          "audio": "/game/station/05WA0007.wav",
+          "zones": []
         },
         {
           "id": 8,
           "value": 70,
           "label": "",
           "visual": "05DA0008",
-          "audio": "/game/station/05WA0008.wav"
+          "audio": "/game/station/05WA0008.wav",
+          "zones": []
         },
         {
           "id": 9,
           "value": 80,
           "label": "",
           "visual": "05DA0009",
-          "audio": "/game/station/05WA0009.wav"
+          "audio": "/game/station/05WA0009.wav",
+          "zones": []
         },
         {
           "id": 10,
           "value": 90,
           "label": "",
           "visual": "05DA0010",
-          "audio": "/game/station/05WA0010.wav"
+          "audio": "/game/station/05WA0010.wav",
+          "zones": []
         },
         {
           "id": 11,
           "value": 100,
           "label": "",
           "visual": "05DA0011",
-          "audio": "/game/station/05WA0011.wav"
+          "audio": "/game/station/05WA0011.wav",
+          "zones": []
         },
         {
           "id": 12,
           "value": 101,
           "label": "",
           "visual": "05DA0012",
-          "audio": null
+          "audio": null,
+          "zones": []
         }
       ],
       "hints": {
@@ -1036,42 +1284,48 @@
           "value": 1,
           "label": "Très bon marché",
           "visual": "05DB0001",
-          "audio": "/game/station/05WB0001.wav"
+          "audio": "/game/station/05WB0001.wav",
+          "zones": []
         },
         {
           "id": 2,
           "value": 2,
           "label": "Bon marché",
           "visual": "05DB0002",
-          "audio": "/game/station/05WB0002.wav"
+          "audio": "/game/station/05WB0002.wav",
+          "zones": []
         },
         {
           "id": 3,
           "value": 3,
           "label": "Un peu cher",
           "visual": "05DB0003",
-          "audio": "/game/station/05WB0003.wav"
+          "audio": "/game/station/05WB0003.wav",
+          "zones": []
         },
         {
           "id": 4,
           "value": 4,
           "label": "Cher",
           "visual": "05DB0004",
-          "audio": "/game/station/05WB0004.wav"
+          "audio": "/game/station/05WB0004.wav",
+          "zones": []
         },
         {
           "id": 5,
           "value": 5,
           "label": "Très cher",
           "visual": "05DB0005",
-          "audio": "/game/station/05WB0005.wav"
+          "audio": "/game/station/05WB0005.wav",
+          "zones": []
         },
         {
           "id": 6,
           "value": 0,
           "label": "Indéterminé",
           "visual": "VIDE_DF",
-          "audio": null
+          "audio": null,
+          "zones": []
         }
       ],
       "hints": {
@@ -1099,14 +1353,16 @@
           "value": 1,
           "label": "Résistance à l'eau",
           "visual": "05DC0001",
-          "audio": "/game/station/05WC0001.wav"
+          "audio": "/game/station/05WC0001.wav",
+          "zones": []
         },
         {
           "id": 2,
           "value": 0,
           "label": "Résistance à l'eau",
           "visual": "05DC0002",
-          "audio": "/game/station/05WC0002.wav"
+          "audio": "/game/station/05WC0002.wav",
+          "zones": []
         }
       ],
       "hints": {
@@ -1134,14 +1390,16 @@
           "value": 1,
           "label": "Résistance aux chocs",
           "visual": "05DD0001",
-          "audio": "/game/station/05WD0001.wav"
+          "audio": "/game/station/05WD0001.wav",
+          "zones": []
         },
         {
           "id": 2,
           "value": 0,
           "label": "Résistance aux chocs",
           "visual": "05DD0002",
-          "audio": "/game/station/05WD0002.wav"
+          "audio": "/game/station/05WD0002.wav",
+          "zones": []
         }
       ],
       "hints": {
@@ -1169,14 +1427,16 @@
           "value": 1,
           "label": "Résistance à l'acide",
           "visual": "05DE0001",
-          "audio": "/game/station/05WE0001.wav"
+          "audio": "/game/station/05WE0001.wav",
+          "zones": []
         },
         {
           "id": 2,
           "value": 0,
           "label": "Résistance à l'acide",
           "visual": "05DE0002",
-          "audio": "/game/station/05WE0002.wav"
+          "audio": "/game/station/05WE0002.wav",
+          "zones": []
         }
       ],
       "hints": {
@@ -1204,14 +1464,16 @@
           "value": 1,
           "label": "Résistance au feu",
           "visual": "05DF0001",
-          "audio": "/game/station/05WF0001.wav"
+          "audio": "/game/station/05WF0001.wav",
+          "zones": []
         },
         {
           "id": 2,
           "value": 0,
           "label": "Résistance au feu",
           "visual": "05DF0002",
-          "audio": "/game/station/05WF0002.wav"
+          "audio": "/game/station/05WF0002.wav",
+          "zones": []
         }
       ],
       "hints": {
@@ -1239,14 +1501,16 @@
           "value": 1,
           "label": "Résistance à la lumière",
           "visual": "05DG0001",
-          "audio": "/game/station/05WG0001.wav"
+          "audio": "/game/station/05WG0001.wav",
+          "zones": []
         },
         {
           "id": 2,
           "value": 0,
           "label": "Résistance à la lumière",
           "visual": "05DG0002",
-          "audio": "/game/station/05WG0002.wav"
+          "audio": "/game/station/05WG0002.wav",
+          "zones": []
         }
       ],
       "hints": {
@@ -1274,14 +1538,16 @@
           "value": 1,
           "label": "Légèreté",
           "visual": "05DH0001",
-          "audio": "/game/station/05WH0001.wav"
+          "audio": "/game/station/05WH0001.wav",
+          "zones": []
         },
         {
           "id": 2,
           "value": 0,
           "label": "Légèreté",
           "visual": "05DH0002",
-          "audio": "/game/station/05WH0002.wav"
+          "audio": "/game/station/05WH0002.wav",
+          "zones": []
         }
       ],
       "hints": {
@@ -1309,14 +1575,16 @@
           "value": 1,
           "label": "Mise-en-marche",
           "visual": "05DI0001",
-          "audio": "/game/station/05WI0001.wav"
+          "audio": "/game/station/05WI0001.wav",
+          "zones": []
         },
         {
           "id": 2,
           "value": 2,
           "label": "Mise-en-marche",
           "visual": "05DI0002",
-          "audio": "/game/station/05WI0002.wav"
+          "audio": "/game/station/05WI0002.wav",
+          "zones": []
         }
       ],
       "hints": {
@@ -1361,7 +1629,13 @@
         "16": 2,
         "17": 2,
         "18": 1
-      }
+      },
+      "hidden": [
+        "8",
+        "10",
+        "11"
+      ],
+      "options": {}
     },
     {
       "id": "1",
@@ -1414,6 +1688,49 @@
         "16": 2,
         "17": 2,
         "18": 1
+      },
+      "hidden": [
+        "8"
+      ],
+      "options": {
+        "10": {
+          "1": {
+            "label": "Succès"
+          },
+          "2": {
+            "label": "Succès"
+          },
+          "3": {
+            "label": "Succès"
+          },
+          "4": {
+            "label": "Succès"
+          },
+          "5": {
+            "label": "Succès"
+          },
+          "6": {
+            "label": "Succès"
+          },
+          "7": {
+            "label": "Succès"
+          },
+          "8": {
+            "label": "Succès"
+          },
+          "9": {
+            "label": "Succès"
+          },
+          "10": {
+            "label": "Succès"
+          },
+          "11": {
+            "label": "Succès"
+          },
+          "12": {
+            "label": "Indéterminé"
+          }
+        }
       }
     },
     {
@@ -1458,6 +1775,49 @@
         "16": 2,
         "17": 2,
         "18": 1
+      },
+      "hidden": [
+        "8"
+      ],
+      "options": {
+        "10": {
+          "1": {
+            "label": "Succès"
+          },
+          "2": {
+            "label": "Succès"
+          },
+          "3": {
+            "label": "Succès"
+          },
+          "4": {
+            "label": "Succès"
+          },
+          "5": {
+            "label": "Succès"
+          },
+          "6": {
+            "label": "Succès"
+          },
+          "7": {
+            "label": "Succès"
+          },
+          "8": {
+            "label": "Succès"
+          },
+          "9": {
+            "label": "Succès"
+          },
+          "10": {
+            "label": "Succès"
+          },
+          "11": {
+            "label": "Succès"
+          },
+          "12": {
+            "label": "Indéterminé"
+          }
+        }
       }
     },
     {
@@ -1502,6 +1862,49 @@
         "16": 2,
         "17": 2,
         "18": 1
+      },
+      "hidden": [
+        "8"
+      ],
+      "options": {
+        "10": {
+          "1": {
+            "label": "Succès"
+          },
+          "2": {
+            "label": "Succès"
+          },
+          "3": {
+            "label": "Succès"
+          },
+          "4": {
+            "label": "Succès"
+          },
+          "5": {
+            "label": "Succès"
+          },
+          "6": {
+            "label": "Succès"
+          },
+          "7": {
+            "label": "Succès"
+          },
+          "8": {
+            "label": "Succès"
+          },
+          "9": {
+            "label": "Succès"
+          },
+          "10": {
+            "label": "Succès"
+          },
+          "11": {
+            "label": "Succès"
+          },
+          "12": {
+            "label": "Indéterminé"
+          }
+        }
       }
     }
   ],
@@ -3702,5 +4105,11 @@
         "8": 12
       }
     }
+  ],
+  "interactionSources": [
+    "OBJS.DBF",
+    "OBJSZONE.DBF",
+    "ETATZONE.DBF",
+    "ETATINI.DBF"
   ]
 }

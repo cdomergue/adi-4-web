@@ -21,21 +21,45 @@
           "value": 1,
           "label": "Bassin rudimentaire",
           "visual": "08D10001",
-          "audio": null
+          "audio": null,
+          "zones": [
+            [
+              26,
+              8,
+              58,
+              34
+            ]
+          ]
         },
         {
           "id": 2,
           "value": 2,
           "label": "Bassin sophistiqué",
           "visual": "08D10002",
-          "audio": null
+          "audio": null,
+          "zones": [
+            [
+              13,
+              51,
+              79,
+              45
+            ]
+          ]
         },
         {
           "id": 3,
           "value": 3,
           "label": "Bassin spacieux",
           "visual": "08D10003",
-          "audio": null
+          "audio": null,
+          "zones": [
+            [
+              10,
+              104,
+              85,
+              55
+            ]
+          ]
         }
       ],
       "hints": {
@@ -63,21 +87,45 @@
           "value": 1,
           "label": "Oxygénation de l'eau faible",
           "visual": "08D20001",
-          "audio": null
+          "audio": null,
+          "zones": [
+            [
+              23,
+              219,
+              36,
+              21
+            ]
+          ]
         },
         {
           "id": 2,
           "value": 2,
           "label": "Oxygénation de l'eau moyenne",
           "visual": "08D20002",
-          "audio": null
+          "audio": null,
+          "zones": [
+            [
+              59,
+              186,
+              19,
+              38
+            ]
+          ]
         },
         {
           "id": 3,
           "value": 3,
           "label": "Oxygénation de l'eau importante",
           "visual": "08D20003",
-          "audio": null
+          "audio": null,
+          "zones": [
+            [
+              75,
+              221,
+              36,
+              19
+            ]
+          ]
         }
       ],
       "hints": {
@@ -105,28 +153,60 @@
           "value": 1,
           "label": "Une dose d'aliments",
           "visual": "08D30001",
-          "audio": null
+          "audio": null,
+          "zones": [
+            [
+              446,
+              425,
+              36,
+              41
+            ]
+          ]
         },
         {
           "id": 2,
           "value": 2,
           "label": "Deux doses d'aliments",
           "visual": "08D30002",
-          "audio": null
+          "audio": null,
+          "zones": [
+            [
+              488,
+              424,
+              31,
+              44
+            ]
+          ]
         },
         {
           "id": 3,
           "value": 3,
           "label": "Trois doses d'aliments",
           "visual": "08D30003",
-          "audio": null
+          "audio": null,
+          "zones": [
+            [
+              526,
+              425,
+              31,
+              42
+            ]
+          ]
         },
         {
           "id": 4,
           "value": 4,
           "label": "Quatre doses d'aliments",
           "visual": "08D30004",
-          "audio": null
+          "audio": null,
+          "zones": [
+            [
+              560,
+              423,
+              30,
+              45
+            ]
+          ]
         }
       ],
       "hints": {
@@ -154,21 +234,45 @@
           "value": 1,
           "label": "",
           "visual": "08D40001",
-          "audio": null
+          "audio": null,
+          "zones": [
+            [
+              149,
+              431,
+              46,
+              42
+            ]
+          ]
         },
         {
           "id": 2,
           "value": 2,
           "label": "",
           "visual": "08D40002",
-          "audio": null
+          "audio": null,
+          "zones": [
+            [
+              201,
+              431,
+              47,
+              41
+            ]
+          ]
         },
         {
           "id": 3,
           "value": 3,
           "label": "",
           "visual": "08D40003",
-          "audio": null
+          "audio": null,
+          "zones": [
+            [
+              252,
+              433,
+              42,
+              37
+            ]
+          ]
         }
       ],
       "hints": {
@@ -196,28 +300,60 @@
           "value": 1,
           "label": "",
           "visual": null,
-          "audio": null
+          "audio": null,
+          "zones": [
+            [
+              81,
+              421,
+              35,
+              53
+            ]
+          ]
         },
         {
           "id": 2,
           "value": 2,
           "label": "",
           "visual": "08D50002",
-          "audio": null
+          "audio": null,
+          "zones": [
+            [
+              27,
+              318,
+              54,
+              50
+            ]
+          ]
         },
         {
           "id": 3,
           "value": 3,
           "label": "",
           "visual": "08D50003",
-          "audio": null
+          "audio": null,
+          "zones": [
+            [
+              11,
+              371,
+              87,
+              48
+            ]
+          ]
         },
         {
           "id": 4,
           "value": 4,
           "label": "",
           "visual": "08D50004",
-          "audio": null
+          "audio": null,
+          "zones": [
+            [
+              35,
+              420,
+              40,
+              52
+            ]
+          ]
         }
       ],
       "hints": {
@@ -245,35 +381,40 @@
           "value": 1,
           "label": "Très peu de poissons",
           "visual": "VIDE_DF",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 2,
           "value": 2,
           "label": "Peu de poissons",
           "visual": "VIDE_DF",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 3,
           "value": 3,
           "label": "Quantité moyenne de poissons",
           "visual": "VIDE_DF",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 4,
           "value": 4,
           "label": "Beaucoup de poissons",
           "visual": "VIDE_DF",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 5,
           "value": 5,
           "label": "Quantité maximum de poissons",
           "visual": "VIDE_DF",
-          "audio": null
+          "audio": null,
+          "zones": []
         }
       ],
       "hints": {
@@ -301,63 +442,72 @@
           "value": 1,
           "label": "Poissons de petite taille",
           "visual": "08D70001",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 2,
           "value": 2,
           "label": "Poissons de taille moyenne",
           "visual": "08D70002",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 3,
           "value": 3,
           "label": "Gros poissons en bonne santé",
           "visual": "08D70003",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 4,
           "value": 4,
           "label": "Poissons petits et malades",
           "visual": "08D70004",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 5,
           "value": 5,
           "label": "Poissons de taille moyenne malades",
           "visual": "08D70005",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 6,
           "value": 6,
           "label": "Gros poissons malades",
           "visual": "08D70006",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 7,
           "value": 7,
           "label": "Poissons petits et très malades",
           "visual": "08D70007",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 8,
           "value": 8,
           "label": "Poissons de taille moyenne très malades",
           "visual": "08D70008",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 9,
           "value": 9,
           "label": "Gros poissons très malades",
           "visual": "08D70009",
-          "audio": null
+          "audio": null,
+          "zones": []
         }
       ],
       "hints": {
@@ -385,14 +535,16 @@
           "value": 1,
           "label": "Eau sans algues",
           "visual": "VIDE_DF",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 2,
           "value": 2,
           "label": "Eau infestée par les algues",
           "visual": "08S80002",
-          "audio": null
+          "audio": null,
+          "zones": []
         }
       ],
       "hints": {
@@ -420,14 +572,16 @@
           "value": 1,
           "label": "",
           "visual": "VIDE_DF",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 2,
           "value": 2,
           "label": "",
           "visual": "VIDE_DF",
-          "audio": null
+          "audio": null,
+          "zones": []
         }
       ],
       "hints": {
@@ -455,21 +609,24 @@
           "value": 1,
           "label": "",
           "visual": "08DA0001",
-          "audio": "/game/station/08WA000X.wav"
+          "audio": "/game/station/08WA000X.wav",
+          "zones": []
         },
         {
           "id": 2,
           "value": 2,
           "label": "",
           "visual": "08DA0002",
-          "audio": "/game/station/08WA000X.wav"
+          "audio": "/game/station/08WA000X.wav",
+          "zones": []
         },
         {
           "id": 3,
           "value": 3,
           "label": "",
           "visual": "08DA0003",
-          "audio": "/game/station/08WA000X.wav"
+          "audio": "/game/station/08WA000X.wav",
+          "zones": []
         }
       ],
       "hints": {
@@ -497,21 +654,24 @@
           "value": 1,
           "label": "",
           "visual": "08DB0001",
-          "audio": "/game/station/08WB000X.wav"
+          "audio": "/game/station/08WB000X.wav",
+          "zones": []
         },
         {
           "id": 2,
           "value": 2,
           "label": "",
           "visual": "08DB0002",
-          "audio": "/game/station/08WB000X.wav"
+          "audio": "/game/station/08WB000X.wav",
+          "zones": []
         },
         {
           "id": 3,
           "value": 3,
           "label": "",
           "visual": "08DB0003",
-          "audio": "/game/station/08WB000X.wav"
+          "audio": "/game/station/08WB000X.wav",
+          "zones": []
         }
       ],
       "hints": {
@@ -539,28 +699,32 @@
           "value": 1,
           "label": "",
           "visual": "08DC0001",
-          "audio": "/game/station/08WC000X.wav"
+          "audio": "/game/station/08WC000X.wav",
+          "zones": []
         },
         {
           "id": 2,
           "value": 2,
           "label": "",
           "visual": "08DC0002",
-          "audio": "/game/station/08WC000X.wav"
+          "audio": "/game/station/08WC000X.wav",
+          "zones": []
         },
         {
           "id": 3,
           "value": 3,
           "label": "",
           "visual": "08DC0003",
-          "audio": "/game/station/08WC000X.wav"
+          "audio": "/game/station/08WC000X.wav",
+          "zones": []
         },
         {
           "id": 4,
           "value": 4,
           "label": "",
           "visual": "08DC0004",
-          "audio": "/game/station/08WC000X.wav"
+          "audio": "/game/station/08WC000X.wav",
+          "zones": []
         }
       ],
       "hints": {
@@ -588,21 +752,24 @@
           "value": 1,
           "label": "",
           "visual": "VIDE_DF",
-          "audio": null
+          "audio": null,
+          "zones": []
         },
         {
           "id": 2,
           "value": 2,
           "label": "",
           "visual": "08DD0002",
-          "audio": "/game/station/08WD000X.wav"
+          "audio": "/game/station/08WD000X.wav",
+          "zones": []
         },
         {
           "id": 3,
           "value": 3,
           "label": "",
           "visual": "08DD0003",
-          "audio": "/game/station/08WD000X.wav"
+          "audio": "/game/station/08WD000X.wav",
+          "zones": []
         }
       ],
       "hints": {
@@ -640,7 +807,12 @@
         "11": 1,
         "12": 1,
         "13": 1
-      }
+      },
+      "hidden": [
+        "4",
+        "5"
+      ],
+      "options": {}
     },
     {
       "id": "1",
@@ -668,6 +840,36 @@
         "11": 1,
         "12": 1,
         "13": 1
+      },
+      "hidden": [],
+      "options": {
+        "4": {
+          "1": {
+            "label": "Pas de soins apportés aux poissons"
+          },
+          "2": {
+            "label": "Apport d'antibiotiques"
+          },
+          "3": {
+            "label": "Apport de produits anti-algues"
+          }
+        },
+        "5": {
+          "1": {
+            "label": "Aucune"
+          },
+          "3": {
+            "label": "Infection par une maladie parasitaire"
+          }
+        },
+        "9": {
+          "1": {
+            "label": "Eau non polluée"
+          },
+          "2": {
+            "label": "Eau polluée"
+          }
+        }
       }
     },
     {
@@ -696,6 +898,36 @@
         "11": 1,
         "12": 1,
         "13": 1
+      },
+      "hidden": [],
+      "options": {
+        "4": {
+          "1": {
+            "label": "Pas de soins apportés aux poissons"
+          },
+          "2": {
+            "label": "Apport d'antibiotiques"
+          },
+          "3": {
+            "label": "Apport de produits anti-algues"
+          }
+        },
+        "5": {
+          "1": {
+            "label": "Aucune"
+          },
+          "4": {
+            "label": "Pollution accidentelle de l'eau"
+          }
+        },
+        "9": {
+          "1": {
+            "label": "Eau non polluée"
+          },
+          "2": {
+            "label": "Eau polluée"
+          }
+        }
       }
     },
     {
@@ -724,8 +956,44 @@
         "11": 1,
         "12": 1,
         "13": 1
+      },
+      "hidden": [],
+      "options": {
+        "4": {
+          "1": {
+            "label": "Pas de soins apportés aux poissons"
+          },
+          "2": {
+            "label": "Apport d'antibiotiques"
+          },
+          "3": {
+            "label": "Apport de produits anti-algues"
+          }
+        },
+        "5": {
+          "1": {
+            "label": "Aucune"
+          },
+          "2": {
+            "label": "Forte canicule"
+          }
+        },
+        "9": {
+          "1": {
+            "label": "Eau non polluée"
+          },
+          "2": {
+            "label": "Eau polluée"
+          }
+        }
       }
     }
   ],
-  "lookup": []
+  "lookup": [],
+  "interactionSources": [
+    "OBJS.DBF",
+    "OBJSZONE.DBF",
+    "ETATZONE.DBF",
+    "ETATINI.DBF"
+  ]
 }
