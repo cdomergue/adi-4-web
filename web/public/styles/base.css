@@ -98,18 +98,11 @@ main:focus {
   align-items: center;
   gap: 18px;
 }
-.logo {
-  font-weight: 900;
-  font-style: italic;
-  letter-spacing: -4px;
-  font-size: 41px;
-  color: #e8bf73;
-}
-.logo > span {
-  font-size: 22px;
-  letter-spacing: -1px;
-  margin-left: 5px;
-  color: var(--cream);
+.brand-logo {
+  display: block;
+  width: 180px;
+  height: auto;
+  flex-shrink: 0;
 }
 .brand-caption {
   max-width: 95px;
@@ -958,8 +951,8 @@ dialog::backdrop {
     padding: 0 20px;
     gap: 10px;
   }
-  .logo {
-    font-size: 33px;
+  .brand-logo {
+    width: 105px;
   }
   nav {
     gap: 16px;
