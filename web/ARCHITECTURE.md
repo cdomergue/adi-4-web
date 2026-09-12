@@ -107,3 +107,45 @@ trajectoires AD4 et les messages français. Le jeu web utilise uniquement ces ex
 Les originaux et Python sont nécessaires à la régénération, pas à la lecture.
 Le banc d’essai temporaire n’entre pas dans le build. Voir `reports/chambre-scenarios-natifs.md`
 pour les preuves et les limites du portage.
+
+## Planète Internet
+
+La route `#internet` et le bouton Internet de la chambre utilisent
+`features/internet/view.js`. Le lecteur est chargé dans `/internet.html` :
+`internet.js` importe `features/internet/player.js`, et `internet.css` importe
+`styles/internet.css`. Ce document dédié permet une CSP limitant les ressources
+au même site et interdisant les vraies soumissions de formulaires.
+
+`features/internet/engine.js` ne dépend ni du DOM ni du réseau. Il gère les textes,
+chapitres, votes, correspondants fictifs, messages, réservations, résultats, points
+et réglages dans `adi4-internet-local-v1`. Les noms de personnages partagent ce
+même dossier ; aucune des anciennes clés de sauvegarde n’est modifiée.
+`player.js` rend les écrans, intercepte les formulaires, lit les médias et
+coordonne les animations d’attente. Les adresses historiques restent du texte.
+
+L’iframe utilise `allow-scripts`, `allow-same-origin`, `allow-downloads`,
+`allow-modals` et `allow-forms`. Ce dernier autorise les événements `submit`,
+alors que `preventDefault()` et `form-action 'none'` empêchent un envoi réel.
+Le parent vérifie l’origine et la fenêtre émettrice du message de sortie ; un
+`ResizeObserver` ajuste la hauteur du cadre au contenu. Les observateurs et
+écouteurs sont retirés lors de `sceneleave`/`pagehide`. L’iframe ne constitue pas
+une isolation de sécurité vis-à-vis du parent de même origine.
+
+`prepare_internet.py` produit `game/internet/catalog.json`, `lessons.json`,
+`media.json`, `ambient.json` et les exports WebP/FLAC. Le manifeste conserve les
+empreintes des sources/exports et les formats refusés. `inspect_internet.py`
+produit les preuves de désassemblage ; `ghidra/InternetProtocol.java` analyse le
+transport original sans le faire fonctionner. Les sources originales sont
+nécessaires à la régénération, pas à la lecture du jeu web.
+
+Le build versionne également les points d’entrée de `internet.html` sous
+`/releases/<empreinte>/`. Les quatre JSON et médias restent sous `/game/internet/`.
+Le lecteur affiche dans ses explications un audit des ressources de son document
+et des violations CSP. Il ne mesure pas le trafic des autres onglets ou du système.
+
+Les tests Internet couvrent les règles et la persistance, le catalogue, les
+réponses extraites, les empreintes et les restrictions réseau. Les tests Python
+couvrent aussi la lecture des blocs de texte et un exercice original. Voir
+[le rapport Internet](../reports/internet-local.md) pour les parcours navigateur,
+les captures, la régénération et les limites : 218 exercices pris en charge sur
+2 354 modules, contenus serveur remplacés ou absents, formats encore non décodés.

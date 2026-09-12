@@ -19,6 +19,10 @@ const html = await releaseAssets(
   await readFile(path.join(here, 'index.html'), 'utf8'),
 );
 await writeFile(path.join(here, 'dist/index.html'), html);
+await writeFile(path.join(here, 'dist/internet.html'), await releaseAssets(
+  path.join(here, 'public'), path.join(here, 'dist'),
+  await readFile(path.join(here, 'public/internet.html'), 'utf8'),
+));
 await writeFile(
   path.join(here, 'dist/_headers'),
   '/*\n  X-Content-Type-Options: nosniff\n  Referrer-Policy: same-origin\n',

@@ -5,7 +5,7 @@ const actions = [
     'internet',
     'Internet',
     'BARINTER',
-    'Les classes virtuelles et les services Internet d’époque ne sont pas disponibles dans cette version locale.',
+    'Découvre la planète Internet d’Adi, avec des correspondants et des services simulés localement.',
   ],
   ['science', 'Les matières', 'BARAPPLI', 'Ouvre l’application Sciences et sa station spatiale.'],
   ['games', 'Les jeux', 'BARJEUX', 'Ouvre les jeux de la chambre d’Adi.'],
@@ -211,6 +211,7 @@ export async function renderRoom(main, info) {
       }
       if (id === 'science') location.hash = 'scene/station';
       else if (id === 'games') location.hash = 'games';
+      else if (id === 'internet') location.hash = 'internet';
       else if (id === 'exit') location.hash = 'welcome';
       else if (id === 'animations') {
         if (!back.hidden) back.click();

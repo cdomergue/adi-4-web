@@ -9,6 +9,7 @@ import { renderSokoban } from '../features/games/sokoban/view.js';
 import { renderWGob3 } from '../features/games/wgob3/view.js';
 import { renderMrMatt } from '../features/games/mrmatt/view.js';
 import { renderWelcome } from './welcome.js';
+import { renderInternet } from '../features/internet/view.js';
 
 export function createRouter({ main, info, toast, catalog, library }) {
   return function route() {
@@ -75,6 +76,9 @@ export function createRouter({ main, info, toast, catalog, library }) {
       active = 'room';
     } else if (hash === 'game/mrmatt1') {
       renderMrMatt(main);
+      active = 'room';
+    } else if (hash === 'internet') {
+      renderInternet(main);
       active = 'room';
     } else if (hash === 'welcome') {
       renderWelcome(main);
