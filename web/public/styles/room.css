@@ -1,0 +1,175 @@
+.room-frame {
+  overflow: hidden;
+}
+.room-toolbar-edge {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 7%;
+  z-index: 2;
+}
+.room-toolbar {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 12.5%;
+  gap: 0;
+  align-items: stretch;
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  z-index: 3;
+  transform: translateY(105%);
+  transition: transform 0.16s ease;
+}
+.room-toolbar-edge:hover + .room-toolbar,
+.room-toolbar:hover,
+.room-toolbar:focus-within,
+.toolbar-pinned .room-toolbar {
+  transform: translateY(0);
+}
+.room-toolbar button {
+  padding: 0;
+  border: 0;
+  background: #073b49;
+  position: relative;
+  cursor: pointer;
+  min-width: 0;
+}
+.room-toolbar img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 4/3;
+}
+.room-toolbar button span {
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 5px;
+  background: #081525;
+  color: white;
+  white-space: nowrap;
+  font-size: 12px;
+  opacity: 0;
+  pointer-events: none;
+}
+.room-toolbar button:hover span,
+.room-toolbar button:focus-visible span {
+  opacity: 1;
+}
+.room-toolbar button:focus-visible {
+  outline: 3px solid #fff;
+  outline-offset: -3px;
+}
+.room-toolbar button[aria-pressed='true'] {
+  outline: 3px solid #f4c568;
+  outline-offset: -3px;
+}
+@media (hover: none) {
+  .room-toolbar {
+    transform: translateY(0);
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .room-toolbar {
+    transition: none;
+  }
+}
+.sokoban-board {
+  display: block;
+  width: 100%;
+  max-width: 936px;
+  height: auto;
+  background: #000;
+  image-rendering: pixelated;
+  margin: 24px auto;
+  border: 2px solid #31545d;
+}
+.sokoban-board:focus {
+  outline: 3px solid #e8bf73;
+  outline-offset: 3px;
+}
+.sokoban-pad {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.sokoban-pad button {
+  background: #17333d;
+  border: 1px solid #73939b;
+  border-radius: 8px;
+  width: 54px;
+  height: 48px;
+  font-size: 26px;
+}
+#sokoban select {
+  padding: 10px;
+  background: #12292e;
+  color: white;
+}
+#soko-counters,
+#soko-status {
+  text-align: center;
+  margin-top: 18px;
+}
+#games h2,
+.encyclopedia-card h2 {
+  font-size: 18px;
+  padding: 15px 12px 0;
+}
+.encyclopedia-card > p {
+  padding: 0 12px;
+}
+[hidden] {
+  display: none !important;
+}
+.scene-frame > img.room-layer {
+  position: absolute;
+  object-fit: fill;
+  pointer-events: none;
+}
+.room-animation {
+  z-index: 1;
+}
+.room-actor {
+  z-index: 2;
+}
+.room-objects {
+  position: absolute;
+  inset: 0;
+  z-index: 3;
+  pointer-events: none;
+}
+.room-object {
+  position: absolute;
+  pointer-events: auto;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  border-radius: 12px;
+}
+.room-object:hover,
+.room-object:focus-visible,
+.room-outlines .room-object {
+  outline: 2px solid #ffdf88;
+  outline-offset: -2px;
+  background: #ffe3a512;
+}
+.room-frame .room-toolbar-edge {
+  z-index: 4;
+}
+.room-frame .room-toolbar {
+  z-index: 5;
+}
+.room-controls {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 12px;
+  margin: 12px 0;
+}
+.room-controls label {
+  font-size: 13px;
+}

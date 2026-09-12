@@ -3,6 +3,7 @@
 Déploiement AWS sur `private-deployment` : [commande réutilisable et configuration](../deploy/README.md).
 
 Application statique sans dépendances npm, avec un serveur Node.js local.
+Pour modifier le code : [architecture, emplacement des modules et validations](ARCHITECTURE.md).
 Le téléchargement du squelette Sites n'a pas abouti dans cette session ; aucun
 projet Sites ou service cloud n'a été créé.
 
