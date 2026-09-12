@@ -397,6 +397,22 @@ footer button {
 footer button:hover {
   text-decoration: underline;
 }
+.footer-actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 8px 20px;
+}
+.credits-team {
+  margin: 20px 0;
+}
+.credits-team img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
 .loading {
   padding: 100px 0;
   color: var(--muted);
