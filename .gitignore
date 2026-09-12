@@ -21,6 +21,7 @@ __pycache__/
 !/web/public/game/station/
 /web/public/game/station/*
 !/web/public/game/station/sim-*.json
+!/web/public/game/station/dairy/
 /web/public/remasters/
 /web/node_modules/
 /runtime/

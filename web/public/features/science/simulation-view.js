@@ -55,6 +55,12 @@ export async function renderExperiment(main, definition, { sector, sectorName })
   const status = root.querySelector('#sim-status');
   const pointer = root.querySelector('#sim-pointer');
   let currentCase, currentData, controls, targets, selected, panelOpener;
+  const playback = definition.createPlayback?.({
+    frame, audio, changed: () => update(),
+    announce: (message) => { status.textContent = message; pointer.textContent = message; },
+    powerOff: () => { selected['9'] = 1; },
+    soundEnabled: () => root.querySelector('#sim-sound').checked,
+  });
 
   function closePanel(restoreFocus = true) {
     panel.hidden = true;
@@ -101,7 +107,7 @@ export async function renderExperiment(main, definition, { sector, sectorName })
       if (!asset) return;
       keep.add(key);
       let img = layers.querySelector(`[data-layer="${key}"]`);
-      const animate = !isBackground && (Boolean(img) || replay);
+      const animate = !playback && !isBackground && (Boolean(img) || replay);
       if (replay && animate && img) { img.remove(); img = null; }
       if (!img) {
         img = document.createElement('img');
@@ -120,6 +126,7 @@ export async function renderExperiment(main, definition, { sector, sectorName })
     }
     add(assets[data.background], 'background', true);
     for (const object of [...currentData.objects].sort((a, b) => a.plan - b.plan)) {
+      if (playback && object.type === 1) continue;
       if (definition.isVisible && !definition.isVisible(object, currentCase)) continue;
       if (object.type === 1 && !result.resolved.includes(object.id)) continue;
       const option = object.options.find((item) => item.id === result.states[object.id]);
@@ -130,14 +137,16 @@ export async function renderExperiment(main, definition, { sector, sectorName })
     });
     root.querySelectorAll('[data-input]').forEach((input) => {
       input.value = selected[input.dataset.input];
+      input.disabled = Boolean(playback?.busy && input.dataset.input !== '9');
     });
     root.querySelectorAll('[data-target]').forEach((button) => {
       const target = targets[button.dataset.target];
+      button.disabled = Boolean(playback?.busy && target.object !== '9');
       if (target.action === 'select' || target.action === 'toggle') {
         button.setAttribute('aria-pressed', String(selected[target.object] === target.state));
       }
     });
-    root.querySelector('#sim-observations').innerHTML = currentData.objects
+    root.querySelector('#sim-observations').innerHTML = (playback && !playback.complete ? [] : currentData.objects)
       .filter((object) => object.type === 1 && result.resolved.includes(object.id))
       .map((object) => {
         const option = object.options.find((item) => item.id === result.states[object.id]);
@@ -150,9 +159,11 @@ export async function renderExperiment(main, definition, { sector, sectorName })
   }
 
   function set(objectId, value, replay = false) {
+    if (playback?.busy && objectId !== '9') return;
     const object = controls.find((item) => item.id === objectId);
     const option = object?.options.find((item) => item.id === value);
     if (!option) return;
+    playback?.reset();
     selected[objectId] = value;
     update(replay);
     const actual = object.options.find((item) => item.id === selected[objectId]);
@@ -161,15 +172,17 @@ export async function renderExperiment(main, definition, { sector, sectorName })
     pointer.textContent = status.textContent;
     audio.pause();
     root.querySelector('#sim-audio-status').textContent = '';
-    if (root.querySelector('#sim-sound').checked && option.audio) {
+    if (!playback && root.querySelector('#sim-sound').checked && option.audio) {
       audio.src = option.audio;
       audio.play().catch(() => {
         if (root.isConnected) root.querySelector('#sim-audio-status').textContent = 'La voix n’a pas pu être lue.';
       });
     }
+    if (playback && objectId === '9' && value === 2) playback.start(currentData, selected);
   }
 
   function reset() {
+    playback?.reset();
     audio.pause();
     closePanel(false);
     currentCase = data.cases.find((item) => item.id === root.querySelector('#sim-case').value);
@@ -226,6 +239,10 @@ export async function renderExperiment(main, definition, { sector, sectorName })
   };
   root.querySelector('#sim-form').onsubmit = (event) => {
     event.preventDefault();
+    if (playback && !playback.complete) {
+      status.textContent = playback.busy ? 'La fabrication est en cours…' : 'Lance Power pour fabriquer le laitage avant de vérifier le défi.';
+      return;
+    }
     const result = update();
     const known = Object.fromEntries(result.resolved.map((key) => [key, result.states[key]]));
     const solutions = currentCase.solutions.map((solution) => Object.fromEntries(
@@ -236,6 +253,8 @@ export async function renderExperiment(main, definition, { sector, sectorName })
         ? 'Bravo ! Tes réglages correspondent à une solution originale.'
         : 'Cette combinaison ne valide pas le défi. Consulte les conseils et essaie d’autres réglages.';
   };
-  main.addEventListener('sceneleave', () => { audio.pause(); audio.removeAttribute('src'); }, { once: true });
+  main.addEventListener('sceneleave', () => {
+    playback?.dispose(); audio.pause(); audio.removeAttribute('src');
+  }, { once: true });
   reset();
 }

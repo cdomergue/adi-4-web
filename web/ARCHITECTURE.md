@@ -66,6 +66,14 @@ Les calculs de `features/science/generated/original-calculations.js` restent gé
 
 ## Construction et cache
 
+La fabrication des laitages utilise `simulations/dairy-sequence.js` pour l’ordre
+des opérations extrait de SEQS et `simulations/dairy-player.js` pour leur lecture
+séquentielle après Power. Le lecteur conserve les images finales entre les étapes,
+restaure le décor derrière la réaction transparente de la souris et annule la
+séquence à l’arrêt ou à la sortie. `scripts/prepare_dairy.py` régénère les atlas
+VMD fournis dans `game/station/dairy/` ; les sources ne sont pas nécessaires au jeu.
+
+
 `applicationFiles` inventorie les fichiers JS/CSS à la racine de `public/` et récursivement dans `application/`, `features/`, `shared/` et `styles/`. Les données du jeu, les ressources tierces et le lecteur WGOB3 autonome suivent leurs chemins et manifestes existants.
 
 Le build copie cet ensemble sous `/releases/<empreinte>/` en conservant les dossiers. Tous les imports applicatifs sont relatifs : changer un module imbriqué ou un style importé renouvelle également l’adresse du point d’entrée. Les chemins absolus `/game/...`, `/vendor/...` et `/wgob3/player.html` restent stables. Les tests vérifient la résolution de chaque import et le renouvellement du cache lors d’un changement profond.
