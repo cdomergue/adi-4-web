@@ -23,6 +23,10 @@ web/
         activities.js             menus natifs de la caisse et de la radio
         games.js                  point d’entrée de la caisse
         idle.js                   gestes d’attente et interruption des séquences
+        native-engine.js          scénarios originaux, postures, pauses et sélection
+        native-view.js            atlas VMD, voix FLAC, bouches BCH et trajectoires AD4
+        generated/original-room.js bytecode de la chambre compilé sans eval
+        ambient.js                ancien prototype, remplacé dans la chambre
       science/
         scenes.js                 décors et zones cliquables
         simulations.js            interfaces des simulations
@@ -88,3 +92,18 @@ Validation locale : contrôle syntaxique, suite complète et build réussis. Les
 Parcours vérifiés dans le navigateur sur le build local : chambre, radio et lecture, recherche de cours, carnet après rechargement, marquage lu, définition liée, complément illustré, historique des pages, ouverture des trois jeux, commandes de la serre, simulation des laitages et recherche de l’encyclopédie. Le carnet utilisé pour le test a été remis dans son état initial. Aucune erreur console n’a été relevée pendant ces parcours.
 
 Les tests ne signifient pas que les fonctionnalités encore incomplètes du portage original sont achevées. Cette modification conserve leur état actuel. Aucun déploiement n’est effectué avec ce refactoring.
+
+## Scénarios de la chambre
+
+`compile_room_scripts.py` traduit les routines CCONT et les sélecteurs EDIINTRO/LIBAPPEL,
+ainsi que les choix de voix, décors et textes de LIBADI/IMAGE/LANGUE. `native-engine.js`
+garde les variables et les historiques ; il reçoit les fins des pistes audio/vidéo.
+`native-view.js` conserve les rectangles VMD entre deux clips, lit les atlas sans
+interpoler les pixels, et coordonne les voix et les bouches mobiles. Les scénarios
+n’utilisent plus les temporisations inventées de l’ancien `ambient.js`.
+
+`prepare_room_native.py` exporte les médias dans `game/room/native/`, y compris les
+trajectoires AD4 et les messages français. Le jeu web utilise uniquement ces exports.
+Les originaux et Python sont nécessaires à la régénération, pas à la lecture.
+Le banc d’essai temporaire n’entre pas dans le build. Voir `reports/chambre-scenarios-natifs.md`
+pour les preuves et les limites du portage.

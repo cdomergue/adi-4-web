@@ -173,3 +173,15 @@
 .room-controls label {
   font-size: 13px;
 }
+
+.room-native {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+.room-native-object { z-index: 1; }
+.room-native-actor { z-index: 2; }
+.room-native-mouth { z-index: 2; }
+.room-enable-sound { margin-top: 8px; }

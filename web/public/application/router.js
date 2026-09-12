@@ -12,6 +12,7 @@ import { renderWelcome } from './welcome.js';
 
 export function createRouter({ main, info, toast, catalog, library }) {
   return function route() {
+    main.dispatchEvent(new Event('sceneleave'));
     main.querySelectorAll('audio,video').forEach((media) => media.pause());
     const hash = location.hash.slice(1) || 'welcome';
     let active = hash;

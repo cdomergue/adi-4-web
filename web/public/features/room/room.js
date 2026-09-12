@@ -1,4 +1,5 @@
 import { startRoomIdle } from './idle.js';
+import { startNativeRoom } from './native-view.js';
 const actions = [
   [
     'internet',
@@ -38,7 +39,7 @@ export async function renderRoom(main, info) {
   <div class="room-controls"><button class="button secondary" id="room-back" hidden>Revenir dans la chambre</button><button class="button secondary" id="room-detail" hidden>Voir de près</button><button class="button secondary" id="room-stop" hidden>Arrêter l’animation</button><label><input type="checkbox" id="room-outline"> Repérer les objets</label></div>
   <audio id="room-audio" preload="none"></audio>
   <nav class="scene-links"><a class="button secondary" href="#scene/station">Les matières →</a><a class="button secondary" href="#games">Les jeux →</a></nav>
-  <p class="development-note">Décor, gros plans et animations d’origine. Les déplacements d’Adi et les enchaînements complets restent à reconstruire.</p></section>`;
+  <p class="development-note">Décor, gros plans et animations d’origine. Les réactions et déplacements suivent les scénarios extraits du jeu.</p></section>`;
   const root = main.firstElementChild,
     frame = root.querySelector('.room-frame'),
     hint = root.querySelector('#room-hint');
@@ -56,6 +57,10 @@ export async function renderRoom(main, info) {
     serial = 0,
     selected = null,
     idleActor,
+    ambient = { reset() {}, stop() {} },
+    nativeReady = false,
+    leaving = false,
+    explicitPlaying = false,
     stopIdle = () => {};
   const position = (image, clip) => {
     image.style.left = `${clip.x / 6.4}%`;
@@ -66,9 +71,20 @@ export async function renderRoom(main, info) {
   const idleBase = '/game/room/activities/crate-adi.webp';
   const resumeIdle = () => {
     stopIdle();
-    if (idleActor && !actor.hidden) stopIdle = startRoomIdle(actor, idleActor, idleBase);
+    if (!nativeReady && !leaving && idleActor && !actor.hidden) stopIdle = startRoomIdle(actor, idleActor, idleBase);
   };
+  main.addEventListener('sceneleave', () => {
+    leaving = true;
+    serial++;
+    clearTimeout(timer);
+    ambient.stop();
+    stopIdle();
+    actor.onload = actor.onerror = animation.onload = animation.onerror = null;
+    audio.pause();
+  }, { once: true });
   const reset = () => {
+    ambient.reset();
+    explicitPlaying = false;
     serial++;
     clearTimeout(timer);
     stopIdle();
@@ -92,6 +108,7 @@ export async function renderRoom(main, info) {
       return;
     }
     stopIdle();
+    explicitPlaying = true;
     const target = name === 'ADIPZD12' ? actor : animation,
       token = serial;
     position(target, clip);
@@ -152,7 +169,7 @@ export async function renderRoom(main, info) {
             ? `${object.label} : clique pour ouvrir son menu.`
             : object
               ? `${object.label} : clique pour lancer une animation, puis « Voir de près » pour explorer son décor.`
-              : 'Clique sur Adi pour le voir s’animer.';
+              : 'Clique sur Adi pour l’écouter raconter une blague.';
           return;
         }
         if (object?.route) {
@@ -163,6 +180,7 @@ export async function renderRoom(main, info) {
         selected = object || null;
         detail.hidden = !selected;
         hint.textContent = object ? object.label : 'Adi';
+        if (!object && ambient.speak?.()) return;
         play(object?.clip || 'ADIPZD12');
       }),
   );
@@ -203,9 +221,12 @@ export async function renderRoom(main, info) {
     };
   });
   try {
-    const [response, idleResponse] = await Promise.all([
+    const [response, idleResponse, nativeResponse, textResponse, trajectoryResponse] = await Promise.all([
       fetch('/game/room/clips.json'),
       fetch('/game/room/activities/catalog.json'),
+      fetch('/game/room/native/catalog.json').catch(() => null),
+      fetch('/game/room/native/texts.json').catch(() => null),
+      fetch('/game/room/native/trajectories.json').catch(() => null),
     ]);
     if (!response.ok) throw new Error('Room assets unavailable');
     clips = await response.json();
@@ -219,6 +240,18 @@ export async function renderRoom(main, info) {
     if (!root.isConnected) return;
     actor.hidden = false;
     reset();
+    if (nativeResponse?.ok) {
+      const catalog = await nativeResponse.json();
+      const texts = textResponse?.ok ? await textResponse.json() : {};
+      const trajectories = trajectoryResponse?.ok ? await trajectoryResponse.json() : {};
+      if (!root.isConnected || leaving) return;
+      nativeReady = true;
+      stopIdle();
+      ambient = startNativeRoom({ frame, actorImage: actor, hint, catalog, texts, trajectories,
+        canPlay: () => !explicitPlaying && back.hidden && !help &&
+          !document.querySelector('dialog[open]'),
+      });
+    }
   } catch {
     if (root.isConnected)
       hint.textContent = 'Le décor est disponible, mais les animations n’ont pas pu être chargées.';
