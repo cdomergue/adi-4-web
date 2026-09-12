@@ -1,4 +1,5 @@
 @import url('./styles/base.css');
+@import url('./styles/welcome.css');
 @import url('./styles/science.css');
 @import url('./styles/room.css');
 @import url('./styles/games.css');

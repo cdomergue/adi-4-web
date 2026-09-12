@@ -13,7 +13,7 @@ import { renderWelcome } from './welcome.js';
 export function createRouter({ main, info, toast, catalog, library }) {
   return function route() {
     main.querySelectorAll('audio,video').forEach((media) => media.pause());
-    const hash = location.hash.slice(1) || 'room';
+    const hash = location.hash.slice(1) || 'welcome';
     let active = hash;
     if (hash.startsWith('course/')) {
       let id;

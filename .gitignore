@@ -13,6 +13,7 @@ __pycache__/
 !/web/public/game/*.webp
 !/web/public/game/wgob3/
 !/web/public/game/room/
+!/web/public/game/welcome/
 !/web/public/game/games/
 !/web/public/game/sokoban/
 !/web/public/game/mrmatt1/

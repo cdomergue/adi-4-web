@@ -12,7 +12,7 @@ web/
     application/
       shell.js                    dialogue, notifications, bouton À propos
       router.js                   routes et navigation active
-      welcome.js                  accueil provisoire
+      welcome.js                  accueil et introduction originale du vaisseau
     features/
       courses/
         library.js                filtres, cours, historique, carnet, dictionnaire

@@ -20,6 +20,7 @@ const types = {
   '.flac': 'audio/flac',
   '.ttf': 'font/ttf',
   '.mp4': 'video/mp4',
+  '.vtt': 'text/vtt; charset=utf-8',
 };
 
 export const server = http.createServer(async (req, res) => {

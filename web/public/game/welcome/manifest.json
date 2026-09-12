@@ -1,0 +1,28 @@
+{
+  "width": 640,
+  "height": 480,
+  "stored_width": 640,
+  "origin": [
+    0,
+    0
+  ],
+  "frames": 269,
+  "parts_per_frame": 2,
+  "version": 13,
+  "flags": 20609,
+  "bytes_per_pixel": 2,
+  "blit_mode": 2,
+  "sample_rate": 22050,
+  "sound_flags": 17,
+  "slice_size": -1837,
+  "fps": 12.003266194882961,
+  "sha256": "6ba0cbc12c317ac2b2b3e436cf478172629a548a2ee68113a0bfb61d2200964b",
+  "source": "extracted/resources/Adi421EnvCol1/INTRO.ITK/INTRO.VMD",
+  "audio_samples": 503609,
+  "audio_duration": 22.839410430839003,
+  "exports": {
+    "intro.mp4": "177cf1da5dcc58124ee136f919e9c6264e6426b607d67924afd1697090e58d82",
+    "poster.webp": "b6a1c775377fc0d3f7f714dd6c7cd8167ce876e1f5c926434c5c5d8297f0d657",
+    "intro.fr.vtt": "53bef7948f17d999ea7d13ca55cf505db7a89c9382b7f8840aea68452065da3c"
+  }
+}
