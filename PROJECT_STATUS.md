@@ -1,55 +1,47 @@
-# Priorités du projet ADI 4
+# État du projet ADI 4
 
-## Décision utilisateur — 12 septembre 2026
+## Principes
 
-La station Sciences reste **à terminer plus tard**. Le travail actif passe à la
-chambre d’Adi et à la recréation des différents jeux, **y compris les exécutables
-16 bits**, en les désassemblant/décompilant si nécessaire. Un échec sous Wine ne
-justifie pas d’exclure un jeu du portage.
+Le client web utilise les graphismes, sons, textes et données du jeu original.
+Il fonctionne avec les ressources livrées dans Git et peut être hébergé comme
+site statique. Le serveur TCP du client Windows constitue un projet distinct.
 
-Préserver les graphismes originaux. Fonctionnement local, architecture déployable
-ultérieurement. Utiliser les ressources, règles et niveaux originaux ; distinguer
-les comportements vérifiés des hypothèses. Les rapports de travail détaillés et
-leurs captures restent dans le dossier personnel.
+La fidélité au jeu original guide le portage. Les fonctionnalités prises en charge
+et leurs limites sont décrites dans les [README web](web/README.md) et
+[serveur](serveur/README.md). L’[architecture](web/ARCHITECTURE.md) décrit les
+modules et leurs responsabilités.
 
-## WGOB3 — 12 septembre 2026
+## Fonctions disponibles
 
-Goblins 3 est maintenant accessible depuis la ludothèque à `#game/wgob3`.
-Exécutable NE analysé avec Ghidra ; édition française Windows identifiée par
-empreintes. Le portage utilise le moteur Gob de ScummVM compilé en WebAssembly
-avec les archives originales, des sauvegardes IndexedDB et leur import/export.
-Démarrage, bateau, déplacement et prise du club vérifiés ; l’utilisateur confirme
-le fonctionnement. Il ne s’agit pas d’une réécriture JS intégrale. Les limites de
-ce portage restent documentées dans le dossier personnel.
-Le moteur compilé, les données WGOB3 et les ressources chambre/ludothèque/Sokoban
-sont inclus dans Git : un clone suffit, puis `npm --prefix web run dev` avec Node.js 22+.
+- Introduction vidéo, chambre interactive, gestes et répliques d’Adi.
+- Radio avec 17 musiques et 10 ambiances ; caisse avec filtres et molette.
+- Dix jeux : Sokoban, les trois Goblins, Mr. Matt I et II, les quatre Bad Toys 3D.
+- Cours, dictionnaire, carnet, encyclopédie illustrée et films.
+- Station Sciences et 14 simulations avec leurs règles et médias.
+- Planète Internet simulée dans le navigateur.
+- Serveur TCP avec comptes, profils, courrier et réservations de classes.
 
-## MRMATT1 — reconstruction web
+Le [manifeste des ressources](web/asset-manifest.json) et les tests vérifient
+l’intégrité du contenu livré. Cette couverture ne signifie pas que le portage
+reproduit tous les comportements du jeu original.
 
-Mr. Matt I est accessible à `#game/mrmatt1` depuis la ludothèque. Le moteur
-JavaScript reprend les règles décompilées avec Ghidra dans l’exécutable PE32 1.5.
-Les 25 niveaux des cinq fichiers MAT sont jouables, avec les quatre décors et
-les sons originaux, annulation, clichés, reprise locale et démonstrations.
-Les 25 solutions SOX passent, soit 11 698 déplacements, avec ou sans la protection
-« Déplacements réfléchis ». Ressources web incluses, sans extraction au lancement.
-Les détails de l’analyse restent documentés dans le dossier personnel.
+## Travail prioritaire
 
-## Station à reprendre
+La chambre et la ludothèque sont prioritaires. Les jeux classés « À venir »
+sont à porter, y compris ceux qui utilisent des exécutables 16 bits. Une
+difficulté d’exécution sur un système moderne ne suffit pas à exclure un jeu.
 
-- 347 exercices : blocs de texte extraits, interactions encore à porter.
-- Séquences d’Adi, aide, menus, transitions et synchronisation des animations.
-- Validation native des simulations, visibilité des objets, progression sauvegardée.
-- Vérification des zones cliquables face au jeu original et des médias manquants.
+La station Sciences est à approfondir : exercices interactifs, aide,
+transitions, synchronisation des animations et correspondance des zones cliquables.
+Les commandes et séquences doivent être comparées aux comportements du jeu original.
 
-L’état détaillé de la station reste documenté dans le dossier personnel.
-Sources web committées dans `375c4a1`; extraction et rapports encore locaux.
+## Limites
 
-## Première tranche chambre / jeux réalisée
+Certains jeux et exercices ne sont pas pris en charge. La fidélité des animations,
+interactions et enchaînements varie selon les activités. Une démonstration de
+Mr. Matt II est incomplète ; son niveau reste jouable.
 
-Chambre avec barre native animée, accès matières/jeux et aide textuelle. Décor natif
-IMAGE.EXT, Adi séparé, six objets animés avec son et gros plans originaux. Sokoban
-jouable sur ses 15 niveaux originaux après décompilation NE avec Ghidra. Extraction
-des ressources des 32 NE effectuée (1 988 entrées). Autres jeux toujours à recréer.
-Ghidra a permis de vérifier la compression des ressources. Prochaine étape : extraire
-les zones de clic et les séquences de la machine d’états ; les interactions actuelles
-restent partielles.
+La planète Internet web utilise des services simulés. Le serveur TCP gère une
+partie du protocole du client original, mais ne fournit pas les archives nécessaires
+aux exercices des classes. Les achats, forums de discussion, présence en ligne et
+animation synchronisée d’une classe complète ne sont pas implémentés.

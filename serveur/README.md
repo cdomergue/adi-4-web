@@ -33,17 +33,82 @@ python3 server.py --port 2002
 python3 server.py --help
 ```
 
-## Connecter le jeu
+## Changer l’IP de connexion du jeu ADI 4.21
 
-Le client ADI 4.21 doit être installé séparément et configuré pour utiliser une
-connexion TCP/IP vers `127.0.0.1`, port `2001` (ou le port choisi au lancement).
-Il n’est pas fourni avec le serveur.
+Le client Windows original doit être installé séparément ; il n’est pas fourni
+avec le serveur. Son adresse de connexion se règle dans le fichier
+**`INTERNET/POSTE.INF` de l’installation du jeu**.
 
-Le client et le serveur doivent partager la même boucle locale ; si un espace
-réseau isolé est utilisé, lancer les deux à l'intérieur. Depuis le jeu, choisir
-Internet puis « Se connecter ». Avec une base neuve, suivre le parcours de première
-visite pour créer un compte et un profil. Un code enregistré dans une autre base
-n'est pas reconnu automatiquement.
+### 1. Trouver et sauvegarder le fichier
+
+Fermer ADI, puis ouvrir le dossier de l’installation contenant `ADI4.EXE`.
+Dans son sous-dossier `INTERNET`, repérer `POSTE.INF` et en faire une copie nommée
+`POSTE.INF.original` avant de le modifier. Conserver cette sauvegarde pour revenir
+à la configuration précédente.
+
+Sous Windows, modifier ce fichier avec le Bloc-notes. Sous Wine, modifier le même
+fichier dans l’installation effectivement lancée par Wine : celle du préfixe ou
+la copie du jeu utilisée pour l’essai. Modifier les fichiers du CD ou d’une autre
+installation n’aura aucun effet sur le jeu lancé.
+
+### 2. Renseigner l’adresse, le port et le type de connexion
+
+Pour utiliser ce serveur sur la même machine que le jeu, renseigner les sections
+suivantes dans `POSTE.INF` (modifier les sections existantes, sans les dupliquer) :
+
+```ini
+[Adresses]
+Nombre=1
+Adresse1=127.0.0.1
+
+[Ports]
+Port1=2001
+
+[Types]
+Type1=TCP/IP
+```
+
+- `Nombre=1` configure une seule adresse de serveur.
+- `Adresse1` est l’IP à laquelle le jeu se connecte. Saisir uniquement l’adresse,
+  sans `http://`, sans chemin et sans numéro de port.
+- `Port1` doit correspondre au port d’écoute du serveur. Par exemple, avec
+  `python3 server.py --port 2002`, écrire `Port1=2002`.
+- `Type1=TCP/IP` sélectionne le transport pris en charge par ce serveur.
+
+Enregistrer le fichier sous son nom exact **`POSTE.INF`**, et non `POSTE.INF.txt`.
+Si l’éditeur propose un encodage, conserver celui du fichier ; le bloc ci-dessus
+ne contient que des caractères ASCII.
+
+**Quelle IP choisir ?** `127.0.0.1` désigne la machine qui exécute le jeu.
+Pour un serveur situé sur une autre machine, `Adresse1` devrait contenir l’IP de
+cette machine, par exemple `192.168.1.42`. Toutefois, la version actuelle de
+`server.py` écoute uniquement sur `127.0.0.1` : changer le fichier du jeu ne suffit
+donc pas à rendre ce serveur accessible sur le réseau local. Le parcours pris en
+charge ici utilise le jeu et le serveur sur la même machine et dans le même
+espace réseau. Dans une machine virtuelle ou un espace réseau isolé, lancer les
+deux à l’intérieur de cet environnement.
+
+### 3. Lancer et vérifier la connexion
+
+Depuis le dossier `serveur`, lancer `python3 server.py`, puis relancer ADI 4.21.
+Dans le jeu, ouvrir **Internet → Connexion déjà établie → Se connecter**.
+Choisir « Se connecter » pour utiliser le serveur ; le mode « Démonstration »
+ne permet pas de vérifier cette connexion.
+
+Dans le terminal du serveur, l’événement `listening` confirme l’adresse et le port
+d’écoute. Quand le jeu le contacte, `tcp_accepted`, puis des événements `request`
+et `reply_sent`, doivent apparaître. Avec une base neuve, suivre le parcours de
+première visite pour créer un compte et un profil. Un code enregistré dans une
+autre base n’est pas reconnu automatiquement.
+
+Si aucun événement `tcp_accepted` n’apparaît, vérifier que le serveur tourne,
+que `Adresse1` et `Port1` correspondent à son écoute et que le fichier modifié
+appartient bien à l’installation lancée. Si la connexion TCP arrive mais que le
+compte est refusé, vérifier que le serveur utilise la base SQLite associée à ce
+compte.
+
+Pour annuler la modification, fermer ADI et restaurer `POSTE.INF` depuis la copie
+`POSTE.INF.original`, puis relancer le jeu.
 
 ## Courrier local
 
