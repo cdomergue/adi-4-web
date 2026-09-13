@@ -40,3 +40,10 @@ Before every commit, systematically review « À propos de cette version » and 
 ## Assets & Deployment
 
 Keep installers, `extracted/`, credentials, and generated distributions out of Git. Preserve bundled assets, licenses, stable asset URLs, and browser-save keys. Follow `deploy/README.md`; obtain Christophe’s explicit approval for the version before publishing with `--apply`.
+
+## Private hosting information
+
+Never include personal deployment domains, private hosting URLs, or links to the
+maintainer’s deployed instance in tracked files, commit messages, or GitHub
+repository metadata. Use localhost examples or generic deployment instructions.
+Keep deployment addresses and configuration outside the public repository.

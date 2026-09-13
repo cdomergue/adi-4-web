@@ -1,7 +1,7 @@
 # ADI 4 Sciences — application web
 
-Application statique en JavaScript, jouable sur
-[example.invalid](https://example.invalid/). Le serveur Python du client original
+Application statique en JavaScript, jouable dans un navigateur.
+Le serveur Python du client original
 n’est pas nécessaire : les sauvegardes et la planète Internet simulée fonctionnent
 dans le navigateur.
 

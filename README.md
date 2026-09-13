@@ -3,7 +3,7 @@
 Recréation d’ADI 4 Sciences, avec deux projets publiés dans ce dépôt :
 
 - [L’application web](web/README.md) : chambre d’Adi, radio, jeux, cours et station
-  Sciences. La version en ligne est disponible sur [example.invalid](https://example.invalid/).
+  Sciences.
 - [Le serveur ADI 4.21](serveur/README.md) : serveur TCP Python compatible avec
   une partie des services Internet du client Windows original.
 
