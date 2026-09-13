@@ -14299,5 +14299,11 @@
         }
       ]
     }
-  ]
+  ],
+  "credits": {
+    "copyright": "© 1995-97 by J.A.Wrotniak",
+    "source": "MRMATT1.EXE",
+    "offset": 784062,
+    "length": 25
+  }
 }

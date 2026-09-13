@@ -1,6 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import { readFileSync } from 'node:fs';
+import { createHash } from 'node:crypto';
 import {
   startLevel,
   move,
@@ -14,10 +15,17 @@ import {
 const data = JSON.parse(
   readFileSync(new URL('../public/game/mrmatt1/levels.json', import.meta.url)),
 );
-test('all 25 original SOX solutions finish in exactly their recorded number of moves', () => {
+for (const [episode, expected] of [[1, 25], [2, 34]]) test(`Mr. Matt ${episode}: ${expected} valid original SOX solutions finish in exactly their recorded number of moves`, () => {
+  const campaign = JSON.parse(readFileSync(new URL(`../public/game/mrmatt${episode}/levels.json`, import.meta.url)));
   let count = 0;
-  for (const pack of data.packs)
+  for (const pack of campaign.packs)
     for (const level of pack.levels) {
+      // The original Win32 rules also reject this supplied solution at move 395.
+      // Its entire native replay is checked separately below.
+      if (episode === 2 && pack.id === 'TRY_THIS' && level.id === 7) {
+        assert.throws(() => replayMoves(level, level.solution.moves), /Impossible saved move/);
+        continue;
+      }
       const state = replayMoves(level, level.solution.moves);
       assert.ok(won(state), `${pack.id}/${level.id}: ${state.remaining} food left`);
       assert.equal(state.moves, level.solution.count);
@@ -30,7 +38,24 @@ test('all 25 original SOX solutions finish in exactly their recorded number of m
       assert.equal(assisted.moves, level.solution.count);
       count++;
     }
-  assert.equal(count, 25);
+  assert.equal(count, expected);
+});
+
+test('Mr. Matt II matches every native board for all 35 supplied solutions, including the broken original', () => {
+  const campaign = JSON.parse(readFileSync(new URL('../public/game/mrmatt2/levels.json', import.meta.url)));
+  const native = JSON.parse(readFileSync(new URL('./fixtures/mrmatt2-native.json', import.meta.url)));
+  assert.equal(native.levels.length, 35);
+  for (const reference of native.levels) {
+    const level = campaign.packs.find((p) => p.id === reference.pack).levels.find((l) => l.id === reference.level);
+    let state = startLevel(level);
+    const hash = createHash('sha256');
+    for (const direction of level.solution.moves) {
+      state = move(state, direction);
+      hash.update(Uint8Array.from(state.cells));
+    }
+    assert.equal(hash.digest('hex'), reference.boardsSha256, `${reference.pack}/${reference.level}`);
+    assert.equal(state.remaining, reference.remaining);
+  }
 });
 
 function board(rows) {

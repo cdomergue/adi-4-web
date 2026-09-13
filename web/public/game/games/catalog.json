@@ -205,12 +205,13 @@
   },
   {
     "id": "mrmatt2",
-    "title": "MRMATT2",
+    "title": "Mr. Matt II",
     "source": "extracted/discs/Adi421EnvCol2/Games/MrMatt2/MRMATT2.EXE",
     "format": "Win32 PE",
     "sha256": "596b17f8f9aeeba3e5cb9d26e083c9318cd0d9c6d4cbbbd444edbb3c20bbfcda",
     "image": "/game/games/MRMATT2.webp",
-    "image_source": "extracted/resources/Adi421EnvCol1/INTRO.ITK/MRMATT2.VMD"
+    "image_source": "extracted/resources/Adi421EnvCol1/INTRO.ITK/MRMATT2.VMD",
+    "route": "#game/mrmatt2"
   },
   {
     "id": "neuro1fr",

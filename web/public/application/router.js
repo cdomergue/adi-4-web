@@ -74,8 +74,8 @@ export function createRouter({ main, info, toast, catalog, library }) {
     } else if (hash === 'game/wgob3') {
       renderWGob3(main);
       active = 'room';
-    } else if (hash === 'game/mrmatt1') {
-      renderMrMatt(main);
+    } else if (/^game\/mrmatt[12]$/.test(hash)) {
+      renderMrMatt(main, hash.slice(-1));
       active = 'room';
     } else if (/^game\/bt3d_[1-4]$/.test(hash)) {
       renderBadToys(main, hash.slice(-1));

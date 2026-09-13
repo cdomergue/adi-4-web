@@ -38,7 +38,7 @@ web/
         generated/                calculs issus des scripts originaux
       games/
         badtoys/{view,engine,renderer}.js moteur partagé Bad Toys, cartes par épisode
-        mrmatt/{view,engine}.js    interface et règles de Mr. Matt
+        mrmatt/{view,engine}.js    interface et règles partagées de Mr. Matt I et II
         sokoban/{view,engine}.js   interface et règles de Sokoban
         wgob3/view.js             intégration du lecteur autonome
     shared/text.js                échappement HTML et normalisation de recherche
@@ -187,3 +187,19 @@ le suffixe `-episode-2`, `-episode-3` ou `-episode-4`, sans écraser celle de I.
 exécutables. Les exports de `game/badtoys/` permettent de jouer après clonage sans
 Wine, Ghidra, Python ou installateur. Voir le [rapport de portage](../reports/badtoys-portage.md)
 pour les preuves, captures, tests et différences restantes avec Windows.
+
+## Mr. Matt I et II
+
+Les routes `#game/mrmatt1` et `#game/mrmatt2` utilisent le même moteur et la même
+vue paramétrée. Les deux EXE sont identiques ; seuls leurs packs MAT diffèrent.
+Les niveaux et manifestes restent séparés dans `game/mrmatt1/` et `game/mrmatt2/`.
+Le deuxième jeu réutilise l’atlas et les 12 sons distribués avec le premier.
+Ses parties utilisent `adi4-mrmatt2-v1` ; la clé existante `adi4-mrmatt1-v1` reste
+inchangée. Les compteurs de niveaux sont calculés depuis chaque catalogue.
+
+`scripts/prepare_mrmatt1.py --episode 2` régénère le deuxième catalogue et vérifie
+l’identité des médias partagés. `scripts/verify_mrmatt_native.py` produit les
+empreintes de tous les plateaux d’une relecture des 35 solutions par les règles
+machine originales. Les tests Node comparent le moteur web à ces empreintes,
+sans dépendre du programme original ni de QEMU. Voir
+[le rapport Mr. Matt II](../reports/mrmatt2-portage.md).

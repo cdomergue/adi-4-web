@@ -1,0 +1,251 @@
+{
+  "executableSha256": "596b17f8f9aeeba3e5cb9d26e083c9318cd0d9c6d4cbbbd444edbb3c20bbfcda",
+  "method": "Original TMap.move at 0x42f69c, all boards after each SOX instruction, under qemu-i386",
+  "levels": [
+    {
+      "pack": "STARTHER",
+      "level": 1,
+      "moves": 301,
+      "boardsSha256": "04e2e133b594cabd8157560c04dd5b6505c7dca00be333c3976c7e501c861533",
+      "remaining": 0
+    },
+    {
+      "pack": "STARTHER",
+      "level": 2,
+      "moves": 397,
+      "boardsSha256": "d4380e648c22cc251cdad25dda0e7127c6e14d7b9e04e60ed31873ab2e2cd354",
+      "remaining": 0
+    },
+    {
+      "pack": "STARTHER",
+      "level": 3,
+      "moves": 434,
+      "boardsSha256": "ebbd34a52f945ea22cb4bc0edd61387638aaab563d8eb1817f51be772c7761f1",
+      "remaining": 0
+    },
+    {
+      "pack": "STARTHER",
+      "level": 4,
+      "moves": 355,
+      "boardsSha256": "5968210056a6e8b8cd07c8f53e5b05862fff91ade39fec1fd8fae8761c03f5d0",
+      "remaining": 0
+    },
+    {
+      "pack": "STARTHER",
+      "level": 5,
+      "moves": 302,
+      "boardsSha256": "766eb9af6ddf2f5b989deb4ad5ef4fdf2bb676c2863e0d3834a93fc725a66c01",
+      "remaining": 0
+    },
+    {
+      "pack": "EASY_ONE",
+      "level": 1,
+      "moves": 251,
+      "boardsSha256": "3b52e9f6cc25f4abe29b10d25bec0ee82a82017d53d995410a093126f152a097",
+      "remaining": 0
+    },
+    {
+      "pack": "EASY_ONE",
+      "level": 2,
+      "moves": 205,
+      "boardsSha256": "7c34b2ff7b60fa9d725b644f25b541e75bd07a57d3cf207446a39857e5a9d599",
+      "remaining": 0
+    },
+    {
+      "pack": "EASY_ONE",
+      "level": 3,
+      "moves": 321,
+      "boardsSha256": "b6eeaaec19f417f1986abc1321919985b87bdec5e03f48bba216cd96801671a3",
+      "remaining": 0
+    },
+    {
+      "pack": "EASY_ONE",
+      "level": 4,
+      "moves": 421,
+      "boardsSha256": "9e8601e72546d49d849b47ad22bd945e150ebf51ee83c6e532660101455997b3",
+      "remaining": 0
+    },
+    {
+      "pack": "APLECITY",
+      "level": 1,
+      "moves": 426,
+      "boardsSha256": "304a37f788c835d7103ab18baedeffc49cf59c3fbaa8a0c8089684ba4e8d7cf3",
+      "remaining": 0
+    },
+    {
+      "pack": "APLECITY",
+      "level": 2,
+      "moves": 494,
+      "boardsSha256": "fd376db3184d4a86a8510a8d452fa7fc1e9e80749d4e9e4b2c175f5dd89d6ffa",
+      "remaining": 0
+    },
+    {
+      "pack": "APLECITY",
+      "level": 3,
+      "moves": 346,
+      "boardsSha256": "68d47bd75d69970162d52fb46b694977c4b6cedf57d10ce7f14a602335217600",
+      "remaining": 0
+    },
+    {
+      "pack": "APLECITY",
+      "level": 4,
+      "moves": 420,
+      "boardsSha256": "6139617c5c418711dc178fa57b1d9eb0fb5c16096ccda9e387d73beff8b13cae",
+      "remaining": 0
+    },
+    {
+      "pack": "APLECITY",
+      "level": 5,
+      "moves": 425,
+      "boardsSha256": "c1685fc7ecb6170b73875e7611ecc951ef24c327fcdc869e14eff6b163c6ff35",
+      "remaining": 0
+    },
+    {
+      "pack": "CRAWLER",
+      "level": 1,
+      "moves": 504,
+      "boardsSha256": "3bb3095c7beebf848955ea3368f6d13082038a10441cada355dc8f711a50d99a",
+      "remaining": 0
+    },
+    {
+      "pack": "CRAWLER",
+      "level": 2,
+      "moves": 531,
+      "boardsSha256": "0514ec6da703b97db82d879e2730a9bcb6e76270a4f74cd2bce2dac3e671621c",
+      "remaining": 0
+    },
+    {
+      "pack": "CRAWLER",
+      "level": 3,
+      "moves": 380,
+      "boardsSha256": "bc4911cd903c31a8e488adff6abdaa9968a67dc88a6b2695a0d983afab074c5a",
+      "remaining": 0
+    },
+    {
+      "pack": "CRAWLER",
+      "level": 4,
+      "moves": 472,
+      "boardsSha256": "8a01274a4666adc19b77aadbefa66990c31ac837eee31d9ff0b11f4bb1b60c00",
+      "remaining": 0
+    },
+    {
+      "pack": "CRAWLER",
+      "level": 5,
+      "moves": 656,
+      "boardsSha256": "dc629601061ed7c902d4fd6512ef3d99d51725f510d4eaf2d6c2c206359fcf01",
+      "remaining": 0
+    },
+    {
+      "pack": "DJAMDJAK",
+      "level": 1,
+      "moves": 325,
+      "boardsSha256": "e51fd8f796bd80ad63c25cef9356a60aec7612726125da967b4b024dbdfd9513",
+      "remaining": 0
+    },
+    {
+      "pack": "DJAMDJAK",
+      "level": 2,
+      "moves": 347,
+      "boardsSha256": "946017af900aebff0e1fdf84bd14ba00e76acac9bee25d22d39f41f3644f7f4a",
+      "remaining": 0
+    },
+    {
+      "pack": "DJAMDJAK",
+      "level": 3,
+      "moves": 414,
+      "boardsSha256": "3dd9fdb1f0b41f71ee4d4b99ae3ac9478230d5889b1dda0a5d705e469dbe9902",
+      "remaining": 0
+    },
+    {
+      "pack": "DJAMDJAK",
+      "level": 4,
+      "moves": 421,
+      "boardsSha256": "f71a19d3053b8468adb40091ae1e480cbf845975c253c8e996a0fe44542197ab",
+      "remaining": 0
+    },
+    {
+      "pack": "DJAMDJAK",
+      "level": 5,
+      "moves": 501,
+      "boardsSha256": "987adf8c223319be26f3e5bf3e03f2b7647ad6297b784b291fb3c76a6f70d97b",
+      "remaining": 0
+    },
+    {
+      "pack": "VERTHUGO",
+      "level": 1,
+      "moves": 530,
+      "boardsSha256": "97aaa9528e3b516ef2e334c1908cdde9ed46e81f8cec2f18cd5b0517f5984d51",
+      "remaining": 0
+    },
+    {
+      "pack": "VERTHUGO",
+      "level": 2,
+      "moves": 424,
+      "boardsSha256": "224217d4165077683c3df3a2674b2d5441a303a979164674accebf4ee8fa25f4",
+      "remaining": 0
+    },
+    {
+      "pack": "VERTHUGO",
+      "level": 3,
+      "moves": 499,
+      "boardsSha256": "cd50340118f0863ef041ff3a68ea26a28c2a2edf04249ebf96fb1f0037997f85",
+      "remaining": 0
+    },
+    {
+      "pack": "VERTHUGO",
+      "level": 4,
+      "moves": 461,
+      "boardsSha256": "a9e85a98da6df8e3262de7ca2ac8c478b638615831c493794b532739b474e614",
+      "remaining": 0
+    },
+    {
+      "pack": "TRY_THIS",
+      "level": 1,
+      "moves": 386,
+      "boardsSha256": "5da086347d6c0e7ad1b3d6c1105e8c34174e2a24890fbc43dce30f0881dd76b7",
+      "remaining": 0
+    },
+    {
+      "pack": "TRY_THIS",
+      "level": 2,
+      "moves": 409,
+      "boardsSha256": "7c6e43f9a51c0abeab1851030c806132e41d6565ddc09801a20656076739c1c8",
+      "remaining": 0
+    },
+    {
+      "pack": "TRY_THIS",
+      "level": 3,
+      "moves": 429,
+      "boardsSha256": "27d0a45d7fd468d32cd3cce080c776fc95beb4de1a8edf2434641a5e5391e6fe",
+      "remaining": 0
+    },
+    {
+      "pack": "TRY_THIS",
+      "level": 4,
+      "moves": 469,
+      "boardsSha256": "274634cb9f5d95d2701c145b9d444d2a554f843f0804e599ec0ad01671796876",
+      "remaining": 0
+    },
+    {
+      "pack": "TRY_THIS",
+      "level": 5,
+      "moves": 380,
+      "boardsSha256": "7729913cef122a6af1c62a581a7312007e8d1eeabc39fc7e6a8e0520a1f84ca8",
+      "remaining": 0
+    },
+    {
+      "pack": "TRY_THIS",
+      "level": 6,
+      "moves": 406,
+      "boardsSha256": "770710543427626c82825f9e9ecc5d1ca49dfcd9d30021823f31ad60a4072bfe",
+      "remaining": 0
+    },
+    {
+      "pack": "TRY_THIS",
+      "level": 7,
+      "moves": 584,
+      "boardsSha256": "2cd03ad60cf2ecc03a1c0a009829cc916086b468a8e0d9e22c810b8e9737725d",
+      "remaining": 64
+    }
+  ]
+}

@@ -1,6 +1,5 @@
 import { WIDTH, HEIGHT, startLevel, move, won, replayMoves } from './engine.js';
 
-const STORE = 'adi4-mrmatt1-v1';
 const esc = (value) =>
   String(value).replace(
     /[&<>"']/g,
@@ -8,14 +7,16 @@ const esc = (value) =>
   );
 const tileColumn = [0, 1, 3, 2, 4, 7, 8, 9, 0, 5, 6];
 
-export async function renderMrMatt(main) {
-  document.title = 'Mr. Matt I · ADI 4';
+export async function renderMrMatt(main, episode = '1') {
+  const store = `adi4-mrmatt${episode}-v1`;
+  const title = `Mr. Matt ${episode === '2' ? 'II' : 'I'}`;
+  document.title = `${title} · ADI 4`;
   main.innerHTML =
-    '<section class="mrmatt-page"><a class="back-link" href="#games">← Les jeux</a><h1>Mr. Matt I</h1><p role="status">Chargement du jeu…</p></section>';
+    `<section class="mrmatt-page"><a class="back-link" href="#games">← Les jeux</a><h1>${title}</h1><p role="status">Chargement du jeu…</p></section>`;
   const root = main.firstElementChild;
   let data, atlas;
   try {
-    const response = await fetch('/game/mrmatt1/levels.json');
+    const response = await fetch(`/game/mrmatt${episode}/levels.json`);
     if (!response.ok) throw new Error('levels');
     data = await response.json();
     atlas = new Image();
@@ -28,6 +29,7 @@ export async function renderMrMatt(main) {
     return;
   }
   if (!root.isConnected) return;
+  const levelCount = data.packs.reduce((count, p) => count + p.levels.length, 0);
   let pack = data.packs[0],
     level = pack.levels[0],
     route = '',
@@ -43,7 +45,7 @@ export async function renderMrMatt(main) {
     walkTimer;
   let recovery = '';
   try {
-    const raw = localStorage.getItem(STORE);
+    const raw = localStorage.getItem(store);
     if (raw) {
       const storage = JSON.parse(raw);
       if (![1, 2].includes(storage.version)) throw new Error('version');
@@ -73,7 +75,8 @@ export async function renderMrMatt(main) {
   }
 
   root.innerHTML = `<a class="back-link" href="#games">← Les jeux</a>
-    <div class="matt-heading"><div><h1>Mr. Matt I</h1><p>Creuse un chemin, mange toutes les pommes et garde un œil sur les pierres.</p></div><span>25 niveaux originaux</span></div>
+    <div class="matt-heading"><div><h1>${title}</h1><p>Creuse un chemin, mange toutes les pommes et garde un œil sur les pierres.</p></div><span>${levelCount} niveaux originaux</span></div>
+    ${episode === '2' ? '<p>26 nouveaux niveaux et les 9 niveaux communs de Easy One et Apple Town. Commence par Start Here pour découvrir le deuxième jeu.</p>' : ''}
     <div class="matt-window">
       <div class="matt-titlebar"><span>Mr. Matt</span><span id="matt-pack-title"></span></div>
       <div class="matt-toolbar">
@@ -100,7 +103,14 @@ export async function renderMrMatt(main) {
     </div>
     <p id="matt-help">Flèches ou ZQSD / WASD pour bouger. Retour arrière pour annuler. Espace pour recommencer.<br>Clique sur une case de la même ligne ou colonne pour avancer jusqu’à elle. Les pierres se poussent seulement sur les côtés, vers une case vide.</p>
     <details class="matt-help-details"><summary>Comment jouer</summary><p>Mange toute la nourriture pour terminer le niveau. La terre se creuse, les murs restent en place. Une pierre libérée tombe ; après sa chute, elle peut rouler sur une autre pierre. Attention : une pierre qui arrive juste au-dessus de Matt l’écrase.</p><p>« Déplacements réfléchis » empêche de descendre directement sous une pierre. Tu peux désactiver cette protection pour retrouver les déplacements sans assistance. Un cliché garde un point de reprise dans le niveau. La démonstration utilise la solution enregistrée dans le jeu original ; tu peux l’interrompre et retrouver ta partie.</p></details>
-    <p id="matt-save-status" class="quiet"></p>`;
+    <p id="matt-save-status" class="quiet"></p>
+    ${data.credits?.copyright ? `<details class="matt-help-details matt-credits">
+      <summary>Crédits</summary>
+      <p>Jeu original : <strong>Mr. Matt</strong><br>${esc(data.credits.copyright)}</p>
+      <p>Auteurs des niveaux, tels qu’indiqués dans les fichiers originaux :</p>
+      <ul>${data.packs.map((p) => `<li>${esc(p.name.replace(/^\*+\s*/, ''))} — ${esc(p.author)}</li>`).join('')}</ul>
+      <p>Solutions enregistrées : ${esc([...new Set(data.packs.flatMap((p) => p.levels.map((l) => l.solution.author)))].join(', '))}.</p>
+    </details>` : ''}`;
   const $ = (selector) => root.querySelector(selector);
   const canvas = $('canvas'),
     ctx = canvas.getContext('2d'),
@@ -128,7 +138,7 @@ export async function renderMrMatt(main) {
   function persist() {
     try {
       localStorage.setItem(
-        STORE,
+        store,
         JSON.stringify({
           version: 2,
           pack: pack.id,
@@ -186,7 +196,7 @@ export async function renderMrMatt(main) {
     $('#matt-level-title').textContent = `${level.id}. ${level.name}`;
     const food = { 1: 'pommes', 2: 'carottes', 3: 'hamburgers', 4: 'citrouilles' }[theme];
     $('#matt-counts').textContent = `${display.remaining} ${food} · ${display.moves} pas`;
-    $('#matt-progress').textContent = `${completed.size} / 25 niveaux réussis`;
+    $('#matt-progress').textContent = `${completed.size} / ${levelCount} niveaux réussis`;
     $('#matt-next').hidden = !!demonstration || !won(state) || level.id === pack.levels.length;
     $('#matt-undo').disabled = !!demonstration || route.length === 0;
     $('#matt-snapshot').disabled = !!demonstration || state.dead;
@@ -298,6 +308,12 @@ export async function renderMrMatt(main) {
     if (demonstration) {
       stopDemo();
       draw('Ta partie est reprise.');
+      return;
+    }
+    try {
+      if (!won(replayMoves(level, level.solution.moves))) throw new Error('Unfinished solution');
+    } catch {
+      draw('La solution fournie avec le jeu original ne termine pas ce niveau. Tu peux le jouer normalement.');
       return;
     }
     demonstration = { state: startLevel(level), cursor: 0 };
