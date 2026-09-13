@@ -1,85 +1,156 @@
-# Adi 4 Sciences — portage web personnel
+# ADI 4 Sciences
 
-## Jouer après un clone
+Reconstitution locale d’ADI 4 Sciences, organisée en deux projets complémentaires :
 
-Avec **Node.js 22 ou plus récent**, depuis la racine :
+- `web/` est le portage jouable dans un navigateur : chambre d’Adi, station
+  Sciences, cours, encyclopédie, Internet simulé et jeux.
+- `serveur/` est un serveur local compatible avec le client original ADI 4.21.
+  Il recrée une partie des services Internet historiques afin de pouvoir relancer
+  l’exécutable Windows original dans un environnement de test.
+
+Les deux projets sont volontairement séparés : l’application web fonctionne sans
+serveur ni compte, tandis que le serveur parle au véritable client ADI 4.21 sur
+`127.0.0.1:2001`. Le serveur ne contacte aucun ancien domaine Internet.
+
+## Portage web
+
+### Lancer l’application
+
+Prérequis : Node.js 22 ou plus récent. Aucun `npm install` n’est nécessaire.
+
+Depuis la racine du dépôt :
 
 ```bash
 npm --prefix web run dev
 ```
 
-Ouvrir **<http://127.0.0.1:4173/#game/wgob3>** pour Goblins 3 (WGOB3).
-**Mr. Matt I** est disponible à **<http://127.0.0.1:4173/#game/mrmatt1>** :
-25 niveaux, quatre décors, sons originaux et sauvegarde locale. Ses ressources
-sont fournies dans `web/public/game/mrmatt1/` sans préparation supplémentaire.
-La chambre, la ludothèque et Sokoban sont aussi inclus. Le moteur WebAssembly,
-les données du jeu et les licences sont suivis dans Git : aucun téléchargement
-supplémentaire, `npm install`, setup, extraction ou compilation n’est nécessaire.
+Ouvrir ensuite <http://127.0.0.1:4173/>. Les entrées principales sont :
 
-`npm --prefix web test` vérifie notamment l’intégrité de la distribution WGOB3.
-`npm --prefix web run build` prépare les fichiers statiques dans `web/dist/`.
-Les médias Sciences restent locaux et doivent être extraits séparément ; cette
-livraison rend WGOB3 jouable après clone, pas toute la station Sciences.
-Voir [l’analyse Ghidra et le portage WGOB3](reports/wgob3-portage.md).
-Voir aussi [le portage Mr. Matt I et ses vérifications](reports/mrmatt1-portage.md).
+- `#room` : chambre d’Adi, radio et caisse de jeux ;
+- `#scene/station` : station Sciences, cours et encyclopédie ;
+- `#internet` : reconstitution locale de la planète Internet ;
+- `#game/sokoban` : Sokoban ;
+- `#game/wgob1`, `#game/wgob2`, `#game/wgob3` : Gobliiins / Gobliins 2 / Goblins 3 ;
+- `#game/mrmatt1`, `#game/mrmatt2` : Mr. Matt I et II ;
+- `#game/bt3d_1` à `#game/bt3d_4` : les quatre épisodes de Bad Toys 3D.
 
-## Historique de l’extraction Sciences
+Les ressources déjà portées sont fournies dans `web/public/game/`. Les
+sauvegardes de l’application et de certains jeux restent locales au navigateur.
 
-Le setup et ses quatre CD ont été extraits sous Linux sans exécuter le jeu.
-Les archives Coktel et les bases pédagogiques sont exportées. Une première base
-web locale permet de consulter les cours, leurs compléments et le dictionnaire,
-avec un carnet personnel. La chambre interactive et le jeu complet restent à porter.
-Voir le [bilan courant du portage](reports/station-portage.md) pour l'état vérifié des simulations, médias, encyclopédie et limites restantes.
-
-Lancer la base : `cd web` puis `npm run dev`, et ouvrir `http://127.0.0.1:4173`.
-Voir [la documentation web](web/README.md) pour la préparation et le déploiement futur.
-
-Lire [le diagnostic et la proposition technique](reports/diagnostic.md).
-
-Le setup, les disques extraits et les médias Sciences restent locaux et ignorés
-par Git. Les ressources nécessaires à WGOB3 et à son accès depuis la chambre
-sont incluses dans le dépôt.
-
-## Reproduire
-
-Prérequis : Python 3, 7z, et innoextract 1.9 Linux dans
-`tools/vendor/innoextract-1.9-linux/`. L'outil utilisé vient du
-[site officiel](https://constexpr.org/innoextract/), archive
-`https://constexpr.org/innoextract/files/innoextract-1.9-linux.tar.xz`.
-Le setup doit être à la racine. Prévoir environ 10 Go disponibles.
+### Vérifier et construire
 
 ```bash
-python3 scripts/extract_setup.py
-python3 scripts/extract_archives.py
-python3 scripts/export_tables.py
-python3 -m unittest discover -s scripts -p 'test_*.py' -v
+npm --prefix web run check
+npm --prefix web test
+npm --prefix web run build
+npm --prefix web run preview
 ```
 
-Les scripts réécrivent leurs sorties dédiées lorsqu'ils sont relancés.
-Ils ne modifient pas le setup. L'extraction des archives s'arrête sur une
-entrée invalide ou une compression inconnue, plutôt que d'annoncer un succès partiel.
+`build` génère la distribution statique dans `web/dist/`. Pour l’architecture,
+les modules et les limites du portage, voir [la documentation web](web/README.md)
+et [l’état du projet](PROJECT_STATUS.md).
+
+Les extractions des CD, l’installateur original et les médias non préparés restent
+locaux et sont ignorés par Git. Ils sont nécessaires uniquement pour régénérer
+certaines ressources, pas pour lancer les jeux web déjà inclus.
+
+## Serveur local du jeu original
+
+Le dossier `serveur/` constitue un projet distinct. Il contient un serveur TCP
+Python avec SQLite pour le client original ADI 4.21 : connexion, profils enfants,
+messagerie locale et réservations des classes virtuelles. Les comptes, messages,
+réservations et résultats sont conservés dans `serveur/runtime/`, qui n’est pas
+versionné.
+
+### Lancer le serveur seul
+
+Python 3.10 ou plus récent suffit ; aucune dépendance `pip` n’est requise :
+
+```bash
+python3 serveur/server.py
+```
+
+Le serveur écoute uniquement sur `127.0.0.1:2001`. Options utiles :
+
+```bash
+python3 serveur/server.py --port 2001 --log serveur/runtime/server.jsonl
+python3 serveur/server.py --db /chemin/vers/adi.sqlite3
+```
+
+### Connecter le client Windows original
+
+Le jeu original, Wine et ses ressources doivent être fournis séparément. Depuis
+la racine du dépôt, préparer une copie de test sans modifier l’installation
+source :
+
+```bash
+python3 serveur/prepare.py --prefill
+```
+
+Pour une session manuelle dans une fenêtre Xephyr :
+
+```bash
+bash serveur/run-visible.sh
+```
+
+Pour une session isolée et invisible sous Xvfb, sans accès réseau extérieur :
+
+```bash
+bash serveur/run-isolated.sh
+```
+
+Ces lanceurs redirigent la copie de test du fichier `INTERNET/POSTE.INF` vers
+`127.0.0.1:2001`. Ils n’écrasent pas l’installation originale. Les prérequis
+Wine, `unshare`, `ip`, Xephyr ou Xvfb sont détaillés dans [le mode d’emploi du
+serveur](serveur/README.md).
+
+### Administrer les données locales
+
+Déposer un message dans une boîte :
+
+```bash
+python3 serveur/mail.py profiles
+python3 serveur/mail.py deliver --child 707 \
+  --title "Message local" --body-file message.txt
+```
+
+Gérer les réservations de classes :
+
+```bash
+python3 serveur/classes.py list
+python3 serveur/classes.py reserve --child 707 --at now \
+  --subject M --level 6 --theme G --lesson A --seat 1
+python3 serveur/classes.py cancel --child 707 --class-id 1
+```
+
+Le serveur est une reconstitution locale et expérimentale, pas une remise en
+ligne du service historique. Les forums, achats, présence en ligne, synchronisation
+complète des profils et téléchargement des archives d’exercices ne sont pas
+implémentés. Voir [le protocole étudié](serveur/PROTOCOL.md) et [les limites du
+serveur](serveur/README.md).
+
+## Tests
+
+```bash
+npm --prefix web run check
+npm --prefix web test
+python3 -m unittest discover -s serveur -p 'test_*.py' -v
+```
+
+Les tests Python du serveur utilisent des sockets de boucle locale et une base
+SQLite temporaire. Les fichiers de runtime, les installations originales et les
+captures de test ne doivent pas être ajoutés au dépôt.
 
 ## Arborescence
 
-- `extracted/installer/` : contenu Inno Setup, dont quatre ISO.
-- `extracted/discs/` : fichiers des quatre CD.
-- `extracted/resources/` : ressources décompressées, séparées par CD et archive.
-- `extracted/tables/` : exports JSON des tables des deux CD Sciences.
-- `extracted/previews/science-menu.png` : fond de menu original converti et vérifié visuellement.
-- `reports/resources.jsonl` : provenance, position, taille, compression et SHA-256 de chaque ressource.
-- `reports/files.json` : inventaire et empreintes des fichiers du setup et des CD.
-- `reports/*-summary.json` : statistiques générées.
+```text
+web/       application navigateur, assets portés et tests JavaScript
+serveur/   serveur local ADI 4.21, SQLite, outils et tests Python
+scripts/   extraction, préparation des ressources et outils d’analyse
+reports/   rapports de reverse engineering et de vérification
+deploy/    notes de déploiement statique
+```
 
-Le parseur dBASE conserve les valeurs numériques et logiques sous forme textuelle,
-les numéros de lignes, les marqueurs de suppression et les références des mémos.
-Les identifiants et relations restent ainsi disponibles pour la reconstruction.
-Les textes des tables sont décodés en CP850 ; les HTML et autres fichiers restent
-dans leur encodage original.
-
-## Exploration du jeu original
-
-Le [compte rendu détaillé avec captures](reports/exploration-original.md) décrit le profil, la chambre, les jeux, la station Sciences, une simulation et le lecteur de cours, ainsi que les résultats Ghidra et les limites encore ouvertes.
-
-## Décors, simulations et voix dans le navigateur
-
-La [station locale](http://127.0.0.1:4173/#scene/station) relie huit décors originaux et les cours ; le fond de serre est exporté séparément pour les simulations. Préparer les médias avec `python3 scripts/prepare_scenes.py` après `prepare_web.py`, puis `python3 scripts/prepare_station.py` et `python3 scripts/prepare_encyclopedia.py`. Voir le [bilan courant du portage](reports/station-portage.md) ; le [rapport moteur, décodeurs et portage](reports/moteur-et-portage.md) conserve l'état historique de sa session.
+Le projet documente séparément ce qui est vérifié sur le client original, ce qui
+est simulé dans le navigateur et ce qui reste à porter. Les crédits, licences et
+provenances sont conservés dans les fichiers et rapports concernés.
