@@ -8,12 +8,18 @@ import struct
 from datetime import datetime, timezone
 from pathlib import Path
 from storage import DEFAULT_DB, Store, cstring, timestamp
+from classes import Classes, OPCODES
 
 HEADER = struct.Struct('<HIBB')
 MAX_BODY = 1024 * 1024
 NAMES = {6: 'GIVEDATE', 27: 'CONNECT', 28: 'FIRSTCON', 30: 'CHILDCON',
          55: 'LISTUPDATE', 29: 'LISTONCHILD', 65: 'GIVESUBS', 53: 'ONCHILDCON',
          31: 'LISTMAIL', 32: 'READMAIL', 37: 'DELETEMAIL', 59: 'GIVECHECK'}
+NAMES.update({4: 'GIVECHILD', 10: 'SCREENCLASS', 11: 'LISTCLASS', 12: 'GIVECLASS',
+              13: 'GIVESESSION', 17: 'LISTCHILD', 20: 'LISTRESERVATIONS',
+              38: 'GIVEINFO', 40: 'CVREADY', 43: 'BOOKSESSION', 49: 'SENDRESULT',
+              51: 'LISTRESULT', 52: 'GIVESCORE', 54: 'LOCKBOOK',
+              56: 'LISTSTUDENTS', 57: 'LISTERES', 64: 'LISTSTK'})
 
 
 def fixed_text(text, width):
@@ -50,6 +56,7 @@ class Server:
         self.log = log
         self.observe = observe
         self.store = store if store is not None else Store(':memory:')
+        self.classes = Classes(self.store)
 
     def dispatch(self, kind, opcode, payload, session):
         if kind == 2 and opcode == 55:
@@ -59,7 +66,7 @@ class Server:
             if opcode == 28:
                 account_id, code = self.store.register(payload)
                 session['account'] = account_id
-                return b'\0' + code.encode('ascii') + b'\0\5'
+                return b'\0' + code.encode('ascii') + b'\0\15'
             if len(payload) != 21:
                 raise ValueError('CONNECT must contain 21 bytes')
             code = cstring(payload[:12]).decode('ascii')
@@ -67,11 +74,14 @@ class Server:
             if account_id is None:
                 return b'\4\0'
             session['account'] = account_id
-            return b'\0\5'  # TESTWO bits 0 (mail) and 2 (its entrance through the forum).
+            return b'\0\15'  # Mail, forum and virtual classes (bits 0, 2 and 3).
         if 'account' not in session:
             raise ValueError('Account login required')
         if kind == 2 and opcode == 30:
             child_id = self.store.register_child(session['account'], payload)
+            account = session['account']
+            session.clear()
+            session['account'] = account
             session['child'] = child_id
             return b'\0' + struct.pack('<I', child_id)
         if kind == 2 and opcode == 53:
@@ -80,18 +90,31 @@ class Server:
             child_id, count = struct.unpack_from('<II', payload)
             if len(payload) != 8 + count * 4:
                 raise ValueError('Invalid ONCHILDCON count')
-            session.pop('child', None)
+            account = session['account']
+            session.clear()
+            session['account'] = account
             if not self.store.owns_child(session['account'], child_id):
                 return b'\1'
             session['child'] = child_id
             return b'\0'
         if kind == 2 and opcode in (6, 29, 65):
-            return {6: struct.pack('<I', timestamp()), 29: bytes(4), 65: bytes(60)}[opcode]
+            # Local access credit, independent of any historical paid subscription.
+            return {6: struct.pack('<I', timestamp()), 29: bytes(4),
+                    65: struct.pack('<IBB', 0, 255, 0) + bytes(54)}[opcode]
+        if opcode in OPCODES:
+            reply = self.classes.dispatch(kind, opcode, payload, session)
+            if opcode in (13, 43, 49, 64):
+                self.event('class_operation', opcode=opcode, child_id=session.get('child'),
+                           parameters=list(payload), result=None if reply is None else reply[0])
+            return reply
         if kind == 2 and opcode == 59:
             if len(payload) != 4 or struct.unpack('<I', payload)[0] != session.get('child'):
                 raise ValueError('Invalid child access check')
-            # Local test policy: unrestricted forum time, no paid service entitlement.
-            return struct.pack('<BBiBB', 0, 3, -1, 0, 0)
+            count = self.store.db.execute('''SELECT COUNT(*) FROM reservations r JOIN classes c
+                ON c.id=r.class_id WHERE r.child_id=? AND c.starts_at+3600>?''',
+                (session['child'], timestamp())).fetchone()[0]
+            # Local credit only; no historical paid subscription or external service.
+            return struct.pack('<BBiBB', 0, 255, -1, 0, min(255, count))
         if opcode in (31, 32, 37):
             child_id = session.get('child')
             if child_id is None:

@@ -1,4 +1,4 @@
-"""Persistent local accounts, children and inboxes (SQLite, schema version 1)."""
+"""Persistent local accounts, children, inboxes and classes (SQLite)."""
 import contextlib
 import hashlib
 import hmac
@@ -51,7 +51,7 @@ class Store:
         self.db.execute('PRAGMA busy_timeout=5000')
         self.db.execute('PRAGMA journal_mode=WAL')
         version = self.db.execute('PRAGMA user_version').fetchone()[0]
-        if version not in (0, 1):
+        if version not in (0, 1, 2):
             self.db.close()
             raise ValueError(f'Unsupported database schema {version}')
         self.db.executescript('''
@@ -81,7 +81,33 @@ class Store:
                 seed_key TEXT UNIQUE
             );
             CREATE INDEX IF NOT EXISTS inbox ON messages(child_id, deleted_at, id);
-            PRAGMA user_version=1;
+            CREATE TABLE IF NOT EXISTS classes (
+                id INTEGER PRIMARY KEY AUTOINCREMENT,
+                starts_at INTEGER NOT NULL,
+                subject INTEGER NOT NULL,
+                level INTEGER NOT NULL,
+                theme INTEGER NOT NULL,
+                lesson INTEGER NOT NULL,
+                UNIQUE(starts_at, subject, level)
+            );
+            CREATE TABLE IF NOT EXISTS reservations (
+                class_id INTEGER NOT NULL REFERENCES classes(id),
+                child_id INTEGER NOT NULL REFERENCES children(id),
+                seat INTEGER NOT NULL CHECK(seat BETWEEN 0 AND 5),
+                created_at INTEGER NOT NULL,
+                PRIMARY KEY(class_id, child_id),
+                UNIQUE(class_id, seat)
+            );
+            CREATE TABLE IF NOT EXISTS class_results (
+                class_id INTEGER NOT NULL REFERENCES classes(id),
+                child_id INTEGER NOT NULL REFERENCES children(id),
+                phase INTEGER NOT NULL,
+                points INTEGER NOT NULL CHECK(points BETWEEN 0 AND 255),
+                answer INTEGER NOT NULL,
+                updated_at INTEGER NOT NULL,
+                PRIMARY KEY(class_id, child_id, phase)
+            );
+            PRAGMA user_version=2;
         ''')
 
     def close(self):
@@ -149,6 +175,10 @@ class Store:
                                   (account_id, profile)).fetchone()
             if row:
                 return row['id']
+            if child_id is None:
+                # The native virtual-class client reserves IDs 10, 11 and 12 for clowns.
+                child_id = max(100, self.db.execute(
+                    'SELECT COALESCE(MAX(id),0)+1 FROM children').fetchone()[0])
             cursor = self.db.execute('INSERT INTO children(id,account_id,name,profile) VALUES(?,?,?,?)',
                                      (child_id, account_id, name, profile))
             child_id = cursor.lastrowid
