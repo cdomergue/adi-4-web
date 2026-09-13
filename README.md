@@ -146,11 +146,9 @@ captures de test ne doivent pas être ajoutés au dépôt.
 ```text
 web/       application navigateur, assets portés et tests JavaScript
 serveur/   serveur local ADI 4.21, SQLite, outils et tests Python
-scripts/   extraction, préparation des ressources et outils d’analyse
-reports/   rapports de reverse engineering et de vérification
-deploy/    notes de déploiement statique
 ```
 
 Le projet documente séparément ce qui est vérifié sur le client original, ce qui
-est simulé dans le navigateur et ce qui reste à porter. Les crédits, licences et
-provenances sont conservés dans les fichiers et rapports concernés.
+est simulé dans le navigateur et ce qui reste à porter. Les outils d’extraction,
+les rapports de travail et la configuration de déploiement restent dans le dossier
+personnel et ne font pas partie de l’historique public.

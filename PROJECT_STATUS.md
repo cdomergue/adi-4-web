@@ -9,7 +9,8 @@ justifie pas d’exclure un jeu du portage.
 
 Préserver les graphismes originaux. Fonctionnement local, architecture déployable
 ultérieurement. Utiliser les ressources, règles et niveaux originaux ; distinguer
-les comportements vérifiés des hypothèses. Tenir des rapports avec captures.
+les comportements vérifiés des hypothèses. Les rapports de travail détaillés et
+leurs captures restent dans le dossier personnel.
 
 ## WGOB3 — 12 septembre 2026
 
@@ -18,8 +19,8 @@ Exécutable NE analysé avec Ghidra ; édition française Windows identifiée pa
 empreintes. Le portage utilise le moteur Gob de ScummVM compilé en WebAssembly
 avec les archives originales, des sauvegardes IndexedDB et leur import/export.
 Démarrage, bateau, déplacement et prise du club vérifiés ; l’utilisateur confirme
-le fonctionnement. Il ne s’agit pas d’une réécriture JS intégrale. Voir le
-[rapport et les limites des vérifications](reports/wgob3-portage.md).
+le fonctionnement. Il ne s’agit pas d’une réécriture JS intégrale. Les limites de
+ce portage restent documentées dans le dossier personnel.
 Le moteur compilé, les données WGOB3 et les ressources chambre/ludothèque/Sokoban
 sont inclus dans Git : un clone suffit, puis `npm --prefix web run dev` avec Node.js 22+.
 
@@ -31,7 +32,7 @@ Les 25 niveaux des cinq fichiers MAT sont jouables, avec les quatre décors et
 les sons originaux, annulation, clichés, reprise locale et démonstrations.
 Les 25 solutions SOX passent, soit 11 698 déplacements, avec ou sans la protection
 « Déplacements réfléchis ». Ressources web incluses, sans extraction au lancement.
-Voir [le rapport de portage](reports/mrmatt1-portage.md).
+Les détails de l’analyse restent documentés dans le dossier personnel.
 
 ## Station à reprendre
 
@@ -40,9 +41,15 @@ Voir [le rapport de portage](reports/mrmatt1-portage.md).
 - Validation native des simulations, visibilité des objets, progression sauvegardée.
 - Vérification des zones cliquables face au jeu original et des médias manquants.
 
-État détaillé : [bilan station](reports/station-portage.md).
+L’état détaillé de la station reste documenté dans le dossier personnel.
 Sources web committées dans `375c4a1`; extraction et rapports encore locaux.
 
 ## Première tranche chambre / jeux réalisée
 
-Chambre avec barre native animée, accès matières/jeux et aide textuelle. Décor natif IMAGE.EXT, Adi séparé, six objets animés avec son et gros plans originaux. Sokoban jouable sur ses 15 niveaux originaux après décompilation NE avec Ghidra. Extraction des ressources des 32 NE effectuée (1 988 entrées). Autres jeux toujours à recréer. Voir [chambre et jeux](reports/chambre-et-jeux.md). Ghidra a permis de vérifier la compression des ressources. Voir [reconstruction native](reports/chambre-native.md). Prochaine étape : extraire les zones de clic et les séquences de la machine d’états ; les interactions actuelles restent partielles.
+Chambre avec barre native animée, accès matières/jeux et aide textuelle. Décor natif
+IMAGE.EXT, Adi séparé, six objets animés avec son et gros plans originaux. Sokoban
+jouable sur ses 15 niveaux originaux après décompilation NE avec Ghidra. Extraction
+des ressources des 32 NE effectuée (1 988 entrées). Autres jeux toujours à recréer.
+Ghidra a permis de vérifier la compression des ressources. Prochaine étape : extraire
+les zones de clic et les séquences de la machine d’états ; les interactions actuelles
+restent partielles.
