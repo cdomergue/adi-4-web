@@ -35,6 +35,11 @@ Use `node:test` with `node:assert/strict` in `web/tests/*.test.mjs` and Python `
 
 History uses scoped Conventional Commits, such as `feat(web): add Adi mascot logo to site header` and `refactor(web): organize feature modules`. Keep commits focused. PRs should describe behavior changes, validation, relevant issues, screenshots for UI changes, and remaining porting limitations.
 
+Before every commit, systematically review the tracked README files and check
+whether the changes require updates to setup, usage, available features,
+limitations, or file references. Update them before committing when needed;
+local repository links must refer only to tracked files or tracked directories.
+
 Before every commit, systematically review « À propos de cette version » and check whether the changes require updating its content. If needed, update it before committing so that the description of available features and remaining limitations stays accurate.
 
 ## Assets & Deployment
