@@ -18,6 +18,7 @@ __pycache__/
 !/web/public/game/games/
 !/web/public/game/sokoban/
 !/web/public/game/mrmatt1/
+!/web/public/game/badtoys/
 !/web/public/game/station/
 /web/public/game/station/*
 !/web/public/game/station/sim-*.json

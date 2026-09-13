@@ -37,6 +37,7 @@ web/
         greenhouse-rules.js       règles et validation de la serre
         generated/                calculs issus des scripts originaux
       games/
+        badtoys/{view,engine,renderer}.js moteur partagé Bad Toys, cartes par épisode
         mrmatt/{view,engine}.js    interface et règles de Mr. Matt
         sokoban/{view,engine}.js   interface et règles de Sokoban
         wgob3/view.js             intégration du lecteur autonome
@@ -171,3 +172,18 @@ couvrent aussi la lecture des blocs de texte et un exercice original. Voir
 [le rapport Internet](../reports/internet-local.md) pour les parcours navigateur,
 les captures, la régénération et les limites : 218 exercices pris en charge sur
 2 354 modules, contenus serveur remplacés ou absents, formats encore non décodés.
+
+
+## Bad Toys 3D
+
+`features/games/badtoys/engine.js` gère la partie sans DOM ; `renderer.js` projette
+les cartes et sprites originaux sur le canvas ; `view.js` possède les commandes,
+la lecture des effets WAV et les sauvegardes par épisode (I conserve `adi4-badtoys-v1`). Le lecteur accepte
+un identifiant d’épisode, séparé du moteur. Les quatre épisodes sont proposés dans
+la caisse, sous `#game/bt3d_1` à `#game/bt3d_4`. Les sauvegardes de II à IV utilisent
+le suffixe `-episode-2`, `-episode-3` ou `-episode-4`, sans écraser celle de I.
+
+`scripts/prepare_badtoys.py` extrait le DatPack partagé et les tables des quatre
+exécutables. Les exports de `game/badtoys/` permettent de jouer après clonage sans
+Wine, Ghidra, Python ou installateur. Voir le [rapport de portage](../reports/badtoys-portage.md)
+pour les preuves, captures, tests et différences restantes avec Windows.

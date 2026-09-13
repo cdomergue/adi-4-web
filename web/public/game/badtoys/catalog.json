@@ -1,0 +1,4281 @@
+{
+  "credits": {
+    "text": "Copyright \u00a9 1995, 1996, 1997 Tibo.\nTous droits r\u00e9serv\u00e9s.",
+    "source": "BT3D_1.EXE",
+    "offset": 159603,
+    "length": 56
+  },
+  "enemyTypes": [
+    {
+      "prefix": "PNS",
+      "phases": [
+        [
+          {
+            "frame": 0,
+            "ticks": 10,
+            "sound": 0
+          },
+          {
+            "frame": 1,
+            "ticks": 10,
+            "sound": 0
+          },
+          {
+            "frame": 2,
+            "ticks": 10,
+            "sound": 0
+          },
+          {
+            "frame": 3,
+            "ticks": 10,
+            "sound": 0
+          },
+          {
+            "frame": 4,
+            "ticks": 10,
+            "sound": 0
+          },
+          {
+            "frame": 5,
+            "ticks": 10,
+            "sound": 0
+          }
+        ],
+        [
+          {
+            "frame": 13,
+            "ticks": 20,
+            "sound": 63
+          },
+          {
+            "frame": 14,
+            "ticks": 20,
+            "sound": 0
+          },
+          {
+            "frame": 15,
+            "ticks": 20,
+            "sound": 0
+          },
+          {
+            "frame": 16,
+            "ticks": 20,
+            "sound": 0
+          },
+          {
+            "frame": 17,
+            "ticks": 20,
+            "sound": 0
+          }
+        ],
+        [
+          {
+            "frame": 18,
+            "ticks": 246,
+            "sound": 62
+          }
+        ],
+        [
+          {
+            "frame": 18,
+            "ticks": 0,
+            "sound": 64
+          },
+          {
+            "frame": 19,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 20,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 20,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 21,
+            "ticks": 0,
+            "sound": 65
+          },
+          {
+            "frame": 22,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 23,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 22,
+            "ticks": 0,
+            "sound": 0
+          }
+        ]
+      ],
+      "health": 4,
+      "projectileDamage": 1,
+      "attackKind": 0,
+      "loot": 0,
+      "alertSound": 60,
+      "attackFrame": 0
+    },
+    {
+      "prefix": "BLB",
+      "phases": [
+        [
+          {
+            "frame": 0,
+            "ticks": 5,
+            "sound": 0
+          },
+          {
+            "frame": 1,
+            "ticks": 5,
+            "sound": 0
+          },
+          {
+            "frame": 2,
+            "ticks": 5,
+            "sound": 0
+          },
+          {
+            "frame": 3,
+            "ticks": 5,
+            "sound": 0
+          },
+          {
+            "frame": 4,
+            "ticks": 5,
+            "sound": 0
+          }
+        ],
+        [
+          {
+            "frame": 4,
+            "ticks": 5,
+            "sound": 0
+          },
+          {
+            "frame": 5,
+            "ticks": 5,
+            "sound": 0
+          },
+          {
+            "frame": 6,
+            "ticks": 5,
+            "sound": 1
+          },
+          {
+            "frame": 7,
+            "ticks": 5,
+            "sound": 0
+          }
+        ],
+        [
+          {
+            "frame": 8,
+            "ticks": 0,
+            "sound": 72
+          }
+        ],
+        [
+          {
+            "frame": 8,
+            "ticks": 0,
+            "sound": 74
+          },
+          {
+            "frame": 11,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 10,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 12,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 13,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 14,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 15,
+            "ticks": 0,
+            "sound": 0
+          }
+        ]
+      ],
+      "health": 10,
+      "projectileDamage": 1,
+      "attackKind": 1,
+      "loot": 46,
+      "alertSound": 70,
+      "attackFrame": 2
+    },
+    {
+      "prefix": "PRK",
+      "phases": [
+        [
+          {
+            "frame": 2,
+            "ticks": 5,
+            "sound": 0
+          },
+          {
+            "frame": 1,
+            "ticks": 5,
+            "sound": 0
+          },
+          {
+            "frame": 0,
+            "ticks": 5,
+            "sound": 0
+          },
+          {
+            "frame": 2,
+            "ticks": 5,
+            "sound": 0
+          },
+          {
+            "frame": 3,
+            "ticks": 5,
+            "sound": 80
+          },
+          {
+            "frame": 4,
+            "ticks": 5,
+            "sound": 0
+          },
+          {
+            "frame": 5,
+            "ticks": 5,
+            "sound": 0
+          },
+          {
+            "frame": 6,
+            "ticks": 5,
+            "sound": 0
+          },
+          {
+            "frame": 4,
+            "ticks": 5,
+            "sound": 0
+          },
+          {
+            "frame": 3,
+            "ticks": 5,
+            "sound": 0
+          }
+        ],
+        [
+          {
+            "frame": 7,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 8,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 9,
+            "ticks": 0,
+            "sound": 3
+          },
+          {
+            "frame": 8,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 7,
+            "ticks": 0,
+            "sound": 0
+          }
+        ],
+        [
+          {
+            "frame": 10,
+            "ticks": 0,
+            "sound": 81
+          },
+          {
+            "frame": 10,
+            "ticks": 0,
+            "sound": 0
+          }
+        ],
+        [
+          {
+            "frame": 10,
+            "ticks": 0,
+            "sound": 81
+          },
+          {
+            "frame": 11,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 12,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 13,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 14,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 15,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 16,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 17,
+            "ticks": 0,
+            "sound": 82
+          },
+          {
+            "frame": 18,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 19,
+            "ticks": 0,
+            "sound": 0
+          }
+        ]
+      ],
+      "health": 45,
+      "projectileDamage": 1,
+      "attackKind": 3,
+      "loot": 52,
+      "alertSound": 0,
+      "attackFrame": 3
+    },
+    {
+      "prefix": "RCK",
+      "phases": [
+        [
+          {
+            "frame": 0,
+            "ticks": 5,
+            "sound": 0
+          },
+          {
+            "frame": 1,
+            "ticks": 5,
+            "sound": 0
+          },
+          {
+            "frame": 2,
+            "ticks": 5,
+            "sound": 0
+          },
+          {
+            "frame": 3,
+            "ticks": 5,
+            "sound": 0
+          },
+          {
+            "frame": 4,
+            "ticks": 5,
+            "sound": 0
+          },
+          {
+            "frame": 5,
+            "ticks": 5,
+            "sound": 0
+          }
+        ],
+        [
+          {
+            "frame": 6,
+            "ticks": 0,
+            "sound": 2
+          },
+          {
+            "frame": 7,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 8,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 0,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 9,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 0,
+            "ticks": 0,
+            "sound": 0
+          }
+        ],
+        [
+          {
+            "frame": 10,
+            "ticks": 0,
+            "sound": 86
+          },
+          {
+            "frame": 10,
+            "ticks": 0,
+            "sound": 0
+          }
+        ],
+        [
+          {
+            "frame": 10,
+            "ticks": 0,
+            "sound": 65
+          },
+          {
+            "frame": 11,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 12,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 13,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 14,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 15,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 16,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 17,
+            "ticks": 0,
+            "sound": 0
+          }
+        ]
+      ],
+      "health": 14,
+      "projectileDamage": 1,
+      "attackKind": 2,
+      "loot": 51,
+      "alertSound": 85,
+      "attackFrame": 1
+    },
+    {
+      "prefix": "RBT",
+      "phases": [
+        [
+          {
+            "frame": 0,
+            "ticks": 5,
+            "sound": 0
+          },
+          {
+            "frame": 1,
+            "ticks": 5,
+            "sound": 102
+          },
+          {
+            "frame": 2,
+            "ticks": 5,
+            "sound": 0
+          },
+          {
+            "frame": 1,
+            "ticks": 5,
+            "sound": 0
+          },
+          {
+            "frame": 3,
+            "ticks": 5,
+            "sound": 102
+          },
+          {
+            "frame": 4,
+            "ticks": 5,
+            "sound": 0
+          },
+          {
+            "frame": 5,
+            "ticks": 5,
+            "sound": 0
+          },
+          {
+            "frame": 4,
+            "ticks": 5,
+            "sound": 0
+          }
+        ],
+        [
+          {
+            "frame": 6,
+            "ticks": 0,
+            "sound": 103
+          },
+          {
+            "frame": 6,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 6,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 7,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 7,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 8,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 4,
+            "ticks": 0,
+            "sound": 0
+          }
+        ],
+        [
+          {
+            "frame": 9,
+            "ticks": 0,
+            "sound": 0
+          }
+        ],
+        [
+          {
+            "frame": 9,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 9,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 10,
+            "ticks": 0,
+            "sound": 101
+          },
+          {
+            "frame": 10,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 11,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 11,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 12,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 12,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 13,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 13,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 14,
+            "ticks": 0,
+            "sound": 0
+          }
+        ]
+      ],
+      "health": 750,
+      "projectileDamage": 1,
+      "attackKind": 5,
+      "loot": 50,
+      "alertSound": 100,
+      "attackFrame": 0
+    },
+    {
+      "prefix": "VOS",
+      "phases": [
+        [
+          {
+            "frame": 0,
+            "ticks": 5,
+            "sound": 0
+          },
+          {
+            "frame": 1,
+            "ticks": 5,
+            "sound": 0
+          },
+          {
+            "frame": 2,
+            "ticks": 5,
+            "sound": 0
+          },
+          {
+            "frame": 3,
+            "ticks": 5,
+            "sound": 0
+          },
+          {
+            "frame": 4,
+            "ticks": 5,
+            "sound": 0
+          },
+          {
+            "frame": 3,
+            "ticks": 5,
+            "sound": 0
+          },
+          {
+            "frame": 2,
+            "ticks": 5,
+            "sound": 0
+          },
+          {
+            "frame": 1,
+            "ticks": 5,
+            "sound": 0
+          }
+        ],
+        [
+          {
+            "frame": 6,
+            "ticks": 0,
+            "sound": 93
+          },
+          {
+            "frame": 7,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 8,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 6,
+            "ticks": 0,
+            "sound": 0
+          }
+        ],
+        [
+          {
+            "frame": 5,
+            "ticks": 0,
+            "sound": 92
+          }
+        ],
+        [
+          {
+            "frame": 5,
+            "ticks": 0,
+            "sound": 94
+          },
+          {
+            "frame": 9,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 10,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 11,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 12,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 13,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 14,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 15,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 16,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 17,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 18,
+            "ticks": 0,
+            "sound": 0
+          }
+        ]
+      ],
+      "health": 23,
+      "projectileDamage": 1,
+      "attackKind": 4,
+      "loot": 0,
+      "alertSound": 90,
+      "attackFrame": 0
+    },
+    {
+      "prefix": "KOU",
+      "phases": [
+        [
+          {
+            "frame": 0,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 0,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 0,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 0,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 0,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 0,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 0,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 0,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 0,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 0,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 0,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 0,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 0,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 0,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 0,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 0,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 0,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 0,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 0,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 0,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 0,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 0,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 0,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 0,
+            "ticks": 0,
+            "sound": 0
+          }
+        ],
+        [
+          {
+            "frame": 0,
+            "ticks": 20,
+            "sound": 0
+          },
+          {
+            "frame": 1,
+            "ticks": 20,
+            "sound": 0
+          }
+        ],
+        [
+          {
+            "frame": 0,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 0,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 0,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 0,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 0,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 0,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 0,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 0,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 0,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 0,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 0,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 0,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 0,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 0,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 0,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 0,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 0,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 0,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 0,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 0,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 0,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 0,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 0,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 0,
+            "ticks": 0,
+            "sound": 0
+          }
+        ],
+        [
+          {
+            "frame": 2,
+            "ticks": 0,
+            "sound": 105
+          },
+          {
+            "frame": 3,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 4,
+            "ticks": 0,
+            "sound": 0
+          }
+        ]
+      ],
+      "health": 0,
+      "projectileDamage": 23,
+      "attackKind": 3,
+      "loot": 0,
+      "alertSound": 0,
+      "attackFrame": 0
+    },
+    {
+      "prefix": "ELK",
+      "phases": [
+        [
+          {
+            "frame": 0,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 0,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 0,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 0,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 0,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 0,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 0,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 0,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 0,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 0,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 0,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 0,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 0,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 0,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 0,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 0,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 0,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 0,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 0,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 0,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 0,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 0,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 0,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 0,
+            "ticks": 0,
+            "sound": 0
+          }
+        ],
+        [
+          {
+            "frame": 0,
+            "ticks": 60,
+            "sound": 0
+          },
+          {
+            "frame": 1,
+            "ticks": 60,
+            "sound": 0
+          }
+        ],
+        [
+          {
+            "frame": 0,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 0,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 0,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 0,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 0,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 0,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 0,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 0,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 0,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 0,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 0,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 0,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 0,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 0,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 0,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 0,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 0,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 0,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 0,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 0,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 0,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 0,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 0,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 0,
+            "ticks": 0,
+            "sound": 0
+          }
+        ],
+        [
+          {
+            "frame": 2,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 3,
+            "ticks": 0,
+            "sound": 106
+          },
+          {
+            "frame": 4,
+            "ticks": 0,
+            "sound": 0
+          }
+        ]
+      ],
+      "health": 0,
+      "projectileDamage": 30,
+      "attackKind": 3,
+      "loot": 0,
+      "alertSound": 0,
+      "attackFrame": 0
+    },
+    {
+      "prefix": "ROB",
+      "phases": [
+        [
+          {
+            "frame": 0,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 0,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 0,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 0,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 0,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 0,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 0,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 0,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 0,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 0,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 0,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 0,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 0,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 0,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 0,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 0,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 0,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 0,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 0,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 0,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 0,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 0,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 0,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 0,
+            "ticks": 0,
+            "sound": 0
+          }
+        ],
+        [
+          {
+            "frame": 0,
+            "ticks": 25,
+            "sound": 0
+          },
+          {
+            "frame": 1,
+            "ticks": 25,
+            "sound": 0
+          },
+          {
+            "frame": 2,
+            "ticks": 25,
+            "sound": 0
+          }
+        ],
+        [
+          {
+            "frame": 0,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 0,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 0,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 0,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 0,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 0,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 0,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 0,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 0,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 0,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 0,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 0,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 0,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 0,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 0,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 0,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 0,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 0,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 0,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 0,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 0,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 0,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 0,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 0,
+            "ticks": 0,
+            "sound": 0
+          }
+        ],
+        [
+          {
+            "frame": 3,
+            "ticks": 0,
+            "sound": 105
+          },
+          {
+            "frame": 4,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 5,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 6,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 7,
+            "ticks": 0,
+            "sound": 0
+          }
+        ]
+      ],
+      "health": 0,
+      "projectileDamage": 40,
+      "attackKind": 3,
+      "loot": 0,
+      "alertSound": 0,
+      "attackFrame": 0
+    },
+    {
+      "prefix": "PSK",
+      "phases": [
+        [
+          {
+            "frame": 0,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 0,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 0,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 0,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 0,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 0,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 0,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 0,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 0,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 0,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 0,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 0,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 0,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 0,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 0,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 0,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 0,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 0,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 0,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 0,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 0,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 0,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 0,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 0,
+            "ticks": 0,
+            "sound": 0
+          }
+        ],
+        [
+          {
+            "frame": 0,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 0,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 0,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 0,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 0,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 0,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 0,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 0,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 0,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 0,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 0,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 0,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 0,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 0,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 0,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 0,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 0,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 0,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 0,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 0,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 0,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 0,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 0,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 0,
+            "ticks": 0,
+            "sound": 0
+          }
+        ],
+        [
+          {
+            "frame": 0,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 0,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 0,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 0,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 0,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 0,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 0,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 0,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 0,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 0,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 0,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 0,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 0,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 0,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 0,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 0,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 0,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 0,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 0,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 0,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 0,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 0,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 0,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 0,
+            "ticks": 0,
+            "sound": 0
+          }
+        ],
+        [
+          {
+            "frame": 0,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 1,
+            "ticks": 0,
+            "sound": 0
+          },
+          {
+            "frame": 2,
+            "ticks": 0,
+            "sound": 0
+          }
+        ]
+      ],
+      "health": 0,
+      "projectileDamage": 0,
+      "attackKind": 3,
+      "loot": 0,
+      "alertSound": 0,
+      "attackFrame": 0
+    }
+  ],
+  "weapons": [
+    {
+      "damage": 3,
+      "cost": 0,
+      "sound": 5,
+      "frames": [
+        135,
+        137,
+        136
+      ]
+    },
+    {
+      "damage": 6,
+      "cost": 1,
+      "sound": 1,
+      "frames": [
+        131,
+        132,
+        133,
+        134
+      ]
+    },
+    {
+      "damage": 10,
+      "cost": 1,
+      "sound": 2,
+      "frames": [
+        142,
+        143,
+        144,
+        145,
+        146
+      ]
+    },
+    {
+      "damage": 0,
+      "cost": 5,
+      "sound": 3,
+      "frames": [
+        138,
+        139,
+        140,
+        141,
+        150,
+        151
+      ]
+    }
+  ],
+  "images": {
+    "PNS_0": {
+      "file": "pns_0.webp",
+      "width": 64,
+      "height": 64
+    },
+    "PNS_1": {
+      "file": "pns_1.webp",
+      "width": 64,
+      "height": 64
+    },
+    "PNS_2": {
+      "file": "pns_2.webp",
+      "width": 64,
+      "height": 64
+    },
+    "PNS_3": {
+      "file": "pns_3.webp",
+      "width": 64,
+      "height": 64
+    },
+    "PNS_4": {
+      "file": "pns_4.webp",
+      "width": 64,
+      "height": 64
+    },
+    "PNS_5": {
+      "file": "pns_5.webp",
+      "width": 64,
+      "height": 64
+    },
+    "PNS_13": {
+      "file": "pns_13.webp",
+      "width": 64,
+      "height": 64
+    },
+    "PNS_14": {
+      "file": "pns_14.webp",
+      "width": 64,
+      "height": 64
+    },
+    "PNS_15": {
+      "file": "pns_15.webp",
+      "width": 64,
+      "height": 64
+    },
+    "PNS_16": {
+      "file": "pns_16.webp",
+      "width": 64,
+      "height": 64
+    },
+    "PNS_17": {
+      "file": "pns_17.webp",
+      "width": 64,
+      "height": 64
+    },
+    "PNS_18": {
+      "file": "pns_18.webp",
+      "width": 64,
+      "height": 64
+    },
+    "PNS_19": {
+      "file": "pns_19.webp",
+      "width": 64,
+      "height": 64
+    },
+    "PNS_20": {
+      "file": "pns_20.webp",
+      "width": 64,
+      "height": 64
+    },
+    "PNS_21": {
+      "file": "pns_21.webp",
+      "width": 64,
+      "height": 64
+    },
+    "PNS_22": {
+      "file": "pns_22.webp",
+      "width": 64,
+      "height": 64
+    },
+    "PNS_23": {
+      "file": "pns_23.webp",
+      "width": 64,
+      "height": 64
+    },
+    "PSK_0": {
+      "file": "psk_0.webp",
+      "width": 64,
+      "height": 64
+    },
+    "PSK_1": {
+      "file": "psk_1.webp",
+      "width": 64,
+      "height": 64
+    },
+    "PSK_2": {
+      "file": "psk_2.webp",
+      "width": 64,
+      "height": 64
+    },
+    "KOU_0": {
+      "file": "kou_0.webp",
+      "width": 64,
+      "height": 64
+    },
+    "KOU_1": {
+      "file": "kou_1.webp",
+      "width": 64,
+      "height": 64
+    },
+    "KOU_2": {
+      "file": "kou_2.webp",
+      "width": 64,
+      "height": 64
+    },
+    "KOU_3": {
+      "file": "kou_3.webp",
+      "width": 64,
+      "height": 64
+    },
+    "KOU_4": {
+      "file": "kou_4.webp",
+      "width": 64,
+      "height": 64
+    },
+    "BLB_0": {
+      "file": "blb_0.webp",
+      "width": 64,
+      "height": 64
+    },
+    "BLB_1": {
+      "file": "blb_1.webp",
+      "width": 64,
+      "height": 64
+    },
+    "BLB_2": {
+      "file": "blb_2.webp",
+      "width": 64,
+      "height": 64
+    },
+    "BLB_3": {
+      "file": "blb_3.webp",
+      "width": 64,
+      "height": 64
+    },
+    "BLB_4": {
+      "file": "blb_4.webp",
+      "width": 64,
+      "height": 64
+    },
+    "BLB_5": {
+      "file": "blb_5.webp",
+      "width": 64,
+      "height": 64
+    },
+    "BLB_6": {
+      "file": "blb_6.webp",
+      "width": 64,
+      "height": 64
+    },
+    "BLB_7": {
+      "file": "blb_7.webp",
+      "width": 64,
+      "height": 64
+    },
+    "BLB_8": {
+      "file": "blb_8.webp",
+      "width": 64,
+      "height": 64
+    },
+    "BLB_9": {
+      "file": "blb_9.webp",
+      "width": 64,
+      "height": 64
+    },
+    "BLB_10": {
+      "file": "blb_10.webp",
+      "width": 64,
+      "height": 64
+    },
+    "BLB_11": {
+      "file": "blb_11.webp",
+      "width": 64,
+      "height": 64
+    },
+    "BLB_12": {
+      "file": "blb_12.webp",
+      "width": 64,
+      "height": 64
+    },
+    "BLB_13": {
+      "file": "blb_13.webp",
+      "width": 64,
+      "height": 64
+    },
+    "BLB_14": {
+      "file": "blb_14.webp",
+      "width": 64,
+      "height": 64
+    },
+    "BLB_15": {
+      "file": "blb_15.webp",
+      "width": 64,
+      "height": 64
+    },
+    "ELK_0": {
+      "file": "elk_0.webp",
+      "width": 64,
+      "height": 64
+    },
+    "ELK_1": {
+      "file": "elk_1.webp",
+      "width": 64,
+      "height": 64
+    },
+    "ELK_2": {
+      "file": "elk_2.webp",
+      "width": 64,
+      "height": 64
+    },
+    "ELK_3": {
+      "file": "elk_3.webp",
+      "width": 64,
+      "height": 64
+    },
+    "ELK_4": {
+      "file": "elk_4.webp",
+      "width": 64,
+      "height": 64
+    },
+    "RCK_0": {
+      "file": "rck_0.webp",
+      "width": 64,
+      "height": 64
+    },
+    "RCK_1": {
+      "file": "rck_1.webp",
+      "width": 64,
+      "height": 64
+    },
+    "RCK_2": {
+      "file": "rck_2.webp",
+      "width": 64,
+      "height": 64
+    },
+    "RCK_3": {
+      "file": "rck_3.webp",
+      "width": 64,
+      "height": 64
+    },
+    "RCK_4": {
+      "file": "rck_4.webp",
+      "width": 64,
+      "height": 64
+    },
+    "RCK_5": {
+      "file": "rck_5.webp",
+      "width": 64,
+      "height": 64
+    },
+    "RCK_6": {
+      "file": "rck_6.webp",
+      "width": 64,
+      "height": 64
+    },
+    "RCK_7": {
+      "file": "rck_7.webp",
+      "width": 64,
+      "height": 64
+    },
+    "RCK_8": {
+      "file": "rck_8.webp",
+      "width": 64,
+      "height": 64
+    },
+    "RCK_9": {
+      "file": "rck_9.webp",
+      "width": 64,
+      "height": 64
+    },
+    "RCK_10": {
+      "file": "rck_10.webp",
+      "width": 64,
+      "height": 64
+    },
+    "RCK_11": {
+      "file": "rck_11.webp",
+      "width": 64,
+      "height": 64
+    },
+    "RCK_12": {
+      "file": "rck_12.webp",
+      "width": 64,
+      "height": 64
+    },
+    "RCK_13": {
+      "file": "rck_13.webp",
+      "width": 64,
+      "height": 64
+    },
+    "RCK_14": {
+      "file": "rck_14.webp",
+      "width": 64,
+      "height": 64
+    },
+    "RCK_15": {
+      "file": "rck_15.webp",
+      "width": 64,
+      "height": 64
+    },
+    "RCK_16": {
+      "file": "rck_16.webp",
+      "width": 64,
+      "height": 64
+    },
+    "RCK_17": {
+      "file": "rck_17.webp",
+      "width": 64,
+      "height": 64
+    },
+    "VOS_0": {
+      "file": "vos_0.webp",
+      "width": 64,
+      "height": 64
+    },
+    "VOS_1": {
+      "file": "vos_1.webp",
+      "width": 64,
+      "height": 64
+    },
+    "VOS_2": {
+      "file": "vos_2.webp",
+      "width": 64,
+      "height": 64
+    },
+    "VOS_3": {
+      "file": "vos_3.webp",
+      "width": 64,
+      "height": 64
+    },
+    "VOS_4": {
+      "file": "vos_4.webp",
+      "width": 64,
+      "height": 64
+    },
+    "VOS_5": {
+      "file": "vos_5.webp",
+      "width": 64,
+      "height": 64
+    },
+    "VOS_6": {
+      "file": "vos_6.webp",
+      "width": 64,
+      "height": 64
+    },
+    "VOS_7": {
+      "file": "vos_7.webp",
+      "width": 64,
+      "height": 64
+    },
+    "VOS_8": {
+      "file": "vos_8.webp",
+      "width": 64,
+      "height": 64
+    },
+    "VOS_9": {
+      "file": "vos_9.webp",
+      "width": 64,
+      "height": 64
+    },
+    "VOS_10": {
+      "file": "vos_10.webp",
+      "width": 64,
+      "height": 64
+    },
+    "VOS_11": {
+      "file": "vos_11.webp",
+      "width": 64,
+      "height": 64
+    },
+    "VOS_12": {
+      "file": "vos_12.webp",
+      "width": 64,
+      "height": 64
+    },
+    "VOS_13": {
+      "file": "vos_13.webp",
+      "width": 64,
+      "height": 64
+    },
+    "VOS_14": {
+      "file": "vos_14.webp",
+      "width": 64,
+      "height": 64
+    },
+    "VOS_15": {
+      "file": "vos_15.webp",
+      "width": 64,
+      "height": 64
+    },
+    "VOS_16": {
+      "file": "vos_16.webp",
+      "width": 64,
+      "height": 64
+    },
+    "VOS_17": {
+      "file": "vos_17.webp",
+      "width": 64,
+      "height": 64
+    },
+    "VOS_18": {
+      "file": "vos_18.webp",
+      "width": 64,
+      "height": 64
+    },
+    "RBT_0": {
+      "file": "rbt_0.webp",
+      "width": 64,
+      "height": 64
+    },
+    "RBT_1": {
+      "file": "rbt_1.webp",
+      "width": 64,
+      "height": 64
+    },
+    "RBT_2": {
+      "file": "rbt_2.webp",
+      "width": 64,
+      "height": 64
+    },
+    "RBT_3": {
+      "file": "rbt_3.webp",
+      "width": 64,
+      "height": 64
+    },
+    "RBT_4": {
+      "file": "rbt_4.webp",
+      "width": 64,
+      "height": 64
+    },
+    "RBT_5": {
+      "file": "rbt_5.webp",
+      "width": 64,
+      "height": 64
+    },
+    "RBT_6": {
+      "file": "rbt_6.webp",
+      "width": 64,
+      "height": 64
+    },
+    "RBT_7": {
+      "file": "rbt_7.webp",
+      "width": 64,
+      "height": 64
+    },
+    "RBT_8": {
+      "file": "rbt_8.webp",
+      "width": 64,
+      "height": 64
+    },
+    "RBT_9": {
+      "file": "rbt_9.webp",
+      "width": 64,
+      "height": 64
+    },
+    "RBT_10": {
+      "file": "rbt_10.webp",
+      "width": 64,
+      "height": 64
+    },
+    "RBT_11": {
+      "file": "rbt_11.webp",
+      "width": 64,
+      "height": 64
+    },
+    "RBT_12": {
+      "file": "rbt_12.webp",
+      "width": 64,
+      "height": 64
+    },
+    "RBT_13": {
+      "file": "rbt_13.webp",
+      "width": 64,
+      "height": 64
+    },
+    "RBT_14": {
+      "file": "rbt_14.webp",
+      "width": 64,
+      "height": 64
+    },
+    "ROB_0": {
+      "file": "rob_0.webp",
+      "width": 64,
+      "height": 64
+    },
+    "ROB_1": {
+      "file": "rob_1.webp",
+      "width": 64,
+      "height": 64
+    },
+    "ROB_2": {
+      "file": "rob_2.webp",
+      "width": 64,
+      "height": 64
+    },
+    "ROB_3": {
+      "file": "rob_3.webp",
+      "width": 64,
+      "height": 64
+    },
+    "ROB_4": {
+      "file": "rob_4.webp",
+      "width": 64,
+      "height": 64
+    },
+    "ROB_5": {
+      "file": "rob_5.webp",
+      "width": 64,
+      "height": 64
+    },
+    "ROB_6": {
+      "file": "rob_6.webp",
+      "width": 64,
+      "height": 64
+    },
+    "ROB_7": {
+      "file": "rob_7.webp",
+      "width": 64,
+      "height": 64
+    },
+    "PRK_0": {
+      "file": "prk_0.webp",
+      "width": 64,
+      "height": 64
+    },
+    "PRK_1": {
+      "file": "prk_1.webp",
+      "width": 64,
+      "height": 64
+    },
+    "PRK_2": {
+      "file": "prk_2.webp",
+      "width": 64,
+      "height": 64
+    },
+    "PRK_3": {
+      "file": "prk_3.webp",
+      "width": 64,
+      "height": 64
+    },
+    "PRK_4": {
+      "file": "prk_4.webp",
+      "width": 64,
+      "height": 64
+    },
+    "PRK_5": {
+      "file": "prk_5.webp",
+      "width": 64,
+      "height": 64
+    },
+    "PRK_6": {
+      "file": "prk_6.webp",
+      "width": 64,
+      "height": 64
+    },
+    "PRK_7": {
+      "file": "prk_7.webp",
+      "width": 64,
+      "height": 64
+    },
+    "PRK_8": {
+      "file": "prk_8.webp",
+      "width": 64,
+      "height": 64
+    },
+    "PRK_9": {
+      "file": "prk_9.webp",
+      "width": 64,
+      "height": 64
+    },
+    "PRK_10": {
+      "file": "prk_10.webp",
+      "width": 64,
+      "height": 64
+    },
+    "PRK_11": {
+      "file": "prk_11.webp",
+      "width": 64,
+      "height": 64
+    },
+    "PRK_12": {
+      "file": "prk_12.webp",
+      "width": 64,
+      "height": 64
+    },
+    "PRK_13": {
+      "file": "prk_13.webp",
+      "width": 64,
+      "height": 64
+    },
+    "PRK_14": {
+      "file": "prk_14.webp",
+      "width": 64,
+      "height": 64
+    },
+    "PRK_15": {
+      "file": "prk_15.webp",
+      "width": 64,
+      "height": 64
+    },
+    "PRK_16": {
+      "file": "prk_16.webp",
+      "width": 64,
+      "height": 64
+    },
+    "PRK_17": {
+      "file": "prk_17.webp",
+      "width": 64,
+      "height": 64
+    },
+    "PRK_18": {
+      "file": "prk_18.webp",
+      "width": 64,
+      "height": 64
+    },
+    "PRK_19": {
+      "file": "prk_19.webp",
+      "width": 64,
+      "height": 64
+    },
+    "BM_POD": {
+      "file": "bm_pod.webp",
+      "width": 64,
+      "height": 64
+    },
+    "BM_BGR_A": {
+      "file": "bm_bgr_a.webp",
+      "width": 64,
+      "height": 64
+    },
+    "BM_LISTA": {
+      "file": "bm_lista.webp",
+      "width": 256,
+      "height": 32
+    },
+    "BM_PODL": {
+      "file": "bm_podl.webp",
+      "width": 64,
+      "height": 64
+    },
+    "BM_N0": {
+      "file": "bm_n0.webp",
+      "width": 64,
+      "height": 64
+    },
+    "BM_N1": {
+      "file": "bm_n1.webp",
+      "width": 64,
+      "height": 64
+    },
+    "BM_N2": {
+      "file": "bm_n2.webp",
+      "width": 64,
+      "height": 64
+    },
+    "BM_N3": {
+      "file": "bm_n3.webp",
+      "width": 64,
+      "height": 64
+    },
+    "BM_N4": {
+      "file": "bm_n4.webp",
+      "width": 64,
+      "height": 64
+    },
+    "BM_N5": {
+      "file": "bm_n5.webp",
+      "width": 64,
+      "height": 64
+    },
+    "BM_N6": {
+      "file": "bm_n6.webp",
+      "width": 64,
+      "height": 64
+    },
+    "BM_N7": {
+      "file": "bm_n7.webp",
+      "width": 64,
+      "height": 64
+    },
+    "BM_N8": {
+      "file": "bm_n8.webp",
+      "width": 64,
+      "height": 64
+    },
+    "BM_N9": {
+      "file": "bm_n9.webp",
+      "width": 64,
+      "height": 64
+    },
+    "BM_NN": {
+      "file": "bm_nn.webp",
+      "width": 18,
+      "height": 17
+    },
+    "BM_!": {
+      "file": "bm_!.webp",
+      "width": 64,
+      "height": 64
+    },
+    "BM_KEY1": {
+      "file": "bm_key1.webp",
+      "width": 33,
+      "height": 9
+    },
+    "BM_KEY2": {
+      "file": "bm_key2.webp",
+      "width": 33,
+      "height": 9
+    },
+    "BM_KEY3": {
+      "file": "bm_key3.webp",
+      "width": 33,
+      "height": 9
+    },
+    "BM_Z1OK": {
+      "file": "bm_z1ok.webp",
+      "width": 32,
+      "height": 32
+    },
+    "BM_Z2OK": {
+      "file": "bm_z2ok.webp",
+      "width": 32,
+      "height": 32
+    },
+    "BM_Z3OK": {
+      "file": "bm_z3ok.webp",
+      "width": 32,
+      "height": 32
+    },
+    "BM_Z4OK": {
+      "file": "bm_z4ok.webp",
+      "width": 32,
+      "height": 32
+    },
+    "BM_Z1NO": {
+      "file": "bm_z1no.webp",
+      "width": 32,
+      "height": 32
+    },
+    "BM_Z2NO": {
+      "file": "bm_z2no.webp",
+      "width": 32,
+      "height": 32
+    },
+    "BM_Z3NO": {
+      "file": "bm_z3no.webp",
+      "width": 32,
+      "height": 32
+    },
+    "BM_Z4NO": {
+      "file": "bm_z4no.webp",
+      "width": 32,
+      "height": 32
+    },
+    "M_BGR": {
+      "file": "m_bgr.webp",
+      "width": 8,
+      "height": 6
+    },
+    "M_DVR_H": {
+      "file": "m_dvr_h.webp",
+      "width": 8,
+      "height": 6
+    },
+    "M_DVR_H1": {
+      "file": "m_dvr_h1.webp",
+      "width": 8,
+      "height": 6
+    },
+    "M_DVR_H2": {
+      "file": "m_dvr_h2.webp",
+      "width": 8,
+      "height": 6
+    },
+    "M_DVR_H3": {
+      "file": "m_dvr_h3.webp",
+      "width": 8,
+      "height": 6
+    },
+    "M_DVR_V": {
+      "file": "m_dvr_v.webp",
+      "width": 8,
+      "height": 6
+    },
+    "M_DVR_V1": {
+      "file": "m_dvr_v1.webp",
+      "width": 8,
+      "height": 6
+    },
+    "M_DVR_V2": {
+      "file": "m_dvr_v2.webp",
+      "width": 8,
+      "height": 6
+    },
+    "M_DVR_V3": {
+      "file": "m_dvr_v3.webp",
+      "width": 8,
+      "height": 6
+    },
+    "M_HRC_S": {
+      "file": "m_hrc_s.webp",
+      "width": 8,
+      "height": 6
+    },
+    "M_HRC_V": {
+      "file": "m_hrc_v.webp",
+      "width": 8,
+      "height": 6
+    },
+    "M_HRC_J": {
+      "file": "m_hrc_j.webp",
+      "width": 8,
+      "height": 6
+    },
+    "M_HRC_Z": {
+      "file": "m_hrc_z.webp",
+      "width": 8,
+      "height": 6
+    },
+    "M_HRC_SV": {
+      "file": "m_hrc_sv.webp",
+      "width": 8,
+      "height": 6
+    },
+    "M_HRC_JV": {
+      "file": "m_hrc_jv.webp",
+      "width": 8,
+      "height": 6
+    },
+    "M_HRC_JZ": {
+      "file": "m_hrc_jz.webp",
+      "width": 8,
+      "height": 6
+    },
+    "M_HRC_SZ": {
+      "file": "m_hrc_sz.webp",
+      "width": 8,
+      "height": 6
+    },
+    "M_HRAC": {
+      "file": "m_hrac.webp",
+      "width": 8,
+      "height": 6
+    },
+    "M_VEC": {
+      "file": "m_vec.webp",
+      "width": 8,
+      "height": 6
+    },
+    "M_STENA": {
+      "file": "m_stena.webp",
+      "width": 8,
+      "height": 6
+    },
+    "VEC_1": {
+      "file": "vec_1.webp",
+      "width": 64,
+      "height": 64
+    },
+    "VEC_2": {
+      "file": "vec_2.webp",
+      "width": 64,
+      "height": 64
+    },
+    "VEC_3": {
+      "file": "vec_3.webp",
+      "width": 64,
+      "height": 64
+    },
+    "VEC_4": {
+      "file": "vec_4.webp",
+      "width": 64,
+      "height": 64
+    },
+    "VEC_5": {
+      "file": "vec_5.webp",
+      "width": 64,
+      "height": 64
+    },
+    "VEC_6": {
+      "file": "vec_6.webp",
+      "width": 64,
+      "height": 64
+    },
+    "VEC_7": {
+      "file": "vec_7.webp",
+      "width": 64,
+      "height": 64
+    },
+    "VEC_8": {
+      "file": "vec_8.webp",
+      "width": 64,
+      "height": 64
+    },
+    "VEC_9": {
+      "file": "vec_9.webp",
+      "width": 64,
+      "height": 64
+    },
+    "VEC_10": {
+      "file": "vec_10.webp",
+      "width": 64,
+      "height": 64
+    },
+    "VEC_11": {
+      "file": "vec_11.webp",
+      "width": 64,
+      "height": 64
+    },
+    "VEC_12": {
+      "file": "vec_12.webp",
+      "width": 64,
+      "height": 64
+    },
+    "VEC_13": {
+      "file": "vec_13.webp",
+      "width": 64,
+      "height": 64
+    },
+    "VEC_14": {
+      "file": "vec_14.webp",
+      "width": 64,
+      "height": 64
+    },
+    "VEC_15": {
+      "file": "vec_15.webp",
+      "width": 64,
+      "height": 64
+    },
+    "VEC_16": {
+      "file": "vec_16.webp",
+      "width": 64,
+      "height": 64
+    },
+    "VEC_17": {
+      "file": "vec_17.webp",
+      "width": 64,
+      "height": 64
+    },
+    "VEC_18": {
+      "file": "vec_18.webp",
+      "width": 64,
+      "height": 64
+    },
+    "VEC_19": {
+      "file": "vec_19.webp",
+      "width": 64,
+      "height": 64
+    },
+    "VEC_20": {
+      "file": "vec_20.webp",
+      "width": 64,
+      "height": 64
+    },
+    "VEC_21": {
+      "file": "vec_21.webp",
+      "width": 64,
+      "height": 64
+    },
+    "VEC_22": {
+      "file": "vec_22.webp",
+      "width": 64,
+      "height": 64
+    },
+    "VEC_23": {
+      "file": "vec_23.webp",
+      "width": 64,
+      "height": 64
+    },
+    "VEC_24": {
+      "file": "vec_24.webp",
+      "width": 64,
+      "height": 64
+    },
+    "VEC_25": {
+      "file": "vec_25.webp",
+      "width": 64,
+      "height": 64
+    },
+    "VEC_26": {
+      "file": "vec_26.webp",
+      "width": 64,
+      "height": 64
+    },
+    "VEC_27": {
+      "file": "vec_27.webp",
+      "width": 64,
+      "height": 64
+    },
+    "VEC_28": {
+      "file": "vec_28.webp",
+      "width": 64,
+      "height": 64
+    },
+    "VEC_29": {
+      "file": "vec_29.webp",
+      "width": 64,
+      "height": 64
+    },
+    "VEC_30": {
+      "file": "vec_30.webp",
+      "width": 64,
+      "height": 64
+    },
+    "VEC_31": {
+      "file": "vec_31.webp",
+      "width": 64,
+      "height": 64
+    },
+    "VEC_32": {
+      "file": "vec_32.webp",
+      "width": 64,
+      "height": 64
+    },
+    "VEC_33": {
+      "file": "vec_33.webp",
+      "width": 64,
+      "height": 64
+    },
+    "VEC_34": {
+      "file": "vec_34.webp",
+      "width": 64,
+      "height": 64
+    },
+    "VEC_35": {
+      "file": "vec_35.webp",
+      "width": 64,
+      "height": 64
+    },
+    "VEC_36": {
+      "file": "vec_36.webp",
+      "width": 64,
+      "height": 64
+    },
+    "VEC_37": {
+      "file": "vec_37.webp",
+      "width": 64,
+      "height": 64
+    },
+    "VEC_40": {
+      "file": "vec_40.webp",
+      "width": 64,
+      "height": 64
+    },
+    "VEC_41": {
+      "file": "vec_41.webp",
+      "width": 64,
+      "height": 64
+    },
+    "VEC_42": {
+      "file": "vec_42.webp",
+      "width": 64,
+      "height": 64
+    },
+    "VEC_43": {
+      "file": "vec_43.webp",
+      "width": 64,
+      "height": 64
+    },
+    "VEC_44": {
+      "file": "vec_44.webp",
+      "width": 64,
+      "height": 64
+    },
+    "VEC_45": {
+      "file": "vec_45.webp",
+      "width": 64,
+      "height": 64
+    },
+    "VEC_46": {
+      "file": "vec_46.webp",
+      "width": 64,
+      "height": 64
+    },
+    "VEC_47": {
+      "file": "vec_47.webp",
+      "width": 64,
+      "height": 64
+    },
+    "VEC_48": {
+      "file": "vec_48.webp",
+      "width": 64,
+      "height": 64
+    },
+    "VEC_49": {
+      "file": "vec_49.webp",
+      "width": 64,
+      "height": 64
+    },
+    "VEC_50": {
+      "file": "vec_50.webp",
+      "width": 64,
+      "height": 64
+    },
+    "VEC_51": {
+      "file": "vec_51.webp",
+      "width": 64,
+      "height": 64
+    },
+    "VEC_52": {
+      "file": "vec_52.webp",
+      "width": 64,
+      "height": 64
+    },
+    "VEC_54": {
+      "file": "vec_54.webp",
+      "width": 64,
+      "height": 64
+    },
+    "VEC_55": {
+      "file": "vec_55.webp",
+      "width": 64,
+      "height": 64
+    },
+    "VEC_56": {
+      "file": "vec_56.webp",
+      "width": 64,
+      "height": 64
+    },
+    "VEC_59": {
+      "file": "vec_59.webp",
+      "width": 64,
+      "height": 64
+    },
+    "VEC_70": {
+      "file": "vec_70.webp",
+      "width": 64,
+      "height": 64
+    },
+    "VEC_71": {
+      "file": "vec_71.webp",
+      "width": 64,
+      "height": 64
+    },
+    "VEC_72": {
+      "file": "vec_72.webp",
+      "width": 64,
+      "height": 64
+    },
+    "VEC_73": {
+      "file": "vec_73.webp",
+      "width": 64,
+      "height": 64
+    },
+    "VEC_74": {
+      "file": "vec_74.webp",
+      "width": 64,
+      "height": 64
+    },
+    "VEC_75": {
+      "file": "vec_75.webp",
+      "width": 64,
+      "height": 64
+    },
+    "VEC_76": {
+      "file": "vec_76.webp",
+      "width": 64,
+      "height": 64
+    },
+    "VEC_77": {
+      "file": "vec_77.webp",
+      "width": 64,
+      "height": 64
+    },
+    "VEC_78": {
+      "file": "vec_78.webp",
+      "width": 64,
+      "height": 64
+    },
+    "VEC_79": {
+      "file": "vec_79.webp",
+      "width": 64,
+      "height": 64
+    },
+    "VEC_80": {
+      "file": "vec_80.webp",
+      "width": 64,
+      "height": 64
+    },
+    "VEC_81": {
+      "file": "vec_81.webp",
+      "width": 64,
+      "height": 64
+    },
+    "VEC_82": {
+      "file": "vec_82.webp",
+      "width": 64,
+      "height": 64
+    },
+    "VEC_83": {
+      "file": "vec_83.webp",
+      "width": 64,
+      "height": 64
+    },
+    "VEC_84": {
+      "file": "vec_84.webp",
+      "width": 64,
+      "height": 64
+    },
+    "VEC_85": {
+      "file": "vec_85.webp",
+      "width": 64,
+      "height": 64
+    },
+    "VEC_86": {
+      "file": "vec_86.webp",
+      "width": 64,
+      "height": 64
+    },
+    "VEC_87": {
+      "file": "vec_87.webp",
+      "width": 64,
+      "height": 64
+    },
+    "VEC_88": {
+      "file": "vec_88.webp",
+      "width": 64,
+      "height": 64
+    },
+    "VEC_89": {
+      "file": "vec_89.webp",
+      "width": 64,
+      "height": 64
+    },
+    "VEC_90": {
+      "file": "vec_90.webp",
+      "width": 64,
+      "height": 64
+    },
+    "VEC_91": {
+      "file": "vec_91.webp",
+      "width": 64,
+      "height": 64
+    },
+    "VEC_92": {
+      "file": "vec_92.webp",
+      "width": 64,
+      "height": 64
+    },
+    "VEC_93": {
+      "file": "vec_93.webp",
+      "width": 64,
+      "height": 64
+    },
+    "VEC_94": {
+      "file": "vec_94.webp",
+      "width": 64,
+      "height": 64
+    },
+    "VEC_95": {
+      "file": "vec_95.webp",
+      "width": 64,
+      "height": 64
+    },
+    "VEC_96": {
+      "file": "vec_96.webp",
+      "width": 64,
+      "height": 64
+    },
+    "VEC_97": {
+      "file": "vec_97.webp",
+      "width": 64,
+      "height": 64
+    },
+    "VEC_98": {
+      "file": "vec_98.webp",
+      "width": 64,
+      "height": 64
+    },
+    "VEC_99": {
+      "file": "vec_99.webp",
+      "width": 64,
+      "height": 64
+    },
+    "VEC_100": {
+      "file": "vec_100.webp",
+      "width": 64,
+      "height": 64
+    },
+    "VEC_101": {
+      "file": "vec_101.webp",
+      "width": 64,
+      "height": 64
+    },
+    "VEC_102": {
+      "file": "vec_102.webp",
+      "width": 64,
+      "height": 64
+    },
+    "VEC_103": {
+      "file": "vec_103.webp",
+      "width": 64,
+      "height": 64
+    },
+    "VEC_104": {
+      "file": "vec_104.webp",
+      "width": 64,
+      "height": 64
+    },
+    "VEC_105": {
+      "file": "vec_105.webp",
+      "width": 64,
+      "height": 64
+    },
+    "VEC_106": {
+      "file": "vec_106.webp",
+      "width": 64,
+      "height": 64
+    },
+    "VEC_107": {
+      "file": "vec_107.webp",
+      "width": 64,
+      "height": 64
+    },
+    "VEC_108": {
+      "file": "vec_108.webp",
+      "width": 64,
+      "height": 64
+    },
+    "VEC_109": {
+      "file": "vec_109.webp",
+      "width": 64,
+      "height": 64
+    },
+    "VEC_110": {
+      "file": "vec_110.webp",
+      "width": 64,
+      "height": 64
+    },
+    "VEC_111": {
+      "file": "vec_111.webp",
+      "width": 64,
+      "height": 64
+    },
+    "VEC_112": {
+      "file": "vec_112.webp",
+      "width": 64,
+      "height": 64
+    },
+    "VEC_113": {
+      "file": "vec_113.webp",
+      "width": 64,
+      "height": 64
+    },
+    "VEC_114": {
+      "file": "vec_114.webp",
+      "width": 64,
+      "height": 64
+    },
+    "VEC_115": {
+      "file": "vec_115.webp",
+      "width": 64,
+      "height": 64
+    },
+    "VEC_116": {
+      "file": "vec_116.webp",
+      "width": 64,
+      "height": 64
+    },
+    "VEC_117": {
+      "file": "vec_117.webp",
+      "width": 64,
+      "height": 64
+    },
+    "VEC_118": {
+      "file": "vec_118.webp",
+      "width": 64,
+      "height": 64
+    },
+    "VEC_119": {
+      "file": "vec_119.webp",
+      "width": 64,
+      "height": 64
+    },
+    "VEC_120": {
+      "file": "vec_120.webp",
+      "width": 64,
+      "height": 64
+    },
+    "VEC_121": {
+      "file": "vec_121.webp",
+      "width": 64,
+      "height": 64
+    },
+    "VEC_122": {
+      "file": "vec_122.webp",
+      "width": 64,
+      "height": 64
+    },
+    "VEC_123": {
+      "file": "vec_123.webp",
+      "width": 64,
+      "height": 64
+    },
+    "VEC_124": {
+      "file": "vec_124.webp",
+      "width": 64,
+      "height": 64
+    },
+    "VEC_125": {
+      "file": "vec_125.webp",
+      "width": 64,
+      "height": 64
+    },
+    "VEC_126": {
+      "file": "vec_126.webp",
+      "width": 64,
+      "height": 64
+    },
+    "VEC_127": {
+      "file": "vec_127.webp",
+      "width": 64,
+      "height": 64
+    },
+    "VEC_130": {
+      "file": "vec_130.webp",
+      "width": 64,
+      "height": 64
+    },
+    "VEC_131": {
+      "file": "vec_131.webp",
+      "width": 64,
+      "height": 64
+    },
+    "VEC_132": {
+      "file": "vec_132.webp",
+      "width": 64,
+      "height": 64
+    },
+    "VEC_133": {
+      "file": "vec_133.webp",
+      "width": 64,
+      "height": 64
+    },
+    "VEC_134": {
+      "file": "vec_134.webp",
+      "width": 64,
+      "height": 64
+    },
+    "VEC_135": {
+      "file": "vec_135.webp",
+      "width": 64,
+      "height": 64
+    },
+    "VEC_136": {
+      "file": "vec_136.webp",
+      "width": 64,
+      "height": 64
+    },
+    "VEC_137": {
+      "file": "vec_137.webp",
+      "width": 64,
+      "height": 64
+    },
+    "VEC_138": {
+      "file": "vec_138.webp",
+      "width": 64,
+      "height": 64
+    },
+    "VEC_139": {
+      "file": "vec_139.webp",
+      "width": 64,
+      "height": 64
+    },
+    "VEC_140": {
+      "file": "vec_140.webp",
+      "width": 64,
+      "height": 64
+    },
+    "VEC_141": {
+      "file": "vec_141.webp",
+      "width": 64,
+      "height": 64
+    },
+    "VEC_142": {
+      "file": "vec_142.webp",
+      "width": 64,
+      "height": 64
+    },
+    "VEC_143": {
+      "file": "vec_143.webp",
+      "width": 64,
+      "height": 64
+    },
+    "VEC_144": {
+      "file": "vec_144.webp",
+      "width": 64,
+      "height": 64
+    },
+    "VEC_145": {
+      "file": "vec_145.webp",
+      "width": 64,
+      "height": 64
+    },
+    "VEC_146": {
+      "file": "vec_146.webp",
+      "width": 64,
+      "height": 64
+    },
+    "VEC_150": {
+      "file": "vec_150.webp",
+      "width": 64,
+      "height": 64
+    },
+    "VEC_151": {
+      "file": "vec_151.webp",
+      "width": 64,
+      "height": 64
+    },
+    "VEC_153": {
+      "file": "vec_153.webp",
+      "width": 64,
+      "height": 64
+    },
+    "VEC_154": {
+      "file": "vec_154.webp",
+      "width": 64,
+      "height": 64
+    },
+    "VEC_155": {
+      "file": "vec_155.webp",
+      "width": 64,
+      "height": 64
+    },
+    "VEC_160": {
+      "file": "vec_160.webp",
+      "width": 64,
+      "height": 64
+    },
+    "VEC_161": {
+      "file": "vec_161.webp",
+      "width": 64,
+      "height": 64
+    },
+    "VEC_162": {
+      "file": "vec_162.webp",
+      "width": 64,
+      "height": 64
+    },
+    "VEC_163": {
+      "file": "vec_163.webp",
+      "width": 64,
+      "height": 64
+    },
+    "VEC_164": {
+      "file": "vec_164.webp",
+      "width": 64,
+      "height": 64
+    },
+    "STN_1": {
+      "file": "stn_1.webp",
+      "width": 64,
+      "height": 64
+    },
+    "STN_2": {
+      "file": "stn_2.webp",
+      "width": 64,
+      "height": 64
+    },
+    "STN_3": {
+      "file": "stn_3.webp",
+      "width": 64,
+      "height": 64
+    },
+    "STN_4": {
+      "file": "stn_4.webp",
+      "width": 64,
+      "height": 64
+    },
+    "STN_5": {
+      "file": "stn_5.webp",
+      "width": 64,
+      "height": 64
+    },
+    "STN_6": {
+      "file": "stn_6.webp",
+      "width": 64,
+      "height": 64
+    },
+    "STN_7": {
+      "file": "stn_7.webp",
+      "width": 64,
+      "height": 64
+    },
+    "STN_8": {
+      "file": "stn_8.webp",
+      "width": 64,
+      "height": 64
+    },
+    "STN_9": {
+      "file": "stn_9.webp",
+      "width": 64,
+      "height": 64
+    },
+    "STN_10": {
+      "file": "stn_10.webp",
+      "width": 64,
+      "height": 64
+    },
+    "STN_11": {
+      "file": "stn_11.webp",
+      "width": 64,
+      "height": 64
+    },
+    "STN_12": {
+      "file": "stn_12.webp",
+      "width": 64,
+      "height": 64
+    },
+    "STN_13": {
+      "file": "stn_13.webp",
+      "width": 64,
+      "height": 64
+    },
+    "STN_14": {
+      "file": "stn_14.webp",
+      "width": 64,
+      "height": 64
+    },
+    "STN_15": {
+      "file": "stn_15.webp",
+      "width": 64,
+      "height": 64
+    },
+    "STN_16": {
+      "file": "stn_16.webp",
+      "width": 64,
+      "height": 64
+    },
+    "STN_17": {
+      "file": "stn_17.webp",
+      "width": 64,
+      "height": 64
+    },
+    "STN_18": {
+      "file": "stn_18.webp",
+      "width": 64,
+      "height": 64
+    },
+    "STN_19": {
+      "file": "stn_19.webp",
+      "width": 64,
+      "height": 64
+    },
+    "STN_20": {
+      "file": "stn_20.webp",
+      "width": 64,
+      "height": 64
+    },
+    "STN_21": {
+      "file": "stn_21.webp",
+      "width": 64,
+      "height": 64
+    },
+    "STN_22": {
+      "file": "stn_22.webp",
+      "width": 64,
+      "height": 64
+    },
+    "STN_23": {
+      "file": "stn_23.webp",
+      "width": 64,
+      "height": 64
+    },
+    "STN_24": {
+      "file": "stn_24.webp",
+      "width": 64,
+      "height": 64
+    },
+    "STN_25": {
+      "file": "stn_25.webp",
+      "width": 64,
+      "height": 64
+    },
+    "STN_26": {
+      "file": "stn_26.webp",
+      "width": 64,
+      "height": 64
+    },
+    "STN_27": {
+      "file": "stn_27.webp",
+      "width": 64,
+      "height": 64
+    },
+    "STN_28": {
+      "file": "stn_28.webp",
+      "width": 64,
+      "height": 64
+    },
+    "STN_29": {
+      "file": "stn_29.webp",
+      "width": 64,
+      "height": 64
+    },
+    "STN_30": {
+      "file": "stn_30.webp",
+      "width": 64,
+      "height": 64
+    },
+    "STN_31": {
+      "file": "stn_31.webp",
+      "width": 64,
+      "height": 64
+    },
+    "STN_32": {
+      "file": "stn_32.webp",
+      "width": 64,
+      "height": 64
+    },
+    "STN_33": {
+      "file": "stn_33.webp",
+      "width": 64,
+      "height": 64
+    },
+    "STN_34": {
+      "file": "stn_34.webp",
+      "width": 64,
+      "height": 64
+    },
+    "STN_35": {
+      "file": "stn_35.webp",
+      "width": 64,
+      "height": 64
+    },
+    "STN_36": {
+      "file": "stn_36.webp",
+      "width": 64,
+      "height": 64
+    },
+    "STN_37": {
+      "file": "stn_37.webp",
+      "width": 64,
+      "height": 64
+    },
+    "STN_38": {
+      "file": "stn_38.webp",
+      "width": 64,
+      "height": 64
+    },
+    "STN_39": {
+      "file": "stn_39.webp",
+      "width": 64,
+      "height": 64
+    },
+    "STN_40": {
+      "file": "stn_40.webp",
+      "width": 64,
+      "height": 64
+    },
+    "STN_41": {
+      "file": "stn_41.webp",
+      "width": 64,
+      "height": 64
+    },
+    "STN_42": {
+      "file": "stn_42.webp",
+      "width": 64,
+      "height": 64
+    },
+    "STN_43": {
+      "file": "stn_43.webp",
+      "width": 64,
+      "height": 64
+    },
+    "STN_44": {
+      "file": "stn_44.webp",
+      "width": 64,
+      "height": 64
+    },
+    "STN_45": {
+      "file": "stn_45.webp",
+      "width": 64,
+      "height": 64
+    },
+    "STN_46": {
+      "file": "stn_46.webp",
+      "width": 64,
+      "height": 64
+    },
+    "BM_LISTE": {
+      "file": "bm_liste.webp",
+      "width": 256,
+      "height": 32
+    },
+    "BM_LISTF": {
+      "file": "bm_listf.webp",
+      "width": 256,
+      "height": 32
+    },
+    "BM_LISTG": {
+      "file": "bm_listg.webp",
+      "width": 256,
+      "height": 32
+    },
+    "BM_LISTS": {
+      "file": "bm_lists.webp",
+      "width": 256,
+      "height": 32
+    },
+    "BM_LISTI": {
+      "file": "bm_listi.webp",
+      "width": 256,
+      "height": 32
+    },
+    "BM_GOE": {
+      "file": "bm_goe.webp",
+      "width": 576,
+      "height": 384
+    },
+    "BM_GOF": {
+      "file": "bm_gof.webp",
+      "width": 576,
+      "height": 384
+    },
+    "BM_GOG": {
+      "file": "bm_gog.webp",
+      "width": 576,
+      "height": 384
+    },
+    "BM_GOS": {
+      "file": "bm_gos.webp",
+      "width": 576,
+      "height": 384
+    },
+    "BM_GOI": {
+      "file": "bm_goi.webp",
+      "width": 576,
+      "height": 384
+    },
+    "BM_GOA": {
+      "file": "bm_goa.webp",
+      "width": 576,
+      "height": 384
+    },
+    "BM_LEVLE": {
+      "file": "bm_levle.webp",
+      "width": 282,
+      "height": 66
+    },
+    "BM_LEVLF": {
+      "file": "bm_levlf.webp",
+      "width": 282,
+      "height": 66
+    },
+    "BM_LEVLG": {
+      "file": "bm_levlg.webp",
+      "width": 282,
+      "height": 66
+    },
+    "BM_LEVLS": {
+      "file": "bm_levls.webp",
+      "width": 282,
+      "height": 66
+    },
+    "BM_LEVLI": {
+      "file": "bm_levli.webp",
+      "width": 282,
+      "height": 66
+    },
+    "BM_LEVLA": {
+      "file": "bm_levla.webp",
+      "width": 282,
+      "height": 66
+    },
+    "BM_BT1": {
+      "file": "bm_bt1.webp",
+      "width": 576,
+      "height": 384
+    },
+    "BM_BT2": {
+      "file": "bm_bt2.webp",
+      "width": 576,
+      "height": 384
+    },
+    "BM_BT3": {
+      "file": "bm_bt3.webp",
+      "width": 576,
+      "height": 384
+    },
+    "BM_BT4": {
+      "file": "bm_bt4.webp",
+      "width": 576,
+      "height": 384
+    },
+    "VEC_170": {
+      "file": "vec_170.webp",
+      "width": 64,
+      "height": 64
+    },
+    "VEC_171": {
+      "file": "vec_171.webp",
+      "width": 64,
+      "height": 64
+    },
+    "VEC_172": {
+      "file": "vec_172.webp",
+      "width": 64,
+      "height": 64
+    },
+    "VEC_173": {
+      "file": "vec_173.webp",
+      "width": 64,
+      "height": 64
+    },
+    "VEC_174": {
+      "file": "vec_174.webp",
+      "width": 64,
+      "height": 64
+    },
+    "VEC_175": {
+      "file": "vec_175.webp",
+      "width": 64,
+      "height": 64
+    },
+    "BM_ES1E": {
+      "file": "bm_es1e.webp",
+      "width": 576,
+      "height": 384
+    },
+    "BM_ES2E": {
+      "file": "bm_es2e.webp",
+      "width": 576,
+      "height": 384
+    },
+    "BM_ES3E": {
+      "file": "bm_es3e.webp",
+      "width": 576,
+      "height": 384
+    },
+    "BM_ES4E": {
+      "file": "bm_es4e.webp",
+      "width": 576,
+      "height": 384
+    },
+    "BM_ES1F": {
+      "file": "bm_es1f.webp",
+      "width": 576,
+      "height": 384
+    },
+    "BM_ES2F": {
+      "file": "bm_es2f.webp",
+      "width": 576,
+      "height": 384
+    },
+    "BM_ES3F": {
+      "file": "bm_es3f.webp",
+      "width": 576,
+      "height": 384
+    },
+    "BM_ES4F": {
+      "file": "bm_es4f.webp",
+      "width": 576,
+      "height": 384
+    },
+    "BM_ES1I": {
+      "file": "bm_es1i.webp",
+      "width": 576,
+      "height": 384
+    },
+    "BM_ES2I": {
+      "file": "bm_es2i.webp",
+      "width": 576,
+      "height": 384
+    },
+    "BM_ES3I": {
+      "file": "bm_es3i.webp",
+      "width": 576,
+      "height": 384
+    },
+    "BM_ES4I": {
+      "file": "bm_es4i.webp",
+      "width": 576,
+      "height": 384
+    },
+    "BM_ES1S": {
+      "file": "bm_es1s.webp",
+      "width": 576,
+      "height": 384
+    },
+    "BM_ES2S": {
+      "file": "bm_es2s.webp",
+      "width": 576,
+      "height": 384
+    },
+    "BM_ES3S": {
+      "file": "bm_es3s.webp",
+      "width": 576,
+      "height": 384
+    },
+    "BM_ES4S": {
+      "file": "bm_es4s.webp",
+      "width": 576,
+      "height": 384
+    }
+  },
+  "sounds": {
+    "SND_1": "snd_1.wav",
+    "SND_2": "snd_2.wav",
+    "SND_3": "snd_3.wav",
+    "SND_4": "snd_4.wav",
+    "SND_5": "snd_5.wav",
+    "SND_10": "snd_10.wav",
+    "SND_11": "snd_11.wav",
+    "SND_12": "snd_12.wav",
+    "SND_13": "snd_13.wav",
+    "SND_14": "snd_14.wav",
+    "SND_15": "snd_15.wav",
+    "SND_16": "snd_16.wav",
+    "SND_17": "snd_17.wav",
+    "SND_23": "snd_23.wav",
+    "SND_25": "snd_25.wav",
+    "SND_26": "snd_26.wav",
+    "SND_27": "snd_27.wav",
+    "SND_28": "snd_28.wav",
+    "SND_29": "snd_29.wav",
+    "SND_30": "snd_30.wav",
+    "SND_31": "snd_31.wav",
+    "SND_32": "snd_32.wav",
+    "SND_33": "snd_33.wav",
+    "SND_34": "snd_34.wav",
+    "SND_35": "snd_35.wav",
+    "SND_36": "snd_36.wav",
+    "SND_37": "snd_37.wav",
+    "SND_38": "snd_38.wav",
+    "SND_39": "snd_39.wav",
+    "SND_40": "snd_40.wav",
+    "SND_41": "snd_41.wav",
+    "SND_60": "snd_60.wav",
+    "SND_62": "snd_62.wav",
+    "SND_63": "snd_63.wav",
+    "SND_64": "snd_64.wav",
+    "SND_65": "snd_65.wav",
+    "SND_70": "snd_70.wav",
+    "SND_72": "snd_72.wav",
+    "SND_74": "snd_74.wav",
+    "SND_80": "snd_80.wav",
+    "SND_81": "snd_81.wav",
+    "SND_82": "snd_82.wav",
+    "SND_85": "snd_85.wav",
+    "SND_86": "snd_86.wav",
+    "SND_90": "snd_90.wav",
+    "SND_92": "snd_92.wav",
+    "SND_93": "snd_93.wav",
+    "SND_94": "snd_94.wav",
+    "SND_100": "snd_100.wav",
+    "SND_101": "snd_101.wav",
+    "SND_102": "snd_102.wav",
+    "SND_103": "snd_103.wav",
+    "SND_105": "snd_105.wav",
+    "SND_106": "snd_106.wav"
+  },
+  "episodes": {
+    "1": {
+      "maps": [
+        19,
+        18,
+        17,
+        1,
+        2,
+        3,
+        7,
+        11,
+        15,
+        32
+      ],
+      "sha256": "4e5c3d2dec3b5cb1c0db14f0c0b004a15a4a5ab138e6b8e13b651ccf73b2aafb",
+      "changedBytes": []
+    },
+    "2": {
+      "maps": [
+        19,
+        18,
+        17,
+        1,
+        2,
+        4,
+        9,
+        12,
+        35,
+        33
+      ],
+      "sha256": "1da41db69a9fca7b770bdddd8a65a8219c59b67d7c96ae509938a743050b60ca",
+      "changedBytes": [
+        132309,
+        132849,
+        133032,
+        133067,
+        133457,
+        133517,
+        133577,
+        133637,
+        133697,
+        141648
+      ]
+    },
+    "3": {
+      "maps": [
+        19,
+        18,
+        17,
+        1,
+        2,
+        5,
+        10,
+        13,
+        30,
+        34
+      ],
+      "sha256": "1a49cb3e1685d2abf9cd5664b3aea410d83efb9e1da72041dc69efe417befbc2",
+      "changedBytes": [
+        132309,
+        132849,
+        133032,
+        133067,
+        133457,
+        133517,
+        133577,
+        133637,
+        133697,
+        141648
+      ]
+    },
+    "4": {
+      "maps": [
+        19,
+        18,
+        17,
+        1,
+        2,
+        5,
+        11,
+        14,
+        31,
+        16
+      ],
+      "sha256": "3fb4a677d3bab936c44f7d757804101d12b74e33202a28b6e0527728b9e54d7a",
+      "changedBytes": [
+        132309,
+        132849,
+        133032,
+        133457,
+        133517,
+        133577,
+        133637,
+        133697,
+        141648
+      ]
+    }
+  },
+  "source": "DATA.PCK",
+  "sha256": "4779bd78981d802c74689d66ce47dfd354d0f4fab07ad4ad0a69f309ba0c1d1a"
+}

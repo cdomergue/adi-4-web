@@ -47,6 +47,7 @@
   {
     "id": "bt3d_1",
     "title": "Bad Toys 3D I",
+    "route": "#game/bt3d_1",
     "source": "extracted/discs/Adi421EnvCol2/Games/Bt3D/BT3D_1.EXE",
     "format": "Win16 NE",
     "sha256": "4e5c3d2dec3b5cb1c0db14f0c0b004a15a4a5ab138e6b8e13b651ccf73b2aafb",
@@ -55,30 +56,33 @@
   },
   {
     "id": "bt3d_2",
-    "title": "BT3D_2",
+    "title": "Bad Toys 3D II",
     "source": "extracted/discs/Adi421EnvCol2/Games/Bt3D/BT3D_2.EXE",
     "format": "Win16 NE",
     "sha256": "1da41db69a9fca7b770bdddd8a65a8219c59b67d7c96ae509938a743050b60ca",
     "image": "/game/games/BT3D_2.webp",
-    "image_source": "extracted/resources/Adi421EnvCol1/INTRO.ITK/BT3D_2.VMD"
+    "image_source": "extracted/resources/Adi421EnvCol1/INTRO.ITK/BT3D_2.VMD",
+    "route": "#game/bt3d_2"
   },
   {
     "id": "bt3d_3",
-    "title": "BT3D_3",
+    "title": "Bad Toys 3D III",
     "source": "extracted/discs/Adi421EnvCol2/Games/Bt3D/BT3D_3.EXE",
     "format": "Win16 NE",
     "sha256": "1a49cb3e1685d2abf9cd5664b3aea410d83efb9e1da72041dc69efe417befbc2",
     "image": "/game/games/BT3D_3.webp",
-    "image_source": "extracted/resources/Adi421EnvCol1/INTRO.ITK/BT3D_3.VMD"
+    "image_source": "extracted/resources/Adi421EnvCol1/INTRO.ITK/BT3D_3.VMD",
+    "route": "#game/bt3d_3"
   },
   {
     "id": "bt3d_4",
-    "title": "BT3D_4",
+    "title": "Bad Toys 3D IV",
     "source": "extracted/discs/Adi421EnvCol2/Games/Bt3D/BT3D_4.EXE",
     "format": "Win16 NE",
     "sha256": "3fb4a677d3bab936c44f7d757804101d12b74e33202a28b6e0527728b9e54d7a",
     "image": "/game/games/BT3D_4.webp",
-    "image_source": "extracted/resources/Adi421EnvCol1/INTRO.ITK/BT3D_4.VMD"
+    "image_source": "extracted/resources/Adi421EnvCol1/INTRO.ITK/BT3D_4.VMD",
+    "route": "#game/bt3d_4"
   },
   {
     "id": "cellulfr",

@@ -7,6 +7,7 @@ import { renderRoomActivity } from '../features/room/activities.js';
 import { renderSokoban } from '../features/games/sokoban/view.js';
 import { renderWGob3 } from '../features/games/wgob3/view.js';
 import { renderMrMatt } from '../features/games/mrmatt/view.js';
+import { renderBadToys } from '../features/games/badtoys/view.js';
 import { renderWelcome } from './welcome.js';
 import { renderInternet } from '../features/internet/view.js';
 
@@ -75,6 +76,9 @@ export function createRouter({ main, info, toast, catalog, library }) {
       active = 'room';
     } else if (hash === 'game/mrmatt1') {
       renderMrMatt(main);
+      active = 'room';
+    } else if (/^game\/bt3d_[1-4]$/.test(hash)) {
+      renderBadToys(main, hash.slice(-1));
       active = 'room';
     } else if (hash === 'internet') {
       renderInternet(main);
