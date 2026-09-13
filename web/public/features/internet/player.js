@@ -1,4 +1,5 @@
 import { createLocalInternet, categories, companions, gifts, grade, weekStart } from './engine.js';
+import { addDays, calendarHour, canReserve, hourStart } from './calendar.js';
 import { escapeHtml as esc } from '../../shared/text.js';
 const root = document.querySelector('#internet');
 const asset = name => `/game/internet/${name}`;
@@ -9,7 +10,7 @@ new PerformanceObserver(list => {
 }).observe({ type: 'resource', buffered: true });
 document.addEventListener('securitypolicyviolation', e => securityViolations.push(e.blockedURI));
 const options = (values, selected) => values.map(([v, label]) => `<option value="${esc(v)}" ${String(v) === String(selected) ? 'selected' : ''}>${esc(label)}</option>`).join('');
-const button = (label, action, value = '') => `<button type="button" data-action="${action}" data-value="${esc(value)}">${esc(label)}</button>`;
+const button = (label, action, value = '', disabled = false) => `<button type="button" data-action="${action}" data-value="${esc(value)}" ${disabled ? 'disabled' : ''}>${esc(label)}</button>`;
 const badge = '';
 const menuDefinitions = {
   home: ['AI_MENU', 'FD3P', 'La planète ADI', ['parents', 'forum', 'world'], ['Le coin parents', 'Le forum', 'Le monde des classes virtuelles'], 'COGE0100', ['COZO0801', 'COZO0803', 'COZO0802']],
@@ -21,8 +22,10 @@ const menuDefinitions = {
 let catalog, lessons, media, ambient, engine, observer;
 let ambientTimer, lastAmbient;
 let screen = 'connect', history = [], selectedCategory = 'jokes', selectedArticle, chapter = 0, onlyFavorites = false;
-let mailId, parentMail = false, writer = false, replyTo = [], writeChapter = false, profileId = 'lina';
+let mailId, selectedMailId, parentMail = false, writer = false, replyTo = [], writeChapter = false, profileId = 'lina';
 let level = '6', subject = 'F', chosenSession = 'F6AA', exercise = null, questionIndex = 0, answers = [], chosen = [], checked = false;
+let calendarWeek = weekStart(Date.now()), firstHour = Math.min(16, new Date().getHours());
+let booking = null, myReservations = false;
 let navSites = [], siteIndex = -1, helpMode = false, soundEnabled = true, parentUnlocked = false;
 let playback = new Audio(), motionTimer, notice = '', lessonFilter = '', alive = true;
 playback.hidden = true;
@@ -55,12 +58,23 @@ function status() { const el = root.querySelector('.net-status'); if (el) el.tex
 function go(next) {
   if (['forum', 'onadi', 'netadi', 'club', ...categories.map(c => c.id)].includes(next) && !engine.forumAllowed()) { notice = 'L’accès au forum est limité dans le coin parents.'; status(); return; }
   if (next === 'parents' && state().parentSymbol !== 'sans' && !parentUnlocked) next = 'parentGate';
+  if (screen === 'reservations') { booking = null; myReservations = false; }
   history.push(screen); screen = next; writer = false; writeChapter = false; checked = false; notice = '';
-  if (next === 'mail' || next === 'parentMail') { parentMail = next === 'parentMail'; mailId = null; }
+  if (next === 'mail' || next === 'parentMail') { parentMail = next === 'parentMail'; mailId = null; selectedMailId = null; }
   if (categories.some(c => c.id === next)) { selectedCategory = next; selectedArticle = null; chapter = 0; onlyFavorites = false; }
   render();
 }
-function back() { screen = history.pop() || 'home'; writer = false; writeChapter = false; notice = ''; render(); }
+function back() {
+  if (['mail', 'parentMail'].includes(screen) && (writer || mailId)) {
+    if (writer) writer = false;
+    else mailId = null;
+  } else if (screen === 'reservations' && (booking || myReservations)) {
+    booking = null; myReservations = false;
+  } else {
+    screen = history.pop() || 'home'; writer = false; writeChapter = false;
+  }
+  notice = ''; render();
+}
 function run(op, payload) { return engine.request(op, payload); }
 function form(id, content, submit = 'Valider') { return `<form id="${id}">${content}<div class="row"><button type="submit">${submit}</button>${button('Annuler', 'back')}</div></form>`; }
 function panel(content, className = '') { return `<div class="net-panel ${className}">${content}</div>`; }
@@ -83,12 +97,16 @@ function articleScreen() {
 }
 function mailScreen() {
   const s = state(); const messages = s.messages.filter(m => !!m.parent === parentMail);
-  if (writer) return ['FDMAIL', panel(heading(parentMail ? 'Messagerie parent' : 'Nouveau message', badge) + form('mail', `<label>Destinataire(s)<select name="to" multiple size="3" required>${options((parentMail ? ['consommateurs', 'technique', 'achat'] : s.friends).map(id => [id, labelFor(id)]), replyTo[0])}</select></label><label>Titre<input name="title" required maxlength="120"></label><label>Zone d’écriture<textarea name="body" required maxlength="20000"></textarea></label>`, 'Envoyer'))];
+  if (writer) return ['FDMAIL', panel(heading(parentMail ? 'Messagerie parent' : 'Nouveau message', badge) + form('mail', `<label>Destinataire(s)<select name="to" multiple size="3" required>${options((parentMail ? ['consommateurs', 'technique', 'achat'] : s.friends).map(id => [id, labelFor(id)]), replyTo[0])}</select></label><label>Titre<input name="title" required maxlength="39"></label><label>Zone d’écriture<textarea name="body" required maxlength="20000"></textarea></label>`, 'Envoyer'))];
   if (mailId) {
     const m = messages.find(m => m.id === mailId); if (!m) mailId = null;
-    else return ['FDMAIL', panel(heading(m.title) + `<p>DE ${esc(labelFor(m.from))} · POUR ${m.to.map(t => esc(labelFor(t))).join(', ')}</p>${m.demo ? badge : ''}<div class="mail-body">${esc(m.body)}</div><div class="row">${button('Répondre', 'reply', m.from)}${button('Supprimer le message', 'deleteMail', m.id)}${button('Liste des messages', 'mailList')}</div>`)];
+    else return ['FDMAIL', panel(heading(m.title) + `<p>DE ${esc(labelFor(m.from))} · POUR ${m.to.map(t => esc(labelFor(t))).join(', ')}</p>${m.demo ? '<span class="demo">Message de démonstration</span>' : ''}<div class="mail-body">${esc(m.body)}</div><div class="row">${button('Répondre', 'reply', m.from)}${button('Supprimer le message', 'deleteMail', m.id)}${button('Liste des messages', 'mailList')}</div>`)];
   }
-  return ['FDMAILL', panel(heading(parentMail ? 'Messagerie parent' : 'Messagerie enfant') + `<div class="row">${button('Nouveau message', 'writeMail')}${!parentMail ? button('Carnet des copains', 'go', 'friends') : ''}</div><table><thead><tr><th>De</th><th>Pour</th><th>Titre</th><th>Date</th></tr></thead><tbody>${messages.slice().reverse().map(m => `<tr><td>${esc(labelFor(m.from))}</td><td>${m.to.map(t => esc(labelFor(t))).join(', ')}</td><td>${button((m.read ? '' : '● ') + m.title, 'readMail', m.id)}</td><td>${new Date(m.date).toLocaleDateString('fr-FR')}</td></tr>`).join('')}</tbody></table>`)];
+  const selected = messages.find(m => m.id === selectedMailId);
+  return ['FDMAILL', `<img class="mail-sign" src="${asset('ui-AI_MAIL-0.webp')}" alt="${parentMail ? 'Messagerie parent' : 'Messagerie enfant'}"><div class="native-inbox"><table aria-label="Liste des messages"><colgroup><col style="width:26%"><col style="width:22%"><col style="width:34%"><col style="width:18%"></colgroup><thead><tr><th>De</th><th>Pour</th><th>Titre</th><th>Date</th></tr></thead><tbody>${messages.slice().reverse().map(m => `<tr class="${m.id === selectedMailId ? 'mail-selected' : ''}" data-action="selectMail" data-value="${esc(m.id)}"><td><span class="mail-mark" aria-label="${m.read ? 'Lu' : 'Non lu'}">${m.read ? '✓' : '●'}</span>${esc(labelFor(m.from))}</td><td>${m.to.map(t => esc(labelFor(t))).join(', ')}</td><td><button type="button" data-action="selectMail" data-value="${esc(m.id)}" aria-pressed="${m.id === selectedMailId}" title="${esc(m.title)}">${esc(m.title)}</button></td><td>${new Date(m.date).toLocaleDateString('fr-FR')}</td></tr>`).join('')}</tbody></table>${messages.length ? '' : '<p class="empty-mail">Aucun message.</p>'}</div><div class="native-mail-actions">${spriteButton('Nouveau message', 'writeMail', 'AI_LINT1-8')}${spriteButton('Lire le message', 'readMail', 'AI_LINT1-15', selected?.id || '', !selected)}${spriteButton('Supprimer le message', 'deleteMail', 'AI_LINT1-16', selected?.id || '', !selected)}</div>`];
+}
+function spriteButton(label, action, sprite, value = '', disabled = false) {
+  return `<button type="button" class="native-sprite" data-action="${action}" data-value="${esc(value)}" aria-label="${label}" title="${label}" ${disabled ? 'disabled' : ''} style="background-image:url('${asset('ui-' + sprite + '.webp')}')"></button>`;
 }
 function friendsScreen() {
   return ['FDCC', panel(heading('Carnet des copains', badge) + `<div class="net-list">${companions.map(c => `<div class="row">${button(c.name, 'author', c.id)}${button(state().friends.includes(c.id) ? 'Supprimer ce copain' : 'Ajouter ce copain', state().friends.includes(c.id) ? 'removeFriend' : 'addFriend', c.id)}</div>`).join('')}</div>${button('Ma fiche de goût', 'author', 'self')}`)];
@@ -118,9 +136,46 @@ function libraryScreen() {
   return ['FDSEANCE', panel(heading('Les exercices jouables') + `<label>Rechercher<input id="exercise-search" value="${esc(lessonFilter)}" placeholder="homonymes, calcul, FRF6AAA1…"></label><p>${list.length} / ${lessons.length} exercices · français et maths, collège</p><div class="net-list">${list.map(l => button(`${l.id} — ${l.instruction}`, 'exercise', l.id)).join('')}</div>`)];
 }
 function reservationScreen() {
-  const selectorsHtml = selectors(); const tomorrow = new Date(Date.now() + 86400000); tomorrow.setHours(14, 0, 0, 0);
-  const localDate = new Date(tomorrow.getTime() - tomorrow.getTimezoneOffset() * 60000).toISOString().slice(0, 16);
-  return ['FDRESA', panel(heading('RÉSERVATIONS', badge) + selectorsHtml + form('reserve', `<div class="row"><label>Jour et heure<input name="date" type="datetime-local" required value="${localDate}"></label><label>Place dans la classe<select name="seat">${options(Array.from({ length: 6 }, (_, i) => [i + 1, `Place ${i + 1}`]), 1)}</select></label></div><p class="small">Quatre semaines à venir, hors 4 h et 5 h. Les places sont simulées ; tu peux jouer les exercices sans attendre l’heure.</p>`, 'Enregistrer la réservation') + `<h3>Mes réservations</h3>${state().reservations.length ? '<div class="net-list">' + state().reservations.map(r => `<div>${esc(catalog.sessions.find(s => s.id === r.session)?.title)} · ${new Date(r.date).toLocaleString('fr-FR')} · place ${r.seat} ${button('Annuler la réservation', 'cancelReservation', r.id)}</div>`).join('') + '</div>' : '<p>Aucune réservation</p>'}`)];
+  if (booking) return seatScreen();
+  if (myReservations) return ['FDRESA', panel(heading('Mes réservations')
+    + (state().reservations.length ? '<div class="net-list">' + state().reservations.slice().sort((a, b) => a.date - b.date).map(r => {
+      const session = catalog.sessions.find(s => s.id === r.session);
+      return `<div class="booking-summary"><p>${esc(session ? `${session.subject === 'M' ? 'MATHS' : 'FRANÇAIS'} · ${session.levelLabel} · ${session.title}` : r.session)}</p><p>${new Date(r.date).toLocaleString('fr-FR')} · place ${r.seat}</p>${button('Voir la réservation', 'openBooking', r.id)} ${button('Annuler la réservation', 'cancelReservation', r.id)}</div>`;
+    }).join('') + '</div>' : '<p>Aucune réservation.</p>') + button('Le calendrier', 'calendar'))];
+  const days = Array.from({ length: 7 }, (_, i) => addDays(calendarWeek, i));
+  const current = Date.now();
+  const reservations = state().reservations;
+  const dayLabel = date => new Date(date).toLocaleDateString('fr-FR');
+  const cells = Array.from({ length: 8 }, (_, row) => {
+    const hour = firstHour + row;
+    return `<span class="calendar-hour">${hour}h</span>` + days.map(day => {
+      const date = calendarHour(day, hour);
+      const reserved = reservations.find(r => date !== null && hourStart(r.date) === date);
+      const session = reserved && catalog.sessions.find(s => s.id === reserved.session);
+      const matching = session?.subject === subject && session?.level === level;
+      const available = canReserve(date, current);
+      const label = `${dayLabel(day)} à ${hour}h${reserved ? ` · Réservé : ${session?.levelLabel || ''} · ${session?.title || reserved.session}` : available ? ' · Libre' : ' · Séance indisponible'}`;
+      return `<button type="button" class="calendar-cell ${reserved ? 'booked' : ''} ${reserved && !matching ? 'other-session' : ''}" data-action="calendarSlot" data-value="${date ?? ''}" aria-label="${esc(label)}" title="${esc(label)}" ${!available && !reserved ? 'disabled' : ''}>${reserved ? `<span class="reservation-icon ${session?.subject === 'M' ? 'maths' : 'french'}" aria-hidden="true"></span>` : ''}</button>`;
+    }).join('');
+  }).join('');
+  return ['FDRESA', `<div class="calendar-week">${button('◀', 'calendarWeek', '-1', calendarWeek <= weekStart(current))}<span>Semaine du ${dayLabel(calendarWeek)} au ${dayLabel(days[6])}</span>${button('▶', 'calendarWeek', '1', calendarWeek >= weekStart(addDays(current, 28)))}</div><button class="my-reservations" data-action="myReservations">Mes réservations</button><div class="calendar-filters"><label><span class="sr-only">Matière</span><select id="subject">${options([['M', 'MATHS'], ['F', 'FRANÇAIS']], subject)}</select></label><label><span class="sr-only">Niveau</span><select id="level">${options(['A','9','8','7','6','5','4','3'].map((l, i) => [l, ['CE1','CE2','CM1','CM2','6ème','5ème','4ème','3ème'][i]]), level)}</select></label></div><div class="calendar-days">${days.map(day => `<span>${new Date(day).toLocaleDateString('fr-FR', { weekday: 'long' })}</span>`).join('')}</div><div class="calendar-grid" aria-label="Créneaux de la semaine">${cells}</div><div class="calendar-scroll"><button data-action="calendarHours" data-value="-1" aria-label="Heures précédentes" ${firstHour === 0 ? 'disabled' : ''}>▲</button><input id="calendar-hour" type="range" min="0" max="16" value="${firstHour}" aria-label="Première heure affichée"><button data-action="calendarHours" data-value="1" aria-label="Heures suivantes" ${firstHour === 16 ? 'disabled' : ''}>▼</button></div><p class="calendar-legend">Choisis une heure, puis ta place dans la classe.</p><p class="calendar-subscription">${state().subscription ? 'Abonné' : 'Sans abonnement'}</p>`];
+}
+function openBooking(date, existing) {
+  if (existing) {
+    const session = catalog.sessions.find(s => s.id === existing.session);
+    if (session) { subject = session.subject; level = session.level; chosenSession = session.id; }
+  }
+  const sessions = sessionChoices();
+  if (!sessions.some(s => s.id === chosenSession)) chosenSession = sessions[0]?.id;
+  booking = { id: existing?.id, date, seat: existing?.seat || 0 };
+  render();
+}
+function seatScreen() {
+  const sessions = sessionChoices();
+  const session = sessions.find(s => s.id === chosenSession);
+  const themes = [...new Set(sessions.map(s => s.theme))];
+  const editable = canReserve(booking.date, Date.now());
+  return ['FDSEANCE', `<div class="seat-heading">${new Date(booking.date).toLocaleDateString('fr-FR')} à ${new Date(booking.date).getHours()}h : ${subject === 'M' ? 'MATHS' : 'FRANÇAIS'} - ${esc(session?.levelLabel || level)}</div><div class="seat-filters"><label><span class="sr-only">Thème</span><select id="booking-theme" ${editable ? '' : 'disabled'}>${options(themes.map(t => [t, t]), session?.theme)}</select></label><label><span class="sr-only">Séance</span><select id="session" ${editable ? '' : 'disabled'}>${options(sessions.filter(s => s.theme === session?.theme).map(s => [s.id, s.title]), chosenSession)}</select></label></div><h2 class="class-number">Classe 1</h2><div class="class-seats">${Array.from({ length: 6 }, (_, i) => `<button class="class-seat" data-action="chooseSeat" data-value="${i + 1}" aria-label="Place ${i + 1}${booking.seat === i + 1 ? ` : ${esc(state().profile)}` : ' libre'}" aria-pressed="${booking.seat === i + 1}" ${editable ? '' : 'disabled'}><img src="${asset(`ui-AI_LINT3-${booking.seat === i + 1 ? 1 : 2}.webp`)}" alt=""><span>${booking.seat === i + 1 ? esc(state().profile) : `Place ${i + 1}`}</span></button>`).join('')}</div><div class="seat-instructions"><p>${editable ? 'Choisis ta place, le thème et la séance, puis valide avec le pouce.' : 'Cette séance est passée.'}</p>${editable ? `<form id="reserve"><button type="submit" ${booking.seat ? '' : 'disabled'}>${booking.id ? 'Valider les modifications' : 'Valider la réservation'}</button></form>` : ''}</div>${booking.id ? `<div class="seat-cancel">${button('Annuler la réservation', 'cancelReservation', booking.id)}</div>` : ''}`];
 }
 function exerciseScreen() {
   const q = exercise.questions[questionIndex];
@@ -183,6 +238,16 @@ function showHelp(content) {
   const overlay = document.createElement('div'); overlay.className = 'net-help'; overlay.setAttribute('role', 'dialog'); overlay.setAttribute('aria-label', 'Explication');
   overlay.innerHTML = `${button('Fermer', 'closeHelp')}<h2>Explication</h2>${content}`; root.querySelector('.net-stage').append(overlay); overlay.querySelector('button').focus();
 }
+function confirmRemoval(message, action, id) {
+  const previousFocus = document.activeElement;
+  const dialog = document.createElement('dialog');
+  dialog.className = 'net-confirm';
+  dialog.setAttribute('aria-labelledby', 'confirmation-title');
+  dialog.innerHTML = `<p id="confirmation-title">${esc(message)}</p><div class="row">${button('Oui', action, id)}<form method="dialog"><button autofocus>Non</button></form></div>`;
+  root.append(dialog);
+  dialog.addEventListener('close', () => { dialog.remove(); previousFocus?.focus(); }, { once: true });
+  dialog.showModal();
+}
 function render() {
   playback.pause(); clearTimeout(motionTimer); clearTimeout(ambientTimer); observer?.disconnect();
   const [background, content] = screenContents();
@@ -225,9 +290,13 @@ root.addEventListener('click', event => {
       case 'composeTo':
         run('addFriend', { id: value }); go('mail'); replyTo = [value]; writer = true; render(); break;
       case 'writeMail': replyTo = []; writer = true; render(); break;
-      case 'readMail': run('readMail', { id: value }); mailId = value; render(); break;
+      case 'selectMail':
+        if (selectedMailId === value) { run('readMail', { id: value }); mailId = value; }
+        selectedMailId = value; render(); break;
+      case 'readMail': run('readMail', { id: value }); mailId = value; selectedMailId = value; render(); break;
       case 'reply': replyTo = state().friends.includes(value) || parentMail ? [value] : []; writer = true; render(); break;
-      case 'deleteMail': run('deleteMail', { id: value }); mailId = null; render(); break;
+      case 'deleteMail': confirmRemoval('Veux-tu effacer ce message ?', 'confirmDeleteMail', value); break;
+      case 'confirmDeleteMail': run('deleteMail', { id: value }); mailId = null; selectedMailId = null; render(); root.querySelector('[data-action="writeMail"]')?.focus(); break;
       case 'mailList': mailId = null; writer = false; render(); break;
       case 'site': navSites = navSites.slice(0, siteIndex + 1); navSites.push(value); siteIndex++; render(); break;
       case 'siteBack': siteIndex = Math.max(-1, siteIndex - 1); render(); break;
@@ -246,7 +315,30 @@ root.addEventListener('click', event => {
         if (questionIndex + 1 < exercise.questions.length) { questionIndex++; chosen = []; checked = false; render(); }
         else { const result = run('finishExercise', { lesson: exercise.id, answers }); go('results'); inform(`${result.correct}/${result.total} bonne(s) réponse(s) · ${result.score}/20. Tes points ont été mis à jour.`); } break;
       case 'lessonHelp': showHelp(exercise.help.map(t => `<p style="white-space:pre-wrap">${esc(t)}</p>`).join('') || '<p>Aucune aide textuelle présente pour cet exercice.</p>'); break;
-      case 'cancelReservation': run('cancelReservation', { id: value }); render(); break;
+      case 'calendarWeek': {
+        const next = addDays(calendarWeek, Number(value) * 7);
+        if (next >= weekStart(Date.now()) && next <= weekStart(addDays(Date.now(), 28))) calendarWeek = next;
+        render(); break;
+      }
+      case 'calendarHours': firstHour = Math.max(0, Math.min(16, firstHour + Number(value))); render(); break;
+      case 'myReservations': myReservations = true; render(); break;
+      case 'calendar': booking = null; myReservations = false; render(); break;
+      case 'calendarSlot': {
+        const date = Number(value);
+        const existing = state().reservations.find(r => hourStart(r.date) === date);
+        const session = existing && catalog.sessions.find(s => s.id === existing.session);
+        if (session && (session.subject !== subject || session.level !== level)) throw new Error('Tu as déjà réservé une séance à cette heure, pour une autre matière ou un autre niveau. Retrouve-la dans « Mes réservations ».');
+        if (!existing && !canReserve(date, Date.now())) throw new Error('Séance indisponible.');
+        openBooking(date, existing); break;
+      }
+      case 'openBooking': {
+        const existing = state().reservations.find(r => r.id === value);
+        if (existing) openBooking(hourStart(existing.date), existing);
+        break;
+      }
+      case 'chooseSeat': booking.seat = Number(value); render(); break;
+      case 'cancelReservation': confirmRemoval('Es-tu sûr de vouloir annuler ta réservation ?', 'confirmCancelReservation', value); break;
+      case 'confirmCancelReservation': run('cancelReservation', { id: value }); booking = null; render(); inform('Réservation annulée.'); root.querySelector('[data-action="myReservations"], [data-action="calendar"]')?.focus(); break;
       case 'resultGraph': root.querySelector('#results-chart').hidden = false; root.querySelector('#results-table').hidden = true; break;
       case 'resultTable': root.querySelector('#results-chart').hidden = true; root.querySelector('#results-table').hidden = false; break;
       case 'diploma': showHelp('<p>Le diplôme original était accordé après toutes les séances d’une matière. Le catalogue n’étant pas entièrement porté, aucun diplôme de fin de matière n’est attribué.</p><img style="width:100%" src="/game/internet/FDDIP.webp" alt="Modèle original du diplôme, non attribué">'); break;
@@ -271,6 +363,8 @@ root.addEventListener('change', event => {
   if (id === 'subject') { subject = value; render(); }
   else if (id === 'level') { level = value; render(); }
   else if (id === 'session') { chosenSession = value; render(); }
+  else if (id === 'booking-theme') { chosenSession = sessionChoices().find(s => s.theme === value)?.id; render(); }
+  else if (id === 'calendar-hour') { firstHour = Number(value); render(); root.querySelector('#calendar-hour')?.focus(); }
   else if (id === 'article-choice') { selectedArticle = value; chapter = 0; render(); }
 });
 root.addEventListener('input', event => {
@@ -280,6 +374,7 @@ root.addEventListener('input', event => {
   }
 });
 root.addEventListener('submit', event => {
+  if (event.target.getAttribute('method') === 'dialog') return;
   event.preventDefault(); const formElement = event.target; const data = new FormData(formElement); const get = k => data.get(k);
   try {
     switch (formElement.id) {
@@ -302,7 +397,10 @@ root.addEventListener('submit', event => {
         if (!id) { inform(state().controls.restricted ? 'Accès au site interdit. Seuls les sites prédéfinis sont accessibles.' : 'Accès au site impossible. Aucune fiche n’existe pour cette adresse.'); break; }
         navSites = navSites.slice(0, siteIndex + 1); navSites.push(id); siteIndex++; render(); break;
       }
-      case 'reserve': run('reserve', { session: chosenSession, date: new Date(get('date')).getTime(), seat: Number(get('seat')) }); render(); inform('Réservation enregistrée.'); break;
+      case 'reserve':
+        run('reserve', { ...booking, session: chosenSession });
+        calendarWeek = weekStart(booking.date); firstHour = Math.min(16, new Date(booking.date).getHours());
+        booking = null; myReservations = false; render(); inform('Réservation enregistrée.'); break;
       case 'chat': run('chat', { text: get('text') }); render(); root.querySelector('.chat-log').scrollTop = 1e6; break;
       case 'subscription': run('subscription', { enabled: get('enabled') === 'on', renewal: get('renewal') === 'on' }); render(); inform('Abonnement mis à jour.'); break;
       case 'symbol': run('parentSymbol', { symbol: get('symbol') }); parentUnlocked = false; render(); inform('Symbole enregistré.'); break;

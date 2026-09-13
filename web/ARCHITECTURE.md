@@ -132,6 +132,15 @@ et réglages dans `adi4-internet-local-v1`. Les noms de personnages partagent ce
 même dossier ; aucune des anciennes clés de sauvegarde n’est modifiée.
 `player.js` rend les écrans, intercepte les formulaires, lit les médias et
 coordonne les animations d’attente. Les adresses historiques restent du texte.
+`calendar.js` fournit les calculs d’heures et de jours civils locaux : la grille
+hebdomadaire et le moteur appliquent les mêmes règles, y compris aux changements
+d’heure. Une réservation conserve son identifiant lors d’un changement de place
+ou de séance ; les anciennes sauvegardes à la minute restent lisibles.
+
+Le calendrier puis les six places, ainsi que la sélection du courrier avant
+lecture et les confirmations de suppression, reprennent les parcours observés
+dans le client original. Les exercices restent accessibles librement. Ces écrans
+ne se connectent pas au serveur TCP Python et conservent le stockage navigateur.
 
 L’iframe utilise `allow-scripts`, `allow-same-origin`, `allow-downloads`,
 `allow-modals` et `allow-forms`. Ce dernier autorise les événements `submit`,
@@ -147,6 +156,9 @@ empreintes des sources/exports et les formats refusés. `inspect_internet.py`
 produit les preuves de désassemblage ; `ghidra/InternetProtocol.java` analyse le
 transport original sans le faire fonctionner. Les sources originales sont
 nécessaires à la régénération, pas à la lecture du jeu web.
+`prepare_internet_ui.py`, également appelé par le générateur principal, restitue
+la transparence noire de sept sprites depuis les exports vérifiés. Il produit
+des fichiers `ui-*.webp` et `ui-manifest.json` sans modifier les exports existants.
 
 Le build versionne également les points d’entrée de `internet.html` sous
 `/releases/<empreinte>/`. Les quatre JSON et médias restent sous `/game/internet/`.

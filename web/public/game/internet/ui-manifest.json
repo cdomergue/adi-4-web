@@ -1,0 +1,51 @@
+[
+  {
+    "file": "ui-AI_LINT3-1.webp",
+    "sha256": "2b93e46b8fd33f4a9d386ec8c998de49acc35e8662462131d771dbb71d6c3e34",
+    "source": "AI_LINT3-1.webp",
+    "sourceSha256": "3fbf57bac23535290d70176dae4ff1a7171d427a561b7fa0f8854b9ccaefd4cd",
+    "originalSource": "extracted/resources/Internet/INTER_DD.STK/AI_LINT3.EXT"
+  },
+  {
+    "file": "ui-AI_LINT3-2.webp",
+    "sha256": "2664c0191f0c316c67e224d61bf69b6f8c8b2e15dad7c44cf8b0ba713d750f81",
+    "source": "AI_LINT3-2.webp",
+    "sourceSha256": "7138e1eb59492e8a880996f0672191bce4e8a7cc687b18782533254776bb54c5",
+    "originalSource": "extracted/resources/Internet/INTER_DD.STK/AI_LINT3.EXT"
+  },
+  {
+    "file": "ui-AI_LINT1-8.webp",
+    "sha256": "862a0e260187b9053413d3296e559f8afa19ce8d074ca722ff85aedce36234d6",
+    "source": "AI_LINT1-8.webp",
+    "sourceSha256": "5743749e43d62e356a117ef933b7f7303bb8072acdd2aadc90b42c33b897825f",
+    "originalSource": "extracted/resources/Internet/INTER_DD.STK/AI_LINT1.EXT"
+  },
+  {
+    "file": "ui-AI_LINT1-15.webp",
+    "sha256": "777dcbdffc55f04f9d6083fa88db6063301584400d7df2c1e6942be1a21c9394",
+    "source": "AI_LINT1-15.webp",
+    "sourceSha256": "ed2022e7a786efaf4d10b814fd6ae763dc3c52e302a5c2bd252baa0f8725f015",
+    "originalSource": "extracted/resources/Internet/INTER_DD.STK/AI_LINT1.EXT"
+  },
+  {
+    "file": "ui-AI_LINT1-16.webp",
+    "sha256": "3498160a10228f951aea45c0b825f1b21120b7670fe1d0a32a6dfe7f48efdbbc",
+    "source": "AI_LINT1-16.webp",
+    "sourceSha256": "7583fbe94d2f0b4055ba71ac9ba3a1339cbfe8dbda472832de7b09e7f6117d10",
+    "originalSource": "extracted/resources/Internet/INTER_DD.STK/AI_LINT1.EXT"
+  },
+  {
+    "file": "ui-AI_MAIL-0.webp",
+    "sha256": "0a9217ca514b348cdd639001db522da5a58ab64084e76f1fa32b36777e180504",
+    "source": "AI_MAIL-0.webp",
+    "sourceSha256": "f66ea8f343ae4c9ed628b24c94d2c40c197579b64752aacc101121f1fb0ec0d0",
+    "originalSource": "extracted/resources/Adi421EnvCol2/INTER_CD.STK/AI_MAIL.EXT"
+  },
+  {
+    "file": "ui-ICRESA1.webp",
+    "sha256": "92fe179411a05e8df01260193f41543c96db39fc5ed553706deda2f787949a2c",
+    "source": "ICRESA1.webp",
+    "sourceSha256": "5e1d619ae5edd9a8dfb975d45197a84ca29014d12e8b9995df527d20743c24b8",
+    "originalSource": "extracted/resources/Adi421EnvCol2/INTER_CD.LTK/ICRESA1.TGA"
+  }
+]

@@ -1,4 +1,5 @@
 // Local replacement for the retired server. No networking, DOM, or credentials.
+import { canReserve, hourStart } from './calendar.js';
 export const storageKey = 'adi4-internet-local-v1';
 export const categories = [
   { id: 'novels', label: 'Romans', background: 'FDROMAN', voice: 'ENZO1004' },
@@ -88,7 +89,7 @@ export function createLocalInternet({ catalog, lessons, storage, now = Date.now 
         const allowed = p.parent ? ['consommateurs', 'technique', 'achat'] : state.friends;
         const to = [...new Set(p.to || [])].filter(x => allowed.includes(x));
         requireValue(to.length, 'Choisis un destinataire.');
-        const title = requireValue(clean(p.title, 120), 'Saisis un titre pour ton message.');
+        const title = requireValue(clean(p.title, 39), 'Saisis un titre pour ton message.');
         const body = requireValue(clean(p.body), 'Écris ton message.');
         result = { id: id(), from: state.profile, to, title, body, date: now(), read: true, parent: !!p.parent };
         state.messages.push(result, { id: id(), from: to[0], to: [state.profile], title: `Re : ${title}`, body: 'Merci pour ton message ! Retrouve-moi dans la récréation ou continue notre roman dans OnAdi.', date: now(), read: false, demo: true, parent: !!p.parent }); break;
@@ -108,13 +109,18 @@ export function createLocalInternet({ catalog, lessons, storage, now = Date.now 
       case 'reserve': {
         const session = requireValue(catalog.sessions.find(s => s.id === p.session && s.active), 'Séance indisponible.');
         requireValue(state.subscription, 'Active l’abonnement fictif dans le coin parents.');
-        const date = Number(p.date); const d = new Date(date);
-        requireValue(Number.isFinite(date) && date > now() && date <= now() + 28 * 86400000 && ![4, 5].includes(d.getHours()), 'Choisis une heure disponible dans les quatre prochaines semaines.');
-        requireValue(!state.reservations.some(r => r.date === date), 'Tu as déjà réservé une séance à cette heure.');
-        const booked = state.reservations.filter(r => weekStart(r.date) === weekStart(date)).length;
+        const date = Number(p.date);
+        requireValue(canReserve(date, now()), 'Choisis une heure disponible dans les quatre prochaines semaines.');
+        const existing = p.id ? requireValue(state.reservations.find(r => r.id === p.id), 'Cette réservation n’existe plus.') : null;
+        const others = state.reservations.filter(r => r !== existing);
+        requireValue(!others.some(r => hourStart(r.date) === date), 'Tu as déjà réservé une séance à cette heure, pour une autre matière ou un autre niveau.');
+        const booked = others.filter(r => weekStart(r.date) === weekStart(date)).length;
         requireValue(state.controls.reservationLimit === null || booked < state.controls.reservationLimit, 'Le nombre de réservations accordé est dépassé.');
         requireValue(Number.isInteger(p.seat) && p.seat >= 1 && p.seat <= 6, 'Choisis une place.');
-        result = { id: id(), session: session.id, date, seat: p.seat }; state.reservations.push(result); break;
+        result = { id: existing?.id || id(), session: session.id, date, seat: p.seat };
+        if (existing) Object.assign(existing, result);
+        else state.reservations.push(result);
+        break;
       }
       case 'cancelReservation': state.reservations = state.reservations.filter(r => r.id !== p.id); break;
       case 'finishExercise': {

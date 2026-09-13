@@ -3,6 +3,7 @@ import assert from 'node:assert/strict';
 import { readFile, access } from 'node:fs/promises';
 import { createHash } from 'node:crypto';
 import { createLocalInternet, grade, gifts, storageKey, weekStart } from '../public/features/internet/engine.js';
+import { addDays, calendarHour, canReserve, hourStart } from '../public/features/internet/calendar.js';
 const base = new URL('../public/game/internet/', import.meta.url);
 const json = async name => JSON.parse(await readFile(new URL(name, base), 'utf8'));
 const catalog = await json('catalog.json'), lessons = await json('lessons.json');
@@ -83,6 +84,63 @@ test('Internet: original exercise result yields bounded demo points, never repea
   e.request('giveGoodie',{id:gifts[0].id});assert.equal(e.balance(),10);
   assert.equal(setup(new Map([[storageKey,JSON.stringify(e.state)]])).engine.balance(),10);
 });
+test('Internet: changing a booking preserves its identity and respects the weekly quota', () => {
+  const { engine: e, store } = setup();
+  e.request('controls', { forum: 'unlimited', forumMinutes: 60, reservationLimit: 1, restricted: true });
+  const original = e.request('reserve', { session: 'F6AA', date: now + 86400000, seat: 2 });
+  e.request('reserve', { ...original, session: 'M6EA', seat: 6 });
+  const saved = setup(store).engine.state.reservations;
+  assert.equal(saved.length, 1);
+  assert.deepEqual(saved[0], { ...original, session: 'M6EA', seat: 6 });
+  const snapshot = e.state.reservations;
+  assert.throws(() => e.request('reserve', { ...original, seat: 7 }), /place/);
+  assert.throws(() => e.request('reserve', { ...original, id: 'missing' }), /n’existe plus/);
+  assert.deepEqual(e.state.reservations, snapshot);
+});
+test('Internet: hourly bookings reject minute offsets and preserve old saves on collision', () => {
+  const { engine: e, store } = setup();
+  const params = { session: 'F6AA', date: now + 86400000, seat: 1 };
+  assert.throws(() => e.request('reserve', { ...params, date: params.date + 60000 }), /heure disponible/);
+  const original = e.request('reserve', params);
+  const old = e.state;
+  old.reservations[0].date += 15 * 60000; // The previous datetime input allowed minutes.
+  store.set(storageKey, JSON.stringify(old));
+  const reloaded = setup(store).engine;
+  assert.throws(() => reloaded.request('reserve', { ...params, session: 'M6EA' }), /déjà réservé/);
+  assert.equal(reloaded.state.reservations[0].date, old.reservations[0].date);
+  reloaded.request('reserve', { ...params, id: original.id, seat: 3 });
+  assert.equal(reloaded.state.reservations[0].date, params.date);
+  reloaded.request('cancelReservation', { id: original.id });
+  assert.equal(setup(store).engine.state.reservations.length, 0);
+});
+test('Internet: calendar uses civil days and permits the current hourly slot', () => {
+  assert.equal(canReserve(hourStart(now), now + 30 * 60000), true);
+  assert.equal(canReserve(hourStart(now) - 3600000, now), false);
+  assert.equal(canReserve(null, now), false);
+  const oldTimezone = process.env.TZ;
+  process.env.TZ = 'Europe/Paris';
+  try {
+    for (const [month, day, duration] of [[2, 29, 23], [9, 25, 25]]) {
+      const start = new Date(2026, month, day).getTime();
+      assert.equal((addDays(start, 1) - start) / 3600000, duration);
+      assert.equal(new Date(addDays(start, 1)).getHours(), 0);
+      assert.equal(new Date(calendarHour(start, 14)).getHours(), 14);
+    }
+    assert.equal(calendarHour(new Date(2026, 2, 29).getTime(), 2), null);
+  } finally {
+    if (oldTimezone === undefined) delete process.env.TZ;
+    else process.env.TZ = oldTimezone;
+  }
+});
+test('Internet: read and deleted mail persist without recreating the welcome message', () => {
+  const { engine: e, store } = setup();
+  e.request('readMail', { id: 'welcome' });
+  assert.equal(setup(store).engine.state.messages[0].read, true);
+  e.request('deleteMail', { id: 'welcome' });
+  assert.equal(setup(store).engine.state.messages.length, 0);
+  const sent = e.request('writeMail', { to: ['lina'], title: 'é'.repeat(50), body: 'Bonjour' });
+  assert.equal(sent.title.length, 39);
+});
 test('Internet: storage failure is reported without losing the current play session', () => {
   const e=createLocalInternet({catalog,lessons,storage:{getItem(){throw Error('blocked')},setItem(){throw Error('full')}}});
   e.request('connect');assert.equal(e.storageError,true);assert.equal(e.state.connected,true);
@@ -107,4 +165,16 @@ test('Internet: independent CSP blocks external resources and real form submissi
   assert.doesNotMatch(player, /\b(?:WebSocket|XMLHttpRequest|EventSource|sendBeacon|window\.open)\b/);
   assert.doesNotMatch(player, /(?:href|src)="\$\{[^}]*address/);
   assert.doesNotMatch(player, /Envoyer[^']*localement/);
+});
+test('Internet: transparent UI sprites retain verified original provenance', async () => {
+  const manifest = await json('ui-manifest.json');
+  const originals = await json('manifest.json');
+  assert.equal(manifest.length, 7);
+  for (const item of manifest) {
+    const source = originals.files.find(f => f.file === item.source);
+    assert.equal(item.sourceSha256, source.sha256);
+    for (const [file, hash] of [[item.file, item.sha256], [item.source, item.sourceSha256]]) {
+      assert.equal(createHash('sha256').update(await readFile(new URL(file, base))).digest('hex'), hash, file);
+    }
+  }
 });
