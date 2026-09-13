@@ -1,154 +1,78 @@
 # ADI 4 Sciences
 
-Reconstitution locale d’ADI 4 Sciences, organisée en deux projets complémentaires :
+Recréation d’ADI 4 Sciences, avec deux projets publiés dans ce dépôt :
 
-- `web/` est le portage jouable dans un navigateur : chambre d’Adi, station
-  Sciences, cours, encyclopédie, Internet simulé et jeux.
-- `serveur/` est un serveur local compatible avec le client original ADI 4.21.
-  Il recrée une partie des services Internet historiques afin de pouvoir relancer
-  l’exécutable Windows original dans un environnement de test.
+- [L’application web](web/README.md) : chambre d’Adi, radio, jeux, cours et station
+  Sciences. La version en ligne est disponible sur [example.invalid](https://example.invalid/).
+- [Le serveur ADI 4.21](serveur/README.md) : serveur TCP Python compatible avec
+  une partie des services Internet du client Windows original.
 
-Les deux projets sont volontairement séparés : l’application web fonctionne sans
-serveur ni compte, tandis que le serveur parle au véritable client ADI 4.21 sur
-`127.0.0.1:2001`. Le serveur ne contacte aucun ancien domaine Internet.
+L’application web est statique et fonctionne sans le serveur Python ni compte.
+Sa planète Internet est simulée dans le navigateur. Le serveur Python s’adresse
+au client original, fourni séparément, et écoute uniquement sur la boucle locale.
+Il ne contacte aucun ancien service Internet.
 
-## Portage web
+## Jouer après clonage
 
-### Lancer l’application
-
-Prérequis : Node.js 22 ou plus récent. Aucun `npm install` n’est nécessaire.
-
+Node.js 22 ou plus récent suffit ; aucun `npm install` n’est nécessaire.
 Depuis la racine du dépôt :
 
-```bash
+```sh
 npm --prefix web run dev
 ```
 
-Ouvrir ensuite <http://127.0.0.1:4173/>. Les entrées principales sont :
+Ouvrir [la version locale](http://127.0.0.1:4173/).
+La chambre, la radio, la planète Internet simulée et les dix jeux disponibles
+ont leurs ressources dans Git : Sokoban, les trois Goblins, Mr. Matt I et II,
+et les quatre épisodes de Bad Toys 3D. Les parties sont conservées dans le
+navigateur, selon les possibilités de chaque jeu.
 
-- `#room` : chambre d’Adi, radio et caisse de jeux ;
-- `#scene/station` : station Sciences, cours et encyclopédie ;
-- `#internet` : reconstitution locale de la planète Internet ;
-- `#game/sokoban` : Sokoban ;
-- `#game/wgob1`, `#game/wgob2`, `#game/wgob3` : Gobliiins / Gobliins 2 / Goblins 3 ;
-- `#game/mrmatt1`, `#game/mrmatt2` : Mr. Matt I et II ;
-- `#game/bt3d_1` à `#game/bt3d_4` : les quatre épisodes de Bad Toys 3D.
+Le code et les ressources des cours, de l’encyclopédie et des 14 simulations
+Sciences sont également inclus. Un clone contient les médias nécessaires au
+client web, sans récupération depuis une installation de travail.
+Voir [les fonctions et limites de la version web](web/README.md).
 
-Les ressources déjà portées sont fournies dans `web/public/game/`. Les
-sauvegardes de l’application et de certains jeux restent locales au navigateur.
+## Lancer le serveur du client original
 
-### Vérifier et construire
+Python 3.10 ou plus récent suffit, sans dépendance `pip` :
 
-```bash
-npm --prefix web run check
-npm --prefix web test
-npm --prefix web run build
-npm --prefix web run preview
-```
-
-`build` génère la distribution statique dans `web/dist/`. Pour l’architecture,
-les modules et les limites du portage, voir [la documentation web](web/README.md)
-et [l’état du projet](PROJECT_STATUS.md).
-
-Les extractions des CD, l’installateur original et les médias non préparés restent
-locaux et sont ignorés par Git. Ils sont nécessaires uniquement pour régénérer
-certaines ressources, pas pour lancer les jeux web déjà inclus.
-
-## Serveur local du jeu original
-
-Le dossier `serveur/` constitue un projet distinct. Il contient un serveur TCP
-Python avec SQLite pour le client original ADI 4.21 : connexion, profils enfants,
-messagerie locale et réservations des classes virtuelles. Les comptes, messages,
-réservations et résultats sont conservés dans `serveur/runtime/`, qui n’est pas
-versionné.
-
-### Lancer le serveur seul
-
-Python 3.10 ou plus récent suffit ; aucune dépendance `pip` n’est requise :
-
-```bash
+```sh
 python3 serveur/server.py
 ```
 
-Le serveur écoute uniquement sur `127.0.0.1:2001`. Options utiles :
+Le serveur écoute sur `127.0.0.1:2001` et crée automatiquement sa base SQLite.
+Il conserve les comptes, profils enfants, courriers, réservations de classes et
+résultats reçus. Arrêter avec `Ctrl+C`.
 
-```bash
-python3 serveur/server.py --port 2001 --log serveur/runtime/server.jsonl
-python3 serveur/server.py --db /chemin/vers/adi.sqlite3
-```
+Le [mode d’emploi du serveur](serveur/README.md) décrit la connexion, les commandes
+d’administration et les limites. Le [protocole pris en charge](serveur/PROTOCOL.md)
+est documenté séparément. Le serveur ne fournit pas le client Windows original
+ni les archives pédagogiques nécessaires aux exercices des classes.
 
-### Connecter le client Windows original
+## Vérifier et construire
 
-Le jeu original, Wine et ses ressources doivent être fournis séparément. Depuis
-la racine du dépôt, préparer une copie de test sans modifier l’installation
-source :
+Depuis la racine du dépôt :
 
-```bash
-python3 serveur/prepare.py --prefill
-```
-
-Pour une session manuelle dans une fenêtre Xephyr :
-
-```bash
-bash serveur/run-visible.sh
-```
-
-Pour une session isolée et invisible sous Xvfb, sans accès réseau extérieur :
-
-```bash
-bash serveur/run-isolated.sh
-```
-
-Ces lanceurs redirigent la copie de test du fichier `INTERNET/POSTE.INF` vers
-`127.0.0.1:2001`. Ils n’écrasent pas l’installation originale. Les prérequis
-Wine, `unshare`, `ip`, Xephyr ou Xvfb sont détaillés dans [le mode d’emploi du
-serveur](serveur/README.md).
-
-### Administrer les données locales
-
-Déposer un message dans une boîte :
-
-```bash
-python3 serveur/mail.py profiles
-python3 serveur/mail.py deliver --child 707 \
-  --title "Message local" --body-file message.txt
-```
-
-Gérer les réservations de classes :
-
-```bash
-python3 serveur/classes.py list
-python3 serveur/classes.py reserve --child 707 --at now \
-  --subject M --level 6 --theme G --lesson A --seat 1
-python3 serveur/classes.py cancel --child 707 --class-id 1
-```
-
-Le serveur est une reconstitution locale et expérimentale, pas une remise en
-ligne du service historique. Les forums, achats, présence en ligne, synchronisation
-complète des profils et téléchargement des archives d’exercices ne sont pas
-implémentés. Voir [le protocole étudié](serveur/PROTOCOL.md) et [les limites du
-serveur](serveur/README.md).
-
-## Tests
-
-```bash
+```sh
 npm --prefix web run check
 npm --prefix web test
+npm --prefix web run build
 python3 -m unittest discover -s serveur -p 'test_*.py' -v
 ```
 
-Les tests Python du serveur utilisent des sockets de boucle locale et une base
-SQLite temporaire. Les fichiers de runtime, les installations originales et les
-captures de test ne doivent pas être ajoutés au dépôt.
+Pour servir la distribution web générée :
 
-## Arborescence
-
-```text
-web/       application navigateur, assets portés et tests JavaScript
-serveur/   serveur local ADI 4.21, SQLite, outils et tests Python
+```sh
+npm --prefix web run preview
 ```
 
-Le projet documente séparément ce qui est vérifié sur le client original, ce qui
-est simulé dans le navigateur et ce qui reste à porter. Les outils d’extraction,
-les rapports de travail et la configuration de déploiement restent dans le dossier
-personnel et ne font pas partie de l’historique public.
+La construction utilise uniquement les ressources présentes dans la copie du
+dépôt. Les tests du serveur utilisent une base temporaire et des sockets de
+boucle locale ; ils ne nécessitent pas le jeu original.
+
+## Organisation
+
+- [Web](web/README.md) : démarrage, jeux, sauvegardes et hébergement statique.
+- [Architecture web](web/ARCHITECTURE.md) : modules, règles et validation.
+- [Serveur](serveur/README.md) : exécution et administration du service TCP.
+- [Protocole](serveur/PROTOCOL.md) : messages et comportements pris en charge.

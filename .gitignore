@@ -8,24 +8,9 @@
 /reports/installer-files.txt
 __pycache__/
 /web/dist/
-/web/public/game/*
-!/web/public/game/catalog.json
-!/web/public/game/*.webp
-!/web/public/game/wgob3/
-!/web/public/game/wgob1/
-!/web/public/game/wgob2/
-!/web/public/game/room/
-!/web/public/game/welcome/
-!/web/public/game/internet/
-!/web/public/game/games/
-!/web/public/game/sokoban/
-!/web/public/game/mrmatt1/
-!/web/public/game/mrmatt2/
-!/web/public/game/badtoys/
-!/web/public/game/station/
-/web/public/game/station/*
-!/web/public/game/station/sim-*.json
-!/web/public/game/station/dairy/
+# Runtime resources must ship with every clone.
+/web/public/game/room/ambient/
+/web/public/game/room/reactions/
 /web/public/remasters/
 /web/node_modules/
 /runtime/

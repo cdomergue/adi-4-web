@@ -1,0 +1,662 @@
+{
+  "controls": [
+    {
+      "id": "1",
+      "label": "L'arrosage",
+      "options": [
+        {
+          "id": 1,
+          "label": "Pas arrosage",
+          "box": [
+            56,
+            83,
+            17,
+            13
+          ],
+          "audio": null
+        },
+        {
+          "id": 2,
+          "label": "Arrosage faible",
+          "box": [
+            69,
+            95,
+            18,
+            14
+          ],
+          "audio": "/game/greenhouse/02W10002.wav"
+        },
+        {
+          "id": 3,
+          "label": "Arrosage moyen",
+          "box": [
+            55,
+            107,
+            19,
+            17
+          ],
+          "audio": "/game/greenhouse/02W10003.wav"
+        },
+        {
+          "id": 4,
+          "label": "Arrosage important",
+          "box": [
+            33,
+            95,
+            22,
+            15
+          ],
+          "audio": "/game/greenhouse/02W10004.wav"
+        }
+      ],
+      "hints": {
+        "0": "L'arrosage : les plantes ont des besoins en eau plus ou moins importants selon les espèces. L'arrosage doit donc être adapté pour chacune d'elles. En cas de déficit comme en cas de surabondance, leur croissance sera moins importante. L'eau est absorbée par les racines.",
+        "1": "L'arrosage : un arrosage trop important peut nuire à la croissance de la tomate. Une quantité d'eau moyenne suffit.",
+        "2": "L'arrosage : les champignons aiment une humidité moyenne.",
+        "3": "L'arrosage : la fraise de Cassiopée vit dans des zones très humides."
+      }
+    },
+    {
+      "id": "2",
+      "label": "La température",
+      "options": [
+        {
+          "id": 1,
+          "label": "5 ° Celsius",
+          "box": [
+            67,
+            428,
+            26,
+            15
+          ],
+          "audio": null
+        },
+        {
+          "id": 2,
+          "label": "10 ° Celsius",
+          "box": [
+            66,
+            408,
+            25,
+            13
+          ],
+          "audio": "/game/greenhouse/02W20002.wav"
+        },
+        {
+          "id": 3,
+          "label": "15 ° Celsius",
+          "box": [
+            65,
+            392,
+            25,
+            12
+          ],
+          "audio": "/game/greenhouse/02W20003.wav"
+        },
+        {
+          "id": 4,
+          "label": "20 ° Celsius",
+          "box": [
+            63,
+            375,
+            25,
+            12
+          ],
+          "audio": "/game/greenhouse/02W20004.wav"
+        },
+        {
+          "id": 5,
+          "label": "25 ° Celsius",
+          "box": [
+            63,
+            357,
+            25,
+            12
+          ],
+          "audio": "/game/greenhouse/02W20005.wav"
+        }
+      ],
+      "hints": {
+        "0": "La température : les plantes aiment plus ou moins la chaleur mais dans tous les cas, celle-ci ne doit pas être inférieure à une certaine valeur. Aucune plante ne peut pousser si la température est trop basse.",
+        "1": "La température : la tomate peut pousser dans les pays tempérés, un vingtaine de degrés lui suffisent.",
+        "2": "La température : les champignons aiment beaucoup la chaleur.",
+        "3": "La température : la fraise de Cassiopée aime beaucoup la chaleur."
+      }
+    },
+    {
+      "id": "3",
+      "label": "La lumière",
+      "options": [
+        {
+          "id": 1,
+          "label": "Pas de lumière",
+          "box": [
+            578,
+            85,
+            21,
+            17
+          ],
+          "audio": "/game/greenhouse/02W3000X.wav"
+        },
+        {
+          "id": 2,
+          "label": "5000 lux",
+          "box": [
+            578,
+            69,
+            24,
+            15
+          ],
+          "audio": "/game/greenhouse/02W3000X.wav"
+        },
+        {
+          "id": 3,
+          "label": "10000 lux",
+          "box": [
+            580,
+            53,
+            21,
+            16
+          ],
+          "audio": "/game/greenhouse/02W3000X.wav"
+        },
+        {
+          "id": 4,
+          "label": "100000 lux",
+          "box": [
+            582,
+            35,
+            21,
+            18
+          ],
+          "audio": "/game/greenhouse/02W3000X.wav"
+        }
+      ],
+      "hints": {
+        "0": "La lumière : elle est indispensable à la croissance des plantes chlorophylliennes alors que les champignons y sont indifférents. Les espèces de pleine lumière ont des besoins plus importants que les plantes d'ombre. L'unité d'intensité de la lumière est le lux.",
+        "1": "La lumière : la tomate est une plante qui aime un maximum de lumière.",
+        "2": "La lumière : la lumière n'est pas nécessaire pour cultiver des champignons, mais elle ne gêne pas leur croissance. ",
+        "3": "La lumière : la fraise de Cassiopée est une plante de mi-ombre. Très peu de lumière lui suffit."
+      }
+    },
+    {
+      "id": "4",
+      "label": "Le dioxyde de carbone",
+      "options": [
+        {
+          "id": 1,
+          "label": "Pas de CO₂",
+          "box": [
+            492,
+            175,
+            13,
+            14
+          ],
+          "audio": null
+        },
+        {
+          "id": 2,
+          "label": "Teneur en CO₂ faible",
+          "box": [
+            505,
+            186,
+            13,
+            16
+          ],
+          "audio": "/game/greenhouse/02W40002.wav"
+        },
+        {
+          "id": 3,
+          "label": "Teneur en CO₂ moyenne",
+          "box": [
+            490,
+            198,
+            15,
+            15
+          ],
+          "audio": "/game/greenhouse/02W40003.wav"
+        },
+        {
+          "id": 4,
+          "label": "Teneur en CO₂ forte",
+          "box": [
+            480,
+            187,
+            12,
+            14
+          ],
+          "audio": "/game/greenhouse/02W40004.wav"
+        }
+      ],
+      "hints": {
+        "0": "Le dioxyde de carbone : ce gaz , de formule CO¿,  est indispensable à la croissance des plantes chlorophylliennes alors que les champignons y sont indifférents. Il est absorbé au niveau des feuilles.",
+        "1": "Le dioxyde de carbone : la tomate a besoin de dioxyde de carbone. Ni trop, ni trop peu.",
+        "2": "Le dioxyde de carbone : le dioxyde de carbone n'est pas nécessaire à la croissance des champignons.",
+        "3": "Le dioxyde de carbone : la fraise de Cassiopée préfère une teneur moyenne en dioxyde de carbone."
+      }
+    },
+    {
+      "id": "5",
+      "label": "Les sels minéraux",
+      "options": [
+        {
+          "id": 1,
+          "label": "Très peu de sels minéraux",
+          "box": [
+            512,
+            422,
+            22,
+            41
+          ],
+          "audio": "/game/greenhouse/02W50001.wav"
+        },
+        {
+          "id": 2,
+          "label": "Concentration en sels minéraux moyenne",
+          "box": [
+            484,
+            389,
+            26,
+            52
+          ],
+          "audio": "/game/greenhouse/02W50002.wav"
+        },
+        {
+          "id": 3,
+          "label": "Concentration en sels minéraux forte",
+          "box": [
+            452,
+            357,
+            30,
+            68
+          ],
+          "audio": "/game/greenhouse/02W50003.wav"
+        }
+      ],
+      "hints": {
+        "0": "Les sels minéraux : les minéraux tels que le calcium, le potassium ou le magnésium, sont indispensables à toutes les espèces de végétaux, mais leurs besoins sont généralement modestes. Une concentration trop forte peut même se révéler toxique. Dans la station, ils sont fournis sous forme de solutions nutritives ou d'engrais.",
+        "1": "Les sels minéraux : une quantité raisonnable de sels minéraux est nécessaire à la tomate.",
+        "2": "Les sels minéraux : une quantité raisonnable de sels minéraux est nécessaire aux champignons.",
+        "3": "Les sels minéraux : une quantité raisonnable de sels minéraux est nécessaire à la fraise de Cassiopée."
+      }
+    }
+  ],
+  "cases": [
+    {
+      "id": "1",
+      "label": "De belles tomates",
+      "solutions": [
+        {
+          "1": 3,
+          "2": 4,
+          "3": 4,
+          "4": 3,
+          "5": 2
+        },
+        {
+          "1": 3,
+          "2": 4,
+          "3": 3,
+          "4": 3,
+          "5": 2
+        },
+        {
+          "1": 3,
+          "2": 4,
+          "3": 4,
+          "4": 4,
+          "5": 2
+        },
+        {
+          "1": 3,
+          "2": 4,
+          "3": 3,
+          "4": 4,
+          "5": 2
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "label": "Des champignons délicieux",
+      "solutions": [
+        {
+          "1": 3,
+          "2": 5,
+          "3": 1,
+          "4": 1,
+          "5": 2
+        },
+        {
+          "1": 4,
+          "2": 5,
+          "3": 1,
+          "4": 1,
+          "5": 2
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "label": "La fraise de Cassiopée",
+      "solutions": [
+        {
+          "1": 4,
+          "2": 5,
+          "3": 2,
+          "4": 3,
+          "5": 2
+        },
+        {
+          "1": 4,
+          "2": 4,
+          "3": 2,
+          "4": 4,
+          "5": 2
+        }
+      ]
+    }
+  ],
+  "sources": [
+    "OBJS.DBF",
+    "OBJSETAT.DBF",
+    "ETATZONE.DBF",
+    "MCAS.DBF"
+  ],
+  "voices": {
+    "02W10002": {
+      "source": "extracted/resources/Adi410Sci65/SIMUL.ITK/02W10002.VMD",
+      "width": 0,
+      "height": 0,
+      "stored_width": 0,
+      "origin": [
+        0,
+        0
+      ],
+      "frames": 7,
+      "parts_per_frame": 1,
+      "version": 0,
+      "flags": 4096,
+      "bytes_per_pixel": 1,
+      "blit_mode": 0,
+      "sample_rate": 22050,
+      "sound_flags": 17,
+      "slice_size": -1840,
+      "fps": 11.983695652173912,
+      "sha256": "acfae9dcc86ce4bfc99a94c6e19c789228dfba569e7f2f4c4498ee2e57cab75c"
+    },
+    "02W10003": {
+      "source": "extracted/resources/Adi410Sci65/SIMUL.ITK/02W10003.VMD",
+      "width": 0,
+      "height": 0,
+      "stored_width": 0,
+      "origin": [
+        0,
+        0
+      ],
+      "frames": 7,
+      "parts_per_frame": 1,
+      "version": 0,
+      "flags": 4096,
+      "bytes_per_pixel": 1,
+      "blit_mode": 0,
+      "sample_rate": 22050,
+      "sound_flags": 17,
+      "slice_size": -1840,
+      "fps": 11.983695652173912,
+      "sha256": "7b8e60f34d87d324009f9276c0a5390454076e4c4726b84ec958bc5fd093f6df"
+    },
+    "02W10004": {
+      "source": "extracted/resources/Adi410Sci65/SIMUL.ITK/02W10004.VMD",
+      "width": 0,
+      "height": 0,
+      "stored_width": 0,
+      "origin": [
+        0,
+        0
+      ],
+      "frames": 7,
+      "parts_per_frame": 1,
+      "version": 0,
+      "flags": 4096,
+      "bytes_per_pixel": 1,
+      "blit_mode": 0,
+      "sample_rate": 22050,
+      "sound_flags": 17,
+      "slice_size": -1840,
+      "fps": 11.983695652173912,
+      "sha256": "35f51808c973fff85241116a69ca15a9e7423c0494f16cc6b0693889bb8ff841"
+    },
+    "02W20002": {
+      "source": "extracted/resources/Adi410Sci65/SIMUL.ITK/02W20002.VMD",
+      "width": 0,
+      "height": 0,
+      "stored_width": 0,
+      "origin": [
+        0,
+        0
+      ],
+      "frames": 11,
+      "parts_per_frame": 1,
+      "version": 0,
+      "flags": 4096,
+      "bytes_per_pixel": 1,
+      "blit_mode": 0,
+      "sample_rate": 22050,
+      "sound_flags": 17,
+      "slice_size": -1840,
+      "fps": 11.983695652173912,
+      "sha256": "2ac252a0882971f3b08f53607fcfdec81cee13cf656d18fe9c42076c092bde00"
+    },
+    "02W20003": {
+      "source": "extracted/resources/Adi410Sci65/SIMUL.ITK/02W20003.VMD",
+      "width": 0,
+      "height": 0,
+      "stored_width": 0,
+      "origin": [
+        0,
+        0
+      ],
+      "frames": 10,
+      "parts_per_frame": 1,
+      "version": 0,
+      "flags": 4096,
+      "bytes_per_pixel": 1,
+      "blit_mode": 0,
+      "sample_rate": 22050,
+      "sound_flags": 17,
+      "slice_size": -1840,
+      "fps": 11.983695652173912,
+      "sha256": "9fd6926a7da7595dfb4147b0a38656750a05237ad887198d6056b6ca0aade24e"
+    },
+    "02W20004": {
+      "source": "extracted/resources/Adi410Sci65/SIMUL.ITK/02W20004.VMD",
+      "width": 0,
+      "height": 0,
+      "stored_width": 0,
+      "origin": [
+        0,
+        0
+      ],
+      "frames": 11,
+      "parts_per_frame": 1,
+      "version": 0,
+      "flags": 4096,
+      "bytes_per_pixel": 1,
+      "blit_mode": 0,
+      "sample_rate": 22050,
+      "sound_flags": 17,
+      "slice_size": -1840,
+      "fps": 11.983695652173912,
+      "sha256": "92285eb64445c21b0a8ce9e80dd26430817e9f468e36befa8ddccac5e6f4b4ed"
+    },
+    "02W20005": {
+      "source": "extracted/resources/Adi410Sci65/SIMUL.ITK/02W20005.VMD",
+      "width": 0,
+      "height": 0,
+      "stored_width": 0,
+      "origin": [
+        0,
+        0
+      ],
+      "frames": 11,
+      "parts_per_frame": 1,
+      "version": 0,
+      "flags": 4096,
+      "bytes_per_pixel": 1,
+      "blit_mode": 0,
+      "sample_rate": 22050,
+      "sound_flags": 17,
+      "slice_size": -1840,
+      "fps": 11.983695652173912,
+      "sha256": "18c9a87e1600830f5a60855d045875d3bd20014fc38a60a34a7600d76e192d21"
+    },
+    "02W3000X": {
+      "source": "extracted/resources/Adi410Sci65/SIMUL.ITK/02W3000X.VMD",
+      "width": 0,
+      "height": 0,
+      "stored_width": 0,
+      "origin": [
+        0,
+        0
+      ],
+      "frames": 2,
+      "parts_per_frame": 1,
+      "version": 0,
+      "flags": 4096,
+      "bytes_per_pixel": 1,
+      "blit_mode": 0,
+      "sample_rate": 22050,
+      "sound_flags": 17,
+      "slice_size": -1840,
+      "fps": 11.983695652173912,
+      "sha256": "3f4f6ba801b8b3cac48772a070222baee0cb8f52fe44401a4fab1f29b7068e58"
+    },
+    "02W40002": {
+      "source": "extracted/resources/Adi410Sci65/SIMUL.ITK/02W40002.VMD",
+      "width": 0,
+      "height": 0,
+      "stored_width": 0,
+      "origin": [
+        0,
+        0
+      ],
+      "frames": 40,
+      "parts_per_frame": 1,
+      "version": 0,
+      "flags": 4096,
+      "bytes_per_pixel": 1,
+      "blit_mode": 0,
+      "sample_rate": 22050,
+      "sound_flags": 17,
+      "slice_size": -1840,
+      "fps": 11.983695652173912,
+      "sha256": "0348f08325e2c320f44907f263d2c7c1b04ea6ceb17bc5cf8086e8d34f0fdcc7"
+    },
+    "02W40003": {
+      "source": "extracted/resources/Adi410Sci65/SIMUL.ITK/02W40003.VMD",
+      "width": 0,
+      "height": 0,
+      "stored_width": 0,
+      "origin": [
+        0,
+        0
+      ],
+      "frames": 40,
+      "parts_per_frame": 1,
+      "version": 0,
+      "flags": 4096,
+      "bytes_per_pixel": 1,
+      "blit_mode": 0,
+      "sample_rate": 22050,
+      "sound_flags": 17,
+      "slice_size": -1840,
+      "fps": 11.983695652173912,
+      "sha256": "55079ddb032778d4a2c3639a1db8a244a1b38ec863bc1b2fb2b9dd0166c67244"
+    },
+    "02W40004": {
+      "source": "extracted/resources/Adi410Sci65/SIMUL.ITK/02W40004.VMD",
+      "width": 0,
+      "height": 0,
+      "stored_width": 0,
+      "origin": [
+        0,
+        0
+      ],
+      "frames": 40,
+      "parts_per_frame": 1,
+      "version": 0,
+      "flags": 4096,
+      "bytes_per_pixel": 1,
+      "blit_mode": 0,
+      "sample_rate": 22050,
+      "sound_flags": 17,
+      "slice_size": -1840,
+      "fps": 11.983695652173912,
+      "sha256": "4bbefa8cf9baa6a162cd888a44c9e83212fe3e029521e358303139cf77963332"
+    },
+    "02W50001": {
+      "source": "extracted/resources/Adi410Sci65/SIMUL.ITK/02W50001.VMD",
+      "width": 0,
+      "height": 0,
+      "stored_width": 0,
+      "origin": [
+        0,
+        0
+      ],
+      "frames": 93,
+      "parts_per_frame": 1,
+      "version": 0,
+      "flags": 4096,
+      "bytes_per_pixel": 1,
+      "blit_mode": 0,
+      "sample_rate": 22050,
+      "sound_flags": 17,
+      "slice_size": -1840,
+      "fps": 11.983695652173912,
+      "sha256": "2af787d8a19522d9e78839d4b19807d00cd6a7f2f959152298ee789972385488"
+    },
+    "02W50002": {
+      "source": "extracted/resources/Adi410Sci65/SIMUL.ITK/02W50002.VMD",
+      "width": 0,
+      "height": 0,
+      "stored_width": 0,
+      "origin": [
+        0,
+        0
+      ],
+      "frames": 98,
+      "parts_per_frame": 1,
+      "version": 0,
+      "flags": 4096,
+      "bytes_per_pixel": 1,
+      "blit_mode": 0,
+      "sample_rate": 22050,
+      "sound_flags": 17,
+      "slice_size": -1840,
+      "fps": 11.983695652173912,
+      "sha256": "59d9117fecfce37cfb0f279d324a336e298c004fa2087052f4ef3cb038151335"
+    },
+    "02W50003": {
+      "source": "extracted/resources/Adi410Sci65/SIMUL.ITK/02W50003.VMD",
+      "width": 0,
+      "height": 0,
+      "stored_width": 0,
+      "origin": [
+        0,
+        0
+      ],
+      "frames": 96,
+      "parts_per_frame": 1,
+      "version": 0,
+      "flags": 4096,
+      "bytes_per_pixel": 1,
+      "blit_mode": 0,
+      "sample_rate": 22050,
+      "sound_flags": 17,
+      "slice_size": -1840,
+      "fps": 11.983695652173912,
+      "sha256": "8fb6051da085861f27c03bfbec866b0df626c9fd81062eae6bf3a463489c874b"
+    }
+  }
+}

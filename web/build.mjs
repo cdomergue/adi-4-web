@@ -2,6 +2,8 @@ import { cp, mkdir, readFile, writeFile, rm } from 'node:fs/promises';
 import { fileURLToPath } from 'node:url';
 import path from 'node:path';
 import { releaseAssets } from './release-assets.mjs';
+import { verifyAssets } from './tooling/asset-manifest.mjs';
+await verifyAssets();
 const here = path.dirname(fileURLToPath(import.meta.url));
 const data = JSON.parse(await readFile(path.join(here, 'public/game/catalog.json'), 'utf8'));
 for (const course of data.courses) {

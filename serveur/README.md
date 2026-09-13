@@ -1,8 +1,13 @@
-# Serveur local ADI 4.21
+# ADI 4.21 — serveur du client original
 
 Serveur TCP compatible avec la connexion, la boîte de réception et les réservations
 des classes du client ADI original. Il conserve les comptes, profils enfants,
 messages, places réservées et résultats reçus dans SQLite.
+
+Ce service est distinct de [l’application web](../web/README.md). Il sert le
+client Windows original ; la planète Internet du navigateur reste une simulation
+indépendante. Le code du serveur est publié dans ce dépôt, mais son écoute est
+limitée à la boucle locale.
 
 ## Lancer le serveur
 
@@ -15,35 +20,24 @@ cd serveur
 python3 server.py
 ```
 
-Le serveur écoute uniquement sur **127.0.0.1:2001**. La base
-`runtime/adi.sqlite3` et son dossier sont créés automatiquement au premier lancement.
+Le serveur écoute uniquement sur **127.0.0.1:2001**. Sa base SQLite et son dossier
+sont créés automatiquement au premier lancement et sont exclus de Git par
+[la configuration du serveur](.gitignore).
 Les événements sont écrits dans le terminal, sans mots de passe ni contenu des messages.
 Arrêter avec `Ctrl+C` ; les données restent disponibles au prochain lancement.
 
 Options facultatives :
 
 ```sh
-python3 server.py --port 2001 --log runtime/server.jsonl
-python3 server.py --db /chemin/vers/adi.sqlite3
+python3 server.py --port 2002
 python3 server.py --help
 ```
 
 ## Connecter le jeu
 
-Le client ADI 4.21 doit être installé séparément. Dans une copie de test de son
-fichier `INTERNET/POSTE.INF`, après sauvegarde de l'original, utiliser :
-
-```ini
-[Adresses]
-Nombre=1
-Adresse1=127.0.0.1
-
-[Ports]
-Port1=2001
-
-[Types]
-Type1=TCP/IP
-```
+Le client ADI 4.21 doit être installé séparément et configuré pour utiliser une
+connexion TCP/IP vers `127.0.0.1`, port `2001` (ou le port choisi au lancement).
+Il n’est pas fourni avec le serveur.
 
 Le client et le serveur doivent partager la même boucle locale ; si un espace
 réseau isolé est utilisé, lancer les deux à l'intérieur. Depuis le jeu, choisir
@@ -61,19 +55,19 @@ Pour déposer un message depuis la machine du serveur :
 
 ```sh
 python3 mail.py profiles
-python3 mail.py deliver --child 1 --title "Un message pour toi" --body-file message.txt
+python3 mail.py deliver --help
 ```
 
-Remplacer `1` par l'identifiant affiché par `profiles`. Le fichier `message.txt` est
-du texte UTF-8 ; le titre accepte jusqu'à 39 octets CP850. Le contenu est converti
-en RTF, jusqu'à 100 000 octets. Revenir à la boîte dans le jeu pour actualiser la
-liste, qui présente les 200 messages les plus récents encore présents.
+La commande `deliver` attend `--child` (identifiant affiché par `profiles`),
+`--title` et `--body-file` (votre propre texte UTF-8). Le titre accepte jusqu’à
+39 octets CP850. Le contenu est converti en RTF, jusqu’à 100 000 octets. Revenir
+à la boîte dans le jeu pour actualiser la liste, qui présente les 200 messages
+les plus récents encore présents.
 
-Avec une base personnalisée, préciser le même chemin aux deux outils :
-
-```sh
-python3 mail.py --db /chemin/vers/adi.sqlite3 profiles
-```
+Les options `--db` du serveur et des outils permettent de choisir une autre base ;
+utiliser la même pour toutes les commandes. L’option `--log` du serveur permet
+d’écrire un journal. Ces fichiers sont des données créées à l’exécution, pas des
+ressources à récupérer dans le dépôt.
 
 ## Données et limites
 
@@ -86,8 +80,8 @@ un changement qui échoue conserve la réservation précédente. Les réservatio
 annulations persistent après redémarrage. Un élève ne peut pas réserver deux
 matières à la même heure. Les créneaux durent une heure, dans une fenêtre de 35 jours.
 
-Le catalogue embarqué reprend les 222 intitulés de séances de maths et de français
-du fichier `CLASSE.INF` du client 4.21. Il contient les codes et les titres, pas les
+Le [catalogue embarqué](class-catalog.json) reprend les 222 intitulés de séances
+de maths et de français du client 4.21. Il contient les codes et les titres, pas les
 archives pédagogiques qui étaient téléchargées depuis l'ancien service. Les places
 et le crédit affiché comme « Abonné » sont des données du serveur local.
 
@@ -95,7 +89,7 @@ Administration locale, depuis ce dossier :
 
 ```sh
 python3 classes.py list
-python3 classes.py reserve --child 707 --at 2026-09-13T08:00 --subject M --level 6 --theme G --lesson A --seat 1
+python3 classes.py reserve --child 707 --at now --subject M --level 6 --theme G --lesson A --seat 1
 python3 classes.py cancel --child 707 --class-id 1
 ```
 
@@ -114,7 +108,7 @@ synchronisée d'une séance complète restent à implémenter.
 
 ### Sauvegarde
 
-Le dossier `runtime/` est exclu de Git : chaque installation crée sa propre base.
+Chaque installation crée sa propre base, exclue de Git.
 Pour sauvegarder, utiliser l'API SQLite `Connection.backup`, ou arrêter le serveur
 et les commandes de courrier avant de copier la base et ses éventuels fichiers
 `-wal` et `-shm`. Ne pas supprimer ces fichiers pour redémarrer.
@@ -123,3 +117,22 @@ L'envoi du courrier depuis l'éditeur du jeu, la boîte parent, les copains, les
 de discussion, les achats et la présence en ligne ne sont pas implémentés. Une opération inconnue est
 journalisée et peut provoquer une erreur de connexion dans le client. Aucun ancien
 service Internet n'est contacté par le serveur.
+
+
+## Tests et code
+
+Depuis la racine du dépôt :
+
+```sh
+python3 -m unittest discover -s serveur -p 'test_*.py' -v
+```
+
+Les tests utilisent une base temporaire et des sockets de boucle locale. Ils ne
+nécessitent ni installation du jeu ni Wine. Ils couvrent notamment le protocole,
+la persistance, le courrier et les réservations.
+
+- [server.py](server.py) : écoute TCP et traitement des demandes.
+- [storage.py](storage.py) : comptes, profils, courrier et base SQLite.
+- [classes.py](classes.py) : réservations et administration des classes.
+- [mail.py](mail.py) : administration du courrier.
+- [PROTOCOL.md](PROTOCOL.md) : opérations et formats pris en charge.

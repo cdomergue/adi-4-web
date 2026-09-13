@@ -1,0 +1,78 @@
+[
+  {
+    "name": "station",
+    "source": "extracted/resources/Adi410Sci65/SCIENCE.ITK/VUEXT.BRC",
+    "sha256": "48333ee69f311f9b2a6eb3e87c581eb39fcd370deff5aec3eab0c1a90c3a3a3a",
+    "size": [
+      640,
+      480
+    ]
+  },
+  {
+    "name": "biology",
+    "source": "extracted/resources/Adi410Sci65/SCIENCE.ITK/INTBASE.BRC",
+    "sha256": "efb58766a8c3a95754b990741a28cc0bb5132510c9c339439c6b97e61ddf942c",
+    "size": [
+      640,
+      480
+    ]
+  },
+  {
+    "name": "farm",
+    "source": "extracted/resources/Adi410Sci65/SCIENCE.ITK/ELEVAGE.BRC",
+    "sha256": "c74de389b5b77f3ccd53aef3445ef688ca7b9c5d2787321d77fa8e09dc67cb11",
+    "size": [
+      640,
+      480
+    ]
+  },
+  {
+    "name": "life",
+    "source": "extracted/resources/Adi410Sci65/SCIENCE.ITK/VIE.BRC",
+    "sha256": "f49ad9a2637c51580c4865a5c64bbaebddbd10346899dd880584a10e8714ba76",
+    "size": [
+      640,
+      480
+    ]
+  },
+  {
+    "name": "health",
+    "source": "extracted/resources/Adi410Sci65/SCIENCE.ITK/SANTE.BRC",
+    "sha256": "22a4888b404c05e5629c30627647ffbd3271d5eff6b39989a31577469de65b12",
+    "size": [
+      640,
+      480
+    ]
+  },
+  {
+    "name": "greenhouse",
+    "source": "extracted/resources/Adi410Sci65/SIMUL.ITK/02I1.BRC",
+    "sha256": "1baa8c48cb4f6ce17340ca40dc036f6ef789ac0af9e2cdd5f275b665ffbf0867",
+    "size": [
+      640,
+      480
+    ]
+  },
+  {
+    "name": "courses.wav",
+    "source": "extracted/resources/Adi410Sci65/SCIENCE.ITK/HLPCOURS.VMD",
+    "width": 0,
+    "height": 0,
+    "stored_width": 0,
+    "origin": [
+      0,
+      0
+    ],
+    "frames": 59,
+    "parts_per_frame": 1,
+    "version": 0,
+    "flags": 4096,
+    "bytes_per_pixel": 1,
+    "blit_mode": 0,
+    "sample_rate": 22050,
+    "sound_flags": 17,
+    "slice_size": -1840,
+    "fps": 11.983695652173912,
+    "sha256": "09e42ae3bd31c18e1cdbc584c2932c52029f222764c090eb43f37ce53bb6d0ac"
+  }
+]
