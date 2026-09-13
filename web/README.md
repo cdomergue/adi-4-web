@@ -47,6 +47,15 @@ ressources dans Git. Les cours comprennent 62 entrées cours/niveau et 554 pages
 Le code des simulations et leurs calculs sont inclus, ainsi que les ressources
 de la fabrication des laitages.
 
+Les situations des simulations appliquent les restrictions de choix et les
+objets cachés des tables originales. La fourmilière valide des parcours ordonnés ;
+les résultats liés à GO attendent son déclenchement. Les séquences distinguent
+les transitions croissantes et décroissantes, lisent les voix des observations
+et proposent les animations d’équilibre disponibles. « Recommencer » interrompt
+la lecture et restaure les états initiaux ; « Vérifier » ne recalcule pas la scène.
+Les films de la fourmilière s’ouvrent dans leur cadre de gros plan original,
+avec le son intégré, puis laissent place au décor à la fin ou à la fermeture.
+
 Les décors, animations, voix et médias de l’encyclopédie utilisés par le client
 sont fournis dans Git. Le [manifeste des ressources](asset-manifest.json) permet
 de vérifier leur intégrité après clonage ; le build s’arrête si un fichier
@@ -54,6 +63,12 @@ répertorié manque ou a été altéré. Aucune extraction supplémentaire n’e
 
 Les exercices Sciences et les jeux classés « À venir » restent à porter.
 Certaines séquences, transitions et interactions restent à vérifier ou compléter.
+La synchronisation audiovisuelle et les superpositions complexes ne sont pas
+certifiées à l’identique du client Windows. Certains médias référencés par ses
+tables ne sont pas disponibles, notamment l’animation « Tolérance greffe » ;
+le résultat textuel reste accessible. Les divisions nulles des réglages de
+tomates donnent zéro dans le moteur web, sans garantie d’équivalence native
+pour ce cas limite.
 La planète Internet est une simulation ; elle ne se connecte pas au service TCP
 présenté dans [le README du serveur](../serveur/README.md).
 

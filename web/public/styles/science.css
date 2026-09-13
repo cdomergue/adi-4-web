@@ -158,7 +158,32 @@
   z-index: 1;
 }
 .dairy-production[hidden] { display: none; }
-.simulation-frame .simulation-target:disabled { cursor: wait; }
+.simulation-cinema {
+  position: absolute;
+  inset: 0;
+  z-index: 5;
+}
+.simulation-cinema-frame {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+.simulation-cinema-video {
+  position: absolute;
+  background: #000;
+  object-fit: contain;
+}
+.simulation-cinema-close {
+  position: absolute;
+  right: 3%;
+  top: 2%;
+  font-size: clamp(10px, 1.8vw, 15px);
+}
+.simulation-frame .simulation-target:disabled { cursor: not-allowed; }
+.simulation-frame[aria-busy='true'] .simulation-target:disabled { cursor: wait; }
+.simulation-options button:disabled { opacity: 0.45; cursor: not-allowed; }
 .simulation-frame .simulation-target {
   pointer-events: auto;
   padding: 0;

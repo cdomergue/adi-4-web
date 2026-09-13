@@ -73,6 +73,23 @@ les commandes et comportements propres à chaque expérience.
 présentation, les médias, réglages et défis.
 [interaction-model.js](public/features/science/interaction-model.js) fournit les
 rectangles interactifs, la visibilité et la correspondance des choix.
+Il applique les bornages selon les états courants et la situation.
+
+[simulation-state.js](public/features/science/simulation-state.js) conserve les
+états, les parcours de défis et la mémoire temporaire de la foudre. Chaque clic
+évalue une seule fois les objets de sa séquence `SEQS`, dans leur ordre d’origine.
+L’initialisation utilise `ETATINI` sans calcul anticipé des résultats de GO.
+Les règles et médias par situation sont décrits dans
+[generated](public/features/science/generated/).
+[sequence-player.js](public/features/science/sequence-player.js) orchestre les
+transitions VMD/RMD, leurs états intermédiaires et les voix des observations.
+Il lit les durées des WebP animés et annule les attentes au changement de scène
+ou à la réinitialisation. La vue conserve l’ordre de dessin des étapes.
+Les films de la fourmilière utilisent
+[cinema-player.js](public/features/science/cinema-player.js) : le cadre original
+`07ZOOM` entoure une vidéo opaque avec son intégré, à la position `(121, 112)`.
+La fin du film, sa fermeture et la réinitialisation retirent le gros plan et
+restituent le décor sous-jacent ; les films ne constituent pas des calques persistants.
 
 [simulation-engine.js](public/features/science/simulation-engine.js) évalue les
 règles sans dépendre du DOM. Il utilise les

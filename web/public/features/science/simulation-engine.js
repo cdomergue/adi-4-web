@@ -2,7 +2,7 @@ import { calculationEntries, runCalculation } from './generated/original-calcula
 export const supportedCalculations = new Set(Object.keys(calculationEntries));
 // The original script uses indexes into an object structure. This adapter maps
 // those indexes to OBJETID, retaining VALEUR and ETATID as separate quantities.
-export function calculateSimulation(data, selected) {
+export function calculateSimulation(data, selected, { sequence, memory = {} } = {}) {
   const states = { ...selected },
     values = {},
     resolved = new Set(),
@@ -11,13 +11,14 @@ export function calculateSimulation(data, selected) {
     const state = o.options.find((s) => s.id === selected[o.id]);
     if (state) {
       values[o.id] = state.value;
-      if (o.type !== 1 || !o.function) resolved.add(o.id);
+      if (sequence || o.type !== 1 || !o.function) resolved.add(o.id);
     }
   }
   const v = new Array(16384).fill(0),
     stack = [],
     scratch = {},
-    cache03 = {};
+    cache03 = (memory.lightning ??= {});
+  v[0x1d17] = Number(data.caseId || 0);
   const field = (id, member) => {
     if (member === 0x12) return values[id];
     if (member === 0x10) return states[id];
@@ -27,6 +28,7 @@ export function calculateSimulation(data, selected) {
   const setField = (id, member, value) => {
     if (member === 0x15) pending[id] = Number(value);
     else if (member === 0x12) values[id] = Number(value);
+    else if (member === 0x10) states[id] = Number(value);
     else scratch[`${id}:${member}`] = value;
   };
   const service = (address) => {
@@ -42,12 +44,13 @@ export function calculateSimulation(data, selected) {
           Object.entries(r.conditions).every(([key, value]) => values[key] === value),
       );
       if (row) pending[v[0x22c]] = row.value;
+      v[0x1d6] = row ? 1 : 0;
       return;
     }
     if (address === 0x3946) {
       const option = objects.get(v[0x235])?.options.find((o) => o.value === v[0x23a]);
       v[0x1d6] = option?.id ?? -1;
-      v[0x48e] = option?.value ?? 0;
+      v[0x48e] = option?.label ?? '';
       return;
     }
     // TEMP/SIM03.CLC is a six-value scratch file in the original game.
@@ -73,17 +76,21 @@ export function calculateSimulation(data, selected) {
     div: (a, b) => (b === 0 ? 0 : Math.trunc(a / b)),
   };
   const entry = calculationEntries[data.id];
+  const ordered = sequence
+    ? sequence.map((id) => objects.get(Number(id))).filter(Boolean)
+    : [...data.objects].sort((a, b) => Number(a.id) - Number(b.id));
   if (entry)
-    for (let pass = 0; pass < data.objects.length; pass++) {
+    for (let pass = 0; pass < (sequence ? 1 : data.objects.length); pass++) {
       let changed = false;
-      // Sort by original object ID so dependencies (e.g. lightning scratch values)
-      // are computed before downstream observations.
-      for (const o of [...data.objects].sort((a, b) => Number(a.id) - Number(b.id))) {
+      // Interactive events follow SEQS; the compatibility full calculation
+      // uses object-ID order for its dependency passes.
+      for (const o of ordered) {
         if (o.type !== 1 && !o.function) continue;
         pending = {};
         stack.length = 0;
-        v[0x1d4] = Number(o.id);
+        v[0x1d4] = data.native?.objects[o.id]?.function || Number(o.id);
         v[0x22c] = Number(o.id);
+        v[0x235] = Number(o.id);
         runCalculation(entry, context);
         for (const [id, value] of Object.entries(pending)) {
           if (!Number.isFinite(value)) continue;

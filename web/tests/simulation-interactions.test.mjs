@@ -49,7 +49,7 @@ test('native sentinels are excluded and the lightning mast is clipped by two pix
   assert.equal(clipBox([10, 10, 0, 10]), null);
   assert.deepEqual(clipBox([312, 404, 28, 78]), [312, 404, 28, 76]);
   const data = read('3');
-  assert.deepEqual(sceneTargets(data, experiments['3'], data.cases[0])
+  assert.deepEqual(sceneTargets(data, experiments['3'], data.cases[1])
     .find((target) => target.object === '5' && target.state === 2).box, [312, 404, 28, 76]);
 });
 

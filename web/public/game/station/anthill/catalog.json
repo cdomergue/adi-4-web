@@ -1,0 +1,419 @@
+{
+  "frame": {
+    "url": "/game/station/anthill/07ZOOM.webp",
+    "source": "extracted/resources/Adi410Sci65/SCIENCE.ITK/07ZOOM.BRC",
+    "sha256": "cc48f519f264f71a4827d2a1bdefc2133da12b1ed53c11410ffe7072a4308faf"
+  },
+  "movies": {
+    "07D50014": {
+      "url": "/game/station/anthill/07D50014.mp4",
+      "width": 400,
+      "height": 300,
+      "frames": 192,
+      "fps": 11.983695652173912,
+      "audio": true,
+      "source": "extracted/resources/Adi410Sci65/SIMUL.ITK/07D50014.VMD",
+      "sha256": "e8f7e352598612125f873205bfef8461874d2a7bb379e2dd9aa133e3e9673b48"
+    },
+    "07D50015": {
+      "url": "/game/station/anthill/07D50015.mp4",
+      "width": 400,
+      "height": 300,
+      "frames": 344,
+      "fps": 11.983695652173912,
+      "audio": true,
+      "source": "extracted/resources/Adi410Sci65/SIMUL.ITK/07D50015.VMD",
+      "sha256": "78d9367c230e736b43d9b575b094fdbb0464ebf3c5bddfcb3446c4bf70b59ddf"
+    },
+    "07D50018": {
+      "url": "/game/station/anthill/07D50018.mp4",
+      "width": 400,
+      "height": 300,
+      "frames": 512,
+      "fps": 11.983695652173912,
+      "audio": true,
+      "source": "extracted/resources/Adi410Sci65/SIMUL.ITK/07D50018.VMD",
+      "sha256": "f501366fbe50cad974793246154455837aa49466843579bf77685911215515ff"
+    },
+    "07D50019": {
+      "url": "/game/station/anthill/07D50019.mp4",
+      "width": 400,
+      "height": 300,
+      "frames": 400,
+      "fps": 11.389462809917354,
+      "audio": true,
+      "source": "extracted/resources/Adi410Sci65/SIMUL.ITK/07D50019.VMD",
+      "sha256": "965337c34ad2a2125e7ad6ae4980e337f879386228ff55af52c9ab6022fb1bb9"
+    },
+    "07D50020": {
+      "url": "/game/station/anthill/07D50020.mp4",
+      "width": 400,
+      "height": 300,
+      "frames": 294,
+      "fps": 11.983695652173912,
+      "audio": true,
+      "source": "extracted/resources/Adi410Sci65/SIMUL.ITK/07D50020.VMD",
+      "sha256": "1ddb98e956f5b7c34c1e30b2686e390ea3ed66470820025b7e5c2d5504059662"
+    },
+    "07D50022": {
+      "url": "/game/station/anthill/07D50022.mp4",
+      "width": 400,
+      "height": 300,
+      "frames": 302,
+      "fps": 11.983695652173912,
+      "audio": true,
+      "source": "extracted/resources/Adi410Sci65/SIMUL.ITK/07D50022.VMD",
+      "sha256": "98e3c727e6b8fb3b48db34775154357e6f0348a73fde58f99dc09c2772a6898b"
+    },
+    "07D50024": {
+      "url": "/game/station/anthill/07D50024.mp4",
+      "width": 400,
+      "height": 300,
+      "frames": 383,
+      "fps": 11.983695652173912,
+      "audio": true,
+      "source": "extracted/resources/Adi410Sci65/SIMUL.ITK/07D50024.VMD",
+      "sha256": "ef698e6cd13ad5d5ebb5d052369cf4966a39efbc67c10603bb0bab620ac1f65a"
+    },
+    "07D50027": {
+      "url": "/game/station/anthill/07D50027.mp4",
+      "width": 400,
+      "height": 300,
+      "frames": 444,
+      "fps": 11.983695652173912,
+      "audio": true,
+      "source": "extracted/resources/Adi410Sci65/SIMUL.ITK/07D50027.VMD",
+      "sha256": "d584702e301b5b62298f46710c8fe132c72295a9dec31346b96f9220308980cb"
+    },
+    "07D50028": {
+      "url": "/game/station/anthill/07D50028.mp4",
+      "width": 400,
+      "height": 300,
+      "frames": 272,
+      "fps": 11.983695652173912,
+      "audio": true,
+      "source": "extracted/resources/Adi410Sci65/SIMUL.ITK/07D50028.VMD",
+      "sha256": "41a505169632082698aa100e0cc9e0ed06208bf084b2d169da16d44c075053d9"
+    },
+    "07D60001": {
+      "url": "/game/station/anthill/07D60001.mp4",
+      "width": 400,
+      "height": 300,
+      "frames": 338,
+      "fps": 11.983695652173912,
+      "audio": true,
+      "source": "extracted/resources/Adi410Sci65/SIMUL.ITK/07D60001.VMD",
+      "sha256": "60a95624698b092633a339c7b59d7fa55e716503d5e6e2325e3b5e091d423643"
+    },
+    "07D60002": {
+      "url": "/game/station/anthill/07D60002.mp4",
+      "width": 400,
+      "height": 300,
+      "frames": 2181,
+      "fps": 11.983695652173912,
+      "audio": true,
+      "source": "extracted/resources/Adi410Sci65/SIMUL.ITK/07D60002.VMD",
+      "sha256": "3795efcd319baf7d8264ef3fc23c30dbbd5fccbb086cd00e1df1dd11a6dee103"
+    },
+    "07D60003": {
+      "url": "/game/station/anthill/07D60003.mp4",
+      "width": 400,
+      "height": 300,
+      "frames": 2403,
+      "fps": 11.983695652173912,
+      "audio": true,
+      "source": "extracted/resources/Adi410Sci65/SIMUL.ITK/07D60003.VMD",
+      "sha256": "2bbdffe38e95ce9987e96f80cd1c2d8697c58d9ec28866ff1d5a242b0d780d2a"
+    },
+    "07D60004": {
+      "url": "/game/station/anthill/07D60004.mp4",
+      "width": 400,
+      "height": 300,
+      "frames": 1470,
+      "fps": 11.983695652173912,
+      "audio": true,
+      "source": "extracted/resources/Adi410Sci65/SIMUL.ITK/07D60004.VMD",
+      "sha256": "6c9cadce66caf14bad508bbec94c71d16b57f17a61802e2fc9593120b6d3fa35"
+    },
+    "07D70014": {
+      "url": "/game/station/anthill/07D70014.mp4",
+      "width": 400,
+      "height": 300,
+      "frames": 141,
+      "fps": 7.1313065976714105,
+      "audio": true,
+      "source": "extracted/resources/Adi410Sci65/SIMUL.ITK/07D70014.VMD",
+      "sha256": "2fa9c5855bf7ddff5522d3b03a6e0d6911c96cb7d3992c3e39121de9da205082"
+    },
+    "07D70015": {
+      "url": "/game/station/anthill/07D70015.mp4",
+      "width": 400,
+      "height": 300,
+      "frames": 161,
+      "fps": 11.983695652173912,
+      "audio": true,
+      "source": "extracted/resources/Adi410Sci65/SIMUL.ITK/07D70015.VMD",
+      "sha256": "1792cca38966029189c6173d5856d6b41ce40ff96d466d3973d172972366da14"
+    },
+    "07D70018": {
+      "url": "/game/station/anthill/07D70018.mp4",
+      "width": 400,
+      "height": 300,
+      "frames": 185,
+      "fps": 11.983695652173912,
+      "audio": true,
+      "source": "extracted/resources/Adi410Sci65/SIMUL.ITK/07D70018.VMD",
+      "sha256": "4f36ae91addec15d4333f6fcd4ab4abadcadbaeef6b74ce5f6a76866e5043f27"
+    },
+    "07D70019": {
+      "url": "/game/station/anthill/07D70019.mp4",
+      "width": 400,
+      "height": 300,
+      "frames": 161,
+      "fps": 11.983695652173912,
+      "audio": true,
+      "source": "extracted/resources/Adi410Sci65/SIMUL.ITK/07D70019.VMD",
+      "sha256": "66a9899dd847bafcce640a23fb8141c4fe9bffef0ef9511e7bb76a5ab4e2f0a7"
+    },
+    "07D70020": {
+      "url": "/game/station/anthill/07D70020.mp4",
+      "width": 400,
+      "height": 300,
+      "frames": 161,
+      "fps": 11.983695652173912,
+      "audio": true,
+      "source": "extracted/resources/Adi410Sci65/SIMUL.ITK/07D70020.VMD",
+      "sha256": "aadba534575c7b341ae4c9ea879aef5d75dfcc0e90903baeaec150cc64d821f6"
+    },
+    "07D70022": {
+      "url": "/game/station/anthill/07D70022.mp4",
+      "width": 400,
+      "height": 300,
+      "frames": 277,
+      "fps": 11.983695652173912,
+      "audio": true,
+      "source": "extracted/resources/Adi410Sci65/SIMUL.ITK/07D70022.VMD",
+      "sha256": "fd17a4a530e276657a16def7955b6e2ee763eec561e24ccd9f377bf33bcd6146"
+    },
+    "07D70024": {
+      "url": "/game/station/anthill/07D70024.mp4",
+      "width": 400,
+      "height": 300,
+      "frames": 131,
+      "fps": 11.983695652173912,
+      "audio": true,
+      "source": "extracted/resources/Adi410Sci65/SIMUL.ITK/07D70024.VMD",
+      "sha256": "40e9df794d687a0def332de707e89b9d5681cc993ed98f39cd170c8be3720b8f"
+    },
+    "07D70027": {
+      "url": "/game/station/anthill/07D70027.mp4",
+      "width": 400,
+      "height": 300,
+      "frames": 177,
+      "fps": 11.983695652173912,
+      "audio": true,
+      "source": "extracted/resources/Adi410Sci65/SIMUL.ITK/07D70027.VMD",
+      "sha256": "ec19a83bc9e97be5206899dcdc781c1fe184baa74751cacac9def1c6c7065000"
+    },
+    "07D70028": {
+      "url": "/game/station/anthill/07D70028.mp4",
+      "width": 400,
+      "height": 300,
+      "frames": 151,
+      "fps": 11.983695652173912,
+      "audio": true,
+      "source": "extracted/resources/Adi410Sci65/SIMUL.ITK/07D70028.VMD",
+      "sha256": "2d9b4bcc37d6b032c5db8bc6d5c3a492ae2c9363877a2fa41b2f7e7f2ef3922b"
+    },
+    "07DX0001": {
+      "url": "/game/station/anthill/07DX0001.mp4",
+      "width": 400,
+      "height": 300,
+      "frames": 54,
+      "fps": 11.983695652173912,
+      "audio": true,
+      "source": "extracted/resources/Adi410Sci65/SIMUL.ITK/07DX0001.VMD",
+      "sha256": "22a3c7c1fa94e4c96022d048a0f12cdd25b5c441d0f495e6628ca63bc1a0c2b4"
+    },
+    "07DX0002": {
+      "url": "/game/station/anthill/07DX0002.mp4",
+      "width": 400,
+      "height": 300,
+      "frames": 353,
+      "fps": 11.983695652173912,
+      "audio": true,
+      "source": "extracted/resources/Adi410Sci65/SIMUL.ITK/07DX0002.VMD",
+      "sha256": "a1eaf44c0d967a86e914d49a008c670cbd4267b0dc40b5c5ddd3c8c378e83a48"
+    },
+    "07DX0003": {
+      "url": "/game/station/anthill/07DX0003.mp4",
+      "width": 400,
+      "height": 300,
+      "frames": 287,
+      "fps": 11.983695652173912,
+      "audio": true,
+      "source": "extracted/resources/Adi410Sci65/SIMUL.ITK/07DX0003.VMD",
+      "sha256": "d348518261ef9a9488cfe4568f239143912970e5d40c488dcb5f5d64e72c69c7"
+    },
+    "07DX0004": {
+      "url": "/game/station/anthill/07DX0004.mp4",
+      "width": 400,
+      "height": 300,
+      "frames": 181,
+      "fps": 11.983695652173912,
+      "audio": true,
+      "source": "extracted/resources/Adi410Sci65/SIMUL.ITK/07DX0004.VMD",
+      "sha256": "f719cebc6f6a47aaba6d4382f021ffee91787357357a6111a7d288e6b78a5c5c"
+    },
+    "07DX0005": {
+      "url": "/game/station/anthill/07DX0005.mp4",
+      "width": 400,
+      "height": 300,
+      "frames": 52,
+      "fps": 11.983695652173912,
+      "audio": true,
+      "source": "extracted/resources/Adi410Sci65/SIMUL.ITK/07DX0005.VMD",
+      "sha256": "747f0f52b065fff2a3121bcc9c6554dfecf4ddccc6c6381166092580cfc81508"
+    },
+    "07DX0006": {
+      "url": "/game/station/anthill/07DX0006.mp4",
+      "width": 400,
+      "height": 300,
+      "frames": 303,
+      "fps": 8.277027027027026,
+      "audio": true,
+      "source": "extracted/resources/Adi410Sci65/SIMUL.ITK/07DX0006.VMD",
+      "sha256": "4db41c7b9ca1eeaae989c80c7f578078cee53be375aae095df0e1f87309f3a33"
+    },
+    "07DX0007": {
+      "url": "/game/station/anthill/07DX0007.mp4",
+      "width": 400,
+      "height": 300,
+      "frames": 303,
+      "fps": 8.277027027027026,
+      "audio": true,
+      "source": "extracted/resources/Adi410Sci65/SIMUL.ITK/07DX0007.VMD",
+      "sha256": "65cbdccaba54d1e9693650bc91137c105698325f0bbce9fddc8fe976bf5321d0"
+    },
+    "07DX0008": {
+      "url": "/game/station/anthill/07DX0008.mp4",
+      "width": 400,
+      "height": 300,
+      "frames": 76,
+      "fps": 11.983695652173912,
+      "audio": true,
+      "source": "extracted/resources/Adi410Sci65/SIMUL.ITK/07DX0008.VMD",
+      "sha256": "d213b86658ccba36206e27bf0cdab4b33631fdf19503318651512b5121af0190"
+    },
+    "07DX0009": {
+      "url": "/game/station/anthill/07DX0009.mp4",
+      "width": 400,
+      "height": 300,
+      "frames": 52,
+      "fps": 11.983695652173912,
+      "audio": true,
+      "source": "extracted/resources/Adi410Sci65/SIMUL.ITK/07DX0009.VMD",
+      "sha256": "3485c86a7997380d5191efc2d2d0c944c35ca4a4c82b381030d400d5e662aebc"
+    },
+    "07DX0010": {
+      "url": "/game/station/anthill/07DX0010.mp4",
+      "width": 400,
+      "height": 300,
+      "frames": 500,
+      "fps": 11.983695652173912,
+      "audio": true,
+      "source": "extracted/resources/Adi410Sci65/SIMUL.ITK/07DX0010.VMD",
+      "sha256": "5d55f9967b11a4a312d176ee707f6ae73f7731529f85b66f2dfe332316443055"
+    },
+    "07DX0011": {
+      "url": "/game/station/anthill/07DX0011.mp4",
+      "width": 400,
+      "height": 300,
+      "frames": 500,
+      "fps": 11.906047516198704,
+      "audio": true,
+      "source": "extracted/resources/Adi410Sci65/SIMUL.ITK/07DX0011.VMD",
+      "sha256": "0e24e594614b08da975ad044edb326dd81693e7e7135ac1919687639b587d6a0"
+    },
+    "07DX0012": {
+      "url": "/game/station/anthill/07DX0012.mp4",
+      "width": 400,
+      "height": 300,
+      "frames": 81,
+      "fps": 11.983695652173912,
+      "audio": true,
+      "source": "extracted/resources/Adi410Sci65/SIMUL.ITK/07DX0012.VMD",
+      "sha256": "af305b0f3a0958c9976912a205642634baff249974412ddd6e73beb6e74b2ae0"
+    },
+    "07DX0013": {
+      "url": "/game/station/anthill/07DX0013.mp4",
+      "width": 400,
+      "height": 300,
+      "frames": 54,
+      "fps": 11.983695652173912,
+      "audio": true,
+      "source": "extracted/resources/Adi410Sci65/SIMUL.ITK/07DX0013.VMD",
+      "sha256": "d62e2236696affb39c8fef83e809d9a3dec83a1ed0d042bfeefffd53e59c8d22"
+    },
+    "07DX0016": {
+      "url": "/game/station/anthill/07DX0016.mp4",
+      "width": 400,
+      "height": 300,
+      "frames": 142,
+      "fps": 11.983695652173912,
+      "audio": true,
+      "source": "extracted/resources/Adi410Sci65/SIMUL.ITK/07DX0016.VMD",
+      "sha256": "70f2038ba77cd73360ac422ee78d1fa96fa8b47105df4cca514dd7d231730da4"
+    },
+    "07DX0017": {
+      "url": "/game/station/anthill/07DX0017.mp4",
+      "width": 400,
+      "height": 300,
+      "frames": 31,
+      "fps": 3.99746192893401,
+      "audio": true,
+      "source": "extracted/resources/Adi410Sci65/SIMUL.ITK/07DX0017.VMD",
+      "sha256": "913040b8bb3a13b40c697586ee7930d4be15d256e0f7b16f426b67bbdfabf17a"
+    },
+    "07DX0021": {
+      "url": "/game/station/anthill/07DX0021.mp4",
+      "width": 400,
+      "height": 300,
+      "frames": 54,
+      "fps": 11.983695652173912,
+      "audio": true,
+      "source": "extracted/resources/Adi410Sci65/SIMUL.ITK/07DX0021.VMD",
+      "sha256": "3f46a73f81700824aa1a8aa56d8271be183abeb0b6e50cf81a79bbb56ef3cdbc"
+    },
+    "07DX0023": {
+      "url": "/game/station/anthill/07DX0023.mp4",
+      "width": 400,
+      "height": 300,
+      "frames": 229,
+      "fps": 7.852564102564102,
+      "audio": true,
+      "source": "extracted/resources/Adi410Sci65/SIMUL.ITK/07DX0023.VMD",
+      "sha256": "fcc67bdf9d2dc1076cbc7f8bfbc5305f000226a36eb9b457d3a7c5e17a43acd4"
+    },
+    "07DX0025": {
+      "url": "/game/station/anthill/07DX0025.mp4",
+      "width": 400,
+      "height": 300,
+      "frames": 41,
+      "fps": 11.983695652173912,
+      "audio": true,
+      "source": "extracted/resources/Adi410Sci65/SIMUL.ITK/07DX0025.VMD",
+      "sha256": "1b302703e485d8ebf29139f514d9e107a6a2f0da8bf069d59345414649ce3650"
+    },
+    "07DX0026": {
+      "url": "/game/station/anthill/07DX0026.mp4",
+      "width": 400,
+      "height": 300,
+      "frames": 146,
+      "fps": 11.983695652173912,
+      "audio": true,
+      "source": "extracted/resources/Adi410Sci65/SIMUL.ITK/07DX0026.VMD",
+      "sha256": "3f9be34ec15855a43a184c28eadcc0c4b67cb1ce0e93e2872d566ac6af6c458a"
+    }
+  }
+}

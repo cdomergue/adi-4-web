@@ -1,6 +1,10 @@
 import { calculateSimulation, checkChallenge } from './simulation-engine.js';
+import { createSimulationState } from './simulation-state.js';
+import { createSequencePlayer, stateMedia } from './sequence-player.js';
+import { createCinemaPlayer, isCinemaObject } from './cinema-player.js';
 import {
-  activeControls, caseData, optionLabel, position, sceneTargets, targetState, usefulLabel,
+  activeControls, caseData, isObjectVisible, isOptionAllowed, optionLabel, position,
+  sceneTargets, targetState, usefulLabel,
 } from './interaction-model.js';
 
 const esc = (value) => String(value).replace(/[&<>"']/g,
@@ -15,11 +19,15 @@ async function get(url) {
 export async function renderExperiment(main, definition, { sector, sectorName }) {
   main.innerHTML = '<section id="simulation"><p role="status">Ouverture de l’expérience…</p></section>';
   const root = main.firstElementChild;
-  let data, assets;
+  let data, assets, cinemaCatalog;
   try {
     [data, assets] = await Promise.all([
       get(`/game/station/sim-${definition.id}.json`), get('/game/station/assets.json'),
     ]);
+    if (!definition.createPlayback) {
+      assets = { ...assets, ...await get('/game/station/sequences/assets.json') };
+    }
+    if (definition.cinema) cinemaCatalog = await get(definition.cinema.catalog);
   } catch {
     if (root.isConnected) root.innerHTML = '<p>Les ressources de cette expérience sont indisponibles.</p><a href="#simulations">Toutes les expériences</a>';
     return;
@@ -55,12 +63,50 @@ export async function renderExperiment(main, definition, { sector, sectorName })
   const status = root.querySelector('#sim-status');
   const pointer = root.querySelector('#sim-pointer');
   let currentCase, currentData, controls, targets, selected, panelOpener;
+  let session, displayed, paintOrder = [], animation = null, busy = false, generation = 0;
   const playback = definition.createPlayback?.({
     frame, audio, changed: () => update(),
     announce: (message) => { status.textContent = message; pointer.textContent = message; },
     powerOff: () => { selected['9'] = 1; },
     soundEnabled: () => root.querySelector('#sim-sound').checked,
   });
+  const cinema = definition.cinema ? createCinemaPlayer({
+    frame, config: definition.cinema, catalog: cinemaCatalog,
+    soundEnabled: () => root.querySelector('#sim-sound').checked,
+    unavailable: () => {
+      root.querySelector('#sim-audio-status').textContent = 'Le film n’a pas pu être lu. Tu peux réessayer en cliquant sur le lieu.';
+    },
+  }) : null;
+  const sequencePlayer = playback ? null : createSequencePlayer({
+    movie: cinema?.play,
+    draw: (id, state, asset) => {
+      displayed[id] = state;
+      paintOrder = [...paintOrder.filter((key) => key !== id), id];
+      animation = asset ? { id, asset } : null;
+      update();
+    },
+    voice: (url, signal) => new Promise((resolve) => {
+      if (!url || !root.querySelector('#sim-sound').checked || signal.aborted) return resolve();
+      const done = () => {
+        clearTimeout(timeout);
+        for (const name of ['ended', 'error', 'pause']) audio.removeEventListener(name, done);
+        signal.removeEventListener('abort', done);
+        resolve();
+      };
+      const timeout = setTimeout(done, 120000); // Broken media must not trap the controls.
+      for (const name of ['ended', 'error', 'pause']) audio.addEventListener(name, done, { once: true });
+      signal.addEventListener('abort', done, { once: true });
+      audio.src = url;
+      audio.play().catch(() => {
+        if (!signal.aborted) root.querySelector('#sim-audio-status').textContent = 'La voix n’a pas pu être lue.';
+        done();
+      });
+    }),
+    unavailable: () => {
+      root.querySelector('#sim-audio-status').textContent = 'Une animation est indisponible ; son état final reste affiché.';
+    },
+  });
+  const allowed = (id, state) => playback || isOptionAllowed(currentData, id, state, selected);
 
   function closePanel(restoreFocus = true) {
     panel.hidden = true;
@@ -74,7 +120,7 @@ export async function renderExperiment(main, definition, { sector, sectorName })
     panelOpener = opener;
     panel.dataset.object = objectId;
     panel.innerHTML = `<div class="simulation-panel-heading"><h2 id="sim-panel-title">${esc(config.heading || object.label)}</h2><button type="button" data-close aria-label="Fermer les choix">×</button></div>
-      <div class="simulation-options">${object.options.map((option) => `<button type="button" data-choice="${option.id}" aria-pressed="${selected[objectId] === option.id}">${esc(optionLabel(object, option, config))}</button>`).join('')}</div>`;
+      <div class="simulation-options">${object.options.map((option) => `<button type="button" data-choice="${option.id}" ${!allowed(objectId, option.id) ? 'disabled' : ''} aria-pressed="${selected[objectId] === option.id}">${esc(optionLabel(object, option, config))}</button>`).join('')}</div>`;
     // Position relative to the object but keep the full panel inside the scene.
     const [x, y, width] = config.panelBox || object.box;
     panel.style.left = `${x > 320 ? Math.max(2, x / 6.4 - 42) : Math.min(54, (x + width) / 6.4 + 1)}%`;
@@ -84,7 +130,7 @@ export async function renderExperiment(main, definition, { sector, sectorName })
   }
 
   function renderControls() {
-    targets = sceneTargets(currentData, definition, currentCase);
+    targets = sceneTargets(currentData, definition, currentCase, selected);
     root.querySelector('.simulation-targets').innerHTML = targets.map((target, index) =>
       `<button type="button" class="scene-hotspot simulation-target" data-target="${index}" data-object="${target.object}" data-action="${target.action}" ${target.state ? `data-state="${target.state}"` : ''} aria-label="${esc(target.label)}" style="${position(target.box)}"></button>`).join('');
     root.querySelector('.simulation-controls').innerHTML = controls.map((object) => {
@@ -99,23 +145,27 @@ export async function renderExperiment(main, definition, { sector, sectorName })
   }
 
   function update(replay = false) {
-    const result = (definition.calculate || calculateSimulation)(currentData, selected);
-    Object.assign(selected, result.states);
+    frame.setAttribute('aria-busy', String(busy || Boolean(playback?.busy)));
+    const result = playback
+      ? (definition.calculate || calculateSimulation)(currentData, selected)
+      : calculateSimulation(currentData, displayed || selected, { sequence: [] });
+    if (playback) Object.assign(selected, result.states);
     const layers = root.querySelector('.simulation-layers');
     const keep = new Set();
     function add(asset, key, isBackground = false, state) {
       if (!asset) return;
       keep.add(key);
       let img = layers.querySelector(`[data-layer="${key}"]`);
-      const animate = !playback && !isBackground && (Boolean(img) || replay);
+      const animate = (animation?.id === key || key.startsWith('equilibrium-')) && !isBackground;
       if (replay && animate && img) { img.remove(); img = null; }
       if (!img) {
         img = document.createElement('img');
         img.dataset.layer = key;
         img.alt = '';
       }
-      if (img.dataset.asset !== asset.url) {
-        img.src = animate && asset.motion ? asset.motion : asset.url;
+      const url = animate && asset.motion ? asset.motion : asset.url;
+      if (img.getAttribute('src') !== url) {
+        img.src = url;
         img.dataset.asset = asset.url;
       }
       if (state) img.dataset.state = state;
@@ -125,32 +175,55 @@ export async function renderExperiment(main, definition, { sector, sectorName })
       layers.append(img);
     }
     add(assets[data.background], 'background', true);
-    for (const object of [...currentData.objects].sort((a, b) => a.plan - b.plan)) {
+    const objects = playback ? [...currentData.objects].sort((a, b) => a.plan - b.plan)
+      : paintOrder.map((id) => currentData.objects.find((o) => o.id === id));
+    for (const object of objects) {
+      if (isCinemaObject(definition.cinema, object.id)) continue;
       if (playback && object.type === 1) continue;
+      if (!playback && !isObjectVisible(object, currentCase)) continue;
       if (definition.isVisible && !definition.isVisible(object, currentCase)) continue;
       if (object.type === 1 && !result.resolved.includes(object.id)) continue;
       const option = object.options.find((item) => item.id === result.states[object.id]);
-      add(assets[option?.visual], object.id, false, option?.id);
+      const asset = playback ? assets[option?.visual]
+        : animation?.id === object.id ? animation.asset
+          : stateMedia(currentData, object.id, option?.id, assets);
+      add(asset, object.id, false, option?.id);
+      if (!playback && !busy && currentData.native?.objects[object.id]?.equilibrium) {
+        const equilibrium = assets[currentData.media?.[object.id]?.[option?.id]?.equilibrium];
+        if (equilibrium?.motion) add(equilibrium, `equilibrium-${object.id}`, false, option.id);
+      }
     }
     layers.querySelectorAll('[data-layer]').forEach((img) => {
       if (!keep.has(img.dataset.layer)) img.remove();
     });
     root.querySelectorAll('[data-input]').forEach((input) => {
       input.value = selected[input.dataset.input];
-      input.disabled = Boolean(playback?.busy && input.dataset.input !== '9');
+      input.disabled = busy || Boolean(playback?.busy && input.dataset.input !== '9');
+      for (const option of input.options) option.disabled = !allowed(input.dataset.input, Number(option.value));
     });
     root.querySelectorAll('[data-target]').forEach((button) => {
       const target = targets[button.dataset.target];
-      button.disabled = Boolean(playback?.busy && target.object !== '9');
+      const object = controls.find((o) => o.id === target.object);
+      button.disabled = busy || Boolean(playback?.busy && target.object !== '9') ||
+        (target.action !== 'panel' && !allowed(target.object, targetState(target, object, selected)));
       if (target.action === 'select' || target.action === 'toggle') {
         button.setAttribute('aria-pressed', String(selected[target.object] === target.state));
       }
     });
+    root.querySelectorAll('[data-clear]').forEach((button) => {
+      button.disabled = busy || !allowed(button.dataset.clear, definition.controls[button.dataset.clear].clearState);
+    });
+    root.querySelector('[type="submit"]').disabled = busy;
     root.querySelector('#sim-observations').innerHTML = (playback && !playback.complete ? [] : currentData.objects)
-      .filter((object) => object.type === 1 && result.resolved.includes(object.id))
+      .filter((object) => object.type === 1 && result.resolved.includes(object.id) &&
+        (playback || isObjectVisible(object, currentCase)) &&
+        (!definition.isObservationVisible || definition.isObservationVisible(object)))
       .map((object) => {
         const option = object.options.find((item) => item.id === result.states[object.id]);
-        return usefulLabel(option?.label) ? `<p><strong>${esc(object.label)}</strong> : ${esc(option.label)}</p>` : '';
+        const missing = !playback && currentData.media?.[object.id]?.[option?.id]?.direct &&
+          !stateMedia(currentData, object.id, option?.id, assets);
+        return usefulLabel(option?.label)
+          ? `<p><strong>${esc(object.label)}</strong> : ${esc(option.label)}${missing ? ' (animation originale indisponible)' : ''}</p>` : '';
       }).join('');
     root.querySelector('#sim-hints').innerHTML = controls
       .map((object) => object.hints[currentCase.id] || object.hints['0'])
@@ -158,11 +231,44 @@ export async function renderExperiment(main, definition, { sector, sectorName })
     return result;
   }
 
-  function set(objectId, value, replay = false) {
+  async function set(objectId, value, replay = false) {
+    if (busy) return;
     if (playback?.busy && objectId !== '9') return;
     const object = controls.find((item) => item.id === objectId);
     const option = object?.options.find((item) => item.id === value);
     if (!option) return;
+    if (sequencePlayer) {
+      const event = session.change(objectId, value);
+      if (!event.accepted) {
+        status.textContent = 'Ce réglage n’est pas disponible dans cette situation.';
+        update();
+        return;
+      }
+      const token = ++generation;
+      selected = { ...event.after };
+      displayed = { ...event.before, [objectId]: event.after[objectId] };
+      busy = true;
+      audio.pause();
+      root.querySelector('#sim-audio-status').textContent = '';
+      status.textContent = 'Lecture de la séquence…';
+      update();
+      const completed = await sequencePlayer.play(currentData, event, assets);
+      if (!completed || token !== generation || !root.isConnected) return;
+      selected = session.finish().states;
+      displayed = { ...selected };
+      animation = null;
+      busy = false;
+      update();
+      const challenge = session.challenge();
+      status.textContent = challenge.success
+        ? 'Bravo ! Tes réglages correspondent à une solution originale.'
+        : challenge.total
+          ? `Parcours : ${challenge.progress} étape(s) correcte(s) sur ${challenge.total}.`
+          : event.action ? 'Séquence terminée. Tu peux modifier les réglages ou relancer GO.'
+            : `${object.label} : ${optionLabel(object, option, definition.controls[objectId])}.`;
+      pointer.textContent = status.textContent;
+      return;
+    }
     playback?.reset();
     selected[objectId] = value;
     update(replay);
@@ -182,6 +288,11 @@ export async function renderExperiment(main, definition, { sector, sectorName })
   }
 
   function reset() {
+    generation++;
+    sequencePlayer?.reset();
+    cinema?.reset();
+    busy = false;
+    animation = null;
     playback?.reset();
     audio.pause();
     closePanel(false);
@@ -190,6 +301,12 @@ export async function renderExperiment(main, definition, { sector, sectorName })
     controls = activeControls(currentData, definition, currentCase);
     selected = Object.fromEntries(currentData.objects.filter((object) => object.options.length)
       .map((object) => [object.id, currentCase.initial[object.id] || object.options[0].id]));
+    if (sequencePlayer) {
+      session = createSimulationState(data, currentCase);
+      selected = session.snapshot().states;
+      displayed = { ...selected };
+      paintOrder = [...currentData.objects].sort((a, b) => a.plan - b.plan).map((o) => o.id);
+    }
     renderControls();
     update();
     root.querySelector('#sim-audio-status').textContent = '';
@@ -230,7 +347,7 @@ export async function renderExperiment(main, definition, { sector, sectorName })
     if (objectId) set(objectId, definition.controls[objectId].clearState);
   });
   root.querySelector('#sim-zones').onchange = (event) => frame.classList.toggle('show-targets', event.target.checked);
-  root.querySelector('#sim-sound').onchange = () => audio.pause();
+  root.querySelector('#sim-sound').onchange = () => { audio.pause(); cinema?.updateSound(); };
   root.querySelector('#sim-case').onchange = () => {
     reset(); status.textContent = 'Nouvelle situation : règle les commandes dans le décor.';
   };
@@ -239,6 +356,7 @@ export async function renderExperiment(main, definition, { sector, sectorName })
   };
   root.querySelector('#sim-form').onsubmit = (event) => {
     event.preventDefault();
+    if (busy) return;
     if (playback && !playback.complete) {
       status.textContent = playback.busy ? 'La fabrication est en cours…' : 'Lance Power pour fabriquer le laitage avant de vérifier le défi.';
       return;
@@ -249,11 +367,14 @@ export async function renderExperiment(main, definition, { sector, sectorName })
       Object.entries(solution).filter(([key]) => controls.some((object) => object.id === key))));
     status.textContent = currentCase.id === '0'
       ? 'Tu es en exploration libre. Choisis un défi pour vérifier une solution.'
-      : checkChallenge(solutions, known)
+      : (session ? session.challenge().success : checkChallenge(solutions, known))
         ? 'Bravo ! Tes réglages correspondent à une solution originale.'
         : 'Cette combinaison ne valide pas le défi. Consulte les conseils et essaie d’autres réglages.';
   };
   main.addEventListener('sceneleave', () => {
+    generation++;
+    sequencePlayer?.dispose();
+    cinema?.dispose();
     playback?.dispose(); audio.pause(); audio.removeAttribute('src');
   }, { once: true });
   reset();
