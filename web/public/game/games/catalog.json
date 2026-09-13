@@ -122,21 +122,23 @@
   },
   {
     "id": "wgob1",
-    "title": "WGOB1",
+    "title": "Gobliiins",
     "source": "extracted/discs/Adi421EnvCol2/Games/Gob1/WGOB1.EXE",
     "format": "Win16 NE",
     "sha256": "ad2da1e88abd06581f4d300908ca0c110ff80e386abc633127b63689c44c78a3",
     "image": "/game/games/WGOB1.webp",
-    "image_source": "extracted/resources/Adi421EnvCol1/INTRO.ITK/GOB1.VMD"
+    "image_source": "extracted/resources/Adi421EnvCol1/INTRO.ITK/GOB1.VMD",
+    "route": "#game/wgob1"
   },
   {
     "id": "wgob2",
-    "title": "WGOB2",
+    "title": "Gobliins 2",
     "source": "extracted/discs/Adi421EnvCol2/Games/Gob2/WGOB2.EXE",
     "format": "Win16 NE",
     "sha256": "9f848754159ed29abff705bf57a7d0caa91b815b10d4de1d18553586488a1c4d",
     "image": "/game/games/WGOB2.webp",
-    "image_source": "extracted/resources/Adi421EnvCol1/INTRO.ITK/GOB2.VMD"
+    "image_source": "extracted/resources/Adi421EnvCol1/INTRO.ITK/GOB2.VMD",
+    "route": "#game/wgob2"
   },
   {
     "id": "wgob3",

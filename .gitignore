@@ -12,6 +12,8 @@ __pycache__/
 !/web/public/game/catalog.json
 !/web/public/game/*.webp
 !/web/public/game/wgob3/
+!/web/public/game/wgob1/
+!/web/public/game/wgob2/
 !/web/public/game/room/
 !/web/public/game/welcome/
 !/web/public/game/internet/

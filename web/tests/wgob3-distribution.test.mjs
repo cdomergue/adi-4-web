@@ -43,7 +43,9 @@ test('application startup and game-library dependencies are bundled', async () =
   assert.ok(catalogue.courses.length > 0);
   for (const course of catalogue.courses) assert.ok(catalogue.pages[course.page]);
   const games = await json('game/games/catalog.json');
-  assert.equal(games.find((game) => game.id === 'wgob3').route, '#game/wgob3');
+  for (const id of ['wgob1', 'wgob2', 'wgob3']) {
+    assert.equal(games.find((game) => game.id === id).route, `#game/${id}`);
+  }
   for (const game of games) {
     if (game.image) assert.ok((await stat(new URL('.' + game.image, publicRoot))).isFile());
   }
@@ -58,3 +60,21 @@ test('application startup and game-library dependencies are bundled', async () =
     assert.ok((await stat(new URL(path, publicRoot))).size > 0, path);
   }
 });
+
+for (const [episode, count] of [[1, 15], [2, 8]]) {
+  test(`a clone contains the original WGOB${episode} data for the shared runtime`, async () => {
+    const target = `wgob${episode}`;
+    const data = await json(`game/${target}/manifest.json`);
+    assert.equal(data.target, target);
+    assert.equal(data.game, `gob${episode}`);
+    assert.equal(data.language, 'fr');
+    assert.equal(data.platform, 'windows');
+    assert.equal(data.files.length, count);
+    for (const file of data.files) {
+      assert.match(file.name, /^[A-Z0-9]+\.(STK|ITK|MID|FNT)$/);
+      const bytes = await read(`game/${target}/${file.name}`);
+      assert.equal(bytes.length, file.size);
+      assert.equal(createHash('sha256').update(bytes).digest('hex'), file.sha256);
+    }
+  });
+}

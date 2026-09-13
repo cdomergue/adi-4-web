@@ -239,6 +239,21 @@ export async function renderRoomActivity(main, kind, info) {
       page = Number(scroll.value);
       draw();
     };
+    if (!radio) {
+      let lastWheel = -Infinity;
+      frame.addEventListener('wheel', (event) => {
+        if (event.ctrlKey || !event.deltaY || event.target.closest('.room-toolbar')) return;
+        const direction = Math.sign(event.deltaY);
+        const pages = Math.max(1, Math.ceil(entries().length / 6));
+        if (page + direction < 0 || page + direction >= pages) return;
+        event.preventDefault();
+        // A wheel notch or trackpad gesture may emit several events in a burst.
+        if (event.timeStamp - lastWheel < 200) return;
+        lastWheel = event.timeStamp;
+        page += direction;
+        draw();
+      }, { passive: false });
+    }
     frame.querySelector('#activity-help').onclick = (e) => {
       help = !help;
       e.currentTarget.setAttribute('aria-pressed', String(help));

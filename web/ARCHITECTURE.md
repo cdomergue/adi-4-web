@@ -203,3 +203,14 @@ empreintes de tous les plateaux d’une relecture des 35 solutions par les règl
 machine originales. Les tests Node comparent le moteur web à ces empreintes,
 sans dépendre du programme original ni de QEMU. Voir
 [le rapport Mr. Matt II](../reports/mrmatt2-portage.md).
+
+## Goblins 1, 2 et 3
+
+Les trois routes `#game/wgob1`, `#game/wgob2` et `#game/wgob3` utilisent la vue
+`features/games/wgob3/view.js` paramétrée par épisode. Le lecteur historique
+`/wgob3/player.html?game=wgobN` conserve un seul moteur sous `vendor/wgob3/`.
+Les manifestes et données originales se trouvent dans `game/wgob1/`,
+`game/wgob2/` et `game/wgob3/`. Le lecteur vérifie leurs empreintes avant lancement.
+Les fichiers de sauvegarde du deuxième et du troisième jeu restent séparés
+par cible et montage IndexedDB ; le premier utilise des codes de niveau.
+Voir [le rapport Goblins 1–2](../reports/goblins-1-2-portage.md).

@@ -1,0 +1,84 @@
+{
+  "game": "gob1",
+  "target": "wgob1",
+  "language": "fr",
+  "platform": "windows",
+  "edition": "WGOB1 French Windows from ADI4",
+  "files": [
+    {
+      "name": "DISK1.STK",
+      "size": 572700,
+      "sha256": "d6bcab677e1b7e0464fcb78357b3a63dcf221016e17e6e98c4677173212b7f5e"
+    },
+    {
+      "name": "DISK2.STK",
+      "size": 553834,
+      "sha256": "ab35ef34859ecf38e2de556c3939c9423341d807fd334c510e54368bb17131c6"
+    },
+    {
+      "name": "DISK3.STK",
+      "size": 570198,
+      "sha256": "d6bd9362e0159ec0db1a675fa011156de9e911a36611ac7eb7d8244156c96943"
+    },
+    {
+      "name": "DISK4.STK",
+      "size": 527712,
+      "sha256": "0018c7791157c26a7a9f0ba6b2454ae5f1ef59dc596b127ec72ab18c10533c96"
+    },
+    {
+      "name": "INTRO.STK",
+      "size": 313472,
+      "sha256": "a2fb1b60af07bf4e7415148214fd9489ce3583f4cad93f0de2b2b43e17437038"
+    },
+    {
+      "name": "J1.FNT",
+      "size": 7172,
+      "sha256": "5e426631710d5b8d5c50057919d31f63236be2e0b1863e4c88f677aae4813957"
+    },
+    {
+      "name": "J3.FNT",
+      "size": 6724,
+      "sha256": "56a11c6d1051dcb7d0a09a1a7b2587c6e43bc810ae2cf02aed46019c1abe5e2d"
+    },
+    {
+      "name": "JEUCAR1.FNT",
+      "size": 6724,
+      "sha256": "3bf07500d6bb23a72f6773f741053a846716c5db5d864d40428ba5028f64bddc"
+    },
+    {
+      "name": "JEULET0.FNT",
+      "size": 7172,
+      "sha256": "5e426631710d5b8d5c50057919d31f63236be2e0b1863e4c88f677aae4813957"
+    },
+    {
+      "name": "MUSMAC1.MID",
+      "size": 8161,
+      "sha256": "01b7e6da6d234c6907eb69fd706cfe3c3012f718ef7934c1c4f5b565c9c1b1e5"
+    },
+    {
+      "name": "MUSMAC2.MID",
+      "size": 1287,
+      "sha256": "511a8228f5167d45871d48b2d67723427675d65e8cf5aa936818beb9946b841f"
+    },
+    {
+      "name": "MUSMAC3.MID",
+      "size": 2814,
+      "sha256": "900d959967b2b656674cdf29135fdc70721140f840d9387c685dd1a1d2a9f779"
+    },
+    {
+      "name": "MUSMAC4.MID",
+      "size": 1658,
+      "sha256": "f6c879788c7fc0ba44852a2b9fcca0f70efb86dbaa3fbd3e2691c1489ef5b39d"
+    },
+    {
+      "name": "MUSMAC5.MID",
+      "size": 11988,
+      "sha256": "e25132fd2771238352091e0f411e4fa9eb7e1aad22b867b8484efd7ce8ae9b07"
+    },
+    {
+      "name": "PROTECT.FNT",
+      "size": 6724,
+      "sha256": "4d6869d8529ff5b24a436cdc6d15455ba05f170c22273cbca6d45a0c5e09c474"
+    }
+  ]
+}

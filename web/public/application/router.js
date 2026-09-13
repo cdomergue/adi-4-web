@@ -71,8 +71,8 @@ export function createRouter({ main, info, toast, catalog, library }) {
     } else if (hash === 'game/sokoban') {
       renderSokoban(main);
       active = 'room';
-    } else if (hash === 'game/wgob3') {
-      renderWGob3(main);
+    } else if (/^game\/wgob[123]$/.test(hash)) {
+      renderWGob3(main, hash.slice(-1));
       active = 'room';
     } else if (/^game\/mrmatt[12]$/.test(hash)) {
       renderMrMatt(main, hash.slice(-1));

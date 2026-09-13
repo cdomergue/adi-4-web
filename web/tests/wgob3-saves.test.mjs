@@ -28,3 +28,15 @@ test('WGOB3 backup rejects traversal, foreign files, duplicates and corrupt base
   assert.throws(() => decodeBackup('{"format":"other","files":[]}'));
   assert.throws(() => decodeBackup('x'.repeat(12 * 1024 * 1024 + 1)));
 });
+
+for (const target of ['wgob1', 'wgob2', 'wgob3']) {
+  test(`${target} backups round-trip and reject other episodes`, () => {
+    const files = [{ name: `${target}.s00`, bytes: new Uint8Array([0, 255, 128]) }];
+    const text = encodeBackup(files, target);
+    assert.deepEqual(decodeBackup(text, target), files);
+    for (const other of ['wgob1', 'wgob2', 'wgob3'].filter(id => id !== target)) {
+      assert.throws(() => decodeBackup(text, other));
+      assert.throws(() => decodeBackup(encodeBackup(files, other), other));
+    }
+  });
+}
