@@ -32,7 +32,7 @@ export async function renderExperiment(main, definition, { sector, sectorName })
     <p>${esc(definition.instructions)}</p>
     <div class="simulation-toolbar">
       <label>Situation <select id="sim-case">${data.cases.map((c) => `<option value="${c.id}">${esc(c.id === '0' ? 'Exploration libre' : c.label)}</option>`).join('')}</select></label>
-      <label><input type="checkbox" id="sim-sound"> Voix d’Adi</label>
+      <label><input type="checkbox" id="sim-sound" checked> Son</label>
       <label><input type="checkbox" id="sim-zones"> Montrer les zones de clic</label>
       <button class="button secondary" id="sim-reset">Recommencer</button>
     </div>
