@@ -1,0 +1,1425 @@
+{
+  "maps": {
+    "4": {
+      "overview": "maps/4-overview.webp",
+      "detail": "maps/4-detail.webp",
+      "legends": {
+        "overview": [
+          {
+            "src": "legends/maps-4-overview-2.webp",
+            "text": "DENSITE DE POPULATION Nombre d'habitants au  km 2 plus de 200 de 100 à 200 de 10 à 100 moins de 10"
+          }
+        ],
+        "detail": [
+          {
+            "src": "legends/maps-4-detail-13.webp",
+            "text": "DENSITE DE  POPULATION Nombre d'habitants au  km 2 plus de 200 de 100 à 200 de 10 à 100 moins de 10"
+          }
+        ]
+      }
+    },
+    "10": {
+      "overview": "maps/10-overview.webp",
+      "detail": "maps/10-detail.webp",
+      "legends": {
+        "overview": [
+          {
+            "src": "legends/maps-10-overview-3.webp",
+            "text": "LANGUES parlées par plus de 100 millions de personnes (en millions de personnes) chinois (110 0) anglais (457) hindi (391) espagnol (369) russe (289)"
+          },
+          {
+            "src": "legends/maps-10-overview-4.webp",
+            "text": "LANGUES arabe (213) portuguais (181) malais indonésien (152) japonais (126) français (123) allemand (119) ourdou (101) autres langues  nationales"
+          }
+        ],
+        "detail": [
+          {
+            "src": "legends/maps-10-detail-14.webp",
+            "text": "LANGUES parlées par plus de 100 millions de personnes (en millions de personnes) chinois (110 0) anglais (457) hindi (391) espagnol (369) (289) russe"
+          },
+          {
+            "src": "legends/maps-10-detail-15.webp",
+            "text": "LANGUES arabe (213) portuguais (181) malais indonésien (152) japonais (126) français (123) allemand (119) ourdou (101) autres langues  nationales"
+          }
+        ]
+      }
+    },
+    "19": {
+      "overview": "maps/19-overview.webp",
+      "detail": "maps/19-detail.webp",
+      "legends": {
+        "overview": [
+          {
+            "src": "legends/maps-19-overview-5.webp",
+            "text": "MINES ET ENERGIES sources d'énergie (hydrocarbures,  charbon) produits minéraux  (minerai de fer, mi- nerais n on ferreux,  aluminium, diamants, bauxite, phosphate...)"
+          }
+        ],
+        "detail": [
+          {
+            "src": "legends/maps-19-detail-16.webp",
+            "text": "MINES ET ENERGIES sources d'énergie (hydrocarbures,  charbon) produits minéraux  (minerai de fer,mine- rais n on ferreux, alu- minium, diamants,  bauxite, phosphate. .)"
+          }
+        ]
+      }
+    },
+    "24": {
+      "overview": "maps/24-overview.webp",
+      "detail": "maps/24-detail.webp",
+      "legends": {
+        "overview": [
+          {
+            "src": "legends/maps-24-overview-6.webp",
+            "text": "CLIMATS polaire continental tempéré méditerranéen steppique désertique"
+          },
+          {
+            "src": "legends/maps-24-overview-7.webp",
+            "text": "CLIMATS tropical équatorial de haute montagne"
+          }
+        ],
+        "detail": [
+          {
+            "src": "legends/maps-24-detail-17.webp",
+            "text": "CLIMATS polaire continental tempéré méditerranéen steppique désertique"
+          },
+          {
+            "src": "legends/maps-24-detail-18.webp",
+            "text": "CLIMATS tropical équatorial de haute montagne"
+          }
+        ]
+      }
+    },
+    "25": {
+      "overview": "maps/25-overview.webp",
+      "detail": "maps/25-detail.webp",
+      "legends": {
+        "overview": [
+          {
+            "src": "legends/maps-25-overview-8.webp",
+            "text": "AGRICULTURE ET  PECHE cultures intensives et élevage élevage laitier élevage intensif agriculture méditerranéenne cultures maraî- chères économie forestière"
+          },
+          {
+            "src": "legends/maps-25-overview-9.webp",
+            "text": "AGRICULTURE ET  PECHE agriculture de  plantation agriculture intensive d'autosubsistance agriculture primitive d'autosubsistance élevage nomade régions inexploitées zone de pêche"
+          }
+        ],
+        "detail": [
+          {
+            "src": "legends/maps-25-detail-19.webp",
+            "text": "AGRICULTURE ET  PECHE cultures intensive et élevage élevage laitier élevage intensif agriculture méditerranéenne cultures maraî- chères économie forestière"
+          },
+          {
+            "src": "legends/maps-25-detail-20.webp",
+            "text": "AGRICULTURE ET PECHE agriculture de  plantation agriculture intensive d'autosubsistance agriculture primitive d'autosubsistance élevage nomade régions inexploitées zone de pêche"
+          }
+        ]
+      }
+    }
+  },
+  "overlays": {
+    "9": {
+      "overview": "overlays/9-overview.webp",
+      "detail": "overlays/9-detail.webp",
+      "legends": {
+        "overview": [
+          {
+            "src": "legends/overlays-9-overview-23.webp",
+            "text": "CULTURES  CEREALIERES blé, maïs riz"
+          }
+        ],
+        "detail": [
+          {
+            "src": "legends/overlays-9-detail-54.webp",
+            "text": "CULTURES  CEREALIERES blé, maïs riz"
+          }
+        ]
+      },
+      "title": "Cultures céréalières"
+    },
+    "10": {
+      "overview": "overlays/10-overview.webp",
+      "detail": "overlays/10-detail.webp",
+      "legends": {
+        "overview": [
+          {
+            "src": "legends/overlays-10-overview-24.webp",
+            "text": "CULTURES  D'EXPORTATION café thé sucre caoutchouc coton (hévéas)"
+          }
+        ],
+        "detail": [
+          {
+            "src": "legends/overlays-10-detail-55.webp",
+            "text": "CULTURES  D'EXPORTATION tabac café cacao thé sucre caoutchouc coton (hévéas)"
+          }
+        ]
+      },
+      "title": "Cultures d'exportation"
+    },
+    "11": {
+      "overview": "overlays/11-overview.webp",
+      "detail": "overlays/11-detail.webp",
+      "legends": {
+        "overview": [
+          {
+            "src": "legends/overlays-11-overview-25.webp",
+            "text": "PECHE calmar hareng morue poissons  plats thon"
+          }
+        ],
+        "detail": [
+          {
+            "src": "legends/overlays-11-detail-56.webp",
+            "text": "PECHE calmar hareng morue poissons  plats thon"
+          }
+        ]
+      },
+      "title": "Pêche"
+    },
+    "12": {
+      "overview": "overlays/12-overview.webp",
+      "detail": "overlays/12-detail.webp",
+      "legends": {
+        "overview": [
+          {
+            "src": "legends/overlays-12-overview-26.webp",
+            "text": "ECHANGES  AGRICOLES exportation de céréales exportation de  blé exportation de maïs exportation de riz"
+          }
+        ],
+        "detail": [
+          {
+            "src": "legends/overlays-12-detail-57.webp",
+            "text": "ECHANGES AGRICOLES exportation de céréales en millions de tonnes blé  + de 10   2 à 10 maïs  10 à 30 1,5 à 10"
+          },
+          {
+            "src": "legends/overlays-12-detail-58.webp",
+            "text": "ECHANGES AGRICOLES exportation de céréales en millions de tonnes riz de 2 à 6 de 0,5 à "
+          }
+        ]
+      },
+      "title": "Echanges agricoles"
+    },
+    "13": {
+      "overview": "overlays/13-overview.webp",
+      "detail": "overlays/13-detail.webp",
+      "legends": {
+        "overview": [
+          {
+            "src": "legends/overlays-13-overview-27.webp",
+            "text": "RESSOURCES MINIERES minerai de fer bauxite, aluminium, alumine potasse, phos- phate diamants"
+          },
+          {
+            "src": "legends/overlays-13-overview-28.webp",
+            "text": "RESSOURCES  MINIERES métaux et minerais non-ferreux métaux précieux amiante, soufre"
+          }
+        ],
+        "detail": [
+          {
+            "src": "legends/overlays-13-detail-59.webp",
+            "text": "RESSOURCES MINIERES minerai de fer bauxite, aluminium, alumine potasse, phos- phate diamants"
+          },
+          {
+            "src": "legends/overlays-13-detail-60.webp",
+            "text": "RESSOURCES  MINIERES métaux et minerais non-ferreux métaux précieux amiante, soufre"
+          }
+        ]
+      },
+      "title": "Ressources minières"
+    },
+    "14": {
+      "overview": "overlays/14-overview.webp",
+      "detail": "overlays/14-detail.webp",
+      "legends": {
+        "overview": [
+          {
+            "src": "legends/overlays-14-overview-29.webp",
+            "text": "RESSOURCES  ENERGETIQUES hydrocarbures (pétrole, gaz naturel) charbon uranium"
+          }
+        ],
+        "detail": [
+          {
+            "src": "legends/overlays-14-detail-61.webp",
+            "text": "RESSOURCES  ENERGETIQUES pétrole gaz naturel charbon uranium"
+          }
+        ]
+      },
+      "title": "Ressources énergétiques"
+    },
+    "15": {
+      "overview": "overlays/15-overview.webp",
+      "detail": "overlays/15-detail.webp",
+      "legends": {
+        "overview": [
+          {
+            "src": "legends/overlays-15-overview-30.webp",
+            "text": "ECHANGES DE  MATIERES PREMIERES pétrole gaz naturel charbon"
+          }
+        ],
+        "detail": [
+          {
+            "src": "legends/overlays-15-detail-62.webp",
+            "text": "ECHANGES DE  MATIERES PREMIERES pétrole gaz naturel charbon"
+          }
+        ]
+      },
+      "title": "Echanges de matières premières"
+    },
+    "16": {
+      "overview": "overlays/16-overview.webp",
+      "detail": "overlays/16-detail.webp",
+      "legends": {
+        "overview": [
+          {
+            "src": "legends/overlays-16-overview-31.webp",
+            "text": "CONSOMMATION  D'ENERGIE faible moyenne forte"
+          }
+        ],
+        "detail": [
+          {
+            "src": "legends/overlays-16-detail-63.webp",
+            "text": "CONSOMMATION  D'ENERGIE faible moyenne forte"
+          }
+        ]
+      },
+      "title": "Consommation d'énergie"
+    },
+    "44": {
+      "overview": "overlays/44-overview.webp",
+      "detail": "overlays/44-detail.webp",
+      "legends": {
+        "overview": [
+          {
+            "src": "legends/overlays-44-overview-32.webp",
+            "text": "PEUPLEMENT DE LA PLANETE  MA=millions d'années berceau de  l'humanité peuplement de -3 MA à -2 MA peuplement de -2 MA à -100000 peuplement de -100000 à -15000"
+          }
+        ],
+        "detail": [
+          {
+            "src": "legends/overlays-44-detail-64.webp",
+            "text": "DISPONIBILITE EN EAU MA=millions d'années berceau de  l'humanité peuplement de -3 MA à -2 MA peuplement de -2 MA à -100000 peuplement de -100000 à -15000"
+          }
+        ]
+      },
+      "title": "Peuplement de la planète"
+    },
+    "45": {
+      "overview": "overlays/45-overview.webp",
+      "detail": "overlays/45-detail.webp",
+      "legends": {
+        "overview": [
+          {
+            "src": "legends/overlays-45-overview-33.webp",
+            "text": "ANIMAUX 1 ours brun 2 ours polaire 3 bison 4 baleine grise 5 requin 6 anaconda 7 condor 8 baleine bleue 9 baleine franche 10 loup"
+          },
+          {
+            "src": "legends/overlays-45-overview-34.webp",
+            "text": "ANIMAUX 11 dromadaire 12 lion 13 éléphant d'Afrique 14 manchot 15 kangourou 16 orang-outan 17 tigre du Bengale 18 panda géant 19 renne"
+          }
+        ],
+        "detail": [
+          {
+            "src": "legends/overlays-45-detail-65.webp",
+            "text": "ANIMAUX 1 ours brun 2 orignal 3 lièvre d'Arctique 4 saumon 5 baleine à bosse 6 bison 7 castor 8 serpent à sonnettes 9 requin 10 baleine grise"
+          },
+          {
+            "src": "legends/overlays-45-detail-66.webp",
+            "text": "ANIMAUX 11 alligator 12 colibri 13 quetzal 14 espadon 15 tortue géante 16 anaconda 17 piranha 18 grand fourmilier 19 toucan 20 lama"
+          },
+          {
+            "src": "legends/overlays-45-detail-67.webp",
+            "text": "ANIMAUX 21 condor 22 tarentule 23 jaguar 24 baleine bleue 25 chinchilla 26 tatou 27 otarie à fourrure 28 manchot 29 morse 30 éléphant de mer"
+          },
+          {
+            "src": "legends/overlays-45-detail-67.webp",
+            "text": "ANIMAUX 21 condor 22 tarentule 23 jaguar 24 baleine bleue 25 chinchilla 26 tatou 27 otarie à fourrure 28 manchot 29 morse 30 éléphant de mer"
+          },
+          {
+            "src": "legends/overlays-45-detail-68.webp",
+            "text": "ANIMAUX 41 cormoran 42 homard 43 lapin 44 sardine 45 fennec 46 dromadaire 47 hippopotame 48 léopard 49 lion 50 chimpanzé"
+          },
+          {
+            "src": "legends/overlays-45-detail-69.webp",
+            "text": "ANIMAUX 51 gorille 52 éléphant d'Afrique 53 zèbre 54 girafe 55 autruche 56 crevette 57 phoque 58 kiwi 59 kangourou 60 koala"
+          },
+          {
+            "src": "legends/overlays-45-detail-70.webp",
+            "text": "ANIMAUX 61 émeu 62 crocodile 63 albatros 64 dragon de Komodo 65 rhinocéros 66 orang-outan 67 calao 68 cobra 69 éléphant d'Asie 70 onagre"
+          },
+          {
+            "src": "legends/overlays-45-detail-71.webp",
+            "text": "ANIMAUX 71 chèvre 72 tigre du Bengale 73 panda géant 74 calmar 75 tigre de Sibérie 76 cheval sauvage 77 phoque de Sibérie 78 chameau de Bactriane 79 esturgeon 80 perdrix des neiges"
+          }
+        ]
+      },
+      "title": "Animaux"
+    },
+    "51": {
+      "overview": "overlays/51-overview.webp",
+      "detail": "overlays/51-detail.webp",
+      "legends": {
+        "overview": [
+          {
+            "src": "legends/overlays-51-overview-35.webp",
+            "text": "GRANDS FOYERS DE  PEUPLEMENT principaux  foyers de peuplement"
+          }
+        ],
+        "detail": [
+          {
+            "src": "legends/overlays-51-detail-72.webp",
+            "text": "GRANDS FOYERS DE  PEUPLEMENT principaux  foyers de peuplement densité de po- pulation supé-  rieure à 100 habitants au km2"
+          }
+        ]
+      },
+      "title": "Grands foyers de peuplement"
+    },
+    "52": {
+      "overview": "overlays/52-overview.webp",
+      "detail": "overlays/52-detail.webp",
+      "legends": {
+        "overview": [
+          {
+            "src": "legends/overlays-52-overview-36.webp",
+            "text": "CLIMATS polaires tempérés désertiques ou steppiques intertropicaux"
+          }
+        ],
+        "detail": [
+          {
+            "src": "legends/overlays-52-detail-73.webp",
+            "text": "CLIMATS polaires tempérés désertiques ou steppiques intertropicaux"
+          }
+        ]
+      },
+      "title": "Climats"
+    },
+    "53": {
+      "overview": "overlays/53-overview.webp",
+      "detail": "overlays/53-detail.webp",
+      "legends": {
+        "overview": [
+          {
+            "src": "legends/overlays-53-overview-37.webp",
+            "text": "VEGETATION forêt tropicale végétation  méditerranéenne forêt de feuillus"
+          },
+          {
+            "src": "legends/overlays-53-overview-38.webp",
+            "text": "VEGETATION savane, prairie forêt de conifères pas de symbole : désert,  steppe aride, toundra..."
+          }
+        ],
+        "detail": [
+          {
+            "src": "legends/overlays-53-detail-74.webp",
+            "text": "VEGETATION forêt tropicale végétation  méditerranéenne forêt de feuillus"
+          },
+          {
+            "src": "legends/overlays-53-detail-75.webp",
+            "text": "VEGETATION savane, prairie forêt de conifères pas de symbole : désert,  steppe aride, toundra..."
+          }
+        ]
+      },
+      "title": "Végétation"
+    },
+    "54": {
+      "overview": "overlays/54-overview.webp",
+      "detail": "overlays/54-detail.webp",
+      "legends": {
+        "overview": [
+          {
+            "src": "legends/overlays-54-overview-39.webp",
+            "text": "ISOTHERMES  (JANVIER) réduites au niveau de la  mer isotherme - 40 ° C isotherme - 20 ° C isotherme - 10 ° C isotherme 0 ° C isotherme 10 ° C isotherme 20 ° C isotherme 25 ° C isotherme 30 ° C"
+          }
+        ],
+        "detail": [
+          {
+            "src": "legends/overlays-54-detail-76.webp",
+            "text": "ISOTHERMES  (JANVIER) réduites au niveau de la  mer isotherme - 40 ° C isotherme - 20 ° C isotherme - 10 ° C isotherme 0 ° C isotherme 10 ° C isotherme 20 ° C isotherme 25 ° C isotherme 30 ° C"
+          }
+        ]
+      },
+      "title": "Températures (Janvier)"
+    },
+    "55": {
+      "overview": "overlays/55-overview.webp",
+      "detail": "overlays/55-detail.webp",
+      "legends": {
+        "overview": [
+          {
+            "src": "legends/overlays-55-overview-40.webp",
+            "text": "ISOTHERMES (JUILLET) réduites au niveau de la mer isotherme - 10 ° C isotherme   0 ° C isotherme  10 ° C isotherme 20 ° C isotherme 25 ° C isotherme 30 ° C"
+          }
+        ],
+        "detail": [
+          {
+            "src": "legends/overlays-55-detail-77.webp",
+            "text": "ISOTHERMES (JUILLET) réduites au niveau de la mer isotherme -10 ° C isotherme  0 ° C isotherme 10 ° C isotherme 20 ° C isotherme 25 ° C isotherme 30 ° C"
+          }
+        ]
+      },
+      "title": "Températures (Juillet)"
+    },
+    "60": {
+      "overview": "overlays/60-overview.webp",
+      "detail": "overlays/60-detail.webp",
+      "legends": {
+        "overview": [
+          {
+            "src": "legends/overlays-60-overview-43.webp",
+            "text": "CYCLONES zone d'extension des cyclones"
+          }
+        ],
+        "detail": [
+          {
+            "src": "legends/overlays-60-detail-80.webp",
+            "text": "CYCLONES zone d'extension des cyclones"
+          }
+        ]
+      },
+      "title": "Cyclones"
+    },
+    "61": {
+      "overview": "overlays/61-overview.webp",
+      "detail": "overlays/61-detail.webp",
+      "legends": {
+        "overview": [
+          {
+            "src": "legends/overlays-61-overview-44.webp",
+            "text": "PRECIPITATIONS en millimètres par an    moins de 500 plus de 2000"
+          }
+        ],
+        "detail": [
+          {
+            "src": "legends/overlays-61-detail-81.webp",
+            "text": "PRECIPITATIONS en millimètres par an moins de 500 plus de 2000"
+          }
+        ]
+      },
+      "title": "Précipitations"
+    },
+    "62": {
+      "overview": "overlays/62-overview.webp",
+      "detail": "overlays/62-detail.webp",
+      "legends": {
+        "overview": [
+          {
+            "src": "legends/overlays-62-overview-45.webp",
+            "text": "TERRES CULTIVEES régions dont plus de 50% de la surface est  cultivée"
+          }
+        ],
+        "detail": [
+          {
+            "src": "legends/overlays-62-detail-82.webp",
+            "text": "TERRES CULTIVEES régions dont plus de 50% de la surface est  cultivée"
+          }
+        ]
+      },
+      "title": "Terres cultivées"
+    },
+    "63": {
+      "overview": "overlays/63-overview.webp",
+      "detail": "overlays/63-detail.webp",
+      "legends": {
+        "overview": [
+          {
+            "src": "legends/overlays-63-overview-46.webp",
+            "text": "FORETS régions dont plus de 50%  de la surface est couverte de forêts forêts de résineux forêts mixtes forêts de feuillus "
+          }
+        ],
+        "detail": [
+          {
+            "src": "legends/overlays-63-detail-83.webp",
+            "text": "FORETS régions dont plus de 50%  de la surface est couverte de forêts forêts de résineux forêts mixtes forêts de feuillus "
+          }
+        ]
+      },
+      "title": "Forêts"
+    },
+    "64": {
+      "overview": "overlays/64-overview.webp",
+      "detail": "overlays/64-detail.webp",
+      "legends": {
+        "overview": [
+          {
+            "src": "legends/overlays-64-overview-47.webp",
+            "text": "DESERTS principales  régions  désertiques"
+          }
+        ],
+        "detail": [
+          {
+            "src": "legends/overlays-64-detail-84.webp",
+            "text": "DESERTS principales  régions  désertiques"
+          }
+        ]
+      },
+      "title": "Déserts"
+    },
+    "66": {
+      "overview": "overlays/66-overview.webp",
+      "detail": "overlays/66-detail.webp",
+      "legends": {
+        "overview": [
+          {
+            "src": "legends/overlays-66-overview-48.webp",
+            "text": "GRANDES VILLES agglomération de  plus de 5 millions  d'habitants"
+          }
+        ],
+        "detail": [
+          {
+            "src": "legends/overlays-66-detail-85.webp",
+            "text": "GRANDES VILLES agglomération de  plus de 5 millions  d'habitants"
+          }
+        ]
+      },
+      "title": "Grandes villes"
+    },
+    "67": {
+      "overview": "overlays/67-overview.webp",
+      "detail": "overlays/67-detail.webp",
+      "legends": {
+        "overview": [
+          {
+            "src": "legends/overlays-67-overview-49.webp",
+            "text": "MIGRATIONS  INTERNATIONNALES au cours des 20 dernières années pays ayant ac- cueilli plus de 1  million d'étran- gers en 20 ans principaux flux migratoires"
+          }
+        ],
+        "detail": [
+          {
+            "src": "legends/overlays-67-detail-86.webp",
+            "text": "MIGRATIONS  INTERNATIONNALES au cours des 20 dernières années pays ayant ac- cueilli plus de 1  million d'étran- gers en 20 ans principaux flux migratoires"
+          }
+        ]
+      },
+      "title": "Migrations internationales"
+    },
+    "68": {
+      "overview": "overlays/68-overview.webp",
+      "detail": "overlays/68-detail.webp",
+      "legends": {
+        "overview": [
+          {
+            "src": "legends/overlays-68-overview-50.webp",
+            "text": "P.I.B.  PAR HABITANTS à parité de pouvoir  d'achat, en dollars) plus de $8000  de 4000 à $8000 moins de $4000"
+          }
+        ],
+        "detail": [
+          {
+            "src": "legends/overlays-68-detail-87.webp",
+            "text": "P.I.B.  PAR HABITANTS à parité de pouvoir  d'achat, en dollars) plus de $8000  de 4000 à $8000 moins de $4000"
+          }
+        ]
+      },
+      "title": "P.I.B. par habitant"
+    },
+    "73": {
+      "overview": "overlays/73-overview.webp",
+      "detail": "overlays/73-detail.webp",
+      "legends": {
+        "overview": [
+          {
+            "src": "legends/overlays-73-overview-51.webp",
+            "text": "RELIGIONS chrétiens musulmans bouddhistes hindouistes animistes juifs"
+          }
+        ],
+        "detail": [
+          {
+            "src": "legends/overlays-73-detail-88.webp",
+            "text": "RELIGIONS chrétiens musulmans bouddhistes hindouistes animistes juifs"
+          }
+        ]
+      },
+      "title": "Religions"
+    },
+    "74": {
+      "overview": "overlays/74-overview.webp",
+      "detail": "overlays/74-detail.webp",
+      "legends": {
+        "overview": [
+          {
+            "src": "legends/overlays-74-overview-52.webp",
+            "text": "CONFLITS ARMES conflit frontalier conflit séparatiste minorités en conflit conflit pour le  pouvoir"
+          }
+        ],
+        "detail": [
+          {
+            "src": "legends/overlays-74-detail-89.webp",
+            "text": "CONFLITS ARMES conflit frontalier conflit séparatiste minorités en conflit conflit pour le  pouvoir"
+          }
+        ]
+      },
+      "title": "Conflits armés"
+    },
+    "75": {
+      "overview": "overlays/75-overview.webp",
+      "detail": "overlays/75-detail.webp",
+      "legends": {
+        "overview": [
+          {
+            "src": "legends/overlays-75-overview-53.webp",
+            "text": "CONFLITS ETHNIQUES principaux conflits ethniques en  cours en 1996"
+          }
+        ],
+        "detail": [
+          {
+            "src": "legends/overlays-75-detail-90.webp",
+            "text": "CONFLITS ETHNIQUES principaux conflits ethniques en  cours en 1996"
+          }
+        ]
+      },
+      "title": "Conflits ethniques"
+    }
+  },
+  "globe": {
+    "NM30_03": {
+      "frames": [
+        "globe/nm30_03-0.webp",
+        "globe/nm30_03-1.webp",
+        "globe/nm30_03-2.webp",
+        "globe/nm30_03-3.webp",
+        "globe/nm30_03-4.webp",
+        "globe/nm30_03-5.webp",
+        "globe/nm30_03-6.webp",
+        "globe/nm30_03-7.webp",
+        "globe/nm30_03-8.webp",
+        "globe/nm30_03-9.webp",
+        "globe/nm30_03-10.webp",
+        "globe/nm30_03-11.webp",
+        "globe/nm30_03-12.webp",
+        "globe/nm30_03-13.webp",
+        "globe/nm30_03-14.webp",
+        "globe/nm30_03-15.webp",
+        "globe/nm30_03-16.webp",
+        "globe/nm30_03-17.webp",
+        "globe/nm30_03-18.webp",
+        "globe/nm30_03-19.webp",
+        "globe/nm30_03-20.webp",
+        "globe/nm30_03-21.webp",
+        "globe/nm30_03-22.webp",
+        "globe/nm30_03-23.webp",
+        "globe/nm30_03-24.webp",
+        "globe/nm30_03-25.webp",
+        "globe/nm30_03-26.webp",
+        "globe/nm30_03-27.webp",
+        "globe/nm30_03-28.webp",
+        "globe/nm30_03-29.webp",
+        "globe/nm30_03-30.webp",
+        "globe/nm30_03-31.webp",
+        "globe/nm30_03-32.webp",
+        "globe/nm30_03-33.webp",
+        "globe/nm30_03-34.webp",
+        "globe/nm30_03-35.webp",
+        "globe/nm30_03-36.webp",
+        "globe/nm30_03-37.webp",
+        "globe/nm30_03-38.webp",
+        "globe/nm30_03-39.webp",
+        "globe/nm30_03-40.webp",
+        "globe/nm30_03-41.webp",
+        "globe/nm30_03-42.webp",
+        "globe/nm30_03-43.webp",
+        "globe/nm30_03-44.webp",
+        "globe/nm30_03-45.webp",
+        "globe/nm30_03-46.webp",
+        "globe/nm30_03-47.webp",
+        "globe/nm30_03-48.webp",
+        "globe/nm30_03-49.webp",
+        "globe/nm30_03-50.webp",
+        "globe/nm30_03-51.webp",
+        "globe/nm30_03-52.webp",
+        "globe/nm30_03-53.webp",
+        "globe/nm30_03-54.webp",
+        "globe/nm30_03-55.webp",
+        "globe/nm30_03-56.webp",
+        "globe/nm30_03-57.webp",
+        "globe/nm30_03-58.webp",
+        "globe/nm30_03-59.webp",
+        "globe/nm30_03-60.webp",
+        "globe/nm30_03-61.webp",
+        "globe/nm30_03-62.webp",
+        "globe/nm30_03-63.webp",
+        "globe/nm30_03-64.webp",
+        "globe/nm30_03-65.webp",
+        "globe/nm30_03-66.webp",
+        "globe/nm30_03-67.webp",
+        "globe/nm30_03-68.webp",
+        "globe/nm30_03-69.webp",
+        "globe/nm30_03-70.webp",
+        "globe/nm30_03-71.webp",
+        "globe/nm30_03-72.webp",
+        "globe/nm30_03-73.webp",
+        "globe/nm30_03-74.webp",
+        "globe/nm30_03-75.webp",
+        "globe/nm30_03-76.webp",
+        "globe/nm30_03-77.webp",
+        "globe/nm30_03-78.webp",
+        "globe/nm30_03-79.webp",
+        "globe/nm30_03-80.webp",
+        "globe/nm30_03-81.webp",
+        "globe/nm30_03-82.webp",
+        "globe/nm30_03-83.webp",
+        "globe/nm30_03-84.webp",
+        "globe/nm30_03-85.webp",
+        "globe/nm30_03-86.webp",
+        "globe/nm30_03-87.webp",
+        "globe/nm30_03-88.webp",
+        "globe/nm30_03-89.webp"
+      ],
+      "width": 313,
+      "height": 313
+    }
+  },
+  "topics": [
+    {
+      "id": 41,
+      "title": "Climats",
+      "map": 24,
+      "points": [
+        {
+          "x": 1118,
+          "y": 279,
+          "type": 1,
+          "id": "EG_030"
+        },
+        {
+          "x": 1872,
+          "y": 780,
+          "type": 1,
+          "id": "EG_034"
+        },
+        {
+          "x": 925,
+          "y": 1064,
+          "type": 1,
+          "id": "EG_039"
+        },
+        {
+          "x": 2063,
+          "y": 424,
+          "type": 1,
+          "id": "EG_043"
+        },
+        {
+          "x": 1399,
+          "y": 798,
+          "type": 1,
+          "id": "EG_044"
+        },
+        {
+          "x": 351,
+          "y": 579,
+          "type": 1,
+          "id": "EG_036"
+        },
+        {
+          "x": 2550,
+          "y": 1337,
+          "type": 1,
+          "id": "EG_037"
+        },
+        {
+          "x": 1513,
+          "y": 1109,
+          "type": 1,
+          "id": "EG_038"
+        },
+        {
+          "x": 1327,
+          "y": 389,
+          "type": 1,
+          "id": "EG_031"
+        },
+        {
+          "x": 749,
+          "y": 1479,
+          "type": 1,
+          "id": "EG_040"
+        },
+        {
+          "x": 1223,
+          "y": 477,
+          "type": 1,
+          "id": "EG_028"
+        },
+        {
+          "x": 729,
+          "y": 484,
+          "type": 1,
+          "id": "EG_028"
+        },
+        {
+          "x": 1229,
+          "y": 796,
+          "type": 1,
+          "id": "EG_025"
+        },
+        {
+          "x": 77,
+          "y": 754,
+          "type": 1,
+          "id": "EG_025"
+        },
+        {
+          "x": 1220,
+          "y": 721,
+          "type": 1,
+          "id": "EG_023"
+        },
+        {
+          "x": 127,
+          "y": 313,
+          "type": 1,
+          "id": "EG_023"
+        },
+        {
+          "x": 1423,
+          "y": 579,
+          "type": 1,
+          "id": "EG_022"
+        },
+        {
+          "x": 1283,
+          "y": 603,
+          "type": 1,
+          "id": "EG_022"
+        },
+        {
+          "x": 1300,
+          "y": 325,
+          "type": 1,
+          "id": "EG_021"
+        },
+        {
+          "x": 2249,
+          "y": 524,
+          "type": 1,
+          "id": "EG_021"
+        },
+        {
+          "x": 858,
+          "y": 909,
+          "type": 1,
+          "id": "EG_024"
+        },
+        {
+          "x": 2022,
+          "y": 915,
+          "type": 1,
+          "id": "EG_024"
+        },
+        {
+          "x": 500,
+          "y": 510,
+          "type": 1,
+          "id": "EG_042"
+        },
+        {
+          "x": 438,
+          "y": 701,
+          "type": 1,
+          "id": "EG_045"
+        },
+        {
+          "x": 1545,
+          "y": 387,
+          "type": 1,
+          "id": "EG_041"
+        },
+        {
+          "x": 689,
+          "y": 1036,
+          "type": 1,
+          "id": "EG_048"
+        }
+      ],
+      "overlays": [
+        54,
+        55,
+        61,
+        53,
+        63,
+        64,
+        51,
+        62,
+        45
+      ]
+    },
+    {
+      "id": 71,
+      "title": "Densité de population",
+      "map": 4,
+      "points": [
+        {
+          "x": 474,
+          "y": 152,
+          "type": 3,
+          "id": "EP_171"
+        },
+        {
+          "x": 428,
+          "y": 623,
+          "type": 3,
+          "id": "EP_008"
+        },
+        {
+          "x": 2128,
+          "y": 573,
+          "type": 3,
+          "id": "EP_071"
+        },
+        {
+          "x": 2165,
+          "y": 654,
+          "type": 3,
+          "id": "EP_194"
+        },
+        {
+          "x": 2009,
+          "y": 819,
+          "type": 3,
+          "id": "EP_188"
+        },
+        {
+          "x": 2249,
+          "y": 1170,
+          "type": 3,
+          "id": "EP_053"
+        },
+        {
+          "x": 718,
+          "y": 203,
+          "type": 3,
+          "id": "EP_168"
+        },
+        {
+          "x": 1495,
+          "y": 662,
+          "type": 3,
+          "id": "EP_005"
+        },
+        {
+          "x": 1866,
+          "y": 612,
+          "type": 3,
+          "id": "EP_098"
+        },
+        {
+          "x": 866,
+          "y": 1049,
+          "type": 3,
+          "id": "EP_084"
+        },
+        {
+          "x": 2308,
+          "y": 606,
+          "type": 3,
+          "id": "EP_044"
+        }
+      ],
+      "overlays": [
+        44,
+        67,
+        68,
+        66
+      ]
+    },
+    {
+      "id": 75,
+      "title": "Langues",
+      "map": 10,
+      "points": [
+        {
+          "x": 2128,
+          "y": 573,
+          "type": 8,
+          "id": "ES_006"
+        },
+        {
+          "x": 1595,
+          "y": 720,
+          "type": 8,
+          "id": "ES_007"
+        },
+        {
+          "x": 1843,
+          "y": 667,
+          "type": 8,
+          "id": "ES_009"
+        },
+        {
+          "x": 680,
+          "y": 598,
+          "type": 2,
+          "id": "ED_069"
+        },
+        {
+          "x": 484,
+          "y": 726,
+          "type": 8,
+          "id": "ES_020"
+        },
+        {
+          "x": 2235,
+          "y": 650,
+          "type": 8,
+          "id": "ES_005"
+        },
+        {
+          "x": 1460,
+          "y": 967,
+          "type": 8,
+          "id": "ES_018"
+        },
+        {
+          "x": 1240,
+          "y": 407,
+          "type": 8,
+          "id": "ES_001"
+        },
+        {
+          "x": 1545,
+          "y": 387,
+          "type": 8,
+          "id": "ES_008"
+        },
+        {
+          "x": 1240,
+          "y": 570,
+          "type": 8,
+          "id": "ES_002"
+        },
+        {
+          "x": 1196,
+          "y": 571,
+          "type": 8,
+          "id": "ES_012"
+        },
+        {
+          "x": 1355,
+          "y": 543,
+          "type": 8,
+          "id": "ES_011"
+        },
+        {
+          "x": 1522,
+          "y": 634,
+          "type": 8,
+          "id": "ES_010"
+        },
+        {
+          "x": 1283,
+          "y": 603,
+          "type": 8,
+          "id": "ES_013"
+        },
+        {
+          "x": 729,
+          "y": 771,
+          "type": 8,
+          "id": "ES_016"
+        },
+        {
+          "x": 2070,
+          "y": 823,
+          "type": 8,
+          "id": "ES_017"
+        },
+        {
+          "x": 2165,
+          "y": 654,
+          "type": 2,
+          "id": "ED_018"
+        },
+        {
+          "x": 1481,
+          "y": 694,
+          "type": 2,
+          "id": "ED_019"
+        },
+        {
+          "x": 1279,
+          "y": 527,
+          "type": 2,
+          "id": "ED_069"
+        },
+        {
+          "x": 1513,
+          "y": 657,
+          "type": 2,
+          "id": "ED_068"
+        },
+        {
+          "x": 2322,
+          "y": 516,
+          "type": 2,
+          "id": "ED_073"
+        },
+        {
+          "x": 959,
+          "y": 1009,
+          "type": 2,
+          "id": "ED_069"
+        },
+        {
+          "x": 1848,
+          "y": 751,
+          "type": 2,
+          "id": "ED_076"
+        },
+        {
+          "x": 1278,
+          "y": 495,
+          "type": 8,
+          "id": "ES_003"
+        },
+        {
+          "x": 1488,
+          "y": 339,
+          "type": 2,
+          "id": "ED_075"
+        },
+        {
+          "x": 2204,
+          "y": 561,
+          "type": 2,
+          "id": "ED_074"
+        },
+        {
+          "x": 1423,
+          "y": 579,
+          "type": 2,
+          "id": "ED_072"
+        },
+        {
+          "x": 1554,
+          "y": 863,
+          "type": 2,
+          "id": "ED_070"
+        },
+        {
+          "x": 2017,
+          "y": 796,
+          "type": 2,
+          "id": "ED_071"
+        },
+        {
+          "x": 1777,
+          "y": 664,
+          "type": 2,
+          "id": "ED_019"
+        },
+        {
+          "x": 1298,
+          "y": 435,
+          "type": 8,
+          "id": "ES_014"
+        },
+        {
+          "x": 1327,
+          "y": 389,
+          "type": 8,
+          "id": "ES_015"
+        },
+        {
+          "x": 699,
+          "y": 553,
+          "type": 8,
+          "id": "ES_019"
+        },
+        {
+          "x": 1332,
+          "y": 480,
+          "type": 8,
+          "id": "ES_004"
+        },
+        {
+          "x": 928,
+          "y": 1153,
+          "type": 8,
+          "id": "ES_023"
+        },
+        {
+          "x": 2204,
+          "y": 623,
+          "type": 8,
+          "id": "ES_021"
+        },
+        {
+          "x": 1326,
+          "y": 623,
+          "type": 8,
+          "id": "ES_022"
+        }
+      ],
+      "overlays": [
+        51,
+        75,
+        73,
+        74
+      ]
+    },
+    {
+      "id": 81,
+      "title": "Agriculture et pêche",
+      "map": 25,
+      "points": [
+        {
+          "x": 491,
+          "y": 326,
+          "type": 3,
+          "id": "EP_228"
+        },
+        {
+          "x": 2301,
+          "y": 591,
+          "type": 3,
+          "id": "EP_047"
+        },
+        {
+          "x": 1243,
+          "y": 764,
+          "type": 3,
+          "id": "EP_205"
+        },
+        {
+          "x": 1291,
+          "y": 452,
+          "type": 1,
+          "id": "EG_005"
+        },
+        {
+          "x": 1937,
+          "y": 690,
+          "type": 3,
+          "id": "EP_224"
+        },
+        {
+          "x": 1481,
+          "y": 694,
+          "type": 3,
+          "id": "EP_115"
+        },
+        {
+          "x": 1216,
+          "y": 850,
+          "type": 3,
+          "id": "EP_204"
+        },
+        {
+          "x": 1220,
+          "y": 721,
+          "type": 3,
+          "id": "EP_209"
+        },
+        {
+          "x": 1480,
+          "y": 1119,
+          "type": 3,
+          "id": "EP_124"
+        },
+        {
+          "x": 499,
+          "y": 443,
+          "type": 3,
+          "id": "EP_109"
+        },
+        {
+          "x": 295,
+          "y": 353,
+          "type": 3,
+          "id": "EP_102"
+        },
+        {
+          "x": 1196,
+          "y": 424,
+          "type": 3,
+          "id": "EP_357"
+        },
+        {
+          "x": 1217,
+          "y": 636,
+          "type": 3,
+          "id": "EP_118"
+        }
+      ],
+      "overlays": [
+        52,
+        68,
+        9,
+        10,
+        12,
+        60,
+        11
+      ]
+    },
+    {
+      "id": 82,
+      "title": "Mines et énergies",
+      "map": 19,
+      "points": [
+        {
+          "x": 2249,
+          "y": 1170,
+          "type": 3,
+          "id": "EP_225"
+        },
+        {
+          "x": 1278,
+          "y": 495,
+          "type": 3,
+          "id": "EP_100"
+        },
+        {
+          "x": 729,
+          "y": 484,
+          "type": 3,
+          "id": "EP_101"
+        },
+        {
+          "x": 1640,
+          "y": 691,
+          "type": 3,
+          "id": "EP_116"
+        },
+        {
+          "x": 680,
+          "y": 598,
+          "type": 3,
+          "id": "EP_103"
+        },
+        {
+          "x": 1595,
+          "y": 720,
+          "type": 3,
+          "id": "EP_294"
+        }
+      ],
+      "overlays": [
+        13,
+        14,
+        15,
+        68,
+        16
+      ]
+    }
+  ],
+  "borders": {
+    "overview": "ui/naviga4-13.webp",
+    "detail": "maps/borders-detail.webp"
+  },
+  "labels": {
+    "41": {
+      "overview": "labels/bnom441.webp",
+      "detail": "labels/bnom541.webp"
+    },
+    "71": {
+      "overview": "labels/bnom471.webp",
+      "detail": "labels/bnom571.webp"
+    },
+    "75": {
+      "overview": "labels/bnom475.webp",
+      "detail": "labels/bnom575.webp"
+    },
+    "81": {
+      "overview": "labels/bnom481.webp",
+      "detail": "labels/bnom581.webp"
+    },
+    "82": {
+      "overview": "labels/bnom482.webp",
+      "detail": "labels/bnom582.webp"
+    }
+  },
+  "cities": "labels/bcity.webp"
+}

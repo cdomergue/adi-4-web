@@ -1,7 +1,7 @@
 # Moteur des documents
 
 Ce répertoire contient le moteur Gob de ScummVM 2.9.0 compilé avec Emscripten
-4.0.10 pour l’Atlas et les six simulations d’environnement d’ADI 4.21 français.
+4.0.10 pour les six simulations d’environnement d’ADI 4.21 français.
 Le client charge `scummvm.js` et `scummvm.wasm` sans installation supplémentaire.
 Le moteur des jeux Gobliiins se trouve dans [wgob3](../wgob3/) et possède son
 propre binaire.
@@ -40,4 +40,4 @@ Le lecteur utilise les archives du CD incluses dans
 [les ressources des documents](../../game/documents/native/).
 Il fournit les commandes de son, de retour, de barre du bas et de plein écran.
 Les réglages sont conservés pendant la consultation ; il n’existe pas de
-sauvegarde persistante des sessions de ces sept documents.
+sauvegarde persistante des sessions de ces six documents.

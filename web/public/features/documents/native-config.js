@@ -1,5 +1,4 @@
 export const nativeDocuments = {
-  atlas: { title: 'L’Atlas', program: 'NAVIGA', archive: 'ATLAS' },
   s16: { title: 'La pollution de l’air', program: 'S16', archive: 'SIMULC' },
   s17: { title: 'La pollution de l’eau', program: 'S17', archive: 'SIMULC' },
   s12: { title: 'L’entreprise', program: 'S12', archive: 'SIMULC' },

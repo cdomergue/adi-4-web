@@ -2547,6 +2547,1736 @@
       "sha256": "224e4ba4599ff98f54461d9516c95c9b730465a0ad7d790645aa513330b4d123"
     },
     {
+      "path": "public/game/documents/atlas/globe/nm30_03-0.webp",
+      "size": 30992,
+      "sha256": "c11d2dd08478e46c3b5b763893566dea33edb709fdc16eb7909faf91059dcc70"
+    },
+    {
+      "path": "public/game/documents/atlas/globe/nm30_03-1.webp",
+      "size": 31394,
+      "sha256": "5373750f4f4990aa6d870cfaf7551264768e9a036f19f3cb463d8d65e6f7f8e6"
+    },
+    {
+      "path": "public/game/documents/atlas/globe/nm30_03-10.webp",
+      "size": 29098,
+      "sha256": "71b5c34c2378490b65de8ee3522b957fb1bc8c24046b4370a7b39add3ce7deef"
+    },
+    {
+      "path": "public/game/documents/atlas/globe/nm30_03-11.webp",
+      "size": 28890,
+      "sha256": "f616c6119fa6eef2d53da2fa290540d6ce91e17c3b303d0de53107a7b154788d"
+    },
+    {
+      "path": "public/game/documents/atlas/globe/nm30_03-12.webp",
+      "size": 28736,
+      "sha256": "0e593865094f62ec5ce69dc9941cd7c2c37c211f2dc371a040a940388caff81e"
+    },
+    {
+      "path": "public/game/documents/atlas/globe/nm30_03-13.webp",
+      "size": 28684,
+      "sha256": "a90f899a69d915c1d1e128976912f23de827a3e84ab645da010909b5c828a44c"
+    },
+    {
+      "path": "public/game/documents/atlas/globe/nm30_03-14.webp",
+      "size": 28920,
+      "sha256": "1148a57702818d20431667e65d5f2758184f84de2bf3ecb2625d5f7e4314b7f1"
+    },
+    {
+      "path": "public/game/documents/atlas/globe/nm30_03-15.webp",
+      "size": 28730,
+      "sha256": "82778e2f88e53305b6733db772a2dca269429873c78b15e0de689943f1d4d98b"
+    },
+    {
+      "path": "public/game/documents/atlas/globe/nm30_03-16.webp",
+      "size": 28720,
+      "sha256": "ac6f1247ab5ded2c3bb45936db964d74d7ff1f674f15bbd8c5b30e6f7ba3ba56"
+    },
+    {
+      "path": "public/game/documents/atlas/globe/nm30_03-17.webp",
+      "size": 28806,
+      "sha256": "8238e627f948ffa48e3641317812dbb7b5c181b66854d7ab437927b9c923e2f3"
+    },
+    {
+      "path": "public/game/documents/atlas/globe/nm30_03-18.webp",
+      "size": 28580,
+      "sha256": "7c7affd81a9dfe6812961312399908db4b6ea82169ae39a8c82ae39214a4a95b"
+    },
+    {
+      "path": "public/game/documents/atlas/globe/nm30_03-19.webp",
+      "size": 28458,
+      "sha256": "54d2ca6f6ba4df8e0afd7540ba0fa8746178b38ccf3de347a2cfc36ee8147692"
+    },
+    {
+      "path": "public/game/documents/atlas/globe/nm30_03-2.webp",
+      "size": 31024,
+      "sha256": "6168c254d87a158866c65b68b861ccdba32b78dd6ab05b3817f9200f75b1ef89"
+    },
+    {
+      "path": "public/game/documents/atlas/globe/nm30_03-20.webp",
+      "size": 28202,
+      "sha256": "d06453b9d815d10ce3343e844f05271439d4efed30d7ecc1583b07fe67c6f570"
+    },
+    {
+      "path": "public/game/documents/atlas/globe/nm30_03-21.webp",
+      "size": 28080,
+      "sha256": "f0dc753206115f7b5607855e045a1f4ffb5ab30682f6d996eaa9745ff2cc043a"
+    },
+    {
+      "path": "public/game/documents/atlas/globe/nm30_03-22.webp",
+      "size": 27872,
+      "sha256": "8b1c9dc44a7d4bdb698fa8c0c7ee0125887130eef13a04c6fde76418c25a3aa8"
+    },
+    {
+      "path": "public/game/documents/atlas/globe/nm30_03-23.webp",
+      "size": 27504,
+      "sha256": "4236d83a8b18a6205476cfbb8ab81fe3444b17d2a63acdf6b7279c6685ed5eee"
+    },
+    {
+      "path": "public/game/documents/atlas/globe/nm30_03-24.webp",
+      "size": 27028,
+      "sha256": "cfcfc421d4372bb901a5772dd3dc7199a3ff8d59c75923ac42e7b060b7e58728"
+    },
+    {
+      "path": "public/game/documents/atlas/globe/nm30_03-25.webp",
+      "size": 26622,
+      "sha256": "26268892d3067e6a629d8bbd009b4757ac85436adae7f1b78b4979fd2bf4346c"
+    },
+    {
+      "path": "public/game/documents/atlas/globe/nm30_03-26.webp",
+      "size": 26108,
+      "sha256": "8bdff4e51b4323b9ddedcf08f24b62eebc72544117b1cf7364ccadda4bdafd13"
+    },
+    {
+      "path": "public/game/documents/atlas/globe/nm30_03-27.webp",
+      "size": 25736,
+      "sha256": "32094f8ce9d4fef24a11fbdb421ea1a0fed2b3adc1eb4a5eb2790979458611db"
+    },
+    {
+      "path": "public/game/documents/atlas/globe/nm30_03-28.webp",
+      "size": 25186,
+      "sha256": "958233dedb8bd38936ca1e37ad272f8c00354702df40be892469989724e56731"
+    },
+    {
+      "path": "public/game/documents/atlas/globe/nm30_03-29.webp",
+      "size": 24542,
+      "sha256": "3d35734be053257bf97fc3c2c2b28f20a0943cdd8870ebc38699506e0a6da903"
+    },
+    {
+      "path": "public/game/documents/atlas/globe/nm30_03-3.webp",
+      "size": 30890,
+      "sha256": "1aac1d439ebd2fc91b5c6910e392e9f074f72ee900440087ce5339346aef39eb"
+    },
+    {
+      "path": "public/game/documents/atlas/globe/nm30_03-30.webp",
+      "size": 23864,
+      "sha256": "b527ccb2c4f73efea731a8684cc72099dc37a05aac1b212d3c9e126fb11f19ab"
+    },
+    {
+      "path": "public/game/documents/atlas/globe/nm30_03-31.webp",
+      "size": 23284,
+      "sha256": "6bf57a3cfe53e8fc21f9815987e06e7a13a41870086c9d2fe5e8be48a36ecd88"
+    },
+    {
+      "path": "public/game/documents/atlas/globe/nm30_03-32.webp",
+      "size": 22578,
+      "sha256": "9ae6e77b166f1568e699560c39db045e0e42fc030face3c5a4d5cc8024a3f4a3"
+    },
+    {
+      "path": "public/game/documents/atlas/globe/nm30_03-33.webp",
+      "size": 22044,
+      "sha256": "86929abd5d0983a57475733b248771bcc111aa5a6e5d4c1bd51c5803b970b75b"
+    },
+    {
+      "path": "public/game/documents/atlas/globe/nm30_03-34.webp",
+      "size": 21446,
+      "sha256": "ce81ca7f5630192be50b4b947d5e260faf0731f77d2494a4ee8e65075ce4a4a2"
+    },
+    {
+      "path": "public/game/documents/atlas/globe/nm30_03-35.webp",
+      "size": 21076,
+      "sha256": "2631ce78c6ce77ec0652822d4e56bdfdcce6e9d7000be97ed19c4455db02a837"
+    },
+    {
+      "path": "public/game/documents/atlas/globe/nm30_03-36.webp",
+      "size": 20532,
+      "sha256": "525c8f2cd1743579b612e66130998db702a4c24aa35b38507abe38b10e17109c"
+    },
+    {
+      "path": "public/game/documents/atlas/globe/nm30_03-37.webp",
+      "size": 20090,
+      "sha256": "a901f1902c0fbb17bc583f5e8d47628d5f32a2d5c9350424a792fd68cdfe3952"
+    },
+    {
+      "path": "public/game/documents/atlas/globe/nm30_03-38.webp",
+      "size": 19786,
+      "sha256": "933480ce1b2c7811cdf7e7f6c038484d5fc523b2d9f7f30b5ea49b5cfd98eab9"
+    },
+    {
+      "path": "public/game/documents/atlas/globe/nm30_03-39.webp",
+      "size": 19404,
+      "sha256": "4ce31d4944ab9969df7c447b9f97a681cc2a4ae2817ca15a12923beba62565cc"
+    },
+    {
+      "path": "public/game/documents/atlas/globe/nm30_03-4.webp",
+      "size": 30498,
+      "sha256": "9a74cb8079af8f5e595b840152b9df71c74cd83f8486b629c6cd5ad1d4e8a7a4"
+    },
+    {
+      "path": "public/game/documents/atlas/globe/nm30_03-40.webp",
+      "size": 19184,
+      "sha256": "6cb57dda925e27881b58e32d8b818122ee446d53b2282aa4d11985d171477d9d"
+    },
+    {
+      "path": "public/game/documents/atlas/globe/nm30_03-41.webp",
+      "size": 19102,
+      "sha256": "ed8c6740b61e9d65422630c61b334db6bef3e928ab421c844ec116de57d22e93"
+    },
+    {
+      "path": "public/game/documents/atlas/globe/nm30_03-42.webp",
+      "size": 18924,
+      "sha256": "fd3efb5b2e2a56345106717a5f09c40f18f31188edb2c9f3ba510b8ef1c983ba"
+    },
+    {
+      "path": "public/game/documents/atlas/globe/nm30_03-43.webp",
+      "size": 18974,
+      "sha256": "601b4234e66887512b9759892973c73a4897089e7e13451952d3d4a5381e39c6"
+    },
+    {
+      "path": "public/game/documents/atlas/globe/nm30_03-44.webp",
+      "size": 19338,
+      "sha256": "48f5d5215b2a6843b13c6769ce49d3fb21ac0ec3cdcd35e31e2d7e8f0cb7e587"
+    },
+    {
+      "path": "public/game/documents/atlas/globe/nm30_03-45.webp",
+      "size": 19616,
+      "sha256": "41a95b002f3896fca56e1797ba4182631bbdad08edf3e0d9804e7484267a9c99"
+    },
+    {
+      "path": "public/game/documents/atlas/globe/nm30_03-46.webp",
+      "size": 19878,
+      "sha256": "ce4ede16117e1f8e8f1044441e665c78b764e6015233fc4403d76b67c9de62e6"
+    },
+    {
+      "path": "public/game/documents/atlas/globe/nm30_03-47.webp",
+      "size": 20422,
+      "sha256": "d736a22739f71ece35099d830c0cff5d283aac87751beafcb085dabb363f4b81"
+    },
+    {
+      "path": "public/game/documents/atlas/globe/nm30_03-48.webp",
+      "size": 21088,
+      "sha256": "a55ca1e1de6cbaf9b4be573e86d483546286823e0b38f2425cbb384f69e942f0"
+    },
+    {
+      "path": "public/game/documents/atlas/globe/nm30_03-49.webp",
+      "size": 21730,
+      "sha256": "ec20744c9d058f05a72612e4c9b39ab856afdb96ea221e99c86a327cfb6a2f8c"
+    },
+    {
+      "path": "public/game/documents/atlas/globe/nm30_03-5.webp",
+      "size": 29770,
+      "sha256": "4659ea95f7f01a8bdf7427cb4a3b3967ae5fcc5df80536476fa1d92200c3e630"
+    },
+    {
+      "path": "public/game/documents/atlas/globe/nm30_03-50.webp",
+      "size": 22512,
+      "sha256": "6069c313eb8afebc40faafaff5469bb2ec3443c027ee19e01d73f9b1ca9be82b"
+    },
+    {
+      "path": "public/game/documents/atlas/globe/nm30_03-51.webp",
+      "size": 23344,
+      "sha256": "407ea9d18acf3bfab33ca85631282bab22d0691371d5a69b3a455156ae885012"
+    },
+    {
+      "path": "public/game/documents/atlas/globe/nm30_03-52.webp",
+      "size": 24036,
+      "sha256": "56e8b3cf619130fb2e351ab6b77f4c8d17bb5b9e0c7658d1a2dec84c1812db15"
+    },
+    {
+      "path": "public/game/documents/atlas/globe/nm30_03-53.webp",
+      "size": 24920,
+      "sha256": "d4f4d5968eb642d6affc4a30faca7b9c3443d8fec5ddd263f32e2bc167cee998"
+    },
+    {
+      "path": "public/game/documents/atlas/globe/nm30_03-54.webp",
+      "size": 25798,
+      "sha256": "8637c31661c0aabf183662bd61cba32881476af6de7c3614f0ca26df433a12e4"
+    },
+    {
+      "path": "public/game/documents/atlas/globe/nm30_03-55.webp",
+      "size": 26710,
+      "sha256": "8e0bbfe8aef3a8bc7dd1947afd10a2c145d6bbbfa14ad7d246293e34d31c88dc"
+    },
+    {
+      "path": "public/game/documents/atlas/globe/nm30_03-56.webp",
+      "size": 27446,
+      "sha256": "f6f49126df1a18181db1ea912185e8bdf8e9cf517d42499ad8f4ab4855ee19e1"
+    },
+    {
+      "path": "public/game/documents/atlas/globe/nm30_03-57.webp",
+      "size": 28202,
+      "sha256": "e535c013c510feabf7bcde7b44e5992d388759d9cfd8dd5155a337dd078c5451"
+    },
+    {
+      "path": "public/game/documents/atlas/globe/nm30_03-58.webp",
+      "size": 28870,
+      "sha256": "13fdc4e3bb6667e9ceb12de9cabcabe6b5e71319cb67f4e9cb9a4de806f3cacf"
+    },
+    {
+      "path": "public/game/documents/atlas/globe/nm30_03-59.webp",
+      "size": 29364,
+      "sha256": "1859326483b43fee35ce816a9ff0bef80c5394184e622d31be5f9f92a29cec11"
+    },
+    {
+      "path": "public/game/documents/atlas/globe/nm30_03-6.webp",
+      "size": 29546,
+      "sha256": "c234006ff43c0cc3dfed39e00df81e2c2183b06954f93fda647245d6a788c519"
+    },
+    {
+      "path": "public/game/documents/atlas/globe/nm30_03-60.webp",
+      "size": 30152,
+      "sha256": "fa830bedff32c3b4d2e1de90f42704d7867e16c9b807e1d95a6f767fcd1fd77c"
+    },
+    {
+      "path": "public/game/documents/atlas/globe/nm30_03-61.webp",
+      "size": 30624,
+      "sha256": "00ea992efb246a68b51d37bcd8ef785dece8e945875aa9344aede456d57830f3"
+    },
+    {
+      "path": "public/game/documents/atlas/globe/nm30_03-62.webp",
+      "size": 30766,
+      "sha256": "0859407cb9a985464ed057c1ff5abc26b1b566e2a4bb551583e19305293c0d46"
+    },
+    {
+      "path": "public/game/documents/atlas/globe/nm30_03-63.webp",
+      "size": 31206,
+      "sha256": "630edd186f5d49f8e8d3704c7a9036e5e17461c8724b9127c22c78aaf9c5bd64"
+    },
+    {
+      "path": "public/game/documents/atlas/globe/nm30_03-64.webp",
+      "size": 31814,
+      "sha256": "3e87d45a8d56ac9e7ebebbe47195bf1fadcd6ad8a7070b616da217fa3d8c818c"
+    },
+    {
+      "path": "public/game/documents/atlas/globe/nm30_03-65.webp",
+      "size": 31650,
+      "sha256": "d32df7e856fc68259ef384c8cca3d825aa8b494f91eb3e8a70b5612e4f6dd023"
+    },
+    {
+      "path": "public/game/documents/atlas/globe/nm30_03-66.webp",
+      "size": 31818,
+      "sha256": "24572fa484e085e43c57cf13fad2a990620e1d57bf044981a327933a2c834934"
+    },
+    {
+      "path": "public/game/documents/atlas/globe/nm30_03-67.webp",
+      "size": 31838,
+      "sha256": "756db660ac6535a20a26eeb3de27f3a5126489f5313b8d330def6d4d2334beb7"
+    },
+    {
+      "path": "public/game/documents/atlas/globe/nm30_03-68.webp",
+      "size": 31834,
+      "sha256": "da89d693a635d07589a42e3b2619f313b7d98c3a96a217996d0b2e7b1f829c96"
+    },
+    {
+      "path": "public/game/documents/atlas/globe/nm30_03-69.webp",
+      "size": 32026,
+      "sha256": "8302a95747b80fcd06a071f73668ef2c079410015b6b0370b1a45ccef86a16d0"
+    },
+    {
+      "path": "public/game/documents/atlas/globe/nm30_03-7.webp",
+      "size": 29464,
+      "sha256": "02e6b4c73a398b66b78cc1d26cc4a74d91c79572b01fc25fd2a1a704a3b072c6"
+    },
+    {
+      "path": "public/game/documents/atlas/globe/nm30_03-70.webp",
+      "size": 32184,
+      "sha256": "6272b1a31f7fd4c2b6dcb4ec4d11485dc351a0a84dd5eb3189dfa22d7ffa6701"
+    },
+    {
+      "path": "public/game/documents/atlas/globe/nm30_03-71.webp",
+      "size": 32422,
+      "sha256": "3cb57f53609e138ea1e993f66d944fe1222cc42948f53eddcab1e28d4f08e94e"
+    },
+    {
+      "path": "public/game/documents/atlas/globe/nm30_03-72.webp",
+      "size": 32868,
+      "sha256": "7f399d267d26e2f5e85dbfe8e54f05cb22dc1023956503bb7971d230aa2e5d92"
+    },
+    {
+      "path": "public/game/documents/atlas/globe/nm30_03-73.webp",
+      "size": 32408,
+      "sha256": "651c16270b9d0fd851c72eceb086a0575328f27c906effe49eb923380f3df306"
+    },
+    {
+      "path": "public/game/documents/atlas/globe/nm30_03-74.webp",
+      "size": 32282,
+      "sha256": "a3e5b390160b4f9c7c50bd43f8a9e9e20a25ecdae65ccf57d36d676929a7572d"
+    },
+    {
+      "path": "public/game/documents/atlas/globe/nm30_03-75.webp",
+      "size": 32290,
+      "sha256": "e672786c093ed418b7eef6c6ddbfdfd0fd1fc3938be6d3f10379dfca90fd30ff"
+    },
+    {
+      "path": "public/game/documents/atlas/globe/nm30_03-76.webp",
+      "size": 32816,
+      "sha256": "38b2e6cd52482ed927518ea3bce2ca45acf967b010c0286d61af98cbb7b2eb8b"
+    },
+    {
+      "path": "public/game/documents/atlas/globe/nm30_03-77.webp",
+      "size": 33022,
+      "sha256": "3ece2c326ba3370c946f4f3c3fb16fcf68ee0853c3329a8a208570774b6dad75"
+    },
+    {
+      "path": "public/game/documents/atlas/globe/nm30_03-78.webp",
+      "size": 33040,
+      "sha256": "07c9dbb1df15e3b59a44de16df13953b6b108fc7a2f8030b60407e58188a14c2"
+    },
+    {
+      "path": "public/game/documents/atlas/globe/nm30_03-79.webp",
+      "size": 33006,
+      "sha256": "44ed48a52b16667d626069bcd6e6bd06facacdf04a7d336c325f994234cdcd2e"
+    },
+    {
+      "path": "public/game/documents/atlas/globe/nm30_03-8.webp",
+      "size": 29442,
+      "sha256": "9cbb0f5a1fa0440261a459cb3d2e58bea137ac0d8c845c52193659d8ead6182b"
+    },
+    {
+      "path": "public/game/documents/atlas/globe/nm30_03-80.webp",
+      "size": 32634,
+      "sha256": "580993beddfc7f60649010098366a88a691c973b6b26048defbb3d49ce012b48"
+    },
+    {
+      "path": "public/game/documents/atlas/globe/nm30_03-81.webp",
+      "size": 33252,
+      "sha256": "cfb281ef53d0933f0ec87c23bfb3f03981f62e0dc3d669a088816484cf4dd619"
+    },
+    {
+      "path": "public/game/documents/atlas/globe/nm30_03-82.webp",
+      "size": 33012,
+      "sha256": "bf37a6be732203fb54685283d0df763c87b3bdb839ef593bf18924681ae1cb91"
+    },
+    {
+      "path": "public/game/documents/atlas/globe/nm30_03-83.webp",
+      "size": 32476,
+      "sha256": "d0c56fa1bdf3fea15771df6e8e7741bbcc236d847ef9c1e98277dcc6be9ca88e"
+    },
+    {
+      "path": "public/game/documents/atlas/globe/nm30_03-84.webp",
+      "size": 32448,
+      "sha256": "4825731aee96c9d0231f174db4d9741960503afcbc467a17f61b29abb6ae4aa4"
+    },
+    {
+      "path": "public/game/documents/atlas/globe/nm30_03-85.webp",
+      "size": 32760,
+      "sha256": "79395757ec7f516ab67af422071fd5995ee28e2e47b892213c2e122a811be6f3"
+    },
+    {
+      "path": "public/game/documents/atlas/globe/nm30_03-86.webp",
+      "size": 31958,
+      "sha256": "81831fcd2cbf8022c9eeeec6db8fec8a7970e5cfc4afa32b85f5dab0bb164511"
+    },
+    {
+      "path": "public/game/documents/atlas/globe/nm30_03-87.webp",
+      "size": 31816,
+      "sha256": "fdac06f9e571628f17061f24a48dd4a9f5b6bfa777307620461dcdf062333ccb"
+    },
+    {
+      "path": "public/game/documents/atlas/globe/nm30_03-88.webp",
+      "size": 32118,
+      "sha256": "8ce266d613c44f67e70248404797b271f13cca997c7aba3d5f5327175bbd0f0f"
+    },
+    {
+      "path": "public/game/documents/atlas/globe/nm30_03-89.webp",
+      "size": 31184,
+      "sha256": "76a6a84d28aafb0bc313ea0e295388832caa743e5d49e946064c2946ad92b08a"
+    },
+    {
+      "path": "public/game/documents/atlas/globe/nm30_03-9.webp",
+      "size": 29072,
+      "sha256": "1bc0c8d1c8dfffed5b0b28d34703648d67b3a37241a8bb03dc3456c612d0a1d6"
+    },
+    {
+      "path": "public/game/documents/atlas/labels/bcity.webp",
+      "size": 2678,
+      "sha256": "f0b4a2b39827b4b87afdf0974e41228007772a9c398490dcc3562ad29492152c"
+    },
+    {
+      "path": "public/game/documents/atlas/labels/bnom441.webp",
+      "size": 1596,
+      "sha256": "51c31b26080c393d98ec2610ce549faa9134299a34287b62055fc941a88f9a75"
+    },
+    {
+      "path": "public/game/documents/atlas/labels/bnom471.webp",
+      "size": 1596,
+      "sha256": "51c31b26080c393d98ec2610ce549faa9134299a34287b62055fc941a88f9a75"
+    },
+    {
+      "path": "public/game/documents/atlas/labels/bnom475.webp",
+      "size": 1596,
+      "sha256": "51c31b26080c393d98ec2610ce549faa9134299a34287b62055fc941a88f9a75"
+    },
+    {
+      "path": "public/game/documents/atlas/labels/bnom481.webp",
+      "size": 1596,
+      "sha256": "51c31b26080c393d98ec2610ce549faa9134299a34287b62055fc941a88f9a75"
+    },
+    {
+      "path": "public/game/documents/atlas/labels/bnom482.webp",
+      "size": 1596,
+      "sha256": "51c31b26080c393d98ec2610ce549faa9134299a34287b62055fc941a88f9a75"
+    },
+    {
+      "path": "public/game/documents/atlas/labels/bnom541.webp",
+      "size": 13330,
+      "sha256": "e9f3b93d552c0a5a821fae3ea99a93ca3d06eeaafd7c04e7610839525e0ac568"
+    },
+    {
+      "path": "public/game/documents/atlas/labels/bnom571.webp",
+      "size": 9474,
+      "sha256": "69dc1fb9243640d4f77175f1a2b670cf59b98ec43f1d2f51389bb12e65e926c5"
+    },
+    {
+      "path": "public/game/documents/atlas/labels/bnom575.webp",
+      "size": 9474,
+      "sha256": "69dc1fb9243640d4f77175f1a2b670cf59b98ec43f1d2f51389bb12e65e926c5"
+    },
+    {
+      "path": "public/game/documents/atlas/labels/bnom581.webp",
+      "size": 9474,
+      "sha256": "69dc1fb9243640d4f77175f1a2b670cf59b98ec43f1d2f51389bb12e65e926c5"
+    },
+    {
+      "path": "public/game/documents/atlas/labels/bnom582.webp",
+      "size": 9474,
+      "sha256": "69dc1fb9243640d4f77175f1a2b670cf59b98ec43f1d2f51389bb12e65e926c5"
+    },
+    {
+      "path": "public/game/documents/atlas/legends/maps-10-detail-14.webp",
+      "size": 1312,
+      "sha256": "5fb8a617bef978416a0af16dcd3714c3a6c8f0ddd75bb873f23532abab533170"
+    },
+    {
+      "path": "public/game/documents/atlas/legends/maps-10-detail-15.webp",
+      "size": 1312,
+      "sha256": "6e22caa92516fb02e34d70074c9c6eaf366b92bc392ffe5c0dc32e8ab0e06b40"
+    },
+    {
+      "path": "public/game/documents/atlas/legends/maps-10-overview-3.webp",
+      "size": 1308,
+      "sha256": "527b988c07af4008d649d46e540f172ee3c6160daf6d505e5d071485ec40fe6c"
+    },
+    {
+      "path": "public/game/documents/atlas/legends/maps-10-overview-4.webp",
+      "size": 1316,
+      "sha256": "2bc5c61fa9f4ba45d63b7d00d58f2813f57b2e1bed4d6fe18b67180dfa426545"
+    },
+    {
+      "path": "public/game/documents/atlas/legends/maps-19-detail-16.webp",
+      "size": 1294,
+      "sha256": "cf617030a93353c03014dadc439efbc9be2c3310ae1050ef2b68ccaa67aec3d6"
+    },
+    {
+      "path": "public/game/documents/atlas/legends/maps-19-overview-5.webp",
+      "size": 1292,
+      "sha256": "2e05afe530dab55973b6cabac259fccf58a3f710f7d12afef03f48e26ff37a6a"
+    },
+    {
+      "path": "public/game/documents/atlas/legends/maps-24-detail-17.webp",
+      "size": 822,
+      "sha256": "c960a25ad72d68d593f84e8138af831ccd81e2efbc1fb662885e9d30585e0e86"
+    },
+    {
+      "path": "public/game/documents/atlas/legends/maps-24-detail-18.webp",
+      "size": 552,
+      "sha256": "a0c288b0881b45fc96597d668405ca2e2b0c690907f2d8727dd7b853fcc0289e"
+    },
+    {
+      "path": "public/game/documents/atlas/legends/maps-24-overview-6.webp",
+      "size": 2412,
+      "sha256": "94fe10631293a0817552670aabcaf44f4b8f10ecb39bb7a94e9f72b3954fefe3"
+    },
+    {
+      "path": "public/game/documents/atlas/legends/maps-24-overview-7.webp",
+      "size": 552,
+      "sha256": "a0c288b0881b45fc96597d668405ca2e2b0c690907f2d8727dd7b853fcc0289e"
+    },
+    {
+      "path": "public/game/documents/atlas/legends/maps-25-detail-19.webp",
+      "size": 1418,
+      "sha256": "49f6a0d152f4a588900a3e4ab7ddd2351cf6900d7264f5c06d8a78c18fd0b755"
+    },
+    {
+      "path": "public/game/documents/atlas/legends/maps-25-detail-20.webp",
+      "size": 1456,
+      "sha256": "ead19dc9cbfbbf138e6f55fe9a58172b8dfec742f1687a6d0cb8d45339a20886"
+    },
+    {
+      "path": "public/game/documents/atlas/legends/maps-25-overview-8.webp",
+      "size": 1426,
+      "sha256": "689e090422953cdd0854c0a6d1d411cab7f5d9d06c7a2f168f3d2f7653be1c20"
+    },
+    {
+      "path": "public/game/documents/atlas/legends/maps-25-overview-9.webp",
+      "size": 1456,
+      "sha256": "b978969db40095c1c33f7f186b323d29c5ffc4576ca6699effd4980ad15c745a"
+    },
+    {
+      "path": "public/game/documents/atlas/legends/maps-4-detail-13.webp",
+      "size": 968,
+      "sha256": "2954fb35770f371cadf03a19d13e978817c1d0117e58496f2ba4c46db4be6f39"
+    },
+    {
+      "path": "public/game/documents/atlas/legends/maps-4-overview-2.webp",
+      "size": 968,
+      "sha256": "2912e54efb73c87b166a8e5bd67bb459c31a600a51f546f6c9e44bbb054a3eeb"
+    },
+    {
+      "path": "public/game/documents/atlas/legends/overlays-10-detail-55.webp",
+      "size": 3356,
+      "sha256": "f753efec7d01bb9ba88b63083f4b066aaae2f6c4a1f7a0d9ff54a560ccdf7cc3"
+    },
+    {
+      "path": "public/game/documents/atlas/legends/overlays-10-overview-24.webp",
+      "size": 2456,
+      "sha256": "44de32494621fce098506df3d27067255f85910b165deaa15f649cada77cc823"
+    },
+    {
+      "path": "public/game/documents/atlas/legends/overlays-11-detail-56.webp",
+      "size": 1886,
+      "sha256": "6ea991adb3f6024dc8e55396525a8256593dcfd350864357129ffebca086ab45"
+    },
+    {
+      "path": "public/game/documents/atlas/legends/overlays-11-overview-25.webp",
+      "size": 1886,
+      "sha256": "6ea991adb3f6024dc8e55396525a8256593dcfd350864357129ffebca086ab45"
+    },
+    {
+      "path": "public/game/documents/atlas/legends/overlays-12-detail-57.webp",
+      "size": 2490,
+      "sha256": "29e7c1b03ca4c082d23e5168e145978a9b05777713aba9331ffdc048fc98a9d7"
+    },
+    {
+      "path": "public/game/documents/atlas/legends/overlays-12-detail-58.webp",
+      "size": 1486,
+      "sha256": "db2c68e2b55cfb9a49fe0c1c5cdfca2d974084d826ecbcfb75af7a7983f3aed7"
+    },
+    {
+      "path": "public/game/documents/atlas/legends/overlays-12-overview-26.webp",
+      "size": 1040,
+      "sha256": "3e1ce8e271d98a26b2d8afa3a337b300e8a9830bb4a05cd17b25d0199567b899"
+    },
+    {
+      "path": "public/game/documents/atlas/legends/overlays-13-detail-59.webp",
+      "size": 1090,
+      "sha256": "a1b153e91cc7dd0b90726c3820cf3155225284635b66461de3ed9195fd5e0d43"
+    },
+    {
+      "path": "public/game/documents/atlas/legends/overlays-13-detail-60.webp",
+      "size": 970,
+      "sha256": "6acbe2fe055a5ec6cdef070fae71f687ef3f704bd5d79140949a7d2f88f844ba"
+    },
+    {
+      "path": "public/game/documents/atlas/legends/overlays-13-overview-27.webp",
+      "size": 1090,
+      "sha256": "a1b153e91cc7dd0b90726c3820cf3155225284635b66461de3ed9195fd5e0d43"
+    },
+    {
+      "path": "public/game/documents/atlas/legends/overlays-13-overview-28.webp",
+      "size": 964,
+      "sha256": "93dd92187a171378820868b50da4a791d3c51bcfa5015fb096b16cad42be268b"
+    },
+    {
+      "path": "public/game/documents/atlas/legends/overlays-14-detail-61.webp",
+      "size": 1578,
+      "sha256": "a969d9826daaa9f61013fb220941dc3757a56c010c48c49111ecf20e5256b98a"
+    },
+    {
+      "path": "public/game/documents/atlas/legends/overlays-14-overview-29.webp",
+      "size": 1450,
+      "sha256": "8f01d80d98f49d245c4440cc4cfc9248d574bdff736fb9048b886e11572ce73b"
+    },
+    {
+      "path": "public/game/documents/atlas/legends/overlays-15-detail-62.webp",
+      "size": 892,
+      "sha256": "154ccc02806d5c29433128c61a3a3d2ac7bebc993865513d08a1685ae8a56d75"
+    },
+    {
+      "path": "public/game/documents/atlas/legends/overlays-15-overview-30.webp",
+      "size": 892,
+      "sha256": "154ccc02806d5c29433128c61a3a3d2ac7bebc993865513d08a1685ae8a56d75"
+    },
+    {
+      "path": "public/game/documents/atlas/legends/overlays-16-detail-63.webp",
+      "size": 1216,
+      "sha256": "4a9a9f9376d14baae704188941622d70dc1c3ae906259051355c9c7362998fab"
+    },
+    {
+      "path": "public/game/documents/atlas/legends/overlays-16-overview-31.webp",
+      "size": 1216,
+      "sha256": "4a9a9f9376d14baae704188941622d70dc1c3ae906259051355c9c7362998fab"
+    },
+    {
+      "path": "public/game/documents/atlas/legends/overlays-44-detail-64.webp",
+      "size": 1430,
+      "sha256": "507c701af78694064f8c380e56e5cead016ce3ec88f7cc5ec2c0591fbc4e8e5e"
+    },
+    {
+      "path": "public/game/documents/atlas/legends/overlays-44-overview-32.webp",
+      "size": 1462,
+      "sha256": "37b8c48d794a40f236c2137ed0c389b3d24eea8e8f8b2b2c16e57bac1a2d75ae"
+    },
+    {
+      "path": "public/game/documents/atlas/legends/overlays-45-detail-65.webp",
+      "size": 1096,
+      "sha256": "1531774a742c4b84ef6e16d500161c8fc75b4eb499fccc1db9b8596e65e41fbd"
+    },
+    {
+      "path": "public/game/documents/atlas/legends/overlays-45-detail-66.webp",
+      "size": 1048,
+      "sha256": "c763360d491c912ab4376b65ea6501f042812502d733a9c02502996130ecb609"
+    },
+    {
+      "path": "public/game/documents/atlas/legends/overlays-45-detail-67.webp",
+      "size": 1148,
+      "sha256": "b3fed575bad071ea870a12031c9c1504087800a037409a991a37fdd90ab00e92"
+    },
+    {
+      "path": "public/game/documents/atlas/legends/overlays-45-detail-68.webp",
+      "size": 1000,
+      "sha256": "6f0878b7dcee628ea4bf993eb5cbb6225dee70d3a3f5733df9c3226d9aa5d9ab"
+    },
+    {
+      "path": "public/game/documents/atlas/legends/overlays-45-detail-69.webp",
+      "size": 1090,
+      "sha256": "b24c4a128de4206cb30d3b49b03114b5f29d616f4b62eab54a0b467e25123d0a"
+    },
+    {
+      "path": "public/game/documents/atlas/legends/overlays-45-detail-70.webp",
+      "size": 1184,
+      "sha256": "fc779c0a7be605d15e33e1d8c13b0a6be56132740cd6193ebf4000ff1239c1b9"
+    },
+    {
+      "path": "public/game/documents/atlas/legends/overlays-45-detail-71.webp",
+      "size": 1424,
+      "sha256": "a9d4013b9a928fcdc1dc1e898a751806386af485f6105ea86c2e9cce0b2dbdec"
+    },
+    {
+      "path": "public/game/documents/atlas/legends/overlays-45-overview-33.webp",
+      "size": 1006,
+      "sha256": "a1eae5f604eafd9c486ca7d303ea02f3e8033da6e0470f11366de698aa53a201"
+    },
+    {
+      "path": "public/game/documents/atlas/legends/overlays-45-overview-34.webp",
+      "size": 1090,
+      "sha256": "402c97766ab8e9c41f65fd7c0880de3199bdf232312642b82d9c5911729dcf78"
+    },
+    {
+      "path": "public/game/documents/atlas/legends/overlays-51-detail-72.webp",
+      "size": 1194,
+      "sha256": "ca1828c12700871ffd919b5ab8ef4682abea05b5399c136be2e51469e0dc908f"
+    },
+    {
+      "path": "public/game/documents/atlas/legends/overlays-51-overview-35.webp",
+      "size": 712,
+      "sha256": "43313d741f414e88ff60875e1eb6243bd0e531605897334832d6d4fe53a14653"
+    },
+    {
+      "path": "public/game/documents/atlas/legends/overlays-52-detail-73.webp",
+      "size": 1058,
+      "sha256": "070ca7165f71f3a94f2a8b642e01ceccab85749aad2579485a738f895999d7b3"
+    },
+    {
+      "path": "public/game/documents/atlas/legends/overlays-52-overview-36.webp",
+      "size": 1050,
+      "sha256": "2e050ea3af80cdacbe987e3635bf27af825084afee63ddcd54c0d2493ce55a31"
+    },
+    {
+      "path": "public/game/documents/atlas/legends/overlays-53-detail-74.webp",
+      "size": 1340,
+      "sha256": "7bf91f9c257bfecc4c129ed1e63115db93032963a0276fccc321f6447e015310"
+    },
+    {
+      "path": "public/game/documents/atlas/legends/overlays-53-detail-75.webp",
+      "size": 1304,
+      "sha256": "42d1cb8715519d38581b5035b86eb1bad08a3a066c36bfac8db07da80a38d013"
+    },
+    {
+      "path": "public/game/documents/atlas/legends/overlays-53-overview-37.webp",
+      "size": 1340,
+      "sha256": "7bf91f9c257bfecc4c129ed1e63115db93032963a0276fccc321f6447e015310"
+    },
+    {
+      "path": "public/game/documents/atlas/legends/overlays-53-overview-38.webp",
+      "size": 1300,
+      "sha256": "62eb4f2ab874b31b7cb84392262772d0aea406b39734c3c4b147e4fcef4e4e9f"
+    },
+    {
+      "path": "public/game/documents/atlas/legends/overlays-54-detail-76.webp",
+      "size": 1296,
+      "sha256": "30ce56d9631fa5183d07171f1726f92303cbe68cfbf6949deeee53ad9a138ef4"
+    },
+    {
+      "path": "public/game/documents/atlas/legends/overlays-54-overview-39.webp",
+      "size": 1290,
+      "sha256": "1acfbbe7977d4df21cb29536b7bc53334df0af9b9671680496028664b3562b51"
+    },
+    {
+      "path": "public/game/documents/atlas/legends/overlays-55-detail-77.webp",
+      "size": 1166,
+      "sha256": "c50d73afa009e507ec0f1753ee5056999c23cd015d063154423ee1dc3f8abfd0"
+    },
+    {
+      "path": "public/game/documents/atlas/legends/overlays-55-overview-40.webp",
+      "size": 1080,
+      "sha256": "62dfacd10cb8bccb564c4a67a3ba90f0aa4815db7d96a573325cac6d0268de06"
+    },
+    {
+      "path": "public/game/documents/atlas/legends/overlays-60-detail-80.webp",
+      "size": 496,
+      "sha256": "1f3205aeccec010e64d877503fb0d2fb3923ec2ca578421d39fdbb610f667bb0"
+    },
+    {
+      "path": "public/game/documents/atlas/legends/overlays-60-overview-43.webp",
+      "size": 496,
+      "sha256": "1f3205aeccec010e64d877503fb0d2fb3923ec2ca578421d39fdbb610f667bb0"
+    },
+    {
+      "path": "public/game/documents/atlas/legends/overlays-61-detail-81.webp",
+      "size": 840,
+      "sha256": "a818c02ed39a7d90789eb2c377f7229896d90059eafc8cdef45380b2c121ef4b"
+    },
+    {
+      "path": "public/game/documents/atlas/legends/overlays-61-overview-44.webp",
+      "size": 734,
+      "sha256": "917a15cec8e0746c8e3a1fd36102418afa2fb3050281fb0ae85f3f05d1d0f0a1"
+    },
+    {
+      "path": "public/game/documents/atlas/legends/overlays-62-detail-82.webp",
+      "size": 1034,
+      "sha256": "f3207c7f30f1ef26550d264917691cbcf93957ed41debedf3b4f97f8ac86d296"
+    },
+    {
+      "path": "public/game/documents/atlas/legends/overlays-62-overview-45.webp",
+      "size": 1034,
+      "sha256": "f3207c7f30f1ef26550d264917691cbcf93957ed41debedf3b4f97f8ac86d296"
+    },
+    {
+      "path": "public/game/documents/atlas/legends/overlays-63-detail-83.webp",
+      "size": 1814,
+      "sha256": "f9a06f3072068e80da0b85b8cc16915022730fca949562847321a028915eb5f1"
+    },
+    {
+      "path": "public/game/documents/atlas/legends/overlays-63-overview-46.webp",
+      "size": 1814,
+      "sha256": "f9a06f3072068e80da0b85b8cc16915022730fca949562847321a028915eb5f1"
+    },
+    {
+      "path": "public/game/documents/atlas/legends/overlays-64-detail-84.webp",
+      "size": 708,
+      "sha256": "cb77f465ec1c2aaefc7900e50e423e3d1eb6260100be38408d939d456efc7e41"
+    },
+    {
+      "path": "public/game/documents/atlas/legends/overlays-64-overview-47.webp",
+      "size": 708,
+      "sha256": "cb77f465ec1c2aaefc7900e50e423e3d1eb6260100be38408d939d456efc7e41"
+    },
+    {
+      "path": "public/game/documents/atlas/legends/overlays-66-detail-85.webp",
+      "size": 804,
+      "sha256": "e6f972c0857b2558825bec8740f3ea21797b9cd0bb8dcfbc35ecc309203eaf49"
+    },
+    {
+      "path": "public/game/documents/atlas/legends/overlays-66-overview-48.webp",
+      "size": 804,
+      "sha256": "e6f972c0857b2558825bec8740f3ea21797b9cd0bb8dcfbc35ecc309203eaf49"
+    },
+    {
+      "path": "public/game/documents/atlas/legends/overlays-67-detail-86.webp",
+      "size": 1524,
+      "sha256": "871c9be7e96d24dc566b047598394b6867ec8319e2773812efa32a5546078243"
+    },
+    {
+      "path": "public/game/documents/atlas/legends/overlays-67-overview-49.webp",
+      "size": 3794,
+      "sha256": "2fad933ea8ba119c120e4e54b021cefa8ed15ce0b38a55531f4ac3a0d61e7477"
+    },
+    {
+      "path": "public/game/documents/atlas/legends/overlays-68-detail-87.webp",
+      "size": 1830,
+      "sha256": "4e4865ee58e3b6ce5b751bd0d4c0dcebed808ed16b8f997a03e21266c134d458"
+    },
+    {
+      "path": "public/game/documents/atlas/legends/overlays-68-overview-50.webp",
+      "size": 1112,
+      "sha256": "8d5f87d1cb612c2d6b2211d153a1c415a7f99b5d5eca991a71fbec8d60c6c438"
+    },
+    {
+      "path": "public/game/documents/atlas/legends/overlays-73-detail-88.webp",
+      "size": 1234,
+      "sha256": "8a15e0754cf8fd63a9a8342b38aa80909745a3f31c53a851c953a485830a65b5"
+    },
+    {
+      "path": "public/game/documents/atlas/legends/overlays-73-overview-51.webp",
+      "size": 814,
+      "sha256": "9c7bbcc8337acbbc167edc2f008f7436f348aa738a45d34bc2de34c83c1fd7ae"
+    },
+    {
+      "path": "public/game/documents/atlas/legends/overlays-74-detail-89.webp",
+      "size": 1508,
+      "sha256": "d64fd1a43f63a701c85808983cc45825e7b7cfdf24c9d8aa85d5393f57448a03"
+    },
+    {
+      "path": "public/game/documents/atlas/legends/overlays-74-overview-52.webp",
+      "size": 1508,
+      "sha256": "d64fd1a43f63a701c85808983cc45825e7b7cfdf24c9d8aa85d5393f57448a03"
+    },
+    {
+      "path": "public/game/documents/atlas/legends/overlays-75-detail-90.webp",
+      "size": 924,
+      "sha256": "6fca2e24245b82cf7b5d6da43101ab153f2e1ab880b66c03207712c3caee8858"
+    },
+    {
+      "path": "public/game/documents/atlas/legends/overlays-75-overview-53.webp",
+      "size": 924,
+      "sha256": "6fca2e24245b82cf7b5d6da43101ab153f2e1ab880b66c03207712c3caee8858"
+    },
+    {
+      "path": "public/game/documents/atlas/legends/overlays-9-detail-54.webp",
+      "size": 954,
+      "sha256": "9f422dd1221ac40e5409d2a93b5345294d3fc10e82ee5d28e8806be91e94936c"
+    },
+    {
+      "path": "public/game/documents/atlas/legends/overlays-9-overview-23.webp",
+      "size": 954,
+      "sha256": "9f422dd1221ac40e5409d2a93b5345294d3fc10e82ee5d28e8806be91e94936c"
+    },
+    {
+      "path": "public/game/documents/atlas/maps.json",
+      "size": 38664,
+      "sha256": "b46ebed85d504c5dd23d30072ecfc72d454a02726472c2d75e4df441713e976c"
+    },
+    {
+      "path": "public/game/documents/atlas/maps/10-detail.webp",
+      "size": 1102096,
+      "sha256": "3845f584974de04dbebe4b965320f07fe7dd6a447cae9bad04cb972adfd37bb4"
+    },
+    {
+      "path": "public/game/documents/atlas/maps/10-overview.webp",
+      "size": 108382,
+      "sha256": "4787f8e86e25b8348508bcaab0fc334af53cbe82edab280889e3c36ef0a71454"
+    },
+    {
+      "path": "public/game/documents/atlas/maps/19-detail.webp",
+      "size": 1142232,
+      "sha256": "fb14816595c858b089b4fb53f7350a3602b5910e9e8eebc5ec2b4e6deb65c46c"
+    },
+    {
+      "path": "public/game/documents/atlas/maps/19-overview.webp",
+      "size": 100364,
+      "sha256": "4f40d154dde597dfea3a5db5452f88482ccdd4ca2cb09ed7cc0df18dee449620"
+    },
+    {
+      "path": "public/game/documents/atlas/maps/24-detail.webp",
+      "size": 1117688,
+      "sha256": "a8667c177564bf1f2459bc4bb9ec19d8c06285917ae688a50fadf0902dc5796d"
+    },
+    {
+      "path": "public/game/documents/atlas/maps/24-overview.webp",
+      "size": 97104,
+      "sha256": "b05030b4bd3ba5f2824affe927548d1e3a3a503c0fca9e263930094fa389a536"
+    },
+    {
+      "path": "public/game/documents/atlas/maps/25-detail.webp",
+      "size": 1087920,
+      "sha256": "f11123bd1cd09295362503a10e82f5483bc7dec5492d92ede13a56346af607ac"
+    },
+    {
+      "path": "public/game/documents/atlas/maps/25-overview.webp",
+      "size": 136462,
+      "sha256": "a5d8a3ddf7afe39ad55de53b746a0fdf6152f681844cc4107de993df48dd3428"
+    },
+    {
+      "path": "public/game/documents/atlas/maps/4-detail.webp",
+      "size": 1142200,
+      "sha256": "42efc625a0786e18babe185fdd6dd117209d8ec93547255cc30f3dc71041d07b"
+    },
+    {
+      "path": "public/game/documents/atlas/maps/4-overview.webp",
+      "size": 93490,
+      "sha256": "b0fda56476a3b8d979a1688092a6913d45f8cddb4a54ce5e387587d8c1baa3c0"
+    },
+    {
+      "path": "public/game/documents/atlas/maps/borders-detail.webp",
+      "size": 13138,
+      "sha256": "416f099f8073b3683807177c1484fba7afacee5d847b19b69f29109152fc4854"
+    },
+    {
+      "path": "public/game/documents/atlas/media.json",
+      "size": 47134,
+      "sha256": "049e96e626abe90dcbeadcc6015e9b917977a13356ced557b2169f38b7a44deb"
+    },
+    {
+      "path": "public/game/documents/atlas/media/emm-0010.png",
+      "size": 35621,
+      "sha256": "bd5e023ade922872d0ed267526087fefc0827359bd94cff61c2f6bff0249af8c"
+    },
+    {
+      "path": "public/game/documents/atlas/media/emm-0011.png",
+      "size": 30710,
+      "sha256": "807a003cdc9a0870f085fdc7451ba095a3130bde42122f40830aef0376739507"
+    },
+    {
+      "path": "public/game/documents/atlas/media/emm-0012.png",
+      "size": 33052,
+      "sha256": "ab57278b8636c53dc117f60c94c4f1d3cb132e34c05774fe6b0c28d3a133933b"
+    },
+    {
+      "path": "public/game/documents/atlas/media/emm-0013.png",
+      "size": 24699,
+      "sha256": "e35baf014665e12501fd8502d7c048a3d82a82bc36c7957528ec1298278cdd0b"
+    },
+    {
+      "path": "public/game/documents/atlas/media/emm-0014.png",
+      "size": 30987,
+      "sha256": "f27a3f3e1929e4bc3dcaeafcea3f740ae30b77b2787adc3b435259be01ec98a3"
+    },
+    {
+      "path": "public/game/documents/atlas/media/emm-0015.png",
+      "size": 34585,
+      "sha256": "41ff7a809a5ba2958eaeb2ed1201cff31aa54512cc63f953e6cd43494a71905e"
+    },
+    {
+      "path": "public/game/documents/atlas/media/emm-0016.png",
+      "size": 32116,
+      "sha256": "0c5adce1b0ad3ffa22ab0b4a7addd321a74925e06008b47a4a06278fcf781104"
+    },
+    {
+      "path": "public/game/documents/atlas/media/emm-0017.png",
+      "size": 34322,
+      "sha256": "1355d91be600b03b754998854f58a8f4f12d45c7610fa8e7e85bd995ce9d8c50"
+    },
+    {
+      "path": "public/game/documents/atlas/media/emm-0018.png",
+      "size": 31444,
+      "sha256": "75b1d45815c9e0ccd2a9517bf2e4b54c1b4e01140e5e1204fe2b5cf214aa65ff"
+    },
+    {
+      "path": "public/game/documents/atlas/media/emm-0019.png",
+      "size": 34633,
+      "sha256": "0917a22b3f2278e3d9883fb4889881dd12db12eb30cdd877e677c17dc0a711c4"
+    },
+    {
+      "path": "public/game/documents/atlas/media/emm-0020.png",
+      "size": 33165,
+      "sha256": "50095b64d2f2360776a2ee3b160edaac8d0f4d28d3fc20ffe6890ace016b0c34"
+    },
+    {
+      "path": "public/game/documents/atlas/media/emm-0021.png",
+      "size": 104205,
+      "sha256": "49ade10908ebaef7ee91452057c6fa96eb0189e81a303df82a236e5c6f0fbb5c"
+    },
+    {
+      "path": "public/game/documents/atlas/media/emm-0022.png",
+      "size": 79160,
+      "sha256": "0bcb4c1dd06d527044d719fdcd1f1750555a46fd09f90bc19046cdf60dfafebd"
+    },
+    {
+      "path": "public/game/documents/atlas/media/emm-0023.png",
+      "size": 80982,
+      "sha256": "560900c7f5a8aa8af15fd3fe6018fa575bf46292418db0fb7624115264fb4250"
+    },
+    {
+      "path": "public/game/documents/atlas/media/emm-0024.png",
+      "size": 84076,
+      "sha256": "da377abca799d848f0d0c07718e02da610b1c0471f1e12238cc30a7973c9d434"
+    },
+    {
+      "path": "public/game/documents/atlas/media/emm-0025.png",
+      "size": 78232,
+      "sha256": "ad8c879b659408364548a4a9187b7509c5a19bee7807faa42ea16c7d83452d5f"
+    },
+    {
+      "path": "public/game/documents/atlas/media/emm-0026.png",
+      "size": 81607,
+      "sha256": "7ddfcd07f61c0477b3efd78202359ab0ece029518606aae1080b83c93d613451"
+    },
+    {
+      "path": "public/game/documents/atlas/media/emm-0027.png",
+      "size": 78356,
+      "sha256": "8a51424788b9ebc2b8c3f0991b141139c1ef9236e9829c436ba707b2facf117c"
+    },
+    {
+      "path": "public/game/documents/atlas/media/emm-0028.png",
+      "size": 41586,
+      "sha256": "9900312a3f4da6ac7b019a91ed3d651590d600951832665b64dd91a04dfc422f"
+    },
+    {
+      "path": "public/game/documents/atlas/media/emm-0029.png",
+      "size": 42964,
+      "sha256": "4939fede5c2944493ba08ed324b91a3f2c46fb26e864ea8a003506d381b2264f"
+    },
+    {
+      "path": "public/game/documents/atlas/media/emm-0030.png",
+      "size": 42755,
+      "sha256": "22ac848d5d3570e3dace344a6332f05f7a04f092e3c7fa0e5b0dea2407ceab10"
+    },
+    {
+      "path": "public/game/documents/atlas/media/emm-0031.png",
+      "size": 44565,
+      "sha256": "96e6fb1502626a09f12a24d50a73e22517595e0685a36d84975866b328199c4c"
+    },
+    {
+      "path": "public/game/documents/atlas/media/emm-0032.png",
+      "size": 40325,
+      "sha256": "469f4704a35f5b7548f6c89dbbbb8c02e69a3a95dbe167bd3c3a6cc2bf171da3"
+    },
+    {
+      "path": "public/game/documents/atlas/media/emm-0033.png",
+      "size": 43182,
+      "sha256": "c0b88d84f110765524a9225ca31a42168b0afed35026dc4a786a9f2cc440099e"
+    },
+    {
+      "path": "public/game/documents/atlas/media/emm-0034.png",
+      "size": 42289,
+      "sha256": "a7e7220fd471f1ebd9b6592d81a2f88ea013330266c925254be0effe06b3b69f"
+    },
+    {
+      "path": "public/game/documents/atlas/media/emm-0035.png",
+      "size": 42941,
+      "sha256": "30bbcc5c952fd25116d7007ce419816d4e10827f50c802462e3d5e0c5df98f4e"
+    },
+    {
+      "path": "public/game/documents/atlas/media/emm-0036.png",
+      "size": 43318,
+      "sha256": "5ec4e139c618b4a2224501286b2d9e34421ef8d1ba539bca398563fe07b37886"
+    },
+    {
+      "path": "public/game/documents/atlas/media/emm-0037.png",
+      "size": 44977,
+      "sha256": "b46669324722e64cbed54829298c4d14ee8faeb9ef11643bf5fddf78e65093b1"
+    },
+    {
+      "path": "public/game/documents/atlas/media/emm-0038.png",
+      "size": 44838,
+      "sha256": "0d7652625b090bfe31a15e9bcaf4da7b8b0c77d567f9f7efef82ba7ded994a72"
+    },
+    {
+      "path": "public/game/documents/atlas/media/emm-0039.png",
+      "size": 44764,
+      "sha256": "e72c26cab20e5577cc1bcd23e7e876560809f76f8da872c2093c8862777bab6f"
+    },
+    {
+      "path": "public/game/documents/atlas/media/emm-0040.png",
+      "size": 41700,
+      "sha256": "186a9f93b4ebc845843c4c335e3f46bd5a92f53b2800c9c2c8fda7cacb1fa6a1"
+    },
+    {
+      "path": "public/game/documents/atlas/media/emm-0041.png",
+      "size": 44430,
+      "sha256": "4d881ddbd865428577d30de4dea292dc8c724bc4023360236dc10cd258819163"
+    },
+    {
+      "path": "public/game/documents/atlas/media/emm-0043.png",
+      "size": 126832,
+      "sha256": "2aa26d6beaf239b65005137bce81ec4108297f3b0af748a7b021ca8ebe2b2a0d"
+    },
+    {
+      "path": "public/game/documents/atlas/media/emm-0044.png",
+      "size": 133287,
+      "sha256": "2e5de9f4f127c984e69726426120c34116026bbb55491a5aec89a07e58a2f1e2"
+    },
+    {
+      "path": "public/game/documents/atlas/media/emm-0045.png",
+      "size": 124394,
+      "sha256": "39d4e8c00f0d52c945725a3be3827ee9abb7511d05822c1585c641566540e685"
+    },
+    {
+      "path": "public/game/documents/atlas/media/emm-0047.png",
+      "size": 153552,
+      "sha256": "2bb886a375628b45e20ffada9fb0a61ec8c0e3d952c7b2d3cbe50eaaea912339"
+    },
+    {
+      "path": "public/game/documents/atlas/media/emm-0048.png",
+      "size": 133320,
+      "sha256": "1aaa14cb5e3cdeb5a5dbf7ff5ffc7a62de09684734c42bec272778abeed681c0"
+    },
+    {
+      "path": "public/game/documents/atlas/media/emm-0051.png",
+      "size": 132922,
+      "sha256": "604e3aa7a88d5a0e312e36024a452db84a648ff886563ec4cd098f040b62d21d"
+    },
+    {
+      "path": "public/game/documents/atlas/media/emm-0052.png",
+      "size": 80916,
+      "sha256": "f5c025a27f108504fc37b3a1894b7410089141881db5ffeab274029bbf14db98"
+    },
+    {
+      "path": "public/game/documents/atlas/media/emm-0055.png",
+      "size": 148953,
+      "sha256": "93a077dfa761da92fb926609db65f5bc62a8d377a4b6954b4aebc3d15c94db04"
+    },
+    {
+      "path": "public/game/documents/atlas/media/emm-0056.png",
+      "size": 114849,
+      "sha256": "b235b88baca7826d77ade2c9a50f36ec489e285bb5d60ac697632aa4a197c651"
+    },
+    {
+      "path": "public/game/documents/atlas/media/emm-0057.png",
+      "size": 103463,
+      "sha256": "9797d88ce31ed0c7dda0869c1eb4437716969f3f7bd793e009c492de836395e6"
+    },
+    {
+      "path": "public/game/documents/atlas/media/emm-0058.png",
+      "size": 73819,
+      "sha256": "cdf2d25446590dbb80c0ffad9066ddb537becf03327d7d8d9508e67acfe5a432"
+    },
+    {
+      "path": "public/game/documents/atlas/media/emm-0059.png",
+      "size": 131989,
+      "sha256": "001d4c76c84e440d59c9b0f0b251b5f46af71ca0f3c039f53bc4dd650622bff2"
+    },
+    {
+      "path": "public/game/documents/atlas/media/emm-0060.png",
+      "size": 76929,
+      "sha256": "05be70084cd8048b2bb98e60a129c3db0f9f9bd1601a052a361a9e52ca3cb96d"
+    },
+    {
+      "path": "public/game/documents/atlas/media/emm-0061.png",
+      "size": 141371,
+      "sha256": "7695c4f291a50c9e08ed38927ffc9be6efd64e0c8b1cf91470f44daee31f7d70"
+    },
+    {
+      "path": "public/game/documents/atlas/media/emm-0062.png",
+      "size": 122123,
+      "sha256": "3ed2c420703ba86a7e84ff4a81812f3689fa71d118aae09007fa45a0537ea16d"
+    },
+    {
+      "path": "public/game/documents/atlas/media/emm-0063.png",
+      "size": 143714,
+      "sha256": "17cbed4a2054d7aaea3da187d8d4f3fb9e99004b149cc40b2a1af1bb519bb01d"
+    },
+    {
+      "path": "public/game/documents/atlas/media/emm-0067.png",
+      "size": 171309,
+      "sha256": "d824f5d7e744696d43cdb26c8925398df57eeda36784aeb09396385b4627050c"
+    },
+    {
+      "path": "public/game/documents/atlas/media/emm-0078.png",
+      "size": 122240,
+      "sha256": "c1c05f74e14417b6797c12eb29ef2deeb87657708a00aa06cc6276ea1e3ece56"
+    },
+    {
+      "path": "public/game/documents/atlas/media/emm-0079.png",
+      "size": 130160,
+      "sha256": "a7c86272be76b4ceb174e8d93685cb187671e264eb46ea0d043c38cf28b4a68e"
+    },
+    {
+      "path": "public/game/documents/atlas/media/emm-0083.png",
+      "size": 65949,
+      "sha256": "6bca01217f6dd2aca4dd761d61444010626517b9237329ff5740a2a5f2fd3052"
+    },
+    {
+      "path": "public/game/documents/atlas/media/emm-0084.png",
+      "size": 146244,
+      "sha256": "224021c57b5e7a7a4da390a794f64afaea288722db707579f7940edfd2d9b0b3"
+    },
+    {
+      "path": "public/game/documents/atlas/media/emm-0087.png",
+      "size": 166619,
+      "sha256": "0c76c50b254e733678a83b5774a2b3547485dd529349656e0adaffbb6c1e841c"
+    },
+    {
+      "path": "public/game/documents/atlas/media/emm-0088.png",
+      "size": 178944,
+      "sha256": "93babb1e6f4a449a4a9484adc89fbe99df3d0d9be5fe024394ce25fe94a5c6fb"
+    },
+    {
+      "path": "public/game/documents/atlas/media/emm-0090.png",
+      "size": 167951,
+      "sha256": "70ff9993c34bc52b5ed24aa1b215bde5a61ccbeed2c510696d70e7458eb02b28"
+    },
+    {
+      "path": "public/game/documents/atlas/media/emm-0095.png",
+      "size": 171469,
+      "sha256": "13feef12d93480d1e13ee01bf34f08cfce8dc25591f40f85fd85a3a023039ea1"
+    },
+    {
+      "path": "public/game/documents/atlas/media/emm-0096.png",
+      "size": 118470,
+      "sha256": "451ddc233d2bb58d7b94b16f459ba07c7648b174a89aa39ceb14f200a3aefe76"
+    },
+    {
+      "path": "public/game/documents/atlas/media/emm-0097.png",
+      "size": 128955,
+      "sha256": "fadcf3a6fd625ba164de44a9d3ac4b653dfb9c38fb957a04288bbcb430635046"
+    },
+    {
+      "path": "public/game/documents/atlas/media/emm-0100.png",
+      "size": 117690,
+      "sha256": "79bfaa735efbb162e0f746682176dcd3d44f6f16355ed40986df991b09e35a24"
+    },
+    {
+      "path": "public/game/documents/atlas/media/emm-0103.png",
+      "size": 117003,
+      "sha256": "c844b5e2a14b3f1c1045599bd3fdc34fb29c7d3dd709944a8520664207fe9c0f"
+    },
+    {
+      "path": "public/game/documents/atlas/media/es_001.flac",
+      "size": 214230,
+      "sha256": "62e7e01e92bff6b0a48db5287098bfe8eb690945664c5599c4a278f0ae3245bd"
+    },
+    {
+      "path": "public/game/documents/atlas/media/es_002.flac",
+      "size": 181069,
+      "sha256": "09ba0a8bd349bc7ef09c171ef1b898887772d9eeb813140a97d36265b3d79ec3"
+    },
+    {
+      "path": "public/game/documents/atlas/media/es_003.flac",
+      "size": 166461,
+      "sha256": "cbe80dcb375056f8fa979647c5c5b20ae01f9f79f89a639ff86c728d4a8b26de"
+    },
+    {
+      "path": "public/game/documents/atlas/media/es_004.flac",
+      "size": 184604,
+      "sha256": "54269e962e76f93d5d5d109914ba38ab393890b8a6d3d8d46206f77b2254ed44"
+    },
+    {
+      "path": "public/game/documents/atlas/media/es_005.flac",
+      "size": 417415,
+      "sha256": "a4aa392493cc481d82657c0b5ed8dc59e8b94bae642a3db3f83b17a8a2f24bb7"
+    },
+    {
+      "path": "public/game/documents/atlas/media/es_006.flac",
+      "size": 196079,
+      "sha256": "9c6956e3165c76b5e85547e485050f8d193b73cf7f0d07b716d1ee694bb08609"
+    },
+    {
+      "path": "public/game/documents/atlas/media/es_007.flac",
+      "size": 185297,
+      "sha256": "a5f741eb1c2bcea989bee79c5207beac881186817f7b5b1c3e3fe814e051a660"
+    },
+    {
+      "path": "public/game/documents/atlas/media/es_008.flac",
+      "size": 187297,
+      "sha256": "8de897d26b03356d1f7a4053dc689350629deb6078e3fba2f761e2f6683aaafc"
+    },
+    {
+      "path": "public/game/documents/atlas/media/es_009.flac",
+      "size": 149788,
+      "sha256": "541515e86d15160d44da22ba3d1c44931ceeb44908bdb625a937ad3137fd20ed"
+    },
+    {
+      "path": "public/game/documents/atlas/media/es_010.flac",
+      "size": 230344,
+      "sha256": "868ed4471ce4426763dd9885f3b8b4c6cf563e0c4d3ac1ad458b151cef115d25"
+    },
+    {
+      "path": "public/game/documents/atlas/media/es_011.flac",
+      "size": 141564,
+      "sha256": "acc7e384b9824c13a7daa2917c3bc3e833d363008217044840d29085dc678eff"
+    },
+    {
+      "path": "public/game/documents/atlas/media/es_012.flac",
+      "size": 164542,
+      "sha256": "f03b3a68785d8598fd91fc3abab3a32ad8acb29df2c48f258a660a306219ca0a"
+    },
+    {
+      "path": "public/game/documents/atlas/media/es_013.flac",
+      "size": 244483,
+      "sha256": "173664b904c723801d586a0459f857827ae0b3c052ff8afc3122b2b747e97220"
+    },
+    {
+      "path": "public/game/documents/atlas/media/es_014.flac",
+      "size": 185262,
+      "sha256": "f6b955e479f89bfc600d8649584aed1567c2765cb7456b1c74b31f0454ef1c61"
+    },
+    {
+      "path": "public/game/documents/atlas/media/es_015.flac",
+      "size": 154619,
+      "sha256": "ff69a859ddf94fc991be86d6a0b948774c3cdd1720c8199d7450cb606d1197a5"
+    },
+    {
+      "path": "public/game/documents/atlas/media/es_016.flac",
+      "size": 229249,
+      "sha256": "b2b591ca867d5e4ca3d89b5ce78f578d05d3b29afda389aba0eddf01dbd6d027"
+    },
+    {
+      "path": "public/game/documents/atlas/media/es_017.flac",
+      "size": 121755,
+      "sha256": "9a8580b23ca495034c61b1f852d3ac527dff6b33fcb63d495a443ead11951727"
+    },
+    {
+      "path": "public/game/documents/atlas/media/es_018.flac",
+      "size": 245334,
+      "sha256": "b6f5090eb604afd5677250a4791b6ba4b397719355f538445f086bb111c9cecd"
+    },
+    {
+      "path": "public/game/documents/atlas/media/es_019.flac",
+      "size": 182233,
+      "sha256": "16a70bdbeca83e42ce162be53d8a7b030955dfcdad9ceb0e71744819d9d11c39"
+    },
+    {
+      "path": "public/game/documents/atlas/media/es_020.flac",
+      "size": 234857,
+      "sha256": "e9f649dbcd721952180f22b06fedd22a2a3a670d4e3f0c0baf3dc9cd26044465"
+    },
+    {
+      "path": "public/game/documents/atlas/media/es_021.flac",
+      "size": 275121,
+      "sha256": "799f6e09d5b7a9902e1143ae271f274a2c2bc6fbb8f688b71fac212197eee6d8"
+    },
+    {
+      "path": "public/game/documents/atlas/media/es_022.flac",
+      "size": 129904,
+      "sha256": "3302345e53997bbb5c9d746269b4de2db8a7483e53136503ff1887d4b44544cc"
+    },
+    {
+      "path": "public/game/documents/atlas/media/es_023.flac",
+      "size": 177730,
+      "sha256": "f12112b45fe140032a10d2e1e956e4bd132b37e1e1b7d02a833c64e9a42e75b4"
+    },
+    {
+      "path": "public/game/documents/atlas/media/n410vo.flac",
+      "size": 440018,
+      "sha256": "b6c262c24e6b1dc4f70a9010debaf0b5416c6b5ee179624860d7703c0105f928"
+    },
+    {
+      "path": "public/game/documents/atlas/media/n710vo.flac",
+      "size": 464032,
+      "sha256": "b46f18189853045b482991570242dc97ff9747f93683ea961e9b3d005915f353"
+    },
+    {
+      "path": "public/game/documents/atlas/media/n750vo.flac",
+      "size": 421024,
+      "sha256": "8b5969728bbf13cd54ce27e30f0fad56d26161e0fc5f62ab3c8b85619af92549"
+    },
+    {
+      "path": "public/game/documents/atlas/media/n810vo.flac",
+      "size": 418152,
+      "sha256": "f390c6be9473a881f09f60fe715e644b79985022796170d172d3ad287436741f"
+    },
+    {
+      "path": "public/game/documents/atlas/media/n820vo.flac",
+      "size": 349399,
+      "sha256": "460a590c54418f44fe894546f80c481bd7311775db9c6842aa13fedc70eb6fef"
+    },
+    {
+      "path": "public/game/documents/atlas/media/n_pr.flac",
+      "size": 323837,
+      "sha256": "add350a77afb46b4f37ed7ed5bb4e5d2d4ede75b285b79648278fd6b20e6b548"
+    },
+    {
+      "path": "public/game/documents/atlas/overlays/10-detail.webp",
+      "size": 10682,
+      "sha256": "ff8a125e14b6a34a913739a3efaff480a192967216ba257f4b5ceb489c33a911"
+    },
+    {
+      "path": "public/game/documents/atlas/overlays/10-overview.webp",
+      "size": 3648,
+      "sha256": "592c8473970b9c5ff7c0ce26ad651578093e0757b5cea3a17077d0fc8546ad8d"
+    },
+    {
+      "path": "public/game/documents/atlas/overlays/11-detail.webp",
+      "size": 14464,
+      "sha256": "6122fa83ac24295e4908cffaa849f0986f1531d40a6bece28c2dbdf6cef36e56"
+    },
+    {
+      "path": "public/game/documents/atlas/overlays/11-overview.webp",
+      "size": 5000,
+      "sha256": "e470b4d8e5336bbe53d1bfc373d94c9c88afbc16b001cc96bba76c5be87b5d6b"
+    },
+    {
+      "path": "public/game/documents/atlas/overlays/12-detail.webp",
+      "size": 10396,
+      "sha256": "8eed364c36041dae85399d4609c751e32ea5da1fee07fe6869233e316c748b23"
+    },
+    {
+      "path": "public/game/documents/atlas/overlays/12-overview.webp",
+      "size": 1746,
+      "sha256": "3acf8e361e8c60feb90248713eae9925f2b8db069be80899c756897a17e82f7c"
+    },
+    {
+      "path": "public/game/documents/atlas/overlays/13-detail.webp",
+      "size": 6806,
+      "sha256": "eb36b4b735ff564f13cb0527c469ff3bc4cdd17c9740fef319c1a752bf063add"
+    },
+    {
+      "path": "public/game/documents/atlas/overlays/13-overview.webp",
+      "size": 3278,
+      "sha256": "1967a3d6047ad4edcfe8fd8959f9c2d398bdf834f7b183a72c49025361292f79"
+    },
+    {
+      "path": "public/game/documents/atlas/overlays/14-detail.webp",
+      "size": 15364,
+      "sha256": "4fcef0554a8cc9a81078a855ea1d9573a8171fd76ed497f2c95eb2a0882f513d"
+    },
+    {
+      "path": "public/game/documents/atlas/overlays/14-overview.webp",
+      "size": 3284,
+      "sha256": "e733cb7ac38873d81984ca3d4cbfa9d0f3581d741c8a843b36a5dd6e0f1da074"
+    },
+    {
+      "path": "public/game/documents/atlas/overlays/15-detail.webp",
+      "size": 25104,
+      "sha256": "ef1b37d26eef27482fced9fb6d7a1073249fd2336ec87beec3075ca4dc8cbcd8"
+    },
+    {
+      "path": "public/game/documents/atlas/overlays/15-overview.webp",
+      "size": 7264,
+      "sha256": "0b5a8cdda1b29593f32842f8074929b1addeee48cbb11cd6e9e17092dc58279a"
+    },
+    {
+      "path": "public/game/documents/atlas/overlays/16-detail.webp",
+      "size": 24160,
+      "sha256": "a614ea5ff4840fa1a33fa087ff66f7fe575bcd2409a2111c53f9ccaad382a6d8"
+    },
+    {
+      "path": "public/game/documents/atlas/overlays/16-overview.webp",
+      "size": 8786,
+      "sha256": "9440d3ecfb291ab22a97c40c9631f957bb7f592807e56352724d4c494ff9e6f0"
+    },
+    {
+      "path": "public/game/documents/atlas/overlays/44-detail.webp",
+      "size": 9370,
+      "sha256": "842230ca5ea6892f63058a5be8dc231fde5f7fffd92601c5a8b45a2450acd963"
+    },
+    {
+      "path": "public/game/documents/atlas/overlays/44-overview.webp",
+      "size": 2990,
+      "sha256": "4140fb7735954f46d7536bf6cc359174701952426d00949175a373353c0dbdd7"
+    },
+    {
+      "path": "public/game/documents/atlas/overlays/45-detail.webp",
+      "size": 65640,
+      "sha256": "5abe1de0ac3a756cc88c5ffc4304b0dc316c105c424fd05b32cd7dbb97b5d2fa"
+    },
+    {
+      "path": "public/game/documents/atlas/overlays/45-overview.webp",
+      "size": 15590,
+      "sha256": "c323f546dbafa13c497dbaaccab52b6f160a64613c3c532a5c2b429a6e53f950"
+    },
+    {
+      "path": "public/game/documents/atlas/overlays/51-detail.webp",
+      "size": 11858,
+      "sha256": "91650adb2771272ec0cce06deaf3d0912a9a4b2d2cf8fb6b16d195fb56448177"
+    },
+    {
+      "path": "public/game/documents/atlas/overlays/51-overview.webp",
+      "size": 1600,
+      "sha256": "a436fe1f46962d0c62daa3014e0cb6ab3dd936ebdd0b0d713c55302111a69b13"
+    },
+    {
+      "path": "public/game/documents/atlas/overlays/52-detail.webp",
+      "size": 102034,
+      "sha256": "e62d470dc02db1da3f8b70a97e1b0516f1a5f4f9550fb26ddbd5e06d2d32c942"
+    },
+    {
+      "path": "public/game/documents/atlas/overlays/52-overview.webp",
+      "size": 8500,
+      "sha256": "bb93b2ace2a202df129ef6e5b7d31756a9f4ab97ad25a396eab3316a78fbf3d7"
+    },
+    {
+      "path": "public/game/documents/atlas/overlays/53-detail.webp",
+      "size": 52494,
+      "sha256": "774c18029913ca3bb594e1efccbd0aee8da50cde17f89acb8bed67958fd857ef"
+    },
+    {
+      "path": "public/game/documents/atlas/overlays/53-overview.webp",
+      "size": 10214,
+      "sha256": "0b43c198f053c73ec9938205d555da190f2b41b99a4c921652d9c563975e4c17"
+    },
+    {
+      "path": "public/game/documents/atlas/overlays/54-detail.webp",
+      "size": 85346,
+      "sha256": "7255529f7bc9a9abb51931c13bd9598a8561d363bfb31126c4fd62c393f0bd1f"
+    },
+    {
+      "path": "public/game/documents/atlas/overlays/54-overview.webp",
+      "size": 10382,
+      "sha256": "3d54aee71050ce527d0f96b63dd41aa46db3a86229a0570e15fa672f52d76eda"
+    },
+    {
+      "path": "public/game/documents/atlas/overlays/55-detail.webp",
+      "size": 62840,
+      "sha256": "93146b48fc399fc63633cb3db0450d2dc2058f0ab59c51ab5691245e805d3452"
+    },
+    {
+      "path": "public/game/documents/atlas/overlays/55-overview.webp",
+      "size": 8126,
+      "sha256": "b8cf6b227e0bd88af7be0a81e8c29e201ac3240a6a8ec7fab8ccaac719ed0992"
+    },
+    {
+      "path": "public/game/documents/atlas/overlays/60-detail.webp",
+      "size": 16190,
+      "sha256": "be178fc7ab65d749742003fbb806754b716b3349ee7b7016cabcd7035e438a37"
+    },
+    {
+      "path": "public/game/documents/atlas/overlays/60-overview.webp",
+      "size": 3832,
+      "sha256": "b087ce301e8aa7f2e88235dba0c636ff3e64874b0d57f4c985b4ad9e923999a8"
+    },
+    {
+      "path": "public/game/documents/atlas/overlays/61-detail.webp",
+      "size": 34322,
+      "sha256": "21281de8e5117ff8f808a3da535bf85068780bf87ba2297bd50669cc1e26e0a9"
+    },
+    {
+      "path": "public/game/documents/atlas/overlays/61-overview.webp",
+      "size": 4668,
+      "sha256": "dea467da76393ce160969e24d51a2501214b4f83afca4e6c13497a12dc5a061b"
+    },
+    {
+      "path": "public/game/documents/atlas/overlays/62-detail.webp",
+      "size": 8402,
+      "sha256": "376b0ca85397545893bc9f96c8f980db54d4963c0ae6fe42589e07f9473f4b76"
+    },
+    {
+      "path": "public/game/documents/atlas/overlays/62-overview.webp",
+      "size": 1988,
+      "sha256": "158fcaa5606ae7928eb2bce7f300be10ebd018a3e3a6a0417ed5e71384e1b200"
+    },
+    {
+      "path": "public/game/documents/atlas/overlays/63-detail.webp",
+      "size": 36284,
+      "sha256": "f0b148e1d1cf13249669481e93b7f58c51256680f95c5d3a4f9897dd4ffd572b"
+    },
+    {
+      "path": "public/game/documents/atlas/overlays/63-overview.webp",
+      "size": 6356,
+      "sha256": "a119f7c770f61187e5e580fc33b604e6c792e205c1e1b8b407bceb9905da3d2c"
+    },
+    {
+      "path": "public/game/documents/atlas/overlays/64-detail.webp",
+      "size": 23708,
+      "sha256": "96495e613d01a08d5d6234d09e858d6725d507be27c504aa02f0a2fabc98d350"
+    },
+    {
+      "path": "public/game/documents/atlas/overlays/64-overview.webp",
+      "size": 5148,
+      "sha256": "bd1494c067897869dd12a3c97b0fca7e2b0018d279a8ba180fa0410a9713a19d"
+    },
+    {
+      "path": "public/game/documents/atlas/overlays/66-detail.webp",
+      "size": 4712,
+      "sha256": "5a3fb3734bfb443ff7615ff1fb4a2b39d20a45385602e13a482b0fa679dcbac5"
+    },
+    {
+      "path": "public/game/documents/atlas/overlays/66-overview.webp",
+      "size": 1490,
+      "sha256": "33cbbc897c322187eb9f0efca4c42223ccbadb9a77099d4bf51abd49db6ae7e5"
+    },
+    {
+      "path": "public/game/documents/atlas/overlays/67-detail.webp",
+      "size": 17936,
+      "sha256": "4726df9b75fdce732e7b461e59fbefebb1bfbb3f77e648c576c88564699d2f1e"
+    },
+    {
+      "path": "public/game/documents/atlas/overlays/67-overview.webp",
+      "size": 4662,
+      "sha256": "174e0f8829424344b0221659b329328ec741323fd6250a498b78e3824ea52b74"
+    },
+    {
+      "path": "public/game/documents/atlas/overlays/68-detail.webp",
+      "size": 19606,
+      "sha256": "6626bd3885643de3fd07e2ad4dedd2622267a27bb4a7ae86ddb94686e0742413"
+    },
+    {
+      "path": "public/game/documents/atlas/overlays/68-overview.webp",
+      "size": 3712,
+      "sha256": "289c4c999564156e9acdde86316d6392449461788ce4e36538cb18afcdac8b8f"
+    },
+    {
+      "path": "public/game/documents/atlas/overlays/73-detail.webp",
+      "size": 45008,
+      "sha256": "fc941b8c3ca62b2f78c5ce80b5c7952ff96e1c5f2c001413742817865ee4b37b"
+    },
+    {
+      "path": "public/game/documents/atlas/overlays/73-overview.webp",
+      "size": 6954,
+      "sha256": "db80841b4817fb2dd0811ddd6cd729bf91d6b88767ceb7cacdacd3563618ed59"
+    },
+    {
+      "path": "public/game/documents/atlas/overlays/74-detail.webp",
+      "size": 13218,
+      "sha256": "eaaaa74f46b1f8a08553a8511466278a2aaad9996e4fa54a7db51cf18448e158"
+    },
+    {
+      "path": "public/game/documents/atlas/overlays/74-overview.webp",
+      "size": 4182,
+      "sha256": "a8378f263c16ff73a536d47937c7f1dfc5ac6decccaeb39836a544a526cda7c7"
+    },
+    {
+      "path": "public/game/documents/atlas/overlays/75-detail.webp",
+      "size": 4344,
+      "sha256": "de321956054b5bfb0fef0317b94857d9b8174333a5de889533bb0b2ffb9482f8"
+    },
+    {
+      "path": "public/game/documents/atlas/overlays/75-overview.webp",
+      "size": 2206,
+      "sha256": "caffd41800276b6d6354b28e9dfb80c6fa94d9f94de74d143f2f5d64b3990c2e"
+    },
+    {
+      "path": "public/game/documents/atlas/overlays/9-detail.webp",
+      "size": 12072,
+      "sha256": "3ee3134100a4febc96ae5c6d5ba07518ac35377a1b8914de78e8530cd9ab30ee"
+    },
+    {
+      "path": "public/game/documents/atlas/overlays/9-overview.webp",
+      "size": 2212,
+      "sha256": "83342ebce4a7291d4eb46a00d5e8ee7026b8516b94005cef8a4230510bb1a4c1"
+    },
+    {
+      "path": "public/game/documents/atlas/ui/naviga-0.webp",
+      "size": 3268,
+      "sha256": "d329f214551f29c599d3e8664f28fd0a5f8a97f826b990bf854ed51e7d36e65f"
+    },
+    {
+      "path": "public/game/documents/atlas/ui/naviga-5.webp",
+      "size": 2048,
+      "sha256": "05f79c3d009bc41a01e6d3f4836749b631b3dc3517ca6cdd3e8c6a13c296068d"
+    },
+    {
+      "path": "public/game/documents/atlas/ui/naviga4-13.webp",
+      "size": 2606,
+      "sha256": "7144321cb647f3c38057ea8845223bcdcc1a0c5b8850260bfdaa8acac4e05826"
+    },
+    {
+      "path": "public/game/documents/atlas/ui/naviga4-18.webp",
+      "size": 1898,
+      "sha256": "3305504913204902bb370eeb8cdb8b53659d9518e14fac5dff56c5a5bb2d2290"
+    },
+    {
+      "path": "public/game/documents/atlas/ui/naviga4-3.webp",
+      "size": 350,
+      "sha256": "3fa4c9e6fd9221a2189c430fe9aaac1222a48629c98985ccc6ba979e0837f41c"
+    },
+    {
+      "path": "public/game/documents/atlas/ui/naviga4-4.webp",
+      "size": 438,
+      "sha256": "d056f6d189ac4b3cac2e5ac4ea6270c5022737efdfe428d7faa6ab0244c42052"
+    },
+    {
+      "path": "public/game/documents/atlas/ui/naviga4-5.webp",
+      "size": 274,
+      "sha256": "953c2a76821ad0a351ec119dc91b62afcca23990e3d21d7c4be5ab849a7f1154"
+    },
+    {
+      "path": "public/game/documents/atlas/ui/naviga4-7.webp",
+      "size": 356,
+      "sha256": "ac54b4de85cdddaab1213de9d0c8500e2885533bfa2d887f60e2eb75a13cdffe"
+    },
+    {
+      "path": "public/game/documents/atlas/ui/naviga4-8.webp",
+      "size": 392,
+      "sha256": "2c0789c326f78c634a5b91a237c3b4d6ac8fad90923a4ab7c398b7f02fbeb9ab"
+    },
+    {
+      "path": "public/game/documents/atlas/ui/win_nav-0.webp",
+      "size": 21494,
+      "sha256": "072541c5d9799455f8237fdc8c0a2c2534cd84ce3f03db8f2a2fab7b74084f7c"
+    },
+    {
       "path": "public/game/documents/catalog.json",
       "size": 1124,
       "sha256": "ea1f9f073dfd99311058c3d5ae2af2e129007af5e0cc6e5d7e5178e61c11c688"
@@ -4202,16 +5932,6 @@
       "sha256": "8e4621379786ef42a4fec155cd525c291dd7db3c1fde3478522f4f61c03fd1bd"
     },
     {
-      "path": "public/game/documents/native/ATLAS.ITK",
-      "size": 15469994,
-      "sha256": "605bf35ab6fc0b8b4d83afb5913fd42694eeb9df874953307081eb5a99c667be"
-    },
-    {
-      "path": "public/game/documents/native/ATLAS.STK",
-      "size": 44920980,
-      "sha256": "67fdb6b1ab65beccdcbbb5fe583eaf0a773a1d30242a9874831be883ba974e86"
-    },
-    {
       "path": "public/game/documents/native/CURSOR32.DLL",
       "size": 44576,
       "sha256": "4ad8aad0c3229dddb9b05f1ab73ecc2eab756a6f84278a1cc29b5feb0e326e90"
@@ -4233,8 +5953,8 @@
     },
     {
       "path": "public/game/documents/native/manifest.json",
-      "size": 1123,
-      "sha256": "c86f34051fc9b72a1fc68532452d72a2b420ecf014858c0a665b1fa95dc08885"
+      "size": 829,
+      "sha256": "cda65df82cdb308b31c67a34ad7e52d5ec155815dcd3f0be14dbc040fa86bb8f"
     },
     {
       "path": "public/game/documents/planete/0-image.webp",
@@ -29468,8 +31188,8 @@
     },
     {
       "path": "public/vendor/documents/README.md",
-      "size": 2008,
-      "sha256": "af7a4927ae44d928ae3b15c24340c043ab71e856f576bc99e62e93bcf93d60c6"
+      "size": 1994,
+      "sha256": "48dc3a5e72fe45d3ef7d194eb4138b9e5fc9d4856dbec50527db7ab0ac1100e7"
     },
     {
       "path": "public/vendor/documents/rebuild.sh",

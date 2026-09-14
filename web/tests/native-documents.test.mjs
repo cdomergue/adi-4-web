@@ -7,22 +7,18 @@ const base = new URL('../public/game/documents/native/', import.meta.url);
 const manifest = JSON.parse(await readFile(new URL('manifest.json', base), 'utf8'));
 
 test('documents load only their own CD archives and reject invalid selections', () => {
-  assert.deepEqual(
-    documentFiles('atlas', manifest).map((f) => f.name),
-    ['INTRO.STK', 'AE63F421.CD1', 'CURSOR32.DLL', 'ATLAS.STK', 'ATLAS.ITK'],
-  );
   for (const id of ['s16', 's17', 's12', 's14', 's07', 's08']) {
     assert.deepEqual(
       documentFiles(id, manifest).map((f) => f.name),
       ['INTRO.STK', 'AE63F421.CD1', 'CURSOR32.DLL', 'SIMULC.STK', 'SIMULC.ITK'],
     );
   }
-  for (const id of ['constructor', '__proto__', '../atlas', '', null])
+  for (const id of ['constructor', '__proto__', '../atlas', 'atlas', '', null])
     assert.throws(() => documentFiles(id, manifest), /inconnu/);
-  assert.throws(() => documentFiles('atlas', { files: [] }), /invalide/);
+  assert.throws(() => documentFiles('s16', { files: [] }), /invalide/);
   const altered = structuredClone(manifest);
-  altered.files.find((f) => f.name === 'ATLAS.STK').size = -1;
-  assert.throws(() => documentFiles('atlas', altered), /invalide/);
+  altered.files.find((f) => f.name === 'SIMULC.STK').size = -1;
+  assert.throws(() => documentFiles('s16', altered), /invalide/);
 });
 
 test('bundled CD archives contain each selected program and match their original hashes', async () => {
@@ -49,7 +45,7 @@ test('bundled CD archives contain each selected program and match their original
     }
     archives.set(file.name, names);
   }
-  assert.equal(new Set(Object.values(nativeDocuments).map((d) => d.program)).size, 7);
+  assert.equal(new Set(Object.values(nativeDocuments).map((d) => d.program)).size, 6);
   for (const spec of Object.values(nativeDocuments))
     assert.ok(archives.get(`${spec.archive}.STK`).has(`${spec.program}.TOT`), spec.title);
 });

@@ -18,16 +18,6 @@
       "sha256": "4ad8aad0c3229dddb9b05f1ab73ecc2eab756a6f84278a1cc29b5feb0e326e90"
     },
     {
-      "name": "ATLAS.STK",
-      "size": 44920980,
-      "sha256": "67fdb6b1ab65beccdcbbb5fe583eaf0a773a1d30242a9874831be883ba974e86"
-    },
-    {
-      "name": "ATLAS.ITK",
-      "size": 15469994,
-      "sha256": "605bf35ab6fc0b8b4d83afb5913fd42694eeb9df874953307081eb5a99c667be"
-    },
-    {
       "name": "SIMULC.STK",
       "size": 2278066,
       "sha256": "84d2a2487f2c19208fe1d7078cdfb7e9035e59425b1a2f63d0902af5ee3f4a13"

@@ -1,0 +1,1613 @@
+{
+  "format": 1,
+  "catalogue": [
+    {
+      "id": "ED_018",
+      "resource": "ED_018",
+      "width": 495,
+      "height": 280,
+      "title": "Les idéogrammes du chinois de Beijing (extraits)",
+      "media": {
+        "kind": "graphic",
+        "resourceIndex": 10,
+        "src": "/game/documents/atlas/media/emm-0010.png",
+        "caption": [
+          "Cette écriture compte 30 000 idéogrammes. Ces signes ne",
+          "transcrivent pas comme nos lettres des sons mais des mots."
+        ]
+      },
+      "caption": [
+        "Cette écriture compte 30 000 idéogrammes. Ces signes ne",
+        "transcrivent pas comme nos lettres des sons mais des mots."
+      ],
+      "src": "/game/documents/atlas/media/emm-0010.png",
+      "kind": "graphic"
+    },
+    {
+      "id": "ED_019",
+      "resource": "ED_019",
+      "width": 495,
+      "height": 280,
+      "title": "L'alphabet arabe (Arabe, Persan, Ourdou)",
+      "media": {
+        "kind": "graphic",
+        "resourceIndex": 11,
+        "src": "/game/documents/atlas/media/emm-0011.png",
+        "caption": [
+          "Cette écriture se lit de droite à gauche. Chaque lettre a",
+          "trois formes : pour le début, le centre ou la fin d'un mot."
+        ]
+      },
+      "caption": [
+        "Cette écriture se lit de droite à gauche. Chaque lettre a",
+        "trois formes : pour le début, le centre ou la fin d'un mot."
+      ],
+      "src": "/game/documents/atlas/media/emm-0011.png",
+      "kind": "graphic"
+    },
+    {
+      "id": "ED_068",
+      "resource": "ED_068",
+      "width": 495,
+      "height": 280,
+      "title": "L'alphabet hébreu",
+      "media": {
+        "kind": "graphic",
+        "resourceIndex": 12,
+        "src": "/game/documents/atlas/media/emm-0012.png",
+        "caption": [
+          "Majuscules et minuscules. Il s'écrit de droite à gauche.",
+          "Ses voyelles sont notées par des signes sous les consonnes."
+        ]
+      },
+      "caption": [
+        "Majuscules et minuscules. Il s'écrit de droite à gauche.",
+        "Ses voyelles sont notées par des signes sous les consonnes."
+      ],
+      "src": "/game/documents/atlas/media/emm-0012.png",
+      "kind": "graphic"
+    },
+    {
+      "id": "ED_069",
+      "resource": "ED_069",
+      "width": 495,
+      "height": 280,
+      "title": "L'alphabet latin (Langues latines, germaniques,...)",
+      "media": {
+        "kind": "graphic",
+        "resourceIndex": 13,
+        "src": "/game/documents/atlas/media/emm-0013.png",
+        "caption": [
+          "Majuscules et minuscules. Il est issu de l'alphabet",
+          "grec et est utilisé par environ la moitié de l'humanité."
+        ]
+      },
+      "caption": [
+        "Majuscules et minuscules. Il est issu de l'alphabet",
+        "grec et est utilisé par environ la moitié de l'humanité."
+      ],
+      "src": "/game/documents/atlas/media/emm-0013.png",
+      "kind": "graphic"
+    },
+    {
+      "id": "ED_070",
+      "resource": "ED_070",
+      "width": 495,
+      "height": 280,
+      "title": "L'alphabet éthiopien",
+      "media": {
+        "kind": "graphic",
+        "resourceIndex": 14,
+        "src": "/game/documents/atlas/media/emm-0014.png",
+        "caption": [
+          "Cet alphabet est constitué de consonnes que l'on déforme",
+          " pour noter les voyelles. On obtient 231 signes syllabiques."
+        ]
+      },
+      "caption": [
+        "Cet alphabet est constitué de consonnes que l'on déforme",
+        " pour noter les voyelles. On obtient 231 signes syllabiques."
+      ],
+      "src": "/game/documents/atlas/media/emm-0014.png",
+      "kind": "graphic"
+    },
+    {
+      "id": "ED_071",
+      "resource": "ED_071",
+      "width": 495,
+      "height": 280,
+      "title": "L'alphabet thaï-lao (Thaïlande, Laos)",
+      "media": {
+        "kind": "graphic",
+        "resourceIndex": 15,
+        "src": "/game/documents/atlas/media/emm-0015.png",
+        "caption": [
+          "Tu vois 44 consonnes dont certaines ne servent plus,",
+          "si ce n'est pour quelques noms, propres en général."
+        ]
+      },
+      "caption": [
+        "Tu vois 44 consonnes dont certaines ne servent plus,",
+        "si ce n'est pour quelques noms, propres en général."
+      ],
+      "src": "/game/documents/atlas/media/emm-0015.png",
+      "kind": "graphic"
+    },
+    {
+      "id": "ED_072",
+      "resource": "ED_072",
+      "width": 495,
+      "height": 280,
+      "title": "L'alphabet grec",
+      "media": {
+        "kind": "graphic",
+        "resourceIndex": 16,
+        "src": "/game/documents/atlas/media/emm-0016.png",
+        "caption": [
+          "Majuscules et minuscules. Il est issu de l'alphabet",
+          "phénicien inventé le premier, vers 1000 avant Jésus-Christ."
+        ]
+      },
+      "caption": [
+        "Majuscules et minuscules. Il est issu de l'alphabet",
+        "phénicien inventé le premier, vers 1000 avant Jésus-Christ."
+      ],
+      "src": "/game/documents/atlas/media/emm-0016.png",
+      "kind": "graphic"
+    },
+    {
+      "id": "ED_073",
+      "resource": "ED_073",
+      "width": 495,
+      "height": 280,
+      "title": "L'alphabet syllabique japonais (hiragana)",
+      "media": {
+        "kind": "graphic",
+        "resourceIndex": 17,
+        "src": "/game/documents/atlas/media/emm-0017.png",
+        "caption": [
+          "Chaque signe est une syllabe et non une lettre. Cet alphabet",
+          "s'emploie là où ne sont pas utilisés les idéogrammes."
+        ]
+      },
+      "caption": [
+        "Chaque signe est une syllabe et non une lettre. Cet alphabet",
+        "s'emploie là où ne sont pas utilisés les idéogrammes."
+      ],
+      "src": "/game/documents/atlas/media/emm-0017.png",
+      "kind": "graphic"
+    },
+    {
+      "id": "ED_074",
+      "resource": "ED_074",
+      "width": 495,
+      "height": 280,
+      "title": "L'alphabet coréen",
+      "media": {
+        "kind": "graphic",
+        "resourceIndex": 18,
+        "src": "/game/documents/atlas/media/emm-0018.png",
+        "caption": [
+          "L'alphabet coréen s'articule autour de dix consonnes",
+          "et de six voyelles simples."
+        ]
+      },
+      "caption": [
+        "L'alphabet coréen s'articule autour de dix consonnes",
+        "et de six voyelles simples."
+      ],
+      "src": "/game/documents/atlas/media/emm-0018.png",
+      "kind": "graphic"
+    },
+    {
+      "id": "ED_075",
+      "resource": "ED_075",
+      "width": 495,
+      "height": 280,
+      "title": "L'alphabet cyrillique (Russe, Bulgare, Serbe)",
+      "media": {
+        "kind": "graphic",
+        "resourceIndex": 19,
+        "src": "/game/documents/atlas/media/emm-0019.png",
+        "caption": [
+          "Majuscules et minuscules. Il est issu de l'alphabet grec et",
+          "a été créé au IXème siècle par des missionnaires chrétiens."
+        ]
+      },
+      "caption": [
+        "Majuscules et minuscules. Il est issu de l'alphabet grec et",
+        "a été créé au IXème siècle par des missionnaires chrétiens."
+      ],
+      "src": "/game/documents/atlas/media/emm-0019.png",
+      "kind": "graphic"
+    },
+    {
+      "id": "ED_076",
+      "resource": "ED_076",
+      "width": 495,
+      "height": 280,
+      "title": "L'alphabet devanagari (Hindi)",
+      "media": {
+        "kind": "graphic",
+        "resourceIndex": 20,
+        "src": "/game/documents/atlas/media/emm-0020.png",
+        "caption": [
+          "Dix voyelles isolées suivies de trente-trois consonnes.",
+          "Au sein des mots, les voyelles sont notées par des barres."
+        ]
+      },
+      "caption": [
+        "Dix voyelles isolées suivies de trente-trois consonnes.",
+        "Au sein des mots, les voyelles sont notées par des barres."
+      ],
+      "src": "/game/documents/atlas/media/emm-0020.png",
+      "kind": "graphic"
+    },
+    {
+      "id": "EG_005",
+      "resource": "EG_005",
+      "width": 495,
+      "height": 280,
+      "title": "Les quotas de production du lait dans la C.E.E. (1975-1990)",
+      "media": {
+        "kind": "graphic",
+        "resourceIndex": 21,
+        "src": "/game/documents/atlas/media/emm-0021.png",
+        "caption": [
+          "Pour remédier à la surproduction, la C.E.E. interdit aux",
+          "agriculteurs de produire trop de lait."
+        ]
+      },
+      "caption": [
+        "Pour remédier à la surproduction, la C.E.E. interdit aux",
+        "agriculteurs de produire trop de lait."
+      ],
+      "src": "/game/documents/atlas/media/emm-0021.png",
+      "kind": "graphic"
+    },
+    {
+      "id": "EG_021",
+      "resource": "EG_021",
+      "width": 495,
+      "height": 280,
+      "title": "Les climats des façades d'un continent (Bergen et Vladivostok)",
+      "media": {
+        "kind": "graphic",
+        "resourceIndex": 22,
+        "src": "/game/documents/atlas/media/emm-0022.png",
+        "caption": [
+          "A cause des vents, l'influence maritime se fait sentir toute",
+          "l'année à Bergen, seulement en été à Vladivostok."
+        ]
+      },
+      "caption": [
+        "A cause des vents, l'influence maritime se fait sentir toute",
+        "l'année à Bergen, seulement en été à Vladivostok."
+      ],
+      "src": "/game/documents/atlas/media/emm-0022.png",
+      "kind": "graphic"
+    },
+    {
+      "id": "EG_022",
+      "resource": "EG_022",
+      "width": 495,
+      "height": 280,
+      "title": "Les climats méditerranéens (Alger et Athènes)",
+      "media": {
+        "kind": "graphic",
+        "resourceIndex": 23,
+        "src": "/game/documents/atlas/media/emm-0023.png",
+        "caption": [
+          "Alger et Athènes sont 2 villes proches de la Méditerranée;",
+          "leur climat est doux l'hiver, chaud et sec l'été."
+        ]
+      },
+      "caption": [
+        "Alger et Athènes sont 2 villes proches de la Méditerranée;",
+        "leur climat est doux l'hiver, chaud et sec l'été."
+      ],
+      "src": "/game/documents/atlas/media/emm-0023.png",
+      "kind": "graphic"
+    },
+    {
+      "id": "EG_023",
+      "resource": "EG_023",
+      "width": 495,
+      "height": 280,
+      "title": "Les climats désertiques chaud (Tombouctou) et froid (Euréka)",
+      "media": {
+        "kind": "graphic",
+        "resourceIndex": 24,
+        "src": "/game/documents/atlas/media/emm-0024.png",
+        "caption": [
+          "Les déserts, chauds et froids, reçoivent peu de pluies.",
+          "C'est par leurs températures qu'ils se différencient."
+        ]
+      },
+      "caption": [
+        "Les déserts, chauds et froids, reçoivent peu de pluies.",
+        "C'est par leurs températures qu'ils se différencient."
+      ],
+      "src": "/game/documents/atlas/media/emm-0024.png",
+      "kind": "graphic"
+    },
+    {
+      "id": "EG_024",
+      "resource": "EG_024",
+      "width": 495,
+      "height": 280,
+      "title": "Les climats équatoriaux (Kuala Lumpur et Cayenne)",
+      "media": {
+        "kind": "graphic",
+        "resourceIndex": 25,
+        "src": "/game/documents/atlas/media/emm-0025.png",
+        "caption": [
+          "Les climats équatoriaux se caractérisent par de fortes",
+          "chaleurs mais surtout par une humidité extrême."
+        ]
+      },
+      "caption": [
+        "Les climats équatoriaux se caractérisent par de fortes",
+        "chaleurs mais surtout par une humidité extrême."
+      ],
+      "src": "/game/documents/atlas/media/emm-0025.png",
+      "kind": "graphic"
+    },
+    {
+      "id": "EG_025",
+      "resource": "EG_025",
+      "width": 495,
+      "height": 280,
+      "title": "Les climats tropicaux sec (Tombouctou) et humide (Honolulu)",
+      "media": {
+        "kind": "graphic",
+        "resourceIndex": 26,
+        "src": "/game/documents/atlas/media/emm-0026.png",
+        "caption": [
+          "La saison sèche est la plus longue à Tombouctou.",
+          "La saison humide est la plus longue à Honolulu."
+        ]
+      },
+      "caption": [
+        "La saison sèche est la plus longue à Tombouctou.",
+        "La saison humide est la plus longue à Honolulu."
+      ],
+      "src": "/game/documents/atlas/media/emm-0026.png",
+      "kind": "graphic"
+    },
+    {
+      "id": "EG_028",
+      "resource": "EG_028",
+      "width": 495,
+      "height": 280,
+      "title": "Climats océanique et continental (Brest et Montréal)",
+      "media": {
+        "kind": "graphic",
+        "resourceIndex": 27,
+        "src": "/game/documents/atlas/media/emm-0027.png",
+        "caption": [
+          "Ces deux villes sont situées en climat tempéré mais seule",
+          "Brest subit l'influence adoucissante de l'océan."
+        ]
+      },
+      "caption": [
+        "Ces deux villes sont situées en climat tempéré mais seule",
+        "Brest subit l'influence adoucissante de l'océan."
+      ],
+      "src": "/game/documents/atlas/media/emm-0027.png",
+      "kind": "graphic"
+    },
+    {
+      "id": "EG_030",
+      "resource": "EG_030",
+      "width": 345,
+      "height": 210,
+      "title": "Le climat océanique (Reykjavik)",
+      "media": {
+        "kind": "graphic",
+        "resourceIndex": 28,
+        "src": "/game/documents/atlas/media/emm-0028.png",
+        "caption": [
+          "Ce climat ne connaît pas d'excès climatiques (forte chaleur",
+          "ou gel fréquent) car la proximité de l'océan exerce une",
+          "influence adoucissante. En revanche, il pleut beaucoup."
+        ]
+      },
+      "caption": [
+        "Ce climat ne connaît pas d'excès climatiques (forte chaleur",
+        "ou gel fréquent) car la proximité de l'océan exerce une",
+        "influence adoucissante. En revanche, il pleut beaucoup."
+      ],
+      "src": "/game/documents/atlas/media/emm-0028.png",
+      "kind": "graphic"
+    },
+    {
+      "id": "EG_031",
+      "resource": "EG_031",
+      "width": 345,
+      "height": 210,
+      "title": "Le climat de transition océanique-continental (Copenhague)",
+      "media": {
+        "kind": "graphic",
+        "resourceIndex": 29,
+        "src": "/game/documents/atlas/media/emm-0029.png",
+        "caption": [
+          "Copenhague profite de l'influence de l'océan qui apporte",
+          "une constante humidité, mais le diagramme montre aussi une",
+          "amplitude thermique forte, propre au climat continental."
+        ]
+      },
+      "caption": [
+        "Copenhague profite de l'influence de l'océan qui apporte",
+        "une constante humidité, mais le diagramme montre aussi une",
+        "amplitude thermique forte, propre au climat continental."
+      ],
+      "src": "/game/documents/atlas/media/emm-0029.png",
+      "kind": "graphic"
+    },
+    {
+      "id": "EG_034",
+      "resource": "EG_034",
+      "width": 345,
+      "height": 210,
+      "title": "Le climat de mousson (Madras)",
+      "media": {
+        "kind": "graphic",
+        "resourceIndex": 30,
+        "src": "/game/documents/atlas/media/emm-0030.png",
+        "caption": [
+          "Madras est située dans le domaine tropical humide.",
+          "L'année y est partagée entre une saison sèche et une saison",
+          "des pluies mais les températures ne varient guère."
+        ]
+      },
+      "caption": [
+        "Madras est située dans le domaine tropical humide.",
+        "L'année y est partagée entre une saison sèche et une saison",
+        "des pluies mais les températures ne varient guère."
+      ],
+      "src": "/game/documents/atlas/media/emm-0030.png",
+      "kind": "graphic"
+    },
+    {
+      "id": "EG_036",
+      "resource": "EG_036",
+      "width": 345,
+      "height": 210,
+      "title": "Le climat méditerranéen (San Francisco)",
+      "media": {
+        "kind": "graphic",
+        "resourceIndex": 31,
+        "src": "/game/documents/atlas/media/emm-0031.png",
+        "caption": [
+          "Bien que située sur la côte Pacifique, San Francisco connaît",
+          "un climat méditerranéen: Les étés y sont chauds et secs, les",
+          "hivers doux et humides."
+        ]
+      },
+      "caption": [
+        "Bien que située sur la côte Pacifique, San Francisco connaît",
+        "un climat méditerranéen: Les étés y sont chauds et secs, les",
+        "hivers doux et humides."
+      ],
+      "src": "/game/documents/atlas/media/emm-0031.png",
+      "kind": "graphic"
+    },
+    {
+      "id": "EG_037",
+      "resource": "EG_037",
+      "width": 345,
+      "height": 210,
+      "title": "Le climat océanique (Whangareï)",
+      "media": {
+        "kind": "graphic",
+        "resourceIndex": 32,
+        "src": "/game/documents/atlas/media/emm-0032.png",
+        "caption": [
+          "L'océan exerce ici une influence adoucissante : les hivers",
+          "sont doux et humides, les étés tièdes. Le temps est",
+          "changeant."
+        ]
+      },
+      "caption": [
+        "L'océan exerce ici une influence adoucissante : les hivers",
+        "sont doux et humides, les étés tièdes. Le temps est",
+        "changeant."
+      ],
+      "src": "/game/documents/atlas/media/emm-0032.png",
+      "kind": "graphic"
+    },
+    {
+      "id": "EG_038",
+      "resource": "EG_038",
+      "width": 345,
+      "height": 210,
+      "title": "Le climat de mousson (Beira)",
+      "media": {
+        "kind": "graphic",
+        "resourceIndex": 33,
+        "src": "/game/documents/atlas/media/emm-0033.png",
+        "caption": [
+          "Beira est située en climat tropical humide. La température",
+          "y est presque constante et les précipitations dessinent deux",
+          "saisons. L'une est très humide, l'autre plus sèche."
+        ]
+      },
+      "caption": [
+        "Beira est située en climat tropical humide. La température",
+        "y est presque constante et les précipitations dessinent deux",
+        "saisons. L'une est très humide, l'autre plus sèche."
+      ],
+      "src": "/game/documents/atlas/media/emm-0033.png",
+      "kind": "graphic"
+    },
+    {
+      "id": "EG_039",
+      "resource": "EG_039",
+      "width": 345,
+      "height": 210,
+      "title": "Le climat d'alizé (Salvador)",
+      "media": {
+        "kind": "graphic",
+        "resourceIndex": 34,
+        "src": "/game/documents/atlas/media/emm-0034.png",
+        "caption": [
+          "Cette ville est située en climat tropical ; il y fait chaud",
+          "et humide toute l'année, mais on remarque néanmoins deux",
+          "saisons : une saison des pluies et une saison plus sèche."
+        ]
+      },
+      "caption": [
+        "Cette ville est située en climat tropical ; il y fait chaud",
+        "et humide toute l'année, mais on remarque néanmoins deux",
+        "saisons : une saison des pluies et une saison plus sèche."
+      ],
+      "src": "/game/documents/atlas/media/emm-0034.png",
+      "kind": "graphic"
+    },
+    {
+      "id": "EG_040",
+      "resource": "EG_040",
+      "width": 345,
+      "height": 210,
+      "title": "Le climat subpolaire océanique (Ushuaïa)",
+      "media": {
+        "kind": "graphic",
+        "resourceIndex": 35,
+        "src": "/game/documents/atlas/media/emm-0035.png",
+        "caption": [
+          "Bien que Ushuaïa soit située à une très haute latitude,",
+          "son climat n'est pas marqué par le froid car il est adouci",
+          "par la proximité de l'océan, comme tout climat océanique."
+        ]
+      },
+      "caption": [
+        "Bien que Ushuaïa soit située à une très haute latitude,",
+        "son climat n'est pas marqué par le froid car il est adouci",
+        "par la proximité de l'océan, comme tout climat océanique."
+      ],
+      "src": "/game/documents/atlas/media/emm-0035.png",
+      "kind": "graphic"
+    },
+    {
+      "id": "EG_041",
+      "resource": "EG_041",
+      "width": 345,
+      "height": 210,
+      "title": "Le climat continental (Moscou)",
+      "media": {
+        "kind": "graphic",
+        "resourceIndex": 36,
+        "src": "/game/documents/atlas/media/emm-0036.png",
+        "caption": [
+          "En climat continental, l'amplitude thermique entre été et",
+          "hiver est importante. Les hivers, rigoureux, contrastent",
+          "avec des étés relativement chauds."
+        ]
+      },
+      "caption": [
+        "En climat continental, l'amplitude thermique entre été et",
+        "hiver est importante. Les hivers, rigoureux, contrastent",
+        "avec des étés relativement chauds."
+      ],
+      "src": "/game/documents/atlas/media/emm-0036.png",
+      "kind": "graphic"
+    },
+    {
+      "id": "EG_042",
+      "resource": "EG_042",
+      "width": 345,
+      "height": 210,
+      "title": "Le climat continental en Amérique du Nord (Bismarck)",
+      "media": {
+        "kind": "graphic",
+        "resourceIndex": 37,
+        "src": "/game/documents/atlas/media/emm-0037.png",
+        "caption": [
+          "Bismarck est située en climat continental car elle ne subit",
+          "pas d'influence océanique. Cela explique un contraste entre",
+          "hiver et été très marqué (températures et précipitations)."
+        ]
+      },
+      "caption": [
+        "Bismarck est située en climat continental car elle ne subit",
+        "pas d'influence océanique. Cela explique un contraste entre",
+        "hiver et été très marqué (températures et précipitations)."
+      ],
+      "src": "/game/documents/atlas/media/emm-0037.png",
+      "kind": "graphic"
+    },
+    {
+      "id": "EG_043",
+      "resource": "EG_043",
+      "width": 345,
+      "height": 210,
+      "title": "Le climat continental en Asie (Irkoutsk)",
+      "media": {
+        "kind": "graphic",
+        "resourceIndex": 38,
+        "src": "/game/documents/atlas/media/emm-0038.png",
+        "caption": [
+          "Irkoutsk subit de très forts contrastes saisonniers :",
+          "l'hiver sec et très froid s'oppose à un été chaud et arrosé",
+          "durant lequel éclatent de nombreux orages."
+        ]
+      },
+      "caption": [
+        "Irkoutsk subit de très forts contrastes saisonniers :",
+        "l'hiver sec et très froid s'oppose à un été chaud et arrosé",
+        "durant lequel éclatent de nombreux orages."
+      ],
+      "src": "/game/documents/atlas/media/emm-0038.png",
+      "kind": "graphic"
+    },
+    {
+      "id": "EG_044",
+      "resource": "EG_044",
+      "width": 345,
+      "height": 210,
+      "title": "Le climat soudanien (N'Djaména)",
+      "media": {
+        "kind": "graphic",
+        "resourceIndex": 39,
+        "src": "/game/documents/atlas/media/emm-0039.png",
+        "caption": [
+          "C'est un climat tropical sec. Comme le Tchad est assez",
+          "éloigné de l'équateur, la saison des pluies est assez courte",
+          " alors que la saison sèche dure 7 à 8 mois."
+        ]
+      },
+      "caption": [
+        "C'est un climat tropical sec. Comme le Tchad est assez",
+        "éloigné de l'équateur, la saison des pluies est assez courte",
+        " alors que la saison sèche dure 7 à 8 mois."
+      ],
+      "src": "/game/documents/atlas/media/emm-0039.png",
+      "kind": "graphic"
+    },
+    {
+      "id": "EG_045",
+      "resource": "EG_045",
+      "width": 345,
+      "height": 210,
+      "title": "Le climat tropical de la côte ouest mexicaine (Acapulco)",
+      "media": {
+        "kind": "graphic",
+        "resourceIndex": 40,
+        "src": "/game/documents/atlas/media/emm-0040.png",
+        "caption": [
+          "Sur la côte ouest du Mexique, l'amplitude thermique est",
+          "quasiment inexistante. En revanche, la quantité des",
+          "précipitations varie fortement d'une saison à l'autre."
+        ]
+      },
+      "caption": [
+        "Sur la côte ouest du Mexique, l'amplitude thermique est",
+        "quasiment inexistante. En revanche, la quantité des",
+        "précipitations varie fortement d'une saison à l'autre."
+      ],
+      "src": "/game/documents/atlas/media/emm-0040.png",
+      "kind": "graphic"
+    },
+    {
+      "id": "EG_048",
+      "resource": "EG_048",
+      "width": 345,
+      "height": 210,
+      "title": "Le climat désertique côtier (Lima)",
+      "media": {
+        "kind": "graphic",
+        "resourceIndex": 41,
+        "src": "/game/documents/atlas/media/emm-0041.png",
+        "caption": [
+          "La ville de Lima au Pérou est située dans le domaine aride:",
+          "il n'y pleut presque pas. En revanche, les températures sont",
+          "atténuées par le courant de Humboldt, qui est froid."
+        ]
+      },
+      "caption": [
+        "La ville de Lima au Pérou est située dans le domaine aride:",
+        "il n'y pleut presque pas. En revanche, les températures sont",
+        "atténuées par le courant de Humboldt, qui est froid."
+      ],
+      "src": "/game/documents/atlas/media/emm-0041.png",
+      "kind": "graphic"
+    },
+    {
+      "id": "EP_005",
+      "resource": "EP_005",
+      "width": 613,
+      "height": 400,
+      "title": "La banlieue du Caire (Egypte)",
+      "media": {
+        "kind": "photo",
+        "resourceIndex": 43,
+        "src": "/game/documents/atlas/media/emm-0043.png"
+      },
+      "src": "/game/documents/atlas/media/emm-0043.png",
+      "kind": "photo"
+    },
+    {
+      "id": "EP_008",
+      "resource": "EP_008",
+      "width": 597,
+      "height": 400,
+      "title": "Un désert chaud (Etats-Unis)",
+      "media": {
+        "kind": "photo",
+        "resourceIndex": 44,
+        "src": "/game/documents/atlas/media/emm-0044.png"
+      },
+      "src": "/game/documents/atlas/media/emm-0044.png",
+      "kind": "photo"
+    },
+    {
+      "id": "EP_044",
+      "resource": "EP_044",
+      "width": 585,
+      "height": 400,
+      "title": "Un centre commercial à Tokyo (Japon)",
+      "media": {
+        "kind": "photo",
+        "resourceIndex": 45,
+        "src": "/game/documents/atlas/media/emm-0045.png"
+      },
+      "src": "/game/documents/atlas/media/emm-0045.png",
+      "kind": "photo"
+    },
+    {
+      "id": "EP_047",
+      "resource": "EP_047",
+      "width": 587,
+      "height": 400,
+      "title": "La riziculture en Asie",
+      "media": {
+        "kind": "photo",
+        "resourceIndex": 47,
+        "src": "/game/documents/atlas/media/emm-0047.png"
+      },
+      "src": "/game/documents/atlas/media/emm-0047.png",
+      "kind": "photo"
+    },
+    {
+      "id": "EP_053",
+      "resource": "EP_053",
+      "width": 601,
+      "height": 400,
+      "title": "Un désert chaud (Australie)",
+      "media": {
+        "kind": "photo",
+        "resourceIndex": 48,
+        "src": "/game/documents/atlas/media/emm-0048.png"
+      },
+      "src": "/game/documents/atlas/media/emm-0048.png",
+      "kind": "photo"
+    },
+    {
+      "id": "EP_071",
+      "resource": "EP_071",
+      "width": 596,
+      "height": 400,
+      "title": "La circulation à vélo en Chine",
+      "media": {
+        "kind": "photo",
+        "resourceIndex": 51,
+        "src": "/game/documents/atlas/media/emm-0051.png"
+      },
+      "src": "/game/documents/atlas/media/emm-0051.png",
+      "kind": "photo"
+    },
+    {
+      "id": "EP_084",
+      "resource": "EP_084",
+      "width": 274,
+      "height": 400,
+      "title": "Une forêt humide (Amazonie, Brésil)",
+      "media": {
+        "kind": "photo",
+        "resourceIndex": 52,
+        "src": "/game/documents/atlas/media/emm-0052.png"
+      },
+      "src": "/game/documents/atlas/media/emm-0052.png",
+      "kind": "photo"
+    },
+    {
+      "id": "EP_098",
+      "resource": "EP_098",
+      "width": 603,
+      "height": 400,
+      "title": "Un désert continental (Xinjiang, Chine)",
+      "media": {
+        "kind": "photo",
+        "resourceIndex": 55,
+        "src": "/game/documents/atlas/media/emm-0055.png"
+      },
+      "src": "/game/documents/atlas/media/emm-0055.png",
+      "kind": "photo"
+    },
+    {
+      "id": "EP_100",
+      "resource": "EP_100",
+      "width": 606,
+      "height": 400,
+      "title": "Une centrale nucléaire occidentale (France)",
+      "media": {
+        "kind": "photo",
+        "resourceIndex": 56,
+        "src": "/game/documents/atlas/media/emm-0056.png"
+      },
+      "src": "/game/documents/atlas/media/emm-0056.png",
+      "kind": "photo"
+    },
+    {
+      "id": "EP_101",
+      "resource": "EP_101",
+      "width": 600,
+      "height": 400,
+      "title": "Un grumier sur le Saint-Laurent (Canada)",
+      "media": {
+        "kind": "photo",
+        "resourceIndex": 57,
+        "src": "/game/documents/atlas/media/emm-0057.png"
+      },
+      "src": "/game/documents/atlas/media/emm-0057.png",
+      "kind": "photo"
+    },
+    {
+      "id": "EP_102",
+      "resource": "EP_102",
+      "width": 264,
+      "height": 400,
+      "title": "Une exploitation forestière (Canada)",
+      "media": {
+        "kind": "photo",
+        "resourceIndex": 58,
+        "src": "/game/documents/atlas/media/emm-0058.png"
+      },
+      "src": "/game/documents/atlas/media/emm-0058.png",
+      "kind": "photo"
+    },
+    {
+      "id": "EP_103",
+      "resource": "EP_103",
+      "width": 599,
+      "height": 400,
+      "title": "Une aire de stockage de pétrole",
+      "media": {
+        "kind": "photo",
+        "resourceIndex": 59,
+        "src": "/game/documents/atlas/media/emm-0059.png"
+      },
+      "src": "/game/documents/atlas/media/emm-0059.png",
+      "kind": "photo"
+    },
+    {
+      "id": "EP_109",
+      "resource": "EP_109",
+      "width": 270,
+      "height": 400,
+      "title": "Un sol asséché",
+      "media": {
+        "kind": "photo",
+        "resourceIndex": 60,
+        "src": "/game/documents/atlas/media/emm-0060.png"
+      },
+      "src": "/game/documents/atlas/media/emm-0060.png",
+      "kind": "photo"
+    },
+    {
+      "id": "EP_115",
+      "resource": "EP_115",
+      "width": 594,
+      "height": 400,
+      "title": "Une palmeraie en Egypte",
+      "media": {
+        "kind": "photo",
+        "resourceIndex": 61,
+        "src": "/game/documents/atlas/media/emm-0061.png"
+      },
+      "src": "/game/documents/atlas/media/emm-0061.png",
+      "kind": "photo"
+    },
+    {
+      "id": "EP_116",
+      "resource": "EP_116",
+      "width": 607,
+      "height": 400,
+      "title": "Des super-tankers dans le Golfe Persique",
+      "media": {
+        "kind": "photo",
+        "resourceIndex": 62,
+        "src": "/game/documents/atlas/media/emm-0062.png"
+      },
+      "src": "/game/documents/atlas/media/emm-0062.png",
+      "kind": "photo"
+    },
+    {
+      "id": "EP_118",
+      "resource": "EP_118",
+      "width": 599,
+      "height": 400,
+      "title": "Une tannerie traditionnelle (Maroc)",
+      "media": {
+        "kind": "photo",
+        "resourceIndex": 63,
+        "src": "/game/documents/atlas/media/emm-0063.png"
+      },
+      "src": "/game/documents/atlas/media/emm-0063.png",
+      "kind": "photo"
+    },
+    {
+      "id": "EP_124",
+      "resource": "EP_124",
+      "width": 603,
+      "height": 400,
+      "title": "Un village traditionnel (Zimbabwe)",
+      "media": {
+        "kind": "photo",
+        "resourceIndex": 67,
+        "src": "/game/documents/atlas/media/emm-0067.png"
+      },
+      "src": "/game/documents/atlas/media/emm-0067.png",
+      "kind": "photo"
+    },
+    {
+      "id": "EP_168",
+      "resource": "EP_168",
+      "width": 593,
+      "height": 400,
+      "title": "Un paysage du Grand Nord canadien",
+      "media": {
+        "kind": "photo",
+        "resourceIndex": 78,
+        "src": "/game/documents/atlas/media/emm-0078.png"
+      },
+      "src": "/game/documents/atlas/media/emm-0078.png",
+      "kind": "photo"
+    },
+    {
+      "id": "EP_171",
+      "resource": "EP_171",
+      "width": 590,
+      "height": 400,
+      "title": "Une région polaire arctique inhabitée",
+      "media": {
+        "kind": "photo",
+        "resourceIndex": 79,
+        "src": "/game/documents/atlas/media/emm-0079.png"
+      },
+      "src": "/game/documents/atlas/media/emm-0079.png",
+      "kind": "photo"
+    },
+    {
+      "id": "EP_188",
+      "resource": "EP_188",
+      "width": 270,
+      "height": 400,
+      "title": "Le trafic routier intense à Bangkok (Thaïlande)",
+      "media": {
+        "kind": "photo",
+        "resourceIndex": 83,
+        "src": "/game/documents/atlas/media/emm-0083.png"
+      },
+      "src": "/game/documents/atlas/media/emm-0083.png",
+      "kind": "photo"
+    },
+    {
+      "id": "EP_194",
+      "resource": "EP_194",
+      "width": 594,
+      "height": 400,
+      "title": "La forte densité humaine en Chine",
+      "media": {
+        "kind": "photo",
+        "resourceIndex": 84,
+        "src": "/game/documents/atlas/media/emm-0084.png"
+      },
+      "src": "/game/documents/atlas/media/emm-0084.png",
+      "kind": "photo"
+    },
+    {
+      "id": "EP_204",
+      "resource": "EP_204",
+      "width": 598,
+      "height": 400,
+      "title": "Des cultures vivrières en Afrique",
+      "media": {
+        "kind": "photo",
+        "resourceIndex": 87,
+        "src": "/game/documents/atlas/media/emm-0087.png"
+      },
+      "src": "/game/documents/atlas/media/emm-0087.png",
+      "kind": "photo"
+    },
+    {
+      "id": "EP_205",
+      "resource": "EP_205",
+      "width": 598,
+      "height": 400,
+      "title": "Agriculture au Sahel (Mali)",
+      "media": {
+        "kind": "photo",
+        "resourceIndex": 88,
+        "src": "/game/documents/atlas/media/emm-0088.png"
+      },
+      "src": "/game/documents/atlas/media/emm-0088.png",
+      "kind": "photo"
+    },
+    {
+      "id": "EP_209",
+      "resource": "EP_209",
+      "width": 593,
+      "height": 400,
+      "title": "Un élevage Peul au Sahel (Mali)",
+      "media": {
+        "kind": "photo",
+        "resourceIndex": 90,
+        "src": "/game/documents/atlas/media/emm-0090.png"
+      },
+      "src": "/game/documents/atlas/media/emm-0090.png",
+      "kind": "photo"
+    },
+    {
+      "id": "EP_224",
+      "resource": "EP_224",
+      "width": 597,
+      "height": 400,
+      "title": "Agriculture de montagne (Bhoutan)",
+      "media": {
+        "kind": "photo",
+        "resourceIndex": 95,
+        "src": "/game/documents/atlas/media/emm-0095.png"
+      },
+      "src": "/game/documents/atlas/media/emm-0095.png",
+      "kind": "photo"
+    },
+    {
+      "id": "EP_225",
+      "resource": "EP_225",
+      "width": 598,
+      "height": 400,
+      "title": "Une mine en Australie",
+      "media": {
+        "kind": "photo",
+        "resourceIndex": 96,
+        "src": "/game/documents/atlas/media/emm-0096.png"
+      },
+      "src": "/game/documents/atlas/media/emm-0096.png",
+      "kind": "photo"
+    },
+    {
+      "id": "EP_228",
+      "resource": "EP_228",
+      "width": 605,
+      "height": 400,
+      "title": "Des openfields (Canada)",
+      "media": {
+        "kind": "photo",
+        "resourceIndex": 97,
+        "src": "/game/documents/atlas/media/emm-0097.png"
+      },
+      "src": "/game/documents/atlas/media/emm-0097.png",
+      "kind": "photo"
+    },
+    {
+      "id": "EP_294",
+      "resource": "EP_294",
+      "width": 632,
+      "height": 400,
+      "title": "Le forage du pétrole au Proche-Orient",
+      "media": {
+        "kind": "photo",
+        "resourceIndex": 100,
+        "src": "/game/documents/atlas/media/emm-0100.png"
+      },
+      "src": "/game/documents/atlas/media/emm-0100.png",
+      "kind": "photo"
+    },
+    {
+      "id": "EP_357",
+      "resource": "EP_357",
+      "width": 602,
+      "height": 400,
+      "title": "Un bocage en Irlande",
+      "media": {
+        "kind": "photo",
+        "resourceIndex": 103,
+        "src": "/game/documents/atlas/media/emm-0103.png"
+      },
+      "src": "/game/documents/atlas/media/emm-0103.png",
+      "kind": "photo"
+    },
+    {
+      "id": "ES_001",
+      "resource": "ES_001",
+      "width": 0,
+      "height": 0,
+      "title": "Voix en anglais britannique",
+      "media": {
+        "resource": "ES_001",
+        "width": 0,
+        "height": 0,
+        "frames": 77,
+        "kind": "audio",
+        "src": "/game/documents/atlas/media/es_001.flac",
+        "duration": 7.603
+      },
+      "src": "/game/documents/atlas/media/es_001.flac",
+      "kind": "audio"
+    },
+    {
+      "id": "ES_002",
+      "resource": "ES_002",
+      "width": 0,
+      "height": 0,
+      "title": "Voix en espagnol",
+      "media": {
+        "resource": "ES_002",
+        "width": 0,
+        "height": 0,
+        "frames": 62,
+        "kind": "audio",
+        "src": "/game/documents/atlas/media/es_002.flac",
+        "duration": 6.203
+      },
+      "src": "/game/documents/atlas/media/es_002.flac",
+      "kind": "audio"
+    },
+    {
+      "id": "ES_003",
+      "resource": "ES_003",
+      "width": 0,
+      "height": 0,
+      "title": "Voix en français",
+      "media": {
+        "resource": "ES_003",
+        "width": 0,
+        "height": 0,
+        "frames": 58,
+        "kind": "audio",
+        "src": "/game/documents/atlas/media/es_003.flac",
+        "duration": 5.803
+      },
+      "src": "/game/documents/atlas/media/es_003.flac",
+      "kind": "audio"
+    },
+    {
+      "id": "ES_004",
+      "resource": "ES_004",
+      "width": 0,
+      "height": 0,
+      "title": "Voix en allemand",
+      "media": {
+        "resource": "ES_004",
+        "width": 0,
+        "height": 0,
+        "frames": 74,
+        "kind": "audio",
+        "src": "/game/documents/atlas/media/es_004.flac",
+        "duration": 7.203
+      },
+      "src": "/game/documents/atlas/media/es_004.flac",
+      "kind": "audio"
+    },
+    {
+      "id": "ES_005",
+      "resource": "ES_005",
+      "width": 0,
+      "height": 0,
+      "title": "Voix en japonais",
+      "media": {
+        "resource": "ES_005",
+        "width": 0,
+        "height": 0,
+        "frames": 166,
+        "kind": "audio",
+        "src": "/game/documents/atlas/media/es_005.flac",
+        "duration": 16.607
+      },
+      "src": "/game/documents/atlas/media/es_005.flac",
+      "kind": "audio"
+    },
+    {
+      "id": "ES_006",
+      "resource": "ES_006",
+      "width": 0,
+      "height": 0,
+      "title": "Voix en chinois de Beijing",
+      "media": {
+        "resource": "ES_006",
+        "width": 0,
+        "height": 0,
+        "frames": 79,
+        "kind": "audio",
+        "src": "/game/documents/atlas/media/es_006.flac",
+        "duration": 7.803
+      },
+      "src": "/game/documents/atlas/media/es_006.flac",
+      "kind": "audio"
+    },
+    {
+      "id": "ES_007",
+      "resource": "ES_007",
+      "width": 0,
+      "height": 0,
+      "title": "Voix en arabe littéraire",
+      "media": {
+        "resource": "ES_007",
+        "width": 0,
+        "height": 0,
+        "frames": 70,
+        "kind": "audio",
+        "src": "/game/documents/atlas/media/es_007.flac",
+        "duration": 6.803
+      },
+      "src": "/game/documents/atlas/media/es_007.flac",
+      "kind": "audio"
+    },
+    {
+      "id": "ES_008",
+      "resource": "ES_008",
+      "width": 0,
+      "height": 0,
+      "title": "Voix en russe",
+      "media": {
+        "resource": "ES_008",
+        "width": 0,
+        "height": 0,
+        "frames": 73,
+        "kind": "audio",
+        "src": "/game/documents/atlas/media/es_008.flac",
+        "duration": 7.103
+      },
+      "src": "/game/documents/atlas/media/es_008.flac",
+      "kind": "audio"
+    },
+    {
+      "id": "ES_009",
+      "resource": "ES_009",
+      "width": 0,
+      "height": 0,
+      "title": "Voix en hindi",
+      "media": {
+        "resource": "ES_009",
+        "width": 0,
+        "height": 0,
+        "frames": 61,
+        "kind": "audio",
+        "src": "/game/documents/atlas/media/es_009.flac",
+        "duration": 6.002
+      },
+      "src": "/game/documents/atlas/media/es_009.flac",
+      "kind": "audio"
+    },
+    {
+      "id": "ES_010",
+      "resource": "ES_010",
+      "width": 0,
+      "height": 0,
+      "title": "Voix en hébreu",
+      "media": {
+        "resource": "ES_010",
+        "width": 0,
+        "height": 0,
+        "frames": 93,
+        "kind": "audio",
+        "src": "/game/documents/atlas/media/es_010.flac",
+        "duration": 9.304
+      },
+      "src": "/game/documents/atlas/media/es_010.flac",
+      "kind": "audio"
+    },
+    {
+      "id": "ES_011",
+      "resource": "ES_011",
+      "width": 0,
+      "height": 0,
+      "title": "Voix en italien",
+      "media": {
+        "resource": "ES_011",
+        "width": 0,
+        "height": 0,
+        "frames": 52,
+        "kind": "audio",
+        "src": "/game/documents/atlas/media/es_011.flac",
+        "duration": 5.202
+      },
+      "src": "/game/documents/atlas/media/es_011.flac",
+      "kind": "audio"
+    },
+    {
+      "id": "ES_012",
+      "resource": "ES_012",
+      "width": 0,
+      "height": 0,
+      "title": "Voix en portugais",
+      "media": {
+        "resource": "ES_012",
+        "width": 0,
+        "height": 0,
+        "frames": 61,
+        "kind": "audio",
+        "src": "/game/documents/atlas/media/es_012.flac",
+        "duration": 6.003
+      },
+      "src": "/game/documents/atlas/media/es_012.flac",
+      "kind": "audio"
+    },
+    {
+      "id": "ES_013",
+      "resource": "ES_013",
+      "width": 0,
+      "height": 0,
+      "title": "Voix en kabyle algérien",
+      "media": {
+        "resource": "ES_013",
+        "width": 0,
+        "height": 0,
+        "frames": 88,
+        "kind": "audio",
+        "src": "/game/documents/atlas/media/es_013.flac",
+        "duration": 8.604
+      },
+      "src": "/game/documents/atlas/media/es_013.flac",
+      "kind": "audio"
+    },
+    {
+      "id": "ES_014",
+      "resource": "ES_014",
+      "width": 0,
+      "height": 0,
+      "title": "Voix en hollandais",
+      "media": {
+        "resource": "ES_014",
+        "width": 0,
+        "height": 0,
+        "frames": 61,
+        "kind": "audio",
+        "src": "/game/documents/atlas/media/es_014.flac",
+        "duration": 6.103
+      },
+      "src": "/game/documents/atlas/media/es_014.flac",
+      "kind": "audio"
+    },
+    {
+      "id": "ES_015",
+      "resource": "ES_015",
+      "width": 0,
+      "height": 0,
+      "title": "Voix en danois",
+      "media": {
+        "resource": "ES_015",
+        "width": 0,
+        "height": 0,
+        "frames": 59,
+        "kind": "audio",
+        "src": "/game/documents/atlas/media/es_015.flac",
+        "duration": 5.903
+      },
+      "src": "/game/documents/atlas/media/es_015.flac",
+      "kind": "audio"
+    },
+    {
+      "id": "ES_016",
+      "resource": "ES_016",
+      "width": 0,
+      "height": 0,
+      "title": "Voix en créole antillais",
+      "media": {
+        "resource": "ES_016",
+        "width": 0,
+        "height": 0,
+        "frames": 87,
+        "kind": "audio",
+        "src": "/game/documents/atlas/media/es_016.flac",
+        "duration": 8.404
+      },
+      "src": "/game/documents/atlas/media/es_016.flac",
+      "kind": "audio"
+    },
+    {
+      "id": "ES_017",
+      "resource": "ES_017",
+      "width": 0,
+      "height": 0,
+      "title": "Voix en vietnamien",
+      "media": {
+        "resource": "ES_017",
+        "width": 0,
+        "height": 0,
+        "frames": 47,
+        "kind": "audio",
+        "src": "/game/documents/atlas/media/es_017.flac",
+        "duration": 4.602
+      },
+      "src": "/game/documents/atlas/media/es_017.flac",
+      "kind": "audio"
+    },
+    {
+      "id": "ES_018",
+      "resource": "ES_018",
+      "width": 0,
+      "height": 0,
+      "title": "Voix en swahili",
+      "media": {
+        "resource": "ES_018",
+        "width": 0,
+        "height": 0,
+        "frames": 101,
+        "kind": "audio",
+        "src": "/game/documents/atlas/media/es_018.flac",
+        "duration": 10.004
+      },
+      "src": "/game/documents/atlas/media/es_018.flac",
+      "kind": "audio"
+    },
+    {
+      "id": "ES_019",
+      "resource": "ES_019",
+      "width": 0,
+      "height": 0,
+      "title": "Voix en anglais américain",
+      "media": {
+        "resource": "ES_019",
+        "width": 0,
+        "height": 0,
+        "frames": 74,
+        "kind": "audio",
+        "src": "/game/documents/atlas/media/es_019.flac",
+        "duration": 7.103
+      },
+      "src": "/game/documents/atlas/media/es_019.flac",
+      "kind": "audio"
+    },
+    {
+      "id": "ES_020",
+      "resource": "ES_020",
+      "width": 0,
+      "height": 0,
+      "title": "Voix en espagnol mexicain",
+      "media": {
+        "resource": "ES_020",
+        "width": 0,
+        "height": 0,
+        "frames": 92,
+        "kind": "audio",
+        "src": "/game/documents/atlas/media/es_020.flac",
+        "duration": 9.204
+      },
+      "src": "/game/documents/atlas/media/es_020.flac",
+      "kind": "audio"
+    },
+    {
+      "id": "ES_021",
+      "resource": "ES_021",
+      "width": 0,
+      "height": 0,
+      "title": "Voix en coréen",
+      "media": {
+        "resource": "ES_021",
+        "width": 0,
+        "height": 0,
+        "frames": 109,
+        "kind": "audio",
+        "src": "/game/documents/atlas/media/es_021.flac",
+        "duration": 10.904
+      },
+      "src": "/game/documents/atlas/media/es_021.flac",
+      "kind": "audio"
+    },
+    {
+      "id": "ES_022",
+      "resource": "ES_022",
+      "width": 0,
+      "height": 0,
+      "title": "Voix en arabe tunisien",
+      "media": {
+        "resource": "ES_022",
+        "width": 0,
+        "height": 0,
+        "frames": 46,
+        "kind": "audio",
+        "src": "/game/documents/atlas/media/es_022.flac",
+        "duration": 4.502
+      },
+      "src": "/game/documents/atlas/media/es_022.flac",
+      "kind": "audio"
+    },
+    {
+      "id": "ES_023",
+      "resource": "ES_023",
+      "width": 0,
+      "height": 0,
+      "title": "Voix en portugais brésilien",
+      "media": {
+        "resource": "ES_023",
+        "width": 0,
+        "height": 0,
+        "frames": 58,
+        "kind": "audio",
+        "src": "/game/documents/atlas/media/es_023.flac",
+        "duration": 5.803
+      },
+      "src": "/game/documents/atlas/media/es_023.flac",
+      "kind": "audio"
+    }
+  ],
+  "namedVmd": {
+    "N410VO": {
+      "resource": "N410VO",
+      "width": 0,
+      "height": 0,
+      "frames": 163,
+      "kind": "audio",
+      "src": "/game/documents/atlas/media/n410vo.flac",
+      "duration": 16.307
+    },
+    "N710VO": {
+      "resource": "N710VO",
+      "width": 0,
+      "height": 0,
+      "frames": 167,
+      "kind": "audio",
+      "src": "/game/documents/atlas/media/n710vo.flac",
+      "duration": 16.707
+    },
+    "N750VO": {
+      "resource": "N750VO",
+      "width": 0,
+      "height": 0,
+      "frames": 183,
+      "kind": "audio",
+      "src": "/game/documents/atlas/media/n750vo.flac",
+      "duration": 18.107
+    },
+    "N810VO": {
+      "resource": "N810VO",
+      "width": 0,
+      "height": 0,
+      "frames": 163,
+      "kind": "audio",
+      "src": "/game/documents/atlas/media/n810vo.flac",
+      "duration": 16.207
+    },
+    "N820VO": {
+      "resource": "N820VO",
+      "width": 0,
+      "height": 0,
+      "frames": 143,
+      "kind": "audio",
+      "src": "/game/documents/atlas/media/n820vo.flac",
+      "duration": 14.205
+    },
+    "N_PR": {
+      "resource": "N_PR",
+      "width": 0,
+      "height": 0,
+      "frames": 125,
+      "kind": "audio",
+      "src": "/game/documents/atlas/media/n_pr.flac",
+      "duration": 12.505
+    }
+  }
+}

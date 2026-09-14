@@ -91,18 +91,26 @@ La barre du bas apparaît au survol ; son point d’interrogation active ou dés
 l’aide. Une liste de sujets permet aussi l’accès au clavier. Les médias et
 métadonnées sont inclus dans [public/game/documents](public/game/documents/).
 
-L’Atlas propose son globe, ses cartes et ses médias. Pour zoomer, sélectionner
-la loupe puis cliquer sur le globe ou la carte. Les six simulations portent sur
-la pollution de l’air et de l’eau, l’entreprise, la désertification, l’équilibre
-de la nature et le développement d’un pays. Les paramètres se règlent directement
-dans les décors, avec les modes et les cas du jeu original. Ces simulations sont
-distinctes des 14 expériences de la station Sciences.
+L’Atlas fonctionne en JavaScript avec les images et coordonnées originales.
+Ses cinq cartes couvrent les climats, la densité de population, les langues,
+l’agriculture et la pêche, les mines et les énergies. La loupe agrandit la région
+cliquée ; le glisser-déposer et les flèches déplacent la carte. Le planisphère
+permet de repositionner la vue détaillée. Les boutons flottants ouvrent les
+cartes, calques et légendes ; leur poignée déplace la barre. Les graphiques,
+photos, alphabets et extraits sonores s’ouvrent depuis les icônes géographiques.
+Les légendes et graphiques utilisent les polices originales. La présentation et
+les commentaires des thèmes se contrôlent avec « Son » et « Arrêter ».
+Les [ressources de l’Atlas](public/game/documents/atlas/) contiennent les médias
+utilisés par cette vue ; le navigateur ne charge aucune archive du jeu pour l’Atlas.
 
-Ces sept documents exécutent les scripts du CD avec un
-[moteur Gob dédié](public/vendor/documents/README.md). Le bouton « Ouvrir »
-autorise la lecture sonore ; « Son » est coché par défaut. Les commandes du
-lecteur donnent accès à la barre du bas, à Échap et au plein écran. Les sessions
-ne sont pas sauvegardées entre deux consultations.
+Les six simulations portent sur la pollution de l’air et de l’eau, l’entreprise,
+la désertification, l’équilibre de la nature et le développement d’un pays.
+Leurs paramètres se règlent dans les décors, avec les modes et les cas du jeu.
+Elles sont distinctes des 14 expériences de la station Sciences et exécutent les
+scripts du CD avec un [moteur Gob dédié](public/vendor/documents/README.md).
+Le bouton « Ouvrir » autorise la lecture sonore ; « Son » est coché par défaut.
+Les commandes du lecteur donnent accès à la barre du bas, à Échap et au plein écran.
+Les sessions des documents ne sont pas sauvegardées entre deux consultations.
 Les petits mouvements d’ambiance des décors et certaines transitions ne sont
 pas tous reproduits.
 

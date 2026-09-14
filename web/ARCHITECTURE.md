@@ -78,8 +78,16 @@ animations WebP, voix FLAC et films MP4 avec leur piste audio.
 Chaque vue arrête ses médias, annule ses temporisations et retire ses calques à
 `sceneleave`. Les films se ferment à leur fin, avec Échap ou avec leur bouton de
 fermeture. Les commandes au clavier complètent les clics précis dans le décor.
-[native-view.js](public/features/documents/native-view.js) ouvre l’Atlas et les
-six simulations d’environnement dans un lecteur isolé. Le
+[atlas/engine.js](public/features/documents/atlas/engine.js) définit les niveaux
+de zoom, la projection des points et le déplacement des cartes.
+[atlas/view.js](public/features/documents/atlas/view.js) affiche le globe, les cinq
+thèmes, les calques, les légendes et leurs documents en Canvas et HTML. Les
+[ressources de l’Atlas](public/game/documents/atlas/) contiennent les cartes aux
+deux résolutions, les images du globe, les textes dessinés avec les polices
+originales et les médias géolocalisés. La vue arrête ses sons, ses chargements et
+son observateur de taille à `sceneleave`.
+
+[native-view.js](public/features/documents/native-view.js) ouvre les six simulations d’environnement dans un lecteur isolé. Le
 [lecteur](public/documents/player.js) vérifie les empreintes des archives,
 charge uniquement celles du document choisi, puis démarre le moteur Gob.
 [native-config.js](public/features/documents/native-config.js) associe chaque

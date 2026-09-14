@@ -1,3 +1,4 @@
+import { renderAtlas } from './atlas/view.js';
 import { nativeDocuments } from './native-config.js';
 import { renderNativeDocument } from './native-view.js';
 import { scenePoint, maskColor, menuOffset, spacePoint } from './engine.js';
@@ -39,6 +40,7 @@ function catalog() {
 }
 
 export async function renderDocuments(main, topicId = '') {
+  if (topicId === 'atlas') return renderAtlas(main);
   if (Object.hasOwn(nativeDocuments, topicId)) return renderNativeDocument(main, topicId);
   document.title = 'Les documents · ADI 4';
   main.innerHTML =
