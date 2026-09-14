@@ -33,6 +33,8 @@ n’est nécessaire pour lancer les jeux inclus.
 |---|---|
 | `#welcome` | Introduction originale et accueil |
 | `#room` | Chambre, objets interactifs, déplacements, animations et répliques d’Adi |
+| `#documents` | Menu original des dossiers multimédias |
+| `#document/animal`, `cycle`, `astro`, `planete`, `espace` | Animaux, cycle de l’eau, ciel étoilé, planètes et conquête spatiale |
 | `#radio` | 17 musiques, 10 ambiances et silence |
 | `#games` | Caisse, filtre disponibles/à venir et défilement à la molette |
 | `#science` | Bibliothèque de cours, niveaux, recherche et dictionnaire |
@@ -71,6 +73,26 @@ tomates donnent zéro dans le moteur web, sans garantie d’équivalence native
 pour ce cas limite.
 La planète Internet est une simulation ; elle ne se connecte pas au service TCP
 présenté dans [le README du serveur](../serveur/README.md).
+
+## Les documents
+
+Le menu bleu de la chambre présente les douze entrées originales, avec sept
+lignes visibles et un défilement à la molette. Cinq dossiers sont consultables :
+24 animaux et leurs films, les six sujets du cycle de l’eau, les cartes du ciel
+selon les quatre saisons et les vues Nord/Sud, les 60 rubriques des planètes,
+et les neuf dates de la conquête spatiale.
+
+Les clics suivent les masques des décors originaux. Les présentations, films,
+voix et ambiances utilisent les médias du jeu. Le son est activé par défaut ;
+« Présentation » relance l’introduction et « Arrêter » interrompt la lecture.
+La barre du bas apparaît au survol ; son point d’interrogation active ou désactive
+l’aide. Une liste de sujets permet aussi l’accès au clavier. Les médias et
+métadonnées sont inclus dans [public/game/documents](public/game/documents/).
+
+L’Atlas et les six simulations d’environnement de ce menu restent indisponibles.
+Ces simulations sont distinctes des 14 expériences de la station Sciences.
+Les petits mouvements d’ambiance des décors et certaines transitions ne sont
+pas tous reproduits.
 
 ## Les dix jeux
 

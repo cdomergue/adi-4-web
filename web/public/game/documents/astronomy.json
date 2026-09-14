@@ -1,0 +1,1324 @@
+{
+  "skies": [
+    {
+      "season": 1,
+      "direction": 1,
+      "background": "ASTRO:1",
+      "mask": "ASTRO:9",
+      "lines": "ASTRO:11",
+      "figures": "ASTRO:10",
+      "outline": "ASTRO:33",
+      "zones": [
+        {
+          "id": 20,
+          "color": 100,
+          "label": "La Grande Ourse",
+          "crop": [
+            227,
+            313
+          ],
+          "rect": [
+            246,
+            87,
+            232,
+            99
+          ],
+          "audio": "DASTR034"
+        },
+        {
+          "id": 17,
+          "color": 101,
+          "label": "Le dragon",
+          "crop": [
+            130,
+            0
+          ],
+          "rect": [
+            308,
+            121,
+            166,
+            214
+          ],
+          "audio": "DASTR005"
+        },
+        {
+          "id": 31,
+          "color": 102,
+          "label": "La Petite Ourse",
+          "crop": [
+            0,
+            339
+          ],
+          "rect": [
+            269,
+            180,
+            153,
+            85
+          ],
+          "audio": "DASTR006"
+        },
+        {
+          "id": 21,
+          "color": 103,
+          "label": "Hercule",
+          "crop": [
+            298,
+            0
+          ],
+          "rect": [
+            381,
+            211,
+            232,
+            181
+          ],
+          "audio": "DASTR009"
+        },
+        {
+          "id": 14,
+          "color": 104,
+          "label": "La couronne Boréale",
+          "crop": [
+            530,
+            0
+          ],
+          "rect": [
+            498,
+            224,
+            77,
+            85
+          ],
+          "audio": "DASTR007"
+        },
+        {
+          "id": 26,
+          "color": 105,
+          "label": "La Lyre",
+          "crop": [
+            227,
+            215
+          ],
+          "rect": [
+            392,
+            309,
+            92,
+            93
+          ],
+          "audio": "DASTR015"
+        },
+        {
+          "id": 15,
+          "color": 106,
+          "label": "Le Cygne",
+          "crop": [
+            0,
+            215
+          ],
+          "rect": [
+            248,
+            264,
+            226,
+            123
+          ],
+          "audio": "DASTR013"
+        },
+        {
+          "id": 11,
+          "color": 107,
+          "label": "Céphée",
+          "crop": [
+            463,
+            185
+          ],
+          "rect": [
+            244,
+            219,
+            126,
+            132
+          ],
+          "audio": "DASTR004"
+        },
+        {
+          "id": 10,
+          "color": 108,
+          "label": "Cassiopée",
+          "crop": [
+            530,
+            86
+          ],
+          "rect": [
+            198,
+            228,
+            66,
+            98
+          ],
+          "audio": "DASTR003"
+        },
+        {
+          "id": 30,
+          "color": 109,
+          "label": "Persée",
+          "crop": [
+            320,
+            181
+          ],
+          "rect": [
+            71,
+            198,
+            142,
+            131
+          ],
+          "audio": "DASTR012"
+        },
+        {
+          "id": 13,
+          "color": 110,
+          "label": "Le Cocher",
+          "crop": [
+            0,
+            0
+          ],
+          "rect": [
+            43,
+            112,
+            130,
+            158
+          ],
+          "audio": "DASTR011"
+        }
+      ]
+    },
+    {
+      "season": 1,
+      "direction": 2,
+      "background": "ASTRO:2",
+      "mask": "ASTRO:12",
+      "lines": "ASTRO:14",
+      "figures": "ASTRO:13",
+      "outline": "ASTRO:37",
+      "zones": [
+        {
+          "id": 22,
+          "color": 100,
+          "label": "L'Hydre",
+          "crop": [
+            0,
+            0
+          ],
+          "rect": [
+            96,
+            185,
+            332,
+            208
+          ],
+          "audio": "DASTR001"
+        },
+        {
+          "id": 39,
+          "color": 101,
+          "label": "La Vierge",
+          "crop": [
+            333,
+            0
+          ],
+          "rect": [
+            37,
+            179,
+            220,
+            172
+          ],
+          "audio": "DASTR033"
+        },
+        {
+          "id": 28,
+          "color": 102,
+          "label": "Orion",
+          "crop": [
+            333,
+            173
+          ],
+          "rect": [
+            481,
+            223,
+            149,
+            154
+          ],
+          "audio": "DASTR028"
+        },
+        {
+          "id": 19,
+          "color": 103,
+          "label": "Le Grand Chien",
+          "crop": [
+            0,
+            209
+          ],
+          "rect": [
+            381,
+            265,
+            172,
+            133
+          ],
+          "audio": "DASTR030"
+        },
+        {
+          "id": 8,
+          "color": 104,
+          "label": "Le Cancer",
+          "crop": [
+            482,
+            173
+          ],
+          "rect": [
+            345,
+            106,
+            118,
+            142
+          ],
+          "audio": "DASTR025"
+        },
+        {
+          "id": 18,
+          "color": 105,
+          "label": "Les Gémeaux",
+          "crop": [
+            173,
+            209
+          ],
+          "rect": [
+            431,
+            124,
+            133,
+            123
+          ],
+          "audio": "DASTR027"
+        },
+        {
+          "id": 24,
+          "color": 106,
+          "label": "Le Lion",
+          "crop": [
+            0,
+            343
+          ],
+          "rect": [
+            201,
+            118,
+            160,
+            112
+          ],
+          "audio": "DASTR032"
+        },
+        {
+          "id": 12,
+          "color": 107,
+          "label": "Les chiens de chasse",
+          "crop": [
+            173,
+            333
+          ],
+          "rect": [
+            408,
+            188,
+            101,
+            85
+          ],
+          "audio": "DASTR031"
+        }
+      ]
+    },
+    {
+      "season": 2,
+      "direction": 1,
+      "background": "ASTRO:3",
+      "mask": "ASTRO:15",
+      "lines": "ASTRO:17",
+      "figures": "ASTRO:16",
+      "outline": "ASTRO:34",
+      "zones": [
+        {
+          "id": 17,
+          "color": 100,
+          "label": "Le dragon",
+          "crop": [
+            0,
+            0
+          ],
+          "rect": [
+            212,
+            41,
+            154,
+            214
+          ],
+          "audio": "DASTR005"
+        },
+        {
+          "id": 11,
+          "color": 101,
+          "label": "Céphée",
+          "crop": [
+            472,
+            0
+          ],
+          "rect": [
+            327,
+            119,
+            134,
+            125
+          ],
+          "audio": "DASTR004"
+        },
+        {
+          "id": 30,
+          "color": 102,
+          "label": "Persée",
+          "crop": [
+            324,
+            0
+          ],
+          "rect": [
+            374,
+            262,
+            147,
+            132
+          ],
+          "audio": "DASTR012"
+        },
+        {
+          "id": 20,
+          "color": 103,
+          "label": "La Grande Ourse",
+          "crop": [
+            155,
+            0
+          ],
+          "rect": [
+            87,
+            163,
+            167,
+            179
+          ],
+          "audio": "DASTR008"
+        },
+        {
+          "id": 31,
+          "color": 104,
+          "label": "La Petite Ourse",
+          "crop": [
+            324,
+            133
+          ],
+          "rect": [
+            232,
+            149,
+            129,
+            80
+          ],
+          "audio": "DASTR006"
+        },
+        {
+          "id": 10,
+          "color": 105,
+          "label": "Cassiopée",
+          "crop": [
+            454,
+            133
+          ],
+          "rect": [
+            367,
+            218,
+            103,
+            67
+          ],
+          "audio": "DASTR003"
+        }
+      ]
+    },
+    {
+      "season": 2,
+      "direction": 2,
+      "background": "ASTRO:4",
+      "mask": "ASTRO:18",
+      "lines": "ASTRO:20",
+      "figures": "ASTRO:19",
+      "outline": "ASTRO:38",
+      "zones": [
+        {
+          "id": 21,
+          "color": 100,
+          "label": "Hercule",
+          "crop": [
+            0,
+            0
+          ],
+          "rect": [
+            296,
+            69,
+            169,
+            141
+          ],
+          "audio": "DASTR009"
+        },
+        {
+          "id": 38,
+          "color": 101,
+          "label": "Le Verseau",
+          "crop": [
+            335,
+            0
+          ],
+          "rect": [
+            52,
+            254,
+            127,
+            128
+          ],
+          "audio": "DASTR002"
+        },
+        {
+          "id": 9,
+          "color": 102,
+          "label": "Le Capricorne",
+          "crop": [
+            439,
+            138
+          ],
+          "rect": [
+            105,
+            257,
+            150,
+            133
+          ],
+          "audio": "DASTR024"
+        },
+        {
+          "id": 1,
+          "color": 103,
+          "label": "L'Aigle",
+          "crop": [
+            462,
+            0
+          ],
+          "rect": [
+            169,
+            161,
+            144,
+            136
+          ],
+          "audio": "DASTR020"
+        },
+        {
+          "id": 16,
+          "color": 104,
+          "label": "Le Dauphin",
+          "crop": [
+            367,
+            273
+          ],
+          "rect": [
+            118,
+            161,
+            111,
+            94
+          ],
+          "audio": "DASTR019"
+        },
+        {
+          "id": 35,
+          "color": 105,
+          "label": "Le Scorpion",
+          "crop": [
+            169,
+            119
+          ],
+          "rect": [
+            315,
+            267,
+            141,
+            150
+          ],
+          "audio": "DASTR022"
+        },
+        {
+          "id": 39,
+          "color": 106,
+          "label": "La Vierge",
+          "crop": [
+            169,
+            0
+          ],
+          "rect": [
+            466,
+            259,
+            164,
+            119
+          ],
+          "audio": "DASTR033"
+        },
+        {
+          "id": 7,
+          "color": 107,
+          "label": "Le Bouvier",
+          "crop": [
+            311,
+            128
+          ],
+          "rect": [
+            456,
+            112,
+            127,
+            144
+          ],
+          "audio": "DASTR010"
+        },
+        {
+          "id": 26,
+          "color": 108,
+          "label": "La Lyre",
+          "crop": [
+            479,
+            273
+          ],
+          "rect": [
+            238,
+            78,
+            92,
+            93
+          ],
+          "audio": "DASTR015"
+        },
+        {
+          "id": 27,
+          "color": 109,
+          "label": "Ophiuchus",
+          "crop": [
+            0,
+            142
+          ],
+          "rect": [
+            274,
+            197,
+            159,
+            133
+          ],
+          "audio": "DASTR017"
+        },
+        {
+          "id": 36,
+          "color": 110,
+          "label": "Le Serpent",
+          "crop": [
+            160,
+            273
+          ],
+          "rect": [
+            284,
+            211,
+            206,
+            93
+          ],
+          "audio": "DASTR036"
+        },
+        {
+          "id": 14,
+          "color": 111,
+          "label": "La couronne Boréale",
+          "crop": [
+            230,
+            368
+          ],
+          "rect": [
+            418,
+            132,
+            76,
+            65
+          ],
+          "audio": "DASTR007"
+        },
+        {
+          "id": 3,
+          "color": 112,
+          "label": "La Balance",
+          "crop": [
+            145,
+            369
+          ],
+          "rect": [
+            417,
+            278,
+            84,
+            77
+          ],
+          "audio": "DASTR021"
+        },
+        {
+          "id": 34,
+          "color": 113,
+          "label": "Le Sagittaire",
+          "crop": [
+            0,
+            275
+          ],
+          "rect": [
+            220,
+            269,
+            144,
+            119
+          ],
+          "audio": "DASTR023"
+        }
+      ]
+    },
+    {
+      "season": 3,
+      "direction": 1,
+      "background": "ASTRO:5",
+      "mask": "ASTRO:21",
+      "lines": "ASTRO:23",
+      "figures": "ASTRO:22",
+      "outline": "ASTRO:35",
+      "zones": [
+        {
+          "id": 11,
+          "color": 100,
+          "label": "Céphée",
+          "crop": [
+            454,
+            173
+          ],
+          "rect": [
+            264,
+            65,
+            123,
+            126
+          ],
+          "audio": "DASTR004"
+        },
+        {
+          "id": 10,
+          "color": 101,
+          "label": "Cassiopée",
+          "crop": [
+            561,
+            71
+          ],
+          "rect": [
+            381,
+            98,
+            63,
+            96
+          ],
+          "audio": "DASTR003"
+        },
+        {
+          "id": 30,
+          "color": 102,
+          "label": "Persée",
+          "crop": [
+            189,
+            174
+          ],
+          "rect": [
+            449,
+            132,
+            140,
+            127
+          ],
+          "audio": "DASTR012"
+        },
+        {
+          "id": 13,
+          "color": 103,
+          "label": "Le Cocher",
+          "crop": [
+            329,
+            174
+          ],
+          "rect": [
+            427,
+            220,
+            125,
+            150
+          ],
+          "audio": "DASTR011"
+        },
+        {
+          "id": 37,
+          "color": 104,
+          "label": "Le Taureau",
+          "crop": [
+            125,
+            301
+          ],
+          "rect": [
+            473,
+            249,
+            143,
+            112
+          ],
+          "audio": "DASTR026"
+        },
+        {
+          "id": 20,
+          "color": 105,
+          "label": "La Grande Ourse",
+          "crop": [
+            0,
+            153
+          ],
+          "rect": [
+            196,
+            265,
+            189,
+            109
+          ],
+          "audio": "DASTR008"
+        },
+        {
+          "id": 7,
+          "color": 106,
+          "label": "Le Bouvier",
+          "crop": [
+            435,
+            0
+          ],
+          "rect": [
+            72,
+            244,
+            126,
+            140
+          ],
+          "audio": "DASTR010"
+        },
+        {
+          "id": 14,
+          "color": 107,
+          "label": "La couronne Boréale",
+          "crop": [
+            561,
+            0
+          ],
+          "rect": [
+            62,
+            244,
+            79,
+            71
+          ],
+          "audio": "DASTR007"
+        },
+        {
+          "id": 21,
+          "color": 108,
+          "label": "Hercule",
+          "crop": [
+            206,
+            0
+          ],
+          "rect": [
+            9,
+            121,
+            229,
+            174
+          ],
+          "audio": "DASTR009"
+        },
+        {
+          "id": 17,
+          "color": 109,
+          "label": "Le dragon",
+          "crop": [
+            0,
+            0
+          ],
+          "rect": [
+            137,
+            124,
+            206,
+            153
+          ],
+          "audio": "DASTR005"
+        },
+        {
+          "id": 31,
+          "color": 110,
+          "label": "La Petite Ourse",
+          "crop": [
+            0,
+            262
+          ],
+          "rect": [
+            231,
+            169,
+            125,
+            75
+          ],
+          "audio": "DASTR006"
+        }
+      ]
+    },
+    {
+      "season": 3,
+      "direction": 2,
+      "background": "ASTRO:6",
+      "mask": "ASTRO:24",
+      "lines": "ASTRO:26",
+      "figures": "ASTRO:25",
+      "outline": "ASTRO:39",
+      "zones": [
+        {
+          "id": 4,
+          "color": 100,
+          "label": "La Baleine",
+          "crop": [
+            235,
+            0
+          ],
+          "rect": [
+            2,
+            221,
+            237,
+            142
+          ],
+          "audio": "DASTR018"
+        },
+        {
+          "id": 29,
+          "color": 101,
+          "label": "Pégase",
+          "crop": [
+            0,
+            0
+          ],
+          "rect": [
+            120,
+            88,
+            237,
+            178
+          ],
+          "audio": "DASTR014"
+        },
+        {
+          "id": 33,
+          "color": 102,
+          "label": "Les Poissons",
+          "crop": [
+            178,
+            291
+          ],
+          "rect": [
+            78,
+            146,
+            215,
+            143
+          ],
+          "audio": "DASTR016"
+        },
+        {
+          "id": 27,
+          "color": 103,
+          "label": "Ophiuchus",
+          "crop": [
+            0,
+            178
+          ],
+          "rect": [
+            461,
+            232,
+            178,
+            155
+          ],
+          "audio": "DASTR017"
+        },
+        {
+          "id": 1,
+          "color": 104,
+          "label": "L'Aigle",
+          "crop": [
+            404,
+            151
+          ],
+          "rect": [
+            387,
+            163,
+            153,
+            163
+          ],
+          "audio": "DASTR020"
+        },
+        {
+          "id": 34,
+          "color": 105,
+          "label": "Le Sagittaire",
+          "crop": [
+            0,
+            334
+          ],
+          "rect": [
+            401,
+            293,
+            144,
+            119
+          ],
+          "audio": "DASTR023"
+        },
+        {
+          "id": 38,
+          "color": 106,
+          "label": "Le Verseau",
+          "crop": [
+            473,
+            0
+          ],
+          "rect": [
+            240,
+            188,
+            143,
+            151
+          ],
+          "audio": "DASTR002"
+        },
+        {
+          "id": 9,
+          "color": 107,
+          "label": "Le Capricorne",
+          "crop": [
+            235,
+            143
+          ],
+          "rect": [
+            285,
+            221,
+            169,
+            148
+          ],
+          "audio": "DASTR024"
+        },
+        {
+          "id": 16,
+          "color": 108,
+          "label": "Le Dauphin",
+          "crop": [
+            395,
+            315
+          ],
+          "rect": [
+            332,
+            150,
+            141,
+            106
+          ],
+          "audio": "DASTR019"
+        }
+      ]
+    },
+    {
+      "season": 4,
+      "direction": 1,
+      "background": "ASTRO:7",
+      "mask": "ASTRO:27",
+      "lines": "ASTRO:29",
+      "figures": "ASTRO:28",
+      "outline": "ASTRO:36",
+      "zones": [
+        {
+          "id": 29,
+          "color": 100,
+          "label": "Pégase",
+          "crop": [
+            286,
+            0
+          ],
+          "rect": [
+            1,
+            172,
+            178,
+            234
+          ],
+          "audio": "DASTR014"
+        },
+        {
+          "id": 20,
+          "color": 101,
+          "label": "La Grande Ourse",
+          "crop": [
+            137,
+            0
+          ],
+          "rect": [
+            392,
+            115,
+            148,
+            206
+          ],
+          "audio": "DASTR008"
+        },
+        {
+          "id": 17,
+          "color": 102,
+          "label": "Le dragon",
+          "crop": [
+            0,
+            0
+          ],
+          "rect": [
+            271,
+            181,
+            136,
+            194
+          ],
+          "audio": "DASTR005"
+        },
+        {
+          "id": 15,
+          "color": 103,
+          "label": "Le Cygne",
+          "crop": [
+            0,
+            207
+          ],
+          "rect": [
+            137,
+            275,
+            215,
+            127
+          ],
+          "audio": "DASTR013"
+        },
+        {
+          "id": 11,
+          "color": 104,
+          "label": "Céphée",
+          "crop": [
+            465,
+            0
+          ],
+          "rect": [
+            186,
+            204,
+            121,
+            112
+          ],
+          "audio": "DASTR004"
+        },
+        {
+          "id": 10,
+          "color": 105,
+          "label": "Cassiopée",
+          "crop": [
+            465,
+            113
+          ],
+          "rect": [
+            156,
+            161,
+            118,
+            78
+          ],
+          "audio": "DASTR003"
+        },
+        {
+          "id": 31,
+          "color": 106,
+          "label": "La Petite Ourse",
+          "crop": [
+            465,
+            192
+          ],
+          "rect": [
+            285,
+            195,
+            98,
+            90
+          ],
+          "audio": "DASTR006"
+        }
+      ]
+    },
+    {
+      "season": 4,
+      "direction": 2,
+      "background": "ASTRO:8",
+      "mask": "ASTRO:30",
+      "lines": "ASTRO:32",
+      "figures": "ASTRO:31",
+      "outline": "ASTRO:40",
+      "zones": [
+        {
+          "id": 4,
+          "color": 100,
+          "label": "La Baleine",
+          "crop": [
+            398,
+            160
+          ],
+          "rect": [
+            475,
+            197,
+            122,
+            211
+          ],
+          "audio": "DASTR018"
+        },
+        {
+          "id": 13,
+          "color": 101,
+          "label": "Le Cocher",
+          "crop": [
+            0,
+            134
+          ],
+          "rect": [
+            294,
+            35,
+            127,
+            152
+          ],
+          "audio": "DASTR011"
+        },
+        {
+          "id": 22,
+          "color": 102,
+          "label": "L'Hydre",
+          "crop": [
+            172,
+            0
+          ],
+          "rect": [
+            19,
+            218,
+            231,
+            160
+          ],
+          "audio": "DASTR001"
+        },
+        {
+          "id": 24,
+          "color": 103,
+          "label": "Le Lion",
+          "crop": [
+            128,
+            160
+          ],
+          "rect": [
+            0,
+            168,
+            160,
+            152
+          ],
+          "audio": "DASTR032"
+        },
+        {
+          "id": 8,
+          "color": 104,
+          "label": "Le Cancer",
+          "crop": [
+            520,
+            153
+          ],
+          "rect": [
+            112,
+            115,
+            118,
+            142
+          ],
+          "audio": "DASTR025"
+        },
+        {
+          "id": 18,
+          "color": 105,
+          "label": "Les Gémeaux",
+          "crop": [
+            128,
+            313
+          ],
+          "rect": [
+            209,
+            93,
+            126,
+            115
+          ],
+          "audio": "DASTR027"
+        },
+        {
+          "id": 28,
+          "color": 106,
+          "label": "Orion",
+          "crop": [
+            405,
+            0
+          ],
+          "rect": [
+            273,
+            157,
+            150,
+            154
+          ],
+          "audio": "DASTR028"
+        },
+        {
+          "id": 19,
+          "color": 107,
+          "label": "Le Grand Chien",
+          "crop": [
+            0,
+            0
+          ],
+          "rect": [
+            199,
+            239,
+            172,
+            133
+          ],
+          "audio": "DASTR030"
+        },
+        {
+          "id": 37,
+          "color": 108,
+          "label": "Le Taureau",
+          "crop": [
+            0,
+            286
+          ],
+          "rect": [
+            348,
+            133,
+            127,
+            104
+          ],
+          "audio": "DASTR026"
+        },
+        {
+          "id": 12,
+          "color": 109,
+          "label": "Les chiens de chasse",
+          "crop": [
+            289,
+            271
+          ],
+          "rect": [
+            184,
+            169,
+            101,
+            85
+          ],
+          "audio": "DASTR031"
+        },
+        {
+          "id": 5,
+          "color": 110,
+          "label": "Bélier",
+          "crop": [
+            289,
+            160
+          ],
+          "rect": [
+            492,
+            154,
+            97,
+            110
+          ],
+          "audio": "DASTR029"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,779 @@
+{
+  "animal": {
+    "title": "Les animaux en danger",
+    "background": "ANIMAL:0",
+    "mask": "ANIMAL:1",
+    "ambience": "AMB_ANI",
+    "intro": [
+      "DANIM004"
+    ],
+    "zones": [
+      {
+        "color": 100,
+        "id": 0,
+        "label": "Le pygargue à tête blanche",
+        "media": "ANAIGLE",
+        "hoverAudio": "AIGLE"
+      },
+      {
+        "color": 101,
+        "id": 1,
+        "label": "Le condor",
+        "media": "ANCONDO",
+        "hoverAudio": "CONDOR"
+      },
+      {
+        "color": 106,
+        "id": 2,
+        "label": "L’ours blanc",
+        "media": "ANOURS",
+        "hoverAudio": "OURSBLAN"
+      },
+      {
+        "color": 108,
+        "id": 3,
+        "label": "Les tortues marines",
+        "media": "ANTORTU",
+        "hoverAudio": "TORTUE"
+      },
+      {
+        "color": 103,
+        "id": 4,
+        "label": "Le bouquetin des Alpes",
+        "media": "ANBOUQ",
+        "hoverAudio": "BOUKETIN"
+      },
+      {
+        "color": 115,
+        "id": 5,
+        "label": "La loutre",
+        "media": "ANLOUTR",
+        "hoverAudio": "LOUTRE"
+      },
+      {
+        "color": 109,
+        "id": 6,
+        "label": "Les gorilles",
+        "media": "ANGORIL",
+        "hoverAudio": "GORILLES"
+      },
+      {
+        "color": 104,
+        "id": 7,
+        "label": "Les baleines",
+        "media": "ANBALEI",
+        "hoverAudio": "BALEINE"
+      },
+      {
+        "color": 110,
+        "id": 8,
+        "label": "L’ara hyacinthe",
+        "media": "ANARA",
+        "hoverAudio": "ARA"
+      },
+      {
+        "color": 116,
+        "id": 9,
+        "label": "Les loups",
+        "media": "ANLOUP",
+        "hoverAudio": "LOUP"
+      },
+      {
+        "color": 111,
+        "id": 10,
+        "label": "Les crocodiles et alligators",
+        "media": "ANCROCO",
+        "hoverAudio": "CROCO"
+      },
+      {
+        "color": 113,
+        "id": 11,
+        "label": "Le varan",
+        "media": "ANVARAN",
+        "hoverAudio": "VARAN"
+      },
+      {
+        "color": 117,
+        "id": 12,
+        "label": "Le rhinocéros",
+        "media": "ANRHINO",
+        "hoverAudio": "RHINOS"
+      },
+      {
+        "color": 112,
+        "id": 13,
+        "label": "Les éléphants",
+        "media": "ANELEPH",
+        "hoverAudio": "ELEPHANT"
+      },
+      {
+        "color": 102,
+        "id": 14,
+        "label": "L’ours brun",
+        "media": "ANOURSB",
+        "hoverAudio": "GRIZZLI"
+      },
+      {
+        "color": 118,
+        "id": 15,
+        "label": "La cigogne",
+        "media": "ANCIGO",
+        "hoverAudio": "CIGOGNE"
+      },
+      {
+        "color": 105,
+        "id": 16,
+        "label": "Le lamantin",
+        "media": "ANLAMEN",
+        "hoverAudio": "LAMENTIN"
+      },
+      {
+        "color": 121,
+        "id": 17,
+        "label": "Le pélican",
+        "media": "ANPELIC",
+        "hoverAudio": "PELICAN"
+      },
+      {
+        "color": 114,
+        "id": 18,
+        "label": "Le tigre",
+        "media": "ANTIGRE",
+        "hoverAudio": "TIGRE"
+      },
+      {
+        "color": 119,
+        "id": 19,
+        "label": "La panthère ou léopard",
+        "media": "ANLEOPA",
+        "hoverAudio": "PANTHERE"
+      },
+      {
+        "color": 120,
+        "id": 20,
+        "label": "Le chameau",
+        "media": "ANCHAMO",
+        "hoverAudio": "CHAMEAU"
+      },
+      {
+        "color": 125,
+        "id": 21,
+        "label": "Le panda",
+        "media": "ANPANDA",
+        "hoverAudio": "PANDA"
+      },
+      {
+        "color": 107,
+        "id": 22,
+        "label": "Les phoques et otaries",
+        "media": "ANPHOQ",
+        "hoverAudio": "PHOQUE"
+      },
+      {
+        "color": 122,
+        "id": 23,
+        "label": "Le koala",
+        "media": "ANKOALA",
+        "hoverAudio": "KOALA"
+      }
+    ],
+    "help": "DANIM039"
+  },
+  "cycle": {
+    "title": "Le cycle de l’eau",
+    "background": "CYCLE:0",
+    "mask": "CYCLE:1",
+    "ambience": "AMB_CYC",
+    "intro": [
+      "DCYCL002",
+      "DCYCL003",
+      "DCYCL004",
+      "DCYCL005",
+      "DCYCL006",
+      "DCYCL007"
+    ],
+    "zones": [
+      {
+        "color": 105,
+        "id": 0,
+        "label": "L’océan",
+        "media": "OCEANF"
+      },
+      {
+        "color": 179,
+        "id": 1,
+        "label": "La neige",
+        "media": "NEIGEF"
+      },
+      {
+        "color": 15,
+        "id": 2,
+        "label": "Le torrent",
+        "media": "TORRENTF"
+      },
+      {
+        "color": 175,
+        "id": 3,
+        "label": "L’évaporation",
+        "media": "EVAPORF"
+      },
+      {
+        "color": 107,
+        "id": 4,
+        "label": "Les plantes",
+        "media": "PLANTESF"
+      },
+      {
+        "color": 16,
+        "id": 5,
+        "label": "Le soleil",
+        "media": "SOLEILF"
+      }
+    ],
+    "help": "DCYCL000"
+  },
+  "planete": {
+    "title": "Les planètes",
+    "background": "PLANETE:0",
+    "mask": "PLANETE:1",
+    "ambience": "AMB_PLA2",
+    "intro": [
+      "TRANSPLA"
+    ],
+    "zones": [
+      {
+        "color": 92,
+        "id": 0,
+        "label": "Le Soleil"
+      },
+      {
+        "color": 19,
+        "id": 1,
+        "label": "Mercure"
+      },
+      {
+        "color": 124,
+        "id": 2,
+        "label": "Vénus"
+      },
+      {
+        "color": 172,
+        "id": 3,
+        "label": "La Terre"
+      },
+      {
+        "color": 182,
+        "id": 4,
+        "label": "Mars"
+      },
+      {
+        "color": 15,
+        "id": 5,
+        "label": "Jupiter"
+      },
+      {
+        "color": 133,
+        "id": 6,
+        "label": "Saturne"
+      },
+      {
+        "color": 137,
+        "id": 7,
+        "label": "Uranus"
+      },
+      {
+        "color": 175,
+        "id": 8,
+        "label": "Neptune"
+      },
+      {
+        "color": 98,
+        "id": 9,
+        "label": "Pluton"
+      }
+    ],
+    "tabs": [
+      {
+        "id": 1,
+        "label": "Introduction"
+      },
+      {
+        "id": 2,
+        "label": "Taille et masse"
+      },
+      {
+        "id": 3,
+        "label": "Orbite temps"
+      },
+      {
+        "id": 5,
+        "label": "Satellite et anneaux"
+      },
+      {
+        "id": 4,
+        "label": "Composition et température atmosphérique"
+      },
+      {
+        "id": 6,
+        "label": "L’homme et cette planète"
+      }
+    ],
+    "pages": {
+      "1": {
+        "image": "PLANETE:6",
+        "audio": "DPLAN005"
+      },
+      "2": {
+        "image": "PLANETE:7",
+        "audio": "DPLAN006"
+      },
+      "3": {
+        "image": "PLANETE:8",
+        "audio": "DPLAN007"
+      },
+      "4": {
+        "image": "PLANETE:9",
+        "audio": "DPLAN008"
+      },
+      "5": {
+        "image": "PLANETE:10",
+        "audio": "DPLAN009",
+        "labels": [
+          {
+            "text": "Pluton",
+            "x": 560,
+            "y": 78
+          },
+          {
+            "text": "Neptune",
+            "x": 550,
+            "y": 106
+          },
+          {
+            "text": "Uranus",
+            "x": 520,
+            "y": 140
+          },
+          {
+            "text": "Saturne",
+            "x": 460,
+            "y": 200
+          },
+          {
+            "text": "Jupiter",
+            "x": 355,
+            "y": 290
+          },
+          {
+            "text": "Mars",
+            "x": 210,
+            "y": 340
+          },
+          {
+            "text": "La Terre",
+            "x": 165,
+            "y": 370
+          },
+          {
+            "text": "Vénus",
+            "x": 110,
+            "y": 410
+          },
+          {
+            "text": "Mercure",
+            "x": 60,
+            "y": 440
+          }
+        ]
+      },
+      "6": {
+        "image": "PLANETE:11",
+        "audio": "DPLAN010"
+      },
+      "101": {
+        "image": "PLANETE:12",
+        "audio": "DPLAN011"
+      },
+      "102": {
+        "image": "PLANETE:13",
+        "audio": "DPLAN012"
+      },
+      "103": {
+        "image": "PLANETE:14",
+        "audio": "DPLAN013"
+      },
+      "104": {
+        "image": "PLANETE:15",
+        "audio": "DPLAN014"
+      },
+      "105": {
+        "image": "PLANETE:12",
+        "audio": "DPLAN015"
+      },
+      "106": {
+        "image": "PLANETE:16",
+        "audio": "DPLAN016"
+      },
+      "201": {
+        "image": "PLANETE:17",
+        "audio": "DPLAN017"
+      },
+      "202": {
+        "image": "PLANETE:18",
+        "audio": "DPLAN018"
+      },
+      "203": {
+        "image": "PLANETE:19",
+        "audio": "DPLAN019"
+      },
+      "204": {
+        "image": "PLANETE:20",
+        "audio": "DPLAN020"
+      },
+      "205": {
+        "image": "PLANETE:17",
+        "audio": "DPLAN021"
+      },
+      "206": {
+        "image": "PLANETE:21",
+        "audio": "DPLAN022"
+      },
+      "301": {
+        "image": "PLANETE:22",
+        "audio": "DPLAN023"
+      },
+      "302": {
+        "image": "PLANETE:23",
+        "audio": "DPLAN024"
+      },
+      "303": {
+        "image": "PLANETE:24",
+        "audio": "DPLAN025"
+      },
+      "304": {
+        "image": "PLANETE:25",
+        "audio": "DPLAN026"
+      },
+      "305": {
+        "image": "PLANETE:26",
+        "audio": "DPLAN027"
+      },
+      "306": {
+        "image": "PLANETE:27",
+        "audio": "DPLAN028"
+      },
+      "401": {
+        "image": "PLANETE:28",
+        "audio": "DPLAN029"
+      },
+      "402": {
+        "image": "PLANETE:29",
+        "audio": "DPLAN030"
+      },
+      "403": {
+        "image": "PLANETE:30",
+        "audio": "DPLAN031"
+      },
+      "404": {
+        "image": "PLANETE:31",
+        "audio": "DPLAN032"
+      },
+      "405": {
+        "image": "PLANETE:32",
+        "audio": "DPLAN033"
+      },
+      "406": {
+        "image": "PLANETE:33",
+        "audio": "DPLAN034"
+      },
+      "501": {
+        "image": "PLANETE:34",
+        "audio": "DPLAN035"
+      },
+      "502": {
+        "image": "PLANETE:35",
+        "audio": "DPLAN036"
+      },
+      "503": {
+        "image": "PLANETE:36",
+        "audio": "DPLAN037"
+      },
+      "504": {
+        "image": "PLANETE:37",
+        "audio": "DPLAN038"
+      },
+      "505": {
+        "image": "PLANETE:38",
+        "audio": "DPLAN039",
+        "labels": [
+          {
+            "text": "Io",
+            "x": 270,
+            "y": 195
+          },
+          {
+            "text": "Europa",
+            "x": 400,
+            "y": 285
+          },
+          {
+            "text": "Callisto",
+            "x": 435,
+            "y": 390
+          },
+          {
+            "text": "Ganymède",
+            "x": 180,
+            "y": 360
+          },
+          {
+            "text": "Jupiter",
+            "x": 370,
+            "y": 70
+          }
+        ]
+      },
+      "506": {
+        "image": "PLANETE:39",
+        "audio": "DPLAN040"
+      },
+      "601": {
+        "image": "PLANETE:40",
+        "audio": "DPLAN041"
+      },
+      "602": {
+        "image": "PLANETE:41",
+        "audio": "DPLAN042"
+      },
+      "603": {
+        "image": "PLANETE:42",
+        "audio": "DPLAN043"
+      },
+      "604": {
+        "image": "PLANETE:43",
+        "audio": "DPLAN044"
+      },
+      "605": {
+        "image": "PLANETE:44",
+        "audio": "DPLAN045",
+        "labels": [
+          {
+            "text": "Hypérion",
+            "x": 165,
+            "y": 70
+          },
+          {
+            "text": "Mimas",
+            "x": 140,
+            "y": 152
+          },
+          {
+            "text": "Titan",
+            "x": 255,
+            "y": 390
+          },
+          {
+            "text": "Rhéa",
+            "x": 420,
+            "y": 433
+          },
+          {
+            "text": "Dioné",
+            "x": 530,
+            "y": 345
+          },
+          {
+            "text": "Saturne",
+            "x": 440,
+            "y": 180
+          }
+        ]
+      },
+      "606": {
+        "image": "PLANETE:45",
+        "audio": "DPLAN046"
+      },
+      "701": {
+        "image": "PLANETE:46",
+        "audio": "DPLAN047"
+      },
+      "702": {
+        "image": "PLANETE:47",
+        "audio": "DPLAN048"
+      },
+      "703": {
+        "image": "PLANETE:48",
+        "audio": "DPLAN049"
+      },
+      "704": {
+        "image": "PLANETE:49",
+        "audio": "DPLAN050"
+      },
+      "705": {
+        "image": "PLANETE:50",
+        "audio": "DPLAN051",
+        "labels": [
+          {
+            "text": "Uranus",
+            "x": 370,
+            "y": 330
+          },
+          {
+            "text": "Ariel",
+            "x": 200,
+            "y": 426
+          },
+          {
+            "text": "Umbriel",
+            "x": 130,
+            "y": 182
+          },
+          {
+            "text": "Oberon",
+            "x": 324,
+            "y": 144
+          },
+          {
+            "text": "Titania",
+            "x": 532,
+            "y": 166
+          },
+          {
+            "text": "Miranda",
+            "x": 485,
+            "y": 240
+          }
+        ]
+      },
+      "706": {
+        "image": "PLANETE:51",
+        "audio": "DPLAN052"
+      },
+      "801": {
+        "image": "PLANETE:52",
+        "audio": "DPLAN053"
+      },
+      "802": {
+        "image": "PLANETE:53",
+        "audio": "DPLAN054"
+      },
+      "803": {
+        "image": "PLANETE:54",
+        "audio": "DPLAN055"
+      },
+      "804": {
+        "image": "PLANETE:55",
+        "audio": "DPLAN056"
+      },
+      "805": {
+        "image": "PLANETE:56",
+        "audio": "DPLAN057"
+      },
+      "806": {
+        "image": "PLANETE:57",
+        "audio": "DPLAN058"
+      },
+      "901": {
+        "image": "PLANETE:58",
+        "audio": "DPLAN059"
+      },
+      "902": {
+        "image": "PLANETE:59",
+        "audio": "DPLAN060"
+      },
+      "903": {
+        "image": "PLANETE:60",
+        "audio": "DPLAN061"
+      },
+      "904": {
+        "image": "PLANETE:61",
+        "audio": "DPLAN062"
+      },
+      "905": {
+        "image": "PLANETE:62",
+        "audio": "DPLAN063"
+      },
+      "906": {
+        "image": "PLANETE:63",
+        "audio": "DPLAN064"
+      }
+    },
+    "help": "DPLAN004"
+  },
+  "astro": {
+    "title": "L’astronomie",
+    "background": "ASTRO:1",
+    "intro": [
+      "DASTR000"
+    ],
+    "ambience": "AMB_AST1",
+    "help": "DASTR100"
+  },
+  "espace": {
+    "title": "La conquête de l’espace",
+    "background": "ESPACE:0",
+    "mask": "ESPACE:6",
+    "intro": [
+      "CTRACONQ",
+      "DESPA000"
+    ],
+    "ambience": "AMB_ESP",
+    "zones": [
+      {
+        "color": 105,
+        "id": 0,
+        "label": "Octobre 1957 — Spoutnik",
+        "media": "SPOUTNKF"
+      },
+      {
+        "color": 98,
+        "id": 1,
+        "label": "Novembre 1957 — Laïka",
+        "media": "LAIKAF"
+      },
+      {
+        "color": 113,
+        "id": 2,
+        "label": "Avril 1961 — Youri Gagarine",
+        "media": "GAGARINF"
+      },
+      {
+        "color": 120,
+        "id": 3,
+        "label": "Juin 1963 — Valentina Terechkova",
+        "media": "TERECHKF"
+      },
+      {
+        "color": 130,
+        "id": 4,
+        "label": "Juillet 1969 — Apollo 11",
+        "media": "APOLOF"
+      },
+      {
+        "color": 134,
+        "id": 5,
+        "label": "Mai 1973 — Skylab",
+        "media": "SKYLABF"
+      },
+      {
+        "color": 138,
+        "id": 6,
+        "label": "Août–septembre 1977 — Voyager",
+        "media": "VOYAGRF"
+      },
+      {
+        "color": 147,
+        "id": 7,
+        "label": "Avril 1981 — Columbia",
+        "media": "COLUMBF"
+      },
+      {
+        "color": 158,
+        "id": 8,
+        "label": "Juin 1985 — Giotto",
+        "media": "GIOTTOF"
+      }
+    ],
+    "help": "DESPA001"
+  }
+}

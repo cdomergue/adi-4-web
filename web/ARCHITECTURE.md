@@ -61,6 +61,25 @@ et la préférence système de réduction des animations.
 Les [ressources de la chambre](public/game/room/) comprennent décors, clips,
 scénarios, textes, trajectoires et sons.
 
+## Documents de la chambre
+
+[documents/view.js](public/features/documents/view.js) affiche le menu bleu et
+les cinq dossiers multimédias. [documents/engine.js](public/features/documents/engine.js)
+convertit les coordonnées d’écran vers les pixels originaux, lit les masques de
+clic et calcule le défilement du menu et de la chronologie spatiale.
+
+Le [catalogue](public/game/documents/catalog.json) décrit l’ordre des douze entrées.
+[topics.json](public/game/documents/topics.json) associe les zones aux films, voix,
+présentations et pages planétaires. [astronomy.json](public/game/documents/astronomy.json)
+décrit les huit cartes du ciel, leurs constellations et les découpes d’images.
+[assets.json](public/game/documents/assets.json) répertorie les images, masques,
+animations WebP, voix FLAC et films MP4 avec leur piste audio.
+
+Chaque vue arrête ses médias, annule ses temporisations et retire ses calques à
+`sceneleave`. Les films se ferment à leur fin, avec Échap ou avec leur bouton de
+fermeture. Les commandes au clavier complètent les clics précis dans le décor.
+L’Atlas et les six simulations d’environnement restent des entrées indisponibles.
+
 ## Station Sciences
 
 [scenes.js](public/features/science/scenes.js) décrit les décors, destinations et

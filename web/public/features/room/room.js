@@ -10,7 +10,7 @@ const actions = [
   ['science', 'Les matières', 'BARAPPLI', 'Ouvre l’application Sciences et sa station spatiale.'],
   ['games', 'Les jeux', 'BARJEUX', 'Ouvre les jeux de la chambre d’Adi.'],
   ['tools', 'Les outils', 'BAROUTIL', 'Les outils de la chambre restent à reconstruire.'],
-  ['documents', 'Les documents', 'BARDOCS', 'Les documents de la chambre restent à reconstruire.'],
+  ['documents', 'Les documents', 'BARDOCS', 'Ouvre les documents sur les animaux, l’eau, l’astronomie et l’espace.'],
   ['animations', 'Les animations', 'BARANIM', 'Repère les objets animés de la chambre.'],
   ['help', 'Aide', 'BARAIDE', 'Active ou désactive les explications des boutons.'],
   ['exit', 'Sortir', 'BARPORTE', 'Reviens à l’accueil.'],
@@ -211,6 +211,7 @@ export async function renderRoom(main, info) {
       }
       if (id === 'science') location.hash = 'scene/station';
       else if (id === 'games') location.hash = 'games';
+      else if (id === 'documents') location.hash = 'documents';
       else if (id === 'internet') location.hash = 'internet';
       else if (id === 'exit') location.hash = 'welcome';
       else if (id === 'animations') {

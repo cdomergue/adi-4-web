@@ -75,7 +75,7 @@ export async function renderRoomActivity(main, kind, info) {
       ]
         .map(
           ([label, icon]) =>
-            `<button disabled aria-label="${label}" title="${label}"><img src="/game/room/${icon}.webp" alt=""></button>`,
+            icon === 'BARDOCS' ? `<a href="#documents" aria-label="${label}" title="${label}"><img src="/game/room/${icon}.webp" alt=""></a>` : `<button disabled aria-label="${label}" title="${label}"><img src="/game/room/${icon}.webp" alt=""></button>`,
         )
         .join('')}
       <button id="activity-help" aria-label="Aide" aria-pressed="false" title="Aide"><img src="/game/room/BARAIDE.webp" alt=""></button><a href="#room" aria-label="Revenir dans la chambre" title="Revenir dans la chambre"><img src="/game/room/BARPORTE.webp" alt=""></a></nav>`;

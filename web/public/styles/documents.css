@@ -1,0 +1,227 @@
+.documents-frame {
+  container-type: inline-size;
+  max-width: 960px;
+  overflow: hidden;
+  background: #000;
+  aspect-ratio: 4 / 3;
+}
+.documents-frame > canvas {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.documents-shade {
+  position: absolute;
+  inset: 0;
+  background: #fff9;
+}
+.documents-menu {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+}
+.documents-menu-panel {
+  position: absolute;
+  left: 25.625%;
+  top: 12.9167%;
+  width: 55.625%;
+  height: 56.6667%;
+}
+.documents-menu-scroll {
+  position: absolute;
+  left: 80%;
+  top: 22.9167%;
+  width: 9.84375%;
+  height: 39.7917%;
+}
+.documents-menu h2 {
+  position: absolute;
+  left: 27%;
+  top: 16%;
+  width: 52%;
+  margin: 0;
+  color: #090e16;
+  text-align: center;
+  font:
+    3.125cqw AdiMenu,
+    sans-serif;
+}
+.documents-menu-list {
+  position: absolute;
+  left: 32.1875%;
+  top: 26.25%;
+  width: 44%;
+  height: 33.5%;
+  display: grid;
+  grid-template-rows: repeat(7, 1fr);
+  pointer-events: auto;
+}
+.documents-menu-list button {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  background: transparent;
+  color: #09151f;
+  text-align: left;
+  font:
+    3.125cqw AdiMenu,
+    sans-serif;
+  cursor: pointer;
+  white-space: nowrap;
+}
+.documents-menu-list button:hover,
+.documents-menu-list button:focus-visible {
+  color: #fcff80;
+  outline: none;
+}
+.documents-menu-list button:disabled {
+  color: #435365;
+  cursor: default;
+}
+.documents-menu-up,
+.documents-menu-down {
+  position: absolute;
+  left: 82%;
+  width: 4.5%;
+  height: 5%;
+  border: 0;
+  padding: 0;
+  border-radius: 50%;
+  background: transparent;
+  pointer-events: auto;
+  cursor: pointer;
+}
+.documents-menu-up {
+  top: 23.5%;
+}
+.documents-menu-down {
+  top: 56.2%;
+}
+.documents-menu-range {
+  position: absolute;
+  left: 82%;
+  top: 31%;
+  width: 4%;
+  height: 25%;
+  writing-mode: vertical-lr;
+  direction: ltr;
+  appearance: none;
+  background: transparent;
+  pointer-events: auto;
+  margin: 0;
+  cursor: pointer;
+}
+.documents-menu-range::-webkit-slider-thumb {
+  appearance: none;
+  width: 3.9cqw;
+  height: 3.9cqw;
+  background: url('/game/documents/menu/3.webp') center / contain;
+  border: 0;
+}
+.documents-menu-range::-moz-range-thumb {
+  width: 3.9cqw;
+  height: 3.9cqw;
+  background: url('/game/documents/menu/3.webp') center / contain;
+  border: 0;
+}
+.document-hotspots {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+}
+.document-hotspot {
+  position: absolute;
+  border: 0;
+  padding: 0;
+  background: transparent;
+  pointer-events: auto;
+  cursor: pointer;
+}
+.document-hotspot:focus-visible {
+  outline: 2px solid #ffff98;
+  outline-offset: -2px;
+}
+.document-tooltip {
+  position: absolute;
+  max-width: 40%;
+  padding: 0.4cqw 1cqw;
+  background: #ffffd8;
+  border: 1px solid #685a33;
+  color: #151410;
+  font:
+    2.2cqw AdiMenu,
+    sans-serif;
+  pointer-events: none;
+  z-index: 2;
+}
+.document-animation {
+  position: absolute;
+  pointer-events: none;
+  object-fit: fill;
+}
+.document-film {
+  position: absolute;
+  inset: 0;
+  z-index: 6;
+  background: #ffffffa8;
+  display: grid;
+  place-items: center;
+}
+.document-film[hidden],
+.document-tooltip[hidden] {
+  display: none;
+}
+.document-film-window {
+  position: relative;
+  width: 72%;
+  height: 70%;
+  padding: 1.5%;
+  border: 0.8cqw ridge #e0b85a;
+  background: #000;
+  border-radius: 1%;
+  box-shadow: 0.8cqw 0.8cqw 0 #372a5480;
+}
+.document-film video {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.document-film-close {
+  position: absolute;
+  right: -1.5cqw;
+  top: -2cqw;
+  width: 4cqw;
+  height: 4cqw;
+  padding: 0;
+  border: 2px solid #8f6328;
+  border-radius: 50%;
+  background: #ffe3a0;
+  color: #302512;
+  cursor: pointer;
+  font: bold 3cqw Arial;
+}
+.document-space-range {
+  position: absolute;
+  left: 77.34%;
+  top: 65.625%;
+  height: 14%;
+  width: 4%;
+  writing-mode: vertical-lr;
+  opacity: 0;
+  pointer-events: auto;
+  margin: 0;
+  cursor: ns-resize;
+}
+.document-space-range:focus-visible {
+  opacity: 0.7;
+}
+.document-choices {
+  margin: 1rem 0;
+}
+.document-choices > div {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  padding: 1rem 0;
+}

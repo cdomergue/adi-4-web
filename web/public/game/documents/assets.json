@@ -1,0 +1,3715 @@
+{
+  "images": {
+    "ANIMAL:0": {
+      "src": "/game/documents/animal/0-image.webp",
+      "width": 640,
+      "height": 480,
+      "kind": "image"
+    },
+    "ANIMAL:1": {
+      "src": "/game/documents/animal/1-mask.png",
+      "width": 640,
+      "height": 480,
+      "kind": "mask"
+    },
+    "ANIMAL:2": {
+      "src": "/game/documents/animal/2-image.webp",
+      "width": 640,
+      "height": 34,
+      "kind": "image"
+    },
+    "ANIMAL:3": {
+      "src": "/game/documents/animal/3-image.webp",
+      "width": 640,
+      "height": 34,
+      "kind": "image"
+    },
+    "ANIMAL:4": {
+      "src": "/game/documents/animal/4-image.webp",
+      "width": 640,
+      "height": 50,
+      "kind": "image"
+    },
+    "CYCLE:0": {
+      "src": "/game/documents/cycle/0-image.webp",
+      "width": 640,
+      "height": 480,
+      "kind": "image"
+    },
+    "CYCLE:1": {
+      "src": "/game/documents/cycle/1-mask.png",
+      "width": 640,
+      "height": 480,
+      "kind": "mask"
+    },
+    "CYCLE:2": {
+      "src": "/game/documents/cycle/2-image.webp",
+      "width": 640,
+      "height": 34,
+      "kind": "image"
+    },
+    "CYCLE:3": {
+      "src": "/game/documents/cycle/3-image.webp",
+      "width": 640,
+      "height": 34,
+      "kind": "image"
+    },
+    "ASTRO:0": {
+      "src": "/game/documents/astro/0-image.webp",
+      "width": 640,
+      "height": 130,
+      "kind": "image"
+    },
+    "ASTRO:1": {
+      "src": "/game/documents/astro/1-image.webp",
+      "width": 640,
+      "height": 480,
+      "kind": "image"
+    },
+    "ASTRO:2": {
+      "src": "/game/documents/astro/2-image.webp",
+      "width": 640,
+      "height": 480,
+      "kind": "image"
+    },
+    "ASTRO:3": {
+      "src": "/game/documents/astro/3-image.webp",
+      "width": 640,
+      "height": 480,
+      "kind": "image"
+    },
+    "ASTRO:4": {
+      "src": "/game/documents/astro/4-image.webp",
+      "width": 640,
+      "height": 480,
+      "kind": "image"
+    },
+    "ASTRO:5": {
+      "src": "/game/documents/astro/5-image.webp",
+      "width": 640,
+      "height": 480,
+      "kind": "image"
+    },
+    "ASTRO:6": {
+      "src": "/game/documents/astro/6-image.webp",
+      "width": 640,
+      "height": 480,
+      "kind": "image"
+    },
+    "ASTRO:7": {
+      "src": "/game/documents/astro/7-image.webp",
+      "width": 640,
+      "height": 480,
+      "kind": "image"
+    },
+    "ASTRO:8": {
+      "src": "/game/documents/astro/8-image.webp",
+      "width": 640,
+      "height": 480,
+      "kind": "image"
+    },
+    "ASTRO:9": {
+      "src": "/game/documents/astro/9-mask.png",
+      "width": 640,
+      "height": 480,
+      "kind": "mask"
+    },
+    "ASTRO:10": {
+      "src": "/game/documents/astro/10-image.webp",
+      "width": 610,
+      "height": 425,
+      "kind": "image"
+    },
+    "ASTRO:11": {
+      "src": "/game/documents/astro/11-image.webp",
+      "width": 610,
+      "height": 425,
+      "kind": "image"
+    },
+    "ASTRO:12": {
+      "src": "/game/documents/astro/12-mask.png",
+      "width": 640,
+      "height": 480,
+      "kind": "mask"
+    },
+    "ASTRO:13": {
+      "src": "/game/documents/astro/13-image.webp",
+      "width": 640,
+      "height": 460,
+      "kind": "image"
+    },
+    "ASTRO:14": {
+      "src": "/game/documents/astro/14-image.webp",
+      "width": 640,
+      "height": 460,
+      "kind": "image"
+    },
+    "ASTRO:15": {
+      "src": "/game/documents/astro/15-mask.png",
+      "width": 640,
+      "height": 480,
+      "kind": "mask"
+    },
+    "ASTRO:16": {
+      "src": "/game/documents/astro/16-image.webp",
+      "width": 610,
+      "height": 220,
+      "kind": "image"
+    },
+    "ASTRO:17": {
+      "src": "/game/documents/astro/17-image.webp",
+      "width": 610,
+      "height": 220,
+      "kind": "image"
+    },
+    "ASTRO:18": {
+      "src": "/game/documents/astro/18-mask.png",
+      "width": 640,
+      "height": 480,
+      "kind": "mask"
+    },
+    "ASTRO:19": {
+      "src": "/game/documents/astro/19-image.webp",
+      "width": 610,
+      "height": 450,
+      "kind": "image"
+    },
+    "ASTRO:20": {
+      "src": "/game/documents/astro/20-image.webp",
+      "width": 610,
+      "height": 450,
+      "kind": "image"
+    },
+    "ASTRO:21": {
+      "src": "/game/documents/astro/21-mask.png",
+      "width": 640,
+      "height": 480,
+      "kind": "mask"
+    },
+    "ASTRO:22": {
+      "src": "/game/documents/astro/22-image.webp",
+      "width": 640,
+      "height": 415,
+      "kind": "image"
+    },
+    "ASTRO:23": {
+      "src": "/game/documents/astro/23-image.webp",
+      "width": 640,
+      "height": 415,
+      "kind": "image"
+    },
+    "ASTRO:24": {
+      "src": "/game/documents/astro/24-mask.png",
+      "width": 640,
+      "height": 480,
+      "kind": "mask"
+    },
+    "ASTRO:25": {
+      "src": "/game/documents/astro/25-image.webp",
+      "width": 620,
+      "height": 460,
+      "kind": "image"
+    },
+    "ASTRO:26": {
+      "src": "/game/documents/astro/26-image.webp",
+      "width": 620,
+      "height": 460,
+      "kind": "image"
+    },
+    "ASTRO:27": {
+      "src": "/game/documents/astro/27-mask.png",
+      "width": 640,
+      "height": 480,
+      "kind": "mask"
+    },
+    "ASTRO:28": {
+      "src": "/game/documents/astro/28-image.webp",
+      "width": 590,
+      "height": 335,
+      "kind": "image"
+    },
+    "ASTRO:29": {
+      "src": "/game/documents/astro/29-image.webp",
+      "width": 590,
+      "height": 335,
+      "kind": "image"
+    },
+    "ASTRO:30": {
+      "src": "/game/documents/astro/30-mask.png",
+      "width": 640,
+      "height": 480,
+      "kind": "mask"
+    },
+    "ASTRO:31": {
+      "src": "/game/documents/astro/31-image.webp",
+      "width": 640,
+      "height": 430,
+      "kind": "image"
+    },
+    "ASTRO:32": {
+      "src": "/game/documents/astro/32-image.webp",
+      "width": 640,
+      "height": 430,
+      "kind": "image"
+    },
+    "ASTRO:33": {
+      "src": "/game/documents/astro/33-image.webp",
+      "width": 640,
+      "height": 480,
+      "kind": "image"
+    },
+    "ASTRO:34": {
+      "src": "/game/documents/astro/34-image.webp",
+      "width": 640,
+      "height": 480,
+      "kind": "image"
+    },
+    "ASTRO:35": {
+      "src": "/game/documents/astro/35-image.webp",
+      "width": 640,
+      "height": 480,
+      "kind": "image"
+    },
+    "ASTRO:36": {
+      "src": "/game/documents/astro/36-image.webp",
+      "width": 640,
+      "height": 480,
+      "kind": "image"
+    },
+    "ASTRO:37": {
+      "src": "/game/documents/astro/37-image.webp",
+      "width": 640,
+      "height": 480,
+      "kind": "image"
+    },
+    "ASTRO:38": {
+      "src": "/game/documents/astro/38-image.webp",
+      "width": 640,
+      "height": 480,
+      "kind": "image"
+    },
+    "ASTRO:39": {
+      "src": "/game/documents/astro/39-image.webp",
+      "width": 640,
+      "height": 480,
+      "kind": "image"
+    },
+    "ASTRO:40": {
+      "src": "/game/documents/astro/40-image.webp",
+      "width": 640,
+      "height": 480,
+      "kind": "image"
+    },
+    "ASTRO:41": {
+      "src": "/game/documents/astro/41-image.webp",
+      "width": 640,
+      "height": 34,
+      "kind": "image"
+    },
+    "ASTRO:42": {
+      "src": "/game/documents/astro/42-image.webp",
+      "width": 640,
+      "height": 34,
+      "kind": "image"
+    },
+    "PLANETE:0": {
+      "src": "/game/documents/planete/0-image.webp",
+      "width": 640,
+      "height": 480,
+      "kind": "image"
+    },
+    "PLANETE:1": {
+      "src": "/game/documents/planete/1-mask.png",
+      "width": 640,
+      "height": 480,
+      "kind": "mask"
+    },
+    "PLANETE:2": {
+      "src": "/game/documents/planete/2-image.webp",
+      "width": 640,
+      "height": 60,
+      "kind": "image"
+    },
+    "PLANETE:3": {
+      "src": "/game/documents/planete/3-image.webp",
+      "width": 640,
+      "height": 60,
+      "kind": "image"
+    },
+    "PLANETE:4": {
+      "src": "/game/documents/planete/4-mask.png",
+      "width": 640,
+      "height": 45,
+      "kind": "mask"
+    },
+    "PLANETE:5": {
+      "src": "/game/documents/planete/5-image.webp",
+      "width": 640,
+      "height": 480,
+      "kind": "image"
+    },
+    "PLANETE:6": {
+      "src": "/game/documents/planete/6-image.webp",
+      "width": 588,
+      "height": 402,
+      "kind": "image"
+    },
+    "PLANETE:7": {
+      "src": "/game/documents/planete/7-image.webp",
+      "width": 588,
+      "height": 402,
+      "kind": "image"
+    },
+    "PLANETE:8": {
+      "src": "/game/documents/planete/8-image.webp",
+      "width": 588,
+      "height": 402,
+      "kind": "image"
+    },
+    "PLANETE:9": {
+      "src": "/game/documents/planete/9-image.webp",
+      "width": 588,
+      "height": 402,
+      "kind": "image"
+    },
+    "PLANETE:10": {
+      "src": "/game/documents/planete/10-image.webp",
+      "width": 588,
+      "height": 402,
+      "kind": "image"
+    },
+    "PLANETE:11": {
+      "src": "/game/documents/planete/11-image.webp",
+      "width": 588,
+      "height": 402,
+      "kind": "image"
+    },
+    "PLANETE:12": {
+      "src": "/game/documents/planete/12-image.webp",
+      "width": 588,
+      "height": 402,
+      "kind": "image"
+    },
+    "PLANETE:13": {
+      "src": "/game/documents/planete/13-image.webp",
+      "width": 588,
+      "height": 402,
+      "kind": "image"
+    },
+    "PLANETE:14": {
+      "src": "/game/documents/planete/14-image.webp",
+      "width": 588,
+      "height": 402,
+      "kind": "image"
+    },
+    "PLANETE:15": {
+      "src": "/game/documents/planete/15-image.webp",
+      "width": 588,
+      "height": 402,
+      "kind": "image"
+    },
+    "PLANETE:16": {
+      "src": "/game/documents/planete/16-image.webp",
+      "width": 588,
+      "height": 402,
+      "kind": "image"
+    },
+    "PLANETE:17": {
+      "src": "/game/documents/planete/17-image.webp",
+      "width": 588,
+      "height": 402,
+      "kind": "image"
+    },
+    "PLANETE:18": {
+      "src": "/game/documents/planete/18-image.webp",
+      "width": 588,
+      "height": 402,
+      "kind": "image"
+    },
+    "PLANETE:19": {
+      "src": "/game/documents/planete/19-image.webp",
+      "width": 588,
+      "height": 402,
+      "kind": "image"
+    },
+    "PLANETE:20": {
+      "src": "/game/documents/planete/20-image.webp",
+      "width": 588,
+      "height": 402,
+      "kind": "image"
+    },
+    "PLANETE:21": {
+      "src": "/game/documents/planete/21-image.webp",
+      "width": 588,
+      "height": 402,
+      "kind": "image"
+    },
+    "PLANETE:22": {
+      "src": "/game/documents/planete/22-image.webp",
+      "width": 588,
+      "height": 402,
+      "kind": "image"
+    },
+    "PLANETE:23": {
+      "src": "/game/documents/planete/23-image.webp",
+      "width": 588,
+      "height": 402,
+      "kind": "image"
+    },
+    "PLANETE:24": {
+      "src": "/game/documents/planete/24-image.webp",
+      "width": 588,
+      "height": 402,
+      "kind": "image"
+    },
+    "PLANETE:25": {
+      "src": "/game/documents/planete/25-image.webp",
+      "width": 588,
+      "height": 402,
+      "kind": "image"
+    },
+    "PLANETE:26": {
+      "src": "/game/documents/planete/26-image.webp",
+      "width": 588,
+      "height": 402,
+      "kind": "image"
+    },
+    "PLANETE:27": {
+      "src": "/game/documents/planete/27-image.webp",
+      "width": 588,
+      "height": 402,
+      "kind": "image"
+    },
+    "PLANETE:28": {
+      "src": "/game/documents/planete/28-image.webp",
+      "width": 588,
+      "height": 402,
+      "kind": "image"
+    },
+    "PLANETE:29": {
+      "src": "/game/documents/planete/29-image.webp",
+      "width": 588,
+      "height": 402,
+      "kind": "image"
+    },
+    "PLANETE:30": {
+      "src": "/game/documents/planete/30-image.webp",
+      "width": 588,
+      "height": 402,
+      "kind": "image"
+    },
+    "PLANETE:31": {
+      "src": "/game/documents/planete/31-image.webp",
+      "width": 588,
+      "height": 402,
+      "kind": "image"
+    },
+    "PLANETE:32": {
+      "src": "/game/documents/planete/32-image.webp",
+      "width": 588,
+      "height": 402,
+      "kind": "image"
+    },
+    "PLANETE:33": {
+      "src": "/game/documents/planete/33-image.webp",
+      "width": 588,
+      "height": 402,
+      "kind": "image"
+    },
+    "PLANETE:34": {
+      "src": "/game/documents/planete/34-image.webp",
+      "width": 588,
+      "height": 402,
+      "kind": "image"
+    },
+    "PLANETE:35": {
+      "src": "/game/documents/planete/35-image.webp",
+      "width": 588,
+      "height": 402,
+      "kind": "image"
+    },
+    "PLANETE:36": {
+      "src": "/game/documents/planete/36-image.webp",
+      "width": 588,
+      "height": 402,
+      "kind": "image"
+    },
+    "PLANETE:37": {
+      "src": "/game/documents/planete/37-image.webp",
+      "width": 588,
+      "height": 402,
+      "kind": "image"
+    },
+    "PLANETE:38": {
+      "src": "/game/documents/planete/38-image.webp",
+      "width": 588,
+      "height": 402,
+      "kind": "image"
+    },
+    "PLANETE:39": {
+      "src": "/game/documents/planete/39-image.webp",
+      "width": 588,
+      "height": 402,
+      "kind": "image"
+    },
+    "PLANETE:40": {
+      "src": "/game/documents/planete/40-image.webp",
+      "width": 588,
+      "height": 402,
+      "kind": "image"
+    },
+    "PLANETE:41": {
+      "src": "/game/documents/planete/41-image.webp",
+      "width": 588,
+      "height": 402,
+      "kind": "image"
+    },
+    "PLANETE:42": {
+      "src": "/game/documents/planete/42-image.webp",
+      "width": 588,
+      "height": 402,
+      "kind": "image"
+    },
+    "PLANETE:43": {
+      "src": "/game/documents/planete/43-image.webp",
+      "width": 588,
+      "height": 402,
+      "kind": "image"
+    },
+    "PLANETE:44": {
+      "src": "/game/documents/planete/44-image.webp",
+      "width": 588,
+      "height": 402,
+      "kind": "image"
+    },
+    "PLANETE:45": {
+      "src": "/game/documents/planete/45-image.webp",
+      "width": 588,
+      "height": 402,
+      "kind": "image"
+    },
+    "PLANETE:46": {
+      "src": "/game/documents/planete/46-image.webp",
+      "width": 588,
+      "height": 402,
+      "kind": "image"
+    },
+    "PLANETE:47": {
+      "src": "/game/documents/planete/47-image.webp",
+      "width": 588,
+      "height": 402,
+      "kind": "image"
+    },
+    "PLANETE:48": {
+      "src": "/game/documents/planete/48-image.webp",
+      "width": 588,
+      "height": 402,
+      "kind": "image"
+    },
+    "PLANETE:49": {
+      "src": "/game/documents/planete/49-image.webp",
+      "width": 588,
+      "height": 402,
+      "kind": "image"
+    },
+    "PLANETE:50": {
+      "src": "/game/documents/planete/50-image.webp",
+      "width": 588,
+      "height": 402,
+      "kind": "image"
+    },
+    "PLANETE:51": {
+      "src": "/game/documents/planete/51-image.webp",
+      "width": 588,
+      "height": 402,
+      "kind": "image"
+    },
+    "PLANETE:52": {
+      "src": "/game/documents/planete/52-image.webp",
+      "width": 588,
+      "height": 402,
+      "kind": "image"
+    },
+    "PLANETE:53": {
+      "src": "/game/documents/planete/53-image.webp",
+      "width": 588,
+      "height": 402,
+      "kind": "image"
+    },
+    "PLANETE:54": {
+      "src": "/game/documents/planete/54-image.webp",
+      "width": 588,
+      "height": 402,
+      "kind": "image"
+    },
+    "PLANETE:55": {
+      "src": "/game/documents/planete/55-image.webp",
+      "width": 588,
+      "height": 402,
+      "kind": "image"
+    },
+    "PLANETE:56": {
+      "src": "/game/documents/planete/56-image.webp",
+      "width": 588,
+      "height": 402,
+      "kind": "image"
+    },
+    "PLANETE:57": {
+      "src": "/game/documents/planete/57-image.webp",
+      "width": 588,
+      "height": 402,
+      "kind": "image"
+    },
+    "PLANETE:58": {
+      "src": "/game/documents/planete/58-image.webp",
+      "width": 588,
+      "height": 402,
+      "kind": "image"
+    },
+    "PLANETE:59": {
+      "src": "/game/documents/planete/59-image.webp",
+      "width": 588,
+      "height": 402,
+      "kind": "image"
+    },
+    "PLANETE:60": {
+      "src": "/game/documents/planete/60-image.webp",
+      "width": 588,
+      "height": 402,
+      "kind": "image"
+    },
+    "PLANETE:61": {
+      "src": "/game/documents/planete/61-image.webp",
+      "width": 588,
+      "height": 402,
+      "kind": "image"
+    },
+    "PLANETE:62": {
+      "src": "/game/documents/planete/62-image.webp",
+      "width": 588,
+      "height": 402,
+      "kind": "image"
+    },
+    "PLANETE:63": {
+      "src": "/game/documents/planete/63-image.webp",
+      "width": 588,
+      "height": 402,
+      "kind": "image"
+    },
+    "PLANETE:64": {
+      "src": "/game/documents/planete/64-image.webp",
+      "width": 640,
+      "height": 34,
+      "kind": "image"
+    },
+    "PLANETE:65": {
+      "src": "/game/documents/planete/65-image.webp",
+      "width": 640,
+      "height": 34,
+      "kind": "image"
+    },
+    "ESPACE:0": {
+      "src": "/game/documents/espace/0-image.webp",
+      "width": 640,
+      "height": 480,
+      "kind": "image"
+    },
+    "ESPACE:1": {
+      "src": "/game/documents/espace/1-mask.png",
+      "width": 640,
+      "height": 480,
+      "kind": "mask"
+    },
+    "ESPACE:2": {
+      "src": "/game/documents/espace/2-image.webp",
+      "width": 290,
+      "height": 305,
+      "kind": "image"
+    },
+    "ESPACE:3": {
+      "src": "/game/documents/espace/3-image.webp",
+      "width": 290,
+      "height": 305,
+      "kind": "image"
+    },
+    "ESPACE:4": {
+      "src": "/game/documents/espace/4-image.webp",
+      "width": 290,
+      "height": 305,
+      "kind": "image"
+    },
+    "ESPACE:5": {
+      "src": "/game/documents/espace/5-image.webp",
+      "width": 85,
+      "height": 30,
+      "kind": "image"
+    },
+    "ESPACE:6": {
+      "src": "/game/documents/espace/6-mask.png",
+      "width": 285,
+      "height": 285,
+      "kind": "mask"
+    },
+    "ESPACE:7": {
+      "src": "/game/documents/espace/7-mask.png",
+      "width": 210,
+      "height": 102,
+      "kind": "mask"
+    },
+    "ESPACE:8": {
+      "src": "/game/documents/espace/8-image.webp",
+      "width": 640,
+      "height": 34,
+      "kind": "image"
+    },
+    "ESPACE:9": {
+      "src": "/game/documents/espace/9-image.webp",
+      "width": 640,
+      "height": 34,
+      "kind": "image"
+    },
+    "IMAGES:0": {
+      "src": "/game/documents/images/0-image.webp",
+      "width": 40,
+      "height": 36,
+      "kind": "image"
+    },
+    "IMAGES:1": {
+      "src": "/game/documents/images/1-image.webp",
+      "width": 40,
+      "height": 36,
+      "kind": "image"
+    },
+    "IMAGES:2": {
+      "src": "/game/documents/images/2-image.webp",
+      "width": 640,
+      "height": 60,
+      "kind": "image"
+    },
+    "IMAGES:3": {
+      "src": "/game/documents/images/3-image.webp",
+      "width": 640,
+      "height": 120,
+      "kind": "image"
+    }
+  },
+  "media": {
+    "AIGLE": {
+      "width": 0,
+      "height": 0,
+      "x": 0,
+      "y": 0,
+      "frames": 18,
+      "fps": 10.0,
+      "audio": "/game/documents/media/aigle.flac",
+      "duration": 1.8008163265306123,
+      "type": "audio",
+      "src": "/game/documents/media/aigle.flac"
+    },
+    "AMB_ANI": {
+      "width": 0,
+      "height": 0,
+      "x": 0,
+      "y": 0,
+      "frames": 440,
+      "fps": 10.0,
+      "audio": "/game/documents/media/amb_ani.flac",
+      "duration": 44.019954648526074,
+      "type": "audio",
+      "src": "/game/documents/media/amb_ani.flac"
+    },
+    "AMB_AST1": {
+      "width": 0,
+      "height": 0,
+      "x": 0,
+      "y": 0,
+      "frames": 152,
+      "fps": 10.0,
+      "audio": "/game/documents/media/amb_ast1.flac",
+      "duration": 15.20689342403628,
+      "type": "audio",
+      "src": "/game/documents/media/amb_ast1.flac"
+    },
+    "AMB_AST2": {
+      "width": 0,
+      "height": 0,
+      "x": 0,
+      "y": 0,
+      "frames": 157,
+      "fps": 10.0,
+      "audio": "/game/documents/media/amb_ast2.flac",
+      "duration": 15.707120181405896,
+      "type": "audio",
+      "src": "/game/documents/media/amb_ast2.flac"
+    },
+    "AMB_CYC": {
+      "width": 0,
+      "height": 0,
+      "x": 0,
+      "y": 0,
+      "frames": 498,
+      "fps": 10.0,
+      "audio": "/game/documents/media/amb_cyc.flac",
+      "duration": 49.822585034013606,
+      "type": "audio",
+      "src": "/game/documents/media/amb_cyc.flac"
+    },
+    "AMB_ESP": {
+      "width": 0,
+      "height": 0,
+      "x": 0,
+      "y": 0,
+      "frames": 305,
+      "fps": 10.0,
+      "audio": "/game/documents/media/amb_esp.flac",
+      "duration": 30.513832199546485,
+      "type": "audio",
+      "src": "/game/documents/media/amb_esp.flac"
+    },
+    "AMB_PLA1": {
+      "width": 0,
+      "height": 0,
+      "x": 0,
+      "y": 0,
+      "frames": 681,
+      "fps": 10.0,
+      "audio": "/game/documents/media/amb_pla1.flac",
+      "duration": 68.1308843537415,
+      "type": "audio",
+      "src": "/game/documents/media/amb_pla1.flac"
+    },
+    "AMB_PLA2": {
+      "width": 0,
+      "height": 0,
+      "x": 0,
+      "y": 0,
+      "frames": 543,
+      "fps": 10.0,
+      "audio": "/game/documents/media/amb_pla2.flac",
+      "duration": 54.324625850340134,
+      "type": "audio",
+      "src": "/game/documents/media/amb_pla2.flac"
+    },
+    "ANAIGLE": {
+      "src": "/game/documents/media/anaigle.mp4",
+      "type": "video",
+      "width": 480,
+      "height": 352
+    },
+    "ANARA": {
+      "src": "/game/documents/media/anara.mp4",
+      "type": "video",
+      "width": 480,
+      "height": 352
+    },
+    "ANBALEI": {
+      "src": "/game/documents/media/anbalei.mp4",
+      "type": "video",
+      "width": 480,
+      "height": 352
+    },
+    "ANBOUQ": {
+      "src": "/game/documents/media/anbouq.mp4",
+      "type": "video",
+      "width": 480,
+      "height": 352
+    },
+    "ANCHAMO": {
+      "src": "/game/documents/media/anchamo.mp4",
+      "type": "video",
+      "width": 480,
+      "height": 352
+    },
+    "ANCIGO": {
+      "src": "/game/documents/media/ancigo.mp4",
+      "type": "video",
+      "width": 480,
+      "height": 352
+    },
+    "ANCONDO": {
+      "src": "/game/documents/media/ancondo.mp4",
+      "type": "video",
+      "width": 480,
+      "height": 352
+    },
+    "ANCROCO": {
+      "src": "/game/documents/media/ancroco.mp4",
+      "type": "video",
+      "width": 480,
+      "height": 352
+    },
+    "ANELEPH": {
+      "src": "/game/documents/media/aneleph.mp4",
+      "type": "video",
+      "width": 480,
+      "height": 352
+    },
+    "ANGORIL": {
+      "src": "/game/documents/media/angoril.mp4",
+      "type": "video",
+      "width": 480,
+      "height": 352
+    },
+    "ANKOALA": {
+      "src": "/game/documents/media/ankoala.mp4",
+      "type": "video",
+      "width": 480,
+      "height": 352
+    },
+    "ANLAMEN": {
+      "src": "/game/documents/media/anlamen.mp4",
+      "type": "video",
+      "width": 480,
+      "height": 352
+    },
+    "ANLEOPA": {
+      "src": "/game/documents/media/anleopa.mp4",
+      "type": "video",
+      "width": 480,
+      "height": 352
+    },
+    "ANLOUP": {
+      "src": "/game/documents/media/anloup.mp4",
+      "type": "video",
+      "width": 480,
+      "height": 352
+    },
+    "ANLOUTR": {
+      "src": "/game/documents/media/anloutr.mp4",
+      "type": "video",
+      "width": 480,
+      "height": 352
+    },
+    "ANOURS": {
+      "src": "/game/documents/media/anours.mp4",
+      "type": "video",
+      "width": 480,
+      "height": 352
+    },
+    "ANOURSB": {
+      "src": "/game/documents/media/anoursb.mp4",
+      "type": "video",
+      "width": 480,
+      "height": 352
+    },
+    "ANPANDA": {
+      "src": "/game/documents/media/anpanda.mp4",
+      "type": "video",
+      "width": 480,
+      "height": 352
+    },
+    "ANPELIC": {
+      "src": "/game/documents/media/anpelic.mp4",
+      "type": "video",
+      "width": 480,
+      "height": 352
+    },
+    "ANPHOQ": {
+      "src": "/game/documents/media/anphoq.mp4",
+      "type": "video",
+      "width": 480,
+      "height": 352
+    },
+    "ANRHINO": {
+      "src": "/game/documents/media/anrhino.mp4",
+      "type": "video",
+      "width": 480,
+      "height": 352
+    },
+    "ANTIGRE": {
+      "src": "/game/documents/media/antigre.mp4",
+      "type": "video",
+      "width": 480,
+      "height": 352
+    },
+    "ANTORTU": {
+      "src": "/game/documents/media/antortu.mp4",
+      "type": "video",
+      "width": 480,
+      "height": 352
+    },
+    "ANVARAN": {
+      "src": "/game/documents/media/anvaran.mp4",
+      "type": "video",
+      "width": 480,
+      "height": 352
+    },
+    "APOLOF": {
+      "src": "/game/documents/media/apolof.mp4",
+      "type": "video",
+      "width": 228,
+      "height": 168
+    },
+    "ARA": {
+      "width": 0,
+      "height": 0,
+      "x": 0,
+      "y": 0,
+      "frames": 21,
+      "fps": 10.0,
+      "audio": "/game/documents/media/ara.flac",
+      "duration": 2.000907029478458,
+      "type": "audio",
+      "src": "/game/documents/media/ara.flac"
+    },
+    "AS1_EF01": {
+      "width": 0,
+      "height": 0,
+      "x": 0,
+      "y": 0,
+      "frames": 55,
+      "fps": 10.0,
+      "audio": "/game/documents/media/as1_ef01.flac",
+      "duration": 5.502358276643991,
+      "type": "audio",
+      "src": "/game/documents/media/as1_ef01.flac"
+    },
+    "AS1_EF02": {
+      "width": 0,
+      "height": 0,
+      "x": 0,
+      "y": 0,
+      "frames": 96,
+      "fps": 10.0,
+      "audio": "/game/documents/media/as1_ef02.flac",
+      "duration": 9.004081632653062,
+      "type": "audio",
+      "src": "/game/documents/media/as1_ef02.flac"
+    },
+    "AS1_EF03": {
+      "width": 0,
+      "height": 0,
+      "x": 0,
+      "y": 0,
+      "frames": 105,
+      "fps": 10.0,
+      "audio": "/game/documents/media/as1_ef03.flac",
+      "duration": 9.302857142857142,
+      "type": "audio",
+      "src": "/game/documents/media/as1_ef03.flac"
+    },
+    "AS1_EF04": {
+      "width": 0,
+      "height": 0,
+      "x": 0,
+      "y": 0,
+      "frames": 145,
+      "fps": 10.0,
+      "audio": "/game/documents/media/as1_ef04.flac",
+      "duration": 14.206439909297051,
+      "type": "audio",
+      "src": "/game/documents/media/as1_ef04.flac"
+    },
+    "AS1_EF05": {
+      "width": 0,
+      "height": 0,
+      "x": 0,
+      "y": 0,
+      "frames": 72,
+      "fps": 10.0,
+      "audio": "/game/documents/media/as1_ef05.flac",
+      "duration": 5.902675736961451,
+      "type": "audio",
+      "src": "/game/documents/media/as1_ef05.flac"
+    },
+    "AS1_EF06": {
+      "width": 0,
+      "height": 0,
+      "x": 0,
+      "y": 0,
+      "frames": 62,
+      "fps": 10.0,
+      "audio": "/game/documents/media/as1_ef06.flac",
+      "duration": 6.20281179138322,
+      "type": "audio",
+      "src": "/game/documents/media/as1_ef06.flac"
+    },
+    "AS1_EF07": {
+      "width": 0,
+      "height": 0,
+      "x": 0,
+      "y": 0,
+      "frames": 43,
+      "fps": 10.0,
+      "audio": "/game/documents/media/as1_ef07.flac",
+      "duration": 4.301950113378685,
+      "type": "audio",
+      "src": "/game/documents/media/as1_ef07.flac"
+    },
+    "AS2_EF01": {
+      "width": 0,
+      "height": 0,
+      "x": 0,
+      "y": 0,
+      "frames": 60,
+      "fps": 10.0,
+      "audio": "/game/documents/media/as2_ef01.flac",
+      "duration": 5.001768707482993,
+      "type": "audio",
+      "src": "/game/documents/media/as2_ef01.flac"
+    },
+    "AS2_EF02": {
+      "width": 0,
+      "height": 0,
+      "x": 0,
+      "y": 0,
+      "frames": 73,
+      "fps": 10.0,
+      "audio": "/game/documents/media/as2_ef02.flac",
+      "duration": 6.102721088435374,
+      "type": "audio",
+      "src": "/game/documents/media/as2_ef02.flac"
+    },
+    "AS2_EF03": {
+      "width": 0,
+      "height": 0,
+      "x": 0,
+      "y": 0,
+      "frames": 63,
+      "fps": 10.0,
+      "audio": "/game/documents/media/as2_ef03.flac",
+      "duration": 5.701904761904762,
+      "type": "audio",
+      "src": "/game/documents/media/as2_ef03.flac"
+    },
+    "AS2_EF04": {
+      "width": 0,
+      "height": 0,
+      "x": 0,
+      "y": 0,
+      "frames": 13,
+      "fps": 10.0,
+      "audio": "/game/documents/media/as2_ef04.flac",
+      "duration": 1.3005895691609977,
+      "type": "audio",
+      "src": "/game/documents/media/as2_ef04.flac"
+    },
+    "AS2_EF05": {
+      "width": 0,
+      "height": 0,
+      "x": 0,
+      "y": 0,
+      "frames": 65,
+      "fps": 10.0,
+      "audio": "/game/documents/media/as2_ef05.flac",
+      "duration": 5.902675736961451,
+      "type": "audio",
+      "src": "/game/documents/media/as2_ef05.flac"
+    },
+    "BALEIN": {
+      "width": 92,
+      "height": 80,
+      "x": 311,
+      "y": 43,
+      "frames": 13,
+      "fps": 11.983695652173912,
+      "audio": "/game/documents/media/balein.flac",
+      "duration": 1.0848072562358277,
+      "src": "/game/documents/media/balein.webp",
+      "type": "animation"
+    },
+    "BALEINE": {
+      "width": 0,
+      "height": 0,
+      "x": 0,
+      "y": 0,
+      "frames": 55,
+      "fps": 10.0,
+      "audio": "/game/documents/media/baleine.flac",
+      "duration": 5.502494331065759,
+      "type": "audio",
+      "src": "/game/documents/media/baleine.flac"
+    },
+    "BOUKETIN": {
+      "width": 0,
+      "height": 0,
+      "x": 0,
+      "y": 0,
+      "frames": 14,
+      "fps": 10.0,
+      "audio": "/game/documents/media/bouketin.flac",
+      "duration": 1.4006349206349207,
+      "type": "audio",
+      "src": "/game/documents/media/bouketin.flac"
+    },
+    "CHAMEAU": {
+      "width": 0,
+      "height": 0,
+      "x": 0,
+      "y": 0,
+      "frames": 9,
+      "fps": 10.0,
+      "audio": "/game/documents/media/chameau.flac",
+      "duration": 1.3003628117913832,
+      "type": "audio",
+      "src": "/game/documents/media/chameau.flac"
+    },
+    "CHAMO": {
+      "width": 17,
+      "height": 11,
+      "x": 127,
+      "y": 332,
+      "frames": 28,
+      "fps": 11.99021207177814,
+      "audio": "/game/documents/media/chamo.flac",
+      "duration": 2.335238095238095,
+      "src": "/game/documents/media/chamo.webp",
+      "type": "animation"
+    },
+    "CIGOGNE": {
+      "width": 0,
+      "height": 0,
+      "x": 0,
+      "y": 0,
+      "frames": 27,
+      "fps": 10.0,
+      "audio": "/game/documents/media/cigogne.flac",
+      "duration": 2.7012244897959183,
+      "type": "audio",
+      "src": "/game/documents/media/cigogne.flac"
+    },
+    "COLUMBF": {
+      "src": "/game/documents/media/columbf.mp4",
+      "type": "video",
+      "width": 228,
+      "height": 168
+    },
+    "CONDOR": {
+      "width": 0,
+      "height": 0,
+      "x": 0,
+      "y": 0,
+      "frames": 45,
+      "fps": 10.0,
+      "audio": "/game/documents/media/condor.flac",
+      "duration": 4.301904761904762,
+      "type": "audio",
+      "src": "/game/documents/media/condor.flac"
+    },
+    "CROCO": {
+      "width": 0,
+      "height": 0,
+      "x": 0,
+      "y": 0,
+      "frames": 30,
+      "fps": 10.0,
+      "audio": "/game/documents/media/croco.flac",
+      "duration": 2.9013151927437644,
+      "type": "audio",
+      "src": "/game/documents/media/croco.flac"
+    },
+    "CTRACONQ": {
+      "width": 640,
+      "height": 480,
+      "x": 0,
+      "y": 0,
+      "frames": 116,
+      "fps": 12.003266194882961,
+      "audio": "/game/documents/media/ctraconq.flac",
+      "duration": 9.664036281179138,
+      "src": "/game/documents/media/ctraconq.webp",
+      "type": "animation"
+    },
+    "CYEAU": {
+      "src": "/game/documents/media/cyeau.mp4",
+      "type": "video",
+      "width": 640,
+      "height": 480
+    },
+    "DANIM004": {
+      "width": 0,
+      "height": 0,
+      "x": 0,
+      "y": 0,
+      "frames": 127,
+      "fps": 10.0,
+      "audio": "/game/documents/media/danim004.flac",
+      "duration": 12.70530612244898,
+      "type": "audio",
+      "src": "/game/documents/media/danim004.flac"
+    },
+    "DANIM039": {
+      "width": 0,
+      "height": 0,
+      "x": 0,
+      "y": 0,
+      "frames": 83,
+      "fps": 10.0,
+      "audio": "/game/documents/media/danim039.flac",
+      "duration": 8.203310657596372,
+      "type": "audio",
+      "src": "/game/documents/media/danim039.flac"
+    },
+    "DASTR000": {
+      "width": 0,
+      "height": 0,
+      "x": 0,
+      "y": 0,
+      "frames": 136,
+      "fps": 10.0,
+      "audio": "/game/documents/media/dastr000.flac",
+      "duration": 13.505804988662131,
+      "type": "audio",
+      "src": "/game/documents/media/dastr000.flac"
+    },
+    "DASTR001": {
+      "width": 0,
+      "height": 0,
+      "x": 0,
+      "y": 0,
+      "frames": 86,
+      "fps": 10.0,
+      "audio": "/game/documents/media/dastr001.flac",
+      "duration": 8.503628117913832,
+      "type": "audio",
+      "src": "/game/documents/media/dastr001.flac"
+    },
+    "DASTR002": {
+      "width": 0,
+      "height": 0,
+      "x": 0,
+      "y": 0,
+      "frames": 86,
+      "fps": 10.0,
+      "audio": "/game/documents/media/dastr002.flac",
+      "duration": 8.503673469387754,
+      "type": "audio",
+      "src": "/game/documents/media/dastr002.flac"
+    },
+    "DASTR003": {
+      "width": 0,
+      "height": 0,
+      "x": 0,
+      "y": 0,
+      "frames": 82,
+      "fps": 10.0,
+      "audio": "/game/documents/media/dastr003.flac",
+      "duration": 8.203628117913832,
+      "type": "audio",
+      "src": "/game/documents/media/dastr003.flac"
+    },
+    "DASTR004": {
+      "width": 0,
+      "height": 0,
+      "x": 0,
+      "y": 0,
+      "frames": 71,
+      "fps": 10.0,
+      "audio": "/game/documents/media/dastr004.flac",
+      "duration": 7.003083900226757,
+      "type": "audio",
+      "src": "/game/documents/media/dastr004.flac"
+    },
+    "DASTR005": {
+      "width": 0,
+      "height": 0,
+      "x": 0,
+      "y": 0,
+      "frames": 68,
+      "fps": 10.0,
+      "audio": "/game/documents/media/dastr005.flac",
+      "duration": 6.702766439909297,
+      "type": "audio",
+      "src": "/game/documents/media/dastr005.flac"
+    },
+    "DASTR006": {
+      "width": 0,
+      "height": 0,
+      "x": 0,
+      "y": 0,
+      "frames": 174,
+      "fps": 10.0,
+      "audio": "/game/documents/media/dastr006.flac",
+      "duration": 17.407256235827663,
+      "type": "audio",
+      "src": "/game/documents/media/dastr006.flac"
+    },
+    "DASTR007": {
+      "width": 0,
+      "height": 0,
+      "x": 0,
+      "y": 0,
+      "frames": 80,
+      "fps": 10.0,
+      "audio": "/game/documents/media/dastr007.flac",
+      "duration": 8.003492063492063,
+      "type": "audio",
+      "src": "/game/documents/media/dastr007.flac"
+    },
+    "DASTR008": {
+      "width": 0,
+      "height": 0,
+      "x": 0,
+      "y": 0,
+      "frames": 145,
+      "fps": 10.0,
+      "audio": "/game/documents/media/dastr008.flac",
+      "duration": 14.406349206349207,
+      "type": "audio",
+      "src": "/game/documents/media/dastr008.flac"
+    },
+    "DASTR009": {
+      "width": 0,
+      "height": 0,
+      "x": 0,
+      "y": 0,
+      "frames": 123,
+      "fps": 10.0,
+      "audio": "/game/documents/media/dastr009.flac",
+      "duration": 12.204943310657596,
+      "type": "audio",
+      "src": "/game/documents/media/dastr009.flac"
+    },
+    "DASTR010": {
+      "width": 0,
+      "height": 0,
+      "x": 0,
+      "y": 0,
+      "frames": 85,
+      "fps": 10.0,
+      "audio": "/game/documents/media/dastr010.flac",
+      "duration": 8.503718820861678,
+      "type": "audio",
+      "src": "/game/documents/media/dastr010.flac"
+    },
+    "DASTR011": {
+      "width": 0,
+      "height": 0,
+      "x": 0,
+      "y": 0,
+      "frames": 60,
+      "fps": 10.0,
+      "audio": "/game/documents/media/dastr011.flac",
+      "duration": 6.002585034013605,
+      "type": "audio",
+      "src": "/game/documents/media/dastr011.flac"
+    },
+    "DASTR012": {
+      "width": 0,
+      "height": 0,
+      "x": 0,
+      "y": 0,
+      "frames": 88,
+      "fps": 10.0,
+      "audio": "/game/documents/media/dastr012.flac",
+      "duration": 8.803990929705215,
+      "type": "audio",
+      "src": "/game/documents/media/dastr012.flac"
+    },
+    "DASTR013": {
+      "width": 0,
+      "height": 0,
+      "x": 0,
+      "y": 0,
+      "frames": 161,
+      "fps": 10.0,
+      "audio": "/game/documents/media/dastr013.flac",
+      "duration": 16.006802721088434,
+      "type": "audio",
+      "src": "/game/documents/media/dastr013.flac"
+    },
+    "DASTR014": {
+      "width": 0,
+      "height": 0,
+      "x": 0,
+      "y": 0,
+      "frames": 72,
+      "fps": 10.0,
+      "audio": "/game/documents/media/dastr014.flac",
+      "duration": 7.103083900226757,
+      "type": "audio",
+      "src": "/game/documents/media/dastr014.flac"
+    },
+    "DASTR015": {
+      "width": 0,
+      "height": 0,
+      "x": 0,
+      "y": 0,
+      "frames": 95,
+      "fps": 10.0,
+      "audio": "/game/documents/media/dastr015.flac",
+      "duration": 9.403990929705216,
+      "type": "audio",
+      "src": "/game/documents/media/dastr015.flac"
+    },
+    "DASTR016": {
+      "width": 0,
+      "height": 0,
+      "x": 0,
+      "y": 0,
+      "frames": 62,
+      "fps": 10.0,
+      "audio": "/game/documents/media/dastr016.flac",
+      "duration": 6.202675736961451,
+      "type": "audio",
+      "src": "/game/documents/media/dastr016.flac"
+    },
+    "DASTR017": {
+      "width": 0,
+      "height": 0,
+      "x": 0,
+      "y": 0,
+      "frames": 70,
+      "fps": 10.0,
+      "audio": "/game/documents/media/dastr017.flac",
+      "duration": 7.003174603174603,
+      "type": "audio",
+      "src": "/game/documents/media/dastr017.flac"
+    },
+    "DASTR018": {
+      "width": 0,
+      "height": 0,
+      "x": 0,
+      "y": 0,
+      "frames": 76,
+      "fps": 10.0,
+      "audio": "/game/documents/media/dastr018.flac",
+      "duration": 7.60344671201814,
+      "type": "audio",
+      "src": "/game/documents/media/dastr018.flac"
+    },
+    "DASTR019": {
+      "width": 0,
+      "height": 0,
+      "x": 0,
+      "y": 0,
+      "frames": 89,
+      "fps": 10.0,
+      "audio": "/game/documents/media/dastr019.flac",
+      "duration": 8.703673469387756,
+      "type": "audio",
+      "src": "/game/documents/media/dastr019.flac"
+    },
+    "DASTR020": {
+      "width": 0,
+      "height": 0,
+      "x": 0,
+      "y": 0,
+      "frames": 132,
+      "fps": 10.0,
+      "audio": "/game/documents/media/dastr020.flac",
+      "duration": 13.205532879818595,
+      "type": "audio",
+      "src": "/game/documents/media/dastr020.flac"
+    },
+    "DASTR021": {
+      "width": 0,
+      "height": 0,
+      "x": 0,
+      "y": 0,
+      "frames": 77,
+      "fps": 10.0,
+      "audio": "/game/documents/media/dastr021.flac",
+      "duration": 7.703310657596372,
+      "type": "audio",
+      "src": "/game/documents/media/dastr021.flac"
+    },
+    "DASTR022": {
+      "width": 0,
+      "height": 0,
+      "x": 0,
+      "y": 0,
+      "frames": 85,
+      "fps": 10.0,
+      "audio": "/game/documents/media/dastr022.flac",
+      "duration": 8.403718820861679,
+      "type": "audio",
+      "src": "/game/documents/media/dastr022.flac"
+    },
+    "DASTR023": {
+      "width": 0,
+      "height": 0,
+      "x": 0,
+      "y": 0,
+      "frames": 95,
+      "fps": 10.0,
+      "audio": "/game/documents/media/dastr023.flac",
+      "duration": 9.504126984126984,
+      "type": "audio",
+      "src": "/game/documents/media/dastr023.flac"
+    },
+    "DASTR024": {
+      "width": 0,
+      "height": 0,
+      "x": 0,
+      "y": 0,
+      "frames": 59,
+      "fps": 10.0,
+      "audio": "/game/documents/media/dastr024.flac",
+      "duration": 5.9025850340136055,
+      "type": "audio",
+      "src": "/game/documents/media/dastr024.flac"
+    },
+    "DASTR025": {
+      "width": 0,
+      "height": 0,
+      "x": 0,
+      "y": 0,
+      "frames": 82,
+      "fps": 10.0,
+      "audio": "/game/documents/media/dastr025.flac",
+      "duration": 8.103537414965986,
+      "type": "audio",
+      "src": "/game/documents/media/dastr025.flac"
+    },
+    "DASTR026": {
+      "width": 0,
+      "height": 0,
+      "x": 0,
+      "y": 0,
+      "frames": 139,
+      "fps": 10.0,
+      "audio": "/game/documents/media/dastr026.flac",
+      "duration": 13.705714285714286,
+      "type": "audio",
+      "src": "/game/documents/media/dastr026.flac"
+    },
+    "DASTR027": {
+      "width": 0,
+      "height": 0,
+      "x": 0,
+      "y": 0,
+      "frames": 99,
+      "fps": 10.0,
+      "audio": "/game/documents/media/dastr027.flac",
+      "duration": 9.804126984126984,
+      "type": "audio",
+      "src": "/game/documents/media/dastr027.flac"
+    },
+    "DASTR028": {
+      "width": 0,
+      "height": 0,
+      "x": 0,
+      "y": 0,
+      "frames": 104,
+      "fps": 10.0,
+      "audio": "/game/documents/media/dastr028.flac",
+      "duration": 10.30453514739229,
+      "type": "audio",
+      "src": "/game/documents/media/dastr028.flac"
+    },
+    "DASTR029": {
+      "width": 0,
+      "height": 0,
+      "x": 0,
+      "y": 0,
+      "frames": 81,
+      "fps": 10.0,
+      "audio": "/game/documents/media/dastr029.flac",
+      "duration": 8.103673469387756,
+      "type": "audio",
+      "src": "/game/documents/media/dastr029.flac"
+    },
+    "DASTR030": {
+      "width": 0,
+      "height": 0,
+      "x": 0,
+      "y": 0,
+      "frames": 69,
+      "fps": 10.0,
+      "audio": "/game/documents/media/dastr030.flac",
+      "duration": 6.903129251700681,
+      "type": "audio",
+      "src": "/game/documents/media/dastr030.flac"
+    },
+    "DASTR031": {
+      "width": 0,
+      "height": 0,
+      "x": 0,
+      "y": 0,
+      "frames": 62,
+      "fps": 10.0,
+      "audio": "/game/documents/media/dastr031.flac",
+      "duration": 6.202766439909297,
+      "type": "audio",
+      "src": "/game/documents/media/dastr031.flac"
+    },
+    "DASTR032": {
+      "width": 0,
+      "height": 0,
+      "x": 0,
+      "y": 0,
+      "frames": 56,
+      "fps": 10.0,
+      "audio": "/game/documents/media/dastr032.flac",
+      "duration": 5.602539682539683,
+      "type": "audio",
+      "src": "/game/documents/media/dastr032.flac"
+    },
+    "DASTR033": {
+      "width": 0,
+      "height": 0,
+      "x": 0,
+      "y": 0,
+      "frames": 44,
+      "fps": 10.0,
+      "audio": "/game/documents/media/dastr033.flac",
+      "duration": 4.401995464852607,
+      "type": "audio",
+      "src": "/game/documents/media/dastr033.flac"
+    },
+    "DASTR034": {
+      "width": 0,
+      "height": 0,
+      "x": 0,
+      "y": 0,
+      "frames": 73,
+      "fps": 10.0,
+      "audio": "/game/documents/media/dastr034.flac",
+      "duration": 7.303310657596372,
+      "type": "audio",
+      "src": "/game/documents/media/dastr034.flac"
+    },
+    "DASTR036": {
+      "width": 0,
+      "height": 0,
+      "x": 0,
+      "y": 0,
+      "frames": 123,
+      "fps": 10.0,
+      "audio": "/game/documents/media/dastr036.flac",
+      "duration": 12.20530612244898,
+      "type": "audio",
+      "src": "/game/documents/media/dastr036.flac"
+    },
+    "DASTR037": {
+      "width": 0,
+      "height": 0,
+      "x": 0,
+      "y": 0,
+      "frames": 248,
+      "fps": 10.0,
+      "audio": "/game/documents/media/dastr037.flac",
+      "duration": 24.710249433106576,
+      "type": "audio",
+      "src": "/game/documents/media/dastr037.flac"
+    },
+    "DASTR038": {
+      "width": 0,
+      "height": 0,
+      "x": 0,
+      "y": 0,
+      "frames": 59,
+      "fps": 10.0,
+      "audio": "/game/documents/media/dastr038.flac",
+      "duration": 5.902675736961451,
+      "type": "audio",
+      "src": "/game/documents/media/dastr038.flac"
+    },
+    "DASTR039": {
+      "width": 0,
+      "height": 0,
+      "x": 0,
+      "y": 0,
+      "frames": 73,
+      "fps": 10.0,
+      "audio": "/game/documents/media/dastr039.flac",
+      "duration": 7.203174603174603,
+      "type": "audio",
+      "src": "/game/documents/media/dastr039.flac"
+    },
+    "DASTR040": {
+      "width": 0,
+      "height": 0,
+      "x": 0,
+      "y": 0,
+      "frames": 72,
+      "fps": 10.0,
+      "audio": "/game/documents/media/dastr040.flac",
+      "duration": 7.102857142857143,
+      "type": "audio",
+      "src": "/game/documents/media/dastr040.flac"
+    },
+    "DASTR041": {
+      "width": 0,
+      "height": 0,
+      "x": 0,
+      "y": 0,
+      "frames": 62,
+      "fps": 10.0,
+      "audio": "/game/documents/media/dastr041.flac",
+      "duration": 6.20281179138322,
+      "type": "audio",
+      "src": "/game/documents/media/dastr041.flac"
+    },
+    "DASTR042": {
+      "width": 0,
+      "height": 0,
+      "x": 0,
+      "y": 0,
+      "frames": 61,
+      "fps": 10.0,
+      "audio": "/game/documents/media/dastr042.flac",
+      "duration": 6.002721088435374,
+      "type": "audio",
+      "src": "/game/documents/media/dastr042.flac"
+    },
+    "DASTR043": {
+      "width": 0,
+      "height": 0,
+      "x": 0,
+      "y": 0,
+      "frames": 62,
+      "fps": 10.0,
+      "audio": "/game/documents/media/dastr043.flac",
+      "duration": 6.102585034013606,
+      "type": "audio",
+      "src": "/game/documents/media/dastr043.flac"
+    },
+    "DASTR044": {
+      "width": 0,
+      "height": 0,
+      "x": 0,
+      "y": 0,
+      "frames": 67,
+      "fps": 10.0,
+      "audio": "/game/documents/media/dastr044.flac",
+      "duration": 6.703038548752835,
+      "type": "audio",
+      "src": "/game/documents/media/dastr044.flac"
+    },
+    "DASTR100": {
+      "width": 0,
+      "height": 0,
+      "x": 0,
+      "y": 0,
+      "frames": 185,
+      "fps": 10.0,
+      "audio": "/game/documents/media/dastr100.flac",
+      "duration": 18.4081179138322,
+      "type": "audio",
+      "src": "/game/documents/media/dastr100.flac"
+    },
+    "DASTR101": {
+      "width": 0,
+      "height": 0,
+      "x": 0,
+      "y": 0,
+      "frames": 215,
+      "fps": 10.0,
+      "audio": "/game/documents/media/dastr101.flac",
+      "duration": 21.309297052154196,
+      "type": "audio",
+      "src": "/game/documents/media/dastr101.flac"
+    },
+    "DASTR103": {
+      "width": 0,
+      "height": 0,
+      "x": 0,
+      "y": 0,
+      "frames": 97,
+      "fps": 10.0,
+      "audio": "/game/documents/media/dastr103.flac",
+      "duration": 9.604172335600907,
+      "type": "audio",
+      "src": "/game/documents/media/dastr103.flac"
+    },
+    "DASTR104": {
+      "width": 0,
+      "height": 0,
+      "x": 0,
+      "y": 0,
+      "frames": 315,
+      "fps": 10.0,
+      "audio": "/game/documents/media/dastr104.flac",
+      "duration": 31.2134693877551,
+      "type": "audio",
+      "src": "/game/documents/media/dastr104.flac"
+    },
+    "DASTR105": {
+      "width": 0,
+      "height": 0,
+      "x": 0,
+      "y": 0,
+      "frames": 122,
+      "fps": 10.0,
+      "audio": "/game/documents/media/dastr105.flac",
+      "duration": 12.005079365079364,
+      "type": "audio",
+      "src": "/game/documents/media/dastr105.flac"
+    },
+    "DCYCL000": {
+      "width": 0,
+      "height": 0,
+      "x": 0,
+      "y": 0,
+      "frames": 69,
+      "fps": 10.0,
+      "audio": "/game/documents/media/dcycl000.flac",
+      "duration": 6.903129251700681,
+      "type": "audio",
+      "src": "/game/documents/media/dcycl000.flac"
+    },
+    "DCYCL002": {
+      "width": 403,
+      "height": 161,
+      "x": 138,
+      "y": 8,
+      "frames": 122,
+      "fps": 12.003266194882961,
+      "audio": "/game/documents/media/dcycl002.flac",
+      "duration": 10.16390022675737,
+      "src": "/game/documents/media/dcycl002.webp",
+      "type": "animation"
+    },
+    "DCYCL003": {
+      "width": 340,
+      "height": 212,
+      "x": 107,
+      "y": 85,
+      "frames": 165,
+      "fps": 12.003266194882961,
+      "audio": "/game/documents/media/dcycl003.flac",
+      "duration": 13.74625850340136,
+      "src": "/game/documents/media/dcycl003.webp",
+      "type": "animation"
+    },
+    "DCYCL004": {
+      "width": 382,
+      "height": 190,
+      "x": 6,
+      "y": 210,
+      "frames": 110,
+      "fps": 12.003266194882961,
+      "audio": "/game/documents/media/dcycl004.flac",
+      "duration": 9.164172335600908,
+      "src": "/game/documents/media/dcycl004.webp",
+      "type": "animation"
+    },
+    "DCYCL005": {
+      "width": 600,
+      "height": 262,
+      "x": 35,
+      "y": 0,
+      "frames": 133,
+      "fps": 12.003266194882961,
+      "audio": "/game/documents/media/dcycl005.flac",
+      "duration": 11.08031746031746,
+      "src": "/game/documents/media/dcycl005.webp",
+      "type": "animation"
+    },
+    "DCYCL006": {
+      "width": 514,
+      "height": 306,
+      "x": 121,
+      "y": 0,
+      "frames": 157,
+      "fps": 12.003266194882961,
+      "audio": "/game/documents/media/dcycl006.flac",
+      "duration": 13.079773242630386,
+      "src": "/game/documents/media/dcycl006.webp",
+      "type": "animation"
+    },
+    "DCYCL007": {
+      "width": 260,
+      "height": 368,
+      "x": 375,
+      "y": 0,
+      "frames": 147,
+      "fps": 12.003266194882961,
+      "audio": "/game/documents/media/dcycl007.flac",
+      "duration": 12.246666666666666,
+      "src": "/game/documents/media/dcycl007.webp",
+      "type": "animation"
+    },
+    "DCYCLGLA": {
+      "width": 206,
+      "height": 184,
+      "x": 150,
+      "y": 0,
+      "frames": 63,
+      "fps": 11.996735582154516,
+      "audio": "/game/documents/media/dcyclgla.flac",
+      "duration": 5.251428571428572,
+      "src": "/game/documents/media/dcyclgla.webp",
+      "type": "animation"
+    },
+    "DCYCLMER": {
+      "width": 235,
+      "height": 169,
+      "x": 378,
+      "y": 166,
+      "frames": 54,
+      "fps": 11.996735582154516,
+      "audio": "/game/documents/media/dcyclmer.flac",
+      "duration": 4.501224489795918,
+      "src": "/game/documents/media/dcyclmer.webp",
+      "type": "animation"
+    },
+    "DCYCLRIV": {
+      "width": 229,
+      "height": 164,
+      "x": 249,
+      "y": 120,
+      "frames": 72,
+      "fps": 11.996735582154516,
+      "audio": "/game/documents/media/dcyclriv.flac",
+      "duration": 6.0016326530612245,
+      "src": "/game/documents/media/dcyclriv.webp",
+      "type": "animation"
+    },
+    "DCYCLSKY": {
+      "width": 166,
+      "height": 105,
+      "x": 373,
+      "y": 18,
+      "frames": 59,
+      "fps": 11.996735582154516,
+      "audio": "/game/documents/media/dcyclsky.flac",
+      "duration": 4.918004535147392,
+      "src": "/game/documents/media/dcyclsky.webp",
+      "type": "animation"
+    },
+    "DCYCLSUN": {
+      "width": 136,
+      "height": 89,
+      "x": 502,
+      "y": 0,
+      "frames": 54,
+      "fps": 11.996735582154516,
+      "audio": "/game/documents/media/dcyclsun.flac",
+      "duration": 4.501224489795918,
+      "src": "/game/documents/media/dcyclsun.webp",
+      "type": "animation"
+    },
+    "DCYCLVEG": {
+      "width": 120,
+      "height": 159,
+      "x": 9,
+      "y": 66,
+      "frames": 56,
+      "fps": 11.996735582154516,
+      "audio": "/game/documents/media/dcyclveg.flac",
+      "duration": 4.667936507936508,
+      "src": "/game/documents/media/dcyclveg.webp",
+      "type": "animation"
+    },
+    "DESPA000": {
+      "width": 0,
+      "height": 0,
+      "x": 0,
+      "y": 0,
+      "frames": 111,
+      "fps": 10.0,
+      "audio": "/game/documents/media/despa000.flac",
+      "duration": 11.10498866213152,
+      "type": "audio",
+      "src": "/game/documents/media/despa000.flac"
+    },
+    "DESPA001": {
+      "width": 0,
+      "height": 0,
+      "x": 0,
+      "y": 0,
+      "frames": 31,
+      "fps": 10.0,
+      "audio": "/game/documents/media/despa001.flac",
+      "duration": 3.10140589569161,
+      "type": "audio",
+      "src": "/game/documents/media/despa001.flac"
+    },
+    "DPLAN001": {
+      "width": 0,
+      "height": 0,
+      "x": 0,
+      "y": 0,
+      "frames": 135,
+      "fps": 10.0,
+      "audio": "/game/documents/media/dplan001.flac",
+      "duration": 13.505850340136055,
+      "type": "audio",
+      "src": "/game/documents/media/dplan001.flac"
+    },
+    "DPLAN002": {
+      "width": 0,
+      "height": 0,
+      "x": 0,
+      "y": 0,
+      "frames": 211,
+      "fps": 10.0,
+      "audio": "/game/documents/media/dplan002.flac",
+      "duration": 21.008117913832198,
+      "type": "audio",
+      "src": "/game/documents/media/dplan002.flac"
+    },
+    "DPLAN003": {
+      "width": 0,
+      "height": 0,
+      "x": 0,
+      "y": 0,
+      "frames": 115,
+      "fps": 10.0,
+      "audio": "/game/documents/media/dplan003.flac",
+      "duration": 11.504897959183673,
+      "type": "audio",
+      "src": "/game/documents/media/dplan003.flac"
+    },
+    "DPLAN004": {
+      "width": 0,
+      "height": 0,
+      "x": 0,
+      "y": 0,
+      "frames": 24,
+      "fps": 10.0,
+      "audio": "/game/documents/media/dplan004.flac",
+      "duration": 2.4010884353741497,
+      "type": "audio",
+      "src": "/game/documents/media/dplan004.flac"
+    },
+    "DPLAN005": {
+      "width": 0,
+      "height": 0,
+      "x": 0,
+      "y": 0,
+      "frames": 58,
+      "fps": 10.0,
+      "audio": "/game/documents/media/dplan005.flac",
+      "duration": 5.602403628117914,
+      "type": "audio",
+      "src": "/game/documents/media/dplan005.flac"
+    },
+    "DPLAN006": {
+      "width": 0,
+      "height": 0,
+      "x": 0,
+      "y": 0,
+      "frames": 144,
+      "fps": 10.0,
+      "audio": "/game/documents/media/dplan006.flac",
+      "duration": 14.306122448979592,
+      "type": "audio",
+      "src": "/game/documents/media/dplan006.flac"
+    },
+    "DPLAN007": {
+      "width": 0,
+      "height": 0,
+      "x": 0,
+      "y": 0,
+      "frames": 112,
+      "fps": 10.0,
+      "audio": "/game/documents/media/dplan007.flac",
+      "duration": 11.104716553287982,
+      "type": "audio",
+      "src": "/game/documents/media/dplan007.flac"
+    },
+    "DPLAN008": {
+      "width": 0,
+      "height": 0,
+      "x": 0,
+      "y": 0,
+      "frames": 127,
+      "fps": 10.0,
+      "audio": "/game/documents/media/dplan008.flac",
+      "duration": 12.605260770975057,
+      "type": "audio",
+      "src": "/game/documents/media/dplan008.flac"
+    },
+    "DPLAN009": {
+      "width": 0,
+      "height": 0,
+      "x": 0,
+      "y": 0,
+      "frames": 216,
+      "fps": 10.0,
+      "audio": "/game/documents/media/dplan009.flac",
+      "duration": 21.60816326530612,
+      "type": "audio",
+      "src": "/game/documents/media/dplan009.flac"
+    },
+    "DPLAN010": {
+      "width": 0,
+      "height": 0,
+      "x": 0,
+      "y": 0,
+      "frames": 133,
+      "fps": 10.0,
+      "audio": "/game/documents/media/dplan010.flac",
+      "duration": 13.305759637188208,
+      "type": "audio",
+      "src": "/game/documents/media/dplan010.flac"
+    },
+    "DPLAN011": {
+      "width": 0,
+      "height": 0,
+      "x": 0,
+      "y": 0,
+      "frames": 56,
+      "fps": 10.0,
+      "audio": "/game/documents/media/dplan011.flac",
+      "duration": 5.402448979591837,
+      "type": "audio",
+      "src": "/game/documents/media/dplan011.flac"
+    },
+    "DPLAN012": {
+      "width": 0,
+      "height": 0,
+      "x": 0,
+      "y": 0,
+      "frames": 87,
+      "fps": 10.0,
+      "audio": "/game/documents/media/dplan012.flac",
+      "duration": 8.703764172335601,
+      "type": "audio",
+      "src": "/game/documents/media/dplan012.flac"
+    },
+    "DPLAN013": {
+      "width": 0,
+      "height": 0,
+      "x": 0,
+      "y": 0,
+      "frames": 131,
+      "fps": 10.0,
+      "audio": "/game/documents/media/dplan013.flac",
+      "duration": 13.10580498866213,
+      "type": "audio",
+      "src": "/game/documents/media/dplan013.flac"
+    },
+    "DPLAN014": {
+      "width": 0,
+      "height": 0,
+      "x": 0,
+      "y": 0,
+      "frames": 186,
+      "fps": 10.0,
+      "audio": "/game/documents/media/dplan014.flac",
+      "duration": 18.508163265306123,
+      "type": "audio",
+      "src": "/game/documents/media/dplan014.flac"
+    },
+    "DPLAN015": {
+      "width": 0,
+      "height": 0,
+      "x": 0,
+      "y": 0,
+      "frames": 43,
+      "fps": 10.0,
+      "audio": "/game/documents/media/dplan015.flac",
+      "duration": 4.301950113378685,
+      "type": "audio",
+      "src": "/game/documents/media/dplan015.flac"
+    },
+    "DPLAN016": {
+      "width": 0,
+      "height": 0,
+      "x": 0,
+      "y": 0,
+      "frames": 168,
+      "fps": 10.0,
+      "audio": "/game/documents/media/dplan016.flac",
+      "duration": 16.70716553287982,
+      "type": "audio",
+      "src": "/game/documents/media/dplan016.flac"
+    },
+    "DPLAN017": {
+      "width": 0,
+      "height": 0,
+      "x": 0,
+      "y": 0,
+      "frames": 77,
+      "fps": 10.0,
+      "audio": "/game/documents/media/dplan017.flac",
+      "duration": 7.6034013605442174,
+      "type": "audio",
+      "src": "/game/documents/media/dplan017.flac"
+    },
+    "DPLAN018": {
+      "width": 0,
+      "height": 0,
+      "x": 0,
+      "y": 0,
+      "frames": 95,
+      "fps": 10.0,
+      "audio": "/game/documents/media/dplan018.flac",
+      "duration": 9.403990929705216,
+      "type": "audio",
+      "src": "/game/documents/media/dplan018.flac"
+    },
+    "DPLAN019": {
+      "width": 0,
+      "height": 0,
+      "x": 0,
+      "y": 0,
+      "frames": 213,
+      "fps": 10.0,
+      "audio": "/game/documents/media/dplan019.flac",
+      "duration": 21.309115646258505,
+      "type": "audio",
+      "src": "/game/documents/media/dplan019.flac"
+    },
+    "DPLAN020": {
+      "width": 0,
+      "height": 0,
+      "x": 0,
+      "y": 0,
+      "frames": 132,
+      "fps": 10.0,
+      "audio": "/game/documents/media/dplan020.flac",
+      "duration": 13.10580498866213,
+      "type": "audio",
+      "src": "/game/documents/media/dplan020.flac"
+    },
+    "DPLAN021": {
+      "width": 0,
+      "height": 0,
+      "x": 0,
+      "y": 0,
+      "frames": 43,
+      "fps": 10.0,
+      "audio": "/game/documents/media/dplan021.flac",
+      "duration": 4.301950113378685,
+      "type": "audio",
+      "src": "/game/documents/media/dplan021.flac"
+    },
+    "DPLAN022": {
+      "width": 0,
+      "height": 0,
+      "x": 0,
+      "y": 0,
+      "frames": 125,
+      "fps": 10.0,
+      "audio": "/game/documents/media/dplan022.flac",
+      "duration": 12.505487528344672,
+      "type": "audio",
+      "src": "/game/documents/media/dplan022.flac"
+    },
+    "DPLAN023": {
+      "width": 0,
+      "height": 0,
+      "x": 0,
+      "y": 0,
+      "frames": 59,
+      "fps": 10.0,
+      "audio": "/game/documents/media/dplan023.flac",
+      "duration": 5.902675736961451,
+      "type": "audio",
+      "src": "/game/documents/media/dplan023.flac"
+    },
+    "DPLAN024": {
+      "width": 0,
+      "height": 0,
+      "x": 0,
+      "y": 0,
+      "frames": 96,
+      "fps": 10.0,
+      "audio": "/game/documents/media/dplan024.flac",
+      "duration": 9.604308390022675,
+      "type": "audio",
+      "src": "/game/documents/media/dplan024.flac"
+    },
+    "DPLAN025": {
+      "width": 0,
+      "height": 0,
+      "x": 0,
+      "y": 0,
+      "frames": 180,
+      "fps": 10.0,
+      "audio": "/game/documents/media/dplan025.flac",
+      "duration": 17.907437641723355,
+      "type": "audio",
+      "src": "/game/documents/media/dplan025.flac"
+    },
+    "DPLAN026": {
+      "width": 0,
+      "height": 0,
+      "x": 0,
+      "y": 0,
+      "frames": 115,
+      "fps": 10.0,
+      "audio": "/game/documents/media/dplan026.flac",
+      "duration": 11.505034013605442,
+      "type": "audio",
+      "src": "/game/documents/media/dplan026.flac"
+    },
+    "DPLAN027": {
+      "width": 0,
+      "height": 0,
+      "x": 0,
+      "y": 0,
+      "frames": 190,
+      "fps": 10.0,
+      "audio": "/game/documents/media/dplan027.flac",
+      "duration": 18.908072562358278,
+      "type": "audio",
+      "src": "/game/documents/media/dplan027.flac"
+    },
+    "DPLAN028": {
+      "width": 0,
+      "height": 0,
+      "x": 0,
+      "y": 0,
+      "frames": 117,
+      "fps": 10.0,
+      "audio": "/game/documents/media/dplan028.flac",
+      "duration": 11.605170068027212,
+      "type": "audio",
+      "src": "/game/documents/media/dplan028.flac"
+    },
+    "DPLAN029": {
+      "width": 0,
+      "height": 0,
+      "x": 0,
+      "y": 0,
+      "frames": 78,
+      "fps": 10.0,
+      "audio": "/game/documents/media/dplan029.flac",
+      "duration": 7.80312925170068,
+      "type": "audio",
+      "src": "/game/documents/media/dplan029.flac"
+    },
+    "DPLAN030": {
+      "width": 0,
+      "height": 0,
+      "x": 0,
+      "y": 0,
+      "frames": 85,
+      "fps": 10.0,
+      "audio": "/game/documents/media/dplan030.flac",
+      "duration": 8.403673469387755,
+      "type": "audio",
+      "src": "/game/documents/media/dplan030.flac"
+    },
+    "DPLAN031": {
+      "width": 0,
+      "height": 0,
+      "x": 0,
+      "y": 0,
+      "frames": 107,
+      "fps": 10.0,
+      "audio": "/game/documents/media/dplan031.flac",
+      "duration": 10.604625850340136,
+      "type": "audio",
+      "src": "/game/documents/media/dplan031.flac"
+    },
+    "DPLAN032": {
+      "width": 0,
+      "height": 0,
+      "x": 0,
+      "y": 0,
+      "frames": 169,
+      "fps": 10.0,
+      "audio": "/game/documents/media/dplan032.flac",
+      "duration": 16.80748299319728,
+      "type": "audio",
+      "src": "/game/documents/media/dplan032.flac"
+    },
+    "DPLAN033": {
+      "width": 0,
+      "height": 0,
+      "x": 0,
+      "y": 0,
+      "frames": 194,
+      "fps": 10.0,
+      "audio": "/game/documents/media/dplan033.flac",
+      "duration": 19.4081179138322,
+      "type": "audio",
+      "src": "/game/documents/media/dplan033.flac"
+    },
+    "DPLAN034": {
+      "width": 0,
+      "height": 0,
+      "x": 0,
+      "y": 0,
+      "frames": 108,
+      "fps": 10.0,
+      "audio": "/game/documents/media/dplan034.flac",
+      "duration": 10.804807256235827,
+      "type": "audio",
+      "src": "/game/documents/media/dplan034.flac"
+    },
+    "DPLAN035": {
+      "width": 0,
+      "height": 0,
+      "x": 0,
+      "y": 0,
+      "frames": 106,
+      "fps": 10.0,
+      "audio": "/game/documents/media/dplan035.flac",
+      "duration": 10.604671201814059,
+      "type": "audio",
+      "src": "/game/documents/media/dplan035.flac"
+    },
+    "DPLAN036": {
+      "width": 0,
+      "height": 0,
+      "x": 0,
+      "y": 0,
+      "frames": 122,
+      "fps": 10.0,
+      "audio": "/game/documents/media/dplan036.flac",
+      "duration": 12.10530612244898,
+      "type": "audio",
+      "src": "/game/documents/media/dplan036.flac"
+    },
+    "DPLAN037": {
+      "width": 0,
+      "height": 0,
+      "x": 0,
+      "y": 0,
+      "frames": 142,
+      "fps": 10.0,
+      "audio": "/game/documents/media/dplan037.flac",
+      "duration": 14.10562358276644,
+      "type": "audio",
+      "src": "/game/documents/media/dplan037.flac"
+    },
+    "DPLAN038": {
+      "width": 0,
+      "height": 0,
+      "x": 0,
+      "y": 0,
+      "frames": 268,
+      "fps": 10.0,
+      "audio": "/game/documents/media/dplan038.flac",
+      "duration": 26.71142857142857,
+      "type": "audio",
+      "src": "/game/documents/media/dplan038.flac"
+    },
+    "DPLAN039": {
+      "width": 0,
+      "height": 0,
+      "x": 0,
+      "y": 0,
+      "frames": 127,
+      "fps": 10.0,
+      "audio": "/game/documents/media/dplan039.flac",
+      "duration": 12.705351473922903,
+      "type": "audio",
+      "src": "/game/documents/media/dplan039.flac"
+    },
+    "DPLAN040": {
+      "width": 0,
+      "height": 0,
+      "x": 0,
+      "y": 0,
+      "frames": 116,
+      "fps": 10.0,
+      "audio": "/game/documents/media/dplan040.flac",
+      "duration": 11.504943310657596,
+      "type": "audio",
+      "src": "/game/documents/media/dplan040.flac"
+    },
+    "DPLAN041": {
+      "width": 0,
+      "height": 0,
+      "x": 0,
+      "y": 0,
+      "frames": 64,
+      "fps": 10.0,
+      "audio": "/game/documents/media/dplan041.flac",
+      "duration": 6.302721088435374,
+      "type": "audio",
+      "src": "/game/documents/media/dplan041.flac"
+    },
+    "DPLAN042": {
+      "width": 0,
+      "height": 0,
+      "x": 0,
+      "y": 0,
+      "frames": 98,
+      "fps": 10.0,
+      "audio": "/game/documents/media/dplan042.flac",
+      "duration": 9.80408163265306,
+      "type": "audio",
+      "src": "/game/documents/media/dplan042.flac"
+    },
+    "DPLAN043": {
+      "width": 0,
+      "height": 0,
+      "x": 0,
+      "y": 0,
+      "frames": 113,
+      "fps": 10.0,
+      "audio": "/game/documents/media/dplan043.flac",
+      "duration": 11.304807256235827,
+      "type": "audio",
+      "src": "/game/documents/media/dplan043.flac"
+    },
+    "DPLAN044": {
+      "width": 0,
+      "height": 0,
+      "x": 0,
+      "y": 0,
+      "frames": 92,
+      "fps": 10.0,
+      "audio": "/game/documents/media/dplan044.flac",
+      "duration": 9.104036281179138,
+      "type": "audio",
+      "src": "/game/documents/media/dplan044.flac"
+    },
+    "DPLAN045": {
+      "width": 0,
+      "height": 0,
+      "x": 0,
+      "y": 0,
+      "frames": 202,
+      "fps": 10.0,
+      "audio": "/game/documents/media/dplan045.flac",
+      "duration": 20.208299319727892,
+      "type": "audio",
+      "src": "/game/documents/media/dplan045.flac"
+    },
+    "DPLAN046": {
+      "width": 0,
+      "height": 0,
+      "x": 0,
+      "y": 0,
+      "frames": 179,
+      "fps": 10.0,
+      "audio": "/game/documents/media/dplan046.flac",
+      "duration": 17.907709750566895,
+      "type": "audio",
+      "src": "/game/documents/media/dplan046.flac"
+    },
+    "DPLAN047": {
+      "width": 0,
+      "height": 0,
+      "x": 0,
+      "y": 0,
+      "frames": 124,
+      "fps": 10.0,
+      "audio": "/game/documents/media/dplan047.flac",
+      "duration": 12.405351473922902,
+      "type": "audio",
+      "src": "/game/documents/media/dplan047.flac"
+    },
+    "DPLAN048": {
+      "width": 0,
+      "height": 0,
+      "x": 0,
+      "y": 0,
+      "frames": 144,
+      "fps": 10.0,
+      "audio": "/game/documents/media/dplan048.flac",
+      "duration": 14.40625850340136,
+      "type": "audio",
+      "src": "/game/documents/media/dplan048.flac"
+    },
+    "DPLAN049": {
+      "width": 0,
+      "height": 0,
+      "x": 0,
+      "y": 0,
+      "frames": 116,
+      "fps": 10.0,
+      "audio": "/game/documents/media/dplan049.flac",
+      "duration": 11.605034013605442,
+      "type": "audio",
+      "src": "/game/documents/media/dplan049.flac"
+    },
+    "DPLAN050": {
+      "width": 0,
+      "height": 0,
+      "x": 0,
+      "y": 0,
+      "frames": 156,
+      "fps": 10.0,
+      "audio": "/game/documents/media/dplan050.flac",
+      "duration": 15.606575963718821,
+      "type": "audio",
+      "src": "/game/documents/media/dplan050.flac"
+    },
+    "DPLAN051": {
+      "width": 0,
+      "height": 0,
+      "x": 0,
+      "y": 0,
+      "frames": 136,
+      "fps": 10.0,
+      "audio": "/game/documents/media/dplan051.flac",
+      "duration": 13.505532879818594,
+      "type": "audio",
+      "src": "/game/documents/media/dplan051.flac"
+    },
+    "DPLAN052": {
+      "width": 0,
+      "height": 0,
+      "x": 0,
+      "y": 0,
+      "frames": 162,
+      "fps": 10.0,
+      "audio": "/game/documents/media/dplan052.flac",
+      "duration": 16.206802721088437,
+      "type": "audio",
+      "src": "/game/documents/media/dplan052.flac"
+    },
+    "DPLAN053": {
+      "width": 0,
+      "height": 0,
+      "x": 0,
+      "y": 0,
+      "frames": 55,
+      "fps": 10.0,
+      "audio": "/game/documents/media/dplan053.flac",
+      "duration": 5.502448979591836,
+      "type": "audio",
+      "src": "/game/documents/media/dplan053.flac"
+    },
+    "DPLAN054": {
+      "width": 0,
+      "height": 0,
+      "x": 0,
+      "y": 0,
+      "frames": 106,
+      "fps": 10.0,
+      "audio": "/game/documents/media/dplan054.flac",
+      "duration": 10.504535147392291,
+      "type": "audio",
+      "src": "/game/documents/media/dplan054.flac"
+    },
+    "DPLAN055": {
+      "width": 0,
+      "height": 0,
+      "x": 0,
+      "y": 0,
+      "frames": 125,
+      "fps": 10.0,
+      "audio": "/game/documents/media/dplan055.flac",
+      "duration": 12.505260770975056,
+      "type": "audio",
+      "src": "/game/documents/media/dplan055.flac"
+    },
+    "DPLAN056": {
+      "width": 0,
+      "height": 0,
+      "x": 0,
+      "y": 0,
+      "frames": 109,
+      "fps": 10.0,
+      "audio": "/game/documents/media/dplan056.flac",
+      "duration": 10.904625850340135,
+      "type": "audio",
+      "src": "/game/documents/media/dplan056.flac"
+    },
+    "DPLAN057": {
+      "width": 0,
+      "height": 0,
+      "x": 0,
+      "y": 0,
+      "frames": 62,
+      "fps": 10.0,
+      "audio": "/game/documents/media/dplan057.flac",
+      "duration": 6.102585034013606,
+      "type": "audio",
+      "src": "/game/documents/media/dplan057.flac"
+    },
+    "DPLAN058": {
+      "width": 0,
+      "height": 0,
+      "x": 0,
+      "y": 0,
+      "frames": 97,
+      "fps": 10.0,
+      "audio": "/game/documents/media/dplan058.flac",
+      "duration": 9.704399092970522,
+      "type": "audio",
+      "src": "/game/documents/media/dplan058.flac"
+    },
+    "DPLAN059": {
+      "width": 0,
+      "height": 0,
+      "x": 0,
+      "y": 0,
+      "frames": 104,
+      "fps": 10.0,
+      "audio": "/game/documents/media/dplan059.flac",
+      "duration": 10.404353741496598,
+      "type": "audio",
+      "src": "/game/documents/media/dplan059.flac"
+    },
+    "DPLAN060": {
+      "width": 0,
+      "height": 0,
+      "x": 0,
+      "y": 0,
+      "frames": 139,
+      "fps": 10.0,
+      "audio": "/game/documents/media/dplan060.flac",
+      "duration": 13.805850340136054,
+      "type": "audio",
+      "src": "/game/documents/media/dplan060.flac"
+    },
+    "DPLAN061": {
+      "width": 0,
+      "height": 0,
+      "x": 0,
+      "y": 0,
+      "frames": 217,
+      "fps": 10.0,
+      "audio": "/game/documents/media/dplan061.flac",
+      "duration": 21.608979591836736,
+      "type": "audio",
+      "src": "/game/documents/media/dplan061.flac"
+    },
+    "DPLAN062": {
+      "width": 0,
+      "height": 0,
+      "x": 0,
+      "y": 0,
+      "frames": 103,
+      "fps": 10.0,
+      "audio": "/game/documents/media/dplan062.flac",
+      "duration": 10.304489795918368,
+      "type": "audio",
+      "src": "/game/documents/media/dplan062.flac"
+    },
+    "DPLAN063": {
+      "width": 0,
+      "height": 0,
+      "x": 0,
+      "y": 0,
+      "frames": 60,
+      "fps": 10.0,
+      "audio": "/game/documents/media/dplan063.flac",
+      "duration": 5.902403628117914,
+      "type": "audio",
+      "src": "/game/documents/media/dplan063.flac"
+    },
+    "DPLAN064": {
+      "width": 0,
+      "height": 0,
+      "x": 0,
+      "y": 0,
+      "frames": 249,
+      "fps": 10.0,
+      "audio": "/game/documents/media/dplan064.flac",
+      "duration": 24.810793650793652,
+      "type": "audio",
+      "src": "/game/documents/media/dplan064.flac"
+    },
+    "DPLAN070": {
+      "width": 0,
+      "height": 0,
+      "x": 0,
+      "y": 0,
+      "frames": 28,
+      "fps": 10.0,
+      "audio": "/game/documents/media/dplan070.flac",
+      "duration": 2.8012698412698414,
+      "type": "audio",
+      "src": "/game/documents/media/dplan070.flac"
+    },
+    "ELEPHANT": {
+      "width": 0,
+      "height": 0,
+      "x": 0,
+      "y": 0,
+      "frames": 18,
+      "fps": 10.0,
+      "audio": "/game/documents/media/elephant.flac",
+      "duration": 1.8008163265306123,
+      "type": "audio",
+      "src": "/game/documents/media/elephant.flac"
+    },
+    "ESP_EF01": {
+      "width": 0,
+      "height": 0,
+      "x": 0,
+      "y": 0,
+      "frames": 105,
+      "fps": 10.0,
+      "audio": "/game/documents/media/esp_ef01.flac",
+      "duration": 10.30467120181406,
+      "type": "audio",
+      "src": "/game/documents/media/esp_ef01.flac"
+    },
+    "ESP_EF02": {
+      "width": 0,
+      "height": 0,
+      "x": 0,
+      "y": 0,
+      "frames": 164,
+      "fps": 10.0,
+      "audio": "/game/documents/media/esp_ef02.flac",
+      "duration": 16.10730158730159,
+      "type": "audio",
+      "src": "/game/documents/media/esp_ef02.flac"
+    },
+    "ESP_EF03": {
+      "width": 0,
+      "height": 0,
+      "x": 0,
+      "y": 0,
+      "frames": 64,
+      "fps": 10.0,
+      "audio": "/game/documents/media/esp_ef03.flac",
+      "duration": 6.20281179138322,
+      "type": "audio",
+      "src": "/game/documents/media/esp_ef03.flac"
+    },
+    "ESP_EF04": {
+      "width": 0,
+      "height": 0,
+      "x": 0,
+      "y": 0,
+      "frames": 102,
+      "fps": 10.0,
+      "audio": "/game/documents/media/esp_ef04.flac",
+      "duration": 9.804444444444444,
+      "type": "audio",
+      "src": "/game/documents/media/esp_ef04.flac"
+    },
+    "ESP_EF05": {
+      "width": 0,
+      "height": 0,
+      "x": 0,
+      "y": 0,
+      "frames": 66,
+      "fps": 10.0,
+      "audio": "/game/documents/media/esp_ef05.flac",
+      "duration": 6.602993197278912,
+      "type": "audio",
+      "src": "/game/documents/media/esp_ef05.flac"
+    },
+    "ESP_EF06": {
+      "width": 0,
+      "height": 0,
+      "x": 0,
+      "y": 0,
+      "frames": 106,
+      "fps": 10.0,
+      "audio": "/game/documents/media/esp_ef06.flac",
+      "duration": 10.604807256235828,
+      "type": "audio",
+      "src": "/game/documents/media/esp_ef06.flac"
+    },
+    "ETRACONQ": {
+      "width": 640,
+      "height": 480,
+      "x": 0,
+      "y": 0,
+      "frames": 116,
+      "fps": 12.003266194882961,
+      "audio": "/game/documents/media/etraconq.flac",
+      "duration": 9.664036281179138,
+      "src": "/game/documents/media/etraconq.webp",
+      "type": "animation"
+    },
+    "EVAPORF": {
+      "src": "/game/documents/media/evaporf.mp4",
+      "type": "video",
+      "width": 228,
+      "height": 168
+    },
+    "FENETR": {
+      "width": 11,
+      "height": 13,
+      "x": 416,
+      "y": 402,
+      "frames": 73,
+      "fps": 12,
+      "src": "/game/documents/media/fenetr.webp",
+      "type": "animation",
+      "duration": 6.083333333333333
+    },
+    "FILANTE1": {
+      "width": 226,
+      "height": 226,
+      "x": 103,
+      "y": 58,
+      "frames": 17,
+      "fps": 12,
+      "src": "/game/documents/media/filante1.webp",
+      "type": "animation",
+      "duration": 1.4166666666666667
+    },
+    "FILANTE2": {
+      "width": 105,
+      "height": 105,
+      "x": 245,
+      "y": 62,
+      "frames": 20,
+      "fps": 11.99021207177814,
+      "audio": "/game/documents/media/filante2.flac",
+      "duration": 1.6680272108843537,
+      "src": "/game/documents/media/filante2.webp",
+      "type": "animation"
+    },
+    "FILANTE3": {
+      "width": 223,
+      "height": 223,
+      "x": 417,
+      "y": 72,
+      "frames": 31,
+      "fps": 12,
+      "src": "/game/documents/media/filante3.webp",
+      "type": "animation",
+      "duration": 2.5833333333333335
+    },
+    "FUMEE": {
+      "width": 6,
+      "height": 50,
+      "x": 330,
+      "y": 328,
+      "frames": 48,
+      "fps": 12,
+      "src": "/game/documents/media/fumee.webp",
+      "type": "animation",
+      "duration": 4.0
+    },
+    "GAGARINF": {
+      "src": "/game/documents/media/gagarinf.mp4",
+      "type": "video",
+      "width": 228,
+      "height": 168
+    },
+    "GIOTTOF": {
+      "src": "/game/documents/media/giottof.mp4",
+      "type": "video",
+      "width": 228,
+      "height": 168
+    },
+    "GORILLE": {
+      "width": 39,
+      "height": 42,
+      "x": 532,
+      "y": 204,
+      "frames": 50,
+      "fps": 11.996735582154516,
+      "audio": "/game/documents/media/gorille.flac",
+      "duration": 4.167800453514739,
+      "src": "/game/documents/media/gorille.webp",
+      "type": "animation"
+    },
+    "GORILLES": {
+      "width": 0,
+      "height": 0,
+      "x": 0,
+      "y": 0,
+      "frames": 29,
+      "fps": 10.0,
+      "audio": "/game/documents/media/gorilles.flac",
+      "duration": 2.9013151927437644,
+      "type": "audio",
+      "src": "/game/documents/media/gorilles.flac"
+    },
+    "GRIZZLI": {
+      "width": 0,
+      "height": 0,
+      "x": 0,
+      "y": 0,
+      "frames": 39,
+      "fps": 10.0,
+      "audio": "/game/documents/media/grizzli.flac",
+      "duration": 3.901768707482993,
+      "type": "audio",
+      "src": "/game/documents/media/grizzli.flac"
+    },
+    "KOALA": {
+      "width": 0,
+      "height": 0,
+      "x": 0,
+      "y": 0,
+      "frames": 13,
+      "fps": 10.0,
+      "audio": "/game/documents/media/koala.flac",
+      "duration": 1.3005895691609977,
+      "type": "audio",
+      "src": "/game/documents/media/koala.flac"
+    },
+    "KOMODO": {
+      "width": 30,
+      "height": 23,
+      "x": 487,
+      "y": 156,
+      "frames": 13,
+      "fps": 11.983695652173912,
+      "audio": "/game/documents/media/komodo.flac",
+      "duration": 1.0848072562358277,
+      "src": "/game/documents/media/komodo.webp",
+      "type": "animation"
+    },
+    "LAIKAF": {
+      "src": "/game/documents/media/laikaf.mp4",
+      "type": "video",
+      "width": 228,
+      "height": 168
+    },
+    "LAMENTIN": {
+      "width": 0,
+      "height": 0,
+      "x": 0,
+      "y": 0,
+      "frames": 49,
+      "fps": 10.0,
+      "audio": "/game/documents/media/lamentin.flac",
+      "duration": 4.502040816326531,
+      "type": "audio",
+      "src": "/game/documents/media/lamentin.flac"
+    },
+    "LION": {
+      "width": 0,
+      "height": 0,
+      "x": 0,
+      "y": 0,
+      "frames": 16,
+      "fps": 10.0,
+      "audio": "/game/documents/media/lion.flac",
+      "duration": 1.6007256235827665,
+      "type": "audio",
+      "src": "/game/documents/media/lion.flac"
+    },
+    "LOUP": {
+      "width": 0,
+      "height": 0,
+      "x": 0,
+      "y": 0,
+      "frames": 39,
+      "fps": 10.0,
+      "audio": "/game/documents/media/loup.flac",
+      "duration": 3.901768707482993,
+      "type": "audio",
+      "src": "/game/documents/media/loup.flac"
+    },
+    "LOUTRE": {
+      "width": 0,
+      "height": 0,
+      "x": 0,
+      "y": 0,
+      "frames": 23,
+      "fps": 10.0,
+      "audio": "/game/documents/media/loutre.flac",
+      "duration": 2.2009977324263037,
+      "type": "audio",
+      "src": "/game/documents/media/loutre.flac"
+    },
+    "MARS": {
+      "width": 9,
+      "height": 9,
+      "x": 283,
+      "y": 204,
+      "frames": 37,
+      "fps": 11.996735582154516,
+      "audio": "/game/documents/media/mars.flac",
+      "duration": 3.084172335600907,
+      "src": "/game/documents/media/mars.webp",
+      "type": "animation"
+    },
+    "METEOR": {
+      "width": 225,
+      "height": 226,
+      "x": 163,
+      "y": 114,
+      "frames": 29,
+      "fps": 11.99021207177814,
+      "audio": "/game/documents/media/meteor.flac",
+      "duration": 2.418639455782313,
+      "src": "/game/documents/media/meteor.webp",
+      "type": "animation"
+    },
+    "NEIGE": {
+      "width": 59,
+      "height": 58,
+      "x": 89,
+      "y": 21,
+      "frames": 83,
+      "fps": 12,
+      "src": "/game/documents/media/neige.webp",
+      "type": "animation",
+      "duration": 6.916666666666667
+    },
+    "NEIGEF": {
+      "src": "/game/documents/media/neigef.mp4",
+      "type": "video",
+      "width": 228,
+      "height": 168
+    },
+    "NOUS": {
+      "width": 0,
+      "height": 0,
+      "x": 0,
+      "y": 0,
+      "frames": 18,
+      "fps": 10.0,
+      "audio": "/game/documents/media/nous.flac",
+      "duration": 1.8008163265306123,
+      "type": "audio",
+      "src": "/game/documents/media/nous.flac"
+    },
+    "NUAGE": {
+      "width": 579,
+      "height": 9,
+      "x": 35,
+      "y": 45,
+      "frames": 501,
+      "fps": 12,
+      "src": "/game/documents/media/nuage.webp",
+      "type": "animation",
+      "duration": 41.75
+    },
+    "OCEANF": {
+      "src": "/game/documents/media/oceanf.mp4",
+      "type": "video",
+      "width": 228,
+      "height": 168
+    },
+    "OIZO1": {
+      "width": 197,
+      "height": 75,
+      "x": 443,
+      "y": 367,
+      "frames": 121,
+      "fps": 12.003266194882961,
+      "audio": "/game/documents/media/oizo1.flac",
+      "duration": 10.080589569160997,
+      "src": "/game/documents/media/oizo1.webp",
+      "type": "animation"
+    },
+    "OIZO2": {
+      "width": 62,
+      "height": 43,
+      "x": 6,
+      "y": 334,
+      "frames": 113,
+      "fps": 12.003266194882961,
+      "audio": "/game/documents/media/oizo2.flac",
+      "duration": 9.414104308390023,
+      "src": "/game/documents/media/oizo2.webp",
+      "type": "animation"
+    },
+    "OIZOS": {
+      "width": 209,
+      "height": 76,
+      "x": 216,
+      "y": 2,
+      "frames": 103,
+      "fps": 12.003266194882961,
+      "audio": "/game/documents/media/oizos.flac",
+      "duration": 8.580997732426304,
+      "src": "/game/documents/media/oizos.webp",
+      "type": "animation"
+    },
+    "OIZOS3": {
+      "width": 278,
+      "height": 223,
+      "x": 338,
+      "y": 228,
+      "frames": 199,
+      "fps": 12.003266194882961,
+      "audio": "/game/documents/media/oizos3.flac",
+      "duration": 16.578820861678004,
+      "src": "/game/documents/media/oizos3.webp",
+      "type": "animation"
+    },
+    "OURS": {
+      "width": 74,
+      "height": 78,
+      "x": 61,
+      "y": 158,
+      "frames": 25,
+      "fps": 11.99021207177814,
+      "audio": "/game/documents/media/ours.flac",
+      "duration": 2.085034013605442,
+      "src": "/game/documents/media/ours.webp",
+      "type": "animation"
+    },
+    "OURSBLAN": {
+      "width": 0,
+      "height": 0,
+      "x": 0,
+      "y": 0,
+      "frames": 30,
+      "fps": 10.0,
+      "audio": "/game/documents/media/oursblan.flac",
+      "duration": 2.9013151927437644,
+      "type": "audio",
+      "src": "/game/documents/media/oursblan.flac"
+    },
+    "PANDA": {
+      "width": 0,
+      "height": 0,
+      "x": 0,
+      "y": 0,
+      "frames": 38,
+      "fps": 10.0,
+      "audio": "/game/documents/media/panda.flac",
+      "duration": 3.80172335600907,
+      "type": "audio",
+      "src": "/game/documents/media/panda.flac"
+    },
+    "PANTHERE": {
+      "width": 0,
+      "height": 0,
+      "x": 0,
+      "y": 0,
+      "frames": 40,
+      "fps": 10.0,
+      "audio": "/game/documents/media/panthere.flac",
+      "duration": 4.001814058956916,
+      "type": "audio",
+      "src": "/game/documents/media/panthere.flac"
+    },
+    "PELICAN": {
+      "width": 0,
+      "height": 0,
+      "x": 0,
+      "y": 0,
+      "frames": 22,
+      "fps": 10.0,
+      "audio": "/game/documents/media/pelican.flac",
+      "duration": 2.100952380952381,
+      "type": "audio",
+      "src": "/game/documents/media/pelican.flac"
+    },
+    "PHOQUE": {
+      "width": 0,
+      "height": 0,
+      "x": 0,
+      "y": 0,
+      "frames": 22,
+      "fps": 10.0,
+      "audio": "/game/documents/media/phoque.flac",
+      "duration": 2.2009977324263037,
+      "type": "audio",
+      "src": "/game/documents/media/phoque.flac"
+    },
+    "PLANTESF": {
+      "src": "/game/documents/media/plantesf.mp4",
+      "type": "video",
+      "width": 228,
+      "height": 168
+    },
+    "POISSON": {
+      "width": 133,
+      "height": 49,
+      "x": 74,
+      "y": 249,
+      "frames": 30,
+      "fps": 11.996735582154516,
+      "audio": "/game/documents/media/poisson.flac",
+      "duration": 2.5006802721088435,
+      "src": "/game/documents/media/poisson.webp",
+      "type": "animation"
+    },
+    "RHINO": {
+      "width": 41,
+      "height": 45,
+      "x": 303,
+      "y": 269,
+      "frames": 15,
+      "fps": 11.983695652173912,
+      "audio": "/game/documents/media/rhino.flac",
+      "duration": 1.251700680272109,
+      "src": "/game/documents/media/rhino.webp",
+      "type": "animation"
+    },
+    "RHINOS": {
+      "width": 0,
+      "height": 0,
+      "x": 0,
+      "y": 0,
+      "frames": 19,
+      "fps": 10.0,
+      "audio": "/game/documents/media/rhinos.flac",
+      "duration": 1.900861678004535,
+      "type": "audio",
+      "src": "/game/documents/media/rhinos.flac"
+    },
+    "SABLE": {
+      "width": 189,
+      "height": 112,
+      "x": 143,
+      "y": 317,
+      "frames": 14,
+      "fps": 11.983695652173912,
+      "audio": "/game/documents/media/sable.flac",
+      "duration": 1.1682539682539683,
+      "src": "/game/documents/media/sable.webp",
+      "type": "animation"
+    },
+    "SATELITX": {
+      "width": 569,
+      "height": 54,
+      "x": 52,
+      "y": 176,
+      "frames": 287,
+      "fps": 12,
+      "src": "/game/documents/media/satelitx.webp",
+      "type": "animation",
+      "duration": 23.916666666666668
+    },
+    "SKYLABF": {
+      "src": "/game/documents/media/skylabf.mp4",
+      "type": "video",
+      "width": 228,
+      "height": 168
+    },
+    "SOLEILF": {
+      "src": "/game/documents/media/soleilf.mp4",
+      "type": "video",
+      "width": 228,
+      "height": 168
+    },
+    "SP4G": {
+      "width": 76,
+      "height": 86,
+      "x": 49,
+      "y": 294,
+      "frames": 9,
+      "fps": 11.970684039087947,
+      "audio": "/game/documents/media/sp4g.flac",
+      "duration": 0.7518367346938776,
+      "src": "/game/documents/media/sp4g.webp",
+      "type": "animation"
+    },
+    "SP4H": {
+      "width": 293,
+      "height": 245,
+      "x": 170,
+      "y": 0,
+      "frames": 14,
+      "fps": 11.983695652173912,
+      "audio": "/game/documents/media/sp4h.flac",
+      "duration": 1.1682539682539683,
+      "src": "/game/documents/media/sp4h.webp",
+      "type": "animation"
+    },
+    "SP4I": {
+      "width": 75,
+      "height": 37,
+      "x": 296,
+      "y": 294,
+      "frames": 19,
+      "fps": 11.99021207177814,
+      "audio": "/game/documents/media/sp4i.flac",
+      "duration": 1.584625850340136,
+      "src": "/game/documents/media/sp4i.webp",
+      "type": "animation"
+    },
+    "SP4J": {
+      "width": 167,
+      "height": 164,
+      "x": 227,
+      "y": 134,
+      "frames": 11,
+      "fps": 11.977186311787072,
+      "audio": "/game/documents/media/sp4j.flac",
+      "duration": 0.9184126984126985,
+      "src": "/game/documents/media/sp4j.webp",
+      "type": "animation"
+    },
+    "SP4K": {
+      "width": 64,
+      "height": 55,
+      "x": 415,
+      "y": 274,
+      "frames": 26,
+      "fps": 11.99021207177814,
+      "audio": "/game/documents/media/sp4k.flac",
+      "duration": 2.16843537414966,
+      "src": "/game/documents/media/sp4k.webp",
+      "type": "animation"
+    },
+    "SP4R": {
+      "width": 105,
+      "height": 60,
+      "x": 269,
+      "y": 245,
+      "frames": 14,
+      "fps": 11.983695652173912,
+      "audio": "/game/documents/media/sp4r.flac",
+      "duration": 1.1682539682539683,
+      "src": "/game/documents/media/sp4r.webp",
+      "type": "animation"
+    },
+    "SP4S": {
+      "width": 161,
+      "height": 122,
+      "x": 238,
+      "y": 32,
+      "frames": 16,
+      "fps": 11.983695652173912,
+      "audio": "/game/documents/media/sp4s.flac",
+      "duration": 1.3351473922902495,
+      "src": "/game/documents/media/sp4s.webp",
+      "type": "animation"
+    },
+    "SP4T": {
+      "width": 50,
+      "height": 50,
+      "x": 175,
+      "y": 143,
+      "frames": 16,
+      "fps": 11.983695652173912,
+      "audio": "/game/documents/media/sp4t.flac",
+      "duration": 1.3351473922902495,
+      "src": "/game/documents/media/sp4t.webp",
+      "type": "animation"
+    },
+    "SP4U": {
+      "width": 124,
+      "height": 126,
+      "x": 258,
+      "y": 271,
+      "frames": 21,
+      "fps": 11.99021207177814,
+      "audio": "/game/documents/media/sp4u.flac",
+      "duration": 1.7514285714285713,
+      "src": "/game/documents/media/sp4u.webp",
+      "type": "animation"
+    },
+    "SP4V": {
+      "width": 94,
+      "height": 122,
+      "x": 0,
+      "y": 79,
+      "frames": 11,
+      "fps": 11.977186311787072,
+      "audio": "/game/documents/media/sp4v.flac",
+      "duration": 0.9184126984126985,
+      "src": "/game/documents/media/sp4v.webp",
+      "type": "animation"
+    },
+    "SP4W": {
+      "width": 128,
+      "height": 91,
+      "x": 413,
+      "y": 89,
+      "frames": 38,
+      "fps": 11.996735582154516,
+      "audio": "/game/documents/media/sp4w.flac",
+      "duration": 3.1675283446712017,
+      "src": "/game/documents/media/sp4w.webp",
+      "type": "animation"
+    },
+    "SP4X": {
+      "width": 250,
+      "height": 149,
+      "x": 0,
+      "y": 156,
+      "frames": 105,
+      "fps": 12.009803921568627,
+      "audio": "/game/documents/media/sp4x.flac",
+      "duration": 8.742857142857142,
+      "src": "/game/documents/media/sp4x.webp",
+      "type": "animation"
+    },
+    "SPOUTNKF": {
+      "src": "/game/documents/media/spoutnkf.mp4",
+      "type": "video",
+      "width": 228,
+      "height": 168
+    },
+    "STAR11": {
+      "width": 31,
+      "height": 17,
+      "x": 262,
+      "y": 166,
+      "frames": 67,
+      "fps": 12,
+      "src": "/game/documents/media/star11.webp",
+      "type": "animation",
+      "duration": 5.583333333333333
+    },
+    "STAR22": {
+      "width": 41,
+      "height": 18,
+      "x": 262,
+      "y": 165,
+      "frames": 62,
+      "fps": 12,
+      "src": "/game/documents/media/star22.webp",
+      "type": "animation",
+      "duration": 5.166666666666667
+    },
+    "STAR33": {
+      "width": 34,
+      "height": 19,
+      "x": 259,
+      "y": 164,
+      "frames": 63,
+      "fps": 12,
+      "src": "/game/documents/media/star33.webp",
+      "type": "animation",
+      "duration": 5.25
+    },
+    "STAR44": {
+      "width": 94,
+      "height": 118,
+      "x": 262,
+      "y": 65,
+      "frames": 106,
+      "fps": 12,
+      "src": "/game/documents/media/star44.webp",
+      "type": "animation",
+      "duration": 8.833333333333334
+    },
+    "TERECHKF": {
+      "src": "/game/documents/media/terechkf.mp4",
+      "type": "video",
+      "width": 228,
+      "height": 168
+    },
+    "TIGRE": {
+      "width": 0,
+      "height": 0,
+      "x": 0,
+      "y": 0,
+      "frames": 25,
+      "fps": 10.0,
+      "audio": "/game/documents/media/tigre.flac",
+      "duration": 2.5011337868480727,
+      "type": "audio",
+      "src": "/game/documents/media/tigre.flac"
+    },
+    "TORRENTF": {
+      "src": "/game/documents/media/torrentf.mp4",
+      "type": "video",
+      "width": 228,
+      "height": 168
+    },
+    "TORTUE": {
+      "width": 0,
+      "height": 0,
+      "x": 0,
+      "y": 0,
+      "frames": 32,
+      "fps": 10.0,
+      "audio": "/game/documents/media/tortue.flac",
+      "duration": 3.1011791383219953,
+      "type": "audio",
+      "src": "/game/documents/media/tortue.flac"
+    },
+    "TRANSPLA": {
+      "width": 640,
+      "height": 480,
+      "x": 0,
+      "y": 0,
+      "frames": 201,
+      "fps": 10.0,
+      "audio": "/game/documents/media/transpla.flac",
+      "duration": 20.1,
+      "src": "/game/documents/media/transpla.webp",
+      "type": "animation"
+    },
+    "VAISO": {
+      "width": 640,
+      "height": 480,
+      "x": 0,
+      "y": 0,
+      "frames": 10,
+      "fps": 10.0,
+      "audio": "/game/documents/media/vaiso.flac",
+      "duration": 1.0,
+      "src": "/game/documents/media/vaiso.webp",
+      "type": "animation"
+    },
+    "VARAN": {
+      "width": 0,
+      "height": 0,
+      "x": 0,
+      "y": 0,
+      "frames": 13,
+      "fps": 10.0,
+      "audio": "/game/documents/media/varan.flac",
+      "duration": 1.3005895691609977,
+      "type": "audio",
+      "src": "/game/documents/media/varan.flac"
+    },
+    "VOYAGRF": {
+      "src": "/game/documents/media/voyagrf.mp4",
+      "type": "video",
+      "width": 228,
+      "height": 168
+    }
+  }
+}

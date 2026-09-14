@@ -2,7 +2,7 @@
 
 Recréation d’ADI 4 Sciences, avec deux projets publiés dans ce dépôt :
 
-- [L’application web](web/README.md) : chambre d’Adi, radio, jeux, cours et station
+- [L’application web](web/README.md) : chambre d’Adi, documents, radio, jeux, cours et station
   Sciences.
 - [Le serveur ADI 4.21](serveur/README.md) : serveur TCP Python compatible avec
   une partie des services Internet du client Windows original.
@@ -26,6 +26,9 @@ La chambre, la radio, la planète Internet simulée et les dix jeux disponibles
 ont leurs ressources dans Git : Sokoban, les trois Goblins, Mr. Matt I et II,
 et les quatre épisodes de Bad Toys 3D. Les parties sont conservées dans le
 navigateur, selon les possibilités de chaque jeu.
+
+Les cinq dossiers multimédias de la chambre sont consultables, avec les films,
+voix et zones cliquables du jeu original.
 
 Le code et les ressources des cours, de l’encyclopédie et des 14 simulations
 Sciences sont également inclus. Un clone contient les médias nécessaires au

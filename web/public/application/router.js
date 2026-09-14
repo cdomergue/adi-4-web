@@ -9,6 +9,7 @@ import { renderWGob3 } from '../features/games/wgob3/view.js';
 import { renderMrMatt } from '../features/games/mrmatt/view.js';
 import { renderBadToys } from '../features/games/badtoys/view.js';
 import { renderWelcome } from './welcome.js';
+import { renderDocuments } from '../features/documents/view.js';
 import { renderInternet } from '../features/internet/view.js';
 
 export function createRouter({ main, info, toast, catalog, library }) {
@@ -64,6 +65,9 @@ export function createRouter({ main, info, toast, catalog, library }) {
     else if (hash === 'notebook') library.notebook();
     else if (hash === 'games') {
       renderGames(main, info);
+      active = 'room';
+    } else if (hash === 'documents' || hash.startsWith('document/')) {
+      renderDocuments(main, hash === 'documents' ? '' : hash.slice(9));
       active = 'room';
     } else if (hash === 'radio') {
       renderRoomActivity(main, 'radio', info);
