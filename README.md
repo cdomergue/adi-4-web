@@ -28,7 +28,7 @@ et les quatre épisodes de Bad Toys 3D. Les parties sont conservées dans le
 navigateur, selon les possibilités de chaque jeu.
 
 Les douze documents de la chambre sont consultables : cinq dossiers multimédias,
-l’Atlas et six simulations d’environnement, avec les médias et les interactions
+l’Atlas et six simulations d’environnement, dont la pollution de l’air en JavaScript, avec les médias et les interactions
 du jeu original.
 
 Le code et les ressources des cours, de l’encyclopédie et des 14 simulations

@@ -1,5 +1,4 @@
 export const nativeDocuments = {
-  s16: { title: 'La pollution de l’air', program: 'S16', archive: 'SIMULC' },
   s17: { title: 'La pollution de l’eau', program: 'S17', archive: 'SIMULC' },
   s12: { title: 'L’entreprise', program: 'S12', archive: 'SIMULC' },
   s14: { title: 'La désertification', program: 'S14', archive: 'SIMULC' },

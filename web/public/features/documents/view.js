@@ -1,3 +1,4 @@
+import { renderAir } from './air/view.js';
 import { renderAtlas } from './atlas/view.js';
 import { nativeDocuments } from './native-config.js';
 import { renderNativeDocument } from './native-view.js';
@@ -40,6 +41,7 @@ function catalog() {
 }
 
 export async function renderDocuments(main, topicId = '') {
+  if (topicId === 's16') return renderAir(main);
   if (topicId === 'atlas') return renderAtlas(main);
   if (Object.hasOwn(nativeDocuments, topicId)) return renderNativeDocument(main, topicId);
   document.title = 'Les documents · ADI 4';

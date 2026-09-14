@@ -87,7 +87,13 @@ deux résolutions, les images du globe, les textes dessinés avec les polices
 originales et les médias géolocalisés. La vue arrête ses sons, ses chargements et
 son observateur de taille à `sceneleave`.
 
-[native-view.js](public/features/documents/native-view.js) ouvre les six simulations d’environnement dans un lecteur isolé. Le
+[air/engine.js](public/features/documents/air/engine.js) applique les calculs et
+tables de la pollution de l’air ; [air/view.js](public/features/documents/air/view.js)
+dessine les images et séquences originales, gère les choix, les explications,
+les cas de reconstitution et le son. Ses [ressources](public/game/documents/air/)
+suffisent au fonctionnement de cette route sans moteur externe.
+
+[native-view.js](public/features/documents/native-view.js) ouvre les cinq autres simulations d’environnement dans un lecteur isolé. Le
 [lecteur](public/documents/player.js) vérifie les empreintes des archives,
 charge uniquement celles du document choisi, puis démarre le moteur Gob.
 [native-config.js](public/features/documents/native-config.js) associe chaque

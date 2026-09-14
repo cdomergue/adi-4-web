@@ -2297,6 +2297,876 @@
       "sha256": "5ac8025007da1d99d02fead6092899b1fc62fa28c66693f8afa7ef832f7b0bfa"
     },
     {
+      "path": "public/game/documents/air/assets.json",
+      "size": 48896,
+      "sha256": "f77942391eb5f72243c67244ce89df95da0f24f709f6270cb42eb3eaf9fa5184"
+    },
+    {
+      "path": "public/game/documents/air/audio/a_mus16.wav",
+      "size": 895680,
+      "sha256": "d516a78a9f0456e2136cad7840bca8df2509a816e11fdb4be8e4091174f8fd57"
+    },
+    {
+      "path": "public/game/documents/air/audio/s16_00rq.wav",
+      "size": 436634,
+      "sha256": "ac6a725df6c04792e69c8e7e2840da1bce428f334134c4f6691c73d1d26ddda7"
+    },
+    {
+      "path": "public/game/documents/air/audio/s16_01rq.wav",
+      "size": 299924,
+      "sha256": "7ad3731c292601fd0d09fcb29ecb1eb5bbdc2b98ee4c0f5e71680143d2ef9d8d"
+    },
+    {
+      "path": "public/game/documents/air/audio/s16_02br.wav",
+      "size": 277874,
+      "sha256": "2c738b59fbdebbb8292f1fc107ec3772e0efa05118070f676a4ce021c54dff94"
+    },
+    {
+      "path": "public/game/documents/air/audio/s16_02rq.wav",
+      "size": 260234,
+      "sha256": "a8a60763b2a77c79e49a0d211c30fac6ceb24b9665a902edde924eaca8c167f3"
+    },
+    {
+      "path": "public/game/documents/air/audio/s16_03br.wav",
+      "size": 277874,
+      "sha256": "2c738b59fbdebbb8292f1fc107ec3772e0efa05118070f676a4ce021c54dff94"
+    },
+    {
+      "path": "public/game/documents/air/audio/s16_03rq.wav",
+      "size": 286694,
+      "sha256": "c51474c24a733a08aaa29fd59e807ae5436fc5e3d4685809160ab1c6452d0d44"
+    },
+    {
+      "path": "public/game/documents/air/audio/s16_3s01.wav",
+      "size": 183844,
+      "sha256": "a6b05fbb250577a73f14889baa8ba4551ca9514262fda45ad94d78e5afeb3c09"
+    },
+    {
+      "path": "public/game/documents/air/audio/s16_3s02.wav",
+      "size": 209576,
+      "sha256": "b40082e3cccc188b6af9111e1bf4e13045019df15c2aef50339850c50eae8111"
+    },
+    {
+      "path": "public/game/documents/air/audio/s16_5s01.wav",
+      "size": 69888,
+      "sha256": "579627135c637631cd52cfa74af92d07527989c22e41805c0bb357071983e45e"
+    },
+    {
+      "path": "public/game/documents/air/audio/s16_5s02.wav",
+      "size": 69888,
+      "sha256": "e865fea308650201145f79ed149170fc687793999c964f361a637e6a050cdc9a"
+    },
+    {
+      "path": "public/game/documents/air/audio/s16_5s03.wav",
+      "size": 69888,
+      "sha256": "310d6651f55c18791c957e9886a548046d205fe367b1e4eccc5609f92ba080da"
+    },
+    {
+      "path": "public/game/documents/air/audio/s16_5s04.wav",
+      "size": 69888,
+      "sha256": "d8b0b850881d959311e3a9c7b96525c52efbe9d80960e3982276cbd6c2379bc8"
+    },
+    {
+      "path": "public/game/documents/air/audio/s16_6s00.wav",
+      "size": 165432,
+      "sha256": "9b0776de40f3fa574a6fd45de073572685b9439cf0a1b1fce23967c54eeb331a"
+    },
+    {
+      "path": "public/game/documents/air/audio/s16_6s01.wav",
+      "size": 154404,
+      "sha256": "7e8a980c590c139b5fac92ee0d6b452a6633442e3b3140bc7c3cf5759c7f0590"
+    },
+    {
+      "path": "public/game/documents/air/audio/s16_6s02.wav",
+      "size": 172784,
+      "sha256": "1e107e631091eb145031e9f671af095932df17808ae0777f3f26b4d2f05d96a6"
+    },
+    {
+      "path": "public/game/documents/air/audio/s16_6s03.wav",
+      "size": 183826,
+      "sha256": "d05da65e8f10c9710b09d0513bd42dac5beea66fb4dde736eaed843e0b1cfc05"
+    },
+    {
+      "path": "public/game/documents/air/audio/s16_6s04.wav",
+      "size": 323532,
+      "sha256": "47ab5f1a71ce7a1359716c0b798fc559598ea1cb7348b231416f5d5386f78b6d"
+    },
+    {
+      "path": "public/game/documents/air/audio/s16_re00.wav",
+      "size": 654370,
+      "sha256": "e5ce869ef2a62a72f45fb9e6546b091ea0e12a55e6ceed38b13729a30574c404"
+    },
+    {
+      "path": "public/game/documents/air/audio/s16_re01.wav",
+      "size": 536670,
+      "sha256": "1cdec8fc4882d0bba6c32cee8e4264d7bf77268f631cb19114712da594ac304e"
+    },
+    {
+      "path": "public/game/documents/air/audio/s16_re02.wav",
+      "size": 308820,
+      "sha256": "ed4c34e11c71b5b7fa6c36e48ef4454359a7b1c7b2f54ac793f19c0cfec1d383"
+    },
+    {
+      "path": "public/game/documents/air/audio/s16_re03.wav",
+      "size": 654308,
+      "sha256": "08c86753f8c4daffefb0d40edc6926eb411dad658636b513690d5c5be09443c6"
+    },
+    {
+      "path": "public/game/documents/air/audio/s16_vo.wav",
+      "size": 723284,
+      "sha256": "c8cf60d377c9b88a1da19542f462549b77a342859f3e88c9454c09fbe0f5f4a9"
+    },
+    {
+      "path": "public/game/documents/air/audio/sbru001.wav",
+      "size": 70636,
+      "sha256": "7020faaee867a725931a707ccbf44c2b454d7bfabdb47ac2d43a142bb122e941"
+    },
+    {
+      "path": "public/game/documents/air/audio/sbru024.wav",
+      "size": 132404,
+      "sha256": "ff25756b05c2506184dc099de4986421371ae61696b917c3ed13bb59e51e12b8"
+    },
+    {
+      "path": "public/game/documents/air/audio/sbru025.wav",
+      "size": 141228,
+      "sha256": "b0223f556eb1dc9e6119b5bb32b48ee13060e90bd4e60a7430b5de0ea23d6e83"
+    },
+    {
+      "path": "public/game/documents/air/audio/sbru026.wav",
+      "size": 127992,
+      "sha256": "5d383f9e796ad7663a34d3b0ff6cabc75d8054f6d44bf359b661ffa811a011c5"
+    },
+    {
+      "path": "public/game/documents/air/audio/sbru037.wav",
+      "size": 105932,
+      "sha256": "59eb0fb4559a3868b07f439ae136a82a8bfc072d5b6a9ae0bbc1167b26813329"
+    },
+    {
+      "path": "public/game/documents/air/audio/sbru038.wav",
+      "size": 119168,
+      "sha256": "2ca5f4ab8d75d3d2916961148bae744c901463002c5fe8e4df863c61639abc2e"
+    },
+    {
+      "path": "public/game/documents/air/audio/sbru039.wav",
+      "size": 141228,
+      "sha256": "43a5589151e9efcd6e31ff309d6dda1505757177a663302429461caa6e06c209"
+    },
+    {
+      "path": "public/game/documents/air/audio/sbru040.wav",
+      "size": 119168,
+      "sha256": "1d7f45516b482785b704b6c63dba2e40f8ef9ee3532024f5ebca0313119a59fb"
+    },
+    {
+      "path": "public/game/documents/air/audio/sbru041.wav",
+      "size": 83872,
+      "sha256": "897ac7f52d18b692fe123ece797222f8cad324ff07a7f4bd743152420ec9564e"
+    },
+    {
+      "path": "public/game/documents/air/audio/sbru061.wav",
+      "size": 57386,
+      "sha256": "26cdf0638a624b5e1b39b6fb7899406eaaf565f1ff58524cb89c0c1c5a5b266d"
+    },
+    {
+      "path": "public/game/documents/air/audio/sbru063.wav",
+      "size": 101520,
+      "sha256": "f0147863f526383f28705f763d48fbc7c9ba686675db917d973c010f0b7a996c"
+    },
+    {
+      "path": "public/game/documents/air/images/bafle-frames.webp",
+      "size": 56114,
+      "sha256": "96998451620b8a2f44b2fcf6fe5eb60967e3bd6574417aba104ea4c79aff01b6"
+    },
+    {
+      "path": "public/game/documents/air/images/icomode-frames.webp",
+      "size": 16332,
+      "sha256": "38adab59130fa5013a0600269e52f6725462842e498427e134d71559c88103c6"
+    },
+    {
+      "path": "public/game/documents/air/images/intero-frames.webp",
+      "size": 49720,
+      "sha256": "08bff58955015706ab33bedda10b9073dd61361ab31a577c447b7116583b2118"
+    },
+    {
+      "path": "public/game/documents/air/images/moteur-3.png",
+      "size": 49049,
+      "sha256": "a12608b55bda9826314c09803a300f569d7e478abd0b7ca92d624655f7ddede9"
+    },
+    {
+      "path": "public/game/documents/air/images/moteur-3.webp",
+      "size": 31034,
+      "sha256": "1f25a0af3beb9abca96a5f33b7e9cd23211a823f0a1f96d8e3be769540c3fa3f"
+    },
+    {
+      "path": "public/game/documents/air/images/moteur-39.png",
+      "size": 44198,
+      "sha256": "a0bdac87cc33a5629bd1db31ddb19a6d79442f073753833ca228eb2a524090e1"
+    },
+    {
+      "path": "public/game/documents/air/images/moteur-39.webp",
+      "size": 24762,
+      "sha256": "1afb58f5fa62f3d62fbf6f16dec4b739feb75c84765bae94c47a8a298b68a8e0"
+    },
+    {
+      "path": "public/game/documents/air/images/moteur-40.png",
+      "size": 1385,
+      "sha256": "03b01c555c19e50bacc18164e6f1cb77bc2ec136ffff1f0416bd42f6a6fb19a6"
+    },
+    {
+      "path": "public/game/documents/air/images/moteur-40.webp",
+      "size": 960,
+      "sha256": "c33b13370350f0c987166d132df8a0236829f46a1835ed6dafcfb2eefd82ca19"
+    },
+    {
+      "path": "public/game/documents/air/images/moteur-41.png",
+      "size": 821,
+      "sha256": "16b3e4f5b96a6d583543d17c1af3b97aeb555884ee8770538a445a91cf03e325"
+    },
+    {
+      "path": "public/game/documents/air/images/moteur-41.webp",
+      "size": 548,
+      "sha256": "0d993e7eb815cbf9e83977e384f1329e31fec3c30d62a1cae7247a27922253bf"
+    },
+    {
+      "path": "public/game/documents/air/images/moteur-42.png",
+      "size": 614,
+      "sha256": "7507dcc9552c9f73195fdd06ed27000b1ac9c7ed19a319952eb2dddc9391275c"
+    },
+    {
+      "path": "public/game/documents/air/images/moteur-42.webp",
+      "size": 478,
+      "sha256": "5a17a717b9a38521bced1f944d0f40909b623f4c10ab5b2804e4453621296697"
+    },
+    {
+      "path": "public/game/documents/air/images/moteur-43.png",
+      "size": 1871,
+      "sha256": "f12a8d321fa6e0a852479caa0586e635230727b92f1a08bdfdb9ef8d433339f6"
+    },
+    {
+      "path": "public/game/documents/air/images/moteur-43.webp",
+      "size": 1212,
+      "sha256": "b173896b9c250b58513794b24b8e12b84bec99e09b7f9630e2dabb6f4949983a"
+    },
+    {
+      "path": "public/game/documents/air/images/porte-frames.webp",
+      "size": 30934,
+      "sha256": "8418ee4b94dc20d29dd19fd08235d46005c4b38834198c43b4179b74dec7afb2"
+    },
+    {
+      "path": "public/game/documents/air/images/s16_0d00.webp",
+      "size": 6260,
+      "sha256": "f197bcc5b1dd664856082c2ed71f1a7ef70ee036fe9d35d82a8f0df7270f0113"
+    },
+    {
+      "path": "public/game/documents/air/images/s16_0d01-frames.webp",
+      "size": 25344,
+      "sha256": "a842d7847f164dfc3e9269f2222d2f5f0b74c1fb107a20f1a185a64567ac405a"
+    },
+    {
+      "path": "public/game/documents/air/images/s16_0i00.webp",
+      "size": 6260,
+      "sha256": "f197bcc5b1dd664856082c2ed71f1a7ef70ee036fe9d35d82a8f0df7270f0113"
+    },
+    {
+      "path": "public/game/documents/air/images/s16_0i01-frames.webp",
+      "size": 24500,
+      "sha256": "728275b3c20fe87c20304c193aec005032c008e4be6b08f09e74215e41dbc4cd"
+    },
+    {
+      "path": "public/game/documents/air/images/s16_1d00-frames.webp",
+      "size": 12828,
+      "sha256": "40691fe63228fea49ba37decbe137273c567f9102d67e46fea89957ac7b50b31"
+    },
+    {
+      "path": "public/game/documents/air/images/s16_1d01-frames.webp",
+      "size": 9094,
+      "sha256": "04fe753e30299336628abe2524fd73ef8f3a5a014dafb9175a5df56cbd0577e9"
+    },
+    {
+      "path": "public/game/documents/air/images/s16_1d02-frames.webp",
+      "size": 18554,
+      "sha256": "38f21b8f0e1cacb42c8cdc4bff24fbba7f6856eeec1305402be327c2b60fa5b5"
+    },
+    {
+      "path": "public/game/documents/air/images/s16_1i00-frames.webp",
+      "size": 9332,
+      "sha256": "0e9d67afe27c10a7e974abf98a43d7f17fb585df8a6c1a0846a1c2ce21162dae"
+    },
+    {
+      "path": "public/game/documents/air/images/s16_1i01-frames.webp",
+      "size": 9032,
+      "sha256": "31c52b5046223bac7071ef0442e508d168d412930897a4e796a65690995ca337"
+    },
+    {
+      "path": "public/game/documents/air/images/s16_1i02-frames.webp",
+      "size": 10926,
+      "sha256": "a254b664d66309f278dc1ea3ede869c65ae3634fb078682c9a23948d9034b171"
+    },
+    {
+      "path": "public/game/documents/air/images/s16_1s00-frames.webp",
+      "size": 10682,
+      "sha256": "43c45ef8d6968c643d285e6f2bcffd8138043972188ceeed9bee7b1654b833fa"
+    },
+    {
+      "path": "public/game/documents/air/images/s16_1s01-frames.webp",
+      "size": 7986,
+      "sha256": "0e58ed8550c437f095ea9cb7da415c4116f18c9f7215185dc68c12e211f39ba6"
+    },
+    {
+      "path": "public/game/documents/air/images/s16_1s02-frames.webp",
+      "size": 10874,
+      "sha256": "447eac61994e7293696a27f9ab4d1cf12bcd8c88ceedf4f5cb00b6d4beb633e1"
+    },
+    {
+      "path": "public/game/documents/air/images/s16_1s03-frames.webp",
+      "size": 8764,
+      "sha256": "8f29a6b7b5c00cc69ffe5fa6d831ac7e784f703ff788a4260fe7248bc830528c"
+    },
+    {
+      "path": "public/game/documents/air/images/s16_2d00-frames.webp",
+      "size": 13124,
+      "sha256": "2c278f2877a72a53af84de27e567f0c2fccb7bffdd6b65271d8b8ce773c99e2b"
+    },
+    {
+      "path": "public/game/documents/air/images/s16_2d01-frames.webp",
+      "size": 10162,
+      "sha256": "b5a95998fa45a0572ba5b2d82b8ff22ed469cc2f07e6c9f6971d04657f3a362e"
+    },
+    {
+      "path": "public/game/documents/air/images/s16_2d02-frames.webp",
+      "size": 10786,
+      "sha256": "8c510d05edc05ac9c379c080a01ff6d9f351102e5882d0187ff63a5f3a41b48f"
+    },
+    {
+      "path": "public/game/documents/air/images/s16_2d03-frames.webp",
+      "size": 18618,
+      "sha256": "32958fdfaf23b199cc2e32f349905ab2665237ab4b0a86f55eb5202d9836e89a"
+    },
+    {
+      "path": "public/game/documents/air/images/s16_2i00-frames.webp",
+      "size": 13126,
+      "sha256": "cdb649b01dc63081daf839ac266487ab224b811a6ca786ff4d34e867d07033fc"
+    },
+    {
+      "path": "public/game/documents/air/images/s16_2i01-frames.webp",
+      "size": 10226,
+      "sha256": "301146af8c949437e07bbb833c4e14fed0953a4534e6f3fde1285b2d88af5766"
+    },
+    {
+      "path": "public/game/documents/air/images/s16_2i02-frames.webp",
+      "size": 10660,
+      "sha256": "ed00c8306de2bfaeb99c67eb21e3415c86aa200431dc6c5d25c88897f629376e"
+    },
+    {
+      "path": "public/game/documents/air/images/s16_2i03-frames.webp",
+      "size": 18652,
+      "sha256": "0541ee83f0309f0b05169b313461c0b96aaf9840398a7b3c4c7fe98aab85b928"
+    },
+    {
+      "path": "public/game/documents/air/images/s16_2s00-frames.webp",
+      "size": 4194,
+      "sha256": "bc19800d8d01bcfa53ce9be9dfc36243c13eb2e755a71264ca6af7b2534f6566"
+    },
+    {
+      "path": "public/game/documents/air/images/s16_2s01-frames.webp",
+      "size": 3658,
+      "sha256": "a55cdb65cd0d5d39235cf2719402b69c9840349cac3945bee8bddc69a28c8e4c"
+    },
+    {
+      "path": "public/game/documents/air/images/s16_2s02-frames.webp",
+      "size": 3474,
+      "sha256": "734ec728226a4a4a8f7b9417688ca2d38bec26a9bcafe7f44ec2c81768a275dc"
+    },
+    {
+      "path": "public/game/documents/air/images/s16_2s03-frames.webp",
+      "size": 9788,
+      "sha256": "95bcb8483057a5ec1d9fbad9e1392cf2905e20c0de092fb1e5fc2f1b4163fbe1"
+    },
+    {
+      "path": "public/game/documents/air/images/s16_3d00.webp",
+      "size": 5160,
+      "sha256": "8a93de6c9ae3c8d2601601e2ebdca9b11600a88948926e6fb5dea4b762030088"
+    },
+    {
+      "path": "public/game/documents/air/images/s16_3d01-frames.webp",
+      "size": 7890,
+      "sha256": "a5a8866c015f25fdf8e75545fa18d00ba4df60747395d301c6cb18afd8481a94"
+    },
+    {
+      "path": "public/game/documents/air/images/s16_3d02-frames.webp",
+      "size": 7788,
+      "sha256": "3678873d7a3f8724331081cb3bc8209495be93c3529fdedbd5743cf7effbff50"
+    },
+    {
+      "path": "public/game/documents/air/images/s16_3i00.webp",
+      "size": 5160,
+      "sha256": "8a93de6c9ae3c8d2601601e2ebdca9b11600a88948926e6fb5dea4b762030088"
+    },
+    {
+      "path": "public/game/documents/air/images/s16_3i01-frames.webp",
+      "size": 7838,
+      "sha256": "f8fdf7caa38e6f431ca4f59d7ea5e9718d0038266fa1a4f1885340d2319bcd7b"
+    },
+    {
+      "path": "public/game/documents/air/images/s16_3i02-frames.webp",
+      "size": 7670,
+      "sha256": "64503570a2aae037defd080b5407c5a12eb96d5c56f84af5513622b827e3fffc"
+    },
+    {
+      "path": "public/game/documents/air/images/s16_3s00-frames.webp",
+      "size": 16118,
+      "sha256": "f0a83862d2cf6eaf36b6fad613697a79d2911ae3ede9eb6dd9fb9c905a7c697d"
+    },
+    {
+      "path": "public/game/documents/air/images/s16_3s01-frames.webp",
+      "size": 23744,
+      "sha256": "cc111a247aafbdfee218c809fda71337a8d473dab239925d7a56fbc0a0e774d0"
+    },
+    {
+      "path": "public/game/documents/air/images/s16_3s02-frames.webp",
+      "size": 39368,
+      "sha256": "e906c1cb630ff30258dddc2a62d19912f6bfe3d09bd92b5a5c3f53d4c6b437ab"
+    },
+    {
+      "path": "public/game/documents/air/images/s16_4d00.webp",
+      "size": 498,
+      "sha256": "7eba91ffab2b60063aa594b995895b20094e166a725d4b26507ac8e936d9075a"
+    },
+    {
+      "path": "public/game/documents/air/images/s16_4d01-frames.webp",
+      "size": 2104,
+      "sha256": "ab7aeb7c921dbee4d522e890c7c06da9a4c65ba6c5b482505848f28bd4cf2675"
+    },
+    {
+      "path": "public/game/documents/air/images/s16_4d02-frames.webp",
+      "size": 3346,
+      "sha256": "cb82464fa59c5335d56f7552309bf1a9305eb1479d31669d615a6c32452be697"
+    },
+    {
+      "path": "public/game/documents/air/images/s16_4d03.webp",
+      "size": 1366,
+      "sha256": "102370a43b404527effdbde611ca8822d07663bec4fcaade7418ddbae9b57fb1"
+    },
+    {
+      "path": "public/game/documents/air/images/s16_4d04.webp",
+      "size": 1746,
+      "sha256": "554e21988f7fac69c99664bf81cebab4bca679d00995a68e3807a5dea1bf9421"
+    },
+    {
+      "path": "public/game/documents/air/images/s16_4d05.webp",
+      "size": 1746,
+      "sha256": "554e21988f7fac69c99664bf81cebab4bca679d00995a68e3807a5dea1bf9421"
+    },
+    {
+      "path": "public/game/documents/air/images/s16_4d06.webp",
+      "size": 2374,
+      "sha256": "b946f9bd2e081b8f79368fdbe3cef0eb715e060f46406d666aeda67d0104d3bd"
+    },
+    {
+      "path": "public/game/documents/air/images/s16_4d07.webp",
+      "size": 2780,
+      "sha256": "eed64f759fced7eb1fa2f122680d16944a09b01825e0dd3688089144242e810e"
+    },
+    {
+      "path": "public/game/documents/air/images/s16_4d08.webp",
+      "size": 2780,
+      "sha256": "09106e0f6e20279e5f8331527718b49dc34e9253cfac7045a4d6f9f191e1a2d1"
+    },
+    {
+      "path": "public/game/documents/air/images/s16_4d09-frames.webp",
+      "size": 5488,
+      "sha256": "6e7b15716ba3d0823f5d9e41cb62d2783c5ea643d018ff122d1b3eb21accd713"
+    },
+    {
+      "path": "public/game/documents/air/images/s16_4i00-frames.webp",
+      "size": 524,
+      "sha256": "8861abe0c033a3614e2ac4dc8be24e5a489e8b8ee29b488d2340fabed34ece68"
+    },
+    {
+      "path": "public/game/documents/air/images/s16_4i01-frames.webp",
+      "size": 2040,
+      "sha256": "5a2b9ab2fc3ba535d57f7fc0806cf6564bdbdb91b1db8b3ab3991a5c90063ecd"
+    },
+    {
+      "path": "public/game/documents/air/images/s16_4i02-frames.webp",
+      "size": 2060,
+      "sha256": "8dfa4b04a586d3d2dce0c12214b873fa57cdb98b3517c7840c6d8fa2394d8047"
+    },
+    {
+      "path": "public/game/documents/air/images/s16_4i03-frames.webp",
+      "size": 4060,
+      "sha256": "90da69d83433c44bc42169bb95b25fc5d5337e51c16799573a485d626d986623"
+    },
+    {
+      "path": "public/game/documents/air/images/s16_4i04-frames.webp",
+      "size": 3032,
+      "sha256": "e74cb30a962b63f27f5c04005d2e39a2da8f9cd922c4fe6fe8f89bdeb80aa03f"
+    },
+    {
+      "path": "public/game/documents/air/images/s16_4i05-frames.webp",
+      "size": 34,
+      "sha256": "5046f0b92ed05899e581e8925fa44843ae79b2182ee54e8c29caeb85de36f9f7"
+    },
+    {
+      "path": "public/game/documents/air/images/s16_4i06-frames.webp",
+      "size": 34,
+      "sha256": "5046f0b92ed05899e581e8925fa44843ae79b2182ee54e8c29caeb85de36f9f7"
+    },
+    {
+      "path": "public/game/documents/air/images/s16_4i07-frames.webp",
+      "size": 34,
+      "sha256": "5046f0b92ed05899e581e8925fa44843ae79b2182ee54e8c29caeb85de36f9f7"
+    },
+    {
+      "path": "public/game/documents/air/images/s16_4i08-frames.webp",
+      "size": 34,
+      "sha256": "5046f0b92ed05899e581e8925fa44843ae79b2182ee54e8c29caeb85de36f9f7"
+    },
+    {
+      "path": "public/game/documents/air/images/s16_4i09-frames.webp",
+      "size": 34,
+      "sha256": "5046f0b92ed05899e581e8925fa44843ae79b2182ee54e8c29caeb85de36f9f7"
+    },
+    {
+      "path": "public/game/documents/air/images/s16_4s00-frames.webp",
+      "size": 1364,
+      "sha256": "e9a5897cac4b4648a2d19f10ff4fe751b54fdd21104e289be50fca2086b88469"
+    },
+    {
+      "path": "public/game/documents/air/images/s16_4s01-frames.webp",
+      "size": 2664,
+      "sha256": "8d3b581153e5bec61b4c845e68d2dcaa757b41e4e7d1bca3bf167bd4fa10d3ea"
+    },
+    {
+      "path": "public/game/documents/air/images/s16_4s02-frames.webp",
+      "size": 3338,
+      "sha256": "fca46e57b48d4e64fad70539e763955315e937d2e5260e1b42e8a5c055762625"
+    },
+    {
+      "path": "public/game/documents/air/images/s16_4s03-frames.webp",
+      "size": 5040,
+      "sha256": "c2ade918ce469f05a0f42ada246dd930f842e860f8a675de2e81b89bedcdb64d"
+    },
+    {
+      "path": "public/game/documents/air/images/s16_4s04-frames.webp",
+      "size": 8412,
+      "sha256": "decf93a16b88cc0b03b796e0e189b91baaae8bc5943f2811763fe0f78b29debc"
+    },
+    {
+      "path": "public/game/documents/air/images/s16_4s05-frames.webp",
+      "size": 7696,
+      "sha256": "edcd56915bca224bae4481ab9e123645d389a90816e97cc50756854758f475fc"
+    },
+    {
+      "path": "public/game/documents/air/images/s16_4s06-frames.webp",
+      "size": 11784,
+      "sha256": "a4547a554b1b8fa2354e47e82c38c4a26d56428ee5e9af75c82fdc0c827a1ff8"
+    },
+    {
+      "path": "public/game/documents/air/images/s16_4s07-frames.webp",
+      "size": 22822,
+      "sha256": "1174122d6206576d9b2b633aa94ae747042c49fd972dab29a535d9b8060b96f6"
+    },
+    {
+      "path": "public/game/documents/air/images/s16_4s08-frames.webp",
+      "size": 22822,
+      "sha256": "1174122d6206576d9b2b633aa94ae747042c49fd972dab29a535d9b8060b96f6"
+    },
+    {
+      "path": "public/game/documents/air/images/s16_4s09-frames.webp",
+      "size": 28422,
+      "sha256": "d22b685a076954757333e6e998cc93910b1d476e09216089a24001019858a6f5"
+    },
+    {
+      "path": "public/game/documents/air/images/s16_5d00.webp",
+      "size": 320,
+      "sha256": "98df5e6b812a84ead53adc859b7c669f7310dc12fb8436de14af3daaab47ecf7"
+    },
+    {
+      "path": "public/game/documents/air/images/s16_5d01-frames.webp",
+      "size": 8604,
+      "sha256": "e72147bcc338c7715080b77aef115e51d52360ebc63ff32455bb70a935bff28c"
+    },
+    {
+      "path": "public/game/documents/air/images/s16_5d02-frames.webp",
+      "size": 4850,
+      "sha256": "2d521388acbbea53a506a7b7951d504ab5db038005046625387fc3834e96251c"
+    },
+    {
+      "path": "public/game/documents/air/images/s16_5d03-frames.webp",
+      "size": 13088,
+      "sha256": "e40c9634a63732b0bba222924c8d1e62b8252d6e91dcb078cf5d8c94629fba1f"
+    },
+    {
+      "path": "public/game/documents/air/images/s16_5d04-frames.webp",
+      "size": 18664,
+      "sha256": "f2675f8b8c75e5228281d9d1bc56f6628eb74dab225b3202a7f37358ae9308d7"
+    },
+    {
+      "path": "public/game/documents/air/images/s16_5i00.webp",
+      "size": 320,
+      "sha256": "98df5e6b812a84ead53adc859b7c669f7310dc12fb8436de14af3daaab47ecf7"
+    },
+    {
+      "path": "public/game/documents/air/images/s16_5i01-frames.webp",
+      "size": 8612,
+      "sha256": "a6665e0ea90668ffc6ef3bf3157318f12f64bd57e70c58c5b96f0d2eac03dfed"
+    },
+    {
+      "path": "public/game/documents/air/images/s16_5i02-frames.webp",
+      "size": 4812,
+      "sha256": "5dea480d311728c98bdfe2bcc049636df318e561308127d8bd4063e7a7f68efe"
+    },
+    {
+      "path": "public/game/documents/air/images/s16_5i03-frames.webp",
+      "size": 13052,
+      "sha256": "dbde6d2e3b8e86addc9d1a898efb1c883d57029825b3488e1d1131db71532f50"
+    },
+    {
+      "path": "public/game/documents/air/images/s16_5i04-frames.webp",
+      "size": 18656,
+      "sha256": "77f4f516901e1de407b1f9bd017255f30edf462e2a87aedfcb504bb9571daa26"
+    },
+    {
+      "path": "public/game/documents/air/images/s16_5s00.webp",
+      "size": 320,
+      "sha256": "98df5e6b812a84ead53adc859b7c669f7310dc12fb8436de14af3daaab47ecf7"
+    },
+    {
+      "path": "public/game/documents/air/images/s16_5s01-frames.webp",
+      "size": 1770,
+      "sha256": "1ace966377ca1c935be3e960a7d3562210b8a4cb39c99b88c4148d75db4218c4"
+    },
+    {
+      "path": "public/game/documents/air/images/s16_5s02-frames.webp",
+      "size": 2178,
+      "sha256": "9cc47afba3c63a30d874d4a0c869411339e3b668323b310b3b30b6d0948f1c8b"
+    },
+    {
+      "path": "public/game/documents/air/images/s16_5s03-frames.webp",
+      "size": 3096,
+      "sha256": "84063ed0c5f62e500c1d4641717906428d8b201e4c363b61c6d48073b4812d79"
+    },
+    {
+      "path": "public/game/documents/air/images/s16_5s04-frames.webp",
+      "size": 16586,
+      "sha256": "a19b03da97895f44be8fd9bdf8e0e00849b1ce59d4deccd4ed4fe40745e31659"
+    },
+    {
+      "path": "public/game/documents/air/images/s16_6d00.webp",
+      "size": 7294,
+      "sha256": "d9f50cae8178cca995ddf162239671b2b32daefd35b835a5693e8deb15949199"
+    },
+    {
+      "path": "public/game/documents/air/images/s16_6d01-frames.webp",
+      "size": 13644,
+      "sha256": "da145db32a332065707f48e5fe0103de136f35f6ce7c819f620f26d1c060cb7b"
+    },
+    {
+      "path": "public/game/documents/air/images/s16_6d02-frames.webp",
+      "size": 16938,
+      "sha256": "5c075357ed17276893d8aa51d6eaab86b51114cab0a9980d726b121e9d5bbf6b"
+    },
+    {
+      "path": "public/game/documents/air/images/s16_6d03-frames.webp",
+      "size": 7066,
+      "sha256": "00dcd9c8c734701136109d3634c6314d3547758c37526d4680d3e0c25a4307cc"
+    },
+    {
+      "path": "public/game/documents/air/images/s16_6d04-frames.webp",
+      "size": 6590,
+      "sha256": "f5484866155721f74fff18415a4d32e8329974aca2699b308822e2e24e196cc9"
+    },
+    {
+      "path": "public/game/documents/air/images/s16_6i00.webp",
+      "size": 7294,
+      "sha256": "d9f50cae8178cca995ddf162239671b2b32daefd35b835a5693e8deb15949199"
+    },
+    {
+      "path": "public/game/documents/air/images/s16_6i01-frames.webp",
+      "size": 13152,
+      "sha256": "1a171910ada2c4056eebb134f41c910da1196a455a644346c69f7be4c94a39ee"
+    },
+    {
+      "path": "public/game/documents/air/images/s16_6i02-frames.webp",
+      "size": 16846,
+      "sha256": "64a0f4787e8192a87152ec12a08b78a6e3634391ef556be001d77bc802124dd5"
+    },
+    {
+      "path": "public/game/documents/air/images/s16_6i03-frames.webp",
+      "size": 7074,
+      "sha256": "e9a3a66cd2cc6cd9a442d564c3dfc2de7d682eaac2a9f9a577065d1aa6079d52"
+    },
+    {
+      "path": "public/game/documents/air/images/s16_6i04-frames.webp",
+      "size": 6494,
+      "sha256": "4adabe41d012c8b5195067df5d7d1857fb66db252fadeedf2bf8e1c5311b4788"
+    },
+    {
+      "path": "public/game/documents/air/images/s16_6s00-frames.webp",
+      "size": 44272,
+      "sha256": "9a64c15d32c03a34dfc69d746af70bc3377f5c156141bc449d589b985f6db509"
+    },
+    {
+      "path": "public/game/documents/air/images/s16_6s01-frames.webp",
+      "size": 27864,
+      "sha256": "23ce4dd856859d5f2ced9804678ee7644afbde4b87cb79e83fb7882ad682fabc"
+    },
+    {
+      "path": "public/game/documents/air/images/s16_6s02-frames.webp",
+      "size": 24410,
+      "sha256": "c8259b4944b471fb58adc675fdd5b2808434c7171a1cac2826d0d1cd51a8d27d"
+    },
+    {
+      "path": "public/game/documents/air/images/s16_6s03-frames.webp",
+      "size": 27862,
+      "sha256": "299da982a19d2fd3a017b00ff9537d73304e06da8300decec57f5c8f6705ab6d"
+    },
+    {
+      "path": "public/game/documents/air/images/s16_6s04-frames.webp",
+      "size": 79640,
+      "sha256": "14caf85c95089fea7d8f824f3fcf38799036a8e5f558d3d7f2cc853a67c386be"
+    },
+    {
+      "path": "public/game/documents/air/images/s16_7d00.webp",
+      "size": 2402,
+      "sha256": "4c91d9fbd80d4e778d82b4d68fb78096f34d79c3bcdbd2ed6dd3174b22c7c74c"
+    },
+    {
+      "path": "public/game/documents/air/images/s16_7d01.webp",
+      "size": 2842,
+      "sha256": "02e4bc986524b3953efe0cdf1885bed89646a5615ce31ac3077bd0bf87ed6f73"
+    },
+    {
+      "path": "public/game/documents/air/images/s16_7i00.webp",
+      "size": 2402,
+      "sha256": "4c91d9fbd80d4e778d82b4d68fb78096f34d79c3bcdbd2ed6dd3174b22c7c74c"
+    },
+    {
+      "path": "public/game/documents/air/images/s16_7i01.webp",
+      "size": 2842,
+      "sha256": "02e4bc986524b3953efe0cdf1885bed89646a5615ce31ac3077bd0bf87ed6f73"
+    },
+    {
+      "path": "public/game/documents/air/images/s16_re00.webp",
+      "size": 610,
+      "sha256": "afaf75a6ca07b30d77e515b4c9aeca6a885de7002a398a88d73df99b6ac30ea5"
+    },
+    {
+      "path": "public/game/documents/air/images/s16_re01.webp",
+      "size": 1202,
+      "sha256": "c9234c685dfb7c4f00e4cbb90476ff70141df55c0512f5fc0caf486bb0e69a9f"
+    },
+    {
+      "path": "public/game/documents/air/images/s16_re02.webp",
+      "size": 776,
+      "sha256": "922bbc80e5c7e7114faa1ee0c565138a8dd961157a0a532d86a87897c90b0575"
+    },
+    {
+      "path": "public/game/documents/air/images/s16_re03.webp",
+      "size": 538,
+      "sha256": "3c7c42772e96f70dbe80d2eac46150af1146b15a3bef33dcfdff683f75540983"
+    },
+    {
+      "path": "public/game/documents/air/images/simul16-background.webp",
+      "size": 100782,
+      "sha256": "aabc2a3394a1cc3c6eba8d7e5794cd2e8f498cb2c8da2c3beb9f432d101ae545"
+    },
+    {
+      "path": "public/game/documents/air/images/simul16-ui-0-mask.png",
+      "size": 143289,
+      "sha256": "1e3c8c3a1fdd037d1a61d05cdaae246f02a496c1461071896c06cc50e08bc897"
+    },
+    {
+      "path": "public/game/documents/air/images/simul16-ui-1-mask.png",
+      "size": 3401,
+      "sha256": "2d0574946d4341bf3ef8d8aa5058107bd330941f8ea58882eee1c33a47e2ad86"
+    },
+    {
+      "path": "public/game/documents/air/images/simul16-ui-1.webp",
+      "size": 1416,
+      "sha256": "16af03d7a72d7d18e86e80c9909d9facb5ce42c5a8ece75cda78337d04be7955"
+    },
+    {
+      "path": "public/game/documents/air/images/simul16-ui-2-mask.png",
+      "size": 1975,
+      "sha256": "7fa963660c65369feccf57a1a7c4c860e25b970637db69f20a11878f2d2c026b"
+    },
+    {
+      "path": "public/game/documents/air/images/simul16-ui-2.webp",
+      "size": 906,
+      "sha256": "10246d63299ccfddfbc7cde8f1c5e648e2eff0d8eaca3deca733a161117dca3b"
+    },
+    {
+      "path": "public/game/documents/air/images/win-sim-0.webp",
+      "size": 21010,
+      "sha256": "292f84b89892c485358fca7ed7673ebf3db134b10fdef1310edae0e1797014d3"
+    },
+    {
+      "path": "public/game/documents/air/images/win-sim-1.webp",
+      "size": 4054,
+      "sha256": "9ea8a9471e3aa8e4b6273b6c818fc3d90ac0e8bf7f86e6348635d1cefa29f12a"
+    },
+    {
+      "path": "public/game/documents/air/images/win-sim-10.webp",
+      "size": 4356,
+      "sha256": "57a7a2f2ab00f690e287eaf4e4e7fc9261339cf79ced5837b6520a8f3c35cab7"
+    },
+    {
+      "path": "public/game/documents/air/images/win-sim-11.webp",
+      "size": 3818,
+      "sha256": "a1352de3cb85b351bb3e18eeb8febde5ed3a393eca5ce6a1757849e2f36c4f9b"
+    },
+    {
+      "path": "public/game/documents/air/images/win-sim-2.webp",
+      "size": 4726,
+      "sha256": "dcb1a3d805aba8c8b29285c28c37b301b3186fd0bfafe2640ece5618460ab626"
+    },
+    {
+      "path": "public/game/documents/air/images/win-sim-3.webp",
+      "size": 4124,
+      "sha256": "77bc60893055a342d7a09739081b728003cc644fee47075310b936ff4bebbc3a"
+    },
+    {
+      "path": "public/game/documents/air/images/win-sim-4.webp",
+      "size": 4380,
+      "sha256": "5a7d6696afe5ed0007057de8133255345f54828e38faec52ae4a376b722ff863"
+    },
+    {
+      "path": "public/game/documents/air/images/win-sim-5.webp",
+      "size": 4826,
+      "sha256": "0942011c96b04665255b83eb6127f77b8209f6912dac77d38d493bc19f0b740a"
+    },
+    {
+      "path": "public/game/documents/air/images/win-sim-6.webp",
+      "size": 3844,
+      "sha256": "ce4709d46ac113fe88f3a16a5ee88f91ec53206811d67b8533add4dec1f827a9"
+    },
+    {
+      "path": "public/game/documents/air/images/win-sim-7.webp",
+      "size": 4570,
+      "sha256": "f3cbc9c08653dfe4e38cb0578bcbd21ce6ebff08aad3748962308ba8420c9e05"
+    },
+    {
+      "path": "public/game/documents/air/images/win-sim-8.webp",
+      "size": 4152,
+      "sha256": "5523fc34824acfd00893ec29ba79f8849ac59f419339e4798863d310a15a02a8"
+    },
+    {
+      "path": "public/game/documents/air/images/win-sim-9.webp",
+      "size": 3746,
+      "sha256": "d53e3395d721c68de3277142a418a9719e88999a3e6b8731b81c1f82cd5c9a0e"
+    },
+    {
+      "path": "public/game/documents/air/rules.json",
+      "size": 13101,
+      "sha256": "1ba9f655f0c5fd7775f5aa6df396c4c86b2af27862e1f6cabf5968c0508045fb"
+    },
+    {
+      "path": "public/game/documents/air/simul16-palette.json",
+      "size": 3759,
+      "sha256": "0695ff488f559c6d744d87dde3aac4a09953abc5e44a216761d9180acffc3146"
+    },
+    {
       "path": "public/game/documents/animal/0-image.webp",
       "size": 291460,
       "sha256": "2cb109cd163a58a7d2640bad65f0220954f8260d48c7eb85d6bc0d8055f0d970"
@@ -31188,8 +32058,8 @@
     },
     {
       "path": "public/vendor/documents/README.md",
-      "size": 1994,
-      "sha256": "48dc3a5e72fe45d3ef7d194eb4138b9e5fc9d4856dbec50527db7ab0ac1100e7"
+      "size": 1992,
+      "sha256": "201ed5a2e586d8b938b469f3feeef297e149ad245cdf6b59550c9f65b6731d72"
     },
     {
       "path": "public/vendor/documents/rebuild.sh",
