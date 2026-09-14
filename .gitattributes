@@ -1,0 +1,2 @@
+# Preserve the original CD marker bytes on every platform.
+web/public/game/documents/native/*.CD1 binary

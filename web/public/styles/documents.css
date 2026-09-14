@@ -225,3 +225,15 @@
   gap: 0.5rem;
   padding: 1rem 0;
 }
+
+.native-document {
+  container-type: inline-size;
+}
+.native-document-frame {
+  display: block;
+  width: 100%;
+  max-width: 960px;
+  height: calc(min(100cqw, 960px) * 0.75 + 112px);
+  border: 0;
+  background: #101819;
+}

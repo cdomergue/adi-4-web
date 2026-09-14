@@ -1,0 +1,41 @@
+{
+  "edition": "ADI 4.21 Collège — Environnement, CD 1",
+  "language": "fr",
+  "files": [
+    {
+      "name": "INTRO.STK",
+      "size": 5950490,
+      "sha256": "dbfc3f755b906e2600ccff279aa298fbab13eca4024b41e9b8a834702a0210e3"
+    },
+    {
+      "name": "AE63F421.CD1",
+      "size": 3,
+      "sha256": "8e4621379786ef42a4fec155cd525c291dd7db3c1fde3478522f4f61c03fd1bd"
+    },
+    {
+      "name": "CURSOR32.DLL",
+      "size": 44576,
+      "sha256": "4ad8aad0c3229dddb9b05f1ab73ecc2eab756a6f84278a1cc29b5feb0e326e90"
+    },
+    {
+      "name": "ATLAS.STK",
+      "size": 44920980,
+      "sha256": "67fdb6b1ab65beccdcbbb5fe583eaf0a773a1d30242a9874831be883ba974e86"
+    },
+    {
+      "name": "ATLAS.ITK",
+      "size": 15469994,
+      "sha256": "605bf35ab6fc0b8b4d83afb5913fd42694eeb9df874953307081eb5a99c667be"
+    },
+    {
+      "name": "SIMULC.STK",
+      "size": 2278066,
+      "sha256": "84d2a2487f2c19208fe1d7078cdfb7e9035e59425b1a2f63d0902af5ee3f4a13"
+    },
+    {
+      "name": "SIMULC.ITK",
+      "size": 41940442,
+      "sha256": "49ff8cc0a61d4e9068218e5780cea1b6650f42ac5c070a194ca87cc5123f2a3f"
+    }
+  ]
+}

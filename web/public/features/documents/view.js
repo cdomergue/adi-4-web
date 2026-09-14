@@ -1,3 +1,5 @@
+import { nativeDocuments } from './native-config.js';
+import { renderNativeDocument } from './native-view.js';
 import { scenePoint, maskColor, menuOffset, spacePoint } from './engine.js';
 
 const base = '/game/documents/';
@@ -37,6 +39,7 @@ function catalog() {
 }
 
 export async function renderDocuments(main, topicId = '') {
+  if (Object.hasOwn(nativeDocuments, topicId)) return renderNativeDocument(main, topicId);
   document.title = 'Les documents · ADI 4';
   main.innerHTML =
     '<section class="original-scene documents"><div class="scene-heading"><h1>Les documents</h1><a class="button secondary" href="#room">← La chambre</a></div><p role="status">Ouverture…</p></section>';

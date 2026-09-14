@@ -2548,8 +2548,8 @@
     },
     {
       "path": "public/game/documents/catalog.json",
-      "size": 1052,
-      "sha256": "818a370dfa4905b0c2c0af24d8254ecf64b6bcb5614bcb9ab6138669f4465b20"
+      "size": 1124,
+      "sha256": "ea1f9f073dfd99311058c3d5ae2af2e129007af5e0cc6e5d7e5178e61c11c688"
     },
     {
       "path": "public/game/documents/cycle/0-image.webp",
@@ -4195,6 +4195,46 @@
       "path": "public/game/documents/menu/3.webp",
       "size": 518,
       "sha256": "e590215a90973f87919717aca3f2bf47dc2714d4e28a78e93e9145ae7ee26a05"
+    },
+    {
+      "path": "public/game/documents/native/AE63F421.CD1",
+      "size": 3,
+      "sha256": "8e4621379786ef42a4fec155cd525c291dd7db3c1fde3478522f4f61c03fd1bd"
+    },
+    {
+      "path": "public/game/documents/native/ATLAS.ITK",
+      "size": 15469994,
+      "sha256": "605bf35ab6fc0b8b4d83afb5913fd42694eeb9df874953307081eb5a99c667be"
+    },
+    {
+      "path": "public/game/documents/native/ATLAS.STK",
+      "size": 44920980,
+      "sha256": "67fdb6b1ab65beccdcbbb5fe583eaf0a773a1d30242a9874831be883ba974e86"
+    },
+    {
+      "path": "public/game/documents/native/CURSOR32.DLL",
+      "size": 44576,
+      "sha256": "4ad8aad0c3229dddb9b05f1ab73ecc2eab756a6f84278a1cc29b5feb0e326e90"
+    },
+    {
+      "path": "public/game/documents/native/INTRO.STK",
+      "size": 5950490,
+      "sha256": "dbfc3f755b906e2600ccff279aa298fbab13eca4024b41e9b8a834702a0210e3"
+    },
+    {
+      "path": "public/game/documents/native/SIMULC.ITK",
+      "size": 41940442,
+      "sha256": "49ff8cc0a61d4e9068218e5780cea1b6650f42ac5c070a194ca87cc5123f2a3f"
+    },
+    {
+      "path": "public/game/documents/native/SIMULC.STK",
+      "size": 2278066,
+      "sha256": "84d2a2487f2c19208fe1d7078cdfb7e9035e59425b1a2f63d0902af5ee3f4a13"
+    },
+    {
+      "path": "public/game/documents/native/manifest.json",
+      "size": 1123,
+      "sha256": "c86f34051fc9b72a1fc68532452d72a2b420ecf014858c0a665b1fa95dc08885"
     },
     {
       "path": "public/game/documents/planete/0-image.webp",
@@ -29425,6 +29465,76 @@
       "path": "public/game/wgob3/manifest.json",
       "size": 1459,
       "sha256": "38d44af7d990b380480705a19d000fe8100acc499377d0c5466f8a56fee66535"
+    },
+    {
+      "path": "public/vendor/documents/README.md",
+      "size": 2008,
+      "sha256": "af7a4927ae44d928ae3b15c24340c043ab71e856f576bc99e62e93bcf93d60c6"
+    },
+    {
+      "path": "public/vendor/documents/rebuild.sh",
+      "size": 928,
+      "sha256": "f30bc549d63a86a97498631fb8f5872c3214462f9337853abb080218ba693033"
+    },
+    {
+      "path": "public/vendor/documents/scummvm.js",
+      "size": 205641,
+      "sha256": "f6c9e55609017693cd398302067260bebd33c56049c791431cc22a3aec65f7f0"
+    },
+    {
+      "path": "public/vendor/documents/scummvm.wasm",
+      "size": 7779663,
+      "sha256": "79273372e25a8554b24062bbb3a11cd0aec3b25c3571e6a44fa6269ddbdbb0b7"
+    },
+    {
+      "path": "public/vendor/documents/source/engines/gob/dataio.cpp",
+      "size": 11159,
+      "sha256": "d3887b8c550d19043877d868c351054f999ff42e6167da9cd6858a9ec71050a6"
+    },
+    {
+      "path": "public/vendor/documents/source/engines/gob/gob.cpp",
+      "size": 21439,
+      "sha256": "314e9abcbe31a5cd81f52d4ec0dd59a839eb25602ad68191d37405ba11e28b2e"
+    },
+    {
+      "path": "public/vendor/documents/source/engines/gob/init_v7.cpp",
+      "size": 2758,
+      "sha256": "8258b5daf685ddaceebb666b7a2605679c50640ebd931a18c66fcc62247922f0"
+    },
+    {
+      "path": "public/vendor/documents/source/engines/gob/inter.h",
+      "size": 22468,
+      "sha256": "d3abd31c20c477235c09b3ebef4b0376de6d3b20f3bbd503d7d2646fbfe5b50b"
+    },
+    {
+      "path": "public/vendor/documents/source/engines/gob/inter_v1.cpp",
+      "size": 82918,
+      "sha256": "934a957a27767d289391b0d11a8dd963ed773a62bce8a68d1f9282a551a553e2"
+    },
+    {
+      "path": "public/vendor/documents/source/engines/gob/inter_v7.cpp",
+      "size": 45683,
+      "sha256": "ac9853c50cf88639e710cad095f71fef2ad5a293770e727c3f167d704ebd438c"
+    },
+    {
+      "path": "public/vendor/documents/source/engines/gob/metaengine.cpp",
+      "size": 3837,
+      "sha256": "c9393b6372293954d4716a00af9130dc7328c3ef3a29e6fb25c6aee380787d19"
+    },
+    {
+      "path": "public/vendor/documents/source/engines/gob/resources.cpp",
+      "size": 17877,
+      "sha256": "2f1f3d38177041806a42a9199a7f1a6028901009ef454f8f0902f5ebb2960f0d"
+    },
+    {
+      "path": "public/vendor/documents/source/engines/gob/scenery.cpp",
+      "size": 36730,
+      "sha256": "839eb1579709b5d018f11eae7e9881dd96dd9583d9a1741e0dcbdbf3f029e115"
+    },
+    {
+      "path": "public/vendor/documents/source/engines/gob/video_v6.cpp",
+      "size": 6586,
+      "sha256": "d9cef5aabca34a477d9b285ed29665f1669f72a4d2153ef070ebd9d6bb911d8a"
     },
     {
       "path": "public/vendor/wgob3/COPYING",

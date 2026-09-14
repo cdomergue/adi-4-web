@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Les documents</title>
+    <link rel="stylesheet" href="/documents/player.css" />
+  </head>
+  <body>
+    <div id="stage">
+      <canvas
+        id="canvas"
+        width="640"
+        height="480"
+        tabindex="0"
+        aria-label="Document interactif"
+      ></canvas>
+      <div id="loading">
+        <p id="status" role="status">Chargement du document…</p>
+        <progress id="progress" max="1" value="0"></progress
+        ><button id="start" disabled>Ouvrir</button>
+      </div>
+    </div>
+    <nav aria-label="Commandes du document">
+      <button id="toolbar" disabled>Afficher les boutons</button
+      ><label><input id="sound" type="checkbox" checked /> Son</label
+      ><button id="escape" disabled>Échap</button><button id="fullscreen">Plein écran</button
+      ><button id="restart" disabled>Recommencer</button>
+    </nav>
+    <p id="feedback" role="status"></p>
+    <details id="diagnostics" hidden>
+      <summary>Diagnostic</summary>
+      <pre id="log"></pre>
+    </details>
+    <script src="/documents/player.js"></script>
+  </body>
+</html>

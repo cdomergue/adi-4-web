@@ -78,7 +78,20 @@ animations WebP, voix FLAC et films MP4 avec leur piste audio.
 Chaque vue arrête ses médias, annule ses temporisations et retire ses calques à
 `sceneleave`. Les films se ferment à leur fin, avec Échap ou avec leur bouton de
 fermeture. Les commandes au clavier complètent les clics précis dans le décor.
-L’Atlas et les six simulations d’environnement restent des entrées indisponibles.
+[native-view.js](public/features/documents/native-view.js) ouvre l’Atlas et les
+six simulations d’environnement dans un lecteur isolé. Le
+[lecteur](public/documents/player.js) vérifie les empreintes des archives,
+charge uniquement celles du document choisi, puis démarre le moteur Gob.
+[native-config.js](public/features/documents/native-config.js) associe chaque
+route à son script d’entrée et à son archive. Les règles et zones interactives
+sont exécutées depuis les archives originales, sans duplication en JavaScript.
+
+Le [moteur dédié](public/vendor/documents/README.md) comprend les binaires,
+les adaptations de source et le script de compilation. Il traite les images
+RGB555, les objets animés VMD et le canal d’ambiance. Le lecteur fournit le son,
+Échap, le plein écran et l’accès à la barre originale. Retirer son iframe à
+`sceneleave` arrête l’interpréteur et ses sons. Les fichiers de session restent
+en mémoire ; ils ne sont pas persistés entre deux consultations.
 
 ## Station Sciences
 

@@ -1,0 +1,114 @@
+:root {
+  color-scheme: dark;
+  font-family: system-ui, sans-serif;
+  background: #101819;
+  color: #e9efe9;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+#stage {
+  position: relative;
+  width: min(100%, 960px);
+  margin: auto;
+  aspect-ratio: 4/3;
+  background: #000;
+}
+#canvas {
+  width: 100%;
+  height: 100%;
+  display: block;
+  image-rendering: pixelated;
+  border: 0;
+  padding: 0;
+  touch-action: none;
+  /* SDL hides the system cursor even when a script supplies no visible sprite. */
+  cursor: default !important;
+}
+#canvas:focus-visible {
+  outline: 2px solid #e8c477;
+  outline-offset: -2px;
+}
+#loading {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  flex-direction: column;
+  padding: 24px;
+  background: #101819;
+  text-align: center;
+}
+#loading[hidden],
+[hidden] {
+  display: none;
+}
+progress {
+  width: min(320px, 80%);
+  accent-color: #e8c477;
+}
+button {
+  font: inherit;
+  font-size: 13px;
+  color: inherit;
+  background: #263c3b;
+  border: 1px solid #53645b;
+  border-radius: 7px;
+  padding: 9px 12px;
+  cursor: pointer;
+}
+button:disabled {
+  opacity: 0.45;
+  cursor: wait;
+}
+button:hover:enabled {
+  background: #36514b;
+}
+button:focus-visible {
+  outline: 2px solid #e8c477;
+}
+#start {
+  background: #e8c477;
+  color: #172321;
+  min-width: 130px;
+  font-size: 17px;
+}
+nav {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+#feedback {
+  font-size: 12px;
+  margin: 0;
+  padding: 0 12px 10px;
+  text-align: center;
+}
+#diagnostics {
+  font-size: 12px;
+  margin: 10px;
+}
+#log {
+  white-space: pre-wrap;
+  max-height: 150px;
+  overflow: auto;
+}
+#stage:fullscreen {
+  width: 100vw;
+  height: 100vh;
+}
+#stage:fullscreen canvas {
+  width: min(100vw, 133.333vh);
+  height: min(100vh, 75vw);
+  margin: auto;
+  position: absolute;
+  inset: 0;
+}

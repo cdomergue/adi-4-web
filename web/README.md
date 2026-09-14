@@ -22,8 +22,8 @@ PORT=4174 npm run dev
 ```
 
 Les commandes disponibles sont définies dans [package.json](package.json).
-Les ressources livrées se trouvent dans [public/game](public/game/), le moteur
-ScummVM compilé et ses licences dans [public/vendor/wgob3](public/vendor/wgob3/).
+Les ressources livrées se trouvent dans [public/game](public/game/), les moteurs
+ScummVM compilés et leurs licences dans [public/vendor](public/vendor/).
 Aucun installateur du jeu, Wine, Python ou outil de compilation supplémentaire
 n’est nécessaire pour lancer les jeux inclus.
 
@@ -35,6 +35,8 @@ n’est nécessaire pour lancer les jeux inclus.
 | `#room` | Chambre, objets interactifs, déplacements, animations et répliques d’Adi |
 | `#documents` | Menu original des dossiers multimédias |
 | `#document/animal`, `cycle`, `astro`, `planete`, `espace` | Animaux, cycle de l’eau, ciel étoilé, planètes et conquête spatiale |
+| `#document/atlas` | Globe, cartes, calques et documents géographiques |
+| `#document/s16`, `s17`, `s12`, `s14`, `s07`, `s08` | Six simulations d’environnement et leurs cas d’étude |
 | `#radio` | 17 musiques, 10 ambiances et silence |
 | `#games` | Caisse, filtre disponibles/à venir et défilement à la molette |
 | `#science` | Bibliothèque de cours, niveaux, recherche et dictionnaire |
@@ -77,7 +79,7 @@ présenté dans [le README du serveur](../serveur/README.md).
 ## Les documents
 
 Le menu bleu de la chambre présente les douze entrées originales, avec sept
-lignes visibles et un défilement à la molette. Cinq dossiers sont consultables :
+lignes visibles et un défilement à la molette. Les cinq dossiers multimédias regroupent :
 24 animaux et leurs films, les six sujets du cycle de l’eau, les cartes du ciel
 selon les quatre saisons et les vues Nord/Sud, les 60 rubriques des planètes,
 et les neuf dates de la conquête spatiale.
@@ -89,8 +91,18 @@ La barre du bas apparaît au survol ; son point d’interrogation active ou dés
 l’aide. Une liste de sujets permet aussi l’accès au clavier. Les médias et
 métadonnées sont inclus dans [public/game/documents](public/game/documents/).
 
-L’Atlas et les six simulations d’environnement de ce menu restent indisponibles.
-Ces simulations sont distinctes des 14 expériences de la station Sciences.
+L’Atlas propose son globe, ses cartes et ses médias. Pour zoomer, sélectionner
+la loupe puis cliquer sur le globe ou la carte. Les six simulations portent sur
+la pollution de l’air et de l’eau, l’entreprise, la désertification, l’équilibre
+de la nature et le développement d’un pays. Les paramètres se règlent directement
+dans les décors, avec les modes et les cas du jeu original. Ces simulations sont
+distinctes des 14 expériences de la station Sciences.
+
+Ces sept documents exécutent les scripts du CD avec un
+[moteur Gob dédié](public/vendor/documents/README.md). Le bouton « Ouvrir »
+autorise la lecture sonore ; « Son » est coché par défaut. Les commandes du
+lecteur donnent accès à la barre du bas, à Échap et au plein écran. Les sessions
+ne sont pas sauvegardées entre deux consultations.
 Les petits mouvements d’ambiance des décors et certaines transitions ne sont
 pas tous reproduits.
 

@@ -22,7 +22,7 @@
   {
     "id": "atlas",
     "title": "L’Atlas",
-    "route": null
+    "route": "document/atlas"
   },
   {
     "id": "espace",
@@ -32,31 +32,31 @@
   {
     "id": "s16",
     "title": "La pollution de l’air",
-    "route": null
+    "route": "document/s16"
   },
   {
     "id": "s17",
     "title": "La pollution de l’eau",
-    "route": null
+    "route": "document/s17"
   },
   {
     "id": "s12",
     "title": "L’entreprise",
-    "route": null
+    "route": "document/s12"
   },
   {
     "id": "s14",
     "title": "La désertification",
-    "route": null
+    "route": "document/s14"
   },
   {
     "id": "s07",
     "title": "L’équilibre de la nature",
-    "route": null
+    "route": "document/s07"
   },
   {
     "id": "s08",
     "title": "Le développement d’un pays",
-    "route": null
+    "route": "document/s08"
   }
 ]

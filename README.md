@@ -27,8 +27,9 @@ ont leurs ressources dans Git : Sokoban, les trois Goblins, Mr. Matt I et II,
 et les quatre épisodes de Bad Toys 3D. Les parties sont conservées dans le
 navigateur, selon les possibilités de chaque jeu.
 
-Les cinq dossiers multimédias de la chambre sont consultables, avec les films,
-voix et zones cliquables du jeu original.
+Les douze documents de la chambre sont consultables : cinq dossiers multimédias,
+l’Atlas et six simulations d’environnement, avec les médias et les interactions
+du jeu original.
 
 Le code et les ressources des cours, de l’encyclopédie et des 14 simulations
 Sciences sont également inclus. Un clone contient les médias nécessaires au
