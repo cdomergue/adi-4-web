@@ -38,7 +38,6 @@ export async function renderRoom(main, info) {
   </div><p id="room-hint" role="status">Descends la souris tout en bas de la chambre pour faire apparaître les huit boutons.</p>
   <div class="room-controls"><button class="button secondary" id="room-back" hidden>Revenir dans la chambre</button><button class="button secondary" id="room-detail" hidden>Voir de près</button><button class="button secondary" id="room-stop" hidden>Arrêter l’animation</button><label><input type="checkbox" id="room-outline"> Repérer les objets</label></div>
   <audio id="room-audio" preload="none"></audio>
-  <nav class="scene-links"><a class="button secondary" href="#scene/station">Les matières →</a><a class="button secondary" href="#games">Les jeux →</a></nav>
   <p class="development-note">Décor, gros plans et animations d’origine. Les réactions et déplacements suivent les scénarios extraits du jeu.</p></section>`;
   const root = main.firstElementChild,
     frame = root.querySelector('.room-frame'),

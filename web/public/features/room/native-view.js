@@ -17,6 +17,7 @@ export function startNativeRoom({ frame, actorImage, canPlay, hint, catalog, tex
     frame.append(audio); channels[type] = audio;
   }
   let engine, stopped = false, suspended = false, failed = false, generation = 0, lastTick = 0;
+  let soundEnabled = true;
   let raf, pose = 3, sceneImage, poseLoading = 0;
   let frozenAt = null, pausedMilliseconds = 0;
   const startAt = performance.now(), epoch = Date.now() / 1000 - new Date().getTimezoneOffset() * 60;
@@ -30,21 +31,38 @@ export function startNativeRoom({ frame, actorImage, canPlay, hint, catalog, tex
     canvas.setAttribute('aria-hidden', 'true');
     frame.append(canvas); canvases[name] = canvas; contexts[name] = canvas.getContext('2d');
   }
-  const enableSound = document.createElement('button');
-  enableSound.className = 'button secondary room-enable-sound';
-  enableSound.textContent = 'Activer les voix d’Adi'; enableSound.hidden = true;
-  frame.after(enableSound);
+  const soundToggle = document.createElement('button');
+  soundToggle.className = 'button secondary room-enable-sound';
+  soundToggle.type = 'button';
+  soundToggle.setAttribute('aria-pressed', 'true');
+  soundToggle.textContent = 'Désactiver le son';
+  frame.after(soundToggle);
+  const updateSoundToggle = () => {
+    soundToggle.textContent = soundEnabled ? 'Désactiver le son' : 'Activer le son';
+    soundToggle.setAttribute('aria-pressed', String(soundEnabled));
+    for (const audio of Object.values(channels)) audio.muted = !soundEnabled;
+  };
+  const disableSound = () => {
+    soundEnabled = false;
+    updateSoundToggle();
+  };
+  const playTrackAudio = (track) => {
+    if (soundEnabled) track.audio?.play().catch(disableSound);
+  };
   const unlockChannels = () => {
     for (const [type, audio] of Object.entries(channels)) if (!audio.getAttribute('src')) {
       audio.src = 'data:audio/wav;base64,UklGRtwBAABXQVZFZm10IBAAAAABAAEAIlYAAESsAAACABAAZGF0YbgBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==';
       audio.play().then(() => { if (!tracks.get(type)?.audio) audio.pause(); }).catch(() => {});
     }
   };
-  enableSound.onclick = () => {
+  soundToggle.onclick = () => {
+    soundEnabled = !soundEnabled;
+    updateSoundToggle();
+    if (!soundEnabled) return;
     unlockChannels();
     for (const track of tracks.values()) if (track.audio && track.audio.paused) {
       track.audio.currentTime = Math.min(track.audio.duration || 0, Math.max(0, (performance.now() - track.start) / 1000));
-      track.audio.play().then(() => { enableSound.hidden = true; }).catch(() => {});
+      playTrackAudio(track);
     }
   };
   function image(file) {
@@ -135,6 +153,7 @@ export function startNativeRoom({ frame, actorImage, canPlay, hint, catalog, tex
     if (clip.audio && !event.muted) {
       const audio = channels[event.type];
       audio.src = BASE + clip.audio;
+      audio.muted = !soundEnabled;
       track.audio = audio; audio.preload = 'auto';
       // Decode/load before starting the frame clock so the face and voice share
       // the same start, including first use on a slow connection.
@@ -222,7 +241,7 @@ export function startNativeRoom({ frame, actorImage, canPlay, hint, catalog, tex
         if (track.audio && !track.audioStarted) {
           track.audioStarted = true;
           track.audio.loop = track.repeats === Infinity;
-          track.audio.play().catch(() => { enableSound.hidden = false; });
+          playTrackAudio(track);
         }
         const { clip } = track, step = track.step || 1;
         const passDuration = Math.max(clip.frames / clip.fps / step * 1000, track.muted ? 0 : clip.audioDuration);
@@ -230,7 +249,7 @@ export function startNativeRoom({ frame, actorImage, canPlay, hint, catalog, tex
         if (elapsed >= passDuration * repeats) { finishTrack(type); continue; }
         const pass = Math.floor(elapsed / passDuration);
         if (pass && track.pass !== pass && track.audio && repeats !== Infinity) {
-          track.audio.currentTime = 0; track.audio.play().catch(() => {});
+          track.audio.currentTime = 0; playTrackAudio(track);
         }
         track.pass = pass;
         const index = Math.min(clip.frames - 1, Math.floor((elapsed % passDuration) * clip.fps / 1000) * step);
@@ -255,7 +274,7 @@ export function startNativeRoom({ frame, actorImage, canPlay, hint, catalog, tex
       const delta = performance.now() - frozenAt; pausedMilliseconds += delta; frozenAt = null;
       for (const track of tracks.values()) {
         track.start += delta;
-        if (track.audioStarted) track.audio?.play().catch(() => { enableSound.hidden = false; });
+        if (track.audioStarted) playTrackAudio(track);
       }
     }
   }
@@ -277,7 +296,7 @@ export function startNativeRoom({ frame, actorImage, canPlay, hint, catalog, tex
       document.removeEventListener('visibilitychange', visibilityChanged);
       for (const canvas of Object.values(canvases)) canvas.remove();
       for (const audio of Object.values(channels)) { audio.pause(); audio.remove(); }
-      enableSound.remove(); images.clear();
+      soundToggle.remove(); images.clear();
     },
   };
 }
