@@ -1,0 +1,786 @@
+{
+  "source": "ADI 4.21, SIMUL08.TOT, MAJSIMU.TOT et S08.DTA",
+  "inputCount": 6,
+  "labels": [
+    "Climat",
+    "Niveau de développement du secteur agricole",
+    "Stabilité politique",
+    "Cours des marchés agricoles mondiaux",
+    "Investissements en éducation et santé",
+    "Investissements dans l'industrie et les services",
+    "Budget de l'Etat",
+    "Fécondité",
+    "Investissements étrangers"
+  ],
+  "options": [
+    [
+      "Forte sécheresse",
+      "Très sec",
+      "Un peu sec",
+      "Favorable",
+      "Très favorable"
+    ],
+    [
+      "Agriculture pauvre",
+      "Agriculture vivrière",
+      "Agriculture moderne",
+      "Agriculture d'exportation",
+      "Agriculture industrielle"
+    ],
+    [
+      "Guerre régionale",
+      "Conflits frontaliers",
+      "Conflits ethniques",
+      "Régime stable"
+    ],
+    [
+      "Cours bas",
+      "Cours moyens",
+      "Cours élevés"
+    ],
+    [
+      "Nuls",
+      "Faibles",
+      "Importants",
+      "Maximums"
+    ],
+    [
+      "Nuls",
+      "Faibles",
+      "Importants",
+      "Maximums"
+    ],
+    [
+      "Nul",
+      "Très Faible",
+      "Faible",
+      "Très moyen",
+      "Moyen",
+      "Correct",
+      "Important",
+      "Elevé",
+      "Très élevé"
+    ],
+    [
+      "Faible",
+      "Moyenne",
+      "Importante",
+      "Très importante"
+    ],
+    [
+      "Pas d'investissements",
+      "Investissements faibles",
+      "Investissements importants",
+      "Investissements maximums"
+    ]
+  ],
+  "explanations": [
+    "Les ressources de certains pays en voie de développement sont anéanties par des accidents climatiques. Les pays du sud du Sahel, par exemple, subissent la désertification : le manque d'eau a des conséquences sur les possibilités de développement.",
+    "Les exportations des pays d'Afrique sont composées surtout de produits agricoles. Les Etats ne doivent donc pas abandonner ce secteur de l'économie et s'occuper seulement du secteur industriel.",
+    "La stabilité politique est un facteur essentiel pour sortir du sous-développement. Qui irait investir dans un pays en guerre ? Il existe un engrenage : la pauvreté donne naissance aux désordres, les désordres à la guerre, et la guerre à l'appauvrissement de la population.",
+    "Les exportations des pays en voie de développement sont composées surtout de produits agricoles (café , coton...). Si ces produits sont vendus à bas prix sur le marché mondial, les Etats et les cultivateurs font peu de bénéfices.",
+    "Le développement d'un pays passe par l'éducation des enfants, et par l'amélioration des conditions d'hygiène, c'est-à-dire de santé. Mais ces deux secteurs coûtent chers à des Etats qui n'ont pas toujours les moyens financiers de les développer.",
+    "Dans les pays en voie de développement, une grande partie de la population travaille dans le secteur agricole. Dans les pays développés, ce secteur est très minoritaire car les gens travaillent surtout dans les services (secteur tertiaire). Il est nécessaire aux pays du Tiers-Monde de développer industries et les services pour sortir du sous-développement.",
+    "Le budget des Etats pauvres est déséquilibré : en général, ils dépensent plus qu'ils ne gagnent. Pour échapper au sous-développement, il faut qu'ils réussissent à équilibrer leur budget, soit en vendant plus de produits, soit en en achetant moins. De plus, le remboursement des prêts pèse lourd sur leur budget.",
+    "Les pays en voie de développement sont ceux où la croissance démographique est la plus forte. La population augmente rapidement mais les ressources du pays, elles, n'augmentent pas au même rythme.",
+    "Les investisseurs étrangers apportent des capitaux, dans les pays sous-développés. Ils permettent de développer ou d'améliorer certaines branches économiques. Mais pour que ces investisseurs étrangers viennent s'installer, il faut qu'ils fassent confiance au gouvernement, donc que les conditions politiques soient stables."
+  ],
+  "introduction": "De nombreux pays sont dits ''en voie de développement''. Mais les niveaux de développement sont très différents, entre les continents, et entre les différents pays d'un même continent. Le développement d'un pays pauvre nécessite plusieurs conditions. La plus importante est la stabilité politique : la guerre civile ou les conflits régionaux empêchent tout développement. Ensuite, le budget de l'Etat doit être suffisamment équilibré pour permettre des investissements dans différents domaines et particulièrement dans ceux de l'agriculture, l'éducation des enfants et la santé. Si la situation économique et politique s'améliore, des investisseurs étrangers viennent s'installer et dynamisent l'économie.",
+  "cases": [
+    {
+      "title": "TROUBLES POLITIQUES AU TCHAD",
+      "inputs": [
+        2,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "text": "La guerre civile qui règne depuis plusieurs années au Tchad, un pays d'Afrique situé au Sud de la Libye, a réduit à néant toutes les tentatives de développement. Le pays est complètement ruiné et ravagé par les combats. Les routes sont devenues impraticables faute d'être entretenues, les champs sont à l'abandon puisque les paysans fuient les lieux de combat... Dans ce cas extrême, il est impossible à un gouvernement de se mettre en place et les investissements sont irréalisables.",
+      "hints": [
+        "Si la guerre règne dans un pays, l'agriculture est la plupart du temps détruite et le climat ne joue plus qu'un rôle secondaire ; au Tchad, il est généralement sec.",
+        "Au Tchad, la guerre réduit l'agriculture à sa plus faible expression. Il ne subsiste guère que des cultures vivrières.",
+        "Au Tchad, la guerre fait des ravages sur l'économie du pays : les récoltes sont souvent perdues, les voies de communication détruites et les investisseurs étrangers fuient le pays.",
+        "Le Tchad, en guerre, ne produit plus, il n'est donc plus exportateur sur le marché mondial des céréales. Néanmoins, les prix des produits vendus par les pays africains ont tendance à être faibles en raison de la concurrence.",
+        "Au Tchad, la guerre empêche tous investissements dans les domaines de la santé et de l'éducation.",
+        "En temps de guerre, il n'y a plus d'investissements dans l'industrie et les services."
+      ]
+    },
+    {
+      "title": "LA SECHERESSE AU SAHEL",
+      "inputs": [
+        0,
+        1,
+        3,
+        1,
+        1,
+        1
+      ],
+      "text": "Le Burkina Faso est un petit pays situé au coeur de l'Afrique de l'Ouest. La partie Nord du pays appartient au domaine sahélien et subit de fréquentes sécheresses qui peuvent conduire à la destruction complète des récoltes. L'agriculture est encore traditionnelle, les cultures d'exportation concernent seulement le coton dont le prix sur le marché mondial est bas. Le régime politique est stable depuis 1987 et s'est transformé en démocratie, mais cela ne suffit pas à attirer les investisseurs étrangers. Les investissements de l'état dans l'agriculture sont importants, par contre, peu de chose sont faites en ce qui concerne l'éducation et la santé : seulement 30 enfants sur 100 vont à l'école !",
+      "hints": [
+        "Le Burkina Faso est un pays d'Afrique de l'Ouest, dont le nord appartient au Sahel. Le climat y est donc chaud et les pluies sont rares : les sécheresses y sont fortes et fréquentes.",
+        "Le Burkina a investi dans le secteur agricole et surtout dans le coton. Mais sa production est peu importante et l'agriculture reste encore largement vivrière.",
+        "Le régime politique est stable : le Burkina est dirigé depuis 1987 par le même président de la République, et le gouvernement s'oriente de plus en plus vers la démocratie.",
+        "Le Burkina est producteur de coton. Les prix du coton sur le marché mondial varient très rapidement. On peut les considérer comme moyens pour la période 1995-1996.",
+        "Le Burkina a bien du mal à investir dans les domaines de l'éducation et de la santé : seulement 30 enfants sur 100 vont à l'école et les gens ont bien du mal à payer les médicaments dont ils ont besoin.",
+        "Le Burkina est l'un des états les plus pauvres. Il a donc peu les moyens financiers d'investir dans le secteur industriel."
+      ]
+    },
+    {
+      "title": "LE BRESIL SORTANT DU SOUS-DEVELOPPEMENT",
+      "inputs": [
+        3,
+        4,
+        3,
+        1,
+        2,
+        2
+      ],
+      "text": "Les pays que l'on dit \"en voie de développement\" ne sont pas tous au même stade. Le Brésil, comme d'autres pays d'Amérique Latine, semble bien sorti du sous-développement. Le régime politique est stable, la pression démographique est limitée et l'état investit dans tous les domaines : santé, éducation, industrie, service, transport ou agriculture. Bien entendu, cela ne signifie pas que tout est idéal au Brésil ! Le pays est immense et toutes les régions ne sont pas aussi développées économiquement. De plus, il reste encore beaucoup de problèmes de pauvreté et la violence règne dans certains quartiers des grandes villes.",
+      "hints": [
+        "Le Brésil est un état très vaste, où le climat varie d'un lieu à l'autre. Néammoins, c'est un pays qui ne souffre pas de sécheresse, on peut considérer son climat comme favorable aux cultures.",
+        "L'état brésilien investit beaucoup dans l'agriculture, notamment en Amazonie. L'agriculture du Brésil est une agriculture de type industriel, qui fonctionne comme celle des pays développés.",
+        "Le gouvernement du Brésil est démocratique et stable.",
+        "Le Brésil exporte des produits qui sont aujourd'hui concurrencés sur le marché mondial. Le cours de ces produits est donc moyen.",
+        "L'éducation et la santé sont des secteurs dans lesquels le gouvernement brésilien investit beaucoup.",
+        "Le Brésil a réussi son décollage économique en investissant beaucoup dans le secteur industriel, surtout dans les industries minières, les Bâtiments et Travaux Publics."
+      ]
+    },
+    {
+      "title": "LES NOUVEAUX PAYS INDUSTRIELS",
+      "inputs": [
+        3,
+        4,
+        3,
+        2,
+        3,
+        3
+      ],
+      "text": "Certains pays ont réalisé d'énormes progrès. Ils sont passés en un temps record du sous-développement à une forte croissance économique. Les \"Nouveaux Pays Industriels\" ainsi que d'autres petits pays d'Asie sont très performants dans de nombreux domaines économiques (la haute technologie notamment). Les régimes politiques sont des démocraties stables et la pression démographique a disparu. La population augmente lentement et la qualité de vie s'améliore. Le taux de scolarisation est très élevé et l'accès aux soins ne posent plus de problème.",
+      "hints": [
+        "Le climat des pays d'Asie est généralement chaud et humide ; comme il n'y a pas de sécheresse, on peut considérer ce climat comme favorable aux cultures.",
+        "Les espaces agricoles de ces pays (Singapour, Hong-Kong) sont cultivés de façon industrielle. Ces états sont la plupart du temps très petits et sont obligés d'importer des produits alimentaires.",
+        "Ces pays d'Asie sont des Etats démocratiques où les gouvernements sont stables.",
+        "Les Nouveaux Pays Industriels ne sont pas de grands producteurs agricoles, et ils vendent peu de produits sur le marché mondial. On peut considérer que les cours sont élevés.",
+        "Les Nouveaux Pays Industriels ont développé au maximum tout ce qui concerne l'éducation et la santé.",
+        "Les Nouveaux Pays Industriels ont investi totalement dans l'industrie. C'est grâce à elle qu'ils ont réussi à sortir du sous-développement. L'électronique, l'informatique ou encore les vêtements fabriqués dans ces N.P.I. sont courants sur le marché mondial."
+      ]
+    }
+  ],
+  "values": [
+    [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    [
+      0,
+      1,
+      2,
+      3
+    ],
+    [
+      0,
+      1,
+      2
+    ],
+    [
+      0,
+      1,
+      2,
+      3
+    ],
+    [
+      0,
+      2,
+      5,
+      8
+    ],
+    [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    [
+      0,
+      1,
+      2,
+      3
+    ],
+    [
+      0,
+      1,
+      2,
+      3
+    ]
+  ],
+  "limitSelectors": [
+    [
+      1,
+      -1,
+      -1,
+      -1,
+      2
+    ],
+    [
+      0,
+      -1,
+      -1,
+      -1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      5,
+      -1,
+      -1,
+      -1,
+      1
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  ],
+  "limits": [
+    [
+      [
+        0,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        2,
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        0,
+        3,
+        2,
+        2,
+        2,
+        2
+      ],
+      [
+        0,
+        4,
+        3,
+        3,
+        3,
+        3
+      ],
+      [
+        0,
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
+    ],
+    [
+      [
+        0,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        0,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      [
+        0,
+        2,
+        3,
+        3,
+        3,
+        3
+      ],
+      [
+        0,
+        3,
+        4,
+        4,
+        4,
+        4
+      ],
+      [
+        0,
+        3,
+        5,
+        5,
+        5,
+        5
+      ],
+      [
+        0,
+        3,
+        6,
+        6,
+        6,
+        6
+      ],
+      [
+        0,
+        3,
+        7,
+        7,
+        7,
+        7
+      ],
+      [
+        0,
+        3,
+        8,
+        8,
+        8,
+        8
+      ]
+    ],
+    [
+      [
+        0,
+        4,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        4,
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        4,
+        2,
+        2,
+        2,
+        2
+      ],
+      [
+        2,
+        4,
+        3,
+        3,
+        3,
+        3
+      ],
+      [
+        3,
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
+    ]
+  ],
+  "priorities": {
+    "objects": [
+      104,
+      106,
+      107,
+      102,
+      109,
+      103,
+      107,
+      108,
+      102
+    ],
+    "idle": [
+      104,
+      106,
+      107,
+      102,
+      109,
+      103,
+      107,
+      108,
+      102
+    ],
+    "ambient": [
+      115,
+      115,
+      115,
+      115,
+      115,
+      103
+    ]
+  },
+  "idleModes": [
+    0,
+    0,
+    4,
+    0,
+    4,
+    1,
+    0,
+    0,
+    1
+  ],
+  "idleEnabled": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1
+  ],
+  "initialStates": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    -1,
+    -1,
+    -1
+  ],
+  "limitFlags": [
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+  ],
+  "dependencies": [
+    [
+      0,
+      6,
+      4,
+      7,
+      8
+    ],
+    [
+      1,
+      6,
+      4,
+      7,
+      8
+    ],
+    [
+      2,
+      6,
+      4,
+      7,
+      8
+    ],
+    [
+      3,
+      6,
+      4,
+      7,
+      8
+    ],
+    [
+      4,
+      7
+    ],
+    [
+      5,
+      6,
+      4,
+      7,
+      8
+    ]
+  ],
+  "sequential": [
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    1
+  ],
+  "renderOrder": [
+    3,
+    8,
+    5,
+    0,
+    1,
+    2,
+    6,
+    7,
+    4
+  ],
+  "hitboxes": [
+    [
+      520,
+      3,
+      115,
+      227
+    ],
+    [
+      408,
+      310,
+      229,
+      168
+    ],
+    [
+      273,
+      180,
+      157,
+      144
+    ],
+    [
+      417,
+      49,
+      101,
+      119
+    ],
+    [
+      4,
+      351,
+      292,
+      124
+    ],
+    [
+      1,
+      183,
+      237,
+      92
+    ],
+    [
+      124,
+      274,
+      85,
+      68
+    ],
+    [
+      2,
+      315,
+      135,
+      62
+    ],
+    [
+      84,
+      37,
+      76,
+      180
+    ]
+  ],
+  "markers": [
+    [
+      574,
+      94,
+      32,
+      32
+    ],
+    [
+      550,
+      393,
+      31,
+      30
+    ],
+    [
+      342,
+      249,
+      30,
+      32
+    ],
+    [
+      443,
+      112,
+      33,
+      33
+    ],
+    [
+      141,
+      400,
+      32,
+      32
+    ],
+    [
+      62,
+      242,
+      32,
+      32
+    ],
+    [
+      145,
+      282,
+      31,
+      31
+    ],
+    [
+      73,
+      321,
+      29,
+      31
+    ],
+    [
+      92,
+      121,
+      34,
+      30
+    ]
+  ],
+  "explanationZones": [
+    [
+      460,
+      331,
+      72,
+      63
+    ],
+    [
+      224,
+      257,
+      91,
+      62
+    ],
+    [
+      161,
+      314,
+      60,
+      61
+    ],
+    [
+      103,
+      339,
+      49,
+      52
+    ],
+    [
+      191,
+      153,
+      81,
+      50
+    ],
+    [
+      96,
+      264,
+      50,
+      45
+    ]
+  ],
+  "effectNames": [
+    [
+      "SBRU168",
+      "SBRU004",
+      "SBRU004",
+      "SBRU001",
+      "SBRU001"
+    ],
+    [
+      "SBRU001",
+      "SBRU002",
+      "SBRU018",
+      "SBRU019",
+      "SBRU019"
+    ],
+    [
+      "SBRU059",
+      "SBRU060",
+      "SBRU058",
+      "SBRU001"
+    ],
+    [
+      "SBRU085",
+      "SBRU055",
+      "SBRU072"
+    ],
+    [
+      "SBRU044",
+      "SBRU044",
+      "SBRU168",
+      "SBRU071"
+    ],
+    [
+      "SBRU031",
+      "SBRU033",
+      "SBRU035",
+      "SBRU035"
+    ]
+  ]
+}

@@ -3,7 +3,7 @@ import path from 'node:path';
 
 // Game data and the standalone ScummVM runtime have their own manifests.
 // Only application code and styles belong to the application release.
-const applicationDirectories = new Set(['application', 'features', 'shared', 'styles', 'documents']);
+const applicationDirectories = new Set(['application', 'features', 'shared', 'styles']);
 
 export async function applicationFiles(root) {
   const result = [];

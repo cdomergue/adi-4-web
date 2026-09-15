@@ -1,4 +1,3 @@
-import { nativeDocuments } from '../public/features/documents/native-config.js';
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import { readFile } from 'node:fs/promises';
@@ -61,9 +60,7 @@ test('each document subject, page and presentation resolves to bundled media', a
   assert.equal(topics.espace.zones.length, 9);
   for (const entry of catalog.filter((e) => e.route))
     assert.ok(
-      topics[entry.id] ||
-        nativeDocuments[entry.id] ||
-        ['atlas', 's16', 's07', 's12', 's17', 's14'].includes(entry.id),
+      topics[entry.id] || ['atlas', 's16', 's07', 's12', 's17', 's14', 's08'].includes(entry.id),
     );
   for (const topic of Object.values(topics)) {
     image(topic.background);

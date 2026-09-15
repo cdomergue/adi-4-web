@@ -30,7 +30,8 @@ navigateur, selon les possibilités de chaque jeu.
 Les douze documents de la chambre sont consultables : cinq dossiers multimédias,
 l’Atlas et six simulations d’environnement, avec les médias et les interactions
 du jeu original. L’Atlas, la pollution de l’air et de l’eau, l’équilibre de la nature,
-l’entreprise et la désertification fonctionnent en JavaScript natif.
+l’entreprise, la désertification et le développement d’un pays fonctionnent en
+JavaScript natif. Aucun document ne charge de moteur ni d’archive binaire du jeu.
 
 Le code et les ressources des cours, de l’encyclopédie et des 14 simulations
 Sciences sont également inclus. Un clone contient les médias nécessaires au

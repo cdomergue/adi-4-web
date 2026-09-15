@@ -4,8 +4,7 @@ import { renderCompany } from './company/view.js';
 import { renderWater } from './water/view.js';
 import { renderAir } from './air/view.js';
 import { renderAtlas } from './atlas/view.js';
-import { nativeDocuments } from './native-config.js';
-import { renderNativeDocument } from './native-view.js';
+import { renderDevelopment } from './development/view.js';
 import { scenePoint, maskColor, menuOffset, spacePoint } from './engine.js';
 
 const base = '/game/documents/';
@@ -51,7 +50,7 @@ export async function renderDocuments(main, topicId = '') {
   if (topicId === 's14') return renderDesert(main);
   if (topicId === 's16') return renderAir(main);
   if (topicId === 'atlas') return renderAtlas(main);
-  if (Object.hasOwn(nativeDocuments, topicId)) return renderNativeDocument(main, topicId);
+  if (topicId === 's08') return renderDevelopment(main);
   document.title = 'Les documents · ADI 4';
   main.innerHTML =
     '<section class="original-scene documents"><div class="scene-heading"><h1>Les documents</h1><a class="button secondary" href="#room">← La chambre</a></div><p role="status">Ouverture…</p></section>';

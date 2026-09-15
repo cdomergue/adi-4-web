@@ -23,7 +23,7 @@ PORT=4174 npm run dev
 
 Les commandes disponibles sont définies dans [package.json](package.json).
 Les ressources livrées se trouvent dans [public/game](public/game/), les moteurs
-ScummVM compilés et leurs licences dans [public/vendor](public/vendor/).
+ScummVM des Goblins et leurs licences dans [public/vendor](public/vendor/).
 Aucun installateur du jeu, Wine, Python ou outil de compilation supplémentaire
 n’est nécessaire pour lancer les jeux inclus.
 
@@ -138,11 +138,12 @@ dans le panneau. Les neuf éléments du paysage suivent les tables originales.
 Les cas de Karankasso Vigué, des nomades du Sahel et de Mopti, les quatre
 explications animées, les sons, les calques et les séquences d’ambiance sont inclus.
 
-Le développement d’un pays exécute les scripts du CD avec un
-[moteur Gob dédié](public/vendor/documents/README.md). Ses paramètres se règlent
-dans le décor, avec les modes et les cas du jeu.
-Le bouton « Ouvrir » autorise la lecture sonore ; « Son » est coché par défaut.
-Les commandes du lecteur donnent accès à la barre du bas, à Échap et au plein écran.
+[Le développement d’un pays](public/features/documents/development/README.md)
+propose six réglages, leurs restrictions et trois résultats : budget, fécondité
+et investissements étrangers. Ses quatre cas, six explications animées, voix,
+bruitages, animations d’ambiance et animation de réussite utilisent les médias
+originaux. Les documents fonctionnent en JavaScript sans moteur externe ni
+archives binaires. Le son est coché par défaut et démarre après une interaction.
 Les six simulations sont distinctes des 14 expériences de la station Sciences.
 Les sessions des documents ne sont pas sauvegardées entre deux consultations.
 Les petits mouvements d’ambiance des décors et certaines transitions ne sont

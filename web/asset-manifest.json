@@ -6782,6 +6782,1051 @@
       "sha256": "0695ff488f559c6d744d87dde3aac4a09953abc5e44a216761d9180acffc3146"
     },
     {
+      "path": "public/game/documents/development/assets.json",
+      "size": 66464,
+      "sha256": "82b0435bb9a70e331dee0634cc967115bb6e673066f1779b0b01b4d670a78f8d"
+    },
+    {
+      "path": "public/game/documents/development/audio/a_mus08.wav",
+      "size": 895680,
+      "sha256": "7d6d540c43b3f76bfbd374c8a51debcb7fd33836f879e62eb01eda69582f65d9"
+    },
+    {
+      "path": "public/game/documents/development/audio/s08_00br.wav",
+      "size": 149984,
+      "sha256": "b4a25f03565d4db13d1db96b618095e997d101253ddd2563047476df6a34de33"
+    },
+    {
+      "path": "public/game/documents/development/audio/s08_00rq.wav",
+      "size": 308744,
+      "sha256": "cd0ade6ee37cdbbfe4accda4eb2f2ac9dd220a3c25bf80248a2eed80a7cff74d"
+    },
+    {
+      "path": "public/game/documents/development/audio/s08_01rq.wav",
+      "size": 370484,
+      "sha256": "d19540f7e91e62e980758e61086d1a744eb8bba50215285f898e3bc73bab2bad"
+    },
+    {
+      "path": "public/game/documents/development/audio/s08_02rq.wav",
+      "size": 335204,
+      "sha256": "af094889583cc980c3061dc2819fb44bfe39429750201b123916b847baf0bfcf"
+    },
+    {
+      "path": "public/game/documents/development/audio/s08_03br.wav",
+      "size": 185264,
+      "sha256": "94d3accd6f7541eea231e5e4901f219a9ae80f1dfa3283dbb0865d02c3bd31e6"
+    },
+    {
+      "path": "public/game/documents/development/audio/s08_03rq.wav",
+      "size": 339614,
+      "sha256": "89564b15ccaff65a31bbe0395583dd6cd1b87f474b6116d53de4fdcde988f203"
+    },
+    {
+      "path": "public/game/documents/development/audio/s08_04br.wav",
+      "size": 149984,
+      "sha256": "9bdadbff814fd1b455dd845cbb094bbad7624833bc4fcd2e6c4530244c8a0279"
+    },
+    {
+      "path": "public/game/documents/development/audio/s08_04rq.wav",
+      "size": 330794,
+      "sha256": "8bef300df74e234ea9ce98ded633d618aa24b2e4d34806fc8bfaf14867035a9d"
+    },
+    {
+      "path": "public/game/documents/development/audio/s08_0h.wav",
+      "size": 301474,
+      "sha256": "1d3b3b23df6564e9723a33a459c58e28ecb135af4740a064518160010aff1227"
+    },
+    {
+      "path": "public/game/documents/development/audio/s08_1h.wav",
+      "size": 301474,
+      "sha256": "86cf3ab5d7922dec97af9d3e173edb59206c4d790b5954250cb9dad29e05fc37"
+    },
+    {
+      "path": "public/game/documents/development/audio/s08_2h.wav",
+      "size": 301476,
+      "sha256": "9884ec524fa085a73144e971d2bbef3bee63205ba9bac3f478e73a322fb1b40f"
+    },
+    {
+      "path": "public/game/documents/development/audio/s08_2s00.wav",
+      "size": 114000,
+      "sha256": "da1f7e32a6068f2ef84ad1bb4fb3247c1497e10ae8e53c9c74337f7082ebcd63"
+    },
+    {
+      "path": "public/game/documents/development/audio/s08_2s01.wav",
+      "size": 161756,
+      "sha256": "d5a748ba6329fab7405bb187b4a204c5b036309ef2fe8c43e09a1cbf8f5ef495"
+    },
+    {
+      "path": "public/game/documents/development/audio/s08_2s02.wav",
+      "size": 301440,
+      "sha256": "33b4f5da484dc37ce5292d7fae921ce1cc452bfb93857b3fcb84eb75c6cd457d"
+    },
+    {
+      "path": "public/game/documents/development/audio/s08_2s03.wav",
+      "size": 183830,
+      "sha256": "bf077a2c0d7911d7ddcbf4e088f99d2ccbf9b1612792cf005c2b970cff5fe446"
+    },
+    {
+      "path": "public/game/documents/development/audio/s08_3h.wav",
+      "size": 301474,
+      "sha256": "b7ae96e5391861da845ddfc4e8fd84b115371434ec56ef412e92d4d0652b8a92"
+    },
+    {
+      "path": "public/game/documents/development/audio/s08_4h.wav",
+      "size": 338236,
+      "sha256": "fbb002dc1fa6d959c7e9bc04024e3ba746232e96c76cce6e7b14641b26245273"
+    },
+    {
+      "path": "public/game/documents/development/audio/s08_4s00.wav",
+      "size": 183836,
+      "sha256": "5e3ad92da7534d06bc41d5425dfec7b1e9d769118c41de7371976659f4ba7e97"
+    },
+    {
+      "path": "public/game/documents/development/audio/s08_4s01.wav",
+      "size": 183834,
+      "sha256": "1e860ad3245255be46e4da3a716a41cf228f7185ea78fe1fc02cb028493b19c9"
+    },
+    {
+      "path": "public/game/documents/development/audio/s08_4s02.wav",
+      "size": 183834,
+      "sha256": "3f7bb57d6341e8d3ae30aabd9a3032a2e16187d1e8394b8f7c634fdb76bca6b6"
+    },
+    {
+      "path": "public/game/documents/development/audio/s08_4s03.wav",
+      "size": 654346,
+      "sha256": "346ceb9cc9d666615800d96459b3d3cf3cbc156d5423392d659ba5443c067dad"
+    },
+    {
+      "path": "public/game/documents/development/audio/s08_re00.wav",
+      "size": 771900,
+      "sha256": "a5373507d46ad62a1e3d5c5a0b93de239ab56bf7d65cb9f2174457ba81d91666"
+    },
+    {
+      "path": "public/game/documents/development/audio/s08_re01.wav",
+      "size": 536692,
+      "sha256": "91e9fe56a9301776c4d2a0fb100e55e9b746762c5fc8c95282b6ab73825fca57"
+    },
+    {
+      "path": "public/game/documents/development/audio/s08_re02.wav",
+      "size": 771888,
+      "sha256": "b5faf68a1a130b075170fed7cbb71b7be97259d666b0d8618d48d1ffaa47c224"
+    },
+    {
+      "path": "public/game/documents/development/audio/s08_re03.wav",
+      "size": 551428,
+      "sha256": "8d85d8d627acf646e720dd6b7b70b88b0baadfef7de71d9aac9300737a78511d"
+    },
+    {
+      "path": "public/game/documents/development/audio/s08_re04.wav",
+      "size": 654322,
+      "sha256": "6e3f2959d2000236cbda296f477272eb02bd09376ca29f2d3b63fcbfadf7f749"
+    },
+    {
+      "path": "public/game/documents/development/audio/s08_re05.wav",
+      "size": 202224,
+      "sha256": "72a3b4a9b754881db6d187aa4569d8aa0732a7855ea44a93b016040f77b3775a"
+    },
+    {
+      "path": "public/game/documents/development/audio/s08_vo.wav",
+      "size": 701234,
+      "sha256": "a9cf1ead6216c0926f050ca4d556e139ed3c6d060d92ff56e5b0f490e9b49ed2"
+    },
+    {
+      "path": "public/game/documents/development/audio/sbru001.wav",
+      "size": 70636,
+      "sha256": "7020faaee867a725931a707ccbf44c2b454d7bfabdb47ac2d43a142bb122e941"
+    },
+    {
+      "path": "public/game/documents/development/audio/sbru002.wav",
+      "size": 70636,
+      "sha256": "df99dce6e33394488dc1841fe2a9a0f5000d7ec585d8719b44bc942712fbb49b"
+    },
+    {
+      "path": "public/game/documents/development/audio/sbru004.wav",
+      "size": 97108,
+      "sha256": "cf0105a26135507da825fa7bdd2e197436cf71b842abf0da2463efc515d5eb4c"
+    },
+    {
+      "path": "public/game/documents/development/audio/sbru018.wav",
+      "size": 141228,
+      "sha256": "0e8162f6f66f8c48eb9a44daf6a7f5d0934aa7000ba25f4c6c7e61db90912836"
+    },
+    {
+      "path": "public/game/documents/development/audio/sbru019.wav",
+      "size": 141228,
+      "sha256": "567a434086a47452e20846f2aff371946ec19543fd44c620c23b389389330e85"
+    },
+    {
+      "path": "public/game/documents/development/audio/sbru031.wav",
+      "size": 92696,
+      "sha256": "68ee5bda4f8b119690839737f1985977f304d747d1fb5a5ba10cc2c8cd3f0eda"
+    },
+    {
+      "path": "public/game/documents/development/audio/sbru033.wav",
+      "size": 127992,
+      "sha256": "d48fd01b09a8aa92f7dee3218baa4cb095dc1a2dcd4c664666f7b4b3dd599dda"
+    },
+    {
+      "path": "public/game/documents/development/audio/sbru035.wav",
+      "size": 127992,
+      "sha256": "d7a2b1b37554a1ab71047a4cd10605952086488caf921424f071dda60aa93f34"
+    },
+    {
+      "path": "public/game/documents/development/audio/sbru044.wav",
+      "size": 123580,
+      "sha256": "722590318d3f7ff418cf18804817a9f4db8d001175acd20f2c26f21c804a7244"
+    },
+    {
+      "path": "public/game/documents/development/audio/sbru055.wav",
+      "size": 154464,
+      "sha256": "f50eecf07af7ec3abc0687117f15022c5060aeaa9c99a3479b57886f1b5a1e54"
+    },
+    {
+      "path": "public/game/documents/development/audio/sbru058.wav",
+      "size": 132404,
+      "sha256": "a6713b2a616f0ba4d7d55bc6e175f18581a82d2a6b75983ba04403ad55ada381"
+    },
+    {
+      "path": "public/game/documents/development/audio/sbru059.wav",
+      "size": 83872,
+      "sha256": "e61fd6db06d4eb2a277804b8ef5bde401c48bd589f7344adbeb1c1aced176f07"
+    },
+    {
+      "path": "public/game/documents/development/audio/sbru060.wav",
+      "size": 105932,
+      "sha256": "c0c545fe57b3769cd8eba7711aa745f073c3c09b3955f03cc70351a698f888d7"
+    },
+    {
+      "path": "public/game/documents/development/audio/sbru071.wav",
+      "size": 101520,
+      "sha256": "622c7403f8296d19e40c0db7ebe8a6a5354cb86e4b2d266c1c6e084e76146718"
+    },
+    {
+      "path": "public/game/documents/development/audio/sbru072.wav",
+      "size": 198584,
+      "sha256": "14751cd392c8ea1d37c0723f04c49b6c62bb0473c927c866623c632aea35ada4"
+    },
+    {
+      "path": "public/game/documents/development/audio/sbru085.wav",
+      "size": 114756,
+      "sha256": "90b683e6520fb5e1ac05d4eab516782115d16129201bc4858ca13083cbd75f6a"
+    },
+    {
+      "path": "public/game/documents/development/audio/sbru168.wav",
+      "size": 75048,
+      "sha256": "a6f32fd42d43ae2048d0df7e2736937e11fda059fa2184dc4348b062d30b3f50"
+    },
+    {
+      "path": "public/game/documents/development/audio/sgagne.wav",
+      "size": 301476,
+      "sha256": "a829667cbd79fcde8a4163b0527b652fe562dd2643d552690bfade5ac432ee73"
+    },
+    {
+      "path": "public/game/documents/development/audio/srecpar1.wav",
+      "size": 260234,
+      "sha256": "36436af29f137bbe96232b0fda1014d77a2164139bdcddcdc61cfc6e93dd6302"
+    },
+    {
+      "path": "public/game/documents/development/audio/srecpar2.wav",
+      "size": 136754,
+      "sha256": "b8597bd0585fd0c0163421be251a69d856aad11ef8c2b3be809bccbff5ec4dd1"
+    },
+    {
+      "path": "public/game/documents/development/audio/srecpar3.wav",
+      "size": 123524,
+      "sha256": "d8a21a0d1f0014f9bc527366cc4b4515b6af1133b4c11e71b8033b22e883486f"
+    },
+    {
+      "path": "public/game/documents/development/images/choice-panel.webp",
+      "size": 30900,
+      "sha256": "33fe8441fba61761efef45806d67dde7cbea843ee5fa3f5d248ff7957a6f361d"
+    },
+    {
+      "path": "public/game/documents/development/images/s08_0d00-frames.webp",
+      "size": 4058,
+      "sha256": "027e7a14dc351532a84f7c430c45c4011c13c4bd2af2c551f21225f45200ab38"
+    },
+    {
+      "path": "public/game/documents/development/images/s08_0d01-frames.webp",
+      "size": 8376,
+      "sha256": "66ca1b50932556a08361f5409f96d7d6b80a82717e6a32a654b9b72aba27d8e4"
+    },
+    {
+      "path": "public/game/documents/development/images/s08_0d02-frames.webp",
+      "size": 17850,
+      "sha256": "6536c94281f11573271e811c0af6c6e91d10709ddd0c7622e56d9b20520844bc"
+    },
+    {
+      "path": "public/game/documents/development/images/s08_0d03-frames.webp",
+      "size": 26588,
+      "sha256": "967766d7e902a70e5e266708e4de598f9106d8c395f39d6d35312e3acb0843f6"
+    },
+    {
+      "path": "public/game/documents/development/images/s08_0d04-frames.webp",
+      "size": 31710,
+      "sha256": "86b9c65e12042da93b06dd5121a1d1c0ae68da52a09e0b69eb924a884c3739a9"
+    },
+    {
+      "path": "public/game/documents/development/images/s08_0h-frames.webp",
+      "size": 9866,
+      "sha256": "4bdf954b8d25240986ed0828a5719f7fef7f7a8fd11fc8cca6ba839e4a5b0c0a"
+    },
+    {
+      "path": "public/game/documents/development/images/s08_0i00-frames.webp",
+      "size": 4058,
+      "sha256": "027e7a14dc351532a84f7c430c45c4011c13c4bd2af2c551f21225f45200ab38"
+    },
+    {
+      "path": "public/game/documents/development/images/s08_0i01-frames.webp",
+      "size": 8218,
+      "sha256": "ddcf96ed00c07204048a4329c6340eb299eb4b7b853fb02adc580b3def5974f2"
+    },
+    {
+      "path": "public/game/documents/development/images/s08_0i02-frames.webp",
+      "size": 17418,
+      "sha256": "2dbc5d367ae79fe11cb18c82fa16709d2e9a46f4e7f8adc30d0b9397d491ad06"
+    },
+    {
+      "path": "public/game/documents/development/images/s08_0i03-frames.webp",
+      "size": 26120,
+      "sha256": "602e66a8bb908000a2f99c3f9864eb341edc395e25b3ce8a6396be2747b2fafe"
+    },
+    {
+      "path": "public/game/documents/development/images/s08_0i04-frames.webp",
+      "size": 31610,
+      "sha256": "9a7e7980b08e3be8b08b57138b14ea34d495a290b71ba0251363f765705721a4"
+    },
+    {
+      "path": "public/game/documents/development/images/s08_1d00-frames.webp",
+      "size": 2306,
+      "sha256": "15a75504f5aef5c7cdc00811121b1e65c6d24889504f29b8cd20ef074a613017"
+    },
+    {
+      "path": "public/game/documents/development/images/s08_1d01-frames.webp",
+      "size": 47752,
+      "sha256": "34045fdaa91d99c1d3e173ea114a5691d5f316c87883dddffd12d392d176638f"
+    },
+    {
+      "path": "public/game/documents/development/images/s08_1d02-frames.webp",
+      "size": 85610,
+      "sha256": "cef7f575cc427480ca795ede9e2c7d854137e0c21ef17794a8ecb7a1a014b74e"
+    },
+    {
+      "path": "public/game/documents/development/images/s08_1d03-frames.webp",
+      "size": 116106,
+      "sha256": "0de93da2fbc5139ab2bbb3e44ee59a787fb8290f810645d0224a0533717c5d8e"
+    },
+    {
+      "path": "public/game/documents/development/images/s08_1d04-frames.webp",
+      "size": 203914,
+      "sha256": "722de74e96c9a974702619ab9018ec14ef93a0ef8cd57b34bd6b93bf3cce18a8"
+    },
+    {
+      "path": "public/game/documents/development/images/s08_1h-frames.webp",
+      "size": 7916,
+      "sha256": "e3cdb27a5551fe1decc8d6f0a61dfcfd01ae5548e3a4c1f83eb929a0bf2e1b9e"
+    },
+    {
+      "path": "public/game/documents/development/images/s08_1i00-frames.webp",
+      "size": 2306,
+      "sha256": "15a75504f5aef5c7cdc00811121b1e65c6d24889504f29b8cd20ef074a613017"
+    },
+    {
+      "path": "public/game/documents/development/images/s08_1i01-frames.webp",
+      "size": 47508,
+      "sha256": "0e39cd27ceebdffd3960fbba3ff77bf7fbb87389627ed3ecb9398a6b3dc171bb"
+    },
+    {
+      "path": "public/game/documents/development/images/s08_1i02-frames.webp",
+      "size": 84828,
+      "sha256": "e67cc14f2f854f789c21616ba64425f96ed4f42e314e2719d77cab7793ba30c3"
+    },
+    {
+      "path": "public/game/documents/development/images/s08_1i03-frames.webp",
+      "size": 116518,
+      "sha256": "fbf65a3ff146fcfe193fe785294d95fdfedd5a99f65959a5d4032515474f93f9"
+    },
+    {
+      "path": "public/game/documents/development/images/s08_1i04-frames.webp",
+      "size": 202812,
+      "sha256": "c9e6d49d8802c0e1c3b2001aed4b4bbb4c98da517e09278f09ba1532efddce63"
+    },
+    {
+      "path": "public/game/documents/development/images/s08_1s00-frames.webp",
+      "size": 11844,
+      "sha256": "3def5ec20cc501810f1773282532aff7edc6db2cf775cfa860b68175eba15338"
+    },
+    {
+      "path": "public/game/documents/development/images/s08_1s01-frames-0.webp",
+      "size": 20380,
+      "sha256": "484f0702ff091ece62d90ff3d05b027fdd041fafb4a9e1580b02d28692403d30"
+    },
+    {
+      "path": "public/game/documents/development/images/s08_1s01-frames-1.webp",
+      "size": 8614,
+      "sha256": "a0d3485eb3891522c5b2c135f6b65a1e6b4ed6702d239e12f4f3bed474bfe044"
+    },
+    {
+      "path": "public/game/documents/development/images/s08_1s02-frames-0.webp",
+      "size": 33598,
+      "sha256": "95ad2e25f0da526585c94cea39808f67267d9cd8de93ec825b2ff732336aafa6"
+    },
+    {
+      "path": "public/game/documents/development/images/s08_1s02-frames-1.webp",
+      "size": 21324,
+      "sha256": "28e7ad03c6a2ce60cffda930387b58171c20f829b5172fc3e970368d2136abcb"
+    },
+    {
+      "path": "public/game/documents/development/images/s08_1s03-frames.webp",
+      "size": 29442,
+      "sha256": "4a3a6071af4c6d80da8c2f7058d6ff44e6e059d64e4f14798cae94c4f27ec7cb"
+    },
+    {
+      "path": "public/game/documents/development/images/s08_1s04-frames.webp",
+      "size": 44232,
+      "sha256": "d84b058f6cbbee9f51c0f759624475f49128c3f4ad96de52c33094728ec54889"
+    },
+    {
+      "path": "public/game/documents/development/images/s08_2d00-frames.webp",
+      "size": 28776,
+      "sha256": "80c6421ffb15f99eb902b2e79cb06930c414f3c6b58162169b463e00f2ccbeea"
+    },
+    {
+      "path": "public/game/documents/development/images/s08_2d01-frames.webp",
+      "size": 8334,
+      "sha256": "621143647ed641937b9dd5f7a8dac85c9f6bf93c9b640a9b2160f6fc5412eeae"
+    },
+    {
+      "path": "public/game/documents/development/images/s08_2d02-frames.webp",
+      "size": 7522,
+      "sha256": "6e54a39099d5dc3364940a42ec86766531b22d12bda71b06bd4413b3c1731aca"
+    },
+    {
+      "path": "public/game/documents/development/images/s08_2d03-frames.webp",
+      "size": 3520,
+      "sha256": "c580ffc8322aab5ddc654385a8331597c189ba3cd4c4f3fa4d604b17e30ce972"
+    },
+    {
+      "path": "public/game/documents/development/images/s08_2h-frames.webp",
+      "size": 14550,
+      "sha256": "464e0287c8fed887d31bb953a4ae6d09809f4eda2675049fc98b7bd03c919ae6"
+    },
+    {
+      "path": "public/game/documents/development/images/s08_2i00-frames.webp",
+      "size": 28436,
+      "sha256": "528b6578189359740ca915eee208459862bb83dcf60c3cba2382e04b6cf08e57"
+    },
+    {
+      "path": "public/game/documents/development/images/s08_2i01-frames.webp",
+      "size": 8390,
+      "sha256": "4467cc6a09bb4131f201a2a5b9d32a3b4284469f8048449f4259b33fced6f1fe"
+    },
+    {
+      "path": "public/game/documents/development/images/s08_2i02-frames.webp",
+      "size": 7610,
+      "sha256": "0ecaf32b385179a6912162f4d2d20ffd5959d85dc45068666801b239d79a0a48"
+    },
+    {
+      "path": "public/game/documents/development/images/s08_2i03-frames.webp",
+      "size": 3520,
+      "sha256": "c580ffc8322aab5ddc654385a8331597c189ba3cd4c4f3fa4d604b17e30ce972"
+    },
+    {
+      "path": "public/game/documents/development/images/s08_2s00-frames.webp",
+      "size": 44084,
+      "sha256": "3fc2f59cbaa3b99d1d7ea9aa6be869aedc57cc62c4f6bc7c6c4ed6c5ae406ddd"
+    },
+    {
+      "path": "public/game/documents/development/images/s08_2s01-frames.webp",
+      "size": 12380,
+      "sha256": "d76cde5c7d73ef6f65f2a0ba84ae1ee43d11b3c63b603b2467a1efe385492af6"
+    },
+    {
+      "path": "public/game/documents/development/images/s08_2s02-frames.webp",
+      "size": 20538,
+      "sha256": "65d7f7752b7fc828b449e0a4a84447468d258ccff1204d35017ec5dafc59a104"
+    },
+    {
+      "path": "public/game/documents/development/images/s08_2s03-frames.webp",
+      "size": 14672,
+      "sha256": "f8faea781d831a382ca2b9a7e734e42db8cf948287f7a4d44891f4c7dfe64479"
+    },
+    {
+      "path": "public/game/documents/development/images/s08_3d00-frames.webp",
+      "size": 1950,
+      "sha256": "705c9493d2122433fb4fdf861fef9c511ed2904ea49488e5a2842e719ed81c35"
+    },
+    {
+      "path": "public/game/documents/development/images/s08_3d01-frames.webp",
+      "size": 1924,
+      "sha256": "b697f431c77eb6dce35c92c68cef5ff81714349e610e653da49ac792f139d6fa"
+    },
+    {
+      "path": "public/game/documents/development/images/s08_3d02-frames.webp",
+      "size": 1940,
+      "sha256": "12effbda005677beace5d3ba95c1b93da95f835a5f1ac80f65c5546c38ec2630"
+    },
+    {
+      "path": "public/game/documents/development/images/s08_3h-frames.webp",
+      "size": 8938,
+      "sha256": "c9f7e1df8233542db024b98a98c03e635432f0f73e21086753905f0bd8e645a7"
+    },
+    {
+      "path": "public/game/documents/development/images/s08_3i00-frames.webp",
+      "size": 1950,
+      "sha256": "705c9493d2122433fb4fdf861fef9c511ed2904ea49488e5a2842e719ed81c35"
+    },
+    {
+      "path": "public/game/documents/development/images/s08_3i01-frames.webp",
+      "size": 1924,
+      "sha256": "b697f431c77eb6dce35c92c68cef5ff81714349e610e653da49ac792f139d6fa"
+    },
+    {
+      "path": "public/game/documents/development/images/s08_3i02-frames.webp",
+      "size": 1940,
+      "sha256": "12effbda005677beace5d3ba95c1b93da95f835a5f1ac80f65c5546c38ec2630"
+    },
+    {
+      "path": "public/game/documents/development/images/s08_4d00-frames.webp",
+      "size": 1748,
+      "sha256": "218ff9cda3a362cb438d9a566ac41541414e15a401297788ad18c64a7c1a09ff"
+    },
+    {
+      "path": "public/game/documents/development/images/s08_4d01-frames.webp",
+      "size": 42906,
+      "sha256": "8eca1483760aa524d3fda69b8ca281432671046bf9e7598e14ca2e3dcc6bdb67"
+    },
+    {
+      "path": "public/game/documents/development/images/s08_4d02-frames.webp",
+      "size": 56532,
+      "sha256": "7f44c50c359810d464c3c2d30b83512a5b58bda1360177b033491b0913646e33"
+    },
+    {
+      "path": "public/game/documents/development/images/s08_4d03-frames.webp",
+      "size": 117348,
+      "sha256": "e4f14f068f33f19f1e1383ee9e55516cff7e090b49e3ed1389cf19adfefae9e6"
+    },
+    {
+      "path": "public/game/documents/development/images/s08_4h-frames.webp",
+      "size": 3754,
+      "sha256": "06ad31f17b047850627c36347af36bdbcc450cec4e5c22ff89b8a49e1e98a2de"
+    },
+    {
+      "path": "public/game/documents/development/images/s08_4i00-frames.webp",
+      "size": 1748,
+      "sha256": "218ff9cda3a362cb438d9a566ac41541414e15a401297788ad18c64a7c1a09ff"
+    },
+    {
+      "path": "public/game/documents/development/images/s08_4i01-frames.webp",
+      "size": 42806,
+      "sha256": "d39717b1e08477d2230d317d02a5cac3bedf5a954d41e13f32b61aeee914b24e"
+    },
+    {
+      "path": "public/game/documents/development/images/s08_4i02-frames.webp",
+      "size": 55640,
+      "sha256": "e0d5a1ae90ebf80431bf7cdcd266ca051f5fbb078e4f1841dd4992f35af5dde1"
+    },
+    {
+      "path": "public/game/documents/development/images/s08_4i03-frames.webp",
+      "size": 115328,
+      "sha256": "d38a6b5dd82d2f0394722c1870054f4e6e6d1fed137331675c168003c2ac2231"
+    },
+    {
+      "path": "public/game/documents/development/images/s08_4s00-frames.webp",
+      "size": 5826,
+      "sha256": "724c8540987c977e26df4ca56d032540d3972c5e807cb6f6effcecfac1c94728"
+    },
+    {
+      "path": "public/game/documents/development/images/s08_4s01-frames.webp",
+      "size": 10468,
+      "sha256": "7083c90686b225d347f10ee549c3c959d7c2aec9aa9c3761922457dbcbf722d4"
+    },
+    {
+      "path": "public/game/documents/development/images/s08_4s02-frames.webp",
+      "size": 15296,
+      "sha256": "e9b11ce84bf870bd61acd2ee61bb2e59d4cd7b4ab3d539df5426fd4879c1248b"
+    },
+    {
+      "path": "public/game/documents/development/images/s08_4s03-frames-0.webp",
+      "size": 17074,
+      "sha256": "e5b4806b949a204285705eab5887dfab43a6db5487926ba567c20caefa2973cf"
+    },
+    {
+      "path": "public/game/documents/development/images/s08_4s03-frames-1.webp",
+      "size": 26814,
+      "sha256": "2dbd017450ad2e81c9dfed06260932ecf535820ee4db3d95720c22cfdead94d4"
+    },
+    {
+      "path": "public/game/documents/development/images/s08_4s03-frames-2.webp",
+      "size": 18738,
+      "sha256": "dcca56da7646054a8e63a864f5632f6f5787b8649d0a4e7fd66abd3ada8114b4"
+    },
+    {
+      "path": "public/game/documents/development/images/s08_4s03-frames-3.webp",
+      "size": 24190,
+      "sha256": "6d7fe19c76bc97d6dc1020d405c9ff2d893a6ae94fbd69a4b77c7debe095e626"
+    },
+    {
+      "path": "public/game/documents/development/images/s08_4s03-frames-4.webp",
+      "size": 15792,
+      "sha256": "da7fee5c97ef9b041c98e709feba97d6c0bb4edfeb8750ac67d9023eda796595"
+    },
+    {
+      "path": "public/game/documents/development/images/s08_5d00-frames.webp",
+      "size": 3100,
+      "sha256": "9b6e619b4310b1f114e4afe1aa244c40dcfd0c1071e74588a9d329a25902f8b0"
+    },
+    {
+      "path": "public/game/documents/development/images/s08_5d01-frames.webp",
+      "size": 56166,
+      "sha256": "206fcdf3463cc65740ce749b646f61003c892ac05ff07878928f4501fcf2d916"
+    },
+    {
+      "path": "public/game/documents/development/images/s08_5d02-frames.webp",
+      "size": 77360,
+      "sha256": "f553fb9dc4b0b989e65a1a9fb8d0f8e5c8767a8fe9dd5910d1d11ddbe6c4bba1"
+    },
+    {
+      "path": "public/game/documents/development/images/s08_5d03-frames.webp",
+      "size": 117488,
+      "sha256": "30f70a0637ca783bc68a30f04f75d12ab703971b74009416a3386f728d14ff95"
+    },
+    {
+      "path": "public/game/documents/development/images/s08_5h-frames.webp",
+      "size": 10118,
+      "sha256": "c481b4269b45f393908e905bf810774e323e360ed81ac568f0e7a88c2d0444e6"
+    },
+    {
+      "path": "public/game/documents/development/images/s08_5i00-frames.webp",
+      "size": 3100,
+      "sha256": "9b6e619b4310b1f114e4afe1aa244c40dcfd0c1071e74588a9d329a25902f8b0"
+    },
+    {
+      "path": "public/game/documents/development/images/s08_5i01-frames.webp",
+      "size": 56156,
+      "sha256": "419e2d39c5f7b75f67d1a518e01e8fa950ce32bc7beab19c46d2ba29541bbcb9"
+    },
+    {
+      "path": "public/game/documents/development/images/s08_5i02-frames.webp",
+      "size": 77354,
+      "sha256": "87e3dffcb04a5e85550d02a5391e1ba32e65390f549421b1ebdf795c5e31f3ba"
+    },
+    {
+      "path": "public/game/documents/development/images/s08_5i03-frames.webp",
+      "size": 117354,
+      "sha256": "c95205c39e58f5cd18afc367578e74773b19d5ae77c7e0c951ff04992b70630b"
+    },
+    {
+      "path": "public/game/documents/development/images/s08_5s00-frames.webp",
+      "size": 3658,
+      "sha256": "8af5ea49f0825f0f8f87b618f9baaa51cb177addef145d16ba81543718150be4"
+    },
+    {
+      "path": "public/game/documents/development/images/s08_5s01-frames.webp",
+      "size": 8050,
+      "sha256": "14c9eddc0cf953f111a7aff84a458201362cfefd900bc01694f003e3bc1847e9"
+    },
+    {
+      "path": "public/game/documents/development/images/s08_5s02-frames.webp",
+      "size": 12264,
+      "sha256": "70fa22a9a4365f84a3ec41c0f65a0a8a58f3d38ede3d8da0919f0eed4dad63e4"
+    },
+    {
+      "path": "public/game/documents/development/images/s08_5s03-frames.webp",
+      "size": 31092,
+      "sha256": "e45bf3693bb26e9e47c594c61411376d2fad94296a0f4eb877be7e926ad93bd8"
+    },
+    {
+      "path": "public/game/documents/development/images/s08_6d00.webp",
+      "size": 34,
+      "sha256": "86be52bdb7547413cafb3ed175a806a798c65de98b40849e0b974c47d187de65"
+    },
+    {
+      "path": "public/game/documents/development/images/s08_6d01.webp",
+      "size": 370,
+      "sha256": "920165fe88d9037ed97fb318df0169b34afd178874d839710a4efbfb4fc0ea8f"
+    },
+    {
+      "path": "public/game/documents/development/images/s08_6d02.webp",
+      "size": 478,
+      "sha256": "20eba2014cb5d3e5c9bb153135c7d58c25bbfbe6555d5656ea92b99fe340dc3d"
+    },
+    {
+      "path": "public/game/documents/development/images/s08_6d03.webp",
+      "size": 714,
+      "sha256": "02af14fcf50611942d06ed1478c9a12f187cb294481a226e2487bbe9b2e8b60f"
+    },
+    {
+      "path": "public/game/documents/development/images/s08_6d04.webp",
+      "size": 988,
+      "sha256": "b4755387ea48f93059f149d1f4782213f6b8246c4a61ddd6c28f5ce70591abbd"
+    },
+    {
+      "path": "public/game/documents/development/images/s08_6d05.webp",
+      "size": 924,
+      "sha256": "176b14a8d118a6e7a97ae3a26a7be33ee5d54959914f17b69e516b5ed83d48b8"
+    },
+    {
+      "path": "public/game/documents/development/images/s08_6d06.webp",
+      "size": 1210,
+      "sha256": "e50083fd19f7665d2b87bec3fc2bd195d13ac75df2d2fb9619dea3a33250860f"
+    },
+    {
+      "path": "public/game/documents/development/images/s08_6d07.webp",
+      "size": 1420,
+      "sha256": "98ac9b15a5a0674d75528734fc224371951425ebb2df7f2baab82707c1ef97e2"
+    },
+    {
+      "path": "public/game/documents/development/images/s08_6d08.webp",
+      "size": 1606,
+      "sha256": "32eae849e7b2bb230ba9aa9048c4b7b90bc4b56f00a79d79418acf794778f447"
+    },
+    {
+      "path": "public/game/documents/development/images/s08_6i00.webp",
+      "size": 370,
+      "sha256": "920165fe88d9037ed97fb318df0169b34afd178874d839710a4efbfb4fc0ea8f"
+    },
+    {
+      "path": "public/game/documents/development/images/s08_6i01.webp",
+      "size": 370,
+      "sha256": "920165fe88d9037ed97fb318df0169b34afd178874d839710a4efbfb4fc0ea8f"
+    },
+    {
+      "path": "public/game/documents/development/images/s08_6i02.webp",
+      "size": 478,
+      "sha256": "20eba2014cb5d3e5c9bb153135c7d58c25bbfbe6555d5656ea92b99fe340dc3d"
+    },
+    {
+      "path": "public/game/documents/development/images/s08_6i03.webp",
+      "size": 714,
+      "sha256": "02af14fcf50611942d06ed1478c9a12f187cb294481a226e2487bbe9b2e8b60f"
+    },
+    {
+      "path": "public/game/documents/development/images/s08_6i04.webp",
+      "size": 988,
+      "sha256": "b4755387ea48f93059f149d1f4782213f6b8246c4a61ddd6c28f5ce70591abbd"
+    },
+    {
+      "path": "public/game/documents/development/images/s08_6i05.webp",
+      "size": 924,
+      "sha256": "176b14a8d118a6e7a97ae3a26a7be33ee5d54959914f17b69e516b5ed83d48b8"
+    },
+    {
+      "path": "public/game/documents/development/images/s08_6i06.webp",
+      "size": 1210,
+      "sha256": "e50083fd19f7665d2b87bec3fc2bd195d13ac75df2d2fb9619dea3a33250860f"
+    },
+    {
+      "path": "public/game/documents/development/images/s08_6i07.webp",
+      "size": 1420,
+      "sha256": "98ac9b15a5a0674d75528734fc224371951425ebb2df7f2baab82707c1ef97e2"
+    },
+    {
+      "path": "public/game/documents/development/images/s08_6i08.webp",
+      "size": 1606,
+      "sha256": "32eae849e7b2bb230ba9aa9048c4b7b90bc4b56f00a79d79418acf794778f447"
+    },
+    {
+      "path": "public/game/documents/development/images/s08_7d00-frames.webp",
+      "size": 530,
+      "sha256": "38d5fbe4335d37b301272b78cfd05acfdb0e51c7bcbe2901e0ba4c16973dd142"
+    },
+    {
+      "path": "public/game/documents/development/images/s08_7d01-frames.webp",
+      "size": 4574,
+      "sha256": "f0ac2129e14103ee984d2c3397a5c930d845c8647acc989cae8305193e8c004f"
+    },
+    {
+      "path": "public/game/documents/development/images/s08_7d02-frames.webp",
+      "size": 10806,
+      "sha256": "768f38db801a39e2d5ce011c65c8234e7d3767b7fec5e1a488db166c7897afdc"
+    },
+    {
+      "path": "public/game/documents/development/images/s08_7d03-frames.webp",
+      "size": 71692,
+      "sha256": "ec15789ae080e9d6d7b49f58100180224a54f4c8f6e7222feef32644339ae38c"
+    },
+    {
+      "path": "public/game/documents/development/images/s08_7i00-frames.webp",
+      "size": 530,
+      "sha256": "38d5fbe4335d37b301272b78cfd05acfdb0e51c7bcbe2901e0ba4c16973dd142"
+    },
+    {
+      "path": "public/game/documents/development/images/s08_7i01-frames.webp",
+      "size": 4528,
+      "sha256": "1b44ca65e2920e712bed747fe29628ad5db28e8a1c0881dfe047a40220e35dd9"
+    },
+    {
+      "path": "public/game/documents/development/images/s08_7i02-frames.webp",
+      "size": 10630,
+      "sha256": "ab16baf5acd7d6da949cdfe9c545c4be2d20435e1a9c072dc472e7d0daaa8cb1"
+    },
+    {
+      "path": "public/game/documents/development/images/s08_7i03-frames.webp",
+      "size": 70678,
+      "sha256": "f945a2204152004f26cab99e6298678b215d9b8384f3a1bfbed16e50b3acc12c"
+    },
+    {
+      "path": "public/game/documents/development/images/s08_8d00-frames.webp",
+      "size": 5430,
+      "sha256": "ca12783ed3a3c84ebfd261b11a6abe2edc7d3403ae0ca6b929e47e695c77d601"
+    },
+    {
+      "path": "public/game/documents/development/images/s08_8d01-frames.webp",
+      "size": 57106,
+      "sha256": "ae43fd70b0e58faa374487a17401903aba75ad935fea7b02055909adf63c062a"
+    },
+    {
+      "path": "public/game/documents/development/images/s08_8d02-frames.webp",
+      "size": 27348,
+      "sha256": "7dd423fa1c3355951fc9572d88c3cb14bd8c47f66bd0739bb056cd7d8dbb9f15"
+    },
+    {
+      "path": "public/game/documents/development/images/s08_8d03-frames.webp",
+      "size": 50780,
+      "sha256": "fe2b0fb08ead15d525ceec6558840efaa06cc0bc109b67f822536fee0837a102"
+    },
+    {
+      "path": "public/game/documents/development/images/s08_8i00-frames.webp",
+      "size": 5430,
+      "sha256": "ca12783ed3a3c84ebfd261b11a6abe2edc7d3403ae0ca6b929e47e695c77d601"
+    },
+    {
+      "path": "public/game/documents/development/images/s08_8i01-frames.webp",
+      "size": 57068,
+      "sha256": "0ebdc73a544b33e1595119bb1654a1ca5278ac87c1ab939fe91ba61b33cf7b20"
+    },
+    {
+      "path": "public/game/documents/development/images/s08_8i02-frames.webp",
+      "size": 27412,
+      "sha256": "6e5261be6eac9df19297b8ae4dffe476a386206ca81d6716db4bf096f36436fd"
+    },
+    {
+      "path": "public/game/documents/development/images/s08_8i03-frames.webp",
+      "size": 50446,
+      "sha256": "453c5e71440a3b33b3023b585aee05c599902b06643a5c80b092b62b16cd5a33"
+    },
+    {
+      "path": "public/game/documents/development/images/s08_8s00-frames.webp",
+      "size": 6464,
+      "sha256": "b3f80a52475352b351c4aa7eb1e1c4d5ba6d6435e42841d5584efb31a2682fab"
+    },
+    {
+      "path": "public/game/documents/development/images/s08_8s01-frames.webp",
+      "size": 13976,
+      "sha256": "bea0df6eff32f309d158b8570ea900a3cc242704546296da970a746585bcc79d"
+    },
+    {
+      "path": "public/game/documents/development/images/s08_8s02-frames.webp",
+      "size": 39294,
+      "sha256": "c9620a87459b6697a44a8a06aab3bc5d9b0b8cfaec1a52eae2ff1699497fa2a7"
+    },
+    {
+      "path": "public/game/documents/development/images/s08_8s03-frames.webp",
+      "size": 20458,
+      "sha256": "3f4ee520b0e6e5ce3a7d427972005bec5fc47080558d16834048cf438fdfb345"
+    },
+    {
+      "path": "public/game/documents/development/images/s08_re00-frames-0.webp",
+      "size": 2844,
+      "sha256": "0576ddd3308c15285a100191cee694d23815cc152bffc29ae235bb3f86269d70"
+    },
+    {
+      "path": "public/game/documents/development/images/s08_re00-frames-1.webp",
+      "size": 2792,
+      "sha256": "63c8c71b90d908b2b639ef8f5c1f477906533b3ba941f0caba1769ecdb37067d"
+    },
+    {
+      "path": "public/game/documents/development/images/s08_re00-frames-2.webp",
+      "size": 2844,
+      "sha256": "0576ddd3308c15285a100191cee694d23815cc152bffc29ae235bb3f86269d70"
+    },
+    {
+      "path": "public/game/documents/development/images/s08_re00-frames-3.webp",
+      "size": 2792,
+      "sha256": "63c8c71b90d908b2b639ef8f5c1f477906533b3ba941f0caba1769ecdb37067d"
+    },
+    {
+      "path": "public/game/documents/development/images/s08_re00-frames-4.webp",
+      "size": 2844,
+      "sha256": "0576ddd3308c15285a100191cee694d23815cc152bffc29ae235bb3f86269d70"
+    },
+    {
+      "path": "public/game/documents/development/images/s08_re00-frames-5.webp",
+      "size": 1638,
+      "sha256": "4b4e503fd1bab9a4df88b1a0e3f3b767297a2020b81a63662847e45a7143bd64"
+    },
+    {
+      "path": "public/game/documents/development/images/s08_re01-frames-0.webp",
+      "size": 3038,
+      "sha256": "aaed7dd91697043bbbfefa0842cd94af1445acea733144188adff229882d0171"
+    },
+    {
+      "path": "public/game/documents/development/images/s08_re01-frames-1.webp",
+      "size": 2976,
+      "sha256": "83b25949d1801073838f7ac18251eb81833171ddb39555f34e2ce37019770863"
+    },
+    {
+      "path": "public/game/documents/development/images/s08_re01-frames-2.webp",
+      "size": 3038,
+      "sha256": "aaed7dd91697043bbbfefa0842cd94af1445acea733144188adff229882d0171"
+    },
+    {
+      "path": "public/game/documents/development/images/s08_re01-frames-3.webp",
+      "size": 2916,
+      "sha256": "01470e2b2b427ad53a098201c25f265fefe2500840abc874f5f8f2b657254832"
+    },
+    {
+      "path": "public/game/documents/development/images/s08_re02-frames-0.webp",
+      "size": 1798,
+      "sha256": "429898bc0414ae24b864d2aefa3754c21f099878bc939a1bebde8a20dce86541"
+    },
+    {
+      "path": "public/game/documents/development/images/s08_re02-frames-1.webp",
+      "size": 1856,
+      "sha256": "e2b79a07da9c0a97cd0b3b2e9057df0f3dd62558ba35d415eff6ea43151e02c1"
+    },
+    {
+      "path": "public/game/documents/development/images/s08_re02-frames-2.webp",
+      "size": 1798,
+      "sha256": "429898bc0414ae24b864d2aefa3754c21f099878bc939a1bebde8a20dce86541"
+    },
+    {
+      "path": "public/game/documents/development/images/s08_re02-frames-3.webp",
+      "size": 1856,
+      "sha256": "e2b79a07da9c0a97cd0b3b2e9057df0f3dd62558ba35d415eff6ea43151e02c1"
+    },
+    {
+      "path": "public/game/documents/development/images/s08_re02-frames-4.webp",
+      "size": 1798,
+      "sha256": "429898bc0414ae24b864d2aefa3754c21f099878bc939a1bebde8a20dce86541"
+    },
+    {
+      "path": "public/game/documents/development/images/s08_re02-frames-5.webp",
+      "size": 1034,
+      "sha256": "8896286e03ad8925082de10f0933af92db8be3353525b7118d8aa3407d5fac3d"
+    },
+    {
+      "path": "public/game/documents/development/images/s08_re03-frames-0.webp",
+      "size": 1662,
+      "sha256": "fb215f5716326cea7cecc1c7f89da18b977251c74a65319d8ad5a100dfd4ad20"
+    },
+    {
+      "path": "public/game/documents/development/images/s08_re03-frames-1.webp",
+      "size": 1534,
+      "sha256": "b88c0f8a4bc6841670117290899913dc23e9a8ac4f80d703656d4eec171c7c5a"
+    },
+    {
+      "path": "public/game/documents/development/images/s08_re03-frames-2.webp",
+      "size": 1662,
+      "sha256": "fb215f5716326cea7cecc1c7f89da18b977251c74a65319d8ad5a100dfd4ad20"
+    },
+    {
+      "path": "public/game/documents/development/images/s08_re03-frames-3.webp",
+      "size": 1534,
+      "sha256": "b88c0f8a4bc6841670117290899913dc23e9a8ac4f80d703656d4eec171c7c5a"
+    },
+    {
+      "path": "public/game/documents/development/images/s08_re03-frames-4.webp",
+      "size": 1662,
+      "sha256": "fb215f5716326cea7cecc1c7f89da18b977251c74a65319d8ad5a100dfd4ad20"
+    },
+    {
+      "path": "public/game/documents/development/images/s08_re03-frames-5.webp",
+      "size": 816,
+      "sha256": "5b1a15f268e855a5498bbd03bad8c5401f1a93f7ca8cd693a4798a1dc9d45b0b"
+    },
+    {
+      "path": "public/game/documents/development/images/s08_re04-frames-0.webp",
+      "size": 2046,
+      "sha256": "5ee4110be8a6588eded53c81383434d14066edea9407b90c86f6c968a92771ef"
+    },
+    {
+      "path": "public/game/documents/development/images/s08_re04-frames-1.webp",
+      "size": 1942,
+      "sha256": "d7c96be8370391533775777f950844adaaba4eb2ebcfd3b82802684be83b7479"
+    },
+    {
+      "path": "public/game/documents/development/images/s08_re04-frames-2.webp",
+      "size": 2046,
+      "sha256": "5ee4110be8a6588eded53c81383434d14066edea9407b90c86f6c968a92771ef"
+    },
+    {
+      "path": "public/game/documents/development/images/s08_re04-frames-3.webp",
+      "size": 1942,
+      "sha256": "d7c96be8370391533775777f950844adaaba4eb2ebcfd3b82802684be83b7479"
+    },
+    {
+      "path": "public/game/documents/development/images/s08_re04-frames-4.webp",
+      "size": 1754,
+      "sha256": "0f797012ec7a42a6702a25517f436578a4f148d4b2b87ada2c77897b6c0af9b5"
+    },
+    {
+      "path": "public/game/documents/development/images/s08_re05-frames-0.webp",
+      "size": 1486,
+      "sha256": "1a21fc54d5033d27e72b361db3a3ec232f3957f6b93a660622def69d62f48421"
+    },
+    {
+      "path": "public/game/documents/development/images/s08_re05-frames-1.webp",
+      "size": 1480,
+      "sha256": "be1b0f79c85d0d02c2c5fc4aedf871b694a3a95f5ba284298cfcdee4dee55764"
+    },
+    {
+      "path": "public/game/documents/development/images/s08_re05-frames-2.webp",
+      "size": 752,
+      "sha256": "b27f991d80c3e47e7bd1182fe3189a51c3782715972efce8a10434c911dc1f89"
+    },
+    {
+      "path": "public/game/documents/development/images/sgagne-frames-0.webp",
+      "size": 43556,
+      "sha256": "7460921384400383a18f7a815ae1549a7152ebe073c50be67e3a17ddfe84dad0"
+    },
+    {
+      "path": "public/game/documents/development/images/sgagne-frames-1.webp",
+      "size": 33614,
+      "sha256": "873da1ab3d0ab645f020f72bb25b5a1afacc9364d1dbe3e934c5cd1477f27191"
+    },
+    {
+      "path": "public/game/documents/development/images/simul08-background.webp",
+      "size": 90708,
+      "sha256": "6c7585b4a30b77f9a5970f39b3682e609e1d83a0e87b68eb06950afaa8360e76"
+    },
+    {
+      "path": "public/game/documents/development/images/simul08-ui-0-mask.png",
+      "size": 132204,
+      "sha256": "c26bb2d01e7ed8a451e2dbc77689b38f0d342303f6ad3965dc23a8a8b9d63581"
+    },
+    {
+      "path": "public/game/documents/development/images/simul08-ui-1-mask.png",
+      "size": 3613,
+      "sha256": "3b84e81d4ac4cc6ecf1be4347b29a9151878e26c63a329c1906cc0dd8550c318"
+    },
+    {
+      "path": "public/game/documents/development/images/simul08-ui-1.webp",
+      "size": 1504,
+      "sha256": "ebdbc7d56cfe2aa91e118229204c5d05eb0ebc49c3c0b8e5fdc96b7f00879f30"
+    },
+    {
+      "path": "public/game/documents/development/images/simul08-ui-2-mask.png",
+      "size": 3245,
+      "sha256": "0f123ce5bde527b7d1c572a323c6a25cab08cf69e1a116246479cf56377b6c70"
+    },
+    {
+      "path": "public/game/documents/development/images/simul08-ui-2.webp",
+      "size": 1648,
+      "sha256": "4424f12d8a8f5de00cb91e806c99c9b651c45c202dcc3e8a39f2f4eb1f5ca7ef"
+    },
+    {
+      "path": "public/game/documents/development/rules.json",
+      "size": 17808,
+      "sha256": "cdb9c98aa9317917b6515c2d3f0b990e17e85459a4a85e839a697443ff3376b5"
+    },
+    {
+      "path": "public/game/documents/development/simul08-palette.json",
+      "size": 3777,
+      "sha256": "916385e8fe47bad24d30a82a018cbd6070f5458b0bac681f83e996f7973fec54"
+    },
+    {
       "path": "public/game/documents/ecosystem/assets.json",
       "size": 67132,
       "sha256": "1dd28448c1318c6b38e37507707ecfb93af7376aaa8726669b5f9e367be0c4aa"
@@ -9320,36 +10365,6 @@
       "path": "public/game/documents/menu/3.webp",
       "size": 518,
       "sha256": "e590215a90973f87919717aca3f2bf47dc2714d4e28a78e93e9145ae7ee26a05"
-    },
-    {
-      "path": "public/game/documents/native/AE63F421.CD1",
-      "size": 3,
-      "sha256": "8e4621379786ef42a4fec155cd525c291dd7db3c1fde3478522f4f61c03fd1bd"
-    },
-    {
-      "path": "public/game/documents/native/CURSOR32.DLL",
-      "size": 44576,
-      "sha256": "4ad8aad0c3229dddb9b05f1ab73ecc2eab756a6f84278a1cc29b5feb0e326e90"
-    },
-    {
-      "path": "public/game/documents/native/INTRO.STK",
-      "size": 5950490,
-      "sha256": "dbfc3f755b906e2600ccff279aa298fbab13eca4024b41e9b8a834702a0210e3"
-    },
-    {
-      "path": "public/game/documents/native/SIMULC.ITK",
-      "size": 17465671,
-      "sha256": "7d00d5fde770cca3719805d5a83cad78dd927f1bd8517e5ea2a66a6b83ecf3dc"
-    },
-    {
-      "path": "public/game/documents/native/SIMULC.STK",
-      "size": 1006171,
-      "sha256": "4bd5792bb3010b610a8d1cd8c12ab676763baec5a5fbf27e2efba49b9fe5dffc"
-    },
-    {
-      "path": "public/game/documents/native/manifest.json",
-      "size": 829,
-      "sha256": "e160157d8d0af7aadbd6cdee6a650bf3b642e3a837c69d4fed88c695c6ca4fb7"
     },
     {
       "path": "public/game/documents/planete/0-image.webp",
@@ -35410,76 +36425,6 @@
       "path": "public/game/wgob3/manifest.json",
       "size": 1459,
       "sha256": "38d44af7d990b380480705a19d000fe8100acc499377d0c5466f8a56fee66535"
-    },
-    {
-      "path": "public/vendor/documents/README.md",
-      "size": 2414,
-      "sha256": "da17038e3f2e9092dd2c48148358a1b0a0d1939dbb38e9a266b34d1fe62e2b6c"
-    },
-    {
-      "path": "public/vendor/documents/rebuild.sh",
-      "size": 928,
-      "sha256": "f30bc549d63a86a97498631fb8f5872c3214462f9337853abb080218ba693033"
-    },
-    {
-      "path": "public/vendor/documents/scummvm.js",
-      "size": 205641,
-      "sha256": "f6c9e55609017693cd398302067260bebd33c56049c791431cc22a3aec65f7f0"
-    },
-    {
-      "path": "public/vendor/documents/scummvm.wasm",
-      "size": 7779663,
-      "sha256": "79273372e25a8554b24062bbb3a11cd0aec3b25c3571e6a44fa6269ddbdbb0b7"
-    },
-    {
-      "path": "public/vendor/documents/source/engines/gob/dataio.cpp",
-      "size": 11159,
-      "sha256": "d3887b8c550d19043877d868c351054f999ff42e6167da9cd6858a9ec71050a6"
-    },
-    {
-      "path": "public/vendor/documents/source/engines/gob/gob.cpp",
-      "size": 21439,
-      "sha256": "314e9abcbe31a5cd81f52d4ec0dd59a839eb25602ad68191d37405ba11e28b2e"
-    },
-    {
-      "path": "public/vendor/documents/source/engines/gob/init_v7.cpp",
-      "size": 2758,
-      "sha256": "8258b5daf685ddaceebb666b7a2605679c50640ebd931a18c66fcc62247922f0"
-    },
-    {
-      "path": "public/vendor/documents/source/engines/gob/inter.h",
-      "size": 22468,
-      "sha256": "d3abd31c20c477235c09b3ebef4b0376de6d3b20f3bbd503d7d2646fbfe5b50b"
-    },
-    {
-      "path": "public/vendor/documents/source/engines/gob/inter_v1.cpp",
-      "size": 82918,
-      "sha256": "934a957a27767d289391b0d11a8dd963ed773a62bce8a68d1f9282a551a553e2"
-    },
-    {
-      "path": "public/vendor/documents/source/engines/gob/inter_v7.cpp",
-      "size": 45683,
-      "sha256": "ac9853c50cf88639e710cad095f71fef2ad5a293770e727c3f167d704ebd438c"
-    },
-    {
-      "path": "public/vendor/documents/source/engines/gob/metaengine.cpp",
-      "size": 3837,
-      "sha256": "c9393b6372293954d4716a00af9130dc7328c3ef3a29e6fb25c6aee380787d19"
-    },
-    {
-      "path": "public/vendor/documents/source/engines/gob/resources.cpp",
-      "size": 17877,
-      "sha256": "2f1f3d38177041806a42a9199a7f1a6028901009ef454f8f0902f5ebb2960f0d"
-    },
-    {
-      "path": "public/vendor/documents/source/engines/gob/scenery.cpp",
-      "size": 36730,
-      "sha256": "839eb1579709b5d018f11eae7e9881dd96dd9583d9a1741e0dcbdbf3f029e115"
-    },
-    {
-      "path": "public/vendor/documents/source/engines/gob/video_v6.cpp",
-      "size": 6586,
-      "sha256": "d9cef5aabca34a477d9b285ed29665f1669f72a4d2153ef070ebd9d6bb911d8a"
     },
     {
       "path": "public/vendor/wgob3/COPYING",

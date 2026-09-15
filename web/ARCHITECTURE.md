@@ -109,7 +109,7 @@ plafond du script original.
 décor Canvas, les choix, les cas, les explications, la barre et le son.
 [environment-animation.js](public/features/documents/environment-animation.js)
 calcule les découpes de frames et les transitions ordonnées de l’entreprise et de
-l’eau et de la désertification, y compris les séquences sur plusieurs feuilles.
+l’eau, de la désertification et du développement, y compris les séquences sur plusieurs feuilles.
 Les [styles communs](public/styles/environment-document.css), les
 [ressources de l’air](public/game/documents/air/) et celles de
 [l’écosystème](public/game/documents/ecosystem/) et de
@@ -118,19 +118,14 @@ Les [styles communs](public/styles/environment-document.css), les
 [la désertification](public/game/documents/desert/), suffisent à ces routes sans
 moteur externe. Ces documents partagent les images de la barre et du panneau.
 
-[native-view.js](public/features/documents/native-view.js) ouvre le développement d’un pays dans un lecteur isolé. Le
-[lecteur](public/documents/player.js) vérifie les empreintes des archives,
-charge uniquement celles du document choisi, puis démarre le moteur Gob.
-[native-config.js](public/features/documents/native-config.js) associe chaque
-route à son script d’entrée et à son archive. Les règles et zones interactives
-sont exécutées depuis les archives originales, sans duplication en JavaScript.
-
-Le [moteur dédié](public/vendor/documents/README.md) comprend les binaires,
-les adaptations de source et le script de compilation. Il traite les images
-RGB555, les objets animés VMD et le canal d’ambiance. Le lecteur fournit le son,
-Échap, le plein écran et l’accès à la barre originale. Retirer son iframe à
-`sceneleave` arrête l’interpréteur et ses sons. Les fichiers de session restent
-en mémoire ; ils ne sont pas persistés entre deux consultations.
+[development/engine.js](public/features/documents/development/engine.js) applique
+les divisions entières et les limites entre agriculture, climat et investissements.
+Son [ordonnanceur](public/features/documents/development/animation.js) gère les
+séquences d’ambiance ; les [ressources](public/game/documents/development/)
+contiennent les six explications, les quatre cas et l’animation de réussite.
+Le lecteur commun distingue les commentaires des situations obtenues et les
+encouragements du mode Reconstituer. Les douze documents utilisent JavaScript,
+Canvas et les médias exportés, sans interpréteur ni archives binaires du jeu.
 
 ## Station Sciences
 

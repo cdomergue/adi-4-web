@@ -34,4 +34,5 @@ Les comportements propres à chaque document sont décrits dans leurs référenc
 [équilibre de la nature](public/features/documents/ecosystem/README.md),
 [entreprise](public/features/documents/company/README.md),
 [pollution de l’eau](public/features/documents/water/README.md),
-[désertification](public/features/documents/desert/README.md).
+[désertification](public/features/documents/desert/README.md),
+[développement d’un pays](public/features/documents/development/README.md).

@@ -1,69 +1,21 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { readFile } from 'node:fs/promises';
-import { createHash } from 'node:crypto';
-import { documentFiles, nativeDocuments } from '../public/features/documents/native-config.js';
-const base = new URL('../public/game/documents/native/', import.meta.url);
-const manifest = JSON.parse(await readFile(new URL('manifest.json', base), 'utf8'));
+import { readFile, readdir } from 'node:fs/promises';
 
-test('documents load only their own CD archives and reject invalid selections', () => {
-  for (const id of ['s08']) {
-    assert.deepEqual(
-      documentFiles(id, manifest).map((f) => f.name),
-      ['INTRO.STK', 'AE63F421.CD1', 'CURSOR32.DLL', 'SIMULC.STK', 'SIMULC.ITK'],
+test('All documents run without bundled executable engines or original CD archives', async () => {
+  for (const path of ['game/documents/native', 'vendor/documents', 'documents'])
+    await assert.rejects(readdir(new URL(`../public/${path}`, import.meta.url)), {
+      code: 'ENOENT',
+    });
+  const manifest = JSON.parse(await readFile(new URL('../asset-manifest.json', import.meta.url)));
+  for (const { path } of manifest.files) {
+    assert.doesNotMatch(
+      path,
+      /public\/(?:vendor\/documents|documents\/player|game\/documents\/native)\//,
     );
+    if (path.startsWith('public/game/documents/'))
+      assert.doesNotMatch(path, /\.(?:STK|ITK|TOT|DTA|DTB|EXE|DLL|wasm)$/i);
   }
-  for (const id of [
-    'constructor',
-    '__proto__',
-    '../atlas',
-    'atlas',
-    's16',
-    's07',
-    's12',
-    's17',
-    's14',
-    '',
-    null,
-  ])
-    assert.throws(() => documentFiles(id, manifest), /inconnu/);
-  assert.throws(() => documentFiles('s08', { files: [] }), /invalide/);
-  const altered = structuredClone(manifest);
-  altered.files.find((f) => f.name === 'SIMULC.STK').size = -1;
-  assert.throws(() => documentFiles('s08', altered), /invalide/);
-});
-
-test('bundled archives contain each selected program and match their manifest hashes', async () => {
-  const archives = new Map();
-  for (const file of manifest.files) {
-    const bytes = await readFile(new URL(file.name, base));
-    assert.equal(bytes.length, file.size, file.name);
-    assert.equal(createHash('sha256').update(bytes).digest('hex'), file.sha256, file.name);
-    if (!/\.(STK|ITK)$/.test(file.name)) continue;
-    const names = new Set();
-    const count = bytes.readUInt16LE(0);
-    assert.ok(count > 0);
-    for (let i = 0; i < count; i++) {
-      const start = 2 + i * 22;
-      const name = bytes
-        .subarray(start, start + 13)
-        .toString('latin1')
-        .split('\0')[0]
-        .toUpperCase();
-      const length = bytes.readUInt32LE(start + 13),
-        offset = bytes.readUInt32LE(start + 17);
-      assert.ok(offset + length <= bytes.length, `${file.name}: ${name}`);
-      if (file.name.startsWith('SIMULC.'))
-        assert.doesNotMatch(
-          name,
-          /^(?:S(?:07|12|14|16|17)[_.]|SIMUL(?:07|12|14|16|17)\.|A_MUS(?:07|12|14|16|17)\.)/,
-          `JavaScript documents must not ship obsolete binary resources: ${name}`,
-        );
-      names.add(name);
-    }
-    archives.set(file.name, names);
-  }
-  assert.equal(new Set(Object.values(nativeDocuments).map((d) => d.program)).size, 1);
-  for (const spec of Object.values(nativeDocuments))
-    assert.ok(archives.get(`${spec.archive}.STK`).has(`${spec.program}.TOT`), spec.title);
+  const goblins = manifest.files.find(({ path }) => path === 'public/vendor/wgob3/scummvm.wasm');
+  assert.ok(goblins, 'The Goblins engine remains available');
 });

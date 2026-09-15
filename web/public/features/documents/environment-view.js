@@ -152,6 +152,11 @@ export async function renderEnvironment(main, config) {
     await Promise.all(Object.values(assets.explanations || {}).map(image));
     await Promise.all(Object.values(assets.ambientReactions || {}).map(image));
     await Promise.all(Object.values(assets.foregroundObjects || {}).map(image));
+    await Promise.all(
+      Object.values(assets.validation || {})
+        .filter((clip) => clip.src)
+        .map(image),
+    );
     if (leaving) return;
     state = createInitial(data);
     displayed = [...state.states];
@@ -277,7 +282,27 @@ export async function renderEnvironment(main, config) {
       popup.querySelector('[aria-pressed=true]')?.focus();
       status.textContent = `${data.labels[i]} : ${data.options[i][state.states[i]]}. Choisis un réglage.`;
     }
-    function finish() {
+    let validationCount = 0;
+    function originalFeedback() {
+      if (!config.originalFeedback) return;
+      if (mode === 'discover') {
+        const matched = data.cases.findIndex((example) => matchesCase(state, example));
+        if (matched >= 0) play(assets.caseAudio[`${prefix}_${String(matched).padStart(2, '0')}RQ`]);
+        return;
+      }
+      if (mode !== 'reconstruct') return;
+      const resource =
+        assets.validation[
+          config.engine.feedbackName(state, data.cases[caseIndex], ++validationCount)
+        ];
+      if (!resource) return;
+      if (resource.src) {
+        stopEffects();
+        explanationQueue = [resource];
+        nextExplanation(performance.now());
+      } else play(resource);
+    }
+    function finish(completed = false) {
       steps = [];
       activeStep = null;
       displayed = [...state.states];
@@ -286,6 +311,7 @@ export async function renderEnvironment(main, config) {
       stage.removeAttribute('aria-busy');
       summary();
       status.textContent = config.summary(data, state);
+      if (completed) originalFeedback();
     }
     function update(next, changed = null) {
       closePopup();
@@ -300,14 +326,14 @@ export async function renderEnvironment(main, config) {
       activeStep = null;
       busy = steps.length > 0;
       stage.setAttribute('aria-busy', String(busy));
-      if (!busy) finish();
+      if (!busy) finish(true);
     }
     function nextStep(now) {
       if (activeStep) displayed[activeStep.element] = activeStep.state;
       activeStep = steps.shift();
       started = now;
       if (!activeStep) {
-        finish();
+        finish(true);
         return;
       }
       const { element, clip, reverse } = activeStep;
@@ -506,7 +532,8 @@ export async function renderEnvironment(main, config) {
         closeDialog();
         summary();
         const name = `${prefix}_${String(caseIndex).padStart(2, '0')}RQ`;
-        play(assets.caseAudio?.[name] || assets.presentations?.[name]);
+        if (!config.originalFeedback)
+          play(assets.caseAudio?.[name] || assets.presentations?.[name]);
         return;
       }
       const action = el.dataset.action;
@@ -570,7 +597,8 @@ export async function renderEnvironment(main, config) {
         status.textContent = success
           ? 'Bravo ! Tu as reconstitué cette situation.'
           : 'Il reste des réglages à corriger. Les explications des éléments peuvent t’aider.';
-        if (success) {
+        if (config.originalFeedback) originalFeedback();
+        else if (success) {
           const name = `${prefix}_${String(caseIndex).padStart(2, '0')}BR`;
           play(assets.feedback?.[name] || assets.presentations?.[name]);
         }
