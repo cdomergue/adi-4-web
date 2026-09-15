@@ -3,6 +3,8 @@ const canvas = document.querySelector('#canvas');
 const status = document.querySelector('#status');
 const saveStatus = document.querySelector('#save-status');
 const start = document.querySelector('#start');
+const mouseLock = document.querySelector('#mouse-lock');
+const canCaptureMouse = typeof canvas.requestPointerLock === 'function';
 const requestedGame = new URLSearchParams(location.search).get('game') || 'wgob3';
 const target = /^wgob[123]$/.test(requestedGame) ? requestedGame : 'wgob3';
 const gameId = target.slice(1);
@@ -25,6 +27,9 @@ let fsReady = false;
 let lastPointer = {x: 320, y: 240};
 
 function fail(message) {
+  started = false;
+  mouseLock.disabled = true;
+  if (document.pointerLockElement === canvas) document.exitPointerLock();
   status.textContent = message;
   document.querySelector('#loading').hidden = false;
   start.disabled = true;
@@ -106,6 +111,7 @@ start.onclick = () => {
   document.querySelector('#menu').disabled = false;
   document.querySelector('#skip').disabled = false;
   document.querySelector('#right-click').disabled = false;
+  mouseLock.disabled = false;
   // Restore before launching so the engine never reads a half-replaced save set.
   document.querySelector('#import').disabled = true;
   canvas.focus();
@@ -114,6 +120,39 @@ start.onclick = () => {
 };
 
 canvas.addEventListener('contextmenu', event => event.preventDefault());
+function captureUnavailable() {
+  saveStatus.textContent = 'Capture de souris indisponible. Tu peux continuer à jouer sans capture ou essayer le plein écran.';
+}
+async function captureMouse() {
+  if (!started || document.pointerLockElement === canvas) return;
+  canvas.focus({preventScroll: true});
+  try {
+    if (!canCaptureMouse) return captureUnavailable();
+    // SDL2 already consumes relative motion while locked and bounds the game cursor.
+    await canvas.requestPointerLock();
+  } catch {
+    captureUnavailable();
+  }
+}
+mouseLock.onclick = captureMouse;
+document.addEventListener('pointerlockerror', captureUnavailable);
+canvas.addEventListener('click', event => {
+  if (event.pointerType === 'mouse') void captureMouse();
+});
+document.addEventListener('pointerlockchange', () => {
+  const locked = document.pointerLockElement === canvas;
+  mouseLock.textContent = locked ? 'Souris capturée · Échap pour libérer' : 'Capturer la souris';
+  mouseLock.setAttribute('aria-pressed', String(locked));
+});
+window.addEventListener('keydown', event => {
+  if (event.key !== 'Escape' || document.pointerLockElement !== canvas) return;
+  event.preventDefault();
+  event.stopImmediatePropagation();
+  document.exitPointerLock();
+}, true);
+window.addEventListener('pagehide', () => {
+  if (document.pointerLockElement === canvas) document.exitPointerLock();
+});
 canvas.addEventListener('pointermove', event => { lastPointer = {x: event.clientX, y: event.clientY}; });
 document.querySelector('#menu').onclick = () => {
   canvas.focus();

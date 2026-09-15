@@ -140,6 +140,10 @@ accepte le paramètre `game=wgob1`, `game=wgob2` ou `game=wgob3` ; sans paramèt
 il conserve Goblins 3. Les [licences du moteur](public/vendor/wgob3/COPYING) sont
 fournies avec le binaire. Le tableau de bord se trouve en bas dans Gobliiins,
 en haut dans les deux suivants.
+Un clic de souris dans le jeu capture le pointeur lorsque le navigateur le permet.
+Le curseur reste dans le jeu pour faire défiler les décors aux bords gauche et droit.
+Échap libère la souris ; un nouveau clic la capture à nouveau. Le bouton
+« Capturer la souris » offre le même accès et « Passer · Échap » passe le générique.
 
 Mr. Matt propose les sons originaux et une option « Déplacements réfléchis »
 désactivée par défaut. Une démonstration originale de Mr. Matt II est incomplète
