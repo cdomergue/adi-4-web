@@ -7,13 +7,13 @@ const base = new URL('../public/game/documents/native/', import.meta.url);
 const manifest = JSON.parse(await readFile(new URL('manifest.json', base), 'utf8'));
 
 test('documents load only their own CD archives and reject invalid selections', () => {
-  for (const id of ['s17', 's12', 's14', 's07', 's08']) {
+  for (const id of ['s17', 's12', 's14', 's08']) {
     assert.deepEqual(
       documentFiles(id, manifest).map((f) => f.name),
       ['INTRO.STK', 'AE63F421.CD1', 'CURSOR32.DLL', 'SIMULC.STK', 'SIMULC.ITK'],
     );
   }
-  for (const id of ['constructor', '__proto__', '../atlas', 'atlas', 's16', '', null])
+  for (const id of ['constructor', '__proto__', '../atlas', 'atlas', 's16', 's07', '', null])
     assert.throws(() => documentFiles(id, manifest), /inconnu/);
   assert.throws(() => documentFiles('s17', { files: [] }), /invalide/);
   const altered = structuredClone(manifest);
@@ -21,13 +21,13 @@ test('documents load only their own CD archives and reject invalid selections', 
   assert.throws(() => documentFiles('s17', altered), /invalide/);
 });
 
-test('bundled CD archives contain each selected program and match their original hashes', async () => {
+test('bundled archives contain each selected program and match their manifest hashes', async () => {
   const archives = new Map();
   for (const file of manifest.files) {
     const bytes = await readFile(new URL(file.name, base));
     assert.equal(bytes.length, file.size, file.name);
     assert.equal(createHash('sha256').update(bytes).digest('hex'), file.sha256, file.name);
-    if (!file.name.endsWith('.STK')) continue;
+    if (!/\.(STK|ITK)$/.test(file.name)) continue;
     const names = new Set();
     const count = bytes.readUInt16LE(0);
     assert.ok(count > 0);
@@ -41,11 +41,14 @@ test('bundled CD archives contain each selected program and match their original
       const length = bytes.readUInt32LE(start + 13),
         offset = bytes.readUInt32LE(start + 17);
       assert.ok(offset + length <= bytes.length, `${file.name}: ${name}`);
+      if (file.name.startsWith('SIMULC.'))
+        assert.doesNotMatch(name, /^(?:S(?:07|16)[_.]|SIMUL(?:07|16)\.|A_MUS(?:07|16)\.)/,
+          `JavaScript documents must not ship obsolete binary resources: ${name}`);
       names.add(name);
     }
     archives.set(file.name, names);
   }
-  assert.equal(new Set(Object.values(nativeDocuments).map((d) => d.program)).size, 5);
+  assert.equal(new Set(Object.values(nativeDocuments).map((d) => d.program)).size, 4);
   for (const spec of Object.values(nativeDocuments))
     assert.ok(archives.get(`${spec.archive}.STK`).has(`${spec.program}.TOT`), spec.title);
 });

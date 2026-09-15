@@ -110,8 +110,16 @@ avec validation et solution. « Comprendre » donne accès aux explications.
 Les voix, bruitages, fumées, nuages et réactions sont inclus dans les
 [ressources du document](public/game/documents/air/).
 
-Les cinq autres simulations portent sur la pollution de l’eau, l’entreprise,
-la désertification, l’équilibre de la nature et le développement d’un pays.
+[L’équilibre de la nature](public/features/documents/ecosystem/README.md) fonctionne
+en JavaScript avec les réglages de pollution, de chasse, de protection vétérinaire
+et d’agriculture. Les populations de lapins et de renards, les herbages, la
+végétation et les dégâts aux cultures suivent les calculs du jeu. Les séquences
+originales animent chaque étape ; les six explications animées montrent les liens
+de l’écosystème dans le mode « Comprendre ». Trois situations proposent des
+indices, une validation et une solution.
+
+Les quatre autres simulations portent sur la pollution de l’eau, l’entreprise,
+la désertification et le développement d’un pays.
 Leurs paramètres se règlent dans les décors, avec les modes et les cas du jeu.
 Elles exécutent les scripts du CD avec un
 [moteur Gob dédié](public/vendor/documents/README.md).

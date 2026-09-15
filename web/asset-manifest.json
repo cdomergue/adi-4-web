@@ -5172,6 +5172,921 @@
       "sha256": "1f06db4f0171f65832735079024b5eaa90dc2d36c24a337ea292d47d5ccebceb"
     },
     {
+      "path": "public/game/documents/ecosystem/assets.json",
+      "size": 67132,
+      "sha256": "1dd28448c1318c6b38e37507707ecfb93af7376aaa8726669b5f9e367be0c4aa"
+    },
+    {
+      "path": "public/game/documents/ecosystem/audio/a_mus07.wav",
+      "size": 953036,
+      "sha256": "2a21398fa05c7052150cca4cd08fd9b22ca7462f570f22aba4a2bbc9647f1593"
+    },
+    {
+      "path": "public/game/documents/ecosystem/audio/s07_00rq.wav",
+      "size": 145574,
+      "sha256": "1503122cda76e9c080ed98cbe43735f319409f45863685272c77233ee8414b22"
+    },
+    {
+      "path": "public/game/documents/ecosystem/audio/s07_01br.wav",
+      "size": 198494,
+      "sha256": "a7eaaecea11ff4bc5592384058de8e93ae7bca31a9eca284f3419eee01070b96"
+    },
+    {
+      "path": "public/game/documents/ecosystem/audio/s07_01rq.wav",
+      "size": 127934,
+      "sha256": "51b49c29b53ae996fa34e561377290f78c1aec814d3f9e3742a0a5fd3b53966b"
+    },
+    {
+      "path": "public/game/documents/ecosystem/audio/s07_02rq.wav",
+      "size": 229364,
+      "sha256": "5633f23f7c9eddd2e6415d5284f3fbeb85e4f49ed8151c3a37621cb61937aaec"
+    },
+    {
+      "path": "public/game/documents/ecosystem/audio/s07_1s01.wav",
+      "size": 183842,
+      "sha256": "a4ed80fcec220c50a93e14a7ec6c653ec8506f2325ea5c5b0df1573eff368d9b"
+    },
+    {
+      "path": "public/game/documents/ecosystem/audio/s07_1s02.wav",
+      "size": 183796,
+      "sha256": "b05d9d45e2994920e2b68d817298562e6c12d9c38355b72baedf381e92bccd97"
+    },
+    {
+      "path": "public/game/documents/ecosystem/audio/s07_1s03.wav",
+      "size": 183822,
+      "sha256": "fe55e809e0500e308b40e2ef7ded038b6b923cfedb8419ea952e53fee0773077"
+    },
+    {
+      "path": "public/game/documents/ecosystem/audio/s07_8s01.wav",
+      "size": 283096,
+      "sha256": "1d5c6ff9d5aa04e190898909d504ff8cf3c8ab53ed2188620e9c3cc68edd0f95"
+    },
+    {
+      "path": "public/game/documents/ecosystem/audio/s07_8s02.wav",
+      "size": 408080,
+      "sha256": "ebda483b6b085ea70fc2cddd449a56009c4902bd545ea7f58629f0e5f9023630"
+    },
+    {
+      "path": "public/game/documents/ecosystem/audio/s07_9s01.wav",
+      "size": 183830,
+      "sha256": "4fb1f46f1f7b8a506cd4808083239774651b2365be36450b2acb3257166e818e"
+    },
+    {
+      "path": "public/game/documents/ecosystem/audio/s07_9s02.wav",
+      "size": 165464,
+      "sha256": "a9efe69d2fd34fe3c9c41a241dd94f575c2f60487c43b2673ae40f307e4e9283"
+    },
+    {
+      "path": "public/game/documents/ecosystem/audio/s07_9s03.wav",
+      "size": 187518,
+      "sha256": "f332a2f5bf29facda4ff40d72df72ca53100626d06bee65b2aa203680299563d"
+    },
+    {
+      "path": "public/game/documents/ecosystem/audio/s07_re00.wav",
+      "size": 433808,
+      "sha256": "27429caab509cec45c450f4aae8cb3d25c04169b5a1e7285c35c36c3857d491f"
+    },
+    {
+      "path": "public/game/documents/ecosystem/audio/s07_re01.wav",
+      "size": 584528,
+      "sha256": "db23b4bc570c2dec5f5c6eaded6fd4a58a10b0943d91d115ae26e5d722db389b"
+    },
+    {
+      "path": "public/game/documents/ecosystem/audio/s07_re02.wav",
+      "size": 419076,
+      "sha256": "6cbb84da3f10846379ed566f63d432a345fa3518fcabfc30f6b790e918cf09de"
+    },
+    {
+      "path": "public/game/documents/ecosystem/audio/s07_re03.wav",
+      "size": 426432,
+      "sha256": "c920943ac67f1e67a00a7a481d877b06a7cf76796c1950f46fda9a6c998c8f2d"
+    },
+    {
+      "path": "public/game/documents/ecosystem/audio/s07_re04.wav",
+      "size": 536698,
+      "sha256": "a8c413e3fafb88ce5c046962d38158853ff47b5d78c9d52af0cec00a9fbf71f2"
+    },
+    {
+      "path": "public/game/documents/ecosystem/audio/s07_re05.wav",
+      "size": 441148,
+      "sha256": "2c2a7ce93d6bb38b0d47600be20e9dca2b17f19d5dce405b37d29ea194d0ca14"
+    },
+    {
+      "path": "public/game/documents/ecosystem/audio/s07_vo.wav",
+      "size": 661544,
+      "sha256": "005a42e398d45ef5cf8a6a2dbfac81921f1cd1b8d037e1256f63e5949a01deaf"
+    },
+    {
+      "path": "public/game/documents/ecosystem/audio/sbru003.wav",
+      "size": 75048,
+      "sha256": "f561df697b809c7a010e8fb9360029cde9bf86abf2f9ca6b7ffd16d8d15c8b50"
+    },
+    {
+      "path": "public/game/documents/ecosystem/audio/sbru018.wav",
+      "size": 141228,
+      "sha256": "0e8162f6f66f8c48eb9a44daf6a7f5d0934aa7000ba25f4c6c7e61db90912836"
+    },
+    {
+      "path": "public/game/documents/ecosystem/audio/sbru019.wav",
+      "size": 141228,
+      "sha256": "567a434086a47452e20846f2aff371946ec19543fd44c620c23b389389330e85"
+    },
+    {
+      "path": "public/game/documents/ecosystem/audio/sbru021.wav",
+      "size": 180936,
+      "sha256": "3b4ba56171a6af0471a6a772de07bb5cdf3b7f9cc7b42e1d33e9430b8c6d4ff7"
+    },
+    {
+      "path": "public/game/documents/ecosystem/audio/sbru032.wav",
+      "size": 176524,
+      "sha256": "657dc050a90b5d4ec85bb5a0cbdaf962d455c9001d58eaac42902c799732902a"
+    },
+    {
+      "path": "public/game/documents/ecosystem/audio/sbru034.wav",
+      "size": 127992,
+      "sha256": "428724cff73683b09c28492b1dba543ca0d94711aea0a3c1b937ce0fee395208"
+    },
+    {
+      "path": "public/game/documents/ecosystem/audio/sbru036.wav",
+      "size": 127992,
+      "sha256": "ecd54df86994f44aeeda21b69f35220684167c9cfeb8bca8fc905c823c5b1916"
+    },
+    {
+      "path": "public/game/documents/ecosystem/audio/sbru065.wav",
+      "size": 141228,
+      "sha256": "111d41b6c59d785b65e2c6a80c74da03c46e3133c7c7d67e6347378d1deb2212"
+    },
+    {
+      "path": "public/game/documents/ecosystem/audio/sbru066.wav",
+      "size": 57400,
+      "sha256": "d4e21dcb4874b774064c70b323d06d098340e3ff3365dff16e268ebf40f27641"
+    },
+    {
+      "path": "public/game/documents/ecosystem/audio/sbru067.wav",
+      "size": 105932,
+      "sha256": "4cb0f781d4a883e1a1be57c068171e8e6daa02d1d5c4b4c35c92374570d31d5a"
+    },
+    {
+      "path": "public/game/documents/ecosystem/audio/sbru068.wav",
+      "size": 110344,
+      "sha256": "f4978bde5c27ca64563218938e296a91bfa6f9d607cf29457f42a1301b416161"
+    },
+    {
+      "path": "public/game/documents/ecosystem/audio/sbru106.wav",
+      "size": 216232,
+      "sha256": "51f598136a3930f66c5e57e588a7b10546605767a7a0f4edf54bc98f0a6e88ca"
+    },
+    {
+      "path": "public/game/documents/ecosystem/audio/sbru108.wav",
+      "size": 220644,
+      "sha256": "851e69dafc29808aefa98b8b0b3b9ecbd4ba45ba1f3def3fc605c5d70794a954"
+    },
+    {
+      "path": "public/game/documents/ecosystem/audio/sbru110.wav",
+      "size": 57378,
+      "sha256": "19ccfd5c3b091b2a1989eb5a544ffc955eff4968d66dc80139ad4c6d603c241c"
+    },
+    {
+      "path": "public/game/documents/ecosystem/audio/sbru116.wav",
+      "size": 194172,
+      "sha256": "ce36f87c9ba80071ffcd905ed55dcd0ad16ca645eda08799fd98ec26ff6b3227"
+    },
+    {
+      "path": "public/game/documents/ecosystem/audio/sbru117.wav",
+      "size": 154464,
+      "sha256": "4dd7de144b2a7476a61197289f4fa51d61d97d5ce2682ab64f0718e485ac9c62"
+    },
+    {
+      "path": "public/game/documents/ecosystem/audio/sbru168.wav",
+      "size": 75048,
+      "sha256": "a6f32fd42d43ae2048d0df7e2736937e11fda059fa2184dc4348b062d30b3f50"
+    },
+    {
+      "path": "public/game/documents/ecosystem/images/s07_0d00.webp",
+      "size": 404,
+      "sha256": "b1fdfa6ecc964fe11c94c1b17f783126aad0a97e4fc3bf4dced88fd875a25a0b"
+    },
+    {
+      "path": "public/game/documents/ecosystem/images/s07_0d01-frames.webp",
+      "size": 4092,
+      "sha256": "6019b2861b9fc44553b385bf42e2e85ed00a9112cd65d742e4be1ce74fd9bbfb"
+    },
+    {
+      "path": "public/game/documents/ecosystem/images/s07_0d02-frames.webp",
+      "size": 3994,
+      "sha256": "9b2cca0f1f2786b417ef7b554f60d460915dd7a0c86c7499171d3c064d78e6fa"
+    },
+    {
+      "path": "public/game/documents/ecosystem/images/s07_0d03-frames.webp",
+      "size": 2556,
+      "sha256": "20ce53716d4adb6f6e08a16d749665997c67510dbfe1ee4dbc01fed5b1ff3b4c"
+    },
+    {
+      "path": "public/game/documents/ecosystem/images/s07_0d04-frames.webp",
+      "size": 3306,
+      "sha256": "b108eed19e8b2da6a93ff45d6d40c37cedea6e79b12ac78265b3a697fd75268d"
+    },
+    {
+      "path": "public/game/documents/ecosystem/images/s07_0h-frames.webp",
+      "size": 860,
+      "sha256": "dd2a3492599baa0b29294de2f5bc0624ba5f83d4a53d18961ce5310873f721b9"
+    },
+    {
+      "path": "public/game/documents/ecosystem/images/s07_0i00.webp",
+      "size": 404,
+      "sha256": "b1fdfa6ecc964fe11c94c1b17f783126aad0a97e4fc3bf4dced88fd875a25a0b"
+    },
+    {
+      "path": "public/game/documents/ecosystem/images/s07_0i01-frames.webp",
+      "size": 4088,
+      "sha256": "47bd4298cc657e8efb6ac8ca2b80a53cd72b22c7bde1d0271d61a7639be041be"
+    },
+    {
+      "path": "public/game/documents/ecosystem/images/s07_0i02-frames.webp",
+      "size": 3918,
+      "sha256": "d1ce64029622e77611fc02e977d4016a442aaa291be8033ce38e06e2647a0b44"
+    },
+    {
+      "path": "public/game/documents/ecosystem/images/s07_0i03-frames.webp",
+      "size": 2548,
+      "sha256": "d27a703abc09cda2a766ad313c8b52b9a9890ccf7a79364571eacb096979b2db"
+    },
+    {
+      "path": "public/game/documents/ecosystem/images/s07_0i04-frames.webp",
+      "size": 3372,
+      "sha256": "e5be2e6ecd856f0cc658a4525047da27496df015babb1bfe535fa8dae6cd1114"
+    },
+    {
+      "path": "public/game/documents/ecosystem/images/s07_0s00-frames.webp",
+      "size": 1418,
+      "sha256": "ca43dfa9e3849f29700370a7f88ad1964a0611ac4a8a16a90ec70a21d6a90011"
+    },
+    {
+      "path": "public/game/documents/ecosystem/images/s07_0s01-frames.webp",
+      "size": 4066,
+      "sha256": "23936bab64eab502ae7f4ae503ccf571eb84d7c0e3ab3c9179373305f0e13f1a"
+    },
+    {
+      "path": "public/game/documents/ecosystem/images/s07_0s02-frames.webp",
+      "size": 4066,
+      "sha256": "23936bab64eab502ae7f4ae503ccf571eb84d7c0e3ab3c9179373305f0e13f1a"
+    },
+    {
+      "path": "public/game/documents/ecosystem/images/s07_0s03-frames.webp",
+      "size": 4324,
+      "sha256": "42a45dba34777f0a7cd728c9b1b30db7ddbbba5c85a3c273ed620029da30e0ae"
+    },
+    {
+      "path": "public/game/documents/ecosystem/images/s07_0s04-frames.webp",
+      "size": 4324,
+      "sha256": "42a45dba34777f0a7cd728c9b1b30db7ddbbba5c85a3c273ed620029da30e0ae"
+    },
+    {
+      "path": "public/game/documents/ecosystem/images/s07_1d00-frames.webp",
+      "size": 2518,
+      "sha256": "0bbd15a922f3661a39e68f81b1ad0510a230cf8df152bbe6da6bb6c511fba339"
+    },
+    {
+      "path": "public/game/documents/ecosystem/images/s07_1d01-frames.webp",
+      "size": 9140,
+      "sha256": "40f14951ed0c318eca52664a6b959298d711a74701addaa3f582319d1e166ab0"
+    },
+    {
+      "path": "public/game/documents/ecosystem/images/s07_1d02-frames.webp",
+      "size": 10590,
+      "sha256": "e8f6dbf7dab9387162b1fb699b1db350aa942bf368c2027bfebe815d71424689"
+    },
+    {
+      "path": "public/game/documents/ecosystem/images/s07_1d03-frames.webp",
+      "size": 16332,
+      "sha256": "5d065771eb5c7c5284321de9dce1fb2f7af298c5f6f6b6981fdeec13672466bb"
+    },
+    {
+      "path": "public/game/documents/ecosystem/images/s07_1h-frames.webp",
+      "size": 534,
+      "sha256": "1629c52ae2fcb9b5482df9199ba62018dfd182395d45da41dd8ae3db4bc3f222"
+    },
+    {
+      "path": "public/game/documents/ecosystem/images/s07_1i00-frames.webp",
+      "size": 2520,
+      "sha256": "bd99ae0c391c9f5e125c1197ad20efcc065120a88ac839846fc952ab97d4126c"
+    },
+    {
+      "path": "public/game/documents/ecosystem/images/s07_1i01-frames.webp",
+      "size": 8840,
+      "sha256": "5e90b6c296f4659b3a78ec6bcdc615d7bc5249ed0a71e75f004ab069fe255383"
+    },
+    {
+      "path": "public/game/documents/ecosystem/images/s07_1i02-frames.webp",
+      "size": 10154,
+      "sha256": "5edd75d354ac7fd309acd59c739b222a09ad6e2e04df83bbf2631e4dbe8b803d"
+    },
+    {
+      "path": "public/game/documents/ecosystem/images/s07_1i03-frames.webp",
+      "size": 16028,
+      "sha256": "16b4634457e7cba91567dbde91a721136e399181963167f094b7ce6b3fe14239"
+    },
+    {
+      "path": "public/game/documents/ecosystem/images/s07_1s00.webp",
+      "size": 34,
+      "sha256": "86be52bdb7547413cafb3ed175a806a798c65de98b40849e0b974c47d187de65"
+    },
+    {
+      "path": "public/game/documents/ecosystem/images/s07_1s01-frames.webp",
+      "size": 9720,
+      "sha256": "a73df709e98434e8fb56083db32cacc3084287d1dd6d35ca7bbca2d0b1c590df"
+    },
+    {
+      "path": "public/game/documents/ecosystem/images/s07_1s02-frames.webp",
+      "size": 10028,
+      "sha256": "47121a948ae9989190499ebae7bcc805ec4fe6a422c05a3a17dfb5bb7d5dfff5"
+    },
+    {
+      "path": "public/game/documents/ecosystem/images/s07_1s03-frames.webp",
+      "size": 16142,
+      "sha256": "afc4cce560af4f1fdc68dab34db7453bfb6a99de3e5d9b829142281b1d741b85"
+    },
+    {
+      "path": "public/game/documents/ecosystem/images/s07_2d00.webp",
+      "size": 1748,
+      "sha256": "99a1edb72571d69d8f5cf01571c474fd80f69c82d3adee028ed373b1a612d1db"
+    },
+    {
+      "path": "public/game/documents/ecosystem/images/s07_2d01.webp",
+      "size": 1060,
+      "sha256": "d67f5c18ff6e6d16a944930003273aa8195045a20e92994897b22cba4e6259dd"
+    },
+    {
+      "path": "public/game/documents/ecosystem/images/s07_2d02.webp",
+      "size": 34,
+      "sha256": "86be52bdb7547413cafb3ed175a806a798c65de98b40849e0b974c47d187de65"
+    },
+    {
+      "path": "public/game/documents/ecosystem/images/s07_2h-frames.webp",
+      "size": 530,
+      "sha256": "dbfed6ec6c3c3f4972de68f7d28579050e40eee0c8f0ed84cd2145f2be65e196"
+    },
+    {
+      "path": "public/game/documents/ecosystem/images/s07_2i00.webp",
+      "size": 1748,
+      "sha256": "99a1edb72571d69d8f5cf01571c474fd80f69c82d3adee028ed373b1a612d1db"
+    },
+    {
+      "path": "public/game/documents/ecosystem/images/s07_2i01.webp",
+      "size": 1060,
+      "sha256": "d67f5c18ff6e6d16a944930003273aa8195045a20e92994897b22cba4e6259dd"
+    },
+    {
+      "path": "public/game/documents/ecosystem/images/s07_2i02.webp",
+      "size": 34,
+      "sha256": "86be52bdb7547413cafb3ed175a806a798c65de98b40849e0b974c47d187de65"
+    },
+    {
+      "path": "public/game/documents/ecosystem/images/s07_2s00.webp",
+      "size": 34,
+      "sha256": "86be52bdb7547413cafb3ed175a806a798c65de98b40849e0b974c47d187de65"
+    },
+    {
+      "path": "public/game/documents/ecosystem/images/s07_2s01.webp",
+      "size": 34,
+      "sha256": "86be52bdb7547413cafb3ed175a806a798c65de98b40849e0b974c47d187de65"
+    },
+    {
+      "path": "public/game/documents/ecosystem/images/s07_2s02.webp",
+      "size": 34,
+      "sha256": "86be52bdb7547413cafb3ed175a806a798c65de98b40849e0b974c47d187de65"
+    },
+    {
+      "path": "public/game/documents/ecosystem/images/s07_3d00.webp",
+      "size": 34,
+      "sha256": "86be52bdb7547413cafb3ed175a806a798c65de98b40849e0b974c47d187de65"
+    },
+    {
+      "path": "public/game/documents/ecosystem/images/s07_3d01-frames.webp",
+      "size": 46834,
+      "sha256": "924261d4c25453dec1016ccdeadba2a4208021e7f081c614de68acdef8cd0cca"
+    },
+    {
+      "path": "public/game/documents/ecosystem/images/s07_3d02-frames.webp",
+      "size": 38636,
+      "sha256": "848040d4b2dee84de0d649997c1c6a39a98155c94d77037e3230e5a6ad6a6b47"
+    },
+    {
+      "path": "public/game/documents/ecosystem/images/s07_3i00.webp",
+      "size": 34,
+      "sha256": "86be52bdb7547413cafb3ed175a806a798c65de98b40849e0b974c47d187de65"
+    },
+    {
+      "path": "public/game/documents/ecosystem/images/s07_3i01-frames.webp",
+      "size": 46206,
+      "sha256": "fff9aa6c2f4537b8019f3181a7e5b321e12d38df0f85cebaead2f35ccc97d582"
+    },
+    {
+      "path": "public/game/documents/ecosystem/images/s07_3i02-frames.webp",
+      "size": 38594,
+      "sha256": "d9108fcba5c9c9b8599efb7e26c06b4a61d1e2b15e5d12ea902cc893d07f62ee"
+    },
+    {
+      "path": "public/game/documents/ecosystem/images/s07_3s00.webp",
+      "size": 34,
+      "sha256": "86be52bdb7547413cafb3ed175a806a798c65de98b40849e0b974c47d187de65"
+    },
+    {
+      "path": "public/game/documents/ecosystem/images/s07_3s01.webp",
+      "size": 34,
+      "sha256": "86be52bdb7547413cafb3ed175a806a798c65de98b40849e0b974c47d187de65"
+    },
+    {
+      "path": "public/game/documents/ecosystem/images/s07_3s02.webp",
+      "size": 34,
+      "sha256": "86be52bdb7547413cafb3ed175a806a798c65de98b40849e0b974c47d187de65"
+    },
+    {
+      "path": "public/game/documents/ecosystem/images/s07_4d00-frames.webp",
+      "size": 22132,
+      "sha256": "810ff54de90105b2cd965cbf3711a3a03023519ec0b86eeb9e0aa7fe034c51cc"
+    },
+    {
+      "path": "public/game/documents/ecosystem/images/s07_4d01-frames.webp",
+      "size": 36462,
+      "sha256": "8169e844927e39320995d47bbadc637ba75f6f903297f4d85a32929b4804b030"
+    },
+    {
+      "path": "public/game/documents/ecosystem/images/s07_4d02-frames.webp",
+      "size": 117588,
+      "sha256": "e082d1004de204930d35ec3a8703f83b71b5ec2c6ccf008869ed8932e923f55e"
+    },
+    {
+      "path": "public/game/documents/ecosystem/images/s07_4d03-frames.webp",
+      "size": 152198,
+      "sha256": "edad78a38af78c6799aeed65069a86f565c9c706af1bd1906cc66bf3864e4351"
+    },
+    {
+      "path": "public/game/documents/ecosystem/images/s07_4d04-frames.webp",
+      "size": 123902,
+      "sha256": "c29f8ac825f64d06a79d7dd9c6e49ee1176bba8afbefaaf2757cf9c5c2eca685"
+    },
+    {
+      "path": "public/game/documents/ecosystem/images/s07_4d05.webp",
+      "size": 34,
+      "sha256": "86be52bdb7547413cafb3ed175a806a798c65de98b40849e0b974c47d187de65"
+    },
+    {
+      "path": "public/game/documents/ecosystem/images/s07_4i00-frames.webp",
+      "size": 22132,
+      "sha256": "810ff54de90105b2cd965cbf3711a3a03023519ec0b86eeb9e0aa7fe034c51cc"
+    },
+    {
+      "path": "public/game/documents/ecosystem/images/s07_4i01-frames.webp",
+      "size": 35986,
+      "sha256": "9918ad38e395351e6b33b39a886bf35a23bc14489557764c205b059fb7716843"
+    },
+    {
+      "path": "public/game/documents/ecosystem/images/s07_4i02-frames.webp",
+      "size": 115428,
+      "sha256": "825efe4c847393d148158c1335a16d3a70e93aaccba231aa4ba09c06a5807b5e"
+    },
+    {
+      "path": "public/game/documents/ecosystem/images/s07_4i03-frames.webp",
+      "size": 155512,
+      "sha256": "2752dcf77a83837f0f8269a522ca3a9a136fada95e5f70a1e7abfd44f444cee3"
+    },
+    {
+      "path": "public/game/documents/ecosystem/images/s07_4i04-frames.webp",
+      "size": 125782,
+      "sha256": "1ff143b78bcad11469e3e7702c02edbde8c570b5868fc78defc1c1011436c060"
+    },
+    {
+      "path": "public/game/documents/ecosystem/images/s07_4i05.webp",
+      "size": 34,
+      "sha256": "86be52bdb7547413cafb3ed175a806a798c65de98b40849e0b974c47d187de65"
+    },
+    {
+      "path": "public/game/documents/ecosystem/images/s07_4s00.webp",
+      "size": 34,
+      "sha256": "86be52bdb7547413cafb3ed175a806a798c65de98b40849e0b974c47d187de65"
+    },
+    {
+      "path": "public/game/documents/ecosystem/images/s07_4s01.webp",
+      "size": 34,
+      "sha256": "86be52bdb7547413cafb3ed175a806a798c65de98b40849e0b974c47d187de65"
+    },
+    {
+      "path": "public/game/documents/ecosystem/images/s07_4s02.webp",
+      "size": 34,
+      "sha256": "86be52bdb7547413cafb3ed175a806a798c65de98b40849e0b974c47d187de65"
+    },
+    {
+      "path": "public/game/documents/ecosystem/images/s07_5d00.webp",
+      "size": 34,
+      "sha256": "86be52bdb7547413cafb3ed175a806a798c65de98b40849e0b974c47d187de65"
+    },
+    {
+      "path": "public/game/documents/ecosystem/images/s07_5d01-frames.webp",
+      "size": 4684,
+      "sha256": "a3d1069e85bd41b6596b45e87bb4ecefdf3bead3fb2de254449e497ebb0d4278"
+    },
+    {
+      "path": "public/game/documents/ecosystem/images/s07_5d02-frames.webp",
+      "size": 5316,
+      "sha256": "12be92023a7c30e4b87a9452789b5a65738295a29b4e8f72e49dd0e686ae9db8"
+    },
+    {
+      "path": "public/game/documents/ecosystem/images/s07_5d03-frames.webp",
+      "size": 9230,
+      "sha256": "9832dcc055e46f9aa96fe0691a76bae2e478233277c6c16d7f6cfda3fa979ce9"
+    },
+    {
+      "path": "public/game/documents/ecosystem/images/s07_5d04-frames.webp",
+      "size": 10260,
+      "sha256": "f18fb1c99ecb3d451e2795ee10279e97c8bbb06b7abb5a3a991f0a7137c3c69a"
+    },
+    {
+      "path": "public/game/documents/ecosystem/images/s07_5i00.webp",
+      "size": 34,
+      "sha256": "86be52bdb7547413cafb3ed175a806a798c65de98b40849e0b974c47d187de65"
+    },
+    {
+      "path": "public/game/documents/ecosystem/images/s07_5i01-frames.webp",
+      "size": 4896,
+      "sha256": "f25f48942f603102a2fb545aeb8fea31da71b4b833f67f32a88db3a180341f0f"
+    },
+    {
+      "path": "public/game/documents/ecosystem/images/s07_5i02-frames.webp",
+      "size": 5328,
+      "sha256": "9325ded0b4fd65e27cf05ba9608e0132bc7c41fe1b7360048ae63a46b250b052"
+    },
+    {
+      "path": "public/game/documents/ecosystem/images/s07_5i03-frames.webp",
+      "size": 9092,
+      "sha256": "8823655401c0c0b8cc66674d0e47e8ed4a0337751ac12fa776bd0d1314a1f124"
+    },
+    {
+      "path": "public/game/documents/ecosystem/images/s07_5i04-frames.webp",
+      "size": 10116,
+      "sha256": "1962191e2f8512b6502b31dee777c91e6bdda73130562d0ba2c7815fc2804a6e"
+    },
+    {
+      "path": "public/game/documents/ecosystem/images/s07_5s00.webp",
+      "size": 34,
+      "sha256": "86be52bdb7547413cafb3ed175a806a798c65de98b40849e0b974c47d187de65"
+    },
+    {
+      "path": "public/game/documents/ecosystem/images/s07_5s01-frames.webp",
+      "size": 2526,
+      "sha256": "53db4291e3fa8fac467d3d441b294b7d81f816d79f54d8e9f2fadea6ed55e922"
+    },
+    {
+      "path": "public/game/documents/ecosystem/images/s07_5s02-frames.webp",
+      "size": 4192,
+      "sha256": "70014537787add17613f0a75fc2a17a4f565045ae33a2ca6ace2cce546bde64e"
+    },
+    {
+      "path": "public/game/documents/ecosystem/images/s07_5s03-frames.webp",
+      "size": 7940,
+      "sha256": "a071481fc335f52928e7030b44d90f9dcf587bcd3af2bc2595c1ee28873eabe8"
+    },
+    {
+      "path": "public/game/documents/ecosystem/images/s07_5s04-frames.webp",
+      "size": 10266,
+      "sha256": "772989723d20d06d465d6423aa6710735b38f405f65349f41c9a0ee52ba50312"
+    },
+    {
+      "path": "public/game/documents/ecosystem/images/s07_6d00.webp",
+      "size": 34,
+      "sha256": "86be52bdb7547413cafb3ed175a806a798c65de98b40849e0b974c47d187de65"
+    },
+    {
+      "path": "public/game/documents/ecosystem/images/s07_6d01-frames.webp",
+      "size": 6920,
+      "sha256": "dbbdcf62b7d428305b445576b47b7e2162847e5331205628bd7a126cefe1c534"
+    },
+    {
+      "path": "public/game/documents/ecosystem/images/s07_6d02-frames.webp",
+      "size": 4004,
+      "sha256": "c3eab2b53cc1360c3a761a8f7e5a3d57fcf510d96902adf08bd439d29c18e0dc"
+    },
+    {
+      "path": "public/game/documents/ecosystem/images/s07_6d03-frames.webp",
+      "size": 5286,
+      "sha256": "c916432d1313da6a8a0150db974b42842ca8e790eb7c6b7cd82c48b064e0077f"
+    },
+    {
+      "path": "public/game/documents/ecosystem/images/s07_6d04-frames.webp",
+      "size": 5110,
+      "sha256": "e61022e6d66acad82dc785fe5098d6ea2a82de881f8d421830dbb6678ab63c56"
+    },
+    {
+      "path": "public/game/documents/ecosystem/images/s07_6i00.webp",
+      "size": 34,
+      "sha256": "86be52bdb7547413cafb3ed175a806a798c65de98b40849e0b974c47d187de65"
+    },
+    {
+      "path": "public/game/documents/ecosystem/images/s07_6i01-frames.webp",
+      "size": 6732,
+      "sha256": "21b0457ca8837285325fe2e089e98be599e2538401e4cce8de78494ca6bc0ad9"
+    },
+    {
+      "path": "public/game/documents/ecosystem/images/s07_6i02-frames.webp",
+      "size": 4080,
+      "sha256": "f11177ddc3dc493a8ed4b2bbaad42a4642cf6a95f4b1fa3b321e1164c2452dc5"
+    },
+    {
+      "path": "public/game/documents/ecosystem/images/s07_6i03-frames.webp",
+      "size": 5122,
+      "sha256": "1fb97d039faa13203235c5a3cecc69a4ba00cb0dec1e76921b21107c18d01141"
+    },
+    {
+      "path": "public/game/documents/ecosystem/images/s07_6i04-frames.webp",
+      "size": 5208,
+      "sha256": "d9b92fed6cc37f15d234e43ed1cc5f356d2341358ec9a9fef68bd0570b34d432"
+    },
+    {
+      "path": "public/game/documents/ecosystem/images/s07_6s00.webp",
+      "size": 34,
+      "sha256": "86be52bdb7547413cafb3ed175a806a798c65de98b40849e0b974c47d187de65"
+    },
+    {
+      "path": "public/game/documents/ecosystem/images/s07_6s01-frames.webp",
+      "size": 1490,
+      "sha256": "8987147c3e315fba43da4fe95872300330df5fd57f126e173cd8974ae51ad886"
+    },
+    {
+      "path": "public/game/documents/ecosystem/images/s07_6s02-frames.webp",
+      "size": 2072,
+      "sha256": "30b32dac2f4e3aadb6082ad2702b5c60cbf9af62abd312caacd2bc6bf0dbc121"
+    },
+    {
+      "path": "public/game/documents/ecosystem/images/s07_6s03-frames.webp",
+      "size": 2540,
+      "sha256": "7664c0102e7ebab954e1b91a397024d6e2749f11a6ebbb4502424471982f1b9b"
+    },
+    {
+      "path": "public/game/documents/ecosystem/images/s07_6s04-frames.webp",
+      "size": 3236,
+      "sha256": "b1499f308a3ae3455b604558f236e4800cfe7e4430b82d235d9ed2702ba3d134"
+    },
+    {
+      "path": "public/game/documents/ecosystem/images/s07_7d00-frames.webp",
+      "size": 46702,
+      "sha256": "c1ce6db0a5746aca70072e8d84198c2a5a5068433bb27feee80437485540a417"
+    },
+    {
+      "path": "public/game/documents/ecosystem/images/s07_7d01-frames.webp",
+      "size": 91460,
+      "sha256": "94861fdfb3005fbc94cb97177fc1f86af28021a6a65667ad43616ec9006ed7e5"
+    },
+    {
+      "path": "public/game/documents/ecosystem/images/s07_7d02-frames.webp",
+      "size": 34322,
+      "sha256": "2832b1f9898682ba0f9549cda66dae03bde9210131935fab770381053d17f31a"
+    },
+    {
+      "path": "public/game/documents/ecosystem/images/s07_7d03-frames.webp",
+      "size": 39230,
+      "sha256": "20b7b2c5b45fdaeeb8aa046016af374cb8a665bfcd66d927771e44f691df9169"
+    },
+    {
+      "path": "public/game/documents/ecosystem/images/s07_7d04-frames.webp",
+      "size": 43224,
+      "sha256": "6af74f9ff24a56c48fb4148384ac2ef00fef5e488a67df517e78ccb5d883ac8d"
+    },
+    {
+      "path": "public/game/documents/ecosystem/images/s07_7i00-frames.webp",
+      "size": 47216,
+      "sha256": "121dc20e698798d407d1a7e58e2c35c0e9783a00149099401f5d50557083f629"
+    },
+    {
+      "path": "public/game/documents/ecosystem/images/s07_7i01-frames.webp",
+      "size": 92658,
+      "sha256": "e1e7efded7c6009154f38051b53c2ea98fa6d28a4fdced45ab1b38e5bfbeb1da"
+    },
+    {
+      "path": "public/game/documents/ecosystem/images/s07_7i02-frames.webp",
+      "size": 34390,
+      "sha256": "fb240042e8801b1281e1842ea73988617d503bba5eb12468cf742a090663676c"
+    },
+    {
+      "path": "public/game/documents/ecosystem/images/s07_7i03-frames.webp",
+      "size": 39568,
+      "sha256": "22a8b8314fb82debc739321b2d3083793dc073872eabcd2524f36d5c85288ab1"
+    },
+    {
+      "path": "public/game/documents/ecosystem/images/s07_7i04-frames.webp",
+      "size": 43202,
+      "sha256": "283eb377ce3f8a63a1ceafad70a733154ca859cf1ddc4c9e1be3fe83ebba614a"
+    },
+    {
+      "path": "public/game/documents/ecosystem/images/s07_7s00.webp",
+      "size": 34,
+      "sha256": "86be52bdb7547413cafb3ed175a806a798c65de98b40849e0b974c47d187de65"
+    },
+    {
+      "path": "public/game/documents/ecosystem/images/s07_7s01.webp",
+      "size": 34,
+      "sha256": "86be52bdb7547413cafb3ed175a806a798c65de98b40849e0b974c47d187de65"
+    },
+    {
+      "path": "public/game/documents/ecosystem/images/s07_7s02.webp",
+      "size": 34,
+      "sha256": "86be52bdb7547413cafb3ed175a806a798c65de98b40849e0b974c47d187de65"
+    },
+    {
+      "path": "public/game/documents/ecosystem/images/s07_7s03.webp",
+      "size": 34,
+      "sha256": "86be52bdb7547413cafb3ed175a806a798c65de98b40849e0b974c47d187de65"
+    },
+    {
+      "path": "public/game/documents/ecosystem/images/s07_7s04.webp",
+      "size": 34,
+      "sha256": "86be52bdb7547413cafb3ed175a806a798c65de98b40849e0b974c47d187de65"
+    },
+    {
+      "path": "public/game/documents/ecosystem/images/s07_8d00.webp",
+      "size": 34,
+      "sha256": "86be52bdb7547413cafb3ed175a806a798c65de98b40849e0b974c47d187de65"
+    },
+    {
+      "path": "public/game/documents/ecosystem/images/s07_8d01.webp",
+      "size": 34,
+      "sha256": "86be52bdb7547413cafb3ed175a806a798c65de98b40849e0b974c47d187de65"
+    },
+    {
+      "path": "public/game/documents/ecosystem/images/s07_8d02.webp",
+      "size": 34,
+      "sha256": "86be52bdb7547413cafb3ed175a806a798c65de98b40849e0b974c47d187de65"
+    },
+    {
+      "path": "public/game/documents/ecosystem/images/s07_8i00.webp",
+      "size": 34,
+      "sha256": "86be52bdb7547413cafb3ed175a806a798c65de98b40849e0b974c47d187de65"
+    },
+    {
+      "path": "public/game/documents/ecosystem/images/s07_8i01.webp",
+      "size": 34,
+      "sha256": "86be52bdb7547413cafb3ed175a806a798c65de98b40849e0b974c47d187de65"
+    },
+    {
+      "path": "public/game/documents/ecosystem/images/s07_8i02.webp",
+      "size": 34,
+      "sha256": "86be52bdb7547413cafb3ed175a806a798c65de98b40849e0b974c47d187de65"
+    },
+    {
+      "path": "public/game/documents/ecosystem/images/s07_8s00.webp",
+      "size": 34,
+      "sha256": "86be52bdb7547413cafb3ed175a806a798c65de98b40849e0b974c47d187de65"
+    },
+    {
+      "path": "public/game/documents/ecosystem/images/s07_8s01-frames.webp",
+      "size": 20020,
+      "sha256": "e467ce5fb04bf3a1c03180437c04c6e2c00d1e05afc5e5573ca95fcded6869ff"
+    },
+    {
+      "path": "public/game/documents/ecosystem/images/s07_8s02-frames.webp",
+      "size": 35658,
+      "sha256": "c245c0c9f5082e2ef1f638998e8d185d1347b9c7d1f7226f7addf15f6372e044"
+    },
+    {
+      "path": "public/game/documents/ecosystem/images/s07_9d00.webp",
+      "size": 34,
+      "sha256": "86be52bdb7547413cafb3ed175a806a798c65de98b40849e0b974c47d187de65"
+    },
+    {
+      "path": "public/game/documents/ecosystem/images/s07_9d01.webp",
+      "size": 34,
+      "sha256": "86be52bdb7547413cafb3ed175a806a798c65de98b40849e0b974c47d187de65"
+    },
+    {
+      "path": "public/game/documents/ecosystem/images/s07_9d02.webp",
+      "size": 34,
+      "sha256": "86be52bdb7547413cafb3ed175a806a798c65de98b40849e0b974c47d187de65"
+    },
+    {
+      "path": "public/game/documents/ecosystem/images/s07_9d03.webp",
+      "size": 34,
+      "sha256": "86be52bdb7547413cafb3ed175a806a798c65de98b40849e0b974c47d187de65"
+    },
+    {
+      "path": "public/game/documents/ecosystem/images/s07_9i00.webp",
+      "size": 34,
+      "sha256": "86be52bdb7547413cafb3ed175a806a798c65de98b40849e0b974c47d187de65"
+    },
+    {
+      "path": "public/game/documents/ecosystem/images/s07_9i01.webp",
+      "size": 34,
+      "sha256": "86be52bdb7547413cafb3ed175a806a798c65de98b40849e0b974c47d187de65"
+    },
+    {
+      "path": "public/game/documents/ecosystem/images/s07_9i02.webp",
+      "size": 34,
+      "sha256": "86be52bdb7547413cafb3ed175a806a798c65de98b40849e0b974c47d187de65"
+    },
+    {
+      "path": "public/game/documents/ecosystem/images/s07_9i03.webp",
+      "size": 34,
+      "sha256": "86be52bdb7547413cafb3ed175a806a798c65de98b40849e0b974c47d187de65"
+    },
+    {
+      "path": "public/game/documents/ecosystem/images/s07_9s00.webp",
+      "size": 34,
+      "sha256": "86be52bdb7547413cafb3ed175a806a798c65de98b40849e0b974c47d187de65"
+    },
+    {
+      "path": "public/game/documents/ecosystem/images/s07_9s01-frames.webp",
+      "size": 11512,
+      "sha256": "320ab5b1404fb0bacdf5b703707a6af8b68b9db5fe1bc616ba519d33afbf636e"
+    },
+    {
+      "path": "public/game/documents/ecosystem/images/s07_9s02-frames.webp",
+      "size": 21546,
+      "sha256": "4d440cb4496295dfca8c2c25d1ca06c4c3ad39a45be0f8d405aef906f487f34e"
+    },
+    {
+      "path": "public/game/documents/ecosystem/images/s07_9s03-frames-0.webp",
+      "size": 52872,
+      "sha256": "77098ff585a30e45d32312d61ce182cb7a5342929a0af49a02545510a3ac057a"
+    },
+    {
+      "path": "public/game/documents/ecosystem/images/s07_9s03-frames-1.webp",
+      "size": 5996,
+      "sha256": "8639d3786db2e384ef9581cde48a0202ec4d6fe2bff03815f8b062fdd4f91271"
+    },
+    {
+      "path": "public/game/documents/ecosystem/images/s07_re00-frames.webp",
+      "size": 2508,
+      "sha256": "2f85be9b8bbf34a8aa726c7bc3ffb0a67d620ac29d13c1155c7452c2dbdf13bb"
+    },
+    {
+      "path": "public/game/documents/ecosystem/images/s07_re01-frames-0.webp",
+      "size": 2760,
+      "sha256": "2e1b406bf5cbb26b75f529c62461088e2f16cae9f53e73c49e1397f05342b786"
+    },
+    {
+      "path": "public/game/documents/ecosystem/images/s07_re01-frames-1.webp",
+      "size": 2112,
+      "sha256": "f2949dcab5a4681159f355ad67ff4e2126cbcef27facf0d605d1be081c56625a"
+    },
+    {
+      "path": "public/game/documents/ecosystem/images/s07_re02-frames.webp",
+      "size": 2692,
+      "sha256": "f67d5b033a595d032475ff02e204df91ecae99a1689f88a86a2be6b3c1bdf3bf"
+    },
+    {
+      "path": "public/game/documents/ecosystem/images/s07_re03-frames.webp",
+      "size": 940,
+      "sha256": "80fc1dd249b9f161e63858f17d3ab70ffc5ec89a3a0e22147d1e8fe9a2bb5367"
+    },
+    {
+      "path": "public/game/documents/ecosystem/images/s07_re04-frames.webp",
+      "size": 1778,
+      "sha256": "2ff4a99cd7ce55c5ecf3fb5649095defcac4b60d8642d4caa5332148bf00ea2f"
+    },
+    {
+      "path": "public/game/documents/ecosystem/images/s07_re05-frames.webp",
+      "size": 640,
+      "sha256": "0f8f7da9b640f9ecc8d89c18f1910b9e0524b5721707749bd178dfda09b4d4f7"
+    },
+    {
+      "path": "public/game/documents/ecosystem/images/simul07-background.webp",
+      "size": 97544,
+      "sha256": "ecac236852724a7197f8cddedc72f6b5410d812ef76ebf53155d04c05f70dd01"
+    },
+    {
+      "path": "public/game/documents/ecosystem/images/simul07-ui-0-mask.png",
+      "size": 141564,
+      "sha256": "dc4dcafe9f3e8d2c9e814830e813ffdcddbcd923c4c8610525828dd9fb85744b"
+    },
+    {
+      "path": "public/game/documents/ecosystem/images/simul07-ui-1-mask.png",
+      "size": 3754,
+      "sha256": "3ddd9909d5563138c2e64fb13819fc0d67e06b9cf1a671fc9451b338c8cf9a82"
+    },
+    {
+      "path": "public/game/documents/ecosystem/images/simul07-ui-1.webp",
+      "size": 1472,
+      "sha256": "5e778bf0562e4b4140fedf5c5b85d25a16920a8fdd3b075773dc221376c59e38"
+    },
+    {
+      "path": "public/game/documents/ecosystem/images/simul07-ui-2-mask.png",
+      "size": 2543,
+      "sha256": "e4dd703cdbe35b4e4852f3d5a25636b94511803225fefce1ff1ed805118ea38d"
+    },
+    {
+      "path": "public/game/documents/ecosystem/images/simul07-ui-2.webp",
+      "size": 1254,
+      "sha256": "669087df0204ce2b307a8fd19f303500fbd2bbaafcb62208e43f71af1a1cdcec"
+    },
+    {
+      "path": "public/game/documents/ecosystem/rules.json",
+      "size": 14452,
+      "sha256": "f13ade90d19307937d94dac6c283932b78d8c5552169e10686403924de00845e"
+    },
+    {
+      "path": "public/game/documents/ecosystem/simul07-palette.json",
+      "size": 3759,
+      "sha256": "0695ff488f559c6d744d87dde3aac4a09953abc5e44a216761d9180acffc3146"
+    },
+    {
       "path": "public/game/documents/espace/0-image.webp",
       "size": 156010,
       "sha256": "9a6c8e696e4899caa8af01243c56a635bee377abb53ecf045e76df23888a4e84"
@@ -6813,18 +7728,18 @@
     },
     {
       "path": "public/game/documents/native/SIMULC.ITK",
-      "size": 41940442,
-      "sha256": "49ff8cc0a61d4e9068218e5780cea1b6650f42ac5c070a194ca87cc5123f2a3f"
+      "size": 31243510,
+      "sha256": "e56f7d37ca453fb9b1366dd5dc9c2768dc260880b1eefd2d42f4e5d7d2d66bab"
     },
     {
       "path": "public/game/documents/native/SIMULC.STK",
-      "size": 2278066,
-      "sha256": "84d2a2487f2c19208fe1d7078cdfb7e9035e59425b1a2f63d0902af5ee3f4a13"
+      "size": 1726661,
+      "sha256": "2f4371a4d9fb3965af1d4d2e0cc9461414f2ec35baabca4d534b80cac7c1427b"
     },
     {
       "path": "public/game/documents/native/manifest.json",
       "size": 829,
-      "sha256": "cda65df82cdb308b31c67a34ad7e52d5ec155815dcd3f0be14dbc040fa86bb8f"
+      "sha256": "55d753153258d5e7e283ebfa575784441e383295c4548ecb2ef09e564414df8e"
     },
     {
       "path": "public/game/documents/planete/0-image.webp",
@@ -32058,8 +32973,8 @@
     },
     {
       "path": "public/vendor/documents/README.md",
-      "size": 1992,
-      "sha256": "201ed5a2e586d8b938b469f3feeef297e149ad245cdf6b59550c9f65b6731d72"
+      "size": 2404,
+      "sha256": "2064595b615d987090636f3480f8c24af0c8a83f3e4d7a3285aff5bcb4613c3f"
     },
     {
       "path": "public/vendor/documents/rebuild.sh",

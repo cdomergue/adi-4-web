@@ -19,13 +19,13 @@
     },
     {
       "name": "SIMULC.STK",
-      "size": 2278066,
-      "sha256": "84d2a2487f2c19208fe1d7078cdfb7e9035e59425b1a2f63d0902af5ee3f4a13"
+      "size": 1726661,
+      "sha256": "2f4371a4d9fb3965af1d4d2e0cc9461414f2ec35baabca4d534b80cac7c1427b"
     },
     {
       "name": "SIMULC.ITK",
-      "size": 41940442,
-      "sha256": "49ff8cc0a61d4e9068218e5780cea1b6650f42ac5c070a194ca87cc5123f2a3f"
+      "size": 31243510,
+      "sha256": "e56f7d37ca453fb9b1366dd5dc9c2768dc260880b1eefd2d42f4e5d7d2d66bab"
     }
   ]
 }

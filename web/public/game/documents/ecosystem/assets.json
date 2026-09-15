@@ -1,0 +1,2972 @@
+{
+  "format": 1,
+  "source": "ADI 4.21 Collège — Environnement, CD 1",
+  "palettes": {
+    "simul07": {
+      "src": "simul07-palette.json",
+      "source": "SIMULC.ITK/S07_0I00.VMD"
+    }
+  },
+  "ui": {
+    "30000": {
+      "source": "SIMULC.STK/SIMUL07.EXT",
+      "index": 0,
+      "src": "images/simul07-ui-0-mask.png",
+      "colorSrc": "images/simul07-background.webp",
+      "palette": "simul07-palette.json",
+      "kind": "indexed-background",
+      "width": 640,
+      "height": 480
+    },
+    "30001": {
+      "source": "SIMULC.STK/SIMUL07.EXT",
+      "index": 1,
+      "src": "images/simul07-ui-1-mask.png",
+      "colorSrc": "images/simul07-ui-1.webp",
+      "palette": "simul07-palette.json",
+      "kind": "mask",
+      "width": 640,
+      "height": 480
+    },
+    "30002": {
+      "source": "SIMULC.STK/SIMUL07.EXT",
+      "index": 2,
+      "src": "images/simul07-ui-2-mask.png",
+      "colorSrc": "images/simul07-ui-2.webp",
+      "palette": "simul07-palette.json",
+      "kind": "mask",
+      "width": 640,
+      "height": 480
+    }
+  },
+  "nativeUi": {
+    "sharedFrom": "documents/air/assets.json",
+    "bottomBar": {
+      "source": "SIMULC.STK/WIN_SIM.EXT",
+      "index": 0,
+      "src": "../air/images/win-sim-0.webp",
+      "width": 640,
+      "height": 80,
+      "sharedFrom": "documents/air/assets.json",
+      "sharedAsset": "bottomBar"
+    },
+    "bottomBarZones": [
+      {
+        "source": "SIMULC.STK/WIN_SIM.EXT",
+        "index": 1,
+        "src": "../air/images/win-sim-1.webp",
+        "width": 112,
+        "height": 80,
+        "sharedFrom": "documents/air/assets.json",
+        "sharedAsset": "bottomBarZones[0]"
+      },
+      {
+        "source": "SIMULC.STK/WIN_SIM.EXT",
+        "index": 2,
+        "src": "../air/images/win-sim-2.webp",
+        "width": 112,
+        "height": 80,
+        "sharedFrom": "documents/air/assets.json",
+        "sharedAsset": "bottomBarZones[1]"
+      },
+      {
+        "source": "SIMULC.STK/WIN_SIM.EXT",
+        "index": 3,
+        "src": "../air/images/win-sim-3.webp",
+        "width": 112,
+        "height": 80,
+        "sharedFrom": "documents/air/assets.json",
+        "sharedAsset": "bottomBarZones[2]"
+      },
+      {
+        "source": "SIMULC.STK/WIN_SIM.EXT",
+        "index": 4,
+        "src": "../air/images/win-sim-4.webp",
+        "width": 112,
+        "height": 80,
+        "sharedFrom": "documents/air/assets.json",
+        "sharedAsset": "bottomBarZones[3]"
+      },
+      {
+        "source": "SIMULC.STK/WIN_SIM.EXT",
+        "index": 5,
+        "src": "../air/images/win-sim-5.webp",
+        "width": 112,
+        "height": 80,
+        "sharedFrom": "documents/air/assets.json",
+        "sharedAsset": "bottomBarZones[4]"
+      },
+      {
+        "source": "SIMULC.STK/WIN_SIM.EXT",
+        "index": 6,
+        "src": "../air/images/win-sim-6.webp",
+        "width": 112,
+        "height": 80,
+        "sharedFrom": "documents/air/assets.json",
+        "sharedAsset": "bottomBarZones[5]"
+      },
+      {
+        "source": "SIMULC.STK/WIN_SIM.EXT",
+        "index": 7,
+        "src": "../air/images/win-sim-7.webp",
+        "width": 112,
+        "height": 80,
+        "sharedFrom": "documents/air/assets.json",
+        "sharedAsset": "bottomBarZones[6]"
+      },
+      {
+        "source": "SIMULC.STK/WIN_SIM.EXT",
+        "index": 8,
+        "src": "../air/images/win-sim-8.webp",
+        "width": 112,
+        "height": 80,
+        "sharedFrom": "documents/air/assets.json",
+        "sharedAsset": "bottomBarZones[7]"
+      },
+      {
+        "source": "SIMULC.STK/WIN_SIM.EXT",
+        "index": 9,
+        "src": "../air/images/win-sim-9.webp",
+        "width": 112,
+        "height": 80,
+        "sharedFrom": "documents/air/assets.json",
+        "sharedAsset": "bottomBarZones[8]"
+      },
+      {
+        "source": "SIMULC.STK/WIN_SIM.EXT",
+        "index": 10,
+        "src": "../air/images/win-sim-10.webp",
+        "width": 112,
+        "height": 80,
+        "sharedFrom": "documents/air/assets.json",
+        "sharedAsset": "bottomBarZones[9]"
+      },
+      {
+        "source": "SIMULC.STK/WIN_SIM.EXT",
+        "index": 11,
+        "src": "../air/images/win-sim-11.webp",
+        "width": 112,
+        "height": 80,
+        "sharedFrom": "documents/air/assets.json",
+        "sharedAsset": "bottomBarZones[10]"
+      }
+    ],
+    "choicePanel": {
+      "source": "SIMULC.STK/MOTEUR.EXT",
+      "index": 3,
+      "src": "../air/images/moteur-3.png",
+      "colorSrc": "../air/images/moteur-3.webp",
+      "palette": "../air/simul16-palette.json",
+      "kind": "indexed-ui",
+      "width": 335,
+      "height": 272,
+      "sharedFrom": "documents/air/assets.json",
+      "sharedAsset": "choicePanel"
+    },
+    "bottomControls": {
+      "BAFLE": {
+        "source": "SIMULC.ITK/BAFLE.VMD",
+        "width": 115,
+        "height": 79,
+        "frames": 20,
+        "fps": 12,
+        "origin": [
+          52,
+          400
+        ],
+        "src": "../air/images/bafle-frames.webp",
+        "format": "vertical-sprite-sheet",
+        "frameHeight": 79,
+        "transparentIndex": 0,
+        "sharedFrom": "documents/air/assets.json",
+        "sharedAsset": "bottomControls.BAFLE"
+      },
+      "INTERO": {
+        "source": "SIMULC.ITK/INTERO.VMD",
+        "width": 115,
+        "height": 79,
+        "frames": 24,
+        "fps": 12,
+        "origin": [
+          194,
+          400
+        ],
+        "src": "../air/images/intero-frames.webp",
+        "format": "vertical-sprite-sheet",
+        "frameHeight": 79,
+        "transparentIndex": 0,
+        "sharedFrom": "documents/air/assets.json",
+        "sharedAsset": "bottomControls.INTERO"
+      },
+      "ICOMODE": {
+        "source": "SIMULC.ITK/ICOMODE.VMD",
+        "width": 115,
+        "height": 79,
+        "frames": 12,
+        "fps": 12,
+        "origin": [
+          334,
+          400
+        ],
+        "src": "../air/images/icomode-frames.webp",
+        "format": "vertical-sprite-sheet",
+        "frameHeight": 79,
+        "transparentIndex": 0,
+        "sharedFrom": "documents/air/assets.json",
+        "sharedAsset": "bottomControls.ICOMODE"
+      },
+      "PORTE": {
+        "source": "SIMULC.ITK/PORTE.VMD",
+        "width": 115,
+        "height": 79,
+        "frames": 20,
+        "fps": 12,
+        "origin": [
+          473,
+          400
+        ],
+        "src": "../air/images/porte-frames.webp",
+        "format": "vertical-sprite-sheet",
+        "frameHeight": 79,
+        "transparentIndex": 0,
+        "sharedFrom": "documents/air/assets.json",
+        "sharedAsset": "bottomControls.PORTE"
+      }
+    }
+  },
+  "voice": {
+    "S07_VO": {
+      "source": "SIMULC.ITK/S07_VO.VMD",
+      "width": 0,
+      "height": 0,
+      "frames": 150,
+      "fps": 10.0,
+      "origin": [
+        0,
+        0
+      ],
+      "audio": "audio/s07_vo.wav",
+      "duration": 15.0
+    }
+  },
+  "ambience": {
+    "A_MUS07": {
+      "source": "SIMULC.ITK/A_MUS07.VMD",
+      "width": 0,
+      "height": 0,
+      "frames": 216,
+      "fps": 10.0,
+      "origin": [
+        0,
+        0
+      ],
+      "audio": "audio/a_mus07.wav",
+      "duration": 21.609795918367347
+    }
+  },
+  "audioEffects": {
+    "SBRU106": {
+      "source": "SIMULC.ITK/SBRU106.VMD",
+      "width": 0,
+      "height": 0,
+      "frames": 49,
+      "fps": 10.0,
+      "origin": [
+        0,
+        0
+      ],
+      "audio": "audio/sbru106.wav",
+      "duration": 4.902222222222222
+    },
+    "SBRU108": {
+      "source": "SIMULC.ITK/SBRU108.VMD",
+      "width": 0,
+      "height": 0,
+      "frames": 51,
+      "fps": 10.0,
+      "origin": [
+        0,
+        0
+      ],
+      "audio": "audio/sbru108.wav",
+      "duration": 5.0022675736961455
+    },
+    "SBRU110": {
+      "source": "SIMULC.ITK/SBRU110.VMD",
+      "width": 0,
+      "height": 0,
+      "frames": 2,
+      "fps": 10.0,
+      "origin": [
+        0,
+        0
+      ],
+      "audio": "audio/sbru110.wav",
+      "duration": 1.300090702947846
+    },
+    "SBRU116": {
+      "source": "SIMULC.ITK/SBRU116.VMD",
+      "width": 0,
+      "height": 0,
+      "frames": 44,
+      "fps": 10.0,
+      "origin": [
+        0,
+        0
+      ],
+      "audio": "audio/sbru116.wav",
+      "duration": 4.401995464852607
+    },
+    "SBRU117": {
+      "source": "SIMULC.ITK/SBRU117.VMD",
+      "width": 0,
+      "height": 0,
+      "frames": 36,
+      "fps": 10.0,
+      "origin": [
+        0,
+        0
+      ],
+      "audio": "audio/sbru117.wav",
+      "duration": 3.5015873015873016
+    },
+    "SBRU003": {
+      "source": "SIMULC.ITK/SBRU003.VMD",
+      "width": 0,
+      "height": 0,
+      "frames": 17,
+      "fps": 10.0,
+      "origin": [
+        0,
+        0
+      ],
+      "audio": "audio/sbru003.wav",
+      "duration": 1.7007709750566893
+    },
+    "SBRU018": {
+      "source": "SIMULC.ITK/SBRU018.VMD",
+      "width": 0,
+      "height": 0,
+      "frames": 32,
+      "fps": 10.0,
+      "origin": [
+        0,
+        0
+      ],
+      "audio": "audio/sbru018.wav",
+      "duration": 3.201451247165533
+    },
+    "SBRU019": {
+      "source": "SIMULC.ITK/SBRU019.VMD",
+      "width": 0,
+      "height": 0,
+      "frames": 32,
+      "fps": 10.0,
+      "origin": [
+        0,
+        0
+      ],
+      "audio": "audio/sbru019.wav",
+      "duration": 3.201451247165533
+    },
+    "SBRU021": {
+      "source": "SIMULC.ITK/SBRU021.VMD",
+      "width": 0,
+      "height": 0,
+      "frames": 41,
+      "fps": 10.0,
+      "origin": [
+        0,
+        0
+      ],
+      "audio": "audio/sbru021.wav",
+      "duration": 4.101859410430839
+    },
+    "SBRU032": {
+      "source": "SIMULC.ITK/SBRU032.VMD",
+      "width": 0,
+      "height": 0,
+      "frames": 40,
+      "fps": 10.0,
+      "origin": [
+        0,
+        0
+      ],
+      "audio": "audio/sbru032.wav",
+      "duration": 4.001814058956916
+    },
+    "SBRU034": {
+      "source": "SIMULC.ITK/SBRU034.VMD",
+      "width": 0,
+      "height": 0,
+      "frames": 29,
+      "fps": 10.0,
+      "origin": [
+        0,
+        0
+      ],
+      "audio": "audio/sbru034.wav",
+      "duration": 2.9013151927437644
+    },
+    "SBRU036": {
+      "source": "SIMULC.ITK/SBRU036.VMD",
+      "width": 0,
+      "height": 0,
+      "frames": 29,
+      "fps": 10.0,
+      "origin": [
+        0,
+        0
+      ],
+      "audio": "audio/sbru036.wav",
+      "duration": 2.9013151927437644
+    },
+    "SBRU065": {
+      "source": "SIMULC.ITK/SBRU065.VMD",
+      "width": 0,
+      "height": 0,
+      "frames": 32,
+      "fps": 10.0,
+      "origin": [
+        0,
+        0
+      ],
+      "audio": "audio/sbru065.wav",
+      "duration": 3.201451247165533
+    },
+    "SBRU066": {
+      "source": "SIMULC.ITK/SBRU066.VMD",
+      "width": 0,
+      "height": 0,
+      "frames": 13,
+      "fps": 10.0,
+      "origin": [
+        0,
+        0
+      ],
+      "audio": "audio/sbru066.wav",
+      "duration": 1.3005895691609977
+    },
+    "SBRU067": {
+      "source": "SIMULC.ITK/SBRU067.VMD",
+      "width": 0,
+      "height": 0,
+      "frames": 24,
+      "fps": 10.0,
+      "origin": [
+        0,
+        0
+      ],
+      "audio": "audio/sbru067.wav",
+      "duration": 2.4010884353741497
+    },
+    "SBRU068": {
+      "source": "SIMULC.ITK/SBRU068.VMD",
+      "width": 0,
+      "height": 0,
+      "frames": 25,
+      "fps": 10.0,
+      "origin": [
+        0,
+        0
+      ],
+      "audio": "audio/sbru068.wav",
+      "duration": 2.5011337868480727
+    },
+    "SBRU168": {
+      "source": "SIMULC.ITK/SBRU168.VMD",
+      "width": 0,
+      "height": 0,
+      "frames": 17,
+      "fps": 10.0,
+      "origin": [
+        0,
+        0
+      ],
+      "audio": "audio/sbru168.wav",
+      "duration": 1.7007709750566893
+    },
+    "SBRU001": {
+      "audio": "../air/audio/sbru001.wav"
+    }
+  },
+  "choiceEffects": [
+    [
+      "SBRU003",
+      "SBRU021",
+      "SBRU032",
+      "SBRU034",
+      "SBRU036"
+    ],
+    [
+      "SBRU001",
+      "SBRU066",
+      "SBRU065",
+      "SBRU067"
+    ],
+    [
+      "SBRU068",
+      "SBRU168",
+      "SILENCE"
+    ],
+    [
+      "SBRU001",
+      "SBRU018",
+      "SBRU019"
+    ]
+  ],
+  "reverseObjects": {
+    "0": [
+      {
+        "id": "S07_0D00",
+        "state": 0,
+        "source": "SIMULC.ITK/S07_0D00.VMD",
+        "width": 47,
+        "height": 33,
+        "frames": 1,
+        "fps": 12,
+        "origin": [
+          28,
+          120
+        ],
+        "src": "images/s07_0d00.webp",
+        "format": "still",
+        "transparentIndex": 0
+      },
+      {
+        "id": "S07_0D01",
+        "state": 1,
+        "source": "SIMULC.ITK/S07_0D01.VMD",
+        "width": 640,
+        "height": 480,
+        "frames": 15,
+        "fps": 12,
+        "origin": [
+          0,
+          0
+        ],
+        "src": "images/s07_0d01-frames.webp",
+        "format": "vertical-sprite-sheet",
+        "frameHeight": 480,
+        "framesPerSheet": 34,
+        "transparentIndex": 0
+      },
+      {
+        "id": "S07_0D02",
+        "state": 2,
+        "source": "SIMULC.ITK/S07_0D02.VMD",
+        "width": 244,
+        "height": 141,
+        "frames": 18,
+        "fps": 12,
+        "origin": [
+          28,
+          120
+        ],
+        "src": "images/s07_0d02-frames.webp",
+        "format": "vertical-sprite-sheet",
+        "frameHeight": 141,
+        "framesPerSheet": 116,
+        "transparentIndex": 0
+      },
+      {
+        "id": "S07_0D03",
+        "state": 3,
+        "source": "SIMULC.ITK/S07_0D03.VMD",
+        "width": 244,
+        "height": 153,
+        "frames": 5,
+        "fps": 12,
+        "origin": [
+          28,
+          120
+        ],
+        "src": "images/s07_0d03-frames.webp",
+        "format": "vertical-sprite-sheet",
+        "frameHeight": 153,
+        "framesPerSheet": 107,
+        "transparentIndex": 0
+      },
+      {
+        "id": "S07_0D04",
+        "state": 4,
+        "source": "SIMULC.ITK/S07_0D04.VMD",
+        "width": 244,
+        "height": 153,
+        "frames": 9,
+        "fps": 12,
+        "origin": [
+          28,
+          120
+        ],
+        "src": "images/s07_0d04-frames.webp",
+        "format": "vertical-sprite-sheet",
+        "frameHeight": 153,
+        "framesPerSheet": 107,
+        "transparentIndex": 0
+      }
+    ],
+    "1": [
+      {
+        "id": "S07_1D00",
+        "state": 0,
+        "source": "SIMULC.ITK/S07_1D00.VMD",
+        "width": 120,
+        "height": 61,
+        "frames": 28,
+        "fps": 12,
+        "origin": [
+          244,
+          192
+        ],
+        "src": "images/s07_1d00-frames.webp",
+        "format": "vertical-sprite-sheet",
+        "frameHeight": 61,
+        "framesPerSheet": 268,
+        "transparentIndex": 0
+      },
+      {
+        "id": "S07_1D01",
+        "state": 1,
+        "source": "SIMULC.ITK/S07_1D01.VMD",
+        "width": 135,
+        "height": 95,
+        "frames": 22,
+        "fps": 12,
+        "origin": [
+          229,
+          170
+        ],
+        "src": "images/s07_1d01-frames.webp",
+        "format": "vertical-sprite-sheet",
+        "frameHeight": 95,
+        "framesPerSheet": 172,
+        "transparentIndex": 0
+      },
+      {
+        "id": "S07_1D02",
+        "state": 2,
+        "source": "SIMULC.ITK/S07_1D02.VMD",
+        "width": 135,
+        "height": 95,
+        "frames": 56,
+        "fps": 12,
+        "origin": [
+          229,
+          170
+        ],
+        "src": "images/s07_1d02-frames.webp",
+        "format": "vertical-sprite-sheet",
+        "frameHeight": 95,
+        "framesPerSheet": 172,
+        "transparentIndex": 0
+      },
+      {
+        "id": "S07_1D03",
+        "state": 3,
+        "source": "SIMULC.ITK/S07_1D03.VMD",
+        "width": 185,
+        "height": 108,
+        "frames": 38,
+        "fps": 12,
+        "origin": [
+          179,
+          160
+        ],
+        "src": "images/s07_1d03-frames.webp",
+        "format": "vertical-sprite-sheet",
+        "frameHeight": 108,
+        "framesPerSheet": 151,
+        "transparentIndex": 0
+      }
+    ],
+    "2": [
+      {
+        "id": "S07_2D00",
+        "state": 0,
+        "source": "SIMULC.ITK/S07_2D00.VMD",
+        "width": 74,
+        "height": 83,
+        "frames": 1,
+        "fps": 12,
+        "origin": [
+          386,
+          133
+        ],
+        "src": "images/s07_2d00.webp",
+        "format": "still",
+        "transparentIndex": 0
+      },
+      {
+        "id": "S07_2D01",
+        "state": 1,
+        "source": "SIMULC.ITK/S07_2D01.VMD",
+        "width": 73,
+        "height": 42,
+        "frames": 1,
+        "fps": 12,
+        "origin": [
+          380,
+          158
+        ],
+        "src": "images/s07_2d01.webp",
+        "format": "still",
+        "transparentIndex": 0
+      },
+      {
+        "id": "S07_2D02",
+        "state": 2,
+        "source": "SIMULC.ITK/S07_2D02.VMD",
+        "width": 1,
+        "height": 1,
+        "frames": 1,
+        "fps": 12,
+        "origin": [
+          0,
+          0
+        ],
+        "src": "images/s07_2d02.webp",
+        "format": "still",
+        "transparentIndex": 0
+      }
+    ],
+    "3": [
+      {
+        "id": "S07_3D00",
+        "state": 0,
+        "source": "SIMULC.ITK/S07_3D00.VMD",
+        "width": 1,
+        "height": 1,
+        "frames": 1,
+        "fps": 12,
+        "origin": [
+          0,
+          0
+        ],
+        "src": "images/s07_3d00.webp",
+        "format": "still",
+        "transparentIndex": 0
+      },
+      {
+        "id": "S07_3D01",
+        "state": 1,
+        "source": "SIMULC.ITK/S07_3D01.VMD",
+        "width": 177,
+        "height": 116,
+        "frames": 23,
+        "fps": 12,
+        "origin": [
+          0,
+          122
+        ],
+        "src": "images/s07_3d01-frames.webp",
+        "format": "vertical-sprite-sheet",
+        "frameHeight": 116,
+        "framesPerSheet": 141,
+        "transparentIndex": 0
+      },
+      {
+        "id": "S07_3D02",
+        "state": 2,
+        "source": "SIMULC.ITK/S07_3D02.VMD",
+        "width": 469,
+        "height": 125,
+        "frames": 18,
+        "fps": 12,
+        "origin": [
+          0,
+          122
+        ],
+        "src": "images/s07_3d02-frames.webp",
+        "format": "vertical-sprite-sheet",
+        "frameHeight": 125,
+        "framesPerSheet": 131,
+        "transparentIndex": 0
+      }
+    ],
+    "4": [
+      {
+        "id": "S07_4D00",
+        "state": 0,
+        "source": "SIMULC.ITK/S07_4D00.VMD",
+        "width": 553,
+        "height": 245,
+        "frames": 2,
+        "fps": 12,
+        "origin": [
+          0,
+          215
+        ],
+        "src": "images/s07_4d00-frames.webp",
+        "format": "vertical-sprite-sheet",
+        "frameHeight": 245,
+        "framesPerSheet": 66,
+        "transparentIndex": 0
+      },
+      {
+        "id": "S07_4D01",
+        "state": 1,
+        "source": "SIMULC.ITK/S07_4D01.VMD",
+        "width": 553,
+        "height": 245,
+        "frames": 18,
+        "fps": 12,
+        "origin": [
+          0,
+          215
+        ],
+        "src": "images/s07_4d01-frames.webp",
+        "format": "vertical-sprite-sheet",
+        "frameHeight": 245,
+        "framesPerSheet": 66,
+        "transparentIndex": 0
+      },
+      {
+        "id": "S07_4D02",
+        "state": 2,
+        "source": "SIMULC.ITK/S07_4D02.VMD",
+        "width": 553,
+        "height": 245,
+        "frames": 15,
+        "fps": 12,
+        "origin": [
+          0,
+          215
+        ],
+        "src": "images/s07_4d02-frames.webp",
+        "format": "vertical-sprite-sheet",
+        "frameHeight": 245,
+        "framesPerSheet": 66,
+        "transparentIndex": 0
+      },
+      {
+        "id": "S07_4D03",
+        "state": 3,
+        "source": "SIMULC.ITK/S07_4D03.VMD",
+        "width": 549,
+        "height": 244,
+        "frames": 18,
+        "fps": 12,
+        "origin": [
+          0,
+          216
+        ],
+        "src": "images/s07_4d03-frames.webp",
+        "format": "vertical-sprite-sheet",
+        "frameHeight": 244,
+        "framesPerSheet": 67,
+        "transparentIndex": 0
+      },
+      {
+        "id": "S07_4D04",
+        "state": 4,
+        "source": "SIMULC.ITK/S07_4D04.VMD",
+        "width": 549,
+        "height": 239,
+        "frames": 22,
+        "fps": 12,
+        "origin": [
+          0,
+          219
+        ],
+        "src": "images/s07_4d04-frames.webp",
+        "format": "vertical-sprite-sheet",
+        "frameHeight": 239,
+        "framesPerSheet": 68,
+        "transparentIndex": 0
+      },
+      {
+        "id": "S07_4D05",
+        "state": 5,
+        "source": "SIMULC.ITK/S07_4D05.VMD",
+        "width": 1,
+        "height": 1,
+        "frames": 1,
+        "fps": 12,
+        "origin": [
+          0,
+          0
+        ],
+        "src": "images/s07_4d05.webp",
+        "format": "still",
+        "transparentIndex": 0
+      }
+    ],
+    "5": [
+      {
+        "id": "S07_5D00",
+        "state": 0,
+        "source": "SIMULC.ITK/S07_5D00.VMD",
+        "width": 1,
+        "height": 1,
+        "frames": 1,
+        "fps": 12,
+        "origin": [
+          0,
+          0
+        ],
+        "src": "images/s07_5d00.webp",
+        "format": "still",
+        "transparentIndex": 0
+      },
+      {
+        "id": "S07_5D01",
+        "state": 1,
+        "source": "SIMULC.ITK/S07_5D01.VMD",
+        "width": 128,
+        "height": 104,
+        "frames": 10,
+        "fps": 12,
+        "origin": [
+          28,
+          310
+        ],
+        "src": "images/s07_5d01-frames.webp",
+        "format": "vertical-sprite-sheet",
+        "frameHeight": 104,
+        "framesPerSheet": 157,
+        "transparentIndex": 0
+      },
+      {
+        "id": "S07_5D02",
+        "state": 2,
+        "source": "SIMULC.ITK/S07_5D02.VMD",
+        "width": 156,
+        "height": 178,
+        "frames": 10,
+        "fps": 12,
+        "origin": [
+          0,
+          220
+        ],
+        "src": "images/s07_5d02-frames.webp",
+        "format": "vertical-sprite-sheet",
+        "frameHeight": 178,
+        "framesPerSheet": 92,
+        "transparentIndex": 0
+      },
+      {
+        "id": "S07_5D03",
+        "state": 3,
+        "source": "SIMULC.ITK/S07_5D03.VMD",
+        "width": 218,
+        "height": 175,
+        "frames": 10,
+        "fps": 12,
+        "origin": [
+          0,
+          223
+        ],
+        "src": "images/s07_5d03-frames.webp",
+        "format": "vertical-sprite-sheet",
+        "frameHeight": 175,
+        "framesPerSheet": 93,
+        "transparentIndex": 0
+      },
+      {
+        "id": "S07_5D04",
+        "state": 4,
+        "source": "SIMULC.ITK/S07_5D04.VMD",
+        "width": 288,
+        "height": 182,
+        "frames": 10,
+        "fps": 12,
+        "origin": [
+          0,
+          223
+        ],
+        "src": "images/s07_5d04-frames.webp",
+        "format": "vertical-sprite-sheet",
+        "frameHeight": 182,
+        "framesPerSheet": 90,
+        "transparentIndex": 0
+      }
+    ],
+    "6": [
+      {
+        "id": "S07_6D00",
+        "state": 0,
+        "source": "SIMULC.ITK/S07_6D00.VMD",
+        "width": 1,
+        "height": 1,
+        "frames": 1,
+        "fps": 12,
+        "origin": [
+          0,
+          0
+        ],
+        "src": "images/s07_6d00.webp",
+        "format": "still",
+        "transparentIndex": 0
+      },
+      {
+        "id": "S07_6D01",
+        "state": 1,
+        "source": "SIMULC.ITK/S07_6D01.VMD",
+        "width": 109,
+        "height": 166,
+        "frames": 10,
+        "fps": 12,
+        "origin": [
+          531,
+          179
+        ],
+        "src": "images/s07_6d01-frames.webp",
+        "format": "vertical-sprite-sheet",
+        "frameHeight": 166,
+        "framesPerSheet": 98,
+        "transparentIndex": 0
+      },
+      {
+        "id": "S07_6D02",
+        "state": 2,
+        "source": "SIMULC.ITK/S07_6D02.VMD",
+        "width": 203,
+        "height": 153,
+        "frames": 10,
+        "fps": 12,
+        "origin": [
+          414,
+          141
+        ],
+        "src": "images/s07_6d02-frames.webp",
+        "format": "vertical-sprite-sheet",
+        "frameHeight": 153,
+        "framesPerSheet": 107,
+        "transparentIndex": 0
+      },
+      {
+        "id": "S07_6D03",
+        "state": 3,
+        "source": "SIMULC.ITK/S07_6D03.VMD",
+        "width": 173,
+        "height": 125,
+        "frames": 10,
+        "fps": 12,
+        "origin": [
+          444,
+          169
+        ],
+        "src": "images/s07_6d03-frames.webp",
+        "format": "vertical-sprite-sheet",
+        "frameHeight": 125,
+        "framesPerSheet": 131,
+        "transparentIndex": 0
+      },
+      {
+        "id": "S07_6D04",
+        "state": 4,
+        "source": "SIMULC.ITK/S07_6D04.VMD",
+        "width": 196,
+        "height": 221,
+        "frames": 11,
+        "fps": 12,
+        "origin": [
+          444,
+          180
+        ],
+        "src": "images/s07_6d04-frames.webp",
+        "format": "vertical-sprite-sheet",
+        "frameHeight": 221,
+        "framesPerSheet": 74,
+        "transparentIndex": 0
+      }
+    ],
+    "7": [
+      {
+        "id": "S07_7D00",
+        "state": 0,
+        "source": "SIMULC.ITK/S07_7D00.VMD",
+        "width": 640,
+        "height": 480,
+        "frames": 2,
+        "fps": 12,
+        "origin": [
+          0,
+          0
+        ],
+        "src": "images/s07_7d00-frames.webp",
+        "format": "vertical-sprite-sheet",
+        "frameHeight": 480,
+        "framesPerSheet": 34,
+        "transparentIndex": 0
+      },
+      {
+        "id": "S07_7D01",
+        "state": 1,
+        "source": "SIMULC.ITK/S07_7D01.VMD",
+        "width": 640,
+        "height": 480,
+        "frames": 19,
+        "fps": 12,
+        "origin": [
+          0,
+          0
+        ],
+        "src": "images/s07_7d01-frames.webp",
+        "format": "vertical-sprite-sheet",
+        "frameHeight": 480,
+        "framesPerSheet": 34,
+        "transparentIndex": 0
+      },
+      {
+        "id": "S07_7D02",
+        "state": 2,
+        "source": "SIMULC.ITK/S07_7D02.VMD",
+        "width": 640,
+        "height": 96,
+        "frames": 2,
+        "fps": 12,
+        "origin": [
+          0,
+          384
+        ],
+        "src": "images/s07_7d02-frames.webp",
+        "format": "vertical-sprite-sheet",
+        "frameHeight": 96,
+        "framesPerSheet": 170,
+        "transparentIndex": 0
+      },
+      {
+        "id": "S07_7D03",
+        "state": 3,
+        "source": "SIMULC.ITK/S07_7D03.VMD",
+        "width": 640,
+        "height": 130,
+        "frames": 2,
+        "fps": 12,
+        "origin": [
+          0,
+          350
+        ],
+        "src": "images/s07_7d03-frames.webp",
+        "format": "vertical-sprite-sheet",
+        "frameHeight": 130,
+        "framesPerSheet": 126,
+        "transparentIndex": 0
+      },
+      {
+        "id": "S07_7D04",
+        "state": 4,
+        "source": "SIMULC.ITK/S07_7D04.VMD",
+        "width": 640,
+        "height": 130,
+        "frames": 2,
+        "fps": 12,
+        "origin": [
+          0,
+          350
+        ],
+        "src": "images/s07_7d04-frames.webp",
+        "format": "vertical-sprite-sheet",
+        "frameHeight": 130,
+        "framesPerSheet": 126,
+        "transparentIndex": 0
+      }
+    ],
+    "8": [
+      {
+        "id": "S07_8D00",
+        "state": 0,
+        "source": "SIMULC.ITK/S07_8D00.VMD",
+        "width": 1,
+        "height": 1,
+        "frames": 1,
+        "fps": 12,
+        "origin": [
+          0,
+          0
+        ],
+        "src": "images/s07_8d00.webp",
+        "format": "still",
+        "transparentIndex": 0
+      },
+      {
+        "id": "S07_8D01",
+        "state": 1,
+        "source": "SIMULC.ITK/S07_8D01.VMD",
+        "width": 1,
+        "height": 1,
+        "frames": 1,
+        "fps": 12,
+        "origin": [
+          0,
+          0
+        ],
+        "src": "images/s07_8d01.webp",
+        "format": "still",
+        "transparentIndex": 0
+      },
+      {
+        "id": "S07_8D02",
+        "state": 2,
+        "source": "SIMULC.ITK/S07_8D02.VMD",
+        "width": 1,
+        "height": 1,
+        "frames": 1,
+        "fps": 12,
+        "origin": [
+          0,
+          0
+        ],
+        "src": "images/s07_8d02.webp",
+        "format": "still",
+        "transparentIndex": 0
+      }
+    ],
+    "9": [
+      {
+        "id": "S07_9D00",
+        "state": 0,
+        "source": "SIMULC.ITK/S07_9D00.VMD",
+        "width": 1,
+        "height": 1,
+        "frames": 1,
+        "fps": 12,
+        "origin": [
+          0,
+          0
+        ],
+        "src": "images/s07_9d00.webp",
+        "format": "still",
+        "transparentIndex": 0
+      },
+      {
+        "id": "S07_9D01",
+        "state": 1,
+        "source": "SIMULC.ITK/S07_9D01.VMD",
+        "width": 1,
+        "height": 1,
+        "frames": 1,
+        "fps": 12,
+        "origin": [
+          0,
+          0
+        ],
+        "src": "images/s07_9d01.webp",
+        "format": "still",
+        "transparentIndex": 0
+      },
+      {
+        "id": "S07_9D02",
+        "state": 2,
+        "source": "SIMULC.ITK/S07_9D02.VMD",
+        "width": 1,
+        "height": 1,
+        "frames": 1,
+        "fps": 12,
+        "origin": [
+          0,
+          0
+        ],
+        "src": "images/s07_9d02.webp",
+        "format": "still",
+        "transparentIndex": 0
+      },
+      {
+        "id": "S07_9D03",
+        "state": 3,
+        "source": "SIMULC.ITK/S07_9D03.VMD",
+        "width": 1,
+        "height": 1,
+        "frames": 1,
+        "fps": 12,
+        "origin": [
+          0,
+          0
+        ],
+        "src": "images/s07_9d03.webp",
+        "format": "still",
+        "transparentIndex": 0
+      }
+    ]
+  },
+  "idleObjects": {
+    "S07_0S00": {
+      "id": "S07_0S00",
+      "state": 0,
+      "source": "SIMULC.ITK/S07_0S00.VMD",
+      "width": 47,
+      "height": 33,
+      "frames": 12,
+      "fps": 12,
+      "origin": [
+        28,
+        120
+      ],
+      "src": "images/s07_0s00-frames.webp",
+      "format": "vertical-sprite-sheet",
+      "frameHeight": 33,
+      "framesPerSheet": 496,
+      "transparentIndex": 0
+    },
+    "S07_0S01": {
+      "id": "S07_0S01",
+      "state": 1,
+      "source": "SIMULC.ITK/S07_0S01.VMD",
+      "width": 244,
+      "height": 153,
+      "frames": 12,
+      "fps": 12,
+      "origin": [
+        28,
+        120
+      ],
+      "src": "images/s07_0s01-frames.webp",
+      "format": "vertical-sprite-sheet",
+      "frameHeight": 153,
+      "framesPerSheet": 107,
+      "transparentIndex": 0
+    },
+    "S07_0S02": {
+      "id": "S07_0S02",
+      "state": 2,
+      "source": "SIMULC.ITK/S07_0S02.VMD",
+      "width": 244,
+      "height": 153,
+      "frames": 12,
+      "fps": 12,
+      "origin": [
+        28,
+        120
+      ],
+      "src": "images/s07_0s02-frames.webp",
+      "format": "vertical-sprite-sheet",
+      "frameHeight": 153,
+      "framesPerSheet": 107,
+      "transparentIndex": 0
+    },
+    "S07_0S03": {
+      "id": "S07_0S03",
+      "state": 3,
+      "source": "SIMULC.ITK/S07_0S03.VMD",
+      "width": 244,
+      "height": 153,
+      "frames": 12,
+      "fps": 12,
+      "origin": [
+        28,
+        120
+      ],
+      "src": "images/s07_0s03-frames.webp",
+      "format": "vertical-sprite-sheet",
+      "frameHeight": 153,
+      "framesPerSheet": 107,
+      "transparentIndex": 0
+    },
+    "S07_0S04": {
+      "id": "S07_0S04",
+      "state": 4,
+      "source": "SIMULC.ITK/S07_0S04.VMD",
+      "width": 244,
+      "height": 153,
+      "frames": 12,
+      "fps": 12,
+      "origin": [
+        28,
+        120
+      ],
+      "src": "images/s07_0s04-frames.webp",
+      "format": "vertical-sprite-sheet",
+      "frameHeight": 153,
+      "framesPerSheet": 107,
+      "transparentIndex": 0
+    },
+    "S07_1S00": {
+      "id": "S07_1S00",
+      "state": 0,
+      "source": "SIMULC.ITK/S07_1S00.VMD",
+      "width": 1,
+      "height": 1,
+      "frames": 1,
+      "fps": 12,
+      "origin": [
+        0,
+        0
+      ],
+      "src": "images/s07_1s00.webp",
+      "format": "still",
+      "transparentIndex": 0
+    },
+    "S07_1S01": {
+      "id": "S07_1S01",
+      "state": 1,
+      "source": "SIMULC.ITK/S07_1S01.VMD",
+      "width": 135,
+      "height": 95,
+      "frames": 49,
+      "fps": 12.003266194882961,
+      "origin": [
+        229,
+        170
+      ],
+      "src": "images/s07_1s01-frames.webp",
+      "format": "vertical-sprite-sheet",
+      "frameHeight": 95,
+      "framesPerSheet": 172,
+      "audio": "audio/s07_1s01.wav",
+      "duration": 4.167755102040816,
+      "transparentIndex": 0
+    },
+    "S07_1S02": {
+      "id": "S07_1S02",
+      "state": 2,
+      "source": "SIMULC.ITK/S07_1S02.VMD",
+      "width": 135,
+      "height": 95,
+      "frames": 49,
+      "fps": 12.003266194882961,
+      "origin": [
+        229,
+        170
+      ],
+      "src": "images/s07_1s02-frames.webp",
+      "format": "vertical-sprite-sheet",
+      "frameHeight": 95,
+      "framesPerSheet": 172,
+      "audio": "audio/s07_1s02.wav",
+      "duration": 4.16671201814059,
+      "transparentIndex": 0
+    },
+    "S07_1S03": {
+      "id": "S07_1S03",
+      "state": 3,
+      "source": "SIMULC.ITK/S07_1S03.VMD",
+      "width": 185,
+      "height": 108,
+      "frames": 38,
+      "fps": 12.003266194882961,
+      "origin": [
+        179,
+        160
+      ],
+      "src": "images/s07_1s03-frames.webp",
+      "format": "vertical-sprite-sheet",
+      "frameHeight": 108,
+      "framesPerSheet": 151,
+      "audio": "audio/s07_1s03.wav",
+      "duration": 4.167301587301587,
+      "transparentIndex": 0
+    },
+    "S07_2S00": {
+      "id": "S07_2S00",
+      "state": 0,
+      "source": "SIMULC.ITK/S07_2S00.VMD",
+      "width": 1,
+      "height": 1,
+      "frames": 1,
+      "fps": 12,
+      "origin": [
+        0,
+        0
+      ],
+      "src": "images/s07_2s00.webp",
+      "format": "still",
+      "transparentIndex": 0
+    },
+    "S07_2S01": {
+      "id": "S07_2S01",
+      "state": 1,
+      "source": "SIMULC.ITK/S07_2S01.VMD",
+      "width": 1,
+      "height": 1,
+      "frames": 1,
+      "fps": 12,
+      "origin": [
+        0,
+        0
+      ],
+      "src": "images/s07_2s01.webp",
+      "format": "still",
+      "transparentIndex": 0
+    },
+    "S07_2S02": {
+      "id": "S07_2S02",
+      "state": 2,
+      "source": "SIMULC.ITK/S07_2S02.VMD",
+      "width": 1,
+      "height": 1,
+      "frames": 1,
+      "fps": 12,
+      "origin": [
+        0,
+        0
+      ],
+      "src": "images/s07_2s02.webp",
+      "format": "still",
+      "transparentIndex": 0
+    },
+    "S07_3S00": {
+      "id": "S07_3S00",
+      "state": 0,
+      "source": "SIMULC.ITK/S07_3S00.VMD",
+      "width": 1,
+      "height": 1,
+      "frames": 1,
+      "fps": 12,
+      "origin": [
+        0,
+        0
+      ],
+      "src": "images/s07_3s00.webp",
+      "format": "still",
+      "transparentIndex": 0
+    },
+    "S07_3S01": {
+      "id": "S07_3S01",
+      "state": 1,
+      "source": "SIMULC.ITK/S07_3S01.VMD",
+      "width": 1,
+      "height": 1,
+      "frames": 1,
+      "fps": 12,
+      "origin": [
+        0,
+        0
+      ],
+      "src": "images/s07_3s01.webp",
+      "format": "still",
+      "transparentIndex": 0
+    },
+    "S07_3S02": {
+      "id": "S07_3S02",
+      "state": 2,
+      "source": "SIMULC.ITK/S07_3S02.VMD",
+      "width": 1,
+      "height": 1,
+      "frames": 1,
+      "fps": 12,
+      "origin": [
+        0,
+        0
+      ],
+      "src": "images/s07_3s02.webp",
+      "format": "still",
+      "transparentIndex": 0
+    },
+    "S07_4S00": {
+      "id": "S07_4S00",
+      "state": 0,
+      "source": "SIMULC.ITK/S07_4S00.VMD",
+      "width": 1,
+      "height": 1,
+      "frames": 1,
+      "fps": 12,
+      "origin": [
+        0,
+        0
+      ],
+      "src": "images/s07_4s00.webp",
+      "format": "still",
+      "transparentIndex": 0
+    },
+    "S07_4S01": {
+      "id": "S07_4S01",
+      "state": 1,
+      "source": "SIMULC.ITK/S07_4S01.VMD",
+      "width": 1,
+      "height": 1,
+      "frames": 1,
+      "fps": 12,
+      "origin": [
+        0,
+        0
+      ],
+      "src": "images/s07_4s01.webp",
+      "format": "still",
+      "transparentIndex": 0
+    },
+    "S07_4S02": {
+      "id": "S07_4S02",
+      "state": 2,
+      "source": "SIMULC.ITK/S07_4S02.VMD",
+      "width": 1,
+      "height": 1,
+      "frames": 1,
+      "fps": 12,
+      "origin": [
+        0,
+        0
+      ],
+      "src": "images/s07_4s02.webp",
+      "format": "still",
+      "transparentIndex": 0
+    },
+    "S07_5S00": {
+      "id": "S07_5S00",
+      "state": 0,
+      "source": "SIMULC.ITK/S07_5S00.VMD",
+      "width": 1,
+      "height": 1,
+      "frames": 1,
+      "fps": 12,
+      "origin": [
+        0,
+        0
+      ],
+      "src": "images/s07_5s00.webp",
+      "format": "still",
+      "transparentIndex": 0
+    },
+    "S07_5S01": {
+      "id": "S07_5S01",
+      "state": 1,
+      "source": "SIMULC.ITK/S07_5S01.VMD",
+      "width": 128,
+      "height": 58,
+      "frames": 4,
+      "fps": 12,
+      "origin": [
+        28,
+        341
+      ],
+      "src": "images/s07_5s01-frames.webp",
+      "format": "vertical-sprite-sheet",
+      "frameHeight": 58,
+      "framesPerSheet": 282,
+      "transparentIndex": 0
+    },
+    "S07_5S02": {
+      "id": "S07_5S02",
+      "state": 2,
+      "source": "SIMULC.ITK/S07_5S02.VMD",
+      "width": 156,
+      "height": 176,
+      "frames": 4,
+      "fps": 12,
+      "origin": [
+        0,
+        223
+      ],
+      "src": "images/s07_5s02-frames.webp",
+      "format": "vertical-sprite-sheet",
+      "frameHeight": 176,
+      "framesPerSheet": 93,
+      "transparentIndex": 0
+    },
+    "S07_5S03": {
+      "id": "S07_5S03",
+      "state": 3,
+      "source": "SIMULC.ITK/S07_5S03.VMD",
+      "width": 217,
+      "height": 176,
+      "frames": 4,
+      "fps": 12,
+      "origin": [
+        0,
+        223
+      ],
+      "src": "images/s07_5s03-frames.webp",
+      "format": "vertical-sprite-sheet",
+      "frameHeight": 176,
+      "framesPerSheet": 93,
+      "transparentIndex": 0
+    },
+    "S07_5S04": {
+      "id": "S07_5S04",
+      "state": 4,
+      "source": "SIMULC.ITK/S07_5S04.VMD",
+      "width": 275,
+      "height": 182,
+      "frames": 4,
+      "fps": 12,
+      "origin": [
+        0,
+        223
+      ],
+      "src": "images/s07_5s04-frames.webp",
+      "format": "vertical-sprite-sheet",
+      "frameHeight": 182,
+      "framesPerSheet": 90,
+      "transparentIndex": 0
+    },
+    "S07_6S00": {
+      "id": "S07_6S00",
+      "state": 0,
+      "source": "SIMULC.ITK/S07_6S00.VMD",
+      "width": 1,
+      "height": 1,
+      "frames": 1,
+      "fps": 12,
+      "origin": [
+        0,
+        0
+      ],
+      "src": "images/s07_6s00.webp",
+      "format": "still",
+      "transparentIndex": 0
+    },
+    "S07_6S01": {
+      "id": "S07_6S01",
+      "state": 1,
+      "source": "SIMULC.ITK/S07_6S01.VMD",
+      "width": 65,
+      "height": 69,
+      "frames": 4,
+      "fps": 12,
+      "origin": [
+        552,
+        225
+      ],
+      "src": "images/s07_6s01-frames.webp",
+      "format": "vertical-sprite-sheet",
+      "frameHeight": 69,
+      "framesPerSheet": 237,
+      "transparentIndex": 0
+    },
+    "S07_6S02": {
+      "id": "S07_6S02",
+      "state": 2,
+      "source": "SIMULC.ITK/S07_6S02.VMD",
+      "width": 173,
+      "height": 114,
+      "frames": 4,
+      "fps": 12,
+      "origin": [
+        444,
+        180
+      ],
+      "src": "images/s07_6s02-frames.webp",
+      "format": "vertical-sprite-sheet",
+      "frameHeight": 114,
+      "framesPerSheet": 143,
+      "transparentIndex": 0
+    },
+    "S07_6S03": {
+      "id": "S07_6S03",
+      "state": 3,
+      "source": "SIMULC.ITK/S07_6S03.VMD",
+      "width": 173,
+      "height": 114,
+      "frames": 4,
+      "fps": 12,
+      "origin": [
+        444,
+        180
+      ],
+      "src": "images/s07_6s03-frames.webp",
+      "format": "vertical-sprite-sheet",
+      "frameHeight": 114,
+      "framesPerSheet": 143,
+      "transparentIndex": 0
+    },
+    "S07_6S04": {
+      "id": "S07_6S04",
+      "state": 4,
+      "source": "SIMULC.ITK/S07_6S04.VMD",
+      "width": 196,
+      "height": 201,
+      "frames": 4,
+      "fps": 12,
+      "origin": [
+        444,
+        180
+      ],
+      "src": "images/s07_6s04-frames.webp",
+      "format": "vertical-sprite-sheet",
+      "frameHeight": 201,
+      "framesPerSheet": 81,
+      "transparentIndex": 0
+    },
+    "S07_7S00": {
+      "id": "S07_7S00",
+      "state": 0,
+      "source": "SIMULC.ITK/S07_7S00.VMD",
+      "width": 1,
+      "height": 1,
+      "frames": 1,
+      "fps": 12,
+      "origin": [
+        0,
+        0
+      ],
+      "src": "images/s07_7s00.webp",
+      "format": "still",
+      "transparentIndex": 0
+    },
+    "S07_7S01": {
+      "id": "S07_7S01",
+      "state": 1,
+      "source": "SIMULC.ITK/S07_7S01.VMD",
+      "width": 1,
+      "height": 1,
+      "frames": 1,
+      "fps": 12,
+      "origin": [
+        0,
+        0
+      ],
+      "src": "images/s07_7s01.webp",
+      "format": "still",
+      "transparentIndex": 0
+    },
+    "S07_7S02": {
+      "id": "S07_7S02",
+      "state": 2,
+      "source": "SIMULC.ITK/S07_7S02.VMD",
+      "width": 1,
+      "height": 1,
+      "frames": 1,
+      "fps": 12,
+      "origin": [
+        0,
+        0
+      ],
+      "src": "images/s07_7s02.webp",
+      "format": "still",
+      "transparentIndex": 0
+    },
+    "S07_7S03": {
+      "id": "S07_7S03",
+      "state": 3,
+      "source": "SIMULC.ITK/S07_7S03.VMD",
+      "width": 1,
+      "height": 1,
+      "frames": 1,
+      "fps": 12,
+      "origin": [
+        0,
+        0
+      ],
+      "src": "images/s07_7s03.webp",
+      "format": "still",
+      "transparentIndex": 0
+    },
+    "S07_7S04": {
+      "id": "S07_7S04",
+      "state": 4,
+      "source": "SIMULC.ITK/S07_7S04.VMD",
+      "width": 1,
+      "height": 1,
+      "frames": 1,
+      "fps": 12,
+      "origin": [
+        0,
+        0
+      ],
+      "src": "images/s07_7s04.webp",
+      "format": "still",
+      "transparentIndex": 0
+    },
+    "S07_8S00": {
+      "id": "S07_8S00",
+      "state": 0,
+      "source": "SIMULC.ITK/S07_8S00.VMD",
+      "width": 1,
+      "height": 1,
+      "frames": 1,
+      "fps": 12,
+      "origin": [
+        0,
+        0
+      ],
+      "src": "images/s07_8s00.webp",
+      "format": "still",
+      "transparentIndex": 0
+    },
+    "S07_8S01": {
+      "id": "S07_8S01",
+      "state": 1,
+      "source": "SIMULC.ITK/S07_8S01.VMD",
+      "width": 182,
+      "height": 193,
+      "frames": 47,
+      "fps": 12.003266194882961,
+      "origin": [
+        28,
+        131
+      ],
+      "src": "images/s07_8s01-frames.webp",
+      "format": "vertical-sprite-sheet",
+      "frameHeight": 193,
+      "framesPerSheet": 84,
+      "audio": "audio/s07_8s01.wav",
+      "duration": 6.418412698412698,
+      "transparentIndex": 0
+    },
+    "S07_8S02": {
+      "id": "S07_8S02",
+      "state": 2,
+      "source": "SIMULC.ITK/S07_8S02.VMD",
+      "width": 182,
+      "height": 193,
+      "frames": 81,
+      "fps": 12.003266194882961,
+      "origin": [
+        28,
+        131
+      ],
+      "src": "images/s07_8s02-frames.webp",
+      "format": "vertical-sprite-sheet",
+      "frameHeight": 193,
+      "framesPerSheet": 84,
+      "audio": "audio/s07_8s02.wav",
+      "duration": 9.252517006802721,
+      "transparentIndex": 0
+    },
+    "S07_9S00": {
+      "id": "S07_9S00",
+      "state": 0,
+      "source": "SIMULC.ITK/S07_9S00.VMD",
+      "width": 1,
+      "height": 1,
+      "frames": 1,
+      "fps": 12,
+      "origin": [
+        0,
+        0
+      ],
+      "src": "images/s07_9s00.webp",
+      "format": "still",
+      "transparentIndex": 0
+    },
+    "S07_9S01": {
+      "id": "S07_9S01",
+      "state": 1,
+      "source": "SIMULC.ITK/S07_9S01.VMD",
+      "width": 413,
+      "height": 151,
+      "frames": 42,
+      "fps": 12.003266194882961,
+      "origin": [
+        227,
+        282
+      ],
+      "src": "images/s07_9s01-frames.webp",
+      "format": "vertical-sprite-sheet",
+      "frameHeight": 151,
+      "framesPerSheet": 108,
+      "audio": "audio/s07_9s01.wav",
+      "duration": 4.167482993197279,
+      "transparentIndex": 0
+    },
+    "S07_9S02": {
+      "id": "S07_9S02",
+      "state": 2,
+      "source": "SIMULC.ITK/S07_9S02.VMD",
+      "width": 550,
+      "height": 325,
+      "frames": 25,
+      "fps": 12.003266194882961,
+      "origin": [
+        90,
+        93
+      ],
+      "src": "images/s07_9s02-frames.webp",
+      "format": "vertical-sprite-sheet",
+      "frameHeight": 325,
+      "framesPerSheet": 50,
+      "audio": "audio/s07_9s02.wav",
+      "duration": 3.7510204081632654,
+      "transparentIndex": 0
+    },
+    "S07_9S03": {
+      "id": "S07_9S03",
+      "state": 3,
+      "source": "SIMULC.ITK/S07_9S03.VMD",
+      "width": 550,
+      "height": 377,
+      "frames": 50,
+      "fps": 12.003266194882961,
+      "origin": [
+        90,
+        93
+      ],
+      "src": [
+        "images/s07_9s03-frames-0.webp",
+        "images/s07_9s03-frames-1.webp"
+      ],
+      "format": "vertical-sprite-sheet-pages",
+      "frameHeight": 377,
+      "framesPerSheet": 43,
+      "audio": "audio/s07_9s03.wav",
+      "duration": 4.251111111111111,
+      "transparentIndex": 0
+    }
+  },
+  "ambientReactions": {
+    "S07_0H": {
+      "source": "SIMULC.ITK/S07_0H.VMD",
+      "width": 356,
+      "height": 51,
+      "frames": 117,
+      "fps": 12,
+      "origin": [
+        65,
+        0
+      ],
+      "src": "images/s07_0h-frames.webp",
+      "format": "vertical-sprite-sheet",
+      "frameHeight": 51,
+      "framesPerSheet": 321,
+      "transparentIndex": 0
+    },
+    "S07_1H": {
+      "source": "SIMULC.ITK/S07_1H.VMD",
+      "width": 359,
+      "height": 68,
+      "frames": 90,
+      "fps": 12,
+      "origin": [
+        0,
+        8
+      ],
+      "src": "images/s07_1h-frames.webp",
+      "format": "vertical-sprite-sheet",
+      "frameHeight": 68,
+      "framesPerSheet": 240,
+      "transparentIndex": 0
+    },
+    "S07_2H": {
+      "source": "SIMULC.ITK/S07_2H.VMD",
+      "width": 46,
+      "height": 23,
+      "frames": 64,
+      "fps": 12,
+      "origin": [
+        301,
+        97
+      ],
+      "src": "images/s07_2h-frames.webp",
+      "format": "vertical-sprite-sheet",
+      "frameHeight": 23,
+      "framesPerSheet": 712,
+      "transparentIndex": 0
+    }
+  },
+  "explanations": {
+    "S07_RE00": {
+      "source": "SIMULC.ITK/S07_RE00.VMD",
+      "width": 479,
+      "height": 122,
+      "frames": 119,
+      "fps": 12.003266194882961,
+      "origin": [
+        112,
+        242
+      ],
+      "src": "images/s07_re00-frames.webp",
+      "format": "vertical-sprite-sheet",
+      "frameHeight": 122,
+      "framesPerSheet": 134,
+      "audio": "audio/s07_re00.wav",
+      "duration": 9.835918367346938,
+      "transparentIndex": 0
+    },
+    "S07_RE01": {
+      "source": "SIMULC.ITK/S07_RE01.VMD",
+      "width": 514,
+      "height": 153,
+      "frames": 164,
+      "fps": 12.003266194882961,
+      "origin": [
+        101,
+        283
+      ],
+      "src": [
+        "images/s07_re01-frames-0.webp",
+        "images/s07_re01-frames-1.webp"
+      ],
+      "format": "vertical-sprite-sheet-pages",
+      "frameHeight": 153,
+      "framesPerSheet": 107,
+      "audio": "audio/s07_re01.wav",
+      "duration": 13.253605442176871,
+      "transparentIndex": 0
+    },
+    "S07_RE02": {
+      "source": "SIMULC.ITK/S07_RE02.VMD",
+      "width": 557,
+      "height": 147,
+      "frames": 103,
+      "fps": 12.003266194882961,
+      "origin": [
+        35,
+        164
+      ],
+      "src": "images/s07_re02-frames.webp",
+      "format": "vertical-sprite-sheet",
+      "frameHeight": 147,
+      "framesPerSheet": 111,
+      "audio": "audio/s07_re02.wav",
+      "duration": 9.50185941043084,
+      "transparentIndex": 0
+    },
+    "S07_RE03": {
+      "source": "SIMULC.ITK/S07_RE03.VMD",
+      "width": 192,
+      "height": 86,
+      "frames": 116,
+      "fps": 12.003266194882961,
+      "origin": [
+        419,
+        153
+      ],
+      "src": "images/s07_re03-frames.webp",
+      "format": "vertical-sprite-sheet",
+      "frameHeight": 86,
+      "framesPerSheet": 190,
+      "audio": "audio/s07_re03.wav",
+      "duration": 9.668662131519275,
+      "transparentIndex": 0
+    },
+    "S07_RE04": {
+      "source": "SIMULC.ITK/S07_RE04.VMD",
+      "width": 486,
+      "height": 84,
+      "frames": 139,
+      "fps": 12.003266194882961,
+      "origin": [
+        111,
+        230
+      ],
+      "src": "images/s07_re04-frames.webp",
+      "format": "vertical-sprite-sheet",
+      "frameHeight": 84,
+      "framesPerSheet": 195,
+      "audio": "audio/s07_re04.wav",
+      "duration": 12.169024943310658,
+      "transparentIndex": 0
+    },
+    "S07_RE05": {
+      "source": "SIMULC.ITK/S07_RE05.VMD",
+      "width": 66,
+      "height": 124,
+      "frames": 120,
+      "fps": 12.003266194882961,
+      "origin": [
+        93,
+        184
+      ],
+      "src": "images/s07_re05-frames.webp",
+      "format": "vertical-sprite-sheet",
+      "frameHeight": 124,
+      "framesPerSheet": 132,
+      "audio": "audio/s07_re05.wav",
+      "duration": 10.00235827664399,
+      "transparentIndex": 0
+    }
+  },
+  "caseAudio": {
+    "S07_00RQ": {
+      "source": "SIMULC.ITK/S07_00RQ.VMD",
+      "width": 0,
+      "height": 0,
+      "frames": 34,
+      "fps": 10.0,
+      "origin": [
+        0,
+        0
+      ],
+      "audio": "audio/s07_00rq.wav",
+      "duration": 3.3
+    },
+    "S07_01RQ": {
+      "source": "SIMULC.ITK/S07_01RQ.VMD",
+      "width": 0,
+      "height": 0,
+      "frames": 30,
+      "fps": 10.0,
+      "origin": [
+        0,
+        0
+      ],
+      "audio": "audio/s07_01rq.wav",
+      "duration": 2.9
+    },
+    "S07_02RQ": {
+      "source": "SIMULC.ITK/S07_02RQ.VMD",
+      "width": 0,
+      "height": 0,
+      "frames": 52,
+      "fps": 10.0,
+      "origin": [
+        0,
+        0
+      ],
+      "audio": "audio/s07_02rq.wav",
+      "duration": 5.2
+    }
+  },
+  "feedback": {
+    "S07_01BR": {
+      "source": "SIMULC.ITK/S07_01BR.VMD",
+      "width": 0,
+      "height": 0,
+      "frames": 45,
+      "fps": 10.0,
+      "origin": [
+        0,
+        0
+      ],
+      "audio": "audio/s07_01br.wav",
+      "duration": 4.5
+    }
+  },
+  "objects": {
+    "0": [
+      {
+        "id": "S07_0I00",
+        "state": 0,
+        "source": "SIMULC.ITK/S07_0I00.VMD",
+        "width": 47,
+        "height": 33,
+        "frames": 1,
+        "fps": 12,
+        "origin": [
+          28,
+          120
+        ],
+        "src": "images/s07_0i00.webp",
+        "format": "still",
+        "transparentIndex": 0
+      },
+      {
+        "id": "S07_0I01",
+        "state": 1,
+        "source": "SIMULC.ITK/S07_0I01.VMD",
+        "width": 640,
+        "height": 480,
+        "frames": 15,
+        "fps": 12,
+        "origin": [
+          0,
+          0
+        ],
+        "src": "images/s07_0i01-frames.webp",
+        "format": "vertical-sprite-sheet",
+        "frameHeight": 480,
+        "framesPerSheet": 34,
+        "transparentIndex": 0
+      },
+      {
+        "id": "S07_0I02",
+        "state": 2,
+        "source": "SIMULC.ITK/S07_0I02.VMD",
+        "width": 244,
+        "height": 141,
+        "frames": 18,
+        "fps": 12,
+        "origin": [
+          28,
+          120
+        ],
+        "src": "images/s07_0i02-frames.webp",
+        "format": "vertical-sprite-sheet",
+        "frameHeight": 141,
+        "framesPerSheet": 116,
+        "transparentIndex": 0
+      },
+      {
+        "id": "S07_0I03",
+        "state": 3,
+        "source": "SIMULC.ITK/S07_0I03.VMD",
+        "width": 244,
+        "height": 153,
+        "frames": 5,
+        "fps": 12,
+        "origin": [
+          28,
+          120
+        ],
+        "src": "images/s07_0i03-frames.webp",
+        "format": "vertical-sprite-sheet",
+        "frameHeight": 153,
+        "framesPerSheet": 107,
+        "transparentIndex": 0
+      },
+      {
+        "id": "S07_0I04",
+        "state": 4,
+        "source": "SIMULC.ITK/S07_0I04.VMD",
+        "width": 244,
+        "height": 153,
+        "frames": 9,
+        "fps": 12,
+        "origin": [
+          28,
+          120
+        ],
+        "src": "images/s07_0i04-frames.webp",
+        "format": "vertical-sprite-sheet",
+        "frameHeight": 153,
+        "framesPerSheet": 107,
+        "transparentIndex": 0
+      }
+    ],
+    "1": [
+      {
+        "id": "S07_1I00",
+        "state": 0,
+        "source": "SIMULC.ITK/S07_1I00.VMD",
+        "width": 120,
+        "height": 61,
+        "frames": 28,
+        "fps": 12,
+        "origin": [
+          244,
+          192
+        ],
+        "src": "images/s07_1i00-frames.webp",
+        "format": "vertical-sprite-sheet",
+        "frameHeight": 61,
+        "framesPerSheet": 268,
+        "transparentIndex": 0
+      },
+      {
+        "id": "S07_1I01",
+        "state": 1,
+        "source": "SIMULC.ITK/S07_1I01.VMD",
+        "width": 135,
+        "height": 95,
+        "frames": 22,
+        "fps": 12,
+        "origin": [
+          229,
+          170
+        ],
+        "src": "images/s07_1i01-frames.webp",
+        "format": "vertical-sprite-sheet",
+        "frameHeight": 95,
+        "framesPerSheet": 172,
+        "transparentIndex": 0
+      },
+      {
+        "id": "S07_1I02",
+        "state": 2,
+        "source": "SIMULC.ITK/S07_1I02.VMD",
+        "width": 135,
+        "height": 95,
+        "frames": 56,
+        "fps": 12,
+        "origin": [
+          229,
+          170
+        ],
+        "src": "images/s07_1i02-frames.webp",
+        "format": "vertical-sprite-sheet",
+        "frameHeight": 95,
+        "framesPerSheet": 172,
+        "transparentIndex": 0
+      },
+      {
+        "id": "S07_1I03",
+        "state": 3,
+        "source": "SIMULC.ITK/S07_1I03.VMD",
+        "width": 185,
+        "height": 108,
+        "frames": 38,
+        "fps": 12,
+        "origin": [
+          179,
+          160
+        ],
+        "src": "images/s07_1i03-frames.webp",
+        "format": "vertical-sprite-sheet",
+        "frameHeight": 108,
+        "framesPerSheet": 151,
+        "transparentIndex": 0
+      }
+    ],
+    "2": [
+      {
+        "id": "S07_2I00",
+        "state": 0,
+        "source": "SIMULC.ITK/S07_2I00.VMD",
+        "width": 74,
+        "height": 83,
+        "frames": 1,
+        "fps": 12,
+        "origin": [
+          386,
+          133
+        ],
+        "src": "images/s07_2i00.webp",
+        "format": "still",
+        "transparentIndex": 0
+      },
+      {
+        "id": "S07_2I01",
+        "state": 1,
+        "source": "SIMULC.ITK/S07_2I01.VMD",
+        "width": 73,
+        "height": 42,
+        "frames": 1,
+        "fps": 12,
+        "origin": [
+          380,
+          158
+        ],
+        "src": "images/s07_2i01.webp",
+        "format": "still",
+        "transparentIndex": 0
+      },
+      {
+        "id": "S07_2I02",
+        "state": 2,
+        "source": "SIMULC.ITK/S07_2I02.VMD",
+        "width": 1,
+        "height": 1,
+        "frames": 1,
+        "fps": 12,
+        "origin": [
+          0,
+          0
+        ],
+        "src": "images/s07_2i02.webp",
+        "format": "still",
+        "transparentIndex": 0
+      }
+    ],
+    "3": [
+      {
+        "id": "S07_3I00",
+        "state": 0,
+        "source": "SIMULC.ITK/S07_3I00.VMD",
+        "width": 1,
+        "height": 1,
+        "frames": 1,
+        "fps": 12,
+        "origin": [
+          0,
+          0
+        ],
+        "src": "images/s07_3i00.webp",
+        "format": "still",
+        "transparentIndex": 0
+      },
+      {
+        "id": "S07_3I01",
+        "state": 1,
+        "source": "SIMULC.ITK/S07_3I01.VMD",
+        "width": 177,
+        "height": 116,
+        "frames": 23,
+        "fps": 12,
+        "origin": [
+          0,
+          122
+        ],
+        "src": "images/s07_3i01-frames.webp",
+        "format": "vertical-sprite-sheet",
+        "frameHeight": 116,
+        "framesPerSheet": 141,
+        "transparentIndex": 0
+      },
+      {
+        "id": "S07_3I02",
+        "state": 2,
+        "source": "SIMULC.ITK/S07_3I02.VMD",
+        "width": 469,
+        "height": 125,
+        "frames": 18,
+        "fps": 12,
+        "origin": [
+          0,
+          122
+        ],
+        "src": "images/s07_3i02-frames.webp",
+        "format": "vertical-sprite-sheet",
+        "frameHeight": 125,
+        "framesPerSheet": 131,
+        "transparentIndex": 0
+      }
+    ],
+    "4": [
+      {
+        "id": "S07_4I00",
+        "state": 0,
+        "source": "SIMULC.ITK/S07_4I00.VMD",
+        "width": 553,
+        "height": 245,
+        "frames": 2,
+        "fps": 12,
+        "origin": [
+          0,
+          215
+        ],
+        "src": "images/s07_4i00-frames.webp",
+        "format": "vertical-sprite-sheet",
+        "frameHeight": 245,
+        "framesPerSheet": 66,
+        "transparentIndex": 0
+      },
+      {
+        "id": "S07_4I01",
+        "state": 1,
+        "source": "SIMULC.ITK/S07_4I01.VMD",
+        "width": 553,
+        "height": 245,
+        "frames": 18,
+        "fps": 12,
+        "origin": [
+          0,
+          215
+        ],
+        "src": "images/s07_4i01-frames.webp",
+        "format": "vertical-sprite-sheet",
+        "frameHeight": 245,
+        "framesPerSheet": 66,
+        "transparentIndex": 0
+      },
+      {
+        "id": "S07_4I02",
+        "state": 2,
+        "source": "SIMULC.ITK/S07_4I02.VMD",
+        "width": 553,
+        "height": 245,
+        "frames": 15,
+        "fps": 12,
+        "origin": [
+          0,
+          215
+        ],
+        "src": "images/s07_4i02-frames.webp",
+        "format": "vertical-sprite-sheet",
+        "frameHeight": 245,
+        "framesPerSheet": 66,
+        "transparentIndex": 0
+      },
+      {
+        "id": "S07_4I03",
+        "state": 3,
+        "source": "SIMULC.ITK/S07_4I03.VMD",
+        "width": 549,
+        "height": 244,
+        "frames": 18,
+        "fps": 12,
+        "origin": [
+          0,
+          216
+        ],
+        "src": "images/s07_4i03-frames.webp",
+        "format": "vertical-sprite-sheet",
+        "frameHeight": 244,
+        "framesPerSheet": 67,
+        "transparentIndex": 0
+      },
+      {
+        "id": "S07_4I04",
+        "state": 4,
+        "source": "SIMULC.ITK/S07_4I04.VMD",
+        "width": 549,
+        "height": 239,
+        "frames": 22,
+        "fps": 12,
+        "origin": [
+          0,
+          219
+        ],
+        "src": "images/s07_4i04-frames.webp",
+        "format": "vertical-sprite-sheet",
+        "frameHeight": 239,
+        "framesPerSheet": 68,
+        "transparentIndex": 0
+      },
+      {
+        "id": "S07_4I05",
+        "state": 5,
+        "source": "SIMULC.ITK/S07_4I05.VMD",
+        "width": 1,
+        "height": 1,
+        "frames": 1,
+        "fps": 12,
+        "origin": [
+          0,
+          0
+        ],
+        "src": "images/s07_4i05.webp",
+        "format": "still",
+        "transparentIndex": 0
+      }
+    ],
+    "5": [
+      {
+        "id": "S07_5I00",
+        "state": 0,
+        "source": "SIMULC.ITK/S07_5I00.VMD",
+        "width": 1,
+        "height": 1,
+        "frames": 1,
+        "fps": 12,
+        "origin": [
+          0,
+          0
+        ],
+        "src": "images/s07_5i00.webp",
+        "format": "still",
+        "transparentIndex": 0
+      },
+      {
+        "id": "S07_5I01",
+        "state": 1,
+        "source": "SIMULC.ITK/S07_5I01.VMD",
+        "width": 128,
+        "height": 104,
+        "frames": 10,
+        "fps": 12,
+        "origin": [
+          28,
+          310
+        ],
+        "src": "images/s07_5i01-frames.webp",
+        "format": "vertical-sprite-sheet",
+        "frameHeight": 104,
+        "framesPerSheet": 157,
+        "transparentIndex": 0
+      },
+      {
+        "id": "S07_5I02",
+        "state": 2,
+        "source": "SIMULC.ITK/S07_5I02.VMD",
+        "width": 156,
+        "height": 178,
+        "frames": 10,
+        "fps": 12,
+        "origin": [
+          0,
+          220
+        ],
+        "src": "images/s07_5i02-frames.webp",
+        "format": "vertical-sprite-sheet",
+        "frameHeight": 178,
+        "framesPerSheet": 92,
+        "transparentIndex": 0
+      },
+      {
+        "id": "S07_5I03",
+        "state": 3,
+        "source": "SIMULC.ITK/S07_5I03.VMD",
+        "width": 218,
+        "height": 175,
+        "frames": 10,
+        "fps": 12,
+        "origin": [
+          0,
+          223
+        ],
+        "src": "images/s07_5i03-frames.webp",
+        "format": "vertical-sprite-sheet",
+        "frameHeight": 175,
+        "framesPerSheet": 93,
+        "transparentIndex": 0
+      },
+      {
+        "id": "S07_5I04",
+        "state": 4,
+        "source": "SIMULC.ITK/S07_5I04.VMD",
+        "width": 288,
+        "height": 182,
+        "frames": 10,
+        "fps": 12,
+        "origin": [
+          0,
+          223
+        ],
+        "src": "images/s07_5i04-frames.webp",
+        "format": "vertical-sprite-sheet",
+        "frameHeight": 182,
+        "framesPerSheet": 90,
+        "transparentIndex": 0
+      }
+    ],
+    "6": [
+      {
+        "id": "S07_6I00",
+        "state": 0,
+        "source": "SIMULC.ITK/S07_6I00.VMD",
+        "width": 1,
+        "height": 1,
+        "frames": 1,
+        "fps": 12,
+        "origin": [
+          0,
+          0
+        ],
+        "src": "images/s07_6i00.webp",
+        "format": "still",
+        "transparentIndex": 0
+      },
+      {
+        "id": "S07_6I01",
+        "state": 1,
+        "source": "SIMULC.ITK/S07_6I01.VMD",
+        "width": 109,
+        "height": 166,
+        "frames": 10,
+        "fps": 12,
+        "origin": [
+          531,
+          179
+        ],
+        "src": "images/s07_6i01-frames.webp",
+        "format": "vertical-sprite-sheet",
+        "frameHeight": 166,
+        "framesPerSheet": 98,
+        "transparentIndex": 0
+      },
+      {
+        "id": "S07_6I02",
+        "state": 2,
+        "source": "SIMULC.ITK/S07_6I02.VMD",
+        "width": 203,
+        "height": 153,
+        "frames": 10,
+        "fps": 12,
+        "origin": [
+          414,
+          141
+        ],
+        "src": "images/s07_6i02-frames.webp",
+        "format": "vertical-sprite-sheet",
+        "frameHeight": 153,
+        "framesPerSheet": 107,
+        "transparentIndex": 0
+      },
+      {
+        "id": "S07_6I03",
+        "state": 3,
+        "source": "SIMULC.ITK/S07_6I03.VMD",
+        "width": 173,
+        "height": 125,
+        "frames": 10,
+        "fps": 12,
+        "origin": [
+          444,
+          169
+        ],
+        "src": "images/s07_6i03-frames.webp",
+        "format": "vertical-sprite-sheet",
+        "frameHeight": 125,
+        "framesPerSheet": 131,
+        "transparentIndex": 0
+      },
+      {
+        "id": "S07_6I04",
+        "state": 4,
+        "source": "SIMULC.ITK/S07_6I04.VMD",
+        "width": 196,
+        "height": 221,
+        "frames": 11,
+        "fps": 12,
+        "origin": [
+          444,
+          180
+        ],
+        "src": "images/s07_6i04-frames.webp",
+        "format": "vertical-sprite-sheet",
+        "frameHeight": 221,
+        "framesPerSheet": 74,
+        "transparentIndex": 0
+      }
+    ],
+    "7": [
+      {
+        "id": "S07_7I00",
+        "state": 0,
+        "source": "SIMULC.ITK/S07_7I00.VMD",
+        "width": 640,
+        "height": 480,
+        "frames": 3,
+        "fps": 12,
+        "origin": [
+          0,
+          0
+        ],
+        "src": "images/s07_7i00-frames.webp",
+        "format": "vertical-sprite-sheet",
+        "frameHeight": 480,
+        "framesPerSheet": 34,
+        "transparentIndex": 0
+      },
+      {
+        "id": "S07_7I01",
+        "state": 1,
+        "source": "SIMULC.ITK/S07_7I01.VMD",
+        "width": 640,
+        "height": 480,
+        "frames": 19,
+        "fps": 12,
+        "origin": [
+          0,
+          0
+        ],
+        "src": "images/s07_7i01-frames.webp",
+        "format": "vertical-sprite-sheet",
+        "frameHeight": 480,
+        "framesPerSheet": 34,
+        "transparentIndex": 0
+      },
+      {
+        "id": "S07_7I02",
+        "state": 2,
+        "source": "SIMULC.ITK/S07_7I02.VMD",
+        "width": 640,
+        "height": 96,
+        "frames": 3,
+        "fps": 12,
+        "origin": [
+          0,
+          384
+        ],
+        "src": "images/s07_7i02-frames.webp",
+        "format": "vertical-sprite-sheet",
+        "frameHeight": 96,
+        "framesPerSheet": 170,
+        "transparentIndex": 0
+      },
+      {
+        "id": "S07_7I03",
+        "state": 3,
+        "source": "SIMULC.ITK/S07_7I03.VMD",
+        "width": 640,
+        "height": 130,
+        "frames": 3,
+        "fps": 12,
+        "origin": [
+          0,
+          350
+        ],
+        "src": "images/s07_7i03-frames.webp",
+        "format": "vertical-sprite-sheet",
+        "frameHeight": 130,
+        "framesPerSheet": 126,
+        "transparentIndex": 0
+      },
+      {
+        "id": "S07_7I04",
+        "state": 4,
+        "source": "SIMULC.ITK/S07_7I04.VMD",
+        "width": 640,
+        "height": 130,
+        "frames": 3,
+        "fps": 12,
+        "origin": [
+          0,
+          350
+        ],
+        "src": "images/s07_7i04-frames.webp",
+        "format": "vertical-sprite-sheet",
+        "frameHeight": 130,
+        "framesPerSheet": 126,
+        "transparentIndex": 0
+      }
+    ],
+    "8": [
+      {
+        "id": "S07_8I00",
+        "state": 0,
+        "source": "SIMULC.ITK/S07_8I00.VMD",
+        "width": 1,
+        "height": 1,
+        "frames": 1,
+        "fps": 12,
+        "origin": [
+          0,
+          0
+        ],
+        "src": "images/s07_8i00.webp",
+        "format": "still",
+        "transparentIndex": 0
+      },
+      {
+        "id": "S07_8I01",
+        "state": 1,
+        "source": "SIMULC.ITK/S07_8I01.VMD",
+        "width": 1,
+        "height": 1,
+        "frames": 1,
+        "fps": 12,
+        "origin": [
+          0,
+          0
+        ],
+        "src": "images/s07_8i01.webp",
+        "format": "still",
+        "transparentIndex": 0
+      },
+      {
+        "id": "S07_8I02",
+        "state": 2,
+        "source": "SIMULC.ITK/S07_8I02.VMD",
+        "width": 1,
+        "height": 1,
+        "frames": 1,
+        "fps": 12,
+        "origin": [
+          0,
+          0
+        ],
+        "src": "images/s07_8i02.webp",
+        "format": "still",
+        "transparentIndex": 0
+      }
+    ],
+    "9": [
+      {
+        "id": "S07_9I00",
+        "state": 0,
+        "source": "SIMULC.ITK/S07_9I00.VMD",
+        "width": 1,
+        "height": 1,
+        "frames": 1,
+        "fps": 12,
+        "origin": [
+          0,
+          0
+        ],
+        "src": "images/s07_9i00.webp",
+        "format": "still",
+        "transparentIndex": 0
+      },
+      {
+        "id": "S07_9I01",
+        "state": 1,
+        "source": "SIMULC.ITK/S07_9I01.VMD",
+        "width": 1,
+        "height": 1,
+        "frames": 1,
+        "fps": 12,
+        "origin": [
+          0,
+          0
+        ],
+        "src": "images/s07_9i01.webp",
+        "format": "still",
+        "transparentIndex": 0
+      },
+      {
+        "id": "S07_9I02",
+        "state": 2,
+        "source": "SIMULC.ITK/S07_9I02.VMD",
+        "width": 1,
+        "height": 1,
+        "frames": 1,
+        "fps": 12,
+        "origin": [
+          0,
+          0
+        ],
+        "src": "images/s07_9i02.webp",
+        "format": "still",
+        "transparentIndex": 0
+      },
+      {
+        "id": "S07_9I03",
+        "state": 3,
+        "source": "SIMULC.ITK/S07_9I03.VMD",
+        "width": 1,
+        "height": 1,
+        "frames": 1,
+        "fps": 12,
+        "origin": [
+          0,
+          0
+        ],
+        "src": "images/s07_9i03.webp",
+        "format": "still",
+        "transparentIndex": 0
+      }
+    ]
+  }
+}

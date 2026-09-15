@@ -1,7 +1,8 @@
 # La pollution de l’air
 
 La route `#document/s16` utilise [engine.js](engine.js) pour les règles et
-[view.js](view.js) pour le décor Canvas, les menus HTML et le son. Elle ne charge
+[view.js](view.js) pour configurer le [lecteur commun](../environment-view.js),
+son décor Canvas, ses menus HTML et le son. Elle ne charge
 ni ScummVM ni les archives du CD.
 
 Les [ressources](../../../game/documents/air/) contiennent les images indexées
