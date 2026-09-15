@@ -5152,6 +5152,991 @@
       "sha256": "ea1f9f073dfd99311058c3d5ae2af2e129007af5e0cc6e5d7e5178e61c11c688"
     },
     {
+      "path": "public/game/documents/company/assets.json",
+      "size": 62921,
+      "sha256": "2748fc960ffeb946efbfd7cf404fd304bfc99a5d9a0458f6f244ada6323b23d9"
+    },
+    {
+      "path": "public/game/documents/company/audio/a_mus12.wav",
+      "size": 975096,
+      "sha256": "16d9a14415e441946ed06903b3fde85fbe70ff98ebf3601a92ee10ee1b24c34e"
+    },
+    {
+      "path": "public/game/documents/company/audio/s12_00rq.wav",
+      "size": 299924,
+      "sha256": "f805f03a7805acb9493f11ea5bec69f3b2ab23ef1a93cda9521a469abf0125a5"
+    },
+    {
+      "path": "public/game/documents/company/audio/s12_01rq.wav",
+      "size": 313154,
+      "sha256": "0a39ce16808ab5f1db22a494569cfe851ff1432a4da71ee0dc25d813c0468674"
+    },
+    {
+      "path": "public/game/documents/company/audio/s12_02br.wav",
+      "size": 154394,
+      "sha256": "052dda8e7873342765c427c8847bb16613a792377aa1550341e7015e657176aa"
+    },
+    {
+      "path": "public/game/documents/company/audio/s12_02rq.wav",
+      "size": 198494,
+      "sha256": "b3a7a041d5c2946b026317807b5c8a99f5487f977a7825232e17d046b5502ac3"
+    },
+    {
+      "path": "public/game/documents/company/audio/s12_03br.wav",
+      "size": 154394,
+      "sha256": "052dda8e7873342765c427c8847bb16613a792377aa1550341e7015e657176aa"
+    },
+    {
+      "path": "public/game/documents/company/audio/s12_04br.wav",
+      "size": 154394,
+      "sha256": "052dda8e7873342765c427c8847bb16613a792377aa1550341e7015e657176aa"
+    },
+    {
+      "path": "public/game/documents/company/audio/s12_4s00.wav",
+      "size": 183828,
+      "sha256": "d295e0e5913a1fbeb844386f5bc92ffbc77f5c12b61267c5ebf56f16afdaf2e5"
+    },
+    {
+      "path": "public/game/documents/company/audio/s12_4s01.wav",
+      "size": 84592,
+      "sha256": "c03b7a4fd474621824f82593c815e55977844a50f873279abb3ee900eac0ff85"
+    },
+    {
+      "path": "public/game/documents/company/audio/s12_4s02.wav",
+      "size": 209576,
+      "sha256": "f01cc4420939c2ea2bcb0ac5fc39d00b9f4aafd541ec11024a4238915d969804"
+    },
+    {
+      "path": "public/game/documents/company/audio/s12_re00.wav",
+      "size": 345574,
+      "sha256": "a94f88127a6730b89aa0409d0d71ad74090ebf198357e29f848fabbe5fcb86ad"
+    },
+    {
+      "path": "public/game/documents/company/audio/s12_re01.wav",
+      "size": 392534,
+      "sha256": "9b6e714987bdd7627c41be3cfd2c3aa50ba9a0d5ed42bf190dadb1daf80bb18f"
+    },
+    {
+      "path": "public/game/documents/company/audio/s12_re02.wav",
+      "size": 419108,
+      "sha256": "4408f76f05dc8747fde290466292001483973bf3673e81afe839c1de9eec13d5"
+    },
+    {
+      "path": "public/game/documents/company/audio/s12_re03.wav",
+      "size": 444838,
+      "sha256": "7328e1382a07681653f75f8aed8865c689bead3d333669c2fea5383f88a9984e"
+    },
+    {
+      "path": "public/game/documents/company/audio/s12_vo.wav",
+      "size": 710054,
+      "sha256": "584e8ae9af5037548e606bc80a5622e7cb8c3b3689b572f3328ce9bec2bd5829"
+    },
+    {
+      "path": "public/game/documents/company/audio/sbru006.wav",
+      "size": 119168,
+      "sha256": "5d2b847cb79cb455f2d5918852b8e3da6cd56f16fc6b43c50c5a1bf5d3cb7805"
+    },
+    {
+      "path": "public/game/documents/company/audio/sbru031.wav",
+      "size": 92696,
+      "sha256": "68ee5bda4f8b119690839737f1985977f304d747d1fb5a5ba10cc2c8cd3f0eda"
+    },
+    {
+      "path": "public/game/documents/company/audio/sbru033.wav",
+      "size": 127992,
+      "sha256": "d48fd01b09a8aa92f7dee3218baa4cb095dc1a2dcd4c664666f7b4b3dd599dda"
+    },
+    {
+      "path": "public/game/documents/company/audio/sbru035.wav",
+      "size": 127992,
+      "sha256": "d7a2b1b37554a1ab71047a4cd10605952086488caf921424f071dda60aa93f34"
+    },
+    {
+      "path": "public/game/documents/company/audio/sbru040.wav",
+      "size": 119168,
+      "sha256": "1d7f45516b482785b704b6c63dba2e40f8ef9ee3532024f5ebca0313119a59fb"
+    },
+    {
+      "path": "public/game/documents/company/audio/sbru048.wav",
+      "size": 132404,
+      "sha256": "5dd561541e3a34363884fe6020bbe009c53f405499455ca00cc5ee4f586b450d"
+    },
+    {
+      "path": "public/game/documents/company/audio/sbru050.wav",
+      "size": 145640,
+      "sha256": "6a46d93d66451345acc47655e587ff8866105ca6510e93601a1ab67d0b636275"
+    },
+    {
+      "path": "public/game/documents/company/audio/sbru051.wav",
+      "size": 123580,
+      "sha256": "9661a683722355e83e97fbc4df89a84cc5df1235eab15d2408446ff0c9f377e6"
+    },
+    {
+      "path": "public/game/documents/company/audio/sbru055.wav",
+      "size": 154464,
+      "sha256": "f50eecf07af7ec3abc0687117f15022c5060aeaa9c99a3479b57886f1b5a1e54"
+    },
+    {
+      "path": "public/game/documents/company/audio/sbru056.wav",
+      "size": 172112,
+      "sha256": "d5d7b9b51ee8f5b34d4f52192cfb3acd710d09b36b7d39ea276434c8e3a387f5"
+    },
+    {
+      "path": "public/game/documents/company/audio/sbru057.wav",
+      "size": 114756,
+      "sha256": "75ca3bb8017d77140d935c118cf051f556afc0fe7f75cc555e2c5bd7e5e7ca30"
+    },
+    {
+      "path": "public/game/documents/company/audio/sbru072.wav",
+      "size": 198584,
+      "sha256": "14751cd392c8ea1d37c0723f04c49b6c62bb0473c927c866623c632aea35ada4"
+    },
+    {
+      "path": "public/game/documents/company/audio/sbru073.wav",
+      "size": 88284,
+      "sha256": "22a0e6c37b9cb2bbe6b1fe6b65ffc41cbc0302db72f3ca8c7e925dabdd8301d8"
+    },
+    {
+      "path": "public/game/documents/company/audio/sbru074.wav",
+      "size": 105932,
+      "sha256": "7ddceaf7121cc28c3e77a5cb1c6e66e6a777c56b92486dd9e31c1f8004cdad20"
+    },
+    {
+      "path": "public/game/documents/company/audio/sbru150.wav",
+      "size": 70636,
+      "sha256": "5f87ea1215386605fff30614d07cd1db6674043a70d2a9118fd17297d32c87e1"
+    },
+    {
+      "path": "public/game/documents/company/audio/sbru151.wav",
+      "size": 198584,
+      "sha256": "2ea6f16a72adc3227e512d84489676055671a8b72c53f1ba222b9d468e7cdcc9"
+    },
+    {
+      "path": "public/game/documents/company/audio/sbru174.wav",
+      "size": 185348,
+      "sha256": "94b2186b2b8f8f9fff045159198782e63de54aa72aa2d9e9b34c3806cc7c10d4"
+    },
+    {
+      "path": "public/game/documents/company/images/s12_0i00.webp",
+      "size": 7634,
+      "sha256": "7af405aa974cfe871dee538b4282a36353d8d6718eb68329f72f3ec546684520"
+    },
+    {
+      "path": "public/game/documents/company/images/s12_0i01.webp",
+      "size": 3972,
+      "sha256": "8e1fe332d4629b2c3d62a2f0ba7aafa6fc49be93b01206ecec5c1ff0060cdbf2"
+    },
+    {
+      "path": "public/game/documents/company/images/s12_0i02.webp",
+      "size": 1458,
+      "sha256": "8a58f5c6be51224fdcd283148951a5f68263aee8bd7f2df861c8ce2f5bcebcf1"
+    },
+    {
+      "path": "public/game/documents/company/images/s12_1i00.webp",
+      "size": 34,
+      "sha256": "86be52bdb7547413cafb3ed175a806a798c65de98b40849e0b974c47d187de65"
+    },
+    {
+      "path": "public/game/documents/company/images/s12_1i01.webp",
+      "size": 34,
+      "sha256": "86be52bdb7547413cafb3ed175a806a798c65de98b40849e0b974c47d187de65"
+    },
+    {
+      "path": "public/game/documents/company/images/s12_1i02.webp",
+      "size": 34,
+      "sha256": "86be52bdb7547413cafb3ed175a806a798c65de98b40849e0b974c47d187de65"
+    },
+    {
+      "path": "public/game/documents/company/images/s12_1i03.webp",
+      "size": 34,
+      "sha256": "86be52bdb7547413cafb3ed175a806a798c65de98b40849e0b974c47d187de65"
+    },
+    {
+      "path": "public/game/documents/company/images/s12_1i04.webp",
+      "size": 34,
+      "sha256": "86be52bdb7547413cafb3ed175a806a798c65de98b40849e0b974c47d187de65"
+    },
+    {
+      "path": "public/game/documents/company/images/s12_2i00-frames.webp",
+      "size": 9350,
+      "sha256": "fc4f6e1b481fb88d779828e6de540f6b23138f893332b0969f817901912d3e28"
+    },
+    {
+      "path": "public/game/documents/company/images/s12_2i01-frames-0.webp",
+      "size": 23822,
+      "sha256": "faf720a60308e10874baf7048bfc7d959842726ae0e8f6b5bb87c396a7e30d88"
+    },
+    {
+      "path": "public/game/documents/company/images/s12_2i01-frames-1.webp",
+      "size": 5706,
+      "sha256": "04a61690e9954c758dc924c2205dbb4269d50d7bf01b64dead00e2dc08f216fb"
+    },
+    {
+      "path": "public/game/documents/company/images/s12_2i02-frames-0.webp",
+      "size": 31602,
+      "sha256": "2fbcb8140cf771e7bedb7b509dd4bf76a13868862f3c53b2638975140684c311"
+    },
+    {
+      "path": "public/game/documents/company/images/s12_2i02-frames-1.webp",
+      "size": 7762,
+      "sha256": "75056b1756306056d54bf8942493c61fbf3bc73a42c0e8420e4e738d16b5e08f"
+    },
+    {
+      "path": "public/game/documents/company/images/s12_2i03-frames-0.webp",
+      "size": 28308,
+      "sha256": "1eaf8dcb382aa27f69261e172f7c5cea6d10557bd1b600666ac592addbb56ddc"
+    },
+    {
+      "path": "public/game/documents/company/images/s12_2i03-frames-1.webp",
+      "size": 12280,
+      "sha256": "5c5daa54d09b5dbfe821a3b16e508bd3d9e91642e69decc03d825dc492bbf8ff"
+    },
+    {
+      "path": "public/game/documents/company/images/s12_2i04-frames-0.webp",
+      "size": 34780,
+      "sha256": "fe9b5282e20633a1099e605775184de10679c1950cbe10e6287d4603138bd059"
+    },
+    {
+      "path": "public/game/documents/company/images/s12_2i04-frames-1.webp",
+      "size": 48502,
+      "sha256": "71d4e0b875306bad905e82dc2b6b8225cb096b7396736ddb43638fcc40729b66"
+    },
+    {
+      "path": "public/game/documents/company/images/s12_2i04-frames-2.webp",
+      "size": 27436,
+      "sha256": "a8b467a8c7651918024e7b2463cbc562a794d5e97c823b0fbb2f5b1bfefa90c4"
+    },
+    {
+      "path": "public/game/documents/company/images/s12_2i04-frames-3.webp",
+      "size": 1730,
+      "sha256": "2bcec5b7beaaa85810b14350d1f939ba1f239031390dc100790a44c9284807b8"
+    },
+    {
+      "path": "public/game/documents/company/images/s12_2s00-frames.webp",
+      "size": 40358,
+      "sha256": "20cfa0c3a0dbf1e7d88948258efe216c8d3bf3f643c0c86b7e89345783f30aa1"
+    },
+    {
+      "path": "public/game/documents/company/images/s12_2s01-frames-0.webp",
+      "size": 39032,
+      "sha256": "f5227fc5eda648eda301d12970ec728993bede9a443a0d47c702911fd1ee55fd"
+    },
+    {
+      "path": "public/game/documents/company/images/s12_2s01-frames-1.webp",
+      "size": 10376,
+      "sha256": "8cc828d6f36f08eec4c789819a099f9c0aa30561a6a5a926e51e947ded8f7837"
+    },
+    {
+      "path": "public/game/documents/company/images/s12_2s02-frames-0.webp",
+      "size": 47042,
+      "sha256": "2269fa7198acd6a25e299135db4a5d2beead948557c621b6fafa7f840e4e419e"
+    },
+    {
+      "path": "public/game/documents/company/images/s12_2s02-frames-1.webp",
+      "size": 20926,
+      "sha256": "534b3c849cbb94cfa8550dd538a11c2c1e98889c3def5b067fa4e083fe11523c"
+    },
+    {
+      "path": "public/game/documents/company/images/s12_2s03-frames-0.webp",
+      "size": 38158,
+      "sha256": "43bd00c15210922d5162e746ab957cd6a577fdc7d6ed917507245a7ba826e5d1"
+    },
+    {
+      "path": "public/game/documents/company/images/s12_2s03-frames-1.webp",
+      "size": 31852,
+      "sha256": "2f3cca9ce09d7dec5c0e1207d61ae20908151da533fe820182fe3210c986417a"
+    },
+    {
+      "path": "public/game/documents/company/images/s12_2s04-frames.webp",
+      "size": 10002,
+      "sha256": "f8f6eefaff6b02d23da7a387dff635508cd551b2aa5861b6fb62d430ecb0d3ac"
+    },
+    {
+      "path": "public/game/documents/company/images/s12_3d00.webp",
+      "size": 4864,
+      "sha256": "21b10fddf7719b4d86314310971991e3ae1d31270c0826ac25ee73d3bd8e24b7"
+    },
+    {
+      "path": "public/game/documents/company/images/s12_3d01-frames.webp",
+      "size": 27042,
+      "sha256": "e333243e0ac6fffa5c336c7987fc267c09ca08cee0a5eca5c265dd85d7f96171"
+    },
+    {
+      "path": "public/game/documents/company/images/s12_3d02-frames.webp",
+      "size": 15808,
+      "sha256": "c208fd240c2d2f5cdc6c34e6718ceb0bb7b681d9b93c98647ba6e4a8e6e42271"
+    },
+    {
+      "path": "public/game/documents/company/images/s12_3d03-frames.webp",
+      "size": 25628,
+      "sha256": "cc064e48cc9e750fb6c272b812f4336026871dac6029c0197ce29ba696360af7"
+    },
+    {
+      "path": "public/game/documents/company/images/s12_3d04-frames.webp",
+      "size": 20258,
+      "sha256": "a0cb37fa4ba1778790b224a3f11baa9c77ee070d2ac74998abfd88c43a5d6019"
+    },
+    {
+      "path": "public/game/documents/company/images/s12_3i00.webp",
+      "size": 4864,
+      "sha256": "21b10fddf7719b4d86314310971991e3ae1d31270c0826ac25ee73d3bd8e24b7"
+    },
+    {
+      "path": "public/game/documents/company/images/s12_3i01-frames.webp",
+      "size": 29086,
+      "sha256": "13ef5546fbdf1574f4d4a4c702fe5e5e584830b90baf49de14847d9a97e42852"
+    },
+    {
+      "path": "public/game/documents/company/images/s12_3i02-frames.webp",
+      "size": 18182,
+      "sha256": "c88ed4d9b94df267f84c1136350cbcf55997aa59656c0ad227483ed5a68e4765"
+    },
+    {
+      "path": "public/game/documents/company/images/s12_3i03-frames.webp",
+      "size": 28264,
+      "sha256": "092de44f88deff06f9588c54a3cc0d6c0e6d1b8e278c8ac7330dabad8e16cd1b"
+    },
+    {
+      "path": "public/game/documents/company/images/s12_3i04-frames.webp",
+      "size": 23212,
+      "sha256": "d0bd743a873f2cfd5ad15e20f220191b525676ed5f1e393d467deff1a31b736b"
+    },
+    {
+      "path": "public/game/documents/company/images/s12_3s00-frames.webp",
+      "size": 10068,
+      "sha256": "1fab8f39c03672b4a03ba969c0f010f56cc5c77cce13bdb60fe33458cb046f00"
+    },
+    {
+      "path": "public/game/documents/company/images/s12_3s01-frames.webp",
+      "size": 10258,
+      "sha256": "ef7550c9481caa56b8f106a6a2cfd4487dd90549bde9c3b5136a25a8e3f87ada"
+    },
+    {
+      "path": "public/game/documents/company/images/s12_3s02-frames.webp",
+      "size": 11254,
+      "sha256": "1071c1c80837db45bf38342ee8cabee5a8e7511420332975e6ba9b3a44b8015b"
+    },
+    {
+      "path": "public/game/documents/company/images/s12_3s03-frames.webp",
+      "size": 10930,
+      "sha256": "07195b099d02e43f7fd0aaae5a59076a0f5fb86121d9cac6502aa3ddc974dd88"
+    },
+    {
+      "path": "public/game/documents/company/images/s12_3s04-frames.webp",
+      "size": 11172,
+      "sha256": "27557ebdb6c5c4a96ad07c73a2cea6d9440f933e0f67e42157467216a60d7d81"
+    },
+    {
+      "path": "public/game/documents/company/images/s12_4d00.webp",
+      "size": 34,
+      "sha256": "86be52bdb7547413cafb3ed175a806a798c65de98b40849e0b974c47d187de65"
+    },
+    {
+      "path": "public/game/documents/company/images/s12_4d01-frames.webp",
+      "size": 59212,
+      "sha256": "0f4a23a592e4c9e141c314f05bb93e8213f751f25bb2b6359803d170037e6a6f"
+    },
+    {
+      "path": "public/game/documents/company/images/s12_4d02-frames.webp",
+      "size": 50750,
+      "sha256": "57e0a569f2a6ada5b81edfee1b1d86f297e1a1f2f70b15fcf870d7a97f2adf8b"
+    },
+    {
+      "path": "public/game/documents/company/images/s12_4i00.webp",
+      "size": 34,
+      "sha256": "86be52bdb7547413cafb3ed175a806a798c65de98b40849e0b974c47d187de65"
+    },
+    {
+      "path": "public/game/documents/company/images/s12_4i01-frames.webp",
+      "size": 74464,
+      "sha256": "4b58884d47cd28f6183c33690d99c291b3e950c12b4274f51d147900b625085c"
+    },
+    {
+      "path": "public/game/documents/company/images/s12_4i02-frames.webp",
+      "size": 68828,
+      "sha256": "fed8859457525a05867bf589237d2af6aa5fb89b4e56308c70fab5975d7e873c"
+    },
+    {
+      "path": "public/game/documents/company/images/s12_4s00-frames.webp",
+      "size": 9290,
+      "sha256": "4cacc22c2ffa7ae8400914c01461c305a84c7d3dbc0ec7f0daaee9a02de821d7"
+    },
+    {
+      "path": "public/game/documents/company/images/s12_4s01-frames.webp",
+      "size": 13644,
+      "sha256": "9e47b8d5d5db65590fb9a838799464523dba210ee18d09309430498a7ea22ce0"
+    },
+    {
+      "path": "public/game/documents/company/images/s12_4s02-frames-0.webp",
+      "size": 42386,
+      "sha256": "5aa1469d41954d3f2d25d8b2450f92f639b8b4a2b68b88fe53faa7712b0691e5"
+    },
+    {
+      "path": "public/game/documents/company/images/s12_4s02-frames-1.webp",
+      "size": 6548,
+      "sha256": "52ba3f9d17b28d0c444aa1d0c740ecf4b1859cf7f6af3307de6ce018b33e7ffc"
+    },
+    {
+      "path": "public/game/documents/company/images/s12_4s03-frames.webp",
+      "size": 13776,
+      "sha256": "aa71a6930c3bd4483f9cdfb8e3b889350725f75dd7b6a4a55b98cbdef5cb7a3f"
+    },
+    {
+      "path": "public/game/documents/company/images/s12_4s04-frames-0.webp",
+      "size": 51560,
+      "sha256": "f7cc87a3510ffc1db53720b1df47a563f0e1e602f9d8db6546ca6a9986510e92"
+    },
+    {
+      "path": "public/game/documents/company/images/s12_4s04-frames-1.webp",
+      "size": 6738,
+      "sha256": "9abc917a4a698ceb9d69352f456797c7c2b4061af307c9d207dac30396b622ff"
+    },
+    {
+      "path": "public/game/documents/company/images/s12_5d00.webp",
+      "size": 34,
+      "sha256": "86be52bdb7547413cafb3ed175a806a798c65de98b40849e0b974c47d187de65"
+    },
+    {
+      "path": "public/game/documents/company/images/s12_5d01-frames.webp",
+      "size": 34,
+      "sha256": "0eada2dd48604fbf6e5e679d297fc6b284b7faef289f9caaaeb3a403dc5f7ab0"
+    },
+    {
+      "path": "public/game/documents/company/images/s12_5d02-frames.webp",
+      "size": 34,
+      "sha256": "0540e30449c8b7c13b0262f279cea884196ff273eccb0132708938e3a90c14a6"
+    },
+    {
+      "path": "public/game/documents/company/images/s12_5d03-frames.webp",
+      "size": 34,
+      "sha256": "93e09ee08a8a020e00b0af7481cfc67c04d81896aa03a944a3554c6a716eddcb"
+    },
+    {
+      "path": "public/game/documents/company/images/s12_5d04-frames.webp",
+      "size": 34,
+      "sha256": "3ee702373bf77958676c6b8bff2e480a9d293945ed6d413589aa8b14f527f0f6"
+    },
+    {
+      "path": "public/game/documents/company/images/s12_5d05-frames.webp",
+      "size": 34,
+      "sha256": "e657a8b72a3e58ea4eee9681f1aa607a1b17e299232bfcfb69c63f2859b831db"
+    },
+    {
+      "path": "public/game/documents/company/images/s12_5d06-frames.webp",
+      "size": 34,
+      "sha256": "ef1bf9d4c3fd50f4b730173bb88f1aa0778934722432a77f868aeb972936bbf8"
+    },
+    {
+      "path": "public/game/documents/company/images/s12_5d07-frames.webp",
+      "size": 34,
+      "sha256": "ef1bf9d4c3fd50f4b730173bb88f1aa0778934722432a77f868aeb972936bbf8"
+    },
+    {
+      "path": "public/game/documents/company/images/s12_5d08-frames.webp",
+      "size": 34,
+      "sha256": "ef1bf9d4c3fd50f4b730173bb88f1aa0778934722432a77f868aeb972936bbf8"
+    },
+    {
+      "path": "public/game/documents/company/images/s12_5i00.webp",
+      "size": 34,
+      "sha256": "86be52bdb7547413cafb3ed175a806a798c65de98b40849e0b974c47d187de65"
+    },
+    {
+      "path": "public/game/documents/company/images/s12_5i01-frames.webp",
+      "size": 3930,
+      "sha256": "69b81fd61e547fe41241c786c83ea3754cc149e745c9b7005dfd4e5e9a0ff564"
+    },
+    {
+      "path": "public/game/documents/company/images/s12_5i02-frames-0.webp",
+      "size": 4304,
+      "sha256": "907de6f00a1e68ddbbae5632f28ef025c15c441ea93c33dafc9f5e19249be9df"
+    },
+    {
+      "path": "public/game/documents/company/images/s12_5i02-frames-1.webp",
+      "size": 42,
+      "sha256": "b511efa74ca3633996df73c29a5a7a1dd051c9cab6731ee4d6f6622103532a90"
+    },
+    {
+      "path": "public/game/documents/company/images/s12_5i03-frames-0.webp",
+      "size": 4404,
+      "sha256": "051ba25a26ee5dc2b59fae222f582b23948831a55ac8fd87c88e815961e750ba"
+    },
+    {
+      "path": "public/game/documents/company/images/s12_5i03-frames-1.webp",
+      "size": 644,
+      "sha256": "81c7518a2b9fedd81f78c75dd8e192ba7b42cb2d9e0a93e856fad222c13f4c15"
+    },
+    {
+      "path": "public/game/documents/company/images/s12_5i04-frames-0.webp",
+      "size": 4358,
+      "sha256": "07ee84d40712f27b4751b9c2800de128a9ef1e7afa7e8895e6afc0a7401492cf"
+    },
+    {
+      "path": "public/game/documents/company/images/s12_5i04-frames-1.webp",
+      "size": 940,
+      "sha256": "40c578690d61b6552410ed0712068815ff4a0a3e6a9ac18663ae89f0fff70f24"
+    },
+    {
+      "path": "public/game/documents/company/images/s12_5i05-frames-0.webp",
+      "size": 4530,
+      "sha256": "7a9a65a785e3c315fd6aac9b508ab6754500e11f0dc764a2b8dc81bb4bf079cc"
+    },
+    {
+      "path": "public/game/documents/company/images/s12_5i05-frames-1.webp",
+      "size": 1230,
+      "sha256": "9ff2d0f2a79a4815f8e71b63a1299193e643c4a0a087e42c90d5bee2bbfbccc9"
+    },
+    {
+      "path": "public/game/documents/company/images/s12_5i06-frames-0.webp",
+      "size": 4554,
+      "sha256": "1611744124cabc896dc1c849f4746cf5437f767dafb200268dcda729002f019e"
+    },
+    {
+      "path": "public/game/documents/company/images/s12_5i06-frames-1.webp",
+      "size": 1496,
+      "sha256": "5720933e27a8720598f29f5409007790c2fff2ff6b94ada639529e122d6b07f3"
+    },
+    {
+      "path": "public/game/documents/company/images/s12_5i07-frames-0.webp",
+      "size": 4694,
+      "sha256": "9b58616c6cb036965aafabc94e6c5aec8754d3721e0c61fc75a238c36fd529c0"
+    },
+    {
+      "path": "public/game/documents/company/images/s12_5i07-frames-1.webp",
+      "size": 1674,
+      "sha256": "bd7a129c874988f417eb69668f68c02d8b303689d08d3b8a2eb33861242299ae"
+    },
+    {
+      "path": "public/game/documents/company/images/s12_5i08-frames-0.webp",
+      "size": 4530,
+      "sha256": "69d8faa66a55cd160f12cdf8af17857df6bdaa638f9ec8f0b868d3d03da59791"
+    },
+    {
+      "path": "public/game/documents/company/images/s12_5i08-frames-1.webp",
+      "size": 2776,
+      "sha256": "3d888857bcc2a88b39cba1cda6cf939e190bba050728d67c0b92b5c514f32933"
+    },
+    {
+      "path": "public/game/documents/company/images/s12_5s00.webp",
+      "size": 38,
+      "sha256": "5e02ceafad1a5e80c1cbf300893e4b4480aeb010420b5c019835ff09478a3562"
+    },
+    {
+      "path": "public/game/documents/company/images/s12_5s01-frames.webp",
+      "size": 17378,
+      "sha256": "64dbcadfc8a0a5daf7004ca1a87df91b03c262b362532f0a7fd2cf39cb443f90"
+    },
+    {
+      "path": "public/game/documents/company/images/s12_5s02-frames.webp",
+      "size": 19370,
+      "sha256": "dddba17f7f43a1d71822d7991ee644ef22123f0f5902a4522bbdb9e72a2ecf5f"
+    },
+    {
+      "path": "public/game/documents/company/images/s12_5s03-frames-0.webp",
+      "size": 18008,
+      "sha256": "fd223ff7c53a197a4eccbfd9650a06ad47fb30930ecde0d3ddc72a4dcce69e49"
+    },
+    {
+      "path": "public/game/documents/company/images/s12_5s03-frames-1.webp",
+      "size": 3194,
+      "sha256": "8e0c8eae4586d18968cc63b8dfd460df05e3b1554455261afbdac6bc68eba489"
+    },
+    {
+      "path": "public/game/documents/company/images/s12_5s04-frames-0.webp",
+      "size": 14098,
+      "sha256": "bd6e461775af2deb177704c24bf19feec74d0cbef6a4c935e8239356a6da3b07"
+    },
+    {
+      "path": "public/game/documents/company/images/s12_5s04-frames-1.webp",
+      "size": 8778,
+      "sha256": "1212a604a5637f39f6c25bd69bcc16a419b38350e704a3128da78aed2e17a6df"
+    },
+    {
+      "path": "public/game/documents/company/images/s12_5s05-frames-0.webp",
+      "size": 16108,
+      "sha256": "f05233065f5043c1551cfee99e00281b4ea1dffcf2839c6657b2387710854c79"
+    },
+    {
+      "path": "public/game/documents/company/images/s12_5s05-frames-1.webp",
+      "size": 13790,
+      "sha256": "d348eb50c3abce649c8ebd2f8f129ae86e4ebdf7336bd743193a2a33434d0a45"
+    },
+    {
+      "path": "public/game/documents/company/images/s12_5s06-frames-0.webp",
+      "size": 15810,
+      "sha256": "2238b3f1090510af2b742f16c282873cd9eb12ba8be8d54ad2fbd71e01dbffab"
+    },
+    {
+      "path": "public/game/documents/company/images/s12_5s06-frames-1.webp",
+      "size": 16368,
+      "sha256": "d638e7ee1fd2b2849e1fe811a816d447de36de0a1a42536897a0a95a6bdd9fdf"
+    },
+    {
+      "path": "public/game/documents/company/images/s12_5s07-frames-0.webp",
+      "size": 17306,
+      "sha256": "a5055b7b526be12f5bfce614663ba8e30589d4ea8f727ed39b91386c83cacadf"
+    },
+    {
+      "path": "public/game/documents/company/images/s12_5s07-frames-1.webp",
+      "size": 16568,
+      "sha256": "0286330a8f0240b45be3cab0d0627fd9d99ee85b17082fa42ed68253e152d48a"
+    },
+    {
+      "path": "public/game/documents/company/images/s12_5s08-frames-0.webp",
+      "size": 19360,
+      "sha256": "b808069cdb3de3649e787b9eec17d3208b9f3849ab5aad2e75548ede515a6978"
+    },
+    {
+      "path": "public/game/documents/company/images/s12_5s08-frames-1.webp",
+      "size": 19826,
+      "sha256": "581a83576308fed041b365762887768370ac8f1634c317c975a017eab4f38100"
+    },
+    {
+      "path": "public/game/documents/company/images/s12_6i00.webp",
+      "size": 34,
+      "sha256": "86be52bdb7547413cafb3ed175a806a798c65de98b40849e0b974c47d187de65"
+    },
+    {
+      "path": "public/game/documents/company/images/s12_6i01.webp",
+      "size": 4800,
+      "sha256": "a7a7de30efdae500221ed3fb409acd89b54fd90566d0e978f30822371d7033b5"
+    },
+    {
+      "path": "public/game/documents/company/images/s12_6i02.webp",
+      "size": 5160,
+      "sha256": "ba45cada4d3d9e679055a3c06534d11191ef5dc81afb28392b2df54876b97d03"
+    },
+    {
+      "path": "public/game/documents/company/images/s12_6i03.webp",
+      "size": 4742,
+      "sha256": "d48a1483238308064fc4449ab78d402c49d5c1717ce85d1667ec45b9855f9488"
+    },
+    {
+      "path": "public/game/documents/company/images/s12_6i04.webp",
+      "size": 3704,
+      "sha256": "5baab4301d71b29cdab14d41a5fe59564604f69d37f94ebd1d08c7aac31413aa"
+    },
+    {
+      "path": "public/game/documents/company/images/s12_6i05.webp",
+      "size": 3714,
+      "sha256": "92d41a526c41a5471ada1861a70c434728233b278a4abc7bda4f4aac2a787352"
+    },
+    {
+      "path": "public/game/documents/company/images/s12_6i06.webp",
+      "size": 3710,
+      "sha256": "0223c7ab868033ab2e53bf06b1ff6a3a9bdeda370d6a78b7b1ec48e46bc6362b"
+    },
+    {
+      "path": "public/game/documents/company/images/s12_6i07.webp",
+      "size": 4284,
+      "sha256": "2724acfdce2bbd6d659014f4dcfafb863ac8296cfbd8937b7ac66d9f88bc7954"
+    },
+    {
+      "path": "public/game/documents/company/images/s12_6i08.webp",
+      "size": 4728,
+      "sha256": "a85bc70c91997dd17ee099108023fae07ad9f885a7c9a77562d52b6015df3975"
+    },
+    {
+      "path": "public/game/documents/company/images/s12_7i00.webp",
+      "size": 1856,
+      "sha256": "03accaa06af1191f3ac848f2f58cc6526d9f83d31243a0e8b148d20851a3e842"
+    },
+    {
+      "path": "public/game/documents/company/images/s12_7i01.webp",
+      "size": 3916,
+      "sha256": "061c8516f32f08c165443921fa883028fec9176de66a0ef964a1313ac522f2f5"
+    },
+    {
+      "path": "public/game/documents/company/images/s12_7i02.webp",
+      "size": 4726,
+      "sha256": "222bebb5c76754d326e225fe405cfa04e093931eb38bf9fcc6b9f5ed4125f342"
+    },
+    {
+      "path": "public/game/documents/company/images/s12_8i00-frames.webp",
+      "size": 12396,
+      "sha256": "1b360675e247fcffe687faa0adde975509d526508780fd07e1cba08aaac01d6b"
+    },
+    {
+      "path": "public/game/documents/company/images/s12_8i01-frames.webp",
+      "size": 23366,
+      "sha256": "4e8cf1125b33e3d503a09c140ef0aec199607c1438ef11a1f01a3207152f471b"
+    },
+    {
+      "path": "public/game/documents/company/images/s12_8i02-frames-0.webp",
+      "size": 33908,
+      "sha256": "d937202bf00d7c01bd3d4c39f297754a0018929ecad388119ecb5147c05e26e7"
+    },
+    {
+      "path": "public/game/documents/company/images/s12_8i02-frames-1.webp",
+      "size": 1056,
+      "sha256": "4ff1c35fae6804589a47bc87745fbedbd1ddf6180a2e1cdc0d670e12aad84670"
+    },
+    {
+      "path": "public/game/documents/company/images/s12_8i03-frames.webp",
+      "size": 12340,
+      "sha256": "d44d44d28b4c37036fa916e8138c51a2587c425400d42ea397357dfcfae11012"
+    },
+    {
+      "path": "public/game/documents/company/images/s12_8i04-frames.webp",
+      "size": 23386,
+      "sha256": "8f596a113a588eb9b90ee3a94dc337a40aaf3da6120375b025a7998ce2aab796"
+    },
+    {
+      "path": "public/game/documents/company/images/s12_8i05-frames-0.webp",
+      "size": 33854,
+      "sha256": "efea49ab4ea8e79a60bcc99317edb092502d1b7cbdfaaa8692c546167767b7d6"
+    },
+    {
+      "path": "public/game/documents/company/images/s12_8i05-frames-1.webp",
+      "size": 4162,
+      "sha256": "456cee1c78d1e589476282f631159bea56df333cc80e7bc2cc42199479b007a6"
+    },
+    {
+      "path": "public/game/documents/company/images/s12_8i06-frames.webp",
+      "size": 12388,
+      "sha256": "40779ecb161d92aa0dd4e9daf4416d43a59e40548522266318a8e44457678659"
+    },
+    {
+      "path": "public/game/documents/company/images/s12_8i07-frames.webp",
+      "size": 23334,
+      "sha256": "e70e7fe38cbbfaaebff68fd2153554e940a1264991a76d038abfaf74288f0d7a"
+    },
+    {
+      "path": "public/game/documents/company/images/s12_8i08-frames-0.webp",
+      "size": 33592,
+      "sha256": "a43c7a0df78abf2b35bfdb913a1706c07ef4a4c2b8bbc6449ce0d6715c909432"
+    },
+    {
+      "path": "public/game/documents/company/images/s12_8i08-frames-1.webp",
+      "size": 1056,
+      "sha256": "4ff1c35fae6804589a47bc87745fbedbd1ddf6180a2e1cdc0d670e12aad84670"
+    },
+    {
+      "path": "public/game/documents/company/images/s12_8i09-frames.webp",
+      "size": 12384,
+      "sha256": "8a09eb16c22647887babc65fc198663992d611997f579689675079783934fcac"
+    },
+    {
+      "path": "public/game/documents/company/images/s12_8i10-frames.webp",
+      "size": 23522,
+      "sha256": "417f74b1c313b26ba1ef91677b287f1d6bcfe22e70589e3a217e699fe85ac650"
+    },
+    {
+      "path": "public/game/documents/company/images/s12_8i11-frames-0.webp",
+      "size": 33218,
+      "sha256": "ac069d311a487458dc0a0f6f3f0ce2947cdb756f6bb1a15426d428c5096de8e0"
+    },
+    {
+      "path": "public/game/documents/company/images/s12_8i11-frames-1.webp",
+      "size": 2368,
+      "sha256": "b43f1f4e41543c8ade37c7ff7277a1639aff1a38bc097545a487283d92ccb937"
+    },
+    {
+      "path": "public/game/documents/company/images/s12_8i12-frames.webp",
+      "size": 12088,
+      "sha256": "23215760e8e76be7a2d8d3261e684e6ae28b3607f0031411c735866904b5f2b8"
+    },
+    {
+      "path": "public/game/documents/company/images/s12_8i13-frames.webp",
+      "size": 23148,
+      "sha256": "477aa0926a8e023152647e7f396e3c0867b74535464f702ff0dd33d172a01c14"
+    },
+    {
+      "path": "public/game/documents/company/images/s12_8i14-frames-0.webp",
+      "size": 33764,
+      "sha256": "bfd3c07bd23420a9bc4412cdb4449408812ec413b7da58e2535df86322678a35"
+    },
+    {
+      "path": "public/game/documents/company/images/s12_8i14-frames-1.webp",
+      "size": 40,
+      "sha256": "f1b758d700999a65764f3c1b02fc9fcc23057bdb8a00477b1ce3260676984960"
+    },
+    {
+      "path": "public/game/documents/company/images/s12_9i00.webp",
+      "size": 2496,
+      "sha256": "66e46a52dc0117cb391d6c89208c195292e071aff5a7664d2079c79194d74094"
+    },
+    {
+      "path": "public/game/documents/company/images/s12_9i01.webp",
+      "size": 2562,
+      "sha256": "5b97ecd01d7f0748e3419c792c933a48d1be827001556303970bf934ab9d456f"
+    },
+    {
+      "path": "public/game/documents/company/images/s12_9i02.webp",
+      "size": 2584,
+      "sha256": "e960a3034131d3ae043d3233d488c2df44c77685bde31c1a20045d434177a77a"
+    },
+    {
+      "path": "public/game/documents/company/images/s12_9i03.webp",
+      "size": 2474,
+      "sha256": "eca1f468a9f2b97a4221ab7c76600c5bb3b838e3f153adb3c93c71957c5ef091"
+    },
+    {
+      "path": "public/game/documents/company/images/s12_9i04.webp",
+      "size": 2552,
+      "sha256": "e2d5f905c4ad65e8909ab82d3af3e9ee2f09244617a3ce8e44d8b50d06d68ada"
+    },
+    {
+      "path": "public/game/documents/company/images/s12_9i05.webp",
+      "size": 2600,
+      "sha256": "58ff3998a9f997c9ad82ae299eeacc2f9c810e921f870202cfc5bdadc4cafec2"
+    },
+    {
+      "path": "public/game/documents/company/images/s12_9i06.webp",
+      "size": 2348,
+      "sha256": "613c9b0d86aedb4c23de8e0dc8544892dd728f5f50ecfad876ea675273b9841b"
+    },
+    {
+      "path": "public/game/documents/company/images/s12_9i07.webp",
+      "size": 2526,
+      "sha256": "16d99f415938b64ae3023d0a3d399fb87a51b86d128129acae264c55705380b2"
+    },
+    {
+      "path": "public/game/documents/company/images/s12_9i08.webp",
+      "size": 2620,
+      "sha256": "a6d9458b5f0509c5116b323f70aaa209f8ce2a1ad4a772edba90be47601e3a0a"
+    },
+    {
+      "path": "public/game/documents/company/images/s12_9i09.webp",
+      "size": 2280,
+      "sha256": "2bab377bfdced0d327219f9627d145b906c1a82ab5eb40a7d1cfd7c1f70f759f"
+    },
+    {
+      "path": "public/game/documents/company/images/s12_9i10.webp",
+      "size": 2472,
+      "sha256": "2d562155335bb7213e08a4a3a26ea3caa21dd41881fc445b2622889d92156847"
+    },
+    {
+      "path": "public/game/documents/company/images/s12_9i11.webp",
+      "size": 2614,
+      "sha256": "08ad80baa53d339d91288b60e462071ee3b011c499765879cab5a66d2e3bcb95"
+    },
+    {
+      "path": "public/game/documents/company/images/s12_9i12.webp",
+      "size": 2234,
+      "sha256": "d3b98714043650b00c14b3a91887de8bb6c16680fde0631c40057cc63304b2b8"
+    },
+    {
+      "path": "public/game/documents/company/images/s12_9i13.webp",
+      "size": 2436,
+      "sha256": "2fb1c2f852ce69bb517bd13755174ae01f008feac1a849ae1ab89db68f02b811"
+    },
+    {
+      "path": "public/game/documents/company/images/s12_9i14.webp",
+      "size": 2638,
+      "sha256": "e7f7d0ac26c828f2a24d2fd1b67c7b01870b1d57c710c90a6822ec7ced96f032"
+    },
+    {
+      "path": "public/game/documents/company/images/s12_re00-frames-0.webp",
+      "size": 3504,
+      "sha256": "4f4597598570c664b74571c54f0c28068ca5d606de0742a10cc63c2ba63b913d"
+    },
+    {
+      "path": "public/game/documents/company/images/s12_re00-frames-1.webp",
+      "size": 2308,
+      "sha256": "d57e34f89cc0438b80a784a1e23f9729a22010a44a54f8adcb7896864d003b84"
+    },
+    {
+      "path": "public/game/documents/company/images/s12_re01-frames-0.webp",
+      "size": 4606,
+      "sha256": "84e3af2169b090fbad05ac5c272e555c889e9213620ab63272cfc17e033c6859"
+    },
+    {
+      "path": "public/game/documents/company/images/s12_re01-frames-1.webp",
+      "size": 4892,
+      "sha256": "bd048633d82ff3ac6319a56de52560bde534f9efa4ebe11e2b4b635472ca7bd8"
+    },
+    {
+      "path": "public/game/documents/company/images/s12_re01-frames-2.webp",
+      "size": 4606,
+      "sha256": "84e3af2169b090fbad05ac5c272e555c889e9213620ab63272cfc17e033c6859"
+    },
+    {
+      "path": "public/game/documents/company/images/s12_re01-frames-3.webp",
+      "size": 1562,
+      "sha256": "c2b5f1a801184280722fcc10ace4be2152f0a997940cdebab7c46a7a5bde0954"
+    },
+    {
+      "path": "public/game/documents/company/images/s12_re02-frames-0.webp",
+      "size": 2130,
+      "sha256": "3892b5c313d7af1a34c99c126e1c90bd45ec267966a204812b5660e6e176e7d6"
+    },
+    {
+      "path": "public/game/documents/company/images/s12_re02-frames-1.webp",
+      "size": 2162,
+      "sha256": "9a4281a346672dffb54e995aa311d4fe5cf106634d022c22ffa7633cc0346dab"
+    },
+    {
+      "path": "public/game/documents/company/images/s12_re02-frames-2.webp",
+      "size": 2178,
+      "sha256": "429785fec50ad109255d9ffdf9d5a5fe1054166ef71051e36194e295ef8bf127"
+    },
+    {
+      "path": "public/game/documents/company/images/s12_re02-frames-3.webp",
+      "size": 1368,
+      "sha256": "df8c9932a93220753ec6d6d513afcdd390195a46eef63785aed93befa39b31d5"
+    },
+    {
+      "path": "public/game/documents/company/images/s12_re03-frames-0.webp",
+      "size": 2818,
+      "sha256": "9cb0209075b3178519d720a22243b6a7daa5343afd3bc49590beb94166215094"
+    },
+    {
+      "path": "public/game/documents/company/images/s12_re03-frames-1.webp",
+      "size": 2866,
+      "sha256": "1ea4ea1b88d8f8bf7d98bbc1de286546d40a546799eb01586645f4b9d084beb8"
+    },
+    {
+      "path": "public/game/documents/company/images/s12_re03-frames-2.webp",
+      "size": 2818,
+      "sha256": "9cb0209075b3178519d720a22243b6a7daa5343afd3bc49590beb94166215094"
+    },
+    {
+      "path": "public/game/documents/company/images/s12_re03-frames-3.webp",
+      "size": 1940,
+      "sha256": "122307fd5e06cd354d1dff9a5d959a8b45197e94a426330b70d97d4fc0624edc"
+    },
+    {
+      "path": "public/game/documents/company/images/simul12-background.webp",
+      "size": 76998,
+      "sha256": "ee7329e80656a941fa241b1ce1add47c73584f5f0001d44c8c229088ca1a2c18"
+    },
+    {
+      "path": "public/game/documents/company/images/simul12-ui-0-mask.png",
+      "size": 108876,
+      "sha256": "a745afc596376c52c01214bc6eeea854d6d57f235a7924c115bbdc805669d78b"
+    },
+    {
+      "path": "public/game/documents/company/images/simul12-ui-1-mask.png",
+      "size": 3723,
+      "sha256": "0b5f9d7dfccc636b84d99d374b04dd5e1d1303197d931d66f0f9de990169ea09"
+    },
+    {
+      "path": "public/game/documents/company/images/simul12-ui-1.webp",
+      "size": 1588,
+      "sha256": "e6550831611207919c3f1ee2b4bd68a5a8cdd09a1c58f64d2420af328e15caf6"
+    },
+    {
+      "path": "public/game/documents/company/images/simul12-ui-2-mask.png",
+      "size": 1695,
+      "sha256": "17c44cccd77a72616f57adc2afd58f9d19e80b3d371954b9d03e9624af796f8a"
+    },
+    {
+      "path": "public/game/documents/company/images/simul12-ui-2.webp",
+      "size": 710,
+      "sha256": "4179ddd7b759561fadcd573c3ed9ca73c7fdd3e1618abe560bee157387e87689"
+    },
+    {
+      "path": "public/game/documents/company/rules.json",
+      "size": 23893,
+      "sha256": "3773c457d282b3493ece25d844c82e02daa442f2512e756db813c1a01c2ba485"
+    },
+    {
+      "path": "public/game/documents/company/simul12-palette.json",
+      "size": 3759,
+      "sha256": "0695ff488f559c6d744d87dde3aac4a09953abc5e44a216761d9180acffc3146"
+    },
+    {
       "path": "public/game/documents/cycle/0-image.webp",
       "size": 186596,
       "sha256": "2c67aebc4677e58348eeb18513e34cf9de916c921f1c5a0acfd4c2537cee143d"
@@ -7728,18 +8713,18 @@
     },
     {
       "path": "public/game/documents/native/SIMULC.ITK",
-      "size": 31243510,
-      "sha256": "e56f7d37ca453fb9b1366dd5dc9c2768dc260880b1eefd2d42f4e5d7d2d66bab"
+      "size": 24588503,
+      "sha256": "92af82fb98a411e656ed19e81debdc256b66c48d081878a236138072c753daf1"
     },
     {
       "path": "public/game/documents/native/SIMULC.STK",
-      "size": 1726661,
-      "sha256": "2f4371a4d9fb3965af1d4d2e0cc9461414f2ec35baabca4d534b80cac7c1427b"
+      "size": 1480105,
+      "sha256": "32b4e8f5ac17dc1bbeacb876b63d6769f38180b4f079158807013182cf91f90d"
     },
     {
       "path": "public/game/documents/native/manifest.json",
       "size": 829,
-      "sha256": "55d753153258d5e7e283ebfa575784441e383295c4548ecb2ef09e564414df8e"
+      "sha256": "1123743bdce4f66ca166068de6330577e4e24a0f4810170ecf55a90a44033d46"
     },
     {
       "path": "public/game/documents/planete/0-image.webp",
@@ -32973,8 +33958,8 @@
     },
     {
       "path": "public/vendor/documents/README.md",
-      "size": 2404,
-      "sha256": "2064595b615d987090636f3480f8c24af0c8a83f3e4d7a3285aff5bcb4613c3f"
+      "size": 2408,
+      "sha256": "45d61f11ce96f05f3a9f14e290f0e40753d99994b0521c1bc03175aa02d4e30a"
     },
     {
       "path": "public/vendor/documents/rebuild.sh",

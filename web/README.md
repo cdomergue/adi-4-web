@@ -118,7 +118,14 @@ originales animent chaque étape ; les six explications animées montrent les li
 de l’écosystème dans le mode « Comprendre ». Trois situations proposent des
 indices, une validation et une solution.
 
-Les quatre autres simulations portent sur la pollution de l’eau, l’entreprise,
+[L’entreprise](public/features/documents/company/README.md) propose cinq réglages :
+l’économie, la concurrence et les investissements en production, publicité et
+recherche. Les ventes, la capacité d’investissement, la clientèle, la consommation
+et la part de marché suivent les calculs originaux. Les limites d’investissement
+dépendent de la capacité et du niveau déjà engagé. Trois cas d’étude et quatre
+explications animées accompagnent le décor interactif, avec ses sons d’origine.
+
+Les trois autres simulations portent sur la pollution de l’eau,
 la désertification et le développement d’un pays.
 Leurs paramètres se règlent dans les décors, avec les modes et les cas du jeu.
 Elles exécutent les scripts du CD avec un

@@ -91,17 +91,22 @@ son observateur de taille à `sceneleave`.
 tables de la pollution de l’air.
 [ecosystem/engine.js](public/features/documents/ecosystem/engine.js) applique
 les règles de l’équilibre de la nature, avec les populations précédentes et une
-passe de calcul par action. Chaque document possède une configuration `view.js`.
+passe de calcul par action.
+[company/engine.js](public/features/documents/company/engine.js) conserve les ventes
+calculées séparément de leurs niveaux graphiques et applique les limites des
+investissements selon la capacité et le réglage courant. Chaque document possède
+une configuration `view.js`.
 [environment-view.js](public/features/documents/environment-view.js) gère le
 décor Canvas, les choix, les cas, les explications, la barre et le son.
 [environment-animation.js](public/features/documents/environment-animation.js)
 calcule les découpes de frames, y compris les séquences sur plusieurs feuilles.
 Les [styles communs](public/styles/environment-document.css), les
 [ressources de l’air](public/game/documents/air/) et celles de
-[l’écosystème](public/game/documents/ecosystem/) suffisent à ces routes sans
-moteur externe. Les deux documents partagent les images de la barre et du panneau.
+[l’écosystème](public/game/documents/ecosystem/) et de
+[l’entreprise](public/game/documents/company/) suffisent à ces routes sans
+moteur externe. Ces documents partagent les images de la barre et du panneau.
 
-[native-view.js](public/features/documents/native-view.js) ouvre les quatre autres simulations d’environnement dans un lecteur isolé. Le
+[native-view.js](public/features/documents/native-view.js) ouvre les trois autres simulations d’environnement dans un lecteur isolé. Le
 [lecteur](public/documents/player.js) vérifie les empreintes des archives,
 charge uniquement celles du document choisi, puis démarre le moteur Gob.
 [native-config.js](public/features/documents/native-config.js) associe chaque

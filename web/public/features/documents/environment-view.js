@@ -134,6 +134,7 @@ export async function renderEnvironment(main, config) {
   }
   try {
     const [data, assets] = await Promise.all([json('rules.json'), json('assets.json')]);
+    const inputCount = data.inputCount ?? 4;
     const background = await image(assets.ui['30000'].colorSrc);
     await Promise.all(Object.values(assets.objects).flat().map(image));
     await Promise.all(
@@ -152,7 +153,7 @@ export async function renderEnvironment(main, config) {
       'beforeend',
       `
       <div class="environment-actions"><label><input type="checkbox" data-sound checked> Son</label><button data-action="intro">Présentation</button><button data-action="modes">Mode d’étude</button><button data-action="understand">Comprendre</button><button data-action="reset">Recommencer</button><button data-action="stop">Arrêter</button><button data-action="fullscreen">Plein écran</button></div>
-      <div class="environment-frame"><div class="environment-stage" tabindex="0" aria-label="${esc(config.title)}, décor interactif"><canvas width="640" height="480" aria-label="${esc(config.sceneDescription)}"></canvas><div class="environment-title"></div><div class="environment-markers" style="--environment-help:url('${base + assets.ui['30001'].colorSrc}')">${data.markers.map((box, i) => `<button data-element="${i}" style="${position(box)}" aria-label="${esc(data.labels[i])}" title="${esc(data.labels[i])}">↔</button>`).join('')}</div>
+      <div class="environment-frame"><div class="environment-stage" tabindex="0" aria-label="${esc(config.title)}, décor interactif"><canvas width="640" height="480" aria-label="${esc(config.sceneDescription)}"></canvas><div class="environment-title"></div><div class="environment-markers" style="--environment-help:url('${base + assets.ui['30001'].colorSrc}')">${data.markers.map((box, i) => (box[2] > 0 && box[3] > 0 ? `<button data-element="${i}" style="${position(box)}" aria-label="${esc(data.labels[i])}" title="${esc(data.labels[i])}">↔</button>` : '')).join('')}</div>
       <div class="environment-popup" style="background-image:url('${base + assets.nativeUi.choicePanel.colorSrc}')" role="dialog" aria-label="Choix du réglage" hidden></div>
       <div class="environment-bottom-edge"></div><nav class="environment-bottom" style="background-image:url('${base + assets.nativeUi.bottomBar.src}')" aria-label="Commandes du document">${[
         ['BAFLE', 'sound', 'Son', 44, 132],
@@ -169,7 +170,7 @@ export async function renderEnvironment(main, config) {
         })
         .join('')}</nav>
       </div></div><p class="environment-status" role="status"></p><div class="environment-case" hidden></div>
-      <div class="environment-relations" hidden><button data-action="relations">Rejouer les liens de l’écosystème</button></div>
+      <div class="environment-relations" hidden><button data-action="relations">${esc(config.relationsLabel || 'Rejouer les liens de l’écosystème')}</button></div>
       <details class="environment-values"><summary>Réglages et résultats</summary><div></div></details>
       <dialog class="environment-dialog" aria-labelledby="environment-dialog-title"><div class="dialog-heading"><h2 id="environment-dialog-title"></h2><button data-close aria-label="Fermer">×</button></div><div class="environment-dialog-body"></div></dialog>`,
     );
@@ -235,7 +236,8 @@ export async function renderEnvironment(main, config) {
     }
     function explain(i) {
       const example = data.cases[caseIndex];
-      const text = mode === 'reconstruct' && i < 4 ? example.hints[i] : data.explanations[i];
+      const text =
+        mode === 'reconstruct' && i < inputCount ? example.hints[i] : data.explanations[i];
       showDialog(
         data.labels[i],
         `<p>${esc(text)}</p><p><strong>${esc(data.options[i][state.states[i]])}</strong></p>`,
@@ -243,7 +245,7 @@ export async function renderEnvironment(main, config) {
     }
     function openElement(i) {
       if (busy) return;
-      if (i >= 4 || mode === 'understand') {
+      if (i >= inputCount || mode === 'understand') {
         explain(i);
         return;
       }
@@ -330,6 +332,7 @@ export async function renderEnvironment(main, config) {
       explanationQueue = index === null ? clips : [clips[index]];
       nextExplanation(performance.now());
       status.textContent =
+        config.relationsHelp ||
         'Les flèches montrent les liens entre les activités humaines, les animaux et la végétation.';
     }
     function draw(now) {

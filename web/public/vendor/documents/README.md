@@ -1,7 +1,7 @@
 # Moteur des documents
 
 Ce répertoire contient le moteur Gob de ScummVM 2.9.0 compilé avec Emscripten
-4.0.10 pour quatre simulations d’environnement d’ADI 4.21 français.
+4.0.10 pour trois simulations d’environnement d’ADI 4.21 français.
 Le client charge `scummvm.js` et `scummvm.wasm` sans installation supplémentaire.
 Le moteur des jeux Gobliiins se trouve dans [wgob3](../wgob3/) et possède son
 propre binaire.
@@ -39,10 +39,10 @@ Cette licence concerne le moteur, pas les données originales ADI.
 Le lecteur utilise les archives du CD incluses dans
 [les ressources des documents](../../game/documents/native/).
 Les archives `SIMULC.STK` et `SIMULC.ITK` contiennent les scripts et médias
-des quatre documents interprétés, ainsi que leurs ressources communes. Les
-ressources binaires propres à `S07` et `S16` en sont exclues : ces documents
+des trois documents interprétés, ainsi que leurs ressources communes. Les
+ressources binaires propres à `S07`, `S12` et `S16` en sont exclues : ces documents
 utilisent leurs médias web. Les entrées conservées gardent leur contenu original ;
 le [manifeste](../../game/documents/native/manifest.json) vérifie les archives livrées.
 Il fournit les commandes de son, de retour, de barre du bas et de plein écran.
 Les réglages sont conservés pendant la consultation ; il n’existe pas de
-sauvegarde persistante des sessions de ces quatre documents.
+sauvegarde persistante des sessions de ces trois documents.

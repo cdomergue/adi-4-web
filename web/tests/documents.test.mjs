@@ -60,7 +60,11 @@ test('each document subject, page and presentation resolves to bundled media', a
   assert.equal(topics.cycle.zones.length, 6);
   assert.equal(topics.espace.zones.length, 9);
   for (const entry of catalog.filter((e) => e.route))
-    assert.ok(topics[entry.id] || nativeDocuments[entry.id] || ['atlas', 's16', 's07'].includes(entry.id));
+    assert.ok(
+      topics[entry.id] ||
+        nativeDocuments[entry.id] ||
+        ['atlas', 's16', 's07', 's12'].includes(entry.id),
+    );
   for (const topic of Object.values(topics)) {
     image(topic.background);
     if (topic.mask) image(topic.mask);
