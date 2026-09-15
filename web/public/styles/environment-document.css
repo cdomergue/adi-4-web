@@ -285,3 +285,29 @@
     animation: none;
   }
 }
+
+.environment-confirm-choice h2 {
+  margin-bottom: 30px;
+}
+.environment-confirm-choice .environment-options {
+  gap: 0;
+}
+.environment-confirm-choice .environment-options button {
+  min-height: 25px;
+  padding: 3px 5px;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  color: #231a13;
+  text-align: center;
+}
+.environment-confirm-choice .environment-options button[aria-pressed='true'] {
+  background: #fff5cb88;
+  color: #fff;
+}
+.environment-confirm-choice .environment-popup-actions {
+  position: absolute;
+  bottom: 17px;
+  left: 17px;
+  right: 17px;
+}

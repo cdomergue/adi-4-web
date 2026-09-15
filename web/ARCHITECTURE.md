@@ -96,17 +96,29 @@ passe de calcul par action.
 calculées séparément de leurs niveaux graphiques et applique les limites des
 investissements selon la capacité et le réglage courant. Chaque document possède
 une configuration `view.js`.
+[desert/engine.js](public/features/documents/desert/engine.js) applique les tables
+de la désertification. Son [ordonnanceur](public/features/documents/desert/animation.js)
+reproduit le compteur et le tirage des animations d’ambiance du script.
+Les priorités des objets, animations d’équilibre, ambiances et calques fixes sont
+ordonnées par le lecteur commun. La sélection d’un réglage peut être confirmée
+avant son application.
+[water/engine.js](public/features/documents/water/engine.js) calcule les déchets,
+les rejets des égouts et la pollution marine avec les divisions entières et le
+plafond du script original.
 [environment-view.js](public/features/documents/environment-view.js) gère le
 décor Canvas, les choix, les cas, les explications, la barre et le son.
 [environment-animation.js](public/features/documents/environment-animation.js)
-calcule les découpes de frames, y compris les séquences sur plusieurs feuilles.
+calcule les découpes de frames et les transitions ordonnées de l’entreprise et de
+l’eau et de la désertification, y compris les séquences sur plusieurs feuilles.
 Les [styles communs](public/styles/environment-document.css), les
 [ressources de l’air](public/game/documents/air/) et celles de
 [l’écosystème](public/game/documents/ecosystem/) et de
-[l’entreprise](public/game/documents/company/) suffisent à ces routes sans
+[l’entreprise](public/game/documents/company/), ainsi que celles de
+[la pollution de l’eau](public/game/documents/water/) et de
+[la désertification](public/game/documents/desert/), suffisent à ces routes sans
 moteur externe. Ces documents partagent les images de la barre et du panneau.
 
-[native-view.js](public/features/documents/native-view.js) ouvre les trois autres simulations d’environnement dans un lecteur isolé. Le
+[native-view.js](public/features/documents/native-view.js) ouvre le développement d’un pays dans un lecteur isolé. Le
 [lecteur](public/documents/player.js) vérifie les empreintes des archives,
 charge uniquement celles du document choisi, puis démarre le moteur Gob.
 [native-config.js](public/features/documents/native-config.js) associe chaque

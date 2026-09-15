@@ -63,7 +63,7 @@ test('each document subject, page and presentation resolves to bundled media', a
     assert.ok(
       topics[entry.id] ||
         nativeDocuments[entry.id] ||
-        ['atlas', 's16', 's07', 's12'].includes(entry.id),
+        ['atlas', 's16', 's07', 's12', 's17', 's14'].includes(entry.id),
     );
   for (const topic of Object.values(topics)) {
     image(topic.background);

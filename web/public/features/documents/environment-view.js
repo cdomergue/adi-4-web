@@ -1,5 +1,5 @@
 import { escapeHtml as esc } from '../../shared/text.js';
-import { spriteFrame } from './environment-animation.js';
+import { spriteFrame, clipDuration } from './environment-animation.js';
 
 const position = ([x, y, w, h]) => `left:${x}px;top:${y}px;width:${w}px;height:${h}px`;
 
@@ -31,6 +31,7 @@ export async function renderEnvironment(main, config) {
     steps = [],
     started = 0,
     selected = null,
+    pendingOption = null,
     mode = 'discover',
     caseIndex = 0,
     busy = false;
@@ -135,6 +136,11 @@ export async function renderEnvironment(main, config) {
   try {
     const [data, assets] = await Promise.all([json('rules.json'), json('assets.json')]);
     const inputCount = data.inputCount ?? 4;
+    const atmosphere = config.createAtmosphere?.(assets);
+    const markers = [
+      ...data.markers.map((box, element) => ({ box, element })),
+      ...(data.extraMarkers || []),
+    ];
     const background = await image(assets.ui['30000'].colorSrc);
     await Promise.all(Object.values(assets.objects).flat().map(image));
     await Promise.all(
@@ -145,6 +151,7 @@ export async function renderEnvironment(main, config) {
     await Promise.all(Object.values(assets.idleObjects || {}).map(image));
     await Promise.all(Object.values(assets.explanations || {}).map(image));
     await Promise.all(Object.values(assets.ambientReactions || {}).map(image));
+    await Promise.all(Object.values(assets.foregroundObjects || {}).map(image));
     if (leaving) return;
     state = createInitial(data);
     displayed = [...state.states];
@@ -153,7 +160,7 @@ export async function renderEnvironment(main, config) {
       'beforeend',
       `
       <div class="environment-actions"><label><input type="checkbox" data-sound checked> Son</label><button data-action="intro">Présentation</button><button data-action="modes">Mode d’étude</button><button data-action="understand">Comprendre</button><button data-action="reset">Recommencer</button><button data-action="stop">Arrêter</button><button data-action="fullscreen">Plein écran</button></div>
-      <div class="environment-frame"><div class="environment-stage" tabindex="0" aria-label="${esc(config.title)}, décor interactif"><canvas width="640" height="480" aria-label="${esc(config.sceneDescription)}"></canvas><div class="environment-title"></div><div class="environment-markers" style="--environment-help:url('${base + assets.ui['30001'].colorSrc}')">${data.markers.map((box, i) => (box[2] > 0 && box[3] > 0 ? `<button data-element="${i}" style="${position(box)}" aria-label="${esc(data.labels[i])}" title="${esc(data.labels[i])}">↔</button>` : '')).join('')}</div>
+      <div class="environment-frame"><div class="environment-stage" tabindex="0" aria-label="${esc(config.title)}, décor interactif"><canvas width="640" height="480" aria-label="${esc(config.sceneDescription)}"></canvas><div class="environment-title"></div><div class="environment-markers" style="--environment-help:url('${base + assets.ui['30001'].colorSrc}')">${markers.map(({ box, element: i }) => (box[2] > 0 && box[3] > 0 ? `<button data-element="${i}" style="${position(box)}" aria-label="${esc(data.labels[i])}" title="${esc(data.labels[i])}">↔</button>` : '')).join('')}</div>
       <div class="environment-popup" style="background-image:url('${base + assets.nativeUi.choicePanel.colorSrc}')" role="dialog" aria-label="Choix du réglage" hidden></div>
       <div class="environment-bottom-edge"></div><nav class="environment-bottom" style="background-image:url('${base + assets.nativeUi.bottomBar.src}')" aria-label="Commandes du document">${[
         ['BAFLE', 'sound', 'Son', 44, 132],
@@ -181,6 +188,7 @@ export async function renderEnvironment(main, config) {
       popup = root.querySelector('.environment-popup'),
       status = root.querySelector('.environment-status'),
       dialog = root.querySelector('dialog');
+    popup.classList.toggle('environment-confirm-choice', Boolean(config.confirmChoices));
     const resize = new ResizeObserver(() => {
       stage.style.transform = `scale(${frame.clientWidth / 640})`;
     });
@@ -208,8 +216,10 @@ export async function renderEnvironment(main, config) {
       closeDialog();
     });
     function closePopup() {
+      if (selected !== null) status.textContent = config.summary(data, state);
       popup.hidden = true;
       selected = null;
+      pendingOption = null;
     }
     function summary() {
       stage.classList.toggle('environment-understand', mode === 'understand');
@@ -250,6 +260,7 @@ export async function renderEnvironment(main, config) {
         return;
       }
       selected = i;
+      pendingOption = state.states[i];
       popup.hidden = false;
       popup.innerHTML = `<h2>${esc(data.labels[i])}</h2><div class="environment-options">${availableOptions(
         data,
@@ -262,7 +273,7 @@ export async function renderEnvironment(main, config) {
         )
         .join(
           '',
-        )}</div><div class="environment-popup-actions"><button data-action="explain">Explication</button><button data-action="close-popup">Fermer</button></div>`;
+        )}</div><div class="environment-popup-actions">${config.confirmChoices ? '<button data-action="apply-choice" aria-label="Valider le réglage">Valider</button>' : ''}<button data-action="explain">Explication</button><button data-action="close-popup">Fermer</button></div>`;
       popup.querySelector('[aria-pressed=true]')?.focus();
       status.textContent = `${data.labels[i]} : ${data.options[i][state.states[i]]}. Choisis un réglage.`;
     }
@@ -271,6 +282,7 @@ export async function renderEnvironment(main, config) {
       activeStep = null;
       displayed = [...state.states];
       busy = false;
+      atmosphere?.reset();
       stage.removeAttribute('aria-busy');
       summary();
       status.textContent = config.summary(data, state);
@@ -339,7 +351,7 @@ export async function renderEnvironment(main, config) {
       if (leaving) return;
       animation = requestAnimationFrame(draw);
       if (now - lastDraw < 1000 / 12) return;
-      lastDraw = now;
+      lastDraw = now - ((now - lastDraw) % (1000 / 12));
       if (
         busy &&
         (!activeStep ||
@@ -349,6 +361,12 @@ export async function renderEnvironment(main, config) {
         nextStep(now);
       ctx.imageSmoothingEnabled = false;
       ctx.drawImage(background, 0, 0);
+      const atmosphericFrame =
+        !busy && motion && !dialog.open && !explanation && mode !== 'understand'
+          ? atmosphere?.tick()
+          : null;
+      const layers = [];
+      const layer = (clip, n, priority) => layers.push({ clip, n, priority });
       for (const i of config.renderOrder || data.renderOrder) {
         const clip =
           activeStep?.element === i ? activeStep.resource : assets.objects[i][displayed[i]];
@@ -357,15 +375,30 @@ export async function renderEnvironment(main, config) {
           activeStep?.element === i
             ? Math.min(clip.frames - 1, Math.floor(((now - started) * clip.fps) / 1000))
             : clip.frames - 1;
-        paint(clip, n);
+        layer(clip, n, data.priorities?.objects[i] ?? layers.length);
         const idle = assets.idleObjects[`${prefix}_${i}S${String(displayed[i]).padStart(2, '0')}`];
-        if (!busy && motion && idle?.src && !dialog.open && !explanation) {
+        if (
+          !busy &&
+          motion &&
+          idle?.src &&
+          !dialog.open &&
+          !explanation &&
+          (data.idleEnabled?.[i] ?? true)
+        ) {
           const duration = (idle.frames * 1000) / idle.fps;
           const rest = config.idleRest?.[i] ?? 0;
-          const elapsed = (now + i * 1100) % (duration + rest),
-            cycle = Math.floor((now + i * 1100) / (duration + rest));
+          const elapsed = atmosphere
+              ? (((atmosphericFrame?.idleFrame ?? 0) % idle.frames) * 1000) / idle.fps
+              : (now + i * 1100) % (duration + rest),
+            cycle = atmosphere
+              ? Math.floor((atmosphericFrame?.idleFrame ?? 0) / idle.frames)
+              : Math.floor((now + i * 1100) / (duration + rest));
           if (elapsed < duration) {
-            paint(idle, Math.min(idle.frames - 1, Math.floor((elapsed * idle.fps) / 1000)));
+            layer(
+              idle,
+              Math.min(idle.frames - 1, Math.floor((elapsed * idle.fps) / 1000)),
+              data.priorities?.idle[i] ?? layers.length,
+            );
             const key = `${i}:${displayed[i]}`;
             if (idleCycles.get(key) !== cycle) {
               idleCycles.set(key, cycle);
@@ -374,11 +407,14 @@ export async function renderEnvironment(main, config) {
           }
         }
       }
+      for (const clip of Object.values(assets.foregroundObjects || {}))
+        layer(clip, clip.frames - 1, data.priorities?.foreground ?? layers.length);
       if (explanation) {
         const { resource, started } = explanation;
         const n = Math.floor(((now - started) * resource.fps) / 1000);
-        if (n >= resource.frames) nextExplanation(now);
-        else paint(resource, n);
+        if (now - started >= clipDuration(resource) && (!player || player.ended || player.paused))
+          nextExplanation(now);
+        else layer(resource, n, 1000);
       }
       const reactions = Object.values(assets.ambientReactions || {});
       if (
@@ -387,7 +423,8 @@ export async function renderEnvironment(main, config) {
         !dialog.open &&
         !explanation &&
         mode !== 'understand' &&
-        reactions.length
+        reactions.length &&
+        !atmosphere
       ) {
         if (!nextReaction) nextReaction = now + 18000;
         if (!ambientReaction && now >= nextReaction) {
@@ -398,13 +435,25 @@ export async function renderEnvironment(main, config) {
         if (ambientReaction) {
           const { resource, started } = ambientReaction;
           const n = Math.floor(((now - started) * resource.fps) / 1000);
-          if (n < resource.frames) paint(resource, n);
+          if (n < resource.frames)
+            layer(
+              resource,
+              n,
+              data.priorities?.ambient[reactions.indexOf(resource)] ?? layers.length,
+            );
           else {
             ambientReaction = null;
             nextReaction = now + 18000;
           }
         }
       }
+      if (atmosphericFrame?.ambient) {
+        const { resource, frame } = atmosphericFrame.ambient;
+        layer(resource, frame, data.priorities.ambient[reactions.indexOf(resource)]);
+        if (frame === 0) effect('ambient-reaction', resource);
+      }
+      layers.sort((a, b) => a.priority - b.priority);
+      for (const { clip, n } of layers) paint(clip, n);
     }
     const loaded = new Map(
       await Promise.all([...images].map(async ([key, promise]) => [key, await promise])),
@@ -437,6 +486,16 @@ export async function renderEnvironment(main, config) {
       if (el.hasAttribute('data-option') && selected !== null) {
         const i = selected,
           option = Number(el.dataset.option);
+        if (config.confirmChoices) {
+          pendingOption = option;
+          popup
+            .querySelectorAll('[data-option]')
+            .forEach((button) =>
+              button.setAttribute('aria-pressed', String(Number(button.dataset.option) === option)),
+            );
+          status.textContent = `${data.options[i][option]}. Valide le réglage pour l’appliquer.`;
+          return;
+        }
         update(changeInput(data, state, i, option), i);
         effect('choice', assets.audioEffects[data.effectNames[i][option]]);
         return;
@@ -451,6 +510,12 @@ export async function renderEnvironment(main, config) {
         return;
       }
       const action = el.dataset.action;
+      if (action === 'apply-choice' && selected !== null) {
+        const i = selected,
+          option = pendingOption;
+        update(changeInput(data, state, i, option), i);
+        effect('choice', assets.audioEffects[data.effectNames[i][option]]);
+      }
       if (action === 'close-popup') closePopup();
       if (action === 'explain' && selected !== null) explain(selected);
       if (action === 'intro') {
@@ -525,7 +590,13 @@ export async function renderEnvironment(main, config) {
     });
     on(canvas, 'pointermove', (event) => {
       const { x, y } = scenePoint(canvas.getBoundingClientRect(), event.clientX, event.clientY);
-      canvas.style.cursor = hitTest(data, x, y) === null ? 'default' : 'pointer';
+      const explanationHit =
+        mode === 'understand' &&
+        data.explanationZones?.some(
+          ([left, top, width, height]) =>
+            x >= left && x < left + width && y >= top && y < top + height,
+        );
+      canvas.style.cursor = explanationHit || hitTest(data, x, y) !== null ? 'pointer' : 'default';
     });
     on(stage, 'keydown', (event) => {
       if (event.key === 'Escape') {

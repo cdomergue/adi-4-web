@@ -1,5 +1,7 @@
+import { renderDesert } from './desert/view.js';
 import { renderEcosystem } from './ecosystem/view.js';
 import { renderCompany } from './company/view.js';
+import { renderWater } from './water/view.js';
 import { renderAir } from './air/view.js';
 import { renderAtlas } from './atlas/view.js';
 import { nativeDocuments } from './native-config.js';
@@ -45,6 +47,8 @@ function catalog() {
 export async function renderDocuments(main, topicId = '') {
   if (topicId === 's07') return renderEcosystem(main);
   if (topicId === 's12') return renderCompany(main);
+  if (topicId === 's17') return renderWater(main);
+  if (topicId === 's14') return renderDesert(main);
   if (topicId === 's16') return renderAir(main);
   if (topicId === 'atlas') return renderAtlas(main);
   if (Object.hasOwn(nativeDocuments, topicId)) return renderNativeDocument(main, topicId);

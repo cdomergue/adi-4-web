@@ -1,0 +1,614 @@
+{
+  "source": "ADI 4.21, SIMUL14.TOT, MAJSIMU.TOT et S14.DTA",
+  "inputCount": 3,
+  "labels": [
+    "Densité de population",
+    "Equipement électrique",
+    "Réseau d'irrigation",
+    "Besoins en bois",
+    "Réserve de bois de la savane",
+    "Besoins en produits agricoles",
+    "Défrichement de la savane",
+    "Etat de la nappe d'eau souterraine",
+    "Assèchement de la savane"
+  ],
+  "options": [
+    [
+      "Zone inhabitée",
+      "Campement nomade",
+      "Regroupement d'habitations",
+      "Village de brousse",
+      "Petite ville"
+    ],
+    [
+      "Pas d'électricité",
+      "Réseau électrique simple",
+      "Réseau électrique moderne"
+    ],
+    [
+      "Puits traditionnels",
+      "Réseau d'irrigation simple",
+      "Réseau d'irrigation moderne"
+    ],
+    [
+      "Pas de besoins",
+      "Faible utilisation du bois",
+      "Consommation de bois moyenne",
+      "Forte consommation de bois",
+      "Consommation de bois exagérée"
+    ],
+    [
+      "Savane entière",
+      "Savane un peu déboisée",
+      "Savane clairsemée",
+      "Savane très clairsemée",
+      "Savane totalement déboisée"
+    ],
+    [
+      "Pas de marché",
+      "Marché local",
+      "Petit marché",
+      "Marché moyen",
+      "Grand marché régional"
+    ],
+    [
+      "Savane entière",
+      "Savane  un peu défrichée",
+      "Savane à moitié défrichée",
+      "Savane  aux trois-quarts défrichée",
+      "Savane totalement défrichée"
+    ],
+    [
+      "Pas de pompage, nappe intacte",
+      "Nappe presque intacte",
+      "Nappe à moitié",
+      "Nappe presque asséchée",
+      "Nappe totalement asséchée"
+    ],
+    [
+      "Savane bien humide",
+      "Savane un peu en manque d'eau",
+      "Manque d'eau important",
+      "Manque d'eau alarmant",
+      "Savane totalement asséchée"
+    ]
+  ],
+  "explanations": [
+    "La pression démographique est très forte dans la majorité des pays touchés par la désertification. Bien sûr, elle varie selon les lieux : au coeur des déserts chauds d'Afrique ne vivent que des nomades. Mais aux marges des déserts, la population augmente et se concentre en villages.",
+    "Les régions touchées par la désertification ne sont pas toujours reliées au réseau électrique. L'apparition de l'électricité est une étape importante car il n'est plus nécessaire de brûler du bois pour s'éclairer et se nourrir.",
+    "L'irrigation est un élément vital dans les régions sèches. Sans elle, la vie serait limitée et les cultures n'existeraient pas. L'irrigation existe depuis longtemps mais les techniques se modernisent et permettent un meilleur approvisionnement. Cependant elles coûtent cher.",
+    "Le bois est très utilisé dans les régions sèches. Il sert comme matériau de construction, et en l'absence d'électricité comme combustible pour le chauffage et la cuisine.",
+    "Si la population des régions désertiques augmente, ses besoins en bois s'accroissent. Les arbres de la savane sont arrachés de plus en plus vite et n'ont plus le temps de repousser. Leur disparition est l'une des causes de la désertification.",
+    "Les deux principales activités de la population des régions semi-arides sont l'élevage, et surtout la culture. Si le nombre d'habitants d'un groupement croît, le besoin en terres agricoles croît lui aussi. Les habitants vont alors défricher la savane pour étendre leurs cultures.",
+    "Si la taille des champs augmente, celle de la savane diminue automatiquement. Les hommes la défrichent peu à peu pour répondre aux besoins en produits agricoles et en bois. Mais le défrichement peut atteindre des proportions inquiétantes et accentuer le problème de désertification.",
+    "L'eau existe dans les déserts, mais elle n'est pas toujours accessible. Les nappes d'eau souterraines sont exploitées pour toutes les activités (boire, irriguer...). Certaines de ces nappes sont \"fossiles\", c'est-à-dire qu'elles ne sont plus alimentées par les pluies. Alors si trop d'eau est pompée, la quantité d'eau diminue dangereusement.",
+    "La savane a besoin d'eau pour se reconstituer. Les pluies lui sont nécessaires. Mais si le climat de la région s'assèche, les pluies diminuent. Les arbres vont alors, s'ils en ont la possibilité, puiser l'eau des nappes souterraines. Si les hommes utilisent cette eau avec excès, les arbres n'ont plus assez d'eau et meurent."
+  ],
+  "introduction": "La désertification touche de nombreux pays situés aux limites du monde aride. Les pays en voie de développement et surtout l'Afrique, ont beaucoup de difficultés à préserver l'équilibre de leur environnement. Les milieux semi-arides sont fragiles : la sécheresse du climat entraîne une diminution de la végétation nécessaire au développement de la vie. De plus, les techniques d'irrigation traditionnelles ne suffisent plus pour répondre aux besoins d'une population en constante augmentation. Les Hommes ont la possibilité de lutter contre la désertification. Mais cette lutte demande de plus en plus de moyens financiers et les résultats ne sont pas toujours ceux que l'on espérait !",
+  "cases": [
+    {
+      "title": "LE VILLAGE DE KARANKASSO VIGUE, EN AFRIQUE",
+      "inputs": [
+        3,
+        1,
+        1
+      ],
+      "text": "Karankasso Vigué est un village de brousse situé au Sud du Burkina Faso, en Afrique de l'Ouest. L'électricité y est encore peu utilisée et pour s'éclairer la nuit, les habitants utilisent surtout des lampes de poche et les feux de bois. Autour du village, la savane arborée disparaît. Les femmes ramassent le bois mort et l'utilisent comme combustible pour préparer les repas. De plus, l'extension des cultures de mil et de sorgho entraîne un défrichement de plus en plus important. Le réseau d'irrigation reste peu développé car la région bénéficie de pluies relativement importantes.",
+      "hints": [
+        "Karankasso Vigué est un village de brousse situé au sud du Burkina Faso, en Afrique de l'Ouest. On y cultive le mil et le sorgho.",
+        "L'électricité existe mais est encore peu utilisée. Pour s'éclairer la nuit, les habitants utilisent encore des feux de bois ou leurs lampes de poche.",
+        "Le réseau d'irrigation reste peu développé car la région bénéficie d'une saison des pluies relativement importante."
+      ]
+    },
+    {
+      "title": "LE CAS DES NOMADES DU SAHEL",
+      "inputs": [
+        1,
+        0,
+        0
+      ],
+      "text": "Les marges du Sahara, celle du nord qui comprend les pays du Maghreb et celle du sud, que l'on appelle le Sahel, sont parcourues par des nomades. Bien sûr, les nomades n'utilisent pas l'électricité puisque leur habitat n'est pas fixe. Ils se déplacent avec leurs troupeaux selon des chemins tracés depuis longtemps et ne dégradent pas leur environnement. Ils utilisent le bois comme combustible et pour fabriquer leurs tentes. Ils ne mettent pas en place de systèmes d'irrigation mais s'approvisionnent aux puits traditionnels pour faire boire leurs troupeaux.",
+      "hints": [
+        "Les marges du Sahara, celle du Nord qui comprend les pays du Maghreb et celle du Sud, que l'on appelle le Sahel, sont parcourues par des nomades. Ils se déplacent avec leurs troupeaux selon des chemins tracés depuis longtemps.",
+        "Bien sûr, les nomades n'utilisent pas l'électricité puisque leur habitat n'est pas fixe. Ils utilisent le bois comme combustible et pour fabriquer leur tentes.",
+        "Les nomades ne mettent pas en place de systèmes d'irrigation mais utilisent les puits traditionnels pour faire boire leurs troupeaux."
+      ]
+    },
+    {
+      "title": "LA VILLE DE MOPTI, AU MALI",
+      "inputs": [
+        4,
+        2,
+        2
+      ],
+      "text": "La ville de Mopti est située sur un affluent du fleuve Niger, au Sud du Mali. Cette petite ville d'Afrique de de l'Ouest se développe. L'irrigation se fait à partir du cours d'eau car il n'y a pas plus d'une quarantaine de jours de pluies par an et le total des précipitations sur l'année ne permet que des cultures sèches. Mopti est une des villes les plus importantes du Mali après la capitale, Bamako et la ville de Ségou. Elle compte plus de 60 000 habitants. Le réseau électrique s'y développe et le nombre d'habitants augmente. Les arbres disparaissent autour de la ville car ils sont utilisés comme combustible, mais aussi à cause des conditions climatiques.",
+      "hints": [
+        "La ville de Mopti est située sur un affluent du fleuve Niger, au Sud du Mali. C'est l'une des villes les plus importantes du Mali, après sa capitale Bamako, et la ville de Ségou. Elle compte plus de 60 000 habitants.",
+        "Le réseau électrique est en train de se développer à Mopti et le nombre d'habitants augmente. Mais les arbres disparaissent autour de la ville, car ils sont encore utilisés comme combustible.",
+        "L'irrigation se fait de façon moderne à partir du fleuve car il n'y a pas plus d'une quarantaine de jours de pluie par an. Le total des précipitations sur l'année ne permet que des cultures sèches."
+      ]
+    }
+  ],
+  "values": [
+    [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    [
+      0,
+      1,
+      2
+    ],
+    [
+      0,
+      1,
+      2
+    ],
+    [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  ],
+  "lookups": [
+    [
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        1,
+        0
+      ],
+      [
+        2,
+        2,
+        0
+      ],
+      [
+        3,
+        3,
+        0
+      ],
+      [
+        4,
+        4,
+        0
+      ],
+      [
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        1,
+        1
+      ],
+      [
+        0,
+        2,
+        1
+      ],
+      [
+        1,
+        3,
+        1
+      ],
+      [
+        2,
+        4,
+        1
+      ],
+      [
+        0,
+        0,
+        2
+      ],
+      [
+        0,
+        1,
+        2
+      ],
+      [
+        0,
+        2,
+        2
+      ],
+      [
+        0,
+        3,
+        2
+      ],
+      [
+        1,
+        4,
+        2
+      ]
+    ],
+    [
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        1
+      ],
+      [
+        2,
+        0,
+        2
+      ],
+      [
+        3,
+        0,
+        3
+      ],
+      [
+        4,
+        0,
+        4
+      ],
+      [
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        1,
+        1
+      ],
+      [
+        0,
+        1,
+        2
+      ],
+      [
+        1,
+        1,
+        3
+      ],
+      [
+        2,
+        1,
+        4
+      ],
+      [
+        0,
+        2,
+        0
+      ],
+      [
+        0,
+        2,
+        1
+      ],
+      [
+        0,
+        2,
+        2
+      ],
+      [
+        0,
+        2,
+        3
+      ],
+      [
+        1,
+        2,
+        4
+      ]
+    ]
+  ],
+  "priorities": {
+    "objects": [
+      106,
+      104,
+      101,
+      102,
+      101,
+      107,
+      101,
+      101,
+      101
+    ],
+    "idle": [
+      101,
+      101,
+      101,
+      108,
+      101,
+      101,
+      101,
+      101,
+      101
+    ],
+    "ambient": [
+      111,
+      101,
+      119
+    ],
+    "foreground": 120
+  },
+  "idleEnabled": [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "initialStates": [
+    4,
+    0,
+    0,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1
+  ],
+  "limitFlags": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "dependencies": [
+    [
+      0,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    [
+      1,
+      3,
+      4
+    ],
+    [
+      2,
+      7,
+      8
+    ]
+  ],
+  "sequential": [
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    1,
+    1,
+    1
+  ],
+  "renderOrder": [
+    2,
+    4,
+    6,
+    7,
+    8,
+    3,
+    1,
+    0,
+    5
+  ],
+  "hitboxes": [
+    [
+      213,
+      319,
+      421,
+      155
+    ],
+    [
+      1,
+      70,
+      70,
+      140
+    ],
+    [
+      440,
+      95,
+      75,
+      85
+    ],
+    [
+      200,
+      155,
+      170,
+      90
+    ],
+    [
+      79,
+      58,
+      144,
+      87
+    ],
+    [
+      2,
+      294,
+      249,
+      172
+    ],
+    [
+      280,
+      60,
+      110,
+      75
+    ],
+    [
+      530,
+      170,
+      110,
+      70
+    ],
+    [
+      475,
+      45,
+      140,
+      50
+    ]
+  ],
+  "markers": [
+    [
+      263,
+      384,
+      29,
+      32
+    ],
+    [
+      15,
+      162,
+      30,
+      30
+    ],
+    [
+      477,
+      143,
+      30,
+      32
+    ],
+    [
+      226,
+      215,
+      30,
+      32
+    ],
+    [
+      131,
+      107,
+      33,
+      33
+    ],
+    [
+      83,
+      380,
+      33,
+      30
+    ],
+    [
+      259,
+      134,
+      30,
+      34
+    ],
+    [
+      578,
+      215,
+      35,
+      32
+    ],
+    [
+      507,
+      76,
+      30,
+      30
+    ]
+  ],
+  "explanationZones": [
+    [
+      117,
+      204,
+      70,
+      81
+    ],
+    [
+      180,
+      279,
+      84,
+      93
+    ],
+    [
+      485,
+      228,
+      66,
+      54
+    ],
+    [
+      447,
+      94,
+      27,
+      43
+    ]
+  ],
+  "effectNames": [
+    [
+      "SBRU005",
+      "SBRU016",
+      "SBRU049",
+      "SBRU116",
+      "SBRU017"
+    ],
+    [
+      "SILENCE",
+      "SBRU075",
+      "SBRU041"
+    ],
+    [
+      "SBRU010",
+      "SBRU011",
+      "SBRU012"
+    ]
+  ]
+}

@@ -4,6 +4,16 @@
 
 This repository recreates ADI 4 Sciences as a static browser application.
 
+## Fidelity and completion
+
+Fidelity to the original game is the primary objective. Do not choose an easier
+implementation at the expense of original behavior. Verify interactions, rules,
+animations, ambient sequences, sound, timing, and visual details against the
+original assets, scripts, and runtime. Use reverse engineering where necessary.
+Finishing these details is required work, not an optional enhancement. Keep
+remaining differences explicitly documented until they are resolved; a playable
+screen alone does not establish that its recreation is complete.
+
 - `web/index.html` and `web/public/app.js` initialize the application.
 - `web/public/application/` owns routing and the shared shell; `features/` groups courses, room interactions, science simulations, and games. Keep game rules in DOM-independent `engine.js` modules and rendering in `view.js`.
 - `web/public/styles/` contains stylesheets; `game/` contains assets and manifests; `vendor/wgob3/` contains the compiled third-party engine.

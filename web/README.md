@@ -125,17 +125,29 @@ et la part de marché suivent les calculs originaux. Les limites d’investissem
 dépendent de la capacité et du niveau déjà engagé. Trois cas d’étude et quatre
 explications animées accompagnent le décor interactif, avec ses sons d’origine.
 
-Les trois autres simulations portent sur la pollution de l’eau,
-la désertification et le développement d’un pays.
-Leurs paramètres se règlent dans les décors, avec les modes et les cas du jeu.
-Elles exécutent les scripts du CD avec un
-[moteur Gob dédié](public/vendor/documents/README.md).
+[La pollution de l’eau](public/features/documents/water/README.md) propose sept
+réglages dans le paysage : activités urbaines et industrielles, épuration,
+politique écologique, agriculture, plages et pétroliers. Les déchets, les rejets
+des égouts et l’état de la mer suivent les calculs originaux. Trois situations
+se reconstituent avec indices et validation ; sept explications animées décrivent
+les sources de pollution, avec leurs voix et bruitages.
+
+[La désertification](public/features/documents/desert/README.md) propose trois
+réglages : population, électricité et irrigation, avec sélection puis validation
+dans le panneau. Les neuf éléments du paysage suivent les tables originales.
+Les cas de Karankasso Vigué, des nomades du Sahel et de Mopti, les quatre
+explications animées, les sons, les calques et les séquences d’ambiance sont inclus.
+
+Le développement d’un pays exécute les scripts du CD avec un
+[moteur Gob dédié](public/vendor/documents/README.md). Ses paramètres se règlent
+dans le décor, avec les modes et les cas du jeu.
 Le bouton « Ouvrir » autorise la lecture sonore ; « Son » est coché par défaut.
 Les commandes du lecteur donnent accès à la barre du bas, à Échap et au plein écran.
 Les six simulations sont distinctes des 14 expériences de la station Sciences.
 Les sessions des documents ne sont pas sauvegardées entre deux consultations.
 Les petits mouvements d’ambiance des décors et certaines transitions ne sont
-pas tous reproduits.
+pas tous reproduits. Les [finitions de fidélité](FIDELITY.md) sont des travaux
+requis pour considérer la recréation terminée.
 
 ## Les dix jeux
 

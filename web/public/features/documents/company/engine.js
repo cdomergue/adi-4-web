@@ -94,25 +94,4 @@ export function reconstruct(data, state, example) {
   return result(data, values);
 }
 
-export function transitionSteps(data, previous, next, changed = null) {
-  const order = changed === null ? data.labels.map((_, i) => i) : data.dependencies[changed];
-  const steps = [];
-  for (const element of order) {
-    const from = previous.states[element],
-      to = next.states[element];
-    if (data.sequential[element]) {
-      const direction = Math.sign(to - from);
-      for (let state = from; state !== to; state += direction)
-        steps.push({
-          element,
-          state: state + direction,
-          clip: direction > 0 ? state + 1 : state,
-          reverse: direction < 0,
-        });
-    } else if (changed !== null || from !== to) {
-      // MOTEUR:6be1 replays direct clips even if the dependent visual state is unchanged.
-      steps.push({ element, state: to, clip: to, reverse: false });
-    }
-  }
-  return steps;
-}
+export { transitionSteps } from '../environment-animation.js';

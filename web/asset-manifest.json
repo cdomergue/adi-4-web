@@ -6157,6 +6157,631 @@
       "sha256": "1f06db4f0171f65832735079024b5eaa90dc2d36c24a337ea292d47d5ccebceb"
     },
     {
+      "path": "public/game/documents/desert/assets.json",
+      "size": 48964,
+      "sha256": "eaf0a3826fec6910010e07e24a3f22a145a7e63949b09e4862e3776b593bda68"
+    },
+    {
+      "path": "public/game/documents/desert/audio/a_mus14.wav",
+      "size": 895680,
+      "sha256": "aedd1fd39e24350dde48b97383c38e986666b2639a843e86d33eb50c7e7c48f0"
+    },
+    {
+      "path": "public/game/documents/desert/audio/s14_00rq.wav",
+      "size": 136754,
+      "sha256": "6d93bf2a2cbcf5c13a340a5a799b9521722fb4c7d04def093e0928b856b33df9"
+    },
+    {
+      "path": "public/game/documents/desert/audio/s14_01rq.wav",
+      "size": 207314,
+      "sha256": "af537686381de4406b77bde2a6efb5e13f1e2fdfafa98393f3bba5c143b0e7fe"
+    },
+    {
+      "path": "public/game/documents/desert/audio/s14_02rq.wav",
+      "size": 207314,
+      "sha256": "4435611056976cd4b4427957a117f22ba771348bbc5cfcb68f17365e04808c34"
+    },
+    {
+      "path": "public/game/documents/desert/audio/s14_re00.wav",
+      "size": 301444,
+      "sha256": "91a6efc9e37e3fe0e3f153ed4559e78f6ff3685a5bad1981beeca9ea52eb1f14"
+    },
+    {
+      "path": "public/game/documents/desert/audio/s14_re01.wav",
+      "size": 352940,
+      "sha256": "1d03c6cd35a579ccab3f2f0e850d7f9bc04941395f0e008701f72a07939056cb"
+    },
+    {
+      "path": "public/game/documents/desert/audio/s14_re02.wav",
+      "size": 301444,
+      "sha256": "fb136cbab73df37d0b513c734f84bc6521f5341bfd08fb483305b465a8221c77"
+    },
+    {
+      "path": "public/game/documents/desert/audio/s14_re03.wav",
+      "size": 308814,
+      "sha256": "7bdd789255afed814fb7a3f6f4c7959cf4bc6d8ffae32e2ef159fabcafc58db3"
+    },
+    {
+      "path": "public/game/documents/desert/audio/s14_vo.wav",
+      "size": 829124,
+      "sha256": "f9b0b6e481b8b027c57fc51196367e10793186bff62852167f65f77982ca9f85"
+    },
+    {
+      "path": "public/game/documents/desert/audio/sbru005.wav",
+      "size": 141228,
+      "sha256": "20b95e7f84f199a38cd105914842bac368ca23d34f91109331590ac2a3092c02"
+    },
+    {
+      "path": "public/game/documents/desert/audio/sbru010.wav",
+      "size": 70612,
+      "sha256": "a359a05674047563904a65b029f995c1c508795cb5a973c240343050b3f2b90d"
+    },
+    {
+      "path": "public/game/documents/desert/audio/sbru011.wav",
+      "size": 150052,
+      "sha256": "26d9300aeab2c9491fd12d56b45803c85d3736c6d5dc6818060838ab74308230"
+    },
+    {
+      "path": "public/game/documents/desert/audio/sbru012.wav",
+      "size": 110344,
+      "sha256": "7a1c1b490830e09ac12e81a15ed2301303b1b08f276bc199a32602243fefe12d"
+    },
+    {
+      "path": "public/game/documents/desert/audio/sbru016.wav",
+      "size": 176524,
+      "sha256": "3a960fb15c096f415743630bc2c829968266ee714271e25319ce079f5fe1ea16"
+    },
+    {
+      "path": "public/game/documents/desert/audio/sbru017.wav",
+      "size": 163288,
+      "sha256": "06c6e930c73e258b1c0db9cc12064a24a0e64094bf97b1cfb8894c90a467dad7"
+    },
+    {
+      "path": "public/game/documents/desert/audio/sbru041.wav",
+      "size": 83872,
+      "sha256": "897ac7f52d18b692fe123ece797222f8cad324ff07a7f4bd743152420ec9564e"
+    },
+    {
+      "path": "public/game/documents/desert/audio/sbru049.wav",
+      "size": 110344,
+      "sha256": "103c876269c7b6481bda6e7ef446a80e2fedded05f69d686fb04dbc4c88873bf"
+    },
+    {
+      "path": "public/game/documents/desert/audio/sbru075.wav",
+      "size": 88276,
+      "sha256": "891e39880aa3199d68ce63712e6edcefe163472dd148491a41b2fa934a0c0b72"
+    },
+    {
+      "path": "public/game/documents/desert/audio/sbru116.wav",
+      "size": 194172,
+      "sha256": "ce36f87c9ba80071ffcd905ed55dcd0ad16ca645eda08799fd98ec26ff6b3227"
+    },
+    {
+      "path": "public/game/documents/desert/images/s14_0d00.webp",
+      "size": 24722,
+      "sha256": "02a6a993c02fec62937854b3e3a24a95890e07406b5df4c8743f484db7adf325"
+    },
+    {
+      "path": "public/game/documents/desert/images/s14_0d01-frames.webp",
+      "size": 54676,
+      "sha256": "1251066cba94a45a43e5c4267ef4448578026633fffd054635d27ae7c51f7d11"
+    },
+    {
+      "path": "public/game/documents/desert/images/s14_0d02-frames.webp",
+      "size": 58646,
+      "sha256": "d41d2e9c44e1d679485e972b8288e03d53dc42659f2a21e928976dfdebef9ac8"
+    },
+    {
+      "path": "public/game/documents/desert/images/s14_0d03-frames.webp",
+      "size": 54938,
+      "sha256": "6cb8e11f129fd0000777051c187164603218973dc12d4afe26fe12103232cccc"
+    },
+    {
+      "path": "public/game/documents/desert/images/s14_0d04-frames.webp",
+      "size": 31442,
+      "sha256": "a6f99f1a6f230230298aa126c9aee40d36ec04ecc0a0ba049bd318b5134c3853"
+    },
+    {
+      "path": "public/game/documents/desert/images/s14_0h-frames.webp",
+      "size": 1120,
+      "sha256": "0a5a720cc2245910b896118fe1859464b45054d25d9c36412d8d4ebdc9f15992"
+    },
+    {
+      "path": "public/game/documents/desert/images/s14_0i00.webp",
+      "size": 24722,
+      "sha256": "02a6a993c02fec62937854b3e3a24a95890e07406b5df4c8743f484db7adf325"
+    },
+    {
+      "path": "public/game/documents/desert/images/s14_0i01-frames.webp",
+      "size": 54420,
+      "sha256": "a3a5da1d90ecf870721a8114f7632b071bcfc7bc43433061dcbded077c24b925"
+    },
+    {
+      "path": "public/game/documents/desert/images/s14_0i02-frames.webp",
+      "size": 59354,
+      "sha256": "97e748a6e76f75f1e48bba9dba3f871d6cec4edd357688e88a3079cbb1c5fd4e"
+    },
+    {
+      "path": "public/game/documents/desert/images/s14_0i03-frames.webp",
+      "size": 53418,
+      "sha256": "2dc3581838ef33c857a804a720d2879ef83944f7bbf33f0c3446d01346f0827b"
+    },
+    {
+      "path": "public/game/documents/desert/images/s14_0i04-frames.webp",
+      "size": 31318,
+      "sha256": "3f08fa6286c35e8fa1564083fb7055c5b7ff2487477133bc77712f6059219992"
+    },
+    {
+      "path": "public/game/documents/desert/images/s14_0op.webp",
+      "size": 6980,
+      "sha256": "dca4d19296f25823d0aef839f58f4c74fc8c2f5f03395fcfccbda06524e0998c"
+    },
+    {
+      "path": "public/game/documents/desert/images/s14_1d00.webp",
+      "size": 156,
+      "sha256": "4d6d984e42220528d261826b608ecfe7605b982a9ebc744b7de10bcfd5797e75"
+    },
+    {
+      "path": "public/game/documents/desert/images/s14_1d01.webp",
+      "size": 376,
+      "sha256": "e18f5a7c18d3e23895e6f8abde134ec53598c096c21af8262fd8b2fdf77d14e0"
+    },
+    {
+      "path": "public/game/documents/desert/images/s14_1d02-frames.webp",
+      "size": 1718,
+      "sha256": "2abc3e0236476bd5e8ad99a9e7493da71cfde286f8075ea8fdfd155f5aa83dbd"
+    },
+    {
+      "path": "public/game/documents/desert/images/s14_1h-frames.webp",
+      "size": 32164,
+      "sha256": "d249af5922bf63853c2eb4ff54592d9adb6693af1f169ed7b5dbfae75bab4f30"
+    },
+    {
+      "path": "public/game/documents/desert/images/s14_1i00.webp",
+      "size": 156,
+      "sha256": "4d6d984e42220528d261826b608ecfe7605b982a9ebc744b7de10bcfd5797e75"
+    },
+    {
+      "path": "public/game/documents/desert/images/s14_1i01.webp",
+      "size": 376,
+      "sha256": "e18f5a7c18d3e23895e6f8abde134ec53598c096c21af8262fd8b2fdf77d14e0"
+    },
+    {
+      "path": "public/game/documents/desert/images/s14_1i02-frames.webp",
+      "size": 1696,
+      "sha256": "8201be15254656ab8a28219aca202bcdf7a471c750df98e665a7a172c8d0d75f"
+    },
+    {
+      "path": "public/game/documents/desert/images/s14_2d00.webp",
+      "size": 500,
+      "sha256": "cec91e2c20ff88f1e1a25eb831ade79f6c4e94d5ab3293e4f054adbf1752fb44"
+    },
+    {
+      "path": "public/game/documents/desert/images/s14_2d01-frames.webp",
+      "size": 6878,
+      "sha256": "5252a246a9e6714a1974cd6b5315193639c90f73bc56621be91403d1831442ef"
+    },
+    {
+      "path": "public/game/documents/desert/images/s14_2d02.webp",
+      "size": 1362,
+      "sha256": "629e3eef0da907151293573a370803cc85ac728c3c0c2f90cd804759c2e619cc"
+    },
+    {
+      "path": "public/game/documents/desert/images/s14_2h-frames.webp",
+      "size": 1272,
+      "sha256": "6d89043e1af5178b4494c03b7f11e350a7ba102dca161b32e8781e4debd25dc9"
+    },
+    {
+      "path": "public/game/documents/desert/images/s14_2i00.webp",
+      "size": 500,
+      "sha256": "cec91e2c20ff88f1e1a25eb831ade79f6c4e94d5ab3293e4f054adbf1752fb44"
+    },
+    {
+      "path": "public/game/documents/desert/images/s14_2i01-frames.webp",
+      "size": 6966,
+      "sha256": "ef6bb78213cff75fa5de473862bea8214c81bdb7be966c4030c376dc9f5c3865"
+    },
+    {
+      "path": "public/game/documents/desert/images/s14_2i02.webp",
+      "size": 1362,
+      "sha256": "629e3eef0da907151293573a370803cc85ac728c3c0c2f90cd804759c2e619cc"
+    },
+    {
+      "path": "public/game/documents/desert/images/s14_3d00-frames.webp",
+      "size": 2248,
+      "sha256": "15f8b989e4f9128a286e26fcaa59da922aa7a63c2e53346fc8e278fcbfd6ce55"
+    },
+    {
+      "path": "public/game/documents/desert/images/s14_3d01-frames.webp",
+      "size": 3562,
+      "sha256": "0f51284d444fe28faac1af0e8e28242164a5e0e6e91f8b67ad5ce9249f7e7b1f"
+    },
+    {
+      "path": "public/game/documents/desert/images/s14_3d02-frames.webp",
+      "size": 3214,
+      "sha256": "d988b6dc23c99ad434cd685f699654baf139c95c68c67072c1f54651cc16e4a7"
+    },
+    {
+      "path": "public/game/documents/desert/images/s14_3d03-frames.webp",
+      "size": 2452,
+      "sha256": "e41b0a25279767ed8c0d3c894c409ade254ecefdeed15f9da538d2fd6f71d25e"
+    },
+    {
+      "path": "public/game/documents/desert/images/s14_3d04-frames.webp",
+      "size": 1830,
+      "sha256": "9e724e8b6d279ad5f566230309ee9caf45cd38ec1076c08fe48e926de41f0019"
+    },
+    {
+      "path": "public/game/documents/desert/images/s14_3i00-frames.webp",
+      "size": 2248,
+      "sha256": "15f8b989e4f9128a286e26fcaa59da922aa7a63c2e53346fc8e278fcbfd6ce55"
+    },
+    {
+      "path": "public/game/documents/desert/images/s14_3i01-frames.webp",
+      "size": 3666,
+      "sha256": "15ebbe28aa23e0576411f0d138e326cded721c35cc4c9492c1482b0b5b58681d"
+    },
+    {
+      "path": "public/game/documents/desert/images/s14_3i02-frames.webp",
+      "size": 3360,
+      "sha256": "3ad3c28738cc04ce7105d952010842bdfa5402149af2e53bea4a4e6c8d2de941"
+    },
+    {
+      "path": "public/game/documents/desert/images/s14_3i03-frames.webp",
+      "size": 2472,
+      "sha256": "4601a1efd2cefd36e559c6cb965764759ac827a24f2ea31a48412658a18daa8e"
+    },
+    {
+      "path": "public/game/documents/desert/images/s14_3i04-frames.webp",
+      "size": 1870,
+      "sha256": "1695867acdf6e537a4dcc1183557d65cb3e5b5eff28f5b801dfc956aff955b82"
+    },
+    {
+      "path": "public/game/documents/desert/images/s14_3s00.webp",
+      "size": 34,
+      "sha256": "86be52bdb7547413cafb3ed175a806a798c65de98b40849e0b974c47d187de65"
+    },
+    {
+      "path": "public/game/documents/desert/images/s14_3s01-frames.webp",
+      "size": 2812,
+      "sha256": "a5921665ade77c33e6975ebd96d5341f21de46caab20ffd033c8384431352287"
+    },
+    {
+      "path": "public/game/documents/desert/images/s14_3s02-frames.webp",
+      "size": 2812,
+      "sha256": "a5921665ade77c33e6975ebd96d5341f21de46caab20ffd033c8384431352287"
+    },
+    {
+      "path": "public/game/documents/desert/images/s14_3s03-frames.webp",
+      "size": 2812,
+      "sha256": "a5921665ade77c33e6975ebd96d5341f21de46caab20ffd033c8384431352287"
+    },
+    {
+      "path": "public/game/documents/desert/images/s14_3s04-frames.webp",
+      "size": 2812,
+      "sha256": "a5921665ade77c33e6975ebd96d5341f21de46caab20ffd033c8384431352287"
+    },
+    {
+      "path": "public/game/documents/desert/images/s14_4d00.webp",
+      "size": 7804,
+      "sha256": "0080c1ce61a5c077c29b12e561281c208ac0252cba8007fb93ca445a5f07942e"
+    },
+    {
+      "path": "public/game/documents/desert/images/s14_4d01-frames.webp",
+      "size": 2876,
+      "sha256": "ebbdb9057eb07dafdc52b96c7cb09eb0718f0f347bf5b6d4f9edebbb6a596978"
+    },
+    {
+      "path": "public/game/documents/desert/images/s14_4d02-frames.webp",
+      "size": 2266,
+      "sha256": "86e9f134544c70717d46da780c66ce2d6e56d5b138aba340da929c2b1196697c"
+    },
+    {
+      "path": "public/game/documents/desert/images/s14_4d03-frames.webp",
+      "size": 2138,
+      "sha256": "66b13d5b493e4368248485894421e1c655cf1bab7fc6dea23e9c458ef6001f82"
+    },
+    {
+      "path": "public/game/documents/desert/images/s14_4d04-frames.webp",
+      "size": 1142,
+      "sha256": "1958acb9a7ba3b37046e6c5c39c7692ad01030a606098e4ca51b9c0930dd0df4"
+    },
+    {
+      "path": "public/game/documents/desert/images/s14_4i00.webp",
+      "size": 7804,
+      "sha256": "0080c1ce61a5c077c29b12e561281c208ac0252cba8007fb93ca445a5f07942e"
+    },
+    {
+      "path": "public/game/documents/desert/images/s14_4i01-frames.webp",
+      "size": 2896,
+      "sha256": "7da9c49745dc2657b86918beb2cf0c1522dc072d5e3bec3a6f84c9f84132ce47"
+    },
+    {
+      "path": "public/game/documents/desert/images/s14_4i02-frames.webp",
+      "size": 2320,
+      "sha256": "d2f93f0e5b218d303cdcf8328f59f53d75442abc765ad22012f5809d1c5fa16b"
+    },
+    {
+      "path": "public/game/documents/desert/images/s14_4i03-frames.webp",
+      "size": 2182,
+      "sha256": "e2397a4096ce3ee165b5019b04d57eebab18a039ee52014f6f2dae7aeefb7a6e"
+    },
+    {
+      "path": "public/game/documents/desert/images/s14_4i04-frames.webp",
+      "size": 1212,
+      "sha256": "315902e1dd13bcd78e8d52b67f6f21c0d7ffc683cace35e0bdf272dabf926979"
+    },
+    {
+      "path": "public/game/documents/desert/images/s14_5d00.webp",
+      "size": 34,
+      "sha256": "86be52bdb7547413cafb3ed175a806a798c65de98b40849e0b974c47d187de65"
+    },
+    {
+      "path": "public/game/documents/desert/images/s14_5d01.webp",
+      "size": 654,
+      "sha256": "d2d3e0b59ff6e788a5906699ac24bb2cbeca11a8400299868762f9b0569a95fe"
+    },
+    {
+      "path": "public/game/documents/desert/images/s14_5d02.webp",
+      "size": 974,
+      "sha256": "884f0bbbe100001f6884f69bb245bfb8b67433b032dc53bcf3581e4bce36b9ab"
+    },
+    {
+      "path": "public/game/documents/desert/images/s14_5d03.webp",
+      "size": 2120,
+      "sha256": "0e35198583b53d6fa2be3db2fae888750f3643dde0190d9e9f07fcd02387331f"
+    },
+    {
+      "path": "public/game/documents/desert/images/s14_5d04.webp",
+      "size": 2886,
+      "sha256": "2e7e094a5cc8e3d4911ffb4fd859d26657458392bef9ad4242f6d963a1141701"
+    },
+    {
+      "path": "public/game/documents/desert/images/s14_5i00.webp",
+      "size": 34,
+      "sha256": "86be52bdb7547413cafb3ed175a806a798c65de98b40849e0b974c47d187de65"
+    },
+    {
+      "path": "public/game/documents/desert/images/s14_5i01.webp",
+      "size": 654,
+      "sha256": "d2d3e0b59ff6e788a5906699ac24bb2cbeca11a8400299868762f9b0569a95fe"
+    },
+    {
+      "path": "public/game/documents/desert/images/s14_5i02.webp",
+      "size": 974,
+      "sha256": "884f0bbbe100001f6884f69bb245bfb8b67433b032dc53bcf3581e4bce36b9ab"
+    },
+    {
+      "path": "public/game/documents/desert/images/s14_5i03.webp",
+      "size": 2120,
+      "sha256": "0e35198583b53d6fa2be3db2fae888750f3643dde0190d9e9f07fcd02387331f"
+    },
+    {
+      "path": "public/game/documents/desert/images/s14_5i04.webp",
+      "size": 2886,
+      "sha256": "2e7e094a5cc8e3d4911ffb4fd859d26657458392bef9ad4242f6d963a1141701"
+    },
+    {
+      "path": "public/game/documents/desert/images/s14_6d00.webp",
+      "size": 1192,
+      "sha256": "86cb0475472ef3fe91a9d7c53c25a2725a90d1f3d39c0740fa16f3e86c501fde"
+    },
+    {
+      "path": "public/game/documents/desert/images/s14_6d01-frames.webp",
+      "size": 38828,
+      "sha256": "999c28c1a0f0812dc70eafe9313a452c837f3a04f193fc1c9e9de7306734e31b"
+    },
+    {
+      "path": "public/game/documents/desert/images/s14_6d02-frames.webp",
+      "size": 71066,
+      "sha256": "dada0c63b8ae52e88a7b3b7056f52cb009e95a0210a20cd6ff1b662244c35a0f"
+    },
+    {
+      "path": "public/game/documents/desert/images/s14_6d03-frames.webp",
+      "size": 15898,
+      "sha256": "5ba74f5e4091b7e32a8184f6c574dcabe63f79f115b31f48b00d7ee7daf31be4"
+    },
+    {
+      "path": "public/game/documents/desert/images/s14_6d04-frames.webp",
+      "size": 17038,
+      "sha256": "dc9d5e14e3187b78205e9a3dfc0f0d32923e70910da4df822a19a341b67e5aa4"
+    },
+    {
+      "path": "public/game/documents/desert/images/s14_6i00.webp",
+      "size": 1192,
+      "sha256": "86cb0475472ef3fe91a9d7c53c25a2725a90d1f3d39c0740fa16f3e86c501fde"
+    },
+    {
+      "path": "public/game/documents/desert/images/s14_6i01-frames.webp",
+      "size": 38900,
+      "sha256": "f9f9565a7c9cd770bd83842f930ec54bf1db6dc2a983f9051d37d4b841740315"
+    },
+    {
+      "path": "public/game/documents/desert/images/s14_6i02-frames.webp",
+      "size": 71044,
+      "sha256": "1f44d7dccc477e8ec6704791a5af8958ef851fe543dd39140797fd760304b4c3"
+    },
+    {
+      "path": "public/game/documents/desert/images/s14_6i03-frames.webp",
+      "size": 15904,
+      "sha256": "0aa22cadece2ea3923d3d436bf39f7ac5d34ca59c986146a4208d0e41bea89e1"
+    },
+    {
+      "path": "public/game/documents/desert/images/s14_6i04-frames.webp",
+      "size": 17174,
+      "sha256": "4b99f8012b8eaf602ce6bb89a621d376f3fdcb127045f5dbf774d1226d6aae33"
+    },
+    {
+      "path": "public/game/documents/desert/images/s14_7d00.webp",
+      "size": 3742,
+      "sha256": "ba5254815ca3e09ec49284053c3ca792a40e07db4870c5aa8cf378f8d7f00a98"
+    },
+    {
+      "path": "public/game/documents/desert/images/s14_7d01-frames.webp",
+      "size": 4614,
+      "sha256": "4e2dd40f93320295ab0a30e5ee90c837c38839f3d50e594bb427282a73eea17a"
+    },
+    {
+      "path": "public/game/documents/desert/images/s14_7d02-frames.webp",
+      "size": 6770,
+      "sha256": "f6aeb21f1e4be1c7a5687f5e8df9e95d61d026e50e92f54aa39bd1236d3f9053"
+    },
+    {
+      "path": "public/game/documents/desert/images/s14_7d03-frames.webp",
+      "size": 6810,
+      "sha256": "8e97e1c313acfe66e9a58deb94d3dafda133b20204705d731548cab574c70378"
+    },
+    {
+      "path": "public/game/documents/desert/images/s14_7d04-frames.webp",
+      "size": 6500,
+      "sha256": "9a095957510619df27510dc2f36f451a14713da680b860817c554a83145fecbb"
+    },
+    {
+      "path": "public/game/documents/desert/images/s14_7i00.webp",
+      "size": 3742,
+      "sha256": "ba5254815ca3e09ec49284053c3ca792a40e07db4870c5aa8cf378f8d7f00a98"
+    },
+    {
+      "path": "public/game/documents/desert/images/s14_7i01-frames.webp",
+      "size": 4554,
+      "sha256": "d82493dc47804b9241693952bf1e7c7bd9998d5cc7607974b94e7f123fc3ba7a"
+    },
+    {
+      "path": "public/game/documents/desert/images/s14_7i02-frames.webp",
+      "size": 6792,
+      "sha256": "b2114700604ac4abf4c3109b541aadebba19cd8f2242465032c33c168c1d1145"
+    },
+    {
+      "path": "public/game/documents/desert/images/s14_7i03-frames.webp",
+      "size": 6566,
+      "sha256": "d9ccb52b7817c9ed013daa7c5a288b8fd82af71c26df7dcff1157bc2d0e2a4a6"
+    },
+    {
+      "path": "public/game/documents/desert/images/s14_7i04-frames.webp",
+      "size": 6700,
+      "sha256": "ee49b1d9ec0f5856467b9f6545edb73d9de14408752cd6cc0898e7d25ef433c6"
+    },
+    {
+      "path": "public/game/documents/desert/images/s14_8d00.webp",
+      "size": 1934,
+      "sha256": "12b20ab6dd6c983e51a662c01278fb4e067d23b36e2888dd8855dee2477f2f76"
+    },
+    {
+      "path": "public/game/documents/desert/images/s14_8d01-frames.webp",
+      "size": 3924,
+      "sha256": "fefcec79dce0ee8b2c8c659cff77d9d5903bdfac7b4d9935cc55908e468b4430"
+    },
+    {
+      "path": "public/game/documents/desert/images/s14_8d02.webp",
+      "size": 1790,
+      "sha256": "fcf62b3ac2fbb5c3b04c1fc0a3b82a674d1618f9c5d1f1505371f59fdea96cb3"
+    },
+    {
+      "path": "public/game/documents/desert/images/s14_8d03.webp",
+      "size": 1594,
+      "sha256": "e4c0ab895d05f8a400ced17c32f4c459ca7b8866d0167bee6637a14c3ebc7161"
+    },
+    {
+      "path": "public/game/documents/desert/images/s14_8d04.webp",
+      "size": 1184,
+      "sha256": "f6c23b4990d3c0f21e7f11d37fb82aca1c21d32a3d925170ea3ed8155fbe33f4"
+    },
+    {
+      "path": "public/game/documents/desert/images/s14_8i00.webp",
+      "size": 1934,
+      "sha256": "12b20ab6dd6c983e51a662c01278fb4e067d23b36e2888dd8855dee2477f2f76"
+    },
+    {
+      "path": "public/game/documents/desert/images/s14_8i01-frames.webp",
+      "size": 3924,
+      "sha256": "c185acfa44e553ec9f6e27bae1046516ffa7e583b21955d448bf9c04c51ca169"
+    },
+    {
+      "path": "public/game/documents/desert/images/s14_8i02.webp",
+      "size": 1790,
+      "sha256": "fcf62b3ac2fbb5c3b04c1fc0a3b82a674d1618f9c5d1f1505371f59fdea96cb3"
+    },
+    {
+      "path": "public/game/documents/desert/images/s14_8i03.webp",
+      "size": 1594,
+      "sha256": "e4c0ab895d05f8a400ced17c32f4c459ca7b8866d0167bee6637a14c3ebc7161"
+    },
+    {
+      "path": "public/game/documents/desert/images/s14_8i04.webp",
+      "size": 1184,
+      "sha256": "f6c23b4990d3c0f21e7f11d37fb82aca1c21d32a3d925170ea3ed8155fbe33f4"
+    },
+    {
+      "path": "public/game/documents/desert/images/s14_re00-frames-0.webp",
+      "size": 1992,
+      "sha256": "e4d67e90386f5239b06351f1e8ee5d97c548e72bc8a755814bafa3202f1e466b"
+    },
+    {
+      "path": "public/game/documents/desert/images/s14_re00-frames-1.webp",
+      "size": 1306,
+      "sha256": "9987fb12a7dd49b7fc5da3013ae7055000882d9c51eaaf6c87ee22ad5d6855e7"
+    },
+    {
+      "path": "public/game/documents/desert/images/s14_re01-frames-0.webp",
+      "size": 1318,
+      "sha256": "d6cd43fa476dc57c3766a802af3b78ca9e7ca5687e745a35120e6ca971c6f8e2"
+    },
+    {
+      "path": "public/game/documents/desert/images/s14_re01-frames-1.webp",
+      "size": 1050,
+      "sha256": "2f4020a863256a1f19a8ed85ca8dbdd6a33a8936688062fee4069bfc0689ac48"
+    },
+    {
+      "path": "public/game/documents/desert/images/s14_re02-frames.webp",
+      "size": 1660,
+      "sha256": "32008faa20c073d35ad2bebca5a8cc9a50acb5052322a2d89de12008f48b94bf"
+    },
+    {
+      "path": "public/game/documents/desert/images/s14_re03-frames.webp",
+      "size": 538,
+      "sha256": "e82bcc583b5b1929f9d7af38d51c05fc3b21512145acbcc9d0f6ad049d4a546e"
+    },
+    {
+      "path": "public/game/documents/desert/images/simul14-background.webp",
+      "size": 64754,
+      "sha256": "2c26f8891671a6866e66ed63c000868b957c156db15b7afb8bebded84b47d947"
+    },
+    {
+      "path": "public/game/documents/desert/images/simul14-ui-0-mask.png",
+      "size": 97830,
+      "sha256": "7486930494784549c873a6526a7dc486813e82cf0db1bfb78211fc5cfabd79ae"
+    },
+    {
+      "path": "public/game/documents/desert/images/simul14-ui-1-mask.png",
+      "size": 3616,
+      "sha256": "8cb97be26246bf5ea321e83eff00017b14c47604ce59087262e5396599ec28b7"
+    },
+    {
+      "path": "public/game/documents/desert/images/simul14-ui-1.webp",
+      "size": 1526,
+      "sha256": "e04e95e2da74be685231a96adf1aaf6ca9f40973ac239738fed3e359b91f2e53"
+    },
+    {
+      "path": "public/game/documents/desert/images/simul14-ui-2-mask.png",
+      "size": 2435,
+      "sha256": "1c92ae5b295deb273be10808b41b774a7cf8c4a7ea7308c11f73a09e64d7e9e5"
+    },
+    {
+      "path": "public/game/documents/desert/images/simul14-ui-2.webp",
+      "size": 1076,
+      "sha256": "7b2e5077b83d4c2128004d74c1b363cd884a72764c8c1a8e567bb28d3d741278"
+    },
+    {
+      "path": "public/game/documents/desert/rules.json",
+      "size": 13641,
+      "sha256": "6287c6c1fd51737fd45b3f0da257b0e6d0260c2a950861497a1263fb2abe1880"
+    },
+    {
+      "path": "public/game/documents/desert/simul14-palette.json",
+      "size": 3759,
+      "sha256": "0695ff488f559c6d744d87dde3aac4a09953abc5e44a216761d9180acffc3146"
+    },
+    {
       "path": "public/game/documents/ecosystem/assets.json",
       "size": 67132,
       "sha256": "1dd28448c1318c6b38e37507707ecfb93af7376aaa8726669b5f9e367be0c4aa"
@@ -8713,18 +9338,18 @@
     },
     {
       "path": "public/game/documents/native/SIMULC.ITK",
-      "size": 24588503,
-      "sha256": "92af82fb98a411e656ed19e81debdc256b66c48d081878a236138072c753daf1"
+      "size": 17465671,
+      "sha256": "7d00d5fde770cca3719805d5a83cad78dd927f1bd8517e5ea2a66a6b83ecf3dc"
     },
     {
       "path": "public/game/documents/native/SIMULC.STK",
-      "size": 1480105,
-      "sha256": "32b4e8f5ac17dc1bbeacb876b63d6769f38180b4f079158807013182cf91f90d"
+      "size": 1006171,
+      "sha256": "4bd5792bb3010b610a8d1cd8c12ab676763baec5a5fbf27e2efba49b9fe5dffc"
     },
     {
       "path": "public/game/documents/native/manifest.json",
       "size": 829,
-      "sha256": "1123743bdce4f66ca166068de6330577e4e24a0f4810170ecf55a90a44033d46"
+      "sha256": "e160157d8d0af7aadbd6cdee6a650bf3b642e3a837c69d4fed88c695c6ca4fb7"
     },
     {
       "path": "public/game/documents/planete/0-image.webp",
@@ -9060,6 +9685,836 @@
       "path": "public/game/documents/topics.json",
       "size": 15586,
       "sha256": "199c77ed86415a1b90937266515435ba37a23173e496f0fe2a365749464aaf60"
+    },
+    {
+      "path": "public/game/documents/water/assets.json",
+      "size": 59504,
+      "sha256": "6dcff4c6f93255afea552068f79478876235c4e51d3d09590fc07b3a1e75b8f2"
+    },
+    {
+      "path": "public/game/documents/water/audio/a_mus17.wav",
+      "size": 904504,
+      "sha256": "4f307ddf3b4fe7bb9ca82e01cccd4602ee437183405e8bb3bb4955c6c3f0081b"
+    },
+    {
+      "path": "public/game/documents/water/audio/s17_00rq.wav",
+      "size": 264644,
+      "sha256": "18acadb1ca6dce4655b80d04c554dd77da45707f0bfd0dce62a0cce6680d1f64"
+    },
+    {
+      "path": "public/game/documents/water/audio/s17_01rq.wav",
+      "size": 247004,
+      "sha256": "c6fb281ceb99348ce574218e6013a9fcca82d058f755c6c7f9192aa705a9e2a2"
+    },
+    {
+      "path": "public/game/documents/water/audio/s17_02br.wav",
+      "size": 282284,
+      "sha256": "843ba7c6c614465c96a18639c0704af8748cc95e0498f58fa35ede39fa713f57"
+    },
+    {
+      "path": "public/game/documents/water/audio/s17_02rq.wav",
+      "size": 383714,
+      "sha256": "792e3d6a4f994bbeb496175b48c7519afca1d353625530c5a5ccb68a8c16ba5c"
+    },
+    {
+      "path": "public/game/documents/water/audio/s17_0h.wav",
+      "size": 114000,
+      "sha256": "91d88fb5f8c44b85f6f21ea10c2a3e6adb183c0d8438d13da2f3474256883751"
+    },
+    {
+      "path": "public/game/documents/water/audio/s17_5s00.wav",
+      "size": 771916,
+      "sha256": "96e5f07ab02669a4acc41b86aff259909879f83c555038d470f99c4955e18149"
+    },
+    {
+      "path": "public/game/documents/water/audio/s17_5s01.wav",
+      "size": 771916,
+      "sha256": "96e5f07ab02669a4acc41b86aff259909879f83c555038d470f99c4955e18149"
+    },
+    {
+      "path": "public/game/documents/water/audio/s17_5s02.wav",
+      "size": 323500,
+      "sha256": "91327fe9cbd1710aee547535118613bb450adeda1f081695380b9633db973aac"
+    },
+    {
+      "path": "public/game/documents/water/audio/s17_re00.wav",
+      "size": 422762,
+      "sha256": "4ef385b4fd12509ed4e57e3edd2527d05a3777b679f9aa630349ce1ea1fe0892"
+    },
+    {
+      "path": "public/game/documents/water/audio/s17_re01.wav",
+      "size": 301454,
+      "sha256": "740e53595106d6e466de6d3a176148050fd7bb0aa8c16951b955fda6ec74df13"
+    },
+    {
+      "path": "public/game/documents/water/audio/s17_re02.wav",
+      "size": 419078,
+      "sha256": "5412ff4aad73473299ae5389c7350376483f2ec0b05938c2c65c216011853e02"
+    },
+    {
+      "path": "public/game/documents/water/audio/s17_re03.wav",
+      "size": 419076,
+      "sha256": "fd14e694986867bf4fa5fbca333444cfb0b8d6b4e54c07becf302ef92c710410"
+    },
+    {
+      "path": "public/game/documents/water/audio/s17_re04.wav",
+      "size": 301456,
+      "sha256": "fab6d8464dd9f1870fe834a3b8be3a7eda41e90a85d1e071bdc0c05ec850e479"
+    },
+    {
+      "path": "public/game/documents/water/audio/s17_re05.wav",
+      "size": 536722,
+      "sha256": "dbf6f8f741f07a5bddcd8d25ea7ad45a8ee238f9bb17fc2cf458b1940c198e1f"
+    },
+    {
+      "path": "public/game/documents/water/audio/s17_re06.wav",
+      "size": 455868,
+      "sha256": "93718d30bac0fcbd803a349b4f7b10bfc8e5d6110e7220e86a5b51a03ae1fe0a"
+    },
+    {
+      "path": "public/game/documents/water/audio/s17_vo.wav",
+      "size": 727694,
+      "sha256": "9ed7f9471836fa6363dce516475c0a5213875e3e1c719c3c202f5ef11e51c52a"
+    },
+    {
+      "path": "public/game/documents/water/audio/sbru001.wav",
+      "size": 70636,
+      "sha256": "7020faaee867a725931a707ccbf44c2b454d7bfabdb47ac2d43a142bb122e941"
+    },
+    {
+      "path": "public/game/documents/water/audio/sbru011.wav",
+      "size": 150052,
+      "sha256": "26d9300aeab2c9491fd12d56b45803c85d3736c6d5dc6818060838ab74308230"
+    },
+    {
+      "path": "public/game/documents/water/audio/sbru013.wav",
+      "size": 105932,
+      "sha256": "76eaa924eb8d08dd9b88f6c2453b5e2ee9ec8346e31e39f298cc16f87160ff2e"
+    },
+    {
+      "path": "public/game/documents/water/audio/sbru014.wav",
+      "size": 97108,
+      "sha256": "9f098bfaad74a41eb4ccb9a6e2fb3adf6111f520c110fbb0402a8bf568664809"
+    },
+    {
+      "path": "public/game/documents/water/audio/sbru015.wav",
+      "size": 101520,
+      "sha256": "f181fa3b2e25d962bab243b69e1390fe6cf2284d73bc298277757b4749569e44"
+    },
+    {
+      "path": "public/game/documents/water/audio/sbru018.wav",
+      "size": 141228,
+      "sha256": "0e8162f6f66f8c48eb9a44daf6a7f5d0934aa7000ba25f4c6c7e61db90912836"
+    },
+    {
+      "path": "public/game/documents/water/audio/sbru019.wav",
+      "size": 141228,
+      "sha256": "567a434086a47452e20846f2aff371946ec19543fd44c620c23b389389330e85"
+    },
+    {
+      "path": "public/game/documents/water/audio/sbru030.wav",
+      "size": 145640,
+      "sha256": "23bfb0b2a70ee334a9d5dbe10767e3cfd19fb5764b1d559e535e302b8f38bda0"
+    },
+    {
+      "path": "public/game/documents/water/audio/sbru031.wav",
+      "size": 92696,
+      "sha256": "68ee5bda4f8b119690839737f1985977f304d747d1fb5a5ba10cc2c8cd3f0eda"
+    },
+    {
+      "path": "public/game/documents/water/audio/sbru032.wav",
+      "size": 176524,
+      "sha256": "657dc050a90b5d4ec85bb5a0cbdaf962d455c9001d58eaac42902c799732902a"
+    },
+    {
+      "path": "public/game/documents/water/audio/sbru034.wav",
+      "size": 127992,
+      "sha256": "428724cff73683b09c28492b1dba543ca0d94711aea0a3c1b937ce0fee395208"
+    },
+    {
+      "path": "public/game/documents/water/audio/sbru039.wav",
+      "size": 141228,
+      "sha256": "43a5589151e9efcd6e31ff309d6dda1505757177a663302429461caa6e06c209"
+    },
+    {
+      "path": "public/game/documents/water/audio/sbru042.wav",
+      "size": 141228,
+      "sha256": "4afe0d175930707ef61c4ec09826555a95c5ca8f884596c0b5c11e34a7a7ba20"
+    },
+    {
+      "path": "public/game/documents/water/audio/sbru043.wav",
+      "size": 141228,
+      "sha256": "95d5163819bd6e4eed906a74b98529ada351c23c77ed565e1477706c8e0644a0"
+    },
+    {
+      "path": "public/game/documents/water/audio/sbru082.wav",
+      "size": 132404,
+      "sha256": "475c4821dd5873c1b5d57da2ca65c98eb42f8a13c40a6f3235812e6a251c8049"
+    },
+    {
+      "path": "public/game/documents/water/audio/sbru083.wav",
+      "size": 172112,
+      "sha256": "768227fcb274183978383ea0a4e33c0820af5cfebd1c47c738a51b5f6acadf69"
+    },
+    {
+      "path": "public/game/documents/water/images/s17_0d00.webp",
+      "size": 2392,
+      "sha256": "e35152c1eb97026a0fa83cec8ad5bc57d446f086b240d804b56ef6e643ae7fc8"
+    },
+    {
+      "path": "public/game/documents/water/images/s17_0d01-frames.webp",
+      "size": 10742,
+      "sha256": "e90e4db6e91125bc001fed3a5601d3711e475f57cf651520a22b32225bb19d48"
+    },
+    {
+      "path": "public/game/documents/water/images/s17_0d02-frames.webp",
+      "size": 22868,
+      "sha256": "0743ec2bf3accd25c16f08e8b1d516ab3839d7fa0fbc25fb3960dae8a2b9d985"
+    },
+    {
+      "path": "public/game/documents/water/images/s17_0h-frames.webp",
+      "size": 8530,
+      "sha256": "94850580f877d274add9e2b0902ecade01e7709ce3dfa01486c32a8eeee8d442"
+    },
+    {
+      "path": "public/game/documents/water/images/s17_0i00.webp",
+      "size": 2392,
+      "sha256": "e35152c1eb97026a0fa83cec8ad5bc57d446f086b240d804b56ef6e643ae7fc8"
+    },
+    {
+      "path": "public/game/documents/water/images/s17_0i01-frames.webp",
+      "size": 10146,
+      "sha256": "100dd535bc4ad3989f5e8d9b2975f9bc6c5336fc73fc23636b945ffdd15ba116"
+    },
+    {
+      "path": "public/game/documents/water/images/s17_0i02-frames.webp",
+      "size": 22556,
+      "sha256": "e28962affc50ebb5fab9d9c49ce4ecfe98d508db7a5bba2aced1664430529be3"
+    },
+    {
+      "path": "public/game/documents/water/images/s17_0op.webp",
+      "size": 14596,
+      "sha256": "957f0fa46d57d8a3c9943a51e62473928377f119a02cc320ed6285cc03ff3891"
+    },
+    {
+      "path": "public/game/documents/water/images/s17_1d00-frames.webp",
+      "size": 2018,
+      "sha256": "20d985ea9f5a8c6a1c3496ad93b6bbb362950282d244b125747946243c2d014f"
+    },
+    {
+      "path": "public/game/documents/water/images/s17_1d01-frames.webp",
+      "size": 5278,
+      "sha256": "254702902fcf4faf84e33788a9143f15a49cd2facd0d73b307741c46af3add23"
+    },
+    {
+      "path": "public/game/documents/water/images/s17_1d02-frames.webp",
+      "size": 6476,
+      "sha256": "4d5c8d64d5f07635101b3812a872e95ecd22faaddfad4bad2ddf1ad4ebb9652f"
+    },
+    {
+      "path": "public/game/documents/water/images/s17_1h-frames.webp",
+      "size": 536,
+      "sha256": "57f3781a95b93416401195c629097a64e2f8114a4772ce515766100af5ffdb24"
+    },
+    {
+      "path": "public/game/documents/water/images/s17_1i00-frames.webp",
+      "size": 2018,
+      "sha256": "20d985ea9f5a8c6a1c3496ad93b6bbb362950282d244b125747946243c2d014f"
+    },
+    {
+      "path": "public/game/documents/water/images/s17_1i01-frames.webp",
+      "size": 5250,
+      "sha256": "e6b52104bf88800fdb5a402444cce459873128be6da4faa448d9f7eaddfd0a88"
+    },
+    {
+      "path": "public/game/documents/water/images/s17_1i02-frames.webp",
+      "size": 6518,
+      "sha256": "10fa89c8d2bc9daeb8ab2650b415307c409df9470371da82d5e9a44f36888ff6"
+    },
+    {
+      "path": "public/game/documents/water/images/s17_1s00-frames.webp",
+      "size": 2398,
+      "sha256": "caa7d191477cdfb658453be0f4932bbb82069f3bdd9f212283ecb7edbc506740"
+    },
+    {
+      "path": "public/game/documents/water/images/s17_1s01-frames.webp",
+      "size": 3292,
+      "sha256": "4c264b57b524b0752b9df651b86b9755b9f8af8ff87724354c514b02a3f41a96"
+    },
+    {
+      "path": "public/game/documents/water/images/s17_1s02-frames.webp",
+      "size": 3280,
+      "sha256": "ed388fe1d7329fe35f3130a31d8be5d10795afbf79193008ed44958090ed1d25"
+    },
+    {
+      "path": "public/game/documents/water/images/s17_2d00-frames.webp",
+      "size": 1904,
+      "sha256": "ad49ed0f1e8075eb1e67f70bde5bfe078be18a6a8859c512ed3fca85bb57226f"
+    },
+    {
+      "path": "public/game/documents/water/images/s17_2d01-frames.webp",
+      "size": 7164,
+      "sha256": "5e43251629fd34a4d9e1133a0d3ce769f53ab3647c442c920a70ecfde10b0925"
+    },
+    {
+      "path": "public/game/documents/water/images/s17_2h-frames.webp",
+      "size": 1120,
+      "sha256": "0a5a720cc2245910b896118fe1859464b45054d25d9c36412d8d4ebdc9f15992"
+    },
+    {
+      "path": "public/game/documents/water/images/s17_2i00-frames.webp",
+      "size": 1904,
+      "sha256": "ad49ed0f1e8075eb1e67f70bde5bfe078be18a6a8859c512ed3fca85bb57226f"
+    },
+    {
+      "path": "public/game/documents/water/images/s17_2i01-frames.webp",
+      "size": 7150,
+      "sha256": "f5100010ce2b52f26fd507ec64bdb46f15fc86fd432895000e2b4bd3b414037e"
+    },
+    {
+      "path": "public/game/documents/water/images/s17_2s00.webp",
+      "size": 34,
+      "sha256": "86be52bdb7547413cafb3ed175a806a798c65de98b40849e0b974c47d187de65"
+    },
+    {
+      "path": "public/game/documents/water/images/s17_2s01-frames.webp",
+      "size": 3112,
+      "sha256": "e006c7455a9c8fe47f1bb50c3034a222059c1eb8077f04ffcf288f63291203d2"
+    },
+    {
+      "path": "public/game/documents/water/images/s17_3d00.webp",
+      "size": 360,
+      "sha256": "60573f197ab2ef34d241f7ebc1ddaa76251b949001137b7c2b7ebb769fa1e5b8"
+    },
+    {
+      "path": "public/game/documents/water/images/s17_3d01.webp",
+      "size": 268,
+      "sha256": "634a5704760ad36100cec5b727a1394789f6aa4a08ad497d126dae8c0dcc7cfb"
+    },
+    {
+      "path": "public/game/documents/water/images/s17_3h-frames.webp",
+      "size": 780,
+      "sha256": "86b755f1abff925c18db9dd0ede265352a81c9b819a6c989206f2a08abb7e1a5"
+    },
+    {
+      "path": "public/game/documents/water/images/s17_3i00.webp",
+      "size": 360,
+      "sha256": "60573f197ab2ef34d241f7ebc1ddaa76251b949001137b7c2b7ebb769fa1e5b8"
+    },
+    {
+      "path": "public/game/documents/water/images/s17_3i01.webp",
+      "size": 268,
+      "sha256": "634a5704760ad36100cec5b727a1394789f6aa4a08ad497d126dae8c0dcc7cfb"
+    },
+    {
+      "path": "public/game/documents/water/images/s17_4d00.webp",
+      "size": 10616,
+      "sha256": "ad531e33d88c308a79ab3b1ad989a73d0e49dcc86f41937fc0806dc0b4b6a47d"
+    },
+    {
+      "path": "public/game/documents/water/images/s17_4d01-frames.webp",
+      "size": 45956,
+      "sha256": "f498a71065c463f9a2ce044bed5551df6b8e0c4749dceb98d879d8069d13164e"
+    },
+    {
+      "path": "public/game/documents/water/images/s17_4d02-frames.webp",
+      "size": 38388,
+      "sha256": "ebef5803a42fffb4b11ed48098efe47a22a857eb23ed214053ac6c438608d156"
+    },
+    {
+      "path": "public/game/documents/water/images/s17_4h-frames.webp",
+      "size": 212,
+      "sha256": "074bee158498e0b2de41722eb69f91e344f5821ac79492b07d013ed197243fdd"
+    },
+    {
+      "path": "public/game/documents/water/images/s17_4i00.webp",
+      "size": 10616,
+      "sha256": "ad531e33d88c308a79ab3b1ad989a73d0e49dcc86f41937fc0806dc0b4b6a47d"
+    },
+    {
+      "path": "public/game/documents/water/images/s17_4i01-frames.webp",
+      "size": 45126,
+      "sha256": "0894516516fbd0df39a74fea338d55684c0f93c0bb047d99e8597686b0b0ef7c"
+    },
+    {
+      "path": "public/game/documents/water/images/s17_4i02-frames.webp",
+      "size": 38056,
+      "sha256": "14fa738745c8172face5e18fb79c1570463ba22509af79cf7cf5912cc45fbc6f"
+    },
+    {
+      "path": "public/game/documents/water/images/s17_4s00.webp",
+      "size": 34,
+      "sha256": "86be52bdb7547413cafb3ed175a806a798c65de98b40849e0b974c47d187de65"
+    },
+    {
+      "path": "public/game/documents/water/images/s17_4s01-frames.webp",
+      "size": 1964,
+      "sha256": "79e4f011a2e75c6718de21bef4b6928114a4b5e605a982d3ab57cbfaa2a642b0"
+    },
+    {
+      "path": "public/game/documents/water/images/s17_4s02-frames.webp",
+      "size": 2716,
+      "sha256": "d096b33132648a323e22b06dcbd6a6ccf0b7167f8480fb7d08c8f6342d2d8b1c"
+    },
+    {
+      "path": "public/game/documents/water/images/s17_5d00.webp",
+      "size": 34,
+      "sha256": "86be52bdb7547413cafb3ed175a806a798c65de98b40849e0b974c47d187de65"
+    },
+    {
+      "path": "public/game/documents/water/images/s17_5d01.webp",
+      "size": 15278,
+      "sha256": "272c7ae090c17dfe5f3d5dd01abd13c5f130aeb42a662b4d795c38ef262eee6c"
+    },
+    {
+      "path": "public/game/documents/water/images/s17_5d02.webp",
+      "size": 20342,
+      "sha256": "5565a8942ee46e7990984f0d40a5bd30ceaee20bf0bbd6d36ba5c8fdb5224726"
+    },
+    {
+      "path": "public/game/documents/water/images/s17_5h-frames.webp",
+      "size": 512,
+      "sha256": "6a148d20705f3e7a765cbdef4c31aadaa199d954987842a737d2596a343c0f32"
+    },
+    {
+      "path": "public/game/documents/water/images/s17_5i00.webp",
+      "size": 34,
+      "sha256": "86be52bdb7547413cafb3ed175a806a798c65de98b40849e0b974c47d187de65"
+    },
+    {
+      "path": "public/game/documents/water/images/s17_5i01.webp",
+      "size": 15278,
+      "sha256": "272c7ae090c17dfe5f3d5dd01abd13c5f130aeb42a662b4d795c38ef262eee6c"
+    },
+    {
+      "path": "public/game/documents/water/images/s17_5i02.webp",
+      "size": 20342,
+      "sha256": "5565a8942ee46e7990984f0d40a5bd30ceaee20bf0bbd6d36ba5c8fdb5224726"
+    },
+    {
+      "path": "public/game/documents/water/images/s17_5s00-frames-0.webp",
+      "size": 16742,
+      "sha256": "492053affb6ea80ff52a23bffb1fc40df2ec6a5a9eaed486f498f28d5d6f02a6"
+    },
+    {
+      "path": "public/game/documents/water/images/s17_5s00-frames-1.webp",
+      "size": 18528,
+      "sha256": "d25cba711c6aaf4a0ac376c1a42cecfdad6138486bc637b59a51fd4c64988ca8"
+    },
+    {
+      "path": "public/game/documents/water/images/s17_5s00-frames-2.webp",
+      "size": 15940,
+      "sha256": "3225340aecb3d9ce5f22173c25c19a73dff922147fb9cd8a4a11e8e82eed2c33"
+    },
+    {
+      "path": "public/game/documents/water/images/s17_5s00-frames-3.webp",
+      "size": 16756,
+      "sha256": "943964449e4c85c8e7eadfa296af43bf838c34508f5ff81db85095d10eeadad2"
+    },
+    {
+      "path": "public/game/documents/water/images/s17_5s01-frames-0.webp",
+      "size": 16742,
+      "sha256": "492053affb6ea80ff52a23bffb1fc40df2ec6a5a9eaed486f498f28d5d6f02a6"
+    },
+    {
+      "path": "public/game/documents/water/images/s17_5s01-frames-1.webp",
+      "size": 18528,
+      "sha256": "d25cba711c6aaf4a0ac376c1a42cecfdad6138486bc637b59a51fd4c64988ca8"
+    },
+    {
+      "path": "public/game/documents/water/images/s17_5s01-frames-2.webp",
+      "size": 15940,
+      "sha256": "3225340aecb3d9ce5f22173c25c19a73dff922147fb9cd8a4a11e8e82eed2c33"
+    },
+    {
+      "path": "public/game/documents/water/images/s17_5s01-frames-3.webp",
+      "size": 16756,
+      "sha256": "943964449e4c85c8e7eadfa296af43bf838c34508f5ff81db85095d10eeadad2"
+    },
+    {
+      "path": "public/game/documents/water/images/s17_5s02-frames.webp",
+      "size": 28538,
+      "sha256": "f7e95370850894cacef59cf53114e6882461a8a13bede129aeaccb9681290a9d"
+    },
+    {
+      "path": "public/game/documents/water/images/s17_6d00.webp",
+      "size": 34,
+      "sha256": "86be52bdb7547413cafb3ed175a806a798c65de98b40849e0b974c47d187de65"
+    },
+    {
+      "path": "public/game/documents/water/images/s17_6d01-frames.webp",
+      "size": 3698,
+      "sha256": "e4e987e1b050590d885be7885dad66626a59863f71b8275561ebef6f2030c0a0"
+    },
+    {
+      "path": "public/game/documents/water/images/s17_6d02-frames.webp",
+      "size": 2052,
+      "sha256": "83eba347d2d85803263745714538654388f9cca5a9d6a4171d1b9058abd3b1c0"
+    },
+    {
+      "path": "public/game/documents/water/images/s17_6i00.webp",
+      "size": 34,
+      "sha256": "86be52bdb7547413cafb3ed175a806a798c65de98b40849e0b974c47d187de65"
+    },
+    {
+      "path": "public/game/documents/water/images/s17_6i01-frames.webp",
+      "size": 3676,
+      "sha256": "4e50437f420c46684a3a9ba7d118f70f6666263101fc813258ab6a99eb5ca3cd"
+    },
+    {
+      "path": "public/game/documents/water/images/s17_6i02-frames.webp",
+      "size": 2084,
+      "sha256": "9ea583f7da17f28cb14c2aae857301d65d2b872582601628c9969963e1626327"
+    },
+    {
+      "path": "public/game/documents/water/images/s17_6s00.webp",
+      "size": 34,
+      "sha256": "86be52bdb7547413cafb3ed175a806a798c65de98b40849e0b974c47d187de65"
+    },
+    {
+      "path": "public/game/documents/water/images/s17_6s01-frames.webp",
+      "size": 1458,
+      "sha256": "64787b6deb135bcda0661c21f430813231ce4066b2f04425ebe6b2cde16247ce"
+    },
+    {
+      "path": "public/game/documents/water/images/s17_6s02-frames.webp",
+      "size": 1260,
+      "sha256": "e5bc1b1af809171f841b86b90332062007f6c53112c08e6ea4d11af4861fac56"
+    },
+    {
+      "path": "public/game/documents/water/images/s17_7d00-frames.webp",
+      "size": 34,
+      "sha256": "5046f0b92ed05899e581e8925fa44843ae79b2182ee54e8c29caeb85de36f9f7"
+    },
+    {
+      "path": "public/game/documents/water/images/s17_7d01-frames.webp",
+      "size": 5382,
+      "sha256": "909865afc2b8c9a8e18ce990d339919430fa455c0bf3c0019028063c4f100069"
+    },
+    {
+      "path": "public/game/documents/water/images/s17_7d02-frames.webp",
+      "size": 6686,
+      "sha256": "e64b94c65920413c0f3ea91ffced47e588f90b0fcecc1b36419d0bcdfc0ef48e"
+    },
+    {
+      "path": "public/game/documents/water/images/s17_7d03-frames.webp",
+      "size": 9850,
+      "sha256": "4efe52768e776de7f066331a68fedd0e6c36f8ac08f6a8adcc54bf3a61561d2b"
+    },
+    {
+      "path": "public/game/documents/water/images/s17_7d04-frames.webp",
+      "size": 10242,
+      "sha256": "f970417dc265e631f381864bf9e5d5b0c28ba296cf3b5f01a259fb584eb76dca"
+    },
+    {
+      "path": "public/game/documents/water/images/s17_7i00-frames.webp",
+      "size": 34,
+      "sha256": "5046f0b92ed05899e581e8925fa44843ae79b2182ee54e8c29caeb85de36f9f7"
+    },
+    {
+      "path": "public/game/documents/water/images/s17_7i01-frames.webp",
+      "size": 5372,
+      "sha256": "88379fb061feaa569fcec6bb57715fac56f8379a7da8496444963254ed0c3329"
+    },
+    {
+      "path": "public/game/documents/water/images/s17_7i02-frames.webp",
+      "size": 6736,
+      "sha256": "ffc25f2aa425bf77e1477fb5aec0685c99bc254ad0c52961cb7dc73405524c15"
+    },
+    {
+      "path": "public/game/documents/water/images/s17_7i03-frames.webp",
+      "size": 9750,
+      "sha256": "41a6919e2e4a0243c48ae565eede23c78acee233f97b6189f2a9ba34232068d2"
+    },
+    {
+      "path": "public/game/documents/water/images/s17_7i04-frames.webp",
+      "size": 10198,
+      "sha256": "f331d74f4cb525a5545c7c95f49308525a20e84334e195d29d2ae2332e603d9d"
+    },
+    {
+      "path": "public/game/documents/water/images/s17_7s00.webp",
+      "size": 34,
+      "sha256": "86be52bdb7547413cafb3ed175a806a798c65de98b40849e0b974c47d187de65"
+    },
+    {
+      "path": "public/game/documents/water/images/s17_7s01.webp",
+      "size": 34,
+      "sha256": "86be52bdb7547413cafb3ed175a806a798c65de98b40849e0b974c47d187de65"
+    },
+    {
+      "path": "public/game/documents/water/images/s17_7s02.webp",
+      "size": 34,
+      "sha256": "86be52bdb7547413cafb3ed175a806a798c65de98b40849e0b974c47d187de65"
+    },
+    {
+      "path": "public/game/documents/water/images/s17_7s03-frames.webp",
+      "size": 654,
+      "sha256": "42d3227ed1a609a7a80ecb4ff3ad1293eed99a3af20d2d0bfc01db687ea7be6e"
+    },
+    {
+      "path": "public/game/documents/water/images/s17_7s04-frames.webp",
+      "size": 762,
+      "sha256": "0437a20bcbf088191363eeae8f71c511c26a8dfb95c8561d1c50044811d5b7ef"
+    },
+    {
+      "path": "public/game/documents/water/images/s17_8d00.webp",
+      "size": 842,
+      "sha256": "65139de409604cf9136b495099688f593faea31346fe8765dfaf910b06f20a70"
+    },
+    {
+      "path": "public/game/documents/water/images/s17_8d01-frames.webp",
+      "size": 3878,
+      "sha256": "b4e562a2bdc4ff65bc69ba7c7b4d0326c0a7ac7ef90cd253bc12bfd25811f627"
+    },
+    {
+      "path": "public/game/documents/water/images/s17_8d02-frames.webp",
+      "size": 2354,
+      "sha256": "73cf26d9a2d9a7658be891feb4bd1b7648f43e9734d6c48ab7ae25211c951bfd"
+    },
+    {
+      "path": "public/game/documents/water/images/s17_8d03-frames.webp",
+      "size": 2142,
+      "sha256": "8a1f0ec3ab1df00981d6bae7facb5ab10734515a6ea345aeb5158337fbe5b159"
+    },
+    {
+      "path": "public/game/documents/water/images/s17_8d04-frames.webp",
+      "size": 2324,
+      "sha256": "6221bb22f83cdc63446b6d244f42b9e8ff4380ec56716c3ae1a075e0f83a8918"
+    },
+    {
+      "path": "public/game/documents/water/images/s17_8i00.webp",
+      "size": 842,
+      "sha256": "65139de409604cf9136b495099688f593faea31346fe8765dfaf910b06f20a70"
+    },
+    {
+      "path": "public/game/documents/water/images/s17_8i01-frames.webp",
+      "size": 3914,
+      "sha256": "ebd8743e954190c6b38e2073c328a4134d6ea66618edc846ad6f362ee91c2b18"
+    },
+    {
+      "path": "public/game/documents/water/images/s17_8i02-frames.webp",
+      "size": 2366,
+      "sha256": "0d624eaef9bbb2e3ab90a9ffb66087b0833b3a87942bce475093db64bcf7cd55"
+    },
+    {
+      "path": "public/game/documents/water/images/s17_8i03-frames.webp",
+      "size": 2170,
+      "sha256": "12a7904cfa90834bbdbed348a2059f248f4f79ddd2d81422d1897b37be63e150"
+    },
+    {
+      "path": "public/game/documents/water/images/s17_8i04-frames.webp",
+      "size": 2348,
+      "sha256": "523c91f39cf5e663066a04fa27622b4618908d0f6f35b904a504a28a40a7bee8"
+    },
+    {
+      "path": "public/game/documents/water/images/s17_8s00-frames.webp",
+      "size": 1978,
+      "sha256": "7f77779b8030eeb874ce0a4e2bb8fcf0768ba90d5d68ddc93ff47d271448be27"
+    },
+    {
+      "path": "public/game/documents/water/images/s17_8s01-frames.webp",
+      "size": 2906,
+      "sha256": "b23fc6048d4cc872344aa744aeb7ef97dfe6835b51db594a60b325c461ced20d"
+    },
+    {
+      "path": "public/game/documents/water/images/s17_8s02-frames.webp",
+      "size": 3082,
+      "sha256": "cfd1009198398615c751ebc04e7d5fce6343edce717bdf4f7c9c23d23364f1ba"
+    },
+    {
+      "path": "public/game/documents/water/images/s17_8s03-frames.webp",
+      "size": 3660,
+      "sha256": "97004c5829a7ea5612ee701770f141f2d47aaa4f169d4c9d83367556a777ccbb"
+    },
+    {
+      "path": "public/game/documents/water/images/s17_8s04-frames.webp",
+      "size": 4868,
+      "sha256": "3d120a2341dfa5688d04983ad52c0dd7f179d7517c4fb5523bfd643bbbebd7fc"
+    },
+    {
+      "path": "public/game/documents/water/images/s17_9d00-frames.webp",
+      "size": 34,
+      "sha256": "b19005f2fecfc33aefa3796060657bfe6db5d107623b27752866b388e731a028"
+    },
+    {
+      "path": "public/game/documents/water/images/s17_9d01-frames.webp",
+      "size": 2688,
+      "sha256": "ccb76b170b85152fb928e76565c1ae7e4313ac9fb1ce9dc637c3d927a4209101"
+    },
+    {
+      "path": "public/game/documents/water/images/s17_9d02-frames.webp",
+      "size": 1772,
+      "sha256": "7268bb1c969e4fb29f63af419c8af60ca352ca88202aaa98da722a2bb84ba8ce"
+    },
+    {
+      "path": "public/game/documents/water/images/s17_9d03-frames.webp",
+      "size": 2044,
+      "sha256": "c75bada7bd82d43c0f04f349e2e7bc127367c71b1799892a41556068e261716c"
+    },
+    {
+      "path": "public/game/documents/water/images/s17_9d04-frames.webp",
+      "size": 1944,
+      "sha256": "c7d22099c5cd618ae9d1946e133fc97e24de1da79461f725bc98575fad21f1f0"
+    },
+    {
+      "path": "public/game/documents/water/images/s17_9i00-frames.webp",
+      "size": 34,
+      "sha256": "b19005f2fecfc33aefa3796060657bfe6db5d107623b27752866b388e731a028"
+    },
+    {
+      "path": "public/game/documents/water/images/s17_9i01-frames.webp",
+      "size": 2666,
+      "sha256": "e1e250e94d596e5948fca88a5975c552e6caaf91a62e0c9391f1c56c7e985d61"
+    },
+    {
+      "path": "public/game/documents/water/images/s17_9i02-frames.webp",
+      "size": 1774,
+      "sha256": "9d26151168dd5f6b75cd02988ebf066b34124ec6526df219c9a6ee4596eb80bd"
+    },
+    {
+      "path": "public/game/documents/water/images/s17_9i03-frames.webp",
+      "size": 2036,
+      "sha256": "8dd3cc7e1c02195ebb0ad67e94f0e7d56cf7b5d6413aa1b001c7152e98a3cd5e"
+    },
+    {
+      "path": "public/game/documents/water/images/s17_9i04-frames.webp",
+      "size": 1942,
+      "sha256": "039c1afe5df80aa025560590336f701f0c53ec2f36eff5d8d8ea14ab1ccfebfd"
+    },
+    {
+      "path": "public/game/documents/water/images/s17_9s00.webp",
+      "size": 34,
+      "sha256": "86be52bdb7547413cafb3ed175a806a798c65de98b40849e0b974c47d187de65"
+    },
+    {
+      "path": "public/game/documents/water/images/s17_9s01-frames.webp",
+      "size": 1162,
+      "sha256": "9b611af73c8990873e5756018301e77fdff6504c9bc753cf9af3c70c6997f64a"
+    },
+    {
+      "path": "public/game/documents/water/images/s17_9s02-frames.webp",
+      "size": 1548,
+      "sha256": "79fe982d88d34d323f6efa12f99aa2793c802c553b8d3240c97cb2981b55e9ba"
+    },
+    {
+      "path": "public/game/documents/water/images/s17_9s03-frames.webp",
+      "size": 1708,
+      "sha256": "571e55a9bec11709917efb08120f9a5fd544fd95765ed584473930878a9a7c7e"
+    },
+    {
+      "path": "public/game/documents/water/images/s17_9s04-frames.webp",
+      "size": 2034,
+      "sha256": "daa04aec543fc18c6aa62a4fd9d8a4542f0f2e8ac5ae3fbe501ac67f7cf4a529"
+    },
+    {
+      "path": "public/game/documents/water/images/s17_9s05-frames.webp",
+      "size": 2034,
+      "sha256": "daa04aec543fc18c6aa62a4fd9d8a4542f0f2e8ac5ae3fbe501ac67f7cf4a529"
+    },
+    {
+      "path": "public/game/documents/water/images/s17_9s06-frames.webp",
+      "size": 2034,
+      "sha256": "daa04aec543fc18c6aa62a4fd9d8a4542f0f2e8ac5ae3fbe501ac67f7cf4a529"
+    },
+    {
+      "path": "public/game/documents/water/images/s17_re00-frames.webp",
+      "size": 986,
+      "sha256": "557ae49ec7942f1378c398460ab7286b11c3e59865ddab373d84fd2320a5e3aa"
+    },
+    {
+      "path": "public/game/documents/water/images/s17_re01-frames.webp",
+      "size": 1020,
+      "sha256": "939de0f48cf1086f179c5ad665988d04d9808d9abebb28a89f9f86d949378322"
+    },
+    {
+      "path": "public/game/documents/water/images/s17_re02-frames.webp",
+      "size": 1040,
+      "sha256": "d4a68eb4e05054a47d2c5d058cf02083f9abc1ea46f72ea8bfdfb618ecf95e7a"
+    },
+    {
+      "path": "public/game/documents/water/images/s17_re03-frames-0.webp",
+      "size": 2356,
+      "sha256": "d209f45d8963c0a4d796155f3580e507e4975488d0d95c2a65deb99d65830958"
+    },
+    {
+      "path": "public/game/documents/water/images/s17_re03-frames-1.webp",
+      "size": 1966,
+      "sha256": "28cd3a0836801701ebcd76315b1316f88ab895d712c71abe138e1175cceeabd9"
+    },
+    {
+      "path": "public/game/documents/water/images/s17_re04-frames-0.webp",
+      "size": 2192,
+      "sha256": "131428093303eade2cd935e7c7107bf7eebd4c19be7df039e6711029effea1b3"
+    },
+    {
+      "path": "public/game/documents/water/images/s17_re04-frames-1.webp",
+      "size": 1446,
+      "sha256": "3c12fbfa0b3b2cb82147ba4dc8df78841346de490146aad768ace4d41ea00e63"
+    },
+    {
+      "path": "public/game/documents/water/images/s17_re05-frames.webp",
+      "size": 420,
+      "sha256": "71c0af64cc5a6b1f084bb0351eb4e3f3cac19f50f72ffca86e2ab23852e5d3a4"
+    },
+    {
+      "path": "public/game/documents/water/images/s17_re06-frames-0.webp",
+      "size": 1514,
+      "sha256": "4b58faf1995db2bacc5c585c86fa56403212898d3bcc4edae5ad0349ff861491"
+    },
+    {
+      "path": "public/game/documents/water/images/s17_re06-frames-1.webp",
+      "size": 1604,
+      "sha256": "c1fbce0b81b2c426599dc0c085623a6d7baecd4d2adbec7948364111d37a2429"
+    },
+    {
+      "path": "public/game/documents/water/images/s17_re06-frames-2.webp",
+      "size": 1514,
+      "sha256": "4b58faf1995db2bacc5c585c86fa56403212898d3bcc4edae5ad0349ff861491"
+    },
+    {
+      "path": "public/game/documents/water/images/s17_re06-frames-3.webp",
+      "size": 1392,
+      "sha256": "f07dcf07000f0b4234e28a01d3a1c449b9e4aff896271769394708d18dabc4bf"
+    },
+    {
+      "path": "public/game/documents/water/images/simul17-background.webp",
+      "size": 66106,
+      "sha256": "a031127c491ebe0c5b0b1eeada04bf7a4c8a63fb5825e1746659eb1157995343"
+    },
+    {
+      "path": "public/game/documents/water/images/simul17-ui-0-mask.png",
+      "size": 91400,
+      "sha256": "c519e667e944388aa023fc0c00ed677fa4dab5005b8a37d3f6fa2b2181f50065"
+    },
+    {
+      "path": "public/game/documents/water/images/simul17-ui-1-mask.png",
+      "size": 4245,
+      "sha256": "a4844a05419e480b9b45311333b26ff2b71565eb348de8476215279364ae67b2"
+    },
+    {
+      "path": "public/game/documents/water/images/simul17-ui-1.webp",
+      "size": 1538,
+      "sha256": "8ca0592959ecca9c696a518a671b6534db65dcd1258650e7a82eebab418e2359"
+    },
+    {
+      "path": "public/game/documents/water/images/simul17-ui-2-mask.png",
+      "size": 2335,
+      "sha256": "86419bcfc4ffa0d3a63d3c0b9ff94047848c9b41c6e6f433f514a66e22e7b3ec"
+    },
+    {
+      "path": "public/game/documents/water/images/simul17-ui-2.webp",
+      "size": 1100,
+      "sha256": "0319189b0f9389059a4bd42b4200099ee9e0737192d596163edbcd7d11ad739b"
+    },
+    {
+      "path": "public/game/documents/water/rules.json",
+      "size": 13790,
+      "sha256": "a8414cf923d5f9fa5ac6b8023246b518b525446c4fe7e9258c7d53daf20a5f8f"
+    },
+    {
+      "path": "public/game/documents/water/simul17-palette.json",
+      "size": 3759,
+      "sha256": "0695ff488f559c6d744d87dde3aac4a09953abc5e44a216761d9180acffc3146"
     },
     {
       "path": "public/game/encyclopedia/012675eb6da06c8e856edb2e69d817e78edb64e46deb5a37c258a48ba645a944.jpg",
@@ -33958,8 +35413,8 @@
     },
     {
       "path": "public/vendor/documents/README.md",
-      "size": 2408,
-      "sha256": "45d61f11ce96f05f3a9f14e290f0e40753d99994b0521c1bc03175aa02d4e30a"
+      "size": 2414,
+      "sha256": "da17038e3f2e9092dd2c48148358a1b0a0d1939dbb38e9a266b34d1fe62e2b6c"
     },
     {
       "path": "public/vendor/documents/rebuild.sh",

@@ -29,13 +29,14 @@ navigateur, selon les possibilités de chaque jeu.
 
 Les douze documents de la chambre sont consultables : cinq dossiers multimédias,
 l’Atlas et six simulations d’environnement, avec les médias et les interactions
-du jeu original. L’Atlas, la pollution de l’air, l’équilibre de la nature et l’entreprise
-fonctionnent en JavaScript natif.
+du jeu original. L’Atlas, la pollution de l’air et de l’eau, l’équilibre de la nature,
+l’entreprise et la désertification fonctionnent en JavaScript natif.
 
 Le code et les ressources des cours, de l’encyclopédie et des 14 simulations
 Sciences sont également inclus. Un clone contient les médias nécessaires au
 client web, sans récupération depuis une installation de travail.
-Voir [les fonctions et limites de la version web](web/README.md).
+Voir [les fonctions et limites de la version web](web/README.md) et les
+[finitions requises pour la fidélité au jeu](web/FIDELITY.md).
 
 ## Lancer le serveur du client original
 

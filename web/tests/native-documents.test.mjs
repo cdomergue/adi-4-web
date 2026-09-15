@@ -7,18 +7,30 @@ const base = new URL('../public/game/documents/native/', import.meta.url);
 const manifest = JSON.parse(await readFile(new URL('manifest.json', base), 'utf8'));
 
 test('documents load only their own CD archives and reject invalid selections', () => {
-  for (const id of ['s17', 's14', 's08']) {
+  for (const id of ['s08']) {
     assert.deepEqual(
       documentFiles(id, manifest).map((f) => f.name),
       ['INTRO.STK', 'AE63F421.CD1', 'CURSOR32.DLL', 'SIMULC.STK', 'SIMULC.ITK'],
     );
   }
-  for (const id of ['constructor', '__proto__', '../atlas', 'atlas', 's16', 's07', 's12', '', null])
+  for (const id of [
+    'constructor',
+    '__proto__',
+    '../atlas',
+    'atlas',
+    's16',
+    's07',
+    's12',
+    's17',
+    's14',
+    '',
+    null,
+  ])
     assert.throws(() => documentFiles(id, manifest), /inconnu/);
-  assert.throws(() => documentFiles('s17', { files: [] }), /invalide/);
+  assert.throws(() => documentFiles('s08', { files: [] }), /invalide/);
   const altered = structuredClone(manifest);
   altered.files.find((f) => f.name === 'SIMULC.STK').size = -1;
-  assert.throws(() => documentFiles('s17', altered), /invalide/);
+  assert.throws(() => documentFiles('s08', altered), /invalide/);
 });
 
 test('bundled archives contain each selected program and match their manifest hashes', async () => {
@@ -44,14 +56,14 @@ test('bundled archives contain each selected program and match their manifest ha
       if (file.name.startsWith('SIMULC.'))
         assert.doesNotMatch(
           name,
-          /^(?:S(?:07|12|16)[_.]|SIMUL(?:07|12|16)\.|A_MUS(?:07|12|16)\.)/,
+          /^(?:S(?:07|12|14|16|17)[_.]|SIMUL(?:07|12|14|16|17)\.|A_MUS(?:07|12|14|16|17)\.)/,
           `JavaScript documents must not ship obsolete binary resources: ${name}`,
         );
       names.add(name);
     }
     archives.set(file.name, names);
   }
-  assert.equal(new Set(Object.values(nativeDocuments).map((d) => d.program)).size, 3);
+  assert.equal(new Set(Object.values(nativeDocuments).map((d) => d.program)).size, 1);
   for (const spec of Object.values(nativeDocuments))
     assert.ok(archives.get(`${spec.archive}.STK`).has(`${spec.program}.TOT`), spec.title);
 });

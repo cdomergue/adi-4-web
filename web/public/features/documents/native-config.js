@@ -1,6 +1,4 @@
 export const nativeDocuments = {
-  s17: { title: 'La pollution de l’eau', program: 'S17', archive: 'SIMULC' },
-  s14: { title: 'La désertification', program: 'S14', archive: 'SIMULC' },
   s08: { title: 'Le développement d’un pays', program: 'S08', archive: 'SIMULC' },
 };
 
