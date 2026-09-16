@@ -31,6 +31,10 @@ pas des adresses du fichier ni des adresses virtuelles Win32.
   `sceneleave` interrompt animations, médias et écouteurs. L’apparition du
   tableau suit la permutation `(13*(k+1)-1)%160`. La perte de balle emploie
   les trois icônes 1000, 1001 et 1002 à sa position précédente.
+- [cursor.js](cursor.js) : un clic souris sur un tableau actif masque le pointeur
+  sur le plateau uniquement. Échap, la pause, les menus, la perte de focus et la
+  sortie du plein écran le réaffichent ; les déplacements de la raquette restent
+  absolus, sans verrouillage de la souris.
 - [presentation.js](presentation.js) : menu de 551 × 363 pixels, trajectoire
   de démonstration (`1008:ac95/acf7`), vitesse (`1008:ae13/b1f3`), bonus
   (`1008:0d15`) et classement de dix noms (`1010:12b0/17ab/02c0`).

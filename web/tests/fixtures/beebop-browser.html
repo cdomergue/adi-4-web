@@ -6,7 +6,8 @@
 <p>Vue de production, données de campagne synthétiques. Le stockage de cette origine est réservé aux tests.</p>
 <nav><button data-case="loss">Préparer défaite</button>
 <button data-case="next">Préparer enchaînement</button>
-<button data-case="final">Préparer victoire finale</button></nav>
+<button data-case="final">Préparer victoire finale</button>
+<button data-case="cursor">Tester le curseur (tableau original)</button></nav>
 <main></main>
 <script type="module">
   import { renderBeeBop } from '/features/games/beebop/view.js';
@@ -19,7 +20,7 @@
     const cells = Array(160).fill('0');
     if (scenario === 'loss') { cells[0] = '1'; cells[7 * 16 + 7] = '5'; }
     else cells[7 * 16 + 7] = '1';
-    for (const level of fixture.levels) Object.assign(level, {
+    if (scenario !== 'cursor') for (const level of fixture.levels) Object.assign(level, {
       cells: cells.join(''), internalId: 31, paddleY: 285, width: 480,
       leftInset: 0, rightInset: 0, enemyMoving: false,
     });

@@ -16,6 +16,7 @@
 .bee-reserve { left: 77.45%; top: 90.56%; width: 9.8%; font-size: 3.92cqw; color: #ff0000; font-family: monospace; font-weight: normal; }
 .bee-bonus { position: absolute; left: 43.53%; top: 91.4%; width: 13.14%; text-align: center; font-size: 2.75cqw; color: yellow; background: #777; }
 .beebop-window canvas { display: block; width: 100%; height: auto; image-rendering: pixelated; touch-action: none; outline-offset: 3px; }
+.beebop-window canvas.is-cursor-hidden { cursor: none; }
 .beebop-fullscreen:fullscreen { background: #000; display: grid; place-items: center; }
 .beebop-fullscreen:fullscreen .beebop-window { width: min(100vw, calc(100vh * var(--bee-ratio, 1.416667))); }
 .beebop-exit-fullscreen { display: none; }

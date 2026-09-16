@@ -1,5 +1,6 @@
 import { createGame, step, SAVE_KEY, WIDTH, HEIGHT, TICK_MS } from './engine.js';
 import { loadArtwork, drawGame, drawMenu, drawEnding } from './renderer.js';
+import { bindGameCursor } from './cursor.js';
 import { MENU_WIDTH, MENU_HEIGHT, DEFAULT_SPEED, FINALE_DURATION, frameInterval,
   calibrateTiming, createMenuBall, stepMenuBall, soundWait, createBonus, bonusRemaining, synchronousCue,
   readScores, qualifies, insertScore } from './presentation.js';
@@ -108,7 +109,8 @@ export async function renderBeeBop(main) {
         `<option value="${i}">${i + 1}</option>`).join('')}</select></label></div>
     <p id="bee-help">Déplace la souris ou le doigt sur le plateau pour guider la raquette.
       Clique ou appuie sur Espace pour lancer la balle et tirer quand le bonus est actif.
-      Les flèches ← → déplacent aussi la raquette. P ou Échap met le jeu en pause.</p>
+      Les flèches ← → déplacent aussi la raquette. Un clic sur le plateau masque le pointeur.
+      P ou Échap met le jeu en pause et réaffiche le pointeur.</p>
     <details><summary>Comment jouer</summary><p>Détruis les briques sans perdre la balle.
       Le point de contact sur la raquette détermine le rebond. Les blocs métalliques résistent,
       les blocs renforcés demandent plusieurs impacts et les obstacles rouges sont mortels.
@@ -121,6 +123,7 @@ export async function renderBeeBop(main) {
       l’édition fournie avec ADI 4 · Coktel.</p></details>`;
   const $ = (s) => root.querySelector(s);
   const canvas = $('canvas'), ctx = canvas.getContext('2d');
+  const cursor = bindGameCursor(canvas, { signal });
   const status = $('#bee-status'), overlay = $('.beebop-overlay');
   const startButton = $('[data-action=start]');
   $('[data-option=sound]').checked = sound;
@@ -202,6 +205,8 @@ export async function renderBeeBop(main) {
   }
   function update() {
     const menu = screen === 'menu';
+    cursor.setActive(screen === 'game' && !paused && !presentation &&
+      (state.phase === 'ready' || state.phase === 'playing'));
     const width = menu ? MENU_WIDTH : WIDTH, height = menu ? MENU_HEIGHT : HEIGHT;
     if (canvas.width !== width) { canvas.width = width; canvas.height = height; }
     $('.beebop-window').classList.toggle('is-menu', menu);
@@ -262,6 +267,7 @@ export async function renderBeeBop(main) {
     $('[data-action=pause]').setAttribute('aria-pressed', String(paused));
   }
   function reset(c = checkpoint) {
+    cursor.show();
     screen = 'game';
     checkpoint = c;
     state = createGame(campaign, c.levelIndex, c);

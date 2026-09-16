@@ -186,7 +186,8 @@ Le curseur reste dans le jeu pour faire défiler les décors aux bords gauche et
 « Capturer la souris » offre le même accès et « Passer · Échap » passe le générique.
 
 BeeBop I se commande avec la souris, le doigt ou les flèches ; clic et Espace
-lancent la balle et commandent le laser. P ou Échap met en pause. Le moteur
+lancent la balle et commandent le laser. Un clic sur le plateau masque le pointeur ;
+P ou Échap met en pause et le réaffiche. Le moteur
 applique les règles décompilées, les passages propres aux tableaux et les
 bonus, avec les images et sons originaux. Le stockage `adi4-beebop1-v1` conserve
 le début du tableau, le classement nominatif, le record, la vitesse et le son.
