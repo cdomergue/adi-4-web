@@ -11,8 +11,9 @@ const games = JSON.parse(
 
 test('the crate keeps playable games and separates unfinished ports without duplicate thumbnails', () => {
   const available = crateEntries(catalog.games, games, 'available');
-  assert.deepEqual(available.map((game) => game.id).sort(), ['bt3d_1', 'bt3d_2', 'bt3d_3', 'bt3d_4', 'mrmatt1', 'mrmatt2', 'sokobfr', 'wgob1', 'wgob2', 'wgob3']);
+  assert.deepEqual(available.map((game) => game.id).sort(), ['beebop1', 'bt3d_1', 'bt3d_2', 'bt3d_3', 'bt3d_4', 'mrmatt1', 'mrmatt2', 'sokobfr', 'wgob1', 'wgob2', 'wgob3']);
   assert.deepEqual(available.map((game) => game.route).sort(), [
+    '#game/beebop1',
     '#game/bt3d_1',
     '#game/bt3d_2',
     '#game/bt3d_3',

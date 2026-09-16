@@ -42,3 +42,20 @@ Les comportements propres à chaque document sont décrits dans leurs référenc
 [pollution de l’eau](public/features/documents/water/README.md),
 [désertification](public/features/documents/desert/README.md),
 [développement d’un pays](public/features/documents/development/README.md).
+
+## BeeBop I
+
+Les règles proviennent de la décompilation de l’exécutable Win16. Les collisions,
+rebonds de raquette et limites sont comparés à 722 résultats d’exécution x86
+native en émulation. Cette vérification ne couvre pas le rendu ni le timing.
+Le menu original, le pointeur et le bouton Go fonctionnent dans un environnement
+Wine isolé. Une capture du premier tableau en cours de partie confirme l’accès
+au jeu, avec un score de 0002 et huit balles de réserve. Elle ne valide pas les
+sons, la cadence ni les séquences d’une partie complète.
+
+Le menu animé, le classement, le dialogue de nom, le bonus et les deux fins
+suivent les ressources et les appels décompilés. La vitesse centrale vise
+94 tours par seconde ; les attentes sonores suivent la lecture réelle des WAV.
+La comparaison en partie Windows, le coût réel des opérations graphiques et la cadence
+des blits et des sons courts restent non validés. Les [limites détaillées](public/features/games/beebop/README.md)
+font partie du travail requis de fidélité, pas d’améliorations optionnelles.

@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="fr"><meta charset="utf-8"><title>BeeBop — scénarios de vérification</title>
+<link rel="stylesheet" href="/style.css">
+<style>body { padding: 20px; } nav { display: flex; gap: 12px; margin-bottom: 20px; }</style>
+<h1>Scénarios BeeBop (données de test)</h1>
+<p>Vue de production, données de campagne synthétiques. Le stockage de cette origine est réservé aux tests.</p>
+<nav><button data-case="loss">Préparer défaite</button>
+<button data-case="next">Préparer enchaînement</button>
+<button data-case="final">Préparer victoire finale</button></nav>
+<main></main>
+<script type="module">
+  import { renderBeeBop } from '/features/games/beebop/view.js';
+  const nativeFetch = window.fetch.bind(window);
+  const campaign = await (await nativeFetch('/game/beebop1/campaign.json')).json();
+  let scenario = 'loss';
+  window.fetch = async (input, options) => {
+    if (input !== '/game/beebop1/campaign.json') return nativeFetch(input, options);
+    const fixture = structuredClone(campaign);
+    const cells = Array(160).fill('0');
+    if (scenario === 'loss') { cells[0] = '1'; cells[7 * 16 + 7] = '5'; }
+    else cells[7 * 16 + 7] = '1';
+    for (const level of fixture.levels) Object.assign(level, {
+      cells: cells.join(''), internalId: 31, paddleY: 285, width: 480,
+      leftInset: 0, rightInset: 0, enemyMoving: false,
+    });
+    return new Response(JSON.stringify(fixture), { headers: { 'Content-Type': 'application/json' } });
+  };
+  async function prepare(value) {
+    scenario = value;
+    const main = document.querySelector('main');
+    main.dispatchEvent(new Event('sceneleave'));
+    localStorage.setItem('adi4-beebop1-v1', JSON.stringify({ version: 1,
+      checkpoint: { levelIndex: scenario === 'final' ? 44 : 0, score: 123, lives: scenario === 'loss' ? 0 : 8 },
+      sound: false, scores: [], speed: 36,
+    }));
+    await renderBeeBop(main);
+  }
+  for (const button of document.querySelectorAll('[data-case]')) button.onclick = () => prepare(button.dataset.case);
+  await prepare(scenario);
+</script></html>

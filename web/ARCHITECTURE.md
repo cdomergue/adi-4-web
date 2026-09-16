@@ -189,9 +189,18 @@ modules `view.js` affichent les états et relient les commandes au moteur.
 | Jeu                | Modules                                                                | Données                                                                      |
 | ------------------ | ---------------------------------------------------------------------- | ---------------------------------------------------------------------------- |
 | Sokoban            | [Moteur et vue](public/features/games/sokoban/)                        | [15 niveaux et atlas](public/game/sokoban/)                                  |
+| BeeBop I           | [Moteur, effets, règles et rendu](public/features/games/beebop/)      | [45 tableaux, images et sons](public/game/beebop1/)                           |
 | Mr. Matt I et II   | [Moteur et vue partagés](public/features/games/mrmatt/)                | [I](public/game/mrmatt1/) et [II](public/game/mrmatt2/)                      |
 | Bad Toys 3D I à IV | [Moteur, rendu et vue](public/features/games/badtoys/)                 | [Cartes, sprites et sons](public/game/badtoys/)                              |
 | Goblins I à III    | [Vue](public/features/games/wgob3/view.js) et [lecteur](public/wgob3/) | [I](public/game/wgob1/), [II](public/game/wgob2/), [III](public/game/wgob3/) |
+
+BeeBop sépare les collisions (`engine.js`), missiles et ennemis (`effects.js`),
+transitions de tableaux (`level-rules.js`), le menu, la vitesse, les séquences et
+le classement (`presentation.js`), le rendu Canvas (`renderer.js`) et
+les entrées, sons et sauvegardes (`view.js`). Le moteur est déterministe et
+indépendant du DOM. La clé de reprise est `adi4-beebop1-v1`. Les règles sont
+propres à l’épisode I ; la [comparaison des épisodes](public/features/games/beebop/README.md)
+décrit les frontières possibles d’un socle commun.
 
 Mr. Matt partage un moteur, un atlas et 12 sons entre ses deux épisodes ; chaque
 épisode possède son catalogue de niveaux. Les clés de sauvegarde sont

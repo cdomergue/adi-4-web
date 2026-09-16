@@ -1,0 +1,50 @@
+.beebop-page { max-width: 900px; margin: auto; }
+.beebop-heading { display: flex; align-items: baseline; justify-content: space-between; gap: 16px; }
+.beebop-controls { display: flex; align-items: center; gap: 9px; flex-wrap: wrap; margin: 16px 0; }
+.beebop-controls button, .beebop-overlay button { font: inherit; padding: 8px 12px; cursor: pointer; border: 1px solid #566b63; border-radius: 5px; background: #f7f3df; color: #183a30; }
+.beebop-controls button:disabled { opacity: .5; cursor: default; }
+.beebop-controls label { display: inline-flex; align-items: center; gap: 7px; }
+.beebop-controls select { font: inherit; padding: 5px; }
+.beebop-window { position: relative; width: min(100%, 816px); margin: auto; background: #000; container-type: inline-size; }
+.beebop-hud { position: absolute; inset: 0; pointer-events: none; font-family: Arial, sans-serif; font-variant-numeric: tabular-nums; }
+.beebop-win-values { position: absolute; inset: 0; pointer-events: none; color: #fff; font: 3.53cqw Arial, sans-serif; }
+.beebop-win-values span { position: absolute; top: 52.5%; left: 47.1%; }
+.beebop-win-values span:last-child { left: 56.86%; }
+.bee-number { position: absolute; text-align: center; font-weight: bold; color: #fff; }
+.bee-level { left: 2.94%; top: 91.4%; width: 7.65%; font-size: 2.55cqw; color: #0000ff; }
+.bee-points { left: 22.55%; top: 90.56%; width: 16.86%; font-size: 3.92cqw; color: #ff0000; font-family: monospace; font-weight: normal; }
+.bee-reserve { left: 77.45%; top: 90.56%; width: 9.8%; font-size: 3.92cqw; color: #ff0000; font-family: monospace; font-weight: normal; }
+.bee-bonus { position: absolute; left: 43.53%; top: 91.4%; width: 13.14%; text-align: center; font-size: 2.75cqw; color: yellow; background: #777; }
+.beebop-window canvas { display: block; width: 100%; height: auto; image-rendering: pixelated; touch-action: none; outline-offset: 3px; }
+.beebop-fullscreen:fullscreen { background: #000; display: grid; place-items: center; }
+.beebop-fullscreen:fullscreen .beebop-window { width: min(100vw, calc(100vh * var(--bee-ratio, 1.416667))); }
+.beebop-exit-fullscreen { display: none; }
+.beebop-fullscreen:fullscreen .beebop-exit-fullscreen { display: block; position: absolute; right: 8px; top: 8px; z-index: 2; padding: 8px; background: #000b; color: #fff; border: 1px solid #fff; cursor: pointer; }
+.beebop-overlay { position: absolute; inset: 0; background: #000b; color: #fff; display: flex; flex-direction: column; align-items: center; justify-content: center; }
+.beebop-overlay[hidden] { display: none; }
+.beebop-overlay p { font-size: 30px; }
+.beebop-score { display: flex; justify-content: space-between; flex-wrap: wrap; gap: 12px; margin: 14px 0; font-variant-numeric: tabular-nums; }
+.beebop-page details { margin: 16px 0; }
+.beebop-page summary { cursor: pointer; }
+.beebop-menu { position: absolute; inset: 0; pointer-events: none; color: #00ffff; font-family: 'Times New Roman', serif; }
+.beebop-menu[hidden], .beebop-name[hidden], .beebop-hud[hidden], .beebop-win-values[hidden] { display: none; }
+.bee-speed-label { position: absolute; left: 65.7%; top: 4.41%; font-size: 1.99cqw; }
+.bee-speed-value { position: absolute; left: 90.75%; top: 2.75%; width: 7%; text-align: center; font: bold 2.54cqw monospace; color: white; }
+.bee-scores-label { position: absolute; left: 75.68%; top: 50.4%; font-size: 3.63cqw; color: red; }
+.bee-leaderboard { position: absolute; left: 66.24%; top: 56.47%; width: 31%; padding: 0; margin: 0; list-style: none; font-size: 1.815cqw; line-height: 1; }
+.bee-leaderboard li { display: grid; grid-template-columns: 81.87% auto; height: 1.815cqw; white-space: pre; }
+.bee-menu-button { position: absolute; pointer-events: auto; padding: 0; margin: 0; border: 0; border-radius: 0; background: transparent; cursor: pointer; width: 8.35%; height: 7.44%; top: 88.705%; }
+.bee-menu-button:focus-visible { outline: 2px solid white; outline-offset: 3px; }
+.bee-menu-button:active { box-shadow: inset 2px 2px #0008; }
+.bee-go { left: 27.223%; }
+.bee-quit { left: 44.828%; }
+.bee-clear { left: 77.132%; }
+.bee-sound { left: 9.619%; }
+.bee-faster, .bee-slower { left: 90.38%; width: 2.72%; height: 4.41%; }
+.bee-faster { top: 11.294%; }
+.bee-slower { top: 39.945%; }
+.bee-menu-button:disabled { cursor: default; }
+.beebop-name { position: absolute; left: 32%; top: 40%; width: 36%; padding: 2cqw; box-sizing: border-box; background: #c0c0c0; color: #000; border: 3px outset #eee; font: 2.35cqw Arial, sans-serif; display: grid; gap: 1.4cqw; }
+.beebop-name label { text-align: center; }
+.beebop-name input { width: 100%; box-sizing: border-box; border: 2px inset #eee; background: white; color: black; font: inherit; }
+.beebop-name button { justify-self: center; min-width: 8cqw; padding: .3cqw 1cqw; font: inherit; background: #c0c0c0; color: black; border: 2px outset #eee; }

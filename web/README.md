@@ -161,11 +161,12 @@ Les petits mouvements d’ambiance des décors et certaines transitions ne sont
 pas tous reproduits. Les [finitions de fidélité](FIDELITY.md) sont des travaux
 requis pour considérer la recréation terminée.
 
-## Les dix jeux
+## Les onze jeux
 
 | Jeu                | Route                           | Contenu et reprise                                              |
 | ------------------ | ------------------------------- | --------------------------------------------------------------- |
 | Sokoban            | `#game/sokoban`                 | 15 niveaux originaux                                            |
+| BeeBop I           | `#game/beebop1`                 | 45 tableaux, moteur JavaScript natif, reprise au début du tableau |
 | Gobliiins          | `#game/wgob1`                   | Édition française Windows des CD ADI ; codes de niveau          |
 | Gobliins 2         | `#game/wgob2`                   | Édition française Windows ; sauvegardes du jeu et import/export |
 | Goblins 3          | `#game/wgob3`                   | Édition française Windows ; sauvegardes du jeu et import/export |
@@ -183,6 +184,17 @@ Un clic de souris dans le jeu capture le pointeur lorsque le navigateur le perme
 Le curseur reste dans le jeu pour faire défiler les décors aux bords gauche et droit.
 Échap libère la souris ; un nouveau clic la capture à nouveau. Le bouton
 « Capturer la souris » offre le même accès et « Passer · Échap » passe le générique.
+
+BeeBop I se commande avec la souris, le doigt ou les flèches ; clic et Espace
+lancent la balle et commandent le laser. P ou Échap met en pause. Le moteur
+applique les règles décompilées, les passages propres aux tableaux et les
+bonus, avec les images et sons originaux. Le stockage `adi4-beebop1-v1` conserve
+le début du tableau, le classement nominatif, le record, la vitesse et le son.
+Le menu original propose Go, Son, Quitter et R.A.Z. ; les tableaux s’enchaînent
+automatiquement après le bonus. Le sélecteur de tableau démarre une
+partie indépendante à cet endroit. La [référence BeeBop](public/features/games/beebop/README.md)
+décrit les vérifications natives, les différences avec BeeBop II et les limites
+de comparaison audiovisuelle ; la fidélité complète n’est pas encore établie.
 
 Mr. Matt propose les sons originaux et une option « Déplacements réfléchis »
 désactivée par défaut. Une démonstration originale de Mr. Matt II est incomplète
