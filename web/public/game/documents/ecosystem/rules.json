@@ -709,5 +709,282 @@
       "SBRU018",
       "SBRU019"
     ]
-  ]
+  ],
+  "idleModes": [
+    1,
+    4,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    4,
+    4
+  ],
+  "idleEnabled": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0
+  ],
+  "hideBaseDuringIdle": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "ambientCount": 3,
+  "priorities": {
+    "objects": [
+      101,
+      103,
+      107,
+      102,
+      104,
+      105,
+      108,
+      106,
+      103,
+      109
+    ],
+    "idle": [
+      101,
+      103,
+      107,
+      102,
+      104,
+      105,
+      108,
+      106,
+      103,
+      109
+    ],
+    "ambient": [
+      111,
+      112,
+      115
+    ]
+  },
+  "textLayout": {
+    "caseBriefs": [
+      [
+        "Si l'homme rompt l'équilibre naturel, les",
+        "conséquences peuvent être catastrophiques : l'homme",
+        "a introduit une vingtaine de lapins en Australie, où",
+        "ils n'existaient pas. Quelques dizaines d'années plus",
+        "tard, les lapins étaient plus de 5 milliards !"
+      ],
+      [
+        "Il est possible de préserver l'équilibre de la nature,",
+        "si l'homme prête attention à son environnement :",
+        "il faut limiter la pollution et l'extension des cultures,",
+        "contrôler la chasse et soigner les animaux malades."
+      ],
+      [
+        "Des situations catastrophiques existent encore : si",
+        "l'Homme ne fait pas attention à son environnement,",
+        "il y a de fortes chances pour que certaines espèces",
+        "animales disparaissent."
+      ]
+    ],
+    "explanations": [
+      [
+        "Les animaux peuvent disparaître d'une région si l'équilibre naturel",
+        "est rompu par la pollution : si les eaux sont trop polluées, les animaux",
+        "ne peuvent plus boire et n'ont d'autres solutions que de partir."
+      ],
+      [
+        "La chasse n'est pas forcément négative. Si elle n'est pas contrôlée, elle",
+        "peut conduire à la disparition presque totale de certaines espèces. Mais",
+        "elle peut être bénéfique lorsque certaines espèces prolifèrent. Aujourd'hui,",
+        "la chasse est contrôlée : des permis sont délivrés par les autorités, les",
+        "chasseurs n'ont le droit de chasser que certaines espèces et seulement",
+        "pendant certaines périodes de l'année."
+      ],
+      [
+        "Il est nécessaire de protéger d'une façon ou d'une autre les animaux",
+        "qui vivent autour de nous dans la nature. Les vétérinaires surveillent",
+        "les animaux et soignent ceux qui sont malades."
+      ],
+      [
+        "L'extension des terres cultivées par l'homme pose un problème très",
+        "important dans certaines régions du monde. En effet, la disparition",
+        "de l'habitat naturel des animaux, une forêt par exemple, défrichée",
+        "pour permettre l'extension des cultures, peut créer un déséquilibre",
+        "important car les animaux ne trouveront plus de quoi se nourrir."
+      ],
+      [
+        "Pour se nourrir, les animaux herbivores ont besoin",
+        "d'étendues d'herbes. Mais si la pollution est importante,",
+        "ces herbages disparaissent, et les animaux aussi."
+      ],
+      [
+        "Il existe des régulateurs naturels qui empêchent la prolifération des lapins.",
+        "Les  renards, par exemple, sont des carnivores qui mangent les lapins. La",
+        "proportion de lapins est aussi fonction des transformations imposées par",
+        "les hommes : les milieux trop pollués, les régions où la chasse n'est pas",
+        "réglementée, sont des lieux d'où les lapins risquent de disparaître."
+      ],
+      [
+        "Le nombre de renards est fonction de la nourriture qu'ils trouvent, par",
+        "exemple le nombre de lapins. Si ces derniers disparaissent, les renards",
+        "risquent de disparaître eux aussi. De plus, si la chasse n'est pas",
+        "contrôlée, les renards peuvent être exterminés par les chasseurs."
+      ],
+      [
+        "La végétation d'une région dépend de la richesse des sols. Sans matière",
+        "organique animale, ces sols s'appauvrissent et la végétation en souffre.",
+        "Quand l'homme est responsable de la disparition d'espèces animales, il",
+        "cause aussi l'appauvrissement de  la végétation."
+      ],
+      [
+        "Les cultures que font pousser les hommes sont parfois abîmées par les",
+        "animaux : de trop nombreux lapins peuvent venir manger les cultures qui",
+        "poussent dans les champs."
+      ],
+      [
+        "Les renards attaquent les lapins et s'en nourrissent. Ainsi, le nombre",
+        "de lapins ne peut devenir trop important, ni constituer un danger pour",
+        "l'équilibre de la nature. Dans ce cas, la régulation est naturelle."
+      ]
+    ],
+    "hints": [
+      [
+        [
+          "A la fin du XIXème siècle, l'Australie est un continent",
+          "peu peuplé où la pollution est inexistante."
+        ],
+        [
+          "Le faible nombre d'habitants de l'Australie au XIXème siècle fait que",
+          "la chasse est quasi inexistante. Bien sûr les aborigènes chassent",
+          "pour se nourrir, mais ils ne perturbent pas le milieu naturel."
+        ],
+        [
+          "Les animaux n'ont pas vraiment besoins de protection vétérinaire",
+          "puisqu'ils vivent à cette époque en complète harmonie avec la nature."
+        ],
+        [
+          "Il n'y a pas suffisamment d'habitants en Australie au XIXème siècle",
+          "pour que de grandes surfaces cultivées soient nécessaires."
+        ]
+      ],
+      [
+        [
+          "Si les hommes réussissent à annuler les effets de la pollution qu'ils",
+          "créent, la nature pourra retrouver son équilibre."
+        ],
+        [
+          "La chasse est parfois un moyen de régulation : les animaux que l'on a le",
+          "droit de chasser sont ceux \"en trop\", c'est à dire ceux dont la prolifération",
+          "aurait des conséquences négatives pour l'homme et pour le milieu."
+        ],
+        [
+          "La protection vétérinaire est importante car elle aide à préserver les",
+          "espèces en luttant contre les maladies animales. La rage, par exemple,",
+          "peut décimer entièrement les renards."
+        ],
+        [
+          "L'extension des cultures doit ête limitée pour permettre aux",
+          "animaux  de conserver leur habitat naturel et de se nourrir."
+        ]
+      ],
+      [
+        [
+          "Certaines régions sont polluées de façon importante car les hommes",
+          "n'ont pas prêté attention à leur environnement. Les animaux subissent",
+          "les conséquences de cette pollution des eaux et de l'air : ils meurent",
+          "de maladie."
+        ],
+        [
+          "Lorsqu'elle n'est pas contrôlée, la chasse peut conduire à la disparition des",
+          "animaux : cela a été le cas pour les bisons d'Amérique, pour les éléphants",
+          "d'Afrique et pour les baleines."
+        ],
+        [
+          "Sans protection vétérinaire, les animaux malades transmettent leurs",
+          "maladies aux autres et une épidémie peut mettre en danger toute une",
+          "espèce."
+        ],
+        [
+          "Les hommes défrichent les forêts pour étendre leurs cultures. S'il ne reste",
+          "plus d'espace pour les animaux, ceux-ci disparaissent de la région."
+        ]
+      ]
+    ],
+    "introduction": [
+      [
+        "La nature est un milieu fragile. Changer une de ces",
+        "composantes entraîne des conséquences sur toutes les",
+        "autres car toutes sont interdépendantes. L'Homme est ",
+        "un élément perturbateur du milieu. Il peut faire ",
+        "disparaître une espèce animale en détruisant le milieu ",
+        "dans lequel",
+        "elle vit.",
+        "En effet, l'Homme transforme le milieu : il y introduit,",
+        "par exemple, des cultures qui entraînent la disparition",
+        "des espèces végétales dont les animaux se nourrissent",
+        "et dans lesquelles ils vivent."
+      ],
+      [
+        "L'Homme est aussi un chasseur. Si la chasse n'est pas",
+        "contrôlée, des espèces peuvent s'éteindre, comme cela",
+        "a failli se produire pour les éléphants. Mais de plus en",
+        "plus, l'Homme prend en compte l'environnement dans",
+        "lequel il vit."
+      ]
+    ],
+    "cases": [
+      [
+        [
+          "Un équilibre existe dans la nature mais l'Homme peut le",
+          "rompre. A la fin du XIXème siècle, l'Homme a introduit",
+          "une vingtaine de lapins dans une région où les lapins",
+          "n'existaient pas : l'Australie. Quelques décennies plus",
+          "tard, les lapins s'étaient reproduits. Ils étaient... plus de",
+          "5 milliards ! L'équilibre du milieu était complètement",
+          "rompu. Pour s'en débarrasser, les Hommes n'ont eu",
+          "d'autre solution que de leur transmettre une maladie",
+          "pour les tuer, la myxomatose. Le problème est que cette",
+          "maladie s'est répandue jusqu'en Europe !"
+        ]
+      ],
+      [
+        [
+          "L'Homme a de plus en plus conscience de l'importance",
+          "de son environnement et cherche à le préserver. La",
+          "chasse peut être utilisée comme un moyen de régulation :",
+          "les seuls animaux chassés sont ceux \"en trop\", c'est-à-dire",
+          "ceux dont la prolifération aurait des conséquences",
+          "néfastes à la fois pour l'Homme et pour le milieu.",
+          "Préserver l'environnement est donc possible, si l'Homme",
+          "limite la pollution et fait attention à ne pas détruire",
+          "l'habitat et la nourriture des animaux, c'est-à-dire",
+          "la végétation."
+        ]
+      ],
+      [
+        [
+          "Dans de nombreuses régions, toutes les conditions sont",
+          "réunies pour que les animaux disparaissent. En effet, le",
+          "taux de pollution des eaux est tel que les animaux ne",
+          "peuvent boire sans attraper de maladie et l'extension des",
+          "cultures détruit la végétation. La végétation sert à la",
+          "fois d'habitat et de nourriture aux animaux."
+        ]
+      ]
+    ]
+  }
 }

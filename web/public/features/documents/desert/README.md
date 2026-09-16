@@ -1,7 +1,7 @@
 # La désertification
 
 La route `#document/s14` utilise [engine.js](engine.js) pour les règles,
-[animation.js](animation.js) pour les séquences d’ambiance et [view.js](view.js)
+[ordonnanceur commun](../environment-atmosphere.js) pour les séquences d’ambiance et [view.js](view.js)
 pour configurer le [lecteur commun](../environment-view.js).
 Les [ressources](../../../game/documents/desert/) comprennent les images,
 animations, textes, bruitages et voix français d’ADI 4.21.
@@ -48,7 +48,7 @@ pour 1 ou 2. `S14_2H` est donc une ressource déclarée mais non sélectionnée.
 
 ## Fidélité et limites
 
-Les fenêtres utilisent du texte HTML ; la police et les icônes des panneaux
+Les panneaux utilisent du texte net et les icônes originales ; les transitions
 ne sont pas toutes restituées. La commande web d’arrêt est immédiate.
 La cadence des tours dépend du rendu du navigateur. La session ne possède pas
 de sauvegarde persistante. Les textes et situations décrivent la période de

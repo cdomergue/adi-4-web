@@ -24,8 +24,12 @@ coordonnées d’écran et celles du décor. La barre flottante se déplace par 
 poignée ou par clic droit. Le planisphère repositionne la vue détaillée. Le son
 est activé par défaut ; les présentations ne bloquent pas les commandes.
 
-La session conserve ses réglages pendant la consultation. Elle ne possède pas de
-sauvegarde persistante. Les transitions de zoom et l’aide utilisent les commandes
-web ; les séquences intermédiaires de l’interpréteur original ne sont pas jouées.
+La session conserve ses réglages pendant la consultation. La navigation, les
+calques et la position de la barre ne possèdent pas de sauvegarde persistante.
+Comme `TEMP\ADIGEO.INF` dans l’original, le navigateur conserve seulement le
+marqueur indiquant que la présentation automatique `N_PR` a déjà été jouée. Elle
+se lance lors du premier passage du globe à la carte mondiale et ne bloque pas
+les commandes. Les transitions de zoom et l’aide utilisent les commandes web ;
+les séquences intermédiaires de l’interpréteur original ne sont pas jouées.
 Le contrôle des interactions et de l’intégrité des ressources se trouve dans
 [les tests](../../../../tests/atlas.test.mjs).

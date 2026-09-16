@@ -13,9 +13,9 @@ export function renderWater(main) {
     relationsLabel: 'Rejouer les sources de pollution',
     relationsHelp:
       'Les animations montrent comment les déchets, les eaux usées et les hydrocarbures rejoignent la mer.',
-    idleRest: { 1: 7000, 2: 7000, 4: 7000, 5: 7000, 6: 7000, 7: 7000, 8: 7000, 9: 7000 },
     summary: (data, state) =>
       `${data.options[7][state.states[7]]}. ${data.options[8][state.states[8]]}. ${data.options[9][state.states[9]]}.`,
+    confirmChoices: true,
     engine,
   });
 }

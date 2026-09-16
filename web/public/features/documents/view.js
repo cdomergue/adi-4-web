@@ -5,7 +5,18 @@ import { renderWater } from './water/view.js';
 import { renderAir } from './air/view.js';
 import { renderAtlas } from './atlas/view.js';
 import { renderDevelopment } from './development/view.js';
-import { scenePoint, maskColor, menuOffset, spacePoint } from './engine.js';
+import {
+  ambienceKey,
+  ambientCandidates,
+  ambientPosition,
+  exitTransition,
+  introSequence,
+  pickAmbient,
+  scenePoint,
+  maskColor,
+  menuOffset,
+  spacePoint,
+} from './engine.js';
 
 const base = '/game/documents/';
 const place = (x, y, width, height) =>
@@ -56,9 +67,11 @@ export async function renderDocuments(main, topicId = '') {
     '<section class="original-scene documents"><div class="scene-heading"><h1>Les documents</h1><a class="button secondary" href="#room">← La chambre</a></div><p role="status">Ouverture…</p></section>';
   const root = main.firstElementChild;
   let leaving = false,
+    returning = false,
     serial = 0,
     introTimer,
     hoverTimer,
+    ambientTimer,
     hovered = null;
   const timers = new Set(),
     media = new Set();
@@ -66,6 +79,8 @@ export async function renderDocuments(main, topicId = '') {
     serial++;
     clearTimeout(introTimer);
     clearTimeout(hoverTimer);
+    clearTimeout(ambientTimer);
+    ambientTimer = null;
     hovered = null;
     for (const timer of timers) clearTimeout(timer);
     timers.clear();
@@ -141,7 +156,8 @@ export async function renderDocuments(main, topicId = '') {
       event.currentTarget.textContent = pinned ? 'Masquer les boutons' : 'Afficher les boutons';
     };
     frame.querySelector('[data-doc-back]').onclick = () => {
-      location.hash = topic ? 'documents' : 'room';
+      if (topic) exitDocument();
+      else location.hash = 'room';
     };
     if (!topic) {
       const panel = document.createElement('div');
@@ -248,7 +264,7 @@ export async function renderDocuments(main, topicId = '') {
       hotspots.append(element);
       return element;
     }
-    function playAudio(key, loop = false) {
+    function playAudio(key, loop = false, after = null) {
       const item = resources.media[key?.toUpperCase()];
       if (!item?.audio && item?.type !== 'audio') return null;
       const player = new Audio(item.audio || item.src);
@@ -260,14 +276,20 @@ export async function renderDocuments(main, topicId = '') {
       root.append(player);
       player.play().catch(() => {
         if (!leaving && sound) status.textContent = 'Clique sur Présentation pour écouter Adi.';
+        if (!loop) {
+          media.delete(player);
+          player.remove();
+          if (!leaving) after?.();
+        }
       });
       player.onended = () => {
         media.delete(player);
         player.remove();
+        if (!leaving) after?.();
       };
       return player;
     }
-    function animate(key, after) {
+    function animate(key, after, position) {
       const item = resources.media[key?.toUpperCase()];
       if (!item?.src || item.type !== 'animation') {
         after?.();
@@ -276,7 +298,13 @@ export async function renderDocuments(main, topicId = '') {
       const token = serial;
       const image = new Image();
       image.className = 'document-animation';
-      image.style.cssText = place(item.x, item.y, item.width, item.height);
+      if (returning) image.classList.add('document-exit-animation');
+      image.style.cssText = place(
+        position?.x ?? item.x,
+        position?.y ?? item.y,
+        item.width,
+        item.height,
+      );
       image.onload = () => {
         if (leaving || token !== serial) {
           image.remove();
@@ -293,6 +321,7 @@ export async function renderDocuments(main, topicId = '') {
       image.onerror = () => {
         image.remove();
         status.textContent = 'Cette animation n’a pas pu être chargée.';
+        if (token === serial) after?.();
       };
       image.src = item.src + '?lecture=' + serial;
       frame.append(image);
@@ -310,7 +339,27 @@ export async function renderDocuments(main, topicId = '') {
       video.load();
       media.delete(video);
       film.hidden = true;
-      if (resume) ambient();
+      if (resume) {
+        ambient();
+        scheduleAmbient();
+      }
+    }
+    function exitDocument() {
+      if (returning) return;
+      returning = true;
+      stopMedia();
+      closeFilm();
+      tooltip.hidden = true;
+      const transition = exitTransition(topicId);
+      if (!transition) {
+        location.hash = 'documents';
+        return;
+      }
+      status.textContent = 'Retour aux documents…';
+      frame.classList.add('document-leaving');
+      animate(transition, () => {
+        if (!leaving) location.hash = 'documents';
+      });
     }
     film.querySelector('button').onclick = () => closeFilm(true);
     film.addEventListener('click', (event) => {
@@ -349,13 +398,38 @@ export async function renderDocuments(main, topicId = '') {
     controls.querySelector('[data-doc-stop]').onclick = () => {
       stopMedia();
       closeFilm();
-      if (topicId === 'astro') { selectedConstellation = null; draw(); }
+      if (topicId === 'astro') {
+        selectedConstellation = null;
+        draw();
+      }
       status.textContent = 'Lecture arrêtée.';
     };
     let ambience = null;
+    const recentAmbient = [];
     function ambient() {
       if (!leaving && (!ambience || !media.has(ambience)))
-        ambience = playAudio(topic.ambience, true);
+        ambience = playAudio(ambienceKey(topicId, season, topic.ambience), true);
+    }
+    function scheduleAmbient(delay = 5000) {
+      clearTimeout(ambientTimer);
+      ambientTimer = null;
+      const candidates = ambientCandidates(topicId, season, direction);
+      if (!candidates.length || leaving || returning) return;
+      const timer = setTimeout(() => {
+        timers.delete(timer);
+        if (leaving || returning || !film.hidden) return;
+        const key = pickAmbient(candidates, recentAmbient);
+        if (!key) return;
+        recentAmbient.unshift(key);
+        recentAmbient.length = 2;
+        const done = () => scheduleAmbient();
+        if (resources.media[key]?.type === 'animation') animate(key, done, ambientPosition(key));
+        else {
+          if (!playAudio(key, false, done)) done();
+        }
+      }, delay);
+      ambientTimer = timer;
+      timers.add(timer);
     }
     let mask,
       zones = topic.zones || [],
@@ -458,6 +532,7 @@ export async function renderDocuments(main, topicId = '') {
         drawConstellation(zone);
         const voice = playAudio(zone.audio);
         ambient();
+        scheduleAmbient();
         voice?.addEventListener(
           'ended',
           () => {
@@ -520,7 +595,7 @@ export async function renderDocuments(main, topicId = '') {
         hotspots.replaceChildren();
         draw();
         frame.querySelector('[data-doc-back]').onclick = () => {
-          location.hash = 'documents';
+          exitDocument();
         };
       };
       playAudio(page.audio);
@@ -565,25 +640,27 @@ export async function renderDocuments(main, topicId = '') {
       if (planet) {
         planet = null;
         hotspots.replaceChildren();
-        frame.querySelector('[data-doc-back]').onclick = () => { location.hash = 'documents'; };
+        frame.querySelector('[data-doc-back]').onclick = exitDocument;
         draw();
       }
-      if (topicId === 'astro') { selectedConstellation = null; draw(); }
+      if (topicId === 'astro') {
+        selectedConstellation = null;
+        draw();
+      }
       const token = serial;
-      const clips = topic.intro || [];
+      const clips = introSequence(topicId, topic.intro || []);
       let index = 0;
       function next() {
         if (leaving || token !== serial) return;
         if (index >= clips.length) {
           ambient();
+          scheduleAmbient();
           return;
         }
         const key = clips[index++];
         if (resources.media[key]?.type === 'animation') animate(key, next);
         else {
-          const player = playAudio(key);
-          if (player) player.addEventListener('ended', next, { once: true });
-          else next();
+          if (!playAudio(key, false, next)) next();
         }
       }
       next();
@@ -595,6 +672,8 @@ export async function renderDocuments(main, topicId = '') {
           stopMedia();
           season = i + 1;
           selectedConstellation = null;
+          ambient();
+          scheduleAmbient();
           draw();
         });
       button('Afficher les constellations', [410, 5, 90, 60], () => {
@@ -606,12 +685,16 @@ export async function renderDocuments(main, topicId = '') {
         stopMedia();
         direction = 1;
         selectedConstellation = null;
+        ambient();
+        scheduleAmbient();
         draw();
       });
       button('Vue vers le Sud', [550, 30, 67, 33], () => {
         stopMedia();
         direction = 2;
         selectedConstellation = null;
+        ambient();
+        scheduleAmbient();
         draw();
       });
     } else mask = await loadMask(topicId === 'espace' ? 'ESPACE:6' : topic.mask);

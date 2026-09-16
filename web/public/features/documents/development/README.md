@@ -1,7 +1,7 @@
 # Le développement d’un pays
 
 La route `#document/s08` utilise [engine.js](engine.js) pour les règles,
-[animation.js](animation.js) pour l’ambiance et [view.js](view.js) pour configurer
+[ordonnanceur commun](../environment-atmosphere.js) pour l’ambiance et [view.js](view.js) pour configurer
 le [lecteur commun](../environment-view.js). Les [ressources](../../../game/documents/development/)
 comprennent les images, séquences, voix, sons, textes et tables de l’édition
 française ADI 4.21. Aucun interpréteur ni archive du CD n’est nécessaire.
@@ -54,11 +54,14 @@ placent l’ambiance `S08_5H` derrière les éléments de premier plan.
 
 ## Fidélité et limites
 
-Les textes décrivent la période de l’édition originale. Les fenêtres utilisent
-HTML : polices, icônes et pagination restent à restituer. Le panneau comporte
-une validation et une annulation, mais pas l’aperçu original. La commande d’arrêt
-est immédiate ; la cadence dépend du navigateur. La session n’est pas persistante.
-Les [finitions requises](../../../../FIDELITY.md) restent un critère d’achèvement.
+Les panneaux de réglage, de modes et de situations utilisent les images,
+la palette originales, avec du texte net rendu par le navigateur. Un choix est appliqué avec le pouce ;
+l’aide conserve la sélection en attente. Les présentations respectent les pages
+des textes source. Les textes décrivent la période de l’édition originale.
+Les boucles et réactions d’ambiance utilisent les modes et priorités du script
+dans l’[ordonnanceur commun](../environment-atmosphere.js). La cadence dépend
+du navigateur ; les transitions des fenêtres et du retour aux documents restent
+immédiates. Les réglages sont propres à la consultation en cours.
 
 Les [tests](../../../../tests/development-document.test.mjs) vérifient les quatre
 cas, les 4 800 combinaisons, les transitions autorisées, les contraintes, les

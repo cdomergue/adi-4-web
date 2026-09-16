@@ -9,10 +9,9 @@ export function renderAir(main) {
     ambience: 'A_MUS16',
     sceneDescription: 'Ville, industries, centrale et moyens de transport',
     help: 'Clique sur le relief, les industries, la centrale ou les voitures pour modifier un réglage.',
-    renderOrder: [0, 1, 2, 5, 7, 4, 6, 3],
-    idleRest: { 3: 9000, 5: 9000, 6: 9000 },
     summary: (data, state) =>
       `${data.options[4][state.states[4]]}. Santé des hommes : ${data.options[5][state.states[5]].toLowerCase()}.`,
+    confirmChoices: true,
     engine: {
       ...engine,
       createInitial: (data) => engine.evaluate(data, data.defaultInputs),

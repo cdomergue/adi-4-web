@@ -97,10 +97,10 @@ calculées séparément de leurs niveaux graphiques et applique les limites des
 investissements selon la capacité et le réglage courant. Chaque document possède
 une configuration `view.js`.
 [desert/engine.js](public/features/documents/desert/engine.js) applique les tables
-de la désertification. Son [ordonnanceur](public/features/documents/desert/animation.js)
+de la désertification. Son [ordonnanceur](public/features/documents/environment-atmosphere.js)
 reproduit le compteur et le tirage des animations d’ambiance du script.
 Les priorités des objets, animations d’équilibre, ambiances et calques fixes sont
-ordonnées par le lecteur commun. La sélection d’un réglage peut être confirmée
+ordonnées par le lecteur commun. La sélection d’un réglage est confirmée
 avant son application.
 [water/engine.js](public/features/documents/water/engine.js) calcule les déchets,
 les rejets des égouts et la pollution marine avec les divisions entières et le
@@ -116,11 +116,16 @@ Les [styles communs](public/styles/environment-document.css), les
 [l’entreprise](public/game/documents/company/), ainsi que celles de
 [la pollution de l’eau](public/game/documents/water/) et de
 [la désertification](public/game/documents/desert/), suffisent à ces routes sans
-moteur externe. Ces documents partagent les images de la barre et du panneau.
+moteur externe. Ces documents partagent les images de la barre et les
+[ressources des panneaux](public/game/documents/common/).
+Le lecteur commun utilise du texte HTML lissé dans les panneaux et conserve
+leurs images, couleurs et positions originales.
+[environment-feedback.js](public/features/documents/environment-feedback.js)
+choisit les réactions de validation.
 
 [development/engine.js](public/features/documents/development/engine.js) applique
 les divisions entières et les limites entre agriculture, climat et investissements.
-Son [ordonnanceur](public/features/documents/development/animation.js) gère les
+Son [ordonnanceur](public/features/documents/environment-atmosphere.js) gère les
 séquences d’ambiance ; les [ressources](public/game/documents/development/)
 contiennent les six explications, les quatre cas et l’animation de réussite.
 Le lecteur commun distingue les commentaires des situations obtenues et les
@@ -181,12 +186,12 @@ interactions au jeu original reste une limite du portage.
 Les règles JavaScript sont séparées du DOM dans les modules `engine.js` ; les
 modules `view.js` affichent les états et relient les commandes au moteur.
 
-| Jeu | Modules | Données |
-|---|---|---|
-| Sokoban | [Moteur et vue](public/features/games/sokoban/) | [15 niveaux et atlas](public/game/sokoban/) |
-| Mr. Matt I et II | [Moteur et vue partagés](public/features/games/mrmatt/) | [I](public/game/mrmatt1/) et [II](public/game/mrmatt2/) |
-| Bad Toys 3D I à IV | [Moteur, rendu et vue](public/features/games/badtoys/) | [Cartes, sprites et sons](public/game/badtoys/) |
-| Goblins I à III | [Vue](public/features/games/wgob3/view.js) et [lecteur](public/wgob3/) | [I](public/game/wgob1/), [II](public/game/wgob2/), [III](public/game/wgob3/) |
+| Jeu                | Modules                                                                | Données                                                                      |
+| ------------------ | ---------------------------------------------------------------------- | ---------------------------------------------------------------------------- |
+| Sokoban            | [Moteur et vue](public/features/games/sokoban/)                        | [15 niveaux et atlas](public/game/sokoban/)                                  |
+| Mr. Matt I et II   | [Moteur et vue partagés](public/features/games/mrmatt/)                | [I](public/game/mrmatt1/) et [II](public/game/mrmatt2/)                      |
+| Bad Toys 3D I à IV | [Moteur, rendu et vue](public/features/games/badtoys/)                 | [Cartes, sprites et sons](public/game/badtoys/)                              |
+| Goblins I à III    | [Vue](public/features/games/wgob3/view.js) et [lecteur](public/wgob3/) | [I](public/game/wgob1/), [II](public/game/wgob2/), [III](public/game/wgob3/) |
 
 Mr. Matt partage un moteur, un atlas et 12 sons entre ses deux épisodes ; chaque
 épisode possède son catalogue de niveaux. Les clés de sauvegarde sont

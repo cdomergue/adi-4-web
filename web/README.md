@@ -29,22 +29,22 @@ n’est nécessaire pour lancer les jeux inclus.
 
 ## Fonctions disponibles
 
-| Entrée | Fonction |
-|---|---|
-| `#welcome` | Introduction originale et accueil |
-| `#room` | Chambre, objets interactifs, déplacements, animations et répliques d’Adi |
-| `#documents` | Menu original des dossiers multimédias |
-| `#document/animal`, `cycle`, `astro`, `planete`, `espace` | Animaux, cycle de l’eau, ciel étoilé, planètes et conquête spatiale |
-| `#document/atlas` | Globe, cartes, calques et documents géographiques |
-| `#document/s16`, `s17`, `s12`, `s14`, `s07`, `s08` | Six simulations d’environnement et leurs cas d’étude |
-| `#radio` | 17 musiques, 10 ambiances et silence |
-| `#games` | Caisse, filtre disponibles/à venir et défilement à la molette |
-| `#science` | Bibliothèque de cours, niveaux, recherche et dictionnaire |
-| `#scene/station` | Décors et accès aux activités Sciences |
-| `#simulations` | Catalogue des 14 simulations |
-| `#encyclopedia` | Encyclopédie et compléments multimédias |
-| `#notebook` | Carnet personnel |
-| `#internet` | Correspondants, courrier, calendrier et services simulés |
+| Entrée                                                    | Fonction                                                                 |
+| --------------------------------------------------------- | ------------------------------------------------------------------------ |
+| `#welcome`                                                | Introduction originale et accueil                                        |
+| `#room`                                                   | Chambre, objets interactifs, déplacements, animations et répliques d’Adi |
+| `#documents`                                              | Menu original des dossiers multimédias                                   |
+| `#document/animal`, `cycle`, `astro`, `planete`, `espace` | Animaux, cycle de l’eau, ciel étoilé, planètes et conquête spatiale      |
+| `#document/atlas`                                         | Globe, cartes, calques et documents géographiques                        |
+| `#document/s16`, `s17`, `s12`, `s14`, `s07`, `s08`        | Six simulations d’environnement et leurs cas d’étude                     |
+| `#radio`                                                  | 17 musiques, 10 ambiances et silence                                     |
+| `#games`                                                  | Caisse, filtre disponibles/à venir et défilement à la molette            |
+| `#science`                                                | Bibliothèque de cours, niveaux, recherche et dictionnaire                |
+| `#scene/station`                                          | Décors et accès aux activités Sciences                                   |
+| `#simulations`                                            | Catalogue des 14 simulations                                             |
+| `#encyclopedia`                                           | Encyclopédie et compléments multimédias                                  |
+| `#notebook`                                               | Carnet personnel                                                         |
+| `#internet`                                               | Correspondants, courrier, calendrier et services simulés                 |
 
 La chambre, la radio, les jeux et la planète Internet simulée disposent de leurs
 ressources dans Git. Les cours comprennent 62 entrées cours/niveau et 554 pages.
@@ -85,7 +85,15 @@ selon les quatre saisons et les vues Nord/Sud, les 60 rubriques des planètes,
 et les neuf dates de la conquête spatiale.
 
 Les clics suivent les masques des décors originaux. Les présentations, films,
-voix et ambiances utilisent les médias du jeu. Le son est activé par défaut ;
+voix et ambiances utilisent les médias du jeu. Après chaque présentation, les
+Animaux, l’Astronomie et la conquête de l’espace déclenchent, après un délai de
+plus de cinq secondes, une séquence d’ambiance tirée des tables originales ; les
+deux choix précédents sont exclus. L’Astronomie filtre ces séquences selon la
+saison et la vue Nord/Sud. Le retour de la conquête de l’espace joue la transition
+VAISO.
+Les sorties des Animaux, du cycle de l’eau et de l’Astronomie libèrent les
+médias ; elles ne rejouent pas leur présentation. Aucun calendrier d’animation distinct n’est identifié dans les scripts
+du cycle de l’eau ni des planètes. Le son est activé par défaut ;
 « Présentation » relance l’introduction et « Arrêter » interrompt la lecture.
 La barre du bas apparaît au survol ; son point d’interrogation active ou désactive
 l’aide. Une liste de sujets permet aussi l’accès au clavier. Les médias et
@@ -145,22 +153,25 @@ bruitages, animations d’ambiance et animation de réussite utilisent les médi
 originaux. Les documents fonctionnent en JavaScript sans moteur externe ni
 archives binaires. Le son est coché par défaut et démarre après une interaction.
 Les six simulations sont distinctes des 14 expériences de la station Sciences.
-Les sessions des documents ne sont pas sauvegardées entre deux consultations.
+Les réglages des documents sont propres à la consultation. L’Atlas mémorise
+uniquement la lecture de sa présentation automatique. Les six simulations
+partagent des textes nets rendus par le navigateur, les images de leurs panneaux, la sélection avec
+validation, l’aide contextuelle et les réactions originales de réussite.
 Les petits mouvements d’ambiance des décors et certaines transitions ne sont
 pas tous reproduits. Les [finitions de fidélité](FIDELITY.md) sont des travaux
 requis pour considérer la recréation terminée.
 
 ## Les dix jeux
 
-| Jeu | Route | Contenu et reprise |
-|---|---|---|
-| Sokoban | `#game/sokoban` | 15 niveaux originaux |
-| Gobliiins | `#game/wgob1` | Édition française Windows des CD ADI ; codes de niveau |
-| Gobliins 2 | `#game/wgob2` | Édition française Windows ; sauvegardes du jeu et import/export |
-| Goblins 3 | `#game/wgob3` | Édition française Windows ; sauvegardes du jeu et import/export |
-| Mr. Matt I | `#game/mrmatt1` | 25 niveaux, annulation, clichés et démonstrations |
-| Mr. Matt II | `#game/mrmatt2` | 35 niveaux, moteur partagé avec le premier épisode |
-| Bad Toys 3D I à IV | `#game/bt3d_1` à `#game/bt3d_4` | Quatre épisodes, moteur partagé et progression séparée |
+| Jeu                | Route                           | Contenu et reprise                                              |
+| ------------------ | ------------------------------- | --------------------------------------------------------------- |
+| Sokoban            | `#game/sokoban`                 | 15 niveaux originaux                                            |
+| Gobliiins          | `#game/wgob1`                   | Édition française Windows des CD ADI ; codes de niveau          |
+| Gobliins 2         | `#game/wgob2`                   | Édition française Windows ; sauvegardes du jeu et import/export |
+| Goblins 3          | `#game/wgob3`                   | Édition française Windows ; sauvegardes du jeu et import/export |
+| Mr. Matt I         | `#game/mrmatt1`                 | 25 niveaux, annulation, clichés et démonstrations               |
+| Mr. Matt II        | `#game/mrmatt2`                 | 35 niveaux, moteur partagé avec le premier épisode              |
+| Bad Toys 3D I à IV | `#game/bt3d_1` à `#game/bt3d_4` | Quatre épisodes, moteur partagé et progression séparée          |
 
 Les trois Goblins interprètent les données des CD ADI avec ScummVM 2.9.0 compilé
 en WebAssembly. Le lecteur [public/wgob3/player.html](public/wgob3/player.html)
@@ -227,7 +238,6 @@ styles de l’application sont versionnés par le build pour renouveler leur cac
 un onglet déjà ouvert doit être rechargé après une mise à jour.
 
 Pour modifier le code, voir [l’architecture web](ARCHITECTURE.md).
-
 
 ## Mettre à jour les ressources livrées
 

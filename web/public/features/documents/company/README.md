@@ -39,9 +39,14 @@ réparties sur plusieurs feuilles, lues sans coupure entre leurs pages.
 
 ## Limites
 
-Les fenêtres de choix et d’explication utilisent du texte HTML. Les textes
-pédagogiques décrivent la période de l’édition originale ; la description de la
-part de marché explicite les dépendances de sa table de calcul. Les animations
-de repos utilisent une temporisation web. Les sessions ne sont pas sauvegardées.
+Les panneaux de réglage, de modes et de situations utilisent les images,
+la palette originales, avec du texte net rendu par le navigateur. Un choix est appliqué avec le pouce ;
+l’aide conserve la sélection en attente. Les présentations respectent les pages
+des textes source. Les textes décrivent la période de l’édition originale. La description de la part de marché explicite les dépendances de sa table de calcul.
+Les boucles et réactions d’ambiance utilisent les modes et priorités du script
+dans l’[ordonnanceur commun](../environment-atmosphere.js). La cadence dépend
+du navigateur ; les transitions des fenêtres et du retour aux documents restent
+immédiates. Les réglages sont propres à la consultation en cours.
+
 Les [tests](../../../../tests/company-document.test.mjs) couvrent les 900
 combinaisons de réglages, les restrictions, les calculs, les séquences et les médias.

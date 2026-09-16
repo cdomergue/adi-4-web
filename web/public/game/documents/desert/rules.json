@@ -440,7 +440,6 @@
     0,
     1,
     1,
-    1,
     1
   ],
   "renderOrder": [
@@ -610,5 +609,228 @@
       "SBRU011",
       "SBRU012"
     ]
-  ]
+  ],
+  "idleModes": [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "hideBaseDuringIdle": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "ambientCount": 3,
+  "textLayout": {
+    "caseBriefs": [
+      [
+        "Ce village situé au Sud du Sahel est à la limite entre",
+        "les régions semi-arides et tropicales. Ses habitants ",
+        "commencent seulement à utiliser des moyens simples",
+        "de distribution d'énergie et d'eau. Mais il consomment",
+        "encore du bois de la savane."
+      ],
+      [
+        "Les nomades qui traversent les régions arides et",
+        "semi-arides de l'Afrique préservent la savane grâce à",
+        "leur mode de vie traditionnel."
+      ],
+      [
+        "Les habitants de Mopti, au Mali, connaissent le",
+        "problème de la disparition de la savane car ils",
+        "défrichent beaucoup pour étendre leurs cultures."
+      ]
+    ],
+    "explanations": [
+      [
+        "La pression démographique est très forte dans la majorité des pays",
+        "touchés par la désertification. Bien sûr, elle varie selon les lieux : au coeur",
+        "des déserts chauds d'Afrique ne vivent que des nomades. Mais aux",
+        "marges des déserts, la population augmente et se concentre en villages."
+      ],
+      [
+        "Les régions touchées par la désertification ne sont pas toujours reliées",
+        "au réseau électrique. L'apparition de l'électricité est une étape importante",
+        "car il n'est plus nécessaire de brûler du bois pour s'éclairer et se nourrir."
+      ],
+      [
+        "L'irrigation est un élément vital dans les régions sèches. Sans elle, la vie",
+        "serait limitée et les cultures n'existeraient pas. L'irrigation existe depuis",
+        "longtemps mais les techniques se modernisent et permettent un meilleur",
+        "approvisionnement. Cependant elles coûtent cher."
+      ],
+      [
+        "Le bois est très utilisé dans les régions sèches. Il sert comme matériau",
+        "de construction, et en l'absence d'électricité comme combustible pour le",
+        "chauffage et la cuisine."
+      ],
+      [
+        "Si la population des régions désertiques augmente, ses besoins en bois",
+        "s'accroissent. Les arbres de la savane sont arrachés de plus en plus vite",
+        "et n'ont plus le temps de repousser. Leur disparition est l'une des causes",
+        "de la désertification."
+      ],
+      [
+        "Les deux principales activités de la population des régions semi-arides",
+        "sont l'élevage, et surtout la culture. Si le nombre d'habitants d'un",
+        "groupement croît, le besoin en terres agricoles croît lui aussi. Les",
+        "habitants vont alors défricher la savane pour étendre leurs cultures."
+      ],
+      [
+        "Si la taille des champs augmente, celle de la savane diminue",
+        "automatiquement. Les hommes la défrichent peu à peu pour",
+        "répondre aux besoins en produits agricoles et en bois. Mais",
+        "le défrichement peut atteindre des proportions inquiétantes",
+        "et accentuer le problème de désertification."
+      ],
+      [
+        "L'eau existe dans les déserts, mais elle n'est pas toujours accessible.",
+        "Les nappes d'eau souterraines sont exploitées pour toutes les activités",
+        "(boire, irriguer...). Certaines de ces nappes sont \"fossiles\", c'est-à-dire",
+        "qu'elles ne sont plus alimentées par les pluies. Alors si trop d'eau est",
+        "pompée, la quantité d'eau diminue dangereusement."
+      ],
+      [
+        "La savane a besoin d'eau pour se reconstituer. Les pluies lui sont",
+        "nécessaires. Mais si le climat de la région s'assèche, les pluies",
+        "diminuent. Les arbres vont alors, s'ils en ont la possibilité, puiser",
+        "l'eau des nappes souterraines. Si les hommes utilisent cette eau",
+        "avec excès, les arbres n'ont plus assez d'eau et meurent."
+      ]
+    ],
+    "hints": [
+      [
+        [
+          "Karankasso Vigué est un village de brousse situé au sud du Burkina Faso,",
+          "en Afrique de l'Ouest. On y cultive le mil et le sorgho."
+        ],
+        [
+          "L'électricité existe mais est encore peu utilisée. Pour s'éclairer la nuit, les",
+          "habitants utilisent encore des feux de bois ou leurs lampes de poche."
+        ],
+        [
+          "Le réseau d'irrigation reste peu développé car la région",
+          "bénéficie d'une saison des pluies relativement importante."
+        ]
+      ],
+      [
+        [
+          "Les marges du Sahara, celle du Nord qui comprend les pays",
+          "du Maghreb et celle du Sud, que l'on appelle le Sahel, sont",
+          "parcourues par des nomades. Ils se déplacent avec leurs",
+          "troupeaux selon des chemins tracés depuis longtemps."
+        ],
+        [
+          "Bien sûr, les nomades n'utilisent pas l'électricité",
+          "puisque leur habitat n'est pas fixe. Ils utilisent le bois",
+          "comme combustible et pour fabriquer leur tentes."
+        ],
+        [
+          "Les nomades ne mettent pas en place de systèmes d'irrigation mais",
+          "utilisent les puits traditionnels pour faire boire leurs troupeaux."
+        ]
+      ],
+      [
+        [
+          "La ville de Mopti est située sur un affluent du fleuve Niger, au Sud du Mali.",
+          "C'est l'une des villes les plus importantes du Mali, après sa capitale",
+          "Bamako, et la ville de Ségou. Elle compte plus de 60 000 habitants."
+        ],
+        [
+          "Le réseau électrique est en train de se développer à Mopti et le nombre",
+          "d'habitants augmente. Mais les arbres disparaissent autour de la ville,",
+          "car ils sont encore utilisés comme combustible."
+        ],
+        [
+          "L'irrigation se fait de façon moderne à partir du fleuve car il n'y a pas plus",
+          "d'une quarantaine de jours de pluie par an. Le total des précipitations sur",
+          "l'année ne permet que des cultures sèches."
+        ]
+      ]
+    ],
+    "introduction": [
+      [
+        "La désertification touche de nombreux pays situés aux",
+        "limites du monde aride.",
+        "Les pays en voie de développement et surtout l'Afrique,",
+        "ont beaucoup de difficultés à préserver l'équilibre de leur",
+        "environnement.",
+        "Les milieux semi-arides sont fragiles : la sécheresse du",
+        "climat entraîne une diminution de la végétation",
+        "nécessaire au développement de la vie. De plus, les",
+        "techniques d'irrigation traditionnelles ne suffisent plus",
+        "pour répondre aux besoins d'une population en constante",
+        "augmentation."
+      ],
+      [
+        "Les Hommes ont la possibilité de lutter contre la",
+        "désertification. Mais cette lutte demande de plus",
+        "en plus de moyens financiers et les résultats ne",
+        "sont pas toujours ceux que l'on espérait !"
+      ]
+    ],
+    "cases": [
+      [
+        [
+          "Karankasso Vigué est un village de brousse situé au Sud",
+          "du Burkina Faso, en Afrique de l'Ouest. L'électricité y est",
+          "encore peu utilisée et pour s'éclairer la nuit, les habitants",
+          "utilisent surtout des lampes de poche et les feux de bois.",
+          "Autour du village, la savane arborée disparaît.",
+          "Les femmes ramassent le bois mort et l'utilisent comme",
+          "combustible pour préparer les repas. De plus, l'extension",
+          "des cultures de mil et de sorgho entraîne un défrichement",
+          "de plus en plus important. Le réseau d'irrigation reste peu",
+          "développé car la région bénéficie de pluies relativement",
+          "importantes."
+        ]
+      ],
+      [
+        [
+          "Les marges du Sahara, celle du nord qui comprend",
+          "les pays du Maghreb et celle du sud, que l'on appelle",
+          "le Sahel, sont parcourues par des nomades. Bien sûr,",
+          "les nomades n'utilisent pas l'électricité puisque leur",
+          "habitat n'est pas fixe. Ils se déplacent avec leurs",
+          "troupeaux selon des chemins tracés depuis longtemps",
+          "et ne dégradent pas leur environnement. Ils utilisent",
+          "le bois comme combustible et pour fabriquer leurs tentes.",
+          "Ils ne mettent pas en place de systèmes d'irrigation",
+          "mais s'approvisionnent aux puits traditionnels pour faire",
+          "boire leurs troupeaux."
+        ]
+      ],
+      [
+        [
+          "La ville de Mopti est située sur un affluent du fleuve",
+          "Niger, au Sud du Mali. Cette petite ville d'Afrique de",
+          "de l'Ouest se développe. L'irrigation se fait à partir du",
+          "cours d'eau car il n'y a pas plus d'une quarantaine de",
+          "jours de pluies par an et le total des précipitations",
+          "sur l'année ne permet que des cultures sèches."
+        ],
+        [
+          "Mopti est une des villes les plus importantes du Mali",
+          "après la capitale, Bamako et la ville de Ségou. Elle",
+          "compte plus de 60 000 habitants.  Le réseau électrique",
+          "s'y développe et le nombre d'habitants augmente.",
+          "Les arbres disparaissent autour de la ville car ils sont",
+          "utilisés comme combustible, mais aussi à cause des",
+          "conditions climatiques."
+        ]
+      ]
+    ]
+  }
 }

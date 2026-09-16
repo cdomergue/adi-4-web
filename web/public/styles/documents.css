@@ -159,6 +159,10 @@
   pointer-events: none;
   object-fit: fill;
 }
+.document-exit-animation {
+  z-index: 7;
+  pointer-events: auto;
+}
 .document-film {
   position: absolute;
   inset: 0;

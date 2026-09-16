@@ -1726,5 +1726,270 @@
     6,
     7,
     8
-  ]
+  ],
+  "idleModes": [
+    0,
+    0,
+    4,
+    1,
+    4,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "idleEnabled": [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "hideBaseDuringIdle": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "ambientCount": 0,
+  "priorities": {
+    "objects": [
+      103,
+      104,
+      106,
+      103,
+      107,
+      106,
+      109,
+      108,
+      107,
+      104
+    ],
+    "idle": [
+      103,
+      104,
+      106,
+      105,
+      107,
+      106,
+      109,
+      108,
+      107,
+      104
+    ],
+    "ambient": []
+  },
+  "textLayout": {
+    "caseBriefs": [
+      [
+        "Dans les années 80, les ventes et les capacités",
+        "d'investissement des entreprises ont beaucoup chuté.",
+        "La crise régnait chez les consommateurs !"
+      ],
+      [
+        "Dans un contexte économique morose, les entreprises",
+        "ont bien du mal à vendre, bien qu'elles investissent",
+        "beaucoup dans la recherche et la publicité. Prenons le",
+        "cas des entreprises automobiles."
+      ],
+      [
+        "Dans un contexte économique excellent, les",
+        "entreprises réalisent des ventes importantes : elles",
+        "peuvent investir dans la recherche et améliorer leurs",
+        "moyens de production."
+      ]
+    ],
+    "explanations": [
+      [
+        "Quand une situation économique va mal, la vie est chère, le pays a des",
+        "dettes, c'est la crise. Quand une économie est saine, les gens ont un",
+        "niveau de vie confortable."
+      ],
+      [
+        "La concurrence donne la possibilité au consommateur de choisir entre",
+        "plusieurs produits, de qualités différentes et de coûts différents.",
+        "C'est très bénéfique car, pour essayer d'attirer de nouveaux clients,",
+        "les entreprises améliorent leur produit."
+      ],
+      [
+        "Cet investissement permet l'achat de nouvelles machines",
+        "qui servent à augmenter la production. Soit l'entreprise",
+        "augmente le nombre de machines dont elle dispose, soit",
+        "elle en achète de plus modernes et donc plus efficaces."
+      ],
+      [
+        "L'investissement dans la publicité est capital : un produit dont on entend",
+        "parler tous les jours à la télé ou à la radio attire bien plus les consomma-",
+        "teurs qu'un produit dont personne n'a jamais entendu parler !"
+      ],
+      [
+        "Cet investissement permet d'augmenter la qualité",
+        "d'un produit. Un produit performant satisfait bien plus",
+        "les consommateurs qu'un produit de mauvaise qualité."
+      ],
+      [
+        "Les ventes représentent l'argent gagné par l'entreprise grâce à la",
+        "quantité de produits qu'elle écoule sur les lieux de consommation."
+      ],
+      [
+        "C'est la quantité d'argent qui reste, une fois redistribué",
+        "l'argent que gagne l'entreprise. On paye d'abord le salaire",
+        "des employés et des taxes diverses. Ce qui reste peut être",
+        "réinvesti dans le fonctionnement de l'entreprise-même."
+      ],
+      [
+        "Plus les ménages ont de l'argent, plus ils fréquentent les lieux de vente."
+      ],
+      [
+        "Plus les gens ont de l'argent, plus ils consomment, d'abord les produits",
+        "de première nécessité, ensuite les produits de confort, puis de luxe."
+      ],
+      [
+        "La part de marché dépend de la concurrence et des investissements en recherche et développement."
+      ]
+    ],
+    "hints": [
+      [
+        [
+          "Le monde a connu une crise économique",
+          "assez importante au début des années 80."
+        ],
+        [
+          "Durant la crise des années 80, la concurrence était très dure."
+        ],
+        [
+          "Au début des années 80, à cause de la crise, les entreprises",
+          "ont dû se contenter d'une production moyenne."
+        ],
+        [
+          "Au début des années 80, les entreprises ont vu leurs ventes baisser .",
+          "Leur capacité d'investissement ayant diminué, ils n'ont pu consacrer que",
+          "des budgets moyens à la publicité."
+        ],
+        [
+          "Durant la crise des années 80, les investissements importants ont",
+          "surtout été réalisés dans le domaine de la recherche et du développement."
+        ]
+      ],
+      [
+        [
+          "Dans le secteur de l'automobile, le contexte",
+          "économique n'est pas très gai."
+        ],
+        [
+          "En matière d'automobiles, la concurrence des pays",
+          "étrangers est très dure dans les pays européens."
+        ],
+        [
+          "Dans le contexte économique actuel, les entreprises",
+          "automobiles sont tenues de limiter leurs coûts de",
+          "fabrication car leurs bénéfices diminuent."
+        ],
+        [
+          "De nos jours, les entreprises automobiles européennes cherchent à",
+          "reconquérir leur marché grâce à d'importantes campagnes publicitaires."
+        ],
+        [
+          "Les entreprises automobiles européennes ont bien du mal à",
+          "lutter contre la concurrence étrangères, alors elles accordent",
+          "une grande importance à l'amélioration de leurs modèles."
+        ]
+      ],
+      [
+        [
+          "Les années 60 ont connu une formidable croissance économique !"
+        ],
+        [
+          "Dans les années 60, la concurrence était encore très faible",
+          "pour les produits d'équipement (automobiles, électroménager...)."
+        ],
+        [
+          "Dans le contexte économique des années 60, les entreprises réalisaient",
+          "des bénéfices importants : elles pouvaient alors améliorer leurs moyens",
+          "de production."
+        ],
+        [
+          "Dans les années soixante, les entreprises n'avait pas de grands besoins",
+          "publicitaires comme aujourd'hui. C'était le temps de la \" réclame \"."
+        ],
+        [
+          "Dans le contexte favorable des années 60, les entreprises",
+          "réalisaient des bénéfices importants : elles pouvaient se",
+          "permettre d'investir dans la recherche et le développement."
+        ]
+      ]
+    ],
+    "introduction": [
+      [
+        "Pour améliorer ses ventes, une entreprise doit investir",
+        "dans plusieurs domaines : la recherche, la publicité et",
+        "la production. Mais pour investir, cette entreprise doit",
+        "réaliser des bénéfices !",
+        "La vente des produits rapporte de l'argent à l'entreprise.",
+        "Une partie de ces gains est utilisée pour augmenter la",
+        "production, et l'augmentation de la production permet",
+        "de vendre plus !",
+        "Tous ces éléments dépendent donc les uns des autres."
+      ],
+      [
+        "Bien sûr, les ventes sont liées au contexte économique",
+        "de la région et à la concurrence exercée par les autres",
+        "entreprises. La concurrence en elle-même est bénéfique",
+        "pour les consommateurs puisqu'elle fait baisser les prix."
+      ]
+    ],
+    "cases": [
+      [
+        [
+          "Le monde a connu une crise économique relativement",
+          "importante au début des années 80. La plupart des",
+          "entreprises ont été touchées : leurs ventes ont diminué,",
+          "leurs capacités d'investissement aussi.",
+          "Les investissements possibles ont été réalisés surtout",
+          "dans le domaine de la recherche et du développement :",
+          "il fallait à tout prix être plus performant que l'entreprise",
+          "concurrente pour ne pas faire faillite."
+        ]
+      ],
+      [
+        [
+          "Les usines automobiles connaissent beaucoup de",
+          "difficultés aujourd'hui et leurs bénéfices diminuent.",
+          "Elles baissent leurs prix mais sont obligées de mettre",
+          "certains de leurs employés au chômage. Le plus grave",
+          "problème vient de la morosité du marché économique.",
+          "Les gens ne changent plus aussi souvent de véhicule",
+          "qu'il y a quelques années. De plus, la concurrence des",
+          "pays étrangers (le Japon notamment) est très forte, car",
+          "ils arrivent à fabriquer des véhicules de très bonne",
+          "qualité à des coûts très inférieurs à ceux des pays",
+          "européens."
+        ]
+      ],
+      [
+        [
+          "Les années 60 ont connu une formidable croissance",
+          "économique ! La plupart des investissements se faisaient",
+          "dans les domaines de la production et de la recherche.",
+          "La concurrence était encore très limitée concernant les",
+          "produits d'équipement (automobiles, électroménager).",
+          "La situation économique mondiale était excellente, ce",
+          "qui a largement profité aux entreprises mais aussi aux",
+          "consommateurs."
+        ]
+      ]
+    ]
+  }
 }

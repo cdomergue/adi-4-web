@@ -3158,8 +3158,8 @@
     },
     {
       "path": "public/game/documents/air/rules.json",
-      "size": 13101,
-      "sha256": "1ba9f655f0c5fd7775f5aa6df396c4c86b2af27862e1f6cabf5968c0508045fb"
+      "size": 21976,
+      "sha256": "77e35b0b6d3f8e48dd447d77df515583f5388e4f342ea3011593da416da69f4d"
     },
     {
       "path": "public/game/documents/air/simul16-palette.json",
@@ -5152,6 +5152,291 @@
       "sha256": "ea1f9f073dfd99311058c3d5ae2af2e129007af5e0cc6e5d7e5178e61c11c688"
     },
     {
+      "path": "public/game/documents/common/audio/sgagne.wav",
+      "size": 301476,
+      "sha256": "a829667cbd79fcde8a4163b0527b652fe562dd2643d552690bfade5ac432ee73"
+    },
+    {
+      "path": "public/game/documents/common/audio/srecpar1.wav",
+      "size": 260234,
+      "sha256": "36436af29f137bbe96232b0fda1014d77a2164139bdcddcdc61cfc6e93dd6302"
+    },
+    {
+      "path": "public/game/documents/common/audio/srecpar2.wav",
+      "size": 136754,
+      "sha256": "b8597bd0585fd0c0163421be251a69d856aad11ef8c2b3be809bccbff5ec4dd1"
+    },
+    {
+      "path": "public/game/documents/common/audio/srecpar3.wav",
+      "size": 123524,
+      "sha256": "d8a21a0d1f0014f9bc527366cc4b4515b6af1133b4c11e71b8033b22e883486f"
+    },
+    {
+      "path": "public/game/documents/common/fonts/adi0.webp",
+      "size": 2264,
+      "sha256": "6abc78ee1f7f52cd6f8298055882f7d60a8ea39aaaab4dcc1cbfeeac08bc00d2"
+    },
+    {
+      "path": "public/game/documents/common/fonts/adi0g.webp",
+      "size": 2564,
+      "sha256": "e23351a0c0a48abc2bf9fb50f685296c6c09fe7e84f320632d675c2356dec8a1"
+    },
+    {
+      "path": "public/game/documents/common/fonts/adi0i.webp",
+      "size": 2836,
+      "sha256": "bc983cd08e54c67061ad2ffaf17ba2c0418561bb5e43d17d1c5583a3b3e8c3f1"
+    },
+    {
+      "path": "public/game/documents/common/fonts/adi1.webp",
+      "size": 3338,
+      "sha256": "d2354ef643343a93ab8812fbd62dda862e566c8e341b67e75c351b5dea9d6cff"
+    },
+    {
+      "path": "public/game/documents/common/fonts/adi1g.webp",
+      "size": 3848,
+      "sha256": "15a582ab8d91e4c185b8b8eea5188eef0db138ff10f8b5937507370259cbfd74"
+    },
+    {
+      "path": "public/game/documents/common/fonts/adi1i.webp",
+      "size": 3492,
+      "sha256": "bdd31da8e9bccb69be2ece3c6832b8a717a0abf63457644314b938d89991d377"
+    },
+    {
+      "path": "public/game/documents/common/fonts/adi2.webp",
+      "size": 4770,
+      "sha256": "2b0f1f14e054e38f4ac382be7fab7d2061f0ec3324d511167828d2f7f178c3b6"
+    },
+    {
+      "path": "public/game/documents/common/fonts/adi2g.webp",
+      "size": 4196,
+      "sha256": "e0106feee3007c0601d5caa927a277d0a19c5a5d05382b6c1afe6da7fb4cb23c"
+    },
+    {
+      "path": "public/game/documents/common/fonts/adi2i.webp",
+      "size": 5226,
+      "sha256": "1f80042f5cb1104fb54038d7d5ba40a77f783e175f7f738df23c320e75cda89e"
+    },
+    {
+      "path": "public/game/documents/common/images/moteur-10.webp",
+      "size": 47058,
+      "sha256": "57afcbeb549fea5a09cc174bc01846930e9fe65f26bc91fab6e7e26edf095e44"
+    },
+    {
+      "path": "public/game/documents/common/images/moteur-11.webp",
+      "size": 11466,
+      "sha256": "8bfd76fae9043ea034437574abed18d47704d6699faf25ac3ea13737fc4678a0"
+    },
+    {
+      "path": "public/game/documents/common/images/moteur-12.webp",
+      "size": 4522,
+      "sha256": "e061ba202789dd67d7838455c3b30ba6c09541da42a58a2784c229152c9af60d"
+    },
+    {
+      "path": "public/game/documents/common/images/moteur-13.webp",
+      "size": 1146,
+      "sha256": "b0ec792521d610432d35fff1603d9dff6445b1719f0607bc7aa1aa2c8d649abe"
+    },
+    {
+      "path": "public/game/documents/common/images/moteur-14.webp",
+      "size": 1376,
+      "sha256": "b34a56398c0ff3c10ef5a21cce8260684a7af99d3d953538246f343da4efb471"
+    },
+    {
+      "path": "public/game/documents/common/images/moteur-15.webp",
+      "size": 1510,
+      "sha256": "f6e40a85b4f48b3a48d7bc51ece0b3021def510b1e7ad15004f0fdf6d8d2dc7e"
+    },
+    {
+      "path": "public/game/documents/common/images/moteur-16.webp",
+      "size": 872,
+      "sha256": "73ea0c6046afe04aec75f6f7d86fec49934dfe23016e5aeaf66f352b09cbf727"
+    },
+    {
+      "path": "public/game/documents/common/images/moteur-17.webp",
+      "size": 1056,
+      "sha256": "3af7b478dba6470780920cbfd06c3a05f6c4407294b1d2108d98ad3a55db9532"
+    },
+    {
+      "path": "public/game/documents/common/images/moteur-18.webp",
+      "size": 976,
+      "sha256": "534b524aa75434bdb5f764d830ebcdc2c550f4bfc524139f6f0c41a8e58765fe"
+    },
+    {
+      "path": "public/game/documents/common/images/moteur-19.webp",
+      "size": 796,
+      "sha256": "d2999e6415966f186566c44fee33e7ddb12d715b7b85f7ed6954b34d3dd6630c"
+    },
+    {
+      "path": "public/game/documents/common/images/moteur-20.webp",
+      "size": 992,
+      "sha256": "ab26fbffe176c7e6e4ac05bb812b9ac54ac1b8a467004ee3c387747b444065f0"
+    },
+    {
+      "path": "public/game/documents/common/images/moteur-21.webp",
+      "size": 1208,
+      "sha256": "f449bac31939fd54699985a68ed6c48230e34f09e0f83bd356ccf0830a199f3b"
+    },
+    {
+      "path": "public/game/documents/common/images/moteur-22.webp",
+      "size": 698,
+      "sha256": "dafab251c4f434fd036d7e03a4f38df01e88355fb18daef6542e2cd4a002d433"
+    },
+    {
+      "path": "public/game/documents/common/images/moteur-23.webp",
+      "size": 852,
+      "sha256": "8ea581fa80e495a5c1e295315ddf014be6e83cb0f7b16af674d882622d8a8fee"
+    },
+    {
+      "path": "public/game/documents/common/images/moteur-24.webp",
+      "size": 824,
+      "sha256": "c49628afa0c561a1b2f456f2fd966011b80f4c88fb9b7ac0d8a60b75607796c1"
+    },
+    {
+      "path": "public/game/documents/common/images/moteur-25.webp",
+      "size": 816,
+      "sha256": "32e7918d715355997cb63ff50000f3e465b4077d36cf4eab27a6d1b177509ad0"
+    },
+    {
+      "path": "public/game/documents/common/images/moteur-26.webp",
+      "size": 982,
+      "sha256": "0a1aeb93cefa4aa1752346b2f19a8c36a03feca346a8d8ddc42bbfd5a69baf53"
+    },
+    {
+      "path": "public/game/documents/common/images/moteur-27.webp",
+      "size": 834,
+      "sha256": "31f0d7a77c3d70b2711b833278a064538ffe22501a4fd1829804655930c615db"
+    },
+    {
+      "path": "public/game/documents/common/images/moteur-28.webp",
+      "size": 694,
+      "sha256": "4de79d1e44216720d459d84408084522665faa08c0e093fcb8fda22e7c04c0a2"
+    },
+    {
+      "path": "public/game/documents/common/images/moteur-29.webp",
+      "size": 770,
+      "sha256": "8dfd62ba6b141e50202cbdf1e0723a3de989a9ed60fe6445d88e1188c60258f8"
+    },
+    {
+      "path": "public/game/documents/common/images/moteur-3.webp",
+      "size": 31034,
+      "sha256": "1f25a0af3beb9abca96a5f33b7e9cd23211a823f0a1f96d8e3be769540c3fa3f"
+    },
+    {
+      "path": "public/game/documents/common/images/moteur-30.webp",
+      "size": 764,
+      "sha256": "050fe2f9dd411c40024fbcf7f20fb624b385eab8994777790505be3f67be867e"
+    },
+    {
+      "path": "public/game/documents/common/images/moteur-31.webp",
+      "size": 266,
+      "sha256": "d399842fab440cf3fb34ad72ebae798d559cd4bf347e6095c60edb676e22d580"
+    },
+    {
+      "path": "public/game/documents/common/images/moteur-32.webp",
+      "size": 224,
+      "sha256": "4d49a9df5a30dd5dba3680fb434dc7d34a0f8eabde6e0f17e12015509f308055"
+    },
+    {
+      "path": "public/game/documents/common/images/moteur-33.webp",
+      "size": 260,
+      "sha256": "44a787e58a3b33cbef84cd9b43e5aca99e803f2ca04bb7d338ea2d2dd5e8ca3f"
+    },
+    {
+      "path": "public/game/documents/common/images/moteur-34.webp",
+      "size": 252,
+      "sha256": "97404c7bcfcabebdca75241c85ee07ee076d9e02b2b34dd7e6e08c2cfdd86ef2"
+    },
+    {
+      "path": "public/game/documents/common/images/moteur-35.webp",
+      "size": 264,
+      "sha256": "9de8b4ff2121997a60658fc7b8f892a160cdae2a810a810aa8c3337c215f060c"
+    },
+    {
+      "path": "public/game/documents/common/images/moteur-36.webp",
+      "size": 308,
+      "sha256": "841f51ff4f1505f982c792cdf160230b2b9e213052c3f17608e9a66c21fa5606"
+    },
+    {
+      "path": "public/game/documents/common/images/moteur-37.webp",
+      "size": 252,
+      "sha256": "4cff1cd862788cefebb425d029e9050045cfe1bb9e04e83f2e23d4cf7de20616"
+    },
+    {
+      "path": "public/game/documents/common/images/moteur-38.webp",
+      "size": 288,
+      "sha256": "d73cf733aba77e5e6557fbfa6c686f72ce22218e45db68aae5b1b499cc7e0032"
+    },
+    {
+      "path": "public/game/documents/common/images/moteur-39.webp",
+      "size": 24762,
+      "sha256": "1afb58f5fa62f3d62fbf6f16dec4b739feb75c84765bae94c47a8a298b68a8e0"
+    },
+    {
+      "path": "public/game/documents/common/images/moteur-4.webp",
+      "size": 9900,
+      "sha256": "9b8269f80e96b58b9d9a77e829d0a5791786fb1ad456964288cf544301c80b76"
+    },
+    {
+      "path": "public/game/documents/common/images/moteur-40.webp",
+      "size": 1032,
+      "sha256": "84cf7a5eb5f6b32dc9adb749eb1a04047669303e1b82e6eb862dda8977aba04d"
+    },
+    {
+      "path": "public/game/documents/common/images/moteur-41.webp",
+      "size": 560,
+      "sha256": "e31ce5378eee50a59b5cdf4d81faaf02a083da8433db4fb6fc7b6b8cff8ce64c"
+    },
+    {
+      "path": "public/game/documents/common/images/moteur-42.webp",
+      "size": 470,
+      "sha256": "7fc1c001854ddbd36df9c30e34e150ac30e0db0506ef7383c2647a493e59b4d8"
+    },
+    {
+      "path": "public/game/documents/common/images/moteur-43.webp",
+      "size": 1236,
+      "sha256": "e8042eb706942368ad9ed193c1c6a54de6cacd7e1eb288abbb3c291e4e6d5258"
+    },
+    {
+      "path": "public/game/documents/common/images/moteur-5.webp",
+      "size": 178,
+      "sha256": "54e0f9de0b1ea0324a3d53140565597efd466cdcaf6c66f66e0a8600fc32adff"
+    },
+    {
+      "path": "public/game/documents/common/images/moteur-6.webp",
+      "size": 178,
+      "sha256": "ae879fefb80fe94121e982512e950e04e417a80a54f77718f75ce77d333d8155"
+    },
+    {
+      "path": "public/game/documents/common/images/moteur-7.webp",
+      "size": 508,
+      "sha256": "7dd66112c20d7b3060e5bd6442d9f7efe4a4629dd48ca0b6060f7e0290183557"
+    },
+    {
+      "path": "public/game/documents/common/images/moteur-8.webp",
+      "size": 10176,
+      "sha256": "e2809cb2d879375f677333769552f2313cb25ab474788f410aa6197762a7a455"
+    },
+    {
+      "path": "public/game/documents/common/images/moteur-9.webp",
+      "size": 19342,
+      "sha256": "faadf67dd2e7ebeb863e9b52bfe25ef28e11ba62c15a6d3cd829680054722e89"
+    },
+    {
+      "path": "public/game/documents/common/images/sgagne-frames-0.webp",
+      "size": 43556,
+      "sha256": "7460921384400383a18f7a815ae1549a7152ebe073c50be67e3a17ddfe84dad0"
+    },
+    {
+      "path": "public/game/documents/common/images/sgagne-frames-1.webp",
+      "size": 33614,
+      "sha256": "873da1ab3d0ab645f020f72bb25b5a1afacc9364d1dbe3e934c5cd1477f27191"
+    },
+    {
+      "path": "public/game/documents/common/ui.json",
+      "size": 771622,
+      "sha256": "fbe1bbc3e753f1f22555b568fcef9745ae36554cd30192c38677324a4a09dd74"
+    },
+    {
       "path": "public/game/documents/company/assets.json",
       "size": 62921,
       "sha256": "2748fc960ffeb946efbfd7cf404fd304bfc99a5d9a0458f6f244ada6323b23d9"
@@ -6128,8 +6413,8 @@
     },
     {
       "path": "public/game/documents/company/rules.json",
-      "size": 23893,
-      "sha256": "3773c457d282b3493ece25d844c82e02daa442f2512e756db813c1a01c2ba485"
+      "size": 32940,
+      "sha256": "7f1661fa76733eccedc559e08ff4b202ef139073819df29bbd30100769ca91d2"
     },
     {
       "path": "public/game/documents/company/simul12-palette.json",
@@ -6773,8 +7058,8 @@
     },
     {
       "path": "public/game/documents/desert/rules.json",
-      "size": 13641,
-      "sha256": "6287c6c1fd51737fd45b3f0da257b0e6d0260c2a950861497a1263fb2abe1880"
+      "size": 23161,
+      "sha256": "d253cb64b00cbe44aebed1f67f00cd289fe12ec7ef54ad19872e729461ca5a55"
     },
     {
       "path": "public/game/documents/desert/simul14-palette.json",
@@ -6783,8 +7068,8 @@
     },
     {
       "path": "public/game/documents/development/assets.json",
-      "size": 66464,
-      "sha256": "82b0435bb9a70e331dee0634cc967115bb6e673066f1779b0b01b4d670a78f8d"
+      "size": 66524,
+      "sha256": "e564ec7cf273726b43fbffb6d40b1a110fe28bce68c61a311a70a971800f9d24"
     },
     {
       "path": "public/game/documents/development/audio/a_mus08.wav",
@@ -7015,26 +7300,6 @@
       "path": "public/game/documents/development/audio/sbru168.wav",
       "size": 75048,
       "sha256": "a6f32fd42d43ae2048d0df7e2736937e11fda059fa2184dc4348b062d30b3f50"
-    },
-    {
-      "path": "public/game/documents/development/audio/sgagne.wav",
-      "size": 301476,
-      "sha256": "a829667cbd79fcde8a4163b0527b652fe562dd2643d552690bfade5ac432ee73"
-    },
-    {
-      "path": "public/game/documents/development/audio/srecpar1.wav",
-      "size": 260234,
-      "sha256": "36436af29f137bbe96232b0fda1014d77a2164139bdcddcdc61cfc6e93dd6302"
-    },
-    {
-      "path": "public/game/documents/development/audio/srecpar2.wav",
-      "size": 136754,
-      "sha256": "b8597bd0585fd0c0163421be251a69d856aad11ef8c2b3be809bccbff5ec4dd1"
-    },
-    {
-      "path": "public/game/documents/development/audio/srecpar3.wav",
-      "size": 123524,
-      "sha256": "d8a21a0d1f0014f9bc527366cc4b4515b6af1133b4c11e71b8033b22e883486f"
     },
     {
       "path": "public/game/documents/development/images/choice-panel.webp",
@@ -7777,16 +8042,6 @@
       "sha256": "b27f991d80c3e47e7bd1182fe3189a51c3782715972efce8a10434c911dc1f89"
     },
     {
-      "path": "public/game/documents/development/images/sgagne-frames-0.webp",
-      "size": 43556,
-      "sha256": "7460921384400383a18f7a815ae1549a7152ebe073c50be67e3a17ddfe84dad0"
-    },
-    {
-      "path": "public/game/documents/development/images/sgagne-frames-1.webp",
-      "size": 33614,
-      "sha256": "873da1ab3d0ab645f020f72bb25b5a1afacc9364d1dbe3e934c5cd1477f27191"
-    },
-    {
       "path": "public/game/documents/development/images/simul08-background.webp",
       "size": 90708,
       "sha256": "6c7585b4a30b77f9a5970f39b3682e609e1d83a0e87b68eb06950afaa8360e76"
@@ -7818,8 +8073,8 @@
     },
     {
       "path": "public/game/documents/development/rules.json",
-      "size": 17808,
-      "sha256": "cdb9c98aa9317917b6515c2d3f0b990e17e85459a4a85e839a697443ff3376b5"
+      "size": 31441,
+      "sha256": "735b64a06903abb043bf04533387201bae48982e341b5f3c29583d4ffb822a58"
     },
     {
       "path": "public/game/documents/development/simul08-palette.json",
@@ -8733,8 +8988,8 @@
     },
     {
       "path": "public/game/documents/ecosystem/rules.json",
-      "size": 14452,
-      "sha256": "f13ade90d19307937d94dac6c283932b78d8c5552169e10686403924de00845e"
+      "size": 24770,
+      "sha256": "94ecb5ce5b1a620c7701a76ed5507dfa8d92620e1fd06320afeb85c732b2d07c"
     },
     {
       "path": "public/game/documents/ecosystem/simul07-palette.json",
@@ -11523,8 +11778,8 @@
     },
     {
       "path": "public/game/documents/water/rules.json",
-      "size": 13790,
-      "sha256": "a8414cf923d5f9fa5ac6b8023246b518b525446c4fe7e9258c7d53daf20a5f8f"
+      "size": 25979,
+      "sha256": "893c30fd2af3ec888c75d64af31aa250516c6700bf480c8725b241938ff531bc"
     },
     {
       "path": "public/game/documents/water/simul17-palette.json",

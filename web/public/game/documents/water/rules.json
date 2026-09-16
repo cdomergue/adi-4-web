@@ -504,5 +504,329 @@
       "SBRU082",
       "SBRU083"
     ]
-  ]
+  ],
+  "idleModes": [
+    0,
+    4,
+    1,
+    0,
+    4,
+    4,
+    4,
+    4,
+    1,
+    1
+  ],
+  "idleEnabled": [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1
+  ],
+  "hideBaseDuringIdle": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "ambientCount": 6,
+  "priorities": {
+    "objects": [
+      101,
+      102,
+      104,
+      104,
+      101,
+      101,
+      102,
+      105,
+      106,
+      109
+    ],
+    "idle": [
+      100,
+      103,
+      105,
+      104,
+      101,
+      110,
+      103,
+      105,
+      106,
+      109
+    ],
+    "ambient": [
+      112,
+      112,
+      112,
+      112,
+      112,
+      112
+    ]
+  },
+  "textLayout": {
+    "caseBriefs": [
+      [
+        "En Chine coulent les plus grands fleuves du monde.",
+        "Mais ces fleuves transportent aussi d'innombrables",
+        "déchets, surtout dans les régions très industrielles",
+        "où il n'existe pas de stations de traitement des eaux."
+      ],
+      [
+        "Les plages de la côte d'Azur sont celles qui attirent",
+        "le plus de touristes, car la France a mis en place",
+        "une politique écologique stricte et ses plages sont",
+        "propres."
+      ],
+      [
+        "Il existe de nombreux endroits où il ne faut pas boire",
+        "d'eau autrement qu'en bouteille. Dans les pays en",
+        "développement, la pollution de l'eau est fréquente,",
+        "même si l'industrie reste artisanale et si l'agriculture",
+        "est en grande partie vivrière."
+      ]
+    ],
+    "explanations": [
+      [
+        "La concentration des hommes dans une ville entraîne",
+        "une accumulation des déchets de toutes sortes : papiers,",
+        "emballages, nourritures avariées ou carrosseries de",
+        "voiture. Surtout dans les mégalopoles qui sont des villes",
+        "immenses comptant plus de 9 millions d'habitants."
+      ],
+      [
+        "Les industries sont polluantes : fumées, rejets de",
+        "produits plus ou moins toxiques... De plus en plus,",
+        "les gouvernements imposent des normes et des lois",
+        "pour limiter la pollution des industries."
+      ],
+      [
+        "Les stations d'épuration permettent de limiter la quantité de déchets",
+        "industriels et urbains qui vont se retrouver dans l'eau de nos rivières et",
+        "de nos mers. Elles filtrent les eaux sales et ne rejettent que des eaux",
+        "propres. Mais elles n'existent malheureusement pas partout."
+      ],
+      [
+        "Les hommes se rendent compte de l'importance de leur environnement.",
+        "Ils mettent en place des \"politiques écologiques\" : ni les industries, ni les",
+        "particuliers ne sont libres de jeter leurs déchets où bon leur semble.",
+        "Mais l'écologie a un coût et tout le monde ne respecte pas les lois."
+      ],
+      [
+        "L'agriculture peut être source de pollution. Les cultivateurs utilisent de",
+        "plus en plus de produits chimiques, comme les pesticides ou les",
+        "désherbants, pour améliorer leur production. L'eau de pluie entraîne ces",
+        "éléments vers les rivières et les mers. La flore et la faune ne leur résistent",
+        "pas toujours."
+      ],
+      [
+        "Les plages sont des milieux fragiles. Elles sont aujourd'hui entretenues",
+        "dans la plupart des pays car elles attirent de plus en plus de touristes",
+        "producteurs de richesse économique. Et les touristes sont très sensibles",
+        "aux papiers gras qui traînent sur nos plages."
+      ],
+      [
+        "Les pétroliers ne sont pas seulement dangereux pour nos mers à cause",
+        "des catastrophiques marées noires qu'ils causent lorsqu'ils s'échouent.",
+        "Ils ont besoin d'être \"dégazés\" : les citernes et les soutes sont nettoyées",
+        "des traces d'hydrocarbure. Si ce nettoyage se fait en pleine mer, ce qui",
+        "est interdit, les polluants se retrouvent...",
+        "à l'eau !"
+      ],
+      [
+        "La concentration des déchets industriels et urbains se fait souvent dans",
+        "des décharges en pleine nature. On accumule les détritus dans un lieu, et",
+        "on attend que la nature les transforme et les fasse disparaître. Mais",
+        "certains déchets produisent des éléments toxiques que l'eau de pluie",
+        "entraîne vers la mer."
+      ],
+      [
+        "S'il n'y a pas de station d'épuration, les eaux sales produites par les",
+        "citadins ou par les industries sont rejetées directement dans les rivières.",
+        "Qui n'a pas vu la bouche d'égout rejeter ses eaux noirâtres dans une",
+        "rivière ? Il reste encore beaucoup de chemin à faire avant que les égouts ne",
+        "soient équipés de filtres."
+      ],
+      [
+        "Rejeter des déchets ou des eaux sales dans une rivière ou un fleuve a des",
+        "conséquences même sur des lieux éloignés : la rivière entraîne ces détritus",
+        "dans les fleuves qui eux-même les transportent à la mer. A ces éléments",
+        "polluants s'ajoutent les déchets laissés sur les plages et les hydrocarbu-",
+        "res déversés par les pétroliers."
+      ]
+    ],
+    "hints": [
+      [
+        [
+          "Les villes de Chine sont très grandes : Shanghaï",
+          "est peuplée de plus de 13 millions d'habitants."
+        ],
+        [
+          "Toutes les régions de Chine ne sont pas aussi industrialisées, mais les",
+          "villes situées le long du fleuve Yang-Tsé disposent d'immenses zones",
+          "industrielles."
+        ],
+        [
+          "Les stations d'épuration sont peu nombreuses en Chine. Les eaux sales",
+          "sont rejetées directement dans les rivières et les fleuves."
+        ],
+        [
+          "Malheureusement, il n'existe pas encore de politique écologique en Chine."
+        ],
+        [
+          "L'agriculture chinoise s'est développée autour du riz. Cette plante",
+          "demande des soins constants et est cultivée de façon très intensive."
+        ],
+        [
+          "Les plages de la mer de Chine sont très polluées",
+          "car les grandes villes littorales, comme Shanghaï,",
+          "ont développé des zones industrielles immenses."
+        ],
+        [
+          "Le trafic maritime est très dense dans l'océan Pacifique",
+          "et les pétroliers sont souvent nettoyés en pleine mer."
+        ]
+      ],
+      [
+        [
+          "En France, aucune ville n'est devenue une mégalopole,",
+          "même si Paris et sa banlieue s'en rapprochent."
+        ],
+        [
+          "Les activités industrielles sont très développées",
+          "en France depuis le XIXème siècle."
+        ],
+        [
+          "Les stations d'épuration sont de plus en plus courantes en France,",
+          "surtout dans les régions industrielles et sur les littoraux."
+        ],
+        [
+          "La France a mis en place une politique écologique pour préserver",
+          "l'environnement : plus question de jeter ses déchets n'importe où !"
+        ],
+        [
+          "L'agriculture française est très intensive. Les agriculteurs sont",
+          "conscients des problèmes de pollution et adoptent des mesures",
+          "visant à la limiter."
+        ],
+        [
+          "Les plages sont très surveillées en France, car elles attirent",
+          "de nombreux touristes. Le taux de pollution de chaque plage",
+          "est affichée à la mairie et les contrôles sont quotidiens."
+        ],
+        [
+          "Il est interdit de nettoyer les pétroliers en pleine mer ;",
+          "les pétroliers sont nettoyés dans des cales spéciales."
+        ]
+      ],
+      [
+        [
+          "Il n'existe pas de mégalopole dans la partie sous-développée de l'Afrique,",
+          "mais il existe des villes de grande taille. Cependant la majorité de la",
+          "population vit dans les zones rurales, donc dans les villages."
+        ],
+        [
+          "Sauf dans les villes de plus grande taille où certaines industries sont bien",
+          "développées, les activités industrielles sont encore largement artisanales."
+        ],
+        [
+          "Les pays africains n'ont pas les moyens de construire",
+          "des stations d'épuration. L'eau est polluées par le bétail",
+          "en brousse et par les hommes en ville."
+        ],
+        [
+          "Il n'existe pas de politique écologique dans les pays africains.",
+          "Mais la pollution n'est pas aussi importante, ni du même type,",
+          "que dans les pays développés."
+        ],
+        [
+          "L'agriculture n'est pas destinée à l'exportation vers",
+          "les pays étrangers : c'est une agriculture vivrière."
+        ],
+        [
+          "Les plages ne sont pas polluées pour les même raisons que dans",
+          "les pays développés. Néanmoins, les gens y laissent leurs déchets."
+        ],
+        [
+          "Certains pétroliers sont nettoyés à proximité du littoral",
+          "africain, mais la pollution qu'ils provoquent est limitée."
+        ]
+      ]
+    ],
+    "introduction": [
+      [
+        "La pollution de l'eau augmente en même temps que",
+        "l'accroissement des villes et des industries. Les déchets",
+        "que nous fabriquons sont rejetés à la mer parce qu'elle",
+        "nous paraît immense, mais elle ne peut absorber tout ce",
+        "que nous y jetons. De plus en plus de produits ne sont pas",
+        "biodégradables et ne disparaîtront pas avant des siècles",
+        "Les Hommes commencent à s'apercevoir que la nature",
+        "a des limites et qu'ils ont besoin d'elle pour vivre."
+      ],
+      [
+        "Les premiers à subir les conséquences de l'inconscience",
+        "des Hommes sont les animaux marins et les plantes : si",
+        "tu veux voir un jour les baleines blanches du golfe du",
+        "Saint-Laurent, il faut cesser dès maintenant de polluer",
+        "les fleuves et les océans."
+      ]
+    ],
+    "cases": [
+      [
+        [
+          "La Chine n'appartient plus aux pays en voie de",
+          "développement mais elle ne peut pas encore être",
+          "considérée comme faisant parti des pays développés.",
+          "Le fait qu'elle n'ait pas encore mis en place de politique",
+          "de préservation de l'environnement est un facteur de",
+          "sous-développement. Les villes industrielles, comme",
+          "Wuhan, située sur le fleuve Yang-Tsé rejettent leurs",
+          "déchets directement dans le fleuve. Les habitants",
+          "eux-mêmes n'hésitent pas à jeter dans l'eau toutes les",
+          "ordures qui les encombrent !"
+        ]
+      ],
+      [
+        [
+          "Les gouvernements français successifs ont mis en place",
+          "des moyens de protection du littoral : par exemple il est",
+          "interdit de rejeter les ordures à la mer ; les déchets",
+          "industriels sont traités dans les stations d'épuration qui",
+          "rejettent des eaux propres.",
+          "Les plages sont classées et les municipalités doivent",
+          "tenir les habitants et les touristes au courant de l'état",
+          "des plages : le taux de pollution de l'eau est signalé à la",
+          "mairie et un drapeau flotte sur la plage. Sa couleur",
+          "indique l'état de propreté du littoral."
+        ]
+      ],
+      [
+        [
+          "Si tu voyages en Afrique, il vaut mieux ne pas boire",
+          "l'eau, ni celle qui coule au robinet, ni celle des rivières ;",
+          "tu pourrais attrapper bien des maladies. Dans les villes,",
+          "les canaux souterrains dans lesquels l'eau circule jusqu'au",
+          "robinet, sont souvent mal entretenus.",
+          "Les rivières qui traversent les villes sont le lieu où l'on",
+          "fait la lessive, où l'on se lave parfois et surtout où l'on",
+          "jette les déchets de toutes sortes. Même les rivières qui",
+          "coulent en brousse sont polluées par les déjections du",
+          "bétail."
+        ]
+      ]
+    ]
+  }
 }

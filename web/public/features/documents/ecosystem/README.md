@@ -45,7 +45,11 @@ stabilise le décor et interrompt ses sons.
 
 ## Limites
 
-Les fenêtres utilisent du texte HTML. Les textes pédagogiques sont ceux de
-l’édition originale. La cadence des animations d’ambiance utilise une
-temporisation web. La session n’est pas sauvegardée. La sortie du document
-arrête les médias, les animations et les observateurs.
+Les panneaux de réglage, de modes et de situations utilisent les images,
+la palette originales, avec du texte net rendu par le navigateur. Un choix est appliqué avec le pouce ;
+l’aide conserve la sélection en attente. Les présentations respectent les pages
+des textes source. Les textes décrivent la période de l’édition originale.
+Les boucles et réactions d’ambiance utilisent les modes et priorités du script
+dans l’[ordonnanceur commun](../environment-atmosphere.js). La cadence dépend
+du navigateur ; les transitions des fenêtres et du retour aux documents restent
+immédiates. Les réglages sont propres à la consultation en cours.

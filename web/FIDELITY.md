@@ -6,6 +6,10 @@ Les choix de réalisation doivent respecter les règles, les interactions, les
 images et les sons observés dans le jeu, même lorsqu’ils exigent une analyse
 supplémentaire de ses scripts ou de son exécutable.
 
+Les textes des panneaux utilisent une police lissée par le navigateur. Cette
+exception de lisibilité conserve les formulations, couleurs, positions et
+illustrations originales.
+
 ## Vérification attendue
 
 Chaque écran se compare au jeu original : état initial, zones de clic, sélection
@@ -18,16 +22,18 @@ les différences ; les limites connues restent explicites tant qu’elles existe
 
 ## Finitions requises des documents
 
-- Restituer les polices, les icônes, la disposition et la pagination des fenêtres
-  et panneaux qui utilisent encore une présentation HTML adaptée.
+- Comparer les fenêtres de présentation et leurs transitions intermédiaires.
+  Les panneaux de réglage, de modes, de situations et d’aide des simulations
+  utilisent les images, la palette originales, avec du texte net rendu par le navigateur.
 - Vérifier pour chaque document les temporisations d’ambiance, leurs conditions,
   leur interruption, l’ordre des calques et la synchronisation des sons.
-- Vérifier les sélections, aperçus, validations et annulations de chaque panneau
+- Vérifier les sélections, validations et annulations de chaque panneau
   par comparaison avec les interactions originales.
-- Compléter les mouvements d’ambiance des dossiers multimédias et les transitions
-  signalées dans les [fonctions et limites](README.md#les-documents).
-- Préciser et restituer le comportement de conservation des sessions de l’Atlas
-  et des simulations après comparaison avec le jeu original.
+- Comparer les mouvements d’ambiance aux séquences originales dans chaque
+  saison et chaque direction de l’astronomie, y compris leur interruption.
+- Vérifier les limites de session des simulations après retour aux documents.
+  L’Atlas mémorise le passage de sa présentation automatique, tandis que ses
+  réglages de navigation restent propres à la consultation.
 
 Les comportements propres à chaque document sont décrits dans leurs références :
 [pollution de l’air](public/features/documents/air/README.md),

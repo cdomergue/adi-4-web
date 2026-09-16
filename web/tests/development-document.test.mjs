@@ -11,7 +11,7 @@ import {
   hitTest,
   matchesCase,
 } from '../public/features/documents/development/engine.js';
-import { createAtmosphere } from '../public/features/documents/development/animation.js';
+import { createEnvironmentAtmosphere } from '../public/features/documents/environment-atmosphere.js';
 const base = new URL('../public/game/documents/development/', import.meta.url);
 const data = JSON.parse(await readFile(new URL('rules.json', base)));
 const assets = JSON.parse(await readFile(new URL('assets.json', base)));
@@ -102,17 +102,19 @@ test('The nine markers and the six landscape controls match original coordinates
 
 test('Ambient selection preserves the script’s silent slots, no-repeat rule and layer order', () => {
   for (let draw = 0; draw < 8; draw++) {
-    const frame = createAtmosphere(assets, () => draw / 8).tick();
+    const frame = createEnvironmentAtmosphere(data, assets, 'S08', () => draw / 8).tick(
+      data.initialStates,
+    );
     if (draw <= 2) assert.equal(frame.ambient, null);
     else assert.equal(frame.ambient.resource, assets.ambientReactions[`S08_${8 - draw}H`]);
   }
   const sequence = [3 / 8, 3 / 8, 0, 7 / 8, 0];
-  const clock = createAtmosphere(assets, () => sequence.shift() ?? 0);
-  assert.equal(clock.tick().ambient.resource, assets.ambientReactions.S08_5H);
+  const clock = createEnvironmentAtmosphere(data, assets, 'S08', () => sequence.shift() ?? 0);
+  assert.equal(clock.tick(data.initialStates).ambient.resource, assets.ambientReactions.S08_5H);
   let next;
-  for (let i = 1; i <= 251; i++) next = clock.tick();
+  for (let i = 1; i <= 251; i++) next = clock.tick(data.initialStates);
   assert.equal(next.ambient, null);
-  for (let i = 252; i <= 502; i++) next = clock.tick();
+  for (let i = 252; i <= 502; i++) next = clock.tick(data.initialStates);
   assert.equal(next.ambient.resource, assets.ambientReactions.S08_1H);
   assert.equal(next.ambient.frame, 0);
   assert.deepEqual(data.idleEnabled, [0, 0, 0, 0, 0, 1, 0, 0, 1]);

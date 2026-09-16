@@ -1,4 +1,13 @@
-import { createAtlas, dimensions, pan, zoom, visibleMedia, selectTopic } from './engine.js';
+import {
+  createAtlas,
+  dimensions,
+  introductionSeen,
+  markIntroductionSeen,
+  pan,
+  selectTopic,
+  visibleMedia,
+  zoom,
+} from './engine.js';
 import { escapeHtml } from '../../../shared/text.js';
 
 const base = '/game/documents/atlas/';
@@ -13,6 +22,13 @@ const controls = [
   ['move', 'Déplacer la barre', 244, 0, 44, 44],
 ];
 const icons = { 1: 1, 2: 1, 3: 103, 4: 52, 5: 52, 6: 52, 7: 103, 8: 256 };
+const browserStorage = () => {
+  try {
+    return globalThis.localStorage;
+  } catch {
+    return null;
+  }
+};
 
 export async function renderAtlas(main) {
   document.title = 'L’Atlas · ADI 4';
@@ -23,13 +39,14 @@ export async function renderAtlas(main) {
   let leaving = false,
     state = createAtlas(),
     drawSerial = 0,
-    toolbar = { x: 300, y: 350 },
+    toolbar = { x: 300, y: 200 },
     mode = '',
     menu = '',
     legend = false,
     sound = true,
     player = null,
-    lastFocus = null;
+    lastFocus = null,
+    introSeen = introductionSeen(browserStorage());
   const imageCache = new Map();
   function stopSound() {
     if (player) {
@@ -112,6 +129,10 @@ export async function renderAtlas(main) {
     function positionTools() {
       tools.style.left = `${toolbar.x}px`;
       tools.style.top = `${toolbar.y}px`;
+      // N_SMAP is anchored 58 px to the right and 110 px above NAVIGA4.
+      // Keeping this relation also makes the planisphère follow its handle.
+      minimap.style.left = `${toolbar.x + 58}px`;
+      minimap.style.top = `${toolbar.y - 110}px`;
     }
     positionTools();
     function dialogBody(title, html) {
@@ -261,6 +282,11 @@ export async function renderAtlas(main) {
       }
     }
     function change(next) {
+      if (state.level === 3 && next.level === 4 && !introSeen) {
+        introSeen = true;
+        markIntroductionSeen(browserStorage());
+        speak('N_PR');
+      }
       state = next;
       void draw();
     }
@@ -275,7 +301,7 @@ export async function renderAtlas(main) {
       }
       if (id === 'globe') {
         mode = '';
-        state = { ...state, level: 3 };
+        state = { ...state, level: 3, rotation: 0 };
       }
       if (id === 'maps' || id === 'layers') menu = menu === id ? '' : id;
       if (id === 'legend') legend = !legend;
@@ -341,7 +367,7 @@ export async function renderAtlas(main) {
       };
     };
     on(minimap.querySelector('button'), 'click', (e) => {
-      const r = minimap.getBoundingClientRect();
+      const r = e.currentTarget.getBoundingClientRect();
       change(
         pan(
           { ...state, x: 0, y: 0 },

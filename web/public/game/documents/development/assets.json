@@ -2825,13 +2825,13 @@
         43
       ],
       "src": [
-        "images/sgagne-frames-0.webp",
-        "images/sgagne-frames-1.webp"
+        "../common/images/sgagne-frames-0.webp",
+        "../common/images/sgagne-frames-1.webp"
       ],
       "format": "vertical-sprite-sheet-pages",
       "frameHeight": 340,
       "framesPerSheet": 48,
-      "audio": "audio/sgagne.wav",
+      "audio": "../common/audio/sgagne.wav",
       "duration": 6.835192743764172
     },
     "SRECPAR1": {
@@ -2844,7 +2844,7 @@
         0,
         0
       ],
-      "audio": "audio/srecpar1.wav",
+      "audio": "../common/audio/srecpar1.wav",
       "duration": 5.9
     },
     "SRECPAR2": {
@@ -2857,7 +2857,7 @@
         0,
         0
       ],
-      "audio": "audio/srecpar2.wav",
+      "audio": "../common/audio/srecpar2.wav",
       "duration": 3.1
     },
     "SRECPAR3": {
@@ -2870,7 +2870,7 @@
         0,
         0
       ],
-      "audio": "audio/srecpar3.wav",
+      "audio": "../common/audio/srecpar3.wav",
       "duration": 2.8
     }
   }

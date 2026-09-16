@@ -1,4 +1,6 @@
 import { escapeHtml as esc } from '../../shared/text.js';
+import { feedbackName } from './environment-feedback.js';
+import { createEnvironmentAtmosphere } from './environment-atmosphere.js';
 import { spriteFrame, clipDuration } from './environment-animation.js';
 
 const position = ([x, y, w, h]) => `left:${x}px;top:${y}px;width:${w}px;height:${h}px`;
@@ -36,9 +38,7 @@ export async function renderEnvironment(main, config) {
     caseIndex = 0,
     busy = false;
   let explanation = null,
-    explanationQueue = [],
-    ambientReaction = null,
-    nextReaction = 0;
+    explanationQueue = [];
   const images = new Map(),
     effectPlayers = new Map(),
     idleCycles = new Map();
@@ -134,9 +134,67 @@ export async function renderEnvironment(main, config) {
     player.play().catch(() => {});
   }
   try {
-    const [data, assets] = await Promise.all([json('rules.json'), json('assets.json')]);
+    const [data, assets, common] = await Promise.all([
+      json('rules.json'),
+      json('assets.json'),
+      json('../common/ui.json'),
+    ]);
+    const commonPath = (src) => (Array.isArray(src) ? src.map(commonPath) : `../common/${src}`);
+    assets.validation = Object.fromEntries(
+      Object.entries(common.validation).map(([name, clip]) => [
+        name,
+        {
+          ...clip,
+          src: clip.src ? commonPath(clip.src) : undefined,
+          audio: commonPath(clip.audio),
+        },
+      ]),
+    );
+    const uiSource = (id) =>
+      commonPath(common.images[id].paletteVariants?.[`${prefix}_0I00`] || common.images[id].src);
+    await image(uiSource('4'));
+    const borderSheet = await image(uiSource('43'));
+    // Browser text stays sharp when the original 640 × 480 panels are scaled.
+    const textMeasure = document.createElement('canvas').getContext('2d');
+    const typeface = (font) => ({
+      size: font === 'heading' ? 19 : 14,
+      weight: font === 'body' ? 400 : 600,
+    });
+    function measureText(text, font) {
+      const { size, weight } = typeface(font);
+      textMeasure.font = `${weight} ${size}px Arial, sans-serif`;
+      return textMeasure.measureText(text).width;
+    }
+    function writeText(element, text, width, font = 'label', color = 0, align = 'center', lineHeight) {
+      const { size, weight } = typeface(font);
+      const span = document.createElement('span');
+      span.className = 'environment-text';
+      span.textContent = text;
+      const singleLine = element.matches('button[data-option], button[data-case]');
+      const fontSize = singleLine
+        ? Math.min(size, size * (width - 28) / Math.max(1, measureText(text, font)))
+        : size;
+      const leading = Math.max(fontSize + 2, lineHeight ?? (font === 'heading' ? 24 : 20));
+      span.style.cssText = `width:${width}px;font-size:${fontSize}px;font-weight:${weight};line-height:${leading}px;text-align:${align};color:rgb(${common.palette.rgb[color].join(',')})`;
+      // Keep the source line breaks; measure only additional wraps for the help frame.
+      const lines = [];
+      for (const paragraph of text.split('\n')) {
+        let current = '';
+        for (const word of paragraph.split(/\s+/)) {
+          const candidate = current ? `${current} ${word}` : word;
+          if (current && measureText(candidate, font) > width) {
+            lines.push(current);
+            current = word;
+          } else current = candidate;
+        }
+        lines.push(current);
+      }
+      element.setAttribute('aria-label', text.replace(/\s+/g, ' ').trim());
+      element.replaceChildren(span);
+      return { lines };
+    }
     const inputCount = data.inputCount ?? 4;
-    const atmosphere = config.createAtmosphere?.(assets);
+    const atmosphere = createEnvironmentAtmosphere(data, assets, prefix);
     const markers = [
       ...data.markers.map((box, element) => ({ box, element })),
       ...(data.extraMarkers || []),
@@ -165,7 +223,7 @@ export async function renderEnvironment(main, config) {
       'beforeend',
       `
       <div class="environment-actions"><label><input type="checkbox" data-sound checked> Son</label><button data-action="intro">Présentation</button><button data-action="modes">Mode d’étude</button><button data-action="understand">Comprendre</button><button data-action="reset">Recommencer</button><button data-action="stop">Arrêter</button><button data-action="fullscreen">Plein écran</button></div>
-      <div class="environment-frame"><div class="environment-stage" tabindex="0" aria-label="${esc(config.title)}, décor interactif"><canvas width="640" height="480" aria-label="${esc(config.sceneDescription)}"></canvas><div class="environment-title"></div><div class="environment-markers" style="--environment-help:url('${base + assets.ui['30001'].colorSrc}')">${markers.map(({ box, element: i }) => (box[2] > 0 && box[3] > 0 ? `<button data-element="${i}" style="${position(box)}" aria-label="${esc(data.labels[i])}" title="${esc(data.labels[i])}">↔</button>` : '')).join('')}</div>
+      <div class="environment-frame"><div class="environment-stage" tabindex="0" aria-label="${esc(config.title)}, décor interactif"><canvas width="640" height="480" aria-label="${esc(config.sceneDescription)}"></canvas><div class="environment-top-edge"></div><div class="environment-title"></div><div class="environment-markers" style="--environment-help:url('${base + assets.ui['30001'].colorSrc}')">${markers.map(({ box, element: i }) => (box[2] > 0 && box[3] > 0 ? `<button data-element="${i}" style="${position(box)}" aria-label="${esc(data.labels[i])}" title="${esc(data.labels[i])}">↔</button>` : '')).join('')}</div>
       <div class="environment-popup" style="background-image:url('${base + assets.nativeUi.choicePanel.colorSrc}')" role="dialog" aria-label="Choix du réglage" hidden></div>
       <div class="environment-bottom-edge"></div><nav class="environment-bottom" style="background-image:url('${base + assets.nativeUi.bottomBar.src}')" aria-label="Commandes du document">${[
         ['BAFLE', 'sound', 'Son', 44, 132],
@@ -193,50 +251,81 @@ export async function renderEnvironment(main, config) {
       popup = root.querySelector('.environment-popup'),
       status = root.querySelector('.environment-status'),
       dialog = root.querySelector('dialog');
+    stage.append(dialog);
     popup.classList.toggle('environment-confirm-choice', Boolean(config.confirmChoices));
     const resize = new ResizeObserver(() => {
       stage.style.transform = `scale(${frame.clientWidth / 640})`;
     });
     resize.observe(frame);
     lifetime.signal.addEventListener('abort', () => resize.disconnect(), { once: true });
-    let focusBeforeDialog;
+    let focusBeforeDialog, focusBeforePopup;
     function closeDialog() {
+      if (!dialog.open) return;
       dialog.close();
       stopVoice();
       focusBeforeDialog?.focus();
     }
     function showDialog(title, content) {
+      closeHelp();
       closePopup();
       stopExplanation();
       stopVoice();
       stopEffects();
       focusBeforeDialog = document.activeElement;
+      dialog.className = 'environment-dialog';
+      dialog.querySelector('h2').removeAttribute('aria-label');
       dialog.querySelector('h2').textContent = title;
       dialog.querySelector('.environment-dialog-body').innerHTML = content;
-      if (!dialog.open) dialog.showModal();
+      if (!dialog.open) dialog.show();
+      dialog.querySelector('button')?.focus();
     }
+    const sheet = document.createElement('div');
+    sheet.className = 'environment-dialog-sheet';
+    sheet.append(...dialog.childNodes);
+    dialog.append(sheet);
+    dialog.style.setProperty('--control-sheet', `url("${base + uiSource('4')}")`);
+    on(dialog, 'click', (event) => {
+      if (event.target === dialog) closeDialog();
+    });
     on(dialog.querySelector('[data-close]'), 'click', closeDialog);
+    on(dialog, 'keydown', (event) => {
+      if (event.key === 'Escape') {
+        event.preventDefault();
+        closeDialog();
+        return;
+      }
+      if (event.key !== 'Tab') return;
+      const buttons = [...dialog.querySelectorAll('button:not(:disabled)')];
+      const index = buttons.indexOf(document.activeElement);
+      event.preventDefault();
+      buttons[(index + (event.shiftKey ? buttons.length - 1 : 1)) % buttons.length]?.focus();
+    });
     on(dialog, 'cancel', (e) => {
       e.preventDefault();
       closeDialog();
     });
     function closePopup() {
+      const wasOpen = !popup.hidden;
       if (selected !== null) status.textContent = config.summary(data, state);
       popup.hidden = true;
       selected = null;
       pendingOption = null;
+      if (wasOpen) (focusBeforePopup || stage).focus();
     }
     function summary() {
       stage.classList.toggle('environment-understand', mode === 'understand');
       root
         .querySelectorAll('[data-action=understand]')
         .forEach((button) => button.setAttribute('aria-pressed', String(mode === 'understand')));
-      root.querySelector('.environment-title').textContent =
+      const titleText =
         mode === 'reconstruct'
           ? data.cases[caseIndex].title
           : mode === 'understand'
             ? `COMPRENDRE : ${config.title.toLocaleUpperCase('fr')}`
             : `${config.title.toLocaleUpperCase('fr')} — Mode Découvrir`;
+      writeText(root.querySelector('.environment-title'), titleText, 640, 'label', 27);
+      root.querySelector('.environment-title').style.backgroundImage =
+        `url("${base + uiSource('8')}")`;
       root.querySelector('.environment-values div').innerHTML = data.labels
         .map(
           (label, i) =>
@@ -249,52 +338,124 @@ export async function renderEnvironment(main, config) {
       task.hidden = mode !== 'reconstruct';
       task.innerHTML = `<h2>${esc(data.cases[caseIndex].title)}</h2><p>${esc(data.cases[caseIndex].text)}</p><button data-action="validate">Valider</button><button data-action="solution">Voir la solution</button><button data-action="cases">Choisir une situation</button>`;
     }
+    let helpOverlay = null,
+      helpFocus = null;
+    function closeHelp() {
+      helpOverlay?.remove();
+      helpOverlay = null;
+      helpFocus?.focus();
+    }
     function explain(i) {
       const example = data.cases[caseIndex];
       const text =
         mode === 'reconstruct' && i < inputCount ? example.hints[i] : data.explanations[i];
-      showDialog(
-        data.labels[i],
-        `<p>${esc(text)}</p><p><strong>${esc(data.options[i][state.states[i]])}</strong></p>`,
+      const sourceLines =
+        mode === 'reconstruct' && i < inputCount
+          ? data.textLayout?.hints[caseIndex][i]
+          : data.textLayout?.explanations[i];
+      stopVoice();
+      stopEffects();
+      helpFocus = document.activeElement;
+      helpOverlay?.remove();
+      helpOverlay = document.createElement('button');
+      helpOverlay.className = 'environment-help-overlay';
+      helpOverlay.setAttribute('aria-label', `${text} Fermer l’explication.`);
+      const bubble = document.createElement('span');
+      bubble.className = 'environment-help-bubble';
+      const textElement = document.createElement('span');
+      const lines = sourceLines || [text];
+      const width = Math.min(
+        610,
+        Math.max(...lines.map((line) => measureText(line, 'body'))) + 20,
       );
+      const rendered = writeText(textElement, lines.join('\n'), width - 10, 'body', 0, 'left', 20);
+      const height = 16 + rendered.lines.length * 20;
+      bubble.style.cssText = `left:${(640 - width) / 2}px;top:${(480 - height) / 2}px;width:${width}px;height:${height}px;background:rgb(${common.palette.rgb[i < inputCount ? 29 : 65].join(',')})`;
+      const border = document.createElement('canvas');
+      border.width = width + 16;
+      border.height = height + 22;
+      border.className = 'environment-help-border';
+      const c = border.getContext('2d');
+      const piece = (sx, sy, w, h, x, y) => c.drawImage(borderSheet, sx, sy, w, h, x, y, w, h);
+      for (let x = 31; x < width - 31; x += 33) {
+        piece(64, 0, 34, 9, x, 0);
+        piece(64, 0, 34, 9, x, height + 8);
+      }
+      for (let y = 20; y < height; y += 19) {
+        piece(0, 32, 8, 19, 0, y);
+        piece(156, 30, 8, 19, width + 7, y);
+      }
+      piece(0, 0, 52, 21, 0, 0);
+      piece(118, 0, 46, 21, width - 31, 0);
+      piece(0, 65, 52, 21, 0, height - 4);
+      piece(118, 65, 46, 21, width - 31, height - 4);
+      bubble.append(border, textElement);
+      helpOverlay.append(bubble);
+      stage.append(helpOverlay);
+      on(helpOverlay, 'click', closeHelp);
+      helpOverlay.focus();
+    }
+    function paintOptions() {
+      popup.querySelectorAll('[data-option]').forEach((button) => {
+        const index = Number(button.dataset.option);
+        const active = index === pendingOption;
+        button.setAttribute('aria-pressed', String(active));
+        writeText(
+          button,
+          data.options[selected][index],
+          335,
+          'label',
+          button.disabled ? 74 : active ? 26 : 27,
+        );
+      });
     }
     function openElement(i) {
-      if (busy) return;
+      if (busy || helpOverlay || dialog.open) return;
+      if (!popup.hidden) {
+        closePopup();
+        return;
+      }
       if (i >= inputCount || mode === 'understand') {
         explain(i);
         return;
       }
+      stopEffects();
+      focusBeforePopup = document.activeElement;
       selected = i;
       pendingOption = state.states[i];
       popup.hidden = false;
-      popup.innerHTML = `<h2>${esc(data.labels[i])}</h2><div class="environment-options">${availableOptions(
+      popup.style.setProperty('--choice-sheet', `url("${base + uiSource('4')}")`);
+      popup.innerHTML = `<h2></h2><div class="environment-options">${availableOptions(
         data,
         state,
         i,
       )
         .map(
           ({ index, enabled }) =>
-            `<button data-option="${index}" ${enabled ? '' : 'disabled'} aria-pressed="${state.states[i] === index}">${esc(data.options[i][index])}</button>`,
+            `<button data-option="${index}" ${enabled ? '' : 'disabled'}></button>`,
         )
-        .join(
-          '',
-        )}</div><div class="environment-popup-actions">${config.confirmChoices ? '<button data-action="apply-choice" aria-label="Valider le réglage">Valider</button>' : ''}<button data-action="explain">Explication</button><button data-action="close-popup">Fermer</button></div>`;
+        .join('')}</div>
+        <div class="environment-popup-actions"><button data-action="apply-choice" aria-label="Valider le réglage" title="Valider"></button><button data-action="explain" aria-label="Explication" title="Explication"></button></div>`;
+      writeText(popup.querySelector('h2'), data.labels[i], 335, 'heading');
+      paintOptions();
       popup.querySelector('[aria-pressed=true]')?.focus();
       status.textContent = `${data.labels[i]} : ${data.options[i][state.states[i]]}. Choisis un réglage.`;
     }
     let validationCount = 0;
     function originalFeedback() {
-      if (!config.originalFeedback) return;
       if (mode === 'discover') {
         const matched = data.cases.findIndex((example) => matchesCase(state, example));
-        if (matched >= 0) play(assets.caseAudio[`${prefix}_${String(matched).padStart(2, '0')}RQ`]);
+        if (matched >= 0)
+          play(
+            (assets.caseAudio || assets.presentations)?.[
+              `${prefix}_${String(matched).padStart(2, '0')}RQ`
+            ],
+          );
         return;
       }
       if (mode !== 'reconstruct') return;
       const resource =
-        assets.validation[
-          config.engine.feedbackName(state, data.cases[caseIndex], ++validationCount)
-        ];
+        assets.validation[feedbackName(state, data.cases[caseIndex], ++validationCount)];
       if (!resource) return;
       if (resource.src) {
         stopEffects();
@@ -307,7 +468,8 @@ export async function renderEnvironment(main, config) {
       activeStep = null;
       displayed = [...state.states];
       busy = false;
-      atmosphere?.reset();
+      atmosphere.reset();
+      idleCycles.clear();
       stage.removeAttribute('aria-busy');
       summary();
       status.textContent = config.summary(data, state);
@@ -316,7 +478,6 @@ export async function renderEnvironment(main, config) {
     function update(next, changed = null) {
       closePopup();
       stopExplanation();
-      ambientReaction = null;
       stopVoice();
       stopEffects();
       motion = true;
@@ -380,20 +541,24 @@ export async function renderEnvironment(main, config) {
       lastDraw = now - ((now - lastDraw) % (1000 / 12));
       if (
         busy &&
-        (!activeStep ||
-          now - started >=
-            Math.max(180, (activeStep.resource.frames * 1000) / activeStep.resource.fps))
+        (!activeStep || now - started >= Math.max(180, clipDuration(activeStep.resource)))
       )
         nextStep(now);
       ctx.imageSmoothingEnabled = false;
       ctx.drawImage(background, 0, 0);
       const atmosphericFrame =
-        !busy && motion && !dialog.open && !explanation && mode !== 'understand'
-          ? atmosphere?.tick()
+        !busy &&
+        motion &&
+        popup.hidden &&
+        !helpOverlay &&
+        !dialog.open &&
+        !explanation &&
+        mode !== 'understand'
+          ? atmosphere.tick(displayed)
           : null;
       const layers = [];
       const layer = (clip, n, priority) => layers.push({ clip, n, priority });
-      for (const i of config.renderOrder || data.renderOrder) {
+      for (const i of data.renderOrder) {
         const clip =
           activeStep?.element === i ? activeStep.resource : assets.objects[i][displayed[i]];
 
@@ -401,35 +566,25 @@ export async function renderEnvironment(main, config) {
           activeStep?.element === i
             ? Math.min(clip.frames - 1, Math.floor(((now - started) * clip.fps) / 1000))
             : clip.frames - 1;
-        layer(clip, n, data.priorities?.objects[i] ?? layers.length);
-        const idle = assets.idleObjects[`${prefix}_${i}S${String(displayed[i]).padStart(2, '0')}`];
-        if (
+        const idleActive =
           !busy &&
           motion &&
-          idle?.src &&
+          popup.hidden &&
+          !helpOverlay &&
           !dialog.open &&
           !explanation &&
-          (data.idleEnabled?.[i] ?? true)
-        ) {
-          const duration = (idle.frames * 1000) / idle.fps;
-          const rest = config.idleRest?.[i] ?? 0;
-          const elapsed = atmosphere
-              ? (((atmosphericFrame?.idleFrame ?? 0) % idle.frames) * 1000) / idle.fps
-              : (now + i * 1100) % (duration + rest),
-            cycle = atmosphere
-              ? Math.floor((atmosphericFrame?.idleFrame ?? 0) / idle.frames)
-              : Math.floor((now + i * 1100) / (duration + rest));
-          if (elapsed < duration) {
-            layer(
-              idle,
-              Math.min(idle.frames - 1, Math.floor((elapsed * idle.fps) / 1000)),
-              data.priorities?.idle[i] ?? layers.length,
-            );
-            const key = `${i}:${displayed[i]}`;
-            if (idleCycles.get(key) !== cycle) {
-              idleCycles.set(key, cycle);
-              effect(i, idle);
-            }
+          mode !== 'understand';
+        if (!(idleActive && data.hideBaseDuringIdle?.[i] && data.idleEnabled?.[i]))
+          layer(clip, n, data.priorities?.objects[i] ?? layers.length);
+        const idle = assets.idleObjects[`${prefix}_${i}S${String(displayed[i]).padStart(2, '0')}`];
+        if (idleActive && idle?.src && (data.idleEnabled?.[i] ?? true)) {
+          const tick = atmosphericFrame?.idleFrame ?? 0;
+          layer(idle, tick % idle.frames, data.priorities.idle[i]);
+          const cycle = Math.floor(tick / idle.frames);
+          const key = `${i}:${displayed[i]}`;
+          if (idleCycles.get(key) !== cycle) {
+            idleCycles.set(key, cycle);
+            effect(i, idle);
           }
         }
       }
@@ -442,40 +597,9 @@ export async function renderEnvironment(main, config) {
           nextExplanation(now);
         else layer(resource, n, 1000);
       }
-      const reactions = Object.values(assets.ambientReactions || {});
-      if (
-        !busy &&
-        motion &&
-        !dialog.open &&
-        !explanation &&
-        mode !== 'understand' &&
-        reactions.length &&
-        !atmosphere
-      ) {
-        if (!nextReaction) nextReaction = now + 18000;
-        if (!ambientReaction && now >= nextReaction) {
-          const resource = reactions[Math.floor(Math.random() * reactions.length)];
-          ambientReaction = { resource, started: now };
-          effect('ambient-reaction', resource);
-        }
-        if (ambientReaction) {
-          const { resource, started } = ambientReaction;
-          const n = Math.floor(((now - started) * resource.fps) / 1000);
-          if (n < resource.frames)
-            layer(
-              resource,
-              n,
-              data.priorities?.ambient[reactions.indexOf(resource)] ?? layers.length,
-            );
-          else {
-            ambientReaction = null;
-            nextReaction = now + 18000;
-          }
-        }
-      }
       if (atmosphericFrame?.ambient) {
-        const { resource, frame } = atmosphericFrame.ambient;
-        layer(resource, frame, data.priorities.ambient[reactions.indexOf(resource)]);
+        const { resource, frame, priority } = atmosphericFrame.ambient;
+        layer(resource, frame, priority);
         if (frame === 0) effect('ambient-reaction', resource);
       }
       layers.sort((a, b) => a.priority - b.priority);
@@ -484,16 +608,93 @@ export async function renderEnvironment(main, config) {
     const loaded = new Map(
       await Promise.all([...images].map(async ([key, promise]) => [key, await promise])),
     );
+    let pendingCase = 0,
+      pageIndex = 0,
+      pages = [];
+    function panel(kind, imageId, title, content) {
+      showDialog(title, content);
+      dialog.classList.add(`environment-${kind}-dialog`);
+      sheet.style.backgroundImage = `url("${base + uiSource(imageId)}")`;
+    }
+    function modePanel() {
+      panel(
+        'mode',
+        '9',
+        'Choisis ton mode d’étude',
+        '<button data-action="cases"></button><button data-action="discover"></button>',
+      );
+      writeText(dialog.querySelector('h2'), 'Choisis ton mode d’étude', 425, 'heading');
+      writeText(
+        dialog.querySelector('[data-action=cases]'),
+        'Reconstituer',
+        285,
+        'heading',
+        mode === 'reconstruct' ? 26 : 27,
+      );
+      writeText(
+        dialog.querySelector('[data-action=discover]'),
+        'Découvrir',
+        285,
+        'heading',
+        mode === 'discover' ? 26 : 27,
+      );
+    }
+    function caseDetails() {
+      dialog.querySelectorAll('[data-case]').forEach((button) => {
+        const index = Number(button.dataset.case);
+        button.setAttribute('aria-pressed', String(index === pendingCase));
+        writeText(button, data.cases[index].title, 427, 'label', 0);
+      });
+      writeText(
+        dialog.querySelector('.environment-case-brief'),
+        data.textLayout.caseBriefs[pendingCase].join('\n'),
+        382,
+        'label',
+        0,
+        'left',
+        20,
+      );
+    }
     function cases() {
-      showDialog(
+      pendingCase = caseIndex;
+      panel(
+        'cases',
+        '10',
         'Choisis ton objectif',
         data.cases
-          .map(
-            (example, i) =>
-              `<button class="environment-case-choice" data-case="${i}">${esc(example.title)}</button>`,
-          )
-          .join(''),
+          .map((example, i) => `<button data-case="${i}" style="top:${45 + 25 * i}px"></button>`)
+          .join('') +
+          '<div class="environment-case-brief"></div><button data-action="start-case" aria-label="Reconstituer cette situation" title="Reconstituer"></button><button data-action="show-case" aria-label="Voir la situation" title="Voir la situation"></button>',
       );
+      caseDetails();
+    }
+    function readPage() {
+      writeText(
+        dialog.querySelector('.environment-page-text'),
+        pages[pageIndex].join('\n'),
+        430,
+        'body',
+        0,
+        'left',
+        20,
+      );
+      dialog.querySelector('[data-action=previous-page]').disabled = pageIndex === 0;
+      dialog.querySelector('[data-action=next-page]').disabled = pageIndex === pages.length - 1;
+      dialog.querySelector('.environment-page-number').textContent =
+        `${pageIndex + 1} / ${pages.length}`;
+    }
+    function presentation() {
+      pages = data.textLayout.introduction;
+      pageIndex = 0;
+      panel(
+        'presentation',
+        '39',
+        config.title,
+        '<div class="environment-page-text"></div><button data-action="previous-page" aria-label="Page précédente">↑</button><button data-action="next-page" aria-label="Page suivante">↓</button><span class="environment-page-number"></span>',
+      );
+      dialog.style.setProperty('--page-arrows', `url("${base + uiSource('40')}")`);
+      readPage();
+      play(assets.voice[`${prefix}_VO`]);
     }
     function toggleSound() {
       sound = !sound;
@@ -514,11 +715,7 @@ export async function renderEnvironment(main, config) {
           option = Number(el.dataset.option);
         if (config.confirmChoices) {
           pendingOption = option;
-          popup
-            .querySelectorAll('[data-option]')
-            .forEach((button) =>
-              button.setAttribute('aria-pressed', String(Number(button.dataset.option) === option)),
-            );
+          paintOptions();
           status.textContent = `${data.options[i][option]}. Valide le réglage pour l’appliquer.`;
           return;
         }
@@ -527,16 +724,12 @@ export async function renderEnvironment(main, config) {
         return;
       }
       if (el.hasAttribute('data-case')) {
-        caseIndex = Number(el.dataset.case);
-        mode = 'reconstruct';
-        closeDialog();
-        summary();
-        const name = `${prefix}_${String(caseIndex).padStart(2, '0')}RQ`;
-        if (!config.originalFeedback)
-          play(assets.caseAudio?.[name] || assets.presentations?.[name]);
+        pendingCase = Number(el.dataset.case);
+        caseDetails();
         return;
       }
       const action = el.dataset.action;
+      if (busy && !['stop', 'sound', 'fullscreen'].includes(action)) return;
       if (action === 'apply-choice' && selected !== null) {
         const i = selected,
           option = pendingOption;
@@ -545,18 +738,24 @@ export async function renderEnvironment(main, config) {
       }
       if (action === 'close-popup') closePopup();
       if (action === 'explain' && selected !== null) explain(selected);
-      if (action === 'intro') {
-        showDialog(config.title, `<p>${esc(data.introduction)}</p>`);
-        play(assets.voice[`${prefix}_VO`]);
+      if (action === 'intro') presentation();
+      if (action === 'modes') modePanel();
+      if (action === 'previous-page' || action === 'next-page') {
+        pageIndex += action === 'next-page' ? 1 : -1;
+        readPage();
       }
-      if (action === 'modes')
-        showDialog(
-          'Choisis ton mode d’étude',
-          '<button data-action="discover">Découvrir</button><button data-action="cases">Reconstituer</button><button data-action="understand">Comprendre la simulation</button>',
-        );
+      if (action === 'start-case' || action === 'show-case') {
+        caseIndex = pendingCase;
+        mode = 'reconstruct';
+        validationCount = 0;
+        closeDialog();
+        summary();
+        if (action === 'show-case') update(reconstruct(data, state, data.cases[caseIndex]));
+      }
       if (action === 'cases') cases();
       if (action === 'discover') {
         mode = 'discover';
+        validationCount = 0;
         stopExplanation();
         closeDialog();
         summary();
@@ -580,7 +779,6 @@ export async function renderEnvironment(main, config) {
       }
       if (action === 'stop') {
         stopExplanation();
-        ambientReaction = null;
         stopVoice();
         stopEffects();
         ambience?.pause();
@@ -597,15 +795,16 @@ export async function renderEnvironment(main, config) {
         status.textContent = success
           ? 'Bravo ! Tu as reconstitué cette situation.'
           : 'Il reste des réglages à corriger. Les explications des éléments peuvent t’aider.';
-        if (config.originalFeedback) originalFeedback();
-        else if (success) {
-          const name = `${prefix}_${String(caseIndex).padStart(2, '0')}BR`;
-          play(assets.feedback?.[name] || assets.presentations?.[name]);
-        }
+        originalFeedback();
       }
       if (action === 'fullscreen') frame.requestFullscreen?.().catch(() => {});
     });
     on(canvas, 'click', (event) => {
+      if (dialog.open) return;
+      if (!popup.hidden) {
+        closePopup();
+        return;
+      }
       const { x, y } = scenePoint(canvas.getBoundingClientRect(), event.clientX, event.clientY);
       if (mode === 'understand' && data.explanationZones) {
         const index = data.explanationZones.findIndex(
@@ -628,6 +827,14 @@ export async function renderEnvironment(main, config) {
     });
     on(stage, 'keydown', (event) => {
       if (event.key === 'Escape') {
+        if (dialog.open) {
+          closeDialog();
+          return;
+        }
+        if (helpOverlay) {
+          closeHelp();
+          return;
+        }
         closePopup();
         stopExplanation();
         stopVoice();

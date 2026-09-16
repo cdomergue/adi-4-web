@@ -12,7 +12,7 @@ import {
   hitTest,
   matchesCase,
 } from '../public/features/documents/desert/engine.js';
-import { createAtmosphere } from '../public/features/documents/desert/animation.js';
+import { createEnvironmentAtmosphere } from '../public/features/documents/environment-atmosphere.js';
 const base = new URL('../public/game/documents/desert/', import.meta.url);
 const data = JSON.parse(await readFile(new URL('rules.json', base)));
 const assets = JSON.parse(await readFile(new URL('assets.json', base)));
@@ -91,20 +91,23 @@ test('Original landscape controls and all nine help markers remain reachable whe
 
 test('Original ambient timing excludes immediate repeats and respects the exclusive random bound', () => {
   const sequence = [0.4, 0.4, 0, 0.99, 0];
-  const atmosphere = createAtmosphere(assets, () => sequence.shift() ?? 0);
-  assert.equal(atmosphere.tick().ambient.resource, assets.ambientReactions.S14_0H);
+  const atmosphere = createEnvironmentAtmosphere(data, assets, 'S14', () => sequence.shift() ?? 0);
+  assert.equal(
+    atmosphere.tick(data.initialStates).ambient.resource,
+    assets.ambientReactions.S14_0H,
+  );
   let next;
-  for (let i = 1; i <= 251; i++) next = atmosphere.tick();
+  for (let i = 1; i <= 251; i++) next = atmosphere.tick(data.initialStates);
   assert.equal(next.ambient, null, 'same animation is not repeated at the first 20-second check');
-  for (let i = 252; i <= 502; i++) next = atmosphere.tick();
+  for (let i = 252; i <= 502; i++) next = atmosphere.tick(data.initialStates);
   assert.equal(next.ambient.resource, assets.ambientReactions.S14_1H);
   assert.equal(next.ambient.frame, 0);
   assert.equal(next.idleFrame, 502);
   atmosphere.reset();
-  assert.equal(atmosphere.tick().idleFrame, 0);
-  const maximum = createAtmosphere(assets, () => 0.99999);
+  assert.equal(atmosphere.tick(data.initialStates).idleFrame, 0);
+  const maximum = createEnvironmentAtmosphere(data, assets, 'S14', () => 0.99999);
   assert.equal(
-    maximum.tick().ambient.resource,
+    maximum.tick(data.initialStates).ambient.resource,
     assets.ambientReactions.S14_1H,
     'RAND(3) returns at most 2; S14_2H is not selected by the original script',
   );

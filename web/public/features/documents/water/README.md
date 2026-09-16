@@ -45,9 +45,14 @@ arrête les sons et les animations et déconnecte les observateurs.
 ## Limites
 
 Les textes pédagogiques et les situations géographiques décrivent la période
-de l’édition originale. Les fenêtres utilisent du texte HTML. La cadence des
-animations d’ambiance repose sur une temporisation web. La session ne possède
-pas de sauvegarde persistante.
+de l’édition originale. Les panneaux de réglage, de modes et de situations utilisent les images,
+la palette originales, avec du texte net rendu par le navigateur. Un choix est appliqué avec le pouce ;
+l’aide conserve la sélection en attente. Les présentations respectent les pages
+des textes source. Les textes décrivent la période de l’édition originale.
+Les boucles et réactions d’ambiance utilisent les modes et priorités du script
+dans l’[ordonnanceur commun](../environment-atmosphere.js). La cadence dépend
+du navigateur ; les transitions des fenêtres et du retour aux documents restent
+immédiates. Les réglages sont propres à la consultation en cours.
 
 Les [tests](../../../../tests/water-document.test.mjs) couvrent les 972 combinaisons,
 les trois cas, les exceptions de calcul, les zones cliquables, les transitions

@@ -14,6 +14,10 @@ Finishing these details is required work, not an optional enhancement. Keep
 remaining differences explicitly documented until they are resolved; a playable
 screen alone does not establish that its recreation is complete.
 
+Text readability is an approved exception to bitmap fidelity: use crisp browser
+text for interface panels, preserving the original wording, colors, hierarchy,
+placement, illustrations, and controls as closely as possible.
+
 - `web/index.html` and `web/public/app.js` initialize the application.
 - `web/public/application/` owns routing and the shared shell; `features/` groups courses, room interactions, science simulations, and games. Keep game rules in DOM-independent `engine.js` modules and rendering in `view.js`.
 - `web/public/styles/` contains stylesheets; `game/` contains assets and manifests; `vendor/wgob3/` contains the compiled third-party engine.

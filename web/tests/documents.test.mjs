@@ -6,6 +6,12 @@ import {
   maskColor,
   menuOffset,
   spacePoint,
+  ambienceKey,
+  ambientCandidates,
+  ambientPosition,
+  exitTransition,
+  introSequence,
+  pickAmbient,
 } from '../public/features/documents/engine.js';
 const data = async (file) =>
   JSON.parse(
@@ -48,6 +54,57 @@ test('space timeline follows the diagonal scroll in the original map', () => {
   assert.deepEqual(spacePoint({ x: 470, y: 184 }, 120), { x: 39, y: 127 });
 });
 
+test('astronomy uses the source ambience for the selected season', () => {
+  assert.equal(ambienceKey('astro', 1, 'AMB_AST1'), 'AMB_AST1');
+  assert.equal(ambienceKey('astro', 2, 'AMB_AST1'), 'AMB_AST1');
+  assert.equal(ambienceKey('astro', 3, 'AMB_AST1'), 'AMB_AST2');
+  assert.equal(ambienceKey('astro', 4, 'AMB_AST1'), 'AMB_AST2');
+  assert.equal(ambienceKey('animal', 3, 'AMB_ANI'), 'AMB_ANI');
+});
+
+test('space presentation retains its transition before the narrated sequence', () => {
+  assert.deepEqual(introSequence('espace', ['CTRACONQ', 'DESPA000']), [
+    'VAISO',
+    'CTRACONQ',
+    'DESPA000',
+  ]);
+  assert.deepEqual(introSequence('cycle', ['DCYCL002']), ['DCYCL002']);
+});
+
+test('only the space document retains its visual transition on return', () => {
+  assert.equal(exitTransition('espace'), 'VAISO');
+  for (const topic of ['animal', 'cycle', 'planete', 'astro'])
+    assert.equal(exitTransition(topic), null);
+});
+
+test('ambient sequences preserve the source selections and astronomy filters', () => {
+  assert.equal(ambientCandidates('animal').length, 12);
+  assert.equal(ambientCandidates('espace').length, 18);
+  assert.equal(ambientCandidates('astro', 1, 1).length, 19);
+  assert.equal(ambientCandidates('astro', 1, 2).length, 17);
+  assert.equal(ambientCandidates('astro', 3, 1).length, 17);
+  assert.equal(ambientCandidates('astro', 3, 2).length, 15);
+  assert.equal(ambientCandidates('astro', 3).includes('AS1_EF01'), false);
+  assert.equal(ambientCandidates('astro', 3).includes('AS2_EF01'), true);
+  assert.equal(
+    pickAmbient(['A', 'B', 'C', 'D'], ['A', 'B'], () => 0),
+    'C',
+  );
+  assert.equal(
+    pickAmbient(['A', 'B', 'C'], ['A', 'B'], () => 0),
+    'A',
+  );
+  assert.deepEqual(
+    ambientPosition('STAR11', () => 0.5),
+    { x: 300, y: 195 },
+  );
+  assert.deepEqual(
+    ambientPosition('STAR44', () => 0),
+    { x: 0, y: 80 },
+  );
+  assert.equal(ambientPosition('METEOR'), null);
+});
+
 test('each document subject, page and presentation resolves to bundled media', async () => {
   const [topics, assets, astronomy, catalog] = await Promise.all(
     ['topics', 'assets', 'astronomy', 'catalog'].map(data),
@@ -77,6 +134,13 @@ test('each document subject, page and presentation resolves to bundled media', a
       if (zone.hoverAudio) media(zone.hoverAudio);
     }
   }
+  for (const [topicId, season, direction] of [
+    ['animal', 1, 1],
+    ['espace', 1, 1],
+    ['astro', 1, 1],
+    ['astro', 3, 2],
+  ])
+    for (const key of ambientCandidates(topicId, season, direction)) media(key);
   assert.deepEqual(
     topics.planete.tabs.map((t) => t.id),
     [1, 2, 3, 5, 4, 6],

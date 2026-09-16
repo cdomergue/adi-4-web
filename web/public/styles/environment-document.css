@@ -311,3 +311,344 @@
   left: 17px;
   right: 17px;
 }
+
+/* Native 640 × 480 panels, with browser-rendered text and original control-sheet crops. */
+.environment-stage > canvas {
+  position: absolute;
+  inset: 0;
+  width: 640px;
+  height: 480px;
+}
+.environment-stage :not(.environment-stage) > canvas {
+  position: static;
+  width: auto;
+  height: auto;
+  display: block;
+  pointer-events: none;
+}
+.environment-popup {
+  padding: 0;
+}
+.environment-popup h2 {
+  position: absolute;
+  left: 0;
+  top: 20px;
+  margin: 0;
+}
+.environment-confirm-choice .environment-options {
+  position: absolute;
+  top: 80px;
+  left: 0;
+  width: 335px;
+  display: block;
+}
+.environment-confirm-choice .environment-options button {
+  display: block;
+  position: relative;
+  width: 335px;
+  height: 25px;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  border-radius: 0;
+  opacity: 1;
+  overflow: visible;
+}
+.environment-confirm-choice .environment-options button::before {
+  content: '';
+  position: absolute;
+  left: 10px;
+  top: 0;
+  width: 291px;
+  height: 21px;
+  background-image: var(--choice-sheet);
+  background-position: 0 0;
+  display: none;
+}
+.environment-confirm-choice .environment-options button[aria-pressed='true'] {
+  background: transparent;
+}
+.environment-confirm-choice .environment-options button[aria-pressed='true']::before {
+  display: block;
+}
+.environment-confirm-choice .environment-options button:disabled::before {
+  display: block;
+  background-position: -295px 0;
+}
+.environment-confirm-choice .environment-options button .environment-text {
+  position: relative;
+  z-index: 1;
+}
+.environment-confirm-choice .environment-popup-actions {
+  position: static;
+  margin: 0;
+}
+.environment-popup-actions button {
+  position: absolute;
+  top: 230px;
+  width: 38px;
+  height: 29px;
+  border: 0;
+  padding: 0;
+  border-radius: 0;
+  background-color: transparent;
+  background-image: var(--choice-sheet);
+}
+.environment-popup-actions [data-action='apply-choice'] {
+  left: 62px;
+  background-position: -402px -27px;
+}
+.environment-popup-actions [data-action='apply-choice']:active {
+  background-position: -323px -27px;
+}
+.environment-popup-actions [data-action='explain'] {
+  left: 241px;
+  background-position: -442px -27px;
+}
+.environment-popup-actions [data-action='explain']:active {
+  background-position: -362px -27px;
+}
+.environment-help-overlay {
+  position: absolute;
+  inset: 0;
+  z-index: 10;
+  border: 0;
+  padding: 0;
+  border-radius: 0;
+  color: #000;
+  background: transparent;
+  width: 640px;
+  height: 480px;
+  cursor: pointer;
+}
+.environment-help-bubble {
+  position: absolute;
+  display: block;
+  pointer-events: none;
+}
+.environment-help-bubble > span {
+  display: block;
+  position: absolute;
+  left: 5px;
+  top: 5px;
+}
+.environment-stage .environment-help-bubble > .environment-help-border {
+  position: absolute;
+  left: -7px;
+  top: -8px;
+  width: auto;
+  height: auto;
+}
+.environment-top-edge {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 640px;
+  height: 10px;
+}
+.environment-title {
+  top: 0;
+  height: 46px;
+  display: none;
+  z-index: 4;
+}
+.environment-title .environment-text {
+  margin-top: 11px;
+}
+.environment-top-edge:hover + .environment-title {
+  display: block;
+}
+.environment-dialog {
+  position: absolute;
+  inset: 0;
+  z-index: 8;
+  width: 640px;
+  height: 480px;
+  max-width: none;
+  max-height: none;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  overflow: hidden;
+  color: #000;
+  box-shadow: none;
+}
+.environment-dialog-sheet {
+  position: absolute;
+  background-repeat: no-repeat;
+}
+.environment-dialog .dialog-heading {
+  display: contents;
+}
+.environment-dialog h2 {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+}
+.environment-dialog-body {
+  padding: 0;
+  line-height: normal;
+}
+.environment-dialog [data-close] {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 25px;
+  height: 25px;
+  z-index: 2;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  color: #111;
+  font-size: 20px;
+}
+.environment-dialog-body > button {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  border-radius: 0;
+}
+.environment-mode-dialog .environment-dialog-sheet {
+  left: 108px;
+  top: 155px;
+  width: 425px;
+  height: 170px;
+}
+.environment-mode-dialog h2 {
+  top: 10px;
+  left: 0;
+}
+.environment-mode-dialog [data-action='cases'] {
+  top: 63px;
+  left: 74px;
+  width: 285px;
+  height: 35px;
+}
+.environment-mode-dialog [data-action='discover'] {
+  top: 112px;
+  left: 74px;
+  width: 285px;
+  height: 35px;
+}
+.environment-mode-dialog [data-close] {
+  top: 25px;
+  right: 0;
+  color: transparent;
+}
+.environment-cases-dialog .environment-dialog-sheet {
+  left: 107px;
+  top: 73px;
+  width: 427px;
+  height: 334px;
+}
+.environment-cases-dialog h2 {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+}
+.environment-cases-dialog [data-case] {
+  left: 0;
+  width: 427px;
+  height: 20px;
+}
+.environment-cases-dialog [data-case][aria-pressed='true']::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 18px;
+  width: 380px;
+  height: 20px;
+  background: var(--control-sheet) 0 -96px;
+}
+.environment-cases-dialog [data-case] .environment-text {
+  position: relative;
+}
+.environment-case-brief {
+  position: absolute;
+  left: 25px;
+  top: 180px;
+}
+.environment-cases-dialog [data-action='start-case'] {
+  left: 63px;
+  top: 295px;
+  width: 38px;
+  height: 29px;
+  background: var(--control-sheet) -402px -27px;
+}
+.environment-cases-dialog [data-action='show-case'] {
+  left: 314px;
+  top: 293px;
+  width: 39px;
+  height: 32px;
+}
+.environment-presentation-dialog .environment-dialog-sheet {
+  inset: 0;
+  width: 640px;
+  height: 480px;
+}
+.environment-presentation-dialog h2 {
+  display: none;
+}
+.environment-page-text {
+  position: absolute;
+  left: 100px;
+  top: 105px;
+}
+.environment-presentation-dialog [data-close] {
+  right: 70px;
+  top: 82px;
+}
+.environment-presentation-dialog [data-action='previous-page'] {
+  left: 545px;
+  top: 193px;
+  width: 35px;
+  height: 40px;
+}
+.environment-presentation-dialog [data-action='next-page'] {
+  left: 545px;
+  top: 233px;
+  width: 35px;
+  height: 40px;
+}
+.environment-page-number {
+  position: absolute;
+  left: 280px;
+  top: 370px;
+}
+.environment-cases-dialog [data-close] {
+  top: 50px;
+  right: 5px;
+  color: transparent;
+}
+.environment-presentation-dialog [data-action='previous-page'],
+.environment-presentation-dialog [data-action='next-page'] {
+  left: 589px;
+  width: 35px;
+  height: 40px;
+  color: transparent;
+  background-image: var(--page-arrows);
+}
+.environment-presentation-dialog [data-action='previous-page'] {
+  top: 62px;
+  background-position: 0 0;
+}
+.environment-presentation-dialog [data-action='next-page'] {
+  top: 251px;
+  background-position: 0 -40px;
+}
+
+.environment-text {
+  display: block;
+  font-family: Arial, Helvetica, sans-serif;
+  white-space: pre-wrap;
+  text-shadow: none;
+  letter-spacing: normal;
+  text-transform: none;
+  pointer-events: none;
+}
+.environment-popup h2 .environment-text { padding: 0 14px; box-sizing: border-box; }

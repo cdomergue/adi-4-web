@@ -658,5 +658,263 @@
       "SBRU025",
       "SBRU026"
     ]
-  ]
+  ],
+  "idleModes": [
+    0,
+    1,
+    1,
+    4,
+    1,
+    4,
+    4,
+    0
+  ],
+  "idleEnabled": [
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0
+  ],
+  "hideBaseDuringIdle": [
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0
+  ],
+  "ambientCount": 0,
+  "priorities": {
+    "objects": [
+      100,
+      100,
+      100,
+      103,
+      101,
+      100,
+      101,
+      100
+    ],
+    "idle": [
+      103,
+      102,
+      102,
+      105,
+      102,
+      101,
+      102,
+      102
+    ],
+    "ambient": []
+  },
+  "renderOrder": [
+    0,
+    1,
+    2,
+    5,
+    7,
+    4,
+    6,
+    3
+  ],
+  "sequential": [
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0
+  ],
+  "textLayout": {
+    "caseBriefs": [
+      [
+        "Difficile de respirer dans les villes industrielles ",
+        "des pays d'Europe de l'Est ! On parle d'ailleurs de ",
+        "\"triangle noir\" à propos d'eux."
+      ],
+      [
+        "Le site de la ville de Mexico est particulier. L'air",
+        "pollué par les industries et les automobiles ne peut",
+        "s'échapper. Certains jours, les écoles sont fermées",
+        "tellement le taux de pollution est élevé !"
+      ],
+      [
+        "Pour lutter contre la pollution, il faut moderniser",
+        "les industries et trouver des sources d'énergie",
+        "propres. Mais cela coûte cher !"
+      ]
+    ],
+    "explanations": [
+      [
+        "Le relief joue un rôle important sur la pollution de l'air. Dans une ville",
+        "située dans une vallée ou une cuvette entourée de montagne, les gaz",
+        "produits par les véhicules ou les industries ont du mal à s'échapper.",
+        "Dans une plaine, les vents emportent plus facilement ces gaz."
+      ],
+      [
+        "Les industries les plus modernes sont les moins polluantes car",
+        "elles répondent à des normes antipollutions. Les anciennes usines",
+        "encore en fonctionnement, par contre, sont très polluantes."
+      ],
+      [
+        "Les hommes utilisent de plus en plus de sources d'énergie non polluantes,",
+        "comme l'énergie solaire ou l'énergie éolienne. Mais ces types d'énergie sont",
+        "coûteux et tous les pays n'ont pas les moyens financiers de les utiliser."
+      ],
+      [
+        "Les voitures électriques se développent de plus en plus de nos jours, car",
+        "leur utilisation permet de réduire l'émission de gaz d'échappement. Mais ce",
+        "sont encore les véhicules à essence qui dominent partout dans le monde."
+      ],
+      [
+        "La qualité de l'air que nous respirons s'améliore grâce à plusieurs",
+        "facteurs : le type de centrale énergétique choisi (nucléaire, thermique...),",
+        "la quantité de véhicules fonctionnant à essence, ou encore l'ancienneté",
+        "des usines."
+      ],
+      [
+        "Notre santé dépend du soin que nous portons à notre environnement : les",
+        "effets de la pollution de l'air sont très importants. Respirer sans cesse",
+        "des gaz nocifs entraîne des maladies respiratoires, surtout chez les",
+        "enfants."
+      ],
+      [
+        "Les hommes ne sont pas les seuls à souffrir de la pollution",
+        "atmosphérique : les plantes respirent elles aussi. Si l'air est",
+        "trop pollué, les plantes s'asphyxient et meurent."
+      ],
+      [
+        "Les industries produisent des déchets toxiques. Ces déchets",
+        "s'entassent car ils mettent très longtemps à se dégrader.",
+        "Leur stockage pose un problème de plus en plus important."
+      ]
+    ],
+    "hints": [
+      [
+        [
+          "Les villes industrielles de pays de l'Est sont situées",
+          "dans des régions où le relief est peu important."
+        ],
+        [
+          "Les industries des villes des pays de l'Est sont de fabrication anciennes",
+          "et ces pays ne sont pas assez riches pour les moderniser."
+        ],
+        [
+          "Les pays de l'Est, tout comme les pays occidentaux, utilisent le nucléaire",
+          "mais leurs centrales sont particulièrement délabrées faute de moyens",
+          "financiers."
+        ],
+        [
+          "Les véhicules qui circulent dans les pays de l'Est fonctionnent",
+          "avec de l'essence. Les véhicules électriques n'existent pas encore."
+        ]
+      ],
+      [
+        [
+          "La ville de Mexico est située dans une cuvette entourée de montagnes.",
+          "Et cette cuvette se trouve à plus de 2000 mètres d'altitude !"
+        ],
+        [
+          "Les industries mexicaines, quoique récentes, sont encore polluantes.",
+          "La municipalité essaie de les délocaliser : on déplace les usines les",
+          "plus polluantes, de la ville vers des espaces moins peuplés."
+        ],
+        [
+          "Les sources d'énergie employées au Mexique restent classiques."
+        ],
+        [
+          "Les nombreux véhiculent qui sillonnent la ville de Mexico fonctionnent grâce",
+          "à l'essence ; les émissions de gaz carbonique sont donc importantes."
+        ]
+      ],
+      [
+        [
+          "Les régions dans lesquelles la lutte contre la pollution fonctionne le mieux",
+          "sont les régions de plaine car les vents dispersent plus rapidement",
+          "les gaz."
+        ],
+        [
+          "Les industries les plus modernes sont les moins polluantes",
+          "car elles répondent à des normes anti-pollution."
+        ],
+        [
+          "Les Etats-Unis sont bien placés dans la lutte contre la pollution.",
+          "Ils utilisent de plus en plus de sources d'énergie non polluantes",
+          "comme l'énergie solaire ou l'énergie éolienne en Californie."
+        ],
+        [
+          "Les voitures électriques se développent de nos jours dans les grandes",
+          "villes, car elles permettent de réduire les émissions de gaz carbonique qui",
+          "polluent l'air. Mais la majorité des véhicules utilisent l'essence."
+        ]
+      ]
+    ],
+    "introduction": [
+      [
+        "La pollution de l'air que nous respirons pose un problème",
+        "de plus en plus grave. Dans les grandes villes des pays",
+        "développés, le taux de pollution est calculé tous les jours",
+        "mais les moyens de contrôler et de lutter contre cette",
+        "forme de pollution ne sont pas suffisants.",
+        "La pollution est surtout causée par les industries qui",
+        "rejettent des gaz nocifs et par la concentration des",
+        "automobiles. Elle entraîne des maladies respiratoires,",
+        "une dégradation du milieu et peut-être une dégradation",
+        "de la couche d'ozone qui nous protège des rayons",
+        "ultraviolets du soleil."
+      ]
+    ],
+    "cases": [
+      [
+        [
+          "Dans les pays de l'Europe de l'Est, les industries se sont",
+          "développées sans aucun contrôle car les gouvernements",
+          "n'ont pas mis en place de politique de préservation de",
+          "l'environnement. Les usines sont souvent anciennes et",
+          "donc très polluantes. Les Etats n'ont pas toujours les",
+          "moyens financiers de les moderniser et les villes",
+          "industrielles des pays de l'Est battent des records de",
+          "pollution. Cette pollution a de graves conséquences",
+          "sur les habitants qui souffrent de maladies respiratoires."
+        ]
+      ],
+      [
+        [
+          "La ville de Mexico est l'une des plus grandes du monde",
+          "et elle est capitale d'un pays qui n'est pas encore sorti",
+          "du sous-développement. Le site de la ville est très",
+          "particulier et l'extension de l'urbanisation pose un très",
+          "grave problème. Mexico a été fondée sur une lagune",
+          "aujourd'hui disparue, dans une cuvette entourée de",
+          "chaînes de montagne.",
+          "L'air pollué par les industries et les automobiles ne peut",
+          "s'échapper et certains jours les écoles sont fermées",
+          "tellement le taux de pollution est élevé !"
+        ]
+      ],
+      [
+        [
+          "Lutter contre la pollution de notre atmosphère coûte",
+          "cher : les usines les plus polluantes doivent être",
+          "modernisées, il faut mettre en place d'autres techniques",
+          "de production d'énergie, inventer des moyens de",
+          "transport non polluants...",
+          "Les Etats-Unis sont bien placés dans la lutte contre",
+          "la pollution. Ils utilisent de plus en plus de sources",
+          "d'énergie non polluantes comme l'énergie solaire ou",
+          "l'énergie éolienne en Californie et mettent en place",
+          "des normes antipollution très strictes. Mais il reste",
+          "encore beaucoup de chemin avant que notre air soit pur !"
+        ]
+      ]
+    ]
+  }
 }

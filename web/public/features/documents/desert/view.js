@@ -1,5 +1,4 @@
 import { renderEnvironment } from '../environment-view.js';
-import { createAtmosphere } from './animation.js';
 import * as engine from './engine.js';
 
 export function renderDesert(main) {
@@ -16,7 +15,6 @@ export function renderDesert(main) {
     summary: (data, state) =>
       [4, 6, 7, 8].map((i) => data.options[i][state.states[i]]).join('. ') + '.',
     confirmChoices: true,
-    createAtmosphere,
     engine,
   });
 }
