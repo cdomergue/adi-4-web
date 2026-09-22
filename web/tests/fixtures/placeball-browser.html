@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="fr"><meta charset="utf-8"><title>Place Ball — tests navigateur</title>
+<link rel="stylesheet" href="/style.css">
+<style>body { padding: 20px; } nav { display: flex; gap: 12px; margin-bottom: 20px; }</style>
+<h1>Place Ball — scénarios de vérification</h1>
+<p>Vue de production ; tableaux synthétiques. Cette origine et son stockage sont réservés aux tests.</p>
+<nav><button data-case="loss">Préparer défaite</button><button data-case="next">Préparer enchaînement</button>
+<button data-case="final">Préparer victoire finale</button><button data-case="original">Tableaux originaux</button></nav>
+<main></main>
+<script type="module">
+  import { renderPlaceBall } from '/features/games/placeball/view.js';
+  const nativeFetch = window.fetch.bind(window);
+  const campaign = await (await nativeFetch('/game/placeball/campaign.json')).json();
+  let scenario = 'loss';
+  window.fetch = async (input, options) => {
+    if (input !== '/game/placeball/campaign.json') return nativeFetch(input, options);
+    const fixture = structuredClone(campaign);
+    if (scenario !== 'original') {
+      const board = Array.from({ length: 26 }, () => Array(16).fill('00'));
+      board[0][0] = '01'; board[1][1] = '03';
+      board[2][1] = scenario === 'loss' ? '14' : '06';
+      if (scenario === 'loss') board[3][1] = '06';
+      fixture.levels = Array.from({ length: scenario === 'next' ? 2 : 1 }, (_, i) =>
+        ({ number: i + 1, columns: board.map(c => c.join('')) }));
+    }
+    return new Response(JSON.stringify(fixture), { headers: { 'Content-Type': 'application/json' } });
+  };
+  async function prepare(value) {
+    scenario = value;
+    const main = document.querySelector('main'); main.dispatchEvent(new Event('sceneleave'));
+    localStorage.setItem('adi4-placeball-v1', JSON.stringify({ version: 1, scores: [], speed: 5, sound: false }));
+    await renderPlaceBall(main);
+  }
+  for (const button of document.querySelectorAll('[data-case]')) button.onclick = () => prepare(button.dataset.case);
+  await prepare(scenario);
+</script></html>

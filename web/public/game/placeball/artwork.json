@@ -1,0 +1,107 @@
+{
+  "executableSha256": "1b322a9ea1fa876d3636c2a3858ac85f2ef5bbf3284c34b458fee3bb66cc65c6",
+  "images": {
+    "102": [
+      207,
+      70
+    ],
+    "103": [
+      110,
+      128
+    ],
+    "104": [
+      499,
+      24
+    ],
+    "105": [
+      640,
+      39
+    ],
+    "106": [
+      363,
+      363
+    ],
+    "107": [
+      121,
+      14
+    ]
+  },
+  "sounds": {
+    "103": "7090c5aaa906399f8511438650bc2eba4a2896e63370b5a5fc45c1b7a1611486",
+    "104": "c7b507ffacd14c65049325ecda29878c5d080cac19f1e2fab42cad9777a1bcd2",
+    "106": "72bcbf7e5ecfd8df902ecd1f5fa95fd823ab603885c2bd6eb1767a2052c17ad1",
+    "107": "7e3286304bb1dfbda88ba500a18dd75f2dbe8e85f64b8b618a867f9802ffdf55",
+    "108": "c7cfbe533d01fe62f2b97882b034a882e6a313faf12e464fbd1408b9a9e903fc",
+    "109": "c2bef943383d769c3907bf4cf9133549b6b897d7027e593333afa8343b596929",
+    "111": "63e312d87331483219d6a489b62530cc2feeb76322cf0a46134740f800511847"
+  },
+  "strings": {
+    "101": "You are here.",
+    "102": "Not Yet Implemented",
+    "103": "An unknown error has occurred.",
+    "104": "You may only run one copy of this program at a time.",
+    "301": "1.20F",
+    "302": "2",
+    "304": "Todd Michael Lewis",
+    "305": "Todd Michael Lewis",
+    "306": "1995-96",
+    "307": "PBWIN.HGH",
+    "401": "PBWIN.HGH",
+    "402": "...................",
+    "403": "???????",
+    "405": "XSorry, your score of %lu did not make the High Score List.  Better luck next time.",
+    "406": "XCongratulations !!!\nYour score qualifies you for the Secret Word:  ",
+    "407": "PBWIN.CFG",
+    "408": "?????",
+    "409": "??",
+    "500": "PlaceBall pour Windows",
+    "501": "J’ai déjà entendu sauve qui peut, mais...",
+    "502": "Aie ! Tu n’as plus aucune boule disponible ! Veux-tu essayer ce niveau encore une fois ?",
+    "503": "Fin de partie",
+    "504": "Ton score est insuffisant pour t’inscrire dans la liste des meilleurs scores.",
+    "505": "Une partie est en cours. Souhaites-tu recommencer  ?",
+    "506": "Confirmation d'une nouvelle partie",
+    "507": "Souhaites-tu interrompre cette partie ?",
+    "508": "Confirmation de la sortie",
+    "509": "Bonjour",
+    "510": "???",
+    "511": "Souhaites-tu interrompre cette partie ?",
+    "512": "Confirmation de fin de partie",
+    "513": "Es-tu sûr de vouloir recommencer ce niveau ?",
+    "514": "????",
+    "515": "Impossible de continuer PlaceBall à cause d’erreurs.",
+    "516": "Excuse...",
+    "519": "Les fichiers doivent comporter une extension .PBS.",
+    "520": "Due to file errors, a game of\nPlaceBall could not be started.",
+    "521": "Les fichiers doivent comporter une extension .PBS.",
+    "522": "A bientôt !!!!!",
+    "530": "A propos de",
+    "531": "Présente",
+    "532": "Annuler",
+    "533": "&Effacer",
+    "534": "OK",
+    "535": "Meilleurs scores",
+    "542": "Félicitations !",
+    "543": "Félicitations !\nTu entres dans les Meilleurs scores.\nSaisis ton nom ci-dessous.",
+    "544": "Saisie du meilleur score",
+    "545": "Softdisk Publishing est une marque déposée de Softdisk, Inc.",
+    "546": "dans\nla Collection des Logiciels Personnels de\nSoftdisk Publishing",
+    "547": "Programme ecrit par",
+    "550": "Bienvenue dans Place Ball !!",
+    "551": "PlaceBall a rencontré un problème avec ses routines de support de son. Par conséquent, le son est désactivé.  Si tu rencontres des problèmes avec le son dans d’autres applications, quitte et redémarre Windows.",
+    "600": "&Jeu",
+    "601": "&Nouvelle Partie\tCtrl+N",
+    "602": "&Abandonner la Partie\tCtrl+E",
+    "603": "Abdonner le &Niveau\tCtrl+R",
+    "604": "&Charger une Partie\tCtrl+O",
+    "605": "&Enregistrer une Partie\tCtrl+S",
+    "606": "&Quitter\tAlt+F4",
+    "610": "&Options",
+    "611": "&Musique",
+    "612": "&Son",
+    "616": "Afficher les &Meilleurs Scores",
+    "620": "&Aide",
+    "621": "Comment Utiliser &PlaceBall\tF1",
+    "622": "&A Propos de PlaceBall\tF9"
+  }
+}

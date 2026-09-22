@@ -1,0 +1,9269 @@
+{
+  "provenance": {
+    "executableSha256": "1b322a9ea1fa876d3636c2a3858ac85f2ef5bbf3284c34b458fee3bb66cc65c6",
+    "codeSegmentSha256": "ef8bc4c292934854da5df27d46b454efd34256ad0576811e8453d46f217390ea",
+    "routines": [
+      "1028:0efb",
+      "1028:1136",
+      "1028:0d9a",
+      "1028:12d1",
+      "1028:1096",
+      "1028:101e"
+    ],
+    "abi": "16-bit x86, far cdecl; CS=1000 DS=SS=6000; original unmodified segment 6",
+    "stubs": {
+      "1028:0e04": {
+        "argumentBytes": 0
+      },
+      "1028:0f6e": {
+        "argumentBytes": 0
+      },
+      "1028:11ab": {
+        "argumentBytes": 0
+      },
+      "1028:1341": {
+        "argumentBytes": 0
+      },
+      "1028:0f76": {
+        "argumentBytes": 2
+      },
+      "1028:0f81": {
+        "argumentBytes": 2
+      },
+      "1028:0f8d": {
+        "argumentBytes": 4
+      },
+      "1028:0faf": {
+        "argumentBytes": 20
+      },
+      "1028:0fb8": {
+        "argumentBytes": 4
+      },
+      "1028:0fbe": {
+        "argumentBytes": 2
+      },
+      "1028:0fc9": {
+        "argumentBytes": 4
+      }
+    },
+    "scope": "Collision instructions only; graphics and audio calls skipped; no native timing or window execution."
+  },
+  "cases": [
+    {
+      "input": {
+        "cell": 0,
+        "direction": 1,
+        "difficulty": 0,
+        "score": 0,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 0,
+        "direction": 1,
+        "score": 0,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 0,
+        "direction": 1,
+        "difficulty": 0,
+        "score": 65530,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 0,
+        "direction": 1,
+        "score": 65530,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 0,
+        "direction": 1,
+        "difficulty": 0,
+        "score": 4294967280,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 0,
+        "direction": 1,
+        "score": 4294967280,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 0,
+        "direction": 1,
+        "difficulty": 0,
+        "score": 91,
+        "misaligned": 1
+      },
+      "expected": {
+        "cell": 0,
+        "direction": 1,
+        "score": 91,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 0,
+        "direction": 1,
+        "difficulty": 1,
+        "score": 0,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 0,
+        "direction": 1,
+        "score": 0,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 0,
+        "direction": 1,
+        "difficulty": 1,
+        "score": 65530,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 0,
+        "direction": 1,
+        "score": 65530,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 0,
+        "direction": 1,
+        "difficulty": 1,
+        "score": 4294967280,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 0,
+        "direction": 1,
+        "score": 4294967280,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 0,
+        "direction": 1,
+        "difficulty": 1,
+        "score": 91,
+        "misaligned": 1
+      },
+      "expected": {
+        "cell": 0,
+        "direction": 1,
+        "score": 91,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 0,
+        "direction": 2,
+        "difficulty": 0,
+        "score": 0,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 0,
+        "direction": 2,
+        "score": 0,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 0,
+        "direction": 2,
+        "difficulty": 0,
+        "score": 65530,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 0,
+        "direction": 2,
+        "score": 65530,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 0,
+        "direction": 2,
+        "difficulty": 0,
+        "score": 4294967280,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 0,
+        "direction": 2,
+        "score": 4294967280,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 0,
+        "direction": 2,
+        "difficulty": 0,
+        "score": 91,
+        "misaligned": 1
+      },
+      "expected": {
+        "cell": 0,
+        "direction": 2,
+        "score": 91,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 0,
+        "direction": 2,
+        "difficulty": 1,
+        "score": 0,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 0,
+        "direction": 2,
+        "score": 0,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 0,
+        "direction": 2,
+        "difficulty": 1,
+        "score": 65530,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 0,
+        "direction": 2,
+        "score": 65530,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 0,
+        "direction": 2,
+        "difficulty": 1,
+        "score": 4294967280,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 0,
+        "direction": 2,
+        "score": 4294967280,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 0,
+        "direction": 2,
+        "difficulty": 1,
+        "score": 91,
+        "misaligned": 1
+      },
+      "expected": {
+        "cell": 0,
+        "direction": 2,
+        "score": 91,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 0,
+        "direction": 3,
+        "difficulty": 0,
+        "score": 0,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 0,
+        "direction": 3,
+        "score": 0,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 0,
+        "direction": 3,
+        "difficulty": 0,
+        "score": 65530,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 0,
+        "direction": 3,
+        "score": 65530,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 0,
+        "direction": 3,
+        "difficulty": 0,
+        "score": 4294967280,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 0,
+        "direction": 3,
+        "score": 4294967280,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 0,
+        "direction": 3,
+        "difficulty": 0,
+        "score": 91,
+        "misaligned": 1
+      },
+      "expected": {
+        "cell": 0,
+        "direction": 3,
+        "score": 91,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 0,
+        "direction": 3,
+        "difficulty": 1,
+        "score": 0,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 0,
+        "direction": 3,
+        "score": 0,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 0,
+        "direction": 3,
+        "difficulty": 1,
+        "score": 65530,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 0,
+        "direction": 3,
+        "score": 65530,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 0,
+        "direction": 3,
+        "difficulty": 1,
+        "score": 4294967280,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 0,
+        "direction": 3,
+        "score": 4294967280,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 0,
+        "direction": 3,
+        "difficulty": 1,
+        "score": 91,
+        "misaligned": 1
+      },
+      "expected": {
+        "cell": 0,
+        "direction": 3,
+        "score": 91,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 0,
+        "direction": 4,
+        "difficulty": 0,
+        "score": 0,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 0,
+        "direction": 4,
+        "score": 0,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 0,
+        "direction": 4,
+        "difficulty": 0,
+        "score": 65530,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 0,
+        "direction": 4,
+        "score": 65530,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 0,
+        "direction": 4,
+        "difficulty": 0,
+        "score": 4294967280,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 0,
+        "direction": 4,
+        "score": 4294967280,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 0,
+        "direction": 4,
+        "difficulty": 0,
+        "score": 91,
+        "misaligned": 1
+      },
+      "expected": {
+        "cell": 0,
+        "direction": 4,
+        "score": 91,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 0,
+        "direction": 4,
+        "difficulty": 1,
+        "score": 0,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 0,
+        "direction": 4,
+        "score": 0,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 0,
+        "direction": 4,
+        "difficulty": 1,
+        "score": 65530,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 0,
+        "direction": 4,
+        "score": 65530,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 0,
+        "direction": 4,
+        "difficulty": 1,
+        "score": 4294967280,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 0,
+        "direction": 4,
+        "score": 4294967280,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 0,
+        "direction": 4,
+        "difficulty": 1,
+        "score": 91,
+        "misaligned": 1
+      },
+      "expected": {
+        "cell": 0,
+        "direction": 4,
+        "score": 91,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 100,
+        "direction": 1,
+        "difficulty": 0,
+        "score": 0,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 0,
+        "direction": 1,
+        "score": 250,
+        "holes": 1,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 100,
+        "direction": 1,
+        "difficulty": 0,
+        "score": 65530,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 0,
+        "direction": 1,
+        "score": 65780,
+        "holes": 1,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 100,
+        "direction": 1,
+        "difficulty": 0,
+        "score": 4294967280,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 0,
+        "direction": 1,
+        "score": 234,
+        "holes": 1,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 100,
+        "direction": 1,
+        "difficulty": 0,
+        "score": 91,
+        "misaligned": 1
+      },
+      "expected": {
+        "cell": 100,
+        "direction": 1,
+        "score": 91,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 100,
+        "direction": 1,
+        "difficulty": 1,
+        "score": 0,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 0,
+        "direction": 1,
+        "score": 500,
+        "holes": 1,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 100,
+        "direction": 1,
+        "difficulty": 1,
+        "score": 65530,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 0,
+        "direction": 1,
+        "score": 66030,
+        "holes": 1,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 100,
+        "direction": 1,
+        "difficulty": 1,
+        "score": 4294967280,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 0,
+        "direction": 1,
+        "score": 484,
+        "holes": 1,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 100,
+        "direction": 1,
+        "difficulty": 1,
+        "score": 91,
+        "misaligned": 1
+      },
+      "expected": {
+        "cell": 100,
+        "direction": 1,
+        "score": 91,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 100,
+        "direction": 2,
+        "difficulty": 0,
+        "score": 0,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 0,
+        "direction": 2,
+        "score": 250,
+        "holes": 1,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 100,
+        "direction": 2,
+        "difficulty": 0,
+        "score": 65530,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 0,
+        "direction": 2,
+        "score": 65780,
+        "holes": 1,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 100,
+        "direction": 2,
+        "difficulty": 0,
+        "score": 4294967280,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 0,
+        "direction": 2,
+        "score": 234,
+        "holes": 1,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 100,
+        "direction": 2,
+        "difficulty": 0,
+        "score": 91,
+        "misaligned": 1
+      },
+      "expected": {
+        "cell": 100,
+        "direction": 2,
+        "score": 91,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 100,
+        "direction": 2,
+        "difficulty": 1,
+        "score": 0,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 0,
+        "direction": 2,
+        "score": 500,
+        "holes": 1,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 100,
+        "direction": 2,
+        "difficulty": 1,
+        "score": 65530,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 0,
+        "direction": 2,
+        "score": 66030,
+        "holes": 1,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 100,
+        "direction": 2,
+        "difficulty": 1,
+        "score": 4294967280,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 0,
+        "direction": 2,
+        "score": 484,
+        "holes": 1,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 100,
+        "direction": 2,
+        "difficulty": 1,
+        "score": 91,
+        "misaligned": 1
+      },
+      "expected": {
+        "cell": 100,
+        "direction": 2,
+        "score": 91,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 100,
+        "direction": 3,
+        "difficulty": 0,
+        "score": 0,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 0,
+        "direction": 3,
+        "score": 250,
+        "holes": 1,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 100,
+        "direction": 3,
+        "difficulty": 0,
+        "score": 65530,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 0,
+        "direction": 3,
+        "score": 65780,
+        "holes": 1,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 100,
+        "direction": 3,
+        "difficulty": 0,
+        "score": 4294967280,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 0,
+        "direction": 3,
+        "score": 234,
+        "holes": 1,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 100,
+        "direction": 3,
+        "difficulty": 0,
+        "score": 91,
+        "misaligned": 1
+      },
+      "expected": {
+        "cell": 100,
+        "direction": 3,
+        "score": 91,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 100,
+        "direction": 3,
+        "difficulty": 1,
+        "score": 0,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 0,
+        "direction": 3,
+        "score": 500,
+        "holes": 1,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 100,
+        "direction": 3,
+        "difficulty": 1,
+        "score": 65530,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 0,
+        "direction": 3,
+        "score": 66030,
+        "holes": 1,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 100,
+        "direction": 3,
+        "difficulty": 1,
+        "score": 4294967280,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 0,
+        "direction": 3,
+        "score": 484,
+        "holes": 1,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 100,
+        "direction": 3,
+        "difficulty": 1,
+        "score": 91,
+        "misaligned": 1
+      },
+      "expected": {
+        "cell": 100,
+        "direction": 3,
+        "score": 91,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 100,
+        "direction": 4,
+        "difficulty": 0,
+        "score": 0,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 0,
+        "direction": 4,
+        "score": 250,
+        "holes": 1,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 100,
+        "direction": 4,
+        "difficulty": 0,
+        "score": 65530,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 0,
+        "direction": 4,
+        "score": 65780,
+        "holes": 1,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 100,
+        "direction": 4,
+        "difficulty": 0,
+        "score": 4294967280,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 0,
+        "direction": 4,
+        "score": 234,
+        "holes": 1,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 100,
+        "direction": 4,
+        "difficulty": 0,
+        "score": 91,
+        "misaligned": 1
+      },
+      "expected": {
+        "cell": 100,
+        "direction": 4,
+        "score": 91,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 100,
+        "direction": 4,
+        "difficulty": 1,
+        "score": 0,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 0,
+        "direction": 4,
+        "score": 500,
+        "holes": 1,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 100,
+        "direction": 4,
+        "difficulty": 1,
+        "score": 65530,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 0,
+        "direction": 4,
+        "score": 66030,
+        "holes": 1,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 100,
+        "direction": 4,
+        "difficulty": 1,
+        "score": 4294967280,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 0,
+        "direction": 4,
+        "score": 484,
+        "holes": 1,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 100,
+        "direction": 4,
+        "difficulty": 1,
+        "score": 91,
+        "misaligned": 1
+      },
+      "expected": {
+        "cell": 100,
+        "direction": 4,
+        "score": 91,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 200,
+        "direction": 1,
+        "difficulty": 0,
+        "score": 0,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 201,
+        "direction": 4,
+        "score": 10,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 200,
+        "direction": 1,
+        "difficulty": 0,
+        "score": 65530,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 201,
+        "direction": 4,
+        "score": 65540,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 200,
+        "direction": 1,
+        "difficulty": 0,
+        "score": 4294967280,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 201,
+        "direction": 4,
+        "score": 4294967290,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 200,
+        "direction": 1,
+        "difficulty": 0,
+        "score": 91,
+        "misaligned": 1
+      },
+      "expected": {
+        "cell": 200,
+        "direction": 1,
+        "score": 91,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 200,
+        "direction": 1,
+        "difficulty": 1,
+        "score": 0,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 201,
+        "direction": 4,
+        "score": 20,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 200,
+        "direction": 1,
+        "difficulty": 1,
+        "score": 65530,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 201,
+        "direction": 4,
+        "score": 65550,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 200,
+        "direction": 1,
+        "difficulty": 1,
+        "score": 4294967280,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 201,
+        "direction": 4,
+        "score": 4,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 200,
+        "direction": 1,
+        "difficulty": 1,
+        "score": 91,
+        "misaligned": 1
+      },
+      "expected": {
+        "cell": 200,
+        "direction": 1,
+        "score": 91,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 200,
+        "direction": 2,
+        "difficulty": 0,
+        "score": 0,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 201,
+        "direction": 3,
+        "score": 10,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 200,
+        "direction": 2,
+        "difficulty": 0,
+        "score": 65530,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 201,
+        "direction": 3,
+        "score": 65540,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 200,
+        "direction": 2,
+        "difficulty": 0,
+        "score": 4294967280,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 201,
+        "direction": 3,
+        "score": 4294967290,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 200,
+        "direction": 2,
+        "difficulty": 0,
+        "score": 91,
+        "misaligned": 1
+      },
+      "expected": {
+        "cell": 200,
+        "direction": 2,
+        "score": 91,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 200,
+        "direction": 2,
+        "difficulty": 1,
+        "score": 0,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 201,
+        "direction": 3,
+        "score": 20,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 200,
+        "direction": 2,
+        "difficulty": 1,
+        "score": 65530,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 201,
+        "direction": 3,
+        "score": 65550,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 200,
+        "direction": 2,
+        "difficulty": 1,
+        "score": 4294967280,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 201,
+        "direction": 3,
+        "score": 4,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 200,
+        "direction": 2,
+        "difficulty": 1,
+        "score": 91,
+        "misaligned": 1
+      },
+      "expected": {
+        "cell": 200,
+        "direction": 2,
+        "score": 91,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 200,
+        "direction": 3,
+        "difficulty": 0,
+        "score": 0,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 201,
+        "direction": 2,
+        "score": 10,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 200,
+        "direction": 3,
+        "difficulty": 0,
+        "score": 65530,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 201,
+        "direction": 2,
+        "score": 65540,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 200,
+        "direction": 3,
+        "difficulty": 0,
+        "score": 4294967280,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 201,
+        "direction": 2,
+        "score": 4294967290,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 200,
+        "direction": 3,
+        "difficulty": 0,
+        "score": 91,
+        "misaligned": 1
+      },
+      "expected": {
+        "cell": 200,
+        "direction": 3,
+        "score": 91,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 200,
+        "direction": 3,
+        "difficulty": 1,
+        "score": 0,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 201,
+        "direction": 2,
+        "score": 20,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 200,
+        "direction": 3,
+        "difficulty": 1,
+        "score": 65530,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 201,
+        "direction": 2,
+        "score": 65550,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 200,
+        "direction": 3,
+        "difficulty": 1,
+        "score": 4294967280,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 201,
+        "direction": 2,
+        "score": 4,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 200,
+        "direction": 3,
+        "difficulty": 1,
+        "score": 91,
+        "misaligned": 1
+      },
+      "expected": {
+        "cell": 200,
+        "direction": 3,
+        "score": 91,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 200,
+        "direction": 4,
+        "difficulty": 0,
+        "score": 0,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 201,
+        "direction": 1,
+        "score": 10,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 200,
+        "direction": 4,
+        "difficulty": 0,
+        "score": 65530,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 201,
+        "direction": 1,
+        "score": 65540,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 200,
+        "direction": 4,
+        "difficulty": 0,
+        "score": 4294967280,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 201,
+        "direction": 1,
+        "score": 4294967290,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 200,
+        "direction": 4,
+        "difficulty": 0,
+        "score": 91,
+        "misaligned": 1
+      },
+      "expected": {
+        "cell": 200,
+        "direction": 4,
+        "score": 91,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 200,
+        "direction": 4,
+        "difficulty": 1,
+        "score": 0,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 201,
+        "direction": 1,
+        "score": 20,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 200,
+        "direction": 4,
+        "difficulty": 1,
+        "score": 65530,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 201,
+        "direction": 1,
+        "score": 65550,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 200,
+        "direction": 4,
+        "difficulty": 1,
+        "score": 4294967280,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 201,
+        "direction": 1,
+        "score": 4,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 200,
+        "direction": 4,
+        "difficulty": 1,
+        "score": 91,
+        "misaligned": 1
+      },
+      "expected": {
+        "cell": 200,
+        "direction": 4,
+        "score": 91,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 201,
+        "direction": 1,
+        "difficulty": 0,
+        "score": 0,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 200,
+        "direction": 2,
+        "score": 10,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 201,
+        "direction": 1,
+        "difficulty": 0,
+        "score": 65530,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 200,
+        "direction": 2,
+        "score": 65540,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 201,
+        "direction": 1,
+        "difficulty": 0,
+        "score": 4294967280,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 200,
+        "direction": 2,
+        "score": 4294967290,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 201,
+        "direction": 1,
+        "difficulty": 0,
+        "score": 91,
+        "misaligned": 1
+      },
+      "expected": {
+        "cell": 201,
+        "direction": 1,
+        "score": 91,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 201,
+        "direction": 1,
+        "difficulty": 1,
+        "score": 0,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 200,
+        "direction": 2,
+        "score": 20,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 201,
+        "direction": 1,
+        "difficulty": 1,
+        "score": 65530,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 200,
+        "direction": 2,
+        "score": 65550,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 201,
+        "direction": 1,
+        "difficulty": 1,
+        "score": 4294967280,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 200,
+        "direction": 2,
+        "score": 4,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 201,
+        "direction": 1,
+        "difficulty": 1,
+        "score": 91,
+        "misaligned": 1
+      },
+      "expected": {
+        "cell": 201,
+        "direction": 1,
+        "score": 91,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 201,
+        "direction": 2,
+        "difficulty": 0,
+        "score": 0,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 200,
+        "direction": 1,
+        "score": 10,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 201,
+        "direction": 2,
+        "difficulty": 0,
+        "score": 65530,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 200,
+        "direction": 1,
+        "score": 65540,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 201,
+        "direction": 2,
+        "difficulty": 0,
+        "score": 4294967280,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 200,
+        "direction": 1,
+        "score": 4294967290,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 201,
+        "direction": 2,
+        "difficulty": 0,
+        "score": 91,
+        "misaligned": 1
+      },
+      "expected": {
+        "cell": 201,
+        "direction": 2,
+        "score": 91,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 201,
+        "direction": 2,
+        "difficulty": 1,
+        "score": 0,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 200,
+        "direction": 1,
+        "score": 20,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 201,
+        "direction": 2,
+        "difficulty": 1,
+        "score": 65530,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 200,
+        "direction": 1,
+        "score": 65550,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 201,
+        "direction": 2,
+        "difficulty": 1,
+        "score": 4294967280,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 200,
+        "direction": 1,
+        "score": 4,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 201,
+        "direction": 2,
+        "difficulty": 1,
+        "score": 91,
+        "misaligned": 1
+      },
+      "expected": {
+        "cell": 201,
+        "direction": 2,
+        "score": 91,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 201,
+        "direction": 3,
+        "difficulty": 0,
+        "score": 0,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 200,
+        "direction": 4,
+        "score": 10,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 201,
+        "direction": 3,
+        "difficulty": 0,
+        "score": 65530,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 200,
+        "direction": 4,
+        "score": 65540,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 201,
+        "direction": 3,
+        "difficulty": 0,
+        "score": 4294967280,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 200,
+        "direction": 4,
+        "score": 4294967290,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 201,
+        "direction": 3,
+        "difficulty": 0,
+        "score": 91,
+        "misaligned": 1
+      },
+      "expected": {
+        "cell": 201,
+        "direction": 3,
+        "score": 91,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 201,
+        "direction": 3,
+        "difficulty": 1,
+        "score": 0,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 200,
+        "direction": 4,
+        "score": 20,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 201,
+        "direction": 3,
+        "difficulty": 1,
+        "score": 65530,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 200,
+        "direction": 4,
+        "score": 65550,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 201,
+        "direction": 3,
+        "difficulty": 1,
+        "score": 4294967280,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 200,
+        "direction": 4,
+        "score": 4,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 201,
+        "direction": 3,
+        "difficulty": 1,
+        "score": 91,
+        "misaligned": 1
+      },
+      "expected": {
+        "cell": 201,
+        "direction": 3,
+        "score": 91,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 201,
+        "direction": 4,
+        "difficulty": 0,
+        "score": 0,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 200,
+        "direction": 3,
+        "score": 10,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 201,
+        "direction": 4,
+        "difficulty": 0,
+        "score": 65530,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 200,
+        "direction": 3,
+        "score": 65540,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 201,
+        "direction": 4,
+        "difficulty": 0,
+        "score": 4294967280,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 200,
+        "direction": 3,
+        "score": 4294967290,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 201,
+        "direction": 4,
+        "difficulty": 0,
+        "score": 91,
+        "misaligned": 1
+      },
+      "expected": {
+        "cell": 201,
+        "direction": 4,
+        "score": 91,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 201,
+        "direction": 4,
+        "difficulty": 1,
+        "score": 0,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 200,
+        "direction": 3,
+        "score": 20,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 201,
+        "direction": 4,
+        "difficulty": 1,
+        "score": 65530,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 200,
+        "direction": 3,
+        "score": 65550,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 201,
+        "direction": 4,
+        "difficulty": 1,
+        "score": 4294967280,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 200,
+        "direction": 3,
+        "score": 4,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 201,
+        "direction": 4,
+        "difficulty": 1,
+        "score": 91,
+        "misaligned": 1
+      },
+      "expected": {
+        "cell": 201,
+        "direction": 4,
+        "score": 91,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 300,
+        "direction": 1,
+        "difficulty": 0,
+        "score": 0,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 0,
+        "direction": 1,
+        "score": 0,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 300,
+        "direction": 1,
+        "difficulty": 0,
+        "score": 65530,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 0,
+        "direction": 1,
+        "score": 65530,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 300,
+        "direction": 1,
+        "difficulty": 0,
+        "score": 4294967280,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 0,
+        "direction": 1,
+        "score": 4294967280,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 300,
+        "direction": 1,
+        "difficulty": 0,
+        "score": 91,
+        "misaligned": 1
+      },
+      "expected": {
+        "cell": 300,
+        "direction": 1,
+        "score": 91,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 300,
+        "direction": 1,
+        "difficulty": 1,
+        "score": 0,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 0,
+        "direction": 1,
+        "score": 0,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 300,
+        "direction": 1,
+        "difficulty": 1,
+        "score": 65530,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 0,
+        "direction": 1,
+        "score": 65530,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 300,
+        "direction": 1,
+        "difficulty": 1,
+        "score": 4294967280,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 0,
+        "direction": 1,
+        "score": 4294967280,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 300,
+        "direction": 1,
+        "difficulty": 1,
+        "score": 91,
+        "misaligned": 1
+      },
+      "expected": {
+        "cell": 300,
+        "direction": 1,
+        "score": 91,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 300,
+        "direction": 2,
+        "difficulty": 0,
+        "score": 0,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 0,
+        "direction": 2,
+        "score": 0,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 300,
+        "direction": 2,
+        "difficulty": 0,
+        "score": 65530,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 0,
+        "direction": 2,
+        "score": 65530,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 300,
+        "direction": 2,
+        "difficulty": 0,
+        "score": 4294967280,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 0,
+        "direction": 2,
+        "score": 4294967280,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 300,
+        "direction": 2,
+        "difficulty": 0,
+        "score": 91,
+        "misaligned": 1
+      },
+      "expected": {
+        "cell": 300,
+        "direction": 2,
+        "score": 91,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 300,
+        "direction": 2,
+        "difficulty": 1,
+        "score": 0,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 0,
+        "direction": 2,
+        "score": 0,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 300,
+        "direction": 2,
+        "difficulty": 1,
+        "score": 65530,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 0,
+        "direction": 2,
+        "score": 65530,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 300,
+        "direction": 2,
+        "difficulty": 1,
+        "score": 4294967280,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 0,
+        "direction": 2,
+        "score": 4294967280,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 300,
+        "direction": 2,
+        "difficulty": 1,
+        "score": 91,
+        "misaligned": 1
+      },
+      "expected": {
+        "cell": 300,
+        "direction": 2,
+        "score": 91,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 300,
+        "direction": 3,
+        "difficulty": 0,
+        "score": 0,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 0,
+        "direction": 3,
+        "score": 0,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 300,
+        "direction": 3,
+        "difficulty": 0,
+        "score": 65530,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 0,
+        "direction": 3,
+        "score": 65530,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 300,
+        "direction": 3,
+        "difficulty": 0,
+        "score": 4294967280,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 0,
+        "direction": 3,
+        "score": 4294967280,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 300,
+        "direction": 3,
+        "difficulty": 0,
+        "score": 91,
+        "misaligned": 1
+      },
+      "expected": {
+        "cell": 300,
+        "direction": 3,
+        "score": 91,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 300,
+        "direction": 3,
+        "difficulty": 1,
+        "score": 0,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 0,
+        "direction": 3,
+        "score": 0,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 300,
+        "direction": 3,
+        "difficulty": 1,
+        "score": 65530,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 0,
+        "direction": 3,
+        "score": 65530,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 300,
+        "direction": 3,
+        "difficulty": 1,
+        "score": 4294967280,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 0,
+        "direction": 3,
+        "score": 4294967280,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 300,
+        "direction": 3,
+        "difficulty": 1,
+        "score": 91,
+        "misaligned": 1
+      },
+      "expected": {
+        "cell": 300,
+        "direction": 3,
+        "score": 91,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 300,
+        "direction": 4,
+        "difficulty": 0,
+        "score": 0,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 0,
+        "direction": 4,
+        "score": 0,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 300,
+        "direction": 4,
+        "difficulty": 0,
+        "score": 65530,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 0,
+        "direction": 4,
+        "score": 65530,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 300,
+        "direction": 4,
+        "difficulty": 0,
+        "score": 4294967280,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 0,
+        "direction": 4,
+        "score": 4294967280,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 300,
+        "direction": 4,
+        "difficulty": 0,
+        "score": 91,
+        "misaligned": 1
+      },
+      "expected": {
+        "cell": 300,
+        "direction": 4,
+        "score": 91,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 300,
+        "direction": 4,
+        "difficulty": 1,
+        "score": 0,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 0,
+        "direction": 4,
+        "score": 0,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 300,
+        "direction": 4,
+        "difficulty": 1,
+        "score": 65530,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 0,
+        "direction": 4,
+        "score": 65530,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 300,
+        "direction": 4,
+        "difficulty": 1,
+        "score": 4294967280,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 0,
+        "direction": 4,
+        "score": 4294967280,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 300,
+        "direction": 4,
+        "difficulty": 1,
+        "score": 91,
+        "misaligned": 1
+      },
+      "expected": {
+        "cell": 300,
+        "direction": 4,
+        "score": 91,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 301,
+        "direction": 1,
+        "difficulty": 0,
+        "score": 0,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 0,
+        "direction": 1,
+        "score": 0,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 301,
+        "direction": 1,
+        "difficulty": 0,
+        "score": 65530,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 0,
+        "direction": 1,
+        "score": 65530,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 301,
+        "direction": 1,
+        "difficulty": 0,
+        "score": 4294967280,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 0,
+        "direction": 1,
+        "score": 4294967280,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 301,
+        "direction": 1,
+        "difficulty": 0,
+        "score": 91,
+        "misaligned": 1
+      },
+      "expected": {
+        "cell": 301,
+        "direction": 1,
+        "score": 91,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 301,
+        "direction": 1,
+        "difficulty": 1,
+        "score": 0,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 0,
+        "direction": 1,
+        "score": 0,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 301,
+        "direction": 1,
+        "difficulty": 1,
+        "score": 65530,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 0,
+        "direction": 1,
+        "score": 65530,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 301,
+        "direction": 1,
+        "difficulty": 1,
+        "score": 4294967280,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 0,
+        "direction": 1,
+        "score": 4294967280,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 301,
+        "direction": 1,
+        "difficulty": 1,
+        "score": 91,
+        "misaligned": 1
+      },
+      "expected": {
+        "cell": 301,
+        "direction": 1,
+        "score": 91,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 301,
+        "direction": 2,
+        "difficulty": 0,
+        "score": 0,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 0,
+        "direction": 2,
+        "score": 0,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 301,
+        "direction": 2,
+        "difficulty": 0,
+        "score": 65530,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 0,
+        "direction": 2,
+        "score": 65530,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 301,
+        "direction": 2,
+        "difficulty": 0,
+        "score": 4294967280,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 0,
+        "direction": 2,
+        "score": 4294967280,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 301,
+        "direction": 2,
+        "difficulty": 0,
+        "score": 91,
+        "misaligned": 1
+      },
+      "expected": {
+        "cell": 301,
+        "direction": 2,
+        "score": 91,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 301,
+        "direction": 2,
+        "difficulty": 1,
+        "score": 0,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 0,
+        "direction": 2,
+        "score": 0,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 301,
+        "direction": 2,
+        "difficulty": 1,
+        "score": 65530,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 0,
+        "direction": 2,
+        "score": 65530,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 301,
+        "direction": 2,
+        "difficulty": 1,
+        "score": 4294967280,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 0,
+        "direction": 2,
+        "score": 4294967280,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 301,
+        "direction": 2,
+        "difficulty": 1,
+        "score": 91,
+        "misaligned": 1
+      },
+      "expected": {
+        "cell": 301,
+        "direction": 2,
+        "score": 91,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 301,
+        "direction": 3,
+        "difficulty": 0,
+        "score": 0,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 0,
+        "direction": 3,
+        "score": 0,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 301,
+        "direction": 3,
+        "difficulty": 0,
+        "score": 65530,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 0,
+        "direction": 3,
+        "score": 65530,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 301,
+        "direction": 3,
+        "difficulty": 0,
+        "score": 4294967280,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 0,
+        "direction": 3,
+        "score": 4294967280,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 301,
+        "direction": 3,
+        "difficulty": 0,
+        "score": 91,
+        "misaligned": 1
+      },
+      "expected": {
+        "cell": 301,
+        "direction": 3,
+        "score": 91,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 301,
+        "direction": 3,
+        "difficulty": 1,
+        "score": 0,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 0,
+        "direction": 3,
+        "score": 0,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 301,
+        "direction": 3,
+        "difficulty": 1,
+        "score": 65530,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 0,
+        "direction": 3,
+        "score": 65530,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 301,
+        "direction": 3,
+        "difficulty": 1,
+        "score": 4294967280,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 0,
+        "direction": 3,
+        "score": 4294967280,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 301,
+        "direction": 3,
+        "difficulty": 1,
+        "score": 91,
+        "misaligned": 1
+      },
+      "expected": {
+        "cell": 301,
+        "direction": 3,
+        "score": 91,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 301,
+        "direction": 4,
+        "difficulty": 0,
+        "score": 0,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 0,
+        "direction": 4,
+        "score": 0,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 301,
+        "direction": 4,
+        "difficulty": 0,
+        "score": 65530,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 0,
+        "direction": 4,
+        "score": 65530,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 301,
+        "direction": 4,
+        "difficulty": 0,
+        "score": 4294967280,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 0,
+        "direction": 4,
+        "score": 4294967280,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 301,
+        "direction": 4,
+        "difficulty": 0,
+        "score": 91,
+        "misaligned": 1
+      },
+      "expected": {
+        "cell": 301,
+        "direction": 4,
+        "score": 91,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 301,
+        "direction": 4,
+        "difficulty": 1,
+        "score": 0,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 0,
+        "direction": 4,
+        "score": 0,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 301,
+        "direction": 4,
+        "difficulty": 1,
+        "score": 65530,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 0,
+        "direction": 4,
+        "score": 65530,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 301,
+        "direction": 4,
+        "difficulty": 1,
+        "score": 4294967280,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 0,
+        "direction": 4,
+        "score": 4294967280,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 301,
+        "direction": 4,
+        "difficulty": 1,
+        "score": 91,
+        "misaligned": 1
+      },
+      "expected": {
+        "cell": 301,
+        "direction": 4,
+        "score": 91,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 400,
+        "direction": 1,
+        "difficulty": 0,
+        "score": 0,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 400,
+        "direction": 1,
+        "score": 0,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 400,
+        "direction": 1,
+        "difficulty": 0,
+        "score": 65530,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 400,
+        "direction": 1,
+        "score": 65530,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 400,
+        "direction": 1,
+        "difficulty": 0,
+        "score": 4294967280,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 400,
+        "direction": 1,
+        "score": 4294967280,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 400,
+        "direction": 1,
+        "difficulty": 0,
+        "score": 91,
+        "misaligned": 1
+      },
+      "expected": {
+        "cell": 400,
+        "direction": 1,
+        "score": 91,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 400,
+        "direction": 1,
+        "difficulty": 1,
+        "score": 0,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 400,
+        "direction": 1,
+        "score": 0,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 400,
+        "direction": 1,
+        "difficulty": 1,
+        "score": 65530,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 400,
+        "direction": 1,
+        "score": 65530,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 400,
+        "direction": 1,
+        "difficulty": 1,
+        "score": 4294967280,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 400,
+        "direction": 1,
+        "score": 4294967280,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 400,
+        "direction": 1,
+        "difficulty": 1,
+        "score": 91,
+        "misaligned": 1
+      },
+      "expected": {
+        "cell": 400,
+        "direction": 1,
+        "score": 91,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 400,
+        "direction": 2,
+        "difficulty": 0,
+        "score": 0,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 400,
+        "direction": 2,
+        "score": 0,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 400,
+        "direction": 2,
+        "difficulty": 0,
+        "score": 65530,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 400,
+        "direction": 2,
+        "score": 65530,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 400,
+        "direction": 2,
+        "difficulty": 0,
+        "score": 4294967280,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 400,
+        "direction": 2,
+        "score": 4294967280,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 400,
+        "direction": 2,
+        "difficulty": 0,
+        "score": 91,
+        "misaligned": 1
+      },
+      "expected": {
+        "cell": 400,
+        "direction": 2,
+        "score": 91,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 400,
+        "direction": 2,
+        "difficulty": 1,
+        "score": 0,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 400,
+        "direction": 2,
+        "score": 0,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 400,
+        "direction": 2,
+        "difficulty": 1,
+        "score": 65530,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 400,
+        "direction": 2,
+        "score": 65530,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 400,
+        "direction": 2,
+        "difficulty": 1,
+        "score": 4294967280,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 400,
+        "direction": 2,
+        "score": 4294967280,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 400,
+        "direction": 2,
+        "difficulty": 1,
+        "score": 91,
+        "misaligned": 1
+      },
+      "expected": {
+        "cell": 400,
+        "direction": 2,
+        "score": 91,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 400,
+        "direction": 3,
+        "difficulty": 0,
+        "score": 0,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 400,
+        "direction": 3,
+        "score": 0,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 400,
+        "direction": 3,
+        "difficulty": 0,
+        "score": 65530,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 400,
+        "direction": 3,
+        "score": 65530,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 400,
+        "direction": 3,
+        "difficulty": 0,
+        "score": 4294967280,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 400,
+        "direction": 3,
+        "score": 4294967280,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 400,
+        "direction": 3,
+        "difficulty": 0,
+        "score": 91,
+        "misaligned": 1
+      },
+      "expected": {
+        "cell": 400,
+        "direction": 3,
+        "score": 91,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 400,
+        "direction": 3,
+        "difficulty": 1,
+        "score": 0,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 400,
+        "direction": 3,
+        "score": 0,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 400,
+        "direction": 3,
+        "difficulty": 1,
+        "score": 65530,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 400,
+        "direction": 3,
+        "score": 65530,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 400,
+        "direction": 3,
+        "difficulty": 1,
+        "score": 4294967280,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 400,
+        "direction": 3,
+        "score": 4294967280,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 400,
+        "direction": 3,
+        "difficulty": 1,
+        "score": 91,
+        "misaligned": 1
+      },
+      "expected": {
+        "cell": 400,
+        "direction": 3,
+        "score": 91,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 400,
+        "direction": 4,
+        "difficulty": 0,
+        "score": 0,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 400,
+        "direction": 4,
+        "score": 0,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 400,
+        "direction": 4,
+        "difficulty": 0,
+        "score": 65530,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 400,
+        "direction": 4,
+        "score": 65530,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 400,
+        "direction": 4,
+        "difficulty": 0,
+        "score": 4294967280,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 400,
+        "direction": 4,
+        "score": 4294967280,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 400,
+        "direction": 4,
+        "difficulty": 0,
+        "score": 91,
+        "misaligned": 1
+      },
+      "expected": {
+        "cell": 400,
+        "direction": 4,
+        "score": 91,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 400,
+        "direction": 4,
+        "difficulty": 1,
+        "score": 0,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 400,
+        "direction": 4,
+        "score": 0,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 400,
+        "direction": 4,
+        "difficulty": 1,
+        "score": 65530,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 400,
+        "direction": 4,
+        "score": 65530,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 400,
+        "direction": 4,
+        "difficulty": 1,
+        "score": 4294967280,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 400,
+        "direction": 4,
+        "score": 4294967280,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 400,
+        "direction": 4,
+        "difficulty": 1,
+        "score": 91,
+        "misaligned": 1
+      },
+      "expected": {
+        "cell": 400,
+        "direction": 4,
+        "score": 91,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 401,
+        "direction": 1,
+        "difficulty": 0,
+        "score": 0,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 401,
+        "direction": 1,
+        "score": 0,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 401,
+        "direction": 1,
+        "difficulty": 0,
+        "score": 65530,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 401,
+        "direction": 1,
+        "score": 65530,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 401,
+        "direction": 1,
+        "difficulty": 0,
+        "score": 4294967280,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 401,
+        "direction": 1,
+        "score": 4294967280,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 401,
+        "direction": 1,
+        "difficulty": 0,
+        "score": 91,
+        "misaligned": 1
+      },
+      "expected": {
+        "cell": 401,
+        "direction": 1,
+        "score": 91,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 401,
+        "direction": 1,
+        "difficulty": 1,
+        "score": 0,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 401,
+        "direction": 1,
+        "score": 0,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 401,
+        "direction": 1,
+        "difficulty": 1,
+        "score": 65530,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 401,
+        "direction": 1,
+        "score": 65530,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 401,
+        "direction": 1,
+        "difficulty": 1,
+        "score": 4294967280,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 401,
+        "direction": 1,
+        "score": 4294967280,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 401,
+        "direction": 1,
+        "difficulty": 1,
+        "score": 91,
+        "misaligned": 1
+      },
+      "expected": {
+        "cell": 401,
+        "direction": 1,
+        "score": 91,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 401,
+        "direction": 2,
+        "difficulty": 0,
+        "score": 0,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 401,
+        "direction": 2,
+        "score": 0,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 401,
+        "direction": 2,
+        "difficulty": 0,
+        "score": 65530,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 401,
+        "direction": 2,
+        "score": 65530,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 401,
+        "direction": 2,
+        "difficulty": 0,
+        "score": 4294967280,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 401,
+        "direction": 2,
+        "score": 4294967280,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 401,
+        "direction": 2,
+        "difficulty": 0,
+        "score": 91,
+        "misaligned": 1
+      },
+      "expected": {
+        "cell": 401,
+        "direction": 2,
+        "score": 91,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 401,
+        "direction": 2,
+        "difficulty": 1,
+        "score": 0,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 401,
+        "direction": 2,
+        "score": 0,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 401,
+        "direction": 2,
+        "difficulty": 1,
+        "score": 65530,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 401,
+        "direction": 2,
+        "score": 65530,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 401,
+        "direction": 2,
+        "difficulty": 1,
+        "score": 4294967280,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 401,
+        "direction": 2,
+        "score": 4294967280,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 401,
+        "direction": 2,
+        "difficulty": 1,
+        "score": 91,
+        "misaligned": 1
+      },
+      "expected": {
+        "cell": 401,
+        "direction": 2,
+        "score": 91,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 401,
+        "direction": 3,
+        "difficulty": 0,
+        "score": 0,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 401,
+        "direction": 3,
+        "score": 0,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 401,
+        "direction": 3,
+        "difficulty": 0,
+        "score": 65530,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 401,
+        "direction": 3,
+        "score": 65530,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 401,
+        "direction": 3,
+        "difficulty": 0,
+        "score": 4294967280,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 401,
+        "direction": 3,
+        "score": 4294967280,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 401,
+        "direction": 3,
+        "difficulty": 0,
+        "score": 91,
+        "misaligned": 1
+      },
+      "expected": {
+        "cell": 401,
+        "direction": 3,
+        "score": 91,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 401,
+        "direction": 3,
+        "difficulty": 1,
+        "score": 0,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 401,
+        "direction": 3,
+        "score": 0,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 401,
+        "direction": 3,
+        "difficulty": 1,
+        "score": 65530,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 401,
+        "direction": 3,
+        "score": 65530,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 401,
+        "direction": 3,
+        "difficulty": 1,
+        "score": 4294967280,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 401,
+        "direction": 3,
+        "score": 4294967280,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 401,
+        "direction": 3,
+        "difficulty": 1,
+        "score": 91,
+        "misaligned": 1
+      },
+      "expected": {
+        "cell": 401,
+        "direction": 3,
+        "score": 91,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 401,
+        "direction": 4,
+        "difficulty": 0,
+        "score": 0,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 401,
+        "direction": 4,
+        "score": 0,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 401,
+        "direction": 4,
+        "difficulty": 0,
+        "score": 65530,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 401,
+        "direction": 4,
+        "score": 65530,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 401,
+        "direction": 4,
+        "difficulty": 0,
+        "score": 4294967280,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 401,
+        "direction": 4,
+        "score": 4294967280,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 401,
+        "direction": 4,
+        "difficulty": 0,
+        "score": 91,
+        "misaligned": 1
+      },
+      "expected": {
+        "cell": 401,
+        "direction": 4,
+        "score": 91,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 401,
+        "direction": 4,
+        "difficulty": 1,
+        "score": 0,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 401,
+        "direction": 4,
+        "score": 0,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 401,
+        "direction": 4,
+        "difficulty": 1,
+        "score": 65530,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 401,
+        "direction": 4,
+        "score": 65530,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 401,
+        "direction": 4,
+        "difficulty": 1,
+        "score": 4294967280,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 401,
+        "direction": 4,
+        "score": 4294967280,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 401,
+        "direction": 4,
+        "difficulty": 1,
+        "score": 91,
+        "misaligned": 1
+      },
+      "expected": {
+        "cell": 401,
+        "direction": 4,
+        "score": 91,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 402,
+        "direction": 1,
+        "difficulty": 0,
+        "score": 0,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 402,
+        "direction": 1,
+        "score": 0,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 402,
+        "direction": 1,
+        "difficulty": 0,
+        "score": 65530,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 402,
+        "direction": 1,
+        "score": 65530,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 402,
+        "direction": 1,
+        "difficulty": 0,
+        "score": 4294967280,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 402,
+        "direction": 1,
+        "score": 4294967280,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 402,
+        "direction": 1,
+        "difficulty": 0,
+        "score": 91,
+        "misaligned": 1
+      },
+      "expected": {
+        "cell": 402,
+        "direction": 1,
+        "score": 91,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 402,
+        "direction": 1,
+        "difficulty": 1,
+        "score": 0,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 402,
+        "direction": 1,
+        "score": 0,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 402,
+        "direction": 1,
+        "difficulty": 1,
+        "score": 65530,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 402,
+        "direction": 1,
+        "score": 65530,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 402,
+        "direction": 1,
+        "difficulty": 1,
+        "score": 4294967280,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 402,
+        "direction": 1,
+        "score": 4294967280,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 402,
+        "direction": 1,
+        "difficulty": 1,
+        "score": 91,
+        "misaligned": 1
+      },
+      "expected": {
+        "cell": 402,
+        "direction": 1,
+        "score": 91,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 402,
+        "direction": 2,
+        "difficulty": 0,
+        "score": 0,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 402,
+        "direction": 2,
+        "score": 0,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 402,
+        "direction": 2,
+        "difficulty": 0,
+        "score": 65530,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 402,
+        "direction": 2,
+        "score": 65530,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 402,
+        "direction": 2,
+        "difficulty": 0,
+        "score": 4294967280,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 402,
+        "direction": 2,
+        "score": 4294967280,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 402,
+        "direction": 2,
+        "difficulty": 0,
+        "score": 91,
+        "misaligned": 1
+      },
+      "expected": {
+        "cell": 402,
+        "direction": 2,
+        "score": 91,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 402,
+        "direction": 2,
+        "difficulty": 1,
+        "score": 0,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 402,
+        "direction": 2,
+        "score": 0,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 402,
+        "direction": 2,
+        "difficulty": 1,
+        "score": 65530,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 402,
+        "direction": 2,
+        "score": 65530,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 402,
+        "direction": 2,
+        "difficulty": 1,
+        "score": 4294967280,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 402,
+        "direction": 2,
+        "score": 4294967280,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 402,
+        "direction": 2,
+        "difficulty": 1,
+        "score": 91,
+        "misaligned": 1
+      },
+      "expected": {
+        "cell": 402,
+        "direction": 2,
+        "score": 91,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 402,
+        "direction": 3,
+        "difficulty": 0,
+        "score": 0,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 402,
+        "direction": 3,
+        "score": 0,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 402,
+        "direction": 3,
+        "difficulty": 0,
+        "score": 65530,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 402,
+        "direction": 3,
+        "score": 65530,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 402,
+        "direction": 3,
+        "difficulty": 0,
+        "score": 4294967280,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 402,
+        "direction": 3,
+        "score": 4294967280,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 402,
+        "direction": 3,
+        "difficulty": 0,
+        "score": 91,
+        "misaligned": 1
+      },
+      "expected": {
+        "cell": 402,
+        "direction": 3,
+        "score": 91,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 402,
+        "direction": 3,
+        "difficulty": 1,
+        "score": 0,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 402,
+        "direction": 3,
+        "score": 0,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 402,
+        "direction": 3,
+        "difficulty": 1,
+        "score": 65530,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 402,
+        "direction": 3,
+        "score": 65530,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 402,
+        "direction": 3,
+        "difficulty": 1,
+        "score": 4294967280,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 402,
+        "direction": 3,
+        "score": 4294967280,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 402,
+        "direction": 3,
+        "difficulty": 1,
+        "score": 91,
+        "misaligned": 1
+      },
+      "expected": {
+        "cell": 402,
+        "direction": 3,
+        "score": 91,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 402,
+        "direction": 4,
+        "difficulty": 0,
+        "score": 0,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 402,
+        "direction": 4,
+        "score": 0,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 402,
+        "direction": 4,
+        "difficulty": 0,
+        "score": 65530,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 402,
+        "direction": 4,
+        "score": 65530,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 402,
+        "direction": 4,
+        "difficulty": 0,
+        "score": 4294967280,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 402,
+        "direction": 4,
+        "score": 4294967280,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 402,
+        "direction": 4,
+        "difficulty": 0,
+        "score": 91,
+        "misaligned": 1
+      },
+      "expected": {
+        "cell": 402,
+        "direction": 4,
+        "score": 91,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 402,
+        "direction": 4,
+        "difficulty": 1,
+        "score": 0,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 402,
+        "direction": 4,
+        "score": 0,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 402,
+        "direction": 4,
+        "difficulty": 1,
+        "score": 65530,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 402,
+        "direction": 4,
+        "score": 65530,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 402,
+        "direction": 4,
+        "difficulty": 1,
+        "score": 4294967280,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 402,
+        "direction": 4,
+        "score": 4294967280,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 402,
+        "direction": 4,
+        "difficulty": 1,
+        "score": 91,
+        "misaligned": 1
+      },
+      "expected": {
+        "cell": 402,
+        "direction": 4,
+        "score": 91,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 403,
+        "direction": 1,
+        "difficulty": 0,
+        "score": 0,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 403,
+        "direction": 1,
+        "score": 0,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 403,
+        "direction": 1,
+        "difficulty": 0,
+        "score": 65530,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 403,
+        "direction": 1,
+        "score": 65530,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 403,
+        "direction": 1,
+        "difficulty": 0,
+        "score": 4294967280,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 403,
+        "direction": 1,
+        "score": 4294967280,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 403,
+        "direction": 1,
+        "difficulty": 0,
+        "score": 91,
+        "misaligned": 1
+      },
+      "expected": {
+        "cell": 403,
+        "direction": 1,
+        "score": 91,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 403,
+        "direction": 1,
+        "difficulty": 1,
+        "score": 0,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 403,
+        "direction": 1,
+        "score": 0,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 403,
+        "direction": 1,
+        "difficulty": 1,
+        "score": 65530,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 403,
+        "direction": 1,
+        "score": 65530,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 403,
+        "direction": 1,
+        "difficulty": 1,
+        "score": 4294967280,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 403,
+        "direction": 1,
+        "score": 4294967280,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 403,
+        "direction": 1,
+        "difficulty": 1,
+        "score": 91,
+        "misaligned": 1
+      },
+      "expected": {
+        "cell": 403,
+        "direction": 1,
+        "score": 91,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 403,
+        "direction": 2,
+        "difficulty": 0,
+        "score": 0,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 403,
+        "direction": 2,
+        "score": 0,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 403,
+        "direction": 2,
+        "difficulty": 0,
+        "score": 65530,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 403,
+        "direction": 2,
+        "score": 65530,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 403,
+        "direction": 2,
+        "difficulty": 0,
+        "score": 4294967280,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 403,
+        "direction": 2,
+        "score": 4294967280,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 403,
+        "direction": 2,
+        "difficulty": 0,
+        "score": 91,
+        "misaligned": 1
+      },
+      "expected": {
+        "cell": 403,
+        "direction": 2,
+        "score": 91,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 403,
+        "direction": 2,
+        "difficulty": 1,
+        "score": 0,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 403,
+        "direction": 2,
+        "score": 0,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 403,
+        "direction": 2,
+        "difficulty": 1,
+        "score": 65530,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 403,
+        "direction": 2,
+        "score": 65530,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 403,
+        "direction": 2,
+        "difficulty": 1,
+        "score": 4294967280,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 403,
+        "direction": 2,
+        "score": 4294967280,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 403,
+        "direction": 2,
+        "difficulty": 1,
+        "score": 91,
+        "misaligned": 1
+      },
+      "expected": {
+        "cell": 403,
+        "direction": 2,
+        "score": 91,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 403,
+        "direction": 3,
+        "difficulty": 0,
+        "score": 0,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 403,
+        "direction": 3,
+        "score": 0,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 403,
+        "direction": 3,
+        "difficulty": 0,
+        "score": 65530,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 403,
+        "direction": 3,
+        "score": 65530,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 403,
+        "direction": 3,
+        "difficulty": 0,
+        "score": 4294967280,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 403,
+        "direction": 3,
+        "score": 4294967280,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 403,
+        "direction": 3,
+        "difficulty": 0,
+        "score": 91,
+        "misaligned": 1
+      },
+      "expected": {
+        "cell": 403,
+        "direction": 3,
+        "score": 91,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 403,
+        "direction": 3,
+        "difficulty": 1,
+        "score": 0,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 403,
+        "direction": 3,
+        "score": 0,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 403,
+        "direction": 3,
+        "difficulty": 1,
+        "score": 65530,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 403,
+        "direction": 3,
+        "score": 65530,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 403,
+        "direction": 3,
+        "difficulty": 1,
+        "score": 4294967280,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 403,
+        "direction": 3,
+        "score": 4294967280,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 403,
+        "direction": 3,
+        "difficulty": 1,
+        "score": 91,
+        "misaligned": 1
+      },
+      "expected": {
+        "cell": 403,
+        "direction": 3,
+        "score": 91,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 403,
+        "direction": 4,
+        "difficulty": 0,
+        "score": 0,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 403,
+        "direction": 4,
+        "score": 0,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 403,
+        "direction": 4,
+        "difficulty": 0,
+        "score": 65530,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 403,
+        "direction": 4,
+        "score": 65530,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 403,
+        "direction": 4,
+        "difficulty": 0,
+        "score": 4294967280,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 403,
+        "direction": 4,
+        "score": 4294967280,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 403,
+        "direction": 4,
+        "difficulty": 0,
+        "score": 91,
+        "misaligned": 1
+      },
+      "expected": {
+        "cell": 403,
+        "direction": 4,
+        "score": 91,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 403,
+        "direction": 4,
+        "difficulty": 1,
+        "score": 0,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 403,
+        "direction": 4,
+        "score": 0,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 403,
+        "direction": 4,
+        "difficulty": 1,
+        "score": 65530,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 403,
+        "direction": 4,
+        "score": 65530,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 403,
+        "direction": 4,
+        "difficulty": 1,
+        "score": 4294967280,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 403,
+        "direction": 4,
+        "score": 4294967280,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 403,
+        "direction": 4,
+        "difficulty": 1,
+        "score": 91,
+        "misaligned": 1
+      },
+      "expected": {
+        "cell": 403,
+        "direction": 4,
+        "score": 91,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 500,
+        "direction": 1,
+        "difficulty": 0,
+        "score": 0,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 0,
+        "direction": 1,
+        "score": 100,
+        "holes": 2,
+        "prizes": 8
+      }
+    },
+    {
+      "input": {
+        "cell": 500,
+        "direction": 1,
+        "difficulty": 0,
+        "score": 65530,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 0,
+        "direction": 1,
+        "score": 65630,
+        "holes": 2,
+        "prizes": 8
+      }
+    },
+    {
+      "input": {
+        "cell": 500,
+        "direction": 1,
+        "difficulty": 0,
+        "score": 4294967280,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 0,
+        "direction": 1,
+        "score": 84,
+        "holes": 2,
+        "prizes": 8
+      }
+    },
+    {
+      "input": {
+        "cell": 500,
+        "direction": 1,
+        "difficulty": 0,
+        "score": 91,
+        "misaligned": 1
+      },
+      "expected": {
+        "cell": 500,
+        "direction": 1,
+        "score": 91,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 500,
+        "direction": 1,
+        "difficulty": 1,
+        "score": 0,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 0,
+        "direction": 1,
+        "score": 200,
+        "holes": 2,
+        "prizes": 8
+      }
+    },
+    {
+      "input": {
+        "cell": 500,
+        "direction": 1,
+        "difficulty": 1,
+        "score": 65530,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 0,
+        "direction": 1,
+        "score": 65730,
+        "holes": 2,
+        "prizes": 8
+      }
+    },
+    {
+      "input": {
+        "cell": 500,
+        "direction": 1,
+        "difficulty": 1,
+        "score": 4294967280,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 0,
+        "direction": 1,
+        "score": 184,
+        "holes": 2,
+        "prizes": 8
+      }
+    },
+    {
+      "input": {
+        "cell": 500,
+        "direction": 1,
+        "difficulty": 1,
+        "score": 91,
+        "misaligned": 1
+      },
+      "expected": {
+        "cell": 500,
+        "direction": 1,
+        "score": 91,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 500,
+        "direction": 2,
+        "difficulty": 0,
+        "score": 0,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 0,
+        "direction": 2,
+        "score": 100,
+        "holes": 2,
+        "prizes": 8
+      }
+    },
+    {
+      "input": {
+        "cell": 500,
+        "direction": 2,
+        "difficulty": 0,
+        "score": 65530,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 0,
+        "direction": 2,
+        "score": 65630,
+        "holes": 2,
+        "prizes": 8
+      }
+    },
+    {
+      "input": {
+        "cell": 500,
+        "direction": 2,
+        "difficulty": 0,
+        "score": 4294967280,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 0,
+        "direction": 2,
+        "score": 84,
+        "holes": 2,
+        "prizes": 8
+      }
+    },
+    {
+      "input": {
+        "cell": 500,
+        "direction": 2,
+        "difficulty": 0,
+        "score": 91,
+        "misaligned": 1
+      },
+      "expected": {
+        "cell": 500,
+        "direction": 2,
+        "score": 91,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 500,
+        "direction": 2,
+        "difficulty": 1,
+        "score": 0,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 0,
+        "direction": 2,
+        "score": 200,
+        "holes": 2,
+        "prizes": 8
+      }
+    },
+    {
+      "input": {
+        "cell": 500,
+        "direction": 2,
+        "difficulty": 1,
+        "score": 65530,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 0,
+        "direction": 2,
+        "score": 65730,
+        "holes": 2,
+        "prizes": 8
+      }
+    },
+    {
+      "input": {
+        "cell": 500,
+        "direction": 2,
+        "difficulty": 1,
+        "score": 4294967280,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 0,
+        "direction": 2,
+        "score": 184,
+        "holes": 2,
+        "prizes": 8
+      }
+    },
+    {
+      "input": {
+        "cell": 500,
+        "direction": 2,
+        "difficulty": 1,
+        "score": 91,
+        "misaligned": 1
+      },
+      "expected": {
+        "cell": 500,
+        "direction": 2,
+        "score": 91,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 500,
+        "direction": 3,
+        "difficulty": 0,
+        "score": 0,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 0,
+        "direction": 3,
+        "score": 100,
+        "holes": 2,
+        "prizes": 8
+      }
+    },
+    {
+      "input": {
+        "cell": 500,
+        "direction": 3,
+        "difficulty": 0,
+        "score": 65530,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 0,
+        "direction": 3,
+        "score": 65630,
+        "holes": 2,
+        "prizes": 8
+      }
+    },
+    {
+      "input": {
+        "cell": 500,
+        "direction": 3,
+        "difficulty": 0,
+        "score": 4294967280,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 0,
+        "direction": 3,
+        "score": 84,
+        "holes": 2,
+        "prizes": 8
+      }
+    },
+    {
+      "input": {
+        "cell": 500,
+        "direction": 3,
+        "difficulty": 0,
+        "score": 91,
+        "misaligned": 1
+      },
+      "expected": {
+        "cell": 500,
+        "direction": 3,
+        "score": 91,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 500,
+        "direction": 3,
+        "difficulty": 1,
+        "score": 0,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 0,
+        "direction": 3,
+        "score": 200,
+        "holes": 2,
+        "prizes": 8
+      }
+    },
+    {
+      "input": {
+        "cell": 500,
+        "direction": 3,
+        "difficulty": 1,
+        "score": 65530,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 0,
+        "direction": 3,
+        "score": 65730,
+        "holes": 2,
+        "prizes": 8
+      }
+    },
+    {
+      "input": {
+        "cell": 500,
+        "direction": 3,
+        "difficulty": 1,
+        "score": 4294967280,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 0,
+        "direction": 3,
+        "score": 184,
+        "holes": 2,
+        "prizes": 8
+      }
+    },
+    {
+      "input": {
+        "cell": 500,
+        "direction": 3,
+        "difficulty": 1,
+        "score": 91,
+        "misaligned": 1
+      },
+      "expected": {
+        "cell": 500,
+        "direction": 3,
+        "score": 91,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 500,
+        "direction": 4,
+        "difficulty": 0,
+        "score": 0,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 0,
+        "direction": 4,
+        "score": 100,
+        "holes": 2,
+        "prizes": 8
+      }
+    },
+    {
+      "input": {
+        "cell": 500,
+        "direction": 4,
+        "difficulty": 0,
+        "score": 65530,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 0,
+        "direction": 4,
+        "score": 65630,
+        "holes": 2,
+        "prizes": 8
+      }
+    },
+    {
+      "input": {
+        "cell": 500,
+        "direction": 4,
+        "difficulty": 0,
+        "score": 4294967280,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 0,
+        "direction": 4,
+        "score": 84,
+        "holes": 2,
+        "prizes": 8
+      }
+    },
+    {
+      "input": {
+        "cell": 500,
+        "direction": 4,
+        "difficulty": 0,
+        "score": 91,
+        "misaligned": 1
+      },
+      "expected": {
+        "cell": 500,
+        "direction": 4,
+        "score": 91,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 500,
+        "direction": 4,
+        "difficulty": 1,
+        "score": 0,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 0,
+        "direction": 4,
+        "score": 200,
+        "holes": 2,
+        "prizes": 8
+      }
+    },
+    {
+      "input": {
+        "cell": 500,
+        "direction": 4,
+        "difficulty": 1,
+        "score": 65530,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 0,
+        "direction": 4,
+        "score": 65730,
+        "holes": 2,
+        "prizes": 8
+      }
+    },
+    {
+      "input": {
+        "cell": 500,
+        "direction": 4,
+        "difficulty": 1,
+        "score": 4294967280,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 0,
+        "direction": 4,
+        "score": 184,
+        "holes": 2,
+        "prizes": 8
+      }
+    },
+    {
+      "input": {
+        "cell": 500,
+        "direction": 4,
+        "difficulty": 1,
+        "score": 91,
+        "misaligned": 1
+      },
+      "expected": {
+        "cell": 500,
+        "direction": 4,
+        "score": 91,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 501,
+        "direction": 1,
+        "difficulty": 0,
+        "score": 0,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 0,
+        "direction": 1,
+        "score": 100,
+        "holes": 2,
+        "prizes": 8
+      }
+    },
+    {
+      "input": {
+        "cell": 501,
+        "direction": 1,
+        "difficulty": 0,
+        "score": 65530,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 0,
+        "direction": 1,
+        "score": 65630,
+        "holes": 2,
+        "prizes": 8
+      }
+    },
+    {
+      "input": {
+        "cell": 501,
+        "direction": 1,
+        "difficulty": 0,
+        "score": 4294967280,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 0,
+        "direction": 1,
+        "score": 84,
+        "holes": 2,
+        "prizes": 8
+      }
+    },
+    {
+      "input": {
+        "cell": 501,
+        "direction": 1,
+        "difficulty": 0,
+        "score": 91,
+        "misaligned": 1
+      },
+      "expected": {
+        "cell": 501,
+        "direction": 1,
+        "score": 91,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 501,
+        "direction": 1,
+        "difficulty": 1,
+        "score": 0,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 0,
+        "direction": 1,
+        "score": 200,
+        "holes": 2,
+        "prizes": 8
+      }
+    },
+    {
+      "input": {
+        "cell": 501,
+        "direction": 1,
+        "difficulty": 1,
+        "score": 65530,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 0,
+        "direction": 1,
+        "score": 65730,
+        "holes": 2,
+        "prizes": 8
+      }
+    },
+    {
+      "input": {
+        "cell": 501,
+        "direction": 1,
+        "difficulty": 1,
+        "score": 4294967280,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 0,
+        "direction": 1,
+        "score": 184,
+        "holes": 2,
+        "prizes": 8
+      }
+    },
+    {
+      "input": {
+        "cell": 501,
+        "direction": 1,
+        "difficulty": 1,
+        "score": 91,
+        "misaligned": 1
+      },
+      "expected": {
+        "cell": 501,
+        "direction": 1,
+        "score": 91,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 501,
+        "direction": 2,
+        "difficulty": 0,
+        "score": 0,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 0,
+        "direction": 2,
+        "score": 100,
+        "holes": 2,
+        "prizes": 8
+      }
+    },
+    {
+      "input": {
+        "cell": 501,
+        "direction": 2,
+        "difficulty": 0,
+        "score": 65530,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 0,
+        "direction": 2,
+        "score": 65630,
+        "holes": 2,
+        "prizes": 8
+      }
+    },
+    {
+      "input": {
+        "cell": 501,
+        "direction": 2,
+        "difficulty": 0,
+        "score": 4294967280,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 0,
+        "direction": 2,
+        "score": 84,
+        "holes": 2,
+        "prizes": 8
+      }
+    },
+    {
+      "input": {
+        "cell": 501,
+        "direction": 2,
+        "difficulty": 0,
+        "score": 91,
+        "misaligned": 1
+      },
+      "expected": {
+        "cell": 501,
+        "direction": 2,
+        "score": 91,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 501,
+        "direction": 2,
+        "difficulty": 1,
+        "score": 0,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 0,
+        "direction": 2,
+        "score": 200,
+        "holes": 2,
+        "prizes": 8
+      }
+    },
+    {
+      "input": {
+        "cell": 501,
+        "direction": 2,
+        "difficulty": 1,
+        "score": 65530,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 0,
+        "direction": 2,
+        "score": 65730,
+        "holes": 2,
+        "prizes": 8
+      }
+    },
+    {
+      "input": {
+        "cell": 501,
+        "direction": 2,
+        "difficulty": 1,
+        "score": 4294967280,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 0,
+        "direction": 2,
+        "score": 184,
+        "holes": 2,
+        "prizes": 8
+      }
+    },
+    {
+      "input": {
+        "cell": 501,
+        "direction": 2,
+        "difficulty": 1,
+        "score": 91,
+        "misaligned": 1
+      },
+      "expected": {
+        "cell": 501,
+        "direction": 2,
+        "score": 91,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 501,
+        "direction": 3,
+        "difficulty": 0,
+        "score": 0,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 0,
+        "direction": 3,
+        "score": 100,
+        "holes": 2,
+        "prizes": 8
+      }
+    },
+    {
+      "input": {
+        "cell": 501,
+        "direction": 3,
+        "difficulty": 0,
+        "score": 65530,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 0,
+        "direction": 3,
+        "score": 65630,
+        "holes": 2,
+        "prizes": 8
+      }
+    },
+    {
+      "input": {
+        "cell": 501,
+        "direction": 3,
+        "difficulty": 0,
+        "score": 4294967280,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 0,
+        "direction": 3,
+        "score": 84,
+        "holes": 2,
+        "prizes": 8
+      }
+    },
+    {
+      "input": {
+        "cell": 501,
+        "direction": 3,
+        "difficulty": 0,
+        "score": 91,
+        "misaligned": 1
+      },
+      "expected": {
+        "cell": 501,
+        "direction": 3,
+        "score": 91,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 501,
+        "direction": 3,
+        "difficulty": 1,
+        "score": 0,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 0,
+        "direction": 3,
+        "score": 200,
+        "holes": 2,
+        "prizes": 8
+      }
+    },
+    {
+      "input": {
+        "cell": 501,
+        "direction": 3,
+        "difficulty": 1,
+        "score": 65530,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 0,
+        "direction": 3,
+        "score": 65730,
+        "holes": 2,
+        "prizes": 8
+      }
+    },
+    {
+      "input": {
+        "cell": 501,
+        "direction": 3,
+        "difficulty": 1,
+        "score": 4294967280,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 0,
+        "direction": 3,
+        "score": 184,
+        "holes": 2,
+        "prizes": 8
+      }
+    },
+    {
+      "input": {
+        "cell": 501,
+        "direction": 3,
+        "difficulty": 1,
+        "score": 91,
+        "misaligned": 1
+      },
+      "expected": {
+        "cell": 501,
+        "direction": 3,
+        "score": 91,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 501,
+        "direction": 4,
+        "difficulty": 0,
+        "score": 0,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 0,
+        "direction": 4,
+        "score": 100,
+        "holes": 2,
+        "prizes": 8
+      }
+    },
+    {
+      "input": {
+        "cell": 501,
+        "direction": 4,
+        "difficulty": 0,
+        "score": 65530,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 0,
+        "direction": 4,
+        "score": 65630,
+        "holes": 2,
+        "prizes": 8
+      }
+    },
+    {
+      "input": {
+        "cell": 501,
+        "direction": 4,
+        "difficulty": 0,
+        "score": 4294967280,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 0,
+        "direction": 4,
+        "score": 84,
+        "holes": 2,
+        "prizes": 8
+      }
+    },
+    {
+      "input": {
+        "cell": 501,
+        "direction": 4,
+        "difficulty": 0,
+        "score": 91,
+        "misaligned": 1
+      },
+      "expected": {
+        "cell": 501,
+        "direction": 4,
+        "score": 91,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 501,
+        "direction": 4,
+        "difficulty": 1,
+        "score": 0,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 0,
+        "direction": 4,
+        "score": 200,
+        "holes": 2,
+        "prizes": 8
+      }
+    },
+    {
+      "input": {
+        "cell": 501,
+        "direction": 4,
+        "difficulty": 1,
+        "score": 65530,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 0,
+        "direction": 4,
+        "score": 65730,
+        "holes": 2,
+        "prizes": 8
+      }
+    },
+    {
+      "input": {
+        "cell": 501,
+        "direction": 4,
+        "difficulty": 1,
+        "score": 4294967280,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 0,
+        "direction": 4,
+        "score": 184,
+        "holes": 2,
+        "prizes": 8
+      }
+    },
+    {
+      "input": {
+        "cell": 501,
+        "direction": 4,
+        "difficulty": 1,
+        "score": 91,
+        "misaligned": 1
+      },
+      "expected": {
+        "cell": 501,
+        "direction": 4,
+        "score": 91,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 502,
+        "direction": 1,
+        "difficulty": 0,
+        "score": 0,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 0,
+        "direction": 1,
+        "score": 100,
+        "holes": 2,
+        "prizes": 8
+      }
+    },
+    {
+      "input": {
+        "cell": 502,
+        "direction": 1,
+        "difficulty": 0,
+        "score": 65530,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 0,
+        "direction": 1,
+        "score": 65630,
+        "holes": 2,
+        "prizes": 8
+      }
+    },
+    {
+      "input": {
+        "cell": 502,
+        "direction": 1,
+        "difficulty": 0,
+        "score": 4294967280,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 0,
+        "direction": 1,
+        "score": 84,
+        "holes": 2,
+        "prizes": 8
+      }
+    },
+    {
+      "input": {
+        "cell": 502,
+        "direction": 1,
+        "difficulty": 0,
+        "score": 91,
+        "misaligned": 1
+      },
+      "expected": {
+        "cell": 502,
+        "direction": 1,
+        "score": 91,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 502,
+        "direction": 1,
+        "difficulty": 1,
+        "score": 0,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 0,
+        "direction": 1,
+        "score": 200,
+        "holes": 2,
+        "prizes": 8
+      }
+    },
+    {
+      "input": {
+        "cell": 502,
+        "direction": 1,
+        "difficulty": 1,
+        "score": 65530,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 0,
+        "direction": 1,
+        "score": 65730,
+        "holes": 2,
+        "prizes": 8
+      }
+    },
+    {
+      "input": {
+        "cell": 502,
+        "direction": 1,
+        "difficulty": 1,
+        "score": 4294967280,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 0,
+        "direction": 1,
+        "score": 184,
+        "holes": 2,
+        "prizes": 8
+      }
+    },
+    {
+      "input": {
+        "cell": 502,
+        "direction": 1,
+        "difficulty": 1,
+        "score": 91,
+        "misaligned": 1
+      },
+      "expected": {
+        "cell": 502,
+        "direction": 1,
+        "score": 91,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 502,
+        "direction": 2,
+        "difficulty": 0,
+        "score": 0,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 0,
+        "direction": 2,
+        "score": 100,
+        "holes": 2,
+        "prizes": 8
+      }
+    },
+    {
+      "input": {
+        "cell": 502,
+        "direction": 2,
+        "difficulty": 0,
+        "score": 65530,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 0,
+        "direction": 2,
+        "score": 65630,
+        "holes": 2,
+        "prizes": 8
+      }
+    },
+    {
+      "input": {
+        "cell": 502,
+        "direction": 2,
+        "difficulty": 0,
+        "score": 4294967280,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 0,
+        "direction": 2,
+        "score": 84,
+        "holes": 2,
+        "prizes": 8
+      }
+    },
+    {
+      "input": {
+        "cell": 502,
+        "direction": 2,
+        "difficulty": 0,
+        "score": 91,
+        "misaligned": 1
+      },
+      "expected": {
+        "cell": 502,
+        "direction": 2,
+        "score": 91,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 502,
+        "direction": 2,
+        "difficulty": 1,
+        "score": 0,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 0,
+        "direction": 2,
+        "score": 200,
+        "holes": 2,
+        "prizes": 8
+      }
+    },
+    {
+      "input": {
+        "cell": 502,
+        "direction": 2,
+        "difficulty": 1,
+        "score": 65530,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 0,
+        "direction": 2,
+        "score": 65730,
+        "holes": 2,
+        "prizes": 8
+      }
+    },
+    {
+      "input": {
+        "cell": 502,
+        "direction": 2,
+        "difficulty": 1,
+        "score": 4294967280,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 0,
+        "direction": 2,
+        "score": 184,
+        "holes": 2,
+        "prizes": 8
+      }
+    },
+    {
+      "input": {
+        "cell": 502,
+        "direction": 2,
+        "difficulty": 1,
+        "score": 91,
+        "misaligned": 1
+      },
+      "expected": {
+        "cell": 502,
+        "direction": 2,
+        "score": 91,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 502,
+        "direction": 3,
+        "difficulty": 0,
+        "score": 0,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 0,
+        "direction": 3,
+        "score": 100,
+        "holes": 2,
+        "prizes": 8
+      }
+    },
+    {
+      "input": {
+        "cell": 502,
+        "direction": 3,
+        "difficulty": 0,
+        "score": 65530,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 0,
+        "direction": 3,
+        "score": 65630,
+        "holes": 2,
+        "prizes": 8
+      }
+    },
+    {
+      "input": {
+        "cell": 502,
+        "direction": 3,
+        "difficulty": 0,
+        "score": 4294967280,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 0,
+        "direction": 3,
+        "score": 84,
+        "holes": 2,
+        "prizes": 8
+      }
+    },
+    {
+      "input": {
+        "cell": 502,
+        "direction": 3,
+        "difficulty": 0,
+        "score": 91,
+        "misaligned": 1
+      },
+      "expected": {
+        "cell": 502,
+        "direction": 3,
+        "score": 91,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 502,
+        "direction": 3,
+        "difficulty": 1,
+        "score": 0,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 0,
+        "direction": 3,
+        "score": 200,
+        "holes": 2,
+        "prizes": 8
+      }
+    },
+    {
+      "input": {
+        "cell": 502,
+        "direction": 3,
+        "difficulty": 1,
+        "score": 65530,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 0,
+        "direction": 3,
+        "score": 65730,
+        "holes": 2,
+        "prizes": 8
+      }
+    },
+    {
+      "input": {
+        "cell": 502,
+        "direction": 3,
+        "difficulty": 1,
+        "score": 4294967280,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 0,
+        "direction": 3,
+        "score": 184,
+        "holes": 2,
+        "prizes": 8
+      }
+    },
+    {
+      "input": {
+        "cell": 502,
+        "direction": 3,
+        "difficulty": 1,
+        "score": 91,
+        "misaligned": 1
+      },
+      "expected": {
+        "cell": 502,
+        "direction": 3,
+        "score": 91,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 502,
+        "direction": 4,
+        "difficulty": 0,
+        "score": 0,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 0,
+        "direction": 4,
+        "score": 100,
+        "holes": 2,
+        "prizes": 8
+      }
+    },
+    {
+      "input": {
+        "cell": 502,
+        "direction": 4,
+        "difficulty": 0,
+        "score": 65530,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 0,
+        "direction": 4,
+        "score": 65630,
+        "holes": 2,
+        "prizes": 8
+      }
+    },
+    {
+      "input": {
+        "cell": 502,
+        "direction": 4,
+        "difficulty": 0,
+        "score": 4294967280,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 0,
+        "direction": 4,
+        "score": 84,
+        "holes": 2,
+        "prizes": 8
+      }
+    },
+    {
+      "input": {
+        "cell": 502,
+        "direction": 4,
+        "difficulty": 0,
+        "score": 91,
+        "misaligned": 1
+      },
+      "expected": {
+        "cell": 502,
+        "direction": 4,
+        "score": 91,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 502,
+        "direction": 4,
+        "difficulty": 1,
+        "score": 0,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 0,
+        "direction": 4,
+        "score": 200,
+        "holes": 2,
+        "prizes": 8
+      }
+    },
+    {
+      "input": {
+        "cell": 502,
+        "direction": 4,
+        "difficulty": 1,
+        "score": 65530,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 0,
+        "direction": 4,
+        "score": 65730,
+        "holes": 2,
+        "prizes": 8
+      }
+    },
+    {
+      "input": {
+        "cell": 502,
+        "direction": 4,
+        "difficulty": 1,
+        "score": 4294967280,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 0,
+        "direction": 4,
+        "score": 184,
+        "holes": 2,
+        "prizes": 8
+      }
+    },
+    {
+      "input": {
+        "cell": 502,
+        "direction": 4,
+        "difficulty": 1,
+        "score": 91,
+        "misaligned": 1
+      },
+      "expected": {
+        "cell": 502,
+        "direction": 4,
+        "score": 91,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 600,
+        "direction": 1,
+        "difficulty": 0,
+        "score": 0,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 600,
+        "direction": 3,
+        "score": 5,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 600,
+        "direction": 1,
+        "difficulty": 0,
+        "score": 65530,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 600,
+        "direction": 3,
+        "score": 65535,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 600,
+        "direction": 1,
+        "difficulty": 0,
+        "score": 4294967280,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 600,
+        "direction": 3,
+        "score": 4294967285,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 600,
+        "direction": 1,
+        "difficulty": 0,
+        "score": 91,
+        "misaligned": 1
+      },
+      "expected": {
+        "cell": 600,
+        "direction": 1,
+        "score": 91,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 600,
+        "direction": 1,
+        "difficulty": 1,
+        "score": 0,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 600,
+        "direction": 3,
+        "score": 10,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 600,
+        "direction": 1,
+        "difficulty": 1,
+        "score": 65530,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 600,
+        "direction": 3,
+        "score": 65540,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 600,
+        "direction": 1,
+        "difficulty": 1,
+        "score": 4294967280,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 600,
+        "direction": 3,
+        "score": 4294967290,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 600,
+        "direction": 1,
+        "difficulty": 1,
+        "score": 91,
+        "misaligned": 1
+      },
+      "expected": {
+        "cell": 600,
+        "direction": 1,
+        "score": 91,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 600,
+        "direction": 2,
+        "difficulty": 0,
+        "score": 0,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 600,
+        "direction": 4,
+        "score": 5,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 600,
+        "direction": 2,
+        "difficulty": 0,
+        "score": 65530,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 600,
+        "direction": 4,
+        "score": 65535,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 600,
+        "direction": 2,
+        "difficulty": 0,
+        "score": 4294967280,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 600,
+        "direction": 4,
+        "score": 4294967285,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 600,
+        "direction": 2,
+        "difficulty": 0,
+        "score": 91,
+        "misaligned": 1
+      },
+      "expected": {
+        "cell": 600,
+        "direction": 2,
+        "score": 91,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 600,
+        "direction": 2,
+        "difficulty": 1,
+        "score": 0,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 600,
+        "direction": 4,
+        "score": 10,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 600,
+        "direction": 2,
+        "difficulty": 1,
+        "score": 65530,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 600,
+        "direction": 4,
+        "score": 65540,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 600,
+        "direction": 2,
+        "difficulty": 1,
+        "score": 4294967280,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 600,
+        "direction": 4,
+        "score": 4294967290,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 600,
+        "direction": 2,
+        "difficulty": 1,
+        "score": 91,
+        "misaligned": 1
+      },
+      "expected": {
+        "cell": 600,
+        "direction": 2,
+        "score": 91,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 600,
+        "direction": 3,
+        "difficulty": 0,
+        "score": 0,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 600,
+        "direction": 1,
+        "score": 5,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 600,
+        "direction": 3,
+        "difficulty": 0,
+        "score": 65530,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 600,
+        "direction": 1,
+        "score": 65535,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 600,
+        "direction": 3,
+        "difficulty": 0,
+        "score": 4294967280,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 600,
+        "direction": 1,
+        "score": 4294967285,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 600,
+        "direction": 3,
+        "difficulty": 0,
+        "score": 91,
+        "misaligned": 1
+      },
+      "expected": {
+        "cell": 600,
+        "direction": 3,
+        "score": 91,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 600,
+        "direction": 3,
+        "difficulty": 1,
+        "score": 0,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 600,
+        "direction": 1,
+        "score": 10,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 600,
+        "direction": 3,
+        "difficulty": 1,
+        "score": 65530,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 600,
+        "direction": 1,
+        "score": 65540,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 600,
+        "direction": 3,
+        "difficulty": 1,
+        "score": 4294967280,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 600,
+        "direction": 1,
+        "score": 4294967290,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 600,
+        "direction": 3,
+        "difficulty": 1,
+        "score": 91,
+        "misaligned": 1
+      },
+      "expected": {
+        "cell": 600,
+        "direction": 3,
+        "score": 91,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 600,
+        "direction": 4,
+        "difficulty": 0,
+        "score": 0,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 600,
+        "direction": 2,
+        "score": 5,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 600,
+        "direction": 4,
+        "difficulty": 0,
+        "score": 65530,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 600,
+        "direction": 2,
+        "score": 65535,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 600,
+        "direction": 4,
+        "difficulty": 0,
+        "score": 4294967280,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 600,
+        "direction": 2,
+        "score": 4294967285,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 600,
+        "direction": 4,
+        "difficulty": 0,
+        "score": 91,
+        "misaligned": 1
+      },
+      "expected": {
+        "cell": 600,
+        "direction": 4,
+        "score": 91,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 600,
+        "direction": 4,
+        "difficulty": 1,
+        "score": 0,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 600,
+        "direction": 2,
+        "score": 10,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 600,
+        "direction": 4,
+        "difficulty": 1,
+        "score": 65530,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 600,
+        "direction": 2,
+        "score": 65540,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 600,
+        "direction": 4,
+        "difficulty": 1,
+        "score": 4294967280,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 600,
+        "direction": 2,
+        "score": 4294967290,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 600,
+        "direction": 4,
+        "difficulty": 1,
+        "score": 91,
+        "misaligned": 1
+      },
+      "expected": {
+        "cell": 600,
+        "direction": 4,
+        "score": 91,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 601,
+        "direction": 1,
+        "difficulty": 0,
+        "score": 0,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 601,
+        "direction": 2,
+        "score": 5,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 601,
+        "direction": 1,
+        "difficulty": 0,
+        "score": 65530,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 601,
+        "direction": 2,
+        "score": 65535,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 601,
+        "direction": 1,
+        "difficulty": 0,
+        "score": 4294967280,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 601,
+        "direction": 2,
+        "score": 4294967285,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 601,
+        "direction": 1,
+        "difficulty": 0,
+        "score": 91,
+        "misaligned": 1
+      },
+      "expected": {
+        "cell": 601,
+        "direction": 1,
+        "score": 91,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 601,
+        "direction": 1,
+        "difficulty": 1,
+        "score": 0,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 601,
+        "direction": 2,
+        "score": 10,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 601,
+        "direction": 1,
+        "difficulty": 1,
+        "score": 65530,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 601,
+        "direction": 2,
+        "score": 65540,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 601,
+        "direction": 1,
+        "difficulty": 1,
+        "score": 4294967280,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 601,
+        "direction": 2,
+        "score": 4294967290,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 601,
+        "direction": 1,
+        "difficulty": 1,
+        "score": 91,
+        "misaligned": 1
+      },
+      "expected": {
+        "cell": 601,
+        "direction": 1,
+        "score": 91,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 601,
+        "direction": 2,
+        "difficulty": 0,
+        "score": 0,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 601,
+        "direction": 4,
+        "score": 5,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 601,
+        "direction": 2,
+        "difficulty": 0,
+        "score": 65530,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 601,
+        "direction": 4,
+        "score": 65535,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 601,
+        "direction": 2,
+        "difficulty": 0,
+        "score": 4294967280,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 601,
+        "direction": 4,
+        "score": 4294967285,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 601,
+        "direction": 2,
+        "difficulty": 0,
+        "score": 91,
+        "misaligned": 1
+      },
+      "expected": {
+        "cell": 601,
+        "direction": 2,
+        "score": 91,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 601,
+        "direction": 2,
+        "difficulty": 1,
+        "score": 0,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 601,
+        "direction": 4,
+        "score": 10,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 601,
+        "direction": 2,
+        "difficulty": 1,
+        "score": 65530,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 601,
+        "direction": 4,
+        "score": 65540,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 601,
+        "direction": 2,
+        "difficulty": 1,
+        "score": 4294967280,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 601,
+        "direction": 4,
+        "score": 4294967290,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 601,
+        "direction": 2,
+        "difficulty": 1,
+        "score": 91,
+        "misaligned": 1
+      },
+      "expected": {
+        "cell": 601,
+        "direction": 2,
+        "score": 91,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 601,
+        "direction": 3,
+        "difficulty": 0,
+        "score": 0,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 601,
+        "direction": 1,
+        "score": 5,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 601,
+        "direction": 3,
+        "difficulty": 0,
+        "score": 65530,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 601,
+        "direction": 1,
+        "score": 65535,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 601,
+        "direction": 3,
+        "difficulty": 0,
+        "score": 4294967280,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 601,
+        "direction": 1,
+        "score": 4294967285,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 601,
+        "direction": 3,
+        "difficulty": 0,
+        "score": 91,
+        "misaligned": 1
+      },
+      "expected": {
+        "cell": 601,
+        "direction": 3,
+        "score": 91,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 601,
+        "direction": 3,
+        "difficulty": 1,
+        "score": 0,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 601,
+        "direction": 1,
+        "score": 10,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 601,
+        "direction": 3,
+        "difficulty": 1,
+        "score": 65530,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 601,
+        "direction": 1,
+        "score": 65540,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 601,
+        "direction": 3,
+        "difficulty": 1,
+        "score": 4294967280,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 601,
+        "direction": 1,
+        "score": 4294967290,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 601,
+        "direction": 3,
+        "difficulty": 1,
+        "score": 91,
+        "misaligned": 1
+      },
+      "expected": {
+        "cell": 601,
+        "direction": 3,
+        "score": 91,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 601,
+        "direction": 4,
+        "difficulty": 0,
+        "score": 0,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 601,
+        "direction": 3,
+        "score": 5,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 601,
+        "direction": 4,
+        "difficulty": 0,
+        "score": 65530,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 601,
+        "direction": 3,
+        "score": 65535,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 601,
+        "direction": 4,
+        "difficulty": 0,
+        "score": 4294967280,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 601,
+        "direction": 3,
+        "score": 4294967285,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 601,
+        "direction": 4,
+        "difficulty": 0,
+        "score": 91,
+        "misaligned": 1
+      },
+      "expected": {
+        "cell": 601,
+        "direction": 4,
+        "score": 91,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 601,
+        "direction": 4,
+        "difficulty": 1,
+        "score": 0,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 601,
+        "direction": 3,
+        "score": 10,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 601,
+        "direction": 4,
+        "difficulty": 1,
+        "score": 65530,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 601,
+        "direction": 3,
+        "score": 65540,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 601,
+        "direction": 4,
+        "difficulty": 1,
+        "score": 4294967280,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 601,
+        "direction": 3,
+        "score": 4294967290,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 601,
+        "direction": 4,
+        "difficulty": 1,
+        "score": 91,
+        "misaligned": 1
+      },
+      "expected": {
+        "cell": 601,
+        "direction": 4,
+        "score": 91,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 602,
+        "direction": 1,
+        "difficulty": 0,
+        "score": 0,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 602,
+        "direction": 4,
+        "score": 5,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 602,
+        "direction": 1,
+        "difficulty": 0,
+        "score": 65530,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 602,
+        "direction": 4,
+        "score": 65535,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 602,
+        "direction": 1,
+        "difficulty": 0,
+        "score": 4294967280,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 602,
+        "direction": 4,
+        "score": 4294967285,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 602,
+        "direction": 1,
+        "difficulty": 0,
+        "score": 91,
+        "misaligned": 1
+      },
+      "expected": {
+        "cell": 602,
+        "direction": 1,
+        "score": 91,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 602,
+        "direction": 1,
+        "difficulty": 1,
+        "score": 0,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 602,
+        "direction": 4,
+        "score": 10,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 602,
+        "direction": 1,
+        "difficulty": 1,
+        "score": 65530,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 602,
+        "direction": 4,
+        "score": 65540,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 602,
+        "direction": 1,
+        "difficulty": 1,
+        "score": 4294967280,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 602,
+        "direction": 4,
+        "score": 4294967290,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 602,
+        "direction": 1,
+        "difficulty": 1,
+        "score": 91,
+        "misaligned": 1
+      },
+      "expected": {
+        "cell": 602,
+        "direction": 1,
+        "score": 91,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 602,
+        "direction": 2,
+        "difficulty": 0,
+        "score": 0,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 602,
+        "direction": 3,
+        "score": 5,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 602,
+        "direction": 2,
+        "difficulty": 0,
+        "score": 65530,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 602,
+        "direction": 3,
+        "score": 65535,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 602,
+        "direction": 2,
+        "difficulty": 0,
+        "score": 4294967280,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 602,
+        "direction": 3,
+        "score": 4294967285,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 602,
+        "direction": 2,
+        "difficulty": 0,
+        "score": 91,
+        "misaligned": 1
+      },
+      "expected": {
+        "cell": 602,
+        "direction": 2,
+        "score": 91,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 602,
+        "direction": 2,
+        "difficulty": 1,
+        "score": 0,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 602,
+        "direction": 3,
+        "score": 10,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 602,
+        "direction": 2,
+        "difficulty": 1,
+        "score": 65530,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 602,
+        "direction": 3,
+        "score": 65540,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 602,
+        "direction": 2,
+        "difficulty": 1,
+        "score": 4294967280,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 602,
+        "direction": 3,
+        "score": 4294967290,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 602,
+        "direction": 2,
+        "difficulty": 1,
+        "score": 91,
+        "misaligned": 1
+      },
+      "expected": {
+        "cell": 602,
+        "direction": 2,
+        "score": 91,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 602,
+        "direction": 3,
+        "difficulty": 0,
+        "score": 0,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 602,
+        "direction": 1,
+        "score": 5,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 602,
+        "direction": 3,
+        "difficulty": 0,
+        "score": 65530,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 602,
+        "direction": 1,
+        "score": 65535,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 602,
+        "direction": 3,
+        "difficulty": 0,
+        "score": 4294967280,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 602,
+        "direction": 1,
+        "score": 4294967285,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 602,
+        "direction": 3,
+        "difficulty": 0,
+        "score": 91,
+        "misaligned": 1
+      },
+      "expected": {
+        "cell": 602,
+        "direction": 3,
+        "score": 91,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 602,
+        "direction": 3,
+        "difficulty": 1,
+        "score": 0,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 602,
+        "direction": 1,
+        "score": 10,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 602,
+        "direction": 3,
+        "difficulty": 1,
+        "score": 65530,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 602,
+        "direction": 1,
+        "score": 65540,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 602,
+        "direction": 3,
+        "difficulty": 1,
+        "score": 4294967280,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 602,
+        "direction": 1,
+        "score": 4294967290,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 602,
+        "direction": 3,
+        "difficulty": 1,
+        "score": 91,
+        "misaligned": 1
+      },
+      "expected": {
+        "cell": 602,
+        "direction": 3,
+        "score": 91,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 602,
+        "direction": 4,
+        "difficulty": 0,
+        "score": 0,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 602,
+        "direction": 2,
+        "score": 5,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 602,
+        "direction": 4,
+        "difficulty": 0,
+        "score": 65530,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 602,
+        "direction": 2,
+        "score": 65535,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 602,
+        "direction": 4,
+        "difficulty": 0,
+        "score": 4294967280,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 602,
+        "direction": 2,
+        "score": 4294967285,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 602,
+        "direction": 4,
+        "difficulty": 0,
+        "score": 91,
+        "misaligned": 1
+      },
+      "expected": {
+        "cell": 602,
+        "direction": 4,
+        "score": 91,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 602,
+        "direction": 4,
+        "difficulty": 1,
+        "score": 0,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 602,
+        "direction": 2,
+        "score": 10,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 602,
+        "direction": 4,
+        "difficulty": 1,
+        "score": 65530,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 602,
+        "direction": 2,
+        "score": 65540,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 602,
+        "direction": 4,
+        "difficulty": 1,
+        "score": 4294967280,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 602,
+        "direction": 2,
+        "score": 4294967290,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 602,
+        "direction": 4,
+        "difficulty": 1,
+        "score": 91,
+        "misaligned": 1
+      },
+      "expected": {
+        "cell": 602,
+        "direction": 4,
+        "score": 91,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 603,
+        "direction": 1,
+        "difficulty": 0,
+        "score": 0,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 603,
+        "direction": 3,
+        "score": 5,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 603,
+        "direction": 1,
+        "difficulty": 0,
+        "score": 65530,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 603,
+        "direction": 3,
+        "score": 65535,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 603,
+        "direction": 1,
+        "difficulty": 0,
+        "score": 4294967280,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 603,
+        "direction": 3,
+        "score": 4294967285,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 603,
+        "direction": 1,
+        "difficulty": 0,
+        "score": 91,
+        "misaligned": 1
+      },
+      "expected": {
+        "cell": 603,
+        "direction": 1,
+        "score": 91,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 603,
+        "direction": 1,
+        "difficulty": 1,
+        "score": 0,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 603,
+        "direction": 3,
+        "score": 10,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 603,
+        "direction": 1,
+        "difficulty": 1,
+        "score": 65530,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 603,
+        "direction": 3,
+        "score": 65540,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 603,
+        "direction": 1,
+        "difficulty": 1,
+        "score": 4294967280,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 603,
+        "direction": 3,
+        "score": 4294967290,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 603,
+        "direction": 1,
+        "difficulty": 1,
+        "score": 91,
+        "misaligned": 1
+      },
+      "expected": {
+        "cell": 603,
+        "direction": 1,
+        "score": 91,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 603,
+        "direction": 2,
+        "difficulty": 0,
+        "score": 0,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 603,
+        "direction": 4,
+        "score": 5,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 603,
+        "direction": 2,
+        "difficulty": 0,
+        "score": 65530,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 603,
+        "direction": 4,
+        "score": 65535,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 603,
+        "direction": 2,
+        "difficulty": 0,
+        "score": 4294967280,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 603,
+        "direction": 4,
+        "score": 4294967285,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 603,
+        "direction": 2,
+        "difficulty": 0,
+        "score": 91,
+        "misaligned": 1
+      },
+      "expected": {
+        "cell": 603,
+        "direction": 2,
+        "score": 91,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 603,
+        "direction": 2,
+        "difficulty": 1,
+        "score": 0,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 603,
+        "direction": 4,
+        "score": 10,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 603,
+        "direction": 2,
+        "difficulty": 1,
+        "score": 65530,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 603,
+        "direction": 4,
+        "score": 65540,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 603,
+        "direction": 2,
+        "difficulty": 1,
+        "score": 4294967280,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 603,
+        "direction": 4,
+        "score": 4294967290,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 603,
+        "direction": 2,
+        "difficulty": 1,
+        "score": 91,
+        "misaligned": 1
+      },
+      "expected": {
+        "cell": 603,
+        "direction": 2,
+        "score": 91,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 603,
+        "direction": 3,
+        "difficulty": 0,
+        "score": 0,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 603,
+        "direction": 2,
+        "score": 5,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 603,
+        "direction": 3,
+        "difficulty": 0,
+        "score": 65530,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 603,
+        "direction": 2,
+        "score": 65535,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 603,
+        "direction": 3,
+        "difficulty": 0,
+        "score": 4294967280,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 603,
+        "direction": 2,
+        "score": 4294967285,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 603,
+        "direction": 3,
+        "difficulty": 0,
+        "score": 91,
+        "misaligned": 1
+      },
+      "expected": {
+        "cell": 603,
+        "direction": 3,
+        "score": 91,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 603,
+        "direction": 3,
+        "difficulty": 1,
+        "score": 0,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 603,
+        "direction": 2,
+        "score": 10,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 603,
+        "direction": 3,
+        "difficulty": 1,
+        "score": 65530,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 603,
+        "direction": 2,
+        "score": 65540,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 603,
+        "direction": 3,
+        "difficulty": 1,
+        "score": 4294967280,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 603,
+        "direction": 2,
+        "score": 4294967290,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 603,
+        "direction": 3,
+        "difficulty": 1,
+        "score": 91,
+        "misaligned": 1
+      },
+      "expected": {
+        "cell": 603,
+        "direction": 3,
+        "score": 91,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 603,
+        "direction": 4,
+        "difficulty": 0,
+        "score": 0,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 603,
+        "direction": 1,
+        "score": 5,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 603,
+        "direction": 4,
+        "difficulty": 0,
+        "score": 65530,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 603,
+        "direction": 1,
+        "score": 65535,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 603,
+        "direction": 4,
+        "difficulty": 0,
+        "score": 4294967280,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 603,
+        "direction": 1,
+        "score": 4294967285,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 603,
+        "direction": 4,
+        "difficulty": 0,
+        "score": 91,
+        "misaligned": 1
+      },
+      "expected": {
+        "cell": 603,
+        "direction": 4,
+        "score": 91,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 603,
+        "direction": 4,
+        "difficulty": 1,
+        "score": 0,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 603,
+        "direction": 1,
+        "score": 10,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 603,
+        "direction": 4,
+        "difficulty": 1,
+        "score": 65530,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 603,
+        "direction": 1,
+        "score": 65540,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 603,
+        "direction": 4,
+        "difficulty": 1,
+        "score": 4294967280,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 603,
+        "direction": 1,
+        "score": 4294967290,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 603,
+        "direction": 4,
+        "difficulty": 1,
+        "score": 91,
+        "misaligned": 1
+      },
+      "expected": {
+        "cell": 603,
+        "direction": 4,
+        "score": 91,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 604,
+        "direction": 1,
+        "difficulty": 0,
+        "score": 0,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 604,
+        "direction": 3,
+        "score": 5,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 604,
+        "direction": 1,
+        "difficulty": 0,
+        "score": 65530,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 604,
+        "direction": 3,
+        "score": 65535,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 604,
+        "direction": 1,
+        "difficulty": 0,
+        "score": 4294967280,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 604,
+        "direction": 3,
+        "score": 4294967285,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 604,
+        "direction": 1,
+        "difficulty": 0,
+        "score": 91,
+        "misaligned": 1
+      },
+      "expected": {
+        "cell": 604,
+        "direction": 1,
+        "score": 91,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 604,
+        "direction": 1,
+        "difficulty": 1,
+        "score": 0,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 604,
+        "direction": 3,
+        "score": 10,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 604,
+        "direction": 1,
+        "difficulty": 1,
+        "score": 65530,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 604,
+        "direction": 3,
+        "score": 65540,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 604,
+        "direction": 1,
+        "difficulty": 1,
+        "score": 4294967280,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 604,
+        "direction": 3,
+        "score": 4294967290,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 604,
+        "direction": 1,
+        "difficulty": 1,
+        "score": 91,
+        "misaligned": 1
+      },
+      "expected": {
+        "cell": 604,
+        "direction": 1,
+        "score": 91,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 604,
+        "direction": 2,
+        "difficulty": 0,
+        "score": 0,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 604,
+        "direction": 1,
+        "score": 5,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 604,
+        "direction": 2,
+        "difficulty": 0,
+        "score": 65530,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 604,
+        "direction": 1,
+        "score": 65535,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 604,
+        "direction": 2,
+        "difficulty": 0,
+        "score": 4294967280,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 604,
+        "direction": 1,
+        "score": 4294967285,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 604,
+        "direction": 2,
+        "difficulty": 0,
+        "score": 91,
+        "misaligned": 1
+      },
+      "expected": {
+        "cell": 604,
+        "direction": 2,
+        "score": 91,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 604,
+        "direction": 2,
+        "difficulty": 1,
+        "score": 0,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 604,
+        "direction": 1,
+        "score": 10,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 604,
+        "direction": 2,
+        "difficulty": 1,
+        "score": 65530,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 604,
+        "direction": 1,
+        "score": 65540,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 604,
+        "direction": 2,
+        "difficulty": 1,
+        "score": 4294967280,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 604,
+        "direction": 1,
+        "score": 4294967290,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 604,
+        "direction": 2,
+        "difficulty": 1,
+        "score": 91,
+        "misaligned": 1
+      },
+      "expected": {
+        "cell": 604,
+        "direction": 2,
+        "score": 91,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 604,
+        "direction": 3,
+        "difficulty": 0,
+        "score": 0,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 604,
+        "direction": 4,
+        "score": 5,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 604,
+        "direction": 3,
+        "difficulty": 0,
+        "score": 65530,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 604,
+        "direction": 4,
+        "score": 65535,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 604,
+        "direction": 3,
+        "difficulty": 0,
+        "score": 4294967280,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 604,
+        "direction": 4,
+        "score": 4294967285,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 604,
+        "direction": 3,
+        "difficulty": 0,
+        "score": 91,
+        "misaligned": 1
+      },
+      "expected": {
+        "cell": 604,
+        "direction": 3,
+        "score": 91,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 604,
+        "direction": 3,
+        "difficulty": 1,
+        "score": 0,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 604,
+        "direction": 4,
+        "score": 10,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 604,
+        "direction": 3,
+        "difficulty": 1,
+        "score": 65530,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 604,
+        "direction": 4,
+        "score": 65540,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 604,
+        "direction": 3,
+        "difficulty": 1,
+        "score": 4294967280,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 604,
+        "direction": 4,
+        "score": 4294967290,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 604,
+        "direction": 3,
+        "difficulty": 1,
+        "score": 91,
+        "misaligned": 1
+      },
+      "expected": {
+        "cell": 604,
+        "direction": 3,
+        "score": 91,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 604,
+        "direction": 4,
+        "difficulty": 0,
+        "score": 0,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 604,
+        "direction": 2,
+        "score": 5,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 604,
+        "direction": 4,
+        "difficulty": 0,
+        "score": 65530,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 604,
+        "direction": 2,
+        "score": 65535,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 604,
+        "direction": 4,
+        "difficulty": 0,
+        "score": 4294967280,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 604,
+        "direction": 2,
+        "score": 4294967285,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 604,
+        "direction": 4,
+        "difficulty": 0,
+        "score": 91,
+        "misaligned": 1
+      },
+      "expected": {
+        "cell": 604,
+        "direction": 4,
+        "score": 91,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 604,
+        "direction": 4,
+        "difficulty": 1,
+        "score": 0,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 604,
+        "direction": 2,
+        "score": 10,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 604,
+        "direction": 4,
+        "difficulty": 1,
+        "score": 65530,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 604,
+        "direction": 2,
+        "score": 65540,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 604,
+        "direction": 4,
+        "difficulty": 1,
+        "score": 4294967280,
+        "misaligned": 0
+      },
+      "expected": {
+        "cell": 604,
+        "direction": 2,
+        "score": 4294967290,
+        "holes": 2,
+        "prizes": 9
+      }
+    },
+    {
+      "input": {
+        "cell": 604,
+        "direction": 4,
+        "difficulty": 1,
+        "score": 91,
+        "misaligned": 1
+      },
+      "expected": {
+        "cell": 604,
+        "direction": 4,
+        "score": 91,
+        "holes": 2,
+        "prizes": 9
+      }
+    }
+  ]
+}

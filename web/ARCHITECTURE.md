@@ -190,6 +190,7 @@ modules `view.js` affichent les états et relient les commandes au moteur.
 | ------------------ | ---------------------------------------------------------------------- | ---------------------------------------------------------------------------- |
 | Sokoban            | [Moteur et vue](public/features/games/sokoban/)                        | [15 niveaux et atlas](public/game/sokoban/)                                  |
 | BeeBop I           | [Moteur, effets, règles et rendu](public/features/games/beebop/)      | [45 tableaux, images et sons](public/game/beebop1/)                           |
+| Place Ball         | [Moteur, rendu et vue](public/features/games/placeball/)             | [15 tableaux, images et sons](public/game/placeball/)                        |
 | Mr. Matt I et II   | [Moteur et vue partagés](public/features/games/mrmatt/)                | [I](public/game/mrmatt1/) et [II](public/game/mrmatt2/)                      |
 | Bad Toys 3D I à IV | [Moteur, rendu et vue](public/features/games/badtoys/)                 | [Cartes, sprites et sons](public/game/badtoys/)                              |
 | Goblins I à III    | [Vue](public/features/games/wgob3/view.js) et [lecteur](public/wgob3/) | [I](public/game/wgob1/), [II](public/game/wgob2/), [III](public/game/wgob3/) |

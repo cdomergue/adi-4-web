@@ -161,12 +161,13 @@ Les petits mouvements d’ambiance des décors et certaines transitions ne sont
 pas tous reproduits. Les [finitions de fidélité](FIDELITY.md) sont des travaux
 requis pour considérer la recréation terminée.
 
-## Les onze jeux
+## Les douze jeux
 
 | Jeu                | Route                           | Contenu et reprise                                              |
 | ------------------ | ------------------------------- | --------------------------------------------------------------- |
 | Sokoban            | `#game/sokoban`                 | 15 niveaux originaux                                            |
 | BeeBop I           | `#game/beebop1`                 | 45 tableaux, moteur JavaScript natif, reprise au début du tableau |
+| Place Ball         | `#game/placebfr`                | 15 niveaux, moteur JavaScript natif, modes Standard et Challenge |
 | Gobliiins          | `#game/wgob1`                   | Édition française Windows des CD ADI ; codes de niveau          |
 | Gobliins 2         | `#game/wgob2`                   | Édition française Windows ; sauvegardes du jeu et import/export |
 | Goblins 3          | `#game/wgob3`                   | Édition française Windows ; sauvegardes du jeu et import/export |
@@ -196,6 +197,15 @@ automatiquement après le bonus. Le sélecteur de tableau démarre une
 partie indépendante à cet endroit. La [référence BeeBop](public/features/games/beebop/README.md)
 décrit les vérifications natives, les différences avec BeeBop II et les limites
 de comparaison audiovisuelle ; la fidélité complète n’est pas encore établie.
+
+Place Ball propose les quinze niveaux de `PBWIN.UDF`, les images et bruitages
+originaux, cinq vitesses et les modes Standard et Challenge. Clic, Entrée ou
+Espace lancent la sphère ; les flèches et Tab choisissent un lanceur. Échap met
+en pause. La clé `adi4-placeball-v1` conserve l’enregistrement explicite au début
+du niveau, les réglages et les dix meilleurs scores. Les collisions sont
+comparées à 576 résultats x86. La musique est absente de l’exécutable fourni ;
+la [référence Place Ball](public/features/games/placeball/README.md) décrit
+les adaptations et les limites de validation audiovisuelle.
 
 Mr. Matt propose les sons originaux et une option « Déplacements réfléchis »
 désactivée par défaut. Une démonstration originale de Mr. Matt II est incomplète

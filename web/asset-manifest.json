@@ -14318,8 +14318,8 @@
     },
     {
       "path": "public/game/games/catalog.json",
-      "size": 14435,
-      "sha256": "a12baddb2f42f29a2147a34b6bf0582a107a1f6c745ddb0a7f540c0ae9dc09c3"
+      "size": 14468,
+      "sha256": "a0de8a13c6f1b092a6ee50900b1a4c877c99fad9e8597a63966735d86b376f98"
     },
     {
       "path": "public/game/greenhouse/02D10001.webp",
@@ -16610,6 +16610,81 @@
       "path": "public/game/mrmatt2/manifest.json",
       "size": 6279,
       "sha256": "7807a352370ecaefff559d1fcde4368f6956cb6acd535ee646a19de5d4819ee2"
+    },
+    {
+      "path": "public/game/placeball/artwork.json",
+      "size": 3931,
+      "sha256": "b84201923c01c1f7ab49c237274321d642627cfed2349cface2f603b04676e9d"
+    },
+    {
+      "path": "public/game/placeball/bitmap-102.png",
+      "size": 2484,
+      "sha256": "db6ea15150b0ff159dc021bc67ff6556c581dedea130535bf903d960bc9d0f6f"
+    },
+    {
+      "path": "public/game/placeball/bitmap-103.png",
+      "size": 3523,
+      "sha256": "07554c716fa9b32de17dd3e6f304567267e3acdc3e5d2ed6dcc6c3d0fd0a52aa"
+    },
+    {
+      "path": "public/game/placeball/bitmap-104.png",
+      "size": 3632,
+      "sha256": "8243c4551aed69b61a8bbe8a69afb749ec3b9357e4958666afe0c03ac2265b70"
+    },
+    {
+      "path": "public/game/placeball/bitmap-105.png",
+      "size": 2725,
+      "sha256": "920cd7bda1db661d00bff73fec66b90d85895388650d44a891baa7e180c8468e"
+    },
+    {
+      "path": "public/game/placeball/bitmap-106.png",
+      "size": 13599,
+      "sha256": "65fe4e18b0fe5cba625669da184963ad2b1ac609e2fa56f9054396c6393e6fe8"
+    },
+    {
+      "path": "public/game/placeball/bitmap-107.png",
+      "size": 334,
+      "sha256": "ed229375e213ad0ae96dc1ab251e758ead07cb9a7cd700aa66db8ba790bc4e40"
+    },
+    {
+      "path": "public/game/placeball/campaign.json",
+      "size": 18215,
+      "sha256": "ac0d8147f5992d606a0cd18be9b69f62512b01d4ba4f14f7f752d8f1e112f288"
+    },
+    {
+      "path": "public/game/placeball/sound-103.wav",
+      "size": 5768,
+      "sha256": "7090c5aaa906399f8511438650bc2eba4a2896e63370b5a5fc45c1b7a1611486"
+    },
+    {
+      "path": "public/game/placeball/sound-104.wav",
+      "size": 8318,
+      "sha256": "c7b507ffacd14c65049325ecda29878c5d080cac19f1e2fab42cad9777a1bcd2"
+    },
+    {
+      "path": "public/game/placeball/sound-106.wav",
+      "size": 384,
+      "sha256": "72bcbf7e5ecfd8df902ecd1f5fa95fd823ab603885c2bd6eb1767a2052c17ad1"
+    },
+    {
+      "path": "public/game/placeball/sound-107.wav",
+      "size": 9692,
+      "sha256": "7e3286304bb1dfbda88ba500a18dd75f2dbe8e85f64b8b618a867f9802ffdf55"
+    },
+    {
+      "path": "public/game/placeball/sound-108.wav",
+      "size": 19624,
+      "sha256": "c7cfbe533d01fe62f2b97882b034a882e6a313faf12e464fbd1408b9a9e903fc"
+    },
+    {
+      "path": "public/game/placeball/sound-109.wav",
+      "size": 10752,
+      "sha256": "c2bef943383d769c3907bf4cf9133549b6b897d7027e593333afa8343b596929"
+    },
+    {
+      "path": "public/game/placeball/sound-111.wav",
+      "size": 4494,
+      "sha256": "63e312d87331483219d6a489b62530cc2feeb76322cf0a46134740f800511847"
     },
     {
       "path": "public/game/room.webp",

@@ -22,9 +22,9 @@ npm --prefix web run dev
 ```
 
 Ouvrir [la version locale](http://127.0.0.1:4173/).
-La chambre, la radio, la planète Internet simulée et les onze jeux disponibles
+La chambre, la radio, la planète Internet simulée et les douze jeux disponibles
 ont leurs ressources dans Git : Sokoban, les trois Goblins, Mr. Matt I et II,
-BeeBop I et les quatre épisodes de Bad Toys 3D. Les parties sont conservées dans le
+BeeBop I, Place Ball et les quatre épisodes de Bad Toys 3D. Les parties sont conservées dans le
 navigateur, selon les possibilités de chaque jeu.
 
 Les douze documents de la chambre sont consultables : cinq dossiers multimédias,

@@ -59,3 +59,14 @@ suivent les ressources et les appels décompilés. La vitesse centrale vise
 La comparaison en partie Windows, le coût réel des opérations graphiques et la cadence
 des blits et des sons courts restent non validés. Les [limites détaillées](public/features/games/beebop/README.md)
 font partie du travail requis de fidélité, pas d’améliorations optionnelles.
+
+## Place Ball
+
+Les quinze tableaux de `PBWIN.UDF` et les ressources Win16 alimentent le moteur
+natif. Les collisions concordent avec 576 résultats d’exécution x86 des routines
+originales. Les changements d’orientation, les cinq variantes de murs, les points,
+les deux difficultés et les retenues 32 bits font partie de cette comparaison.
+La validation audiovisuelle complète dans Windows reste distincte de ces tests.
+La musique manquante, la permutation des pixels de dissolution, la distribution
+verticale de la mascotte, la composition des blits et l’adaptation des menus et
+sauvegardes sont décrites dans la [référence du port](public/features/games/placeball/README.md).

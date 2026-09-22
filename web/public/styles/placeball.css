@@ -1,0 +1,24 @@
+.placeball-page { max-width: 900px; margin: auto; }
+.placeball-heading, .placeball-toolbar { display: flex; align-items: center; flex-wrap: wrap; gap: 10px; margin: 16px 0; }
+.placeball-heading { justify-content: space-between; }
+.placeball-toolbar button, .placeball-overlay button, .placeball-dialog button { font: inherit; padding: 8px 12px; color: #183a30; background: #f7f3df; border: 1px solid #566b63; border-radius: 5px; cursor: pointer; }
+.placeball-toolbar button:disabled { opacity: .5; cursor: default; }
+.placeball-toolbar select, .placeball-dialog input { font: inherit; padding: 5px; }
+.placeball-toolbar label { display: inline-flex; align-items: center; gap: 5px; }
+.placeball-window { position: relative; width: min(100%, 800px); margin: auto; background: black; }
+.placeball-window canvas { display: block; width: 100%; height: auto; image-rendering: pixelated; touch-action: none; }
+.placeball-window canvas.is-cursor-hidden { cursor: none; }
+.placeball-window:fullscreen { width: min(100vw, calc(100vh * 640 / 440)); height: fit-content; margin: auto; }
+.placeball-exit-fullscreen { display: none; }
+.placeball-window:fullscreen .placeball-exit-fullscreen { display: block; position: absolute; z-index: 2; right: 8px; top: 8px; background: #000b; color: white; border: 1px solid white; padding: 8px; cursor: pointer; }
+.placeball-overlay { position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; flex-direction: column; gap: 14px; background: #0008; color: white; }
+.placeball-overlay[hidden] { display: none; }
+.placeball-overlay img { image-rendering: pixelated; max-width: 70%; height: auto; }
+.placeball-page details { margin: 16px 0; }
+.placeball-page summary { cursor: pointer; }
+.placeball-dialog { max-width: min(90vw, 540px); color: black; background: #c0c0c0; border: 3px outset #eee; padding: 20px; }
+.placeball-dialog::backdrop { background: #0007; }
+.placeball-dialog h2 { margin-top: 0; }
+.placeball-dialog [data-dialog-actions] { display: flex; gap: 12px; justify-content: center; margin-top: 20px; }
+.placeball-dialog label { display: grid; gap: 14px; }
+.placeball-dialog li { margin: 7px 0; }

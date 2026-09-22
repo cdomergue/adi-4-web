@@ -263,7 +263,8 @@
   },
   {
     "id": "placebfr",
-    "title": "PLACEBFR",
+    "title": "Place Ball",
+    "route": "#game/placebfr",
     "source": "extracted/discs/Adi421EnvCol2/Games/PlaceBfr/PLACEBFR.EXE",
     "format": "Win16 NE",
     "sha256": "1b322a9ea1fa876d3636c2a3858ac85f2ef5bbf3284c34b458fee3bb66cc65c6",
