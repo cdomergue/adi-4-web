@@ -1,0 +1,1585 @@
+{
+  "episode": 2,
+  "executableSha256": "948ed1705fc585a7f9583619ffe34365f657207c7de1827c17c4b9471ff737ad",
+  "bitmaps": {
+    "742": {
+      "path": "bitmaps/bitmap-742.png",
+      "width": 40,
+      "height": 20
+    },
+    "743": {
+      "path": "bitmaps/bitmap-743.png",
+      "width": 40,
+      "height": 20
+    },
+    "744": {
+      "path": "bitmaps/bitmap-744.png",
+      "width": 40,
+      "height": 20
+    },
+    "745": {
+      "path": "bitmaps/bitmap-745.png",
+      "width": 40,
+      "height": 20
+    },
+    "746": {
+      "path": "bitmaps/bitmap-746.png",
+      "width": 40,
+      "height": 20
+    },
+    "747": {
+      "path": "bitmaps/bitmap-747.png",
+      "width": 40,
+      "height": 20
+    },
+    "BITMAP_1": {
+      "path": "bitmaps/bitmap-BITMAP_1.png",
+      "width": 320,
+      "height": 240
+    },
+    "1": {
+      "path": "bitmaps/bitmap-1.png",
+      "width": 64,
+      "height": 64
+    },
+    "2": {
+      "path": "bitmaps/bitmap-2.png",
+      "width": 64,
+      "height": 64
+    },
+    "72": {
+      "path": "bitmaps/bitmap-72.png",
+      "width": 64,
+      "height": 64
+    },
+    "128": {
+      "path": "bitmaps/bitmap-128.png",
+      "width": 64,
+      "height": 64
+    },
+    "131": {
+      "path": "bitmaps/bitmap-131.png",
+      "width": 64,
+      "height": 64
+    },
+    "132": {
+      "path": "bitmaps/bitmap-132.png",
+      "width": 64,
+      "height": 64
+    },
+    "134": {
+      "path": "bitmaps/bitmap-134.png",
+      "width": 64,
+      "height": 64
+    },
+    "1001": {
+      "path": "bitmaps/bitmap-1001.png",
+      "width": 64,
+      "height": 64
+    },
+    "1002": {
+      "path": "bitmaps/bitmap-1002.png",
+      "width": 64,
+      "height": 64
+    },
+    "1003": {
+      "path": "bitmaps/bitmap-1003.png",
+      "width": 64,
+      "height": 64
+    },
+    "1004": {
+      "path": "bitmaps/bitmap-1004.png",
+      "width": 64,
+      "height": 64
+    },
+    "1005": {
+      "path": "bitmaps/bitmap-1005.png",
+      "width": 64,
+      "height": 64
+    },
+    "1006": {
+      "path": "bitmaps/bitmap-1006.png",
+      "width": 64,
+      "height": 64
+    },
+    "1007": {
+      "path": "bitmaps/bitmap-1007.png",
+      "width": 64,
+      "height": 64
+    },
+    "1008": {
+      "path": "bitmaps/bitmap-1008.png",
+      "width": 64,
+      "height": 64
+    },
+    "1009": {
+      "path": "bitmaps/bitmap-1009.png",
+      "width": 64,
+      "height": 64
+    },
+    "1010": {
+      "path": "bitmaps/bitmap-1010.png",
+      "width": 64,
+      "height": 64
+    },
+    "1011": {
+      "path": "bitmaps/bitmap-1011.png",
+      "width": 64,
+      "height": 64
+    },
+    "1012": {
+      "path": "bitmaps/bitmap-1012.png",
+      "width": 64,
+      "height": 64
+    },
+    "1013": {
+      "path": "bitmaps/bitmap-1013.png",
+      "width": 64,
+      "height": 64
+    },
+    "1014": {
+      "path": "bitmaps/bitmap-1014.png",
+      "width": 64,
+      "height": 64
+    },
+    "1015": {
+      "path": "bitmaps/bitmap-1015.png",
+      "width": 64,
+      "height": 64
+    },
+    "1016": {
+      "path": "bitmaps/bitmap-1016.png",
+      "width": 64,
+      "height": 64
+    },
+    "1017": {
+      "path": "bitmaps/bitmap-1017.png",
+      "width": 64,
+      "height": 64
+    },
+    "1018": {
+      "path": "bitmaps/bitmap-1018.png",
+      "width": 64,
+      "height": 64
+    },
+    "1019": {
+      "path": "bitmaps/bitmap-1019.png",
+      "width": 64,
+      "height": 64
+    },
+    "1020": {
+      "path": "bitmaps/bitmap-1020.png",
+      "width": 64,
+      "height": 64
+    },
+    "1021": {
+      "path": "bitmaps/bitmap-1021.png",
+      "width": 64,
+      "height": 64
+    },
+    "1022": {
+      "path": "bitmaps/bitmap-1022.png",
+      "width": 64,
+      "height": 64
+    },
+    "1023": {
+      "path": "bitmaps/bitmap-1023.png",
+      "width": 64,
+      "height": 64
+    },
+    "1024": {
+      "path": "bitmaps/bitmap-1024.png",
+      "width": 64,
+      "height": 64
+    },
+    "1025": {
+      "path": "bitmaps/bitmap-1025.png",
+      "width": 64,
+      "height": 64
+    },
+    "1026": {
+      "path": "bitmaps/bitmap-1026.png",
+      "width": 64,
+      "height": 64
+    },
+    "1027": {
+      "path": "bitmaps/bitmap-1027.png",
+      "width": 64,
+      "height": 64
+    },
+    "1028": {
+      "path": "bitmaps/bitmap-1028.png",
+      "width": 64,
+      "height": 64
+    },
+    "1029": {
+      "path": "bitmaps/bitmap-1029.png",
+      "width": 64,
+      "height": 64
+    },
+    "1030": {
+      "path": "bitmaps/bitmap-1030.png",
+      "width": 64,
+      "height": 64
+    },
+    "1031": {
+      "path": "bitmaps/bitmap-1031.png",
+      "width": 64,
+      "height": 64
+    },
+    "1032": {
+      "path": "bitmaps/bitmap-1032.png",
+      "width": 64,
+      "height": 64
+    },
+    "1033": {
+      "path": "bitmaps/bitmap-1033.png",
+      "width": 64,
+      "height": 64
+    },
+    "1034": {
+      "path": "bitmaps/bitmap-1034.png",
+      "width": 64,
+      "height": 64
+    },
+    "1035": {
+      "path": "bitmaps/bitmap-1035.png",
+      "width": 64,
+      "height": 64
+    },
+    "1036": {
+      "path": "bitmaps/bitmap-1036.png",
+      "width": 64,
+      "height": 64
+    },
+    "1037": {
+      "path": "bitmaps/bitmap-1037.png",
+      "width": 64,
+      "height": 64
+    },
+    "1038": {
+      "path": "bitmaps/bitmap-1038.png",
+      "width": 64,
+      "height": 64
+    },
+    "1039": {
+      "path": "bitmaps/bitmap-1039.png",
+      "width": 64,
+      "height": 64
+    },
+    "1040": {
+      "path": "bitmaps/bitmap-1040.png",
+      "width": 64,
+      "height": 64
+    },
+    "2128": {
+      "path": "bitmaps/bitmap-2128.png",
+      "width": 576,
+      "height": 125
+    },
+    "2129": {
+      "path": "bitmaps/bitmap-2129.png",
+      "width": 90,
+      "height": 90
+    },
+    "2131": {
+      "path": "bitmaps/bitmap-2131.png",
+      "width": 179,
+      "height": 82
+    },
+    "2140": {
+      "path": "bitmaps/bitmap-2140.png",
+      "width": 39,
+      "height": 40
+    },
+    "2142": {
+      "path": "bitmaps/bitmap-2142.png",
+      "width": 165,
+      "height": 33
+    },
+    "2144": {
+      "path": "bitmaps/bitmap-2144.png",
+      "width": 161,
+      "height": 151
+    },
+    "2621": {
+      "path": "bitmaps/bitmap-2621.png",
+      "width": 198,
+      "height": 134
+    },
+    "2622": {
+      "path": "bitmaps/bitmap-2622.png",
+      "width": 198,
+      "height": 134
+    },
+    "3000": {
+      "path": "bitmaps/bitmap-3000.png",
+      "width": 395,
+      "height": 262
+    },
+    "3001": {
+      "path": "bitmaps/bitmap-3001.png",
+      "width": 110,
+      "height": 51
+    },
+    "3002": {
+      "path": "bitmaps/bitmap-3002.png",
+      "width": 110,
+      "height": 51
+    },
+    "3003": {
+      "path": "bitmaps/bitmap-3003.png",
+      "width": 395,
+      "height": 262
+    },
+    "3005": {
+      "path": "bitmaps/bitmap-3005.png",
+      "width": 395,
+      "height": 262
+    },
+    "3006": {
+      "path": "bitmaps/bitmap-3006.png",
+      "width": 110,
+      "height": 51
+    },
+    "3144": {
+      "path": "bitmaps/bitmap-3144.png",
+      "width": 200,
+      "height": 150
+    },
+    "4002": {
+      "path": "bitmaps/bitmap-4002.png",
+      "width": 145,
+      "height": 130
+    },
+    "5000": {
+      "path": "bitmaps/bitmap-5000.png",
+      "width": 5,
+      "height": 20
+    },
+    "5001": {
+      "path": "bitmaps/bitmap-5001.png",
+      "width": 40,
+      "height": 9
+    },
+    "5002": {
+      "path": "bitmaps/bitmap-5002.png",
+      "width": 40,
+      "height": 9
+    },
+    "5003": {
+      "path": "bitmaps/bitmap-5003.png",
+      "width": 40,
+      "height": 9
+    },
+    "5004": {
+      "path": "bitmaps/bitmap-5004.png",
+      "width": 60,
+      "height": 13
+    },
+    "5005": {
+      "path": "bitmaps/bitmap-5005.png",
+      "width": 61,
+      "height": 13
+    },
+    "5006": {
+      "path": "bitmaps/bitmap-5006.png",
+      "width": 39,
+      "height": 25
+    },
+    "5007": {
+      "path": "bitmaps/bitmap-5007.png",
+      "width": 64,
+      "height": 19
+    },
+    "5008": {
+      "path": "bitmaps/bitmap-5008.png",
+      "width": 45,
+      "height": 14
+    },
+    "5009": {
+      "path": "bitmaps/bitmap-5009.png",
+      "width": 35,
+      "height": 13
+    },
+    "5010": {
+      "path": "bitmaps/bitmap-5010.png",
+      "width": 363,
+      "height": 57
+    },
+    "10001": {
+      "path": "bitmaps/bitmap-10001.png",
+      "width": 274,
+      "height": 227
+    },
+    "10100": {
+      "path": "bitmaps/bitmap-10100.png",
+      "width": 320,
+      "height": 200
+    },
+    "10101": {
+      "path": "bitmaps/bitmap-10101.png",
+      "width": 320,
+      "height": 200
+    },
+    "10102": {
+      "path": "bitmaps/bitmap-10102.png",
+      "width": 320,
+      "height": 200
+    },
+    "10103": {
+      "path": "bitmaps/bitmap-10103.png",
+      "width": 320,
+      "height": 200
+    },
+    "10104": {
+      "path": "bitmaps/bitmap-10104.png",
+      "width": 320,
+      "height": 200
+    },
+    "10105": {
+      "path": "bitmaps/bitmap-10105.png",
+      "width": 320,
+      "height": 200
+    },
+    "10106": {
+      "path": "bitmaps/bitmap-10106.png",
+      "width": 320,
+      "height": 200
+    },
+    "10107": {
+      "path": "bitmaps/bitmap-10107.png",
+      "width": 320,
+      "height": 200
+    },
+    "10108": {
+      "path": "bitmaps/bitmap-10108.png",
+      "width": 320,
+      "height": 200
+    },
+    "10109": {
+      "path": "bitmaps/bitmap-10109.png",
+      "width": 320,
+      "height": 200
+    },
+    "10110": {
+      "path": "bitmaps/bitmap-10110.png",
+      "width": 320,
+      "height": 200
+    },
+    "10111": {
+      "path": "bitmaps/bitmap-10111.png",
+      "width": 320,
+      "height": 200
+    },
+    "10112": {
+      "path": "bitmaps/bitmap-10112.png",
+      "width": 320,
+      "height": 200
+    },
+    "10113": {
+      "path": "bitmaps/bitmap-10113.png",
+      "width": 320,
+      "height": 200
+    },
+    "10114": {
+      "path": "bitmaps/bitmap-10114.png",
+      "width": 320,
+      "height": 200
+    },
+    "10115": {
+      "path": "bitmaps/bitmap-10115.png",
+      "width": 320,
+      "height": 200
+    },
+    "10116": {
+      "path": "bitmaps/bitmap-10116.png",
+      "width": 320,
+      "height": 200
+    },
+    "10117": {
+      "path": "bitmaps/bitmap-10117.png",
+      "width": 320,
+      "height": 200
+    },
+    "10118": {
+      "path": "bitmaps/bitmap-10118.png",
+      "width": 320,
+      "height": 200
+    },
+    "10119": {
+      "path": "bitmaps/bitmap-10119.png",
+      "width": 320,
+      "height": 200
+    },
+    "10120": {
+      "path": "bitmaps/bitmap-10120.png",
+      "width": 320,
+      "height": 200
+    },
+    "10121": {
+      "path": "bitmaps/bitmap-10121.png",
+      "width": 320,
+      "height": 200
+    },
+    "10122": {
+      "path": "bitmaps/bitmap-10122.png",
+      "width": 320,
+      "height": 200
+    },
+    "10123": {
+      "path": "bitmaps/bitmap-10123.png",
+      "width": 320,
+      "height": 200
+    },
+    "10124": {
+      "path": "bitmaps/bitmap-10124.png",
+      "width": 320,
+      "height": 200
+    },
+    "10125": {
+      "path": "bitmaps/bitmap-10125.png",
+      "width": 320,
+      "height": 200
+    },
+    "10126": {
+      "path": "bitmaps/bitmap-10126.png",
+      "width": 320,
+      "height": 200
+    },
+    "10127": {
+      "path": "bitmaps/bitmap-10127.png",
+      "width": 320,
+      "height": 200
+    },
+    "10128": {
+      "path": "bitmaps/bitmap-10128.png",
+      "width": 320,
+      "height": 200
+    },
+    "10129": {
+      "path": "bitmaps/bitmap-10129.png",
+      "width": 320,
+      "height": 200
+    },
+    "10130": {
+      "path": "bitmaps/bitmap-10130.png",
+      "width": 320,
+      "height": 200
+    },
+    "10131": {
+      "path": "bitmaps/bitmap-10131.png",
+      "width": 320,
+      "height": 200
+    },
+    "10132": {
+      "path": "bitmaps/bitmap-10132.png",
+      "width": 320,
+      "height": 200
+    },
+    "10133": {
+      "path": "bitmaps/bitmap-10133.png",
+      "width": 320,
+      "height": 200
+    },
+    "10134": {
+      "path": "bitmaps/bitmap-10134.png",
+      "width": 320,
+      "height": 200
+    },
+    "10135": {
+      "path": "bitmaps/bitmap-10135.png",
+      "width": 320,
+      "height": 200
+    },
+    "10136": {
+      "path": "bitmaps/bitmap-10136.png",
+      "width": 320,
+      "height": 200
+    },
+    "10137": {
+      "path": "bitmaps/bitmap-10137.png",
+      "width": 320,
+      "height": 200
+    },
+    "10138": {
+      "path": "bitmaps/bitmap-10138.png",
+      "width": 320,
+      "height": 200
+    },
+    "10139": {
+      "path": "bitmaps/bitmap-10139.png",
+      "width": 320,
+      "height": 200
+    },
+    "10140": {
+      "path": "bitmaps/bitmap-10140.png",
+      "width": 320,
+      "height": 200
+    },
+    "10141": {
+      "path": "bitmaps/bitmap-10141.png",
+      "width": 320,
+      "height": 200
+    },
+    "10142": {
+      "path": "bitmaps/bitmap-10142.png",
+      "width": 320,
+      "height": 200
+    },
+    "10143": {
+      "path": "bitmaps/bitmap-10143.png",
+      "width": 320,
+      "height": 200
+    },
+    "10144": {
+      "path": "bitmaps/bitmap-10144.png",
+      "width": 320,
+      "height": 200
+    },
+    "10145": {
+      "path": "bitmaps/bitmap-10145.png",
+      "width": 320,
+      "height": 200
+    },
+    "10146": {
+      "path": "bitmaps/bitmap-10146.png",
+      "width": 320,
+      "height": 200
+    },
+    "10147": {
+      "path": "bitmaps/bitmap-10147.png",
+      "width": 320,
+      "height": 200
+    },
+    "10148": {
+      "path": "bitmaps/bitmap-10148.png",
+      "width": 320,
+      "height": 200
+    },
+    "10149": {
+      "path": "bitmaps/bitmap-10149.png",
+      "width": 320,
+      "height": 200
+    },
+    "10150": {
+      "path": "bitmaps/bitmap-10150.png",
+      "width": 320,
+      "height": 200
+    },
+    "10151": {
+      "path": "bitmaps/bitmap-10151.png",
+      "width": 320,
+      "height": 200
+    },
+    "10152": {
+      "path": "bitmaps/bitmap-10152.png",
+      "width": 320,
+      "height": 200
+    },
+    "10153": {
+      "path": "bitmaps/bitmap-10153.png",
+      "width": 320,
+      "height": 200
+    },
+    "10154": {
+      "path": "bitmaps/bitmap-10154.png",
+      "width": 320,
+      "height": 200
+    },
+    "10155": {
+      "path": "bitmaps/bitmap-10155.png",
+      "width": 320,
+      "height": 200
+    },
+    "10156": {
+      "path": "bitmaps/bitmap-10156.png",
+      "width": 320,
+      "height": 200
+    },
+    "10157": {
+      "path": "bitmaps/bitmap-10157.png",
+      "width": 320,
+      "height": 200
+    },
+    "10158": {
+      "path": "bitmaps/bitmap-10158.png",
+      "width": 320,
+      "height": 200
+    },
+    "10159": {
+      "path": "bitmaps/bitmap-10159.png",
+      "width": 320,
+      "height": 200
+    },
+    "10160": {
+      "path": "bitmaps/bitmap-10160.png",
+      "width": 320,
+      "height": 200
+    },
+    "10200": {
+      "path": "bitmaps/bitmap-10200.png",
+      "width": 578,
+      "height": 394
+    },
+    "10201": {
+      "path": "bitmaps/bitmap-10201.png",
+      "width": 578,
+      "height": 394
+    },
+    "10202": {
+      "path": "bitmaps/bitmap-10202.png",
+      "width": 578,
+      "height": 394
+    },
+    "10203": {
+      "path": "bitmaps/bitmap-10203.png",
+      "width": 578,
+      "height": 394
+    },
+    "10204": {
+      "path": "bitmaps/bitmap-10204.png",
+      "width": 578,
+      "height": 394
+    },
+    "10205": {
+      "path": "bitmaps/bitmap-10205.png",
+      "width": 578,
+      "height": 394
+    },
+    "10206": {
+      "path": "bitmaps/bitmap-10206.png",
+      "width": 578,
+      "height": 394
+    },
+    "10207": {
+      "path": "bitmaps/bitmap-10207.png",
+      "width": 578,
+      "height": 394
+    },
+    "10208": {
+      "path": "bitmaps/bitmap-10208.png",
+      "width": 578,
+      "height": 394
+    },
+    "10209": {
+      "path": "bitmaps/bitmap-10209.png",
+      "width": 578,
+      "height": 394
+    },
+    "10210": {
+      "path": "bitmaps/bitmap-10210.png",
+      "width": 578,
+      "height": 394
+    },
+    "22011": {
+      "path": "bitmaps/bitmap-22011.png",
+      "width": 39,
+      "height": 25
+    },
+    "22012": {
+      "path": "bitmaps/bitmap-22012.png",
+      "width": 39,
+      "height": 25
+    },
+    "22013": {
+      "path": "bitmaps/bitmap-22013.png",
+      "width": 39,
+      "height": 25
+    },
+    "22014": {
+      "path": "bitmaps/bitmap-22014.png",
+      "width": 39,
+      "height": 25
+    },
+    "22015": {
+      "path": "bitmaps/bitmap-22015.png",
+      "width": 39,
+      "height": 25
+    },
+    "22031": {
+      "path": "bitmaps/bitmap-22031.png",
+      "width": 62,
+      "height": 17
+    },
+    "22032": {
+      "path": "bitmaps/bitmap-22032.png",
+      "width": 62,
+      "height": 17
+    },
+    "22033": {
+      "path": "bitmaps/bitmap-22033.png",
+      "width": 62,
+      "height": 17
+    },
+    "22034": {
+      "path": "bitmaps/bitmap-22034.png",
+      "width": 62,
+      "height": 17
+    },
+    "22035": {
+      "path": "bitmaps/bitmap-22035.png",
+      "width": 62,
+      "height": 17
+    },
+    "22041": {
+      "path": "bitmaps/bitmap-22041.png",
+      "width": 64,
+      "height": 30
+    },
+    "22042": {
+      "path": "bitmaps/bitmap-22042.png",
+      "width": 64,
+      "height": 30
+    },
+    "22043": {
+      "path": "bitmaps/bitmap-22043.png",
+      "width": 64,
+      "height": 30
+    },
+    "22044": {
+      "path": "bitmaps/bitmap-22044.png",
+      "width": 64,
+      "height": 30
+    },
+    "22045": {
+      "path": "bitmaps/bitmap-22045.png",
+      "width": 64,
+      "height": 30
+    },
+    "22051": {
+      "path": "bitmaps/bitmap-22051.png",
+      "width": 62,
+      "height": 17
+    },
+    "22052": {
+      "path": "bitmaps/bitmap-22052.png",
+      "width": 62,
+      "height": 17
+    },
+    "22053": {
+      "path": "bitmaps/bitmap-22053.png",
+      "width": 62,
+      "height": 17
+    },
+    "22054": {
+      "path": "bitmaps/bitmap-22054.png",
+      "width": 62,
+      "height": 17
+    },
+    "22055": {
+      "path": "bitmaps/bitmap-22055.png",
+      "width": 62,
+      "height": 17
+    },
+    "22061": {
+      "path": "bitmaps/bitmap-22061.png",
+      "width": 45,
+      "height": 14
+    },
+    "22062": {
+      "path": "bitmaps/bitmap-22062.png",
+      "width": 45,
+      "height": 14
+    },
+    "22063": {
+      "path": "bitmaps/bitmap-22063.png",
+      "width": 45,
+      "height": 14
+    },
+    "22064": {
+      "path": "bitmaps/bitmap-22064.png",
+      "width": 45,
+      "height": 14
+    },
+    "22065": {
+      "path": "bitmaps/bitmap-22065.png",
+      "width": 45,
+      "height": 14
+    },
+    "22071": {
+      "path": "bitmaps/bitmap-22071.png",
+      "width": 35,
+      "height": 13
+    },
+    "22072": {
+      "path": "bitmaps/bitmap-22072.png",
+      "width": 35,
+      "height": 13
+    },
+    "22073": {
+      "path": "bitmaps/bitmap-22073.png",
+      "width": 35,
+      "height": 13
+    },
+    "22074": {
+      "path": "bitmaps/bitmap-22074.png",
+      "width": 35,
+      "height": 13
+    },
+    "22075": {
+      "path": "bitmaps/bitmap-22075.png",
+      "width": 35,
+      "height": 13
+    },
+    "22081": {
+      "path": "bitmaps/bitmap-22081.png",
+      "width": 576,
+      "height": 125
+    },
+    "22082": {
+      "path": "bitmaps/bitmap-22082.png",
+      "width": 576,
+      "height": 125
+    },
+    "22083": {
+      "path": "bitmaps/bitmap-22083.png",
+      "width": 576,
+      "height": 125
+    },
+    "22084": {
+      "path": "bitmaps/bitmap-22084.png",
+      "width": 576,
+      "height": 125
+    },
+    "22085": {
+      "path": "bitmaps/bitmap-22085.png",
+      "width": 576,
+      "height": 125
+    }
+  },
+  "icons": {
+    "ICON_1": {
+      "path": "icons/icon-ICON_1.png",
+      "width": 32,
+      "height": 32
+    },
+    "ICON_33": {
+      "path": "icons/icon-ICON_33.png",
+      "width": 32,
+      "height": 32
+    },
+    "ICON_36": {
+      "path": "icons/icon-ICON_36.png",
+      "width": 32,
+      "height": 32
+    },
+    "ICON_6": {
+      "path": "icons/icon-ICON_6.png",
+      "width": 32,
+      "height": 32
+    },
+    "128": {
+      "path": "icons/icon-128.png",
+      "width": 32,
+      "height": 32
+    },
+    "129": {
+      "path": "icons/icon-129.png",
+      "width": 32,
+      "height": 32
+    },
+    "130": {
+      "path": "icons/icon-130.png",
+      "width": 32,
+      "height": 32
+    },
+    "131": {
+      "path": "icons/icon-131.png",
+      "width": 32,
+      "height": 32
+    },
+    "132": {
+      "path": "icons/icon-132.png",
+      "width": 32,
+      "height": 32
+    },
+    "133": {
+      "path": "icons/icon-133.png",
+      "width": 32,
+      "height": 32
+    },
+    "134": {
+      "path": "icons/icon-134.png",
+      "width": 32,
+      "height": 32
+    },
+    "135": {
+      "path": "icons/icon-135.png",
+      "width": 32,
+      "height": 32
+    },
+    "137": {
+      "path": "icons/icon-137.png",
+      "width": 32,
+      "height": 32
+    },
+    "138": {
+      "path": "icons/icon-138.png",
+      "width": 32,
+      "height": 32
+    },
+    "139": {
+      "path": "icons/icon-139.png",
+      "width": 32,
+      "height": 32
+    },
+    "140": {
+      "path": "icons/icon-140.png",
+      "width": 32,
+      "height": 32
+    },
+    "141": {
+      "path": "icons/icon-141.png",
+      "width": 32,
+      "height": 32
+    },
+    "142": {
+      "path": "icons/icon-142.png",
+      "width": 32,
+      "height": 32
+    },
+    "146": {
+      "path": "icons/icon-146.png",
+      "width": 32,
+      "height": 32
+    },
+    "147": {
+      "path": "icons/icon-147.png",
+      "width": 32,
+      "height": 32
+    },
+    "148": {
+      "path": "icons/icon-148.png",
+      "width": 32,
+      "height": 32
+    },
+    "149": {
+      "path": "icons/icon-149.png",
+      "width": 32,
+      "height": 32
+    },
+    "150": {
+      "path": "icons/icon-150.png",
+      "width": 32,
+      "height": 32
+    },
+    "151": {
+      "path": "icons/icon-151.png",
+      "width": 32,
+      "height": 32
+    },
+    "152": {
+      "path": "icons/icon-152.png",
+      "width": 32,
+      "height": 32
+    },
+    "153": {
+      "path": "icons/icon-153.png",
+      "width": 64,
+      "height": 64
+    },
+    "154": {
+      "path": "icons/icon-154.png",
+      "width": 32,
+      "height": 32
+    },
+    "155": {
+      "path": "icons/icon-155.png",
+      "width": 32,
+      "height": 32
+    },
+    "157": {
+      "path": "icons/icon-157.png",
+      "width": 64,
+      "height": 64
+    },
+    "158": {
+      "path": "icons/icon-158.png",
+      "width": 32,
+      "height": 32
+    },
+    "159": {
+      "path": "icons/icon-159.png",
+      "width": 32,
+      "height": 32
+    },
+    "160": {
+      "path": "icons/icon-160.png",
+      "width": 64,
+      "height": 64
+    },
+    "161": {
+      "path": "icons/icon-161.png",
+      "width": 32,
+      "height": 32
+    },
+    "165": {
+      "path": "icons/icon-165.png",
+      "width": 64,
+      "height": 64
+    },
+    "166": {
+      "path": "icons/icon-166.png",
+      "width": 32,
+      "height": 32
+    },
+    "167": {
+      "path": "icons/icon-167.png",
+      "width": 64,
+      "height": 64
+    },
+    "170": {
+      "path": "icons/icon-170.png",
+      "width": 32,
+      "height": 32
+    },
+    "171": {
+      "path": "icons/icon-171.png",
+      "width": 32,
+      "height": 32
+    },
+    "172": {
+      "path": "icons/icon-172.png",
+      "width": 32,
+      "height": 32
+    },
+    "173": {
+      "path": "icons/icon-173.png",
+      "width": 32,
+      "height": 32
+    },
+    "174": {
+      "path": "icons/icon-174.png",
+      "width": 32,
+      "height": 32
+    },
+    "175": {
+      "path": "icons/icon-175.png",
+      "width": 32,
+      "height": 32
+    },
+    "176": {
+      "path": "icons/icon-176.png",
+      "width": 32,
+      "height": 32
+    },
+    "177": {
+      "path": "icons/icon-177.png",
+      "width": 32,
+      "height": 32
+    },
+    "178": {
+      "path": "icons/icon-178.png",
+      "width": 32,
+      "height": 32
+    },
+    "189": {
+      "path": "icons/icon-189.png",
+      "width": 32,
+      "height": 32
+    },
+    "192": {
+      "path": "icons/icon-192.png",
+      "width": 32,
+      "height": 32
+    },
+    "193": {
+      "path": "icons/icon-193.png",
+      "width": 32,
+      "height": 32
+    },
+    "194": {
+      "path": "icons/icon-194.png",
+      "width": 32,
+      "height": 32
+    },
+    "195": {
+      "path": "icons/icon-195.png",
+      "width": 32,
+      "height": 32
+    },
+    "199": {
+      "path": "icons/icon-199.png",
+      "width": 32,
+      "height": 32
+    },
+    "200": {
+      "path": "icons/icon-200.png",
+      "width": 64,
+      "height": 64
+    },
+    "208": {
+      "path": "icons/icon-208.png",
+      "width": 32,
+      "height": 32
+    },
+    "216": {
+      "path": "icons/icon-216.png",
+      "width": 32,
+      "height": 32
+    },
+    "218": {
+      "path": "icons/icon-218.png",
+      "width": 32,
+      "height": 32
+    },
+    "219": {
+      "path": "icons/icon-219.png",
+      "width": 32,
+      "height": 32
+    },
+    "220": {
+      "path": "icons/icon-220.png",
+      "width": 32,
+      "height": 32
+    },
+    "223": {
+      "path": "icons/icon-223.png",
+      "width": 32,
+      "height": 32
+    },
+    "224": {
+      "path": "icons/icon-224.png",
+      "width": 32,
+      "height": 32
+    },
+    "225": {
+      "path": "icons/icon-225.png",
+      "width": 32,
+      "height": 32
+    },
+    "228": {
+      "path": "icons/icon-228.png",
+      "width": 32,
+      "height": 32
+    },
+    "229": {
+      "path": "icons/icon-229.png",
+      "width": 32,
+      "height": 32
+    },
+    "232": {
+      "path": "icons/icon-232.png",
+      "width": 32,
+      "height": 32
+    },
+    "235": {
+      "path": "icons/icon-235.png",
+      "width": 32,
+      "height": 32
+    },
+    "236": {
+      "path": "icons/icon-236.png",
+      "width": 32,
+      "height": 32
+    },
+    "237": {
+      "path": "icons/icon-237.png",
+      "width": 32,
+      "height": 32
+    },
+    "238": {
+      "path": "icons/icon-238.png",
+      "width": 32,
+      "height": 32
+    },
+    "239": {
+      "path": "icons/icon-239.png",
+      "width": 32,
+      "height": 32
+    },
+    "240": {
+      "path": "icons/icon-240.png",
+      "width": 32,
+      "height": 32
+    },
+    "242": {
+      "path": "icons/icon-242.png",
+      "width": 32,
+      "height": 32
+    },
+    "243": {
+      "path": "icons/icon-243.png",
+      "width": 32,
+      "height": 32
+    },
+    "245": {
+      "path": "icons/icon-245.png",
+      "width": 32,
+      "height": 32
+    },
+    "246": {
+      "path": "icons/icon-246.png",
+      "width": 32,
+      "height": 32
+    },
+    "247": {
+      "path": "icons/icon-247.png",
+      "width": 32,
+      "height": 32
+    },
+    "248": {
+      "path": "icons/icon-248.png",
+      "width": 32,
+      "height": 32
+    },
+    "249": {
+      "path": "icons/icon-249.png",
+      "width": 32,
+      "height": 32
+    },
+    "250": {
+      "path": "icons/icon-250.png",
+      "width": 32,
+      "height": 32
+    },
+    "251": {
+      "path": "icons/icon-251.png",
+      "width": 32,
+      "height": 32
+    },
+    "252": {
+      "path": "icons/icon-252.png",
+      "width": 32,
+      "height": 32
+    },
+    "253": {
+      "path": "icons/icon-253.png",
+      "width": 32,
+      "height": 32
+    },
+    "254": {
+      "path": "icons/icon-254.png",
+      "width": 32,
+      "height": 32
+    },
+    "255": {
+      "path": "icons/icon-255.png",
+      "width": 32,
+      "height": 32
+    },
+    "256": {
+      "path": "icons/icon-256.png",
+      "width": 32,
+      "height": 32
+    },
+    "257": {
+      "path": "icons/icon-257.png",
+      "width": 32,
+      "height": 32
+    },
+    "258": {
+      "path": "icons/icon-258.png",
+      "width": 32,
+      "height": 32
+    },
+    "259": {
+      "path": "icons/icon-259.png",
+      "width": 32,
+      "height": 32
+    },
+    "260": {
+      "path": "icons/icon-260.png",
+      "width": 32,
+      "height": 32
+    },
+    "277": {
+      "path": "icons/icon-277.png",
+      "width": 32,
+      "height": 32
+    },
+    "278": {
+      "path": "icons/icon-278.png",
+      "width": 32,
+      "height": 32
+    },
+    "279": {
+      "path": "icons/icon-279.png",
+      "width": 32,
+      "height": 32
+    },
+    "282": {
+      "path": "icons/icon-282.png",
+      "width": 32,
+      "height": 32
+    },
+    "3001": {
+      "path": "icons/icon-3001.png",
+      "width": 32,
+      "height": 32
+    },
+    "3002": {
+      "path": "icons/icon-3002.png",
+      "width": 32,
+      "height": 32
+    },
+    "3003": {
+      "path": "icons/icon-3003.png",
+      "width": 32,
+      "height": 32
+    },
+    "3004": {
+      "path": "icons/icon-3004.png",
+      "width": 32,
+      "height": 32
+    },
+    "3005": {
+      "path": "icons/icon-3005.png",
+      "width": 32,
+      "height": 32
+    },
+    "3006": {
+      "path": "icons/icon-3006.png",
+      "width": 32,
+      "height": 32
+    },
+    "3016": {
+      "path": "icons/icon-3016.png",
+      "width": 32,
+      "height": 32
+    },
+    "5128": {
+      "path": "icons/icon-5128.png",
+      "width": 32,
+      "height": 32
+    },
+    "5129": {
+      "path": "icons/icon-5129.png",
+      "width": 32,
+      "height": 32
+    },
+    "5130": {
+      "path": "icons/icon-5130.png",
+      "width": 32,
+      "height": 32
+    },
+    "5131": {
+      "path": "icons/icon-5131.png",
+      "width": 32,
+      "height": 32
+    },
+    "5132": {
+      "path": "icons/icon-5132.png",
+      "width": 32,
+      "height": 32
+    },
+    "5133": {
+      "path": "icons/icon-5133.png",
+      "width": 32,
+      "height": 32
+    },
+    "5134": {
+      "path": "icons/icon-5134.png",
+      "width": 32,
+      "height": 32
+    },
+    "5135": {
+      "path": "icons/icon-5135.png",
+      "width": 32,
+      "height": 32
+    },
+    "5136": {
+      "path": "icons/icon-5136.png",
+      "width": 32,
+      "height": 32
+    },
+    "5137": {
+      "path": "icons/icon-5137.png",
+      "width": 32,
+      "height": 32
+    },
+    "5138": {
+      "path": "icons/icon-5138.png",
+      "width": 32,
+      "height": 32
+    },
+    "5139": {
+      "path": "icons/icon-5139.png",
+      "width": 32,
+      "height": 32
+    },
+    "5140": {
+      "path": "icons/icon-5140.png",
+      "width": 32,
+      "height": 32
+    },
+    "10000": {
+      "path": "icons/icon-10000.png",
+      "width": 32,
+      "height": 32
+    },
+    "10001": {
+      "path": "icons/icon-10001.png",
+      "width": 32,
+      "height": 32
+    },
+    "10002": {
+      "path": "icons/icon-10002.png",
+      "width": 32,
+      "height": 32
+    },
+    "10003": {
+      "path": "icons/icon-10003.png",
+      "width": 32,
+      "height": 32
+    },
+    "10004": {
+      "path": "icons/icon-10004.png",
+      "width": 32,
+      "height": 32
+    }
+  },
+  "sounds": {
+    "CLAVIERPTR": "sounds/CLAVIERPTR-pcm.wav",
+    "ALIENPTR": "sounds/ALIENPTR-pcm.wav",
+    "ATTENTEPTR": "sounds/ATTENTEPTR-pcm.wav",
+    "CLOCHEPTR": "sounds/CLOCHEPTR-pcm.wav",
+    "FINBON": "sounds/FINBON-pcm.wav",
+    "FINPTR": "sounds/FINPTR-pcm.wav",
+    "INTERPTR": "sounds/INTERPTR-pcm.wav",
+    "INTROPTR": "sounds/INTROPTR-pcm.wav",
+    "MURPTR": "sounds/MURPTR-pcm.wav",
+    "NOVAPTR": "sounds/NOVAPTR-pcm.wav",
+    "ORAGEPTR": "sounds/ORAGEPTR-pcm.wav",
+    "RAYONPTR": "sounds/RAYONPTR-pcm.wav",
+    "TELEPTR": "sounds/TELEPTR-pcm.wav",
+    "TERREPTR": "sounds/TERREPTR-pcm.wav",
+    "TRANSPPTR": "sounds/TRANSPPTR-pcm.wav",
+    "AFFBON": "sounds/AFFBON-pcm.wav",
+    "BIP": "sounds/BIP-pcm.wav",
+    "BOP": "sounds/BOP-pcm.wav",
+    "COTE": "sounds/COTE-pcm.wav",
+    "DEPAR": "sounds/DEPAR-pcm.wav",
+    "KEY": "sounds/KEY-pcm.wav",
+    "MISSIL": "sounds/MISSIL-pcm.wav",
+    "RAQUE": "sounds/RAQUE-pcm.wav",
+    "ESSAI1PTR": "sounds/ESSAI1PTR-pcm.wav"
+  },
+  "soundDurations": {
+    "CLAVIERPTR": 7.663835714927654,
+    "ALIENPTR": 13.3858182798598,
+    "ATTENTEPTR": 7.391030825918936,
+    "CLOCHEPTR": 1.840567987777478,
+    "FINBON": 0.9244444444444444,
+    "FINPTR": 7.672867799047363,
+    "INTERPTR": 0.3596980046737372,
+    "INTROPTR": 16.58811898984452,
+    "MURPTR": 0.10577873640693808,
+    "NOVAPTR": 5.540307360474522,
+    "ORAGEPTR": 2.5480363080794466,
+    "RAYONPTR": 0.7583355801204278,
+    "TELEPTR": 3.5394086456367395,
+    "TERREPTR": 20.614361463107755,
+    "TRANSPPTR": 4.0895119978430845,
+    "AFFBON": 0.6302040816326531,
+    "BIP": 0.019501133786848073,
+    "BOP": 0.029206349206349208,
+    "COTE": 0.04281179138321996,
+    "DEPAR": 0.18068027210884355,
+    "KEY": 0.225578231292517,
+    "MISSIL": 0.15310657596371882,
+    "RAQUE": 0.06929705215419502,
+    "ESSAI1PTR": 0.7267120181405896
+  }
+}

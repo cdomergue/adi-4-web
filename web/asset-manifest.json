@@ -3392,6 +3392,1666 @@
       "sha256": "e72d811f99f4e97ac2e55420ed1a9e6741956f17c32f56c6fb149f0820c5980b"
     },
     {
+      "path": "public/game/beebop2/artwork.json",
+      "size": 32253,
+      "sha256": "0ba725765829879254999a493db698f92e1ca7283daed0d78adfc94ee97ff96c"
+    },
+    {
+      "path": "public/game/beebop2/bitmaps/bitmap-1.png",
+      "size": 207,
+      "sha256": "9c9eb7ed565a3af086dee2cbfb27132f0c052240c6f69b019049399c82fc1df0"
+    },
+    {
+      "path": "public/game/beebop2/bitmaps/bitmap-10001.png",
+      "size": 5546,
+      "sha256": "f7f90797c7e9da619eb4e8d921219ee37e0e0ee2c24759d133a48968f021d350"
+    },
+    {
+      "path": "public/game/beebop2/bitmaps/bitmap-1001.png",
+      "size": 967,
+      "sha256": "327950f788e50f8cfef8990cf6d0c0b6cad6ebc1f9e29be7f4f78debd94bc81e"
+    },
+    {
+      "path": "public/game/beebop2/bitmaps/bitmap-1002.png",
+      "size": 573,
+      "sha256": "8728bfbac6c7f6c853c26fe1eead2c56862788d65347ddc51fae1feb89a85648"
+    },
+    {
+      "path": "public/game/beebop2/bitmaps/bitmap-1003.png",
+      "size": 1401,
+      "sha256": "b85c976491a7597138e2663661d80e04abdf3780bbb04ff633271eb72dccf860"
+    },
+    {
+      "path": "public/game/beebop2/bitmaps/bitmap-1004.png",
+      "size": 1622,
+      "sha256": "cf21cdbab3932614f44dd37405730a536232720903c3dfd00de29a0d8d1f7952"
+    },
+    {
+      "path": "public/game/beebop2/bitmaps/bitmap-1005.png",
+      "size": 1865,
+      "sha256": "060acfb0524e7d10364e3989ad5ec26c3798ab0607dddd63d5b6199c05c0a086"
+    },
+    {
+      "path": "public/game/beebop2/bitmaps/bitmap-1006.png",
+      "size": 1518,
+      "sha256": "2eea7e02ad47751206f247bb7fcca0a92f912fd10611d3c7201edf0b61c9273a"
+    },
+    {
+      "path": "public/game/beebop2/bitmaps/bitmap-1007.png",
+      "size": 401,
+      "sha256": "2a2a8d7f4f0a31d671ac0cbb99bfab78e31637032425516a525188099f351914"
+    },
+    {
+      "path": "public/game/beebop2/bitmaps/bitmap-1008.png",
+      "size": 1865,
+      "sha256": "060acfb0524e7d10364e3989ad5ec26c3798ab0607dddd63d5b6199c05c0a086"
+    },
+    {
+      "path": "public/game/beebop2/bitmaps/bitmap-1009.png",
+      "size": 967,
+      "sha256": "327950f788e50f8cfef8990cf6d0c0b6cad6ebc1f9e29be7f4f78debd94bc81e"
+    },
+    {
+      "path": "public/game/beebop2/bitmaps/bitmap-1010.png",
+      "size": 837,
+      "sha256": "aa0f79ea426a6587deda26b383c1aac2ee03d82434200b748702c78e37481353"
+    },
+    {
+      "path": "public/game/beebop2/bitmaps/bitmap-10100.png",
+      "size": 10783,
+      "sha256": "408c48751da4c092a026b9c1437330dd0625fd6f7091543b830f23915dd3a059"
+    },
+    {
+      "path": "public/game/beebop2/bitmaps/bitmap-10101.png",
+      "size": 11112,
+      "sha256": "fbdaf5715bb9be804fcc6461ec1deea977b9249ac6089c086c1f7ac9bb4e2ed6"
+    },
+    {
+      "path": "public/game/beebop2/bitmaps/bitmap-10102.png",
+      "size": 12707,
+      "sha256": "2d49c55eef71671fb9470688204d407e04edb348edf46ae595f3144cdf75738e"
+    },
+    {
+      "path": "public/game/beebop2/bitmaps/bitmap-10103.png",
+      "size": 12876,
+      "sha256": "5e1e8097991557e3f9c8a191ffc5489c87bedf698e240a713ab6edc13df07ae2"
+    },
+    {
+      "path": "public/game/beebop2/bitmaps/bitmap-10104.png",
+      "size": 15092,
+      "sha256": "9a2424e14c81fe8aacfeba69fb1da95db8ae63ad0ec7bd9e44251563607a7754"
+    },
+    {
+      "path": "public/game/beebop2/bitmaps/bitmap-10105.png",
+      "size": 14924,
+      "sha256": "179e6033bc74a22050b745f8847ee889ae1f31d8faf51ff9cbe42cd434d8b6e7"
+    },
+    {
+      "path": "public/game/beebop2/bitmaps/bitmap-10106.png",
+      "size": 12915,
+      "sha256": "e7c914204fd9b9628d813ce027b2fea546867a79004d7826710753ed986ae617"
+    },
+    {
+      "path": "public/game/beebop2/bitmaps/bitmap-10107.png",
+      "size": 10907,
+      "sha256": "fa2d39ef2d8ac350c820ccd712b36220caeb83647d9752e5d28b1372deba1e69"
+    },
+    {
+      "path": "public/game/beebop2/bitmaps/bitmap-10108.png",
+      "size": 10148,
+      "sha256": "638e2fd27ba43697c0599aaeb88909fc8b98f619869baf3b4311be1e125b982e"
+    },
+    {
+      "path": "public/game/beebop2/bitmaps/bitmap-10109.png",
+      "size": 7627,
+      "sha256": "f7e5ed19456eaf6bb7aa421b4b0e66378624342e034be90e1ea043e6395fda46"
+    },
+    {
+      "path": "public/game/beebop2/bitmaps/bitmap-1011.png",
+      "size": 1247,
+      "sha256": "ad1c92f20bfd0b19cb5b4557bc0407164f417e6a22a2e2c15da2a633d2c3b507"
+    },
+    {
+      "path": "public/game/beebop2/bitmaps/bitmap-10110.png",
+      "size": 6712,
+      "sha256": "2ec5e8738ba6a16f4cb29910cf7ecffcdddbc178db85c03ac1b1d230ab975564"
+    },
+    {
+      "path": "public/game/beebop2/bitmaps/bitmap-10111.png",
+      "size": 4521,
+      "sha256": "c5658be18e28801d871d4e9a583d2e812c863379630cba9027fd70063af3dbed"
+    },
+    {
+      "path": "public/game/beebop2/bitmaps/bitmap-10112.png",
+      "size": 4160,
+      "sha256": "521eadd95de15533cc7325cee941a5a6cb761dcec75d7861d74944203786bb18"
+    },
+    {
+      "path": "public/game/beebop2/bitmaps/bitmap-10113.png",
+      "size": 2783,
+      "sha256": "3f1bc995ab5febe6d9200dfadbec9fa2de6464a41ef2e78ca6fe6dbedce807fc"
+    },
+    {
+      "path": "public/game/beebop2/bitmaps/bitmap-10114.png",
+      "size": 2076,
+      "sha256": "0338d86d773717bffbe0f9765f2e32617dfb72e085129c35265a298a1f5e1687"
+    },
+    {
+      "path": "public/game/beebop2/bitmaps/bitmap-10115.png",
+      "size": 1506,
+      "sha256": "0bbf8a301bb8d7016e96ff3b0558a54055a64523ee16890eac956933cec5b0fa"
+    },
+    {
+      "path": "public/game/beebop2/bitmaps/bitmap-10116.png",
+      "size": 4967,
+      "sha256": "c003819ea7b81f18d5c1a535c7219e3a0f95a3b32314ce7518170b3bd6c4f84b"
+    },
+    {
+      "path": "public/game/beebop2/bitmaps/bitmap-10117.png",
+      "size": 7052,
+      "sha256": "a09711a48126db65f3b0f25d83dd1d8f9d7280ac2898e5ab2c8bfa6dcdebde6b"
+    },
+    {
+      "path": "public/game/beebop2/bitmaps/bitmap-10118.png",
+      "size": 8524,
+      "sha256": "d35372bb4cda0a25d3db46b2fbdd8c7e795c86f0aea53e9378020e3646f30bc0"
+    },
+    {
+      "path": "public/game/beebop2/bitmaps/bitmap-10119.png",
+      "size": 10883,
+      "sha256": "cf5209149a65e1b9df2b8875ade7f0985778f622fd2377d522eff374f4d3d453"
+    },
+    {
+      "path": "public/game/beebop2/bitmaps/bitmap-1012.png",
+      "size": 892,
+      "sha256": "c616de96c440dc490aba049424df2ba1202cf01f3628af1dda8365e2b1042523"
+    },
+    {
+      "path": "public/game/beebop2/bitmaps/bitmap-10120.png",
+      "size": 13113,
+      "sha256": "bb4b4404ae753270bf403bfb895688c5e091a55a2104a3dae655c305e3e6d74e"
+    },
+    {
+      "path": "public/game/beebop2/bitmaps/bitmap-10121.png",
+      "size": 12745,
+      "sha256": "64161c464a0aac6d3438458bdb5b67dd6a3ed6b83150f1448df45463ec372ad8"
+    },
+    {
+      "path": "public/game/beebop2/bitmaps/bitmap-10122.png",
+      "size": 12493,
+      "sha256": "d236f37eda15aacaf1c02ec801982b42dca1987affc942d0ea0dbcd502e980b6"
+    },
+    {
+      "path": "public/game/beebop2/bitmaps/bitmap-10123.png",
+      "size": 13188,
+      "sha256": "e4b95d2cdcf172f866c0e3585871129442946d2c6abea3192c20ddbe8ea98852"
+    },
+    {
+      "path": "public/game/beebop2/bitmaps/bitmap-10124.png",
+      "size": 12947,
+      "sha256": "cfe9c589adb7db1c1ac842c97240b96597de225e2cb6b87f1dd47432e4f216fb"
+    },
+    {
+      "path": "public/game/beebop2/bitmaps/bitmap-10125.png",
+      "size": 13688,
+      "sha256": "1306d673fcc1f763505d2ff5abc68626efab6e930726fb1946285ad68c5bba8f"
+    },
+    {
+      "path": "public/game/beebop2/bitmaps/bitmap-10126.png",
+      "size": 12951,
+      "sha256": "d65c2a40a15b8ddf647e81d6dce86d5a3671dcd8d5a19b7651faab7a2c1d91d7"
+    },
+    {
+      "path": "public/game/beebop2/bitmaps/bitmap-10127.png",
+      "size": 11465,
+      "sha256": "e9afafca81401313d1d63217dbd4cc4d555902206535c57f2f4504cb459f3515"
+    },
+    {
+      "path": "public/game/beebop2/bitmaps/bitmap-10128.png",
+      "size": 13428,
+      "sha256": "14596aed9d704f727faac51210b9d3defb96b36e7f7670559d89c434d8f61528"
+    },
+    {
+      "path": "public/game/beebop2/bitmaps/bitmap-10129.png",
+      "size": 15333,
+      "sha256": "c094f29546b528d451f52a828a50acaffc6a48931427ecd9695095f663f79fa3"
+    },
+    {
+      "path": "public/game/beebop2/bitmaps/bitmap-1013.png",
+      "size": 987,
+      "sha256": "9b007b72692be20b475e4e79a908165336f8f0b9b69040ed24aec6f158e9e5b5"
+    },
+    {
+      "path": "public/game/beebop2/bitmaps/bitmap-10130.png",
+      "size": 15482,
+      "sha256": "8269ff7ed779c354ca21acf1c37d988a3066c8b1859cbd50f51e6fece15ec397"
+    },
+    {
+      "path": "public/game/beebop2/bitmaps/bitmap-10131.png",
+      "size": 14583,
+      "sha256": "cf0c5188de74d02e5f5331a2ef772bc4182d0cbf1e9d4efaa30a0d7ad3e17993"
+    },
+    {
+      "path": "public/game/beebop2/bitmaps/bitmap-10132.png",
+      "size": 14391,
+      "sha256": "37eca7a8ea661c079d7d3384185e26e55aaa30ec8e026d845335171f220e2f67"
+    },
+    {
+      "path": "public/game/beebop2/bitmaps/bitmap-10133.png",
+      "size": 13891,
+      "sha256": "c085986f41110e29ee7c5dd329a4a45791a8603b4a37a764f556bd06a50cbc55"
+    },
+    {
+      "path": "public/game/beebop2/bitmaps/bitmap-10134.png",
+      "size": 12256,
+      "sha256": "b789fc9817b26475d486b6b1b628e564c52bf2015f49b5606095f8bb47552ac1"
+    },
+    {
+      "path": "public/game/beebop2/bitmaps/bitmap-10135.png",
+      "size": 11673,
+      "sha256": "bee4dfe7c5fee9a1d876abd5332c27c3d1d9bd578cc281b6163efdcb638649e2"
+    },
+    {
+      "path": "public/game/beebop2/bitmaps/bitmap-10136.png",
+      "size": 11223,
+      "sha256": "8d9454a51ca1a2a9b51d0d3b2bd1eb9727baa392ca5ffbac12943a5886e1575e"
+    },
+    {
+      "path": "public/game/beebop2/bitmaps/bitmap-10137.png",
+      "size": 9672,
+      "sha256": "353f1c6afd7b979558b88f077d4df2ce2325e3ae33dae0e334f8c583a4110d4a"
+    },
+    {
+      "path": "public/game/beebop2/bitmaps/bitmap-10138.png",
+      "size": 8523,
+      "sha256": "46887003d1b99f21c7bb1f3cbc90ca110937a098e687e467c5a5bb09efa36b8c"
+    },
+    {
+      "path": "public/game/beebop2/bitmaps/bitmap-10139.png",
+      "size": 8271,
+      "sha256": "4a8788d514adfcb1fc7d684ad683ec24e9cbf07e7b0e3f0186e105ea091a5fc0"
+    },
+    {
+      "path": "public/game/beebop2/bitmaps/bitmap-1014.png",
+      "size": 976,
+      "sha256": "454550036dc3ebbac3f7a894909717a76452ae78d7f0a21b007ff3b64f43ac2d"
+    },
+    {
+      "path": "public/game/beebop2/bitmaps/bitmap-10140.png",
+      "size": 7761,
+      "sha256": "d2444547860e916f07e2f1f1be00472f8ef7ea74281933d5ac16cd2ce7f73981"
+    },
+    {
+      "path": "public/game/beebop2/bitmaps/bitmap-10141.png",
+      "size": 6575,
+      "sha256": "e572c6545b188deca7e256f507b1b07816d54be5b019040e520fcc291dbc38aa"
+    },
+    {
+      "path": "public/game/beebop2/bitmaps/bitmap-10142.png",
+      "size": 5000,
+      "sha256": "8c69d427d0bbbcc9b7d3e8264352c13429f7652d26133195baf6128ae38302c0"
+    },
+    {
+      "path": "public/game/beebop2/bitmaps/bitmap-10143.png",
+      "size": 2973,
+      "sha256": "17026c5644b72cf74a0370c0f4501b95a3584384e9f5f67164a6aa760ab93b98"
+    },
+    {
+      "path": "public/game/beebop2/bitmaps/bitmap-10144.png",
+      "size": 2973,
+      "sha256": "17026c5644b72cf74a0370c0f4501b95a3584384e9f5f67164a6aa760ab93b98"
+    },
+    {
+      "path": "public/game/beebop2/bitmaps/bitmap-10145.png",
+      "size": 5167,
+      "sha256": "61e24959a50960839720105b14f98410800472206679f0bf78a34fc542eb366b"
+    },
+    {
+      "path": "public/game/beebop2/bitmaps/bitmap-10146.png",
+      "size": 5944,
+      "sha256": "ac2eae87c45c486c5fc4f17493f06d2c6a67e77bb25a34a826e605ae1d10f174"
+    },
+    {
+      "path": "public/game/beebop2/bitmaps/bitmap-10147.png",
+      "size": 7263,
+      "sha256": "61d4d109aeb6f37d52e14c65e4553014f938e55a08ae07ab969154397120fe4f"
+    },
+    {
+      "path": "public/game/beebop2/bitmaps/bitmap-10148.png",
+      "size": 8305,
+      "sha256": "299b318c6ad33f0122a26acdcd7152cccb2bdc764096f97faa48a65c97d4cebc"
+    },
+    {
+      "path": "public/game/beebop2/bitmaps/bitmap-10149.png",
+      "size": 9284,
+      "sha256": "7b700eaa0531f5fe319cb9c2fb3681b4f1f36386011efd56c9597630316ab617"
+    },
+    {
+      "path": "public/game/beebop2/bitmaps/bitmap-1015.png",
+      "size": 833,
+      "sha256": "5f9b7c69180341729aa30a02cbd1d2a675703c78112c8366062c5b0f2ff77f51"
+    },
+    {
+      "path": "public/game/beebop2/bitmaps/bitmap-10150.png",
+      "size": 10601,
+      "sha256": "a663b89051275bad51c7c58c79cacaf0d4a7276831fdc45e08b5a539fca7ba14"
+    },
+    {
+      "path": "public/game/beebop2/bitmaps/bitmap-10151.png",
+      "size": 11943,
+      "sha256": "6f4f9ea221026a465cfe08940666e772b833eea2b3b889a05576b66b6682e56f"
+    },
+    {
+      "path": "public/game/beebop2/bitmaps/bitmap-10152.png",
+      "size": 13377,
+      "sha256": "235e9f0742bf1b20bea3d39a3c8f3fb947e1d2bc531cf64154d4293c8640998b"
+    },
+    {
+      "path": "public/game/beebop2/bitmaps/bitmap-10153.png",
+      "size": 14099,
+      "sha256": "91606fe4b2107f206850fcf82ebd61cc7e5815481f75f48166e0eb3fdaf5af68"
+    },
+    {
+      "path": "public/game/beebop2/bitmaps/bitmap-10154.png",
+      "size": 14467,
+      "sha256": "71a5950e9d6bb3af2345218a3d56b11f85f067ae4c98b26e2ceabfca4deabcda"
+    },
+    {
+      "path": "public/game/beebop2/bitmaps/bitmap-10155.png",
+      "size": 15204,
+      "sha256": "d9acc003e8ea8728e4562baab04058d7501ab41415d3f0bd582be8795389921a"
+    },
+    {
+      "path": "public/game/beebop2/bitmaps/bitmap-10156.png",
+      "size": 15593,
+      "sha256": "90559c21ad7b2c04a42ee6f0eec1ceb43dd229aa11ad6d1ddb0d16e7a5d06843"
+    },
+    {
+      "path": "public/game/beebop2/bitmaps/bitmap-10157.png",
+      "size": 13929,
+      "sha256": "1228957b1162f1af48dfba8ec72580a003b75647cbb89a0b0b4256d9487f99aa"
+    },
+    {
+      "path": "public/game/beebop2/bitmaps/bitmap-10158.png",
+      "size": 12890,
+      "sha256": "805179e4cab579ac6f2e1b592854d4fb70fc989f4a920fd7622c08fdf8cd4588"
+    },
+    {
+      "path": "public/game/beebop2/bitmaps/bitmap-10159.png",
+      "size": 10941,
+      "sha256": "02bf46905cd91e62198329762e69d8c3fbd6c0990727083203c6bbcb73307f5b"
+    },
+    {
+      "path": "public/game/beebop2/bitmaps/bitmap-1016.png",
+      "size": 1401,
+      "sha256": "b85c976491a7597138e2663661d80e04abdf3780bbb04ff633271eb72dccf860"
+    },
+    {
+      "path": "public/game/beebop2/bitmaps/bitmap-10160.png",
+      "size": 9586,
+      "sha256": "f94726823eaaf62939d164c94ad5e3f24a69a614ecf84f4516a474aad615af04"
+    },
+    {
+      "path": "public/game/beebop2/bitmaps/bitmap-1017.png",
+      "size": 1247,
+      "sha256": "ad1c92f20bfd0b19cb5b4557bc0407164f417e6a22a2e2c15da2a633d2c3b507"
+    },
+    {
+      "path": "public/game/beebop2/bitmaps/bitmap-1018.png",
+      "size": 2821,
+      "sha256": "6c8bd9a97e5845992923557278e4ee4e8ea80ae77b2bcca436b94b7de2c6b97a"
+    },
+    {
+      "path": "public/game/beebop2/bitmaps/bitmap-1019.png",
+      "size": 1593,
+      "sha256": "ed8ce0d04d158030d87a63aa31857f1c66f673b77a07c62d9640bc353225dfa1"
+    },
+    {
+      "path": "public/game/beebop2/bitmaps/bitmap-1020.png",
+      "size": 1737,
+      "sha256": "2aed614f18a68e88e61a3c0f9969ac972d87f6bd6eb54e99a268290e12f675a9"
+    },
+    {
+      "path": "public/game/beebop2/bitmaps/bitmap-10200.png",
+      "size": 84818,
+      "sha256": "d6ad44d3f6ed832a2176b5c01f9421c1920475fbb8c6d0a5f74a16f1679bf968"
+    },
+    {
+      "path": "public/game/beebop2/bitmaps/bitmap-10201.png",
+      "size": 153968,
+      "sha256": "00a4d9283302b3b840ec3c9ccffc236ba72dd2a538bd5e4c92539d5ae1ece644"
+    },
+    {
+      "path": "public/game/beebop2/bitmaps/bitmap-10202.png",
+      "size": 137117,
+      "sha256": "d420c60a87ab478652098079ae3c6d9089e65fd945cca1403dea08ab1c36dd15"
+    },
+    {
+      "path": "public/game/beebop2/bitmaps/bitmap-10203.png",
+      "size": 105500,
+      "sha256": "615fdf54f00e960893934856abacbdecbbf066b2dba4a2ab61e6da7a0ad1d212"
+    },
+    {
+      "path": "public/game/beebop2/bitmaps/bitmap-10204.png",
+      "size": 60863,
+      "sha256": "6b2812ad8e0a9563c4ab918cd3d842f7d61f23e3c45986f4b639757becbb4477"
+    },
+    {
+      "path": "public/game/beebop2/bitmaps/bitmap-10205.png",
+      "size": 131958,
+      "sha256": "c86f27c8b03b106a8ccd76e4bcd6d57831056f75142f8818589330a92b937a26"
+    },
+    {
+      "path": "public/game/beebop2/bitmaps/bitmap-10206.png",
+      "size": 96174,
+      "sha256": "89d0b79230850b97efc533ccbeab9dfd0a0152704636470ed8c4f857d6df305c"
+    },
+    {
+      "path": "public/game/beebop2/bitmaps/bitmap-10207.png",
+      "size": 111830,
+      "sha256": "21307428eeb18518a44afc39ce820b30e50442948c3bd5f90cc3aab9f1b3b7d2"
+    },
+    {
+      "path": "public/game/beebop2/bitmaps/bitmap-10208.png",
+      "size": 154756,
+      "sha256": "6e089ec2a98cef95b5a4478d7554c28f55d4ab98850a14ba33f091295b84b5c6"
+    },
+    {
+      "path": "public/game/beebop2/bitmaps/bitmap-10209.png",
+      "size": 153821,
+      "sha256": "cd41645bbd67c6de63ad5c4d41d16f5ccaeaeb324760e7fdf18cd03e79fa10f9"
+    },
+    {
+      "path": "public/game/beebop2/bitmaps/bitmap-1021.png",
+      "size": 1673,
+      "sha256": "c8af73c01f2ce0e407c1fe4ef06772e83938618626082e4bac82e584657d6482"
+    },
+    {
+      "path": "public/game/beebop2/bitmaps/bitmap-10210.png",
+      "size": 36646,
+      "sha256": "f10f2f32e7aaef0364c31554c198faba8d682b3571eb72eef6f4a7e1f54d13f1"
+    },
+    {
+      "path": "public/game/beebop2/bitmaps/bitmap-1022.png",
+      "size": 282,
+      "sha256": "39ff259e5a0651af43220eaafb05d0c54077aa3d2fc8ebcecc5e0b7d9b383a13"
+    },
+    {
+      "path": "public/game/beebop2/bitmaps/bitmap-1023.png",
+      "size": 1417,
+      "sha256": "a5133e2b19345ace0011444908a1d528c8268d0868348302113f363dc96deb45"
+    },
+    {
+      "path": "public/game/beebop2/bitmaps/bitmap-1024.png",
+      "size": 485,
+      "sha256": "b700387fb5b6650d5ee787662ca0413ba1adf09b8b1b23896e560e7343a6134b"
+    },
+    {
+      "path": "public/game/beebop2/bitmaps/bitmap-1025.png",
+      "size": 2598,
+      "sha256": "6fa4d3e09b52ea1fde6fd2568f2055483ee6bb80da99698a6472bac517b6c6e4"
+    },
+    {
+      "path": "public/game/beebop2/bitmaps/bitmap-1026.png",
+      "size": 2243,
+      "sha256": "4240773244f0bc25782a65b5c0c3dfc3e98baa17f3435e8d392c543be1ebb466"
+    },
+    {
+      "path": "public/game/beebop2/bitmaps/bitmap-1027.png",
+      "size": 1510,
+      "sha256": "d012c66dfc67e5545d4110ad0ccfbbadee644bbcb03bcd550648c6027ffeca1f"
+    },
+    {
+      "path": "public/game/beebop2/bitmaps/bitmap-1028.png",
+      "size": 1274,
+      "sha256": "833db018cc0df9001231131be5da209040b9fe7253f3d504a28b99653a8b32dd"
+    },
+    {
+      "path": "public/game/beebop2/bitmaps/bitmap-1029.png",
+      "size": 951,
+      "sha256": "13622256cd3c6313699777f653f2a5a21ee6c65f3809ba1c5b92f1d3d7b7178f"
+    },
+    {
+      "path": "public/game/beebop2/bitmaps/bitmap-1030.png",
+      "size": 959,
+      "sha256": "eee9d38c8cec9b217e14d4757c173958924c10421071cd1029c23ac4862c0692"
+    },
+    {
+      "path": "public/game/beebop2/bitmaps/bitmap-1031.png",
+      "size": 573,
+      "sha256": "8728bfbac6c7f6c853c26fe1eead2c56862788d65347ddc51fae1feb89a85648"
+    },
+    {
+      "path": "public/game/beebop2/bitmaps/bitmap-1032.png",
+      "size": 639,
+      "sha256": "308707754eaa09d41b0313bfc296a99bf5f4fcea88c011ef2f1ee3dd9311c84f"
+    },
+    {
+      "path": "public/game/beebop2/bitmaps/bitmap-1033.png",
+      "size": 967,
+      "sha256": "327950f788e50f8cfef8990cf6d0c0b6cad6ebc1f9e29be7f4f78debd94bc81e"
+    },
+    {
+      "path": "public/game/beebop2/bitmaps/bitmap-1034.png",
+      "size": 1016,
+      "sha256": "eea1137e9c769e87a05383a3e8d7974652bac6db06a9b71e751c621a17823312"
+    },
+    {
+      "path": "public/game/beebop2/bitmaps/bitmap-1035.png",
+      "size": 1673,
+      "sha256": "57dae68add4c9a114bb44f187592da004fee045a6bdafc907bd404368b6fe02b"
+    },
+    {
+      "path": "public/game/beebop2/bitmaps/bitmap-1036.png",
+      "size": 1622,
+      "sha256": "cf21cdbab3932614f44dd37405730a536232720903c3dfd00de29a0d8d1f7952"
+    },
+    {
+      "path": "public/game/beebop2/bitmaps/bitmap-1037.png",
+      "size": 431,
+      "sha256": "e5f0a9836003f220e09ce847ea1a7c2c47a02e786f5784e6a367eab52fa92b47"
+    },
+    {
+      "path": "public/game/beebop2/bitmaps/bitmap-1038.png",
+      "size": 1865,
+      "sha256": "060acfb0524e7d10364e3989ad5ec26c3798ab0607dddd63d5b6199c05c0a086"
+    },
+    {
+      "path": "public/game/beebop2/bitmaps/bitmap-1039.png",
+      "size": 1770,
+      "sha256": "b0560ab7d0f31b39809814f34ceb3cacdc3de770801730cf8c9584987c99571f"
+    },
+    {
+      "path": "public/game/beebop2/bitmaps/bitmap-1040.png",
+      "size": 2598,
+      "sha256": "6fa4d3e09b52ea1fde6fd2568f2055483ee6bb80da99698a6472bac517b6c6e4"
+    },
+    {
+      "path": "public/game/beebop2/bitmaps/bitmap-128.png",
+      "size": 1088,
+      "sha256": "9e7cb76dbcee081759d63c10c07f67999cec3249586d389c0b28c4e6ae6a3962"
+    },
+    {
+      "path": "public/game/beebop2/bitmaps/bitmap-131.png",
+      "size": 3531,
+      "sha256": "e29e17f08c0f07b4547c94d03a58191cf7aaac5456dc7392197f9677a88376e4"
+    },
+    {
+      "path": "public/game/beebop2/bitmaps/bitmap-132.png",
+      "size": 309,
+      "sha256": "e1457d62f7a31d887fb9f6302ab06f5635e0e494bd7c044687bbc661b1b8acdd"
+    },
+    {
+      "path": "public/game/beebop2/bitmaps/bitmap-134.png",
+      "size": 309,
+      "sha256": "e1457d62f7a31d887fb9f6302ab06f5635e0e494bd7c044687bbc661b1b8acdd"
+    },
+    {
+      "path": "public/game/beebop2/bitmaps/bitmap-2.png",
+      "size": 206,
+      "sha256": "c95edfbc54c6b2048a42d383e9aee36076aebd9a80c3b8f6e14ab9c25e6020ab"
+    },
+    {
+      "path": "public/game/beebop2/bitmaps/bitmap-2128.png",
+      "size": 27128,
+      "sha256": "1bb2c4d2c155387b4c49cc104e642372a6124169b04b4dddba9a4bdc9988f173"
+    },
+    {
+      "path": "public/game/beebop2/bitmaps/bitmap-2129.png",
+      "size": 4793,
+      "sha256": "17d65ac2c91b585dc0b4abfcdb9a5ec0b401d1ceb258a9b31ca5b522a14f8808"
+    },
+    {
+      "path": "public/game/beebop2/bitmaps/bitmap-2131.png",
+      "size": 2937,
+      "sha256": "b357b2c0237e1c469c4d03ce508c18d411d09d11944c81ac241b05c86df7f980"
+    },
+    {
+      "path": "public/game/beebop2/bitmaps/bitmap-2140.png",
+      "size": 630,
+      "sha256": "f411f72a3375d7f7d13b4ea41922111a8065faca733b79a5d1dd8183810406ae"
+    },
+    {
+      "path": "public/game/beebop2/bitmaps/bitmap-2142.png",
+      "size": 504,
+      "sha256": "237391492ae73a3efec43caedb5d9294bb73103e8bd43c2d27b971874d20f6b2"
+    },
+    {
+      "path": "public/game/beebop2/bitmaps/bitmap-2144.png",
+      "size": 4113,
+      "sha256": "423e1efe2776d4f3cda14b6f6aec4a9af9b8ede17f88ba3cda9ca5c3d5f3bc56"
+    },
+    {
+      "path": "public/game/beebop2/bitmaps/bitmap-22011.png",
+      "size": 255,
+      "sha256": "e28a32d01a82517f7045eab3fa968e10495bd50b9d9c4bd35016a5a03504518b"
+    },
+    {
+      "path": "public/game/beebop2/bitmaps/bitmap-22012.png",
+      "size": 304,
+      "sha256": "397ec3bf20c894bc3866709730b88b4a53ba9702c2e20679c5dc2a735bed69ca"
+    },
+    {
+      "path": "public/game/beebop2/bitmaps/bitmap-22013.png",
+      "size": 227,
+      "sha256": "4a621f404b29f58b4f1d0fd3254080f2ed184999733167361bfcbfeb98a099f8"
+    },
+    {
+      "path": "public/game/beebop2/bitmaps/bitmap-22014.png",
+      "size": 238,
+      "sha256": "1321afe7591239ed7ede434963ade88d13528bfd63802108b352885a87d7cd47"
+    },
+    {
+      "path": "public/game/beebop2/bitmaps/bitmap-22015.png",
+      "size": 215,
+      "sha256": "ca4f9607e6f92a21e37be8b02491be9af6b49808faa0556e8c61da93adfa13c3"
+    },
+    {
+      "path": "public/game/beebop2/bitmaps/bitmap-22031.png",
+      "size": 290,
+      "sha256": "ba0f4353c334bf62bfa9118f7cdae984a04cc0409a3c04294193a70f4781fd1b"
+    },
+    {
+      "path": "public/game/beebop2/bitmaps/bitmap-22032.png",
+      "size": 321,
+      "sha256": "85ef03a5b3f8a0cdfad734a6efe8b84f3cad8f25fa2b3f1fa2927aa8da284aef"
+    },
+    {
+      "path": "public/game/beebop2/bitmaps/bitmap-22033.png",
+      "size": 311,
+      "sha256": "adee7197effdcb9739649a80a3a697dc9cd1c390e415e4b7bc5982024a19c61b"
+    },
+    {
+      "path": "public/game/beebop2/bitmaps/bitmap-22034.png",
+      "size": 295,
+      "sha256": "0a6a368e517b4a6af3527ee9f9d90724c5d813742443794d93d9e401f113b662"
+    },
+    {
+      "path": "public/game/beebop2/bitmaps/bitmap-22035.png",
+      "size": 285,
+      "sha256": "cd4845313dfb9dff6587c244b2fde3af5554713693e71e0ddc173059a7ed8114"
+    },
+    {
+      "path": "public/game/beebop2/bitmaps/bitmap-22041.png",
+      "size": 286,
+      "sha256": "50460f14993d68479e7ab607c9d9cddd109ed87c6771d2f61cf9ff24fee014a2"
+    },
+    {
+      "path": "public/game/beebop2/bitmaps/bitmap-22042.png",
+      "size": 291,
+      "sha256": "3ca0e51d47ad6e1ee203ba5c90fb1a8e1517ee73516c1f7f77f0115268f0bb89"
+    },
+    {
+      "path": "public/game/beebop2/bitmaps/bitmap-22043.png",
+      "size": 288,
+      "sha256": "4bc39c571f4a4847728852534cd90aef56a92021539b8aebbe3b7105135f9c75"
+    },
+    {
+      "path": "public/game/beebop2/bitmaps/bitmap-22044.png",
+      "size": 262,
+      "sha256": "d1548ee9f38d171bfd89c0a32a3764f34c1f9fa0747d764e040a0e11fdc2f79f"
+    },
+    {
+      "path": "public/game/beebop2/bitmaps/bitmap-22045.png",
+      "size": 291,
+      "sha256": "f678601b5312a3d458240111a8db5a9f62aa62c470c777d9e32be9eccef7a985"
+    },
+    {
+      "path": "public/game/beebop2/bitmaps/bitmap-22051.png",
+      "size": 281,
+      "sha256": "a7a0dd377b363c5ef658dc4b9a0eb7d45689b62d12e5c2341d84f0dce5357682"
+    },
+    {
+      "path": "public/game/beebop2/bitmaps/bitmap-22052.png",
+      "size": 289,
+      "sha256": "b0e02192e02a0f211bb2083ff872870446cb203822f5573847b0e891e6f7b4c8"
+    },
+    {
+      "path": "public/game/beebop2/bitmaps/bitmap-22053.png",
+      "size": 404,
+      "sha256": "e1c5259b53a53a31550ef07d518ff89bd20b40bbe2e8e4def34cae746ccd8eb9"
+    },
+    {
+      "path": "public/game/beebop2/bitmaps/bitmap-22054.png",
+      "size": 375,
+      "sha256": "8e3376a16297ed05fca6307ccbfbb15d341ad578e430ef3ebba97fffef09a8b6"
+    },
+    {
+      "path": "public/game/beebop2/bitmaps/bitmap-22055.png",
+      "size": 363,
+      "sha256": "787f202a946224a10bb8bb4a10e2de207474c5f36f4102a8855e3e63ff71d21d"
+    },
+    {
+      "path": "public/game/beebop2/bitmaps/bitmap-22061.png",
+      "size": 210,
+      "sha256": "184b78b702512d890aae2f887642bcbc1fdaf014b0d9474e5a2df773dcda244b"
+    },
+    {
+      "path": "public/game/beebop2/bitmaps/bitmap-22062.png",
+      "size": 210,
+      "sha256": "184b78b702512d890aae2f887642bcbc1fdaf014b0d9474e5a2df773dcda244b"
+    },
+    {
+      "path": "public/game/beebop2/bitmaps/bitmap-22063.png",
+      "size": 220,
+      "sha256": "db95efd0c13aaa3c1a5f5357ef3d7871642d71fe5108ae8eda4e3220fb00f4a1"
+    },
+    {
+      "path": "public/game/beebop2/bitmaps/bitmap-22064.png",
+      "size": 189,
+      "sha256": "5e80e1507fd96c7b000b8158e2288d3d7a1a5a09669ccac249504f72df90d905"
+    },
+    {
+      "path": "public/game/beebop2/bitmaps/bitmap-22065.png",
+      "size": 214,
+      "sha256": "2b967fa67cc247d85c718648e77f9d6e710997347bdae90212651c0766b921b3"
+    },
+    {
+      "path": "public/game/beebop2/bitmaps/bitmap-22071.png",
+      "size": 178,
+      "sha256": "fc6d85038cd87ae5095231d9552f6d78d263651413a33354d34116c05ba71120"
+    },
+    {
+      "path": "public/game/beebop2/bitmaps/bitmap-22072.png",
+      "size": 178,
+      "sha256": "fc6d85038cd87ae5095231d9552f6d78d263651413a33354d34116c05ba71120"
+    },
+    {
+      "path": "public/game/beebop2/bitmaps/bitmap-22073.png",
+      "size": 178,
+      "sha256": "fc6d85038cd87ae5095231d9552f6d78d263651413a33354d34116c05ba71120"
+    },
+    {
+      "path": "public/game/beebop2/bitmaps/bitmap-22074.png",
+      "size": 178,
+      "sha256": "fc6d85038cd87ae5095231d9552f6d78d263651413a33354d34116c05ba71120"
+    },
+    {
+      "path": "public/game/beebop2/bitmaps/bitmap-22075.png",
+      "size": 198,
+      "sha256": "c1f06315cffd9c2c886f7c42ca8667f44cc96f8c6bbfb7e7171219a862775856"
+    },
+    {
+      "path": "public/game/beebop2/bitmaps/bitmap-22081.png",
+      "size": 29414,
+      "sha256": "3fa69f5709d1ae4c3108df161b1f1098a368ae2ac2c709a6eca8dcaaa6263fdb"
+    },
+    {
+      "path": "public/game/beebop2/bitmaps/bitmap-22082.png",
+      "size": 29414,
+      "sha256": "3fa69f5709d1ae4c3108df161b1f1098a368ae2ac2c709a6eca8dcaaa6263fdb"
+    },
+    {
+      "path": "public/game/beebop2/bitmaps/bitmap-22083.png",
+      "size": 28885,
+      "sha256": "c43605676ac4a6d93750ac926146b09962c5ae610fff5d19ffc7c7c3cb03a782"
+    },
+    {
+      "path": "public/game/beebop2/bitmaps/bitmap-22084.png",
+      "size": 28864,
+      "sha256": "7760261efa111edb092cbb6fc1d8490958f9bbd1315e0f0dbe4bf0ca416ee5e0"
+    },
+    {
+      "path": "public/game/beebop2/bitmaps/bitmap-22085.png",
+      "size": 28890,
+      "sha256": "c0aadcaf415fb29b163798d481548ebbc7a38cbd40df03a0f8db912c3b2bb14f"
+    },
+    {
+      "path": "public/game/beebop2/bitmaps/bitmap-2621.png",
+      "size": 2159,
+      "sha256": "1ca4ebee5b0431cff189f2eb9cc79c4f924e33797ae168d1e8327f2e2a429424"
+    },
+    {
+      "path": "public/game/beebop2/bitmaps/bitmap-2622.png",
+      "size": 2159,
+      "sha256": "1ca4ebee5b0431cff189f2eb9cc79c4f924e33797ae168d1e8327f2e2a429424"
+    },
+    {
+      "path": "public/game/beebop2/bitmaps/bitmap-3000.png",
+      "size": 6174,
+      "sha256": "e51d972bc5c85749229f28d3e50459e446fa60d500feabfd4a3b9b847c9ef38e"
+    },
+    {
+      "path": "public/game/beebop2/bitmaps/bitmap-3001.png",
+      "size": 711,
+      "sha256": "555b605e4cf6233148c69f2f33b2aa4d7f9cb5a306deda7c65c14972a4ff98a9"
+    },
+    {
+      "path": "public/game/beebop2/bitmaps/bitmap-3002.png",
+      "size": 474,
+      "sha256": "34371018ef069c0cf179468cb3a8618f4d259b6c18557b9b9a8fd42854f1905f"
+    },
+    {
+      "path": "public/game/beebop2/bitmaps/bitmap-3003.png",
+      "size": 1484,
+      "sha256": "290504b25c4d7419ba720ba36306b3bbe57ce5b58e84ac48f9a20cff629195f8"
+    },
+    {
+      "path": "public/game/beebop2/bitmaps/bitmap-3005.png",
+      "size": 6405,
+      "sha256": "222b7ac3d06faacb08c83109d276d1281762fab3b74d0c187581930f5b4d815f"
+    },
+    {
+      "path": "public/game/beebop2/bitmaps/bitmap-3006.png",
+      "size": 743,
+      "sha256": "b5b67722fcb4a9c80852fac5889f2b35f9a839a763dd94f425ba363727d528a7"
+    },
+    {
+      "path": "public/game/beebop2/bitmaps/bitmap-3144.png",
+      "size": 4566,
+      "sha256": "33b8d89740f5b9691ee45a1f2c486f96e37a1d6290002df5953c589bb0a509ef"
+    },
+    {
+      "path": "public/game/beebop2/bitmaps/bitmap-4002.png",
+      "size": 630,
+      "sha256": "ca108901bb5308bc6e50a24e8808db54c1c2912b842e952e3f9317c6a339254d"
+    },
+    {
+      "path": "public/game/beebop2/bitmaps/bitmap-5000.png",
+      "size": 128,
+      "sha256": "5831c666f03482f5a9a49302d07b4a48d46b0a0402cbf4c8af6b71c9d684accf"
+    },
+    {
+      "path": "public/game/beebop2/bitmaps/bitmap-5001.png",
+      "size": 162,
+      "sha256": "a07540d499d86cfee721b3a93a6ce6c9179117ed138c24c993ca76f705ee3447"
+    },
+    {
+      "path": "public/game/beebop2/bitmaps/bitmap-5002.png",
+      "size": 275,
+      "sha256": "62f5d179e7a79fe4e1baf4caa6d57d5d67756d79da27bb37462ceadd3d1a4286"
+    },
+    {
+      "path": "public/game/beebop2/bitmaps/bitmap-5003.png",
+      "size": 257,
+      "sha256": "0a108b94aa0d3249935be0283646e22753fc5cef6335dfd61e8e4f71c930f75d"
+    },
+    {
+      "path": "public/game/beebop2/bitmaps/bitmap-5004.png",
+      "size": 285,
+      "sha256": "15152d2890d74d08b5f6d11c4787c2cac68b0c4458ee9e57c1d0465fd8518b44"
+    },
+    {
+      "path": "public/game/beebop2/bitmaps/bitmap-5005.png",
+      "size": 292,
+      "sha256": "05bcae39530476176d3cb027b00949a42d7f908666931e3b38f7ad99b9359f72"
+    },
+    {
+      "path": "public/game/beebop2/bitmaps/bitmap-5006.png",
+      "size": 307,
+      "sha256": "dc5b3b4774c17aca1ccaef7ae54fbd08ab0d369a22181921bb577402e4f607a9"
+    },
+    {
+      "path": "public/game/beebop2/bitmaps/bitmap-5007.png",
+      "size": 299,
+      "sha256": "5d4add004739e1182eef73b8374985e10f2003a01d0629d93b6f3619f64e5710"
+    },
+    {
+      "path": "public/game/beebop2/bitmaps/bitmap-5008.png",
+      "size": 235,
+      "sha256": "6d9b7d463e752d6a6ca94cfb25752807e4fbca9a585eda782fb274e7746eb2ac"
+    },
+    {
+      "path": "public/game/beebop2/bitmaps/bitmap-5009.png",
+      "size": 184,
+      "sha256": "24673625b29524d447684c43edf6fb8de4a4e0d5a3160e9ddf808b20567ecf3e"
+    },
+    {
+      "path": "public/game/beebop2/bitmaps/bitmap-5010.png",
+      "size": 827,
+      "sha256": "ab744714fb2fd417c1461603169b740e021443fc0bb2c2527ca4470202a63818"
+    },
+    {
+      "path": "public/game/beebop2/bitmaps/bitmap-72.png",
+      "size": 8812,
+      "sha256": "406f6a885a9e1e420dc83fe1ba878d5da17cb25bdb8f2158d571b8eb3239ff34"
+    },
+    {
+      "path": "public/game/beebop2/bitmaps/bitmap-742.png",
+      "size": 326,
+      "sha256": "31ebd6fe98ebb5195bbaa474a5f81d3dffc80b3bb4d12e2c0b4944f68fac6421"
+    },
+    {
+      "path": "public/game/beebop2/bitmaps/bitmap-743.png",
+      "size": 310,
+      "sha256": "387e5564b524085e42d8c275fe9403fcede228cca57d335c240cbd0652d4ad0c"
+    },
+    {
+      "path": "public/game/beebop2/bitmaps/bitmap-744.png",
+      "size": 321,
+      "sha256": "51548e8d95161727a4163a91a6c571f341698a3dec17ae1b43b7c6a51304eafe"
+    },
+    {
+      "path": "public/game/beebop2/bitmaps/bitmap-745.png",
+      "size": 300,
+      "sha256": "90b73869353446f96f1790d23ce2bf3c90137fbbe2c4fc92d6406e0cdbadf7ca"
+    },
+    {
+      "path": "public/game/beebop2/bitmaps/bitmap-746.png",
+      "size": 306,
+      "sha256": "3e2de8900291b887ad641ae55a5ea25224e957d5bbbe8d3c70cbbd3115a48de7"
+    },
+    {
+      "path": "public/game/beebop2/bitmaps/bitmap-747.png",
+      "size": 186,
+      "sha256": "7b93fc6aed3d138908955d5133aa4fe18c71ffbb361281aab28446a62305aff0"
+    },
+    {
+      "path": "public/game/beebop2/bitmaps/bitmap-BITMAP_1.png",
+      "size": 61055,
+      "sha256": "5688d52be7709455df3400958fb46ac25f0c47536d937dfee18db653e3938143"
+    },
+    {
+      "path": "public/game/beebop2/campaign.json",
+      "size": 408064,
+      "sha256": "054331d5a4c5efd9984b57916e2f6c6d2352bbd5b8d5d735b68ee60607cdd7ac"
+    },
+    {
+      "path": "public/game/beebop2/icons/icon-10000.png",
+      "size": 245,
+      "sha256": "9b8dd94c3d6485f0b5d8fe7971be26926dd1baa468342b76e1ad0903f734732f"
+    },
+    {
+      "path": "public/game/beebop2/icons/icon-10001.png",
+      "size": 350,
+      "sha256": "a3498b8cf30cbee748d640c4206835696b6c6d3cea2c54bdd16ca43322c4d8f3"
+    },
+    {
+      "path": "public/game/beebop2/icons/icon-10002.png",
+      "size": 397,
+      "sha256": "801a237cc0d5cd2b76411cb4aacd79a5aba835133bac79b5762610d487531a28"
+    },
+    {
+      "path": "public/game/beebop2/icons/icon-10003.png",
+      "size": 321,
+      "sha256": "cba8d130153114cbe0a9722db3b96b7d872d41e6e763da82c244a0f8e187837a"
+    },
+    {
+      "path": "public/game/beebop2/icons/icon-10004.png",
+      "size": 105,
+      "sha256": "02b0a5baf12f8744f0da2257f67bc505e4b667cb392af4c07a8e4fe1bfe620fc"
+    },
+    {
+      "path": "public/game/beebop2/icons/icon-128.png",
+      "size": 174,
+      "sha256": "a38254c888c741c721ee6235b9a3ab16764dee5910a5a6587505f6ebfc2cd778"
+    },
+    {
+      "path": "public/game/beebop2/icons/icon-129.png",
+      "size": 261,
+      "sha256": "5b47b6c21e192b0315dd4abf906e1a2a26c0576e5c3dc480d6df48f034dd7567"
+    },
+    {
+      "path": "public/game/beebop2/icons/icon-130.png",
+      "size": 501,
+      "sha256": "cf444627cc1b33005f2928fba074e42bdfb552430f793289289dc51497a88a6d"
+    },
+    {
+      "path": "public/game/beebop2/icons/icon-131.png",
+      "size": 207,
+      "sha256": "d8ae30cc04e4485b30a08beab71099d15e1330f2a4f9d1211d1fc33fccbd017f"
+    },
+    {
+      "path": "public/game/beebop2/icons/icon-132.png",
+      "size": 185,
+      "sha256": "9d004b9ca6e1ea0cdda1bd86104c2acff77cfe529fa72cc31ef506e0eac4d4f5"
+    },
+    {
+      "path": "public/game/beebop2/icons/icon-133.png",
+      "size": 593,
+      "sha256": "40209d373b74cc2956fc001fc78cfc6a84c2939d89b02042e142de18868542e0"
+    },
+    {
+      "path": "public/game/beebop2/icons/icon-134.png",
+      "size": 187,
+      "sha256": "d7c90556dc474d474ef4954bf4d934fa034d2858bbe53ee92e9dec9c755ead57"
+    },
+    {
+      "path": "public/game/beebop2/icons/icon-135.png",
+      "size": 636,
+      "sha256": "6384e59d5f7f1ce8c46a2f4152266a0b9afbd21329908f51384e49e8d8d10f5b"
+    },
+    {
+      "path": "public/game/beebop2/icons/icon-137.png",
+      "size": 253,
+      "sha256": "a66e6626d01a8f439582a4091ea31f0458d22ec12b77cd5c6e9af6041b3b7eb8"
+    },
+    {
+      "path": "public/game/beebop2/icons/icon-138.png",
+      "size": 273,
+      "sha256": "d0a845269e54a1d7f30ebddfadbfc89b2511a18e3effc6bf8135c5f22964a6d2"
+    },
+    {
+      "path": "public/game/beebop2/icons/icon-139.png",
+      "size": 344,
+      "sha256": "4bbf8f0d9aff9c560516b829442043679362488ef93963e120de079b4ede7ee2"
+    },
+    {
+      "path": "public/game/beebop2/icons/icon-140.png",
+      "size": 914,
+      "sha256": "b4f549293688f0afa95c900f0289bedf37851d55bb61d0736546ef22020ac2b1"
+    },
+    {
+      "path": "public/game/beebop2/icons/icon-141.png",
+      "size": 432,
+      "sha256": "acc1d0c19bfcfbf0a7a9573e78c6cbebc3e25ff08bb0346d79482c6dc75d813f"
+    },
+    {
+      "path": "public/game/beebop2/icons/icon-142.png",
+      "size": 108,
+      "sha256": "ebc64eb9996c2a2b4180af30ddd6ce517e32f8f9482183a88b88ee0e429fcbb9"
+    },
+    {
+      "path": "public/game/beebop2/icons/icon-146.png",
+      "size": 509,
+      "sha256": "7a14df59163cb95acd6f327c0203ab1c152b6010a0b947832e29e088babb691e"
+    },
+    {
+      "path": "public/game/beebop2/icons/icon-147.png",
+      "size": 253,
+      "sha256": "a42061b7e8ca80f1efe8a814212716a5498cf451b74748c2a45a92bac2342471"
+    },
+    {
+      "path": "public/game/beebop2/icons/icon-148.png",
+      "size": 707,
+      "sha256": "7ae090829c68cbce86ea223d9628b392e20ec8e7b5bebd5bbacadf400e5fa1b3"
+    },
+    {
+      "path": "public/game/beebop2/icons/icon-149.png",
+      "size": 924,
+      "sha256": "4b237905a9bb646df2a61e42c0242348b29e3a9702c73887a62a278a8e99f9bf"
+    },
+    {
+      "path": "public/game/beebop2/icons/icon-150.png",
+      "size": 933,
+      "sha256": "3f599e0e5f6336565af3906bdd9aac930637854d78fa60dbffc5964b93ddb959"
+    },
+    {
+      "path": "public/game/beebop2/icons/icon-151.png",
+      "size": 927,
+      "sha256": "d98d452e4692002e8c865818e5180c98ec81c62c41536c1e14ee920b94fbe022"
+    },
+    {
+      "path": "public/game/beebop2/icons/icon-152.png",
+      "size": 929,
+      "sha256": "b6fe92c9a4dc8cf337028cc9d787019befd662ad78928c2e132ba33500a01e1e"
+    },
+    {
+      "path": "public/game/beebop2/icons/icon-153.png",
+      "size": 315,
+      "sha256": "139c3a1dbef00e67208f61b3a4edfb9b40577fd84358dab90f477a32dae1bb95"
+    },
+    {
+      "path": "public/game/beebop2/icons/icon-154.png",
+      "size": 929,
+      "sha256": "93b436fdb07b2d3d3f65b21f0b2f9eafe1303faf27aa15ce9c72c0aead417c82"
+    },
+    {
+      "path": "public/game/beebop2/icons/icon-155.png",
+      "size": 111,
+      "sha256": "f363f0b0814cb0ef18041b93593907b547d5867fa23fd1c8970227c8d84284b0"
+    },
+    {
+      "path": "public/game/beebop2/icons/icon-157.png",
+      "size": 383,
+      "sha256": "68b7e982fbdd2ef612107fd6e7c2a4488347a11d50807ce85303cf390c323405"
+    },
+    {
+      "path": "public/game/beebop2/icons/icon-158.png",
+      "size": 692,
+      "sha256": "d5ae8f210b6e9c1a546c20b932232775570396b8db20f39474c9de66df144d7f"
+    },
+    {
+      "path": "public/game/beebop2/icons/icon-159.png",
+      "size": 938,
+      "sha256": "c300530e08ea85ec356c9802c89a39265a0267efbb634bcca60cf8726a62077f"
+    },
+    {
+      "path": "public/game/beebop2/icons/icon-160.png",
+      "size": 312,
+      "sha256": "90b654c33e8d8c87435c5bbdae85868050c79254fc64fe179d01669092807c06"
+    },
+    {
+      "path": "public/game/beebop2/icons/icon-161.png",
+      "size": 293,
+      "sha256": "313ba069a3005cb9f6fdc735d8e6745852b844d384c53e7702e0f091295cca4b"
+    },
+    {
+      "path": "public/game/beebop2/icons/icon-165.png",
+      "size": 312,
+      "sha256": "218eabad55475be27ba29f3f81e4c931a7d0113ef4f2564c1fa5dedb52c28d01"
+    },
+    {
+      "path": "public/game/beebop2/icons/icon-166.png",
+      "size": 459,
+      "sha256": "38aa5ff6c7d92215e436cbf5d63a826b833f53fc464b6bf0a0d7a69e30361808"
+    },
+    {
+      "path": "public/game/beebop2/icons/icon-167.png",
+      "size": 313,
+      "sha256": "ba80241e97dc204120632b5424de372210ee2109447b91b9de447a2c4853397a"
+    },
+    {
+      "path": "public/game/beebop2/icons/icon-170.png",
+      "size": 971,
+      "sha256": "78a461e24cf3a3ef8fe95b360f1893bac853595c6d8dae5828658353cea16d05"
+    },
+    {
+      "path": "public/game/beebop2/icons/icon-171.png",
+      "size": 185,
+      "sha256": "c9f5d5bf66876fb724dbac16943f6871c3af2009e4a68b6ee9967b5a801f83c0"
+    },
+    {
+      "path": "public/game/beebop2/icons/icon-172.png",
+      "size": 182,
+      "sha256": "0fabec3a523f6a47f6b943266909e3fe322abea4b1888a48ad9bf2f0af0ce768"
+    },
+    {
+      "path": "public/game/beebop2/icons/icon-173.png",
+      "size": 297,
+      "sha256": "7ca338383041341cdb935da36b0130ef19863b4b63a7557fd8614eb4cbdf380c"
+    },
+    {
+      "path": "public/game/beebop2/icons/icon-174.png",
+      "size": 929,
+      "sha256": "b6fe92c9a4dc8cf337028cc9d787019befd662ad78928c2e132ba33500a01e1e"
+    },
+    {
+      "path": "public/game/beebop2/icons/icon-175.png",
+      "size": 923,
+      "sha256": "1b11d10d817dfb17e903add26cc60f20962ddefd6bb6270e38e8c6227710ee0f"
+    },
+    {
+      "path": "public/game/beebop2/icons/icon-176.png",
+      "size": 509,
+      "sha256": "7a14df59163cb95acd6f327c0203ab1c152b6010a0b947832e29e088babb691e"
+    },
+    {
+      "path": "public/game/beebop2/icons/icon-177.png",
+      "size": 634,
+      "sha256": "dfd8750dabf6cd8e3f2d7ce862ae7c942b104cfb551a84b036a553d95a0cec5b"
+    },
+    {
+      "path": "public/game/beebop2/icons/icon-178.png",
+      "size": 576,
+      "sha256": "28af1afb1241e57401c98fd2c080a0ca8a5e938ec3893c96b72d450a61476e2c"
+    },
+    {
+      "path": "public/game/beebop2/icons/icon-189.png",
+      "size": 126,
+      "sha256": "6da9371a3bf43095d30cc3f3f4d9474426129d5595a4905ab6b3713a24bf528c"
+    },
+    {
+      "path": "public/game/beebop2/icons/icon-192.png",
+      "size": 731,
+      "sha256": "f589c81cbbbb50655205d3c9f333053c147b1f6387d683475295ba3aef377421"
+    },
+    {
+      "path": "public/game/beebop2/icons/icon-193.png",
+      "size": 706,
+      "sha256": "30ca3ba871f99bbdd4d495032846c44b6a4cf356ea4ba5e7bfab2e17a778a723"
+    },
+    {
+      "path": "public/game/beebop2/icons/icon-194.png",
+      "size": 692,
+      "sha256": "d14756531331a83108a978d2bcf180e92ab9a95adb51f986b70e24031104f0d4"
+    },
+    {
+      "path": "public/game/beebop2/icons/icon-195.png",
+      "size": 778,
+      "sha256": "2c8a7dffc2263dc5db07b6e04a9fc4d13b517c61f0c371150f32f0d89c36c444"
+    },
+    {
+      "path": "public/game/beebop2/icons/icon-199.png",
+      "size": 732,
+      "sha256": "9b82e27bf3f85b4a20a1b6beb81164e4d3a81698fec0286fa6f2d9e6f4a6f7bf"
+    },
+    {
+      "path": "public/game/beebop2/icons/icon-200.png",
+      "size": 345,
+      "sha256": "a5014a493cc68773acfcfc16cf9e8d591cd656346679d43eb7dcb04a827cc0b6"
+    },
+    {
+      "path": "public/game/beebop2/icons/icon-208.png",
+      "size": 714,
+      "sha256": "e4bf2607ae54b3f143b96526c438e56100ea5b3a1f919a6245bb01712f6e8c70"
+    },
+    {
+      "path": "public/game/beebop2/icons/icon-216.png",
+      "size": 737,
+      "sha256": "c769a4ed5bc0440509f8979df6f32b4d8b561fe6463463b0ca0111bea86b1ab9"
+    },
+    {
+      "path": "public/game/beebop2/icons/icon-218.png",
+      "size": 690,
+      "sha256": "2077a02decd2139ebba373107260cac7a1899016e47ba8601a60d2502714be27"
+    },
+    {
+      "path": "public/game/beebop2/icons/icon-219.png",
+      "size": 589,
+      "sha256": "0b623cac2975569de9f8f09b364fee7d9bc5a6429b1b3a70189244dd76321230"
+    },
+    {
+      "path": "public/game/beebop2/icons/icon-220.png",
+      "size": 529,
+      "sha256": "17a481adbb2a10996c71e2f4884719305e68c4002fd91e6ca938213d6af05f7e"
+    },
+    {
+      "path": "public/game/beebop2/icons/icon-223.png",
+      "size": 160,
+      "sha256": "167a00a0864e5f12bbc3f93fb368d1986b6bd8913525150cad24d26a378634f7"
+    },
+    {
+      "path": "public/game/beebop2/icons/icon-224.png",
+      "size": 553,
+      "sha256": "9798aa66be2cd57f35e6b41d7906a1a6c799217c4d22ee2208574ca686a83c0f"
+    },
+    {
+      "path": "public/game/beebop2/icons/icon-225.png",
+      "size": 467,
+      "sha256": "62bfab03788563ebd237edb0a0afa2d5cc6e68fd15902b554f36643f5bd21155"
+    },
+    {
+      "path": "public/game/beebop2/icons/icon-228.png",
+      "size": 351,
+      "sha256": "5f66baf51034057940704b1dcf4c262e3e1ef7af564c857f639d9ea2ddac4571"
+    },
+    {
+      "path": "public/game/beebop2/icons/icon-229.png",
+      "size": 500,
+      "sha256": "4cc21756366686e49e5badbe5467c0a2abf7639a86c1b1b0c3feadf4b717fb23"
+    },
+    {
+      "path": "public/game/beebop2/icons/icon-232.png",
+      "size": 489,
+      "sha256": "3c8209799e79984cb62e9aa4d13a3490562634a9ed5a57daa7cdcd96cd62edbc"
+    },
+    {
+      "path": "public/game/beebop2/icons/icon-235.png",
+      "size": 470,
+      "sha256": "de56924c8ccb74ba5df427a43785bfcc3f2aae00dee136c74c5519791dc4d5ea"
+    },
+    {
+      "path": "public/game/beebop2/icons/icon-236.png",
+      "size": 372,
+      "sha256": "6253196cdc00e33ef869848e5f1756317a98591741b3fc2c6e96b84e4f97bbbb"
+    },
+    {
+      "path": "public/game/beebop2/icons/icon-237.png",
+      "size": 420,
+      "sha256": "daad1c911b39b42b2393f68be359f574df7da4e9a3bf8c3cbbb82300eb5a3e94"
+    },
+    {
+      "path": "public/game/beebop2/icons/icon-238.png",
+      "size": 269,
+      "sha256": "4dfbece441657cc2712bace42244d24f9d550fb69ff9f6f0a65c7270ac8a3d4f"
+    },
+    {
+      "path": "public/game/beebop2/icons/icon-239.png",
+      "size": 277,
+      "sha256": "43ceed59f94e09e0da680e2a1446d5bdb1bd6074cac31617b81886ee190291fe"
+    },
+    {
+      "path": "public/game/beebop2/icons/icon-240.png",
+      "size": 432,
+      "sha256": "1f46493d89ace8fbf430b49ac838f8a11b7b626aaecc0952a3d6ab06162e0807"
+    },
+    {
+      "path": "public/game/beebop2/icons/icon-242.png",
+      "size": 391,
+      "sha256": "8431e69ab384bbe72734751527e2afcf72ab86d907faee524d5021c5cea92af6"
+    },
+    {
+      "path": "public/game/beebop2/icons/icon-243.png",
+      "size": 369,
+      "sha256": "707e405b2ad3f3cef0b32c8580b44ada611a982047a8d68084ec81629a83a79f"
+    },
+    {
+      "path": "public/game/beebop2/icons/icon-245.png",
+      "size": 411,
+      "sha256": "d674fa9c639bcf7a41d85ba378c843e9ce0d57210a4e6ca5fb47b3b957032bbd"
+    },
+    {
+      "path": "public/game/beebop2/icons/icon-246.png",
+      "size": 329,
+      "sha256": "f2f25f14f7e29f2cf6455b324a3fc09a07469d008a1832da8e2ed3608cc5b313"
+    },
+    {
+      "path": "public/game/beebop2/icons/icon-247.png",
+      "size": 368,
+      "sha256": "1065ed905c05ea0328db76570a82023b13ff468b34798aaa1ca50ae760c62ba7"
+    },
+    {
+      "path": "public/game/beebop2/icons/icon-248.png",
+      "size": 368,
+      "sha256": "2faa6df039ecef4db8ba188624bd1f43f09824a10ab95d667a4d7f37fd89a4ba"
+    },
+    {
+      "path": "public/game/beebop2/icons/icon-249.png",
+      "size": 465,
+      "sha256": "2f9cd4a98963d08ecb35ab99e2f8ac54c6d753046b57af3ebc4885d613782cca"
+    },
+    {
+      "path": "public/game/beebop2/icons/icon-250.png",
+      "size": 419,
+      "sha256": "c38ddfb58c14532c0d2804800e7aec5f534a78426498ff57703de1a379551165"
+    },
+    {
+      "path": "public/game/beebop2/icons/icon-251.png",
+      "size": 344,
+      "sha256": "15de9642258c93aacec76cb9a27db5e9474279a9d38d8cb8ee601ac85a617aa5"
+    },
+    {
+      "path": "public/game/beebop2/icons/icon-252.png",
+      "size": 412,
+      "sha256": "f5ea859f6d51a84bc60348023970517a52ac1e389f601cfa97f13ff4f10d28ff"
+    },
+    {
+      "path": "public/game/beebop2/icons/icon-253.png",
+      "size": 317,
+      "sha256": "6c0a0f4294f9243d5a24e4c47a3cc42d5bc10e583528e506e6be71dc917d3c59"
+    },
+    {
+      "path": "public/game/beebop2/icons/icon-254.png",
+      "size": 460,
+      "sha256": "0c522630c8f688751e3ba9be0bd5f85a464ed2677ce593d78ce80c3fab0b4e48"
+    },
+    {
+      "path": "public/game/beebop2/icons/icon-255.png",
+      "size": 632,
+      "sha256": "c42475bc70d9faae76789a86effbc27a7127e24710eff1d315c5dbb783bdfadd"
+    },
+    {
+      "path": "public/game/beebop2/icons/icon-256.png",
+      "size": 717,
+      "sha256": "0fb3d6930b2b0fc188c13cff1c3c5a278de32ad01036efcd41dcbf8035df802f"
+    },
+    {
+      "path": "public/game/beebop2/icons/icon-257.png",
+      "size": 646,
+      "sha256": "68c06d3daa8903e3fa26287b552b5fccd78f50d93d85567c6fd69e8090fe2266"
+    },
+    {
+      "path": "public/game/beebop2/icons/icon-258.png",
+      "size": 723,
+      "sha256": "6e57b5ee7d3ebaabbef6a0982dfeb72107d9e4f3bf9f892d039b8ddc1ea65fd4"
+    },
+    {
+      "path": "public/game/beebop2/icons/icon-259.png",
+      "size": 1040,
+      "sha256": "019adf9008285132684c07cac4394fa9e3e922542c580f8da0fb817875ae16ef"
+    },
+    {
+      "path": "public/game/beebop2/icons/icon-260.png",
+      "size": 990,
+      "sha256": "816931291211b10b9600c944b66d90edb2bc22f7486b79a4ad70b2db0bdd9e5b"
+    },
+    {
+      "path": "public/game/beebop2/icons/icon-277.png",
+      "size": 890,
+      "sha256": "c0ed10e0b222144e55147f62f9aad89739355319fc3ba8232b4c47ef073bf06b"
+    },
+    {
+      "path": "public/game/beebop2/icons/icon-278.png",
+      "size": 891,
+      "sha256": "3175e77dd08d65235d37e114e6c27e1e0a6cd47574a27677e56a069557a7c43c"
+    },
+    {
+      "path": "public/game/beebop2/icons/icon-279.png",
+      "size": 129,
+      "sha256": "ba93da313bfb5c37d4cddc6cdcc1bfb5dd93a7111b65fe3c183f16be530a90b0"
+    },
+    {
+      "path": "public/game/beebop2/icons/icon-282.png",
+      "size": 291,
+      "sha256": "395cdd91cb9cb8e2d077a926ade7de23dc0dda9c8eabed348f5d5e4c3e1528db"
+    },
+    {
+      "path": "public/game/beebop2/icons/icon-3001.png",
+      "size": 294,
+      "sha256": "e04b9384eee29ee9708dc4803165f85d4a005917c459856406285c4b33c11a77"
+    },
+    {
+      "path": "public/game/beebop2/icons/icon-3002.png",
+      "size": 304,
+      "sha256": "0048a521a786d7f147460c4155e49ed180868aece1e9cc9245c932bc92682951"
+    },
+    {
+      "path": "public/game/beebop2/icons/icon-3003.png",
+      "size": 309,
+      "sha256": "6b7c659d766240629e17d9357ef9aaffc30771b8e80d49532fec30a1a5106e19"
+    },
+    {
+      "path": "public/game/beebop2/icons/icon-3004.png",
+      "size": 288,
+      "sha256": "66676294f528aaa31f2aa135b198833118ddd48bc62c598e78f43aab99fa7fca"
+    },
+    {
+      "path": "public/game/beebop2/icons/icon-3005.png",
+      "size": 283,
+      "sha256": "4f793b30aae87eacc3cb110ef4c427202aad98ec74cff0faa9b27ae905ceac97"
+    },
+    {
+      "path": "public/game/beebop2/icons/icon-3006.png",
+      "size": 128,
+      "sha256": "af698615388c73e96d42bccf43e3f1493a9e60862658fb6f94bd0c445909daa6"
+    },
+    {
+      "path": "public/game/beebop2/icons/icon-3016.png",
+      "size": 119,
+      "sha256": "a0220fcd127ccb02aba1b1d41df4c8fe3a6e7613380a1250b2a8693640c8dec6"
+    },
+    {
+      "path": "public/game/beebop2/icons/icon-5128.png",
+      "size": 404,
+      "sha256": "1ff42f65c7b396478f5fb5266d5d3ed43624ada7fd6ab6732e87aa52597e73f1"
+    },
+    {
+      "path": "public/game/beebop2/icons/icon-5129.png",
+      "size": 503,
+      "sha256": "9832bb3fbfa6c17262a5f02cd567bd345f3f8ac8805e9307d297f525cbb2c012"
+    },
+    {
+      "path": "public/game/beebop2/icons/icon-5130.png",
+      "size": 569,
+      "sha256": "3654e631b49b40005a43aec600b4d8fadf35a411748b0a03124a67e0e2df3d9f"
+    },
+    {
+      "path": "public/game/beebop2/icons/icon-5131.png",
+      "size": 576,
+      "sha256": "3d1e405ec633e9aeca35f301551082b05c60a92741aab44c8e6282f9430ff391"
+    },
+    {
+      "path": "public/game/beebop2/icons/icon-5132.png",
+      "size": 613,
+      "sha256": "12e535bc7ff2d6e99927a6dbe1e44741df80c142eaf518e2a46a8500874a4e3e"
+    },
+    {
+      "path": "public/game/beebop2/icons/icon-5133.png",
+      "size": 591,
+      "sha256": "7726ca56d93a005b52117ae302d75a3b92493327b05f27f5a112c96cd597592d"
+    },
+    {
+      "path": "public/game/beebop2/icons/icon-5134.png",
+      "size": 528,
+      "sha256": "203e1380eb9a400b0a0056ad1fc210016953b1a620d057651ae67fe841ecbfd7"
+    },
+    {
+      "path": "public/game/beebop2/icons/icon-5135.png",
+      "size": 488,
+      "sha256": "40928fff9bfaa2525aaf7b9a57ad1e47b3ee826fd2d7baeb53244530cb002020"
+    },
+    {
+      "path": "public/game/beebop2/icons/icon-5136.png",
+      "size": 316,
+      "sha256": "f8af72d19e7a4f6349dc8f542d717a07c89b7058f56fb81ab9de845c5f8f7cd8"
+    },
+    {
+      "path": "public/game/beebop2/icons/icon-5137.png",
+      "size": 480,
+      "sha256": "9e36dc58481d3dc8af795b884fd623e048471fb42ac8a746954dad59d8bd2e52"
+    },
+    {
+      "path": "public/game/beebop2/icons/icon-5138.png",
+      "size": 507,
+      "sha256": "89b3764ba5c4a50545c3cb31156a92fa3e33080e1231a966023d622d407e5da8"
+    },
+    {
+      "path": "public/game/beebop2/icons/icon-5139.png",
+      "size": 524,
+      "sha256": "77dd295bb472260b8b5aba51f28f66aa37e6d8da112565cd94aa9260d1bf18f5"
+    },
+    {
+      "path": "public/game/beebop2/icons/icon-5140.png",
+      "size": 472,
+      "sha256": "724ebae77b24b35362aa7c34ff074eb9f1232d83d798c75737d95edf2bc3d004"
+    },
+    {
+      "path": "public/game/beebop2/icons/icon-ICON_1.png",
+      "size": 356,
+      "sha256": "68f56f15d77bf82339beb230ae1b367923b01a3d517b793a74bbf7027a0d2642"
+    },
+    {
+      "path": "public/game/beebop2/icons/icon-ICON_33.png",
+      "size": 718,
+      "sha256": "0ca660ee6e158f27730be59a9a756303ef520afcb5b76b6a8f8ec6bc760348b4"
+    },
+    {
+      "path": "public/game/beebop2/icons/icon-ICON_36.png",
+      "size": 83,
+      "sha256": "b0775cba09eadf2fde241b35daa28cdcd03af6d23e99e0decd32b42f13f6d220"
+    },
+    {
+      "path": "public/game/beebop2/icons/icon-ICON_6.png",
+      "size": 83,
+      "sha256": "b0775cba09eadf2fde241b35daa28cdcd03af6d23e99e0decd32b42f13f6d220"
+    },
+    {
+      "path": "public/game/beebop2/presentation.json",
+      "size": 171271,
+      "sha256": "72c4a623b75e56373855186fcbd7b473100788ae987c17bd420d727ef0dbbb18"
+    },
+    {
+      "path": "public/game/beebop2/sounds/AFFBON-pcm.wav",
+      "size": 13974,
+      "sha256": "b917bc26439e8ada6f59763ae2cd41d828716a497f70999a88520e85eeb0ade2"
+    },
+    {
+      "path": "public/game/beebop2/sounds/ALIENPTR-pcm.wav",
+      "size": 198670,
+      "sha256": "128cb511900ade9efeab00f7e36128e6d28ebbe841642b4fc93b49b455a35105"
+    },
+    {
+      "path": "public/game/beebop2/sounds/ATTENTEPTR-pcm.wav",
+      "size": 164558,
+      "sha256": "44debba1c80469294713a66da97908ddf17474dde3a1dc81f9aa5fa78b5c7a92"
+    },
+    {
+      "path": "public/game/beebop2/sounds/BIP-pcm.wav",
+      "size": 508,
+      "sha256": "f2873e455e796b9031a61f4fcfb74be3c3a11d6bb4a4f78e32913e14ea46513b"
+    },
+    {
+      "path": "public/game/beebop2/sounds/BOP-pcm.wav",
+      "size": 722,
+      "sha256": "ff77cfdfa9d906517716d8bdf90f959415a679c0e87c1c3d24e58fd88ce29533"
+    },
+    {
+      "path": "public/game/beebop2/sounds/CLAVIERPTR-pcm.wav",
+      "size": 341180,
+      "sha256": "f998c689bc86e04456741af0520b7724f92681e1ab075d87707c2551b5d71af1"
+    },
+    {
+      "path": "public/game/beebop2/sounds/CLOCHEPTR-pcm.wav",
+      "size": 41038,
+      "sha256": "de4023eb160eca51812f6eec59093946dc772fd5976fb4e1a64aca863ff46467"
+    },
+    {
+      "path": "public/game/beebop2/sounds/COTE-pcm.wav",
+      "size": 1022,
+      "sha256": "45447fc5903d78222c7cd013c59bbbb27c12349a0be4632b9d5bdf9788fe5610"
+    },
+    {
+      "path": "public/game/beebop2/sounds/DEPAR-pcm.wav",
+      "size": 4062,
+      "sha256": "7487a366a93d9b66c93b30be3481ea3f416c405c46a3e6e8bdc87898ad107599"
+    },
+    {
+      "path": "public/game/beebop2/sounds/ESSAI1PTR-pcm.wav",
+      "size": 16102,
+      "sha256": "7bdcc2df5f2267821e94d38dd5b3ebe7d571ba79f91e791857ced58b3b99e40f"
+    },
+    {
+      "path": "public/game/beebop2/sounds/FINBON-pcm.wav",
+      "size": 40846,
+      "sha256": "3d72b567a49eae71c805673f23ad3b0d4c823ac1767f5eba96f704a4793cdd14"
+    },
+    {
+      "path": "public/game/beebop2/sounds/FINPTR-pcm.wav",
+      "size": 170830,
+      "sha256": "33e27c7cf257706863db9f6b399c1c294451ac332b3d21e4739cab108e44004c"
+    },
+    {
+      "path": "public/game/beebop2/sounds/INTERPTR-pcm.wav",
+      "size": 4080,
+      "sha256": "0a7579a9d39c999831f84ec9bb0c8e95200e190d50594e04d2e00d71a65753e8"
+    },
+    {
+      "path": "public/game/beebop2/sounds/INTROPTR-pcm.wav",
+      "size": 369230,
+      "sha256": "a0d74a1c75a0e89e65a6b3627e260e2e54455bda6215f582855acf6bc07d59d0"
+    },
+    {
+      "path": "public/game/beebop2/sounds/KEY-pcm.wav",
+      "size": 5052,
+      "sha256": "308fab53aaec224cd3d5de456ede5af165ecca3014df2a421d9c801d73d3be0a"
+    },
+    {
+      "path": "public/game/beebop2/sounds/MISSIL-pcm.wav",
+      "size": 3454,
+      "sha256": "8e49adcb9f20127e4bc32ffeb1267ff3afc11fb40351290d3f7043ef3dcb3b88"
+    },
+    {
+      "path": "public/game/beebop2/sounds/MURPTR-pcm.wav",
+      "size": 4786,
+      "sha256": "cf0af61df9ccf55d20babfb942fdd5d9be35c374da4a8656c14c0661e44382f5"
+    },
+    {
+      "path": "public/game/beebop2/sounds/NOVAPTR-pcm.wav",
+      "size": 123372,
+      "sha256": "900f69b1e98bcd4847c2ec60fe5b9f5b9c0e00009d1a7959225e99c170a181e7"
+    },
+    {
+      "path": "public/game/beebop2/sounds/ORAGEPTR-pcm.wav",
+      "size": 113486,
+      "sha256": "539b23bbe2631c7ebdfbad3b46cb55c4be273ca41654fb220de361c35165749f"
+    },
+    {
+      "path": "public/game/beebop2/sounds/RAQUE-pcm.wav",
+      "size": 1606,
+      "sha256": "5246ba90f156367615c27911c2dff7e46e94ba0f9428f0775be7ef7e300b032b"
+    },
+    {
+      "path": "public/game/beebop2/sounds/RAYONPTR-pcm.wav",
+      "size": 33830,
+      "sha256": "cd3e6438dcdbe28a3627d35848ca85a5bfe8e42428e073917d0d84d91bd5ba46"
+    },
+    {
+      "path": "public/game/beebop2/sounds/TELEPTR-pcm.wav",
+      "size": 78844,
+      "sha256": "467f6865f7c92a66d1dcdb9b583a8aab0c7375b1ca03b7fb7860ae4c891c3ef2"
+    },
+    {
+      "path": "public/game/beebop2/sounds/TERREPTR-pcm.wav",
+      "size": 917582,
+      "sha256": "6d8c678acf539df874ddcdcd5a161914633fe0927c161132ff0468a18cefc0d1"
+    },
+    {
+      "path": "public/game/beebop2/sounds/TRANSPPTR-pcm.wav",
+      "size": 60750,
+      "sha256": "b84a680ab63af4a86d8a6337422ec4055c3a43df18ac4b209a8685c36713cb47"
+    },
+    {
       "path": "public/game/catalog.json",
       "size": 1250189,
       "sha256": "5ac8025007da1d99d02fead6092899b1fc62fa28c66693f8afa7ef832f7b0bfa"
@@ -14318,8 +15978,8 @@
     },
     {
       "path": "public/game/games/catalog.json",
-      "size": 14468,
-      "sha256": "a0de8a13c6f1b092a6ee50900b1a4c877c99fad9e8597a63966735d86b376f98"
+      "size": 14498,
+      "sha256": "5ce5a02435b803b31781184d77a9eb81821203f60193f54b370c7f444632729b"
     },
     {
       "path": "public/game/greenhouse/02D10001.webp",

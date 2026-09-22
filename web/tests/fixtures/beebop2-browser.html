@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="fr"><meta charset="utf-8"><title>BeeBop II — scénarios de vérification</title>
+<link rel="stylesheet" href="/style.css">
+<style>body { padding:20px } nav { display:flex; gap:12px; margin-bottom:20px; flex-wrap:wrap }</style>
+<h1>Scénarios BeeBop II (données de test)</h1>
+<p>Vue de production, campagne synthétique. Cette origine est réservée aux tests.</p>
+<nav><button data-case="loss">Préparer défaite</button><button data-case="next">Préparer enchaînement</button>
+<button data-case="final">Préparer victoire finale</button><button data-case="weapon">Préparer bonus de tir</button>
+<button data-case="original">Tableaux originaux</button><button id="intro">Vérifier l’introduction</button>
+<button id="leave">Quitter la scène de test</button></nav>
+<main></main><output id="result"></output>
+<script type="module">
+  import { renderBeeBop2 } from '/features/games/beebop2/view.js';
+  import { loadArtwork } from '/features/games/beebop-common/artwork.js';
+  import { drawMenu, createTransition } from '/features/games/beebop2/renderer.js';
+  const nativeFetch = window.fetch.bind(window);
+  const campaign = await (await nativeFetch('/game/beebop2/campaign.json')).json();
+  let scenario;
+  window.fetch = async (input, options) => {
+    if (input !== '/game/beebop2/campaign.json' || scenario === 'original') return nativeFetch(input, options);
+    const fixture = structuredClone(campaign), level = structuredClone(fixture.levels[0]);
+    level.id = 99;
+    level.boards['19ec'] = Array(247).fill(48);
+    level.boards['19ec'][9 * 19 + 9] = scenario === 'weapon' ? 77 : 49;
+    if (scenario === 'weapon') level.boards['19ec'][4 * 19 + 4] = 49;
+    Object.assign(level.config, { '100a':300, '100c':540, '1008':400,
+      '1016': scenario === 'loss' ? 370 : 420, '0d12':0, '0d16':0, '0d18':0, '0d1c':0 });
+    fixture.paths = [Array(20).fill(99), Array(20).fill(99)];
+    fixture.levels = [level];
+    return new Response(JSON.stringify(fixture));
+  };
+  async function prepare(value) {
+    scenario = value;
+    const main = document.querySelector('main');
+    main.dispatchEvent(new Event('sceneleave'));
+    localStorage.setItem('adi4-beebop2-v1', JSON.stringify({ version:1, sound:false, scores:[], speed:36,
+      checkpoint: { path:0, levelIndex:value === 'final' ? 19 : 0, score:1230, lives:value === 'loss' ? 0 : 2 } }));
+    document.querySelector('#result').textContent = '';
+    await renderBeeBop2(main);
+  }
+  for (const button of document.querySelectorAll('[data-case]')) button.onclick = () => prepare(button.dataset.case);
+  document.querySelector('#intro').onclick = async () => {
+    const main = document.querySelector('main');
+    main.dispatchEvent(new Event('sceneleave'));
+    const [art, sequences] = await Promise.all([
+      loadArtwork('/game/beebop2/'),
+      nativeFetch('/game/beebop2/presentation.json').then(r => r.json()),
+    ]);
+    main.innerHTML = `<label>Image de l’introduction <select id="phase">
+      <option value="menu">Menu</option><option value="menuExit">Clic sur Go</option>
+      <option value="atom">Atome</option><option value="entry">Entrée du tableau</option>
+      </select></label><p><canvas width="640" height="480"></canvas></p>`;
+    const ctx = main.querySelector('canvas').getContext('2d');
+    const phase = main.querySelector('select');
+    phase.onchange = () => {
+      drawMenu(ctx, art, { x: 140, y: 210 }, 36);
+      for (const type of ['menuExit', 'atom', 'entry']) {
+        if (phase.value === 'menu') break;
+        const transition = createTransition(ctx, art, sequences[type], type === 'entry' ? 1001 : 134);
+        transition.draw(ctx, type === phase.value ? (type === 'menuExit' ? 0 : transition.duration / 2) : transition.duration);
+        if (type === phase.value) break;
+      }
+      document.querySelector('#result').textContent = phase.selectedOptions[0].textContent;
+    };
+    phase.onchange();
+  };
+  document.querySelector('#leave').onclick = () => {
+    const main = document.querySelector('main');
+    main.dispatchEvent(new Event('sceneleave')); main.replaceChildren();
+    document.querySelector('#result').textContent = 'Scène détruite';
+  };
+  await prepare('loss');
+</script></html>

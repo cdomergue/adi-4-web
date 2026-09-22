@@ -190,6 +190,7 @@ modules `view.js` affichent les états et relient les commandes au moteur.
 | ------------------ | ---------------------------------------------------------------------- | ---------------------------------------------------------------------------- |
 | Sokoban            | [Moteur et vue](public/features/games/sokoban/)                        | [15 niveaux et atlas](public/game/sokoban/)                                  |
 | BeeBop I           | [Moteur, effets, règles et rendu](public/features/games/beebop/)      | [45 tableaux, images et sons](public/game/beebop1/)                           |
+| BeeBop II          | [Moteur, tirs, transitions et rendu](public/features/games/beebop2/) | [Deux parcours, images, sons et blits](public/game/beebop2/)                 |
 | Place Ball         | [Moteur, rendu et vue](public/features/games/placeball/)             | [15 tableaux, images et sons](public/game/placeball/)                        |
 | Mr. Matt I et II   | [Moteur et vue partagés](public/features/games/mrmatt/)                | [I](public/game/mrmatt1/) et [II](public/game/mrmatt2/)                      |
 | Bad Toys 3D I à IV | [Moteur, rendu et vue](public/features/games/badtoys/)                 | [Cartes, sprites et sons](public/game/badtoys/)                              |
@@ -200,8 +201,12 @@ transitions de tableaux (`level-rules.js`), le menu, la vitesse, les séquences 
 le classement (`presentation.js`), le rendu Canvas (`renderer.js`) et
 les entrées, sons et sauvegardes (`view.js`). Le moteur est déterministe et
 indépendant du DOM. La clé de reprise est `adi4-beebop1-v1`. Les règles sont
-propres à l’épisode I ; la [comparaison des épisodes](public/features/games/beebop/README.md)
-décrit les frontières possibles d’un socle commun.
+propres à chaque épisode ; BeeBop II utilise `adi4-beebop2-v1` et ses propres
+collisions, tirs, règles de passages et séquences de présentation.
+Le [socle commun](public/features/games/beebop-common/) fournit le chargement
+des images et masques, la calibration temporelle, le classement et le pointeur.
+Les commandes de dessin finies de BeeBop II sont des données JSON ; aucune
+instruction x86 ni API Windows n’est exécutée dans le navigateur.
 
 Mr. Matt partage un moteur, un atlas et 12 sons entre ses deux épisodes ; chaque
 épisode possède son catalogue de niveaux. Les clés de sauvegarde sont

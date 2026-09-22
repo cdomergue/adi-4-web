@@ -1,0 +1,25 @@
+.bee2-window { max-width: 960px; }
+.bee2-hud, .bee2-menu, .bee2-bonus { position: absolute; inset: 0; pointer-events: none; }
+.bee2-hud[hidden], .bee2-menu[hidden], .bee2-bonus[hidden], .bee2-ending[hidden] { display: none; }
+.bee2-hud span { position: absolute; top: 1.6%; font: 2.8cqw Arial, sans-serif; color: #fff; text-align: right; }
+.bee2-hud [data-hud=level] { left: 13.1%; width: 4.2%; }
+.bee2-hud [data-hud=score] { left: 29.5%; width: 10.4%; color: #ffff00; }
+.bee2-hud [data-hud=lives] { left: 80%; width: 6%; color: #ffff00; }
+.bee2-hud button { position: absolute; left: 90.6%; top: 1.7%; width: 6.1%; height: 5.2%; border: 0; background: transparent; pointer-events: auto; cursor: pointer; }
+.bee2-menu > button { position: absolute; padding: 0; background: transparent; border: 0; border-radius: 0; pointer-events: auto; cursor: pointer; }
+.bee2-menu > button:focus-visible { outline: 2px solid white; }
+.bee2-go { left: 41.4%; top: 76.4%; width: 7.2%; height: 5.6%; }
+.bee2-quit { left: 51.4%; top: 76.4%; width: 7.2%; height: 5.6%; }
+.bee2-faster, .bee2-slower { left: 29.6%; width: 2.3%; height: 3.3%; }
+.bee2-faster { top: 30.8%; }
+.bee2-slower { top: 52.3%; }
+.bee2-speed { position: absolute; left: 10%; top: 27%; color: #fff; font: 2cqw Arial, sans-serif; }
+.bee2-ranking { position: absolute; left: 67.2%; top: 30%; width: 28%; color: #0ff; font: 1.55cqw 'Times New Roman', serif; }
+.bee2-ranking h2 { color: #f00; font: 3.1cqw 'Times New Roman', serif; text-align: center; margin: 0 0 1cqw; }
+.bee2-ranking ol { list-style: none; margin: 0; padding: 0; }
+.bee2-ranking li { display: flex; justify-content: space-between; height: 1.8cqw; white-space: pre; }
+.bee2-ranking button { display: block; margin: 1cqw auto; pointer-events: auto; background: #a00; color: #ff0; border: 2px outset #ccc; font: inherit; cursor: pointer; }
+.bee2-bonus span { position: absolute; top: 52.2%; color: #fff; font: 2.8cqw Arial, sans-serif; }
+.bee2-bonus [data-bonus=lives] { left: 48%; }
+.bee2-bonus [data-bonus=score] { left: 56%; }
+.bee2-ending { position: absolute; top: 25%; width: 100%; text-align: center; color: #f00; font: 9cqw 'Times New Roman', serif; pointer-events: none; }

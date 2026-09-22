@@ -30,6 +30,7 @@
   {
     "id": "beebop2",
     "title": "BeeBop II",
+    "route": "#game/beebop2",
     "source": "extracted/discs/Adi421EnvCol2/Games/Beebop2/BEEBOP2.EXE",
     "format": "Win16 NE",
     "sha256": "948ed1705fc585a7f9583619ffe34365f657207c7de1827c17c4b9471ff737ad",

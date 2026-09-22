@@ -161,12 +161,13 @@ Les petits mouvements d’ambiance des décors et certaines transitions ne sont
 pas tous reproduits. Les [finitions de fidélité](FIDELITY.md) sont des travaux
 requis pour considérer la recréation terminée.
 
-## Les douze jeux
+## Les treize jeux
 
 | Jeu                | Route                           | Contenu et reprise                                              |
 | ------------------ | ------------------------------- | --------------------------------------------------------------- |
 | Sokoban            | `#game/sokoban`                 | 15 niveaux originaux                                            |
 | BeeBop I           | `#game/beebop1`                 | 45 tableaux, moteur JavaScript natif, reprise au début du tableau |
+| BeeBop II          | `#game/beebop2`                 | Deux parcours de 20 tableaux, JavaScript natif, reprise et classement |
 | Place Ball         | `#game/placebfr`                | 15 niveaux, moteur JavaScript natif, modes Standard et Challenge |
 | Gobliiins          | `#game/wgob1`                   | Édition française Windows des CD ADI ; codes de niveau          |
 | Gobliins 2         | `#game/wgob2`                   | Édition française Windows ; sauvegardes du jeu et import/export |
@@ -197,6 +198,15 @@ automatiquement après le bonus. Le sélecteur de tableau démarre une
 partie indépendante à cet endroit. La [référence BeeBop](public/features/games/beebop/README.md)
 décrit les vérifications natives, les différences avec BeeBop II et les limites
 de comparaison audiovisuelle ; la fidélité complète n’est pas encore établie.
+
+BeeBop II propose les deux parcours de vingt tableaux de l’exécutable ADI,
+avec les règles de collision, tirs simple et double, passages et rayons mortels
+décompilés. Il partage avec BeeBop I le chargement graphique, la calibration,
+le classement et la gestion du pointeur, mais pas les règles de jeu.
+`adi4-beebop2-v1` conserve le début du tableau, le parcours, les scores et
+les réglages. Les transitions utilisent les opérations de dessin originales ;
+la [référence BeeBop II](public/features/games/beebop2/README.md) précise
+les tests différentiels et les limites de validation audiovisuelle.
 
 Place Ball propose les quinze niveaux de `PBWIN.UDF`, les images et bruitages
 originaux, cinq vitesses et les modes Standard et Challenge. Clic, Entrée ou

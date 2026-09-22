@@ -92,18 +92,18 @@ partagent une famille d’algorithmes, mais ne sont pas interchangeables.
 | Réserve initiale | 8 | 6 |
 | Briques renforcées | `Z → Y → 1 → 0` | `A → B → C → 1 → 0` |
 | Armes | Laser simple (`7`) | Simple (`M`), double (`0xD7`), annulation (`S`) |
-| Balles actives | Une | Multiballe |
-| Missile et balle | Inverse la descente | Inverse la montée |
+| Balles actives | Une | Une dans les deux parcours accessibles |
+| Missile et balle | Inverse la descente | Inverse la descente |
 | Score affiché | Un point par brique | Dix points par brique |
-| Échappement de trajectoire | 1 000 tours | Seuil variable, initialement 300 |
+| Échappement de trajectoire | 1 000 tours | 300 tours |
 
-Le chargement, la boucle temporelle, les entrées, le stockage, les blits et les
-fonctions de grille peuvent former un socle commun, avec dimensions et profils
-de règles injectés. Les transitions de tableaux, armes, multiballe et collisions
-restent des stratégies propres à chaque épisode. Le moteur livré est celui de
-BeeBop I, pas un moteur de BeeBop II déguisé en simple changement de données.
-Le portage de II n’est pas activé. Neuf sons PCM sont identiques entre les deux
-épisodes ; les icônes ne sont pas interchangeables pixel pour pixel.
+Le [socle commun](../beebop-common/README.md) fournit le chargement des images,
+les masques de balle, la calibration, le classement et la gestion du pointeur.
+Les transitions de tableaux, armes et collisions restent propres à chaque
+épisode. Le [portage de BeeBop II](../beebop2/README.md) utilise les deux parcours
+de vingt étapes. Le code multiballe et raquette verticale du binaire concerne
+des tableaux internes absents de ces parcours. Neuf sons PCM sont identiques
+entre les épisodes ; les icônes ne sont pas interchangeables pixel pour pixel.
 
 ## Reprise et limites de fidélité
 

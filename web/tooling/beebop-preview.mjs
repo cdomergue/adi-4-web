@@ -5,7 +5,9 @@ import { fileURLToPath } from 'node:url';
 import path from 'node:path';
 
 const root = fileURLToPath(new URL('../public/', import.meta.url));
-const fixture = new URL('../tests/fixtures/beebop-browser.html', import.meta.url);
+const episode2 = process.argv.includes('--ii');
+const port = episode2 ? 4186 : 4181;
+const fixture = new URL(`../tests/fixtures/beebop${episode2 ? '2' : ''}-browser.html`, import.meta.url);
 const types = { '.js': 'text/javascript', '.css': 'text/css', '.html': 'text/html',
   '.json': 'application/json', '.png': 'image/png', '.wav': 'audio/wav' };
 http.createServer(async (request, response) => {
@@ -18,4 +20,4 @@ http.createServer(async (request, response) => {
       'Cache-Control': 'no-store' });
     response.end(body);
   } catch { response.writeHead(404); response.end(); }
-}).listen(4181, '127.0.0.1', () => console.log('BeeBop test fixture: http://127.0.0.1:4181'));
+}).listen(port, '127.0.0.1', () => console.log(`BeeBop test fixture: http://127.0.0.1:${port}`));

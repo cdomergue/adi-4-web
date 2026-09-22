@@ -9,6 +9,7 @@ import { renderWGob3 } from '../features/games/wgob3/view.js';
 import { renderMrMatt } from '../features/games/mrmatt/view.js';
 import { renderBadToys } from '../features/games/badtoys/view.js';
 import { renderBeeBop } from '../features/games/beebop/view.js';
+import { renderBeeBop2 } from '../features/games/beebop2/view.js';
 import { renderPlaceBall } from '../features/games/placeball/view.js';
 import { renderWelcome } from './welcome.js';
 import { renderDocuments } from '../features/documents/view.js';
@@ -76,6 +77,9 @@ export function createRouter({ main, info, toast, catalog, library }) {
       active = 'room';
     } else if (hash === 'game/placebfr' || hash === 'game/placeball') {
       renderPlaceBall(main);
+      active = 'room';
+    } else if (hash === 'game/beebop2') {
+      renderBeeBop2(main);
       active = 'room';
     } else if (hash === 'game/beebop1') {
       renderBeeBop(main);
