@@ -1,4 +1,7 @@
 import { startRoomIdle } from './idle.js';
+import { createCloseupPlayer } from './closeup-player.js';
+import { loadRoomCloseupCatalog } from './closeups.js';
+import { chooseRoomVoice } from './interactions.js';
 const assets = '/game/room/activities/';
 const place = (box) =>
   `left:${box.x / 6.4}%;top:${box.y / 4.8}%;width:${box.width / 6.4}%;height:${box.height / 4.8}%`;
@@ -28,6 +31,12 @@ export async function renderRoomActivity(main, kind, info) {
   document.title = `${radio ? 'La radio' : 'La caisse de jeux'} · ADI 4`;
   main.innerHTML = `<section class="original-scene room-activity"><div class="scene-heading"><h1>${radio ? 'La radio d’Adi' : 'La caisse de jeux'}</h1><a class="button secondary" href="#room">← La chambre</a></div><p role="status">Ouverture…</p></section>`;
   const root = main.firstElementChild;
+  let leaving = false, openingTimer, stopIdle = () => {}, portrait;
+  let narrationSerial = 0;
+  main.addEventListener('sceneleave', () => {
+    leaving = true; narrationSerial++; clearTimeout(openingTimer);
+    stopIdle(); portrait?.dispose();
+  }, { once: true });
   try {
     const responses = await Promise.all([
       fetch(assets + 'catalog.json'),
@@ -71,11 +80,11 @@ export async function renderRoomActivity(main, kind, info) {
       ${[
         ['Les outils', 'BAROUTIL'],
         ['Les documents', 'BARDOCS'],
-        ['Les animations', 'BARANIM'],
+        ['Mes résultats', 'BARANIM'],
       ]
         .map(
           ([label, icon]) =>
-            icon === 'BARDOCS' ? `<a href="#documents" aria-label="${label}" title="${label}"><img src="/game/room/${icon}.webp" alt=""></a>` : `<button disabled aria-label="${label}" title="${label}"><img src="/game/room/${icon}.webp" alt=""></button>`,
+            icon !== 'BAROUTIL' ? `<a href="${icon === 'BARDOCS' ? '#documents' : '#room/results'}" aria-label="${label}" title="${label}"><img src="/game/room/${icon}.webp" alt=""></a>` : `<button disabled aria-label="${label}" title="${label}"><img src="/game/room/${icon}.webp" alt=""></button>`,
         )
         .join('')}
       <button id="activity-help" aria-label="Aide" aria-pressed="false" title="Aide"><img src="/game/room/BARAIDE.webp" alt=""></button><a href="#room" aria-label="Revenir dans la chambre" title="Revenir dans la chambre"><img src="/game/room/BARPORTE.webp" alt=""></a></nav>`;
@@ -104,6 +113,7 @@ export async function renderRoomActivity(main, kind, info) {
       help = false,
       current = null,
       playSerial = 0;
+    let cancelNarration = () => {};
     const grid = frame.querySelector('.activity-items'),
       title = frame.querySelector('.activity-title');
     const up = frame.querySelector('.activity-up'),
@@ -153,6 +163,7 @@ export async function renderRoomActivity(main, kind, info) {
         return;
       }
       if (!radio) {
+        cancelNarration();
         if (item.route) location.hash = item.route;
         else
           info(
@@ -162,12 +173,14 @@ export async function renderRoomActivity(main, kind, info) {
         return;
       }
       if (mode === 'categories') {
+        cancelNarration();
         mode = item.id;
         page = 0;
         draw();
         return;
       }
       stopAudio();
+      cancelNarration();
       if (!item.audio) {
         status.textContent = 'Aucune ambiance.';
         return;
@@ -274,19 +287,52 @@ export async function renderRoomActivity(main, kind, info) {
         draw();
       };
     draw();
-    startRoomIdle(frame.querySelector('.activity-actor'), actor, assets + key + '-adi.webp');
+    const actorImage = frame.querySelector('.activity-actor');
+    const resumeIdle = () => {
+      stopIdle();
+      if (leaving) return;
+      actorImage.hidden = false;
+      actorImage.src = assets + key + '-adi.webp';
+      stopIdle = startRoomIdle(actorImage, actor, assets + key + '-adi.webp');
+    };
+    const voiceCatalog = await loadRoomCloseupCatalog();
+    if (leaving || !root.isConnected) return;
+    portrait = createCloseupPlayer(frame, voiceCatalog, () => {
+      status.textContent = 'Clique sur « Écouter Adi » pour entendre sa présentation.';
+    });
+    const listen = document.createElement('button');
+    listen.className = 'button secondary'; listen.textContent = 'Écouter Adi';
+    controls.append(listen);
+    const names = [...(radio ? 'ABCDE' : 'ABCDEFG')].map(letter =>
+      (radio ? 'AIJUK' : 'AIJEU') + letter + (radio ? 'X' : 'D'));
+    let previousVoice;
+    cancelNarration = () => {
+      narrationSerial++; portrait.stop('actor'); resumeIdle();
+    };
+    const speak = async () => {
+      if (leaving) return;
+      const token = ++narrationSerial;
+      stopIdle(); stopAudio(); actorImage.hidden = true;
+      previousVoice = chooseRoomVoice(names, previousVoice);
+      await portrait.play(previousVoice, { offset: radio ? [-165, 30] : [-228, -6] });
+      if (leaving || token !== narrationSerial) return;
+      resumeIdle();
+    };
+    listen.onclick = speak;
+    resumeIdle();
     if (!matchMedia('(prefers-reduced-motion: reduce)').matches) {
       const artwork = frame.querySelector('.activity-panel');
       frame.classList.add('activity-opening');
       const finish = () => {
-        if (root.isConnected) {
+        if (!leaving && root.isConnected) {
           frame.classList.remove('activity-opening');
           artwork.src = assets + key + '-panel.webp';
+          if (narrationSerial === 0) speak();
         }
       };
       artwork.onload = () => {
         artwork.onload = null;
-        setTimeout(finish, 41 * 83);
+        openingTimer = setTimeout(finish, 41 * 83);
       };
       artwork.onerror = () => {
         artwork.onload = null;
@@ -294,7 +340,7 @@ export async function renderRoomActivity(main, kind, info) {
         finish();
       };
       artwork.src = assets + key + '-opening.webp';
-    }
+    } else speak();
   } catch {
     if (root.isConnected)
       root.innerHTML =

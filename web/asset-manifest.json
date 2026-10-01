@@ -19107,6 +19107,576 @@
       "sha256": "2ea06b842a86f98427ad28d69e7758fdc9d3ec310446ba7d0caefc5a048cb028"
     },
     {
+      "path": "public/game/room/closeups/ADIPZA01.webp",
+      "size": 60968,
+      "sha256": "aa7f595995595dad53c984517db2c7f43d51e18cb5f054555fad6884ebbf8508"
+    },
+    {
+      "path": "public/game/room/closeups/ADIPZA02.webp",
+      "size": 74234,
+      "sha256": "2680196c32cb3e64ba62fa3fec8098453b164e78f00d6233fa73318d65731044"
+    },
+    {
+      "path": "public/game/room/closeups/ADIPZA03.webp",
+      "size": 239162,
+      "sha256": "663142d2917652ffad7a2cc32b2ce9764e949122cc8dc7508f789e47987b32bf"
+    },
+    {
+      "path": "public/game/room/closeups/ADIPZA04.webp",
+      "size": 171408,
+      "sha256": "eb1a64b5dd2125753999a2fce7edba83650d0f4e7e1479bb23ce227ebad51505"
+    },
+    {
+      "path": "public/game/room/closeups/ADIPZD01.webp",
+      "size": 11874,
+      "sha256": "d8e2ef56de40ea4e30d9c0a3d9a25a61b27c645dee9178854e0a54f2d726713e"
+    },
+    {
+      "path": "public/game/room/closeups/ADIPZD02.webp",
+      "size": 29676,
+      "sha256": "8f65e0e85d9d1146caa96cf60d1223f31894eeb3bf7d2800e412fd362ee24fae"
+    },
+    {
+      "path": "public/game/room/closeups/ADIPZD03.webp",
+      "size": 94988,
+      "sha256": "fe4d1ecf6d491cf060c9d48af62b9fc3d079ddb1f62239178652e96eb08c09bd"
+    },
+    {
+      "path": "public/game/room/closeups/ADIPZD07.webp",
+      "size": 80006,
+      "sha256": "84c28180c2b85a4be3ce28c0749c810a44e92e86573a1720383ba9e31d0e922a"
+    },
+    {
+      "path": "public/game/room/closeups/ADIPZD08.webp",
+      "size": 29442,
+      "sha256": "9397c32e2cb2631445dbb82745c1f2b623c2fb626a364c987e77afda46de0626"
+    },
+    {
+      "path": "public/game/room/closeups/ADIPZD15.webp",
+      "size": 839328,
+      "sha256": "c2b38c3f6edcad978c2be5750aef46bfbc93d0c7a58983979c12d174954d02b5"
+    },
+    {
+      "path": "public/game/room/closeups/ADIPZD17.webp",
+      "size": 535432,
+      "sha256": "2e5bba02d6a874d77e6577c3577e7bf35f608bbec8439f3ba86e3d02835025be"
+    },
+    {
+      "path": "public/game/room/closeups/AIJEUAD.flac",
+      "size": 174722,
+      "sha256": "867d1f1903752613243c0ccb8e9bb20112f16fab7e9e43ec68147e6bed379837"
+    },
+    {
+      "path": "public/game/room/closeups/AIJEUAD.webp",
+      "size": 99190,
+      "sha256": "0a8c3eb8a274effd7a5fa0cb326d587cc54552054d66d4c76b807d1944f09892"
+    },
+    {
+      "path": "public/game/room/closeups/AIJEUBD.flac",
+      "size": 190432,
+      "sha256": "aee3cf3b6a6dd037935d96425526ba0fab76ca0286f1e9a08e832cc343909ffa"
+    },
+    {
+      "path": "public/game/room/closeups/AIJEUBD.webp",
+      "size": 117394,
+      "sha256": "3896addcdbcfa7614959473739c5f26f31525d79f645a0e9a720d7d727ce02b0"
+    },
+    {
+      "path": "public/game/room/closeups/AIJEUCD.flac",
+      "size": 161395,
+      "sha256": "3622b86b77070469df8c19304b19572306f5706bfa916cc8a977545c5d880fb3"
+    },
+    {
+      "path": "public/game/room/closeups/AIJEUCD.webp",
+      "size": 89974,
+      "sha256": "c521bc4ba45ba3caf868cb013ea9a9bc2ad806ea46955cb37cda451e5261b7d2"
+    },
+    {
+      "path": "public/game/room/closeups/AIJEUDD.flac",
+      "size": 206744,
+      "sha256": "0366a83b5a2c867da5809deb2bd51ae15244ccdcf7c89648dc958148fa41f331"
+    },
+    {
+      "path": "public/game/room/closeups/AIJEUDD.webp",
+      "size": 101174,
+      "sha256": "6704b97827134a440368002fd654bed7dc22c61d5b09a233563a35908b6a802c"
+    },
+    {
+      "path": "public/game/room/closeups/AIJEUED.flac",
+      "size": 273685,
+      "sha256": "4d8e58b16907d010203a7485952314a4dbe7e714efc67608ed8f4cfce7e68898"
+    },
+    {
+      "path": "public/game/room/closeups/AIJEUED.webp",
+      "size": 144606,
+      "sha256": "e7a0aaecbef3ca4ae9db3b0f97cc2320c904dbd849112e283760a11433dd063e"
+    },
+    {
+      "path": "public/game/room/closeups/AIJEUFD.flac",
+      "size": 110205,
+      "sha256": "60783103a1a2056fb0f95c97138fcdfb963a0f053384b2f5c7f56fa1e497a9d8"
+    },
+    {
+      "path": "public/game/room/closeups/AIJEUFD.webp",
+      "size": 65182,
+      "sha256": "a9fd4e27f3d3247c9ab46f92936a59911006c57dd8cd180efb6ce669f3fb4e2e"
+    },
+    {
+      "path": "public/game/room/closeups/AIJEUGD.flac",
+      "size": 160768,
+      "sha256": "e6e7e078e3f11425dba6aae08e1d9af131e18184326acbc87a27514c50738125"
+    },
+    {
+      "path": "public/game/room/closeups/AIJEUGD.webp",
+      "size": 93370,
+      "sha256": "c795da23e0d1907dc9434b25853a81836b6dea09d1422472c0782c0b48c13e78"
+    },
+    {
+      "path": "public/game/room/closeups/AIJUKAX.flac",
+      "size": 139118,
+      "sha256": "b7aa08f38fb8f5af4395fda5f95e60292e68a47a66f16a7492c6b48a659eb66d"
+    },
+    {
+      "path": "public/game/room/closeups/AIJUKAX.webp",
+      "size": 55020,
+      "sha256": "1b8e75c7e612fe57913286b28dc90acb661f2778342352185a59d75b735f8f95"
+    },
+    {
+      "path": "public/game/room/closeups/AIJUKBX.flac",
+      "size": 149674,
+      "sha256": "7891d7a055e086a5ed40185817ddd78baf6706de02ead75661eea0c91f7e7396"
+    },
+    {
+      "path": "public/game/room/closeups/AIJUKBX.webp",
+      "size": 59808,
+      "sha256": "5240a705b5c7803d49d4beddbd0edeb9778ac0964421acacb9e5db326fc6a6ce"
+    },
+    {
+      "path": "public/game/room/closeups/AIJUKCX.flac",
+      "size": 151408,
+      "sha256": "3f7ca948efde81fc59fab56ee0b55ada776343f7e43dd65e909aed6b121555b1"
+    },
+    {
+      "path": "public/game/room/closeups/AIJUKCX.webp",
+      "size": 66266,
+      "sha256": "08cfc4d8e719c491a69762f2695ea3b1168751735e5e8af15a38ad5dae2acf3a"
+    },
+    {
+      "path": "public/game/room/closeups/AIJUKDX.flac",
+      "size": 170441,
+      "sha256": "0740831553c058c73522b73771c86e94a859c4d82094d2239912445d0fe8b899"
+    },
+    {
+      "path": "public/game/room/closeups/AIJUKDX.webp",
+      "size": 81878,
+      "sha256": "c755dba1cbacddf30cb76122e88c34f704a2ee32dd3be697074006ed407f9583"
+    },
+    {
+      "path": "public/game/room/closeups/AIJUKEX.flac",
+      "size": 151652,
+      "sha256": "8fc5b66944703dd908393d7b21f2718bd83314c278374192672fbfef3fdebf81"
+    },
+    {
+      "path": "public/game/room/closeups/AIJUKEX.webp",
+      "size": 59350,
+      "sha256": "02de80b04fd5eadf9f2953bfb8ee92925d70d8e8d5b4741ac04287a34d4894bc"
+    },
+    {
+      "path": "public/game/room/closeups/AIMALAD.flac",
+      "size": 149579,
+      "sha256": "04e8e12cde8b41465357e1d60d56400683950acd5633e3bb3397d3a61877c205"
+    },
+    {
+      "path": "public/game/room/closeups/AIMALAD.webp",
+      "size": 88574,
+      "sha256": "e3a74be927dd0c6a32ea5b5a30e74f0b55dd62279f76e48c390bf92f356ae0c9"
+    },
+    {
+      "path": "public/game/room/closeups/AIMALBD.flac",
+      "size": 138991,
+      "sha256": "8ee53660c4134621c352f36a74b9ae7a7636fd98b3c61e0597f0f0473b202223"
+    },
+    {
+      "path": "public/game/room/closeups/AIMALBD.webp",
+      "size": 86980,
+      "sha256": "de6231ced44950d6e4656d463d88e22ecbd99ff3d3e8847bc5bf916fa8c5a067"
+    },
+    {
+      "path": "public/game/room/closeups/AIMALCD.flac",
+      "size": 162455,
+      "sha256": "e38b3a6eef7412495b85ad1dd807d7ff0721d8dbdfe4ab4d08cd21634e326ce5"
+    },
+    {
+      "path": "public/game/room/closeups/AIMALCD.webp",
+      "size": 90146,
+      "sha256": "fdc61a5014740d40b74907823ff9dac245ed40fbe87002f392ad55dd83bc8145"
+    },
+    {
+      "path": "public/game/room/closeups/AIMALDD.flac",
+      "size": 166452,
+      "sha256": "84413e49098baf78b81274fe12dfcdf1141766a560037370e6e091de9d7f9c1c"
+    },
+    {
+      "path": "public/game/room/closeups/AIMALDD.webp",
+      "size": 94610,
+      "sha256": "2c4eb767c2d06897ccd2392bf7ff868879204962303e1314dee3c28e52ebc6f4"
+    },
+    {
+      "path": "public/game/room/closeups/AIMALFD.flac",
+      "size": 119579,
+      "sha256": "ff17d09a1da8bbebc5f9f9307cc88c41d8e7736b0a37d2964595be5ab8710690"
+    },
+    {
+      "path": "public/game/room/closeups/AIMALFD.webp",
+      "size": 64006,
+      "sha256": "73725b8be99113702585bff0306dba6103f4056172fbfdbe2a510667c1568e41"
+    },
+    {
+      "path": "public/game/room/closeups/AIMALGD.flac",
+      "size": 152292,
+      "sha256": "195400feffc5416aac201747261a80a880ee814e42746ebaa3e0e1b9f0f60084"
+    },
+    {
+      "path": "public/game/room/closeups/AIMALGD.webp",
+      "size": 87566,
+      "sha256": "401c8c931c218002e06ee9a33ceaf46a7000e86baa4a6e045a88463a10736eea"
+    },
+    {
+      "path": "public/game/room/closeups/AIMALHD.flac",
+      "size": 142247,
+      "sha256": "e9dab27939b5b3ac9d8bdd2863d7b8e422f2a37ca13be2a46378a58653ae4552"
+    },
+    {
+      "path": "public/game/room/closeups/AIMALHD.webp",
+      "size": 74246,
+      "sha256": "ff99b872b2c4d36d1fa156127d15354bdf3a0187cf364526e9bb5a2e41378242"
+    },
+    {
+      "path": "public/game/room/closeups/BONSINA.flac",
+      "size": 171249,
+      "sha256": "0bbe3855a91a52f5ab21da338728dd4927d0ce5a9c059e8cc81e5b3074ac5bd4"
+    },
+    {
+      "path": "public/game/room/closeups/BONSINA.webp",
+      "size": 316916,
+      "sha256": "81f8b8d9f2f941c490ec8d5d3e1a96b80608341d9dd5fba714eabc8e26f583d0"
+    },
+    {
+      "path": "public/game/room/closeups/CBONPOIN.flac",
+      "size": 189117,
+      "sha256": "2dbe8a289ac87653f7624bdf3c9a63f3d27af2a9f251b272549a2151cd53c374"
+    },
+    {
+      "path": "public/game/room/closeups/CBONPOIN.webp",
+      "size": 1045760,
+      "sha256": "8154dcd1325eda591f0093da1f4ca54d53c33989373df23f7f1763fbaae83d92"
+    },
+    {
+      "path": "public/game/room/closeups/CCYCLE.flac",
+      "size": 94689,
+      "sha256": "2032c649438f9498f6555cd1e393ef6ac34fa277e31f036d6391b8d69018679a"
+    },
+    {
+      "path": "public/game/room/closeups/CCYCLE.webp",
+      "size": 764830,
+      "sha256": "c7ced6bc55f764482fdddb76524d28227560ee0938521bfa18c90a6f0d4cd34a"
+    },
+    {
+      "path": "public/game/room/closeups/CMENUMA2.webp",
+      "size": 1288894,
+      "sha256": "280727e2cfe4b442bd42d81ed3fe21e63a28e5e902b6008357f21429938b2ca6"
+    },
+    {
+      "path": "public/game/room/closeups/CMENUMA3.webp",
+      "size": 1288282,
+      "sha256": "8c3a567c2efafda5e5196db07831950f050ad63331442776c72fc87bd3d275b0"
+    },
+    {
+      "path": "public/game/room/closeups/CMENUMAL.webp",
+      "size": 1326950,
+      "sha256": "7c7515e6e3740fc1cc27f05284c92de6b963e008d4e543443071ac46d80ef210"
+    },
+    {
+      "path": "public/game/room/closeups/CTRALIVR.flac",
+      "size": 171244,
+      "sha256": "ff5c31b0b814859d39828fdf7ff743e9fa4dfa20c0ce53e86825e48f9406cc33"
+    },
+    {
+      "path": "public/game/room/closeups/CTRALIVR.webp",
+      "size": 1031378,
+      "sha256": "9b337d24095c1b690c4dec95a1b0d356e0d4d54f464729b5d8b06c1f281a8504"
+    },
+    {
+      "path": "public/game/room/closeups/CTRASTRO.webp",
+      "size": 1126752,
+      "sha256": "173a3b75e2483a16b7b5f69f8aaedb68c57ecd435893dd776e4bad38cf6b9de9"
+    },
+    {
+      "path": "public/game/room/closeups/SIM07.webp",
+      "size": 7006,
+      "sha256": "7a80aa82ef016e11f51c3632e0f0a52031e7efe3afe97b7ce88cdbb355352f3e"
+    },
+    {
+      "path": "public/game/room/closeups/SIM08.webp",
+      "size": 6216,
+      "sha256": "2274498141c2e8a270342477ffd567f5f97ae325c56d67f08d0edd1a3a682c05"
+    },
+    {
+      "path": "public/game/room/closeups/SIM12.webp",
+      "size": 6488,
+      "sha256": "5035fe225aae9d483421fb2d4ce66622df8117055aec1a4a5c7c6165816e82af"
+    },
+    {
+      "path": "public/game/room/closeups/SIM14.webp",
+      "size": 6586,
+      "sha256": "17de0bc77c754bcab47b26de0a986d6d2155be6bc8e5f1a6ab093074e7ec8748"
+    },
+    {
+      "path": "public/game/room/closeups/SIM16.webp",
+      "size": 6410,
+      "sha256": "1a708d5ae0ad1df2cb39450b8581423f9f19b1fd34a30974ea4e5db2869a2131"
+    },
+    {
+      "path": "public/game/room/closeups/SIM17.webp",
+      "size": 5000,
+      "sha256": "2661cef486e6cec339813d9f5e1bf00628a7472e8835e03a5325ca0b4c1b5402"
+    },
+    {
+      "path": "public/game/room/closeups/STASTAD.flac",
+      "size": 96073,
+      "sha256": "aef9579664d3e9be4f2aae9472389d3f5b5582ca510062b33386f99b092acb4b"
+    },
+    {
+      "path": "public/game/room/closeups/STASTAD.webp",
+      "size": 47580,
+      "sha256": "39ffdf12a906a858c3bd1090ed4b4657148af03b57792109145304a5d1d55776"
+    },
+    {
+      "path": "public/game/room/closeups/STASTBD.flac",
+      "size": 91662,
+      "sha256": "fa03e7e45ab0ea3ae6fd42652dea088b2ac1019d0e0b0c22190026d2ec0c0f7d"
+    },
+    {
+      "path": "public/game/room/closeups/STASTBD.webp",
+      "size": 42606,
+      "sha256": "441b44b2b91973328e61f80cddb0876dcab26144ece349b554e5c4d29a155ee4"
+    },
+    {
+      "path": "public/game/room/closeups/STASTCD.flac",
+      "size": 83149,
+      "sha256": "6ccd117c7e402e8977a6a96c0a90b798d68c60fb8ba8d9cf8f8bd3e6e0eb5a2e"
+    },
+    {
+      "path": "public/game/room/closeups/STASTCD.webp",
+      "size": 41596,
+      "sha256": "0d4c921baace1b3fe7ddaaee2b861b3b0a22ee60011676cc700e6b9321abb96b"
+    },
+    {
+      "path": "public/game/room/closeups/STATLA0.flac",
+      "size": 151953,
+      "sha256": "b4be6f61c1c36479c0915c71ee1f7ced496f5ee799c6834664da446c767b8d27"
+    },
+    {
+      "path": "public/game/room/closeups/STATLB0.flac",
+      "size": 125821,
+      "sha256": "974bb0e05012da7895774271708c1f8e382096ecfcd9163429a3b64e959ee6af"
+    },
+    {
+      "path": "public/game/room/closeups/STATLC0.flac",
+      "size": 128230,
+      "sha256": "93c3cfad615350c02f73ff27e4e41485700fb9715409798c61118111a872c390"
+    },
+    {
+      "path": "public/game/room/closeups/STATLD0.flac",
+      "size": 96469,
+      "sha256": "6c3e5f6c3ec4218f5c4b2b6c402d4c2888961161b87660284772e5f0d1666991"
+    },
+    {
+      "path": "public/game/room/closeups/STATLE0.flac",
+      "size": 168985,
+      "sha256": "a1e4e155b36363eb261dfc08f197445b6c2236768d73ac09895945701afe2f68"
+    },
+    {
+      "path": "public/game/room/closeups/STCONA0.flac",
+      "size": 149724,
+      "sha256": "c6bef9024225eca8d2bd044285940e93c17bc182747be853836581334d1c2d21"
+    },
+    {
+      "path": "public/game/room/closeups/STCONB0.flac",
+      "size": 88032,
+      "sha256": "11b2ef65f0f29a648f13a61bb21bcd8b3ed3337a3e7fa0132b3611e8e9d49e6c"
+    },
+    {
+      "path": "public/game/room/closeups/STCONC0.flac",
+      "size": 120691,
+      "sha256": "40385ac0f9ee6721d22295a6f17864abab57c7757f8f58298620aa7e62df2572"
+    },
+    {
+      "path": "public/game/room/closeups/STCOND0.flac",
+      "size": 178441,
+      "sha256": "bd4a0541f6a06d6a2f83611c5571da5c0d2695691ad155457715085ae619eb82"
+    },
+    {
+      "path": "public/game/room/closeups/STCONE0.flac",
+      "size": 164052,
+      "sha256": "f128044e259077650988baff3aa1c96d98c1685b207093f6b170324f62c87dfe"
+    },
+    {
+      "path": "public/game/room/closeups/STCYCAA.flac",
+      "size": 110233,
+      "sha256": "356e911cf7251fb0499d69210dfd5b6ac647eb97403949bf60bc93bd7626d8fa"
+    },
+    {
+      "path": "public/game/room/closeups/STCYCAA.webp",
+      "size": 206520,
+      "sha256": "5f29b5c329d611574cbc9b17f74188656afd55cd351f6bd05f57171c19e5ed59"
+    },
+    {
+      "path": "public/game/room/closeups/STCYCBA.flac",
+      "size": 121578,
+      "sha256": "7841b8cd0823942e6e7e003170ffff15bce8c4666651ccd370b3975f277bbde8"
+    },
+    {
+      "path": "public/game/room/closeups/STCYCBA.webp",
+      "size": 236238,
+      "sha256": "701ebd87d9d60dc01647bf03b583779a3123e490771dd7b2c64f0b5bd864fe69"
+    },
+    {
+      "path": "public/game/room/closeups/STCYCCA.flac",
+      "size": 135848,
+      "sha256": "33cc2e04c3df5bb7a29e6e0644e2abbb10481f084cc2730d0aee9d27e63b420a"
+    },
+    {
+      "path": "public/game/room/closeups/STCYCCA.webp",
+      "size": 215206,
+      "sha256": "e9c4ace367af31fd1bd940e8656ddb550a7f2af59b97b8ccd674652e0280d6ba"
+    },
+    {
+      "path": "public/game/room/closeups/STCYCDA.flac",
+      "size": 160352,
+      "sha256": "1942726cbebbe88b9effe493b1d3dcfc7db67fc2beb931671df12f180ec02668"
+    },
+    {
+      "path": "public/game/room/closeups/STCYCDA.webp",
+      "size": 257254,
+      "sha256": "013495a02822a8d1a769bc80b68b5b9bfeec3550695eefe2cf06e0263c7a29b7"
+    },
+    {
+      "path": "public/game/room/closeups/STCYCEA.flac",
+      "size": 119623,
+      "sha256": "ccac36adc15aa0407a1cc1078e0982ad4f9ef15cecf9e57197f9a679f94967a5"
+    },
+    {
+      "path": "public/game/room/closeups/STCYCEA.webp",
+      "size": 201244,
+      "sha256": "90ea44c87f943eede9ee0939b8c57bfefbdc50e83c94b03cd3999e84562cad69"
+    },
+    {
+      "path": "public/game/room/closeups/STDANAD.flac",
+      "size": 148377,
+      "sha256": "f841f9719f0c151967a747052070f829656c7597d48be7603c458df8f6c3478f"
+    },
+    {
+      "path": "public/game/room/closeups/STDANAD.webp",
+      "size": 86566,
+      "sha256": "fdb4db9e46f0755c7eeced476c963b3b62538b9f1097f17b61ec2f4905a844e4"
+    },
+    {
+      "path": "public/game/room/closeups/STDANBD.flac",
+      "size": 119918,
+      "sha256": "8026e4555f515a52467d7aa96edee3ac44538ff257d300896487658bf199e24b"
+    },
+    {
+      "path": "public/game/room/closeups/STDANBD.webp",
+      "size": 67580,
+      "sha256": "919af33b31e09879831a3d9f08cb18f32e722f2b0d1590e36bab147a0406f72c"
+    },
+    {
+      "path": "public/game/room/closeups/STDANCD.flac",
+      "size": 106826,
+      "sha256": "eecc3ae5d74881ff6d9ba160c16e551c51c323ed5d6854ad77db322cb78b8b3c"
+    },
+    {
+      "path": "public/game/room/closeups/STDANCD.webp",
+      "size": 44422,
+      "sha256": "f2367d8932aa544f5542d841c8b6fb37102a02e92db754be19e268094a3bdd99"
+    },
+    {
+      "path": "public/game/room/closeups/STDANDD.flac",
+      "size": 116322,
+      "sha256": "18b91ec0ae719fa94a105ed6462e6c0f4d86d8016a89536569dd61ebc0cee900"
+    },
+    {
+      "path": "public/game/room/closeups/STDANDD.webp",
+      "size": 67318,
+      "sha256": "1efd7c12899a3099d946d05545dc4a4d0c193b7819779aa4c46b7b6baaf41f90"
+    },
+    {
+      "path": "public/game/room/closeups/STDANED.flac",
+      "size": 127559,
+      "sha256": "abc162358b89a9d6566bdbb16b6433c058319e5b69936469bc86fd1656e9ce8c"
+    },
+    {
+      "path": "public/game/room/closeups/STDANED.webp",
+      "size": 69358,
+      "sha256": "50d0bc859b67b64cd005dc88bb7a087ea36aac1a2f9f1c97b3bad2758d72afb2"
+    },
+    {
+      "path": "public/game/room/closeups/STSOLA0.flac",
+      "size": 173489,
+      "sha256": "cb5b252032315056d5b40a2226a44fd86048298f5765851307419a8a6e54ded9"
+    },
+    {
+      "path": "public/game/room/closeups/STSOLB0.flac",
+      "size": 136461,
+      "sha256": "3e74a3036fa5bd5aabeb7fccb9245948a2191b013fb639e34821a9d631924cd5"
+    },
+    {
+      "path": "public/game/room/closeups/STSOLC0.flac",
+      "size": 176817,
+      "sha256": "09381b14578cebb36fc4bef127a45eea6d634064d5f2622d67ffed80a8a912f5"
+    },
+    {
+      "path": "public/game/room/closeups/STSOLD0.flac",
+      "size": 117863,
+      "sha256": "0a7afee2a25ff96a900b99a0777238495a1d51c4f6899d814a07833bc55fed43"
+    },
+    {
+      "path": "public/game/room/closeups/STSOLE0.flac",
+      "size": 163698,
+      "sha256": "3de77104b154f2787a540c03e1ea2a7c46d896b29735b34a235041fd044748ac"
+    },
+    {
+      "path": "public/game/room/closeups/catalog.json",
+      "size": 29181,
+      "sha256": "18f185718d5973a59e5649e3479b02aadee79bbc084732ac918a18a5dd5aba83"
+    },
+    {
+      "path": "public/game/room/closeups/list-panel.webp",
+      "size": 52288,
+      "sha256": "02f04cfd9aadb6b036deb6f4bb14b134f968ed0da6ca49244a2b630285932047"
+    },
+    {
+      "path": "public/game/room/closeups/malle-panel.webp",
+      "size": 60370,
+      "sha256": "1d016a8fa23eb4a4718100d9e1f30de5e141cd4df34bc050754891dde1815114"
+    },
+    {
+      "path": "public/game/room/closeups/pose-A.webp",
+      "size": 18948,
+      "sha256": "10b38c8e9b2d1a3092197bd87a8d0b5432bb36b10f56c50a24ff857ec18f76f3"
+    },
+    {
+      "path": "public/game/room/closeups/pose-D.webp",
+      "size": 8740,
+      "sha256": "bec31d1e001dc6e6aae6d1e90c8fe4a0891032ee62cd90da8600e6f9a66eb84d"
+    },
+    {
+      "path": "public/game/room/closeups/rewards-panel.webp",
+      "size": 35916,
+      "sha256": "edb0d0deae9b2be1c8a88c09aa53356edd25f81fd85682d0943cf7b02645b286"
+    },
+    {
       "path": "public/game/room/credits-team.webp",
       "size": 261776,
       "sha256": "9055ca4e0c0d3b6791e594349d99465569fcae31a1857a9fe5fafd0cb088dc70"

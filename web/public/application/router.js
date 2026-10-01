@@ -2,6 +2,7 @@ import { scenes, renderScene } from '../features/science/scenes.js';
 import { renderSimulations, renderSimulation } from '../features/science/simulations.js';
 import { renderEncyclopedia } from '../features/courses/encyclopedia.js';
 import { renderRoom } from '../features/room/room.js';
+import { renderRoomCloseup } from '../features/room/closeups.js';
 import { renderGames } from '../features/room/games.js';
 import { renderRoomActivity } from '../features/room/activities.js';
 import { renderSokoban } from '../features/games/sokoban/view.js';
@@ -86,6 +87,9 @@ export function createRouter({ main, info, toast, catalog, library }) {
       active = 'room';
     } else if (hash === 'documents' || hash.startsWith('document/')) {
       renderDocuments(main, hash === 'documents' ? '' : hash.slice(9));
+      active = 'room';
+    } else if (hash.startsWith('room/')) {
+      renderRoomCloseup(main, hash.slice(5));
       active = 'room';
     } else if (hash === 'radio') {
       renderRoomActivity(main, 'radio', info);

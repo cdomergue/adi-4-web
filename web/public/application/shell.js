@@ -22,7 +22,7 @@ export function createShell(isStorageAvailable) {
     info(
       'Une nouvelle vie pour Adi 4',
       `<p>Redécouvre ADI 4 Sciences dans ton navigateur, avec les décors, les textes, les animations, les musiques et les voix du jeu original.</p>
-      <p><strong>La chambre :</strong> retrouve Adi, explore les objets interactifs et écoute les musiques et ambiances de la radio.</p>
+      <p><strong>La chambre :</strong> retrouve Adi, ses voix et ses gestes dans les gros plans des objets, ouvre les six simulations de la malle et écoute les musiques et ambiances de la radio. Le néon ouvre les résultats ; la commode présente les bons points, sans notes ni récompenses d’exercice pour le moment.</p>
       <p><strong>Les documents :</strong> douze activités pour découvrir la nature, l’espace, la géographie, l’environnement et l’économie, avec des cartes, des films et des expériences interactives.</p>
       <p><strong>Les jeux :</strong> la caisse donne accès à Sokoban, aux trois Goblins, à Mr. Matt I et II, à BeeBop I et II, à Place Ball et aux quatre épisodes de Bad Toys 3D.</p>
       <p><strong>Les sciences :</strong> regarde l’arrivée à la station, retrouve Adi et les ambiances des laboratoires, explore 14 simulations et neuf documents vidéo, puis consulte l’encyclopédie, les cours de la 6e à la 3e, le dictionnaire et ton carnet personnel.</p>

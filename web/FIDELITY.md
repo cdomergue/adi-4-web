@@ -20,6 +20,19 @@ Les transparences, calques, curseurs, menus au survol, textes et polices font
 partie de cette vérification. Les captures et tests doivent permettre de constater
 les différences ; les limites connues restent explicites tant qu’elles existent.
 
+## Chambre et gros plans
+
+Les coordonnées de `EDIINTRO` et `LIBAPPEL`, les placements de `IMAGE`/`DOC`,
+les répliques de `LIBADI` et les six entrées de `MENUEVCO.PFR` définissent
+les interactions. Les voix, bouches, gestes et transitions utilisent les médias
+originaux. Le néon ouvre les résultats et la commode les bons points.
+
+Les outils, le robot et les résultats des exercices restent à recréer.
+Le choix de posture selon l’état précédent, les temporisations des gestes,
+la synchronisation audio/WebP et la barre native dans les nouveaux gros plans
+restent à comparer et compléter. La malle expose les six expériences sans
+filtrage par classe. Voir la [référence de la chambre](public/features/room/README.md).
+
 ## Finitions requises des documents
 
 - Comparer les fenêtres de présentation et leurs transitions intermédiaires.

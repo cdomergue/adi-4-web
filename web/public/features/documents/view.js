@@ -27,7 +27,7 @@ const navigation = [
   ['#games', 'Les jeux', 'BARJEUX'],
   [null, 'Les outils', 'BAROUTIL'],
   ['#documents', 'Les documents', 'BARDOCS'],
-  [null, 'Les animations', 'BARANIM'],
+  ['#room/results', 'Mes résultats', 'BARANIM'],
 ];
 const toolbar = () =>
   `<div class="room-toolbar-edge" aria-hidden="true"></div><nav class="room-toolbar" aria-label="Navigation des documents">${navigation

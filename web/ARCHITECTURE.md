@@ -60,6 +60,13 @@ ouvre la caisse ; [activities.js](public/features/room/activities.js) affiche le
 menus de la caisse et de la radio, leur pagination, leurs filtres et la lecture
 des musiques. La caisse accepte le défilement à la molette.
 
+[interactions.js](public/features/room/interactions.js) définit les zones de clic
+et les destinations originales. [closeups.js](public/features/room/closeups.js)
+orchestre les gros plans, la malle, les résultats et les bons points.
+[closeup-player.js](public/features/room/closeup-player.js) possède les canaux
+d’animation et de voix, annule les chargements à la sortie et empêche les
+navigations tardives. Son catalogue est dans [closeups](public/game/room/closeups/).
+
 [native-engine.js](public/features/room/native-engine.js) exécute les scénarios
 d’Adi : variables, postures, choix de séquences et historique des répliques.
 [native-view.js](public/features/room/native-view.js) affiche les atlas, coordonne

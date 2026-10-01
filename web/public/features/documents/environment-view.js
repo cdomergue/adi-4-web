@@ -855,6 +855,10 @@ export async function renderEnvironment(main, config) {
       ambience.loop = true;
       ambience.volume = 0.2;
     }
+    // The room/menu click already authorizes sound. Start it on entry instead
+    // of waiting for another click inside the document. The gesture listeners
+    // above still retry if a direct page load is blocked by autoplay policy.
+    unlockAudio();
     summary();
     status.textContent = config.help;
     animation = requestAnimationFrame(draw);

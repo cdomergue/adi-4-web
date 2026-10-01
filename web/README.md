@@ -33,6 +33,9 @@ n’est nécessaire pour lancer les jeux inclus.
 | --------------------------------------------------------- | ------------------------------------------------------------------------ |
 | `#welcome`                                                | Introduction originale et accueil                                        |
 | `#room`                                                   | Chambre, objets interactifs, déplacements, animations et répliques d’Adi |
+| `#room/animal`, `atlas`, `planete`, `astro`, `espace`, `cycle` | Gros plans narrés, animations d’Adi et transitions vers les documents |
+| `#room/experiments` | Malle et accès aux six simulations d’environnement |
+| `#room/results`, `#room/rewards` | Néon des résultats et commode des bons points, sans progression d’exercice |
 | `#documents`                                              | Menu original des dossiers multimédias                                   |
 | `#document/animal`, `cycle`, `astro`, `planete`, `espace` | Animaux, cycle de l’eau, ciel étoilé, planètes et conquête spatiale      |
 | `#document/atlas`                                         | Globe, cartes, calques et documents géographiques                        |
@@ -83,6 +86,18 @@ tomates donnent zéro dans le moteur web, sans garantie d’équivalence native
 pour ce cas limite.
 La planète Internet est une simulation ; elle ne se connecte pas au service TCP
 présenté dans [le README du serveur](../serveur/README.md).
+
+## La chambre
+
+Les zones de clic suivent les coordonnées des scripts originaux. Les gros plans
+jouent les répliques d’Adi, ses mouvements de bouche et leurs transitions avant
+d’ouvrir les documents. La malle présente les six simulations d’environnement ;
+la radio et la caisse disposent aussi de leurs présentations parlées.
+La [référence de la chambre](public/features/room/README.md) décrit les sources
+et les limites : outils, robot, résultats d’exercices, choix de posture et timing.
+Le son des six simulations d’environnement est activé à l’ouverture, avec
+leur ambiance. Si le navigateur bloque la lecture sur une ouverture directe,
+une interaction dans le document relance le son sans changer la case « Son ».
 
 ## Les documents
 
@@ -159,7 +174,8 @@ propose six réglages, leurs restrictions et trois résultats : budget, fécondi
 et investissements étrangers. Ses quatre cas, six explications animées, voix,
 bruitages, animations d’ambiance et animation de réussite utilisent les médias
 originaux. Les documents fonctionnent en JavaScript sans moteur externe ni
-archives binaires. Le son est coché par défaut et démarre après une interaction.
+archives binaires. Le son est coché par défaut et démarre à l’ouverture ; une
+interaction le relance si le navigateur bloque la lecture automatique.
 Les six simulations sont distinctes des 14 expériences de la station Sciences.
 Les réglages des documents sont propres à la consultation. L’Atlas mémorise
 uniquement la lecture de sa présentation automatique. Les six simulations
