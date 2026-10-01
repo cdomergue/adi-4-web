@@ -25,7 +25,7 @@ export function createShell(isStorageAvailable) {
       <p><strong>La chambre :</strong> retrouve Adi, explore les objets interactifs et écoute les musiques et ambiances de la radio.</p>
       <p><strong>Les documents :</strong> douze activités pour découvrir la nature, l’espace, la géographie, l’environnement et l’économie, avec des cartes, des films et des expériences interactives.</p>
       <p><strong>Les jeux :</strong> la caisse donne accès à Sokoban, aux trois Goblins, à Mr. Matt I et II, à BeeBop I et II, à Place Ball et aux quatre épisodes de Bad Toys 3D.</p>
-      <p><strong>Les sciences :</strong> explore la station et ses 14 simulations, relève des défis et consulte l’encyclopédie, les cours de la 6e à la 3e, le dictionnaire et ton carnet personnel.</p>
+      <p><strong>Les sciences :</strong> regarde l’arrivée à la station, retrouve Adi et les ambiances des laboratoires, explore 14 simulations et neuf documents vidéo, puis consulte l’encyclopédie, les cours de la 6e à la 3e, le dictionnaire et ton carnet personnel.</p>
       <p><strong>La planète Internet :</strong> retrouve les correspondants et les services d’Adi dans une simulation, sans connexion aux anciens services en ligne.</p>
       <p><strong>Encore en reconstruction :</strong> les exercices, les autres jeux et les outils. Certains contenus, animations et interactions manquent encore. Les sons et les images ne sont pas toujours parfaitement synchronisés, et la fidélité de certains jeux reste à vérifier.</p>
       <p>Les réglages de l’Atlas et des activités sur l’environnement ne sont pas conservés après leur fermeture, sauf le choix de présentation automatique de l’Atlas.</p>

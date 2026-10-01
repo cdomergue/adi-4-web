@@ -323,3 +323,36 @@
 #info-dialog:has(.encyclopedia-image) {
   width: min(850px, 92vw);
 }
+
+.science-actor {
+  position: absolute;
+  inset: 0;
+  z-index: 3;
+  pointer-events: none;
+}
+.science-actor[hidden] { display: none; }
+.science-actor img,
+.scene-frame > img.science-ambient,
+.science-document video {
+  position: absolute;
+  object-fit: fill;
+}
+.scene-frame > img.science-ambient {
+  pointer-events: none;
+  z-index: 1;
+}
+.original-scene .scene-hotspot { z-index: 2; box-sizing: border-box; }
+.science-arrival {
+  position: absolute;
+  inset: 0;
+  z-index: 6;
+  background: #000;
+}
+.science-arrival video { width: 100%; height: 100%; }
+.science-arrival button { position: absolute; top: 2%; right: 2%; }
+.science-document { max-width: 960px; }
+.science-document .scene-hotspot {
+  background: transparent;
+  padding: 0;
+  cursor: pointer;
+}

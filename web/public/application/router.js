@@ -14,12 +14,17 @@ import { renderPlaceBall } from '../features/games/placeball/view.js';
 import { renderWelcome } from './welcome.js';
 import { renderDocuments } from '../features/documents/view.js';
 import { renderInternet } from '../features/internet/view.js';
+import { renderScienceDocument } from '../features/science/documents.js';
 
 export function createRouter({ main, info, toast, catalog, library }) {
+  let previousScience = false;
   return function route() {
     main.dispatchEvent(new Event('sceneleave'));
     main.querySelectorAll('audio,video').forEach((media) => media.pause());
     const hash = location.hash.slice(1) || 'welcome';
+    const inScience = /^(scene\/|simulation\/|simulations$|science$|science-document\/|encyclopedia$|course\/)/.test(hash);
+    const arrival = !previousScience;
+    previousScience = inScience;
     let active = hash;
     if (hash.startsWith('course/')) {
       let id;
@@ -52,17 +57,27 @@ export function createRouter({ main, info, toast, catalog, library }) {
         },
       );
       active = 'science';
+    } else if (hash.startsWith('science-document/')) {
+      renderScienceDocument(main, hash.slice(17), {
+        level: library.level,
+        openPage: (page, anchor) => {
+          const course = catalog.courses.find((c) => c.page === page) ||
+            catalog.courses.find((c) => c.page.split('/').at(-1) === page.split('/').at(-1));
+          if (course && catalog.pages[page]) library.openCourse(course, page, anchor);
+        },
+      });
+      active = 'science';
     } else if (hash === 'simulations') {
       renderSimulations(main);
       active = 'science';
     } else if (/^simulation\/\d+$/.test(hash)) {
-      renderSimulation(main, hash.slice(11));
+      renderSimulation(main, hash.slice(11), { level: library.level });
       active = 'science';
     } else if (hash === 'scene/greenhouse') {
-      renderSimulation(main, '2');
+      renderSimulation(main, '2', { level: library.level });
       active = 'science';
     } else if (hash.startsWith('scene/') && scenes[hash.slice(6)]) {
-      renderScene(main, hash.slice(6));
+      renderScene(main, hash.slice(6), { level: library.level, arrival });
       active = 'science';
     } else if (hash === 'science') library.science();
     else if (hash === 'notebook') library.notebook();

@@ -1,5 +1,6 @@
 import { parseOriginalLink } from './links.js';
 import { escapeHtml as esc, normalizeText as normalize } from '../../shared/text.js';
+import { scienceDocuments } from '../science/documents.js';
 let cached;
 async function entries() {
   if (!cached)
@@ -68,6 +69,11 @@ export async function renderEncyclopedia(main, disc, info, openPage) {
   let data;
   try {
     data = Object.values(await entries()).filter((e) => e.disc === disc);
+    const documents = await scienceDocuments();
+    data.push(...Object.values(documents).map((doc) => ({
+      id: `science-document/${doc.id}`, title: doc.title, video: true,
+      caption: 'Document vidéo des laboratoires',
+    })));
   } catch {
     if (root.isConnected)
       root.innerHTML =
@@ -102,7 +108,9 @@ export async function renderEncyclopedia(main, disc, info, openPage) {
       .forEach(
         (button) =>
           (button.onclick = () =>
-            showOriginalMedia(button.dataset.media, disc, info, openPage).catch(() =>
+            button.dataset.media.startsWith('science-document/')
+              ? location.hash = button.dataset.media
+              : showOriginalMedia(button.dataset.media, disc, info, openPage).catch(() =>
               info('Encyclopédie', '<p>Le média est indisponible.</p>'),
             )),
       );

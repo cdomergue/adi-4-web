@@ -1,0 +1,3019 @@
+{
+  "movies": {
+    "11D50001": {
+      "width": 400,
+      "height": 300,
+      "origin": [
+        0,
+        0
+      ],
+      "frames": 428,
+      "fps": 11.983695652173912,
+      "source": "extracted/resources/Adi410Sci43/SIMUL.ITK/11D50001.VMD",
+      "sha256": "419d9ffc7c16b7260039a89727f19079d054c2ea0ed7855d81057ad2d2521c9f",
+      "url": "/game/science-media/11D50001.mp4",
+      "audio": true,
+      "encodedWidth": 400,
+      "encodedHeight": 300
+    },
+    "11D50002": {
+      "width": 400,
+      "height": 300,
+      "origin": [
+        0,
+        0
+      ],
+      "frames": 590,
+      "fps": 11.983695652173912,
+      "source": "extracted/resources/Adi410Sci43/SIMUL.ITK/11D50002.VMD",
+      "sha256": "0d9aab5014a0406c07318e77b1fb28c47d0b7d4a8cc914bee421714762f862c9",
+      "url": "/game/science-media/11D50002.mp4",
+      "audio": true,
+      "encodedWidth": 400,
+      "encodedHeight": 300
+    },
+    "11D50003": {
+      "width": 400,
+      "height": 300,
+      "origin": [
+        0,
+        0
+      ],
+      "frames": 411,
+      "fps": 11.95770065075922,
+      "source": "extracted/resources/Adi410Sci43/SIMUL.ITK/11D50003.VMD",
+      "sha256": "42ac02f1735fdcd87ba52fff5cd45632bd7a924cca08f34f034ce4649e798822",
+      "url": "/game/science-media/11D50003.mp4",
+      "audio": true,
+      "encodedWidth": 400,
+      "encodedHeight": 300
+    },
+    "11D50004": {
+      "width": 400,
+      "height": 300,
+      "origin": [
+        0,
+        0
+      ],
+      "frames": 512,
+      "fps": 11.983695652173912,
+      "source": "extracted/resources/Adi410Sci43/SIMUL.ITK/11D50004.VMD",
+      "sha256": "9b9320329995ed7ec1ea224c96a7fc77c615cfd991775b296d855ae935acbdbe",
+      "url": "/game/science-media/11D50004.mp4",
+      "audio": true,
+      "encodedWidth": 400,
+      "encodedHeight": 300
+    },
+    "11D50005": {
+      "width": 400,
+      "height": 300,
+      "origin": [
+        0,
+        0
+      ],
+      "frames": 753,
+      "fps": 11.983695652173912,
+      "source": "extracted/resources/Adi410Sci43/SIMUL.ITK/11D50005.VMD",
+      "sha256": "b692bf4c0337d41cc7bc124744586de6993168e5857457558885f63f5c2100a1",
+      "url": "/game/science-media/11D50005.mp4",
+      "audio": true,
+      "encodedWidth": 400,
+      "encodedHeight": 300
+    },
+    "11D50006": {
+      "width": 400,
+      "height": 300,
+      "origin": [
+        0,
+        0
+      ],
+      "frames": 358,
+      "fps": 11.983695652173912,
+      "source": "extracted/resources/Adi410Sci43/SIMUL.ITK/11D50006.VMD",
+      "sha256": "c918a9850e3e170b2798b6ea7931e4922cb626ea2f4fd9cce2bb4b9ffb01cfdc",
+      "url": "/game/science-media/11D50006.mp4",
+      "audio": true,
+      "encodedWidth": 400,
+      "encodedHeight": 300
+    },
+    "11D50007": {
+      "width": 400,
+      "height": 300,
+      "origin": [
+        0,
+        0
+      ],
+      "frames": 189,
+      "fps": 11.983695652173912,
+      "source": "extracted/resources/Adi410Sci43/SIMUL.ITK/11D50007.VMD",
+      "sha256": "1212fa9b09f79ebba665352c06d13d3aafec4db5440c7fe28d91e034a9be6f8a",
+      "url": "/game/science-media/11D50007.mp4",
+      "audio": true,
+      "encodedWidth": 400,
+      "encodedHeight": 300
+    },
+    "11D50008": {
+      "width": 400,
+      "height": 300,
+      "origin": [
+        0,
+        0
+      ],
+      "frames": 176,
+      "fps": 11.983695652173912,
+      "source": "extracted/resources/Adi410Sci43/SIMUL.ITK/11D50008.VMD",
+      "sha256": "83dd51f27997ef6831977a3363d6980d11cfe662532157988b3d6eb9732a035e",
+      "url": "/game/science-media/11D50008.mp4",
+      "audio": true,
+      "encodedWidth": 400,
+      "encodedHeight": 300
+    },
+    "11D50009": {
+      "width": 400,
+      "height": 300,
+      "origin": [
+        0,
+        0
+      ],
+      "frames": 295,
+      "fps": 11.983695652173912,
+      "source": "extracted/resources/Adi410Sci43/SIMUL.ITK/11D50009.VMD",
+      "sha256": "925da4e35f40e7214e61ccb4704fb20ad60565b8af0869bfbf4c825a2f003efd",
+      "url": "/game/science-media/11D50009.mp4",
+      "audio": true,
+      "encodedWidth": 400,
+      "encodedHeight": 300
+    },
+    "11D50010": {
+      "width": 400,
+      "height": 300,
+      "origin": [
+        0,
+        0
+      ],
+      "frames": 174,
+      "fps": 11.983695652173912,
+      "source": "extracted/resources/Adi410Sci43/SIMUL.ITK/11D50010.VMD",
+      "sha256": "941c3f1a715d4af50781814d0c585742b9db35b5573de33252c4fd2be6ac399a",
+      "url": "/game/science-media/11D50010.mp4",
+      "audio": true,
+      "encodedWidth": 400,
+      "encodedHeight": 300
+    },
+    "11D50011": {
+      "width": 400,
+      "height": 300,
+      "origin": [
+        0,
+        0
+      ],
+      "frames": 574,
+      "fps": 11.983695652173912,
+      "source": "extracted/resources/Adi410Sci43/SIMUL.ITK/11D50011.VMD",
+      "sha256": "87c95591dbcafc5bfab05b8a87c5a3608dc9ae50d319bdd3fef7d597c00cd17a",
+      "url": "/game/science-media/11D50011.mp4",
+      "audio": true,
+      "encodedWidth": 400,
+      "encodedHeight": 300
+    },
+    "11D50012": {
+      "width": 400,
+      "height": 300,
+      "origin": [
+        0,
+        0
+      ],
+      "frames": 168,
+      "fps": 11.983695652173912,
+      "source": "extracted/resources/Adi410Sci43/SIMUL.ITK/11D50012.VMD",
+      "sha256": "b604de86b2c8cb0e39c5afb8f32f294d0b80d373f3fe2ff1d8479b58fc08824a",
+      "url": "/game/science-media/11D50012.mp4",
+      "audio": true,
+      "encodedWidth": 400,
+      "encodedHeight": 300
+    },
+    "11D50013": {
+      "width": 400,
+      "height": 300,
+      "origin": [
+        0,
+        0
+      ],
+      "frames": 98,
+      "fps": 11.983695652173912,
+      "source": "extracted/resources/Adi410Sci43/SIMUL.ITK/11D50013.VMD",
+      "sha256": "1b2fc37286c91d63fa9a2025ce9a4c6327bba01a559194f33c0fa77a0ec5d88c",
+      "url": "/game/science-media/11D50013.mp4",
+      "audio": true,
+      "encodedWidth": 400,
+      "encodedHeight": 300
+    },
+    "11D50014": {
+      "width": 401,
+      "height": 301,
+      "origin": [
+        0,
+        0
+      ],
+      "frames": 150,
+      "fps": 11.983695652173912,
+      "source": "extracted/resources/Adi410Sci43/SIMUL.ITK/11D50014.VMD",
+      "sha256": "0cb660943d7b5399216e08359c090bd2b207c4cb7cc7681ca64a62d9f78a9006",
+      "url": "/game/science-media/11D50014.mp4",
+      "audio": true,
+      "encodedWidth": 402,
+      "encodedHeight": 302
+    },
+    "11D50015": {
+      "width": 400,
+      "height": 300,
+      "origin": [
+        0,
+        0
+      ],
+      "frames": 102,
+      "fps": 11.983695652173912,
+      "source": "extracted/resources/Adi410Sci43/SIMUL.ITK/11D50015.VMD",
+      "sha256": "7999e6f817618ed236dd0ecb83eca3a7ad4b896943646cf0186cc6a3bb9e94a2",
+      "url": "/game/science-media/11D50015.mp4",
+      "audio": true,
+      "encodedWidth": 400,
+      "encodedHeight": 300
+    },
+    "11D50016": {
+      "width": 401,
+      "height": 301,
+      "origin": [
+        0,
+        0
+      ],
+      "frames": 57,
+      "fps": 7.122093023255814,
+      "source": "extracted/resources/Adi410Sci43/SIMUL.ITK/11D50016.VMD",
+      "sha256": "f6fa94ef6135bd00352f2c41f1fa4008cb92e2e0d15e794dda1cc175766d1aed",
+      "url": "/game/science-media/11D50016.mp4",
+      "audio": true,
+      "encodedWidth": 402,
+      "encodedHeight": 302
+    },
+    "11D50017": {
+      "width": 400,
+      "height": 300,
+      "origin": [
+        0,
+        0
+      ],
+      "frames": 96,
+      "fps": 11.983695652173912,
+      "source": "extracted/resources/Adi410Sci43/SIMUL.ITK/11D50017.VMD",
+      "sha256": "f94a1314bf3f6ae544f2fe769f218020431b20069f979a0c1bd1c929155d8846",
+      "url": "/game/science-media/11D50017.mp4",
+      "audio": true,
+      "encodedWidth": 400,
+      "encodedHeight": 300
+    },
+    "11D50018": {
+      "width": 400,
+      "height": 300,
+      "origin": [
+        0,
+        0
+      ],
+      "frames": 96,
+      "fps": 11.983695652173912,
+      "source": "extracted/resources/Adi410Sci43/SIMUL.ITK/11D50018.VMD",
+      "sha256": "4bda70e7d57fb9b9cde7b56abb1008582890eea27c42a19c98290e23455eb506",
+      "url": "/game/science-media/11D50018.mp4",
+      "audio": true,
+      "encodedWidth": 400,
+      "encodedHeight": 300
+    },
+    "11D50019": {
+      "width": 400,
+      "height": 300,
+      "origin": [
+        0,
+        0
+      ],
+      "frames": 96,
+      "fps": 11.983695652173912,
+      "source": "extracted/resources/Adi410Sci43/SIMUL.ITK/11D50019.VMD",
+      "sha256": "2c0593c8a5e7477bd25450a7d864728a4c62ecca414aa02d468a9bbe7293d16b",
+      "url": "/game/science-media/11D50019.mp4",
+      "audio": true,
+      "encodedWidth": 400,
+      "encodedHeight": 300
+    },
+    "11D50020": {
+      "width": 400,
+      "height": 300,
+      "origin": [
+        0,
+        0
+      ],
+      "frames": 96,
+      "fps": 11.983695652173912,
+      "source": "extracted/resources/Adi410Sci43/SIMUL.ITK/11D50020.VMD",
+      "sha256": "3d3bec572424f7049ac6e53de0e07d65f4a770c65ef2737e36e5dafbc40cd171",
+      "url": "/game/science-media/11D50020.mp4",
+      "audio": true,
+      "encodedWidth": 400,
+      "encodedHeight": 300
+    },
+    "11D50021": {
+      "width": 400,
+      "height": 300,
+      "origin": [
+        0,
+        0
+      ],
+      "frames": 111,
+      "fps": 11.983695652173912,
+      "source": "extracted/resources/Adi410Sci43/SIMUL.ITK/11D50021.VMD",
+      "sha256": "deadd1f397b88514a35c179ffa3c667e82c2ff82ee4b20e879d99cf30ddccfa7",
+      "url": "/game/science-media/11D50021.mp4",
+      "audio": true,
+      "encodedWidth": 400,
+      "encodedHeight": 300
+    },
+    "11D50022": {
+      "width": 401,
+      "height": 301,
+      "origin": [
+        0,
+        0
+      ],
+      "frames": 114,
+      "fps": 11.983695652173912,
+      "source": "extracted/resources/Adi410Sci43/SIMUL.ITK/11D50022.VMD",
+      "sha256": "f1edc61fe46178acd5ddd539a97db8c6533b601948811484a2611ca1e2425a46",
+      "url": "/game/science-media/11D50022.mp4",
+      "audio": true,
+      "encodedWidth": 402,
+      "encodedHeight": 302
+    },
+    "11D50023": {
+      "width": 400,
+      "height": 300,
+      "origin": [
+        0,
+        0
+      ],
+      "frames": 111,
+      "fps": 11.983695652173912,
+      "source": "extracted/resources/Adi410Sci43/SIMUL.ITK/11D50023.VMD",
+      "sha256": "1f3c3319c3fcb8baaec828596674d28339aca98ae4ad2fee2b5c8e2551ecb1f0",
+      "url": "/game/science-media/11D50023.mp4",
+      "audio": true,
+      "encodedWidth": 400,
+      "encodedHeight": 300
+    },
+    "11D50024": {
+      "width": 400,
+      "height": 300,
+      "origin": [
+        0,
+        0
+      ],
+      "frames": 111,
+      "fps": 11.983695652173912,
+      "source": "extracted/resources/Adi410Sci43/SIMUL.ITK/11D50024.VMD",
+      "sha256": "c8daf8212924274799d72ac7a7f13b57e66d008cd76e0974839f4dd2f8039d09",
+      "url": "/game/science-media/11D50024.mp4",
+      "audio": true,
+      "encodedWidth": 400,
+      "encodedHeight": 300
+    },
+    "11D50025": {
+      "width": 401,
+      "height": 301,
+      "origin": [
+        0,
+        0
+      ],
+      "frames": 100,
+      "fps": 8.559782608695652,
+      "source": "extracted/resources/Adi410Sci43/SIMUL.ITK/11D50025.VMD",
+      "sha256": "f0dbcaff9f72f7850c3b2e530cac7dd5aa91d95e279c937b98b7666aecbd0a00",
+      "url": "/game/science-media/11D50025.mp4",
+      "audio": true,
+      "encodedWidth": 402,
+      "encodedHeight": 302
+    },
+    "11D50026": {
+      "width": 401,
+      "height": 301,
+      "origin": [
+        0,
+        0
+      ],
+      "frames": 120,
+      "fps": 11.983695652173912,
+      "source": "extracted/resources/Adi410Sci43/SIMUL.ITK/11D50026.VMD",
+      "sha256": "4307cb7a60018046b3aeccdec7844202ef09a01ceed92d59ec8e6b0542518c15",
+      "url": "/game/science-media/11D50026.mp4",
+      "audio": true,
+      "encodedWidth": 402,
+      "encodedHeight": 302
+    },
+    "11D50027": {
+      "width": 401,
+      "height": 301,
+      "origin": [
+        0,
+        0
+      ],
+      "frames": 115,
+      "fps": 11.983695652173912,
+      "source": "extracted/resources/Adi410Sci43/SIMUL.ITK/11D50027.VMD",
+      "sha256": "34d43ae2a863eef103ed6304b155c7b3eb8fcfe63761959772270ad1d1aafc8a",
+      "url": "/game/science-media/11D50027.mp4",
+      "audio": true,
+      "encodedWidth": 402,
+      "encodedHeight": 302
+    },
+    "13DB0001": {
+      "width": 301,
+      "height": 210,
+      "origin": [
+        0,
+        0
+      ],
+      "frames": 49,
+      "fps": 12,
+      "source": "extracted/resources/Adi410Sci43/SIMUL.ITK/13DB0001.VMD",
+      "sha256": "4f72201c212ad9669defcdb56d696296fc3424e4f0c28974f11839d6b8d15f9e",
+      "url": "/game/science-media/13DB0001.mp4",
+      "audio": false,
+      "encodedWidth": 302,
+      "encodedHeight": 210
+    },
+    "13DB0002": {
+      "width": 301,
+      "height": 210,
+      "origin": [
+        0,
+        0
+      ],
+      "frames": 49,
+      "fps": 12,
+      "source": "extracted/resources/Adi410Sci43/SIMUL.ITK/13DB0002.VMD",
+      "sha256": "cc804c53863ec6f803932e99af5fbccf472f0db921a5757a21fcd75b49f3edf9",
+      "url": "/game/science-media/13DB0002.mp4",
+      "audio": false,
+      "encodedWidth": 302,
+      "encodedHeight": 210
+    },
+    "13DB0003": {
+      "width": 301,
+      "height": 210,
+      "origin": [
+        0,
+        0
+      ],
+      "frames": 49,
+      "fps": 12,
+      "source": "extracted/resources/Adi410Sci43/SIMUL.ITK/13DB0003.VMD",
+      "sha256": "2cbc03b8d5455fc28c3d002ebef521e2419e8de9b0f33cc3a13ca33e6a109cbf",
+      "url": "/game/science-media/13DB0003.mp4",
+      "audio": false,
+      "encodedWidth": 302,
+      "encodedHeight": 210
+    },
+    "13DB0004": {
+      "width": 301,
+      "height": 210,
+      "origin": [
+        0,
+        0
+      ],
+      "frames": 49,
+      "fps": 12,
+      "source": "extracted/resources/Adi410Sci43/SIMUL.ITK/13DB0004.VMD",
+      "sha256": "97df543d692729b0d586fdaad246a1f691c9eecec4ffeb0258459f14234e2179",
+      "url": "/game/science-media/13DB0004.mp4",
+      "audio": false,
+      "encodedWidth": 302,
+      "encodedHeight": 210
+    },
+    "13DB0005": {
+      "width": 301,
+      "height": 210,
+      "origin": [
+        0,
+        0
+      ],
+      "frames": 49,
+      "fps": 12,
+      "source": "extracted/resources/Adi410Sci43/SIMUL.ITK/13DB0005.VMD",
+      "sha256": "3e48d78f983cbbe4527754590f7a80cb01ce5f6d7e90ceb287b1db9ad61fda08",
+      "url": "/game/science-media/13DB0005.mp4",
+      "audio": false,
+      "encodedWidth": 302,
+      "encodedHeight": 210
+    },
+    "13DB0006": {
+      "width": 301,
+      "height": 210,
+      "origin": [
+        0,
+        0
+      ],
+      "frames": 49,
+      "fps": 12,
+      "source": "extracted/resources/Adi410Sci43/SIMUL.ITK/13DB0006.VMD",
+      "sha256": "003ec31c22a73dab98041a383fde106a511c2697be58e38d9c14b3881da07b39",
+      "url": "/game/science-media/13DB0006.mp4",
+      "audio": false,
+      "encodedWidth": 302,
+      "encodedHeight": 210
+    },
+    "13DC0001": {
+      "width": 300,
+      "height": 210,
+      "origin": [
+        0,
+        0
+      ],
+      "frames": 49,
+      "fps": 12,
+      "source": "extracted/resources/Adi410Sci43/SIMUL.ITK/13DC0001.VMD",
+      "sha256": "92bcfc5a8b6fa835a8f316e935669ddb743532b7e8b0dc1b1b46c21ab12fc01e",
+      "url": "/game/science-media/13DC0001.mp4",
+      "audio": false,
+      "encodedWidth": 300,
+      "encodedHeight": 210
+    },
+    "ACIRCUL": {
+      "width": 495,
+      "height": 281,
+      "origin": [
+        0,
+        0
+      ],
+      "frames": 552,
+      "fps": 11.983695652173912,
+      "source": "extracted/resources/Adi410Sci65/EMM.ITK/ACIRCUL.VMD",
+      "sha256": "c730d753d09e1ee79e2967fcbb16f905684e346268e824c447622a355e2c33b0",
+      "url": "/game/science-media/ACIRCUL.mp4",
+      "audio": true,
+      "encodedWidth": 496,
+      "encodedHeight": 282
+    },
+    "AFOSSILE": {
+      "width": 495,
+      "height": 280,
+      "origin": [
+        0,
+        0
+      ],
+      "frames": 580,
+      "fps": 11.983695652173912,
+      "source": "extracted/resources/Adi410Sci65/EMM.ITK/AFOSSILE.VMD",
+      "sha256": "a728cb21eb40ab47f2258813a3cb1f55a3cfed2167c7ed575b98f6e7a76f64ba",
+      "url": "/game/science-media/AFOSSILE.mp4",
+      "audio": true,
+      "encodedWidth": 496,
+      "encodedHeight": 280
+    },
+    "AFROTTE": {
+      "width": 495,
+      "height": 280,
+      "origin": [
+        0,
+        0
+      ],
+      "frames": 388,
+      "fps": 11.983695652173912,
+      "source": "extracted/resources/Adi410Sci65/EMM.ITK/AFROTTE.VMD",
+      "sha256": "bddb98e5233d117a5f9df49ae6a1511fd6bcedb44c585963cac659ff5af10da4",
+      "url": "/game/science-media/AFROTTE.mp4",
+      "audio": true,
+      "encodedWidth": 496,
+      "encodedHeight": 280
+    },
+    "AINSECT": {
+      "width": 495,
+      "height": 280,
+      "origin": [
+        0,
+        0
+      ],
+      "frames": 558,
+      "fps": 11.983695652173912,
+      "source": "extracted/resources/Adi410Sci65/EMM.ITK/AINSECT.VMD",
+      "sha256": "ab86fecb978c305218e15c5dccb24fe71e497af23859b8dc99055637f6c8b881",
+      "url": "/game/science-media/AINSECT.mp4",
+      "audio": true,
+      "encodedWidth": 496,
+      "encodedHeight": 280
+    },
+    "APTIDEJ": {
+      "width": 495,
+      "height": 280,
+      "origin": [
+        0,
+        0
+      ],
+      "frames": 395,
+      "fps": 11.983695652173912,
+      "source": "extracted/resources/Adi410Sci65/EMM.ITK/APTIDEJ.VMD",
+      "sha256": "52e32b6ddefb942ce301d078e74ee49586a1ddc8514ddc77209bf1d6f5e85983",
+      "url": "/game/science-media/APTIDEJ.mp4",
+      "audio": true,
+      "encodedWidth": 496,
+      "encodedHeight": 280
+    },
+    "AREPRO": {
+      "width": 495,
+      "height": 280,
+      "origin": [
+        0,
+        0
+      ],
+      "frames": 1409,
+      "fps": 11.983695652173912,
+      "source": "extracted/resources/Adi410Sci65/EMM.ITK/AREPRO.VMD",
+      "sha256": "56a3cd9b7d3d8a1721750d01958f1c3c0dab82e64299bb36b0e5887f58419372",
+      "url": "/game/science-media/AREPRO.mp4",
+      "audio": true,
+      "encodedWidth": 496,
+      "encodedHeight": 280
+    },
+    "ASECUEL": {
+      "width": 495,
+      "height": 280,
+      "origin": [
+        0,
+        0
+      ],
+      "frames": 770,
+      "fps": 11.983695652173912,
+      "source": "extracted/resources/Adi410Sci65/EMM.ITK/ASECUEL.VMD",
+      "sha256": "8ea3311f331e8e44d45143ee53a0e840b0ebaebcf8422aeba13d3e3b62b32e60",
+      "url": "/game/science-media/ASECUEL.mp4",
+      "audio": true,
+      "encodedWidth": 496,
+      "encodedHeight": 280
+    },
+    "ATEMPER": {
+      "width": 495,
+      "height": 280,
+      "origin": [
+        0,
+        0
+      ],
+      "frames": 453,
+      "fps": 11.983695652173912,
+      "source": "extracted/resources/Adi410Sci65/EMM.ITK/ATEMPER.VMD",
+      "sha256": "917227db7fa46cd3775a756d160ead34a4329daa7fe7c6bb71854d4b4f922343",
+      "url": "/game/science-media/ATEMPER.mp4",
+      "audio": true,
+      "encodedWidth": 496,
+      "encodedHeight": 280
+    },
+    "AVOLCAN": {
+      "width": 495,
+      "height": 280,
+      "origin": [
+        0,
+        0
+      ],
+      "frames": 696,
+      "fps": 11.983695652173912,
+      "source": "extracted/resources/Adi410Sci65/EMM.ITK/AVOLCAN.VMD",
+      "sha256": "07dcca0b3b2e1acdb59ac6756a460349179a40e93801ae38f6f054d34d98b58f",
+      "url": "/game/science-media/AVOLCAN.mp4",
+      "audio": true,
+      "encodedWidth": 496,
+      "encodedHeight": 280
+    },
+    "INTRO": {
+      "width": 640,
+      "height": 480,
+      "origin": [
+        0,
+        0
+      ],
+      "frames": 225,
+      "fps": 11.996735582154516,
+      "source": "extracted/resources/Adi410Sci65/SCIENCE.ITK/INTRO.VMD",
+      "sha256": "20a18f9d397b4ae2f8f20070acd328189822e02a6c634f280cc38ca210493a61",
+      "url": "/game/science-media/INTRO.mp4",
+      "audio": true,
+      "encodedWidth": 640,
+      "encodedHeight": 480
+    },
+    "SHIP6": {
+      "width": 640,
+      "height": 480,
+      "origin": [
+        0,
+        0
+      ],
+      "frames": 71,
+      "fps": 11.983695652173912,
+      "source": "extracted/resources/Adi410Sci65/SCIENCE.ITK/SHIP6.VMD",
+      "sha256": "8ee865d1d62b3a93802d952638b0391b6aacd5054d4003d116797d308d31a872",
+      "url": "/game/science-media/SHIP6.mp4",
+      "audio": true,
+      "encodedWidth": 640,
+      "encodedHeight": 480
+    }
+  },
+  "audio": {
+    "01A1": {
+      "url": "/game/science-media/01A1.flac",
+      "duration": 4.923356009070295,
+      "source": "extracted/resources/Adi410Sci65/SIMUL.ITK/01A1.VMD",
+      "sha256": "b2df2ad7270b9b1f250532a30c455ac6dae182aadd441f209e24f6e8a2b5a09d"
+    },
+    "01EVL10": {
+      "url": "/game/science-media/01EVL10.flac",
+      "duration": 4.839909297052154,
+      "source": "extracted/resources/Adi410Sci65/SIMUL.ITK/01EVL10.VMD",
+      "sha256": "019611227e69898fe17e1542879dae8c208a79d1dc866b76caa90183d9fb4d01"
+    },
+    "01EVL11": {
+      "url": "/game/science-media/01EVL11.flac",
+      "duration": 5.173696145124716,
+      "source": "extracted/resources/Adi410Sci65/SIMUL.ITK/01EVL11.VMD",
+      "sha256": "2e6de901937000e54344eb0657529f734b5073c2baf3956dffe0fcf9b7d4bc70"
+    },
+    "01EVL20": {
+      "url": "/game/science-media/01EVL20.flac",
+      "duration": 6.0081632653061225,
+      "source": "extracted/resources/Adi410Sci65/SIMUL.ITK/01EVL20.VMD",
+      "sha256": "ad415c6a72861c5bf36c937a875628de1bc71cbb44cd87260d72f28b2990da7f"
+    },
+    "01EVL21": {
+      "url": "/game/science-media/01EVL21.flac",
+      "duration": 6.592290249433106,
+      "source": "extracted/resources/Adi410Sci65/SIMUL.ITK/01EVL21.VMD",
+      "sha256": "c818b0d8b3d737ef27d15071def8d52ab929c13d3d0bc3fea4e70a4a8d77766b"
+    },
+    "01EVL30": {
+      "url": "/game/science-media/01EVL30.flac",
+      "duration": 5.841269841269841,
+      "source": "extracted/resources/Adi410Sci65/SIMUL.ITK/01EVL30.VMD",
+      "sha256": "1abe5ebe020d7f30ca60885e7a2974d14cc42ca031daa61a26095776bf88f0ee"
+    },
+    "01EVL31": {
+      "url": "/game/science-media/01EVL31.flac",
+      "duration": 3.5047619047619047,
+      "source": "extracted/resources/Adi410Sci65/SIMUL.ITK/01EVL31.VMD",
+      "sha256": "534dc1b24d62a17da844d528f9e59c9bbd40f2c3cd8b01b660376ce711b274e3"
+    },
+    "01WLC1O": {
+      "url": "/game/science-media/01WLC1O.flac",
+      "duration": 14.770068027210884,
+      "source": "extracted/resources/Adi410Sci65/SIMUL.ITK/01WLC1O.VMD",
+      "sha256": "94216e1413ac6c43807058c25dacbe9ee8cd8069b6a4cc6849ea755e5202160f"
+    },
+    "01WLC2O": {
+      "url": "/game/science-media/01WLC2O.flac",
+      "duration": 11.34875283446712,
+      "source": "extracted/resources/Adi410Sci65/SIMUL.ITK/01WLC2O.VMD",
+      "sha256": "f9514bd828dcbffe7d58a4a964964284a06f71649ac04e24e6427db352ea1f9c"
+    },
+    "01WLC5N0": {
+      "url": "/game/science-media/01WLC5N0.flac",
+      "duration": 29.039455782312924,
+      "source": "extracted/resources/Adi410Sci65/SIMUL.ITK/01WLC5N0.VMD",
+      "sha256": "8d2647f8e51d4e5ecb3cc914bcf3c55fa4da3e127b84602e52fc1bac63d2686e"
+    },
+    "01WLC6N0": {
+      "url": "/game/science-media/01WLC6N0.flac",
+      "duration": 34.21315192743764,
+      "source": "extracted/resources/Adi410Sci65/SIMUL.ITK/01WLC6N0.VMD",
+      "sha256": "a2eb463f6d0b34a7383cd88b2ce767e5a0ff02cacd094c5982c0051620e681e8"
+    },
+    "02EVL11": {
+      "url": "/game/science-media/02EVL11.flac",
+      "duration": 4.756462585034013,
+      "source": "extracted/resources/Adi410Sci65/SIMUL.ITK/02EVL11.VMD",
+      "sha256": "6011b317750396698b074336a4d42fd2fc65c6c39856a007795c3642e316223d"
+    },
+    "02EVL21": {
+      "url": "/game/science-media/02EVL21.flac",
+      "duration": 7.0095238095238095,
+      "source": "extracted/resources/Adi410Sci65/SIMUL.ITK/02EVL21.VMD",
+      "sha256": "62325753afa872e66f0d75dede792c066a9874a117e172eb1fd3bcde8421777a"
+    },
+    "02EVL31": {
+      "url": "/game/science-media/02EVL31.flac",
+      "duration": 4.673015873015873,
+      "source": "extracted/resources/Adi410Sci65/SIMUL.ITK/02EVL31.VMD",
+      "sha256": "67b092c44d8857e69d59015aabfd4f23ba8444b0680c5941c07ea84d678761ad"
+    },
+    "02WLC1O": {
+      "url": "/game/science-media/02WLC1O.flac",
+      "duration": 17.523809523809526,
+      "source": "extracted/resources/Adi410Sci65/SIMUL.ITK/02WLC1O.VMD",
+      "sha256": "04f6a5b272dc09650f28ef3b263310374f705c0a59d7546e63cf43a4e9562215"
+    },
+    "02WLC2O": {
+      "url": "/game/science-media/02WLC2O.flac",
+      "duration": 17.190022675736962,
+      "source": "extracted/resources/Adi410Sci65/SIMUL.ITK/02WLC2O.VMD",
+      "sha256": "50f242eb872fe2fd8ce6a68693b708498b8840657835ed7bb049026fa277e959"
+    },
+    "02WLC5N0": {
+      "url": "/game/science-media/02WLC5N0.flac",
+      "duration": 33.62902494331066,
+      "source": "extracted/resources/Adi410Sci65/SIMUL.ITK/02WLC5N0.VMD",
+      "sha256": "9172e8662830ba92822843b7b4d45a2d41fcf497ca1df74302b0ae12d343b51b"
+    },
+    "02WLC6N0": {
+      "url": "/game/science-media/02WLC6N0.flac",
+      "duration": 29.54013605442177,
+      "source": "extracted/resources/Adi410Sci65/SIMUL.ITK/02WLC6N0.VMD",
+      "sha256": "c05a9138ad7e463e85a129256fab5d5dbb3c888c9b5e90d18d9c464ca83d50c4"
+    },
+    "03A1": {
+      "url": "/game/science-media/03A1.flac",
+      "duration": 21.19546485260771,
+      "source": "extracted/resources/Adi410Sci43/SIMUL.ITK/03A1.VMD",
+      "sha256": "f0bb5d67753334b2a6c6c851ab0bd9f832c5177a54f4abec2ed22976f0ec1bf7"
+    },
+    "03EVL10": {
+      "url": "/game/science-media/03EVL10.flac",
+      "duration": 5.507482993197279,
+      "source": "extracted/resources/Adi410Sci43/SIMUL.ITK/03EVL10.VMD",
+      "sha256": "1714746c90c32d3ef414b5a766ac64bbb2c8a4a9b8e08f08025a48594f0486eb"
+    },
+    "03EVL11": {
+      "url": "/game/science-media/03EVL11.flac",
+      "duration": 4.839909297052154,
+      "source": "extracted/resources/Adi410Sci43/SIMUL.ITK/03EVL11.VMD",
+      "sha256": "ce6a9e05c4188f587ba77b3beb72ed04083e8217d1b8eaebe882be3490b0bcef"
+    },
+    "03EVL20": {
+      "url": "/game/science-media/03EVL20.flac",
+      "duration": 5.590929705215419,
+      "source": "extracted/resources/Adi410Sci43/SIMUL.ITK/03EVL20.VMD",
+      "sha256": "ea7533fb7c3c7680b263b482688fdff92e7bf7fc7616e3c0c1cc248472ce1075"
+    },
+    "03EVL21": {
+      "url": "/game/science-media/03EVL21.flac",
+      "duration": 2.3365079365079366,
+      "source": "extracted/resources/Adi410Sci43/SIMUL.ITK/03EVL21.VMD",
+      "sha256": "f33a5440c0e712c5fb830d6d74497dedb05232d7a81d34f360c62f4af2102e7e"
+    },
+    "03EVL30": {
+      "url": "/game/science-media/03EVL30.flac",
+      "duration": 4.5895691609977325,
+      "source": "extracted/resources/Adi410Sci43/SIMUL.ITK/03EVL30.VMD",
+      "sha256": "b9a21d8bea0171d834f93f5e43d584251117fd1ff218f8679e8b47e6fb746b0f"
+    },
+    "03EVL31": {
+      "url": "/game/science-media/03EVL31.flac",
+      "duration": 10.681179138321996,
+      "source": "extracted/resources/Adi410Sci43/SIMUL.ITK/03EVL31.VMD",
+      "sha256": "4bf2131c980d4244a5b5b6459b13a7faacadae6221d9a370d5df91a92bf45487"
+    },
+    "03WLC1O": {
+      "url": "/game/science-media/03WLC1O.flac",
+      "duration": 15.270748299319727,
+      "source": "extracted/resources/Adi410Sci43/SIMUL.ITK/03WLC1O.VMD",
+      "sha256": "1c6ef91505a73de18e94ad96f2daeec671178a0fed1fbba45c6c27551d0bc457"
+    },
+    "03WLC2O": {
+      "url": "/game/science-media/03WLC2O.flac",
+      "duration": 18.19138321995465,
+      "source": "extracted/resources/Adi410Sci43/SIMUL.ITK/03WLC2O.VMD",
+      "sha256": "c61f1b6fb6cef4db37b73ed9362198233a1e25df14ed71559dc2476198e88d0d"
+    },
+    "03WLC3N0": {
+      "url": "/game/science-media/03WLC3N0.flac",
+      "duration": 17.10657596371882,
+      "source": "extracted/resources/Adi410Sci43/SIMUL.ITK/03WLC3N0.VMD",
+      "sha256": "214e484927c7ec0e0394563699cca5a88e190a98758b66123d959d7b01c59ca4"
+    },
+    "03WLC3N1": {
+      "url": "/game/science-media/03WLC3N1.flac",
+      "duration": 9.763265306122449,
+      "source": "extracted/resources/Adi410Sci43/SIMUL.ITK/03WLC3N1.VMD",
+      "sha256": "ae3288d890b79ee34d75e53667df71f12c193430264a07dd69f8d3e2358065a2"
+    },
+    "03WLC4N0": {
+      "url": "/game/science-media/03WLC4N0.flac",
+      "duration": 15.103854875283446,
+      "source": "extracted/resources/Adi410Sci43/SIMUL.ITK/03WLC4N0.VMD",
+      "sha256": "d334a3afd8d1b8d356b4eec90d57508bd52dba9043a81240e837c2d78a9f56a3"
+    },
+    "03WLC4N1": {
+      "url": "/game/science-media/03WLC4N1.flac",
+      "duration": 14.1859410430839,
+      "source": "extracted/resources/Adi410Sci43/SIMUL.ITK/03WLC4N1.VMD",
+      "sha256": "7a94d9725877c4477dd8117072c98009c74a3328bfa1c5f3ca679dfff359c39c"
+    },
+    "04A1": {
+      "url": "/game/science-media/04A1.flac",
+      "duration": 19.77687074829932,
+      "source": "extracted/resources/Adi410Sci43/SIMUL.ITK/04A1.VMD",
+      "sha256": "f0cd5629b8bb4a15a3e8ed44efae22d9be9c360c51d1f2a835bcde2392652cf8"
+    },
+    "04EVL10": {
+      "url": "/game/science-media/04EVL10.flac",
+      "duration": 3.921995464852608,
+      "source": "extracted/resources/Adi410Sci43/SIMUL.ITK/04EVL10.VMD",
+      "sha256": "3625a3b9858fa3683375f4824e45a580c4e8082644df81d099490e5d30a177ad"
+    },
+    "04EVL11": {
+      "url": "/game/science-media/04EVL11.flac",
+      "duration": 3.7551020408163267,
+      "source": "extracted/resources/Adi410Sci43/SIMUL.ITK/04EVL11.VMD",
+      "sha256": "6885ef10286cd9aa256e3ea60883249f27a2eeebf3d261193ee88fb843446e12"
+    },
+    "04EVL20": {
+      "url": "/game/science-media/04EVL20.flac",
+      "duration": 3.838548752834467,
+      "source": "extracted/resources/Adi410Sci43/SIMUL.ITK/04EVL20.VMD",
+      "sha256": "3f7b289ae259952c35744b97c444cef86042bf7a93ce04cd72e1d6697668463f"
+    },
+    "04EVL21": {
+      "url": "/game/science-media/04EVL21.flac",
+      "duration": 4.422675736961451,
+      "source": "extracted/resources/Adi410Sci43/SIMUL.ITK/04EVL21.VMD",
+      "sha256": "e0db4a6555da9d28066f4632c297921d5234f9d161bc7df96f68a96d0f3aeee6"
+    },
+    "04EVL30": {
+      "url": "/game/science-media/04EVL30.flac",
+      "duration": 4.673015873015873,
+      "source": "extracted/resources/Adi410Sci43/SIMUL.ITK/04EVL30.VMD",
+      "sha256": "6fda428540795f5a47cd57be7f5cd1b6dddd8bdd015de527822c52e8748dc5a6"
+    },
+    "04EVL31": {
+      "url": "/game/science-media/04EVL31.flac",
+      "duration": 4.422675736961451,
+      "source": "extracted/resources/Adi410Sci43/SIMUL.ITK/04EVL31.VMD",
+      "sha256": "7cef1ff5927b86b1d9802f6d25636aff1881a86ada3f24d072afaccece90c853"
+    },
+    "04WLC1O": {
+      "url": "/game/science-media/04WLC1O.flac",
+      "duration": 18.608616780045352,
+      "source": "extracted/resources/Adi410Sci43/SIMUL.ITK/04WLC1O.VMD",
+      "sha256": "1839dc019805705804f9c8a958daf8ccaca2bc4513a1b2269d77c7e97c7a9452"
+    },
+    "04WLC2O": {
+      "url": "/game/science-media/04WLC2O.flac",
+      "duration": 28.038095238095238,
+      "source": "extracted/resources/Adi410Sci43/SIMUL.ITK/04WLC2O.VMD",
+      "sha256": "2084b240182714c8fd5c4290923a3d02255efbd04d16ece572a69e5b699a86bf"
+    },
+    "04WLC3N0": {
+      "url": "/game/science-media/04WLC3N0.flac",
+      "duration": 16.522448979591836,
+      "source": "extracted/resources/Adi410Sci43/SIMUL.ITK/04WLC3N0.VMD",
+      "sha256": "83ba0165c7a5d9d83b8cf016ae73f0aef7cc4cf4bf3a5ddec85d9dac180cb543"
+    },
+    "04WLC3N1": {
+      "url": "/game/science-media/04WLC3N1.flac",
+      "duration": 19.443083900226757,
+      "source": "extracted/resources/Adi410Sci43/SIMUL.ITK/04WLC3N1.VMD",
+      "sha256": "f7e9220acac8058870d1a942387accaebeb86b3d79ad9737597a3e78c0120db9"
+    },
+    "04WLC4N0": {
+      "url": "/game/science-media/04WLC4N0.flac",
+      "duration": 14.352834467120182,
+      "source": "extracted/resources/Adi410Sci43/SIMUL.ITK/04WLC4N0.VMD",
+      "sha256": "1922bf34e8062e9d434eb0e17d2cc794a70a44bf6a537593708355dfe2fe786b"
+    },
+    "04WLC4N1": {
+      "url": "/game/science-media/04WLC4N1.flac",
+      "duration": 13.601814058956917,
+      "source": "extracted/resources/Adi410Sci43/SIMUL.ITK/04WLC4N1.VMD",
+      "sha256": "7de1add9587f0c6da71cc0c06c9024dacc9162c494bf0737011c432dc530b56b"
+    },
+    "05A1": {
+      "url": "/game/science-media/05A1.flac",
+      "duration": 4.339229024943311,
+      "source": "extracted/resources/Adi410Sci43/SIMUL.ITK/05A1.VMD",
+      "sha256": "f692246a82890a44f9a442907af4de8bb8fe785dc665e94c6e7a2db45ef4ad3f"
+    },
+    "05EVL10": {
+      "url": "/game/science-media/05EVL10.flac",
+      "duration": 3.5047619047619047,
+      "source": "extracted/resources/Adi410Sci43/SIMUL.ITK/05EVL10.VMD",
+      "sha256": "0f5ce87d97a84fb6619c2effd9e92cc17bb3916ed4992154f7ea534ecdaefa53"
+    },
+    "05EVL11": {
+      "url": "/game/science-media/05EVL11.flac",
+      "duration": 7.677097505668934,
+      "source": "extracted/resources/Adi410Sci43/SIMUL.ITK/05EVL11.VMD",
+      "sha256": "9a29e74146d8b1856f7b5921f572ba29acd34169df4f8469f110746ca703e453"
+    },
+    "05EVL20": {
+      "url": "/game/science-media/05EVL20.flac",
+      "duration": 4.923356009070295,
+      "source": "extracted/resources/Adi410Sci43/SIMUL.ITK/05EVL20.VMD",
+      "sha256": "d2c3da1b63cace022576cc2f12e4a1df3d6e3ed58cee943284a266c3af3ec84b"
+    },
+    "05EVL21": {
+      "url": "/game/science-media/05EVL21.flac",
+      "duration": 5.090249433106576,
+      "source": "extracted/resources/Adi410Sci43/SIMUL.ITK/05EVL21.VMD",
+      "sha256": "0274623032ad6af366615932be073604db148f88e7cdae77275972a1b889b58b"
+    },
+    "05EVL30": {
+      "url": "/game/science-media/05EVL30.flac",
+      "duration": 5.090249433106576,
+      "source": "extracted/resources/Adi410Sci43/SIMUL.ITK/05EVL30.VMD",
+      "sha256": "f5dc065e7ca49807e51587f7f5f82d9fc5bff98a9be9e77804e52f39d73c74e7"
+    },
+    "05EVL31": {
+      "url": "/game/science-media/05EVL31.flac",
+      "duration": 6.842630385487529,
+      "source": "extracted/resources/Adi410Sci43/SIMUL.ITK/05EVL31.VMD",
+      "sha256": "50d7cc27c2f1b6506f8f0d6059f258faa7e6d1c0ebd551ec5481e997e8f54f67"
+    },
+    "05WLC1O": {
+      "url": "/game/science-media/05WLC1O.flac",
+      "duration": 16.439002267573695,
+      "source": "extracted/resources/Adi410Sci43/SIMUL.ITK/05WLC1O.VMD",
+      "sha256": "638b877c91dc7aab6d80cfb0467b3be2cd013dcbdea3ceb49d3149db22339a9c"
+    },
+    "05WLC2O": {
+      "url": "/game/science-media/05WLC2O.flac",
+      "duration": 13.184580498866213,
+      "source": "extracted/resources/Adi410Sci43/SIMUL.ITK/05WLC2O.VMD",
+      "sha256": "870e12b25a604f54423edf80f2fb1e42d7f41469be53f6c5eb1dbf75c5e82db4"
+    },
+    "05WLC3N0": {
+      "url": "/game/science-media/05WLC3N0.flac",
+      "duration": 19.192743764172334,
+      "source": "extracted/resources/Adi410Sci43/SIMUL.ITK/05WLC3N0.VMD",
+      "sha256": "7ac34ee8b5cfa4f0e4e90c340290f6f3cc996963643c745eecfa2ff31ee089ce"
+    },
+    "05WLC4N0": {
+      "url": "/game/science-media/05WLC4N0.flac",
+      "duration": 19.86031746031746,
+      "source": "extracted/resources/Adi410Sci43/SIMUL.ITK/05WLC4N0.VMD",
+      "sha256": "c7b2bbf712325c009cfb63f3254f5be6c3014245d84f0001e8ec4e55799c68de"
+    },
+    "06A60001": {
+      "url": "/game/science-media/06A60001.flac",
+      "duration": 15.004081632653062,
+      "source": "extracted/resources/Adi410Sci65/SIMUL.ITK/06A60001.VMD",
+      "sha256": "6de15167d87ed67b1df8d57b02e45683d9a6f23cf307d41282980547780c9079"
+    },
+    "06A60002": {
+      "url": "/game/science-media/06A60002.flac",
+      "duration": 19.755374149659865,
+      "source": "extracted/resources/Adi410Sci65/SIMUL.ITK/06A60002.VMD",
+      "sha256": "741d999af80d8da787f123ab39f71d555cdfb2cf277b45288b8258444022af51"
+    },
+    "06A60003": {
+      "url": "/game/science-media/06A60003.flac",
+      "duration": 11.002993197278911,
+      "source": "extracted/resources/Adi410Sci65/SIMUL.ITK/06A60003.VMD",
+      "sha256": "41cb7e46a6a84c0665e34834f220ad662ccb527defcaa90a320ac87c58ffe5a4"
+    },
+    "06EVL10": {
+      "url": "/game/science-media/06EVL10.flac",
+      "duration": 3.838548752834467,
+      "source": "extracted/resources/Adi410Sci65/SIMUL.ITK/06EVL10.VMD",
+      "sha256": "a9619d44602f6af4599b4308535eb1b60d4bff88c3740cb9f5716df15a9051b6"
+    },
+    "06EVL11": {
+      "url": "/game/science-media/06EVL11.flac",
+      "duration": 3.0040816326530613,
+      "source": "extracted/resources/Adi410Sci65/SIMUL.ITK/06EVL11.VMD",
+      "sha256": "84114df7f869dbcebe8f4992b753cb41a4302f15062e0e95324d111a2a6a0cdd"
+    },
+    "06EVL20": {
+      "url": "/game/science-media/06EVL20.flac",
+      "duration": 3.838548752834467,
+      "source": "extracted/resources/Adi410Sci65/SIMUL.ITK/06EVL20.VMD",
+      "sha256": "94ce482ae4d73e96439b6a0afa8f213656e069ad2e5b523c2b82a0048d9766bd"
+    },
+    "06EVL21": {
+      "url": "/game/science-media/06EVL21.flac",
+      "duration": 4.25578231292517,
+      "source": "extracted/resources/Adi410Sci65/SIMUL.ITK/06EVL21.VMD",
+      "sha256": "09c42955b7d09311cf02329b5bb5296a167efc82757ec894375e37240342d195"
+    },
+    "06EVL30": {
+      "url": "/game/science-media/06EVL30.flac",
+      "duration": 2.83718820861678,
+      "source": "extracted/resources/Adi410Sci65/SIMUL.ITK/06EVL30.VMD",
+      "sha256": "12ecd4af3dcbb5a19a80096244d76dc0ed08813ce6daee9e566d5896099ca01b"
+    },
+    "06EVL31": {
+      "url": "/game/science-media/06EVL31.flac",
+      "duration": 3.4213151927437644,
+      "source": "extracted/resources/Adi410Sci65/SIMUL.ITK/06EVL31.VMD",
+      "sha256": "940eb787ad4f6ace5af57cb8119122e7c498f088c177bec8c78daeadfe9ee277"
+    },
+    "06WLC2O": {
+      "url": "/game/science-media/06WLC2O.flac",
+      "duration": 8.177777777777777,
+      "source": "extracted/resources/Adi410Sci65/SIMUL.ITK/06WLC2O.VMD",
+      "sha256": "96314ffd92aa9da094a8d02fadd52754f4b1956af97a3992470ac78557987161"
+    },
+    "06WLC5N0": {
+      "url": "/game/science-media/06WLC5N0.flac",
+      "duration": 14.603174603174603,
+      "source": "extracted/resources/Adi410Sci65/SIMUL.ITK/06WLC5N0.VMD",
+      "sha256": "3e927f4bd9e20ae37f806eab838645a45f00d76482caddec2f6f2cd25e5648d3"
+    },
+    "06WLC5N1": {
+      "url": "/game/science-media/06WLC5N1.flac",
+      "duration": 17.857596371882085,
+      "source": "extracted/resources/Adi410Sci65/SIMUL.ITK/06WLC5N1.VMD",
+      "sha256": "25c1cffa0ee71412dad92b6efb85290e23ea2bd848f8e6d46b69004e22fb965a"
+    },
+    "06WLC6N0": {
+      "url": "/game/science-media/06WLC6N0.flac",
+      "duration": 14.603174603174603,
+      "source": "extracted/resources/Adi410Sci65/SIMUL.ITK/06WLC6N0.VMD",
+      "sha256": "76cec213752060f7dc022fe4e5e0d1055fb0f50b8363d3b83e0160a55b68ecd7"
+    },
+    "06WLC6N1": {
+      "url": "/game/science-media/06WLC6N1.flac",
+      "duration": 16.105215419501135,
+      "source": "extracted/resources/Adi410Sci65/SIMUL.ITK/06WLC6N1.VMD",
+      "sha256": "98abd2689edc9e265623f9377fa830ebf3a60bb34df4b7603e5b6469ca268d39"
+    },
+    "06WLC6N2": {
+      "url": "/game/science-media/06WLC6N2.flac",
+      "duration": 11.432199546485261,
+      "source": "extracted/resources/Adi410Sci65/SIMUL.ITK/06WLC6N2.VMD",
+      "sha256": "4aefa5ea633435bdbd923c18339cebfc21738fab8177659cde081b9827daa3ef"
+    },
+    "07A10001": {
+      "url": "/game/science-media/07A10001.flac",
+      "duration": 12.68390022675737,
+      "source": "extracted/resources/Adi410Sci65/SIMUL.ITK/07A10001.VMD",
+      "sha256": "506d821b57196931be8676f1835b18615a8928ef7ea09e7a883b3b01821b48ed"
+    },
+    "07A10002": {
+      "url": "/game/science-media/07A10002.flac",
+      "duration": 21.863038548752833,
+      "source": "extracted/resources/Adi410Sci65/SIMUL.ITK/07A10002.VMD",
+      "sha256": "8091925c300deb3aeebfaf1adae5d4c66e801c90f4d43c400a1e8dba19474867"
+    },
+    "07A10003": {
+      "url": "/game/science-media/07A10003.flac",
+      "duration": 25.785034013605443,
+      "source": "extracted/resources/Adi410Sci65/SIMUL.ITK/07A10003.VMD",
+      "sha256": "2aefe930d79271c3e0d84dc0d6edb3671cd0cbc4f7c21f39dda0ba5b407c5020"
+    },
+    "07A10004": {
+      "url": "/game/science-media/07A10004.flac",
+      "duration": 19.526530612244898,
+      "source": "extracted/resources/Adi410Sci65/SIMUL.ITK/07A10004.VMD",
+      "sha256": "d66310777469b5fdf4ae875182c4ea99dde1f59dd365c7820287eb635919be02"
+    },
+    "07ASOL1": {
+      "url": "/game/science-media/07ASOL1.flac",
+      "duration": 4.756462585034013,
+      "source": "extracted/resources/Adi410Sci65/SIMUL.ITK/07ASOL1.VMD",
+      "sha256": "03bdce62ef3243aa3b16b164953854688a91d09226b4bf9829453c3b36dc7c8c"
+    },
+    "07ASOL2": {
+      "url": "/game/science-media/07ASOL2.flac",
+      "duration": 4.172335600907029,
+      "source": "extracted/resources/Adi410Sci65/SIMUL.ITK/07ASOL2.VMD",
+      "sha256": "cf1589dabaa09d5d076ae490a7a824adb44ad42e77cbf71e5a6472b7ae3dae98"
+    },
+    "07EVL10": {
+      "url": "/game/science-media/07EVL10.flac",
+      "duration": 6.425396825396826,
+      "source": "extracted/resources/Adi410Sci65/SIMUL.ITK/07EVL10.VMD",
+      "sha256": "c1c9ff0b3c74acb73406746be1dc375e0d811300527c0aaff71daa8db958f5b9"
+    },
+    "07EVL11": {
+      "url": "/game/science-media/07EVL11.flac",
+      "duration": 4.422675736961451,
+      "source": "extracted/resources/Adi410Sci65/SIMUL.ITK/07EVL11.VMD",
+      "sha256": "e5c3a3d6785100ac362e8e1294803f2768064c94d41d059d7608ebf8c501fa6c"
+    },
+    "07EVL20": {
+      "url": "/game/science-media/07EVL20.flac",
+      "duration": 5.924716553287982,
+      "source": "extracted/resources/Adi410Sci65/SIMUL.ITK/07EVL20.VMD",
+      "sha256": "38811b3d7ed72a54a14684d1619bd77de6f6dc4d9596d97102e04d374bab4bc3"
+    },
+    "07EVL21": {
+      "url": "/game/science-media/07EVL21.flac",
+      "duration": 6.341950113378685,
+      "source": "extracted/resources/Adi410Sci65/SIMUL.ITK/07EVL21.VMD",
+      "sha256": "69baebd9976a783dfa803513d450b4068062dcb9ad4ebab7431c27ada55ac401"
+    },
+    "07EVL30": {
+      "url": "/game/science-media/07EVL30.flac",
+      "duration": 5.841269841269841,
+      "source": "extracted/resources/Adi410Sci65/SIMUL.ITK/07EVL30.VMD",
+      "sha256": "f578112b9f3ecbdc77372c19f9a8912bce48809a652554dc7d55e47aa4f64e33"
+    },
+    "07EVL31": {
+      "url": "/game/science-media/07EVL31.flac",
+      "duration": 7.0095238095238095,
+      "source": "extracted/resources/Adi410Sci65/SIMUL.ITK/07EVL31.VMD",
+      "sha256": "6125eb5b900f8cdfbc445d8d356e1e887a385cd87cb649be939a4da9c87af1e6"
+    },
+    "07SOL_K1": {
+      "url": "/game/science-media/07SOL_K1.flac",
+      "duration": 50.31836734693878,
+      "source": "extracted/resources/Adi410Sci65/SIMUL.ITK/07SOL_K1.VMD",
+      "sha256": "2bed07b276d3b6f965867c096a34354199b4767ae1f3bc6b59e7809a8ca69dfc"
+    },
+    "07SOL_K2": {
+      "url": "/game/science-media/07SOL_K2.flac",
+      "duration": 41.63990929705216,
+      "source": "extracted/resources/Adi410Sci65/SIMUL.ITK/07SOL_K2.VMD",
+      "sha256": "ad8fcd84489cb55cd09e73dc2585d923f770e8b44d4a0471dda87b6e8850c0d8"
+    },
+    "07SOL_K3": {
+      "url": "/game/science-media/07SOL_K3.flac",
+      "duration": 36.96689342403628,
+      "source": "extracted/resources/Adi410Sci65/SIMUL.ITK/07SOL_K3.VMD",
+      "sha256": "f3a89c84639a56a6393a603dc1dbde0b02a63f35b8f8eb7a7a839e18753d6b29"
+    },
+    "07WLC2O": {
+      "url": "/game/science-media/07WLC2O.flac",
+      "duration": 23.031292517006804,
+      "source": "extracted/resources/Adi410Sci65/SIMUL.ITK/07WLC2O.VMD",
+      "sha256": "764841f858665c77fb4d9cfbe9bd37e81360e0bb4610523f90ab4ef4539355ed"
+    },
+    "07WLC5N0": {
+      "url": "/game/science-media/07WLC5N0.flac",
+      "duration": 11.765986394557823,
+      "source": "extracted/resources/Adi410Sci65/SIMUL.ITK/07WLC5N0.VMD",
+      "sha256": "69f97cb54bd2f551b46e0959e39ae1d26d00e66c650b2197a907b695967888bb"
+    },
+    "07WLC5N1": {
+      "url": "/game/science-media/07WLC5N1.flac",
+      "duration": 11.515646258503402,
+      "source": "extracted/resources/Adi410Sci65/SIMUL.ITK/07WLC5N1.VMD",
+      "sha256": "cd9b89d03b538fd6ae863ebf66a0bda7e4322d1b465ea39e5e3d456894b827d1"
+    },
+    "07WLC5N2": {
+      "url": "/game/science-media/07WLC5N2.flac",
+      "duration": 7.677097505668934,
+      "source": "extracted/resources/Adi410Sci65/SIMUL.ITK/07WLC5N2.VMD",
+      "sha256": "e2aa529eb14ed77442b2d704c721970cfcb2e886043e06f363186942eb10c6ee"
+    },
+    "07WLC6N0": {
+      "url": "/game/science-media/07WLC6N0.flac",
+      "duration": 11.932879818594104,
+      "source": "extracted/resources/Adi410Sci65/SIMUL.ITK/07WLC6N0.VMD",
+      "sha256": "ca6a8a19312ea0ae627a377e0cfe2489228924b20703cf9f4e12992d8bf5b924"
+    },
+    "07WLC6N1": {
+      "url": "/game/science-media/07WLC6N1.flac",
+      "duration": 17.774149659863944,
+      "source": "extracted/resources/Adi410Sci65/SIMUL.ITK/07WLC6N1.VMD",
+      "sha256": "30c900ec8d3d43ec91e7ba401e624579f97152ca6038c6fe8b47a618fd10a904"
+    },
+    "07WLC6N2": {
+      "url": "/game/science-media/07WLC6N2.flac",
+      "duration": 7.677097505668934,
+      "source": "extracted/resources/Adi410Sci65/SIMUL.ITK/07WLC6N2.VMD",
+      "sha256": "e2aa529eb14ed77442b2d704c721970cfcb2e886043e06f363186942eb10c6ee"
+    },
+    "08A1": {
+      "url": "/game/science-media/08A1.flac",
+      "duration": 9.596371882086167,
+      "source": "extracted/resources/Adi410Sci65/SIMUL.ITK/08A1.VMD",
+      "sha256": "a32aff2bfe07807157037196a576d1bc3d9e7fed4e0f465c81b9f08c970492e8"
+    },
+    "08EVL10": {
+      "url": "/game/science-media/08EVL10.flac",
+      "duration": 5.173696145124716,
+      "source": "extracted/resources/Adi410Sci65/SIMUL.ITK/08EVL10.VMD",
+      "sha256": "f9b1b16be1dc6ee78c6301ace351788fe9612db5b447d46f38b90c57b9415b20"
+    },
+    "08EVL11": {
+      "url": "/game/science-media/08EVL11.flac",
+      "duration": 4.506122448979592,
+      "source": "extracted/resources/Adi410Sci65/SIMUL.ITK/08EVL11.VMD",
+      "sha256": "051e1e1ca1be7351d2e2397fadba6d86085212a60e6d3c05a3b006b3c0a838f2"
+    },
+    "08EVL20": {
+      "url": "/game/science-media/08EVL20.flac",
+      "duration": 4.839909297052154,
+      "source": "extracted/resources/Adi410Sci65/SIMUL.ITK/08EVL20.VMD",
+      "sha256": "4bbccb4f213b2947c5b25c748e7a8520679edf82f4764a402261432229c9fa76"
+    },
+    "08EVL21": {
+      "url": "/game/science-media/08EVL21.flac",
+      "duration": 5.090249433106576,
+      "source": "extracted/resources/Adi410Sci65/SIMUL.ITK/08EVL21.VMD",
+      "sha256": "46fcddf60a0464df9f541b01391f3234fa129a36c1343e3c37626abad39ee8df"
+    },
+    "08EVL30": {
+      "url": "/game/science-media/08EVL30.flac",
+      "duration": 4.172335600907029,
+      "source": "extracted/resources/Adi410Sci65/SIMUL.ITK/08EVL30.VMD",
+      "sha256": "dc216fcd8bf2804afd876b5ecb4728a85d7a09295349d9bb691e4a6c890f3373"
+    },
+    "08EVL31": {
+      "url": "/game/science-media/08EVL31.flac",
+      "duration": 3.5882086167800455,
+      "source": "extracted/resources/Adi410Sci65/SIMUL.ITK/08EVL31.VMD",
+      "sha256": "5872290a09c88ffdbb6bd4e8c2a7f26f79019867dd191f29962cccdf2766c481"
+    },
+    "08WLC2O": {
+      "url": "/game/science-media/08WLC2O.flac",
+      "duration": 11.932879818594104,
+      "source": "extracted/resources/Adi410Sci65/SIMUL.ITK/08WLC2O.VMD",
+      "sha256": "4bb258a1935f6d62ce459c4ddcda1485966e3befc4d060b889fb6500b80a4b8d"
+    },
+    "08WLC5N0": {
+      "url": "/game/science-media/08WLC5N0.flac",
+      "duration": 15.103854875283446,
+      "source": "extracted/resources/Adi410Sci65/SIMUL.ITK/08WLC5N0.VMD",
+      "sha256": "a61aa6fcd5bf2b148f1097a09bf65eda173d6854c3a1845e70c271ede387cef7"
+    },
+    "08WLC5N1": {
+      "url": "/game/science-media/08WLC5N1.flac",
+      "duration": 10.263945578231292,
+      "source": "extracted/resources/Adi410Sci65/SIMUL.ITK/08WLC5N1.VMD",
+      "sha256": "3bb05c3772205da106b5b1f37cb812e1d86c29bd38ee8b96c4e5898d8eb2d3c0"
+    },
+    "08WLC6N0": {
+      "url": "/game/science-media/08WLC6N0.flac",
+      "duration": 18.107936507936508,
+      "source": "extracted/resources/Adi410Sci65/SIMUL.ITK/08WLC6N0.VMD",
+      "sha256": "2557bfb1b805957fcba8a4a38da2a5eb06b4e14b4a0f299f8459250d7a23849a"
+    },
+    "08WLC6N1": {
+      "url": "/game/science-media/08WLC6N1.flac",
+      "duration": 11.014965986394557,
+      "source": "extracted/resources/Adi410Sci65/SIMUL.ITK/08WLC6N1.VMD",
+      "sha256": "fca569e0605a694838396b373d0e39e8a7bc2d77ea50f1961813ee0bf2523050"
+    },
+    "09EVL10": {
+      "url": "/game/science-media/09EVL10.flac",
+      "duration": 5.340589569160998,
+      "source": "extracted/resources/Adi410Sci65/SIMUL.ITK/09EVL10.VMD",
+      "sha256": "011071f004a6ff7f90c4af3199b206dbff23d5b1ed353e7e0cb2a8a79945f535"
+    },
+    "09EVL11": {
+      "url": "/game/science-media/09EVL11.flac",
+      "duration": 6.091609977324263,
+      "source": "extracted/resources/Adi410Sci65/SIMUL.ITK/09EVL11.VMD",
+      "sha256": "b2aa6fec9fe58bafd66bcab9109341c56d1c6418b7a04c7cc73d6a7fd12d1dce"
+    },
+    "09EVL20": {
+      "url": "/game/science-media/09EVL20.flac",
+      "duration": 4.923356009070295,
+      "source": "extracted/resources/Adi410Sci65/SIMUL.ITK/09EVL20.VMD",
+      "sha256": "e307a7a545f0dbdca2cf3457063dc0103ba77b521b95406108ca5a0e126e79dd"
+    },
+    "09EVL21": {
+      "url": "/game/science-media/09EVL21.flac",
+      "duration": 5.757823129251701,
+      "source": "extracted/resources/Adi410Sci65/SIMUL.ITK/09EVL21.VMD",
+      "sha256": "f752762489a2ffab6ea1504517868ecac9318c59edb6b2f30c7a9f1f04352f88"
+    },
+    "09EVL30": {
+      "url": "/game/science-media/09EVL30.flac",
+      "duration": 7.259863945578231,
+      "source": "extracted/resources/Adi410Sci65/SIMUL.ITK/09EVL30.VMD",
+      "sha256": "1e6d8b224f4195c9ca2c657be83a0aea74fb95d0e341e2c2d0490b5c1da2284b"
+    },
+    "09EVL31": {
+      "url": "/game/science-media/09EVL31.flac",
+      "duration": 6.592290249433106,
+      "source": "extracted/resources/Adi410Sci65/SIMUL.ITK/09EVL31.VMD",
+      "sha256": "edccedbc7c7d04e8c4c4ed4f8e1500a46f63d66d34f05af67683eac1b4f69ff6"
+    },
+    "09WLC2O": {
+      "url": "/game/science-media/09WLC2O.flac",
+      "duration": 20.360997732426306,
+      "source": "extracted/resources/Adi410Sci65/SIMUL.ITK/09WLC2O.VMD",
+      "sha256": "a814d180987d5f7948daf1b696268704eebf59a2a650aca0175f980e085d725b"
+    },
+    "09WLC5N0": {
+      "url": "/game/science-media/09WLC5N0.flac",
+      "duration": 16.689342403628117,
+      "source": "extracted/resources/Adi410Sci65/SIMUL.ITK/09WLC5N0.VMD",
+      "sha256": "0a612f3785ad74395064f04de9e7997bf8b552bb86bb9e74a22f2eda05d95f70"
+    },
+    "09WLC6N0": {
+      "url": "/game/science-media/09WLC6N0.flac",
+      "duration": 13.184580498866213,
+      "source": "extracted/resources/Adi410Sci65/SIMUL.ITK/09WLC6N0.VMD",
+      "sha256": "ea5e8a8d943af5a982460e42af7f3df6e3b7e676ca9b64c615ce815a23ba0107"
+    },
+    "11EVL10": {
+      "url": "/game/science-media/11EVL10.flac",
+      "duration": 3.838548752834467,
+      "source": "extracted/resources/Adi410Sci43/SIMUL.ITK/11EVL10.VMD",
+      "sha256": "eba9392599b7af0f8cdd3fd9badf33d37833ddf4fdadda4502fd6484be739a53"
+    },
+    "11EVL11": {
+      "url": "/game/science-media/11EVL11.flac",
+      "duration": 8.4281179138322,
+      "source": "extracted/resources/Adi410Sci43/SIMUL.ITK/11EVL11.VMD",
+      "sha256": "92837a92845b7b0506a27657d2ae25fcfdd81368eea0026848ed805a26eda1c6"
+    },
+    "11EVL20": {
+      "url": "/game/science-media/11EVL20.flac",
+      "duration": 4.756462585034013,
+      "source": "extracted/resources/Adi410Sci43/SIMUL.ITK/11EVL20.VMD",
+      "sha256": "2cde851788654509b5a3b31e4c328b8776deb3d9450638123bb2e13e6017c089"
+    },
+    "11EVL21": {
+      "url": "/game/science-media/11EVL21.flac",
+      "duration": 7.843990929705216,
+      "source": "extracted/resources/Adi410Sci43/SIMUL.ITK/11EVL21.VMD",
+      "sha256": "5a96017cc4e31604449b04109751f812144f5e636158931c50ab57577237d7ac"
+    },
+    "11EVL30": {
+      "url": "/game/science-media/11EVL30.flac",
+      "duration": 5.340589569160998,
+      "source": "extracted/resources/Adi410Sci43/SIMUL.ITK/11EVL30.VMD",
+      "sha256": "e18cb994fb7f57dbf49bb663133e83b947f70a1efe66e8e83158d28cc37e60d6"
+    },
+    "11EVL31": {
+      "url": "/game/science-media/11EVL31.flac",
+      "duration": 6.508843537414966,
+      "source": "extracted/resources/Adi410Sci43/SIMUL.ITK/11EVL31.VMD",
+      "sha256": "deb758c56e3b159bfa9920013fcf8088ca9f9a7b6edd4a301d407a1132226c20"
+    },
+    "11WLC2O": {
+      "url": "/game/science-media/11WLC2O.flac",
+      "duration": 22.947845804988663,
+      "source": "extracted/resources/Adi410Sci43/SIMUL.ITK/11WLC2O.VMD",
+      "sha256": "1d42f477778dcd916e8e2d89e55e63e791ac0b44224a4f8b7a1a5513af5b29b5"
+    },
+    "11WLC3N0": {
+      "url": "/game/science-media/11WLC3N0.flac",
+      "duration": 17.02312925170068,
+      "source": "extracted/resources/Adi410Sci43/SIMUL.ITK/11WLC3N0.VMD",
+      "sha256": "2c6bae2bb0182f3291bcdc7beb102c1ce92831d59ac4ce2fd043c64658dd4008"
+    },
+    "11WLC3N1": {
+      "url": "/game/science-media/11WLC3N1.flac",
+      "duration": 17.440362811791385,
+      "source": "extracted/resources/Adi410Sci43/SIMUL.ITK/11WLC3N1.VMD",
+      "sha256": "f2262d878684560d3db57b95237a30cd0a563590d61550eb06040658cbd7aa5f"
+    },
+    "11WLC3N2": {
+      "url": "/game/science-media/11WLC3N2.flac",
+      "duration": 4.839909297052154,
+      "source": "extracted/resources/Adi410Sci43/SIMUL.ITK/11WLC3N2.VMD",
+      "sha256": "3e577aa223e40e40995201f97d001f95bb04c69edec2e35fce1b150e35c90652"
+    },
+    "11WLC4N0": {
+      "url": "/game/science-media/11WLC4N0.flac",
+      "duration": 25.45124716553288,
+      "source": "extracted/resources/Adi410Sci43/SIMUL.ITK/11WLC4N0.VMD",
+      "sha256": "8f926e76057758ef8c776d1e18dce165ed979756f38dac04e5bcc31bb0026557"
+    },
+    "11WLC4N1": {
+      "url": "/game/science-media/11WLC4N1.flac",
+      "duration": 17.690702947845804,
+      "source": "extracted/resources/Adi410Sci43/SIMUL.ITK/11WLC4N1.VMD",
+      "sha256": "c318e1469428b103d27220b5462c29cfaf6a639b9055dd8a228908ed465a9486"
+    },
+    "11WLC4N2": {
+      "url": "/game/science-media/11WLC4N2.flac",
+      "duration": 4.839909297052154,
+      "source": "extracted/resources/Adi410Sci43/SIMUL.ITK/11WLC4N2.VMD",
+      "sha256": "3e577aa223e40e40995201f97d001f95bb04c69edec2e35fce1b150e35c90652"
+    },
+    "12EVL10": {
+      "url": "/game/science-media/12EVL10.flac",
+      "duration": 3.3378684807256236,
+      "source": "extracted/resources/Adi410Sci65/SIMUL.ITK/12EVL10.VMD",
+      "sha256": "48177ccf1647e2e71e0db223152794d9132fa247a19ded8ec899a098e479d3ae"
+    },
+    "12EVL11": {
+      "url": "/game/science-media/12EVL11.flac",
+      "duration": 4.005442176870749,
+      "source": "extracted/resources/Adi410Sci65/SIMUL.ITK/12EVL11.VMD",
+      "sha256": "ce635d7cdfbe8f05ba0a77fa7b825aa61996b1588addb3b2b9324e608e23417c"
+    },
+    "12EVL20": {
+      "url": "/game/science-media/12EVL20.flac",
+      "duration": 3.5882086167800455,
+      "source": "extracted/resources/Adi410Sci65/SIMUL.ITK/12EVL20.VMD",
+      "sha256": "9b93eb27c526e61fc31211d36854339f85f4de5b01c4a8abcd203fc2b6798958"
+    },
+    "12EVL21": {
+      "url": "/game/science-media/12EVL21.flac",
+      "duration": 2.419954648526077,
+      "source": "extracted/resources/Adi410Sci65/SIMUL.ITK/12EVL21.VMD",
+      "sha256": "ab3c522d69e91331e0a56aec47795b59bc3f0100a98e91fbf5de9aea7ab2a14c"
+    },
+    "12EVL30": {
+      "url": "/game/science-media/12EVL30.flac",
+      "duration": 3.3378684807256236,
+      "source": "extracted/resources/Adi410Sci65/SIMUL.ITK/12EVL30.VMD",
+      "sha256": "e35c8e0e8ccb054e15ad0c83eba1a053c07f9e9efae6e15b4f8cd9cbf7d5450a"
+    },
+    "12EVL31": {
+      "url": "/game/science-media/12EVL31.flac",
+      "duration": 3.5047619047619047,
+      "source": "extracted/resources/Adi410Sci65/SIMUL.ITK/12EVL31.VMD",
+      "sha256": "6e04517f457133e1a50d0e8f0142a1697aa56b7ad20cf1a5a44aad7c681ed16b"
+    },
+    "12WLC2O": {
+      "url": "/game/science-media/12WLC2O.flac",
+      "duration": 19.526530612244898,
+      "source": "extracted/resources/Adi410Sci65/SIMUL.ITK/12WLC2O.VMD",
+      "sha256": "5a4c34b87bc8ed408ef69a9281e92992539193c059775460e09b92fcb6fba630"
+    },
+    "12WLC3N0": {
+      "url": "/game/science-media/12WLC3N0.flac",
+      "duration": 16.355555555555554,
+      "source": "extracted/resources/Adi410Sci65/SIMUL.ITK/12WLC3N0.VMD",
+      "sha256": "d7ce106f3ccfaf0607b2fd7d45a29263b9892e135505379c6c87019b68c2ab44"
+    },
+    "12WLC3N1": {
+      "url": "/game/science-media/12WLC3N1.flac",
+      "duration": 14.770068027210884,
+      "source": "extracted/resources/Adi410Sci65/SIMUL.ITK/12WLC3N1.VMD",
+      "sha256": "318df2315c36ba99d0beddfeea4baa825dfcac836872cf79da4fb0948d7af1dd"
+    },
+    "12WLC4N0": {
+      "url": "/game/science-media/12WLC4N0.flac",
+      "duration": 10.681179138321996,
+      "source": "extracted/resources/Adi410Sci65/SIMUL.ITK/12WLC4N0.VMD",
+      "sha256": "93f9c623364a570cedd65053828b6e9150b26b8aca5a3d78d18a3be1b724fe60"
+    },
+    "12WLC4N1": {
+      "url": "/game/science-media/12WLC4N1.flac",
+      "duration": 16.021768707482995,
+      "source": "extracted/resources/Adi410Sci65/SIMUL.ITK/12WLC4N1.VMD",
+      "sha256": "e1886abd88cb5f63e44d693317077ffd52c5e8733c0f2d64bc4d3b89e6878623"
+    },
+    "12WLC5N0": {
+      "url": "/game/science-media/12WLC5N0.flac",
+      "duration": 10.681179138321996,
+      "source": "extracted/resources/Adi410Sci65/SIMUL.ITK/12WLC5N0.VMD",
+      "sha256": "93f9c623364a570cedd65053828b6e9150b26b8aca5a3d78d18a3be1b724fe60"
+    },
+    "12WLC5N1": {
+      "url": "/game/science-media/12WLC5N1.flac",
+      "duration": 16.021768707482995,
+      "source": "extracted/resources/Adi410Sci65/SIMUL.ITK/12WLC5N1.VMD",
+      "sha256": "e1886abd88cb5f63e44d693317077ffd52c5e8733c0f2d64bc4d3b89e6878623"
+    },
+    "12WLC6N0": {
+      "url": "/game/science-media/12WLC6N0.flac",
+      "duration": 19.359637188208616,
+      "source": "extracted/resources/Adi410Sci65/SIMUL.ITK/12WLC6N0.VMD",
+      "sha256": "ebded3765ce438f510eb1f4aab8770ef4aa28ce5c665992b6f2c45068ef2d689"
+    },
+    "12WLC6N1": {
+      "url": "/game/science-media/12WLC6N1.flac",
+      "duration": 10.013605442176871,
+      "source": "extracted/resources/Adi410Sci65/SIMUL.ITK/12WLC6N1.VMD",
+      "sha256": "f26fe37dc673953890fec258d8c3f35424dc34ca4fa3b1e41562abcbe34f429d"
+    },
+    "13A1": {
+      "url": "/game/science-media/13A1.flac",
+      "duration": 19.192743764172334,
+      "source": "extracted/resources/Adi410Sci43/SIMUL.ITK/13A1.VMD",
+      "sha256": "f3345fd5a6f641258bc297bc7c7e9e933aef779fedeb54c5e4b0f4bc37107ccd"
+    },
+    "13EVL10": {
+      "url": "/game/science-media/13EVL10.flac",
+      "duration": 3.5047619047619047,
+      "source": "extracted/resources/Adi410Sci43/SIMUL.ITK/13EVL10.VMD",
+      "sha256": "f53240048da6a4e7c2f0f970cc717bc822d4e2128a2c53041a4d31de47fbe8b4"
+    },
+    "13EVL11": {
+      "url": "/game/science-media/13EVL11.flac",
+      "duration": 6.341950113378685,
+      "source": "extracted/resources/Adi410Sci43/SIMUL.ITK/13EVL11.VMD",
+      "sha256": "9892de379785bd5f53c3f98b5a09d4bdc0a305521b605602d4b66578013d6b9a"
+    },
+    "13EVL20": {
+      "url": "/game/science-media/13EVL20.flac",
+      "duration": 4.5895691609977325,
+      "source": "extracted/resources/Adi410Sci43/SIMUL.ITK/13EVL20.VMD",
+      "sha256": "6b9df01fdcda4dd979877cd847eb87c3af9986c02518739cf89c3373e0f5bb75"
+    },
+    "13EVL21": {
+      "url": "/game/science-media/13EVL21.flac",
+      "duration": 5.340589569160998,
+      "source": "extracted/resources/Adi410Sci43/SIMUL.ITK/13EVL21.VMD",
+      "sha256": "11035b08f06f82d6879beaee584cc0e39b58cf9488e9f31fe73ecb7d9c0dd3b2"
+    },
+    "13EVL30": {
+      "url": "/game/science-media/13EVL30.flac",
+      "duration": 5.173696145124716,
+      "source": "extracted/resources/Adi410Sci43/SIMUL.ITK/13EVL30.VMD",
+      "sha256": "4db14e2ed9c84c9a0a758003884b34042fd47e2346efdc7c5e63bf29e0c83554"
+    },
+    "13EVL31": {
+      "url": "/game/science-media/13EVL31.flac",
+      "duration": 5.090249433106576,
+      "source": "extracted/resources/Adi410Sci43/SIMUL.ITK/13EVL31.VMD",
+      "sha256": "635040ba45b2cb9f854a0123eed5ec35d944d92906893cf2b3258980d55e38c0"
+    },
+    "13WLC2O": {
+      "url": "/game/science-media/13WLC2O.flac",
+      "duration": 13.351473922902494,
+      "source": "extracted/resources/Adi410Sci43/SIMUL.ITK/13WLC2O.VMD",
+      "sha256": "c459e81c325717e710407178edc0c7e2f8fff17568cd04fc96aa57547212f0a9"
+    },
+    "13WLC3N0": {
+      "url": "/game/science-media/13WLC3N0.flac",
+      "duration": 14.770068027210884,
+      "source": "extracted/resources/Adi410Sci43/SIMUL.ITK/13WLC3N0.VMD",
+      "sha256": "59ae91adc271a9bc3909e06d0fd1375f65e45322955c4502b454a1b0a0fcbb7d"
+    },
+    "13WLC3N1": {
+      "url": "/game/science-media/13WLC3N1.flac",
+      "duration": 19.9437641723356,
+      "source": "extracted/resources/Adi410Sci43/SIMUL.ITK/13WLC3N1.VMD",
+      "sha256": "bc8d1952c0d52398a0c8ef841777f33b06d54a0be03f705be58187885f5813db"
+    },
+    "13WLC4N0": {
+      "url": "/game/science-media/13WLC4N0.flac",
+      "duration": 20.277551020408165,
+      "source": "extracted/resources/Adi410Sci43/SIMUL.ITK/13WLC4N0.VMD",
+      "sha256": "e23e369cadc395bf4638e2a3cad50dd81b9f85a279fa6cc98609a132dffed0f2"
+    },
+    "13WLC4N1": {
+      "url": "/game/science-media/13WLC4N1.flac",
+      "duration": 11.014965986394557,
+      "source": "extracted/resources/Adi410Sci43/SIMUL.ITK/13WLC4N1.VMD",
+      "sha256": "8eb1d49da511f5b27fab9e3e43140d10260fc4ac2f772f2cf131843bfc386252"
+    },
+    "14ASOL1": {
+      "url": "/game/science-media/14ASOL1.flac",
+      "duration": 1.41859410430839,
+      "source": "extracted/resources/Adi410Sci43/SIMUL.ITK/14ASOL1.VMD",
+      "sha256": "ce800903eddc9ffa4637561873ec5c6ac19da1f6da65d6e7dd929119c1cc3b9e"
+    },
+    "14ASOL2": {
+      "url": "/game/science-media/14ASOL2.flac",
+      "duration": 2.83718820861678,
+      "source": "extracted/resources/Adi410Sci43/SIMUL.ITK/14ASOL2.VMD",
+      "sha256": "7e9365e2b22849067c1b1e19a78c2cd4456d8ff8f2ccb774b3b5160cd75facf3"
+    },
+    "14ASOL3": {
+      "url": "/game/science-media/14ASOL3.flac",
+      "duration": 2.253061224489796,
+      "source": "extracted/resources/Adi410Sci43/SIMUL.ITK/14ASOL3.VMD",
+      "sha256": "15b77cfc22d63f0d15fb1e1efed033b8c14fd25662f52c0cc1e17f91bca6f951"
+    },
+    "14EVL10": {
+      "url": "/game/science-media/14EVL10.flac",
+      "duration": 3.1709750566893424,
+      "source": "extracted/resources/Adi410Sci43/SIMUL.ITK/14EVL10.VMD",
+      "sha256": "5ab21cd8da243627cdaea2fc1466dd5b019f8e7cf31776222adccac1b18d0e33"
+    },
+    "14EVL11": {
+      "url": "/game/science-media/14EVL11.flac",
+      "duration": 3.254421768707483,
+      "source": "extracted/resources/Adi410Sci43/SIMUL.ITK/14EVL11.VMD",
+      "sha256": "95016471177b748f5afa3b6175ec14abd289bacf183d011cc8148f83e780f59b"
+    },
+    "14EVL20": {
+      "url": "/game/science-media/14EVL20.flac",
+      "duration": 4.339229024943311,
+      "source": "extracted/resources/Adi410Sci43/SIMUL.ITK/14EVL20.VMD",
+      "sha256": "ab2079eedd657e52120f57e555e2947701c453239a5c5be34922a3afe58085f4"
+    },
+    "14EVL21": {
+      "url": "/game/science-media/14EVL21.flac",
+      "duration": 3.254421768707483,
+      "source": "extracted/resources/Adi410Sci43/SIMUL.ITK/14EVL21.VMD",
+      "sha256": "43913b1401b77163733ac1f98d63caedb8ff42ff7e617baec9064d1c12eec80a"
+    },
+    "14EVL30": {
+      "url": "/game/science-media/14EVL30.flac",
+      "duration": 3.3378684807256236,
+      "source": "extracted/resources/Adi410Sci43/SIMUL.ITK/14EVL30.VMD",
+      "sha256": "396cb3d0bbdb02493ed51f0698c61ab3505fdec61420fa8ad8e6bcd07b05cb68"
+    },
+    "14EVL31": {
+      "url": "/game/science-media/14EVL31.flac",
+      "duration": 4.172335600907029,
+      "source": "extracted/resources/Adi410Sci43/SIMUL.ITK/14EVL31.VMD",
+      "sha256": "c31b12e0068163f1cc2db74a6f921ad482f6d6e518793c1805b9e6718a2fbb73"
+    },
+    "14SOL1": {
+      "url": "/game/science-media/14SOL1.flac",
+      "duration": 3.0875283446712016,
+      "source": "extracted/resources/Adi410Sci43/SIMUL.ITK/14SOL1.VMD",
+      "sha256": "7ea92ddae40b22cb889a41fd71e950d22dd006aa25c46d26b870f074ca51312b"
+    },
+    "14SOL2": {
+      "url": "/game/science-media/14SOL2.flac",
+      "duration": 3.1709750566893424,
+      "source": "extracted/resources/Adi410Sci43/SIMUL.ITK/14SOL2.VMD",
+      "sha256": "831d687267a592b53981ab5215ace4ba83b3b206a4ecdc77a24dd05442a7a268"
+    },
+    "14SOL3": {
+      "url": "/game/science-media/14SOL3.flac",
+      "duration": 2.253061224489796,
+      "source": "extracted/resources/Adi410Sci43/SIMUL.ITK/14SOL3.VMD",
+      "sha256": "b747e2a4de51c8b48a2344c27084be4297966586bca2d0c3eeaf54d3b668e1d4"
+    },
+    "14WLC2O": {
+      "url": "/game/science-media/14WLC2O.flac",
+      "duration": 24.950566893424035,
+      "source": "extracted/resources/Adi410Sci43/SIMUL.ITK/14WLC2O.VMD",
+      "sha256": "d990bed9ee2a3aa5a69eb62440ad4243859e147f512cab80d804f98ecdd5535d"
+    },
+    "14WLC3N0": {
+      "url": "/game/science-media/14WLC3N0.flac",
+      "duration": 13.685260770975058,
+      "source": "extracted/resources/Adi410Sci43/SIMUL.ITK/14WLC3N0.VMD",
+      "sha256": "dd43014a638b65e73020cc123f22963b078bf994a946ff88e9f641cf13aac97e"
+    },
+    "14WLC3N1": {
+      "url": "/game/science-media/14WLC3N1.flac",
+      "duration": 16.105215419501135,
+      "source": "extracted/resources/Adi410Sci43/SIMUL.ITK/14WLC3N1.VMD",
+      "sha256": "60ffac4ae266ce938eece8bc070089114cd7e166aaa13beac9fbacb6620a8137"
+    },
+    "14WLC4N0": {
+      "url": "/game/science-media/14WLC4N0.flac",
+      "duration": 8.845351473922902,
+      "source": "extracted/resources/Adi410Sci43/SIMUL.ITK/14WLC4N0.VMD",
+      "sha256": "1b091dc73687371bf9db8127ef1b8fa1e99a25f2ead036aeba820e4f65dd9b61"
+    },
+    "14WLC4N1": {
+      "url": "/game/science-media/14WLC4N1.flac",
+      "duration": 14.519727891156462,
+      "source": "extracted/resources/Adi410Sci43/SIMUL.ITK/14WLC4N1.VMD",
+      "sha256": "46a36fe7494def44641b003da4d87eff1ebb5c54f856d2b07579b09c1887c294"
+    },
+    "15EVL10": {
+      "url": "/game/science-media/15EVL10.flac",
+      "duration": 5.006802721088436,
+      "source": "extracted/resources/Adi410Sci43/SIMUL.ITK/15EVL10.VMD",
+      "sha256": "42cded95e3d220b26d177f9da30d367deaed8d03c74ff32b03888adb4b5b0d6d"
+    },
+    "15EVL11": {
+      "url": "/game/science-media/15EVL11.flac",
+      "duration": 4.422675736961451,
+      "source": "extracted/resources/Adi410Sci43/SIMUL.ITK/15EVL11.VMD",
+      "sha256": "ceb1082f16d39e36d5bed34a36c195210c0ec26f490fe0affdef0ca447a84d0e"
+    },
+    "15EVL20": {
+      "url": "/game/science-media/15EVL20.flac",
+      "duration": 6.341950113378685,
+      "source": "extracted/resources/Adi410Sci43/SIMUL.ITK/15EVL20.VMD",
+      "sha256": "11523cc53aaf9cbefd20733d68880b9470903628bb5b19a835fba74ecebf3b99"
+    },
+    "15EVL21": {
+      "url": "/game/science-media/15EVL21.flac",
+      "duration": 3.5047619047619047,
+      "source": "extracted/resources/Adi410Sci43/SIMUL.ITK/15EVL21.VMD",
+      "sha256": "f75304767f50b4c97aca0c4b218fc4771836917f9c89ca85194b8498c228a696"
+    },
+    "15EVL30": {
+      "url": "/game/science-media/15EVL30.flac",
+      "duration": 3.838548752834467,
+      "source": "extracted/resources/Adi410Sci43/SIMUL.ITK/15EVL30.VMD",
+      "sha256": "ae1f841efeeb6b60819026ce4216e08704578c7e75ff4cbc72fbe21770fbe898"
+    },
+    "15EVL31": {
+      "url": "/game/science-media/15EVL31.flac",
+      "duration": 4.673015873015873,
+      "source": "extracted/resources/Adi410Sci43/SIMUL.ITK/15EVL31.VMD",
+      "sha256": "5e7e319f55728fad4d25f0e38892f1d81611e5f25925799da7324ce1940cec18"
+    },
+    "15WLC2O": {
+      "url": "/game/science-media/15WLC2O.flac",
+      "duration": 16.93968253968254,
+      "source": "extracted/resources/Adi410Sci43/SIMUL.ITK/15WLC2O.VMD",
+      "sha256": "973cf09bfb1b96343f26094e9f43b86ec373e6e0f46bbd7c75dc519eca713bc7"
+    },
+    "15WLC3N0": {
+      "url": "/game/science-media/15WLC3N0.flac",
+      "duration": 12.517006802721088,
+      "source": "extracted/resources/Adi410Sci43/SIMUL.ITK/15WLC3N0.VMD",
+      "sha256": "f5544bd2c9a010aad8f4548fc8452922571698a76af8a8394f0af707115beb45"
+    },
+    "15WLC3N1": {
+      "url": "/game/science-media/15WLC3N1.flac",
+      "duration": 14.10249433106576,
+      "source": "extracted/resources/Adi410Sci43/SIMUL.ITK/15WLC3N1.VMD",
+      "sha256": "d36d686f358d5178b9ffb0f124fa8baa45598b9e1435c28ed5cdf62047ca2161"
+    },
+    "15WLC3N2": {
+      "url": "/game/science-media/15WLC3N2.flac",
+      "duration": 7.0095238095238095,
+      "source": "extracted/resources/Adi410Sci43/SIMUL.ITK/15WLC3N2.VMD",
+      "sha256": "4df288e23dee2ae95f6fe4511a77eba11edb9876cb27f6d169230dc3deee53f9"
+    },
+    "15WLC4N0": {
+      "url": "/game/science-media/15WLC4N0.flac",
+      "duration": 14.269387755102041,
+      "source": "extracted/resources/Adi410Sci43/SIMUL.ITK/15WLC4N0.VMD",
+      "sha256": "ce0dd3216d5d5e9e24b402de52cd594b0373b6d388d0695fb3b238b8811810be"
+    },
+    "15WLC4N1": {
+      "url": "/game/science-media/15WLC4N1.flac",
+      "duration": 6.842630385487529,
+      "source": "extracted/resources/Adi410Sci43/SIMUL.ITK/15WLC4N1.VMD",
+      "sha256": "eb7b9d321ad82d6eda451eb06f4d068bf0af9360e33f847ba5b3a0ff8e1a7e27"
+    },
+    "CHIMAMB1": {
+      "url": "/game/science-media/CHIMAMB1.flac",
+      "duration": 4.839909297052154,
+      "source": "extracted/resources/Adi410Sci65/SCIENCE.ITK/CHIMAMB1.VMD",
+      "sha256": "9ecf5138f97200850ed2be9d2a049c71b97afe008706dbddc0b398417c4b2456"
+    },
+    "CHIMAMB2": {
+      "url": "/game/science-media/CHIMAMB2.flac",
+      "duration": 6.175056689342403,
+      "source": "extracted/resources/Adi410Sci65/SCIENCE.ITK/CHIMAMB2.VMD",
+      "sha256": "3dc4d4e58f29015d84741143b883b8f65b90007d43039a5f4f06aac54cf9f893"
+    },
+    "CHIMAMB4": {
+      "url": "/game/science-media/CHIMAMB4.flac",
+      "duration": 6.175056689342403,
+      "source": "extracted/resources/Adi410Sci65/SCIENCE.ITK/CHIMAMB4.VMD",
+      "sha256": "f8c1c1e99b0567bb94656bc893b2d2fc5cf84c7be7cd1318f3a5d747db117aff"
+    },
+    "CHIMAMB5": {
+      "url": "/game/science-media/CHIMAMB5.flac",
+      "duration": 6.592290249433106,
+      "source": "extracted/resources/Adi410Sci65/SCIENCE.ITK/CHIMAMB5.VMD",
+      "sha256": "ebc0156bf926df9baceb397ebf5f737db57bfd9d3fa4375c446cf9b53cc57252"
+    },
+    "CHIMAMB6": {
+      "url": "/game/science-media/CHIMAMB6.flac",
+      "duration": 2.253061224489796,
+      "source": "extracted/resources/Adi410Sci65/SCIENCE.ITK/CHIMAMB6.VMD",
+      "sha256": "ed42bc5953dc11b805e11b239f28b63cfe96edfdddebaed26cdb2793f6fc314c"
+    },
+    "CHIMAMB7": {
+      "url": "/game/science-media/CHIMAMB7.flac",
+      "duration": 4.422675736961451,
+      "source": "extracted/resources/Adi410Sci65/SCIENCE.ITK/CHIMAMB7.VMD",
+      "sha256": "b374cdd033b77b3564087b3aeabb0cf0ef2c150b8b69a4b83fa4123c97b3a0fd"
+    },
+    "CHIMAMB8": {
+      "url": "/game/science-media/CHIMAMB8.flac",
+      "duration": 4.25578231292517,
+      "source": "extracted/resources/Adi410Sci65/SCIENCE.ITK/CHIMAMB8.VMD",
+      "sha256": "544d129c06a1344b947552a73e1e078b17e6efc0bcfe6dcf3c61de4dec67bd4d"
+    },
+    "CHIMLOOP": {
+      "url": "/game/science-media/CHIMLOOP.flac",
+      "duration": 20.694784580498865,
+      "source": "extracted/resources/Adi410Sci65/SCIENCE.ITK/CHIMLOOP.VMD",
+      "sha256": "2c0f4f1e920f3879ffc77a5446d1c468df68690c0b63ccb032d8aa132f436890"
+    },
+    "ELEAMB1": {
+      "url": "/game/science-media/ELEAMB1.flac",
+      "duration": 7.343310657596372,
+      "source": "extracted/resources/Adi410Sci65/SCIENCE.ITK/ELEAMB1.VMD",
+      "sha256": "92246c64cd6852e14351b2b26d3cc0c5b30dd4a3f5027c167c211432c51c3656"
+    },
+    "ELEAMB2": {
+      "url": "/game/science-media/ELEAMB2.flac",
+      "duration": 5.924716553287982,
+      "source": "extracted/resources/Adi410Sci65/SCIENCE.ITK/ELEAMB2.VMD",
+      "sha256": "c23d3681fdd1ad7796e8cd6aab08d7f0c258f78c0c6d459602971e51d8314997"
+    },
+    "ELEAMB3": {
+      "url": "/game/science-media/ELEAMB3.flac",
+      "duration": 2.7537414965986393,
+      "source": "extracted/resources/Adi410Sci65/SCIENCE.ITK/ELEAMB3.VMD",
+      "sha256": "e8cfdd3586a555849e7fba4fe10ac18b7e09c475432e1b20c694d0b93d3a9db4"
+    },
+    "ELEAMB4": {
+      "url": "/game/science-media/ELEAMB4.flac",
+      "duration": 1.835827664399093,
+      "source": "extracted/resources/Adi410Sci65/SCIENCE.ITK/ELEAMB4.VMD",
+      "sha256": "3c3f7d0153144f492e898cd306d70323b4dbdad3232f52d044e534236def46d7"
+    },
+    "ELEAMB5": {
+      "url": "/game/science-media/ELEAMB5.flac",
+      "duration": 1.3351473922902495,
+      "source": "extracted/resources/Adi410Sci65/SCIENCE.ITK/ELEAMB5.VMD",
+      "sha256": "8ef218e6ae086cde8ed16c2b544720398a7c98e728a1bd85f145bc1fcf8ae598"
+    },
+    "ELELOOP": {
+      "url": "/game/science-media/ELELOOP.flac",
+      "duration": 20.110657596371883,
+      "source": "extracted/resources/Adi410Sci65/SCIENCE.ITK/ELELOOP.VMD",
+      "sha256": "325bb29779b41c9279056176c05e4e0c762d40047deb6630c817576dda07a538"
+    },
+    "EXTAMB1": {
+      "url": "/game/science-media/EXTAMB1.flac",
+      "duration": 4.756462585034013,
+      "source": "extracted/resources/Adi410Sci65/SCIENCE.ITK/EXTAMB1.VMD",
+      "sha256": "11efdb66f04a96c103704f15d2193411b49d3557c3558e860080a5cdb3fceb5a"
+    },
+    "GEOAMB1": {
+      "url": "/game/science-media/GEOAMB1.flac",
+      "duration": 2.0027210884353743,
+      "source": "extracted/resources/Adi410Sci65/SCIENCE.ITK/GEOAMB1.VMD",
+      "sha256": "86b0f6c34b2a3c7797fb97c67e0eb4a24b4d2699ace072579b1e773084d1b9b4"
+    },
+    "GEOAMB2": {
+      "url": "/game/science-media/GEOAMB2.flac",
+      "duration": 3.4213151927437644,
+      "source": "extracted/resources/Adi410Sci65/SCIENCE.ITK/GEOAMB2.VMD",
+      "sha256": "3bba1663bba158cd66188974d239cd87c4ee5f8824a9f590ae997d3be2a4d1c2"
+    },
+    "GEOAMB3": {
+      "url": "/game/science-media/GEOAMB3.flac",
+      "duration": 3.838548752834467,
+      "source": "extracted/resources/Adi410Sci65/SCIENCE.ITK/GEOAMB3.VMD",
+      "sha256": "a184443afffa6b626aa99a3535ad913bc64f08d7ca55b62917949df74865ab97"
+    },
+    "GEOAMB4": {
+      "url": "/game/science-media/GEOAMB4.flac",
+      "duration": 2.9206349206349205,
+      "source": "extracted/resources/Adi410Sci65/SCIENCE.ITK/GEOAMB4.VMD",
+      "sha256": "8ab1ef2b48714582e7c5759a2c7f8c9e8e619c71034d7d092f915a0bba72bde4"
+    },
+    "GEOAMB5": {
+      "url": "/game/science-media/GEOAMB5.flac",
+      "duration": 1.835827664399093,
+      "source": "extracted/resources/Adi410Sci65/SCIENCE.ITK/GEOAMB5.VMD",
+      "sha256": "6be8d8327cc502ca202f32d3eaf1df02a4b18dc9a691df96b999138ebc98969c"
+    },
+    "GEOAMB6": {
+      "url": "/game/science-media/GEOAMB6.flac",
+      "duration": 5.841269841269841,
+      "source": "extracted/resources/Adi410Sci65/SCIENCE.ITK/GEOAMB6.VMD",
+      "sha256": "22c0b685c232f317a5fc92cd439ae673790d7e5317ba66074fec916fdd13f722"
+    },
+    "GEOLOOP": {
+      "url": "/game/science-media/GEOLOOP.flac",
+      "duration": 14.519727891156462,
+      "source": "extracted/resources/Adi410Sci65/SCIENCE.ITK/GEOLOOP.VMD",
+      "sha256": "0cd4150690c6c6582d3d15b8ea2ba6a4bfac08a557de8ba1959811960a1377e0"
+    },
+    "INTAMB1": {
+      "url": "/game/science-media/INTAMB1.flac",
+      "duration": 2.3365079365079366,
+      "source": "extracted/resources/Adi410Sci65/SCIENCE.ITK/INTAMB1.VMD",
+      "sha256": "7217a6f02f2cabbeafbb724f6d93ea3a48a64d6b07f9c9f080edadd47b1d41a1"
+    },
+    "INTAMB2": {
+      "url": "/game/science-media/INTAMB2.flac",
+      "duration": 2.670294784580499,
+      "source": "extracted/resources/Adi410Sci65/SCIENCE.ITK/INTAMB2.VMD",
+      "sha256": "61e4accbb262b79ce4ec994fe1c65bf1b169a7e1b5cced0c79eba022cba49a6f"
+    },
+    "INTAMB3": {
+      "url": "/game/science-media/INTAMB3.flac",
+      "duration": 2.0027210884353743,
+      "source": "extracted/resources/Adi410Sci65/SCIENCE.ITK/INTAMB3.VMD",
+      "sha256": "012025b9bd218b1f8dd5b11b29eaac7cac1f3516c5ec1722463a53a5a994b47f"
+    },
+    "INTAMB4": {
+      "url": "/game/science-media/INTAMB4.flac",
+      "duration": 3.838548752834467,
+      "source": "extracted/resources/Adi410Sci65/SCIENCE.ITK/INTAMB4.VMD",
+      "sha256": "b49944647419371739ad005cfc6f960d3307f29bda827b1d6de414c6fd16be63"
+    },
+    "PHYAMB1": {
+      "url": "/game/science-media/PHYAMB1.flac",
+      "duration": 12.350113378684807,
+      "source": "extracted/resources/Adi410Sci65/SCIENCE.ITK/PHYAMB1.VMD",
+      "sha256": "f3527428128ac6fceb6f00950da5641ad8f4926f65bf5b3947c87528cb14adf6"
+    },
+    "PHYAMB2": {
+      "url": "/game/science-media/PHYAMB2.flac",
+      "duration": 3.671655328798186,
+      "source": "extracted/resources/Adi410Sci65/SCIENCE.ITK/PHYAMB2.VMD",
+      "sha256": "284e4eaa996a124e1fd9f910393bca7b4cfaf3b840f6178186274d940cd0a6ed"
+    },
+    "PHYAMB3": {
+      "url": "/game/science-media/PHYAMB3.flac",
+      "duration": 5.340589569160998,
+      "source": "extracted/resources/Adi410Sci65/SCIENCE.ITK/PHYAMB3.VMD",
+      "sha256": "be1e23515b63d2304438da447df31bc258f0c4f982051694978b2588b148eeed"
+    },
+    "PHYAMB4": {
+      "url": "/game/science-media/PHYAMB4.flac",
+      "duration": 5.841269841269841,
+      "source": "extracted/resources/Adi410Sci65/SCIENCE.ITK/PHYAMB4.VMD",
+      "sha256": "7ee1ccc1421a8986a68f488bfa083598cfd41a6eec19c871440be6da4e15d5c7"
+    },
+    "PHYAMB5": {
+      "url": "/game/science-media/PHYAMB5.flac",
+      "duration": 3.254421768707483,
+      "source": "extracted/resources/Adi410Sci65/SCIENCE.ITK/PHYAMB5.VMD",
+      "sha256": "0e806f3cb59d7a5b45f1885e90ba34e906690a19fc065181d9f0614333ff3618"
+    },
+    "PHYAMB6": {
+      "url": "/game/science-media/PHYAMB6.flac",
+      "duration": 2.419954648526077,
+      "source": "extracted/resources/Adi410Sci65/SCIENCE.ITK/PHYAMB6.VMD",
+      "sha256": "dc56d6f29aec9bfde97ee963a6c17ebe579d6234801ae7afa92c5eb03878b902"
+    },
+    "PHYLOOP": {
+      "url": "/game/science-media/PHYLOOP.flac",
+      "duration": 22.029931972789115,
+      "source": "extracted/resources/Adi410Sci65/SCIENCE.ITK/PHYLOOP.VMD",
+      "sha256": "ad4efc8140270081b93541cab42448f452dbebddc4765c076b53d1d1ca031afa"
+    },
+    "SANTLOOP": {
+      "url": "/game/science-media/SANTLOOP.flac",
+      "duration": 26.035374149659862,
+      "source": "extracted/resources/Adi410Sci65/SCIENCE.ITK/SANTLOOP.VMD",
+      "sha256": "ed428a5cf1b13bcfc9dc68bd039a30846a6d30c676718abb5937d1b630d19154"
+    },
+    "VIEAMB1": {
+      "url": "/game/science-media/VIEAMB1.flac",
+      "duration": 2.586848072562358,
+      "source": "extracted/resources/Adi410Sci65/SCIENCE.ITK/VIEAMB1.VMD",
+      "sha256": "30f49565d65148946fbbb27431ace74b3ae1966e4709d1cbd5bde43cd169f9db"
+    },
+    "VIEAMB2": {
+      "url": "/game/science-media/VIEAMB2.flac",
+      "duration": 2.586848072562358,
+      "source": "extracted/resources/Adi410Sci65/SCIENCE.ITK/VIEAMB2.VMD",
+      "sha256": "35e31670d86d0f1451b9aaa9b6753fe1849e51c6e430cb32ba21fecf2d7f35ba"
+    },
+    "VIEAMB3": {
+      "url": "/game/science-media/VIEAMB3.flac",
+      "duration": 2.419954648526077,
+      "source": "extracted/resources/Adi410Sci65/SCIENCE.ITK/VIEAMB3.VMD",
+      "sha256": "6d142a95fdf8a7af7d4f9318529b95003607c3444b5c8e8e64ba35f98869af87"
+    },
+    "VIEAMB4": {
+      "url": "/game/science-media/VIEAMB4.flac",
+      "duration": 4.673015873015873,
+      "source": "extracted/resources/Adi410Sci65/SCIENCE.ITK/VIEAMB4.VMD",
+      "sha256": "4a49c26a4c255994526589f9ab15cb1808b7d523fa61fca3dfeb72dfa751d3f4"
+    },
+    "VIELOOP": {
+      "url": "/game/science-media/VIELOOP.flac",
+      "duration": 21.946485260770974,
+      "source": "extracted/resources/Adi410Sci65/SCIENCE.ITK/VIELOOP.VMD",
+      "sha256": "a9d7342da3c9dc96e6bc818d2054410e2128a7bc773d7060103f95534ccbe0c6"
+    },
+    "VUEXLOOP": {
+      "url": "/game/science-media/VUEXLOOP.flac",
+      "duration": 19.192743764172334,
+      "source": "extracted/resources/Adi410Sci65/SCIENCE.ITK/VUEXLOOP.VMD",
+      "sha256": "f3345fd5a6f641258bc297bc7c7e9e933aef779fedeb54c5e4b0f4bc37107ccd"
+    },
+    "VUINLOOP": {
+      "url": "/game/science-media/VUINLOOP.flac",
+      "duration": 19.192743764172334,
+      "source": "extracted/resources/Adi410Sci65/SCIENCE.ITK/VUINLOOP.VMD",
+      "sha256": "bab71ca972de5ce07bff134c119c6d0d52badd02fb50bb0b72ad761ec6a6a2e2"
+    },
+    "__ASOL1": {
+      "url": "/game/science-media/__ASOL1.flac",
+      "duration": 1.41859410430839,
+      "source": "extracted/resources/Adi410Sci65/SIMUL.ITK/__ASOL1.VMD",
+      "sha256": "fb02d12cf6ea2eb82af3f08822dac057a06e2167b0eb1fa99e388b899061ba07"
+    },
+    "__ASOL2": {
+      "url": "/game/science-media/__ASOL2.flac",
+      "duration": 3.0040816326530613,
+      "source": "extracted/resources/Adi410Sci65/SIMUL.ITK/__ASOL2.VMD",
+      "sha256": "fd189cdbbd07c2b4cc42bb5609a254ffacc648088f31dedcb83cea659ba8c252"
+    },
+    "__ASOL3": {
+      "url": "/game/science-media/__ASOL3.flac",
+      "duration": 2.586848072562358,
+      "source": "extracted/resources/Adi410Sci65/SIMUL.ITK/__ASOL3.VMD",
+      "sha256": "6e601ccadaff7e084361d6069ecaaecc88226ab83e067da0ee32a18b80658dd3"
+    },
+    "__SOL1": {
+      "url": "/game/science-media/__SOL1.flac",
+      "duration": 3.3378684807256236,
+      "source": "extracted/resources/Adi410Sci65/SIMUL.ITK/__SOL1.VMD",
+      "sha256": "4bffc3bca8070e82442302d9ded834436a8dea2fda9f4b64ff8eafc6e7edf342"
+    },
+    "__SOL2": {
+      "url": "/game/science-media/__SOL2.flac",
+      "duration": 3.1709750566893424,
+      "source": "extracted/resources/Adi410Sci65/SIMUL.ITK/__SOL2.VMD",
+      "sha256": "28d81d3c69c2ea2b452c4524cd13c0fc1003ba41e06e38ff846d5a5f0df4d060"
+    },
+    "__SOL3": {
+      "url": "/game/science-media/__SOL3.flac",
+      "duration": 3.0040816326530613,
+      "source": "extracted/resources/Adi410Sci65/SIMUL.ITK/__SOL3.VMD",
+      "sha256": "2f44c9ce2de143139298e038f7964953b30d85974ae2465832ccb4e832c4f3e8"
+    }
+  },
+  "animations": {
+    "CHIA": {
+      "width": 47,
+      "height": 41,
+      "origin": [
+        569,
+        316
+      ],
+      "frames": 8,
+      "fps": 12,
+      "source": "extracted/resources/Adi410Sci65/SCIENCE.ITK/CHIA.VMD",
+      "sha256": "f35a82582cafb8bbcd127d0ee6648df28ff4d66067dd00a6a42917fccd8ce589",
+      "url": "/game/science-media/CHIA.webp",
+      "duration": 0.64,
+      "sound": {
+        "url": "/game/science-media/CHIA.flac",
+        "duration": 1.3351473922902495,
+        "source": "extracted/resources/Adi410Sci65/SCIENCE.ITK/CHIA.VMW",
+        "sha256": "c7aa4b6d146f704ba77b0d47918be510a3f56f66c5aa31f6ed0848c6837f30fb"
+      }
+    },
+    "CHIB": {
+      "width": 63,
+      "height": 59,
+      "origin": [
+        191,
+        132
+      ],
+      "frames": 20,
+      "fps": 12,
+      "source": "extracted/resources/Adi410Sci65/SCIENCE.ITK/CHIB.VMD",
+      "sha256": "9224bb299a93db004aef9740b35eb93a57bc173d4eb7f08ee541711e3b1804cd",
+      "url": "/game/science-media/CHIB.webp",
+      "duration": 1.6,
+      "sound": {
+        "url": "/game/science-media/CHIB.flac",
+        "duration": 1.6689342403628118,
+        "source": "extracted/resources/Adi410Sci65/SCIENCE.ITK/CHIB.VMW",
+        "sha256": "a92599d1fd99dfda77a9a6d08727f67b5230eee76a8302ebc52ec254f5c1ebec"
+      }
+    },
+    "CHIC": {
+      "width": 183,
+      "height": 156,
+      "origin": [
+        327,
+        8
+      ],
+      "frames": 19,
+      "fps": 12,
+      "source": "extracted/resources/Adi410Sci65/SCIENCE.ITK/CHIC.VMD",
+      "sha256": "2bc06214fae2c51fc967405d381550de772f856dafd590832138c2cd145f5585",
+      "url": "/game/science-media/CHIC.webp",
+      "duration": 1.52
+    },
+    "CHID": {
+      "width": 81,
+      "height": 77,
+      "origin": [
+        0,
+        293
+      ],
+      "frames": 24,
+      "fps": 12,
+      "source": "extracted/resources/Adi410Sci65/SCIENCE.ITK/CHID.VMD",
+      "sha256": "695b49c528fdeb10aa9a2b833e469baac2708948cf23e431d361050188cbd8d1",
+      "url": "/game/science-media/CHID.webp",
+      "duration": 1.92,
+      "sound": {
+        "url": "/game/science-media/CHID.flac",
+        "duration": 2.0027210884353743,
+        "source": "extracted/resources/Adi410Sci65/SCIENCE.ITK/CHID.VMW",
+        "sha256": "4abde8d3360cb474ff9bb7efecec6e61217663c354b5f320a67e837e8608ec1b"
+      }
+    },
+    "ELEA": {
+      "width": 130,
+      "height": 81,
+      "origin": [
+        72,
+        20
+      ],
+      "frames": 19,
+      "fps": 12,
+      "source": "extracted/resources/Adi410Sci65/SCIENCE.ITK/ELEA.VMD",
+      "sha256": "3a1ca4c53a04adfb68ccba76c33bd946b4b846ab11dd675e144364ee46028fcb",
+      "url": "/game/science-media/ELEA.webp",
+      "duration": 1.52
+    },
+    "ELEB": {
+      "width": 140,
+      "height": 69,
+      "origin": [
+        379,
+        325
+      ],
+      "frames": 22,
+      "fps": 12,
+      "source": "extracted/resources/Adi410Sci65/SCIENCE.ITK/ELEB.VMD",
+      "sha256": "605d41b5e6fda0ef5a049ed53fb2092176d067ec23682c492e36e70b5dd89c7b",
+      "url": "/game/science-media/ELEB.webp",
+      "duration": 1.76,
+      "sound": {
+        "url": "/game/science-media/ELEB.flac",
+        "duration": 1.835827664399093,
+        "source": "extracted/resources/Adi410Sci65/SCIENCE.ITK/ELEB.VMW",
+        "sha256": "12f6f44689afd52d79985dd55f573b8922af11705ce7a91186be4a8ce586ce09"
+      }
+    },
+    "ELEC": {
+      "width": 66,
+      "height": 51,
+      "origin": [
+        398,
+        112
+      ],
+      "frames": 5,
+      "fps": 12,
+      "source": "extracted/resources/Adi410Sci65/SCIENCE.ITK/ELEC.VMD",
+      "sha256": "3999f955a5066b81188b28c72b247236e6283e121a9e017d7e4206de2f7deff5",
+      "url": "/game/science-media/ELEC.webp",
+      "duration": 0.4
+    },
+    "ELED": {
+      "width": 121,
+      "height": 49,
+      "origin": [
+        474,
+        340
+      ],
+      "frames": 13,
+      "fps": 12,
+      "source": "extracted/resources/Adi410Sci65/SCIENCE.ITK/ELED.VMD",
+      "sha256": "63372eea7e8b1ec4f645f74244bf61f55fd11c6b7151b93249108aae8d1a585a",
+      "url": "/game/science-media/ELED.webp",
+      "duration": 1.04,
+      "sound": {
+        "url": "/game/science-media/ELED.flac",
+        "duration": 1.3351473922902495,
+        "source": "extracted/resources/Adi410Sci65/SCIENCE.ITK/ELED.VMW",
+        "sha256": "3f0c2c32a330d94a853eb122acb429abf327cd918f462facb9d2c998d1c1cb0d"
+      }
+    },
+    "GEOA": {
+      "width": 218,
+      "height": 106,
+      "origin": [
+        253,
+        0
+      ],
+      "frames": 10,
+      "fps": 12,
+      "source": "extracted/resources/Adi410Sci65/SCIENCE.ITK/GEOA.VMD",
+      "sha256": "9b6fb54c029664788c7e8abdc3fbcdaf1d6927d6c18908ea97d90cf93af4b272",
+      "url": "/game/science-media/GEOA.webp",
+      "duration": 0.8
+    },
+    "GEOL1": {
+      "width": 640,
+      "height": 480,
+      "origin": [
+        0,
+        0
+      ],
+      "frames": 37,
+      "fps": 12,
+      "source": "extracted/resources/Adi410Sci65/SCIENCE.ITK/GEOL1.VMD",
+      "sha256": "8a072b4ce661f71153f5eb9431e81fff47aab5b4e9d51a0b74a1ec665b23eb46",
+      "url": "/game/science-media/GEOL1.webp",
+      "duration": 2.96,
+      "sound": {
+        "url": "/game/science-media/GEOL1.flac",
+        "duration": 3.0875283446712016,
+        "source": "extracted/resources/Adi410Sci65/SCIENCE.ITK/GEOL1.VMW",
+        "sha256": "c7ceacdac5b53c96dcf9aded875858c9ed7dd83d57e7316a90b461f5b3e3e73a"
+      }
+    },
+    "GEOL2": {
+      "width": 640,
+      "height": 480,
+      "origin": [
+        0,
+        0
+      ],
+      "frames": 61,
+      "fps": 12,
+      "source": "extracted/resources/Adi410Sci65/SCIENCE.ITK/GEOL2.VMD",
+      "sha256": "f662120ff91ebbd4153ce408a21f5b7082962f8008495ec51dc8ef04b021739a",
+      "url": "/game/science-media/GEOL2.webp",
+      "duration": 4.88,
+      "sound": {
+        "url": "/game/science-media/GEOL2.flac",
+        "duration": 5.67437641723356,
+        "source": "extracted/resources/Adi410Sci65/SCIENCE.ITK/GEOL2.VMW",
+        "sha256": "d559a17467cc29fdc59db2b652a01d8310f129f73eeafccba78c3863ec24cf57"
+      }
+    },
+    "GEOL3": {
+      "width": 640,
+      "height": 480,
+      "origin": [
+        0,
+        0
+      ],
+      "frames": 31,
+      "fps": 12,
+      "source": "extracted/resources/Adi410Sci65/SCIENCE.ITK/GEOL3.VMD",
+      "sha256": "5adc5c2ff744865954a588ab9fbfe6260a4c9b0b355361a2e12981294cd18749",
+      "url": "/game/science-media/GEOL3.webp",
+      "duration": 2.48,
+      "sound": {
+        "url": "/game/science-media/GEOL3.flac",
+        "duration": 2.586848072562358,
+        "source": "extracted/resources/Adi410Sci65/SCIENCE.ITK/GEOL3.VMW",
+        "sha256": "4de869eb5028715a7216169cb624026571bc967d9ccdb765f27f1327a94f89db"
+      }
+    },
+    "INTA": {
+      "width": 39,
+      "height": 197,
+      "origin": [
+        176,
+        0
+      ],
+      "frames": 18,
+      "fps": 12,
+      "source": "extracted/resources/Adi410Sci65/SCIENCE.ITK/INTA.VMD",
+      "sha256": "6ed339e2e3f47416ec91260ec9cf121d76e6d473857f741df9989d8f0c59fde0",
+      "url": "/game/science-media/INTA.webp",
+      "duration": 1.44,
+      "sound": {
+        "url": "/game/science-media/INTA.flac",
+        "duration": 1.5020408163265306,
+        "source": "extracted/resources/Adi410Sci65/SCIENCE.ITK/INTA.VMW",
+        "sha256": "ba09d6c9aa9d5d8f382e468d00b43c48a02294f1dde57063cc3d83dde1875ce2"
+      }
+    },
+    "INTB": {
+      "width": 88,
+      "height": 83,
+      "origin": [
+        545,
+        0
+      ],
+      "frames": 9,
+      "fps": 12,
+      "source": "extracted/resources/Adi410Sci65/SCIENCE.ITK/INTB.VMD",
+      "sha256": "b498d3f2908a5e0611be7e19a1c07a853c6da5ec9db209bddf11828eae9370a7",
+      "url": "/game/science-media/INTB.webp",
+      "duration": 0.72,
+      "sound": {
+        "url": "/game/science-media/INTB.flac",
+        "duration": 1.3351473922902495,
+        "source": "extracted/resources/Adi410Sci65/SCIENCE.ITK/INTB.VMW",
+        "sha256": "41be85d1568dec34327a587944d672f543190a8a12bb00e86f4a263414d7419f"
+      }
+    },
+    "INTC": {
+      "width": 138,
+      "height": 145,
+      "origin": [
+        288,
+        278
+      ],
+      "frames": 22,
+      "fps": 12,
+      "source": "extracted/resources/Adi410Sci65/SCIENCE.ITK/INTC.VMD",
+      "sha256": "c657cf67c55fbd5056abddea380778a5cb5f062dc21162c402c6d7576aef9b57",
+      "url": "/game/science-media/INTC.webp",
+      "duration": 1.76
+    },
+    "INTD": {
+      "width": 189,
+      "height": 44,
+      "origin": [
+        442,
+        363
+      ],
+      "frames": 25,
+      "fps": 12,
+      "source": "extracted/resources/Adi410Sci65/SCIENCE.ITK/INTD.VMD",
+      "sha256": "21c892058f673f193b85550de3ef76f16d1062648d80527a9c729b3647ee6cdd",
+      "url": "/game/science-media/INTD.webp",
+      "duration": 2.0,
+      "sound": {
+        "url": "/game/science-media/INTD.flac",
+        "duration": 2.0861678004535147,
+        "source": "extracted/resources/Adi410Sci65/SCIENCE.ITK/INTD.VMW",
+        "sha256": "5ba1d9c39ea5f127a7722d33db3d6bfd1c29b10ed77b8e458f6d823bcdcbb5a9"
+      }
+    },
+    "PHYA": {
+      "width": 275,
+      "height": 205,
+      "origin": [
+        216,
+        275
+      ],
+      "frames": 8,
+      "fps": 12,
+      "source": "extracted/resources/Adi410Sci65/SCIENCE.ITK/PHYA.VMD",
+      "sha256": "9f48e81c919ee2aeeb49332039185ae32a49ec477541b8d80401973ee7afc5ae",
+      "url": "/game/science-media/PHYA.webp",
+      "duration": 0.64
+    },
+    "PHYB": {
+      "width": 47,
+      "height": 66,
+      "origin": [
+        161,
+        222
+      ],
+      "frames": 8,
+      "fps": 12,
+      "source": "extracted/resources/Adi410Sci65/SCIENCE.ITK/PHYB.VMD",
+      "sha256": "f43a4f81efdec030f7a737311ca7660475d88c22e30d8b00882d8fdcb4c97f80",
+      "url": "/game/science-media/PHYB.webp",
+      "duration": 0.64,
+      "sound": {
+        "url": "/game/science-media/PHYB.flac",
+        "duration": 1.3351473922902495,
+        "source": "extracted/resources/Adi410Sci65/SCIENCE.ITK/PHYB.VMW",
+        "sha256": "3e26a7e0469115c204e4ab0568faf49f52da36249b254264d50584d5fdc637da"
+      }
+    },
+    "PHYC": {
+      "width": 80,
+      "height": 135,
+      "origin": [
+        510,
+        300
+      ],
+      "frames": 35,
+      "fps": 12,
+      "source": "extracted/resources/Adi410Sci65/SCIENCE.ITK/PHYC.VMD",
+      "sha256": "0a9811747bcf37f9edcdc189c6087c69b831767f1d69cbde7d67aa98f4336988",
+      "url": "/game/science-media/PHYC.webp",
+      "duration": 2.8000000000000003,
+      "sound": {
+        "url": "/game/science-media/PHYC.flac",
+        "duration": 2.9206349206349205,
+        "source": "extracted/resources/Adi410Sci65/SCIENCE.ITK/PHYC.VMW",
+        "sha256": "eeb74956c4cb8be283910402ae5999adf17a94365cb8b9cbaa8cae5c2fe9d1ac"
+      }
+    },
+    "PHYD": {
+      "width": 80,
+      "height": 76,
+      "origin": [
+        560,
+        99
+      ],
+      "frames": 6,
+      "fps": 12,
+      "source": "extracted/resources/Adi410Sci65/SCIENCE.ITK/PHYD.VMD",
+      "sha256": "9fd830a957b28528ecdf7fb2a8ab01978546b452d71f5ce0b84f81bf82fc156a",
+      "url": "/game/science-media/PHYD.webp",
+      "duration": 0.48,
+      "sound": {
+        "url": "/game/science-media/PHYD.flac",
+        "duration": 1.3351473922902495,
+        "source": "extracted/resources/Adi410Sci65/SCIENCE.ITK/PHYD.VMW",
+        "sha256": "9a296426c3f030220ca5a5bc6ac186e922127bd5727556f032133692ddddc21c"
+      }
+    },
+    "PHYE": {
+      "width": 100,
+      "height": 82,
+      "origin": [
+        540,
+        0
+      ],
+      "frames": 18,
+      "fps": 12,
+      "source": "extracted/resources/Adi410Sci65/SCIENCE.ITK/PHYE.VMD",
+      "sha256": "397a86e3986bf29136da26400a5b716d22d2ea0b124957be3c3ebf18279fb8be",
+      "url": "/game/science-media/PHYE.webp",
+      "duration": 1.44,
+      "sound": {
+        "url": "/game/science-media/PHYE.flac",
+        "duration": 1.5020408163265306,
+        "source": "extracted/resources/Adi410Sci65/SCIENCE.ITK/PHYE.VMW",
+        "sha256": "2ba5280782c4f758057a22ce990219f41de383a182e240a2e5fbd028b512cf88"
+      }
+    },
+    "PHYS1": {
+      "width": 640,
+      "height": 480,
+      "origin": [
+        0,
+        0
+      ],
+      "frames": 30,
+      "fps": 12,
+      "source": "extracted/resources/Adi410Sci65/SCIENCE.ITK/PHYS1.VMD",
+      "sha256": "a73a11fc63bc35845b8afa26f5a5e6780e9a29972aa5cfe4ec87b3b0a4d9c590",
+      "url": "/game/science-media/PHYS1.webp",
+      "duration": 2.4,
+      "sound": {
+        "url": "/game/science-media/PHYS1.flac",
+        "duration": 2.503401360544218,
+        "source": "extracted/resources/Adi410Sci65/SCIENCE.ITK/PHYS1.VMW",
+        "sha256": "bb5acf58110bf07c52e1f91b78bcb2e153feaa2d63946733267fe130d336c58f"
+      }
+    },
+    "SANA": {
+      "width": 142,
+      "height": 40,
+      "origin": [
+        389,
+        152
+      ],
+      "frames": 13,
+      "fps": 12,
+      "source": "extracted/resources/Adi410Sci65/SCIENCE.ITK/SANA.VMD",
+      "sha256": "e13d07a56328f477c395b416c63453b2c6985e9d842d2d995ac777af77ea37a7",
+      "url": "/game/science-media/SANA.webp",
+      "duration": 1.04,
+      "sound": {
+        "url": "/game/science-media/SANA.flac",
+        "duration": 1.3351473922902495,
+        "source": "extracted/resources/Adi410Sci65/SCIENCE.ITK/SANA.VMW",
+        "sha256": "145f90136f38177f756785a54e963e97082961ea236e4ebe88ee389054289fa0"
+      }
+    },
+    "SANB": {
+      "width": 85,
+      "height": 137,
+      "origin": [
+        24,
+        0
+      ],
+      "frames": 7,
+      "fps": 12,
+      "source": "extracted/resources/Adi410Sci65/SCIENCE.ITK/SANB.VMD",
+      "sha256": "4ce6ecc64214291ecbc1a0790f78fc6876a845aca95c2561126b401506cb0efe",
+      "url": "/game/science-media/SANB.webp",
+      "duration": 0.56
+    },
+    "SANC": {
+      "width": 55,
+      "height": 95,
+      "origin": [
+        126,
+        34
+      ],
+      "frames": 7,
+      "fps": 12,
+      "source": "extracted/resources/Adi410Sci65/SCIENCE.ITK/SANC.VMD",
+      "sha256": "b1c208bc224ebddfdac1fd1a9c94989da0b08c94e969c05d052fe5bc6fb29e6b",
+      "url": "/game/science-media/SANC.webp",
+      "duration": 0.56
+    },
+    "SAND": {
+      "width": 40,
+      "height": 81,
+      "origin": [
+        183,
+        66
+      ],
+      "frames": 7,
+      "fps": 12,
+      "source": "extracted/resources/Adi410Sci65/SCIENCE.ITK/SAND.VMD",
+      "sha256": "7681a7a4e483093a7fbd5817b825717d4875f9c88e81fcb0fdc4ca690f2f5c3f",
+      "url": "/game/science-media/SAND.webp",
+      "duration": 0.56
+    },
+    "SANTE": {
+      "width": 92,
+      "height": 46,
+      "origin": [
+        182,
+        352
+      ],
+      "frames": 13,
+      "fps": 12,
+      "source": "extracted/resources/Adi410Sci65/SCIENCE.ITK/SANTE.VMD",
+      "sha256": "a0752bfdaa7b6eb38ab97946208ef431ac277a14e1f188be420022279fe055a8",
+      "url": "/game/science-media/SANTE.webp",
+      "duration": 1.04,
+      "sound": {
+        "url": "/game/science-media/SANTE.flac",
+        "duration": 1.3351473922902495,
+        "source": "extracted/resources/Adi410Sci65/SCIENCE.ITK/SANTE.VMW",
+        "sha256": "6c92888fbf7e446a9395e2beca4c3727e101947f140d5dd01acebcfab7685c0f"
+      }
+    },
+    "SANTF": {
+      "width": 33,
+      "height": 66,
+      "origin": [
+        229,
+        95
+      ],
+      "frames": 7,
+      "fps": 12,
+      "source": "extracted/resources/Adi410Sci65/SCIENCE.ITK/SANTF.VMD",
+      "sha256": "44ee131a73d41c7c7ea98455ae782a05d5316fd11cf809e0c343c87931b44e00",
+      "url": "/game/science-media/SANTF.webp",
+      "duration": 0.56
+    },
+    "SHIP1": {
+      "width": 640,
+      "height": 480,
+      "origin": [
+        0,
+        0
+      ],
+      "frames": 101,
+      "fps": 12,
+      "source": "extracted/resources/Adi410Sci65/SCIENCE.ITK/SHIP1.VMD",
+      "sha256": "f1c2bf996d20ee1a4ecbd36f5dbe2dec668d5f68c249f313cbc774998e228dfe",
+      "url": "/game/science-media/SHIP1.webp",
+      "duration": 8.08,
+      "sound": {
+        "url": "/game/science-media/SHIP1.flac",
+        "duration": 8.4281179138322,
+        "source": "extracted/resources/Adi410Sci65/SCIENCE.ITK/SHIP1.VMW",
+        "sha256": "e1752e3181f38d0ec4db0252c2e57a40493f67328038fad2b404167b80f37e1f"
+      }
+    },
+    "SHIP10": {
+      "width": 640,
+      "height": 480,
+      "origin": [
+        0,
+        0
+      ],
+      "frames": 51,
+      "fps": 12,
+      "source": "extracted/resources/Adi410Sci65/SCIENCE.ITK/SHIP10.VMD",
+      "sha256": "0d7833bf95c4f5bd0c7a49e789a8a12b56ea2c4132d83422aa4a2afb1b7af7af",
+      "url": "/game/science-media/SHIP10.webp",
+      "duration": 4.08,
+      "sound": {
+        "url": "/game/science-media/SHIP10.flac",
+        "duration": 4.25578231292517,
+        "source": "extracted/resources/Adi410Sci65/SCIENCE.ITK/SHIP10.VMW",
+        "sha256": "c497e737c7e5968412075d74519e01b7da84779655d61b91cec35371ba8b8d0e"
+      }
+    },
+    "SHIP2": {
+      "width": 640,
+      "height": 480,
+      "origin": [
+        0,
+        0
+      ],
+      "frames": 101,
+      "fps": 12,
+      "source": "extracted/resources/Adi410Sci65/SCIENCE.ITK/SHIP2.VMD",
+      "sha256": "110c2ccb2c5c68fab0aa8ef1167f581b2438877419bedce09ff41fc7afae3101",
+      "url": "/game/science-media/SHIP2.webp",
+      "duration": 8.08,
+      "sound": {
+        "url": "/game/science-media/SHIP2.flac",
+        "duration": 8.261224489795918,
+        "source": "extracted/resources/Adi410Sci65/SCIENCE.ITK/SHIP2.VMW",
+        "sha256": "d26db98269eca01a066ac751e6a0e7ba77fbb64b4216ae97fb6f3359a2fd26d4"
+      }
+    },
+    "SHIP3": {
+      "width": 640,
+      "height": 480,
+      "origin": [
+        0,
+        0
+      ],
+      "frames": 131,
+      "fps": 12,
+      "source": "extracted/resources/Adi410Sci65/SCIENCE.ITK/SHIP3.VMD",
+      "sha256": "d9480c3e63ece96ab81ad37c5ac34994d0ac7b5dc03f9a2f1fe50024ffe4e3eb",
+      "url": "/game/science-media/SHIP3.webp",
+      "duration": 10.48,
+      "sound": {
+        "url": "/game/science-media/SHIP3.flac",
+        "duration": 10.347392290249433,
+        "source": "extracted/resources/Adi410Sci65/SCIENCE.ITK/SHIP3.VMW",
+        "sha256": "d7793f5a615c3007ca91eb2c49adc1b76e6a2e19bc3143e6e17961ca49b94eaa"
+      }
+    },
+    "SHIP4": {
+      "width": 640,
+      "height": 480,
+      "origin": [
+        0,
+        0
+      ],
+      "frames": 101,
+      "fps": 12,
+      "source": "extracted/resources/Adi410Sci65/SCIENCE.ITK/SHIP4.VMD",
+      "sha256": "b0d45647147b9efaafbfab15141eaa41f67e350f9411340c46d75a86a26daa12",
+      "url": "/game/science-media/SHIP4.webp",
+      "duration": 8.08,
+      "sound": {
+        "url": "/game/science-media/SHIP4.flac",
+        "duration": 7.426757369614513,
+        "source": "extracted/resources/Adi410Sci65/SCIENCE.ITK/SHIP4.VMW",
+        "sha256": "8f8404bd565b88b288dfe6417a0348c83f7e0e9d4f9de9938ae61040dd171860"
+      }
+    },
+    "SHIP7": {
+      "width": 640,
+      "height": 480,
+      "origin": [
+        0,
+        0
+      ],
+      "frames": 76,
+      "fps": 12,
+      "source": "extracted/resources/Adi410Sci65/SCIENCE.ITK/SHIP7.VMD",
+      "sha256": "0054a7871975b42132fc8604b0aac56bfee10446fe4d10a7fa9f6c909650d978",
+      "url": "/game/science-media/SHIP7.webp",
+      "duration": 6.08,
+      "sound": {
+        "url": "/game/science-media/SHIP7.flac",
+        "duration": 6.341950113378685,
+        "source": "extracted/resources/Adi410Sci65/SCIENCE.ITK/SHIP7.VMW",
+        "sha256": "ffc082b478e38aca820d8c498533d8ff3a3ac77e40d0f1e8581141fadac871d8"
+      }
+    },
+    "SHIP8": {
+      "width": 640,
+      "height": 480,
+      "origin": [
+        0,
+        0
+      ],
+      "frames": 101,
+      "fps": 12,
+      "source": "extracted/resources/Adi410Sci65/SCIENCE.ITK/SHIP8.VMD",
+      "sha256": "672aa4333b4eebc5ef382e8ea7911db26c7bd0f6c66a405c51eddf320d0ac94d",
+      "url": "/game/science-media/SHIP8.webp",
+      "duration": 8.08,
+      "sound": {
+        "url": "/game/science-media/SHIP8.flac",
+        "duration": 8.4281179138322,
+        "source": "extracted/resources/Adi410Sci65/SCIENCE.ITK/SHIP8.VMW",
+        "sha256": "1106f29dda4c7ccd1527c80bf71fc9c8eb73b48faa061ec7a30e1ef8941b1844"
+      }
+    },
+    "SHIP9": {
+      "width": 640,
+      "height": 480,
+      "origin": [
+        0,
+        0
+      ],
+      "frames": 101,
+      "fps": 12,
+      "source": "extracted/resources/Adi410Sci65/SCIENCE.ITK/SHIP9.VMD",
+      "sha256": "3db25bcfce1a009b28d1120c2dddd9d1e7864d297441336e51b9d50899435848",
+      "url": "/game/science-media/SHIP9.webp",
+      "duration": 8.08,
+      "sound": {
+        "url": "/game/science-media/SHIP9.flac",
+        "duration": 8.4281179138322,
+        "source": "extracted/resources/Adi410Sci65/SCIENCE.ITK/SHIP9.VMW",
+        "sha256": "952211a1cd6b689236a362716424bfcb64df89745a1a99eab6a830de1d42e561"
+      }
+    },
+    "TRUITPAU": {
+      "width": 640,
+      "height": 480,
+      "origin": [
+        0,
+        0
+      ],
+      "frames": 19,
+      "fps": 12,
+      "source": "extracted/resources/Adi410Sci65/SCIENCE.ITK/TRUITPAU.VMD",
+      "sha256": "26a8011689a11c055bae88d74f9957272f919fe660652e8b5a9a7111ae37739a",
+      "url": "/game/science-media/TRUITPAU.webp",
+      "duration": 1.52,
+      "sound": {
+        "url": "/game/science-media/TRUITPAU.flac",
+        "duration": 1.5854875283446712,
+        "source": "extracted/resources/Adi410Sci65/SCIENCE.ITK/TRUITPAU.VMW",
+        "sha256": "47b671a3e531c0fe4432187f0483268e98c06ba3754ae14c50f6f130350fba08"
+      }
+    },
+    "VIEA": {
+      "width": 74,
+      "height": 95,
+      "origin": [
+        200,
+        230
+      ],
+      "frames": 47,
+      "fps": 12,
+      "source": "extracted/resources/Adi410Sci65/SCIENCE.ITK/VIEA.VMD",
+      "sha256": "56d55a776f35248a59837ee202be1909068e1b07ca1e04151eb96c32bcbc1332",
+      "url": "/game/science-media/VIEA.webp",
+      "duration": 3.7600000000000002,
+      "sound": {
+        "url": "/game/science-media/VIEA.flac",
+        "duration": 3.921995464852608,
+        "source": "extracted/resources/Adi410Sci65/SCIENCE.ITK/VIEA.VMW",
+        "sha256": "b9c464fa63088ea133641a1092245408add595b336571896f7a046af3c3747bd"
+      }
+    },
+    "VIEB": {
+      "width": 106,
+      "height": 107,
+      "origin": [
+        95,
+        118
+      ],
+      "frames": 55,
+      "fps": 12,
+      "source": "extracted/resources/Adi410Sci65/SCIENCE.ITK/VIEB.VMD",
+      "sha256": "f783e9138908fa366aea98538d3b6a037abf9ba35deacfdbd2097eae782f6b58",
+      "url": "/game/science-media/VIEB.webp",
+      "duration": 4.4,
+      "sound": {
+        "url": "/game/science-media/VIEB.flac",
+        "duration": 4.5895691609977325,
+        "source": "extracted/resources/Adi410Sci65/SCIENCE.ITK/VIEB.VMW",
+        "sha256": "fd9bd4078be023ed2dc149238004a7825bf87af75dbf8ea3204b497c2c4e5055"
+      }
+    },
+    "VIEC": {
+      "width": 59,
+      "height": 91,
+      "origin": [
+        364,
+        235
+      ],
+      "frames": 40,
+      "fps": 12,
+      "source": "extracted/resources/Adi410Sci65/SCIENCE.ITK/VIEC.VMD",
+      "sha256": "3e5d1ea7f98f95d1d26b93bad25273b88e2c56649a7fb72fd43d94b81a42adfa",
+      "url": "/game/science-media/VIEC.webp",
+      "duration": 3.2,
+      "sound": {
+        "url": "/game/science-media/VIEC.flac",
+        "duration": 3.3378684807256236,
+        "source": "extracted/resources/Adi410Sci65/SCIENCE.ITK/VIEC.VMW",
+        "sha256": "b07cc73194618bbef5896291dea3446079cc3643d6ef92982919bc2f33863817"
+      }
+    },
+    "VIED": {
+      "width": 84,
+      "height": 83,
+      "origin": [
+        272,
+        115
+      ],
+      "frames": 45,
+      "fps": 12,
+      "source": "extracted/resources/Adi410Sci65/SCIENCE.ITK/VIED.VMD",
+      "sha256": "c3f2db1efdcd3b2c6940d1f51f5600f19302f7043ee79b2392ed730d8b89b135",
+      "url": "/game/science-media/VIED.webp",
+      "duration": 3.6,
+      "sound": {
+        "url": "/game/science-media/VIED.flac",
+        "duration": 3.7551020408163267,
+        "source": "extracted/resources/Adi410Sci65/SCIENCE.ITK/VIED.VMW",
+        "sha256": "bb6a32adaa2d5339b3a8e4307deea2e02c0cfcaf1d79f9b870e24fe06f1eb315"
+      }
+    },
+    "VIEE": {
+      "width": 113,
+      "height": 102,
+      "origin": [
+        424,
+        113
+      ],
+      "frames": 55,
+      "fps": 12,
+      "source": "extracted/resources/Adi410Sci65/SCIENCE.ITK/VIEE.VMD",
+      "sha256": "2e58904d29588421f460de98004d60987532f6051c425ec66e5e8b1ea07ab3c8",
+      "url": "/game/science-media/VIEE.webp",
+      "duration": 4.4,
+      "sound": {
+        "url": "/game/science-media/VIEE.flac",
+        "duration": 4.5895691609977325,
+        "source": "extracted/resources/Adi410Sci65/SCIENCE.ITK/VIEE.VMW",
+        "sha256": "48537af82ca4ea810fca4656c5da1c2294ac61a259876bf3b2ee4da68d98907d"
+      }
+    },
+    "VUEXA": {
+      "width": 70,
+      "height": 61,
+      "origin": [
+        365,
+        91
+      ],
+      "frames": 36,
+      "fps": 12,
+      "source": "extracted/resources/Adi410Sci65/SCIENCE.ITK/VUEXA.VMD",
+      "sha256": "ff47944bb474e6da3abee49fd7713629aeccb72a276d44b316e8add36720baa9",
+      "url": "/game/science-media/VUEXA.webp",
+      "duration": 2.88,
+      "sound": {
+        "url": "/game/science-media/VUEXA.flac",
+        "duration": 3.0040816326530613,
+        "source": "extracted/resources/Adi410Sci65/SCIENCE.ITK/VUEXA.VMW",
+        "sha256": "cbef2c49866053110d3b11a22ec463502f576d99c42d9366b90096963ae79aa6"
+      }
+    },
+    "VUEXB": {
+      "width": 43,
+      "height": 48,
+      "origin": [
+        185,
+        85
+      ],
+      "frames": 32,
+      "fps": 12,
+      "source": "extracted/resources/Adi410Sci65/SCIENCE.ITK/VUEXB.VMD",
+      "sha256": "1026c464e10cd79f9e1987b4f7627b4a5d5d2de147e9718f43045756f6020929",
+      "url": "/game/science-media/VUEXB.webp",
+      "duration": 2.56,
+      "sound": {
+        "url": "/game/science-media/VUEXB.flac",
+        "duration": 2.670294784580499,
+        "source": "extracted/resources/Adi410Sci65/SCIENCE.ITK/VUEXB.VMW",
+        "sha256": "497509664c7718fc05ccd38e73917f729325458b4db3790638ff24f8a025a54a"
+      }
+    },
+    "VUEXC": {
+      "width": 65,
+      "height": 64,
+      "origin": [
+        573,
+        226
+      ],
+      "frames": 39,
+      "fps": 12,
+      "source": "extracted/resources/Adi410Sci65/SCIENCE.ITK/VUEXC.VMD",
+      "sha256": "e51059338dc5581312fccb03038d20ec414766faeabf77217ced3cf03ea07541",
+      "url": "/game/science-media/VUEXC.webp",
+      "duration": 3.12,
+      "sound": {
+        "url": "/game/science-media/VUEXC.flac",
+        "duration": 3.254421768707483,
+        "source": "extracted/resources/Adi410Sci65/SCIENCE.ITK/VUEXC.VMW",
+        "sha256": "b29cc0617e1c03c8c07ad2821554473238f75a5f185489e70fa3c73b0dd3fa69"
+      }
+    },
+    "VUEXD": {
+      "width": 59,
+      "height": 53,
+      "origin": [
+        283,
+        101
+      ],
+      "frames": 50,
+      "fps": 12,
+      "source": "extracted/resources/Adi410Sci65/SCIENCE.ITK/VUEXD.VMD",
+      "sha256": "f680142c0d6f6afefdd17dbb9aa7ee9aca6dd514cdabbbd4b006c6a4296cb0df",
+      "url": "/game/science-media/VUEXD.webp",
+      "duration": 4.0,
+      "sound": {
+        "url": "/game/science-media/VUEXD.flac",
+        "duration": 4.172335600907029,
+        "source": "extracted/resources/Adi410Sci65/SCIENCE.ITK/VUEXD.VMW",
+        "sha256": "a98972dc533ded68e97e8e08cc677ad40c7634386bd0047e340a1feec6273f10"
+      }
+    },
+    "VUEXE": {
+      "width": 35,
+      "height": 35,
+      "origin": [
+        481,
+        180
+      ],
+      "frames": 29,
+      "fps": 12,
+      "source": "extracted/resources/Adi410Sci65/SCIENCE.ITK/VUEXE.VMD",
+      "sha256": "73f9950366d11b41e8db5985868a7a81b0263cca8b193ec2086df92b19d94533",
+      "url": "/game/science-media/VUEXE.webp",
+      "duration": 2.32,
+      "sound": {
+        "url": "/game/science-media/VUEXE.flac",
+        "duration": 2.419954648526077,
+        "source": "extracted/resources/Adi410Sci65/SCIENCE.ITK/VUEXE.VMW",
+        "sha256": "0e0f60eb1aeadeccfb3699f8eeffb7fc7922011f86a768c8792a03e7efb88b44"
+      }
+    },
+    "BRAVO": {
+      "url": "/game/science-media/BRAVO.webp",
+      "origin": [
+        122,
+        0
+      ],
+      "width": 411,
+      "height": 314,
+      "frames": 41,
+      "fps": 50,
+      "duration": 0.82,
+      "source": "extracted/resources/Adi410Sci65/SCIENCE.ITK/BRAVO.VMD",
+      "sha256": "60ec71348db61161a2a93cd6b91b38137bdc99ed9c7db718995f185959ecbb67"
+    }
+  },
+  "ambience": {
+    "station": [],
+    "biology": [],
+    "geology": [],
+    "chemistry": [],
+    "farm": [],
+    "physics": [],
+    "health": [],
+    "life": []
+  },
+  "unavailable": [
+    "SANT3.VMD"
+  ],
+  "13ZOOM": {
+    "url": "/game/science-media/13ZOOM.webp",
+    "source": "extracted/resources/Adi410Sci65/SCIENCE.ITK/13ZOOM.BRC",
+    "sha256": "f621a3feaf51c69aa05d5dde0f6c22029c7d7087cfc7d9927140e0745cd9a78c"
+  },
+  "MENU03": {
+    "url": "/game/science-media/MENU03.webp",
+    "source": "extracted/resources/Adi410Sci65/SCIENCE.ITK/MENU03.BRC",
+    "sha256": "eabc2be7485153bda4e9005ab2c72f90a6a5d16ee4f155c889cdc8ace9448ffe"
+  }
+}

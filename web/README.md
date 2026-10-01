@@ -40,7 +40,8 @@ n’est nécessaire pour lancer les jeux inclus.
 | `#radio`                                                  | 17 musiques, 10 ambiances et silence                                     |
 | `#games`                                                  | Caisse, filtre disponibles/à venir et défilement à la molette            |
 | `#science`                                                | Bibliothèque de cours, niveaux, recherche et dictionnaire                |
-| `#scene/station`                                          | Décors et accès aux activités Sciences                                   |
+| `#scene/station`                                          | Arrivée filmée, décors animés, ambiances et présentations d’Adi             |
+| `#science-document/1011` à `1024`                          | Neuf documents vidéo accessibles dans les laboratoires                   |
 | `#simulations`                                            | Catalogue des 14 simulations                                             |
 | `#encyclopedia`                                           | Encyclopédie et compléments multimédias                                  |
 | `#notebook`                                               | Carnet personnel                                                         |
@@ -57,8 +58,15 @@ les résultats liés à GO attendent son déclenchement. Les séquences distingu
 les transitions croissantes et décroissantes, lisent les voix des observations
 et proposent les animations d’équilibre disponibles. « Recommencer » interrompt
 la lecture et restaure les états initiaux ; « Vérifier » ne recalcule pas la scène.
-Les films de la fourmilière s’ouvrent dans leur cadre de gros plan original,
+Les films de la fourmilière et de l’éclipse s’ouvrent dans leur cadre de gros plan original,
 avec le son intégré, puis laissent place au décor à la fin ou à la fermeture.
+Les 27 films de Dinosaures se jouent dans le moniteur du décor. Les neuf documents
+vidéo des laboratoires sont accessibles depuis les objets et l’encyclopédie.
+Les huit décors disposent de leur boucle sonore, de séquences aléatoires et des
+présentations animées d’Adi selon le niveau et les visites. Les expériences
+lisent leurs ambiances, présentations, objectifs et voix de réussite.
+La [référence des médias Sciences](public/features/science/README.md) décrit
+les sources, les règles de lecture et les limites de fidélité.
 
 Les décors, animations, voix et médias de l’encyclopédie utilisés par le client
 sont fournis dans Git. Le [manifeste des ressources](asset-manifest.json) permet

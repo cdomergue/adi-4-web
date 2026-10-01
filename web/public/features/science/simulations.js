@@ -59,12 +59,12 @@ export async function renderSimulations(main) {
         '<p>Les simulations ne sont pas disponibles.</p><a href="#scene/station">Retour à la station</a>';
   }
 }
-export async function renderSimulation(main, id) {
+export async function renderSimulation(main, id, options = {}) {
   const definition = experiments[id];
   if (!definition) {
     main.innerHTML = '<p>Cette expérience est introuvable.</p><a href="#simulations">Toutes les expériences</a>';
     return;
   }
   const sector = Object.keys(sectors).find((key) => sectors[key].includes(id));
-  return renderExperiment(main, definition, { sector, sectorName: sectorNames[sector] });
+  return renderExperiment(main, definition, { sector, sectorName: sectorNames[sector], ...options });
 }

@@ -2,6 +2,8 @@ import { calculateSimulation, checkChallenge } from './simulation-engine.js';
 import { createSimulationState } from './simulation-state.js';
 import { createSequencePlayer, stateMedia } from './sequence-player.js';
 import { createCinemaPlayer, isCinemaObject } from './cinema-player.js';
+import { scienceMedia } from './media.js';
+import { createSimulationAudio } from './simulation-audio.js';
 import {
   activeControls, caseData, isObjectVisible, isOptionAllowed, optionLabel, position,
   sceneTargets, targetState, usefulLabel,
@@ -16,13 +18,14 @@ async function get(url) {
   return response.json();
 }
 
-export async function renderExperiment(main, definition, { sector, sectorName }) {
+export async function renderExperiment(main, definition, { sector, sectorName, level = '6' }) {
   main.innerHTML = '<section id="simulation"><p role="status">Ouverture de l’expérience…</p></section>';
   const root = main.firstElementChild;
-  let data, assets, cinemaCatalog;
+  let data, assets, cinemaCatalog, mediaCatalog;
   try {
-    [data, assets] = await Promise.all([
+    [data, assets, mediaCatalog] = await Promise.all([
       get(`/game/station/sim-${definition.id}.json`), get('/game/station/assets.json'),
+      scienceMedia(),
     ]);
     if (!definition.createPlayback) {
       assets = { ...assets, ...await get('/game/station/sequences/assets.json') };
@@ -43,6 +46,7 @@ export async function renderExperiment(main, definition, { sector, sectorName })
       <label><input type="checkbox" id="sim-sound" checked> Son</label>
       <label><input type="checkbox" id="sim-zones"> Montrer les zones de clic</label>
       <button class="button secondary" id="sim-reset">Recommencer</button>
+      <button class="button secondary" id="sim-welcome">Écouter Adi</button>
     </div>
     <div class="scene-frame simulation-frame" aria-label="${esc(data.title)}">
       <div class="simulation-layers"></div><div class="simulation-targets"></div>
@@ -62,6 +66,7 @@ export async function renderExperiment(main, definition, { sector, sectorName })
   const audio = root.querySelector('audio');
   const status = root.querySelector('#sim-status');
   const pointer = root.querySelector('#sim-pointer');
+  const soundscape = createSimulationAudio(root, definition.id, level, mediaCatalog);
   let currentCase, currentData, controls, targets, selected, panelOpener;
   let session, displayed, paintOrder = [], animation = null, busy = false, generation = 0;
   const playback = definition.createPlayback?.({
@@ -72,6 +77,7 @@ export async function renderExperiment(main, definition, { sector, sectorName })
   });
   const cinema = definition.cinema ? createCinemaPlayer({
     frame, config: definition.cinema, catalog: cinemaCatalog,
+    active: (value) => soundscape.pause(value),
     soundEnabled: () => root.querySelector('#sim-sound').checked,
     unavailable: () => {
       root.querySelector('#sim-audio-status').textContent = 'Le film n’a pas pu être lu. Tu peux réessayer en cliquant sur le lieu.';
@@ -228,6 +234,7 @@ export async function renderExperiment(main, definition, { sector, sectorName })
     root.querySelector('#sim-hints').innerHTML = controls
       .map((object) => object.hints[currentCase.id] || object.hints['0'])
       .filter(Boolean).map((hint) => `<p>${esc(hint)}</p>`).join('') || '<p>Aucun conseil textuel retrouvé pour cette situation.</p>';
+    soundscape.update(result.states);
     return result;
   }
 
@@ -237,6 +244,7 @@ export async function renderExperiment(main, definition, { sector, sectorName })
     const object = controls.find((item) => item.id === objectId);
     const option = object?.options.find((item) => item.id === value);
     if (!option) return;
+    soundscape.stopVoice();
     if (sequencePlayer) {
       const event = session.change(objectId, value);
       if (!event.accepted) {
@@ -260,6 +268,10 @@ export async function renderExperiment(main, definition, { sector, sectorName })
       busy = false;
       update();
       const challenge = session.challenge();
+      if (challenge.success && currentCase.id !== '0' &&
+          (event.action || !['11', '14', '15'].includes(definition.id))) {
+        soundscape.success(currentCase.id);
+      }
       status.textContent = challenge.success
         ? 'Bravo ! Tes réglages correspondent à une solution originale.'
         : challenge.total
@@ -295,6 +307,7 @@ export async function renderExperiment(main, definition, { sector, sectorName })
     animation = null;
     playback?.reset();
     audio.pause();
+    soundscape.stopVoice();
     closePanel(false);
     currentCase = data.cases.find((item) => item.id === root.querySelector('#sim-case').value);
     currentData = caseData(data, currentCase);
@@ -347,9 +360,11 @@ export async function renderExperiment(main, definition, { sector, sectorName })
     if (objectId) set(objectId, definition.controls[objectId].clearState);
   });
   root.querySelector('#sim-zones').onchange = (event) => frame.classList.toggle('show-targets', event.target.checked);
-  root.querySelector('#sim-sound').onchange = () => { audio.pause(); cinema?.updateSound(); };
+  root.querySelector('#sim-sound').onchange = () => { audio.pause(); cinema?.updateSound(); soundscape.updateSound(); };
+  root.querySelector('#sim-welcome').onclick = () => { audio.pause(); soundscape.welcome(); };
   root.querySelector('#sim-case').onchange = () => {
     reset(); status.textContent = 'Nouvelle situation : règle les commandes dans le décor.';
+    if (currentCase.id !== '0') soundscape.objective();
   };
   root.querySelector('#sim-reset').onclick = () => {
     reset(); status.textContent = 'Réglages remis au départ.';
@@ -365,9 +380,12 @@ export async function renderExperiment(main, definition, { sector, sectorName })
     const known = Object.fromEntries(result.resolved.map((key) => [key, result.states[key]]));
     const solutions = currentCase.solutions.map((solution) => Object.fromEntries(
       Object.entries(solution).filter(([key]) => controls.some((object) => object.id === key))));
+    const success = session ? session.challenge().success : checkChallenge(solutions, known);
+    if (currentCase.id !== '0' && success) soundscape.success(currentCase.id);
+    else if (session && currentCase.id !== '0') soundscape.help(session.challenge());
     status.textContent = currentCase.id === '0'
       ? 'Tu es en exploration libre. Choisis un défi pour vérifier une solution.'
-      : (session ? session.challenge().success : checkChallenge(solutions, known))
+      : success
         ? 'Bravo ! Tes réglages correspondent à une solution originale.'
         : 'Cette combinaison ne valide pas le défi. Consulte les conseils et essaie d’autres réglages.';
   };
@@ -376,6 +394,8 @@ export async function renderExperiment(main, definition, { sector, sectorName })
     sequencePlayer?.dispose();
     cinema?.dispose();
     playback?.dispose(); audio.pause(); audio.removeAttribute('src');
+    soundscape.dispose();
   }, { once: true });
   reset();
+  soundscape.welcome();
 }

@@ -14,7 +14,7 @@ export function cinemaClip(data, config, catalog, id, state) {
 
 // SL_SIMUL PlayDirectAnim @5a1c: PERSOOB=-1 is a temporary cinema,
 // not a persistent sprite. capturePush / capturePop preserve the scene below.
-export function createCinemaPlayer({ frame, config, catalog, soundEnabled, unavailable }) {
+export function createCinemaPlayer({ frame, config, catalog, soundEnabled, unavailable, active = () => {} }) {
   let close = null, video = null;
   function reset() { close?.(); }
   async function play(data, id, state, signal) {
@@ -28,15 +28,27 @@ export function createCinemaPlayer({ frame, config, catalog, soundEnabled, unava
     const overlay = doc.createElement('div');
     overlay.className = 'simulation-cinema';
     overlay.setAttribute('role', 'dialog');
-    overlay.setAttribute('aria-label', 'Gros plan de la fourmilière');
-    const border = doc.createElement('img');
-    border.className = 'simulation-cinema-frame';
-    border.src = catalog.frame.url;
-    border.alt = '';
+    overlay.setAttribute('aria-label', config.label || 'Gros plan de la fourmilière');
+    if (config.shade) {
+      const shade = doc.createElement('div');
+      shade.style.cssText = `position:absolute;${position(config.shade.box)}background:rgba(0,0,0,${config.shade.opacity})`;
+      overlay.append(shade);
+    }
+    const borderAsset = config.frame ? catalog[config.frame] : catalog.frame;
+    if (borderAsset) {
+      const border = doc.createElement('img');
+      border.className = 'simulation-cinema-frame';
+      border.src = borderAsset.url;
+      border.alt = '';
+      overlay.append(border);
+    }
     const movie = doc.createElement('video');
     video = movie;
     movie.className = 'simulation-cinema-video';
-    movie.style.cssText = position(clip.box);
+    const width = clip.encodedWidth || clip.width, height = clip.encodedHeight || clip.height;
+    movie.style.cssText = position([...config.origin, width, height]);
+    // H.264 needs even dimensions; clip only the padding, never source pixels.
+    movie.style.clipPath = `inset(0 ${100 * (width - clip.width) / width}% ${100 * (height - clip.height) / height}% 0)`;
     movie.playsInline = true;
     movie.muted = !soundEnabled();
     movie.preload = 'auto';
@@ -44,8 +56,9 @@ export function createCinemaPlayer({ frame, config, catalog, soundEnabled, unava
     button.type = 'button';
     button.className = 'button secondary simulation-cinema-close';
     button.textContent = 'Fermer le gros plan';
-    overlay.append(border, movie, button);
+    overlay.append(movie, button);
     frame.append(overlay);
+    active(true);
     await new Promise((resolve) => {
       let timer;
       const done = () => {
@@ -61,6 +74,7 @@ export function createCinemaPlayer({ frame, config, catalog, soundEnabled, unava
         movie.load();
         video = null;
         overlay.remove();
+        active(false);
         resolve();
         // The enclosing sequence first unlocks controls in its continuation.
         doc.defaultView?.requestAnimationFrame(() => {

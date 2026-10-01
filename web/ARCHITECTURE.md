@@ -41,6 +41,17 @@ et définitions. L’[index de l’encyclopédie](public/game/encyclopedia/index
 relie les entrées à leurs médias. Le stockage du carnet utilise la clé `adi4-v1`
 et propose un repli en mémoire lorsque le navigateur refuse le stockage persistant.
 
+## Médias Sciences
+
+Les [scènes](public/features/science/scenes.js) portent les destinations des
+fichiers de niveau. [scene-media.js](public/features/science/scene-media.js)
+possède les boucles, les effets et les interventions d’Adi ;
+[media.js](public/features/science/media.js) centralise leur annulation.
+[documents.js](public/features/science/documents.js) affiche les neuf films
+des laboratoires. [cinema-player.js](public/features/science/cinema-player.js)
+isole les gros plans temporaires des calques des simulations. Les ressources
+et les métadonnées sont dans [science-media](public/game/science-media/).
+
 ## Chambre, radio et caisse
 
 [room.js](public/features/room/room.js) coordonne les objets cliquables,

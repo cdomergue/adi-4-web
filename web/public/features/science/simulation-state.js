@@ -18,13 +18,21 @@ export function createSimulationState(source, currentCase) {
         return [2, 4].includes(object?.type) && !data.hidden.includes(id) && value !== -1;
       }));
       const ordinary = Object.keys(expected).length ? checkChallenge([expected], states) : true;
+      const matches = Object.entries(expected).filter(([id, value]) => states[id] === value).length;
+      const count = Object.keys(expected).length;
+      // SL_SIMUL EvalSol @0ba9: three spoken hints depend on partial progress.
+      const percent = count ? 100 * matches / count : 0;
+      const help = count && matches === count - 1 ? 3
+        : percent >= 60 && percent <= 70 ? 2 : percent >= 30 && percent <= 40 ? 1 : 0;
       const entries = Object.entries(paths);
       const complete = entries.every(([id, path]) => progress[`${index + 1}:${id}`] === path.length);
       return { success: ordinary && complete && (Object.keys(expected).length > 0 || entries.length > 0),
+        help,
         progress: entries.reduce((n, [id]) => n + (progress[`${index + 1}:${id}`] || 0), 0),
         total: entries.reduce((n, [, path]) => n + path.length, 0) };
     });
-    return solutions.find((s) => s.success) || solutions.sort((a, b) => b.progress - a.progress)[0] ||
+    return solutions.find((s) => s.success) || solutions.sort((a, b) =>
+      (b.total ? b.progress : b.help) - (a.total ? a.progress : a.help))[0] ||
       { success: false, progress: 0, total: 0 };
   }
 

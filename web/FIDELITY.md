@@ -43,6 +43,21 @@ Les comportements propres à chaque document sont décrits dans leurs référenc
 [désertification](public/features/documents/desert/README.md),
 [développement d’un pays](public/features/documents/development/README.md).
 
+## Station Sciences
+
+Les zones de clic proviennent des fichiers de niveau des deux disques.
+L’arrivée, les neuf documents des laboratoires et les cinémas de Dinosaures,
+de l’éclipse et de la fourmilière utilisent les films originaux. Les boucles,
+les animations aléatoires des décors et les présentations d’Adi suivent les
+scripts `AE_ENVSC`, `AE_ANIM`, `AE_ADI` et `SL_SIMUL`.
+
+La [référence Sciences](public/features/science/README.md) précise les médias
+absents des disques, les interventions encore sans déclencheur et les contrôles
+audiovisuels requis. Les panneaux des simulations, la synchronisation des WebP
+et du son, les volumes relatifs et les transitions interrompues restent à
+comparer au client Windows. Une vérification des règles ou du nombre d’images
+ne valide pas à elle seule ces détails.
+
 ## BeeBop I
 
 Les règles proviennent de la décompilation de l’exécutable Win16. Les collisions,
