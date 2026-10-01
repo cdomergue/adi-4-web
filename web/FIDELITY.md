@@ -27,11 +27,24 @@ les répliques de `LIBADI` et les six entrées de `MENUEVCO.PFR` définissent
 les interactions. Les voix, bouches, gestes et transitions utilisent les médias
 originaux. Le néon ouvre les résultats et la commode les bons points.
 
-Les outils, le robot et les résultats des exercices restent à recréer.
+Le robot et les résultats des exercices restent à recréer.
 Le choix de posture selon l’état précédent, les temporisations des gestes,
 la synchronisation audio/WebP et la barre native dans les nouveaux gros plans
 restent à comparer et compléter. La malle expose les six expériences sans
 filtrage par classe. Voir la [référence de la chambre](public/features/room/README.md).
+
+## Outils
+
+La calculatrice, le bloc-notes et la palette utilisent les décors, les voix et
+les tables du jeu original. Les positions des touches, les calculs immédiats,
+les fonctions trigonométriques en radians, les 48 couleurs, les 22 fonds et
+les 520 vignettes reposent sur les scripts et le moteur Windows.
+
+Les dialogues de fichiers et les galeries diffèrent des panneaux natifs.
+La mise en forme riche du bloc-notes, les curseurs animés, les empreintes exactes
+des pinceaux, les polices et certains arrondis numériques restent à reproduire
+ou à comparer. Print Artist est une application externe non portée. La
+[référence des outils](public/features/tools/README.md) détaille ces limites.
 
 ## Finitions requises des documents
 

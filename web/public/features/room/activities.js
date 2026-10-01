@@ -84,7 +84,7 @@ export async function renderRoomActivity(main, kind, info) {
       ]
         .map(
           ([label, icon]) =>
-            icon !== 'BAROUTIL' ? `<a href="${icon === 'BARDOCS' ? '#documents' : '#room/results'}" aria-label="${label}" title="${label}"><img src="/game/room/${icon}.webp" alt=""></a>` : `<button disabled aria-label="${label}" title="${label}"><img src="/game/room/${icon}.webp" alt=""></button>`,
+            `<a href="${icon === 'BARDOCS' ? '#documents' : icon === 'BAROUTIL' ? '#tools' : '#room/results'}" aria-label="${label}" title="${label}"><img src="/game/room/${icon}.webp" alt=""></a>`,
         )
         .join('')}
       <button id="activity-help" aria-label="Aide" aria-pressed="false" title="Aide"><img src="/game/room/BARAIDE.webp" alt=""></button><a href="#room" aria-label="Revenir dans la chambre" title="Revenir dans la chambre"><img src="/game/room/BARPORTE.webp" alt=""></a></nav>`;

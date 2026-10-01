@@ -25,7 +25,7 @@ const navigation = [
   ['#internet', 'Internet', 'BARINTER'],
   ['#scene/station', 'Les matières', 'BARAPPLI'],
   ['#games', 'Les jeux', 'BARJEUX'],
-  [null, 'Les outils', 'BAROUTIL'],
+  ['tools', 'Les outils', 'BAROUTIL'],
   ['#documents', 'Les documents', 'BARDOCS'],
   ['#room/results', 'Mes résultats', 'BARANIM'],
 ];

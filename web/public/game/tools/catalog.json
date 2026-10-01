@@ -1,0 +1,5958 @@
+{
+  "sources": [
+    {
+      "file": "INTRO.STK/ADI4_CAL.EXT",
+      "sha256": "fa51029527831cc600a95b7094de99d431d2b10035ca3ee79c64bb7005e154cf"
+    },
+    {
+      "file": "INTRO.STK/ADI4_B2.EXT",
+      "sha256": "1772d5f0b2d4e4b3f7e519d92fe8f7b2f770c5a1f8d5ad5d94a4d0d8607cf777"
+    },
+    {
+      "file": "PALETTE.STK/PALETTE.EXT",
+      "sha256": "08be386afc20db02035e6515b9b0681bc271f97d715759fcedb692606fb7550d"
+    },
+    {
+      "file": "PALETTE.STK/DECOR.EXT",
+      "sha256": "511b773cb249cb5d060d44e2f428cba25aabb38abe9bf8f62f478e2457ba63e0"
+    },
+    {
+      "file": "PALETTE.STK/STICKER.EXT",
+      "sha256": "6b0e87920028b1a36dcc96719cef19823e8409f118d395785f28c308531650e0"
+    }
+  ],
+  "canvas": {
+    "width": 475,
+    "height": 340,
+    "x": 102,
+    "y": 30
+  },
+  "colors": [
+    [
+      "#e4f4fc",
+      "#b4d4cc",
+      "#9cacac",
+      "#c4e4dc",
+      "#acbcb4",
+      "#84949c"
+    ],
+    [
+      "#788c80",
+      "#505850",
+      "#283020",
+      "#687870",
+      "#404840",
+      "#101010"
+    ],
+    [
+      "#94d4fc",
+      "#2894fc",
+      "#2840ec",
+      "#48b4fc",
+      "#2078f4",
+      "#2028a4"
+    ],
+    [
+      "#b0fc94",
+      "#00c810",
+      "#4c9430",
+      "#00fc08",
+      "#04a82c",
+      "#306008"
+    ],
+    [
+      "#e0ac78",
+      "#ec3010",
+      "#9c1008",
+      "#e88458",
+      "#c42810",
+      "#701000"
+    ],
+    [
+      "#e4ecbc",
+      "#fcec04",
+      "#fc9018",
+      "#fcf884",
+      "#f4c428",
+      "#e87000"
+    ],
+    [
+      "#dcac30",
+      "#bc7800",
+      "#703800",
+      "#d49438",
+      "#ac6008",
+      "#582000"
+    ],
+    [
+      "#fcbcfc",
+      "#d874fc",
+      "#a448fc",
+      "#fc7cc4",
+      "#b858fc",
+      "#8c20d8"
+    ]
+  ],
+  "backgrounds": [
+    {
+      "file": "decor-4.webp",
+      "category": "Paysages",
+      "resource": 30004
+    },
+    {
+      "file": "decor-5.webp",
+      "category": "Paysages",
+      "resource": 30005
+    },
+    {
+      "file": "decor-6.webp",
+      "category": "Paysages",
+      "resource": 30006
+    },
+    {
+      "file": "decor-7.webp",
+      "category": "Paysages",
+      "resource": 30007
+    },
+    {
+      "file": "decor-9.webp",
+      "category": "Paysages",
+      "resource": 30009
+    },
+    {
+      "file": "decor-10.webp",
+      "category": "Paysages",
+      "resource": 30010
+    },
+    {
+      "file": "decor-11.webp",
+      "category": "Paysages",
+      "resource": 30011
+    },
+    {
+      "file": "decor-12.webp",
+      "category": "Paysages",
+      "resource": 30012
+    },
+    {
+      "file": "decor-13.webp",
+      "category": "Coloriages",
+      "resource": 30013
+    },
+    {
+      "file": "decor-14.webp",
+      "category": "Coloriages",
+      "resource": 30014
+    },
+    {
+      "file": "decor-15.webp",
+      "category": "Coloriages",
+      "resource": 30015
+    },
+    {
+      "file": "decor-16.webp",
+      "category": "Coloriages",
+      "resource": 30016
+    },
+    {
+      "file": "decor-18.webp",
+      "category": "Coloriages",
+      "resource": 30018
+    },
+    {
+      "file": "decor-19.webp",
+      "category": "Coloriages",
+      "resource": 30019
+    },
+    {
+      "file": "decor-20.webp",
+      "category": "Coloriages",
+      "resource": 30020
+    },
+    {
+      "file": "decor-21.webp",
+      "category": "Coloriages",
+      "resource": 30021
+    },
+    {
+      "file": "decor-22.webp",
+      "category": "Papiers",
+      "resource": 30022
+    },
+    {
+      "file": "decor-23.webp",
+      "category": "Papiers",
+      "resource": 30023
+    },
+    {
+      "file": "decor-24.webp",
+      "category": "Papiers",
+      "resource": 30024
+    },
+    {
+      "file": "decor-25.webp",
+      "category": "Papiers",
+      "resource": 30025
+    },
+    {
+      "file": "decor-26.webp",
+      "category": "Papiers",
+      "resource": 30026
+    },
+    {
+      "file": "decor-27.webp",
+      "category": "Papiers",
+      "resource": 30027
+    }
+  ],
+  "stickers": [
+    {
+      "file": "sticker-3-0.webp",
+      "sheet": 3,
+      "index": 0,
+      "rect": [
+        32,
+        105,
+        112,
+        199
+      ]
+    },
+    {
+      "file": "sticker-3-1.webp",
+      "sheet": 3,
+      "index": 1,
+      "rect": [
+        197,
+        40,
+        102,
+        80
+      ]
+    },
+    {
+      "file": "sticker-3-2.webp",
+      "sheet": 3,
+      "index": 2,
+      "rect": [
+        223,
+        139,
+        74,
+        101
+      ]
+    },
+    {
+      "file": "sticker-3-3.webp",
+      "sheet": 3,
+      "index": 3,
+      "rect": [
+        342,
+        53,
+        102,
+        64
+      ]
+    },
+    {
+      "file": "sticker-3-4.webp",
+      "sheet": 3,
+      "index": 4,
+      "rect": [
+        371,
+        137,
+        72,
+        99
+      ]
+    },
+    {
+      "file": "sticker-3-5.webp",
+      "sheet": 3,
+      "index": 5,
+      "rect": [
+        495,
+        53,
+        102,
+        60
+      ]
+    },
+    {
+      "file": "sticker-3-6.webp",
+      "sheet": 3,
+      "index": 6,
+      "rect": [
+        523,
+        134,
+        72,
+        100
+      ]
+    },
+    {
+      "file": "sticker-3-7.webp",
+      "sheet": 3,
+      "index": 7,
+      "rect": [
+        229,
+        255,
+        58,
+        63
+      ]
+    },
+    {
+      "file": "sticker-3-8.webp",
+      "sheet": 3,
+      "index": 8,
+      "rect": [
+        179,
+        321,
+        43,
+        61
+      ]
+    },
+    {
+      "file": "sticker-3-9.webp",
+      "sheet": 3,
+      "index": 9,
+      "rect": [
+        292,
+        321,
+        21,
+        28
+      ]
+    },
+    {
+      "file": "sticker-3-10.webp",
+      "sheet": 3,
+      "index": 10,
+      "rect": [
+        349,
+        280,
+        38,
+        61
+      ]
+    },
+    {
+      "file": "sticker-3-11.webp",
+      "sheet": 3,
+      "index": 11,
+      "rect": [
+        397,
+        273,
+        85,
+        48
+      ]
+    },
+    {
+      "file": "sticker-3-12.webp",
+      "sheet": 3,
+      "index": 12,
+      "rect": [
+        446,
+        357,
+        21,
+        28
+      ]
+    },
+    {
+      "file": "sticker-3-13.webp",
+      "sheet": 3,
+      "index": 13,
+      "rect": [
+        539,
+        258,
+        48,
+        32
+      ]
+    },
+    {
+      "file": "sticker-3-14.webp",
+      "sheet": 3,
+      "index": 14,
+      "rect": [
+        523,
+        313,
+        59,
+        86
+      ]
+    },
+    {
+      "file": "sticker-3-15.webp",
+      "sheet": 3,
+      "index": 15,
+      "rect": [
+        602,
+        362,
+        21,
+        28
+      ]
+    },
+    {
+      "file": "sticker-4-0.webp",
+      "sheet": 4,
+      "index": 0,
+      "rect": [
+        39,
+        41,
+        112,
+        199
+      ]
+    },
+    {
+      "file": "sticker-4-1.webp",
+      "sheet": 4,
+      "index": 1,
+      "rect": [
+        189,
+        47,
+        119,
+        58
+      ]
+    },
+    {
+      "file": "sticker-4-2.webp",
+      "sheet": 4,
+      "index": 2,
+      "rect": [
+        218,
+        130,
+        72,
+        103
+      ]
+    },
+    {
+      "file": "sticker-4-3.webp",
+      "sheet": 4,
+      "index": 3,
+      "rect": [
+        332,
+        45,
+        114,
+        90
+      ]
+    },
+    {
+      "file": "sticker-4-4.webp",
+      "sheet": 4,
+      "index": 4,
+      "rect": [
+        360,
+        143,
+        72,
+        100
+      ]
+    },
+    {
+      "file": "sticker-4-5.webp",
+      "sheet": 4,
+      "index": 5,
+      "rect": [
+        485,
+        54,
+        102,
+        61
+      ]
+    },
+    {
+      "file": "sticker-4-6.webp",
+      "sheet": 4,
+      "index": 6,
+      "rect": [
+        508,
+        140,
+        80,
+        102
+      ]
+    },
+    {
+      "file": "sticker-4-7.webp",
+      "sheet": 4,
+      "index": 7,
+      "rect": [
+        101,
+        253,
+        106,
+        72
+      ]
+    },
+    {
+      "file": "sticker-4-8.webp",
+      "sheet": 4,
+      "index": 8,
+      "rect": [
+        208,
+        345,
+        21,
+        28
+      ]
+    },
+    {
+      "file": "sticker-4-9.webp",
+      "sheet": 4,
+      "index": 9,
+      "rect": [
+        237,
+        275,
+        90,
+        116
+      ]
+    },
+    {
+      "file": "sticker-4-10.webp",
+      "sheet": 4,
+      "index": 10,
+      "rect": [
+        349,
+        283,
+        64,
+        95
+      ]
+    },
+    {
+      "file": "sticker-4-11.webp",
+      "sheet": 4,
+      "index": 11,
+      "rect": [
+        430,
+        246,
+        42,
+        57
+      ]
+    },
+    {
+      "file": "sticker-4-12.webp",
+      "sheet": 4,
+      "index": 12,
+      "rect": [
+        485,
+        362,
+        21,
+        28
+      ]
+    },
+    {
+      "file": "sticker-4-13.webp",
+      "sheet": 4,
+      "index": 13,
+      "rect": [
+        535,
+        262,
+        57,
+        35
+      ]
+    },
+    {
+      "file": "sticker-4-14.webp",
+      "sheet": 4,
+      "index": 14,
+      "rect": [
+        526,
+        316,
+        50,
+        73
+      ]
+    },
+    {
+      "file": "sticker-5-0.webp",
+      "sheet": 5,
+      "index": 0,
+      "rect": [
+        64,
+        125,
+        103,
+        194
+      ]
+    },
+    {
+      "file": "sticker-5-1.webp",
+      "sheet": 5,
+      "index": 1,
+      "rect": [
+        227,
+        40,
+        92,
+        60
+      ]
+    },
+    {
+      "file": "sticker-5-2.webp",
+      "sheet": 5,
+      "index": 2,
+      "rect": [
+        242,
+        119,
+        44,
+        50
+      ]
+    },
+    {
+      "file": "sticker-5-3.webp",
+      "sheet": 5,
+      "index": 3,
+      "rect": [
+        224,
+        178,
+        72,
+        45
+      ]
+    },
+    {
+      "file": "sticker-5-4.webp",
+      "sheet": 5,
+      "index": 4,
+      "rect": [
+        367,
+        38,
+        91,
+        71
+      ]
+    },
+    {
+      "file": "sticker-5-5.webp",
+      "sheet": 5,
+      "index": 5,
+      "rect": [
+        368,
+        131,
+        68,
+        96
+      ]
+    },
+    {
+      "file": "sticker-5-6.webp",
+      "sheet": 5,
+      "index": 6,
+      "rect": [
+        487,
+        48,
+        94,
+        69
+      ]
+    },
+    {
+      "file": "sticker-5-7.webp",
+      "sheet": 5,
+      "index": 7,
+      "rect": [
+        484,
+        132,
+        90,
+        100
+      ]
+    },
+    {
+      "file": "sticker-5-8.webp",
+      "sheet": 5,
+      "index": 8,
+      "rect": [
+        203,
+        234,
+        62,
+        43
+      ]
+    },
+    {
+      "file": "sticker-5-9.webp",
+      "sheet": 5,
+      "index": 9,
+      "rect": [
+        205,
+        350,
+        21,
+        44
+      ]
+    },
+    {
+      "file": "sticker-5-10.webp",
+      "sheet": 5,
+      "index": 10,
+      "rect": [
+        281,
+        296,
+        53,
+        57
+      ]
+    },
+    {
+      "file": "sticker-5-11.webp",
+      "sheet": 5,
+      "index": 11,
+      "rect": [
+        379,
+        242,
+        38,
+        52
+      ]
+    },
+    {
+      "file": "sticker-5-12.webp",
+      "sheet": 5,
+      "index": 12,
+      "rect": [
+        368,
+        342,
+        17,
+        28
+      ]
+    },
+    {
+      "file": "sticker-5-13.webp",
+      "sheet": 5,
+      "index": 13,
+      "rect": [
+        420,
+        300,
+        39,
+        91
+      ]
+    },
+    {
+      "file": "sticker-5-14.webp",
+      "sheet": 5,
+      "index": 14,
+      "rect": [
+        501,
+        247,
+        46,
+        55
+      ]
+    },
+    {
+      "file": "sticker-5-15.webp",
+      "sheet": 5,
+      "index": 15,
+      "rect": [
+        496,
+        345,
+        16,
+        28
+      ]
+    },
+    {
+      "file": "sticker-5-16.webp",
+      "sheet": 5,
+      "index": 16,
+      "rect": [
+        567,
+        289,
+        36,
+        88
+      ]
+    },
+    {
+      "file": "sticker-6-0.webp",
+      "sheet": 6,
+      "index": 0,
+      "rect": [
+        64,
+        125,
+        103,
+        194
+      ]
+    },
+    {
+      "file": "sticker-6-1.webp",
+      "sheet": 6,
+      "index": 1,
+      "rect": [
+        223,
+        56,
+        95,
+        55
+      ]
+    },
+    {
+      "file": "sticker-6-2.webp",
+      "sheet": 6,
+      "index": 2,
+      "rect": [
+        225,
+        142,
+        71,
+        98
+      ]
+    },
+    {
+      "file": "sticker-6-3.webp",
+      "sheet": 6,
+      "index": 3,
+      "rect": [
+        356,
+        58,
+        94,
+        70
+      ]
+    },
+    {
+      "file": "sticker-6-4.webp",
+      "sheet": 6,
+      "index": 4,
+      "rect": [
+        355,
+        148,
+        91,
+        100
+      ]
+    },
+    {
+      "file": "sticker-6-5.webp",
+      "sheet": 6,
+      "index": 5,
+      "rect": [
+        495,
+        73,
+        92,
+        57
+      ]
+    },
+    {
+      "file": "sticker-6-6.webp",
+      "sheet": 6,
+      "index": 6,
+      "rect": [
+        511,
+        148,
+        53,
+        43
+      ]
+    },
+    {
+      "file": "sticker-6-7.webp",
+      "sheet": 6,
+      "index": 7,
+      "rect": [
+        499,
+        207,
+        69,
+        41
+      ]
+    },
+    {
+      "file": "sticker-6-8.webp",
+      "sheet": 6,
+      "index": 8,
+      "rect": [
+        218,
+        269,
+        70,
+        28
+      ]
+    },
+    {
+      "file": "sticker-6-9.webp",
+      "sheet": 6,
+      "index": 9,
+      "rect": [
+        197,
+        347,
+        16,
+        28
+      ]
+    },
+    {
+      "file": "sticker-6-10.webp",
+      "sheet": 6,
+      "index": 10,
+      "rect": [
+        238,
+        331,
+        45,
+        58
+      ]
+    },
+    {
+      "file": "sticker-6-11.webp",
+      "sheet": 6,
+      "index": 11,
+      "rect": [
+        391,
+        273,
+        32,
+        19
+      ]
+    },
+    {
+      "file": "sticker-6-12.webp",
+      "sheet": 6,
+      "index": 12,
+      "rect": [
+        384,
+        301,
+        41,
+        27
+      ]
+    },
+    {
+      "file": "sticker-6-13.webp",
+      "sheet": 6,
+      "index": 13,
+      "rect": [
+        339,
+        358,
+        16,
+        28
+      ]
+    },
+    {
+      "file": "sticker-6-14.webp",
+      "sheet": 6,
+      "index": 14,
+      "rect": [
+        392,
+        346,
+        28,
+        54
+      ]
+    },
+    {
+      "file": "sticker-6-15.webp",
+      "sheet": 6,
+      "index": 15,
+      "rect": [
+        515,
+        280,
+        43,
+        21
+      ]
+    },
+    {
+      "file": "sticker-6-16.webp",
+      "sheet": 6,
+      "index": 16,
+      "rect": [
+        525,
+        354,
+        28,
+        42
+      ]
+    },
+    {
+      "file": "sticker-7-0.webp",
+      "sheet": 7,
+      "index": 0,
+      "rect": [
+        32,
+        105,
+        112,
+        199
+      ]
+    },
+    {
+      "file": "sticker-7-1.webp",
+      "sheet": 7,
+      "index": 1,
+      "rect": [
+        197,
+        40,
+        102,
+        80
+      ]
+    },
+    {
+      "file": "sticker-7-2.webp",
+      "sheet": 7,
+      "index": 2,
+      "rect": [
+        223,
+        139,
+        74,
+        101
+      ]
+    },
+    {
+      "file": "sticker-7-3.webp",
+      "sheet": 7,
+      "index": 3,
+      "rect": [
+        343,
+        53,
+        100,
+        64
+      ]
+    },
+    {
+      "file": "sticker-7-4.webp",
+      "sheet": 7,
+      "index": 4,
+      "rect": [
+        371,
+        137,
+        71,
+        99
+      ]
+    },
+    {
+      "file": "sticker-7-5.webp",
+      "sheet": 7,
+      "index": 5,
+      "rect": [
+        495,
+        53,
+        102,
+        60
+      ]
+    },
+    {
+      "file": "sticker-7-6.webp",
+      "sheet": 7,
+      "index": 6,
+      "rect": [
+        523,
+        134,
+        71,
+        100
+      ]
+    },
+    {
+      "file": "sticker-7-7.webp",
+      "sheet": 7,
+      "index": 7,
+      "rect": [
+        229,
+        255,
+        58,
+        63
+      ]
+    },
+    {
+      "file": "sticker-7-8.webp",
+      "sheet": 7,
+      "index": 8,
+      "rect": [
+        179,
+        321,
+        43,
+        61
+      ]
+    },
+    {
+      "file": "sticker-7-9.webp",
+      "sheet": 7,
+      "index": 9,
+      "rect": [
+        292,
+        321,
+        21,
+        28
+      ]
+    },
+    {
+      "file": "sticker-7-10.webp",
+      "sheet": 7,
+      "index": 10,
+      "rect": [
+        349,
+        280,
+        38,
+        61
+      ]
+    },
+    {
+      "file": "sticker-7-11.webp",
+      "sheet": 7,
+      "index": 11,
+      "rect": [
+        397,
+        273,
+        85,
+        48
+      ]
+    },
+    {
+      "file": "sticker-7-12.webp",
+      "sheet": 7,
+      "index": 12,
+      "rect": [
+        446,
+        357,
+        21,
+        28
+      ]
+    },
+    {
+      "file": "sticker-7-13.webp",
+      "sheet": 7,
+      "index": 13,
+      "rect": [
+        539,
+        258,
+        48,
+        32
+      ]
+    },
+    {
+      "file": "sticker-7-14.webp",
+      "sheet": 7,
+      "index": 14,
+      "rect": [
+        523,
+        313,
+        59,
+        86
+      ]
+    },
+    {
+      "file": "sticker-7-15.webp",
+      "sheet": 7,
+      "index": 15,
+      "rect": [
+        602,
+        362,
+        21,
+        28
+      ]
+    },
+    {
+      "file": "sticker-8-0.webp",
+      "sheet": 8,
+      "index": 0,
+      "rect": [
+        39,
+        41,
+        112,
+        199
+      ]
+    },
+    {
+      "file": "sticker-8-1.webp",
+      "sheet": 8,
+      "index": 1,
+      "rect": [
+        189,
+        47,
+        119,
+        57
+      ]
+    },
+    {
+      "file": "sticker-8-2.webp",
+      "sheet": 8,
+      "index": 2,
+      "rect": [
+        218,
+        130,
+        72,
+        103
+      ]
+    },
+    {
+      "file": "sticker-8-3.webp",
+      "sheet": 8,
+      "index": 3,
+      "rect": [
+        332,
+        45,
+        114,
+        90
+      ]
+    },
+    {
+      "file": "sticker-8-4.webp",
+      "sheet": 8,
+      "index": 4,
+      "rect": [
+        360,
+        143,
+        71,
+        100
+      ]
+    },
+    {
+      "file": "sticker-8-5.webp",
+      "sheet": 8,
+      "index": 5,
+      "rect": [
+        485,
+        54,
+        102,
+        61
+      ]
+    },
+    {
+      "file": "sticker-8-6.webp",
+      "sheet": 8,
+      "index": 6,
+      "rect": [
+        508,
+        140,
+        80,
+        102
+      ]
+    },
+    {
+      "file": "sticker-8-7.webp",
+      "sheet": 8,
+      "index": 7,
+      "rect": [
+        101,
+        253,
+        105,
+        72
+      ]
+    },
+    {
+      "file": "sticker-8-8.webp",
+      "sheet": 8,
+      "index": 8,
+      "rect": [
+        208,
+        345,
+        21,
+        28
+      ]
+    },
+    {
+      "file": "sticker-8-9.webp",
+      "sheet": 8,
+      "index": 9,
+      "rect": [
+        236,
+        275,
+        91,
+        116
+      ]
+    },
+    {
+      "file": "sticker-8-10.webp",
+      "sheet": 8,
+      "index": 10,
+      "rect": [
+        349,
+        283,
+        64,
+        95
+      ]
+    },
+    {
+      "file": "sticker-8-11.webp",
+      "sheet": 8,
+      "index": 11,
+      "rect": [
+        430,
+        246,
+        42,
+        57
+      ]
+    },
+    {
+      "file": "sticker-8-12.webp",
+      "sheet": 8,
+      "index": 12,
+      "rect": [
+        485,
+        362,
+        21,
+        28
+      ]
+    },
+    {
+      "file": "sticker-8-13.webp",
+      "sheet": 8,
+      "index": 13,
+      "rect": [
+        535,
+        262,
+        57,
+        35
+      ]
+    },
+    {
+      "file": "sticker-8-14.webp",
+      "sheet": 8,
+      "index": 14,
+      "rect": [
+        526,
+        316,
+        50,
+        73
+      ]
+    },
+    {
+      "file": "sticker-9-0.webp",
+      "sheet": 9,
+      "index": 0,
+      "rect": [
+        64,
+        125,
+        103,
+        194
+      ]
+    },
+    {
+      "file": "sticker-9-1.webp",
+      "sheet": 9,
+      "index": 1,
+      "rect": [
+        227,
+        40,
+        92,
+        60
+      ]
+    },
+    {
+      "file": "sticker-9-2.webp",
+      "sheet": 9,
+      "index": 2,
+      "rect": [
+        242,
+        119,
+        44,
+        50
+      ]
+    },
+    {
+      "file": "sticker-9-3.webp",
+      "sheet": 9,
+      "index": 3,
+      "rect": [
+        224,
+        178,
+        71,
+        45
+      ]
+    },
+    {
+      "file": "sticker-9-4.webp",
+      "sheet": 9,
+      "index": 4,
+      "rect": [
+        367,
+        38,
+        91,
+        71
+      ]
+    },
+    {
+      "file": "sticker-9-5.webp",
+      "sheet": 9,
+      "index": 5,
+      "rect": [
+        368,
+        131,
+        68,
+        96
+      ]
+    },
+    {
+      "file": "sticker-9-6.webp",
+      "sheet": 9,
+      "index": 6,
+      "rect": [
+        487,
+        48,
+        94,
+        69
+      ]
+    },
+    {
+      "file": "sticker-9-7.webp",
+      "sheet": 9,
+      "index": 7,
+      "rect": [
+        484,
+        132,
+        90,
+        100
+      ]
+    },
+    {
+      "file": "sticker-9-8.webp",
+      "sheet": 9,
+      "index": 8,
+      "rect": [
+        203,
+        234,
+        62,
+        43
+      ]
+    },
+    {
+      "file": "sticker-9-9.webp",
+      "sheet": 9,
+      "index": 9,
+      "rect": [
+        205,
+        350,
+        21,
+        44
+      ]
+    },
+    {
+      "file": "sticker-9-10.webp",
+      "sheet": 9,
+      "index": 10,
+      "rect": [
+        281,
+        296,
+        53,
+        57
+      ]
+    },
+    {
+      "file": "sticker-9-11.webp",
+      "sheet": 9,
+      "index": 11,
+      "rect": [
+        379,
+        242,
+        38,
+        52
+      ]
+    },
+    {
+      "file": "sticker-9-12.webp",
+      "sheet": 9,
+      "index": 12,
+      "rect": [
+        368,
+        342,
+        17,
+        28
+      ]
+    },
+    {
+      "file": "sticker-9-13.webp",
+      "sheet": 9,
+      "index": 13,
+      "rect": [
+        420,
+        300,
+        39,
+        91
+      ]
+    },
+    {
+      "file": "sticker-9-14.webp",
+      "sheet": 9,
+      "index": 14,
+      "rect": [
+        501,
+        247,
+        46,
+        55
+      ]
+    },
+    {
+      "file": "sticker-9-15.webp",
+      "sheet": 9,
+      "index": 15,
+      "rect": [
+        496,
+        345,
+        16,
+        28
+      ]
+    },
+    {
+      "file": "sticker-9-16.webp",
+      "sheet": 9,
+      "index": 16,
+      "rect": [
+        567,
+        289,
+        36,
+        88
+      ]
+    },
+    {
+      "file": "sticker-10-0.webp",
+      "sheet": 10,
+      "index": 0,
+      "rect": [
+        64,
+        125,
+        103,
+        194
+      ]
+    },
+    {
+      "file": "sticker-10-1.webp",
+      "sheet": 10,
+      "index": 1,
+      "rect": [
+        223,
+        56,
+        95,
+        55
+      ]
+    },
+    {
+      "file": "sticker-10-2.webp",
+      "sheet": 10,
+      "index": 2,
+      "rect": [
+        225,
+        142,
+        71,
+        98
+      ]
+    },
+    {
+      "file": "sticker-10-3.webp",
+      "sheet": 10,
+      "index": 3,
+      "rect": [
+        356,
+        58,
+        94,
+        70
+      ]
+    },
+    {
+      "file": "sticker-10-4.webp",
+      "sheet": 10,
+      "index": 4,
+      "rect": [
+        355,
+        148,
+        91,
+        100
+      ]
+    },
+    {
+      "file": "sticker-10-5.webp",
+      "sheet": 10,
+      "index": 5,
+      "rect": [
+        495,
+        73,
+        92,
+        57
+      ]
+    },
+    {
+      "file": "sticker-10-6.webp",
+      "sheet": 10,
+      "index": 6,
+      "rect": [
+        511,
+        148,
+        53,
+        43
+      ]
+    },
+    {
+      "file": "sticker-10-7.webp",
+      "sheet": 10,
+      "index": 7,
+      "rect": [
+        499,
+        207,
+        69,
+        41
+      ]
+    },
+    {
+      "file": "sticker-10-8.webp",
+      "sheet": 10,
+      "index": 8,
+      "rect": [
+        218,
+        269,
+        70,
+        28
+      ]
+    },
+    {
+      "file": "sticker-10-9.webp",
+      "sheet": 10,
+      "index": 9,
+      "rect": [
+        197,
+        347,
+        16,
+        28
+      ]
+    },
+    {
+      "file": "sticker-10-10.webp",
+      "sheet": 10,
+      "index": 10,
+      "rect": [
+        238,
+        331,
+        45,
+        58
+      ]
+    },
+    {
+      "file": "sticker-10-11.webp",
+      "sheet": 10,
+      "index": 11,
+      "rect": [
+        339,
+        358,
+        16,
+        28
+      ]
+    },
+    {
+      "file": "sticker-10-12.webp",
+      "sheet": 10,
+      "index": 12,
+      "rect": [
+        392,
+        274,
+        30,
+        17
+      ]
+    },
+    {
+      "file": "sticker-10-13.webp",
+      "sheet": 10,
+      "index": 13,
+      "rect": [
+        392,
+        346,
+        28,
+        54
+      ]
+    },
+    {
+      "file": "sticker-10-14.webp",
+      "sheet": 10,
+      "index": 14,
+      "rect": [
+        515,
+        280,
+        43,
+        21
+      ]
+    },
+    {
+      "file": "sticker-10-15.webp",
+      "sheet": 10,
+      "index": 15,
+      "rect": [
+        525,
+        354,
+        28,
+        42
+      ]
+    },
+    {
+      "file": "sticker-11-0.webp",
+      "sheet": 11,
+      "index": 0,
+      "rect": [
+        40,
+        18,
+        105,
+        64
+      ]
+    },
+    {
+      "file": "sticker-11-1.webp",
+      "sheet": 11,
+      "index": 1,
+      "rect": [
+        155,
+        59,
+        90,
+        73
+      ]
+    },
+    {
+      "file": "sticker-11-2.webp",
+      "sheet": 11,
+      "index": 2,
+      "rect": [
+        251,
+        27,
+        163,
+        145
+      ]
+    },
+    {
+      "file": "sticker-11-3.webp",
+      "sheet": 11,
+      "index": 3,
+      "rect": [
+        415,
+        89,
+        95,
+        76
+      ]
+    },
+    {
+      "file": "sticker-11-4.webp",
+      "sheet": 11,
+      "index": 4,
+      "rect": [
+        521,
+        35,
+        100,
+        136
+      ]
+    },
+    {
+      "file": "sticker-11-5.webp",
+      "sheet": 11,
+      "index": 5,
+      "rect": [
+        32,
+        110,
+        108,
+        79
+      ]
+    },
+    {
+      "file": "sticker-11-6.webp",
+      "sheet": 11,
+      "index": 6,
+      "rect": [
+        156,
+        143,
+        68,
+        46
+      ]
+    },
+    {
+      "file": "sticker-11-7.webp",
+      "sheet": 11,
+      "index": 7,
+      "rect": [
+        17,
+        200,
+        97,
+        71
+      ]
+    },
+    {
+      "file": "sticker-11-8.webp",
+      "sheet": 11,
+      "index": 8,
+      "rect": [
+        141,
+        198,
+        100,
+        77
+      ]
+    },
+    {
+      "file": "sticker-11-9.webp",
+      "sheet": 11,
+      "index": 9,
+      "rect": [
+        262,
+        178,
+        101,
+        103
+      ]
+    },
+    {
+      "file": "sticker-11-10.webp",
+      "sheet": 11,
+      "index": 10,
+      "rect": [
+        383,
+        211,
+        46,
+        54
+      ]
+    },
+    {
+      "file": "sticker-11-11.webp",
+      "sheet": 11,
+      "index": 11,
+      "rect": [
+        443,
+        188,
+        92,
+        92
+      ]
+    },
+    {
+      "file": "sticker-11-12.webp",
+      "sheet": 11,
+      "index": 12,
+      "rect": [
+        543,
+        180,
+        91,
+        61
+      ]
+    },
+    {
+      "file": "sticker-11-13.webp",
+      "sheet": 11,
+      "index": 13,
+      "rect": [
+        5,
+        326,
+        44,
+        27
+      ]
+    },
+    {
+      "file": "sticker-11-14.webp",
+      "sheet": 11,
+      "index": 14,
+      "rect": [
+        65,
+        296,
+        70,
+        53
+      ]
+    },
+    {
+      "file": "sticker-11-15.webp",
+      "sheet": 11,
+      "index": 15,
+      "rect": [
+        152,
+        288,
+        101,
+        79
+      ]
+    },
+    {
+      "file": "sticker-11-16.webp",
+      "sheet": 11,
+      "index": 16,
+      "rect": [
+        276,
+        286,
+        71,
+        74
+      ]
+    },
+    {
+      "file": "sticker-11-17.webp",
+      "sheet": 11,
+      "index": 17,
+      "rect": [
+        370,
+        286,
+        63,
+        74
+      ]
+    },
+    {
+      "file": "sticker-11-18.webp",
+      "sheet": 11,
+      "index": 18,
+      "rect": [
+        448,
+        333,
+        41,
+        28
+      ]
+    },
+    {
+      "file": "sticker-11-19.webp",
+      "sheet": 11,
+      "index": 19,
+      "rect": [
+        521,
+        286,
+        103,
+        92
+      ]
+    },
+    {
+      "file": "sticker-12-0.webp",
+      "sheet": 12,
+      "index": 0,
+      "rect": [
+        28,
+        10,
+        115,
+        110
+      ]
+    },
+    {
+      "file": "sticker-12-1.webp",
+      "sheet": 12,
+      "index": 1,
+      "rect": [
+        179,
+        29,
+        81,
+        89
+      ]
+    },
+    {
+      "file": "sticker-12-2.webp",
+      "sheet": 12,
+      "index": 2,
+      "rect": [
+        271,
+        31,
+        105,
+        90
+      ]
+    },
+    {
+      "file": "sticker-12-3.webp",
+      "sheet": 12,
+      "index": 3,
+      "rect": [
+        415,
+        47,
+        68,
+        77
+      ]
+    },
+    {
+      "file": "sticker-12-4.webp",
+      "sheet": 12,
+      "index": 4,
+      "rect": [
+        530,
+        33,
+        98,
+        89
+      ]
+    },
+    {
+      "file": "sticker-12-5.webp",
+      "sheet": 12,
+      "index": 5,
+      "rect": [
+        13,
+        133,
+        113,
+        143
+      ]
+    },
+    {
+      "file": "sticker-12-6.webp",
+      "sheet": 12,
+      "index": 6,
+      "rect": [
+        137,
+        166,
+        85,
+        67
+      ]
+    },
+    {
+      "file": "sticker-12-7.webp",
+      "sheet": 12,
+      "index": 7,
+      "rect": [
+        239,
+        156,
+        101,
+        81
+      ]
+    },
+    {
+      "file": "sticker-12-8.webp",
+      "sheet": 12,
+      "index": 8,
+      "rect": [
+        354,
+        163,
+        77,
+        68
+      ]
+    },
+    {
+      "file": "sticker-12-9.webp",
+      "sheet": 12,
+      "index": 9,
+      "rect": [
+        443,
+        136,
+        83,
+        106
+      ]
+    },
+    {
+      "file": "sticker-12-10.webp",
+      "sheet": 12,
+      "index": 10,
+      "rect": [
+        545,
+        153,
+        72,
+        86
+      ]
+    },
+    {
+      "file": "sticker-12-11.webp",
+      "sheet": 12,
+      "index": 11,
+      "rect": [
+        16,
+        293,
+        49,
+        92
+      ]
+    },
+    {
+      "file": "sticker-12-12.webp",
+      "sheet": 12,
+      "index": 12,
+      "rect": [
+        86,
+        306,
+        163,
+        74
+      ]
+    },
+    {
+      "file": "sticker-12-13.webp",
+      "sheet": 12,
+      "index": 13,
+      "rect": [
+        260,
+        276,
+        123,
+        108
+      ]
+    },
+    {
+      "file": "sticker-12-14.webp",
+      "sheet": 12,
+      "index": 14,
+      "rect": [
+        401,
+        266,
+        61,
+        27
+      ]
+    },
+    {
+      "file": "sticker-12-15.webp",
+      "sheet": 12,
+      "index": 15,
+      "rect": [
+        440,
+        317,
+        35,
+        48
+      ]
+    },
+    {
+      "file": "sticker-12-16.webp",
+      "sheet": 12,
+      "index": 16,
+      "rect": [
+        519,
+        277,
+        92,
+        89
+      ]
+    },
+    {
+      "file": "sticker-13-0.webp",
+      "sheet": 13,
+      "index": 0,
+      "rect": [
+        40,
+        18,
+        105,
+        64
+      ]
+    },
+    {
+      "file": "sticker-13-1.webp",
+      "sheet": 13,
+      "index": 1,
+      "rect": [
+        158,
+        47,
+        90,
+        73
+      ]
+    },
+    {
+      "file": "sticker-13-2.webp",
+      "sheet": 13,
+      "index": 2,
+      "rect": [
+        260,
+        25,
+        138,
+        147
+      ]
+    },
+    {
+      "file": "sticker-13-3.webp",
+      "sheet": 13,
+      "index": 3,
+      "rect": [
+        32,
+        110,
+        108,
+        79
+      ]
+    },
+    {
+      "file": "sticker-13-4.webp",
+      "sheet": 13,
+      "index": 4,
+      "rect": [
+        166,
+        136,
+        68,
+        46
+      ]
+    },
+    {
+      "file": "sticker-13-5.webp",
+      "sheet": 13,
+      "index": 5,
+      "rect": [
+        415,
+        89,
+        95,
+        76
+      ]
+    },
+    {
+      "file": "sticker-13-6.webp",
+      "sheet": 13,
+      "index": 6,
+      "rect": [
+        521,
+        35,
+        103,
+        136
+      ]
+    },
+    {
+      "file": "sticker-13-7.webp",
+      "sheet": 13,
+      "index": 7,
+      "rect": [
+        19,
+        202,
+        97,
+        71
+      ]
+    },
+    {
+      "file": "sticker-13-8.webp",
+      "sheet": 13,
+      "index": 8,
+      "rect": [
+        141,
+        198,
+        100,
+        77
+      ]
+    },
+    {
+      "file": "sticker-13-9.webp",
+      "sheet": 13,
+      "index": 9,
+      "rect": [
+        262,
+        185,
+        101,
+        95
+      ]
+    },
+    {
+      "file": "sticker-13-10.webp",
+      "sheet": 13,
+      "index": 10,
+      "rect": [
+        382,
+        212,
+        46,
+        54
+      ]
+    },
+    {
+      "file": "sticker-13-11.webp",
+      "sheet": 13,
+      "index": 11,
+      "rect": [
+        443,
+        188,
+        92,
+        92
+      ]
+    },
+    {
+      "file": "sticker-13-12.webp",
+      "sheet": 13,
+      "index": 12,
+      "rect": [
+        546,
+        190,
+        91,
+        61
+      ]
+    },
+    {
+      "file": "sticker-13-13.webp",
+      "sheet": 13,
+      "index": 13,
+      "rect": [
+        5,
+        326,
+        44,
+        27
+      ]
+    },
+    {
+      "file": "sticker-13-14.webp",
+      "sheet": 13,
+      "index": 14,
+      "rect": [
+        65,
+        304,
+        62,
+        45
+      ]
+    },
+    {
+      "file": "sticker-13-15.webp",
+      "sheet": 13,
+      "index": 15,
+      "rect": [
+        152,
+        287,
+        101,
+        80
+      ]
+    },
+    {
+      "file": "sticker-13-16.webp",
+      "sheet": 13,
+      "index": 16,
+      "rect": [
+        276,
+        286,
+        71,
+        74
+      ]
+    },
+    {
+      "file": "sticker-13-17.webp",
+      "sheet": 13,
+      "index": 17,
+      "rect": [
+        370,
+        286,
+        63,
+        74
+      ]
+    },
+    {
+      "file": "sticker-13-18.webp",
+      "sheet": 13,
+      "index": 18,
+      "rect": [
+        448,
+        333,
+        41,
+        28
+      ]
+    },
+    {
+      "file": "sticker-13-19.webp",
+      "sheet": 13,
+      "index": 19,
+      "rect": [
+        517,
+        289,
+        103,
+        92
+      ]
+    },
+    {
+      "file": "sticker-14-0.webp",
+      "sheet": 14,
+      "index": 0,
+      "rect": [
+        28,
+        10,
+        115,
+        110
+      ]
+    },
+    {
+      "file": "sticker-14-1.webp",
+      "sheet": 14,
+      "index": 1,
+      "rect": [
+        179,
+        29,
+        81,
+        89
+      ]
+    },
+    {
+      "file": "sticker-14-2.webp",
+      "sheet": 14,
+      "index": 2,
+      "rect": [
+        271,
+        31,
+        105,
+        90
+      ]
+    },
+    {
+      "file": "sticker-14-3.webp",
+      "sheet": 14,
+      "index": 3,
+      "rect": [
+        415,
+        47,
+        68,
+        77
+      ]
+    },
+    {
+      "file": "sticker-14-4.webp",
+      "sheet": 14,
+      "index": 4,
+      "rect": [
+        530,
+        33,
+        98,
+        89
+      ]
+    },
+    {
+      "file": "sticker-14-5.webp",
+      "sheet": 14,
+      "index": 5,
+      "rect": [
+        10,
+        133,
+        113,
+        143
+      ]
+    },
+    {
+      "file": "sticker-14-6.webp",
+      "sheet": 14,
+      "index": 6,
+      "rect": [
+        138,
+        166,
+        84,
+        67
+      ]
+    },
+    {
+      "file": "sticker-14-7.webp",
+      "sheet": 14,
+      "index": 7,
+      "rect": [
+        239,
+        156,
+        101,
+        81
+      ]
+    },
+    {
+      "file": "sticker-14-8.webp",
+      "sheet": 14,
+      "index": 8,
+      "rect": [
+        354,
+        163,
+        77,
+        68
+      ]
+    },
+    {
+      "file": "sticker-14-9.webp",
+      "sheet": 14,
+      "index": 9,
+      "rect": [
+        443,
+        136,
+        83,
+        106
+      ]
+    },
+    {
+      "file": "sticker-14-10.webp",
+      "sheet": 14,
+      "index": 10,
+      "rect": [
+        551,
+        151,
+        72,
+        86
+      ]
+    },
+    {
+      "file": "sticker-14-11.webp",
+      "sheet": 14,
+      "index": 11,
+      "rect": [
+        16,
+        294,
+        49,
+        92
+      ]
+    },
+    {
+      "file": "sticker-14-12.webp",
+      "sheet": 14,
+      "index": 12,
+      "rect": [
+        85,
+        301,
+        163,
+        74
+      ]
+    },
+    {
+      "file": "sticker-14-13.webp",
+      "sheet": 14,
+      "index": 13,
+      "rect": [
+        271,
+        279,
+        123,
+        105
+      ]
+    },
+    {
+      "file": "sticker-14-14.webp",
+      "sheet": 14,
+      "index": 14,
+      "rect": [
+        412,
+        266,
+        61,
+        27
+      ]
+    },
+    {
+      "file": "sticker-14-15.webp",
+      "sheet": 14,
+      "index": 15,
+      "rect": [
+        424,
+        320,
+        34,
+        48
+      ]
+    },
+    {
+      "file": "sticker-14-16.webp",
+      "sheet": 14,
+      "index": 16,
+      "rect": [
+        509,
+        277,
+        92,
+        89
+      ]
+    },
+    {
+      "file": "sticker-15-0.webp",
+      "sheet": 15,
+      "index": 0,
+      "rect": [
+        24,
+        37,
+        92,
+        66
+      ]
+    },
+    {
+      "file": "sticker-15-1.webp",
+      "sheet": 15,
+      "index": 1,
+      "rect": [
+        138,
+        17,
+        102,
+        100
+      ]
+    },
+    {
+      "file": "sticker-15-2.webp",
+      "sheet": 15,
+      "index": 2,
+      "rect": [
+        268,
+        31,
+        84,
+        93
+      ]
+    },
+    {
+      "file": "sticker-15-3.webp",
+      "sheet": 15,
+      "index": 3,
+      "rect": [
+        388,
+        38,
+        47,
+        85
+      ]
+    },
+    {
+      "file": "sticker-15-4.webp",
+      "sheet": 15,
+      "index": 4,
+      "rect": [
+        501,
+        38,
+        104,
+        106
+      ]
+    },
+    {
+      "file": "sticker-15-5.webp",
+      "sheet": 15,
+      "index": 5,
+      "rect": [
+        19,
+        177,
+        33,
+        53
+      ]
+    },
+    {
+      "file": "sticker-15-6.webp",
+      "sheet": 15,
+      "index": 6,
+      "rect": [
+        89,
+        180,
+        44,
+        69
+      ]
+    },
+    {
+      "file": "sticker-15-7.webp",
+      "sheet": 15,
+      "index": 7,
+      "rect": [
+        146,
+        148,
+        49,
+        92
+      ]
+    },
+    {
+      "file": "sticker-15-8.webp",
+      "sheet": 15,
+      "index": 8,
+      "rect": [
+        214,
+        156,
+        79,
+        79
+      ]
+    },
+    {
+      "file": "sticker-15-9.webp",
+      "sheet": 15,
+      "index": 9,
+      "rect": [
+        317,
+        147,
+        42,
+        103
+      ]
+    },
+    {
+      "file": "sticker-15-10.webp",
+      "sheet": 15,
+      "index": 10,
+      "rect": [
+        392,
+        177,
+        105,
+        64
+      ]
+    },
+    {
+      "file": "sticker-15-11.webp",
+      "sheet": 15,
+      "index": 11,
+      "rect": [
+        546,
+        179,
+        81,
+        67
+      ]
+    },
+    {
+      "file": "sticker-15-12.webp",
+      "sheet": 15,
+      "index": 12,
+      "rect": [
+        7,
+        294,
+        132,
+        87
+      ]
+    },
+    {
+      "file": "sticker-15-13.webp",
+      "sheet": 15,
+      "index": 13,
+      "rect": [
+        164,
+        305,
+        108,
+        91
+      ]
+    },
+    {
+      "file": "sticker-15-14.webp",
+      "sheet": 15,
+      "index": 14,
+      "rect": [
+        325,
+        288,
+        48,
+        29
+      ]
+    },
+    {
+      "file": "sticker-15-15.webp",
+      "sheet": 15,
+      "index": 15,
+      "rect": [
+        323,
+        364,
+        51,
+        23
+      ]
+    },
+    {
+      "file": "sticker-15-16.webp",
+      "sheet": 15,
+      "index": 16,
+      "rect": [
+        416,
+        338,
+        89,
+        54
+      ]
+    },
+    {
+      "file": "sticker-15-17.webp",
+      "sheet": 15,
+      "index": 17,
+      "rect": [
+        551,
+        275,
+        38,
+        36
+      ]
+    },
+    {
+      "file": "sticker-15-18.webp",
+      "sheet": 15,
+      "index": 18,
+      "rect": [
+        554,
+        339,
+        62,
+        45
+      ]
+    },
+    {
+      "file": "sticker-16-0.webp",
+      "sheet": 16,
+      "index": 0,
+      "rect": [
+        24,
+        37,
+        92,
+        66
+      ]
+    },
+    {
+      "file": "sticker-16-1.webp",
+      "sheet": 16,
+      "index": 1,
+      "rect": [
+        138,
+        17,
+        102,
+        100
+      ]
+    },
+    {
+      "file": "sticker-16-2.webp",
+      "sheet": 16,
+      "index": 2,
+      "rect": [
+        268,
+        31,
+        84,
+        93
+      ]
+    },
+    {
+      "file": "sticker-16-3.webp",
+      "sheet": 16,
+      "index": 3,
+      "rect": [
+        388,
+        38,
+        104,
+        106
+      ]
+    },
+    {
+      "file": "sticker-16-4.webp",
+      "sheet": 16,
+      "index": 4,
+      "rect": [
+        501,
+        38,
+        104,
+        106
+      ]
+    },
+    {
+      "file": "sticker-16-5.webp",
+      "sheet": 16,
+      "index": 5,
+      "rect": [
+        19,
+        177,
+        33,
+        53
+      ]
+    },
+    {
+      "file": "sticker-16-6.webp",
+      "sheet": 16,
+      "index": 6,
+      "rect": [
+        89,
+        180,
+        44,
+        62
+      ]
+    },
+    {
+      "file": "sticker-16-7.webp",
+      "sheet": 16,
+      "index": 7,
+      "rect": [
+        146,
+        148,
+        49,
+        92
+      ]
+    },
+    {
+      "file": "sticker-16-8.webp",
+      "sheet": 16,
+      "index": 8,
+      "rect": [
+        214,
+        156,
+        79,
+        79
+      ]
+    },
+    {
+      "file": "sticker-16-9.webp",
+      "sheet": 16,
+      "index": 9,
+      "rect": [
+        317,
+        147,
+        42,
+        103
+      ]
+    },
+    {
+      "file": "sticker-16-10.webp",
+      "sheet": 16,
+      "index": 10,
+      "rect": [
+        392,
+        177,
+        105,
+        64
+      ]
+    },
+    {
+      "file": "sticker-16-11.webp",
+      "sheet": 16,
+      "index": 11,
+      "rect": [
+        546,
+        179,
+        81,
+        67
+      ]
+    },
+    {
+      "file": "sticker-16-12.webp",
+      "sheet": 16,
+      "index": 12,
+      "rect": [
+        6,
+        278,
+        132,
+        87
+      ]
+    },
+    {
+      "file": "sticker-16-13.webp",
+      "sheet": 16,
+      "index": 13,
+      "rect": [
+        167,
+        295,
+        110,
+        91
+      ]
+    },
+    {
+      "file": "sticker-16-14.webp",
+      "sheet": 16,
+      "index": 14,
+      "rect": [
+        325,
+        288,
+        48,
+        29
+      ]
+    },
+    {
+      "file": "sticker-16-15.webp",
+      "sheet": 16,
+      "index": 15,
+      "rect": [
+        325,
+        356,
+        51,
+        23
+      ]
+    },
+    {
+      "file": "sticker-16-16.webp",
+      "sheet": 16,
+      "index": 16,
+      "rect": [
+        419,
+        329,
+        89,
+        54
+      ]
+    },
+    {
+      "file": "sticker-16-17.webp",
+      "sheet": 16,
+      "index": 17,
+      "rect": [
+        551,
+        275,
+        38,
+        36
+      ]
+    },
+    {
+      "file": "sticker-16-18.webp",
+      "sheet": 16,
+      "index": 18,
+      "rect": [
+        551,
+        331,
+        62,
+        45
+      ]
+    },
+    {
+      "file": "sticker-17-0.webp",
+      "sheet": 17,
+      "index": 0,
+      "rect": [
+        15,
+        13,
+        176,
+        116
+      ]
+    },
+    {
+      "file": "sticker-17-1.webp",
+      "sheet": 17,
+      "index": 1,
+      "rect": [
+        216,
+        25,
+        106,
+        87
+      ]
+    },
+    {
+      "file": "sticker-17-2.webp",
+      "sheet": 17,
+      "index": 2,
+      "rect": [
+        351,
+        30,
+        47,
+        61
+      ]
+    },
+    {
+      "file": "sticker-17-3.webp",
+      "sheet": 17,
+      "index": 3,
+      "rect": [
+        422,
+        18,
+        89,
+        95
+      ]
+    },
+    {
+      "file": "sticker-17-4.webp",
+      "sheet": 17,
+      "index": 4,
+      "rect": [
+        532,
+        42,
+        100,
+        181
+      ]
+    },
+    {
+      "file": "sticker-17-5.webp",
+      "sheet": 17,
+      "index": 5,
+      "rect": [
+        31,
+        197,
+        41,
+        28
+      ]
+    },
+    {
+      "file": "sticker-17-6.webp",
+      "sheet": 17,
+      "index": 6,
+      "rect": [
+        101,
+        157,
+        63,
+        93
+      ]
+    },
+    {
+      "file": "sticker-17-7.webp",
+      "sheet": 17,
+      "index": 7,
+      "rect": [
+        189,
+        172,
+        61,
+        82
+      ]
+    },
+    {
+      "file": "sticker-17-8.webp",
+      "sheet": 17,
+      "index": 8,
+      "rect": [
+        282,
+        176,
+        82,
+        68
+      ]
+    },
+    {
+      "file": "sticker-17-9.webp",
+      "sheet": 17,
+      "index": 9,
+      "rect": [
+        397,
+        176,
+        73,
+        52
+      ]
+    },
+    {
+      "file": "sticker-17-10.webp",
+      "sheet": 17,
+      "index": 10,
+      "rect": [
+        19,
+        291,
+        37,
+        77
+      ]
+    },
+    {
+      "file": "sticker-17-11.webp",
+      "sheet": 17,
+      "index": 11,
+      "rect": [
+        80,
+        291,
+        61,
+        27
+      ]
+    },
+    {
+      "file": "sticker-17-12.webp",
+      "sheet": 17,
+      "index": 12,
+      "rect": [
+        166,
+        319,
+        32,
+        58
+      ]
+    },
+    {
+      "file": "sticker-17-13.webp",
+      "sheet": 17,
+      "index": 13,
+      "rect": [
+        222,
+        293,
+        33,
+        53
+      ]
+    },
+    {
+      "file": "sticker-17-14.webp",
+      "sheet": 17,
+      "index": 14,
+      "rect": [
+        275,
+        318,
+        44,
+        27
+      ]
+    },
+    {
+      "file": "sticker-17-15.webp",
+      "sheet": 17,
+      "index": 15,
+      "rect": [
+        335,
+        296,
+        62,
+        45
+      ]
+    },
+    {
+      "file": "sticker-17-16.webp",
+      "sheet": 17,
+      "index": 16,
+      "rect": [
+        425,
+        263,
+        123,
+        77
+      ]
+    },
+    {
+      "file": "sticker-17-17.webp",
+      "sheet": 17,
+      "index": 17,
+      "rect": [
+        559,
+        268,
+        41,
+        68
+      ]
+    },
+    {
+      "file": "sticker-18-0.webp",
+      "sheet": 18,
+      "index": 0,
+      "rect": [
+        33,
+        8,
+        176,
+        116
+      ]
+    },
+    {
+      "file": "sticker-18-1.webp",
+      "sheet": 18,
+      "index": 1,
+      "rect": [
+        222,
+        18,
+        106,
+        87
+      ]
+    },
+    {
+      "file": "sticker-18-2.webp",
+      "sheet": 18,
+      "index": 2,
+      "rect": [
+        351,
+        30,
+        47,
+        61
+      ]
+    },
+    {
+      "file": "sticker-18-3.webp",
+      "sheet": 18,
+      "index": 3,
+      "rect": [
+        436,
+        17,
+        89,
+        95
+      ]
+    },
+    {
+      "file": "sticker-18-4.webp",
+      "sheet": 18,
+      "index": 4,
+      "rect": [
+        532,
+        42,
+        100,
+        181
+      ]
+    },
+    {
+      "file": "sticker-18-5.webp",
+      "sheet": 18,
+      "index": 5,
+      "rect": [
+        31,
+        197,
+        41,
+        28
+      ]
+    },
+    {
+      "file": "sticker-18-6.webp",
+      "sheet": 18,
+      "index": 6,
+      "rect": [
+        101,
+        157,
+        63,
+        93
+      ]
+    },
+    {
+      "file": "sticker-18-7.webp",
+      "sheet": 18,
+      "index": 7,
+      "rect": [
+        189,
+        172,
+        61,
+        82
+      ]
+    },
+    {
+      "file": "sticker-18-8.webp",
+      "sheet": 18,
+      "index": 8,
+      "rect": [
+        282,
+        176,
+        82,
+        68
+      ]
+    },
+    {
+      "file": "sticker-18-9.webp",
+      "sheet": 18,
+      "index": 9,
+      "rect": [
+        397,
+        176,
+        73,
+        51
+      ]
+    },
+    {
+      "file": "sticker-18-10.webp",
+      "sheet": 18,
+      "index": 10,
+      "rect": [
+        46,
+        258,
+        37,
+        76
+      ]
+    },
+    {
+      "file": "sticker-18-11.webp",
+      "sheet": 18,
+      "index": 11,
+      "rect": [
+        106,
+        295,
+        61,
+        27
+      ]
+    },
+    {
+      "file": "sticker-18-12.webp",
+      "sheet": 18,
+      "index": 12,
+      "rect": [
+        166,
+        303,
+        32,
+        74
+      ]
+    },
+    {
+      "file": "sticker-18-13.webp",
+      "sheet": 18,
+      "index": 13,
+      "rect": [
+        222,
+        293,
+        33,
+        53
+      ]
+    },
+    {
+      "file": "sticker-18-14.webp",
+      "sheet": 18,
+      "index": 14,
+      "rect": [
+        275,
+        318,
+        44,
+        27
+      ]
+    },
+    {
+      "file": "sticker-18-15.webp",
+      "sheet": 18,
+      "index": 15,
+      "rect": [
+        335,
+        296,
+        62,
+        45
+      ]
+    },
+    {
+      "file": "sticker-18-16.webp",
+      "sheet": 18,
+      "index": 16,
+      "rect": [
+        425,
+        263,
+        123,
+        77
+      ]
+    },
+    {
+      "file": "sticker-18-17.webp",
+      "sheet": 18,
+      "index": 17,
+      "rect": [
+        559,
+        268,
+        41,
+        68
+      ]
+    },
+    {
+      "file": "sticker-19-0.webp",
+      "sheet": 19,
+      "index": 0,
+      "rect": [
+        21,
+        11,
+        66,
+        83
+      ]
+    },
+    {
+      "file": "sticker-19-1.webp",
+      "sheet": 19,
+      "index": 1,
+      "rect": [
+        106,
+        7,
+        48,
+        87
+      ]
+    },
+    {
+      "file": "sticker-19-2.webp",
+      "sheet": 19,
+      "index": 2,
+      "rect": [
+        196,
+        41,
+        43,
+        46
+      ]
+    },
+    {
+      "file": "sticker-19-3.webp",
+      "sheet": 19,
+      "index": 3,
+      "rect": [
+        264,
+        15,
+        104,
+        76
+      ]
+    },
+    {
+      "file": "sticker-19-4.webp",
+      "sheet": 19,
+      "index": 4,
+      "rect": [
+        391,
+        23,
+        116,
+        65
+      ]
+    },
+    {
+      "file": "sticker-19-5.webp",
+      "sheet": 19,
+      "index": 5,
+      "rect": [
+        574,
+        36,
+        33,
+        53
+      ]
+    },
+    {
+      "file": "sticker-19-6.webp",
+      "sheet": 19,
+      "index": 6,
+      "rect": [
+        12,
+        107,
+        108,
+        84
+      ]
+    },
+    {
+      "file": "sticker-19-7.webp",
+      "sheet": 19,
+      "index": 7,
+      "rect": [
+        146,
+        117,
+        74,
+        72
+      ]
+    },
+    {
+      "file": "sticker-19-8.webp",
+      "sheet": 19,
+      "index": 8,
+      "rect": [
+        293,
+        113,
+        42,
+        30
+      ]
+    },
+    {
+      "file": "sticker-19-9.webp",
+      "sheet": 19,
+      "index": 9,
+      "rect": [
+        233,
+        172,
+        143,
+        28
+      ]
+    },
+    {
+      "file": "sticker-19-10.webp",
+      "sheet": 19,
+      "index": 10,
+      "rect": [
+        401,
+        125,
+        103,
+        90
+      ]
+    },
+    {
+      "file": "sticker-19-11.webp",
+      "sheet": 19,
+      "index": 11,
+      "rect": [
+        512,
+        104,
+        109,
+        71
+      ]
+    },
+    {
+      "file": "sticker-19-12.webp",
+      "sheet": 19,
+      "index": 12,
+      "rect": [
+        2,
+        211,
+        107,
+        82
+      ]
+    },
+    {
+      "file": "sticker-19-13.webp",
+      "sheet": 19,
+      "index": 13,
+      "rect": [
+        114,
+        208,
+        92,
+        94
+      ]
+    },
+    {
+      "file": "sticker-19-14.webp",
+      "sheet": 19,
+      "index": 14,
+      "rect": [
+        216,
+        212,
+        78,
+        91
+      ]
+    },
+    {
+      "file": "sticker-19-15.webp",
+      "sheet": 19,
+      "index": 15,
+      "rect": [
+        312,
+        223,
+        93,
+        81
+      ]
+    },
+    {
+      "file": "sticker-19-16.webp",
+      "sheet": 19,
+      "index": 16,
+      "rect": [
+        430,
+        237,
+        84,
+        89
+      ]
+    },
+    {
+      "file": "sticker-19-17.webp",
+      "sheet": 19,
+      "index": 17,
+      "rect": [
+        529,
+        190,
+        105,
+        125
+      ]
+    },
+    {
+      "file": "sticker-19-18.webp",
+      "sheet": 19,
+      "index": 18,
+      "rect": [
+        27,
+        305,
+        101,
+        75
+      ]
+    },
+    {
+      "file": "sticker-19-19.webp",
+      "sheet": 19,
+      "index": 19,
+      "rect": [
+        141,
+        315,
+        98,
+        79
+      ]
+    },
+    {
+      "file": "sticker-19-20.webp",
+      "sheet": 19,
+      "index": 20,
+      "rect": [
+        271,
+        331,
+        111,
+        54
+      ]
+    },
+    {
+      "file": "sticker-19-21.webp",
+      "sheet": 19,
+      "index": 21,
+      "rect": [
+        419,
+        346,
+        61,
+        36
+      ]
+    },
+    {
+      "file": "sticker-19-22.webp",
+      "sheet": 19,
+      "index": 22,
+      "rect": [
+        546,
+        340,
+        26,
+        43
+      ]
+    },
+    {
+      "file": "sticker-20-0.webp",
+      "sheet": 20,
+      "index": 0,
+      "rect": [
+        21,
+        11,
+        66,
+        83
+      ]
+    },
+    {
+      "file": "sticker-20-1.webp",
+      "sheet": 20,
+      "index": 1,
+      "rect": [
+        106,
+        7,
+        48,
+        87
+      ]
+    },
+    {
+      "file": "sticker-20-2.webp",
+      "sheet": 20,
+      "index": 2,
+      "rect": [
+        196,
+        41,
+        43,
+        46
+      ]
+    },
+    {
+      "file": "sticker-20-3.webp",
+      "sheet": 20,
+      "index": 3,
+      "rect": [
+        264,
+        15,
+        104,
+        76
+      ]
+    },
+    {
+      "file": "sticker-20-4.webp",
+      "sheet": 20,
+      "index": 4,
+      "rect": [
+        391,
+        23,
+        116,
+        65
+      ]
+    },
+    {
+      "file": "sticker-20-5.webp",
+      "sheet": 20,
+      "index": 5,
+      "rect": [
+        574,
+        36,
+        33,
+        53
+      ]
+    },
+    {
+      "file": "sticker-20-6.webp",
+      "sheet": 20,
+      "index": 6,
+      "rect": [
+        12,
+        107,
+        108,
+        84
+      ]
+    },
+    {
+      "file": "sticker-20-7.webp",
+      "sheet": 20,
+      "index": 7,
+      "rect": [
+        146,
+        117,
+        74,
+        72
+      ]
+    },
+    {
+      "file": "sticker-20-8.webp",
+      "sheet": 20,
+      "index": 8,
+      "rect": [
+        293,
+        113,
+        42,
+        30
+      ]
+    },
+    {
+      "file": "sticker-20-9.webp",
+      "sheet": 20,
+      "index": 9,
+      "rect": [
+        233,
+        172,
+        143,
+        28
+      ]
+    },
+    {
+      "file": "sticker-20-10.webp",
+      "sheet": 20,
+      "index": 10,
+      "rect": [
+        401,
+        125,
+        103,
+        90
+      ]
+    },
+    {
+      "file": "sticker-20-11.webp",
+      "sheet": 20,
+      "index": 11,
+      "rect": [
+        512,
+        104,
+        109,
+        71
+      ]
+    },
+    {
+      "file": "sticker-20-12.webp",
+      "sheet": 20,
+      "index": 12,
+      "rect": [
+        2,
+        211,
+        107,
+        82
+      ]
+    },
+    {
+      "file": "sticker-20-13.webp",
+      "sheet": 20,
+      "index": 13,
+      "rect": [
+        114,
+        208,
+        92,
+        94
+      ]
+    },
+    {
+      "file": "sticker-20-14.webp",
+      "sheet": 20,
+      "index": 14,
+      "rect": [
+        216,
+        212,
+        78,
+        91
+      ]
+    },
+    {
+      "file": "sticker-20-15.webp",
+      "sheet": 20,
+      "index": 15,
+      "rect": [
+        312,
+        223,
+        93,
+        81
+      ]
+    },
+    {
+      "file": "sticker-20-16.webp",
+      "sheet": 20,
+      "index": 16,
+      "rect": [
+        430,
+        237,
+        84,
+        89
+      ]
+    },
+    {
+      "file": "sticker-20-17.webp",
+      "sheet": 20,
+      "index": 17,
+      "rect": [
+        529,
+        190,
+        105,
+        125
+      ]
+    },
+    {
+      "file": "sticker-20-18.webp",
+      "sheet": 20,
+      "index": 18,
+      "rect": [
+        27,
+        305,
+        101,
+        75
+      ]
+    },
+    {
+      "file": "sticker-20-19.webp",
+      "sheet": 20,
+      "index": 19,
+      "rect": [
+        141,
+        315,
+        98,
+        79
+      ]
+    },
+    {
+      "file": "sticker-20-20.webp",
+      "sheet": 20,
+      "index": 20,
+      "rect": [
+        271,
+        331,
+        111,
+        54
+      ]
+    },
+    {
+      "file": "sticker-20-21.webp",
+      "sheet": 20,
+      "index": 21,
+      "rect": [
+        419,
+        346,
+        61,
+        36
+      ]
+    },
+    {
+      "file": "sticker-20-22.webp",
+      "sheet": 20,
+      "index": 22,
+      "rect": [
+        546,
+        340,
+        26,
+        43
+      ]
+    },
+    {
+      "file": "sticker-21-0.webp",
+      "sheet": 21,
+      "index": 0,
+      "rect": [
+        12,
+        23,
+        89,
+        67
+      ]
+    },
+    {
+      "file": "sticker-21-1.webp",
+      "sheet": 21,
+      "index": 1,
+      "rect": [
+        123,
+        23,
+        105,
+        77
+      ]
+    },
+    {
+      "file": "sticker-21-2.webp",
+      "sheet": 21,
+      "index": 2,
+      "rect": [
+        242,
+        34,
+        128,
+        51
+      ]
+    },
+    {
+      "file": "sticker-21-3.webp",
+      "sheet": 21,
+      "index": 3,
+      "rect": [
+        396,
+        14,
+        63,
+        103
+      ]
+    },
+    {
+      "file": "sticker-21-4.webp",
+      "sheet": 21,
+      "index": 4,
+      "rect": [
+        485,
+        18,
+        120,
+        58
+      ]
+    },
+    {
+      "file": "sticker-21-5.webp",
+      "sheet": 21,
+      "index": 5,
+      "rect": [
+        71,
+        115,
+        84,
+        53
+      ]
+    },
+    {
+      "file": "sticker-21-6.webp",
+      "sheet": 21,
+      "index": 6,
+      "rect": [
+        180,
+        132,
+        48,
+        40
+      ]
+    },
+    {
+      "file": "sticker-21-7.webp",
+      "sheet": 21,
+      "index": 7,
+      "rect": [
+        261,
+        121,
+        108,
+        71
+      ]
+    },
+    {
+      "file": "sticker-21-8.webp",
+      "sheet": 21,
+      "index": 8,
+      "rect": [
+        405,
+        139,
+        38,
+        44
+      ]
+    },
+    {
+      "file": "sticker-21-9.webp",
+      "sheet": 21,
+      "index": 9,
+      "rect": [
+        490,
+        97,
+        115,
+        85
+      ]
+    },
+    {
+      "file": "sticker-21-10.webp",
+      "sheet": 21,
+      "index": 10,
+      "rect": [
+        13,
+        196,
+        49,
+        65
+      ]
+    },
+    {
+      "file": "sticker-21-11.webp",
+      "sheet": 21,
+      "index": 11,
+      "rect": [
+        81,
+        204,
+        98,
+        62
+      ]
+    },
+    {
+      "file": "sticker-21-12.webp",
+      "sheet": 21,
+      "index": 12,
+      "rect": [
+        201,
+        212,
+        84,
+        65
+      ]
+    },
+    {
+      "file": "sticker-21-13.webp",
+      "sheet": 21,
+      "index": 13,
+      "rect": [
+        301,
+        214,
+        48,
+        50
+      ]
+    },
+    {
+      "file": "sticker-21-14.webp",
+      "sheet": 21,
+      "index": 14,
+      "rect": [
+        365,
+        226,
+        59,
+        43
+      ]
+    },
+    {
+      "file": "sticker-21-15.webp",
+      "sheet": 21,
+      "index": 15,
+      "rect": [
+        453,
+        218,
+        53,
+        41
+      ]
+    },
+    {
+      "file": "sticker-21-16.webp",
+      "sheet": 21,
+      "index": 16,
+      "rect": [
+        532,
+        210,
+        60,
+        57
+      ]
+    },
+    {
+      "file": "sticker-21-17.webp",
+      "sheet": 21,
+      "index": 17,
+      "rect": [
+        49,
+        308,
+        28,
+        55
+      ]
+    },
+    {
+      "file": "sticker-21-18.webp",
+      "sheet": 21,
+      "index": 18,
+      "rect": [
+        101,
+        285,
+        104,
+        87
+      ]
+    },
+    {
+      "file": "sticker-21-19.webp",
+      "sheet": 21,
+      "index": 19,
+      "rect": [
+        237,
+        293,
+        110,
+        87
+      ]
+    },
+    {
+      "file": "sticker-21-20.webp",
+      "sheet": 21,
+      "index": 20,
+      "rect": [
+        384,
+        292,
+        100,
+        78
+      ]
+    },
+    {
+      "file": "sticker-21-21.webp",
+      "sheet": 21,
+      "index": 21,
+      "rect": [
+        501,
+        292,
+        105,
+        82
+      ]
+    },
+    {
+      "file": "sticker-22-0.webp",
+      "sheet": 22,
+      "index": 0,
+      "rect": [
+        12,
+        23,
+        89,
+        67
+      ]
+    },
+    {
+      "file": "sticker-22-1.webp",
+      "sheet": 22,
+      "index": 1,
+      "rect": [
+        123,
+        23,
+        105,
+        77
+      ]
+    },
+    {
+      "file": "sticker-22-2.webp",
+      "sheet": 22,
+      "index": 2,
+      "rect": [
+        242,
+        34,
+        128,
+        51
+      ]
+    },
+    {
+      "file": "sticker-22-3.webp",
+      "sheet": 22,
+      "index": 3,
+      "rect": [
+        396,
+        14,
+        63,
+        103
+      ]
+    },
+    {
+      "file": "sticker-22-4.webp",
+      "sheet": 22,
+      "index": 4,
+      "rect": [
+        485,
+        18,
+        120,
+        58
+      ]
+    },
+    {
+      "file": "sticker-22-5.webp",
+      "sheet": 22,
+      "index": 5,
+      "rect": [
+        71,
+        115,
+        84,
+        53
+      ]
+    },
+    {
+      "file": "sticker-22-6.webp",
+      "sheet": 22,
+      "index": 6,
+      "rect": [
+        180,
+        132,
+        48,
+        40
+      ]
+    },
+    {
+      "file": "sticker-22-7.webp",
+      "sheet": 22,
+      "index": 7,
+      "rect": [
+        261,
+        121,
+        108,
+        71
+      ]
+    },
+    {
+      "file": "sticker-22-8.webp",
+      "sheet": 22,
+      "index": 8,
+      "rect": [
+        405,
+        139,
+        38,
+        44
+      ]
+    },
+    {
+      "file": "sticker-22-9.webp",
+      "sheet": 22,
+      "index": 9,
+      "rect": [
+        490,
+        97,
+        115,
+        85
+      ]
+    },
+    {
+      "file": "sticker-22-10.webp",
+      "sheet": 22,
+      "index": 10,
+      "rect": [
+        13,
+        196,
+        49,
+        65
+      ]
+    },
+    {
+      "file": "sticker-22-11.webp",
+      "sheet": 22,
+      "index": 11,
+      "rect": [
+        81,
+        204,
+        98,
+        62
+      ]
+    },
+    {
+      "file": "sticker-22-12.webp",
+      "sheet": 22,
+      "index": 12,
+      "rect": [
+        201,
+        212,
+        84,
+        65
+      ]
+    },
+    {
+      "file": "sticker-22-13.webp",
+      "sheet": 22,
+      "index": 13,
+      "rect": [
+        301,
+        214,
+        48,
+        50
+      ]
+    },
+    {
+      "file": "sticker-22-14.webp",
+      "sheet": 22,
+      "index": 14,
+      "rect": [
+        365,
+        226,
+        59,
+        43
+      ]
+    },
+    {
+      "file": "sticker-22-15.webp",
+      "sheet": 22,
+      "index": 15,
+      "rect": [
+        453,
+        218,
+        53,
+        41
+      ]
+    },
+    {
+      "file": "sticker-22-16.webp",
+      "sheet": 22,
+      "index": 16,
+      "rect": [
+        532,
+        210,
+        60,
+        57
+      ]
+    },
+    {
+      "file": "sticker-22-17.webp",
+      "sheet": 22,
+      "index": 17,
+      "rect": [
+        49,
+        308,
+        28,
+        55
+      ]
+    },
+    {
+      "file": "sticker-22-18.webp",
+      "sheet": 22,
+      "index": 18,
+      "rect": [
+        101,
+        285,
+        104,
+        87
+      ]
+    },
+    {
+      "file": "sticker-22-19.webp",
+      "sheet": 22,
+      "index": 19,
+      "rect": [
+        237,
+        293,
+        110,
+        87
+      ]
+    },
+    {
+      "file": "sticker-22-20.webp",
+      "sheet": 22,
+      "index": 20,
+      "rect": [
+        384,
+        292,
+        100,
+        78
+      ]
+    },
+    {
+      "file": "sticker-22-21.webp",
+      "sheet": 22,
+      "index": 21,
+      "rect": [
+        501,
+        292,
+        105,
+        82
+      ]
+    },
+    {
+      "file": "sticker-23-0.webp",
+      "sheet": 23,
+      "index": 0,
+      "rect": [
+        5,
+        18,
+        243,
+        131
+      ]
+    },
+    {
+      "file": "sticker-23-1.webp",
+      "sheet": 23,
+      "index": 1,
+      "rect": [
+        279,
+        8,
+        56,
+        71
+      ]
+    },
+    {
+      "file": "sticker-23-2.webp",
+      "sheet": 23,
+      "index": 2,
+      "rect": [
+        255,
+        116,
+        33,
+        45
+      ]
+    },
+    {
+      "file": "sticker-23-3.webp",
+      "sheet": 23,
+      "index": 3,
+      "rect": [
+        296,
+        108,
+        36,
+        33
+      ]
+    },
+    {
+      "file": "sticker-23-4.webp",
+      "sheet": 23,
+      "index": 4,
+      "rect": [
+        389,
+        2,
+        49,
+        70
+      ]
+    },
+    {
+      "file": "sticker-23-5.webp",
+      "sheet": 23,
+      "index": 5,
+      "rect": [
+        356,
+        86,
+        65,
+        57
+      ]
+    },
+    {
+      "file": "sticker-23-6.webp",
+      "sheet": 23,
+      "index": 6,
+      "rect": [
+        453,
+        79,
+        84,
+        86
+      ]
+    },
+    {
+      "file": "sticker-23-7.webp",
+      "sheet": 23,
+      "index": 7,
+      "rect": [
+        549,
+        24,
+        79,
+        92
+      ]
+    },
+    {
+      "file": "sticker-23-8.webp",
+      "sheet": 23,
+      "index": 8,
+      "rect": [
+        4,
+        167,
+        102,
+        102
+      ]
+    },
+    {
+      "file": "sticker-23-9.webp",
+      "sheet": 23,
+      "index": 9,
+      "rect": [
+        118,
+        169,
+        90,
+        105
+      ]
+    },
+    {
+      "file": "sticker-23-10.webp",
+      "sheet": 23,
+      "index": 10,
+      "rect": [
+        213,
+        183,
+        90,
+        73
+      ]
+    },
+    {
+      "file": "sticker-23-11.webp",
+      "sheet": 23,
+      "index": 11,
+      "rect": [
+        316,
+        159,
+        104,
+        85
+      ]
+    },
+    {
+      "file": "sticker-23-12.webp",
+      "sheet": 23,
+      "index": 12,
+      "rect": [
+        447,
+        179,
+        76,
+        75
+      ]
+    },
+    {
+      "file": "sticker-23-13.webp",
+      "sheet": 23,
+      "index": 13,
+      "rect": [
+        536,
+        172,
+        100,
+        87
+      ]
+    },
+    {
+      "file": "sticker-23-14.webp",
+      "sheet": 23,
+      "index": 14,
+      "rect": [
+        14,
+        285,
+        108,
+        85
+      ]
+    },
+    {
+      "file": "sticker-23-15.webp",
+      "sheet": 23,
+      "index": 15,
+      "rect": [
+        146,
+        294,
+        54,
+        64
+      ]
+    },
+    {
+      "file": "sticker-23-16.webp",
+      "sheet": 23,
+      "index": 16,
+      "rect": [
+        211,
+        283,
+        82,
+        95
+      ]
+    },
+    {
+      "file": "sticker-23-17.webp",
+      "sheet": 23,
+      "index": 17,
+      "rect": [
+        317,
+        315,
+        79,
+        56
+      ]
+    },
+    {
+      "file": "sticker-23-18.webp",
+      "sheet": 23,
+      "index": 18,
+      "rect": [
+        413,
+        267,
+        79,
+        103
+      ]
+    },
+    {
+      "file": "sticker-23-19.webp",
+      "sheet": 23,
+      "index": 19,
+      "rect": [
+        524,
+        301,
+        106,
+        74
+      ]
+    },
+    {
+      "file": "sticker-24-0.webp",
+      "sheet": 24,
+      "index": 0,
+      "rect": [
+        6,
+        17,
+        241,
+        131
+      ]
+    },
+    {
+      "file": "sticker-24-1.webp",
+      "sheet": 24,
+      "index": 1,
+      "rect": [
+        276,
+        18,
+        57,
+        75
+      ]
+    },
+    {
+      "file": "sticker-24-2.webp",
+      "sheet": 24,
+      "index": 2,
+      "rect": [
+        270,
+        120,
+        37,
+        33
+      ]
+    },
+    {
+      "file": "sticker-24-3.webp",
+      "sheet": 24,
+      "index": 3,
+      "rect": [
+        349,
+        86,
+        65,
+        57
+      ]
+    },
+    {
+      "file": "sticker-24-4.webp",
+      "sheet": 24,
+      "index": 4,
+      "rect": [
+        390,
+        3,
+        49,
+        67
+      ]
+    },
+    {
+      "file": "sticker-24-5.webp",
+      "sheet": 24,
+      "index": 5,
+      "rect": [
+        444,
+        64,
+        84,
+        86
+      ]
+    },
+    {
+      "file": "sticker-24-6.webp",
+      "sheet": 24,
+      "index": 6,
+      "rect": [
+        556,
+        25,
+        79,
+        92
+      ]
+    },
+    {
+      "file": "sticker-24-7.webp",
+      "sheet": 24,
+      "index": 7,
+      "rect": [
+        4,
+        167,
+        102,
+        102
+      ]
+    },
+    {
+      "file": "sticker-24-8.webp",
+      "sheet": 24,
+      "index": 8,
+      "rect": [
+        118,
+        169,
+        90,
+        93
+      ]
+    },
+    {
+      "file": "sticker-24-9.webp",
+      "sheet": 24,
+      "index": 9,
+      "rect": [
+        213,
+        176,
+        90,
+        73
+      ]
+    },
+    {
+      "file": "sticker-24-10.webp",
+      "sheet": 24,
+      "index": 10,
+      "rect": [
+        316,
+        152,
+        105,
+        85
+      ]
+    },
+    {
+      "file": "sticker-24-11.webp",
+      "sheet": 24,
+      "index": 11,
+      "rect": [
+        437,
+        171,
+        76,
+        75
+      ]
+    },
+    {
+      "file": "sticker-24-12.webp",
+      "sheet": 24,
+      "index": 12,
+      "rect": [
+        525,
+        162,
+        100,
+        87
+      ]
+    },
+    {
+      "file": "sticker-24-13.webp",
+      "sheet": 24,
+      "index": 13,
+      "rect": [
+        16,
+        285,
+        108,
+        85
+      ]
+    },
+    {
+      "file": "sticker-24-14.webp",
+      "sheet": 24,
+      "index": 14,
+      "rect": [
+        145,
+        294,
+        54,
+        64
+      ]
+    },
+    {
+      "file": "sticker-24-15.webp",
+      "sheet": 24,
+      "index": 15,
+      "rect": [
+        210,
+        283,
+        82,
+        95
+      ]
+    },
+    {
+      "file": "sticker-24-16.webp",
+      "sheet": 24,
+      "index": 16,
+      "rect": [
+        316,
+        315,
+        80,
+        56
+      ]
+    },
+    {
+      "file": "sticker-24-17.webp",
+      "sheet": 24,
+      "index": 17,
+      "rect": [
+        414,
+        265,
+        81,
+        104
+      ]
+    },
+    {
+      "file": "sticker-24-18.webp",
+      "sheet": 24,
+      "index": 18,
+      "rect": [
+        516,
+        296,
+        106,
+        70
+      ]
+    },
+    {
+      "file": "sticker-25-0.webp",
+      "sheet": 25,
+      "index": 0,
+      "rect": [
+        49,
+        15,
+        77,
+        102
+      ]
+    },
+    {
+      "file": "sticker-25-1.webp",
+      "sheet": 25,
+      "index": 1,
+      "rect": [
+        152,
+        19,
+        105,
+        111
+      ]
+    },
+    {
+      "file": "sticker-25-2.webp",
+      "sheet": 25,
+      "index": 2,
+      "rect": [
+        300,
+        28,
+        103,
+        61
+      ]
+    },
+    {
+      "file": "sticker-25-3.webp",
+      "sheet": 25,
+      "index": 3,
+      "rect": [
+        436,
+        29,
+        84,
+        65
+      ]
+    },
+    {
+      "file": "sticker-25-4.webp",
+      "sheet": 25,
+      "index": 4,
+      "rect": [
+        554,
+        25,
+        40,
+        30
+      ]
+    },
+    {
+      "file": "sticker-25-5.webp",
+      "sheet": 25,
+      "index": 5,
+      "rect": [
+        31,
+        155,
+        75,
+        86
+      ]
+    },
+    {
+      "file": "sticker-25-6.webp",
+      "sheet": 25,
+      "index": 6,
+      "rect": [
+        122,
+        163,
+        118,
+        81
+      ]
+    },
+    {
+      "file": "sticker-25-7.webp",
+      "sheet": 25,
+      "index": 7,
+      "rect": [
+        272,
+        111,
+        113,
+        106
+      ]
+    },
+    {
+      "file": "sticker-25-8.webp",
+      "sheet": 25,
+      "index": 8,
+      "rect": [
+        407,
+        127,
+        108,
+        81
+      ]
+    },
+    {
+      "file": "sticker-25-9.webp",
+      "sheet": 25,
+      "index": 9,
+      "rect": [
+        544,
+        82,
+        89,
+        140
+      ]
+    },
+    {
+      "file": "sticker-25-10.webp",
+      "sheet": 25,
+      "index": 10,
+      "rect": [
+        35,
+        288,
+        90,
+        81
+      ]
+    },
+    {
+      "file": "sticker-25-11.webp",
+      "sheet": 25,
+      "index": 11,
+      "rect": [
+        142,
+        292,
+        79,
+        77
+      ]
+    },
+    {
+      "file": "sticker-25-12.webp",
+      "sheet": 25,
+      "index": 12,
+      "rect": [
+        236,
+        275,
+        82,
+        104
+      ]
+    },
+    {
+      "file": "sticker-25-13.webp",
+      "sheet": 25,
+      "index": 13,
+      "rect": [
+        329,
+        234,
+        121,
+        151
+      ]
+    },
+    {
+      "file": "sticker-25-14.webp",
+      "sheet": 25,
+      "index": 14,
+      "rect": [
+        467,
+        237,
+        77,
+        71
+      ]
+    },
+    {
+      "file": "sticker-25-15.webp",
+      "sheet": 25,
+      "index": 15,
+      "rect": [
+        570,
+        244,
+        33,
+        77
+      ]
+    },
+    {
+      "file": "sticker-25-16.webp",
+      "sheet": 25,
+      "index": 16,
+      "rect": [
+        491,
+        336,
+        93,
+        48
+      ]
+    },
+    {
+      "file": "sticker-26-0.webp",
+      "sheet": 26,
+      "index": 0,
+      "rect": [
+        74,
+        10,
+        51,
+        58
+      ]
+    },
+    {
+      "file": "sticker-26-1.webp",
+      "sheet": 26,
+      "index": 1,
+      "rect": [
+        168,
+        9,
+        97,
+        67
+      ]
+    },
+    {
+      "file": "sticker-26-2.webp",
+      "sheet": 26,
+      "index": 2,
+      "rect": [
+        316,
+        5,
+        90,
+        92
+      ]
+    },
+    {
+      "file": "sticker-26-3.webp",
+      "sheet": 26,
+      "index": 3,
+      "rect": [
+        443,
+        21,
+        103,
+        77
+      ]
+    },
+    {
+      "file": "sticker-26-4.webp",
+      "sheet": 26,
+      "index": 4,
+      "rect": [
+        547,
+        21,
+        85,
+        77
+      ]
+    },
+    {
+      "file": "sticker-26-5.webp",
+      "sheet": 26,
+      "index": 5,
+      "rect": [
+        19,
+        73,
+        37,
+        199
+      ]
+    },
+    {
+      "file": "sticker-26-6.webp",
+      "sheet": 26,
+      "index": 6,
+      "rect": [
+        84,
+        174,
+        32,
+        73
+      ]
+    },
+    {
+      "file": "sticker-26-7.webp",
+      "sheet": 26,
+      "index": 7,
+      "rect": [
+        150,
+        109,
+        41,
+        52
+      ]
+    },
+    {
+      "file": "sticker-26-8.webp",
+      "sheet": 26,
+      "index": 8,
+      "rect": [
+        154,
+        196,
+        38,
+        36
+      ]
+    },
+    {
+      "file": "sticker-26-9.webp",
+      "sheet": 26,
+      "index": 9,
+      "rect": [
+        242,
+        116,
+        54,
+        49
+      ]
+    },
+    {
+      "file": "sticker-26-10.webp",
+      "sheet": 26,
+      "index": 10,
+      "rect": [
+        224,
+        189,
+        64,
+        60
+      ]
+    },
+    {
+      "file": "sticker-26-11.webp",
+      "sheet": 26,
+      "index": 11,
+      "rect": [
+        325,
+        113,
+        118,
+        150
+      ]
+    },
+    {
+      "file": "sticker-26-12.webp",
+      "sheet": 26,
+      "index": 12,
+      "rect": [
+        478,
+        143,
+        145,
+        118
+      ]
+    },
+    {
+      "file": "sticker-26-13.webp",
+      "sheet": 26,
+      "index": 13,
+      "rect": [
+        18,
+        288,
+        72,
+        95
+      ]
+    },
+    {
+      "file": "sticker-26-14.webp",
+      "sheet": 26,
+      "index": 14,
+      "rect": [
+        104,
+        289,
+        74,
+        94
+      ]
+    },
+    {
+      "file": "sticker-26-15.webp",
+      "sheet": 26,
+      "index": 15,
+      "rect": [
+        189,
+        291,
+        74,
+        94
+      ]
+    },
+    {
+      "file": "sticker-26-16.webp",
+      "sheet": 26,
+      "index": 16,
+      "rect": [
+        277,
+        292,
+        73,
+        95
+      ]
+    },
+    {
+      "file": "sticker-26-17.webp",
+      "sheet": 26,
+      "index": 17,
+      "rect": [
+        366,
+        317,
+        78,
+        69
+      ]
+    },
+    {
+      "file": "sticker-26-18.webp",
+      "sheet": 26,
+      "index": 18,
+      "rect": [
+        462,
+        296,
+        72,
+        91
+      ]
+    },
+    {
+      "file": "sticker-26-19.webp",
+      "sheet": 26,
+      "index": 19,
+      "rect": [
+        559,
+        298,
+        72,
+        95
+      ]
+    },
+    {
+      "file": "sticker-27-0.webp",
+      "sheet": 27,
+      "index": 0,
+      "rect": [
+        34,
+        21,
+        131,
+        112
+      ]
+    },
+    {
+      "file": "sticker-27-1.webp",
+      "sheet": 27,
+      "index": 1,
+      "rect": [
+        179,
+        27,
+        131,
+        112
+      ]
+    },
+    {
+      "file": "sticker-27-2.webp",
+      "sheet": 27,
+      "index": 2,
+      "rect": [
+        332,
+        35,
+        131,
+        112
+      ]
+    },
+    {
+      "file": "sticker-27-3.webp",
+      "sheet": 27,
+      "index": 3,
+      "rect": [
+        492,
+        39,
+        131,
+        112
+      ]
+    },
+    {
+      "file": "sticker-27-4.webp",
+      "sheet": 27,
+      "index": 4,
+      "rect": [
+        32,
+        149,
+        131,
+        112
+      ]
+    },
+    {
+      "file": "sticker-27-5.webp",
+      "sheet": 27,
+      "index": 5,
+      "rect": [
+        171,
+        159,
+        131,
+        112
+      ]
+    },
+    {
+      "file": "sticker-27-6.webp",
+      "sheet": 27,
+      "index": 6,
+      "rect": [
+        319,
+        154,
+        131,
+        112
+      ]
+    },
+    {
+      "file": "sticker-27-7.webp",
+      "sheet": 27,
+      "index": 7,
+      "rect": [
+        489,
+        160,
+        131,
+        112
+      ]
+    },
+    {
+      "file": "sticker-27-8.webp",
+      "sheet": 27,
+      "index": 8,
+      "rect": [
+        32,
+        272,
+        131,
+        112
+      ]
+    },
+    {
+      "file": "sticker-27-9.webp",
+      "sheet": 27,
+      "index": 9,
+      "rect": [
+        192,
+        278,
+        131,
+        112
+      ]
+    },
+    {
+      "file": "sticker-27-10.webp",
+      "sheet": 27,
+      "index": 10,
+      "rect": [
+        344,
+        281,
+        130,
+        114
+      ]
+    },
+    {
+      "file": "sticker-27-11.webp",
+      "sheet": 27,
+      "index": 11,
+      "rect": [
+        492,
+        282,
+        131,
+        112
+      ]
+    },
+    {
+      "file": "sticker-28-0.webp",
+      "sheet": 28,
+      "index": 0,
+      "rect": [
+        34,
+        21,
+        131,
+        112
+      ]
+    },
+    {
+      "file": "sticker-28-1.webp",
+      "sheet": 28,
+      "index": 1,
+      "rect": [
+        179,
+        27,
+        131,
+        112
+      ]
+    },
+    {
+      "file": "sticker-28-2.webp",
+      "sheet": 28,
+      "index": 2,
+      "rect": [
+        332,
+        35,
+        131,
+        112
+      ]
+    },
+    {
+      "file": "sticker-28-3.webp",
+      "sheet": 28,
+      "index": 3,
+      "rect": [
+        492,
+        39,
+        131,
+        112
+      ]
+    },
+    {
+      "file": "sticker-28-4.webp",
+      "sheet": 28,
+      "index": 4,
+      "rect": [
+        32,
+        149,
+        131,
+        112
+      ]
+    },
+    {
+      "file": "sticker-28-5.webp",
+      "sheet": 28,
+      "index": 5,
+      "rect": [
+        171,
+        159,
+        131,
+        112
+      ]
+    },
+    {
+      "file": "sticker-28-6.webp",
+      "sheet": 28,
+      "index": 6,
+      "rect": [
+        319,
+        154,
+        131,
+        112
+      ]
+    },
+    {
+      "file": "sticker-28-7.webp",
+      "sheet": 28,
+      "index": 7,
+      "rect": [
+        489,
+        160,
+        131,
+        112
+      ]
+    },
+    {
+      "file": "sticker-28-8.webp",
+      "sheet": 28,
+      "index": 8,
+      "rect": [
+        32,
+        272,
+        131,
+        112
+      ]
+    },
+    {
+      "file": "sticker-28-9.webp",
+      "sheet": 28,
+      "index": 9,
+      "rect": [
+        192,
+        278,
+        131,
+        112
+      ]
+    },
+    {
+      "file": "sticker-28-10.webp",
+      "sheet": 28,
+      "index": 10,
+      "rect": [
+        344,
+        281,
+        130,
+        114
+      ]
+    },
+    {
+      "file": "sticker-28-11.webp",
+      "sheet": 28,
+      "index": 11,
+      "rect": [
+        492,
+        282,
+        131,
+        112
+      ]
+    },
+    {
+      "file": "sticker-29-0.webp",
+      "sheet": 29,
+      "index": 0,
+      "rect": [
+        34,
+        21,
+        131,
+        112
+      ]
+    },
+    {
+      "file": "sticker-29-1.webp",
+      "sheet": 29,
+      "index": 1,
+      "rect": [
+        179,
+        27,
+        131,
+        112
+      ]
+    },
+    {
+      "file": "sticker-29-2.webp",
+      "sheet": 29,
+      "index": 2,
+      "rect": [
+        332,
+        35,
+        131,
+        112
+      ]
+    },
+    {
+      "file": "sticker-29-3.webp",
+      "sheet": 29,
+      "index": 3,
+      "rect": [
+        492,
+        39,
+        131,
+        112
+      ]
+    },
+    {
+      "file": "sticker-29-4.webp",
+      "sheet": 29,
+      "index": 4,
+      "rect": [
+        32,
+        149,
+        131,
+        112
+      ]
+    },
+    {
+      "file": "sticker-29-5.webp",
+      "sheet": 29,
+      "index": 5,
+      "rect": [
+        171,
+        159,
+        131,
+        112
+      ]
+    },
+    {
+      "file": "sticker-29-6.webp",
+      "sheet": 29,
+      "index": 6,
+      "rect": [
+        319,
+        154,
+        131,
+        112
+      ]
+    },
+    {
+      "file": "sticker-29-7.webp",
+      "sheet": 29,
+      "index": 7,
+      "rect": [
+        489,
+        160,
+        131,
+        112
+      ]
+    },
+    {
+      "file": "sticker-29-8.webp",
+      "sheet": 29,
+      "index": 8,
+      "rect": [
+        32,
+        272,
+        131,
+        112
+      ]
+    },
+    {
+      "file": "sticker-29-9.webp",
+      "sheet": 29,
+      "index": 9,
+      "rect": [
+        192,
+        278,
+        131,
+        112
+      ]
+    },
+    {
+      "file": "sticker-29-10.webp",
+      "sheet": 29,
+      "index": 10,
+      "rect": [
+        344,
+        281,
+        130,
+        114
+      ]
+    },
+    {
+      "file": "sticker-29-11.webp",
+      "sheet": 29,
+      "index": 11,
+      "rect": [
+        492,
+        282,
+        131,
+        112
+      ]
+    },
+    {
+      "file": "sticker-30-0.webp",
+      "sheet": 30,
+      "index": 0,
+      "rect": [
+        26,
+        18,
+        210,
+        32
+      ]
+    },
+    {
+      "file": "sticker-30-1.webp",
+      "sheet": 30,
+      "index": 1,
+      "rect": [
+        8,
+        59,
+        209,
+        70
+      ]
+    },
+    {
+      "file": "sticker-30-2.webp",
+      "sheet": 30,
+      "index": 2,
+      "rect": [
+        20,
+        136,
+        174,
+        41
+      ]
+    },
+    {
+      "file": "sticker-30-3.webp",
+      "sheet": 30,
+      "index": 3,
+      "rect": [
+        30,
+        184,
+        131,
+        73
+      ]
+    },
+    {
+      "file": "sticker-30-4.webp",
+      "sheet": 30,
+      "index": 4,
+      "rect": [
+        43,
+        258,
+        131,
+        74
+      ]
+    },
+    {
+      "file": "sticker-30-5.webp",
+      "sheet": 30,
+      "index": 5,
+      "rect": [
+        37,
+        340,
+        149,
+        57
+      ]
+    },
+    {
+      "file": "sticker-30-6.webp",
+      "sheet": 30,
+      "index": 6,
+      "rect": [
+        253,
+        19,
+        127,
+        69
+      ]
+    },
+    {
+      "file": "sticker-30-7.webp",
+      "sheet": 30,
+      "index": 7,
+      "rect": [
+        217,
+        107,
+        166,
+        134
+      ]
+    },
+    {
+      "file": "sticker-30-8.webp",
+      "sheet": 30,
+      "index": 8,
+      "rect": [
+        218,
+        256,
+        165,
+        131
+      ]
+    },
+    {
+      "file": "sticker-30-9.webp",
+      "sheet": 30,
+      "index": 9,
+      "rect": [
+        446,
+        3,
+        189,
+        85
+      ]
+    },
+    {
+      "file": "sticker-30-10.webp",
+      "sheet": 30,
+      "index": 10,
+      "rect": [
+        438,
+        87,
+        184,
+        86
+      ]
+    },
+    {
+      "file": "sticker-30-11.webp",
+      "sheet": 30,
+      "index": 11,
+      "rect": [
+        448,
+        175,
+        138,
+        43
+      ]
+    },
+    {
+      "file": "sticker-30-12.webp",
+      "sheet": 30,
+      "index": 12,
+      "rect": [
+        442,
+        216,
+        162,
+        54
+      ]
+    },
+    {
+      "file": "sticker-30-13.webp",
+      "sheet": 30,
+      "index": 13,
+      "rect": [
+        428,
+        265,
+        203,
+        66
+      ]
+    },
+    {
+      "file": "sticker-30-14.webp",
+      "sheet": 30,
+      "index": 14,
+      "rect": [
+        423,
+        335,
+        197,
+        61
+      ]
+    },
+    {
+      "file": "sticker-31-0.webp",
+      "sheet": 31,
+      "index": 0,
+      "rect": [
+        0,
+        0,
+        226,
+        80
+      ]
+    },
+    {
+      "file": "sticker-31-1.webp",
+      "sheet": 31,
+      "index": 1,
+      "rect": [
+        6,
+        83,
+        147,
+        65
+      ]
+    },
+    {
+      "file": "sticker-31-2.webp",
+      "sheet": 31,
+      "index": 2,
+      "rect": [
+        4,
+        151,
+        141,
+        60
+      ]
+    },
+    {
+      "file": "sticker-31-3.webp",
+      "sheet": 31,
+      "index": 3,
+      "rect": [
+        0,
+        209,
+        242,
+        55
+      ]
+    },
+    {
+      "file": "sticker-31-4.webp",
+      "sheet": 31,
+      "index": 4,
+      "rect": [
+        17,
+        270,
+        148,
+        77
+      ]
+    },
+    {
+      "file": "sticker-31-5.webp",
+      "sheet": 31,
+      "index": 5,
+      "rect": [
+        2,
+        358,
+        178,
+        39
+      ]
+    },
+    {
+      "file": "sticker-31-6.webp",
+      "sheet": 31,
+      "index": 6,
+      "rect": [
+        234,
+        3,
+        153,
+        67
+      ]
+    },
+    {
+      "file": "sticker-31-7.webp",
+      "sheet": 31,
+      "index": 7,
+      "rect": [
+        173,
+        82,
+        166,
+        128
+      ]
+    },
+    {
+      "file": "sticker-31-8.webp",
+      "sheet": 31,
+      "index": 8,
+      "rect": [
+        192,
+        267,
+        165,
+        132
+      ]
+    },
+    {
+      "file": "sticker-31-9.webp",
+      "sheet": 31,
+      "index": 9,
+      "rect": [
+        390,
+        0,
+        250,
+        104
+      ]
+    },
+    {
+      "file": "sticker-31-10.webp",
+      "sheet": 31,
+      "index": 10,
+      "rect": [
+        341,
+        118,
+        298,
+        48
+      ]
+    },
+    {
+      "file": "sticker-31-11.webp",
+      "sheet": 31,
+      "index": 11,
+      "rect": [
+        306,
+        212,
+        334,
+        52
+      ]
+    },
+    {
+      "file": "sticker-31-12.webp",
+      "sheet": 31,
+      "index": 12,
+      "rect": [
+        373,
+        272,
+        239,
+        100
+      ]
+    },
+    {
+      "file": "sticker-32-0.webp",
+      "sheet": 32,
+      "index": 0,
+      "rect": [
+        1,
+        17,
+        283,
+        52
+      ]
+    },
+    {
+      "file": "sticker-32-1.webp",
+      "sheet": 32,
+      "index": 1,
+      "rect": [
+        26,
+        86,
+        133,
+        36
+      ]
+    },
+    {
+      "file": "sticker-32-2.webp",
+      "sheet": 32,
+      "index": 2,
+      "rect": [
+        20,
+        131,
+        153,
+        45
+      ]
+    },
+    {
+      "file": "sticker-32-3.webp",
+      "sheet": 32,
+      "index": 3,
+      "rect": [
+        19,
+        184,
+        161,
+        94
+      ]
+    },
+    {
+      "file": "sticker-32-4.webp",
+      "sheet": 32,
+      "index": 4,
+      "rect": [
+        20,
+        289,
+        144,
+        50
+      ]
+    },
+    {
+      "file": "sticker-32-5.webp",
+      "sheet": 32,
+      "index": 5,
+      "rect": [
+        3,
+        347,
+        207,
+        48
+      ]
+    },
+    {
+      "file": "sticker-32-6.webp",
+      "sheet": 32,
+      "index": 6,
+      "rect": [
+        299,
+        6,
+        144,
+        64
+      ]
+    },
+    {
+      "file": "sticker-32-7.webp",
+      "sheet": 32,
+      "index": 7,
+      "rect": [
+        203,
+        90,
+        162,
+        130
+      ]
+    },
+    {
+      "file": "sticker-32-8.webp",
+      "sheet": 32,
+      "index": 8,
+      "rect": [
+        216,
+        239,
+        163,
+        128
+      ]
+    },
+    {
+      "file": "sticker-32-9.webp",
+      "sheet": 32,
+      "index": 9,
+      "rect": [
+        455,
+        1,
+        183,
+        127
+      ]
+    },
+    {
+      "file": "sticker-32-10.webp",
+      "sheet": 32,
+      "index": 10,
+      "rect": [
+        399,
+        138,
+        236,
+        54
+      ]
+    },
+    {
+      "file": "sticker-32-11.webp",
+      "sheet": 32,
+      "index": 11,
+      "rect": [
+        392,
+        207,
+        248,
+        54
+      ]
+    },
+    {
+      "file": "sticker-32-12.webp",
+      "sheet": 32,
+      "index": 12,
+      "rect": [
+        414,
+        276,
+        202,
+        105
+      ]
+    }
+  ],
+  "voices": {
+    "CALCUL0": "calcul0.flac",
+    "BLOCIN0": "blocin0.flac",
+    "LVAOUCR": "lvaoucr.flac",
+    "LVAOUPI": "lvaoupi.flac",
+    "LVAOUCE": "lvaouce.flac",
+    "LVAOURO": "lvaouro.flac",
+    "LVAOUCA": "lvaouca.flac",
+    "LVAOUCP": "lvaoucp.flac",
+    "LVAOULD": "lvaould.flac",
+    "LVAOUUD": "lvaouud.flac",
+    "LVAOUGO": "lvaougo.flac",
+    "LVAOUSU": "lvaousu.flac",
+    "LVAOUTE": "lvaoute.flac",
+    "LVAOUTF": "lvaoutf.flac",
+    "LVAOUSY": "lvaousy.flac",
+    "LVAOUCC": "lvaoucc.flac",
+    "LVAOUCV": "lvaoucv.flac",
+    "LVAOUAC": "lvaouac.flac",
+    "LVACIFDS": "lvacifds.flac",
+    "LVATMP1": "lvatmp1.flac",
+    "LVACIREC": "lvacirec.flac",
+    "LVACIVIG": "lvacivig.flac",
+    "ICOCHAR1": "icochar1.flac",
+    "LVAIMP": "lvaimp.flac",
+    "ICOQUITT": "icoquitt.flac",
+    "LVAVIG": "lvavig.flac"
+  }
+}

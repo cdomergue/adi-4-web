@@ -41,6 +41,18 @@ et définitions. L’[index de l’encyclopédie](public/game/encyclopedia/index
 relie les entrées à leurs médias. Le stockage du carnet utilise la clé `adi4-v1`
 et propose un repli en mémoire lorsque le navigateur refuse le stockage persistant.
 
+## Outils de la chambre
+
+[tools/view.js](public/features/tools/view.js) présente le bureau et ses trois
+outils. Chaque sous-dossier `calculator`, `notepad` et `paint` sépare les règles
+sans DOM dans `engine.js` de l’écran dans `view.js`.
+[shared.js](public/features/tools/shared.js) gère les médias, les dialogues et
+les exports. La palette stocke les images dans IndexedDB
+`adi4-tools-paint-v1` ; le bloc-notes utilise `adi4-tools-notepad-v1` dans
+localStorage. Le mémo de chambre lit uniquement les textes marqués pour cet
+usage et dépourvus de verrou de lecture. Les images et les voix sont dans
+[game/tools](public/game/tools/) et [room/closeups](public/game/room/closeups/).
+
 ## Médias Sciences
 
 Les [scènes](public/features/science/scenes.js) portent les destinations des

@@ -7,7 +7,7 @@ export const roomObjects = [
   { id: 'telescope', label: 'Le télescope — L’astronomie', rect: [528, 194, 48, 77], route: 'room/astro' },
   { id: 'rocket', label: 'La fusée — La conquête de l’espace', rect: [173, 44, 65, 41], route: 'room/espace' },
   { id: 'window', label: 'La fenêtre — Le cycle de l’eau', rect: [490, 15, 80, 95], route: 'room/cycle' },
-  { id: 'tools', label: 'Le bureau — Les outils', rect: [0, 268, 128, 33], unavailable: 'Les outils' },
+  { id: 'tools', label: 'Le bureau — Les outils', rect: [0, 268, 128, 33], route: 'tools' },
   { id: 'toys', label: 'La caisse de jeux', rect: [414, 302, 81, 64], route: 'games' },
   { id: 'chair', label: 'Le fauteuil — Les matières', rect: [148, 167, 145, 88], route: 'scene/station' },
   { id: 'neon', label: 'Le néon — Mes résultats', rect: [385, 135, 63, 75], route: 'room/results' },

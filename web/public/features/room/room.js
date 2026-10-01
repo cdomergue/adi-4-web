@@ -1,3 +1,4 @@
+import { showRoomMemo } from '../tools/notepad/memo.js';
 import { startRoomIdle } from './idle.js';
 import { startNativeRoom } from './native-view.js';
 import { roomObjects as objects } from './interactions.js';
@@ -10,7 +11,7 @@ const actions = [
   ],
   ['science', 'Les matières', 'BARAPPLI', 'Ouvre l’application Sciences et sa station spatiale.'],
   ['games', 'Les jeux', 'BARJEUX', 'Ouvre les jeux de la chambre d’Adi.'],
-  ['tools', 'Les outils', 'BAROUTIL', 'Les outils de la chambre restent à reconstruire.'],
+  ['tools', 'Les outils', 'BAROUTIL', 'Ouvre la calculatrice, le bloc-notes et la palette Adi.'],
   ['documents', 'Les documents', 'BARDOCS', 'Ouvre les documents sur les animaux, l’eau, l’astronomie et l’espace.'],
   ['results', 'Mes résultats', 'BARANIM', 'Consulte les résultats des applications et des classes virtuelles.'],
   ['help', 'Aide', 'BARAIDE', 'Active ou désactive les explications des boutons.'],
@@ -32,6 +33,7 @@ export async function renderRoom(main, info) {
   const root = main.firstElementChild,
     frame = root.querySelector('.room-frame'),
     hint = root.querySelector('#room-hint');
+  showRoomMemo(frame);
   let help = false;
   const actor = root.querySelector('.room-actor'),
     animation = root.querySelector('.room-animation');
@@ -175,6 +177,7 @@ export async function renderRoom(main, info) {
       }
       if (id === 'science') location.hash = 'scene/station';
       else if (id === 'games') location.hash = 'games';
+      else if (id === 'tools') location.hash = 'tools';
       else if (id === 'documents') location.hash = 'documents';
       else if (id === 'internet') location.hash = 'internet';
       else if (id === 'exit') location.hash = 'welcome';

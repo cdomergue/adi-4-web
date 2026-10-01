@@ -36,6 +36,8 @@ n’est nécessaire pour lancer les jeux inclus.
 | `#room/animal`, `atlas`, `planete`, `astro`, `espace`, `cycle` | Gros plans narrés, animations d’Adi et transitions vers les documents |
 | `#room/experiments` | Malle et accès aux six simulations d’environnement |
 | `#room/results`, `#room/rewards` | Néon des résultats et commode des bons points, sans progression d’exercice |
+| `#tools` | Bureau des outils, présentations et gestes d’Adi |
+| `#tool/calculator`, `#tool/notepad`, `#tool/paint` | Calculatrice, bloc-notes et palette en JavaScript natif |
 | `#documents`                                              | Menu original des dossiers multimédias                                   |
 | `#document/animal`, `cycle`, `astro`, `planete`, `espace` | Animaux, cycle de l’eau, ciel étoilé, planètes et conquête spatiale      |
 | `#document/atlas`                                         | Globe, cartes, calques et documents géographiques                        |
@@ -94,10 +96,27 @@ jouent les répliques d’Adi, ses mouvements de bouche et leurs transitions ava
 d’ouvrir les documents. La malle présente les six simulations d’environnement ;
 la radio et la caisse disposent aussi de leurs présentations parlées.
 La [référence de la chambre](public/features/room/README.md) décrit les sources
-et les limites : outils, robot, résultats d’exercices, choix de posture et timing.
+et les limites : robot, résultats d’exercices, choix de posture et timing.
 Le son des six simulations d’environnement est activé à l’ouverture, avec
 leur ambiance. Si le navigateur bloque la lecture sur une ouverture directe,
 une interaction dans le document relance le son sans changer la case « Son ».
+
+## Les outils
+
+Le bureau ouvre la calculatrice scientifique, le bloc-notes et la palette Adi.
+La calculatrice accepte la souris et le clavier, les parenthèses et les fonctions
+trigonométriques en radians. Le bloc-notes conserve jusqu’à 20 chapitres par texte,
+quatre encres et quatre fonds, et propose l’import/export RTF, l’impression et un
+mémo dans la chambre. La palette utilise une feuille de 475 × 340 pixels,
+48 couleurs, 22 fonds et 520 vignettes originales ; elle propose les formes,
+la symétrie, la sélection, le collage, le texte et l’annulation/rétablissement.
+
+Les textes utilisent le stockage local, les 36 emplacements de dessin IndexedDB.
+Ces sauvegardes appartiennent au navigateur courant. L’export RTF ou PNG permet
+de conserver une copie sur disque. Le carnet de cours reste indépendant.
+La [référence des outils](public/features/tools/README.md) décrit les commandes,
+les sources et les limites, notamment la mise en forme RTF, les galeries et
+Print Artist, application externe absente de ce portage.
 
 ## Les documents
 

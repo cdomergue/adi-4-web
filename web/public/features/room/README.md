@@ -36,9 +36,12 @@ Les répliques `AIMAL[A-C]D` suivent le tirage à trois possibilités de `LIBADI
 Les bons points utilisent `BONSINA` et `CBONPOIN`. Le panneau des résultats
 vient de la ressource interne 0 de `LIBADI.TOT`.
 
+Le bureau ouvre les [trois outils intégrés](../tools/README.md), avec les
+présentations `AIOUT`, `STCAL`, `STBLO` et `STDES` et la posture D.
+
 ## Limites de fidélité
 
-- Les outils et le robot de la chambre restent à recréer. Le fauteuil ouvre
+- Le robot de la chambre reste à recréer. Le fauteuil ouvre
   directement Sciences, sans le sélecteur original de matières.
 - Les résultats affichent les catégories originales vides. Les exercices
   notés et les classes virtuelles ne sont pas disponibles ; la commode ne

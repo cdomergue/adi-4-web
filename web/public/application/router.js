@@ -1,3 +1,7 @@
+import { renderTools } from '../features/tools/view.js';
+import { renderCalculator } from '../features/tools/calculator/view.js';
+import { renderNotepad } from '../features/tools/notepad/view.js';
+import { renderPaint } from '../features/tools/paint/view.js';
 import { scenes, renderScene } from '../features/science/scenes.js';
 import { renderSimulations, renderSimulation } from '../features/science/simulations.js';
 import { renderEncyclopedia } from '../features/courses/encyclopedia.js';
@@ -88,6 +92,14 @@ export function createRouter({ main, info, toast, catalog, library }) {
     } else if (hash === 'documents' || hash.startsWith('document/')) {
       renderDocuments(main, hash === 'documents' ? '' : hash.slice(9));
       active = 'room';
+    } else if (hash === 'tools' || hash === 'room/tools') {
+      renderTools(main); active = 'room';
+    } else if (hash === 'tool/calculator') {
+      renderCalculator(main); active = 'room';
+    } else if (hash === 'tool/notepad' || hash.startsWith('tool/notepad/')) {
+      renderNotepad(main, hash.startsWith('tool/notepad/') ? hash.slice(13) : null); active = 'room';
+    } else if (hash === 'tool/paint') {
+      renderPaint(main); active = 'room';
     } else if (hash.startsWith('room/')) {
       renderRoomCloseup(main, hash.slice(5));
       active = 'room';

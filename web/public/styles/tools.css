@@ -1,0 +1,72 @@
+.tools-scene { max-width: 960px; margin: auto; }
+.tools-scene .scene-frame { container-type: inline-size; }
+.tool-layer, .tool-hotspot, .adi-calculator, .calculator-display, .calculator-drag,
+.paint-canvas, .paint-overlay, .paint-color-group { position: absolute; }
+.scene-frame > img.tool-layer { position: absolute; height: auto; pointer-events: none; }
+.tool-hotspot { border: 0; border-radius: 5px; background: transparent; padding: 0; cursor: pointer; z-index: 3; }
+.tool-hotspot:hover, .tool-hotspot:focus-visible { outline: 2px solid #fff38a; background: #ffffff22; }
+.tool-hotspot[aria-pressed="true"] { outline: 2px solid #fff056; }
+.tool-controls { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; margin: 14px 0; }
+.tool-controls label { display: inline-flex; align-items: center; gap: 5px; }
+.tool-status { min-height: 1.5em; }
+.tools-desk > .room-closeup-layer { pointer-events: none; }
+.adi-calculator { z-index: 5; }
+.adi-calculator > img { width: 100%; height: 100%; }
+.calculator-display { left: 16.16%; top: 19.25%; width: 69.04%; height: 11.32%; font: bold 3cqw/1 monospace; text-align: right; color: #28372b; white-space: nowrap; padding: .3cqw .5cqw; box-sizing: border-box; }
+.calculator-drag { left: 10%; top: 2%; width: 80%; height: 13%; cursor: grab; touch-action: none; }
+.paint-canvas, .paint-overlay { image-rendering: pixelated; touch-action: none; }
+.paint-canvas { cursor: crosshair; }
+.paint-overlay { pointer-events: none; }
+.paint-color-group { border: 0; background: transparent; padding: 0; overflow: visible; cursor: pointer; z-index: 3; }
+.paint-color-group[aria-pressed="true"] { filter: drop-shadow(0 0 2px #ffea00); }
+.tool-dialog { width: min(740px, 90vw); max-height: 85vh; overflow: auto; color: #222; background: #fff9db; border: 4px solid #6d3b1f; border-radius: 12px; padding: 22px; }
+.tool-dialog::backdrop { background: #0009; }
+.tool-dialog h2 { margin: 0 32px 20px 0; font-size: 1.3rem; }
+.tool-dialog-close { position: absolute; right: 10px; top: 7px; font-size: 28px; border: none; background: transparent; cursor: pointer; }
+.tool-dialog label { display: flex; gap: 10px; align-items: center; margin-bottom: 12px; flex-wrap: wrap; }
+.tool-dialog input, .tool-dialog select { max-width: 100%; padding: 7px; color: #222; background: white; }
+.tool-gallery { display: grid; grid-template-columns: repeat(auto-fill,minmax(110px,1fr)); gap: 10px; margin-top: 15px; }
+.tool-gallery button { min-height: 100px; background: #e4d5b3; border: 2px solid #9d7435; border-radius: 4px; cursor: pointer; color: #222; }
+.tool-gallery img { max-width: 100%; max-height: 140px; object-fit: contain; margin: auto; }
+.tool-gallery button:hover { border-color: #165b99; }
+.paint-saves button { display: flex; flex-direction: column; justify-content: center; align-items: center; }
+.paint-saves img { aspect-ratio: 475/340; }
+.paint-saves button:disabled { opacity: .5; cursor: default; }
+.notepad-title, .notepad-text, .notepad-page, .notepad-library, .notepad-caption, .notepad-pens,
+.notepad-papers, .notepad-action, .notepad-arrows { position: absolute; }
+.notepad-title { left: 6.5%; top: 6.5%; width: 48%; padding: 0; background: transparent; border: 0; color: #181818; text-align: center; font: bold 2.8cqw/1.4 Georgia,serif; }
+.notepad-text { left: 6.5%; top: 16%; width: 48%; height: 53.5%; padding: .5cqw; resize: none; border: 0; background: transparent; font: 2.8cqw/1.4 Georgia,serif; }
+.notepad-page { left: 27%; top: 70%; color: #403e3b; font-size: 1.8cqw; }
+.notepad-library { left: 66%; top: 6%; width: 29%; height: 28%; color: #fff; font-size: 1.9cqw; }
+.notepad-library select { width: 100%; background: #202b62; color: white; border: 0; font: inherit; padding: .3cqw; }
+.notepad-list { overflow: auto; height: 80%; padding: .6cqw; }
+.notepad-list p { margin: .5em 0; line-height: 1.4; color: white; }
+.notepad-list > div { display: flex; }
+.notepad-list button { color: #fff; font: inherit; background: transparent; border: 0; cursor: pointer; text-align: left; padding: .4cqw; }
+.notepad-list [data-open] { flex: 1; overflow: hidden; text-overflow: ellipsis; }
+.notepad-caption { left: 67%; top: 38%; width: 29%; text-align: center; font-size: 2.5cqw; color: #623715; }
+.notepad-pens { left: 14%; top: 77%; display: flex; gap: 1.3cqw; }
+.notepad-pens button { width: 3.2cqw; height: 4cqw; border: 2px solid #ddd; border-radius: 50% 50% 4px 4px; background: var(--ink); cursor: pointer; }
+.notepad-papers { left: 36%; top: 77%; display: flex; gap: .4cqw; }
+.notepad-papers button { width: 3.5cqw; height: 4cqw; background: #a6f5f5; border: 1px solid #222; cursor: pointer; }
+.notepad-papers button:nth-child(2) { background: #b5d8f7; }
+.notepad-papers button:nth-child(3) { background: #f7eac7; }
+.notepad-papers button:nth-child(4) { background: #f9f8cf; }
+.notepad-frame [aria-pressed="true"] { outline: 2px solid #ffe400; }
+.notepad-action { border: 0; background: transparent; padding: 0; color: #412b1c; font: 2cqw Georgia,serif; cursor: pointer; }
+.notepad-action img { display: block; height: 72%; width: auto; max-width: 100%; margin: auto; }
+.notepad-arrows { left: 17%; top: 85.5%; width: 36%; display: flex; justify-content: space-between; color: #fff9bf; font-size: 2.6cqw; pointer-events: none; }
+.notepad-arrows span { font-size: 2cqw; }
+.tool-print-sheet { display: none; }
+@media print {
+  body.printing-tool * { visibility: hidden !important; }
+  body.printing-tool .tool-print-sheet, body.printing-tool .tool-print-sheet * { visibility: visible !important; }
+  .tool-print-sheet { display: block; position: absolute; inset: 0; background: white; color: black; }
+  .tool-print-sheet img { width: 100%; }
+}
+
+.paint-color-group img { pointer-events: none; }
+
+.room-notepad-memo { position:absolute; z-index:4; left:6%;top:44%;width:17%;max-height:16%;overflow:hidden;transform:rotate(-5deg);background:#fff4a3;color:#272213;padding:1%;font:14px/1.2 Georgia,serif;white-space:pre-wrap;box-shadow:1px 3px 5px #0008; }
+
+.tools-scene .sr-only { position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap;border:0; }

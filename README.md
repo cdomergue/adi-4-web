@@ -2,7 +2,7 @@
 
 Recréation d’ADI 4 Sciences, avec deux projets publiés dans ce dépôt :
 
-- [L’application web](web/README.md) : chambre d’Adi, documents, radio, jeux, cours et station
+- [L’application web](web/README.md) : chambre d’Adi, outils, documents, radio, jeux, cours et station
   Sciences.
 - [Le serveur ADI 4.21](serveur/README.md) : serveur TCP Python compatible avec
   une partie des services Internet du client Windows original.
@@ -32,6 +32,12 @@ l’Atlas et six simulations d’environnement, avec les médias et les interact
 du jeu original. L’Atlas, la pollution de l’air et de l’eau, l’équilibre de la nature,
 l’entreprise, la désertification et le développement d’un pays fonctionnent en
 JavaScript natif. Aucun document ne charge de moteur ni d’archive binaire du jeu.
+
+La calculatrice scientifique, le bloc-notes et la palette Adi fonctionnent en
+JavaScript natif, avec les décors et les voix d’origine. Les textes et les dessins
+se sauvegardent dans le navigateur et peuvent être exportés en RTF ou PNG.
+Les [fonctions et limites des outils](web/public/features/tools/README.md) précisent
+les différences avec la version Windows.
 
 Le code et les ressources des cours, de l’encyclopédie et des 14 simulations
 Sciences sont également inclus. Un clone contient les médias nécessaires au

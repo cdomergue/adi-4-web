@@ -12,3 +12,5 @@
 @import url('./styles/documents.css');
 
 @import './styles/environment-document.css';
+
+@import './styles/tools.css';
