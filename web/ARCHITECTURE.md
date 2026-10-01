@@ -194,9 +194,9 @@ l’ordre des opérations et
 lecture après Power. Chaque étape conserve son image finale ; le lecteur
 restaure le décor derrière la souris et annule la séquence à l’arrêt ou à la sortie.
 
-Les [données et médias des simulations](public/game/station/),
-[décors](public/game/scenes/) et [ressources de la serre](public/game/greenhouse/)
-sont livrés avec l’application. La fidélité de certaines séquences animées et
+Les [données et médias des simulations](public/game/station/) et les
+[décors](public/game/scenes/) sont livrés avec l’application.
+La fidélité de certaines séquences animées et
 interactions au jeu original reste une limite du portage.
 
 ## Jeux

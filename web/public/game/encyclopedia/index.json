@@ -1092,7 +1092,7 @@
     "caption": "",
     "disc": "Adi410Sci65",
     "type": 6,
-    "route": "#scene/greenhouse"
+    "route": "#simulation/2"
   },
   "Adi410Sci65/PCYCLE": {
     "id": "PCYCLE",
@@ -6113,7 +6113,7 @@
     "caption": "",
     "disc": "Adi410Sci43",
     "type": 6,
-    "route": "#scene/greenhouse"
+    "route": "#simulation/2"
   },
   "Adi410Sci43/PCYCLE": {
     "id": "PCYCLE",

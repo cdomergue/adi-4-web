@@ -67,7 +67,7 @@ export const scenes = {
     back: 'biology',
     spots: [
       { label: 'Fabrication des laitages', to: 'simulation/1', box: [384, 136, 95, 131] },
-      { label: 'La serre', to: 'greenhouse', box: [125, 146, 132, 120] },
+      { label: 'La serre', to: 'simulation/2', box: [125, 146, 132, 120] },
       { label: 'Les insectes', to: 'science-document/1022', box: [272, 146, 80, 123] },
       { label: 'Observation d’une fourmilière', to: 'simulation/7', box: [484, 196, 120, 75] },
       { label: 'Élevage de truites', to: 'simulation/8', box: [336, 286, 294, 176] },

@@ -46,7 +46,7 @@ export async function renderSimulations(main) {
             .filter((sim) => ids.includes(sim.id))
             .map(
               (sim) =>
-                `<a class="simulation-card" href="${sim.id === '2' ? '#scene/greenhouse' : `#simulation/${sim.id}`}">${assets[sim.background] ? `<img src="${assets[sim.background].url}" alt="" loading="lazy" width="640" height="480">` : ''}<h3>${esc(sim.title)}</h3></a>`,
+                `<a class="simulation-card" href="#simulation/${sim.id}">${assets[sim.background] ? `<img src="${assets[sim.background].url}" alt="" loading="lazy" width="640" height="480">` : ''}<h3>${esc(sim.title)}</h3></a>`,
             )
             .join('')}</div></section>`,
       )
